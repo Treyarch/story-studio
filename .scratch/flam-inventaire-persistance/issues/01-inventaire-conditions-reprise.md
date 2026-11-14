@@ -1,4 +1,4 @@
-Status: ready-for-human
+Status: resolved
 Type: task
 
 # Valider l’inventaire, les choix conditionnels et la reprise durable sur FLAM
@@ -29,6 +29,10 @@ remplace la confirmation de persistance sur appareil. Documenter un blocage de
 sauvegarde matérielle sans le masquer par une simple conservation en mémoire.
 
 ## Comments
+
+- Validation matérielle confirmée par l’utilisateur après le parcours demandé :
+  « ok ca marche tres bien ». Le ticket est résolu après confirmation de la
+  conservation de la clé, de la porte et du nouveau départ sur sa FLAM.
 
 - Pack final installé par relecture sur la FLAM 2.4.1 : nouvelle identité
   « La clé des lucioles ». Les fichiers contrôlés des autres histoires, du
@@ -61,3 +65,11 @@ sauvegarde matérielle sans le masquer par une simple conservation en mémoire.
 - Synthèse de la conversation et du cadrage validé, sans nouvel entretien produit.
 - Points de test confirmés lors de la rédaction.
 - Publication dans le tracker local, sans création de ticket GitHub.
+
+## Answer
+
+L’aventure native « La clé des lucioles » fonctionne sur la FLAM 2.4.1 de
+l’utilisateur : inventaire, récompense unique, passage conditionnel, reprise
+après extinction et remise à zéro explicite. La validation matérielle complète
+les contrôles locaux ; elle ne généralise pas le résultat à tous les firmwares
+et ne valide ni les dés ni les classes des jalons suivants.

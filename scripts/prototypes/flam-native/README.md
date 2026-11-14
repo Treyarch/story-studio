@@ -10,9 +10,11 @@ Le premier prototype **Le passage des lucioles** reste installé sous son identi
 d’origine. L’utilisateur a confirmé sa lecture Audio B et son retour à l’écran
 de départ sur le firmware 2.4.1.
 
-**La sauvegarde durable du second prototype attend une validation sur la FLAM.**
-Le harnais prouve les règles de partie et la restauration via un stockage simulé ;
-il ne prouve pas la conservation des données par le firmware après extinction.
+**L’utilisateur confirme le fonctionnement du second prototype sur sa FLAM 2.4.1**
+après le parcours demandé de reprise après extinction et de nouveau départ.
+Cette validation matérielle complète le harnais, qui vérifie les règles et la
+restauration via un stockage simulé. Elle ne garantit pas les autres firmwares
+ni la résistance à une coupure arbitraire pendant une écriture.
 
 ## Construire et vérifier
 
@@ -113,7 +115,7 @@ Le retrait vérifie les fichiers appartenant à ce prototype ; les autres histoi
 et leurs sauvegardes ne sont pas supprimées. Démonter proprement avant déconnexion.
 Après installation, éteindre complètement puis rallumer pour charger le nouveau code.
 
-## Parcours matériel à confirmer
+## Parcours matériel validé
 
 1. Désactiver le Wi-Fi, ouvrir **La clé des lucioles**, commencer et écouter.
 2. Visiter la porte sans clé : ouverture indisponible, retour possible.
@@ -126,8 +128,8 @@ Après installation, éteindre complètement puis rallumer pour charger le nouve
 9. Recommencer explicitement : inventaire vide, coffre plein et porte fermée.
 10. Vérifier l’accès au premier prototype et aux histoires achetées.
 
-Noter toute erreur avec son libellé et l’étape. Le ticket reste ouvert tant que
-la conservation réelle après extinction n’est pas confirmée. Ce jalon ne valide
+Noter toute erreur avec son libellé et l’étape. Le ticket a été résolu après
+confirmation de ce parcours sur l’appareil de l’utilisateur. Ce jalon ne valide
 ni dés ni classes et n’intègre pas encore l’éditeur visuel.
 
 ## Sources d’interopérabilité

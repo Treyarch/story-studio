@@ -19,13 +19,13 @@ not create sidecars, regenerate playlists, clear caches or read device keys.
 A separate [experimental native-Lua prototype](../scripts/prototypes/flam-native/README.md)
 can be prepared and installed explicitly outside the app's production transfer path.
 Its second version has user-confirmed playback with audio profile B and return
-to the start screen on firmware 2.4.1. Inventory, dice and durable saves remain
-unvalidated. This does not enable FLAM writes in the app.
+to the start screen on firmware 2.4.1. This does not enable FLAM writes in the app.
 
 The next experimental story, **La clé des lucioles**, adds a one-time chest
 reward, an inventory, a conditional door and a host-storage resume path under a
-separate identity. Runtime and transfer checks pass locally; durable saves on
-the physical device remain subject to the documented acceptance walkthrough.
+separate identity. The user has confirmed the inventory, conditional passage,
+resume after power-off and explicit restart on their firmware 2.4.1 device.
+Dice and character classes remain future milestones.
 
 ## File layout
 

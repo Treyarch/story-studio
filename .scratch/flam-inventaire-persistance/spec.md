@@ -1,4 +1,4 @@
-Status: ready-for-human
+Status: resolved
 
 # Valider l’inventaire, les choix conditionnels et la reprise durable sur FLAM
 
@@ -106,9 +106,12 @@ Une seule partie est sauvegardée automatiquement pour cette aventure. Une réou
 
 ## Further Notes
 
+- Validation matérielle confirmée par l’utilisateur après le parcours de reprise
+  et de nouveau départ demandé. Le ticket est résolu sur la FLAM 2.4.1 testée.
+
 - Implémentation du jalon préparée en TDD ; les contrôles de parcours Lua,
-  de transfert Python, de syntaxe et d’intégrité audio passent. La preuve de
-  reprise après extinction sur FLAM reste obligatoire avant clôture du ticket.
+  de transfert Python, de syntaxe et d’intégrité audio passent. La reprise après
+  extinction sur la FLAM a ensuite été confirmée par l’utilisateur.
 
 - Cette spécification synthétise le cadrage validé à Q18 et le prochain jalon annoncé : un objet, un passage conditionnel, puis la conservation après extinction. Sa publication ne lance pas son implémentation.
 - Références : [glossaire](../../GLOSSARY.md), [cadrage FLAM](../../docs/flam-custom-stories-design.md) et [guide du prototype](../../scripts/prototypes/flam-native/README.md).

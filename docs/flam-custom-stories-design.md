@@ -43,7 +43,7 @@ Q15 à Q17 sont confirmées :
 - Les classes ouvrent des possibilités narratives particulières, sans statistiques, combat ni score. Objets, quantités et événements mémorisés restent présents.
 - Un chemin conditionnel inaccessible ne doit pas créer d’impasse involontaire. L’enfant doit pouvoir explorer ailleurs ou trouver une autre solution. L’éditeur devra signaler une scène sans choix accessible, sauf si elle est explicitement définie comme une fin.
 
-La sauvegarde et la détection des impasses sont des besoins confirmés ; ni la faisabilité matérielle de la sauvegarde ni la portée de l’analyse des conditions ne sont encore validées. Une garantie exhaustive sur tous les parcours n’est pas démontrée.
+La sauvegarde du prototype est confirmée sur la FLAM de l’utilisateur. La portée de l’analyse générale des conditions reste à définir ; une garantie exhaustive sur tous les parcours n’est pas démontrée.
 
 ## Arbre de décisions
 
@@ -102,16 +102,16 @@ effet et la confirmation d’un nouveau départ. Les modules de contenu, de rend
 et de stockage restent séparés ; aucun format de production n’est fixé.
 
 La conservation via les API natives de progression est implémentée avec
-relecture, mais **la reprise après extinction n’est pas encore prouvée sur
-FLAM**. Le [guide du prototype](../scripts/prototypes/flam-native/README.md)
-décrit le parcours de validation. Le ticket doit rester ouvert en attente du
-résultat matériel, même si les contrôles locaux passent.
+relecture. **L’utilisateur confirme la reprise après extinction et le nouveau
+départ sur sa FLAM 2.4.1**, après le parcours décrit dans le
+[guide du prototype](../scripts/prototypes/flam-native/README.md). Le ticket est
+résolu sur cette base matérielle, en complément des contrôles locaux.
 
 Le pack final est installé sur la FLAM 2.4.1 de l’utilisateur, séparément de la
 première aventure. La revue Standards/Spec a conduit à corriger la gestion des
 écritures incertaines, le contrôle des narrations interrompues et les callbacks
 audio périmés. Ces corrections ont leurs reproductions au même point d’entrée
-Lua. Le test après extinction reste à effectuer sur l’appareil.
+Lua. Le retour final de l’utilisateur est : « ok ca marche tres bien ».
 
 ## Faits et limites connus
 
@@ -133,7 +133,7 @@ Le format Lua natif (`main.lsf`, modules, ressources) est distinct du format à 
 
 Le premier essai proposé reste une création originale avec UUID neuf, un court audio, deux choix et une fin. Il devra vérifier les deux branches, le retour à la bibliothèque, deux relances, puis une lecture hors ligne après extinction. Sauvegarde et hasard feront l’objet d’essais séparés après cette validation.
 
-Les exemples publics montrent un inventaire de session et un appel à `math.random`, sans démontrer la conservation de l’inventaire ni la stabilité des résultats après extinction. Les auteurs signalent aussi des difficultés de relance après certaines écritures d’état : [limites du runtime](https://github.com/scarlaty/flam-player/blob/71385ff7812987e54fe843cd62c952d1246afd89/skills/flam-homebrew/references/device-pitfalls.md). Les souhaits de Q6 à Q8 sont confirmés, mais leur faisabilité matérielle reste à valider.
+Les exemples publics montrent un inventaire de session et un appel à `math.random`. Notre prototype a depuis confirmé la conservation de l’inventaire après extinction sur la FLAM testée. La stabilité des futurs jets de dé après reprise reste à valider séparément. Les difficultés publiques de relance restent une référence utile : [limites du runtime](https://github.com/scarlaty/flam-player/blob/71385ff7812987e54fe843cd62c952d1246afd89/skills/flam-homebrew/references/device-pitfalls.md).
 
 Avant toute réutilisation du code des exemples, il faudra examiner sa licence, figer les révisions et limiter les dépendances nécessaires. Aucun choix de runtime ni de recette de transfert n’est encore adopté.
 
