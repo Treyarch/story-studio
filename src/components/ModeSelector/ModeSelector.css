@@ -92,11 +92,10 @@
   container-type: inline-size;
 }
 
-/* Trois éditeurs et six actions : les deux grilles partagent les mêmes trois
-   colonnes, sans case vide. Elles se replient ensemble quand la zone rétrécit. */
+/* Les quatre éditeurs se replient avec les actions quand la zone rétrécit. */
 .mode-editor-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 14px;
 }
 

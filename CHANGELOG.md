@@ -22,9 +22,14 @@ public version; this file stays as the concise project history.
 
 ### Added
 
+- Éditeur d’aventure FLAM : création vide ou exemple modifiable, scènes et
+  médias, classes, objets, événements, conditions, effets, récompenses et jets
+  de dé. Diagnostics cliquables, sauvegarde des brouillons et annulation
+  intégrées ; la génération jouable reste une étape suivante.
+
 - Document d’aventure FLAM : règles structurées, brouillons sauvegardables,
   diagnostics, historique et reprise de session dans un mode de projet
-  distinct. L’édition visuelle et la génération FLAM restent à venir.
+  distinct.
 
 - Copie des histoires FLAM vers la bibliothèque locale, par sélection ou en
   totalité : dossiers d’origine conservés, métadonnées retrouvées au scan,

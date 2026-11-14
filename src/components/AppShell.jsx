@@ -107,6 +107,7 @@ export function AppShell({
               selectedId={workspace.selectedId}
               onSetProjectType={workspace.onSetProjectType}
               onStartAdvancedProject={workspace.onStartAdvancedProject}
+              onStartFlamProject={workspace.onStartFlamProject}
               onEditPack={workspace.onEditPack}
               onPodcastFunnel={workspace.onPodcastFunnel}
               onYoutubeFunnel={workspace.onYoutubeFunnel}
@@ -130,6 +131,7 @@ export function AppShell({
               diagramSearchFocusTrigger={workspace.diagramSearchFocusTrigger}
               workspaceViewState={workspace.workspaceViewState}
               advanced={workspace.advanced}
+              flam={workspace.flam}
             />,
           )}
           {projectOpen && bottomPanel.open && renderDeferred(

@@ -1,4 +1,4 @@
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 01
 
@@ -31,3 +31,13 @@ rouvre sans retouche de fichier. Renommer un objet préserve ses règles.
 Annuler puis rétablir une règle restaure ses effets et sa destination.
 Un diagnostic permet de retrouver une destination absente. Fermer un projet
 modifié déclenche la protection habituelle. Vérifier clavier et traductions.
+
+## Résultat
+
+Entrée « Aventure FLAM », création vide ou exemple modifiable et formulaires
+de scènes, médias, définitions, choix, conditions, effets, récompenses et jets
+intégrés au cycle de projet ordinaire. Les diagnostics retrouvent les champs,
+les gestes passent par l’historique commun et les résultats médias périmés
+sont rejetés. La génération reste le lot suivant.
+
+Voir la [validation du lot 02](../validation-02.md) pour les contrôles et limites.

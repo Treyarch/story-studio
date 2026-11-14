@@ -66,6 +66,7 @@ test('Accueil et funnels : FR comparé aux sources indépendantes de la base, re
       // Les attendus proviennent du code de BASE, jamais du nouveau catalogue.
       let expected = text(applyLot413(originals[i]()));
       // The final destination is a deliberate addition to the original funnel.
+      if (i === 0) expected = expected.replace('Un menu, une histoire', 'Un menu, une histoireAventure FLAMCréer une aventure personnelle avec des scènes, des choix et des règles.');
       if (i === 4) expected += 'Destination de l’assemblageOuvrir dans l’éditeur par menusGénérer directementLe choix ne lance aucune génération. Les noms, les images et l’ordre restent modifiables.';
       if (i === 5) expected = expected.replace('Génération du pack…', 'AnnulerGénération du pack…');
       // FICHED: the editor description is free text, with explicit help.

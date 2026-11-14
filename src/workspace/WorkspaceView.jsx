@@ -47,6 +47,8 @@ import { WorkspaceEmptyState } from './WorkspaceEmptyState';
 // dépendances n'entrent dans le bundle que lorsqu'un projet avancé est ouvert.
 const AdvancedWorkspace = lazy(() => import('../components/AdvancedWorkspace/AdvancedWorkspace')
   .then((module) => ({ default: module.AdvancedWorkspace })));
+const FlamWorkspace = lazy(() => import('../components/FlamWorkspace/FlamWorkspace.jsx')
+  .then(module => ({ default: module.FlamWorkspace })));
 
 export function WorkspaceView({
   project,
@@ -55,6 +57,7 @@ export function WorkspaceView({
   selectedId,
   onSetProjectType,
   onStartAdvancedProject,
+  onStartFlamProject,
   onEditPack,
   onPodcastFunnel,
   onYoutubeFunnel,
@@ -78,6 +81,7 @@ export function WorkspaceView({
   diagramSearchFocusTrigger,
   workspaceViewState,
   advanced = null,
+  flam = null,
 }) {
   const { t } = useCommonTranslation();
   const { onSelect } = useProjectActions();
@@ -391,10 +395,9 @@ export function WorkspaceView({
   if (workspaceMode === WORKSPACE_MODE_FLAM) {
     return (
       <div className="screen visible">
-        <div className="workspace-empty-state">
-          <p>{project.authoring.document.title || t('common:workspace.flam.title')}</p>
-          <span>{t('common:workspace.flam.documentOnly')}</span>
-        </div>
+        <Suspense fallback={<p>{t('common:workspace.graph.loading')}</p>}>
+          <FlamWorkspace key={projectEpoch} project={project} projectEpoch={projectEpoch} {...flam} />
+        </Suspense>
       </div>
     );
   }
@@ -420,6 +423,7 @@ export function WorkspaceView({
           <ModeSelector
             onSelect={onSetProjectType}
             onSelectGraph={onStartAdvancedProject}
+            onSelectFlam={onStartFlamProject}
             onEditPack={onEditPack}
             onPodcastFunnel={onPodcastFunnel}
             onYoutubeFunnel={onYoutubeFunnel}

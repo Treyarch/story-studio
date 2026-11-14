@@ -32,6 +32,7 @@ export function applyGeneratedAudioToTarget({
       // cree par le seul fait qu'une voix a ete produite. Une cible absente
       // aurait le meme effet, et n'aurait pas la meme intention.
       return;
+    case 'flamScene':
     case 'advancedStage':
       // La cible avancée conserve le geste du panneau qui l'a créée. La garde
       // d'époque empêche une génération terminée après un changement de

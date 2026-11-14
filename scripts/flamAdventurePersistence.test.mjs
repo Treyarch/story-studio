@@ -8,7 +8,7 @@ const io = await import('../src/store/projectIO.js');
 const { isProjectWorthAutosaving } = await import('../src/store/autosaveDecision.js');
 const { collectMediaLibrary, isMediaHeldByProject } = await import('../src/store/mediaLibrary.js');
 const { KEYS } = await import('../src/store/persistentSettings.js');
-const example = JSON.parse(await fs.readFile(new URL('./fixtures/flam-adventure.json', import.meta.url), 'utf8'));
+const example = JSON.parse(await fs.readFile(new URL('../src/store/flamAdventure/example.json', import.meta.url), 'utf8'));
 
 test('sauvegarde, déplacement, Enregistrer sous et reprise de session conservent les règles et médias FLAM', async () => {
   const harness = await createDiskHarness();

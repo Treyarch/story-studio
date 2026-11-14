@@ -5,6 +5,13 @@ fournit le document et son raccord au cycle de projet ; il ne génère pas encor
 d’aventure jouable. L’[ADR](../../../docs/adr/0001-document-aventure-flam.md)
 explique le mode de projet distinct.
 
+Le [deuxième lot](../../../.scratch/flam-editeur-visuel/issues/02-edition-scenes-regles.md)
+ajoute l’entrée « Aventure FLAM » et les formulaires d’auteur. Le choix initial
+propose un projet vide ou « Les compagnons du village », avec une nouvelle
+identité d’aventure à chaque création. L’exemple reste en français comme tout
+contenu d’auteur ; les commandes sont traduites en français, anglais et italien.
+La génération et l’installation restent les lots suivants.
+
 ## Interface
 
 - `createAdventureDocument({ title })` crée un brouillon vide, une identité
@@ -28,12 +35,22 @@ explique le mode de projet distinct.
 - `withFlamDocument(project, document)` produit un projet modifié via les mêmes
   règles. L’appelant l’installe par `store.setProject` pour bénéficier de
   l’historique ordinaire, sans créer de seconde pile d’annulation.
+- `editAdventure(document, command)` assemble les gestes de formulaires. Ajouter
+  ou retirer un choix et son rattachement à une scène constitue une mutation
+  atomique ; les suppressions encore référencées sont refusées par le document.
+- `commitAdventureEdit(store, epoch, command)` relit le projet vivant, refuse
+  les résultats d’une ancienne époque ou d’une définition supprimée, puis
+  publie un unique pas d’historique. Les formulaires ne gardent aucun document
+  parallèle. Les résultats médias et voix passent par cette même porte.
+- `adventureDiagnosticTarget(document, path)` retrouve la définition à inspecter
+  depuis un diagnostic du module. L’interface sélectionne cette définition,
+  défile jusqu’au champ et lui donne le focus.
 
 ## Représentation
 
 Le document porte `version`, `id`, `saveVersion`, `title`, `startSceneId` et les
 collections `scenes`, `choices`, `classes`, `items`, `events`, `rewards`, `rolls`.
-La [fixture originale](../../../scripts/fixtures/flam-adventure.json) illustre
+La [fixture originale](./example.json) illustre
 les deux classes, la clé consommable, la porte mémorisée, une récompense unique
 et les vingt issues possibles du dé réparties entre deux fins.
 
@@ -57,6 +74,7 @@ Le module n’exécute pas les règles et ne valide aucune sauvegarde d’appare
 
 ```sh
 node --test scripts/flamAdventure.test.mjs scripts/flamAdventurePersistence.test.mjs
+node --test scripts/flamEditing.test.mjs scripts/flamEditorInteraction.test.mjs
 ```
 
 Ces tests passent par le module, les codecs réels, le store sous double

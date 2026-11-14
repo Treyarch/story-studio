@@ -1,9 +1,9 @@
 # Créer visuellement une aventure personnelle pour FLAM
 
-État : premier lot réalisé après la validation matérielle des quatre
+État : deux premiers lots réalisés après la validation matérielle des quatre
 prototypes. Le document et son enveloppe sont retenus dans
-l’[ADR 0001](../../docs/adr/0001-document-aventure-flam.md) ; l’interface,
-le runtime généré et le transfert restent à implémenter.
+l’[ADR 0001](../../docs/adr/0001-document-aventure-flam.md). L’édition visuelle
+est disponible ; le runtime généré et le transfert restent à implémenter.
 
 ## Résultat attendu
 
@@ -122,9 +122,10 @@ sans réinitialisation silencieuse. La migration des parties reste hors périmè
 4. [Génération et installation contrôlées](issues/04-generation-installation.md).
 5. [Validation du parcours complet sur FLAM](issues/05-validation-appareil.md).
 
-Le premier lot livré est le ticket 01 : un document testable et sauvegardable
-dans le cycle de projet existant. Il ne permet pas encore de créer visuellement
-ni de jouer sur appareil. Le jalon complet ne sera terminé qu’au ticket 05.
+Les tickets 01 et 02 sont livrés : le document est sauvegardable et éditable
+visuellement dans le cycle de projet existant, avec création vide ou exemple.
+Ils ne permettent pas encore de jouer sur appareil. Le jalon complet ne sera
+terminé qu’au ticket 05.
 
 ## Acceptation du jalon complet
 

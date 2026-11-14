@@ -90,6 +90,8 @@ import { useWorkspaceViewState } from './workspace/useWorkspaceViewState';
 import { useAdvancedWorkspaceViewState } from './workspace/useAdvancedWorkspaceViewState';
 import { isAdvancedProject } from './store/projectWorkState';
 import { isFlamProject } from './store/projectModel/envelope.js';
+import { useFlamProjectEntry } from './hooks/useFlamProjectEntry.js';
+import { commitAdventureEdit } from './store/flamAdventure/editing.js';
 import { useCatalogueGeneration } from './hooks/useCatalogueGeneration.js';
 import { useCatalogueEditorHost } from './hooks/useCatalogueEditorHost.jsx';
 import { startupPage } from './store/catalogue/startupPage.js';
@@ -778,6 +780,30 @@ function AppContent() {
       showErrorDialog({
         get title() { return t('common:app.graph.title'); },
         get message() { return t('common:app.graph.createError', { error: presentStoredError(error) }); },
+        technicalDetail: presentUserMessage(error).technicalDetail,
+      });
+    }
+  }
+
+  const startFlamProject = useFlamProjectEntry({ store, runFunnelLanding, savedSnapshotRef, setMediaLibraryPaths });
+
+  async function handleStartFlamProject() {
+    const choice = await showChoiceDialog({
+      get title() { return t('common:flam.create.title'); },
+      get message() { return t('common:flam.create.description'); },
+      actions: [
+        { value: null, get label() { return t('common:dialog.cancel.label'); } },
+        { value: 'empty', get label() { return t('common:flam.create.empty'); } },
+        { value: 'example', kind: 'primary', get label() { return t('common:flam.create.example'); } },
+      ],
+    });
+    if (!choice) return;
+    try {
+      await startFlamProject({ example: choice === 'example' });
+    } catch (error) {
+      showErrorDialog({
+        get title() { return t('common:flam.create.title'); },
+        get message() { return t('common:flam.create.error'); },
         technicalDetail: presentUserMessage(error).technicalDetail,
       });
     }
@@ -1488,6 +1514,11 @@ function AppContent() {
       selectedId: store.selectedId,
       onSetProjectType: handleSelectProjectType,
       onStartAdvancedProject: handleStartAdvancedProject,
+      onStartFlamProject: handleStartFlamProject,
+      flam: {
+        onEdit: (epoch, command) => commitAdventureEdit(store, epoch, command),
+        onOpenMedia: () => bottomWorkspace.openTab('media'),
+      },
       onEditPack: commands.openPack,
       onPodcastFunnel: () => modals.open('podcastFunnel'),
       onYoutubeFunnel: () => setYoutubeFunnelMode('home'),
@@ -1547,7 +1578,7 @@ function AppContent() {
     bottomPanel: {
       editorScope: bottomWorkspace.editorScope,
       heightKey: bottomWorkspace.heightKey,
-      open: bottomWorkspace.open && !isFlamProject(store.project),
+      open: bottomWorkspace.open,
       activeTab: bottomWorkspace.activeTab,
       onActiveTabChange: (tab) => {
         if (tab !== 'media') mediaToolBridge.invalidateRequest();
@@ -1615,7 +1646,7 @@ function AppContent() {
       statusText,
       // Les trois boutons suivent « un projet est ouvert » : ils
       // ouvrent la médiathèque et les deux files, qui n'ont pas besoin d'arbre.
-      projectOpen: projectOpen && !isFlamProject(store.project),
+      projectOpen,
       open: bottomWorkspace.open,
       mediaLibraryCount: bottomWorkspace.mediaLibraryCount,
       renderQueueActiveCount: renderQueue.activeCount,

@@ -25,7 +25,7 @@ export function suggestProjectName(project, { documentTitle = null, currentFileN
   const rootTitle = !advanced && project?.projectType === 'pack'
     ? titleExcept(project.rootName, ['menu racine', 'top menu', 'menu iniziale'])
     : '';
-  const packTitle = titleExcept(advanced ? documentTitle : project?.packMetadata?.title, ['nouveau pack', 'new audiobook', 'new pack', 'nuovo audiolibro', 'nuovo pack']);
+  const packTitle = titleExcept(advanced ? documentTitle : project?.authoringMode === 'flam' ? project.authoring.document.title : project?.packMetadata?.title, ['nouveau pack', 'new audiobook', 'new pack', 'nuovo audiolibro', 'nuovo pack']);
   /* eslint-enable i18next/no-literal-string */
   const localName = isFallbackProjectName(project?.projectName)
     ? ''

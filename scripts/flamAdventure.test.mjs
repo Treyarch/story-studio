@@ -8,7 +8,7 @@ import { decodeProjectFile, encodeProjectFile } from '../src/store/projectModel/
 import { createAdventureDocument, editAdventureDefinition } from '../src/store/flamAdventure/document.js';
 import { diagnoseAdventureDocument } from '../src/store/flamAdventure/diagnostics.js';
 
-const example = JSON.parse(await readFile(new URL('./fixtures/flam-adventure.json', import.meta.url), 'utf8'));
+const example = JSON.parse(await readFile(new URL('../src/store/flamAdventure/example.json', import.meta.url), 'utf8'));
 register('./nodeSourceResolver.mjs', import.meta.url);
 const { useProjectStore } = await import('../src/store/projectStore.js');
 const { createWorkSnapshot } = await import('../src/store/projectHelpers.js');

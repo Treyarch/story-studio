@@ -31,6 +31,7 @@ function formatRecentDate(updatedAt) {
 // Un type inconnu ne se devine pas : aucun libellé plutôt qu'un faux.
 function projectTypeLabel(type) {
   if (type === 'advanced') return t('home:modeSelector.graph.label');
+  if (type === 'flam') return t('common:flam.create.title');
   if (type === 'simple') return t('home:modeSelector.simple.label');
   if (type === 'pack') return t('home:modeSelector.menu.label');
   return null;
@@ -67,6 +68,7 @@ function ProjectThumb({ project, index, loadedThumbnail = undefined }) {
 export function ModeSelector({
   onSelect,
   onSelectGraph,
+  onSelectFlam,
   onEditPack,
   onPodcastFunnel,
   onYoutubeFunnel,
@@ -127,6 +129,13 @@ export function ModeSelector({
       name: t('home:modeSelector.simple.label'),
       desc: t('home:modeSelector.simple.description'),
       onClick: () => onSelect('simple'),
+    },
+    {
+      key: 'flam',
+      Icon: BookOpenText,
+      name: t('common:flam.create.title'),
+      desc: t('common:flam.create.description'),
+      onClick: onSelectFlam,
     },
   ];
 

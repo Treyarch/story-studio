@@ -2032,8 +2032,8 @@
       "status": "ai-reviewed"
     }
   },
-  "workspace.flam.title": {
-    "context": "Espace de travail : titre de repli pour un document d’aventure FLAM sans titre.",
+  "flam.create.title": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Aventure FLAM",
     "en": {
       "sourceHash": "e94acb2d6263",
       "status": "ai-reviewed"
@@ -2043,14 +2043,1037 @@
       "status": "ai-reviewed"
     }
   },
-  "workspace.flam.documentOnly": {
-    "context": "Document FLAM ouvert avant la livraison de son éditeur : préciser les actions disponibles, sans annoncer une génération possible.",
+  "flam.create.description": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Créer une aventure personnelle avec des scènes, des choix et des règles.",
     "en": {
-      "sourceHash": "693b7d63576b",
+      "sourceHash": "6cec7c0ad9d8",
       "status": "ai-reviewed"
     },
     "it": {
-      "sourceHash": "693b7d63576b",
+      "sourceHash": "6cec7c0ad9d8",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.create.empty": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Projet vide",
+    "en": {
+      "sourceHash": "75c5dabcc9a1",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "75c5dabcc9a1",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.create.example": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Exemple modifiable",
+    "en": {
+      "sourceHash": "2147223681b8",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "2147223681b8",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.create.error": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Impossible de créer cette aventure.",
+    "en": {
+      "sourceHash": "3b48deff555c",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "3b48deff555c",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.editor.help": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Écrivez les scènes et leurs règles. La génération FLAM sera disponible dans une prochaine étape.",
+    "en": {
+      "sourceHash": "8eb4574f0b3f",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "8eb4574f0b3f",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.media.open": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Ouvrir la médiathèque",
+    "en": {
+      "sourceHash": "c6ddb79b3b42",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "c6ddb79b3b42",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.navigation": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Définitions de l’aventure",
+    "en": {
+      "sourceHash": "df2fd6724145",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "df2fd6724145",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.scenes": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Scènes",
+    "en": {
+      "sourceHash": "ff53916fc420",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "ff53916fc420",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.classes": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Classes",
+    "en": {
+      "sourceHash": "84637286c5b7",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "84637286c5b7",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.items": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Objets",
+    "en": {
+      "sourceHash": "9d5a39a70b5e",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "9d5a39a70b5e",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.events": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Événements",
+    "en": {
+      "sourceHash": "2c92e65f08fb",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "2c92e65f08fb",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.rewards": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Récompenses",
+    "en": {
+      "sourceHash": "38838b15c0bd",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "38838b15c0bd",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.rolls": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Jets de dé",
+    "en": {
+      "sourceHash": "23b7dba2932c",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "23b7dba2932c",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.choices": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Choix",
+    "en": {
+      "sourceHash": "48fa1f2a8711",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "48fa1f2a8711",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.class": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Classe",
+    "en": {
+      "sourceHash": "fec19fe3d560",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "fec19fe3d560",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.item": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Objet",
+    "en": {
+      "sourceHash": "b01189cd35d9",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "b01189cd35d9",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.event": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Événement",
+    "en": {
+      "sourceHash": "81c7cdb0866e",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "81c7cdb0866e",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.roll": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Jet de dé",
+    "en": {
+      "sourceHash": "242201210f59",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "242201210f59",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.reward": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Récompense",
+    "en": {
+      "sourceHash": "56c5695955b1",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "56c5695955b1",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.untitled": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Sans nom",
+    "en": {
+      "sourceHash": "1a0d80637738",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "1a0d80637738",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.reference.none": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Non défini",
+    "en": {
+      "sourceHash": "b62741977594",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "b62741977594",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.reference.missing": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Référence introuvable : {{id}}",
+    "en": {
+      "sourceHash": "9188936b9ec1",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "9188936b9ec1",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.edit.errorTitle": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Modification impossible",
+    "en": {
+      "sourceHash": "271eb74658a1",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "271eb74658a1",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.edit.referenced": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Cette définition est encore utilisée. Retirez ses références avant de la supprimer.",
+    "en": {
+      "sourceHash": "1fdd1efafbaf",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "1fdd1efafbaf",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.edit.error": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Cette modification ne peut pas être appliquée.",
+    "en": {
+      "sourceHash": "d3b6073671bb",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "d3b6073671bb",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.remove.title": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Supprimer cette définition",
+    "en": {
+      "sourceHash": "74924c29413b",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "74924c29413b",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.remove.description": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Supprimer cette définition ? Vous pourrez annuler cette action.",
+    "en": {
+      "sourceHash": "8ff8a1a15093",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "8ff8a1a15093",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.add": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Ajouter une définition",
+    "en": {
+      "sourceHash": "9f0b345dba1c",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "9f0b345dba1c",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.empty": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Ajoutez une définition pour commencer. Les choix se créent depuis une scène.",
+    "en": {
+      "sourceHash": "41eec9848dc2",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "41eec9848dc2",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.name": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Nom",
+    "en": {
+      "sourceHash": "b2c124536d21",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "b2c124536d21",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.title": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Titre de l’aventure",
+    "en": {
+      "sourceHash": "2c629b8e0d61",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "2c629b8e0d61",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.start": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Scène de départ",
+    "en": {
+      "sourceHash": "0a8de236a291",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "0a8de236a291",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.scene.title": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Titre de la scène",
+    "en": {
+      "sourceHash": "73db5eabfa9c",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "73db5eabfa9c",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.scene.text": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Texte de la scène",
+    "en": {
+      "sourceHash": "fbcabc6df9a5",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "fbcabc6df9a5",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.scene.textHelp": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Le texte écrit ne devient pas automatiquement une narration. Ajoutez ou générez une piste audio si nécessaire.",
+    "en": {
+      "sourceHash": "4ded351ae6f3",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "4ded351ae6f3",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.scene.ending": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Cette scène est une fin",
+    "en": {
+      "sourceHash": "f86ab971eabf",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "f86ab971eabf",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.scene.image": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Image de la scène",
+    "en": {
+      "sourceHash": "1a147aba2d09",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "1a147aba2d09",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.scene.audio": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Narration de la scène",
+    "en": {
+      "sourceHash": "67b7c60df616",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "67b7c60df616",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.choice.label": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Texte du choix",
+    "en": {
+      "sourceHash": "aec092a07e79",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "aec092a07e79",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.choice.transition": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Suite du choix",
+    "en": {
+      "sourceHash": "0db7dac9bac8",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "0db7dac9bac8",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.choice.toScene": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Aller à une scène",
+    "en": {
+      "sourceHash": "38869b677628",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "38869b677628",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.choice.toRoll": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Déclencher un jet de dé",
+    "en": {
+      "sourceHash": "a9707eb835f0",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "a9707eb835f0",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.choice.add": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Ajouter un choix",
+    "en": {
+      "sourceHash": "9087bd3ccdbe",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "9087bd3ccdbe",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.choice.remove": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Retirer ce choix de la scène",
+    "en": {
+      "sourceHash": "7700a1f5102b",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "7700a1f5102b",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.destination": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Scène de destination",
+    "en": {
+      "sourceHash": "76cf1ff662b4",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "76cf1ff662b4",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.conditions": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Conditions",
+    "en": {
+      "sourceHash": "97d4be896069",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "97d4be896069",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.conditions.help": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Toutes les conditions doivent être remplies. Sans condition, le choix est accessible.",
+    "en": {
+      "sourceHash": "0f0a314ad44c",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "0f0a314ad44c",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.effects": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Effets",
+    "en": {
+      "sourceHash": "e5b006b78647",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "e5b006b78647",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.quantity": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Quantité entière positive",
+    "en": {
+      "sourceHash": "fe4d652f6b9f",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "fe4d652f6b9f",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.event.present": {
+    "context": "Éditeur d’aventure personnelle FLAM ; L’événement doit être présent",
+    "en": {
+      "sourceHash": "737c2116adeb",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "737c2116adeb",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.rule.type": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Type de règle",
+    "en": {
+      "sourceHash": "cd00e7ea6f24",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "cd00e7ea6f24",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.rule.class": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Avoir choisi une classe",
+    "en": {
+      "sourceHash": "efe7317705ad",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "efe7317705ad",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.rule.item": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Posséder un objet",
+    "en": {
+      "sourceHash": "c8d39979fa17",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "c8d39979fa17",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.rule.event": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Vérifier un événement",
+    "en": {
+      "sourceHash": "e00700f17cbe",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "e00700f17cbe",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.rule.chooseClass": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Choisir une classe",
+    "en": {
+      "sourceHash": "37b0e6d0563f",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "37b0e6d0563f",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.rule.giveItem": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Donner un objet",
+    "en": {
+      "sourceHash": "cea726ac4fa5",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "cea726ac4fa5",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.rule.consumeItem": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Consommer un objet",
+    "en": {
+      "sourceHash": "631caa4bc31d",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "631caa4bc31d",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.rule.setEvent": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Mémoriser un événement",
+    "en": {
+      "sourceHash": "7104ba465fed",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "7104ba465fed",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.rule.add": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Ajouter une règle",
+    "en": {
+      "sourceHash": "a617e2bade23",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "a617e2bade23",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.rule.remove": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Retirer cette règle",
+    "en": {
+      "sourceHash": "711dd3c010ab",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "711dd3c010ab",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.summary.class": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Classe choisie : {{name}}",
+    "en": {
+      "sourceHash": "b6f108fbaca4",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "b6f108fbaca4",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.summary.item": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Posséder au moins {{quantity}} × {{name}}",
+    "en": {
+      "sourceHash": "e0ae9f49f483",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "e0ae9f49f483",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.summary.eventPresent": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Événement présent : {{name}}",
+    "en": {
+      "sourceHash": "dfb223e1abc0",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "dfb223e1abc0",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.summary.eventAbsent": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Événement absent : {{name}}",
+    "en": {
+      "sourceHash": "0b0a6e6153b3",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "0b0a6e6153b3",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.summary.chooseClass": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Choisir la classe {{name}}",
+    "en": {
+      "sourceHash": "627bea5a2aeb",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "627bea5a2aeb",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.summary.giveItem": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Donner {{quantity}} × {{name}}",
+    "en": {
+      "sourceHash": "5f67a45e1739",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "5f67a45e1739",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.summary.consumeItem": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Retirer {{quantity}} × {{name}}",
+    "en": {
+      "sourceHash": "a7173dd45fbc",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "a7173dd45fbc",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.summary.setEvent": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Mémoriser l’événement {{name}}",
+    "en": {
+      "sourceHash": "0efea1997d99",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "0efea1997d99",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.unavailable": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Quand le choix est inaccessible",
+    "en": {
+      "sourceHash": "8734edc30a8b",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "8734edc30a8b",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.unavailable.disabled": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Désactiver et expliquer",
+    "en": {
+      "sourceHash": "23d6655e6e65",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "23d6655e6e65",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.unavailable.hidden": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Masquer le choix",
+    "en": {
+      "sourceHash": "0350a7381899",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "0350a7381899",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.unavailable.explanation": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Explication pour le joueur",
+    "en": {
+      "sourceHash": "9e3dd45068a7",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "9e3dd45068a7",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.reward.repeatable": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Autoriser cette récompense plusieurs fois par partie",
+    "en": {
+      "sourceHash": "0979f636a427",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "0979f636a427",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.reward.help": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Par défaut, une récompense n’est accordée qu’une fois par partie, même si plusieurs choix la proposent.",
+    "en": {
+      "sourceHash": "d06ca5d96b7a",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "d06ca5d96b7a",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.roll.help": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Répartissez exactement les valeurs de 1 à 20, sans trou ni chevauchement. Chaque destination nomme une péripétie. Le joueur déclenche le tirage et conserve son résultat.",
+    "en": {
+      "sourceHash": "0f71c78144ac",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "0f71c78144ac",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.roll.min": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Valeur minimale",
+    "en": {
+      "sourceHash": "0c55e2bb2022",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "0c55e2bb2022",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.roll.max": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Valeur maximale",
+    "en": {
+      "sourceHash": "bcbdc183f53a",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "bcbdc183f53a",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.roll.outcome": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Péripétie : scène de destination",
+    "en": {
+      "sourceHash": "c38976ba461b",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "c38976ba461b",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.roll.add": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Ajouter une plage",
+    "en": {
+      "sourceHash": "06002200cf3c",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "06002200cf3c",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.roll.remove": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Retirer cette plage",
+    "en": {
+      "sourceHash": "83222982735a",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "83222982735a",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.diagnostics": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Diagnostics de l’aventure",
+    "en": {
+      "sourceHash": "3477bf748212",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "3477bf748212",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.diagnostics.help": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Les erreurs empêchent la future génération, mais vous pouvez enregistrer votre brouillon. Sélectionnez un diagnostic pour retrouver le champ concerné.",
+    "en": {
+      "sourceHash": "02c4fcefc977",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "02c4fcefc977",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.diagnostics.clear": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Aucune erreur de contenu détectée. Le parcours de jeu reste à vérifier.",
+    "en": {
+      "sourceHash": "58d6fa670d78",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "58d6fa670d78",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.diagnostic.start": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Choisissez une scène de départ.",
+    "en": {
+      "sourceHash": "8be735d245b2",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "8be735d245b2",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.diagnostic.reference": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Cette référence est absente. Choisissez une destination ou une définition existante.",
+    "en": {
+      "sourceHash": "abb1dcf8e34c",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "abb1dcf8e34c",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.diagnostic.label": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Donnez un texte à ce choix.",
+    "en": {
+      "sourceHash": "523bba613709",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "523bba613709",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.diagnostic.title": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Donnez un titre à cette scène.",
+    "en": {
+      "sourceHash": "48a102e4a431",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "48a102e4a431",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.diagnostic.destination": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Choisissez une seule suite : scène ou jet de dé.",
+    "en": {
+      "sourceHash": "b51cf4da5e12",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "b51cf4da5e12",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.diagnostic.quantity": {
+    "context": "Éditeur d’aventure personnelle FLAM ; La quantité doit être un entier strictement positif.",
+    "en": {
+      "sourceHash": "6935143e1803",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "6935143e1803",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.diagnostic.exit": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Ajoutez un choix ou marquez explicitement cette scène comme une fin.",
+    "en": {
+      "sourceHash": "d8811d3722c7",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "d8811d3722c7",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.diagnostic.conditional": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Toutes les sorties sont conditionnelles. Vérifiez que le joueur peut poursuivre son parcours.",
+    "en": {
+      "sourceHash": "fb9abc884dc0",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "fb9abc884dc0",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.diagnostic.range": {
+    "context": "Éditeur d’aventure personnelle FLAM ; La plage doit contenir des entiers de 1 à 20, dans l’ordre croissant.",
+    "en": {
+      "sourceHash": "3d13f17c2559",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "3d13f17c2559",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.diagnostic.overlap": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Plusieurs plages contiennent la même valeur.",
+    "en": {
+      "sourceHash": "243898a0ed5c",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "243898a0ed5c",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.diagnostic.gap": {
+    "context": "Éditeur d’aventure personnelle FLAM ; Certaines valeurs de 1 à 20 ne sont pas couvertes.",
+    "en": {
+      "sourceHash": "97ca1922c003",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "97ca1922c003",
       "status": "ai-reviewed"
     }
   }
