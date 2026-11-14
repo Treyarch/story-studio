@@ -2521,24 +2521,24 @@
     }
   },
   "format.value.supportedVersion": {
-    "context": "Ouverture .mbah > diagnostic found/expected > supportedVersion ; valeur applicative traduite, code et chemins gardés techniques, contexte de schéma sans écriture.",
+    "context": "Erreur de format projet : version maximale de l’enveloppe de fichier actuellement acceptée.",
     "en": {
-      "sourceHash": "3d9b397bfdf0",
+      "sourceHash": "2e787a05d7b4",
       "status": "ai-reviewed"
     },
     "it": {
-      "sourceHash": "3d9b397bfdf0",
+      "sourceHash": "2e787a05d7b4",
       "status": "ai-reviewed"
     }
   },
   "format.value.authoringMode": {
-    "context": "Ouverture .mbah > diagnostic found/expected > authoringMode ; valeur applicative traduite, code et chemins gardés techniques, contexte de schéma sans écriture.",
+    "context": "Erreur de format projet : identifiants techniques des trois modes acceptés, à conserver tels quels.",
     "en": {
-      "sourceHash": "13467eb77de7",
+      "sourceHash": "26fbdc2835fb",
       "status": "ai-reviewed"
     },
     "it": {
-      "sourceHash": "13467eb77de7",
+      "sourceHash": "26fbdc2835fb",
       "status": "ai-reviewed"
     }
   },
@@ -2968,6 +2968,39 @@
     },
     "it": {
       "sourceHash": "27cbb14c80a9",
+      "status": "ai-reviewed"
+    }
+  },
+  "format.value.flamSchema": {
+    "context": "Erreur de format projet : forme attendue pour une enveloppe de document FLAM.",
+    "en": {
+      "sourceHash": "dfe36fefef3a",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "dfe36fefef3a",
+      "status": "ai-reviewed"
+    }
+  },
+  "format.value.flamDocument": {
+    "context": "Erreur de format projet : document d’aventure FLAM attendu ; la version 1 est la seule version du document acceptée.",
+    "en": {
+      "sourceHash": "8e604fbeaea9",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "8e604fbeaea9",
+      "status": "ai-reviewed"
+    }
+  },
+  "format.value.documentCodec": {
+    "context": "Refus du normaliseur Libre : utiliser le codec de document pour conserver le contenu FLAM.",
+    "en": {
+      "sourceHash": "a54caf509156",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "a54caf509156",
       "status": "ai-reviewed"
     }
   }

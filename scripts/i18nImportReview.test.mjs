@@ -146,8 +146,18 @@ test('nouveaux libellés FR du codec/noms comparés aux sources git indépendant
   const { default: catalogue } = await import('../src/locales/fr/import.json', { with: { type: 'json' } });
   assert.equal(fixture.base, '4b853adffc0a439ec98ce9f123807f4c2e9d0b5b');
   const originals = Object.values(fixture.sources).join('\n');
+  // Ces libellés suivent l'ajout du mode FLAM ; les autres restent comparés
+  // aux sources indépendantes de la migration de traduction historique.
+  const flamFormat = {
+    'format.value.supportedVersion': 'version ≤ 5',
+    'format.value.authoringMode': 'free, advanced ou flam',
+    'format.value.flamSchema': 'schéma 5, document FLAM et arbre vide',
+    'format.value.flamDocument': 'document d’aventure FLAM de version 1 valide',
+    'format.value.documentCodec': 'codec de document avant installation',
+  };
+  for (const [key, value] of Object.entries(flamFormat)) assert.equal(catalogue[key], value);
   for (const [key, value] of Object.entries(catalogue)) {
-    if (!key.startsWith('format.value.') || key === 'format.value.boundAt') continue;
+    if (!key.startsWith('format.value.') || key === 'format.value.boundAt' || Object.hasOwn(flamFormat, key)) continue;
     assert.ok(originals.includes(`'${value}'`), `${key} : source d’origine indépendante`);
   }
   assert.ok(fixture.sources['src/store/projectModel/envelope.js'].includes('${fileName} — ${path} : trouvé ${found}, attendu ${expected} (${code})'));

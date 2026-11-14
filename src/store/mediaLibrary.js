@@ -347,6 +347,9 @@ export function collectMediaLibrary({
   addGraph(project?.nativeGraph, translateMedia('media:usage.label.root'));
 
   addAdvancedMedia(map, project, statusByPath, advancedUsages);
+  for (const ref of walkProjectMediaReferences(project)) {
+    if (ref.scope === 'flam-scene') addMedia(map, ref.path, ref.label, SOURCE.PROJECT, ref.key, statusByPath, true);
+  }
 
   visitProjectEntries(project, (entry) => {
     const label = entry?.name || (entry?.type === 'menu' ? translateMedia('media:usage.label.untitledMenu')

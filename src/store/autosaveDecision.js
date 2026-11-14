@@ -3,7 +3,7 @@
 // covered by Node-side tests without spinning up the Tauri/React runtime.
 
 import { visitProjectEntries } from './projectModel/index.js';
-import { isAdvancedProject } from './projectModel/envelope.js';
+import { isDocumentProject } from './projectModel/envelope.js';
 import { hasProjectTree } from './projectWorkState.js';
 
 export const AUTOSAVE_ACTIONS = Object.freeze({
@@ -136,7 +136,7 @@ export function isProjectWorthAutosaving(project, mediaLibraryPaths = [], totalM
   // des trois ne le rend pas vide. Le juger sur l'inventaire Libre reviendrait à
   // refuser tout snapshot à un graphe ou un contexte édité — c'est la même
   // lecture que `isProjectDirty`, qui décide de la sauvegarde explicite.
-  if (isAdvancedProject(project)) return true;
+  if (isDocumentProject(project)) return true;
   // Check media presence before projectType so imported folders/AI media trigger autosave
   if (mediaLibraryPaths.length > 0) return true;
   if (totalMediaCount > 0) return true;

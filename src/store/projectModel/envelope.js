@@ -1,6 +1,7 @@
 import { sourceImportValue } from '../../i18n/importPresentation.js';
 import { presentStoredError, presentUserMessage } from '../../i18n/userMessage.js';
 import { mediaBindingViolations } from './mediaBindings.js';
+import { assertAdventureDocument } from '../flamAdventure/document.js';
 
 // Porte de format pure, avant toute normalisation Libre. Le payload reste inerte.
 const owns = (object, key) => Object.hasOwn(object, key);
@@ -47,6 +48,14 @@ export function isAdvancedProject(project) {
   return project?.authoringMode === 'advanced';
 }
 
+export function isFlamProject(project) {
+  return project?.authoringMode === 'flam';
+}
+
+export function isDocumentProject(project) {
+  return isAdvancedProject(project) || isFlamProject(project);
+}
+
 // L'ancien nœud Lien (`type: 'ref'`) est un essai retiré du modèle : un projet
 // qui en contient encore un est refusé à l'ouverture, avant toute normalisation
 // (qui le confondrait avec une histoire), sans retrait silencieux ni conversion.
@@ -88,14 +97,37 @@ export function readProjectEnvelope(project, { fileName = PROJECT_FORMAT_FILE_FA
   if (hasVersion && !Number.isSafeInteger(version)) {
     fail('INVALID_SCHEMA_VERSION', '/schemaVersion', technicalFoundValue(version), { key: 'import:format.value.safeInteger' });
   }
-  if (hasVersion && version > 4) fail('UNSUPPORTED_SCHEMA_VERSION', '/schemaVersion', version, { key: 'import:format.value.supportedVersion' });
+  if (hasVersion && version > 5) fail('UNSUPPORTED_SCHEMA_VERSION', '/schemaVersion', version, { key: 'import:format.value.supportedVersion' });
   const mode = owns(project, 'authoringMode') ? project.authoringMode : 'free';
-  if (mode !== 'free' && mode !== 'advanced') {
+  if (mode !== 'free' && mode !== 'advanced' && mode !== 'flam') {
     fail('INVALID_AUTHORING_MODE', '/authoringMode', technicalFoundValue(mode), { key: 'import:format.value.authoringMode' });
   }
   const hasAuthoring = owns(project, 'authoring');
   if (hasAuthoring && !isObject(project.authoring)) {
     fail('INVALID_AUTHORING_BLOCK', '/authoring', technicalFoundValue(project.authoring), { key: 'import:format.value.object' });
+  }
+  if (mode === 'flam') {
+    if (version !== 5 || !hasAuthoring || project.projectType !== 'flam'
+      || !Array.isArray(project.rootEntries) || project.rootEntries.length !== 0
+      || !isObject(project.authoring.document)) {
+      fail('CONTRADICTORY_PROJECT_ENVELOPE', '/authoring', technicalFoundValue(mode), { key: 'import:format.value.flamSchema' });
+    }
+    // eslint-disable-next-line i18next/no-literal-string -- Clés de format incompatibles avec un document FLAM.
+    for (const key of ['nativeGraph', 'rootItems', 'menus', 'entries', 'sharedEntries', 'rootAudio', 'rootImage', 'nightModeAudio', 'packMetadata']) {
+      if (owns(project, key)) fail('CONTRADICTORY_PROJECT_ENVELOPE', `/${key}`, key, { key: 'import:format.value.flamSchema' });
+    }
+    for (const key of Object.keys(project.authoring)) {
+      if (key !== 'document') fail('CONTRADICTORY_PROJECT_ENVELOPE', `/authoring/${key}`, key, { key: 'import:format.value.flamSchema' });
+    }
+    try {
+      assertAdventureDocument(project.authoring.document);
+    } catch (error) {
+      fail(error.code, `/authoring/document${error.path}`, error.code, { key: 'import:format.value.flamDocument' });
+    }
+    return { authoringMode: mode, project };
+  }
+  if (version === 5 || project.projectType === 'flam') {
+    fail('CONTRADICTORY_PROJECT_ENVELOPE', '/authoringMode', technicalFoundValue(mode), { key: 'import:format.value.flamSchema' });
   }
   if (version === 4 && !owns(project, 'authoringMode')) {
     fail('MISSING_AUTHORING_MODE', '/authoringMode', { key: 'import:format.value.absent' }, { key: 'import:format.value.explicitMode' });
@@ -153,7 +185,9 @@ export function readProjectEnvelope(project, { fileName = PROJECT_FORMAT_FILE_FA
 // normaliseur hiérarchique : ils passent désormais par le codec et par
 // l'état de travail, et cette porte reste ce qui interdit le retour en arrière.
 export function assertFreeProjectEnvelope(project) {
-  if (readProjectEnvelope(project).authoringMode !== 'free') {
-    throw new ProjectFormatError('ADVANCED_CODEC_REQUIRED', '/authoringMode', 'advanced', { key: 'import:format.value.advancedCodec' });
+  const { authoringMode } = readProjectEnvelope(project);
+  if (authoringMode !== 'free') {
+    throw new ProjectFormatError(authoringMode === 'advanced' ? 'ADVANCED_CODEC_REQUIRED' : 'FLAM_CODEC_REQUIRED', '/authoringMode', authoringMode,
+      { key: authoringMode === 'advanced' ? 'import:format.value.advancedCodec' : 'import:format.value.documentCodec' });
   }
 }

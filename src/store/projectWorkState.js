@@ -8,7 +8,7 @@
 // L'enveloppe avancée est revalidée à la place : une mutation qui la casse est
 // refusée au même endroit qu'un fichier mal formé, pas découverte à l'écriture.
 
-import { isAdvancedProject, readProjectEnvelope } from './projectModel/envelope.js';
+import { isAdvancedProject, isDocumentProject, isFlamProject, readProjectEnvelope } from './projectModel/envelope.js';
 import { readMediaBindings, resolveMediaBindingStatuses } from './projectModel/mediaBindings.js';
 import { getProjectMenuDepthDiagnostic, MAX_MENU_DEPTH } from './projectModel/menuDepth.js';
 import { normalizeProjectData } from './projectModel/schema.js';
@@ -34,12 +34,13 @@ const ADVANCED_DEPTH_DIAGNOSTIC = Object.freeze({
 // est rendu **tel quel** : la valeur installée est l'objet fourni, ce qui laisse
 // les gardes de fraîcheur comparer des identités et n'invente aucun champ.
 export function normalizeWorkProject(data) {
-  if (!isAdvancedProject(data)) return normalizeProjectData(data);
+  if (!isDocumentProject(data)) return normalizeProjectData(data);
   readProjectEnvelope(data);
   return data;
 }
 
 export function workProjectDepthDiagnostic(project) {
+  if (isFlamProject(project)) return { ...ADVANCED_DEPTH_DIAGNOSTIC, authoringMode: 'flam' };
   return isAdvancedProject(project)
     ? ADVANCED_DEPTH_DIAGNOSTIC
     : getProjectMenuDepthDiagnostic(project);
@@ -49,7 +50,7 @@ export function workProjectDepthDiagnostic(project) {
 // un projet avancé et aucun exporteur Libre ne le qualifie. Le type de projet
 // qu'ils lisent est `null`, exactement comme avant qu'un type ne soit choisi.
 export function hierarchicalProjectType(project) {
-  return isAdvancedProject(project) ? null : (project?.projectType ?? null);
+  return isDocumentProject(project) ? null : (project?.projectType ?? null);
 }
 
 // Les trois écrans que le shell peut monter. `hierarchicalProjectType` répond à
@@ -65,8 +66,10 @@ export function hierarchicalProjectType(project) {
 export const WORKSPACE_MODE_HOME = null;
 export const WORKSPACE_MODE_HIERARCHICAL = 'hierarchical';
 export const WORKSPACE_MODE_ADVANCED = 'advanced';
+export const WORKSPACE_MODE_FLAM = 'flam';
 
 export function authoringWorkspaceMode(project) {
+  if (isFlamProject(project)) return WORKSPACE_MODE_FLAM;
   if (isAdvancedProject(project)) return WORKSPACE_MODE_ADVANCED;
   return project?.projectType ? WORKSPACE_MODE_HIERARCHICAL : WORKSPACE_MODE_HOME;
 }

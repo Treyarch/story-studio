@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { readMediaBindings, visitProjectEntries } from '../store/projectModel';
+import { readMediaBindings, visitProjectEntries, walkProjectMediaReferences } from '../store/projectModel';
 import { FILE_REFRESH_THROTTLE_MS, FILE_RETRY_DELAYS_MS, hasFreshPathSnapshot, readPathSnapshot } from '../store/fileMetadataCache';
 import { dirname, joinPath } from '../utils/fileUtils';
 
@@ -12,6 +12,9 @@ function hasPath(value) {
 function collectProjectPaths(project, projectIndex = null, savePath = null) {
   const projectDir = dirname(savePath);
   const paths = new Set();
+  for (const ref of walkProjectMediaReferences(project)) {
+    if (ref.scope === 'flam-scene' && hasPath(ref.path)) paths.add(ref.path);
+  }
 
   if (hasPath(project?.rootAudio)) paths.add(project.rootAudio);
   if (hasPath(project?.rootImage)) paths.add(project.rootImage);

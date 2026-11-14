@@ -1,6 +1,7 @@
 import { translateTree as t } from "../../i18n/treePresentation.js";
 import { makeId, normalizeMenuEntry, normalizeStoryEntry, normalizeZipEntry } from './schema.js';
 import { walkMediaBindingReferences } from './mediaBindings.js';
+import { isFlamProject } from './envelope.js';
 
 function buildProjectIndexEntries(entries, ancestors, level, index) {
   let playableCount = 0;
@@ -262,6 +263,14 @@ export function* walkProjectMediaReferences(project) {
   if (!project || typeof project !== 'object') return;
 
   yield* walkRootReferences(project);
+  if (isFlamProject(project)) {
+    for (const scene of project.authoring.document.scenes) {
+      for (const key of ['audio', 'image']) {
+        if (scene[key]) yield { obj: scene, key, path: scene[key], label: scene.title || scene.id, scope: 'flam-scene' };
+      }
+    }
+    return;
+  }
   yield* walkMediaBindingReferences(project);
   yield* walkNativeGraphReferences(project.nativeGraph, { key: "tree:media.nativeRoot.label" });
   yield* walkEntriesMedia(project.rootEntries ?? []);

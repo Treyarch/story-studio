@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "892f456a-2ccb-497a-bc80-8798b29a43b0",
+  "saveVersion": 1,
+  "title": "Les compagnons du village",
+  "startSceneId": "depart",
+  "classes": [{"id": "pisteur", "name": "Pisteur"}, {"id": "ami", "name": "Ami des animaux"}],
+  "items": [{"id": "cle", "name": "Clé"}],
+  "events": [{"id": "porte-ouverte", "name": "Porte ouverte"}],
+  "rewards": [{"id": "coffre", "name": "La clé du coffre", "repeatable": false, "effects": [{"type": "giveItem", "itemId": "cle", "quantity": 1}]}],
+  "rolls": [{"id": "rencontre", "name": "Le dé des rencontres", "outcomes": [{"min": 1, "max": 10, "destination": "fin-lucioles"}, {"min": 11, "max": 20, "destination": "fin-renard"}]}],
+  "scenes": [
+    {"id": "depart", "title": "Choisis ta classe", "text": "Qui veux-tu incarner ?", "audio": null, "image": null, "ending": false, "choices": ["choisir-pisteur", "choisir-ami"]},
+    {"id": "clairiere", "title": "La clairière", "text": "Un coffre et une porte.", "audio": null, "image": null, "ending": false, "choices": ["prendre-cle", "ouvrir-porte", "traverser"]},
+    {"id": "sentier", "title": "Le sentier", "text": "Des traces et un renard.", "audio": null, "image": null, "ending": false, "choices": ["suivre-traces", "parler-renard"]},
+    {"id": "rencontre-scene", "title": "La rencontre", "text": "Qui te guidera ?", "audio": null, "image": null, "ending": false, "choices": ["lancer-de"]},
+    {"id": "fin-lucioles", "title": "Les lucioles", "text": "Les lucioles te guident au village.", "audio": null, "image": null, "ending": true, "choices": []},
+    {"id": "fin-renard", "title": "Le renard", "text": "Le renard te guide au village.", "audio": null, "image": null, "ending": true, "choices": []}
+  ],
+  "choices": [
+    {"id": "choisir-pisteur", "label": "Pisteur", "destination": "clairiere", "conditions": [], "effects": [{"type": "chooseClass", "classId": "pisteur"}], "rewardId": null, "rollId": null, "unavailable": {"mode": "disabled", "explanation": ""}},
+    {"id": "choisir-ami", "label": "Ami des animaux", "destination": "clairiere", "conditions": [], "effects": [{"type": "chooseClass", "classId": "ami"}], "rewardId": null, "rollId": null, "unavailable": {"mode": "disabled", "explanation": ""}},
+    {"id": "prendre-cle", "label": "Prendre la clé", "destination": "clairiere", "conditions": [], "effects": [], "rewardId": "coffre", "rollId": null, "unavailable": {"mode": "disabled", "explanation": "Le coffre est déjà vide."}},
+    {"id": "ouvrir-porte", "label": "Ouvrir avec la clé", "destination": "clairiere", "conditions": [{"type": "item", "itemId": "cle", "quantity": 1}, {"type": "event", "eventId": "porte-ouverte", "present": false}], "effects": [{"type": "consumeItem", "itemId": "cle", "quantity": 1}, {"type": "setEvent", "eventId": "porte-ouverte"}], "rewardId": null, "rollId": null, "unavailable": {"mode": "disabled", "explanation": "Il faut une clé et une porte fermée."}},
+    {"id": "traverser", "label": "Traverser la porte", "destination": "sentier", "conditions": [{"type": "event", "eventId": "porte-ouverte", "present": true}], "effects": [], "rewardId": null, "rollId": null, "unavailable": {"mode": "disabled", "explanation": "La porte est fermée."}},
+    {"id": "suivre-traces", "label": "Lire les traces", "destination": "rencontre-scene", "conditions": [{"type": "class", "classId": "pisteur"}], "effects": [], "rewardId": null, "rollId": null, "unavailable": {"mode": "disabled", "explanation": "Pisteur requis."}},
+    {"id": "parler-renard", "label": "Parler au renard", "destination": "rencontre-scene", "conditions": [{"type": "class", "classId": "ami"}], "effects": [], "rewardId": null, "rollId": null, "unavailable": {"mode": "hidden", "explanation": "Ami des animaux requis."}},
+    {"id": "lancer-de", "label": "Lancer le dé", "destination": null, "conditions": [], "effects": [], "rewardId": null, "rollId": "rencontre", "unavailable": {"mode": "disabled", "explanation": ""}}
+  ]
+}

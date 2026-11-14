@@ -1,7 +1,7 @@
 import { rustMessageEnvelope } from '../../i18n/userMessage.js';
 import { ensureProjectStorage, isValidProjectStorage, normalizeProjectStorage, readableProjectStorageFields } from '../projectStorage.js';
 import { migrateProjectData, normalizeProjectData, projectToSerializable } from './schema.js';
-import { PROJECT_FORMAT_FILE_FALLBACK, ProjectFormatError, readProjectEnvelope } from './envelope.js';
+import { isDocumentProject, PROJECT_FORMAT_FILE_FALLBACK, ProjectFormatError, readProjectEnvelope } from './envelope.js';
 
 async function validateViaTauri(payload) {
   const { invoke } = await import('@tauri-apps/api/core');
@@ -21,7 +21,7 @@ function withFreeMediaFields(project, source) {
 // protège l'état en mémoire des réécritures de chemins faites par l'appelant.
 export function projectFileBody(project, { fileName = PROJECT_FORMAT_FILE_FALLBACK } = {}) {
   const { authoringMode } = readProjectEnvelope(project, { fileName });
-  return structuredClone(authoringMode === 'advanced' ? project : projectToSerializable(project));
+  return structuredClone(authoringMode !== 'free' ? project : projectToSerializable(project));
 }
 
 // Un `.mbah` dont le JSON externe est invalide ou tronqué est refusé ici, avant
@@ -38,6 +38,10 @@ export function projectPreviewThumbnail(project) {
   const label = (value) => (typeof value === 'string' && value.trim() ? value : null);
   const explicit = label(project?.thumbnailImage) ?? label(project?.rootImage);
   if (explicit) return explicit;
+  if (project?.authoringMode === 'flam') {
+    const document = project.authoring.document;
+    return label(document.scenes.find(scene => scene.id === document.startSceneId)?.image);
+  }
 
   try {
     const payload = typeof project?.authoring?.payload === 'string'
@@ -115,7 +119,7 @@ export async function decodeProjectFile(text, {
     }
   }
   const { source: resolved, repaired } = withReadableStorage(resolveMediaPaths ? await resolveMediaPaths(raw) : raw, fileName);
-  const base = authoringMode === 'advanced' ? resolved : normalizeProjectData(migrateProjectData(resolved, migrationOptions));
+  const base = isDocumentProject(resolved) ? resolved : normalizeProjectData(migrateProjectData(resolved, migrationOptions));
   const ensured = ensureProjectStorage(base, { saved: !!migrationOptions.savePath });
   const stored = repaired ? { ...ensured, storage: { ...ensured.storage, ...repaired } } : ensured;
   if (authoringMode === 'advanced') return { project: { ...stored, officialProvenance: summary?.officialProvenance ?? 'unknown', ...(summary?.officialOriginUuid ? { officialOriginUuid: summary.officialOriginUuid } : {}), ...(summary?.containsOfficialContent ? { containsOfficialContent: true } : {}), storage: normalizeProjectStorage(stored.storage) }, summary };

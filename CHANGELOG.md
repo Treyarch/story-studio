@@ -22,6 +22,10 @@ public version; this file stays as the concise project history.
 
 ### Added
 
+- Document d’aventure FLAM : règles structurées, brouillons sauvegardables,
+  diagnostics, historique et reprise de session dans un mode de projet
+  distinct. L’édition visuelle et la génération FLAM restent à venir.
+
 - Copie des histoires FLAM vers la bibliothèque locale, par sélection ou en
   totalité : dossiers d’origine conservés, métadonnées retrouvées au scan,
   doublons ignorés, annulation et bilan. Aucun fichier de l’appareil n’est modifié.

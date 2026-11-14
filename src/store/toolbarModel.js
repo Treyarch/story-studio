@@ -29,6 +29,7 @@ import { translateCommon as t } from '../i18n/commonPresentation.js';
 
 import {
   WORKSPACE_MODE_ADVANCED,
+  WORKSPACE_MODE_FLAM,
   WORKSPACE_MODE_HIERARCHICAL,
 } from './projectWorkState.js';
 
@@ -105,7 +106,8 @@ export function buildToolbarInventory({
 } = {}) {
   const hierarchical = workspaceMode === WORKSPACE_MODE_HIERARCHICAL;
   const advanced = workspaceMode === WORKSPACE_MODE_ADVANCED;
-  if (!hierarchical && !advanced) return [];
+  const flam = workspaceMode === WORKSPACE_MODE_FLAM;
+  if (!hierarchical && !advanced && !flam) return [];
 
   // Un geste dure un aller-retour, un export dure une archive : les deux
   // suspendent l'édition, et l'interface ne les confond pas dans son message.
@@ -206,7 +208,7 @@ export function buildToolbarInventory({
   // dit alors honnêtement qu'il n'y a rien, et côté graphe la même surface
   // conserve la qualification du document. La disponibilité ne doit donc pas
   // être recalculée à partir d'une famille de diagnostics particulière.
-  universal('toggleValidation', 'common:toolbar.issues.label', TOOLBAR_GROUPS.ISSUES, {
+  if (!flam) universal('toggleValidation', 'common:toolbar.issues.label', TOOLBAR_GROUPS.ISSUES, {
     shortcut: shortcutLabels.toggleValidation ?? null,
   });
 
@@ -230,7 +232,7 @@ export function buildToolbarInventory({
   // la même révision une seconde fois. Le Libre, lui, n'a pas de verrou et
   // enfile autant de travaux que l'auteur en demande — c'est un état, pas une
   // branche par éditeur.
-  universal('generate', 'common:toolbar.generate.label', TOOLBAR_GROUPS.PRODUCTION, {
+  if (!flam) universal('generate', 'common:toolbar.generate.label', TOOLBAR_GROUPS.PRODUCTION, {
     shortcut: shortcutLabels.generate ?? null,
     available: hierarchical
       ? !generateDisabled

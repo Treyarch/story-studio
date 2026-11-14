@@ -89,6 +89,7 @@ import { useXttsJobs } from './hooks/useXttsJobs';
 import { useWorkspaceViewState } from './workspace/useWorkspaceViewState';
 import { useAdvancedWorkspaceViewState } from './workspace/useAdvancedWorkspaceViewState';
 import { isAdvancedProject } from './store/projectWorkState';
+import { isFlamProject } from './store/projectModel/envelope.js';
 import { useCatalogueGeneration } from './hooks/useCatalogueGeneration.js';
 import { useCatalogueEditorHost } from './hooks/useCatalogueEditorHost.jsx';
 import { startupPage } from './store/catalogue/startupPage.js';
@@ -1427,8 +1428,8 @@ function AppContent() {
       saveState: saveToast,
       // Le bandeau et ses métadonnées suivent « un projet est ouvert »,
       // et sont donc atteignables depuis l'éditeur graphe.
-      showProjectMeta: projectOpen,
-      onOpenPackMetadata: projectOpen ? packMetadata.openPackMetadata : null,
+      showProjectMeta: projectOpen && !isFlamProject(store.project),
+      onOpenPackMetadata: projectOpen && !isFlamProject(store.project) ? packMetadata.openPackMetadata : null,
       onOpenCredits: () => modals.open('credits'),
       onOpenPreferences: () => modals.open('prefs'),
     },
@@ -1546,7 +1547,7 @@ function AppContent() {
     bottomPanel: {
       editorScope: bottomWorkspace.editorScope,
       heightKey: bottomWorkspace.heightKey,
-      open: bottomWorkspace.open,
+      open: bottomWorkspace.open && !isFlamProject(store.project),
       activeTab: bottomWorkspace.activeTab,
       onActiveTabChange: (tab) => {
         if (tab !== 'media') mediaToolBridge.invalidateRequest();
@@ -1614,7 +1615,7 @@ function AppContent() {
       statusText,
       // Les trois boutons suivent « un projet est ouvert » : ils
       // ouvrent la médiathèque et les deux files, qui n'ont pas besoin d'arbre.
-      projectOpen,
+      projectOpen: projectOpen && !isFlamProject(store.project),
       open: bottomWorkspace.open,
       mediaLibraryCount: bottomWorkspace.mediaLibraryCount,
       renderQueueActiveCount: renderQueue.activeCount,

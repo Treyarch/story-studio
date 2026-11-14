@@ -215,7 +215,8 @@ test('snapshots et backups reçoivent les refus de format d’une ouverture expl
     const backupPath = `${await harness.mkdirp('workspace/sauvegardes/versions-securite')}/conte.2026-09-08.mbah`;
     const refusals = [
       ['{"schemaVersion":4,"authoringMode":"advanced","projectType":"advanced","rootEntries":[]}', 'CONTRADICTORY_PROJECT_ENVELOPE'],
-      ['{"schemaVersion":5,"authoringMode":"free","rootEntries":[]}', 'UNSUPPORTED_SCHEMA_VERSION'],
+      ['{"schemaVersion":6,"authoringMode":"free","rootEntries":[]}', 'UNSUPPORTED_SCHEMA_VERSION'],
+      ['{"schemaVersion":5,"authoringMode":"free","rootEntries":[]}', 'CONTRADICTORY_PROJECT_ENVELOPE'],
       ['{"schemaVersion":4,"rootEntries":[]}', 'MISSING_AUTHORING_MODE'],
       ['{"projectName":"conte","authoring":{"payload":"{}"}}', 'CONTRADICTORY_PROJECT_ENVELOPE'],
       ['{"projectName":', 'INVALID_PROJECT_JSON'],

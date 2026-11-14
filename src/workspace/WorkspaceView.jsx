@@ -14,6 +14,7 @@ import { useProjectActions } from '../store/ProjectActionsContext';
 import { shouldOpenSettingsForSelection } from '../store/selectionOpensSettings';
 import {
   WORKSPACE_MODE_ADVANCED,
+  WORKSPACE_MODE_FLAM,
   WORKSPACE_MODE_HOME,
   authoringWorkspaceMode,
   hasProjectTree,
@@ -386,6 +387,17 @@ export function WorkspaceView({
       headerDragHandleProps={headerDragHandleProps}
     />
   );
+
+  if (workspaceMode === WORKSPACE_MODE_FLAM) {
+    return (
+      <div className="screen visible">
+        <div className="workspace-empty-state">
+          <p>{project.authoring.document.title || t('common:workspace.flam.title')}</p>
+          <span>{t('common:workspace.flam.documentOnly')}</span>
+        </div>
+      </div>
+    );
+  }
 
   if (workspaceMode === WORKSPACE_MODE_ADVANCED) {
     return (

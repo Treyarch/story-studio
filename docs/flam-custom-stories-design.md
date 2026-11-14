@@ -1,6 +1,6 @@
 # Création d’aventures personnelles pour FLAM
 
-Statut : cadrage validé par l’utilisateur à Q18. Lecture du prototype natif avec Audio B et retour à l’écran de départ confirmés sur la FLAM 2.4.1 de l’utilisateur. Aucune architecture de production retenue.
+Statut : cadrage validé par l’utilisateur à Q18. Lecture du prototype natif avec Audio B et retour à l’écran de départ confirmés sur la FLAM 2.4.1 de l’utilisateur. Document d’aventure retenu dans l’ADR 0001 ; runtime et export de production encore à intégrer.
 
 ## Objectif confirmé
 
@@ -145,7 +145,9 @@ Avant toute réutilisation du code des exemples, il faudra examiner sa licence, 
 
 ## Décisions d’architecture
 
-Aucune à ce stade. Un ADR sera rédigé lorsqu’un choix durable résultera d’un arbitrage explicite.
+L’[ADR 0001](adr/0001-document-aventure-flam.md) retient un document FLAM
+distinct du graphe à index, intégré au cycle de projet existant. L’architecture
+du runtime généré et du transfert de production reste à réaliser.
 
 
 ### Quatrième jalon : classes narratives
@@ -162,3 +164,17 @@ et leur reprise. **L’utilisateur confirme le fonctionnement et la reprise apr�
 extinction sur sa FLAM 2.4.1**, après le parcours demandé ; voir la [spécification](../.scratch/flam-classes/spec.md) et le
 [parcours matériel](../scripts/prototypes/flam-native/README.md).
 L’intégration à l’éditeur visuel reste le jalon suivant.
+
+### Intégration à l’éditeur visuel : préparation
+
+Le [jalon d’intégration](../.scratch/flam-editeur-visuel/spec.md) décrit le
+parcours d’auteur et cinq lots : document et sauvegarde, édition visuelle,
+runtime piloté par le document, génération et installation, puis validation
+sur appareil. Le premier lot, le document sauvegardable, est réalisé ; il ne constitue
+pas encore un éditeur FLAM utilisable.
+
+L’[ADR 0001](adr/0001-document-aventure-flam.md) retient un document FLAM
+distinct du graphe à index, au sein du cycle de projet existant : enveloppe
+`.mbah` de schéma 5, document de version 1 et compatibilité de partie séparée.
+Le premier lot conserve règles et médias à la sauvegarde, à l’annulation et à
+la reprise de session. Le runtime des prototypes n’est pas modifié.
