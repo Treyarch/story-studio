@@ -32,7 +32,7 @@ export function CardFormatTags({ tags, idPrefix, onActivate, onMenuKey, tabIndex
     update();
     return observeResizeDeferred([root.current, measure.current, meta, actions], update);
   }, [tags, t]);
-  const labels = { project: t('catalogue:format.project.label'), zip: t('catalogue:format.zip.label'), sevenZip: t('catalogue:format.sevenZip.label'), folder: t('catalogue:format.folder.label') };
+  const labels = { flam: t('catalogue:format.flam.label'), project: t('catalogue:format.project.label'), zip: t('catalogue:format.zip.label'), sevenZip: t('catalogue:format.sevenZip.label'), folder: t('catalogue:format.folder.label') };
   const allFormats = tags.map(tag => labels[tag.format]).join(' · ');
   const hidden = tags.length - visibleCount;
   return <div ref={root} className="catalogue-format-tags" role="group" aria-label={t('catalogue:details.column.formats')}>

@@ -288,7 +288,11 @@ pub fn analyze_with(
     measure: bool,
 ) -> Result<Vec<Observation>, String> {
     let mut values = if path.is_dir() {
-        vec![studio::directory(path, cancel, measure)?]
+        if super::flam_copy::is_copy(path) {
+            vec![super::flam_copy::observe(path)?]
+        } else {
+            vec![studio::directory(path, cancel, measure)?]
+        }
     } else {
         match path
             .extension()

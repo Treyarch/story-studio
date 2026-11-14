@@ -318,6 +318,10 @@ export function createLuniiDevices(api, settings = { read, write }, timers = glo
           LUNII_COMMAND_LIMIT_MS + (PER_STORY_COMMANDS.includes(method) ? entry.keys.length * LUNII_COMMAND_PER_STORY_MS : 0));
         const snapshot = await waitOperation(id, method === 'send' ? result?.receipt : result, payload.snapshot);
         if (snapshot) {
+          if (method === 'repatriate') {
+            entry.alreadyPresent = snapshot.result?.alreadyPresent === true;
+            if (entry.flamCopy && snapshot.status === 'cancelled') queue.cancelQueued(id);
+          }
           if (method === 'send' && result?.context?.queueEntryId === entry.id) {
             const interrupted = queueSendInterruption(result.context, snapshot);
             if (interrupted) entry.sendInterruption = { ...sendReport(result.context, snapshot, state.luniiDevices), deviceId: id };
@@ -414,7 +418,7 @@ export function createLuniiDevices(api, settings = { read, write }, timers = glo
         const story = device.stories?.find(story => story.key === key);
         const title = rowTitle(story, key);
         const archiveName = title && story?.ageMin != null ? generateConventionName({ title, minAge: story.ageMin, maxAge: story.ageMax }) : title;
-        return queue.enqueue(id, { kind: method === 'hideMany' ? 'hide' : 'repatriate', keys: [key], title, args: [key, args[0]], workspace, archiveName, deviceName: device.name ?? null }).finished;
+        return queue.enqueue(id, { kind: method === 'hideMany' ? 'hide' : 'repatriate', keys: [key], title, args: [key, args[0]], workspace, archiveName, deviceName: device.name ?? null, flamCopy: device.family === 'flam' }).finished;
       });
       return Promise.all(jobs).then(results => results.at(-1) ?? null);
     }
@@ -497,8 +501,8 @@ export function createLuniiDevices(api, settings = { read, write }, timers = glo
 export function luniiWriteRefusal(device, method) {
   if (!device || ['disconnected', 'ejected'].includes(device.state)) return 'STORYTELLER_DEVICE_GONE';
   if ((device.busy && !device.queueActive) || device.state === 'opening') return 'STORYTELLER_DEVICE_BUSY';
+  if (method === 'repatriateMany' && (device.family !== 'flam' || !device.playlistUnavailable)) return null;
   if (device.family === 'flam') return 'STORYTELLER_FLAM_READ_ONLY';
-  if (method === 'repatriateMany') return null;
   if (device.readOnlyReason === 'volume') return 'STORYTELLER_VOLUME_READ_ONLY';
   if (device.state === 'readOnly' || device.banner?.includes('readOnly')) return 'STORYTELLER_READ_ONLY';
   if (device.state === 'damaged' && method !== 'repair') return 'STORYTELLER_PLAYLIST_DAMAGED';

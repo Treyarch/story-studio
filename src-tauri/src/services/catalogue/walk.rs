@@ -42,7 +42,8 @@ pub fn within_source(root: &Path, resolved: &Path) -> bool {
 }
 
 pub fn is_pack_directory(path: &Path) -> bool {
-    path.join("story.json").is_file()
+    super::flam_copy::is_copy(path)
+        || path.join("story.json").is_file()
         || crate::support::fs_pack_reader::detect_fs_pack_variant(path).is_some()
 }
 pub fn discover(

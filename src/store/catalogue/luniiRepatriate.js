@@ -1,7 +1,7 @@
 import { luniiWriteRefusal } from './luniiDevices.js';
 
 /** A Lunii story can be brought back only when it is a listed creation the catalogue does not hold yet. */
-export const repatriableStory = story => !story.orphan && !story.sending && story.kind !== 'official' && !story.catalogueFicheId;
+export const repatriableStory = (story, device) => !story.orphan && !story.sending && (device?.family === 'flam' || (story.kind !== 'official' && !story.catalogueFicheId));
 
 /**
  * What dropping (or choosing) these stories for repatriation would do: how many
@@ -9,7 +9,7 @@ export const repatriableStory = story => !story.orphan && !story.sending && stor
  * `writeCode`), `official`, `present` (already in the catalogue) or `orphan`.
  */
 export function repatriatePlan(device, stories) {
-  const eligible = stories.filter(repatriableStory);
+  const eligible = stories.filter(story => repatriableStory(story, device));
   const writeCode = luniiWriteRefusal(device, 'repatriateMany');
   let refusal = null;
   if (writeCode) refusal = 'write';

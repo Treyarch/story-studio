@@ -72,7 +72,7 @@ export function summaryLifetime(snapshot) {
 const OPERATION_TITLES = {
   trash: 'catalogue:operation.trash', deletePermanently: 'catalogue:operation.delete',
   duplicates: 'catalogue:operation.duplicates', assembly: 'catalogue:operation.assembly',
-  luniiRepatriate: 'catalogue:lunii.repatriate', luniiSend: 'catalogue:operation.luniiSend', lunii: 'catalogue:operation.lunii', catalogueExport: 'catalogue:operation.export',
+  flamImport: 'catalogue:lunii.flamCopy', luniiRepatriate: 'catalogue:lunii.repatriate', luniiSend: 'catalogue:operation.luniiSend', lunii: 'catalogue:operation.lunii', catalogueExport: 'catalogue:operation.export',
   catalogueImport: 'catalogue:operation.import',
 };
 const FILE_RESULTS = {
@@ -140,7 +140,7 @@ export function operationView(snapshot) {
   const isScan = !snapshot?.operationKind;
   const hasIssues = Boolean(view.error) || view.counts.error + view.counts.refused + view.roots.failed + view.directories.errors > 0;
   const hasIssueItems = view.counts.error + view.counts.refused + view.roots.failed + view.directories.errors > 0
-    || (Boolean(view.error) && snapshot?.operationKind === 'luniiRepatriate');
+    || (Boolean(view.error) && ['luniiRepatriate', 'flamImport'].includes(snapshot?.operationKind));
   const title = { key: OPERATION_TITLES[snapshot?.operationKind] ?? (isScan
     ? (view.terminal ? 'catalogue:summary.title.label' : 'catalogue:tracker.title.label')
     : 'catalogue:operation.title'), params: {} };
@@ -157,7 +157,7 @@ export function operationView(snapshot) {
       if (view.counts[counter] > 0) lines.push({ key, params: { count: view.counts[counter] }, counter });
     }
   }
-  const transfer = snapshot?.operationKind === 'luniiRepatriate' ? { progress: { ...view.progress, analysed: snapshot.result?.progress ?? 0, total: 100 }, progressLine: { key: 'catalogue:lunii.repatriateProgress', params: { percent: snapshot.result?.progress ?? 0 } } } : {};
+  const transfer = ['luniiRepatriate', 'flamImport'].includes(snapshot?.operationKind) ? { progress: { ...view.progress, analysed: snapshot.result?.progress ?? 0, total: 100 }, progressLine: { key: 'catalogue:lunii.repatriateProgress', params: { percent: snapshot.result?.progress ?? 0 } } } : {};
   return { ...view, ...transfer, isScan, hasIssues, hasIssueItems, title, lines, currentDirectory: snapshot?.currentDirectory ?? null,
     rootsLine: { key: 'catalogue:tracker.roots.progress', params: { completed: view.roots.completed + view.roots.failed, total: view.roots.total } },
     announce: shouldAnnounce(snapshot), lifetime: summaryLifetime(snapshot) };

@@ -711,3 +711,23 @@ test('engine orphan banners never render an empty section, including parked and 
     assert.doesNotMatch(text(tree), /\(0 byte\)/);
   }
 });
+
+test('FLAM offers copying a selection and all stories including hidden entries while keeping writes disabled', async () => {
+  const { storyMenuEntries } = await import('../src/components/Catalogue/lunii/LuniiStoryMenu.jsx');
+  const { LuniiSelectionPanel } = await import('../src/components/Catalogue/lunii/LuniiSelectionPanel.jsx');
+  const stories = [{ key: 'a', title: 'A', kind: 'official' }, { key: 'b', title: 'B', hidden: true, catalogueFicheId: 'local' }];
+  const flam = { ...device, family: 'flam', state: 'readOnly', readOnlyReason: 'flam', stories };
+  const calls = []; const gestures = { repatriate: (...args) => calls.push(args) };
+  const copy = storyMenuEntries({ device: flam, story: stories[0], gestures, t: engineT }).find(e => e.key === 'repatriate');
+  assert.equal(copy.enabled, true); copy.run();
+  assert.deepEqual(calls.pop(), [flam, [stories[0]]]);
+  const header = render(LuniiPanelHeader, { device: flam, gestures });
+  const all = elements(header).find(e => e.type === Button && text(e).trim() === 'Copier tout');
+  assert.ok(all); all.props.onClick(); assert.deepEqual(calls.pop(), [flam, stories]);
+  const selection = render(LuniiSelectionPanel, { device: flam, stories, gestures });
+  const selected = elements(selection).find(e => e.type === Button && text(e).trim() === 'Copier vers la bibliothèque locale');
+  assert.ok(selected); assert.equal(selected.props.disabled, false); selected.props.onClick();
+  assert.deepEqual(calls.pop(), [flam, stories]);
+  const remove = storyMenuEntries({ device: flam, story: stories[0], gestures, t: engineT }).find(e => e.key === 'remove');
+  assert.equal(remove.enabled, false);
+});

@@ -11018,24 +11018,79 @@
     }
   },
   "lunii.flamReadOnly": {
-    "context": "Panneau appareil FLAM ; prise en charge en lecture seule, sans transfert ni réparation Lunii.",
+    "context": "Import FLAM vers la bibliothèque locale ; copie brute sans modification de l’appareil.",
     "en": {
-      "sourceHash": "3c977fc25b70",
+      "sourceHash": "6a264d66689c",
       "status": "ai-reviewed"
     },
     "it": {
-      "sourceHash": "3c977fc25b70",
+      "sourceHash": "6a264d66689c",
       "status": "ai-reviewed"
     }
   },
   "lunii.flamPlaylistUnavailable": {
-    "context": "Panneau appareil FLAM ; prise en charge en lecture seule, sans transfert ni réparation Lunii.",
+    "context": "Import FLAM vers la bibliothèque locale ; copie brute sans modification de l’appareil.",
     "en": {
-      "sourceHash": "3ac49af2ada9",
+      "sourceHash": "544698ae29ef",
       "status": "ai-reviewed"
     },
     "it": {
-      "sourceHash": "3ac49af2ada9",
+      "sourceHash": "544698ae29ef",
+      "status": "ai-reviewed"
+    }
+  },
+  "lunii.flamCopy": {
+    "context": "Import FLAM vers la bibliothèque locale ; copie brute sans modification de l’appareil.",
+    "en": {
+      "sourceHash": "37983c3781b7",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "37983c3781b7",
+      "status": "ai-reviewed"
+    }
+  },
+  "lunii.flamCopyAll": {
+    "context": "Import FLAM vers la bibliothèque locale ; copie brute sans modification de l’appareil.",
+    "en": {
+      "sourceHash": "1b25f4d00b73",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "1b25f4d00b73",
+      "status": "ai-reviewed"
+    }
+  },
+  "format.flam.label": {
+    "context": "Import FLAM vers la bibliothèque locale ; copie brute sans modification de l’appareil.",
+    "en": {
+      "sourceHash": "b42a8cc5e197",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "b42a8cc5e197",
+      "status": "ai-reviewed"
+    }
+  },
+  "lunii.flamCopyUnavailable": {
+    "context": "Import FLAM vers la bibliothèque locale ; copie brute sans modification de l’appareil.",
+    "en": {
+      "sourceHash": "c73b5194d31c",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "c73b5194d31c",
+      "status": "ai-reviewed"
+    }
+  },
+  "lunii.flamCopyCounts": {
+    "context": "Import FLAM vers la bibliothèque locale ; copie brute sans modification de l’appareil.",
+    "en": {
+      "sourceHash": "4ac2d59cf390",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "4ac2d59cf390",
       "status": "ai-reviewed"
     }
   }

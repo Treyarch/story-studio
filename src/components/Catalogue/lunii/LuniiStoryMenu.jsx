@@ -21,10 +21,10 @@ export function storyMenuEntries({ device, story, gestures, onName, t, queued = 
   // A removal already waits: no contradicting gesture is offered without saying why.
   const waitingRemoval = removalPending(queued) ? t('catalogue:lunii.queue.removingReason') : null;
   const reason = writeReason(device, t) || waitingRemoval;
-  const repatriateReason = story.kind === 'official' ? t('catalogue:lunii.officialReason') : writeReason(device, t, 'repatriateMany') || waitingRemoval;
+  const repatriateReason = device.family !== 'flam' && story.kind === 'official' ? t('catalogue:lunii.officialReason') : writeReason(device, t, 'repatriateMany') || waitingRemoval;
   const entries = [];
   if (!story.orphan && story.kind === 'unknown') entries.push({ key: 'name', Icon: Pencil, label: t('catalogue:lunii.nameStory'), enabled: !reason, title: reason, run: onName });
-  if (!story.orphan && !story.catalogueFicheId) entries.push({ key: 'repatriate', Icon: Download, label: t('catalogue:lunii.repatriate'), enabled: !repatriateReason, detail: repatriateReason, run: () => gestures?.repatriate(device, [story]) });
+  if (!story.orphan && (device.family === 'flam' || !story.catalogueFicheId)) entries.push({ key: 'repatriate', Icon: Download, label: device.family === 'flam' ? t('catalogue:lunii.flamCopy') : t('catalogue:lunii.repatriate'), enabled: !repatriateReason, detail: repatriateReason, run: () => gestures?.repatriate(device, [story]) });
   if (!story.orphan) entries.push({ key: 'hide', Icon: Eye, label: story.hidden ? t('catalogue:lunii.show') : t('catalogue:lunii.hide'), enabled: !reason, title: reason, run: () => gestures?.hide(device, story) });
   if (story.orphan && story.complete && !story.duplicateOfListed) entries.push({ key: 'putBack', Icon: Eye, label: t('catalogue:lunii.putBack'), enabled: !reason, title: reason, run: () => gestures?.orphan(device, story) });
   entries.push({ key: 'remove', Icon: Trash2, label: story.orphan ? t('catalogue:lunii.delete') : t('catalogue:lunii.remove'), enabled: !reason, title: reason, separatorBefore: true, run: () => gestures?.remove(device, [story]) });

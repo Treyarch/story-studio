@@ -32,7 +32,7 @@ test('formats dans l’ordre fixe et exemplaires du plus récent au plus ancien'
   assert.equal(child.fileName, '5+ours', 'nom du pack dans l’archive');
   assert.equal(child.available, false);
   assert.equal(child.sizeBytes, null);
-  assert.deepEqual(FORMAT_ORDER, ['project', 'zip', 'sevenZip', 'folder']);
+  assert.deepEqual(FORMAT_ORDER, ['project', 'zip', 'sevenZip', 'folder', 'flam']);
 });
 
 test('ordre complet : Projet, ZIP, 7z, Dossier ; même date départagée par le chemin', () => {

@@ -248,6 +248,13 @@ fn inspect_mode(
     if driver::flam::is_device(root) {
         let mut detail = flam_detail(id, root, &NativeVolumes)?;
         detail["busy"] = json!(entry(app, id)?.busy);
+        if let Some(stories) = detail["stories"].as_array_mut() {
+            for story in stories {
+                if let Some(uuid) = story["key"].as_str().and_then(|s| Uuid::parse_str(s).ok()) {
+                    story["catalogueFicheId"] = json!(shared.flam_copy_link(uuid)?);
+                }
+            }
+        }
         return Ok(detail);
     }
     let store: &Store = shared;
@@ -743,8 +750,21 @@ pub async fn lunii_device_repatriate(
         run(app, move |app, store| {
             let id = uuid(&key)?;
             let sink = catalogue::operation_sink(app.clone());
-            let op =
-                store.begin_lunii_transfer(request_id, 1, Arc::clone(&sink), "luniiRepatriate")?;
+            let is_flam = entry(app, &device_id)?
+                .volume
+                .root
+                .as_deref()
+                .is_some_and(driver::flam::is_device);
+            let op = store.begin_lunii_transfer(
+                request_id,
+                1,
+                Arc::clone(&sink),
+                if is_flam {
+                    "flamImport"
+                } else {
+                    "luniiRepatriate"
+                },
+            )?;
             let receipt = {
                 let p = op.progress.lock().map_err(failure)?;
                 json!({"operationId":p.operation_id,"requestId":p.request_id,
@@ -755,15 +775,20 @@ pub async fn lunii_device_repatriate(
             }
             let setup = (|| {
                 let reservation = reserve(app, &device_id)?;
-                let device = device(app, &device_id)?;
+                let root = entry(app, &device_id)?.volume.root.ok_or_else(gone)?;
+                let device = if driver::flam::is_device(&root) {
+                    None
+                } else {
+                    Some(device(app, &device_id)?)
+                };
                 let cache = app
                     .path()
                     .app_cache_dir()
                     .map_err(failure)?
                     .join("storyteller-repatriate");
-                Ok::<_, UserMessage>((reservation, device, cache))
+                Ok::<_, UserMessage>((reservation, device, cache, root))
             })();
-            let (reservation, device, cache) = match setup {
+            let (reservation, device, cache, root) = match setup {
                 Ok(value) => value,
                 Err(error) => {
                     if let Ok(mut p) = op.progress.lock() {
@@ -777,15 +802,19 @@ pub async fn lunii_device_repatriate(
             let app = app.clone();
             std::thread::spawn(move || {
                 let _reservation = reservation;
-                crate::services::storyteller::repatriate::run(
-                    store,
-                    device,
-                    id,
-                    cache,
-                    (workspace_dir, archive_name),
-                    op,
-                    sink,
-                );
+                if let Some(device) = device {
+                    crate::services::storyteller::repatriate::run(
+                        store,
+                        device,
+                        id,
+                        cache,
+                        (workspace_dir, archive_name),
+                        op,
+                        sink,
+                    );
+                } else {
+                    catalogue::flam_copy::run(store, root, id, workspace_dir, op, sink);
+                }
                 catalogue::sources_changed(&app);
             });
             Ok(receipt)

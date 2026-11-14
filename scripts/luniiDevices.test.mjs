@@ -5,11 +5,12 @@ import { KEYS } from '../src/store/persistentSettings.js';
 
 const tick = () => new Promise(resolve => setImmediate(resolve));
 
-test('FLAM refuses every Lunii action, including retrieval, while allowing browsing', async () => {
+test('FLAM permits local copying while refusing writes', async () => {
   const flam = { id: 'flam', name: 'FLAM', family: 'flam', state: 'readOnly', stories: [{ key: 'story', title: 'Une aventure' }], orphans: [], banner: ['readOnly'], readOnlyReason: 'flam' };
-  for (const method of ['send', 'remove', 'reorder', 'hide', 'rename', 'repair', 'restore', 'repatriateMany']) {
+  for (const method of ['send', 'remove', 'reorder', 'hide', 'rename', 'repair', 'restore']) {
     assert.equal(luniiWriteRefusal(flam, method), 'STORYTELLER_FLAM_READ_ONLY');
   }
+  assert.equal(luniiWriteRefusal(flam, 'repatriateMany'), null);
   const { store } = fixture({ inspect: async () => flam });
   store.reconcile([{ id: 'flam', state: 'ready' }]);
   await tick();

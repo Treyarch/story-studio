@@ -863,8 +863,15 @@ fn card_for(
     observation: &Observation,
     result: &mut Published,
 ) -> Result<String> {
-    let uuid = observation.uuid();
-    if let Some(uuid) = uuid {
+    let uuid = observation.uuid().map(|id| {
+        if observation.format == "flamDirectory" {
+            super::flam_copy::identity(uuid::Uuid::parse_str(id).expect("validated FLAM UUID"))
+                .to_string()
+        } else {
+            id.to_owned()
+        }
+    });
+    if let Some(uuid) = uuid.as_deref() {
         let known: Option<String> = tx
             .query_row(
                 "SELECT fiche_id FROM pack_identity WHERE pack_uuid=?1",
@@ -881,7 +888,7 @@ fn card_for(
     tx.execute("INSERT INTO fiche VALUES (?1,unixepoch(),0,0)", [&card])
         .map_err(error)?;
     result.cards_created += 1;
-    if let Some(uuid) = uuid {
+    if let Some(uuid) = uuid.as_deref() {
         let provenance = serde_json::to_string(&observation.identity).map_err(error)?;
         tx.execute(
             "INSERT INTO pack_identity VALUES (?1,?2,?3)",
@@ -1089,7 +1096,7 @@ struct CardRow {
 }
 
 /// Formats whose on-disk size is that of a folder entry, not of the pack.
-const FOLDER_FORMATS: &[&str] = &["studioDirectory", "fsDirectory"];
+const FOLDER_FORMATS: &[&str] = &["studioDirectory", "fsDirectory", "flamDirectory"];
 
 /// Valid value of the first observed field among `pointers`, read from a
 /// stored observation (same rule as `Observation::valid_field`).

@@ -151,6 +151,11 @@ pub(super) fn token(path: &Path) -> std::io::Result<(String, i64, u64)> {
             }
         }
     }
+    if super::flam_copy::is_copy(path) {
+        let bytes = super::flam_copy::metadata_bytes(path)?;
+        use sha2::{Digest, Sha256};
+        token.push_str(&format!(":flam:{:x}", Sha256::digest(bytes)));
+    }
     Ok((token, time.as_millis() as i64, m.len()))
 }
 fn dependency_token(mut base: String, paths: &[String]) -> String {

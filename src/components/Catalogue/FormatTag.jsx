@@ -6,6 +6,7 @@ const FORMAT_CLASSES = Object.freeze({
   zip: 'catalogue-format-tag--zip',
   sevenZip: 'catalogue-format-tag--seven-zip',
   folder: 'catalogue-format-tag--folder',
+  flam: 'catalogue-format-tag--folder',
 });
 
 /** Ouvre le menu au clavier : touche menu ou Maj+F10 (Entrée/Espace = clic). */

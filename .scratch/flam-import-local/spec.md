@@ -62,7 +62,7 @@ Permettre de copier une sélection d’histoires ou toute la bibliothèque FLAM 
 
 ## Testing Decisions
 
-Périmètre proposé à l’utilisateur ; confirmation des points de test en attente.
+Périmètre de test confirmé par l’utilisateur : acquisition depuis un FLAM synthétique jusqu’au catalogue local, puis après un nouveau scan, complétée par les tests existants du panneau et de la file d’opérations.
 
 - Privilégier un point d’entrée principal au niveau de l’acquisition : importer depuis un FLAM synthétique vers un espace de travail temporaire, puis observer les fichiers et le catalogue via les interfaces existantes. Tester les comportements externes plutôt que les fonctions internes ou la forme des appels.
 - Prendre pour précédents les tests d’acquisition existants, qui vérifient déjà le catalogue, la préservation de l’appareil, les déconnexions et l’absence de résidus après annulation.
@@ -92,4 +92,4 @@ Le comportement fonctionnel a été confirmé à l’issue de l’entretien. La 
 
 Employer les termes « bibliothèque FLAM », « bibliothèque locale » et « import depuis FLAM » du glossaire. Aucune ADR existante ne contraint cette zone ; aucune nouvelle ADR n’est nécessaire pour ces choix réversibles.
 
-Le suivi du projet est local en Markdown. Aucune publication GitHub ni implémentation du produit n’est incluse dans cette étape. Publier le ticket avec Status: ready-for-agent après confirmation du périmètre de test demandé par le skill to-spec.
+Le suivi du projet est local en Markdown. Le ticket de réalisation est publié avec le statut ready-for-agent, le comportement et le périmètre de test ayant été confirmés. Aucune publication GitHub n’est demandée. La réalisation et ses vérifications sont désormais consignées dans le ticket et le bilan de revue locaux.

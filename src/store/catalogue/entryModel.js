@@ -8,7 +8,7 @@ import { generationState, generationFilterState } from './generationState.js';
 // sont résolues champ par champ ; les contradictions restent signalées.
 
 /** Ordre fixe d'affichage des formats : Projet, ZIP, 7z, Dossier. */
-export const FORMAT_ORDER = Object.freeze(['project', 'zip', 'sevenZip', 'folder']);
+export const FORMAT_ORDER = Object.freeze(['project', 'zip', 'sevenZip', 'folder', 'flam']);
 
 // Formats techniques publiés par le moteur → famille affichée.
 const FORMAT_FAMILIES = Object.freeze({
@@ -18,6 +18,7 @@ const FORMAT_FAMILIES = Object.freeze({
   '7z': 'sevenZip',
   studioDirectory: 'folder',
   fsDirectory: 'folder',
+  flamDirectory: 'flam',
 });
 
 /** Types de projet reconnus dans un `.mbah` (mode d'édition). */

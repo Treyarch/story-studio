@@ -68,13 +68,13 @@ export function createLuniiQueue({ execute, acquire = () => {}, release = () => 
   }
   return {
     // Plain data only on the published entry: what the list needs to show it while it waits.
-    enqueue(deviceId, { kind, keys = [], title = '', dropIndex, rowKey, items, deviceName, ...payload }) {
+    enqueue(deviceId, { kind, keys = [], title = '', dropIndex, rowKey, items, deviceName, flamCopy, ...payload }) {
       // A new explicit gesture starts a new run; old queued entries never restart.
       if (!runners.has(deviceId)) { blocked.delete(deviceId); failedRepatriations.delete(deviceId); runs.set(deviceId, crypto.randomUUID()); }
       const id = crypto.randomUUID();
       let resolve;
       const finished = new Promise(done => { resolve = done; });
-      const shown = { dropIndex, rowKey, items, args: payload.args, deviceName, run: runs.get(deviceId) };
+      const shown = { dropIndex, rowKey, items, args: payload.args, deviceName, flamCopy, run: runs.get(deviceId) };
       const entry = { id, kind, keys: [...keys], title, state: 'queued', reason: null, ...Object.fromEntries(Object.entries(shown).filter(([, value]) => value !== undefined)) };
       records = { ...records, [deviceId]: [...entries(deviceId), entry] };
       jobs.set(id, { payload, resolve });

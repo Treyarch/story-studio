@@ -12,6 +12,10 @@ public version; this file stays as the concise project history.
 
 ### Added
 
+- Copie des histoires FLAM vers la bibliothèque locale, par sélection ou en
+  totalité : dossiers d’origine conservés, métadonnées retrouvées au scan,
+  doublons ignorés, annulation et bilan. Aucun fichier de l’appareil n’est modifié.
+
 - Prototype « Le dé des lucioles » : jet narratif à vingt faces, deux rencontres
   sans échec et résultat sauvegardé avant affichage. Validation matérielle du
   résultat après extinction encore attendue.

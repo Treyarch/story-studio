@@ -33,16 +33,16 @@ test('Format checkboxes count fiches per format, support multiple choices and ke
   }));
   const buttons = surface => surface.elements.filter(e => e.type === 'button');
   let surface = render();
-  assert.deepEqual(buttons(surface).map(e => e.props.children[0]), ['Projet', 'ZIP', '7z', 'Dossier']);
-  assert.deepEqual(buttons(surface).map(e => e.props.children[1].props.children), [1, 2, 1, 1]);
+  assert.deepEqual(buttons(surface).map(e => e.props.children[0]), ['Projet', 'ZIP', '7z', 'Dossier', 'Copie FLAM']);
+  assert.deepEqual(buttons(surface).map(e => e.props.children[1].props.children), [1, 2, 1, 1, 0]);
   assert.ok(buttons(surface).every(e => e.props.role === 'menuitemcheckbox' && e.props['aria-checked'] === false));
   buttons(surface)[0].props.onClick();
   surface = render();
   buttons(surface)[1].props.onClick();
   surface = render();
   assert.deepEqual(state.filters.formats, ['project', 'zip']);
-  assert.deepEqual(buttons(surface).map(e => e.props['aria-checked']), [true, true, false, false]);
-  assert.deepEqual(buttons(surface).map(e => e.props.children[1].props.children), [1, 2, 1, 1]);
+  assert.deepEqual(buttons(surface).map(e => e.props['aria-checked']), [true, true, false, false, false]);
+  assert.deepEqual(buttons(surface).map(e => e.props.children[1].props.children), [1, 2, 1, 1, 0]);
   assert.deepEqual(runPipeline(cards, { query: state.query, filters: state.filters }).ids.sort(), ['multi', 'zip']);
   const summary = mountSurface(React.createElement(ActiveFilterSummary, { view: { ...state, summary: filterSummary(state) }, cards }));
   assert.match(summary.html, /Projet, ZIP/);
@@ -50,7 +50,7 @@ test('Format checkboxes count fiches per format, support multiple choices and ke
   assert.deepEqual(state.filters.formats, ['zip']);
   assert.equal(closed, 0);
   surface = render([]);
-  assert.deepEqual(buttons(surface).map(e => e.props.children[1].props.children), [0, 0, 0, 0]);
+  assert.deepEqual(buttons(surface).map(e => e.props.children[1].props.children), [0, 0, 0, 0, 0]);
   // Language uses the same checkbox and counter presentation.
   const languages = buttons(render([{ ...cards[0], language: 'fr' }, { ...cards[1], language: 'it' }], 'languages'));
   assert.deepEqual(languages.map(e => [e.props.role, e.props.children[1].props.children]), [['menuitemcheckbox', 1], ['menuitemcheckbox', 1]]);

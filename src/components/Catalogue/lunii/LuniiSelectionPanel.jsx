@@ -22,7 +22,7 @@ export function LuniiSelectionPanel({ device, stories: selection, gestures, onCl
   const stories = selection.filter(s => !leaving.includes(s));
   const reason = writeReason(device, t) || (stories.length ? null : t('catalogue:lunii.queue.removingReason'));
   const listed = stories.filter(s => !s.orphan);
-  const eligible = listed.filter(repatriableStory);
+  const eligible = listed.filter(story => repatriableStory(story, device));
   // Why some of the selection is left out: official stories, or stories the catalogue already holds.
   const leftOut = [listed.some(s => s.kind === 'official') && t('catalogue:lunii.officialReason'), listed.some(s => s.kind !== 'official' && s.catalogueFicheId) && t('catalogue:lunii.alreadyInCatalogue')].filter(Boolean).join(' ');
   const repatriateReason = !stories.length ? reason : eligible.length < stories.length && leftOut ? leftOut : writeReason(device, t, 'repatriateMany');
@@ -33,7 +33,7 @@ export function LuniiSelectionPanel({ device, stories: selection, gestures, onCl
     {leaving.length > 0 && <p className="lunii-selection-queued">{t('catalogue:lunii.queue.selectionLeaving', { count: leaving.length })}</p>}
     <div className="catalogue-selection-panel-actions">
       <Tooltip text={reason} disabled={!reason} wrap><Button disabled={!!reason || listed.length !== stories.length} onClick={() => gestures?.hideMany(device, listed)}>{(listed.every(s => s.hidden) ? t('catalogue:lunii.showMany', { count: listed.length }) : t('catalogue:lunii.hideMany', { count: listed.length }))}</Button></Tooltip>
-      <Tooltip text={repatriateReason} disabled={!repatriateReason} wrap><Button disabled={!eligible.length || !!writeReason(device, t, 'repatriateMany')} onClick={() => gestures?.repatriate(device, eligible)}>{eligible.length < stories.length ? t('catalogue:lunii.repatriateSome', { count: eligible.length, total: stories.length }) : t('catalogue:lunii.repatriate')}</Button></Tooltip>
+      <Tooltip text={repatriateReason} disabled={!repatriateReason} wrap><Button disabled={!eligible.length || !!writeReason(device, t, 'repatriateMany')} onClick={() => gestures?.repatriate(device, eligible)}>{device.family === 'flam' ? t('catalogue:lunii.flamCopy') : eligible.length < stories.length ? t('catalogue:lunii.repatriateSome', { count: eligible.length, total: stories.length }) : t('catalogue:lunii.repatriate')}</Button></Tooltip>
       {/* Listed stories leave the list, orphans leave the Lunii: one confirmation names both. */}
       <Tooltip text={reason} disabled={!reason} wrap><Button className="lunii-remove" disabled={!!reason} onClick={() => gestures?.remove(device, stories, true)}>{listed.length ? t('catalogue:lunii.remove') : t('catalogue:lunii.delete')}</Button></Tooltip>
     </div>

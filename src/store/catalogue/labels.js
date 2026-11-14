@@ -5,6 +5,7 @@ export const FORMAT_LABELS = Object.freeze({
   project: { labelKey: 'catalogue:format.project.label' },
   zip: { labelKey: 'catalogue:format.zip.label' },
   sevenZip: { labelKey: 'catalogue:format.sevenZip.label' },
+  flam: { labelKey: 'catalogue:format.flam.label' },
   folder: { labelKey: 'catalogue:format.folder.label' },
 });
 

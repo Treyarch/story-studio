@@ -378,7 +378,7 @@ fn valid_folder(name: &str) -> bool {
             .all(|b| b.is_ascii_digit() || (b'A'..=b'F').contains(&b))
 }
 /// Reject links/reparse points at every ancestor, including the supplied root.
-fn safe(path: &Path, directory: bool) -> Result<()> {
+pub(crate) fn safe(path: &Path, directory: bool) -> Result<()> {
     if !path.is_absolute()
         || path
             .components()

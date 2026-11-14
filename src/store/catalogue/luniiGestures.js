@@ -104,7 +104,7 @@ export function createLuniiGestures(lunii, t, confirm, setAnnouncement, choose =
     name: (device, story, title) => lunii.store.mutate(device.id, 'nameStory', [story.key, title], [story.key], shown(device, [story.key], [story])),
     rename: (device, name) => lunii.store.mutate(device.id, 'rename', [name]),
     repatriate(device, stories) {
-      const keys = stories.filter(repatriableStory).map(s => s.key);
+      const keys = stories.filter(story => repatriableStory(story, device)).map(s => s.key);
       return lunii.store.mutate(device.id, 'repatriateMany', [], keys, shown(device, keys, stories));
     },
     reorder: (device, keys, target) => commitOrder(device, keys, reorderedKeys(device.stories, keys, target), { rowKey: device.stories[target]?.key ?? null, index: target }),

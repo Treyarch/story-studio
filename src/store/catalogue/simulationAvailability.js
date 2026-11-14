@@ -35,6 +35,7 @@ export const SIMULATION_REASONS = Object.freeze({
  */
 export function simulationAvailability(exemplar) {
   if (!exemplar) return { enabled: false, reasonKey: SIMULATION_REASONS.noExemplar };
+  if (exemplar.technicalFormat === 'flamDirectory' || exemplar.format === 'flam') return { enabled: false, reasonKey: 'catalogue:lunii.flamCopyUnavailable' };
   if (!exemplar.format) return { enabled: false, reasonKey: SIMULATION_REASONS.unsupportedFormat };
   if (exemplar.state !== 'available') {
     return {

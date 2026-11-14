@@ -290,3 +290,26 @@ test('an unanswered operation IPC also expires after ten minutes of silence', as
   assert.deepEqual(store.getQueueReport().d.map(entry => entry.state), ['failed', 'notStarted']);
   assert.equal(store.getQueueReport().d[0].reason.deviceFault, true);
 });
+
+test('FLAM copying continues after an isolated error, reports native skips, and stops the remaining batch on cancellation', async () => {
+  const { queueReports } = await import('../src/store/catalogue/luniiQueueView.js');
+  const flam = { ...detail('d'), family: 'flam', state: 'readOnly', readOnlyReason: 'flam' };
+  let attempt = 0;
+  const { store } = await fixture({ inspect: async id => id === 'd' ? flam : detail(id),
+    repatriate: async () => ({ operationId: `copy-${++attempt}` }),
+    getOperation: async operationId => operationId === 'copy-1' ? { status: 'failed', error: { code: 'STORYTELLER_STORY_INCOMPLETE' } } : { status: 'success', result: { alreadyPresent: true } },
+  });
+  await store.mutate('d', 'repatriateMany', [], ['a', 'hidden', 'b']);
+  assert.equal(attempt, 3);
+  const [report] = queueReports(store.getQueueReport());
+  assert.equal(report.failed.length, 1); assert.equal(report.skipped.length, 2); assert.equal(report.done, 0);
+  assert.equal(report.flamCopy, true);
+  const gate = deferred();
+  const cancelled = await fixture({ inspect: async id => id === 'd' ? flam : detail(id),
+    repatriate: async () => ({ operationId: 'cancelled-copy' }), getOperation: async () => { await gate.promise; return { status: 'cancelled', error: { code: 'STORYTELLER_SEND_CANCELLED' } }; },
+  });
+  const copying = cancelled.store.mutate('d', 'repatriateMany', [], ['a', 'hidden', 'b']);
+  await tick(); gate.resolve(); await copying;
+  const [stopped] = queueReports(cancelled.store.getQueueReport());
+  assert.equal(stopped.failed.length, 1); assert.equal(stopped.notStarted.length, 2);
+});

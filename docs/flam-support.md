@@ -1,7 +1,7 @@
 # FLAM support
 
-Story Studio supports FLAM library browsing in read-only mode. The initial
-implementation was checked on Linux with a mounted FLAM running firmware
+Story Studio supports FLAM library browsing and lossless copying to the local
+library. The device remains read-only. The initial browsing implementation was checked on Linux with a mounted FLAM running firmware
 2.4.1. Windows and macOS use the same file parser but have not been checked on
 a physical FLAM.
 
@@ -11,7 +11,7 @@ The existing operating-system ejection command is available. Titles can be
 absent when the cache is missing or uses an unknown layout. A missing or invalid
 playlist is reported without offering Lunii repair operations.
 
-Sending, retrieving, removing, reordering, renaming, hiding and repairing are
+Sending, removing, reordering, renaming, hiding and repairing are
 disabled in both the interface and the backend. The Lunii device writer refuses
 FLAM roots, including roots containing both `.md` and `.mdf`. Inspection does
 not create sidecars, regenerate playlists, clear caches or read device keys.
@@ -26,6 +26,30 @@ reward, an inventory, a conditional door and a host-storage resume path under a
 separate identity. The user has confirmed the inventory, conditional passage,
 resume after power-off and explicit restart on their firmware 2.4.1 device.
 Dice and character classes remain future milestones.
+
+## Copying to the local library
+
+Select one or more stories and choose “Copy to local library”, or use “Copy all”
+to include every listed story, including hidden stories. Copies remain available
+after disconnecting FLAM. Playback and editing are unavailable for these copies.
+
+The configured workspace stores each copy under
+`packs-rapatries/<uuid>.flam/`: the original `<uuid>/` story folder is unchanged,
+and `flam-copy.json` beside it records the original UUID, optional title and
+hidden status. The wrapper lets the folder and its metadata appear together;
+it does not change the story’s internal layout. No ZIP is created. Preserve both
+the folder and its metadata when moving a copy so a library scan can rediscover it.
+
+An existing FLAM UUID is skipped across devices and versions. Imports never
+replace existing local content. Canceling retains completed copies and discards
+the current partial copy; a disconnection stops the remaining batch. An isolated
+story failure allows the other stories to continue. The activity report lists
+copied, already-present, failed and unprocessed stories. Retrying skips completed
+copies and starts other stories again from the beginning.
+
+These are raw copies, including each story’s `key` file. They do not imply
+portability, decryption or restoration support. Importing does not read the key
+material in the device metadata or write anything to FLAM.
 
 ## File layout
 
@@ -61,7 +85,8 @@ Lunii-format transfers cannot simply be redirected into `str/`.
 
 ```sh
 cargo test --locked --manifest-path src-tauri/Cargo.toml --lib storyteller_device::
-node --test scripts/luniiDevices.test.mjs scripts/luniiPanel.test.mjs
+cargo test --locked --manifest-path src-tauri/Cargo.toml --lib flam_copy::tests
+node --test scripts/luniiDevices.test.mjs scripts/luniiPanel.test.mjs scripts/luniiQueue.test.mjs scripts/luniiQueueReport.test.mjs
 ```
 
 An optional read-only test checks native discovery and inventory on a device

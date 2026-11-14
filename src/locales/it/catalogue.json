@@ -992,6 +992,11 @@
   "toolbar.sort.current": "Ordina per {{criterion}}",
   "sources.repatriated.managed": "Gestito da Story Studio: pacchetti recuperati dalla Lunii",
   "lunii.flamReadOnlyTitle": "FLAM · sola lettura",
-  "lunii.flamReadOnly": "Puoi consultare le storie di questo FLAM. Trasferimenti, recupero e modifiche non sono ancora supportati. I titoli provengono dalla cache del dispositivo, quando disponibile.",
-  "lunii.flamPlaylistUnavailable": "Questo FLAM viene riconosciuto, ma il suo elenco di storie è illeggibile o incompleto. Story Studio non modifica alcun file. Trasferimenti e modifiche non sono ancora supportati."
+  "lunii.flamReadOnly": "Puoi consultare le storie di questo FLAM e copiarle nella libreria locale. Le modifiche sul dispositivo e i trasferimenti verso FLAM non sono ancora supportati. I titoli provengono dalla cache del dispositivo, quando disponibile.",
+  "lunii.flamPlaylistUnavailable": "L’elenco delle storie di questo FLAM è illeggibile o incompleto. La copia non è disponibile. Story Studio non modifica alcun file sul dispositivo.",
+  "lunii.flamCopy": "Copia nella libreria locale",
+  "lunii.flamCopyAll": "Copia tutto",
+  "format.flam.label": "Copia FLAM",
+  "lunii.flamCopyUnavailable": "Questa copia FLAM può essere conservata e consultata. Riproduzione e modifica non sono ancora disponibili.",
+  "lunii.flamCopyCounts": "{{done}} copiate, {{skipped}} già presenti, {{failed}} non riuscite, {{notStarted}} non elaborate."
 }

@@ -41,14 +41,15 @@ export function LuniiQueueReport({ report, handlers }) {
   const language = i18next.resolvedLanguage ?? 'fr';
   const item = entry => entry.title ? t('catalogue:lunii.queueReport.item', { kind: queueKindLabel(t, entry), title: entry.title }) : queueKindLabel(t, entry);
   return <div className="catalogue-activity-summary">
-    <p className="validation-pill-details-text">{t('catalogue:lunii.queueReport.counts', { done: report.done, failed: report.failed.length, notStarted: report.notStarted.length })}</p>
+    <p className="validation-pill-details-text">{report.flamCopy ? t('catalogue:lunii.flamCopyCounts', { done: report.done, skipped: report.skipped?.length ?? 0, failed: report.failed.length, notStarted: report.notStarted.length }) : t('catalogue:lunii.queueReport.counts', { done: report.done, failed: report.failed.length, notStarted: report.notStarted.length })}</p>
+    {report.skipped?.length > 0 && <p className="validation-pill-details-text">{t('catalogue:lunii.alreadyInCatalogue')}: {list(report.skipped.map(e => e.title || t('catalogue:lunii.untitled')), language)}</p>}
     {report.failed.length > 0 && <ul className="validation-pill-details-list" aria-label={t('catalogue:lunii.queueReport.failedList')}>
       {report.failed.map(entry => <li key={entry.id}><strong>{item(entry)}</strong> {entry.sendInterruption
         ? <LuniiSendBilan report={entry.sendInterruption} handlers={handlers} />
         : <span>{presentCatalogueError(entry.reason).message}</span>}</li>)}
     </ul>}
     {report.notStarted.length > 0 && <>
-      <p className="validation-pill-details-text">{queueStopReason(t, report.stop)}</p>
+      <p className="validation-pill-details-text">{report.stop ? queueStopReason(t, report.stop) : t('catalogue:operation.cancelled')}</p>
       <ul className="validation-pill-details-list" aria-label={t('catalogue:lunii.queueReport.notStartedList')}>{report.notStarted.map(entry => <li key={entry.id}>{item(entry)}</li>)}</ul>
     </>}
     {report.excluded.length > 0 && <p className="validation-pill-details-text">{t('catalogue:lunii.queueReport.excluded', { count: report.excluded.length, titles: list(report.excluded.map(e => e.title || t('catalogue:lunii.untitled')), language) })}</p>}
@@ -63,7 +64,7 @@ export function luniiQueueEntries(t, input) {
     const entries = queue.entries?.[report.deviceId]?.filter(entry => entry.run === report.run);
     return !(entries?.length === 1 && entries[0].sendInterruption);
   }).map(report => ({
-    key: `queue-report:${report.run}`, kind: 'summary', tone: 'issue', signature: null,
+    key: `queue-report:${report.run}`, kind: 'summary', tone: report.failed.length || report.notStarted.length ? 'issue' : 'success', signature: null,
     label: t('catalogue:lunii.queueReport.title', { name: report.deviceName || t('catalogue:lunii.name') }),
     onDismiss: () => queue.onDismiss?.(report.deviceId, report.run),
     detail: <LuniiQueueReport report={report} handlers={input.sends?.handlers} />,

@@ -107,13 +107,16 @@ export function queueReports(queues = {}) {
     for (const [run, list] of runs) {
       if (list.some(entry => entry.reported || entry.state === 'queued' || entry.state === 'running')) continue;
       const failed = list.filter(entry => entry.state === 'failed');
-      const notStarted = list.filter(entry => entry.state === 'notStarted');
+      const notStarted = list.filter(entry => entry.state === 'notStarted' || (entry.flamCopy && entry.state === 'cancelled'));
+      const skipped = list.filter(entry => entry.alreadyPresent);
+      const flamCopy = list.some(entry => entry.flamCopy);
       const titleOf = key => list.find(entry => entry.kind === 'repatriate' && entry.keys.includes(key))?.title || null;
       const excluded = list.flatMap(entry => entry.reason?.excluded ?? []).map(item => ({ key: item.key, title: titleOf(item.key) }));
-      if (!failed.length && !notStarted.length && !excluded.length) continue;
+      if (!flamCopy && !failed.length && !notStarted.length && !excluded.length) continue;
       reports.push({
         deviceId, run, deviceName: list.find(entry => entry.deviceName)?.deviceName ?? null,
-        done: list.filter(entry => entry.state === 'done').length, failed, notStarted, excluded,
+        done: list.filter(entry => entry.state === 'done' && !entry.alreadyPresent).length, failed, notStarted, excluded,
+        ...(flamCopy ? { flamCopy, skipped } : {}),
         stop: notStarted[0]?.reason ?? null,
       });
     }

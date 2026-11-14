@@ -15,7 +15,7 @@ import { FAMILY_CONTROLS, filterControls, compactTagLabel } from '../../store/ca
 export const FILTER_VALUE_KEYS = Object.freeze({
   modifiedSince: 'catalogue:generation.modified.reason',
   project: 'catalogue:format.project.label', zip: 'catalogue:format.zip.label',
-  sevenZip: 'catalogue:format.sevenZip.label', folder: 'catalogue:format.folder.label',
+  flam: 'catalogue:format.flam.label', sevenZip: 'catalogue:format.sevenZip.label', folder: 'catalogue:format.folder.label',
   simple: 'catalogue:filter.type.simple', menus: 'catalogue:filter.type.menus', graph: 'catalogue:filter.type.graph',
   description: 'catalogue:filter.missing.description', author: 'catalogue:filter.missing.author', language: 'catalogue:filter.missing.language',
   title: 'catalogue:filter.missing.title', age: 'catalogue:filter.missing.age', cover: 'catalogue:filter.missing.cover',
