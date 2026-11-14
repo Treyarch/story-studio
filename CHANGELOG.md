@@ -12,6 +12,10 @@ public version; this file stays as the concise project history.
 
 ### Added
 
+- Prototype « Le dé des lucioles » : jet narratif à vingt faces, deux rencontres
+  sans échec et résultat sauvegardé avant affichage. Validation matérielle du
+  résultat après extinction encore attendue.
+
 - Prototype natif FLAM expérimental « La clé des lucioles » : inventaire,
   récompense unique, porte conditionnelle et reprise via le stockage hôte.
   La conservation après extinction est confirmée sur la FLAM 2.4.1 testée ; les

@@ -5,6 +5,7 @@ local savegame = require("savegame")
 local partie = scenes.initialPartie()
 local hasPartie = false
 local loadProblem, pendingSave
+local proposedRoll
 local choices, rows = {}, {}
 local root, heading, body, first, second, hint, timer
 local styles = {}
@@ -78,6 +79,7 @@ local function commit(candidate)
         return false
     end
     pendingSave = nil
+    if candidate.roll > 0 or candidate.door == 0 then proposedRoll = nil end
     partie, hasPartie = candidate, true
     return true
 end
@@ -110,7 +112,7 @@ local function welcome()
     choices = {{label = hasPartie and "Reprendre" or "Commencer", action = "intro"}}
     if hasPartie then choices[#choices + 1] = {label = "Recommencer", action = "confirm-restart"} end
     choices[#choices + 1] = {label = "Bibliothèque", action = "leave"}
-    lv.label.set_text(heading, "La clé des lucioles")
+    lv.label.set_text(heading, "Le dé des lucioles")
     lv.label.set_text(body, "Explore, trouve une clé\net ouvre le passage du village.")
     lv.label.set_text(hint, "Retour : bibliothèque")
     drawChoices()
@@ -171,6 +173,10 @@ local function click()
         for name, value in pairs(partie) do candidate[name] = value end
         candidate.scene = option.destination
         for name, value in pairs(option.effects or {}) do candidate[name] = value end
+        if option.roll and candidate.roll == 0 then
+            proposedRoll = proposedRoll or math.random(20)
+            candidate.roll = proposedRoll
+        end
         if commit(candidate) then beginNarration() end
     end
 end

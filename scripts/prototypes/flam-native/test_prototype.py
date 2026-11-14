@@ -34,6 +34,8 @@ class TransferTests(unittest.TestCase):
             "sounds/coffre-stereo.mp3": b"coffre", "sounds/coffre-stereo.mp3map": bytes(12),
             "sounds/porte-stereo.mp3": b"porte", "sounds/porte-stereo.mp3map": bytes(12),
             "sounds/fin-stereo.mp3": b"fin", "sounds/fin-stereo.mp3map": bytes(12),
+            "sounds/rencontre-stereo.mp3": b"rencontre", "sounds/rencontre-stereo.mp3map": bytes(12),
+            "sounds/renard-stereo.mp3": b"renard", "sounds/renard-stereo.mp3map": bytes(12),
         }
         with zipfile.ZipFile(self.output / p.PACK, "w") as archive:
             for name, data in self.files.items():

@@ -1,7 +1,7 @@
-# Prototype jetable : inventaire et reprise sur FLAM
+# Prototype jetable : dé narratif et reprise sur FLAM
 
-Ce second jalon ajoute une aventure originale, **La clé des lucioles** :
-clairière, coffre, clé consommable, porte conditionnelle et fin explicite.
+Ce troisième jalon ajoute **Le dé des lucioles** : coffre, clé, porte, puis
+un jet à vingt faces qui détermine une rencontre sans échec.
 Il est séparé du transfert de production, sans framework tiers ni contenu commercial.
 
 ## État de validation
@@ -15,6 +15,11 @@ après le parcours demandé de reprise après extinction et de nouveau départ.
 Cette validation matérielle complète le harnais, qui vérifie les règles et la
 restauration via un stockage simulé. Elle ne garantit pas les autres firmwares
 ni la résistance à une coupure arbitraire pendant une écriture.
+
+Le jalon inventaire **La clé des lucioles** est validé sur cet appareil. Le
+nouveau prototype possède une autre identité : les deux aventures précédentes
+et leurs sauvegardes sont conservées. **Le dé conservé après extinction reste à
+valider sur le matériel.**
 
 ## Construire et vérifier
 
@@ -34,10 +39,10 @@ luac -p scripts/prototypes/flam-native/savegame.lua
 La voix française installée par Story Studio est choisie par défaut ; un autre
 modèle peut être passé avec --voice. L’option --piper peut être omise si
 l’exécutable est dans le PATH.
-Les quatre narrations sont originales et disponibles dans les fichiers texte.
+Les six narrations sont originales et disponibles dans les fichiers texte.
 
-Le résultat se trouve dans exports/flam-inventaire-prototype/ :
-cle-des-lucioles.plain.pk, manifeste et aperçu de l’introduction.
+Le résultat se trouve dans exports/flam-des-prototype/ :
+de-des-lucioles.plain.pk, manifeste et aperçu de l’introduction.
 Aucune métadonnée d’appareil n’est incluse dans cette archive de travail.
 
 Le runtime utilise le profil Audio B : stéréo 44,1 kHz, 128 kbit/s, ID3/Xing et
@@ -53,7 +58,9 @@ L’ouverture consomme cette clé et conserve la porte ouverte. Sans clé, le ch
 est désactivé avec une explication ; le retour vers la clairière reste possible.
 Reprendre et recommencer sont distincts, avec confirmation avant un nouveau départ.
 
-L’état sauvegardé est plat : version, scène, quantité, coffre vidé, porte ouverte.
+L’état sauvegardé est plat : version, scène, quantité, coffre vidé, porte ouverte
+et résultat du dé (zéro avant le premier jet). Le schéma deux appartient à cette
+nouvelle aventure ; aucune sauvegarde antérieure n’est migrée.
 Il exclut objets LVGL, fonctions et timers. Il n’écrit pas dans la globale
 firmware state, dont certaines écritures ont provoqué des problèmes de relance
 dans les expériences publiques.
@@ -115,22 +122,39 @@ Le retrait vérifie les fichiers appartenant à ce prototype ; les autres histoi
 et leurs sauvegardes ne sont pas supprimées. Démonter proprement avant déconnexion.
 Après installation, éteindre complètement puis rallumer pour charger le nouveau code.
 
-## Parcours matériel validé
+## Dé narratif
 
-1. Désactiver le Wi-Fi, ouvrir **La clé des lucioles**, commencer et écouter.
+Après la porte, le jet est déclenché par un clic. Un à dix appelle les lucioles,
+onze à vingt un renard ; les deux rencontres mènent au village. Le nombre et la
+rencontre sont sauvegardés avant affichage. Revisiter ou reprendre ne relance
+pas le dé. Une écriture refusée peut être retentée avec le même candidat.
+Seul un nouveau départ explicite permet un nouveau jet, qui peut naturellement
+être égal au précédent. Aucun caractère cryptographique du hasard n’est promis.
+
+Le harnais fixe successivement les valeurs un, dix, onze et vingt ; après le
+premier tirage, tout nouvel appel au hasard est interdit jusqu’à la prochaine
+partie. Il vérifie la reprise en mémoire, la nouvelle instance et la revisite.
+
+## Parcours matériel à confirmer
+
+1. Désactiver le Wi-Fi, ouvrir **Le dé des lucioles**, commencer et écouter.
 2. Visiter la porte sans clé : ouverture indisponible, retour possible.
 3. Explorer le coffre, prendre la clé, consulter l’inventaire : **Clé : 1**.
 4. Quitter vers la bibliothèque puis reprendre : clé présente et coffre vide.
 5. Éteindre complètement, rallumer, reprendre : même scène et même inventaire.
 6. Ouvrir la porte : clé consommée et porte ouverte.
 7. Éteindre, rallumer et reprendre : porte ouverte et **Clé : 0**.
-8. Revisiter le coffre : aucune nouvelle clé ; traverser pour atteindre la fin.
-9. Recommencer explicitement : inventaire vide, coffre plein et porte fermée.
-10. Vérifier l’accès au premier prototype et aux histoires achetées.
+8. Revisiter le coffre : aucune nouvelle clé. Traverser la porte, lancer le dé
+   et noter le nombre ainsi que la rencontre.
+9. Revenir à la bibliothèque puis reprendre : même nombre et même rencontre.
+10. Éteindre complètement, rallumer, reprendre : le nombre reste identique.
+11. Suivre la rencontre pour atteindre la fin, revisiter sans nouveau tirage.
+12. Recommencer explicitement : inventaire vide, coffre plein et porte fermée.
+13. Vérifier l’accès au premier prototype et aux histoires achetées.
 
-Noter toute erreur avec son libellé et l’étape. Le ticket a été résolu après
-confirmation de ce parcours sur l’appareil de l’utilisateur. Ce jalon ne valide
-ni dés ni classes et n’intègre pas encore l’éditeur visuel.
+Noter toute erreur avec son libellé et l’étape. Le ticket des dés reste ouvert
+jusqu’à confirmation du résultat conservé après extinction. Les classes et
+l’éditeur visuel restent des jalons suivants.
 
 ## Sources d’interopérabilité
 

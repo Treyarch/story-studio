@@ -21,10 +21,10 @@ import zipfile
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 SOURCE = Path(__file__).resolve().parent
-OUTPUT = SOURCE.parents[2] / "exports" / "flam-inventaire-prototype"
-STORY = UUID("b74aa3e6-2d71-4d16-aad3-c7feab77389f")
-TITLE = "La clé des lucioles"
-PACK = "cle-des-lucioles.plain.pk"
+OUTPUT = SOURCE.parents[2] / "exports" / "flam-des-prototype"
+STORY = UUID("bd45817a-7df6-45ad-9cfa-3efbcf14b7c4")
+TITLE = "Le dé des lucioles"
+PACK = "de-des-lucioles.plain.pk"
 BACKUPS = Path.home() / ".local/share/com.hugs11.story-studio/flam-prototype"
 
 
@@ -116,7 +116,7 @@ def build(output, piper, voice, audio_source=None):
             "sounds/intro-stereo.mp3map": audio_map(stereo),
             "uuid.bin": STORY.bytes,
         }
-        for name in ("coffre", "porte", "fin"):
+        for name in ("coffre", "porte", "fin", "rencontre", "renard"):
             clip_wav = Path(temporary) / f"{name}.wav"
             clip_mp3 = Path(temporary) / f"{name}-stereo.mp3"
             run(str(piper), "--model", str(voice), "--input-file", str(SOURCE / f"{name}.txt"),
@@ -179,7 +179,7 @@ def read_pack(output):
                 "script/scenes.lua", "script/savegame.lua",
                 "sounds/intro.mp3", "sounds/intro.mp3map", "sounds/intro-stereo.mp3",
                 "sounds/intro-stereo.mp3map", "uuid.bin"}
-    expected.update(f"sounds/{name}-stereo.{suffix}" for name in ("coffre", "porte", "fin")
+    expected.update(f"sounds/{name}-stereo.{suffix}" for name in ("coffre", "porte", "fin", "rencontre", "renard")
                     for suffix in ("mp3", "mp3map"))
     with zipfile.ZipFile(output / PACK) as archive:
         if len(archive.namelist()) != len(expected) or set(archive.namelist()) != expected:

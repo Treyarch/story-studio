@@ -3,6 +3,13 @@ local folder = arg[0]:match("^(.*)/")
 package.path = folder .. "/?.lua;" .. package.path
 local callbacks, labels, update, feedback, exited, plays, loadResult, audioStatus, loadedPath
 local saves = {}
+local dieValue = 7
+local originalRandom = math.random
+math.random = function(maximum)
+    assert(maximum == 20)
+    assert(dieValue, "Un jet deja sauvegarde ne doit jamais etre relance")
+    return dieValue
+end
 local rejectWrite, rejectRead, discardWrite, failReadAfterWrite = false, false, false, false
 local function copy(value)
     if type(value) ~= "table" then return value end
@@ -135,6 +142,10 @@ choose("Inventaire")
 expect("Clé : 0")
 choose("Retour à la scène")
 travel("Traverser la porte")
+expect("Lancer le dé")
+travel("Lancer le dé")
+expect("Dé : 7 / 20")
+travel("Suivre la rencontre")
 expect("Fin de l'aventure")
 travel("Retour à la clairière")
 travel("Voir la porte")
@@ -320,3 +331,47 @@ narration()
 assert(loadedPath == "porte-stereo.mp3")
 expect("La porte est fermée")
 print("OK : entrer dans une scene joue aussi sa narration, pas seulement reprendre")
+
+for _, result in ipairs({1, 10, 11, 20}) do
+    dieValue = result
+    back_callback()
+    choose("Recommencer")
+    rejectWrite = true
+    choose("Oui, recommencer")
+    expect("Sauvegarde impossible")
+    rejectWrite = false
+    choose("Réessayer")
+    choose("Reprendre")
+    narration()
+    travel("Explorer le coffre")
+    travel("Prendre la clé")
+    travel("Retour à la clairière")
+    travel("Voir la porte")
+    travel("Ouvrir avec la clé")
+    travel("Traverser la porte")
+    rejectWrite = true
+    choose("Lancer le dé")
+    expect("Sauvegarde impossible")
+    assert(not visible():find("Dé :", 1, true), "Ne pas annoncer un resultat non sauvegarde")
+    dieValue = nil -- Tout nouveau tirage doit echouer a partir d'ici.
+    rejectWrite = false
+    choose("Réessayer")
+    choose("Reprendre")
+    narration()
+    expect("Dé : " .. result .. " / 20")
+    back_callback()
+    choose("Reprendre")
+    narration()
+    expect("Dé : " .. result .. " / 20")
+    start()
+    choose("Reprendre")
+    narration()
+    expect("Dé : " .. result .. " / 20")
+    travel("Retour à la porte")
+    travel("Traverser la porte")
+    expect("Dé : " .. result .. " / 20")
+    travel("Suivre la rencontre")
+    expect(result <= 10 and "Les lucioles t'escortent" or "Le renard te guide")
+end
+math.random = originalRandom
+print("OK : bornes du de, deux peripeties et resultat stable apres refus, retour et redemarrage")

@@ -115,6 +115,12 @@ Lua. Le retour final de l’utilisateur est : « ok ca marche tres bien ».
 
 ## Faits et limites connus
 
+Le jalon suivant est « Le dé des lucioles » : un jet de un à vingt choisit une
+rencontre avec les lucioles ou un renard, sans notion d’échec. Son résultat est
+conservé avant affichage et ne doit pas être relancé à la reprise. Il possède
+une identité distincte des prototypes validés ; sa conservation après extinction
+reste à confirmer sur appareil. Le travail reste sur le fork Treyarch/story-studio.
+
 Le support FLAM du dépôt est actuellement en lecture seule : voir [le support existant](flam-support.md). La création d’une aventure jouable sur FLAM n’est pas démontrée par la lecture de sa bibliothèque.
 
 Les fiches officielles D&D annoncent un personnage, des classes influençant les actions possibles, un dé à vingt faces et des récompenses. Elles ne donnent pas les règles internes ni une spécification du format : [Sur les Chemins de Faerûn](https://lunii.com/fr-fr/products/donjons-dragons-faerun), [Dans les bas-fonds d’Eauprofonde](https://lunii.com/fr-fr/products/donjons-et-dragons-dans-les-bas-fonds-deauprofonde).
