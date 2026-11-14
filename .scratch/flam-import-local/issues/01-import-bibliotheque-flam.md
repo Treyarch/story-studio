@@ -30,3 +30,11 @@ Le périmètre de test a été explicitement validé par l’utilisateur. Ticket
 Fonctionnalité implémentée : acquisition brute vers des dossiers locaux, métadonnées voisines, reconnaissance au scan, sélection et copie complète, doublons, annulation et bilan. La conservation et la consultation restent distinctes de la lecture ou de l’édition.
 
 Les tests et les deux axes de revue sont consignés dans le [bilan de réalisation](../review.md). La suite Rust complète passe ; deux échecs JavaScript hors fonctionnalité sont documentés. Le statut de triage est conservé ; la réalisation est terminée.
+
+### Correction des informations sans cache appareil
+
+Le panneau affichait les 14 histoires sans titre après invalidation du cache par l’installateur expérimental. La lecture FLAM dépendait exclusivement de ce fichier facultatif.
+
+Le panneau et l’import utilisent désormais les copies connues, les titres mémorisés sur l’ordinateur et la base officielle locale lorsque le cache manque. Les titres connus sont conservés dans les données de l’application ; l’installateur expérimental y enregistre aussi son titre avant d’invalider le cache. Les couvertures officielles reprennent le mécanisme et l’autorisation réseau existants sans ouvrir le pilote Lunii.
+
+Les 14 titres de l’appareil ont été retrouvés depuis les sauvegardes et manifestes locaux et conservés sur l’ordinateur. Le test matériel en lecture seule retrouve les 14 titres et confirme que la liste sur FLAM est inchangée.

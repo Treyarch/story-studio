@@ -10,6 +10,12 @@ public version; this file stays as the concise project history.
 
 ## [Unreleased]
 
+### Fixed
+
+- Informations FLAM conservées sur l’ordinateur et complétées depuis la base
+  locale lorsque le cache de l’appareil est absent ; couvertures officielles
+  accessibles sans ouvrir le pilote Lunii.
+
 ### Added
 
 - Copie des histoires FLAM vers la bibliothèque locale, par sélection ou en

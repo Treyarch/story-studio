@@ -148,7 +148,7 @@ fn win_move(from: &Path, to: &Path, flags: u32) -> Result<()> {
     }
     Ok(())
 }
-pub(super) fn replace(from: &Path, to: &Path) -> Result<()> {
+pub(crate) fn replace(from: &Path, to: &Path) -> Result<()> {
     #[cfg(test)]
     if FAIL_PUBLICATION.with(|v| v.get()) {
         return Err(io_error(io::Error::from(

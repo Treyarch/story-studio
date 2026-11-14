@@ -246,14 +246,31 @@ fn inspect_mode(
     let volume = entry(app, id)?.volume;
     let root = volume.root.as_deref().ok_or_else(gone)?;
     if driver::flam::is_device(root) {
-        let mut detail = flam_detail(id, root, &NativeVolumes)?;
+        let mut detail = flam_detail(id, root, &NativeVolumes, shared)?;
         detail["busy"] = json!(entry(app, id)?.busy);
+        let mut missing_covers = Vec::new();
         if let Some(stories) = detail["stories"].as_array_mut() {
             for story in stories {
                 if let Some(uuid) = story["key"].as_str().and_then(|s| Uuid::parse_str(s).ok()) {
                     story["catalogueFicheId"] = json!(shared.flam_copy_link(uuid)?);
+                    let (cached, missing) = official_cover_state(Some(uuid), false, |key| {
+                        shared.has_official_device_cover(key)
+                    });
+                    story["coverPath"] = if cached {
+                        json!(format!("/{id}/{uuid}"))
+                    } else {
+                        Value::Null
+                    };
+                    missing_covers.extend(missing);
                 }
             }
+        }
+        if !missing_covers.is_empty() {
+            let app = app.clone();
+            shared.fetch_official_device_covers(
+                &missing_covers,
+                Arc::new(move || covers_changed(&app)),
+            );
         }
         return Ok(detail);
     }
@@ -431,15 +448,20 @@ fn inspect_mode(
     }))
 }
 /// FLAM never goes through Device::open, card synchronization or Lunii repair.
-fn flam_detail(id: &str, root: &std::path::Path, volumes: &impl Volumes) -> Result<Value> {
-    let inventory = driver::flam::inspect(root, volumes).map_err(UserMessage::from)?;
+fn flam_detail(
+    id: &str,
+    root: &std::path::Path,
+    volumes: &impl Volumes,
+    store: &Store,
+) -> Result<Value> {
+    let inventory = store.flam_inventory(root, volumes)?;
     let stories: Vec<_> = inventory
         .stories
         .iter()
         .map(|story| {
             json!({
                 "key": story.uuid, "knownUuid": story.uuid,
-                "title": story.title, "kind": "unknown", "hidden": story.hidden,
+                "title": story.title, "kind": if crate::domain::official_provenance::recognizes_official(&story.uuid.to_string(), Some(store)).0 { "official" } else { "unknown" }, "hidden": story.hidden,
                 "complete": story.complete, "directoryPresent": story.directory_present,
                 "sizeBytes": null, "durationSec": null, "coverPath": null,
                 "parkingPending": false, "parked": false, "duplicateOfListed": false
@@ -852,6 +874,15 @@ pub(crate) fn cover(app: &tauri::AppHandle, path: &str) -> Result<Vec<u8>> {
     }
     let store = catalogue::open_store(app)?;
     let id = uuid(key)?;
+    let root = entry(app, device_id)?.volume.root.ok_or_else(gone)?;
+    if driver::flam::is_device(&root) {
+        // FLAM never opens the Lunii device writer, including for cover requests.
+        let inventory = driver::flam::inspect(&root, &NativeVolumes).map_err(UserMessage::from)?;
+        if !inventory.stories.iter().any(|story| story.uuid == id) {
+            return Err(gone());
+        }
+        return official_cover(&store, id);
+    }
     let device = device(app, device_id)?;
     // An orphan's cover is strictly read-only: its own sidecar or nothing,
     // never a card publication nor a first-screen decryption.
@@ -916,7 +947,9 @@ mod tests {
         std::fs::write(root.join(".mdf"), md).unwrap();
         let uuid = Uuid::new_v4();
         std::fs::write(root.join("etc/library/list"), format!("{uuid}\n")).unwrap();
-        let detail = flam_detail("opaque-device", &root, &NativeVolumes).unwrap();
+        let data = root.with_extension("data");
+        let store = Store::open(&data, &root.with_extension("cache")).unwrap();
+        let detail = flam_detail("opaque-device", &root, &NativeVolumes, &store).unwrap();
         assert_eq!(detail["family"], "flam");
         assert_eq!(detail["state"], "readOnly");
         assert_eq!(detail["readOnlyReason"], "flam");
@@ -927,6 +960,29 @@ mod tests {
         assert_eq!(detail["orphans"], json!([]));
         assert!(!detail.to_string().contains(root.to_str().unwrap()));
         assert!(!root.join(".storystudio").exists());
+        std::fs::remove_dir_all(&root).unwrap();
+        std::fs::remove_dir_all(data).unwrap();
+        std::fs::remove_dir_all(root.with_extension("cache")).unwrap();
+    }
+    #[test]
+    fn flam_panel_keeps_titles_when_the_device_cache_is_missing() {
+        let root = std::env::temp_dir()
+            .canonicalize()
+            .unwrap()
+            .join(format!("flam-metadata-{}", Uuid::new_v4()));
+        let device = root.join("device");
+        std::fs::create_dir_all(device.join("etc/library")).unwrap();
+        std::fs::write(device.join(".mdf"), [0; 50]).unwrap();
+        let id = Uuid::new_v4();
+        std::fs::write(device.join("etc/library/list"), id.to_string()).unwrap();
+        let store = Store::open(&root.join("data"), &root.join("cache")).unwrap();
+        store
+            .remember_flam_title(id, "Une histoire conservée")
+            .unwrap();
+        let detail = flam_detail("device", &device, &NativeVolumes, &store).unwrap();
+        assert_eq!(detail["stories"][0]["title"], "Une histoire conservée");
+        assert!(!device.join("usr/0/library.cache").exists());
+        assert!(!device.join(".storystudio").exists());
         std::fs::remove_dir_all(root).unwrap();
     }
     #[test]

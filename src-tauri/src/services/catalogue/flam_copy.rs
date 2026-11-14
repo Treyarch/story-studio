@@ -201,13 +201,15 @@ fn import_with_publication(
     if store.flam_copy_link(id)?.is_some() {
         return Err(UserMessage::new(codes::STORYTELLER_ALREADY_IN_CATALOGUE));
     }
-    let inventory = driver::flam::inspect(root, &driver::NativeVolumes).map_err(|e| {
-        if !driver::flam::is_device(root) {
-            UserMessage::new(codes::STORYTELLER_REPATRIATE_DISCONNECTED)
-        } else {
-            e.into()
-        }
-    })?;
+    let inventory = store
+        .flam_inventory(root, &driver::NativeVolumes)
+        .map_err(|e| {
+            if !driver::flam::is_device(root) {
+                UserMessage::new(codes::STORYTELLER_REPATRIATE_DISCONNECTED)
+            } else {
+                e
+            }
+        })?;
     let story = inventory
         .stories
         .iter()

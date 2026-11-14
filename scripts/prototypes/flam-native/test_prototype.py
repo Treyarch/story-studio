@@ -46,6 +46,13 @@ class TransferTests(unittest.TestCase):
         self.sync.start()
         self.addCleanup(self.sync.stop)
 
+    def test_installed_title_survives_device_cache_invalidation_on_the_computer(self):
+        p.install(self.root, self.output, self.backups)
+        metadata = self.backups.parent / "catalogue/flam-metadata" / f"{p.STORY}.json"
+        self.assertEqual(json.loads(metadata.read_text()), {"version": 1, "uuid": str(p.STORY), "title": "Titre"})
+        self.assertFalse((self.root / "usr/0/library.cache").exists())
+        self.assert_original_untouched()
+
     def assert_original_untouched(self):
         self.assertEqual((self.root / ".mdf").read_bytes(), self.metadata)
         self.assertEqual((self.root / "str/original/precieux").read_bytes(), b"histoire-originale")

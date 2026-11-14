@@ -413,7 +413,29 @@ mod tests {
             .unwrap()
             .iter()
             .any(|v| v.root.as_ref() == Some(&root)));
-        let inventory = inspect(&root, &NativeVolumes).unwrap();
+        let local = Fixture::new();
+        let inventory =
+            if let Some(metadata) = std::env::var_os("STORY_STUDIO_FLAM_TEST_METADATA_DIR") {
+                let store = crate::services::catalogue::store::Store::open(
+                    &local.0.join("data"),
+                    &local.0.join("cache"),
+                )
+                .unwrap();
+                for id in playlist(&before).unwrap() {
+                    let path = PathBuf::from(&metadata).join(format!("{id}.json"));
+                    if let Ok(file) = fs::File::open(path) {
+                        let value: serde_json::Value =
+                            serde_json::from_reader(file.take(32769)).unwrap();
+                        assert_eq!(value["uuid"], id.to_string());
+                        store
+                            .remember_flam_title(id, value["title"].as_str().unwrap())
+                            .unwrap();
+                    }
+                }
+                store.flam_inventory(&root, &NativeVolumes).unwrap()
+            } else {
+                inspect(&root, &NativeVolumes).unwrap()
+            };
         assert!(!inventory.playlist_error);
         assert_eq!(inventory.stories.len(), expected);
         assert!(inventory
@@ -423,7 +445,7 @@ mod tests {
         assert!(inventory.stories.iter().all(|s| s.title.is_some()));
         assert!(inventory.total_bytes.unwrap() > inventory.free_bytes.unwrap());
         assert_eq!(fs::read(root.join("etc/library/list")).unwrap(), before);
-        println!("FLAM detected; {expected} stories with cached titles; playlist unchanged");
+        println!("FLAM detected; {expected} stories with resolved titles; playlist unchanged");
     }
     #[cfg(unix)]
     #[test]

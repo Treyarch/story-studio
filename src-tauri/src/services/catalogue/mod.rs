@@ -115,3 +115,5 @@ mod official_packs;
 pub(crate) use official_packs::observed_official;
 
 pub(crate) mod flam_copy;
+
+mod flam_metadata;

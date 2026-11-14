@@ -7,8 +7,14 @@ a physical FLAM.
 
 The device panel shows the ordered story list, hidden stories when listed,
 titles from the optional firmware cache, firmware version and storage capacity.
-The existing operating-system ejection command is available. Titles can be
-absent when the cache is missing or uses an unknown layout. A missing or invalid
+The existing operating-system ejection command is available. Titles are resolved from the firmware cache, existing local copies, saved
+computer-side metadata and the local official database. Known titles are retained
+on the computer, so a missing firmware cache no longer erases them. Titles remain
+unknown when none of these sources knows the story. Computer-side titles are
+stored as versioned, UUID-checked records under `catalogue/flam-metadata/` in the
+application data directory. The experimental installer saves its authored title
+there before invalidating the firmware cache. Official covers use the
+existing computer-side cover cache and network permission. A missing or invalid
 playlist is reported without offering Lunii repair operations.
 
 Sending, removing, reordering, renaming, hiding and repairing are
@@ -100,6 +106,11 @@ cargo test --locked --manifest-path src-tauri/Cargo.toml \
   mounted_flam_inventory -- --ignored --nocapture
 ```
 
-This test checks that all expected stories have cached titles and container
+When the firmware cache is absent, add
+`STORY_STUDIO_FLAM_TEST_METADATA_DIR` pointing to the computer-side
+`catalogue/flam-metadata/` directory to exercise the same title fallback as the
+panel.
+
+This test checks that all expected stories have resolved titles and container
 files and that the playlist bytes stay unchanged. It performs no transfers,
 repairs, mounts or ejection.

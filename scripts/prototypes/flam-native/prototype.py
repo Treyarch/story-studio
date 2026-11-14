@@ -195,6 +195,13 @@ def read_pack(output):
 def install(root, output, backups=BACKUPS):
     firmware, keyfile, key, iv = device_material(root)
     files = read_pack(output)
+    # Keep author metadata on the computer before invalidating the firmware cache.
+    title = files["info.plain"].decode("utf-8").splitlines()[0].strip()
+    metadata = backups.parent / "catalogue/flam-metadata"
+    metadata.mkdir(parents=True, exist_ok=True)
+    replace_synced(metadata / f"{STORY}.json", (json.dumps({
+        "version": 1, "uuid": str(STORY), "title": title,
+    }, ensure_ascii=False) + "\n").encode())
     playlist = safe_path(root, "etc/library/list")
     original = playlist.read_bytes()
     listed = [str(UUID(line.strip())) for line in original.decode().splitlines() if line.strip()]
