@@ -1,4 +1,4 @@
-Status: ready-for-human
+Status: resolved
 Type: task
 
 # Valider le dé narratif conservé après reprise
@@ -7,9 +7,14 @@ Spécification : [dé narratif](../spec.md).
 
 Le code du prototype doit conserver le résultat du jet et sa péripétie après
 revisite, retour bibliothèque et recréation du runtime. Les deux rencontres
-permettent de poursuivre. Le matériel reste à vérifier après extinction.
+permettent de poursuivre. La conservation après extinction est confirmée sur
+la FLAM de l’utilisateur.
 
 ## Comments
+
+- Confirmation utilisateur après le parcours matériel demandé : « ok ca marche
+  parfaitement ». Le résultat du dé et la rencontre sont conservés après
+  extinction ; ce jalon est résolu sur le firmware 2.4.1 testé.
 
 - Suite JavaScript complète exécutée sur l’arbre partagé : 8 711 tests réussis
   sur 8 716. Cinq échecs dans catalogueEntryModel, catalogueFormatSurface,
@@ -25,3 +30,10 @@ permettent de poursuivre. Le matériel reste à vérifier après extinction.
 - Jalons précédents validés par l’utilisateur ; suite réalisée dans le fork.
 - Contrôles au même point d’entrée Lua, hasard simulé uniquement à la frontière
   d’hôte. Aucun changement aux fichiers de l’import local travaillé séparément.
+
+## Answer
+
+Jet narratif à vingt faces, deux péripéties sans échec, résultat sauvegardé avant
+affichage et conservé après reprise matérielle validés par l’utilisateur. Les
+classes et l’éditeur visuel restent des jalons suivants. Cette confirmation ne
+constitue pas une mesure statistique du générateur aléatoire.

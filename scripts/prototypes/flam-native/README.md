@@ -18,8 +18,8 @@ ni la résistance à une coupure arbitraire pendant une écriture.
 
 Le jalon inventaire **La clé des lucioles** est validé sur cet appareil. Le
 nouveau prototype possède une autre identité : les deux aventures précédentes
-et leurs sauvegardes sont conservées. **Le dé conservé après extinction reste à
-valider sur le matériel.**
+et leurs sauvegardes sont conservées. **L’utilisateur confirme le nombre et sa
+rencontre conservés après extinction sur sa FLAM 2.4.1.**
 
 ## Construire et vérifier
 
@@ -135,7 +135,7 @@ Le harnais fixe successivement les valeurs un, dix, onze et vingt ; après le
 premier tirage, tout nouvel appel au hasard est interdit jusqu’à la prochaine
 partie. Il vérifie la reprise en mémoire, la nouvelle instance et la revisite.
 
-## Parcours matériel à confirmer
+## Parcours matériel validé
 
 1. Désactiver le Wi-Fi, ouvrir **Le dé des lucioles**, commencer et écouter.
 2. Visiter la porte sans clé : ouverture indisponible, retour possible.
@@ -152,8 +152,8 @@ partie. Il vérifie la reprise en mémoire, la nouvelle instance et la revisite.
 12. Recommencer explicitement : inventaire vide, coffre plein et porte fermée.
 13. Vérifier l’accès au premier prototype et aux histoires achetées.
 
-Noter toute erreur avec son libellé et l’étape. Le ticket des dés reste ouvert
-jusqu’à confirmation du résultat conservé après extinction. Les classes et
+Noter toute erreur avec son libellé et l’étape. Le ticket des dés est résolu
+après confirmation du résultat conservé après extinction par l’utilisateur. Les classes et
 l’éditeur visuel restent des jalons suivants.
 
 ## Sources d’interopérabilité

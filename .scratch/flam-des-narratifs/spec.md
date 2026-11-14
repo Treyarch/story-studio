@@ -1,8 +1,11 @@
-Status: ready-for-human
+Status: resolved
 
 # Valider un dé narratif et la conservation de son résultat sur FLAM
 
 ## Objectif
+
+Résultat : validation matérielle confirmée par l’utilisateur après le parcours
+de conservation du nombre et de la rencontre après extinction sur sa FLAM 2.4.1.
 
 Prochain jalon du cadrage validé : un jet de un à vingt déclenché par l’enfant,
 qui choisit une péripétie permettant toujours de poursuivre. Aucun score,

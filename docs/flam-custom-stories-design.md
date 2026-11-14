@@ -119,7 +119,7 @@ Le jalon suivant est « Le dé des lucioles » : un jet de un à vingt choisit u
 rencontre avec les lucioles ou un renard, sans notion d’échec. Son résultat est
 conservé avant affichage et ne doit pas être relancé à la reprise. Il possède
 une identité distincte des prototypes validés ; sa conservation après extinction
-reste à confirmer sur appareil. Le travail reste sur le fork Treyarch/story-studio.
+est confirmée par l’utilisateur sur sa FLAM 2.4.1. Le travail reste sur le fork Treyarch/story-studio.
 
 Le support FLAM du dépôt est actuellement en lecture seule : voir [le support existant](flam-support.md). La création d’une aventure jouable sur FLAM n’est pas démontrée par la lecture de sa bibliothèque.
 
@@ -139,7 +139,7 @@ Le format Lua natif (`main.lsf`, modules, ressources) est distinct du format à 
 
 Le premier essai proposé reste une création originale avec UUID neuf, un court audio, deux choix et une fin. Il devra vérifier les deux branches, le retour à la bibliothèque, deux relances, puis une lecture hors ligne après extinction. Sauvegarde et hasard feront l’objet d’essais séparés après cette validation.
 
-Les exemples publics montrent un inventaire de session et un appel à `math.random`. Notre prototype a depuis confirmé la conservation de l’inventaire après extinction sur la FLAM testée. La stabilité des futurs jets de dé après reprise reste à valider séparément. Les difficultés publiques de relance restent une référence utile : [limites du runtime](https://github.com/scarlaty/flam-player/blob/71385ff7812987e54fe843cd62c952d1246afd89/skills/flam-homebrew/references/device-pitfalls.md).
+Les exemples publics montrent un inventaire de session et un appel à `math.random`. Notre prototype a depuis confirmé la conservation de l’inventaire après extinction sur la FLAM testée. La conservation du jet narratif et de sa rencontre après reprise est également confirmée par le troisième prototype. Les difficultés publiques de relance restent une référence utile : [limites du runtime](https://github.com/scarlaty/flam-player/blob/71385ff7812987e54fe843cd62c952d1246afd89/skills/flam-homebrew/references/device-pitfalls.md).
 
 Avant toute réutilisation du code des exemples, il faudra examiner sa licence, figer les révisions et limiter les dépendances nécessaires. Aucun choix de runtime ni de recette de transfert n’est encore adopté.
 
