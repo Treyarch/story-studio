@@ -21,10 +21,10 @@ import zipfile
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 SOURCE = Path(__file__).resolve().parent
-OUTPUT = SOURCE.parents[2] / "exports" / "flam-des-prototype"
-STORY = UUID("bd45817a-7df6-45ad-9cfa-3efbcf14b7c4")
-TITLE = "Le dé des lucioles"
-PACK = "de-des-lucioles.plain.pk"
+OUTPUT = SOURCE.parents[2] / "exports" / "flam-classes-prototype"
+STORY = UUID("4ba6585e-dab0-4a0e-a733-1f319f157ab8")
+TITLE = "Les compagnons des lucioles"
+PACK = "compagnons-des-lucioles.plain.pk"
 BACKUPS = Path.home() / ".local/share/com.hugs11.story-studio/flam-prototype"
 
 
@@ -90,14 +90,26 @@ def encode_stereo(source, destination):
 
 def build(output, piper, voice, audio_source=None):
     output.mkdir(parents=True, exist_ok=True)
+    # Le Piper embarqué en C++ lit sur stdin ; le CLI Python accepte un fichier.
+    help_result = subprocess.run([str(piper), "--help"], capture_output=True, check=True)
+    file_input = b"--input-file" in help_result.stdout + help_result.stderr
+
+    def narrate(name, destination):
+        source = SOURCE / f"{name}.txt"
+        if file_input:
+            run(str(piper), "--model", str(voice), "--input-file", str(source),
+                "--output-file", str(destination))
+        else:
+            subprocess.run([str(piper), "--model", str(voice), "--output_file", str(destination)],
+                           input=source.read_bytes(), capture_output=True, check=True)
+
     with tempfile.TemporaryDirectory(prefix="flam-narration-") as temporary:
         wav = Path(temporary) / "intro.wav"
         mp3 = Path(temporary) / "intro.mp3"
         if audio_source is not None:
             mp3.write_bytes(audio_source.read_bytes())
         else:
-            run(str(piper), "--model", str(voice), "--input-file", str(SOURCE / "narration.txt"),
-                "--output-file", str(wav))
+            narrate("narration", wav)
             run("ffmpeg", "-v", "error", "-i", str(wav), "-ac", "1", "-ar", "44100",
                 "-codec:a", "libmp3lame", "-b:a", "128k", "-write_xing", "0",
                 "-id3v2_version", "0", "-map_metadata", "-1", str(mp3))
@@ -116,11 +128,10 @@ def build(output, piper, voice, audio_source=None):
             "sounds/intro-stereo.mp3map": audio_map(stereo),
             "uuid.bin": STORY.bytes,
         }
-        for name in ("coffre", "porte", "fin", "rencontre", "renard"):
+        for name in ("coffre", "porte", "fin", "rencontre", "renard", "classe", "sentier", "pisteur", "ami"):
             clip_wav = Path(temporary) / f"{name}.wav"
             clip_mp3 = Path(temporary) / f"{name}-stereo.mp3"
-            run(str(piper), "--model", str(voice), "--input-file", str(SOURCE / f"{name}.txt"),
-                "--output-file", str(clip_wav))
+            narrate(name, clip_wav)
             encode_stereo(clip_wav, clip_mp3)
             files[f"sounds/{name}-stereo.mp3"] = clip_mp3.read_bytes()
             files[f"sounds/{name}-stereo.mp3map"] = audio_map(clip_mp3)
@@ -179,7 +190,7 @@ def read_pack(output):
                 "script/scenes.lua", "script/savegame.lua",
                 "sounds/intro.mp3", "sounds/intro.mp3map", "sounds/intro-stereo.mp3",
                 "sounds/intro-stereo.mp3map", "uuid.bin"}
-    expected.update(f"sounds/{name}-stereo.{suffix}" for name in ("coffre", "porte", "fin", "rencontre", "renard")
+    expected.update(f"sounds/{name}-stereo.{suffix}" for name in ("coffre", "porte", "fin", "rencontre", "renard", "classe", "sentier", "pisteur", "ami")
                     for suffix in ("mp3", "mp3map"))
     with zipfile.ZipFile(output / PACK) as archive:
         if len(archive.namelist()) != len(expected) or set(archive.namelist()) != expected:

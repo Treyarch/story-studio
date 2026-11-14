@@ -100,7 +100,8 @@ local function inventory()
     phase, selected = "inventory", 1
     choices = {{label = "Retour à la scène", action = "scene"}}
     lv.label.set_text(heading, "Ton inventaire")
-    lv.label.set_text(body, "Clé : " .. tostring(partie.keys))
+    lv.label.set_text(body, "Clé : " .. tostring(partie.keys) .. "\nClasse : " ..
+        (partie.class == "pisteur" and "Pisteur" or partie.class == "ami" and "Ami des animaux" or "à choisir"))
     lv.label.set_text(hint, "Clique pour revenir à la scène.")
     drawChoices()
 end
@@ -112,7 +113,7 @@ local function welcome()
     choices = {{label = hasPartie and "Reprendre" or "Commencer", action = "intro"}}
     if hasPartie then choices[#choices + 1] = {label = "Recommencer", action = "confirm-restart"} end
     choices[#choices + 1] = {label = "Bibliothèque", action = "leave"}
-    lv.label.set_text(heading, "Le dé des lucioles")
+    lv.label.set_text(heading, "Les compagnons")
     lv.label.set_text(body, "Explore, trouve une clé\net ouvre le passage du village.")
     lv.label.set_text(hint, "Retour : bibliothèque")
     drawChoices()
@@ -276,7 +277,7 @@ function adventure.start()
     lv.style.set_bg_opa(background, lv.OPA_COVER)
     styles[#styles + 1] = background
     lv.obj.add_style(root, background, lv.STATE_DEFAULT)
-    heading = text(root, "La clé des lucioles", 8, 34, lv.font.nunito_bold_20)
+    heading = text(root, "Les compagnons", 8, 34, lv.font.nunito_bold_20)
     body = text(root, "Écoute le début de ton aventure...", 48, 62, lv.font.nunito_bold_16)
     first = text(root, "", 111, 26, lv.font.nunito_bold_16)
     second = text(root, "", 140, 26, lv.font.nunito_bold_16)

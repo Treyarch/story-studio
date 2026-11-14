@@ -93,7 +93,7 @@ local function choose(label)
     end
     error("Choix absent : " .. label .. "\n" .. visible())
 end
-local function narration()
+local function narration(keepClassChoice)
     advance(1)
     assert(plays > 0)
     expect("Écoute")
@@ -101,6 +101,11 @@ local function narration()
     advance(640)
     audioStatus = "stop"
     feedback("stop", 16)
+    -- Les parcours des jalons précédents choisissent Pisteur au nouveau départ.
+    if not keepClassChoice and visible():find("Choisis ta classe", 1, true) then
+        choose("Pisteur")
+        narration()
+    end
 end
 
 local function travel(label)
@@ -110,6 +115,83 @@ local function travel(label)
         narration()
     end
 end
+
+-- Chaque classe ouvre une possibilité différente et persiste avant progression.
+for _, className in ipairs({"Pisteur", "Ami des animaux"}) do
+    saves.lucioles = nil
+    start()
+    choose("Commencer")
+    narration(true)
+    expect("Choisis ta classe")
+    rejectWrite = true
+    choose(className)
+    expect("Sauvegarde impossible")
+    choose("Annuler")
+    expect("Choisis ta classe")
+    rejectWrite = false
+    travel(className)
+    choose("Inventaire")
+    expect("Classe : " .. className)
+    choose("Retour à la scène")
+    back_callback()
+    choose("Reprendre")
+    narration()
+    expect("Explorer le coffre")
+    start()
+    choose("Reprendre")
+    narration()
+    choose("Inventaire")
+    expect("Classe : " .. className)
+    choose("Retour à la scène")
+    travel("Explorer le coffre")
+    travel("Prendre la clé")
+    travel("Retour à la clairière")
+    travel("Voir la porte")
+    travel("Ouvrir avec la clé")
+    travel("Traverser la porte")
+    local disabled = className == "Pisteur" and "Renard : Ami requis" or "Traces : Pisteur requis"
+    choose("[x] " .. disabled)
+    expect("Le sentier du village")
+    start()
+    choose("Reprendre")
+    narration()
+    expect("Le sentier du village")
+    choose("[x] " .. disabled)
+    expect("Le sentier du village")
+    travel(className == "Pisteur" and "Lire les traces" or "Parler au renard")
+    assert(loadedPath == (className == "Pisteur" and "pisteur-stereo.mp3" or "ami-stereo.mp3"))
+    expect("Lancer le dé")
+    dieValue = 7
+    travel("Lancer le dé")
+    dieValue = nil
+    travel("Suivre la rencontre")
+    expect("Fin de l'aventure")
+    back_callback()
+    choose("Recommencer")
+    choose("Oui, recommencer")
+    narration(true)
+    expect("Choisis ta classe")
+    start()
+    choose("Reprendre")
+    narration(true)
+    expect("Choisis ta classe")
+    local otherClass = className == "Pisteur" and "Ami des animaux" or "Pisteur"
+    travel(otherClass)
+    choose("Inventaire")
+    expect("Classe : " .. otherClass)
+end
+print("OK : deux classes durables, choix exclusifs expliques, deux chemins jouables et nouveau depart")
+local classSave = copy(saves.lucioles)
+for _, invalidClass in ipairs({"", "magicien", false}) do
+    saves.lucioles = copy(classSave)
+    saves.lucioles.class = invalidClass
+    start()
+    expect("Sauvegarde illisible")
+    assert(saves.lucioles.class == invalidClass)
+end
+print("OK : classe absente ou inconnue refusee sans ecrasement")
+saves.lucioles = nil
+dieValue = 7
 
 start()
 click()
@@ -142,6 +224,7 @@ choose("Inventaire")
 expect("Clé : 0")
 choose("Retour à la scène")
 travel("Traverser la porte")
+travel("Lire les traces")
 expect("Lancer le dé")
 travel("Lancer le dé")
 expect("Dé : 7 / 20")
@@ -349,6 +432,7 @@ for _, result in ipairs({1, 10, 11, 20}) do
     travel("Voir la porte")
     travel("Ouvrir avec la clé")
     travel("Traverser la porte")
+    travel("Lire les traces")
     rejectWrite = true
     choose("Lancer le dé")
     expect("Sauvegarde impossible")
@@ -369,6 +453,7 @@ for _, result in ipairs({1, 10, 11, 20}) do
     expect("Dé : " .. result .. " / 20")
     travel("Retour à la porte")
     travel("Traverser la porte")
+    travel("Lire les traces")
     expect("Dé : " .. result .. " / 20")
     travel("Suivre la rencontre")
     expect(result <= 10 and "Les lucioles t'escortent" or "Le renard te guide")

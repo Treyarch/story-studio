@@ -146,3 +146,19 @@ Avant toute réutilisation du code des exemples, il faudra examiner sa licence, 
 ## Décisions d’architecture
 
 Aucune à ce stade. Un ADR sera rédigé lorsqu’un choix durable résultera d’un arbitrage explicite.
+
+
+### Quatrième jalon : classes narratives
+
+**Les compagnons des lucioles** ajoute deux classes sans statistiques : Pisteur
+et Ami des animaux. Le premier suit des traces, le second parle au renard ;
+les deux rejoignent le dé et la fin. Le choix propre à l’autre classe est
+désactivé avec explication. La classe figure dans l’inventaire et sa sauvegarde
+précède les conséquences ; un nouveau départ permet de la changer.
+
+Ce prototype possède une quatrième identité et un schéma de sauvegarde trois,
+sans migration des aventures déjà validées. Le harnais couvre les deux chemins
+et leur reprise. **L’utilisateur confirme le fonctionnement et la reprise après
+extinction sur sa FLAM 2.4.1**, après le parcours demandé ; voir la [spécification](../.scratch/flam-classes/spec.md) et le
+[parcours matériel](../scripts/prototypes/flam-native/README.md).
+L’intégration à l’éditeur visuel reste le jalon suivant.

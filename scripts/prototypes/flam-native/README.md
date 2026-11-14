@@ -1,7 +1,7 @@
-# Prototype jetable : dé narratif et reprise sur FLAM
+# Prototype jetable : classes narratives et reprise sur FLAM
 
-Ce troisième jalon ajoute **Le dé des lucioles** : coffre, clé, porte, puis
-un jet à vingt faces qui détermine une rencontre sans échec.
+Ce quatrième jalon ajoute **Les compagnons des lucioles** : choix de classe,
+coffre, clé, porte, chemin propre à la classe, puis dé narratif sans échec.
 Il est séparé du transfert de production, sans framework tiers ni contenu commercial.
 
 ## État de validation
@@ -38,11 +38,12 @@ luac -p scripts/prototypes/flam-native/savegame.lua
 
 La voix française installée par Story Studio est choisie par défaut ; un autre
 modèle peut être passé avec --voice. L’option --piper peut être omise si
-l’exécutable est dans le PATH.
-Les six narrations sont originales et disponibles dans les fichiers texte.
+l’exécutable est dans le PATH. Le Piper C++ embarqué peut être utilisé avec
+`--piper src-tauri/tools/linux-x86_64/piper/piper`.
+Les dix narrations sont originales et disponibles dans les fichiers texte.
 
-Le résultat se trouve dans exports/flam-des-prototype/ :
-de-des-lucioles.plain.pk, manifeste et aperçu de l’introduction.
+Le résultat se trouve dans exports/flam-classes-prototype/ :
+compagnons-des-lucioles.plain.pk, manifeste et aperçu de l’introduction.
 Aucune métadonnée d’appareil n’est incluse dans cette archive de travail.
 
 Le runtime utilise le profil Audio B : stéréo 44,1 kHz, 128 kbit/s, ID3/Xing et
@@ -58,8 +59,8 @@ L’ouverture consomme cette clé et conserve la porte ouverte. Sans clé, le ch
 est désactivé avec une explication ; le retour vers la clairière reste possible.
 Reprendre et recommencer sont distincts, avec confirmation avant un nouveau départ.
 
-L’état sauvegardé est plat : version, scène, quantité, coffre vidé, porte ouverte
-et résultat du dé (zéro avant le premier jet). Le schéma deux appartient à cette
+L’état sauvegardé est plat : version, scène, quantité, coffre vidé, porte ouverte,
+résultat du dé (zéro avant le premier jet) et classe choisie. Le schéma trois appartient à cette
 nouvelle aventure ; aucune sauvegarde antérieure n’est migrée.
 Il exclut objets LVGL, fonctions et timers. Il n’écrit pas dans la globale
 firmware state, dont certaines écritures ont provoqué des problèmes de relance
@@ -124,7 +125,7 @@ Après installation, éteindre complètement puis rallumer pour charger le nouve
 
 ## Dé narratif
 
-Après la porte, le jet est déclenché par un clic. Un à dix appelle les lucioles,
+Après le sentier de classe, le jet est déclenché par un clic. Un à dix appelle les lucioles,
 onze à vingt un renard ; les deux rencontres mènent au village. Le nombre et la
 rencontre sont sauvegardés avant affichage. Revisiter ou reprendre ne relance
 pas le dé. Une écriture refusée peut être retentée avec le même candidat.
@@ -135,7 +136,7 @@ Le harnais fixe successivement les valeurs un, dix, onze et vingt ; après le
 premier tirage, tout nouvel appel au hasard est interdit jusqu’à la prochaine
 partie. Il vérifie la reprise en mémoire, la nouvelle instance et la revisite.
 
-## Parcours matériel validé
+## Parcours matériel du dé validé
 
 1. Désactiver le Wi-Fi, ouvrir **Le dé des lucioles**, commencer et écouter.
 2. Visiter la porte sans clé : ouverture indisponible, retour possible.
@@ -153,8 +154,8 @@ partie. Il vérifie la reprise en mémoire, la nouvelle instance et la revisite.
 13. Vérifier l’accès au premier prototype et aux histoires achetées.
 
 Noter toute erreur avec son libellé et l’étape. Le ticket des dés est résolu
-après confirmation du résultat conservé après extinction par l’utilisateur. Les classes et
-l’éditeur visuel restent des jalons suivants.
+après confirmation du résultat conservé après extinction par l’utilisateur. Les classes sont le jalon en cours ;
+l’éditeur visuel viendra ensuite.
 
 ## Sources d’interopérabilité
 
@@ -162,3 +163,30 @@ l’éditeur visuel restent des jalons suivants.
 - [Chiffrement figé](https://github.com/Yariminal/flam-re/blob/2fb9033fb6566c010f6b34858242276dec2db7e8/docs/fw2-key-wrap.md).
 - [API hôte](https://github.com/scarlaty/flam-player/blob/71385ff7812987e54fe843cd62c952d1246afd89/skills/flam-homebrew/references/lua-api.md).
 - [Usage des API de progression](https://github.com/scarlaty/flam-player/blob/71385ff7812987e54fe843cd62c952d1246afd89/skills/flam-homebrew/assets/runtime/script/progressionManager.lua).
+
+
+## Classes narratives : validation matérielle confirmée
+
+Le quatrième prototype a son propre UUID ; les trois précédents restent intacts.
+Pisteur lit les traces et Ami des animaux parle au renard. Les choix de l’autre
+classe sont désactivés et expliqués ; chaque classe peut rejoindre le dé et la fin.
+La classe apparaît dans l’inventaire, reste fixe pendant la partie et peut être
+changée après un nouveau départ confirmé.
+
+1. Ouvrir **Les compagnons des lucioles**, commencer et choisir **Pisteur**.
+2. Consulter l’inventaire : **Classe : Pisteur**. Quitter puis reprendre.
+3. Éteindre complètement, rallumer hors ligne et reprendre : même classe.
+4. Prendre la clé, ouvrir et traverser la porte. **Lire les traces** est accessible ;
+   **Renard : Ami requis** est désactivé et ne fait pas avancer.
+5. Quitter au sentier, éteindre puis reprendre : mêmes possibilités.
+6. Lire les traces, écouter leur conséquence, lancer le dé et atteindre la fin.
+7. Recommencer explicitement et choisir **Ami des animaux**. Vérifier la classe
+   après une extinction complète, puis rejoindre le sentier.
+8. **Parler au renard** est accessible et **Traces : Pisteur requis** est désactivé.
+   Écouter cette autre conséquence, lancer le dé et atteindre la fin.
+9. Vérifier que les aventures précédentes et leurs parties restent accessibles.
+
+La classe, l’état de partie et le résultat du dé doivent rester identiques à la
+reprise. L’utilisateur confirme le fonctionnement après ce parcours :
+« ca marche tres bien, parfait ». Le ticket des classes est résolu sur sa FLAM
+2.4.1. L’intégration à l’éditeur visuel reste le jalon suivant.

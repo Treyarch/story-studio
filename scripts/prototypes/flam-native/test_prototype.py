@@ -37,6 +37,9 @@ class TransferTests(unittest.TestCase):
             "sounds/rencontre-stereo.mp3": b"rencontre", "sounds/rencontre-stereo.mp3map": bytes(12),
             "sounds/renard-stereo.mp3": b"renard", "sounds/renard-stereo.mp3map": bytes(12),
         }
+        for name in ("classe", "sentier", "pisteur", "ami"):
+            self.files[f"sounds/{name}-stereo.mp3"] = name.encode()
+            self.files[f"sounds/{name}-stereo.mp3map"] = bytes(12)
         with zipfile.ZipFile(self.output / p.PACK, "w") as archive:
             for name, data in self.files.items():
                 archive.writestr(name, data)
