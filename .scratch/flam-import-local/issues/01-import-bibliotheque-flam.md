@@ -38,3 +38,11 @@ Le panneau affichait les 14 histoires sans titre après invalidation du cache pa
 Le panneau et l’import utilisent désormais les copies connues, les titres mémorisés sur l’ordinateur et la base officielle locale lorsque le cache manque. Les titres connus sont conservés dans les données de l’application ; l’installateur expérimental y enregistre aussi son titre avant d’invalider le cache. Les couvertures officielles reprennent le mécanisme et l’autorisation réseau existants sans ouvrir le pilote Lunii.
 
 Les 14 titres de l’appareil ont été retrouvés depuis les sauvegardes et manifestes locaux et conservés sur l’ordinateur. Le test matériel en lecture seule retrouve les 14 titres et confirme que la liste sur FLAM est inchangée.
+
+### Correction des informations des copies locales
+
+Un test d’import reproduit la perte : une description connue devient vide dans la fiche locale. Le manifeste ne conservait que le titre et la couverture restait dans le cache du panneau appareil. L’identité distincte des copies FLAM ne déclenche pas non plus le complément officiel ordinaire.
+
+Les nouvelles copies conservent désormais les champs descriptifs disponibles et une couverture locale, hors du dossier original. La copie complète reste consultable après déplacement et reconstruction dans un catalogue neuf sans base officielle ni cache appareil. Au démarrage, les copies déjà indexées sont complétées avec les informations locales connues, puis la réconciliation normale actualise leurs fiches.
+
+Vérification sur les données locales : les cinq copies sont mises à niveau ; les deux copies officielles possèdent maintenant description, âge et couverture dans l’index. Les trois prototypes conservent leur titre sans invention de champs absents.

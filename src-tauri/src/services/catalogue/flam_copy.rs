@@ -11,7 +11,7 @@ use crate::{
 };
 use rusqlite::OptionalExtension;
 use serde::{Deserialize, Serialize};
-use serde_json::json;
+use serde_json::{json, Map, Value};
 use std::{
     fs,
     io::{Read, Write},
@@ -24,6 +24,8 @@ use std::{
 use uuid::Uuid;
 
 const MANIFEST: &str = "flam-copy.json";
+const COVER: &str = "flam-cover.png";
+const METADATA_LIMIT: u64 = 512 * 1024;
 #[derive(Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
 struct Metadata {
@@ -32,6 +34,10 @@ struct Metadata {
     uuid: Uuid,
     title: Option<String>,
     hidden: bool,
+    #[serde(default, skip_serializing_if = "Map::is_empty")]
+    fields: Map<String, Value>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    cover: Option<String>,
 }
 pub(super) fn manifest(path: &Path) -> PathBuf {
     path.parent().unwrap_or(path).join(MANIFEST)
@@ -44,8 +50,10 @@ pub(super) fn metadata_bytes(path: &Path) -> std::io::Result<Vec<u8>> {
     driver::safe(&path, false)
         .map_err(|_| std::io::Error::from(std::io::ErrorKind::PermissionDenied))?;
     let mut bytes = Vec::new();
-    fs::File::open(path)?.take(65537).read_to_end(&mut bytes)?;
-    if bytes.len() > 65536 {
+    fs::File::open(path)?
+        .take(METADATA_LIMIT + 1)
+        .read_to_end(&mut bytes)?;
+    if bytes.len() as u64 > METADATA_LIMIT {
         return Err(std::io::ErrorKind::InvalidData.into());
     }
     Ok(bytes)
@@ -54,7 +62,7 @@ pub(super) fn observe(path: &Path) -> std::result::Result<Observation, String> {
     let bytes = metadata_bytes(path).map_err(|_| "invalidPackStructure")?;
     let data: Metadata = serde_json::from_slice(&bytes).map_err(|_| "invalidPackStructure")?;
     if data.format != "story-studio-flam-copy"
-        || data.version != 1
+        || ![1, 2].contains(&data.version)
         || path.file_name().and_then(|n| n.to_str()) != Some(data.uuid.to_string().as_str())
     {
         return Err("invalidPackStructure".into());
@@ -72,7 +80,34 @@ pub(super) fn observe(path: &Path) -> std::result::Result<Observation, String> {
         "/title".into(),
         super::analyze::observed(&out.raw, "/title", "string"),
     );
-    out.capabilities = json!({"readMetadata":{"state":"available"},"readCover":{"state":"unavailable"},"assessEditors":{"state":"unavailable","reason":"unsupportedFormat"},"openSimulation":{"state":"unavailable","reason":"unsupportedFormat"}});
+    for (field, value) in &data.fields {
+        if !super::data::resolver::FIELDS.contains(&field.as_str()) || field == "cover" {
+            continue;
+        }
+        let kind = match field.as_str() {
+            "ageMin" | "ageMax" => "age",
+            "versionDeclared" | "storyCount" | "durationSeconds" => "integer",
+            "keywords" => "keywords",
+            _ => "string",
+        };
+        let name = match field.as_str() {
+            "ageMin" => "minAge",
+            "versionDeclared" => "version",
+            _ => field,
+        };
+        let pointer = format!("/packMetadata/{name}");
+        out.fields.insert(
+            pointer.clone(),
+            super::analyze::observed(&json!({"packMetadata":{name:value}}), &pointer, kind),
+        );
+    }
+    if data.cover.as_deref() == Some(COVER) {
+        let cover = manifest(path).with_file_name(COVER);
+        if driver::safe(&cover, false).is_ok() {
+            out.cover = Some(json!({"kind":"file", "path":cover}));
+        }
+    }
+    out.capabilities = json!({"readMetadata":{"state":"available"},"readCover":{"state": if out.cover.is_some() { "available" } else { "unavailable" }},"assessEditors":{"state":"unavailable","reason":"unsupportedFormat"},"openSimulation":{"state":"unavailable","reason":"unsupportedFormat"}});
     Ok(out)
 }
 // The catalogue indexes UUIDs globally. Derive a stable separate UUID for the
@@ -87,11 +122,147 @@ pub(super) fn identity(id: Uuid) -> Uuid {
     bytes[8] = (bytes[8] & 0x3f) | 0x80;
     Uuid::from_bytes(bytes)
 }
+struct Enrichment {
+    fields: Map<String, Value>,
+    cover: Option<Vec<u8>>,
+}
 impl Store {
+    fn flam_copy_enrichment(&self, id: Uuid) -> Result<Enrichment> {
+        use crate::services::storyteller_device::cards::CardCatalogue;
+        let mut fields = self.read_snapshot(|c| {
+            let raw: Option<String> = c
+                .query_row(
+                    "SELECT document_json FROM lunii_pack WHERE uuid=?1",
+                    [id.to_string()],
+                    |r| r.get(0),
+                )
+                .optional()?;
+            let locale: String =
+                c.query_row("SELECT locale FROM lunii_context WHERE id=1", [], |r| {
+                    r.get(0)
+                })?;
+            Ok(raw
+                .and_then(|raw| serde_json::from_str::<Value>(&raw).ok())
+                .and_then(|pack| super::lunii_db::parse::localized(&pack, &locale))
+                .and_then(|(_, values)| values.as_object().cloned())
+                .unwrap_or_default())
+        })?;
+        let mut cover = self.official_device_cover(&id.to_string()).ok();
+        if let Some((fiche, _, _)) = self.device_card_link(id)? {
+            if let Some(card) = self.read_snapshot(|c| super::data::card::snapshot(c, &fiche))? {
+                for field in card["fields"].as_array().into_iter().flatten() {
+                    if let Some(name) = field["field"].as_str().filter(|name| *name != "cover") {
+                        let value = &field["effective"]["value"];
+                        if !value.is_null() {
+                            fields.insert(name.into(), value.clone());
+                        }
+                    }
+                }
+            }
+            if let Some(card) = self.card(id).ok().flatten() {
+                if card.card.cover_png.is_some() {
+                    cover = card.card.cover_png;
+                }
+            }
+        }
+        fields.retain(|name, value| {
+            name != "cover"
+                && super::data::resolver::FIELDS.contains(&name.as_str())
+                && !value.is_null()
+        });
+        Ok(Enrichment { fields, cover })
+    }
+    /// Upgrade our existing local sidecars before startup reconciliation. Story
+    /// payloads remain untouched; ordinary scans stay read-only.
+    pub(crate) fn repair_flam_copy_metadata(&self) -> Result<()> {
+        let paths = self.read_snapshot(|c| {
+            let mut query = c.prepare("SELECT DISTINCT e.anchor_json FROM exemplar e JOIN cache.observation o ON o.exemplar_id=e.id WHERE o.format='flamDirectory' AND e.retired=0 AND NOT EXISTS(SELECT 1 FROM fiche_forgotten f WHERE f.fiche_id=e.fiche_id) AND EXISTS(SELECT 1 FROM cache.coverage v JOIN source s ON s.id=v.source_id WHERE v.exemplar_id=e.id AND s.status='active')")?;
+            let paths = query.query_map([], |r| r.get::<_, String>(0))?.collect::<rusqlite::Result<Vec<_>>>();
+            paths
+        })?;
+        for anchor in paths {
+            let anchor: Value = serde_json::from_str(&anchor).map_err(error)?;
+            let Some(path) = anchor["path"].as_str().map(PathBuf::from) else {
+                continue;
+            };
+            // Inspect only indexed copies, with bounded reads for offline sources.
+            let owned = path.clone();
+            let Some(Ok(bytes)) =
+                super::probe::bounded(&path, super::probe::PROBE_TIMEOUT, move || {
+                    metadata_bytes(&owned)
+                })
+            else {
+                continue;
+            };
+            let Ok(metadata) = serde_json::from_slice::<Metadata>(&bytes) else {
+                continue;
+            };
+            if metadata.format != "story-studio-flam-copy"
+                || ![1, 2].contains(&metadata.version)
+                || path.file_name().and_then(|n| n.to_str())
+                    != Some(metadata.uuid.to_string().as_str())
+            {
+                continue;
+            }
+            let enrichment = self.flam_copy_enrichment(metadata.uuid)?;
+            let owned = path.clone();
+            let _ = super::probe::bounded(&path, super::probe::PROBE_TIMEOUT, move || {
+                upgrade_metadata(&owned, metadata, enrichment)
+            });
+        }
+        Ok(())
+    }
     pub(crate) fn flam_copy_link(&self, id: Uuid) -> Result<Option<String>> {
         self.read_snapshot(|c| c.query_row("SELECT e.fiche_id FROM exemplar e JOIN pack_identity p ON p.fiche_id=e.fiche_id WHERE p.pack_uuid=?1 AND e.retired=0 AND NOT EXISTS(SELECT 1 FROM fiche_forgotten f WHERE f.fiche_id=e.fiche_id) LIMIT 1", [identity(id).to_string()], |r| r.get(0)).optional())
     }
 }
+fn upgrade_metadata(path: &Path, mut metadata: Metadata, enrichment: Enrichment) -> Result<()> {
+    let before = serde_json::to_vec(&metadata).map_err(error)?;
+    for (name, value) in enrichment.fields {
+        metadata.fields.entry(name).or_insert(value);
+    }
+    if let Some(title) = &metadata.title {
+        metadata.fields.insert("title".into(), json!(title));
+    }
+    let new_cover = metadata
+        .cover
+        .is_none()
+        .then_some(enrichment.cover)
+        .flatten();
+    if new_cover.is_some() {
+        metadata.cover = Some(COVER.into());
+    }
+    metadata.version = 2;
+    let after = serde_json::to_vec_pretty(&metadata).map_err(error)?;
+    if serde_json::to_vec(&metadata).map_err(error)? == before {
+        return Ok(());
+    }
+    let sidecar = manifest(path);
+    let directory = sidecar.parent().unwrap();
+    driver::safe(directory, true).map_err(UserMessage::from)?;
+    let own = super::writes::OwnWrite::begin(
+        super::writes::Declaration::new("flamMetadataRepair").subtree(directory),
+    );
+    let temp = directory.join(format!(".story-studio-write-{}", Uuid::new_v4()));
+    fs::create_dir(&temp).map_err(error)?;
+    let staging = Staging(temp);
+    if let Some(cover) = new_cover {
+        let file = staging.0.join(COVER);
+        fs::write(&file, cover).map_err(error)?;
+        crate::support::file_sync::sync_file(&file).map_err(error)?;
+        // A pre-existing user file is never replaced by backfill.
+        if !directory.join(COVER).exists() {
+            super::files::publish::no_replace(&file, &directory.join(COVER))?;
+        }
+    }
+    let file = staging.0.join(MANIFEST);
+    fs::write(&file, after).map_err(error)?;
+    crate::support::file_sync::sync_file(&file).map_err(error)?;
+    super::files::publish::replace(&file, &sidecar)?;
+    own.succeeded(vec![path.to_owned()]);
+    Ok(())
+}
+
 fn check(cancel: &AtomicBool) -> Result<()> {
     if cancel.load(Ordering::SeqCst) {
         Err(UserMessage::new(codes::STORYTELLER_SEND_CANCELLED))
@@ -249,13 +420,26 @@ fn import_with_publication(
             e
         }
     })?;
-    let metadata = Metadata {
+    let mut metadata = Metadata {
         format: "story-studio-flam-copy".into(),
-        version: 1,
+        version: 2,
         uuid: id,
         title: story.title.clone(),
         hidden: story.hidden,
+        fields: Map::new(),
+        cover: None,
     };
+    let enrichment = store.flam_copy_enrichment(id)?;
+    metadata.fields = enrichment.fields;
+    if let Some(title) = &metadata.title {
+        metadata.fields.insert("title".into(), json!(title));
+    }
+    if let Some(cover) = enrichment.cover {
+        let mut file = fs::File::create_new(staging.0.join(COVER)).map_err(error)?;
+        file.write_all(&cover).map_err(error)?;
+        file.sync_all().map_err(error)?;
+        metadata.cover = Some(COVER.into());
+    }
     let mut file = fs::File::create_new(staging.0.join(MANIFEST)).map_err(error)?;
     file.write_all(&serde_json::to_vec_pretty(&metadata).map_err(error)?)
         .map_err(error)?;
@@ -721,5 +905,182 @@ mod tests {
         )
         .is_err());
         assert_eq!(snapshot(&source.0), before);
+    }
+    fn rescan(store: &Arc<Store>, db: &Path) {
+        let receipt = store
+            .start_scan(
+                None,
+                Uuid::new_v4().to_string(),
+                store.sources_revision().unwrap(),
+                db.join("cache"),
+                db.join("data"),
+                Arc::new(|_, _| {}),
+            )
+            .unwrap();
+        let start = std::time::Instant::now();
+        loop {
+            let p = store.get_operation(&receipt.operation_id).unwrap();
+            if !["queued", "running", "cancelling"].contains(&p.status.as_str()) {
+                assert_eq!(p.status, "success");
+                break;
+            }
+            assert!(start.elapsed() < crate::test_support::timeout());
+            std::thread::sleep(std::time::Duration::from_millis(5));
+        }
+    }
+    #[test]
+    fn local_flam_copy_keeps_available_metadata_and_cover_after_device_disconnection() {
+        let source = Temp::new();
+        let local = Temp::new();
+        let db = Temp::new();
+        let id = Uuid::new_v4();
+        device(&source.0, id, false);
+        let store = Store::open(&db.0.join("data"), &db.0.join("cache")).unwrap();
+        store.lunii_locale("fr").unwrap();
+        let document = json!({"localized_infos":{"fr_FR":{"title":"Histoire complète","description":"Une description conservée","subtitle":"Sous-titre"}},"ageMin":7,"author":"Autrice","language":"fr","keywords":["Aventure"]});
+        store
+            .write(|tx| {
+                tx.execute(
+                    "INSERT INTO lunii_pack VALUES (?1,?2)",
+                    [id.to_string(), document.to_string()],
+                )
+                .map_err(error)?;
+                Ok(())
+            })
+            .unwrap();
+        let cover_dir = db.0.join("data/catalogue/lunii-device-covers");
+        fs::create_dir_all(&cover_dir).unwrap();
+        image::RgbImage::from_pixel(16, 16, image::Rgb([20, 100, 200]))
+            .save(cover_dir.join(format!("{id}.png")))
+            .unwrap();
+        import(
+            &store,
+            &source.0,
+            id,
+            &local.0,
+            &AtomicBool::new(false),
+            |_| {},
+        )
+        .unwrap();
+        fs::remove_dir_all(&source.0).unwrap();
+        fs::create_dir(&source.0).unwrap();
+        let entries = store.query_entries(100, None, false).unwrap();
+        let entry = &entries.items[0];
+        assert_eq!(entry["values"]["description"], "Une description conservée");
+        assert_eq!(entry["values"]["author"], "Autrice");
+        assert_eq!(entry["values"]["language"], "fr");
+        assert_eq!(entry["values"]["ageMin"], 7);
+        let exemplar = &entry["exemplars"][0];
+        let cover = super::super::analyze::read_cover(
+            &exemplar["locator"],
+            &exemplar["observation"],
+            65536,
+        )
+        .unwrap();
+        assert_eq!(
+            cover,
+            fs::read(cover_dir.join(format!("{id}.png"))).unwrap()
+        );
+        assert_eq!(
+            store
+                .get_thumbnail(None, entry["id"].as_str(), None)
+                .unwrap()
+                .state,
+            "ready"
+        );
+        // A previously known upper bound is part of the portable snapshot too.
+        let path = PathBuf::from(exemplar["locator"]["path"].as_str().unwrap());
+        let mut metadata: Value =
+            serde_json::from_slice(&fs::read(manifest(&path)).unwrap()).unwrap();
+        metadata["fields"]["ageMax"] = json!(12);
+        fs::write(manifest(&path), serde_json::to_vec(&metadata).unwrap()).unwrap();
+        // Move the complete copy and rebuild in a catalogue with no official DB
+        // or device cover cache: only the copied files may supply information.
+        let moved = Temp::new();
+        fs::rename(local.0.join("packs-rapatries"), moved.0.join("copies")).unwrap();
+        let fresh_db = Temp::new();
+        let fresh =
+            Arc::new(Store::open(&fresh_db.0.join("data"), &fresh_db.0.join("cache")).unwrap());
+        fresh
+            .add_source(&moved.0, fresh.sources_revision().unwrap(), false)
+            .unwrap();
+        rescan(&fresh, &fresh_db.0);
+        let entries = fresh.query_entries(100, None, false).unwrap();
+        let entry = &entries.items[0];
+        assert_eq!(entry["values"]["description"], "Une description conservée");
+        assert_eq!(entry["values"]["author"], "Autrice");
+        assert_eq!(entry["values"]["language"], "fr");
+        assert_eq!(entry["values"]["ageMin"], 7);
+        assert_eq!(entry["values"]["ageMax"], 12);
+        assert_eq!(
+            fresh
+                .get_thumbnail(None, entry["id"].as_str(), None)
+                .unwrap()
+                .state,
+            "ready"
+        );
+    }
+    #[test]
+    fn existing_title_only_copies_recover_metadata_and_cover_on_restart_without_copying_again() {
+        let source = Temp::new();
+        let local = Temp::new();
+        let db = Temp::new();
+        let id = Uuid::new_v4();
+        let original = device(&source.0, id, false);
+        let original_bytes = snapshot(&original);
+        let store = Store::open(&db.0.join("data"), &db.0.join("cache")).unwrap();
+        store.lunii_locale("fr").unwrap();
+        import(
+            &store,
+            &source.0,
+            id,
+            &local.0,
+            &AtomicBool::new(false),
+            |_| {},
+        )
+        .unwrap();
+        let entries = store.query_entries(100, None, false).unwrap();
+        let path = PathBuf::from(
+            entries.items[0]["exemplars"][0]["locator"]["path"]
+                .as_str()
+                .unwrap(),
+        );
+        fs::write(manifest(&path), serde_json::to_vec(&json!({"format":"story-studio-flam-copy","version":1,"uuid":id,"title":"Titre conservé","hidden":false})).unwrap()).unwrap();
+        let document = json!({"localized_infos":{"fr_FR":{"title":"Titre officiel","description":"Description récupérée"}},"author":"Auteur connu","ageMin":6,"language":"fr"});
+        store
+            .write(|tx| {
+                tx.execute(
+                    "INSERT INTO lunii_pack VALUES (?1,?2)",
+                    [id.to_string(), document.to_string()],
+                )
+                .map_err(error)?;
+                Ok(())
+            })
+            .unwrap();
+        let cover_dir = db.0.join("data/catalogue/lunii-device-covers");
+        fs::create_dir_all(&cover_dir).unwrap();
+        image::RgbImage::from_pixel(16, 16, image::Rgb([30, 40, 50]))
+            .save(cover_dir.join(format!("{id}.png")))
+            .unwrap();
+        drop(store);
+        fs::remove_dir_all(&source.0).unwrap();
+        fs::create_dir(&source.0).unwrap();
+        let reopened = Arc::new(Store::open(&db.0.join("data"), &db.0.join("cache")).unwrap());
+        rescan(&reopened, &db.0);
+        let entries = reopened.query_entries(100, None, false).unwrap();
+        assert_eq!(entries.items.len(), 1);
+        let entry = &entries.items[0];
+        assert_eq!(entry["displayTitle"], "Titre conservé");
+        assert_eq!(entry["values"]["description"], "Description récupérée");
+        assert_eq!(entry["values"]["author"], "Auteur connu");
+        assert_eq!(entry["values"]["ageMin"], 6);
+        assert_eq!(
+            reopened
+                .get_thumbnail(None, entry["id"].as_str(), None)
+                .unwrap()
+                .state,
+            "ready"
+        );
+        assert_eq!(snapshot(&path), original_bytes);
     }
 }

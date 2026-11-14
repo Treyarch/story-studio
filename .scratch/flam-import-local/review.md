@@ -53,3 +53,30 @@ Bilan de la correction : zéro constat sur chaque axe.
 - Les 14 titres et 11 couvertures officielles sont présents sur l’ordinateur ; le cache de l’appareil reste absent.
 - Formatage Rust et vérification du diff : réussis.
 - Clippy toutes cibles : réussi avec deux tâches de compilation simultanées après l’interruption système du premier essai.
+
+# Correction des informations des copies locales
+
+## Diagnostic
+
+Le test d’acquisition reproduit le symptôme : la description disponible devient vide dans la fiche locale. Le manifeste initial ne conservait que le titre ; la couverture restait dans le cache du panneau appareil. L’identité distincte des copies FLAM empêche aussi le complément officiel ordinaire.
+
+Les snapshots locaux conservent maintenant les champs descriptifs disponibles et la couverture dans le dossier enveloppe, sans toucher au dossier original. Les copies déjà indexées sont complétées au démarrage depuis les informations locales connues, puis réconciliées normalement.
+
+## Standards
+
+Aucune violation documentée ni remarque de conception bloquante relevée par la revue indépendante. La remarque de complexité de type Clippy a été traitée en regroupant les champs descriptifs et la couverture dans une structure nommée.
+
+## Spec
+
+La revue a trouvé un cas manquant : la borne d’âge maximale figurait dans le snapshot mais pas dans la projection des candidats du catalogue. Un test de reconstruction reproduit la perte de la valeur 12 ; le pointeur correspondant a été ajouté à la projection. Aucun autre écart confirmé.
+
+Bilan : Standards, zéro violation ; Spec, un constat corrigé.
+
+## Vérifications
+
+- Huit tests d’acquisition couvrent les informations et couvertures après déconnexion, le déplacement de la copie et la reconstruction dans un catalogue neuf sans base officielle ni cache appareil, ainsi que la mise à niveau des anciens manifestes sans recopie des histoires.
+- Le parcours teste également la production effective de vignettes dans le catalogue initial et le catalogue reconstruit.
+- Sur les données locales, les cinq copies ont été mises à niveau. Les deux copies officielles possèdent description, âge et couverture dans l’index ; les trois prototypes conservent les seules informations connues.
+- Suite Rust complète : 2 336 tests réussis, aucun échec, 57 ignorés. Vérifications ciblées complémentaires après correction de la borne d’âge maximale.
+- Après correction de la borne maximale : les huit tests d’acquisition et 81 tests de données du catalogue passent (deux tests de données ignorés).
+- Clippy toutes cibles et vérification du diff : réussis, sans nouvelle remarque.

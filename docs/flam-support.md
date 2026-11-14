@@ -41,10 +41,16 @@ after disconnecting FLAM. Playback and editing are unavailable for these copies.
 
 The configured workspace stores each copy under
 `packs-rapatries/<uuid>.flam/`: the original `<uuid>/` story folder is unchanged,
-and `flam-copy.json` beside it records the original UUID, optional title and
-hidden status. The wrapper lets the folder and its metadata appear together;
+and `flam-copy.json` beside it records the original UUID, title, hidden status
+and available descriptive metadata (description, author, language, age and other
+known fields). An available cover is preserved as `flam-cover.png` alongside the
+metadata, outside the story folder. These snapshots remain readable after
+moving the copy or rebuilding the catalogue without its official database. The wrapper lets the folder and its metadata appear together;
 it does not change the story’s internal layout. No ZIP is created. Preserve both
-the folder and its metadata when moving a copy so a library scan can rediscover it.
+the complete wrapper when moving a copy so a library scan can rediscover its
+metadata and cover. Existing title-only copies are completed from known local
+information at application startup, then the normal reconciliation updates the
+catalogue. Story payloads and personal catalogue corrections are preserved.
 
 An existing FLAM UUID is skipped across devices and versions. Imports never
 replace existing local content. Canceling retains completed copies and discards

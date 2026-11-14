@@ -12,6 +12,10 @@ public version; this file stays as the concise project history.
 
 ### Fixed
 
+- Copies FLAM locales : conservation des métadonnées disponibles et de la
+  couverture à côté des fichiers d’origine ; complément automatique des copies
+  existantes au démarrage et redécouverte après déplacement ou nouveau scan.
+
 - Informations FLAM conservées sur l’ordinateur et complétées depuis la base
   locale lorsque le cache de l’appareil est absent ; couvertures officielles
   accessibles sans ouvrir le pilote Lunii.

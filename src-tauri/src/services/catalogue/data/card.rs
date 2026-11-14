@@ -476,6 +476,7 @@ pub fn publish_candidates(
     let pointers: &[(&str, &[&str])] = &[
         ("title", &["/packMetadata/title", "/packTitle", "/title"]),
         ("subtitle", &["/packMetadata/subtitle", "/subtitle"]),
+        ("ageMax", &["/packMetadata/ageMax"]),
         (
             "description",
             &[

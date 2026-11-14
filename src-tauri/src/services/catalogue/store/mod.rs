@@ -182,6 +182,7 @@ impl Store {
         if orphan_backups.exists() {
             std::fs::remove_dir_all(orphan_backups).map_err(error)?;
         }
+        store.repair_flam_copy_metadata()?;
         store.clean_images()?;
         store._instance_lock = admission_lock.0.take();
         Ok(store)
