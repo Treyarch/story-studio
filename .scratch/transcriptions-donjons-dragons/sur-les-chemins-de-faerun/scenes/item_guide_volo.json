@@ -1,0 +1,111 @@
+{
+  "scene": "item_guide_volo",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_guide_volo.mp3",
+  "sha256": "5da230363cb2102fd482b30c85d27c426b0a58a0ed04b0f9d5ef41328d0aab0a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.849875,
+  "text": "Ton livre préféré, tu l'as lu des dizaines de fois.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.38,
+      "text": " Ton livre préféré, tu l'as lu des dizaines de fois.",
+      "tokens": [
+        50365,
+        11385,
+        24735,
+        31139,
+        29071,
+        11,
+        2604,
+        287,
+        6,
+        296,
+        10438,
+        730,
+        12098,
+        19295,
+        368,
+        9576,
+        13,
+        50536
+      ],
+      "avg_logprob": -0.15356653144485072,
+      "compression_ratio": 0.9152542372881356,
+      "no_speech_prob": 5.628576597860313e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.3,
+          "word": " Ton",
+          "probability": 0.6597133278846741
+        },
+        {
+          "start": 0.3,
+          "end": 0.62,
+          "word": " livre",
+          "probability": 0.9994937181472778
+        },
+        {
+          "start": 0.62,
+          "end": 1.26,
+          "word": " préféré,",
+          "probability": 0.9998411238193512
+        },
+        {
+          "start": 1.6,
+          "end": 1.96,
+          "word": " tu",
+          "probability": 0.9990890026092529
+        },
+        {
+          "start": 1.96,
+          "end": 2.08,
+          "word": " l",
+          "probability": 0.9998718500137329
+        },
+        {
+          "start": 2.08,
+          "end": 2.2,
+          "word": "'as",
+          "probability": 0.9998582303524017
+        },
+        {
+          "start": 2.2,
+          "end": 2.32,
+          "word": " lu",
+          "probability": 0.9953067898750305
+        },
+        {
+          "start": 2.32,
+          "end": 2.56,
+          "word": " des",
+          "probability": 0.9982073307037354
+        },
+        {
+          "start": 2.56,
+          "end": 3.0,
+          "word": " dizaines",
+          "probability": 0.9998408257961273
+        },
+        {
+          "start": 3.0,
+          "end": 3.16,
+          "word": " de",
+          "probability": 0.9998445510864258
+        },
+        {
+          "start": 3.16,
+          "end": 3.38,
+          "word": " fois.",
+          "probability": 0.9997815489768982
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "scene": "B83.1_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B83.1_list.mp3",
+  "sha256": "90ab259ae8db7861a1f82db149e3d52e4a0db7cc2a05e0610f18c91e05264e50",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.7870625,
+  "text": "Libre à toi de choisir, oui ou non.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 3.16,
+      "text": " Libre à toi de choisir, oui ou non.",
+      "tokens": [
+        50365,
+        15834,
+        265,
+        1531,
+        15648,
+        368,
+        37827,
+        347,
+        11,
+        14367,
+        2820,
+        2107,
+        13,
+        50524
+      ],
+      "avg_logprob": -0.19285970727602642,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 4.321986778882403e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.78,
+          "word": " Libre",
+          "probability": 0.9339912831783295
+        },
+        {
+          "start": 0.78,
+          "end": 0.86,
+          "word": " à",
+          "probability": 0.976653516292572
+        },
+        {
+          "start": 0.86,
+          "end": 0.96,
+          "word": " toi",
+          "probability": 0.9926736950874329
+        },
+        {
+          "start": 0.96,
+          "end": 1.14,
+          "word": " de",
+          "probability": 0.9999536275863647
+        },
+        {
+          "start": 1.14,
+          "end": 1.64,
+          "word": " choisir,",
+          "probability": 0.9999645352363586
+        },
+        {
+          "start": 1.84,
+          "end": 2.32,
+          "word": " oui",
+          "probability": 0.9976669549942017
+        },
+        {
+          "start": 2.32,
+          "end": 2.94,
+          "word": " ou",
+          "probability": 0.9978825449943542
+        },
+        {
+          "start": 2.94,
+          "end": 3.16,
+          "word": " non.",
+          "probability": 0.9999513626098633
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

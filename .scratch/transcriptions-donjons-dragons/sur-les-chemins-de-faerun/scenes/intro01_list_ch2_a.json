@@ -1,0 +1,70 @@
+{
+  "scene": "intro01_list_ch2_a",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/intro01_list_ch2_a.mp3",
+  "sha256": "cf63dcc3cb0399c6a69f647d404f6e89ce1622cbb5fb78fbc659116f77f316b6",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.4065625,
+  "text": "Aux elfes, gracieux et magiques,",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.21,
+      "end": 2.65,
+      "text": " Aux elfes, gracieux et magiques,",
+      "tokens": [
+        50365,
+        316,
+        2449,
+        35565,
+        279,
+        11,
+        11625,
+        35371,
+        1030,
+        2258,
+        4911,
+        11,
+        50489
+      ],
+      "avg_logprob": -0.18138409193073,
+      "compression_ratio": 0.8888888888888888,
+      "no_speech_prob": 7.179856969380394e-12,
+      "words": [
+        {
+          "start": 0.21,
+          "end": 0.85,
+          "word": " Aux",
+          "probability": 0.9124457836151123
+        },
+        {
+          "start": 0.85,
+          "end": 1.51,
+          "word": " elfes,",
+          "probability": 0.9949698746204376
+        },
+        {
+          "start": 1.53,
+          "end": 2.05,
+          "word": " gracieux",
+          "probability": 0.9985811412334442
+        },
+        {
+          "start": 2.05,
+          "end": 2.15,
+          "word": " et",
+          "probability": 0.9997368454933167
+        },
+        {
+          "start": 2.15,
+          "end": 2.65,
+          "word": " magiques,",
+          "probability": 0.9974068999290466
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

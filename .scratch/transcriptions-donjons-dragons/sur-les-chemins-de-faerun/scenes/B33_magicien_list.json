@@ -1,0 +1,89 @@
+{
+  "scene": "B33_magicien_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B33_magicien_list.mp3",
+  "sha256": "2317986c95f6ff76dd82f7de85ec95d6470523aaed41ac3fe42ee5289e2d6f4b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.710375,
+  "text": "Alors, que faire pour t'en sortir?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.46,
+      "text": " Alors, que faire pour t'en sortir?",
+      "tokens": [
+        50365,
+        9946,
+        11,
+        631,
+        4865,
+        2016,
+        256,
+        6,
+        268,
+        26906,
+        2506,
+        50502
+      ],
+      "avg_logprob": -0.2154555366589473,
+      "compression_ratio": 0.813953488372093,
+      "no_speech_prob": 3.864480783988267e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.58,
+          "word": " Alors,",
+          "probability": 0.94540935754776
+        },
+        {
+          "start": 0.9,
+          "end": 1.22,
+          "word": " que",
+          "probability": 0.9995480179786682
+        },
+        {
+          "start": 1.22,
+          "end": 1.54,
+          "word": " faire",
+          "probability": 0.9996296167373657
+        },
+        {
+          "start": 1.54,
+          "end": 1.72,
+          "word": " pour",
+          "probability": 0.9986997842788696
+        },
+        {
+          "start": 1.72,
+          "end": 1.82,
+          "word": " t",
+          "probability": 0.9749693274497986
+        },
+        {
+          "start": 1.82,
+          "end": 1.9,
+          "word": "'en",
+          "probability": 0.9999263882637024
+        },
+        {
+          "start": 1.9,
+          "end": 2.28,
+          "word": " sortir",
+          "probability": 0.9999375343322754
+        },
+        {
+          "start": 2.28,
+          "end": 2.46,
+          "word": "?",
+          "probability": 0.9975317716598511
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

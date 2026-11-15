@@ -1,0 +1,121 @@
+{
+  "scene": "item_feu",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_feu.mp3",
+  "sha256": "fed59d9423a13f071d8e57f7aa1e96da594ae26784d6a01947005133f39d16b7",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.639875,
+  "text": "Ta récompense pour t'être bien occupé de l'œuf d'or.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.18,
+      "text": " Ta récompense pour t'être bien occupé de l'œuf d'or.",
+      "tokens": [
+        50365,
+        6551,
+        3960,
+        21541,
+        1288,
+        2016,
+        256,
+        6,
+        9498,
+        3610,
+        8073,
+        526,
+        368,
+        287,
+        6,
+        34073,
+        2947,
+        274,
+        6,
+        284,
+        13,
+        50525
+      ],
+      "avg_logprob": -0.08066846689452296,
+      "compression_ratio": 0.8615384615384616,
+      "no_speech_prob": 4.532214881169949e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.28,
+          "word": " Ta",
+          "probability": 0.5433380603790283
+        },
+        {
+          "start": 0.28,
+          "end": 1.0,
+          "word": " récompense",
+          "probability": 0.9998289545377096
+        },
+        {
+          "start": 1.0,
+          "end": 1.34,
+          "word": " pour",
+          "probability": 0.9983280301094055
+        },
+        {
+          "start": 1.34,
+          "end": 1.46,
+          "word": " t",
+          "probability": 0.9717777371406555
+        },
+        {
+          "start": 1.46,
+          "end": 1.64,
+          "word": "'être",
+          "probability": 0.9993027150630951
+        },
+        {
+          "start": 1.64,
+          "end": 1.94,
+          "word": " bien",
+          "probability": 0.999784529209137
+        },
+        {
+          "start": 1.94,
+          "end": 2.42,
+          "word": " occupé",
+          "probability": 0.9388329088687897
+        },
+        {
+          "start": 2.42,
+          "end": 2.58,
+          "word": " de",
+          "probability": 0.999256432056427
+        },
+        {
+          "start": 2.58,
+          "end": 2.72,
+          "word": " l",
+          "probability": 0.9997672438621521
+        },
+        {
+          "start": 2.72,
+          "end": 2.84,
+          "word": "'œuf",
+          "probability": 0.9877299269040426
+        },
+        {
+          "start": 2.84,
+          "end": 2.96,
+          "word": " d",
+          "probability": 0.9988945126533508
+        },
+        {
+          "start": 2.96,
+          "end": 3.18,
+          "word": "'or.",
+          "probability": 0.9999019205570221
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

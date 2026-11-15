@@ -1,0 +1,61 @@
+{
+  "scene": "A2_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A2_list.mp3",
+  "sha256": "c9b97f688f116f4335ed59d9562079265ec1783cc55fb184e3d384104261fa03",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.67375,
+  "text": "Que choisis-tu?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.22,
+      "text": " Que choisis-tu?",
+      "tokens": [
+        50365,
+        4493,
+        1586,
+        28436,
+        12,
+        9179,
+        2506,
+        50445
+      ],
+      "avg_logprob": -0.30444426006740993,
+      "compression_ratio": 0.6666666666666666,
+      "no_speech_prob": 1.2869948162741451e-11,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.48,
+          "word": " Que",
+          "probability": 0.9420385956764221
+        },
+        {
+          "start": 0.48,
+          "end": 0.84,
+          "word": " choisis",
+          "probability": 0.9932619631290436
+        },
+        {
+          "start": 0.84,
+          "end": 1.06,
+          "word": "-tu",
+          "probability": 0.996465265750885
+        },
+        {
+          "start": 1.06,
+          "end": 1.22,
+          "word": "?",
+          "probability": 0.976641833782196
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

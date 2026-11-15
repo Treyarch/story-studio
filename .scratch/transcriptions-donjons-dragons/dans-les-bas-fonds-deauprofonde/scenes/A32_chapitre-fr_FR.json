@@ -1,0 +1,56 @@
+{
+  "scene": "A32_chapitre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A32_chapitre-fr_FR.mp3",
+  "sha256": "9a3a8713285e4b9cf6e11ebb27cf50aa37c33d77920589cb9ed77199e4512e2d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.6721875,
+  "text": "Le Seigneur Rojenard",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.8,
+      "text": " Le Seigneur Rojenard",
+      "tokens": [
+        50365,
+        1456,
+        1100,
+        26341,
+        374,
+        3101,
+        73,
+        20062,
+        50460
+      ],
+      "avg_logprob": -0.18207129836082458,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 5.660229229764724e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.58,
+          "word": " Le",
+          "probability": 0.9516314268112183
+        },
+        {
+          "start": 0.58,
+          "end": 1.22,
+          "word": " Seigneur",
+          "probability": 0.9816197554270426
+        },
+        {
+          "start": 1.22,
+          "end": 1.8,
+          "word": " Rojenard",
+          "probability": 0.7427470286687216
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

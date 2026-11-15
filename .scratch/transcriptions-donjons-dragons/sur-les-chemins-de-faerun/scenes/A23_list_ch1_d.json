@@ -1,0 +1,67 @@
+{
+  "scene": "A23_list_ch1_d",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A23_list_ch1_d.mp3",
+  "sha256": "6f69f7d50580beebd8ba2437e05f7b20a638a5e0b1677a70d6d8ce08efa3a997",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.107125,
+  "text": "en préparant un beau brasier.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.75,
+      "end": 2.75,
+      "text": " en préparant un beau brasier.",
+      "tokens": [
+        50365,
+        465,
+        38286,
+        394,
+        517,
+        29891,
+        19993,
+        811,
+        13,
+        50466
+      ],
+      "avg_logprob": -0.10847208852117712,
+      "compression_ratio": 0.7894736842105263,
+      "no_speech_prob": 4.937003496990888e-12,
+      "words": [
+        {
+          "start": 0.75,
+          "end": 1.23,
+          "word": " en",
+          "probability": 0.6590592265129089
+        },
+        {
+          "start": 1.23,
+          "end": 1.81,
+          "word": " préparant",
+          "probability": 0.9997950792312622
+        },
+        {
+          "start": 1.81,
+          "end": 2.07,
+          "word": " un",
+          "probability": 0.9995998740196228
+        },
+        {
+          "start": 2.07,
+          "end": 2.29,
+          "word": " beau",
+          "probability": 0.9981961846351624
+        },
+        {
+          "start": 2.29,
+          "end": 2.75,
+          "word": " brasier.",
+          "probability": 0.9975824654102325
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

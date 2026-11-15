@@ -1,0 +1,76 @@
+{
+  "scene": "A23_list_ch3_b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A23_list_ch3_b.mp3",
+  "sha256": "ade665472342dedca9fa436f1497ff4d7067689cdd69f12280e7da61adeb1881",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.46475,
+  "text": "en lançant un sort d'embrasement.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.1,
+      "text": " en lançant un sort d'embrasement.",
+      "tokens": [
+        50365,
+        465,
+        36251,
+        394,
+        517,
+        1333,
+        274,
+        6,
+        443,
+        38182,
+        1712,
+        13,
+        50471
+      ],
+      "avg_logprob": -0.10571173205971718,
+      "compression_ratio": 0.8095238095238095,
+      "no_speech_prob": 3.78530149933165e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.44,
+          "word": " en",
+          "probability": 0.8504756689071655
+        },
+        {
+          "start": 0.44,
+          "end": 0.96,
+          "word": " lançant",
+          "probability": 0.9977404773235321
+        },
+        {
+          "start": 0.96,
+          "end": 1.2,
+          "word": " un",
+          "probability": 0.998684823513031
+        },
+        {
+          "start": 1.2,
+          "end": 1.5,
+          "word": " sort",
+          "probability": 0.9950916767120361
+        },
+        {
+          "start": 1.5,
+          "end": 1.6,
+          "word": " d",
+          "probability": 0.9994321465492249
+        },
+        {
+          "start": 1.6,
+          "end": 2.1,
+          "word": "'embrasement.",
+          "probability": 0.9958143830299377
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

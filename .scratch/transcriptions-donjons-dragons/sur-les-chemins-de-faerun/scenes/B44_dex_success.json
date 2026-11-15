@@ -1,0 +1,234 @@
+{
+  "scene": "B44_dex_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B44_dex_success.mp3",
+  "sha256": "dc17c77599cee356313295e06367b3383e7c4313bf4fc4689db58c10c120e7d7",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 9.9301875,
+  "text": "Tu te retires juste à temps. L'écrou que formaient les barreaux de la petite ouverture n'attrape rien d'autre que de l'air.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.07,
+      "end": 2.73,
+      "text": " Tu te retires juste à temps.",
+      "tokens": [
+        50365,
+        7836,
+        535,
+        1533,
+        3145,
+        13016,
+        1531,
+        8827,
+        13,
+        50450
+      ],
+      "avg_logprob": -0.10823411893012912,
+      "compression_ratio": 1.1574074074074074,
+      "no_speech_prob": 5.537277667638785e-12,
+      "words": [
+        {
+          "start": 1.07,
+          "end": 1.53,
+          "word": " Tu",
+          "probability": 0.9475235342979431
+        },
+        {
+          "start": 1.53,
+          "end": 1.71,
+          "word": " te",
+          "probability": 0.9998311996459961
+        },
+        {
+          "start": 1.71,
+          "end": 2.13,
+          "word": " retires",
+          "probability": 0.9693265557289124
+        },
+        {
+          "start": 2.13,
+          "end": 2.43,
+          "word": " juste",
+          "probability": 0.9933777451515198
+        },
+        {
+          "start": 2.43,
+          "end": 2.63,
+          "word": " à",
+          "probability": 0.9988493919372559
+        },
+        {
+          "start": 2.63,
+          "end": 2.73,
+          "word": " temps.",
+          "probability": 0.9959093332290649
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.25,
+      "end": 8.01,
+      "text": " L'écrou que formaient les barreaux de la petite ouverture n'attrape rien d'autre que de l'air.",
+      "tokens": [
+        50491,
+        441,
+        6,
+        9062,
+        13122,
+        631,
+        8366,
+        1196,
+        1512,
+        43834,
+        7511,
+        368,
+        635,
+        18319,
+        47683,
+        540,
+        297,
+        6,
+        1591,
+        424,
+        494,
+        13355,
+        274,
+        6,
+        19702,
+        631,
+        368,
+        287,
+        6,
+        1246,
+        13,
+        50712
+      ],
+      "avg_logprob": -0.10823411893012912,
+      "compression_ratio": 1.1574074074074074,
+      "no_speech_prob": 5.537277667638785e-12,
+      "words": [
+        {
+          "start": 3.25,
+          "end": 3.69,
+          "word": " L",
+          "probability": 0.9955888986587524
+        },
+        {
+          "start": 3.69,
+          "end": 3.95,
+          "word": "'écrou",
+          "probability": 0.9525161186854044
+        },
+        {
+          "start": 3.95,
+          "end": 4.11,
+          "word": " que",
+          "probability": 0.9946190118789673
+        },
+        {
+          "start": 4.11,
+          "end": 4.53,
+          "word": " formaient",
+          "probability": 0.8858382999897003
+        },
+        {
+          "start": 4.53,
+          "end": 4.63,
+          "word": " les",
+          "probability": 0.9998425245285034
+        },
+        {
+          "start": 4.63,
+          "end": 4.97,
+          "word": " barreaux",
+          "probability": 0.9967332482337952
+        },
+        {
+          "start": 4.97,
+          "end": 5.11,
+          "word": " de",
+          "probability": 0.9999160766601562
+        },
+        {
+          "start": 5.11,
+          "end": 5.25,
+          "word": " la",
+          "probability": 0.9979127049446106
+        },
+        {
+          "start": 5.25,
+          "end": 5.59,
+          "word": " petite",
+          "probability": 0.9975178241729736
+        },
+        {
+          "start": 5.59,
+          "end": 6.25,
+          "word": " ouverture",
+          "probability": 0.9994293451309204
+        },
+        {
+          "start": 6.25,
+          "end": 6.61,
+          "word": " n",
+          "probability": 0.9983381032943726
+        },
+        {
+          "start": 6.61,
+          "end": 6.99,
+          "word": "'attrape",
+          "probability": 0.9878998547792435
+        },
+        {
+          "start": 6.99,
+          "end": 7.21,
+          "word": " rien",
+          "probability": 0.9997017979621887
+        },
+        {
+          "start": 7.21,
+          "end": 7.35,
+          "word": " d",
+          "probability": 0.9998594522476196
+        },
+        {
+          "start": 7.35,
+          "end": 7.49,
+          "word": "'autre",
+          "probability": 0.9999220371246338
+        },
+        {
+          "start": 7.49,
+          "end": 7.67,
+          "word": " que",
+          "probability": 0.9998912811279297
+        },
+        {
+          "start": 7.67,
+          "end": 7.77,
+          "word": " de",
+          "probability": 0.9992998838424683
+        },
+        {
+          "start": 7.77,
+          "end": 7.89,
+          "word": " l",
+          "probability": 0.9999784231185913
+        },
+        {
+          "start": 7.89,
+          "end": 8.01,
+          "word": "'air.",
+          "probability": 0.9997179806232452
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

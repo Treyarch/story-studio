@@ -1,0 +1,62 @@
+{
+  "scene": "item_title_cape-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_cape-fr_FR.mp3",
+  "sha256": "e5b80b5d9f08d89f755f833c95cd39f2fb3d67067e9382798362e0ca74af5e68",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.1214375,
+  "text": "La cape d'Aurinax",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.58,
+      "text": " La cape d'Aurinax",
+      "tokens": [
+        50365,
+        2369,
+        30414,
+        274,
+        6,
+        21520,
+        1426,
+        87,
+        50443
+      ],
+      "avg_logprob": -0.274849659204483,
+      "compression_ratio": 0.6666666666666666,
+      "no_speech_prob": 5.19737551607502e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.56,
+          "word": " La",
+          "probability": 0.8752743005752563
+        },
+        {
+          "start": 0.56,
+          "end": 0.88,
+          "word": " cape",
+          "probability": 0.5787755250930786
+        },
+        {
+          "start": 0.88,
+          "end": 1.06,
+          "word": " d",
+          "probability": 0.5799832940101624
+        },
+        {
+          "start": 1.06,
+          "end": 1.58,
+          "word": "'Aurinax",
+          "probability": 0.8721305429935455
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,544 @@
+{
+  "scene": "B44_dex_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B44_dex_fail.mp3",
+  "sha256": "6100a60624e7ee88052bb86e399ca15058b49d09b069aaa1576393d7a1be427d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 27.054,
+  "text": "Les barreaux sont devenus des crocs. Ils t'attrapent par l'oreille et te mordent férancement. Tu hurles. Dans la cellule, la femme ne semble rien remarquer. Tu cognes sur la porte et cela suffit à te libérer. Tu vérifies que tu es toujours en un seul morceau et que personne n'a été attiré par tes cris. Jusque là, tout va bien. Enfin, à part ton oreille.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.42,
+      "end": 25.62,
+      "text": " Les barreaux sont devenus des crocs. Ils t'attrapent par l'oreille et te mordent férancement. Tu hurles. Dans la cellule, la femme ne semble rien remarquer. Tu cognes sur la porte et cela suffit à te libérer. Tu vérifies que tu es toujours en un seul morceau et que personne n'a été attiré par tes cris. Jusque là, tout va bien. Enfin, à part ton oreille.",
+      "tokens": [
+        50365,
+        6965,
+        43834,
+        7511,
+        4900,
+        43115,
+        301,
+        730,
+        4848,
+        14368,
+        13,
+        17979,
+        256,
+        6,
+        1591,
+        4007,
+        317,
+        971,
+        287,
+        6,
+        418,
+        3409,
+        1030,
+        535,
+        275,
+        765,
+        317,
+        283,
+        4198,
+        719,
+        518,
+        13,
+        7836,
+        2756,
+        904,
+        13,
+        16897,
+        635,
+        2815,
+        2271,
+        11,
+        635,
+        27427,
+        408,
+        38328,
+        13355,
+        34329,
+        8035,
+        13,
+        7836,
+        11786,
+        279,
+        1022,
+        635,
+        26658,
+        1030,
+        15437,
+        3889,
+        270,
+        1531,
+        535,
+        22854,
+        21824,
+        13,
+        7836,
+        46919,
+        11221,
+        631,
+        2604,
+        785,
+        11936,
+        465,
+        517,
+        24448,
+        1896,
+        384,
+        1459,
+        1030,
+        631,
+        17219,
+        297,
+        6,
+        64,
+        8862,
+        951,
+        347,
+        526,
+        971,
+        20018,
+        4661,
+        13,
+        508,
+        301,
+        1077,
+        3684,
+        11,
+        3486,
+        2773,
+        3610,
+        13,
+        35861,
+        11,
+        1531,
+        644,
+        2952,
+        20865,
+        3409,
+        13,
+        51575
+      ],
+      "avg_logprob": -0.05702093223279173,
+      "compression_ratio": 1.5166666666666666,
+      "no_speech_prob": 7.419893692517388e-12,
+      "words": [
+        {
+          "start": 1.42,
+          "end": 1.98,
+          "word": " Les",
+          "probability": 0.9683924913406372
+        },
+        {
+          "start": 1.98,
+          "end": 2.32,
+          "word": " barreaux",
+          "probability": 0.9971944689750671
+        },
+        {
+          "start": 2.32,
+          "end": 2.54,
+          "word": " sont",
+          "probability": 0.9999314546585083
+        },
+        {
+          "start": 2.54,
+          "end": 2.96,
+          "word": " devenus",
+          "probability": 0.9982114136219025
+        },
+        {
+          "start": 2.96,
+          "end": 3.08,
+          "word": " des",
+          "probability": 0.8936172723770142
+        },
+        {
+          "start": 3.08,
+          "end": 3.44,
+          "word": " crocs.",
+          "probability": 0.903841108083725
+        },
+        {
+          "start": 3.52,
+          "end": 4.0,
+          "word": " Ils",
+          "probability": 0.9917314648628235
+        },
+        {
+          "start": 4.0,
+          "end": 4.16,
+          "word": " t",
+          "probability": 0.9999226331710815
+        },
+        {
+          "start": 4.16,
+          "end": 4.48,
+          "word": "'attrapent",
+          "probability": 0.9994570761919022
+        },
+        {
+          "start": 4.48,
+          "end": 4.66,
+          "word": " par",
+          "probability": 0.9998481273651123
+        },
+        {
+          "start": 4.66,
+          "end": 4.76,
+          "word": " l",
+          "probability": 0.9999610185623169
+        },
+        {
+          "start": 4.76,
+          "end": 5.12,
+          "word": "'oreille",
+          "probability": 0.9994921088218689
+        },
+        {
+          "start": 5.12,
+          "end": 5.66,
+          "word": " et",
+          "probability": 0.9940463304519653
+        },
+        {
+          "start": 5.66,
+          "end": 5.82,
+          "word": " te",
+          "probability": 0.9996676445007324
+        },
+        {
+          "start": 5.82,
+          "end": 6.24,
+          "word": " mordent",
+          "probability": 0.9911425312360128
+        },
+        {
+          "start": 6.24,
+          "end": 6.8,
+          "word": " férancement.",
+          "probability": 0.7430529743432999
+        },
+        {
+          "start": 7.1,
+          "end": 7.66,
+          "word": " Tu",
+          "probability": 0.9989153146743774
+        },
+        {
+          "start": 7.66,
+          "end": 8.16,
+          "word": " hurles.",
+          "probability": 0.9992943406105042
+        },
+        {
+          "start": 8.74,
+          "end": 9.02,
+          "word": " Dans",
+          "probability": 0.9996726512908936
+        },
+        {
+          "start": 9.02,
+          "end": 9.16,
+          "word": " la",
+          "probability": 0.9999290704727173
+        },
+        {
+          "start": 9.16,
+          "end": 9.58,
+          "word": " cellule,",
+          "probability": 0.9998422563076019
+        },
+        {
+          "start": 9.98,
+          "end": 10.12,
+          "word": " la",
+          "probability": 0.9997473359107971
+        },
+        {
+          "start": 10.12,
+          "end": 10.4,
+          "word": " femme",
+          "probability": 0.9999077320098877
+        },
+        {
+          "start": 10.4,
+          "end": 10.56,
+          "word": " ne",
+          "probability": 0.9999083280563354
+        },
+        {
+          "start": 10.56,
+          "end": 10.82,
+          "word": " semble",
+          "probability": 0.9998440742492676
+        },
+        {
+          "start": 10.82,
+          "end": 11.06,
+          "word": " rien",
+          "probability": 0.9996955394744873
+        },
+        {
+          "start": 11.06,
+          "end": 11.5,
+          "word": " remarquer.",
+          "probability": 0.9902619123458862
+        },
+        {
+          "start": 11.84,
+          "end": 12.28,
+          "word": " Tu",
+          "probability": 0.9991408586502075
+        },
+        {
+          "start": 12.28,
+          "end": 12.68,
+          "word": " cognes",
+          "probability": 0.8623223900794983
+        },
+        {
+          "start": 12.68,
+          "end": 12.84,
+          "word": " sur",
+          "probability": 0.9997879862785339
+        },
+        {
+          "start": 12.84,
+          "end": 12.98,
+          "word": " la",
+          "probability": 0.999913215637207
+        },
+        {
+          "start": 12.98,
+          "end": 13.3,
+          "word": " porte",
+          "probability": 0.9998624324798584
+        },
+        {
+          "start": 13.3,
+          "end": 13.72,
+          "word": " et",
+          "probability": 0.8399446606636047
+        },
+        {
+          "start": 13.72,
+          "end": 14.02,
+          "word": " cela",
+          "probability": 0.9997586607933044
+        },
+        {
+          "start": 14.02,
+          "end": 14.48,
+          "word": " suffit",
+          "probability": 0.9999343752861023
+        },
+        {
+          "start": 14.48,
+          "end": 14.6,
+          "word": " à",
+          "probability": 0.9997240900993347
+        },
+        {
+          "start": 14.6,
+          "end": 14.72,
+          "word": " te",
+          "probability": 0.9998675584793091
+        },
+        {
+          "start": 14.72,
+          "end": 15.1,
+          "word": " libérer.",
+          "probability": 0.9997312724590302
+        },
+        {
+          "start": 15.6,
+          "end": 15.94,
+          "word": " Tu",
+          "probability": 0.999016284942627
+        },
+        {
+          "start": 15.94,
+          "end": 16.48,
+          "word": " vérifies",
+          "probability": 0.997667133808136
+        },
+        {
+          "start": 16.48,
+          "end": 16.68,
+          "word": " que",
+          "probability": 0.999921441078186
+        },
+        {
+          "start": 16.68,
+          "end": 16.84,
+          "word": " tu",
+          "probability": 0.9998002648353577
+        },
+        {
+          "start": 16.84,
+          "end": 16.98,
+          "word": " es",
+          "probability": 0.9993426203727722
+        },
+        {
+          "start": 16.98,
+          "end": 17.42,
+          "word": " toujours",
+          "probability": 0.9998685121536255
+        },
+        {
+          "start": 17.42,
+          "end": 17.72,
+          "word": " en",
+          "probability": 0.9997643828392029
+        },
+        {
+          "start": 17.72,
+          "end": 17.96,
+          "word": " un",
+          "probability": 0.999774158000946
+        },
+        {
+          "start": 17.96,
+          "end": 18.14,
+          "word": " seul",
+          "probability": 0.9997865557670593
+        },
+        {
+          "start": 18.14,
+          "end": 18.56,
+          "word": " morceau",
+          "probability": 0.999869167804718
+        },
+        {
+          "start": 18.56,
+          "end": 19.18,
+          "word": " et",
+          "probability": 0.9983081817626953
+        },
+        {
+          "start": 19.18,
+          "end": 19.34,
+          "word": " que",
+          "probability": 0.9999827146530151
+        },
+        {
+          "start": 19.34,
+          "end": 19.8,
+          "word": " personne",
+          "probability": 0.9999691247940063
+        },
+        {
+          "start": 19.8,
+          "end": 19.94,
+          "word": " n",
+          "probability": 0.9996520280838013
+        },
+        {
+          "start": 19.94,
+          "end": 20.0,
+          "word": "'a",
+          "probability": 0.9997760355472565
+        },
+        {
+          "start": 20.0,
+          "end": 20.22,
+          "word": " été",
+          "probability": 0.999737560749054
+        },
+        {
+          "start": 20.22,
+          "end": 20.6,
+          "word": " attiré",
+          "probability": 0.9995208382606506
+        },
+        {
+          "start": 20.6,
+          "end": 20.76,
+          "word": " par",
+          "probability": 0.9997836947441101
+        },
+        {
+          "start": 20.76,
+          "end": 20.9,
+          "word": " tes",
+          "probability": 0.9998607635498047
+        },
+        {
+          "start": 20.9,
+          "end": 21.12,
+          "word": " cris.",
+          "probability": 0.9883050918579102
+        },
+        {
+          "start": 21.62,
+          "end": 22.06,
+          "word": " Jusque",
+          "probability": 0.9989673097928365
+        },
+        {
+          "start": 22.06,
+          "end": 22.24,
+          "word": " là,",
+          "probability": 0.5330384373664856
+        },
+        {
+          "start": 22.86,
+          "end": 23.12,
+          "word": " tout",
+          "probability": 0.9995427131652832
+        },
+        {
+          "start": 23.12,
+          "end": 23.36,
+          "word": " va",
+          "probability": 0.9999101161956787
+        },
+        {
+          "start": 23.36,
+          "end": 23.62,
+          "word": " bien.",
+          "probability": 0.9999611377716064
+        },
+        {
+          "start": 23.94,
+          "end": 24.48,
+          "word": " Enfin,",
+          "probability": 0.9983624815940857
+        },
+        {
+          "start": 24.76,
+          "end": 24.96,
+          "word": " à",
+          "probability": 0.9996793270111084
+        },
+        {
+          "start": 24.96,
+          "end": 25.1,
+          "word": " part",
+          "probability": 0.9976629018783569
+        },
+        {
+          "start": 25.1,
+          "end": 25.26,
+          "word": " ton",
+          "probability": 0.9992164373397827
+        },
+        {
+          "start": 25.26,
+          "end": 25.62,
+          "word": " oreille.",
+          "probability": 0.9997316598892212
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,889 @@
+{
+  "scene": "B79_rodeur",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B79_rodeur.mp3",
+  "sha256": "bc43f7d696aca615c113a380daae0de56ff966a9f1e0d7f65c317f1f9997f9e0",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 38.796125,
+  "text": "Tu recules, t'empare de ton arc et y encoche une flèche. Au fond de la pièce, Seigneur Rojenard semble sidéré par ton audace. Mais avant que tu puisses lâcher ta flèche, un rayon de lumière s'échappe dans des yeux de Xanathar et frappe ton arc, le réduisant aussitôt en poussière. C'est une chose que les tyrannœils apprennent très jeune. Ne jamais laisser personne pointer sur eux un objet pointu. Pas question de perdre un oeil Tu t'époussettes les mains et fronces les sourcils Tu vas trouver une autre solution",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.58,
+      "end": 5.54,
+      "text": " Tu recules, t'empare de ton arc et y encoche une flèche.",
+      "tokens": [
+        50365,
+        7836,
+        850,
+        3473,
+        11,
+        256,
+        6,
+        15970,
+        543,
+        368,
+        2952,
+        10346,
+        1030,
+        288,
+        465,
+        1291,
+        1876,
+        2251,
+        932,
+        1462,
+        1876,
+        13,
+        50563
+      ],
+      "avg_logprob": -0.14188352742589505,
+      "compression_ratio": 1.5111940298507462,
+      "no_speech_prob": 7.016537958287605e-12,
+      "words": [
+        {
+          "start": 1.58,
+          "end": 1.98,
+          "word": " Tu",
+          "probability": 0.8294218182563782
+        },
+        {
+          "start": 1.98,
+          "end": 2.52,
+          "word": " recules,",
+          "probability": 0.9917414784431458
+        },
+        {
+          "start": 3.04,
+          "end": 3.12,
+          "word": " t",
+          "probability": 0.9880247712135315
+        },
+        {
+          "start": 3.12,
+          "end": 3.46,
+          "word": "'empare",
+          "probability": 0.9040946761767069
+        },
+        {
+          "start": 3.46,
+          "end": 3.64,
+          "word": " de",
+          "probability": 0.9995179176330566
+        },
+        {
+          "start": 3.64,
+          "end": 3.84,
+          "word": " ton",
+          "probability": 0.999685525894165
+        },
+        {
+          "start": 3.84,
+          "end": 4.18,
+          "word": " arc",
+          "probability": 0.9973268508911133
+        },
+        {
+          "start": 4.18,
+          "end": 4.42,
+          "word": " et",
+          "probability": 0.9886825680732727
+        },
+        {
+          "start": 4.42,
+          "end": 4.62,
+          "word": " y",
+          "probability": 0.9970954656600952
+        },
+        {
+          "start": 4.62,
+          "end": 4.98,
+          "word": " encoche",
+          "probability": 0.9905134240786234
+        },
+        {
+          "start": 4.98,
+          "end": 5.12,
+          "word": " une",
+          "probability": 0.9998453855514526
+        },
+        {
+          "start": 5.12,
+          "end": 5.54,
+          "word": " flèche.",
+          "probability": 0.9995030959447225
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.0,
+      "end": 10.18,
+      "text": " Au fond de la pièce, Seigneur Rojenard semble sidéré par ton audace.",
+      "tokens": [
+        50598,
+        12160,
+        9557,
+        368,
+        635,
+        3895,
+        30236,
+        11,
+        1100,
+        26341,
+        374,
+        3101,
+        73,
+        20062,
+        38328,
+        20822,
+        29071,
+        971,
+        2952,
+        2379,
+        617,
+        13,
+        50796
+      ],
+      "avg_logprob": -0.14188352742589505,
+      "compression_ratio": 1.5111940298507462,
+      "no_speech_prob": 7.016537958287605e-12,
+      "words": [
+        {
+          "start": 6.0,
+          "end": 6.34,
+          "word": " Au",
+          "probability": 0.9994243383407593
+        },
+        {
+          "start": 6.34,
+          "end": 6.52,
+          "word": " fond",
+          "probability": 0.9997345805168152
+        },
+        {
+          "start": 6.52,
+          "end": 6.62,
+          "word": " de",
+          "probability": 0.9997952580451965
+        },
+        {
+          "start": 6.62,
+          "end": 6.74,
+          "word": " la",
+          "probability": 0.9999139308929443
+        },
+        {
+          "start": 6.74,
+          "end": 7.08,
+          "word": " pièce,",
+          "probability": 0.9998996257781982
+        },
+        {
+          "start": 7.46,
+          "end": 7.92,
+          "word": " Seigneur",
+          "probability": 0.9287911653518677
+        },
+        {
+          "start": 7.92,
+          "end": 8.34,
+          "word": " Rojenard",
+          "probability": 0.7295934756596884
+        },
+        {
+          "start": 8.34,
+          "end": 8.76,
+          "word": " semble",
+          "probability": 0.9988096952438354
+        },
+        {
+          "start": 8.76,
+          "end": 9.32,
+          "word": " sidéré",
+          "probability": 0.9277275800704956
+        },
+        {
+          "start": 9.32,
+          "end": 9.54,
+          "word": " par",
+          "probability": 0.9999141693115234
+        },
+        {
+          "start": 9.54,
+          "end": 9.72,
+          "word": " ton",
+          "probability": 0.9997311234474182
+        },
+        {
+          "start": 9.72,
+          "end": 10.18,
+          "word": " audace.",
+          "probability": 0.9992093741893768
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.66,
+      "end": 13.06,
+      "text": " Mais avant que tu puisses lâcher ta flèche,",
+      "tokens": [
+        50835,
+        6313,
+        13439,
+        631,
+        2604,
+        2362,
+        40487,
+        48835,
+        6759,
+        1846,
+        932,
+        1462,
+        1876,
+        11,
+        50940
+      ],
+      "avg_logprob": -0.14188352742589505,
+      "compression_ratio": 1.5111940298507462,
+      "no_speech_prob": 7.016537958287605e-12,
+      "words": [
+        {
+          "start": 10.66,
+          "end": 11.14,
+          "word": " Mais",
+          "probability": 0.9994927644729614
+        },
+        {
+          "start": 11.14,
+          "end": 11.48,
+          "word": " avant",
+          "probability": 0.9998729228973389
+        },
+        {
+          "start": 11.48,
+          "end": 11.68,
+          "word": " que",
+          "probability": 0.999951958656311
+        },
+        {
+          "start": 11.68,
+          "end": 11.82,
+          "word": " tu",
+          "probability": 0.999943733215332
+        },
+        {
+          "start": 11.82,
+          "end": 12.16,
+          "word": " puisses",
+          "probability": 0.9957866072654724
+        },
+        {
+          "start": 12.16,
+          "end": 12.5,
+          "word": " lâcher",
+          "probability": 0.9998934268951416
+        },
+        {
+          "start": 12.5,
+          "end": 12.66,
+          "word": " ta",
+          "probability": 0.9995459914207458
+        },
+        {
+          "start": 12.66,
+          "end": 13.06,
+          "word": " flèche,",
+          "probability": 0.9999082485834757
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 13.5,
+      "end": 17.7,
+      "text": " un rayon de lumière s'échappe dans des yeux de Xanathar et frappe ton arc,",
+      "tokens": [
+        50965,
+        517,
+        18592,
+        368,
+        43193,
+        262,
+        6,
+        30606,
+        46408,
+        2680,
+        730,
+        36163,
+        368,
+        1783,
+        282,
+        12051,
+        1030,
+        6600,
+        19833,
+        2952,
+        10346,
+        11,
+        51172
+      ],
+      "avg_logprob": -0.14188352742589505,
+      "compression_ratio": 1.5111940298507462,
+      "no_speech_prob": 7.016537958287605e-12,
+      "words": [
+        {
+          "start": 13.5,
+          "end": 13.7,
+          "word": " un",
+          "probability": 0.9986532926559448
+        },
+        {
+          "start": 13.7,
+          "end": 13.9,
+          "word": " ray",
+          "probability": 0.830896258354187
+        },
+        {
+          "start": 13.9,
+          "end": 14.04,
+          "word": " de",
+          "probability": 0.9995982050895691
+        },
+        {
+          "start": 14.04,
+          "end": 14.44,
+          "word": " lumière",
+          "probability": 0.998982846736908
+        },
+        {
+          "start": 14.44,
+          "end": 14.74,
+          "word": " s",
+          "probability": 0.9999462366104126
+        },
+        {
+          "start": 14.74,
+          "end": 15.1,
+          "word": "'échappe",
+          "probability": 0.9993055065472921
+        },
+        {
+          "start": 15.1,
+          "end": 15.22,
+          "word": " dans",
+          "probability": 0.759614109992981
+        },
+        {
+          "start": 15.22,
+          "end": 15.42,
+          "word": " des",
+          "probability": 0.979550838470459
+        },
+        {
+          "start": 15.42,
+          "end": 15.62,
+          "word": " yeux",
+          "probability": 0.9999269247055054
+        },
+        {
+          "start": 15.62,
+          "end": 15.74,
+          "word": " de",
+          "probability": 0.9994530081748962
+        },
+        {
+          "start": 15.74,
+          "end": 16.32,
+          "word": " Xanathar",
+          "probability": 0.8072206974029541
+        },
+        {
+          "start": 16.32,
+          "end": 16.86,
+          "word": " et",
+          "probability": 0.9964859485626221
+        },
+        {
+          "start": 16.86,
+          "end": 17.22,
+          "word": " frappe",
+          "probability": 0.9996156692504883
+        },
+        {
+          "start": 17.22,
+          "end": 17.38,
+          "word": " ton",
+          "probability": 0.9997326731681824
+        },
+        {
+          "start": 17.38,
+          "end": 17.7,
+          "word": " arc,",
+          "probability": 0.9999058246612549
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 18.18,
+      "end": 20.42,
+      "text": " le réduisant aussitôt en poussière.",
+      "tokens": [
+        51198,
+        476,
+        46369,
+        271,
+        394,
+        5730,
+        270,
+        8775,
+        465,
+        39140,
+        7691,
+        4212,
+        13,
+        51308
+      ],
+      "avg_logprob": -0.14188352742589505,
+      "compression_ratio": 1.5111940298507462,
+      "no_speech_prob": 7.016537958287605e-12,
+      "words": [
+        {
+          "start": 18.18,
+          "end": 18.36,
+          "word": " le",
+          "probability": 0.9998003840446472
+        },
+        {
+          "start": 18.36,
+          "end": 18.88,
+          "word": " réduisant",
+          "probability": 0.999757707118988
+        },
+        {
+          "start": 18.88,
+          "end": 19.58,
+          "word": " aussitôt",
+          "probability": 0.9994962016741434
+        },
+        {
+          "start": 19.58,
+          "end": 19.94,
+          "word": " en",
+          "probability": 0.9999796152114868
+        },
+        {
+          "start": 19.94,
+          "end": 20.42,
+          "word": " poussière.",
+          "probability": 0.9994228482246399
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 20.74,
+      "end": 24.52,
+      "text": " C'est une chose que les tyrannœils apprennent très jeune.",
+      "tokens": [
+        51336,
+        383,
+        6,
+        377,
+        2251,
+        5111,
+        631,
+        1512,
+        13807,
+        1929,
+        84,
+        4174,
+        724,
+        1095,
+        17469,
+        5732,
+        35610,
+        13,
+        51514
+      ],
+      "avg_logprob": -0.14188352742589505,
+      "compression_ratio": 1.5111940298507462,
+      "no_speech_prob": 7.016537958287605e-12,
+      "words": [
+        {
+          "start": 20.74,
+          "end": 21.1,
+          "word": " C",
+          "probability": 0.9347779750823975
+        },
+        {
+          "start": 21.1,
+          "end": 21.2,
+          "word": "'est",
+          "probability": 0.9953029453754425
+        },
+        {
+          "start": 21.2,
+          "end": 21.38,
+          "word": " une",
+          "probability": 0.9997733235359192
+        },
+        {
+          "start": 21.38,
+          "end": 22.04,
+          "word": " chose",
+          "probability": 0.9995551705360413
+        },
+        {
+          "start": 22.04,
+          "end": 22.4,
+          "word": " que",
+          "probability": 0.9992440938949585
+        },
+        {
+          "start": 22.4,
+          "end": 22.6,
+          "word": " les",
+          "probability": 0.9991875290870667
+        },
+        {
+          "start": 22.6,
+          "end": 23.14,
+          "word": " tyrannœils",
+          "probability": 0.6078165248036385
+        },
+        {
+          "start": 23.14,
+          "end": 23.6,
+          "word": " apprennent",
+          "probability": 0.9993172685305277
+        },
+        {
+          "start": 23.6,
+          "end": 23.94,
+          "word": " très",
+          "probability": 0.9998045563697815
+        },
+        {
+          "start": 23.94,
+          "end": 24.52,
+          "word": " jeune.",
+          "probability": 0.5070187449455261
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 24.84,
+      "end": 28.72,
+      "text": " Ne jamais laisser personne pointer sur eux un objet pointu.",
+      "tokens": [
+        51535,
+        1734,
+        14540,
+        34463,
+        17219,
+        23918,
+        1022,
+        22648,
+        517,
+        14964,
+        935,
+        84,
+        13,
+        51728
+      ],
+      "avg_logprob": -0.14188352742589505,
+      "compression_ratio": 1.5111940298507462,
+      "no_speech_prob": 7.016537958287605e-12,
+      "words": [
+        {
+          "start": 24.84,
+          "end": 25.08,
+          "word": " Ne",
+          "probability": 0.9980321526527405
+        },
+        {
+          "start": 25.08,
+          "end": 25.42,
+          "word": " jamais",
+          "probability": 0.9998738765716553
+        },
+        {
+          "start": 25.42,
+          "end": 25.7,
+          "word": " laisser",
+          "probability": 0.9672974944114685
+        },
+        {
+          "start": 25.7,
+          "end": 26.26,
+          "word": " personne",
+          "probability": 0.9983127117156982
+        },
+        {
+          "start": 26.26,
+          "end": 26.7,
+          "word": " pointer",
+          "probability": 0.9026870727539062
+        },
+        {
+          "start": 26.7,
+          "end": 26.92,
+          "word": " sur",
+          "probability": 0.9998615980148315
+        },
+        {
+          "start": 26.92,
+          "end": 27.1,
+          "word": " eux",
+          "probability": 0.9991163611412048
+        },
+        {
+          "start": 27.1,
+          "end": 27.54,
+          "word": " un",
+          "probability": 0.9575798511505127
+        },
+        {
+          "start": 27.54,
+          "end": 27.98,
+          "word": " objet",
+          "probability": 0.9995550513267517
+        },
+        {
+          "start": 27.98,
+          "end": 28.72,
+          "word": " pointu.",
+          "probability": 0.9971334338188171
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 2714,
+      "start": 29.38,
+      "end": 31.92,
+      "text": " Pas question de perdre un oeil",
+      "tokens": [
+        50365,
+        14199,
+        1168,
+        368,
+        46254,
+        517,
+        277,
+        30684,
+        50529
+      ],
+      "avg_logprob": -0.23097186452812618,
+      "compression_ratio": 1.1717171717171717,
+      "no_speech_prob": 5.8593581375721016e-12,
+      "words": [
+        {
+          "start": 29.38,
+          "end": 29.98,
+          "word": " Pas",
+          "probability": 0.8847606778144836
+        },
+        {
+          "start": 29.98,
+          "end": 30.44,
+          "word": " question",
+          "probability": 0.9995574355125427
+        },
+        {
+          "start": 30.44,
+          "end": 30.7,
+          "word": " de",
+          "probability": 0.9982557892799377
+        },
+        {
+          "start": 30.7,
+          "end": 31.06,
+          "word": " perdre",
+          "probability": 0.9995299577713013
+        },
+        {
+          "start": 31.06,
+          "end": 31.4,
+          "word": " un",
+          "probability": 0.9985427856445312
+        },
+        {
+          "start": 31.4,
+          "end": 31.92,
+          "word": " oeil",
+          "probability": 0.8196683824062347
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2714,
+      "start": 31.92,
+      "end": 35.12,
+      "text": " Tu t'époussettes les mains et fronces les sourcils",
+      "tokens": [
+        50529,
+        7836,
+        256,
+        6,
+        16171,
+        563,
+        82,
+        16049,
+        1512,
+        32519,
+        1030,
+        431,
+        8498,
+        1512,
+        11006,
+        3208,
+        82,
+        50670
+      ],
+      "avg_logprob": -0.23097186452812618,
+      "compression_ratio": 1.1717171717171717,
+      "no_speech_prob": 5.8593581375721016e-12,
+      "words": [
+        {
+          "start": 31.92,
+          "end": 32.5,
+          "word": " Tu",
+          "probability": 0.08539038151502609
+        },
+        {
+          "start": 32.5,
+          "end": 32.64,
+          "word": " t",
+          "probability": 0.9959749579429626
+        },
+        {
+          "start": 32.64,
+          "end": 33.08,
+          "word": "'époussettes",
+          "probability": 0.9054253101348877
+        },
+        {
+          "start": 33.08,
+          "end": 33.22,
+          "word": " les",
+          "probability": 0.9982384443283081
+        },
+        {
+          "start": 33.22,
+          "end": 33.4,
+          "word": " mains",
+          "probability": 0.9999117851257324
+        },
+        {
+          "start": 33.4,
+          "end": 33.66,
+          "word": " et",
+          "probability": 0.882536768913269
+        },
+        {
+          "start": 33.66,
+          "end": 33.98,
+          "word": " fronces",
+          "probability": 0.9939238429069519
+        },
+        {
+          "start": 33.98,
+          "end": 34.12,
+          "word": " les",
+          "probability": 0.9985805749893188
+        },
+        {
+          "start": 34.12,
+          "end": 35.12,
+          "word": " sourcils",
+          "probability": 0.9963090419769287
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2714,
+      "start": 35.12,
+      "end": 36.58,
+      "text": " Tu vas trouver une autre solution",
+      "tokens": [
+        50670,
+        7836,
+        11481,
+        23546,
+        2251,
+        15081,
+        3827,
+        50761
+      ],
+      "avg_logprob": -0.23097186452812618,
+      "compression_ratio": 1.1717171717171717,
+      "no_speech_prob": 5.8593581375721016e-12,
+      "words": [
+        {
+          "start": 35.12,
+          "end": 35.26,
+          "word": " Tu",
+          "probability": 0.9339384436607361
+        },
+        {
+          "start": 35.26,
+          "end": 35.42,
+          "word": " vas",
+          "probability": 0.9980826377868652
+        },
+        {
+          "start": 35.42,
+          "end": 35.72,
+          "word": " trouver",
+          "probability": 0.9997480511665344
+        },
+        {
+          "start": 35.72,
+          "end": 35.96,
+          "word": " une",
+          "probability": 0.9995662569999695
+        },
+        {
+          "start": 35.96,
+          "end": 36.16,
+          "word": " autre",
+          "probability": 0.9999145269393921
+        },
+        {
+          "start": 36.16,
+          "end": 36.58,
+          "word": " solution",
+          "probability": 0.9997281432151794
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "scene": "B40c",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B40c.mp3",
+  "sha256": "8b0d501f51b4d98ac227d7df8d89f8021fbac47c5fe7f0c45f74e76ded889603",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 23.9386875,
+  "text": "Au terme de ton récit, tu sors la carte que tu as subtilisée aux Entes dans le quartier du château. Tes interlocuteurs sont bouche bée. Après un silence éberlué, Renaer lâche. Incroyable! Je cherchais une preuve de la traîtrise de Phylon depuis si longtemps. C'est un miracle! Félicitations, jeune ami!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.69,
+      "end": 6.61,
+      "text": " Au terme de ton récit, tu sors la carte que tu as subtilisée aux Entes dans le quartier du château.",
+      "tokens": [
+        50365,
+        12160,
+        36285,
+        368,
+        2952,
+        3960,
+        45135,
+        11,
+        2604,
+        262,
+        830,
+        635,
+        31483,
+        631,
+        2604,
+        382,
+        7257,
+        388,
+        50027,
+        7865,
+        3951,
+        279,
+        2680,
+        476,
+        20837,
+        811,
+        1581,
+        417,
+        33680,
+        1459,
+        13,
+        50662
+      ],
+      "avg_logprob": -0.16229244657591277,
+      "compression_ratio": 1.381578947368421,
+      "no_speech_prob": 8.156099927381089e-12,
+      "words": [
+        {
+          "start": 0.69,
+          "end": 1.53,
+          "word": " Au",
+          "probability": 0.9489290714263916
+        },
+        {
+          "start": 1.53,
+          "end": 1.77,
+          "word": " terme",
+          "probability": 0.9978734254837036
+        },
+        {
+          "start": 1.77,
+          "end": 1.91,
+          "word": " de",
+          "probability": 0.9999052286148071
+        },
+        {
+          "start": 1.91,
+          "end": 2.05,
+          "word": " ton",
+          "probability": 0.9997442364692688
+        },
+        {
+          "start": 2.05,
+          "end": 2.39,
+          "word": " récit,",
+          "probability": 0.9995661079883575
+        },
+        {
+          "start": 2.63,
+          "end": 2.93,
+          "word": " tu",
+          "probability": 0.9995706677436829
+        },
+        {
+          "start": 2.93,
+          "end": 3.17,
+          "word": " sors",
+          "probability": 0.9867512285709381
+        },
+        {
+          "start": 3.17,
+          "end": 3.33,
+          "word": " la",
+          "probability": 0.9999336004257202
+        },
+        {
+          "start": 3.33,
+          "end": 3.63,
+          "word": " carte",
+          "probability": 0.9999426603317261
+        },
+        {
+          "start": 3.63,
+          "end": 3.85,
+          "word": " que",
+          "probability": 0.9994668364524841
+        },
+        {
+          "start": 3.85,
+          "end": 4.01,
+          "word": " tu",
+          "probability": 0.999962329864502
+        },
+        {
+          "start": 4.01,
+          "end": 4.19,
+          "word": " as",
+          "probability": 0.9990643858909607
+        },
+        {
+          "start": 4.19,
+          "end": 4.81,
+          "word": " subtilisée",
+          "probability": 0.987626314163208
+        },
+        {
+          "start": 4.81,
+          "end": 5.01,
+          "word": " aux",
+          "probability": 0.7215588688850403
+        },
+        {
+          "start": 5.01,
+          "end": 5.51,
+          "word": " Entes",
+          "probability": 0.89464470744133
+        },
+        {
+          "start": 5.51,
+          "end": 5.61,
+          "word": " dans",
+          "probability": 0.785405158996582
+        },
+        {
+          "start": 5.61,
+          "end": 5.77,
+          "word": " le",
+          "probability": 0.9980473518371582
+        },
+        {
+          "start": 5.77,
+          "end": 6.11,
+          "word": " quartier",
+          "probability": 0.9995144605636597
+        },
+        {
+          "start": 6.11,
+          "end": 6.23,
+          "word": " du",
+          "probability": 0.9996167421340942
+        },
+        {
+          "start": 6.23,
+          "end": 6.61,
+          "word": " château.",
+          "probability": 0.9977390567461649
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.95,
+      "end": 9.57,
+      "text": " Tes interlocuteurs sont bouche bée.",
+      "tokens": [
+        50698,
+        12262,
+        728,
+        5842,
+        1169,
+        2156,
+        4900,
+        15345,
+        1876,
+        272,
+        3856,
+        13,
+        50810
+      ],
+      "avg_logprob": -0.16229244657591277,
+      "compression_ratio": 1.381578947368421,
+      "no_speech_prob": 8.156099927381089e-12,
+      "words": [
+        {
+          "start": 6.95,
+          "end": 7.51,
+          "word": " Tes",
+          "probability": 0.9980261921882629
+        },
+        {
+          "start": 7.51,
+          "end": 8.51,
+          "word": " interlocuteurs",
+          "probability": 0.9998147338628769
+        },
+        {
+          "start": 8.51,
+          "end": 8.95,
+          "word": " sont",
+          "probability": 0.9993901252746582
+        },
+        {
+          "start": 8.95,
+          "end": 9.39,
+          "word": " bouche",
+          "probability": 0.9877625107765198
+        },
+        {
+          "start": 9.39,
+          "end": 9.57,
+          "word": " bée.",
+          "probability": 0.946440577507019
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.43,
+      "end": 13.45,
+      "text": " Après un silence éberlué, Renaer lâche.",
+      "tokens": [
+        50856,
+        29265,
+        517,
+        12239,
+        1136,
+        607,
+        2781,
+        526,
+        11,
+        12883,
+        1193,
+        48835,
+        1876,
+        13,
+        51004
+      ],
+      "avg_logprob": -0.16229244657591277,
+      "compression_ratio": 1.381578947368421,
+      "no_speech_prob": 8.156099927381089e-12,
+      "words": [
+        {
+          "start": 10.43,
+          "end": 10.75,
+          "word": " Après",
+          "probability": 0.9993969202041626
+        },
+        {
+          "start": 10.75,
+          "end": 10.97,
+          "word": " un",
+          "probability": 0.999932050704956
+        },
+        {
+          "start": 10.97,
+          "end": 11.43,
+          "word": " silence",
+          "probability": 0.9996873140335083
+        },
+        {
+          "start": 11.43,
+          "end": 12.13,
+          "word": " éberlué,",
+          "probability": 0.9957796037197113
+        },
+        {
+          "start": 12.73,
+          "end": 13.01,
+          "word": " Renaer",
+          "probability": 0.7294818162918091
+        },
+        {
+          "start": 13.01,
+          "end": 13.45,
+          "word": " lâche.",
+          "probability": 0.9994127452373505
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 14.01,
+      "end": 18.63,
+      "text": " Incroyable! Je cherchais une preuve de la traîtrise de Phylon depuis si longtemps.",
+      "tokens": [
+        51032,
+        7779,
+        45976,
+        2298,
+        2588,
+        12085,
+        339,
+        1527,
+        2251,
+        659,
+        31564,
+        368,
+        635,
+        944,
+        7517,
+        6903,
+        908,
+        368,
+        2623,
+        34926,
+        16062,
+        1511,
+        32437,
+        13,
+        51263
+      ],
+      "avg_logprob": -0.16229244657591277,
+      "compression_ratio": 1.381578947368421,
+      "no_speech_prob": 8.156099927381089e-12,
+      "words": [
+        {
+          "start": 14.01,
+          "end": 14.61,
+          "word": " Incroyable",
+          "probability": 0.9557288587093353
+        },
+        {
+          "start": 14.61,
+          "end": 15.01,
+          "word": "!",
+          "probability": 0.746126115322113
+        },
+        {
+          "start": 15.01,
+          "end": 15.61,
+          "word": " Je",
+          "probability": 0.9939595460891724
+        },
+        {
+          "start": 15.61,
+          "end": 16.13,
+          "word": " cherchais",
+          "probability": 0.9987521370251974
+        },
+        {
+          "start": 16.13,
+          "end": 16.31,
+          "word": " une",
+          "probability": 0.9995734095573425
+        },
+        {
+          "start": 16.31,
+          "end": 16.59,
+          "word": " preuve",
+          "probability": 0.9997866153717041
+        },
+        {
+          "start": 16.59,
+          "end": 16.71,
+          "word": " de",
+          "probability": 0.9985727071762085
+        },
+        {
+          "start": 16.71,
+          "end": 16.87,
+          "word": " la",
+          "probability": 0.9960963129997253
+        },
+        {
+          "start": 16.87,
+          "end": 17.31,
+          "word": " traîtrise",
+          "probability": 0.951919361948967
+        },
+        {
+          "start": 17.31,
+          "end": 17.45,
+          "word": " de",
+          "probability": 0.9952834248542786
+        },
+        {
+          "start": 17.45,
+          "end": 17.75,
+          "word": " Phylon",
+          "probability": 0.24329151213169098
+        },
+        {
+          "start": 17.75,
+          "end": 18.11,
+          "word": " depuis",
+          "probability": 0.9985594153404236
+        },
+        {
+          "start": 18.11,
+          "end": 18.35,
+          "word": " si",
+          "probability": 0.999881386756897
+        },
+        {
+          "start": 18.35,
+          "end": 18.63,
+          "word": " longtemps.",
+          "probability": 0.9999793767929077
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 19.01,
+      "end": 22.57,
+      "text": " C'est un miracle! Félicitations, jeune ami!",
+      "tokens": [
+        51302,
+        383,
+        6,
+        377,
+        517,
+        14660,
+        2298,
+        479,
+        526,
+        1050,
+        31265,
+        11,
+        35610,
+        33206,
+        2298,
+        51465
+      ],
+      "avg_logprob": -0.16229244657591277,
+      "compression_ratio": 1.381578947368421,
+      "no_speech_prob": 8.156099927381089e-12,
+      "words": [
+        {
+          "start": 19.01,
+          "end": 19.53,
+          "word": " C",
+          "probability": 0.99969482421875
+        },
+        {
+          "start": 19.53,
+          "end": 19.63,
+          "word": "'est",
+          "probability": 0.9999514222145081
+        },
+        {
+          "start": 19.63,
+          "end": 19.73,
+          "word": " un",
+          "probability": 0.9996985197067261
+        },
+        {
+          "start": 19.73,
+          "end": 20.15,
+          "word": " miracle",
+          "probability": 0.999293327331543
+        },
+        {
+          "start": 20.15,
+          "end": 20.69,
+          "word": "!",
+          "probability": 0.9669250845909119
+        },
+        {
+          "start": 20.69,
+          "end": 21.69,
+          "word": " Félicitations,",
+          "probability": 0.9987218827009201
+        },
+        {
+          "start": 21.79,
+          "end": 21.95,
+          "word": " jeune",
+          "probability": 0.9908046722412109
+        },
+        {
+          "start": 21.95,
+          "end": 22.13,
+          "word": " ami",
+          "probability": 0.9835205674171448
+        },
+        {
+          "start": 22.13,
+          "end": 22.57,
+          "word": "!",
+          "probability": 0.9901158213615417
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

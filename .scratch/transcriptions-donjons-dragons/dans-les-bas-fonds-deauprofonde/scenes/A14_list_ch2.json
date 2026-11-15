@@ -1,0 +1,60 @@
+{
+  "scene": "A14_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A14_list_ch2.mp3",
+  "sha256": "09b5a72d894d5991d47d1d8001ebeb2750d6bcb42c7c58342bd5f3ec5b5caa85",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.4158125,
+  "text": "Tu te rends!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.11,
+      "text": " Tu te rends!",
+      "tokens": [
+        50365,
+        7836,
+        535,
+        6125,
+        82,
+        2298,
+        50434
+      ],
+      "avg_logprob": -0.5122053772211075,
+      "compression_ratio": 0.6190476190476191,
+      "no_speech_prob": 4.65579961736462e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.51,
+          "word": " Tu",
+          "probability": 0.926511287689209
+        },
+        {
+          "start": 0.51,
+          "end": 0.67,
+          "word": " te",
+          "probability": 0.9975938200950623
+        },
+        {
+          "start": 0.67,
+          "end": 1.01,
+          "word": " rends",
+          "probability": 0.9964987635612488
+        },
+        {
+          "start": 1.01,
+          "end": 1.11,
+          "word": "!",
+          "probability": 0.21540769934654236
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

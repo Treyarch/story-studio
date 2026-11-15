@@ -1,0 +1,126 @@
+{
+  "scene": "item_griseforces-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_griseforces-fr_FR.mp3",
+  "sha256": "b865679c95d57573f3d0d6973e21b145dcb6435b35aaf768f0da90506f9f7614",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 5.945625,
+  "text": "Bienvenue dans les Gris Force, te voilà une main grise à part entière.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 4.8,
+      "text": " Bienvenue dans les Gris Force, te voilà une main grise à part entière.",
+      "tokens": [
+        50379,
+        16956,
+        29307,
+        2680,
+        1512,
+        2606,
+        271,
+        10580,
+        11,
+        535,
+        14624,
+        2251,
+        2135,
+        677,
+        908,
+        1531,
+        644,
+        948,
+        10195,
+        13,
+        50602
+      ],
+      "avg_logprob": -0.23075563325123352,
+      "compression_ratio": 0.948051948051948,
+      "no_speech_prob": 5.728433352669704e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.92,
+          "word": " Bienvenue",
+          "probability": 0.9871968924999237
+        },
+        {
+          "start": 0.92,
+          "end": 1.22,
+          "word": " dans",
+          "probability": 0.9999079704284668
+        },
+        {
+          "start": 1.22,
+          "end": 1.4,
+          "word": " les",
+          "probability": 0.9899746775627136
+        },
+        {
+          "start": 1.4,
+          "end": 1.64,
+          "word": " Gris",
+          "probability": 0.6758725941181183
+        },
+        {
+          "start": 1.64,
+          "end": 2.02,
+          "word": " Force,",
+          "probability": 0.48681578040122986
+        },
+        {
+          "start": 2.44,
+          "end": 2.74,
+          "word": " te",
+          "probability": 0.9925402998924255
+        },
+        {
+          "start": 2.74,
+          "end": 3.04,
+          "word": " voilà",
+          "probability": 0.9972077012062073
+        },
+        {
+          "start": 3.04,
+          "end": 3.36,
+          "word": " une",
+          "probability": 0.9996997117996216
+        },
+        {
+          "start": 3.36,
+          "end": 3.56,
+          "word": " main",
+          "probability": 0.9955655932426453
+        },
+        {
+          "start": 3.56,
+          "end": 3.9,
+          "word": " grise",
+          "probability": 0.9998924732208252
+        },
+        {
+          "start": 3.9,
+          "end": 4.16,
+          "word": " à",
+          "probability": 0.9999287128448486
+        },
+        {
+          "start": 4.16,
+          "end": 4.38,
+          "word": " part",
+          "probability": 0.9988954067230225
+        },
+        {
+          "start": 4.38,
+          "end": 4.8,
+          "word": " entière.",
+          "probability": 0.9999479651451111
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

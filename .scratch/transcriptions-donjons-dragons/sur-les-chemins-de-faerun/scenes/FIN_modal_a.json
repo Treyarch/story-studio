@@ -1,0 +1,289 @@
+{
+  "scene": "FIN_modal_a",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/FIN_modal_a.mp3",
+  "sha256": "2d1920258ad912b28d5b4a43a219838640488dd94f9a9882701e22a1591cee1c",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 10.8454375,
+  "text": "Quelle épopée! Et le mieux, c'est que l'histoire ne s'arrête pas là. Veux-tu retourner au début pour te lancer dans une nouvelle aventure tout aussi trépidante?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.94,
+      "end": 4.74,
+      "text": " Quelle épopée! Et le mieux, c'est que l'histoire ne s'arrête pas là.",
+      "tokens": [
+        50365,
+        4493,
+        2447,
+        1136,
+        13872,
+        3856,
+        2298,
+        3790,
+        476,
+        20401,
+        11,
+        269,
+        6,
+        377,
+        631,
+        287,
+        6,
+        29093,
+        408,
+        262,
+        6,
+        2284,
+        12943,
+        1736,
+        3684,
+        13,
+        50557
+      ],
+      "avg_logprob": -0.10771207414843419,
+      "compression_ratio": 1.2262773722627738,
+      "no_speech_prob": 5.956957149777509e-12,
+      "words": [
+        {
+          "start": 0.94,
+          "end": 1.5,
+          "word": " Quelle",
+          "probability": 0.9631506204605103
+        },
+        {
+          "start": 1.5,
+          "end": 1.92,
+          "word": " épopée",
+          "probability": 0.9977456529935201
+        },
+        {
+          "start": 1.92,
+          "end": 2.24,
+          "word": "!",
+          "probability": 0.9110113382339478
+        },
+        {
+          "start": 2.24,
+          "end": 2.7,
+          "word": " Et",
+          "probability": 0.9981024861335754
+        },
+        {
+          "start": 2.7,
+          "end": 2.86,
+          "word": " le",
+          "probability": 0.9999221563339233
+        },
+        {
+          "start": 2.86,
+          "end": 3.1,
+          "word": " mieux,",
+          "probability": 0.999924898147583
+        },
+        {
+          "start": 3.22,
+          "end": 3.28,
+          "word": " c",
+          "probability": 0.9999752044677734
+        },
+        {
+          "start": 3.28,
+          "end": 3.32,
+          "word": "'est",
+          "probability": 0.9999949336051941
+        },
+        {
+          "start": 3.32,
+          "end": 3.44,
+          "word": " que",
+          "probability": 0.9999393224716187
+        },
+        {
+          "start": 3.44,
+          "end": 3.54,
+          "word": " l",
+          "probability": 0.9999268054962158
+        },
+        {
+          "start": 3.54,
+          "end": 3.88,
+          "word": "'histoire",
+          "probability": 0.997193843126297
+        },
+        {
+          "start": 3.88,
+          "end": 4.08,
+          "word": " ne",
+          "probability": 0.9997697472572327
+        },
+        {
+          "start": 4.08,
+          "end": 4.22,
+          "word": " s",
+          "probability": 0.9999904632568359
+        },
+        {
+          "start": 4.22,
+          "end": 4.42,
+          "word": "'arrête",
+          "probability": 0.9999456803003947
+        },
+        {
+          "start": 4.42,
+          "end": 4.58,
+          "word": " pas",
+          "probability": 0.999976396560669
+        },
+        {
+          "start": 4.58,
+          "end": 4.74,
+          "word": " là.",
+          "probability": 0.9999631643295288
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.7,
+      "end": 10.12,
+      "text": " Veux-tu retourner au début pour te lancer dans une nouvelle aventure tout aussi trépidante?",
+      "tokens": [
+        50609,
+        9706,
+        2449,
+        12,
+        9179,
+        28873,
+        1193,
+        1609,
+        22594,
+        2016,
+        535,
+        9326,
+        1776,
+        2680,
+        2251,
+        24156,
+        36399,
+        540,
+        3486,
+        6212,
+        504,
+        16171,
+        327,
+        2879,
+        2506,
+        50860
+      ],
+      "avg_logprob": -0.10771207414843419,
+      "compression_ratio": 1.2262773722627738,
+      "no_speech_prob": 5.956957149777509e-12,
+      "words": [
+        {
+          "start": 5.7,
+          "end": 6.0,
+          "word": " Veux",
+          "probability": 0.9914742708206177
+        },
+        {
+          "start": 6.0,
+          "end": 6.14,
+          "word": "-tu",
+          "probability": 0.9997774660587311
+        },
+        {
+          "start": 6.14,
+          "end": 6.6,
+          "word": " retourner",
+          "probability": 0.9996259212493896
+        },
+        {
+          "start": 6.6,
+          "end": 6.7,
+          "word": " au",
+          "probability": 0.9998111128807068
+        },
+        {
+          "start": 6.7,
+          "end": 6.98,
+          "word": " début",
+          "probability": 0.9998282194137573
+        },
+        {
+          "start": 6.98,
+          "end": 7.2,
+          "word": " pour",
+          "probability": 0.9996138215065002
+        },
+        {
+          "start": 7.2,
+          "end": 7.36,
+          "word": " te",
+          "probability": 0.9998601675033569
+        },
+        {
+          "start": 7.36,
+          "end": 7.68,
+          "word": " lancer",
+          "probability": 0.9999388456344604
+        },
+        {
+          "start": 7.68,
+          "end": 7.82,
+          "word": " dans",
+          "probability": 0.9998866319656372
+        },
+        {
+          "start": 7.82,
+          "end": 8.02,
+          "word": " une",
+          "probability": 0.9999514818191528
+        },
+        {
+          "start": 8.02,
+          "end": 8.3,
+          "word": " nouvelle",
+          "probability": 0.9997761845588684
+        },
+        {
+          "start": 8.3,
+          "end": 8.84,
+          "word": " aventure",
+          "probability": 0.9999526143074036
+        },
+        {
+          "start": 8.84,
+          "end": 9.06,
+          "word": " tout",
+          "probability": 0.9916073083877563
+        },
+        {
+          "start": 9.06,
+          "end": 9.36,
+          "word": " aussi",
+          "probability": 0.9999257326126099
+        },
+        {
+          "start": 9.36,
+          "end": 9.98,
+          "word": " trépidante",
+          "probability": 0.9967187345027924
+        },
+        {
+          "start": 9.98,
+          "end": 10.12,
+          "word": "?",
+          "probability": 0.9998019337654114
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

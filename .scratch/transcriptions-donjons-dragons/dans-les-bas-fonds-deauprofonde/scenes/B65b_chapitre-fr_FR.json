@@ -1,0 +1,46 @@
+{
+  "scene": "B65b_chapitre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B65b_chapitre-fr_FR.mp3",
+  "sha256": "af684b85e30f16a1e74bde9695cd08c60c612826cee7af972c5f36dbf552f8c2",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.873625,
+  "text": "Port-crâne",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.17,
+      "text": " Port-crâne",
+      "tokens": [
+        50365,
+        6733,
+        12,
+        10757,
+        3201,
+        716,
+        50423
+      ],
+      "avg_logprob": -0.47933079302310944,
+      "compression_ratio": 0.5789473684210527,
+      "no_speech_prob": 7.01500966690527e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.61,
+          "word": " Port",
+          "probability": 0.6594826579093933
+        },
+        {
+          "start": 0.61,
+          "end": 1.17,
+          "word": "-crâne",
+          "probability": 0.7696147337555885
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

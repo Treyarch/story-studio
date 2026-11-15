@@ -1,0 +1,69 @@
+{
+  "scene": "item_title_reporter_a-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_reporter_a-fr_FR.mp3",
+  "sha256": "ce25e09e94552d3eb7f2a0857a811200c52dc66eb450428e9255a470428c7b5b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.9033125,
+  "text": "Ton insigne de reporter indépendant.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 2.39,
+      "text": " Ton insigne de reporter indépendant.",
+      "tokens": [
+        50365,
+        11385,
+        1028,
+        26341,
+        368,
+        19152,
+        1016,
+        16171,
+        521,
+        394,
+        13,
+        50482
+      ],
+      "avg_logprob": -0.2072990078192491,
+      "compression_ratio": 0.8409090909090909,
+      "no_speech_prob": 3.922635220116044e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.49,
+          "word": " Ton",
+          "probability": 0.5329549312591553
+        },
+        {
+          "start": 0.49,
+          "end": 1.09,
+          "word": " insigne",
+          "probability": 0.9860242307186127
+        },
+        {
+          "start": 1.09,
+          "end": 1.29,
+          "word": " de",
+          "probability": 0.9996132254600525
+        },
+        {
+          "start": 1.29,
+          "end": 1.69,
+          "word": " reporter",
+          "probability": 0.9942007064819336
+        },
+        {
+          "start": 1.69,
+          "end": 2.39,
+          "word": " indépendant.",
+          "probability": 0.9998104572296143
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

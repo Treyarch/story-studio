@@ -1,0 +1,55 @@
+{
+  "scene": "multi1_ch1_sagesse",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/multi1_ch1_sagesse.mp3",
+  "sha256": "b5e525fc2c3181857518412afce717e7a7b234669b0951568640d172053b68d3",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.3824375,
+  "text": "Utilise ta sagesse.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.84,
+      "text": " Utilise ta sagesse.",
+      "tokens": [
+        50365,
+        12555,
+        388,
+        908,
+        1846,
+        262,
+        1660,
+        405,
+        13,
+        50456
+      ],
+      "avg_logprob": -0.22069880908185785,
+      "compression_ratio": 0.7037037037037037,
+      "no_speech_prob": 6.720046394348422e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 1.02,
+          "word": " Utilise",
+          "probability": 0.9925084908803304
+        },
+        {
+          "start": 1.02,
+          "end": 1.18,
+          "word": " ta",
+          "probability": 0.9975109100341797
+        },
+        {
+          "start": 1.18,
+          "end": 1.84,
+          "word": " sagesse.",
+          "probability": 0.9996333916982015
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

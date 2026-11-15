@@ -1,0 +1,150 @@
+{
+  "scene": "A46_wis_success_panorama_ch2_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A46_wis_success_panorama_ch2_fail.mp3",
+  "sha256": "0e633a7f9bb527139d113ddbb3edaccd3108362f5b897506af07bd280ef4e790",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 8.91275,
+  "text": "Mani, rien ne se passe. Tu espères que tu as droit à plusieurs essais.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 4.85,
+      "text": " Mani, rien ne se passe.",
+      "tokens": [
+        50387,
+        2458,
+        72,
+        11,
+        13355,
+        408,
+        369,
+        14530,
+        13,
+        50492
+      ],
+      "avg_logprob": -0.1899684476852417,
+      "compression_ratio": 0.972972972972973,
+      "no_speech_prob": 6.451456990158588e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.9,
+          "word": " Mani,",
+          "probability": 0.7292651236057281
+        },
+        {
+          "start": 3.53,
+          "end": 4.19,
+          "word": " rien",
+          "probability": 0.9927051663398743
+        },
+        {
+          "start": 4.19,
+          "end": 4.31,
+          "word": " ne",
+          "probability": 0.993582546710968
+        },
+        {
+          "start": 4.31,
+          "end": 4.47,
+          "word": " se",
+          "probability": 0.9999178647994995
+        },
+        {
+          "start": 4.47,
+          "end": 4.85,
+          "word": " passe.",
+          "probability": 0.999835729598999
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.53,
+      "end": 7.73,
+      "text": " Tu espères que tu as droit à plusieurs essais.",
+      "tokens": [
+        50535,
+        7836,
+        7089,
+        13927,
+        631,
+        2604,
+        382,
+        25971,
+        1531,
+        20208,
+        2097,
+        1527,
+        13,
+        50634
+      ],
+      "avg_logprob": -0.1899684476852417,
+      "compression_ratio": 0.972972972972973,
+      "no_speech_prob": 6.451456990158588e-12,
+      "words": [
+        {
+          "start": 5.53,
+          "end": 5.85,
+          "word": " Tu",
+          "probability": 0.9975893497467041
+        },
+        {
+          "start": 5.85,
+          "end": 6.29,
+          "word": " espères",
+          "probability": 0.9967705607414246
+        },
+        {
+          "start": 6.29,
+          "end": 6.45,
+          "word": " que",
+          "probability": 0.9998416900634766
+        },
+        {
+          "start": 6.45,
+          "end": 6.57,
+          "word": " tu",
+          "probability": 0.9999290704727173
+        },
+        {
+          "start": 6.57,
+          "end": 6.71,
+          "word": " as",
+          "probability": 0.9996676445007324
+        },
+        {
+          "start": 6.71,
+          "end": 6.89,
+          "word": " droit",
+          "probability": 0.9995018243789673
+        },
+        {
+          "start": 6.89,
+          "end": 7.05,
+          "word": " à",
+          "probability": 0.9999219179153442
+        },
+        {
+          "start": 7.05,
+          "end": 7.37,
+          "word": " plusieurs",
+          "probability": 0.9998633861541748
+        },
+        {
+          "start": 7.37,
+          "end": 7.73,
+          "word": " essais.",
+          "probability": 0.9993709623813629
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "scene": "B72a",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B72a.mp3",
+  "sha256": "0464af7eabad407f58b692260f26709299315d1c5bb7e238e001a48971e637b4",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 21.645,
+  "text": "Tu penses avoir assez d'informations pour défier Seigneur Rojenard en face à face et lui parler de ses activités à Port-Crâne. Tu te diriges vers la couronne, la partie la plus élevée de la ville, à la recherche du parloir des corsaires. Avant d'entrer, tu décides de passer en revue ce que tu sais.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.58,
+      "end": 8.16,
+      "text": " Tu penses avoir assez d'informations pour défier Seigneur Rojenard en face à face et lui parler de ses activités à Port-Crâne.",
+      "tokens": [
+        50365,
+        7836,
+        6099,
+        279,
+        10853,
+        15774,
+        274,
+        6,
+        37811,
+        763,
+        2016,
+        30456,
+        811,
+        1100,
+        26341,
+        374,
+        3101,
+        73,
+        20062,
+        465,
+        1851,
+        1531,
+        1851,
+        1030,
+        8783,
+        16421,
+        368,
+        5385,
+        2430,
+        16637,
+        1531,
+        6733,
+        10757,
+        1929,
+        13,
+        50695
+      ],
+      "avg_logprob": -0.07889993406914092,
+      "compression_ratio": 1.4545454545454546,
+      "no_speech_prob": 7.417803350728835e-12,
+      "words": [
+        {
+          "start": 1.58,
+          "end": 2.06,
+          "word": " Tu",
+          "probability": 0.9847550392150879
+        },
+        {
+          "start": 2.06,
+          "end": 2.42,
+          "word": " penses",
+          "probability": 0.9985576868057251
+        },
+        {
+          "start": 2.42,
+          "end": 2.62,
+          "word": " avoir",
+          "probability": 0.999760091304779
+        },
+        {
+          "start": 2.62,
+          "end": 2.94,
+          "word": " assez",
+          "probability": 0.9999308586120605
+        },
+        {
+          "start": 2.94,
+          "end": 3.08,
+          "word": " d",
+          "probability": 0.9999796152114868
+        },
+        {
+          "start": 3.08,
+          "end": 3.56,
+          "word": "'informations",
+          "probability": 0.9994604587554932
+        },
+        {
+          "start": 3.56,
+          "end": 3.86,
+          "word": " pour",
+          "probability": 0.9996082186698914
+        },
+        {
+          "start": 3.86,
+          "end": 4.2,
+          "word": " défier",
+          "probability": 0.9984877705574036
+        },
+        {
+          "start": 4.2,
+          "end": 4.62,
+          "word": " Seigneur",
+          "probability": 0.9653106729189554
+        },
+        {
+          "start": 4.62,
+          "end": 4.98,
+          "word": " Rojenard",
+          "probability": 0.724696417649587
+        },
+        {
+          "start": 4.98,
+          "end": 5.36,
+          "word": " en",
+          "probability": 0.9983356595039368
+        },
+        {
+          "start": 5.36,
+          "end": 5.62,
+          "word": " face",
+          "probability": 0.9999524354934692
+        },
+        {
+          "start": 5.62,
+          "end": 5.72,
+          "word": " à",
+          "probability": 0.8704960942268372
+        },
+        {
+          "start": 5.72,
+          "end": 6.04,
+          "word": " face",
+          "probability": 0.9999481439590454
+        },
+        {
+          "start": 6.04,
+          "end": 6.22,
+          "word": " et",
+          "probability": 0.9780161380767822
+        },
+        {
+          "start": 6.22,
+          "end": 6.36,
+          "word": " lui",
+          "probability": 0.9999102354049683
+        },
+        {
+          "start": 6.36,
+          "end": 6.66,
+          "word": " parler",
+          "probability": 0.9999364614486694
+        },
+        {
+          "start": 6.66,
+          "end": 6.82,
+          "word": " de",
+          "probability": 0.9999480247497559
+        },
+        {
+          "start": 6.82,
+          "end": 7.0,
+          "word": " ses",
+          "probability": 0.9944849610328674
+        },
+        {
+          "start": 7.0,
+          "end": 7.54,
+          "word": " activités",
+          "probability": 0.9998840987682343
+        },
+        {
+          "start": 7.54,
+          "end": 7.7,
+          "word": " à",
+          "probability": 0.999503493309021
+        },
+        {
+          "start": 7.7,
+          "end": 8.16,
+          "word": " Port-Crâne.",
+          "probability": 0.636889636516571
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.5,
+      "end": 14.24,
+      "text": " Tu te diriges vers la couronne, la partie la plus élevée de la ville, à la recherche du parloir des corsaires.",
+      "tokens": [
+        50729,
+        7836,
+        535,
+        4746,
+        20609,
+        1774,
+        635,
+        1005,
+        22419,
+        11,
+        635,
+        17465,
+        635,
+        1804,
+        1136,
+        28316,
+        3856,
+        368,
+        635,
+        23019,
+        11,
+        1531,
+        635,
+        38501,
+        1581,
+        971,
+        752,
+        347,
+        730,
+        46511,
+        10840,
+        13,
+        50998
+      ],
+      "avg_logprob": -0.07889993406914092,
+      "compression_ratio": 1.4545454545454546,
+      "no_speech_prob": 7.417803350728835e-12,
+      "words": [
+        {
+          "start": 8.5,
+          "end": 8.96,
+          "word": " Tu",
+          "probability": 0.9996111989021301
+        },
+        {
+          "start": 8.96,
+          "end": 9.12,
+          "word": " te",
+          "probability": 0.999942421913147
+        },
+        {
+          "start": 9.12,
+          "end": 9.48,
+          "word": " diriges",
+          "probability": 0.9972910583019257
+        },
+        {
+          "start": 9.48,
+          "end": 9.66,
+          "word": " vers",
+          "probability": 0.9998854398727417
+        },
+        {
+          "start": 9.66,
+          "end": 9.84,
+          "word": " la",
+          "probability": 0.9800711274147034
+        },
+        {
+          "start": 9.84,
+          "end": 10.2,
+          "word": " couronne,",
+          "probability": 0.768805742263794
+        },
+        {
+          "start": 10.46,
+          "end": 10.6,
+          "word": " la",
+          "probability": 0.9999405145645142
+        },
+        {
+          "start": 10.6,
+          "end": 10.92,
+          "word": " partie",
+          "probability": 0.9999289512634277
+        },
+        {
+          "start": 10.92,
+          "end": 11.06,
+          "word": " la",
+          "probability": 0.9998941421508789
+        },
+        {
+          "start": 11.06,
+          "end": 11.26,
+          "word": " plus",
+          "probability": 0.9999337196350098
+        },
+        {
+          "start": 11.26,
+          "end": 11.58,
+          "word": " élevée",
+          "probability": 0.9998937050501505
+        },
+        {
+          "start": 11.58,
+          "end": 11.66,
+          "word": " de",
+          "probability": 0.9998321533203125
+        },
+        {
+          "start": 11.66,
+          "end": 11.8,
+          "word": " la",
+          "probability": 0.9999513626098633
+        },
+        {
+          "start": 11.8,
+          "end": 12.02,
+          "word": " ville,",
+          "probability": 0.9995444416999817
+        },
+        {
+          "start": 12.24,
+          "end": 12.34,
+          "word": " à",
+          "probability": 0.9999399185180664
+        },
+        {
+          "start": 12.34,
+          "end": 12.48,
+          "word": " la",
+          "probability": 0.9999693632125854
+        },
+        {
+          "start": 12.48,
+          "end": 12.94,
+          "word": " recherche",
+          "probability": 0.9999308586120605
+        },
+        {
+          "start": 12.94,
+          "end": 13.18,
+          "word": " du",
+          "probability": 0.9998500347137451
+        },
+        {
+          "start": 13.18,
+          "end": 13.62,
+          "word": " parloir",
+          "probability": 0.9892462690671285
+        },
+        {
+          "start": 13.62,
+          "end": 13.8,
+          "word": " des",
+          "probability": 0.9982813596725464
+        },
+        {
+          "start": 13.8,
+          "end": 14.24,
+          "word": " corsaires.",
+          "probability": 0.9659378826618195
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 15.22,
+      "end": 18.52,
+      "text": " Avant d'entrer, tu décides de passer en revue ce que tu sais.",
+      "tokens": [
+        51059,
+        44822,
+        274,
+        6,
+        317,
+        9797,
+        11,
+        2604,
+        9198,
+        1875,
+        368,
+        18509,
+        465,
+        3698,
+        622,
+        1769,
+        631,
+        2604,
+        11757,
+        13,
+        51213
+      ],
+      "avg_logprob": -0.07889993406914092,
+      "compression_ratio": 1.4545454545454546,
+      "no_speech_prob": 7.417803350728835e-12,
+      "words": [
+        {
+          "start": 15.22,
+          "end": 15.68,
+          "word": " Avant",
+          "probability": 0.9994474053382874
+        },
+        {
+          "start": 15.68,
+          "end": 15.8,
+          "word": " d",
+          "probability": 0.999984622001648
+        },
+        {
+          "start": 15.8,
+          "end": 16.08,
+          "word": "'entrer,",
+          "probability": 0.9993875424067179
+        },
+        {
+          "start": 16.48,
+          "end": 16.62,
+          "word": " tu",
+          "probability": 0.9998281002044678
+        },
+        {
+          "start": 16.62,
+          "end": 17.02,
+          "word": " décides",
+          "probability": 0.9994098246097565
+        },
+        {
+          "start": 17.02,
+          "end": 17.12,
+          "word": " de",
+          "probability": 0.9998031258583069
+        },
+        {
+          "start": 17.12,
+          "end": 17.42,
+          "word": " passer",
+          "probability": 0.9991945624351501
+        },
+        {
+          "start": 17.42,
+          "end": 17.58,
+          "word": " en",
+          "probability": 0.9999860525131226
+        },
+        {
+          "start": 17.58,
+          "end": 17.88,
+          "word": " revue",
+          "probability": 0.9998480975627899
+        },
+        {
+          "start": 17.88,
+          "end": 18.06,
+          "word": " ce",
+          "probability": 0.9988744854927063
+        },
+        {
+          "start": 18.06,
+          "end": 18.18,
+          "word": " que",
+          "probability": 0.999954104423523
+        },
+        {
+          "start": 18.18,
+          "end": 18.32,
+          "word": " tu",
+          "probability": 0.9999558925628662
+        },
+        {
+          "start": 18.32,
+          "end": 18.52,
+          "word": " sais.",
+          "probability": 0.9987068176269531
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

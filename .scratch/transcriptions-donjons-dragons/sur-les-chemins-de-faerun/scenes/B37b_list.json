@@ -1,0 +1,88 @@
+{
+  "scene": "B37b_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B37b_list.mp3",
+  "sha256": "5484aafb80508a9c23e929eef75a7066bdc951e8925404e699bcff3abee2a1bf",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.058,
+  "text": "Que vas-tu faire à la place?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.82,
+      "text": " Que vas-tu faire à la place?",
+      "tokens": [
+        50365,
+        4493,
+        11481,
+        12,
+        9179,
+        4865,
+        1531,
+        635,
+        1081,
+        2506,
+        50467
+      ],
+      "avg_logprob": -0.23777812470992407,
+      "compression_ratio": 0.7894736842105263,
+      "no_speech_prob": 4.30587900404622e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.4,
+          "word": " Que",
+          "probability": 0.8396911025047302
+        },
+        {
+          "start": 0.4,
+          "end": 0.56,
+          "word": " vas",
+          "probability": 0.996455192565918
+        },
+        {
+          "start": 0.56,
+          "end": 0.74,
+          "word": "-tu",
+          "probability": 0.9993157386779785
+        },
+        {
+          "start": 0.74,
+          "end": 1.02,
+          "word": " faire",
+          "probability": 0.9998581409454346
+        },
+        {
+          "start": 1.02,
+          "end": 1.16,
+          "word": " à",
+          "probability": 0.9995985627174377
+        },
+        {
+          "start": 1.16,
+          "end": 1.26,
+          "word": " la",
+          "probability": 0.9997934699058533
+        },
+        {
+          "start": 1.26,
+          "end": 1.64,
+          "word": " place",
+          "probability": 0.9996726512908936
+        },
+        {
+          "start": 1.64,
+          "end": 1.82,
+          "word": "?",
+          "probability": 0.9846930503845215
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

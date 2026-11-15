@@ -1,0 +1,608 @@
+{
+  "scene": "A7b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A7b.mp3",
+  "sha256": "7ded00104df1d5b5aa00defdc7b09e43056f3530bb8c856e92e4f96a69e245d5",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 27.00625,
+  "text": "Kissandra glousse. Ça t'intrigue, hein? Tu m'as l'air plein de ressources. Tu pourrais venir avec moi, à condition de tenir le rythme. Si elle dit la vérité, ça pourrait faire un super article. Le Zhentarim est une des organisations criminelles les plus importantes de la ville. L'infiltré serait une sacrée aubaine.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.65,
+      "end": 2.89,
+      "text": " Kissandra glousse.",
+      "tokens": [
+        50365,
+        591,
+        271,
+        18401,
+        1563,
+        28521,
+        13,
+        50429
+      ],
+      "avg_logprob": -0.1786877409033819,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 9.734837068398061e-12,
+      "words": [
+        {
+          "start": 1.65,
+          "end": 2.43,
+          "word": " Kissandra",
+          "probability": 0.5995425879955292
+        },
+        {
+          "start": 2.43,
+          "end": 2.89,
+          "word": " glousse.",
+          "probability": 0.9626041352748871
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.97,
+      "end": 5.71,
+      "text": " Ça t'intrigue, hein?",
+      "tokens": [
+        50481,
+        11527,
+        256,
+        6,
+        686,
+        7065,
+        622,
+        11,
+        16464,
+        2506,
+        50577
+      ],
+      "avg_logprob": -0.1786877409033819,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 9.734837068398061e-12,
+      "words": [
+        {
+          "start": 3.97,
+          "end": 4.57,
+          "word": " Ça",
+          "probability": 0.7930716872215271
+        },
+        {
+          "start": 4.57,
+          "end": 4.69,
+          "word": " t",
+          "probability": 0.9998440742492676
+        },
+        {
+          "start": 4.69,
+          "end": 5.13,
+          "word": "'intrigue,",
+          "probability": 0.9991882145404816
+        },
+        {
+          "start": 5.17,
+          "end": 5.25,
+          "word": " hein",
+          "probability": 0.9917834997177124
+        },
+        {
+          "start": 5.25,
+          "end": 5.71,
+          "word": "?",
+          "probability": 0.980334997177124
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 5.71,
+      "end": 7.25,
+      "text": " Tu m'as l'air plein de ressources.",
+      "tokens": [
+        50577,
+        7836,
+        275,
+        6,
+        296,
+        287,
+        6,
+        1246,
+        21088,
+        368,
+        24689,
+        2749,
+        13,
+        50646
+      ],
+      "avg_logprob": -0.1786877409033819,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 9.734837068398061e-12,
+      "words": [
+        {
+          "start": 5.71,
+          "end": 6.03,
+          "word": " Tu",
+          "probability": 0.9979876279830933
+        },
+        {
+          "start": 6.03,
+          "end": 6.17,
+          "word": " m",
+          "probability": 0.9965820908546448
+        },
+        {
+          "start": 6.17,
+          "end": 6.23,
+          "word": "'as",
+          "probability": 0.9996400475502014
+        },
+        {
+          "start": 6.23,
+          "end": 6.29,
+          "word": " l",
+          "probability": 0.999816358089447
+        },
+        {
+          "start": 6.29,
+          "end": 6.43,
+          "word": "'air",
+          "probability": 0.9992803335189819
+        },
+        {
+          "start": 6.43,
+          "end": 6.69,
+          "word": " plein",
+          "probability": 0.9740657806396484
+        },
+        {
+          "start": 6.69,
+          "end": 6.81,
+          "word": " de",
+          "probability": 0.9992890357971191
+        },
+        {
+          "start": 6.81,
+          "end": 7.25,
+          "word": " ressources.",
+          "probability": 0.9998438656330109
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 7.63,
+      "end": 9.25,
+      "text": " Tu pourrais venir avec moi,",
+      "tokens": [
+        50689,
+        7836,
+        2016,
+        20769,
+        20817,
+        4163,
+        7748,
+        11,
+        50747
+      ],
+      "avg_logprob": -0.1786877409033819,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 9.734837068398061e-12,
+      "words": [
+        {
+          "start": 7.63,
+          "end": 8.23,
+          "word": " Tu",
+          "probability": 0.9981067180633545
+        },
+        {
+          "start": 8.23,
+          "end": 8.51,
+          "word": " pourrais",
+          "probability": 0.9993476271629333
+        },
+        {
+          "start": 8.51,
+          "end": 8.69,
+          "word": " venir",
+          "probability": 0.9998329877853394
+        },
+        {
+          "start": 8.69,
+          "end": 8.95,
+          "word": " avec",
+          "probability": 0.9997474551200867
+        },
+        {
+          "start": 8.95,
+          "end": 9.25,
+          "word": " moi,",
+          "probability": 0.9997805953025818
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 9.99,
+      "end": 12.13,
+      "text": " à condition de tenir le rythme.",
+      "tokens": [
+        50791,
+        1531,
+        4188,
+        368,
+        30593,
+        476,
+        20791,
+        392,
+        1398,
+        13,
+        50889
+      ],
+      "avg_logprob": -0.1786877409033819,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 9.734837068398061e-12,
+      "words": [
+        {
+          "start": 9.99,
+          "end": 10.29,
+          "word": " à",
+          "probability": 0.9994240999221802
+        },
+        {
+          "start": 10.29,
+          "end": 10.77,
+          "word": " condition",
+          "probability": 0.999529242515564
+        },
+        {
+          "start": 10.77,
+          "end": 11.13,
+          "word": " de",
+          "probability": 0.9998506307601929
+        },
+        {
+          "start": 11.13,
+          "end": 11.49,
+          "word": " tenir",
+          "probability": 0.9992374181747437
+        },
+        {
+          "start": 11.49,
+          "end": 11.73,
+          "word": " le",
+          "probability": 0.9998527765274048
+        },
+        {
+          "start": 11.73,
+          "end": 12.13,
+          "word": " rythme.",
+          "probability": 0.9997520645459493
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 13.07,
+      "end": 14.59,
+      "text": " Si elle dit la vérité,",
+      "tokens": [
+        50943,
+        4909,
+        8404,
+        6176,
+        635,
+        30678,
+        526,
+        11,
+        51012
+      ],
+      "avg_logprob": -0.1786877409033819,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 9.734837068398061e-12,
+      "words": [
+        {
+          "start": 13.07,
+          "end": 13.67,
+          "word": " Si",
+          "probability": 0.9910978078842163
+        },
+        {
+          "start": 13.67,
+          "end": 13.83,
+          "word": " elle",
+          "probability": 0.9990829229354858
+        },
+        {
+          "start": 13.83,
+          "end": 13.95,
+          "word": " dit",
+          "probability": 0.9998471736907959
+        },
+        {
+          "start": 13.95,
+          "end": 14.09,
+          "word": " la",
+          "probability": 0.9999721050262451
+        },
+        {
+          "start": 14.09,
+          "end": 14.59,
+          "word": " vérité,",
+          "probability": 0.9999309778213501
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 14.95,
+      "end": 16.55,
+      "text": " ça pourrait faire un super article.",
+      "tokens": [
+        51032,
+        2788,
+        25590,
+        4865,
+        517,
+        1687,
+        7222,
+        13,
+        51112
+      ],
+      "avg_logprob": -0.1786877409033819,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 9.734837068398061e-12,
+      "words": [
+        {
+          "start": 14.95,
+          "end": 15.11,
+          "word": " ça",
+          "probability": 0.9997221827507019
+        },
+        {
+          "start": 15.11,
+          "end": 15.37,
+          "word": " pourrait",
+          "probability": 0.9994509816169739
+        },
+        {
+          "start": 15.37,
+          "end": 15.61,
+          "word": " faire",
+          "probability": 0.9998431205749512
+        },
+        {
+          "start": 15.61,
+          "end": 15.75,
+          "word": " un",
+          "probability": 0.9997774958610535
+        },
+        {
+          "start": 15.75,
+          "end": 16.09,
+          "word": " super",
+          "probability": 0.9996185302734375
+        },
+        {
+          "start": 16.09,
+          "end": 16.55,
+          "word": " article.",
+          "probability": 0.9972980618476868
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 16.91,
+      "end": 20.19,
+      "text": " Le Zhentarim est une des organisations criminelles",
+      "tokens": [
+        51146,
+        1456,
+        44091,
+        289,
+        332,
+        871,
+        2251,
+        730,
+        22270,
+        7857,
+        533,
+        19126,
+        51292
+      ],
+      "avg_logprob": -0.1786877409033819,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 9.734837068398061e-12,
+      "words": [
+        {
+          "start": 16.91,
+          "end": 17.39,
+          "word": " Le",
+          "probability": 0.9983612895011902
+        },
+        {
+          "start": 17.39,
+          "end": 18.03,
+          "word": " Zhentarim",
+          "probability": 0.7956649462381998
+        },
+        {
+          "start": 18.03,
+          "end": 18.33,
+          "word": " est",
+          "probability": 0.999651312828064
+        },
+        {
+          "start": 18.33,
+          "end": 18.53,
+          "word": " une",
+          "probability": 0.9988112449645996
+        },
+        {
+          "start": 18.53,
+          "end": 18.75,
+          "word": " des",
+          "probability": 0.9999008178710938
+        },
+        {
+          "start": 18.75,
+          "end": 19.41,
+          "word": " organisations",
+          "probability": 0.9930440783500671
+        },
+        {
+          "start": 19.41,
+          "end": 20.19,
+          "word": " criminelles",
+          "probability": 0.9984241922696432
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 20.19,
+      "end": 22.01,
+      "text": " les plus importantes de la ville.",
+      "tokens": [
+        51292,
+        1512,
+        1804,
+        27963,
+        368,
+        635,
+        23019,
+        13,
+        51384
+      ],
+      "avg_logprob": -0.1786877409033819,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 9.734837068398061e-12,
+      "words": [
+        {
+          "start": 20.19,
+          "end": 20.59,
+          "word": " les",
+          "probability": 0.995385468006134
+        },
+        {
+          "start": 20.59,
+          "end": 20.87,
+          "word": " plus",
+          "probability": 0.9999696016311646
+        },
+        {
+          "start": 20.87,
+          "end": 21.47,
+          "word": " importantes",
+          "probability": 0.9994057416915894
+        },
+        {
+          "start": 21.47,
+          "end": 21.65,
+          "word": " de",
+          "probability": 0.9984721541404724
+        },
+        {
+          "start": 21.65,
+          "end": 21.79,
+          "word": " la",
+          "probability": 0.9996181726455688
+        },
+        {
+          "start": 21.79,
+          "end": 22.01,
+          "word": " ville.",
+          "probability": 0.9987998008728027
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 22.41,
+      "end": 24.65,
+      "text": " L'infiltré serait une sacrée aubaine.",
+      "tokens": [
+        51423,
+        441,
+        6,
+        19920,
+        2352,
+        10521,
+        23139,
+        2251,
+        7480,
+        3856,
+        257,
+        836,
+        7119,
+        13,
+        51516
+      ],
+      "avg_logprob": -0.1786877409033819,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 9.734837068398061e-12,
+      "words": [
+        {
+          "start": 22.41,
+          "end": 22.89,
+          "word": " L",
+          "probability": 0.9990022778511047
+        },
+        {
+          "start": 22.89,
+          "end": 23.35,
+          "word": "'infiltré",
+          "probability": 0.8032111674547195
+        },
+        {
+          "start": 23.35,
+          "end": 23.65,
+          "word": " serait",
+          "probability": 0.9992566704750061
+        },
+        {
+          "start": 23.65,
+          "end": 23.89,
+          "word": " une",
+          "probability": 0.9995868802070618
+        },
+        {
+          "start": 23.89,
+          "end": 24.31,
+          "word": " sacrée",
+          "probability": 0.9970200657844543
+        },
+        {
+          "start": 24.31,
+          "end": 24.65,
+          "word": " aubaine.",
+          "probability": 0.9949418107668558
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,969 @@
+{
+  "scene": "A20.2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A20.2.mp3",
+  "sha256": "0f363a3f434da20d849e798c3dae4d866cd41bfa04f2baa52e942832ed355d02",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 36.21825,
+  "text": "Tu n'as pas le choix. Crocheter des serrures, ça ne s'improvise pas. Tu dois lui avouer que tu as menti. Avec un peu de chance, Kissandra ne te renverra pas sur le champ. La déception que tu lis sur son visage est peut-être pire. Elle pousse un soupir. Tu n'as peut-être pas ta place parmi nous, après tout. Tu t'apprêtes à protester. Mais elle t'écarte, sort ses outils de voleuse et commence à farfouiller dans la serrure. Après un instant seulement, le verrou cède enfin. Elle recule et te fait signe d'ouvrir au moins la porte.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.01,
+      "end": 4.63,
+      "text": " Tu n'as pas le choix. Crocheter des serrures, ça ne s'improvise pas.",
+      "tokens": [
+        50365,
+        7836,
+        297,
+        6,
+        296,
+        1736,
+        476,
+        32688,
+        13,
+        18965,
+        339,
+        2398,
+        730,
+        816,
+        894,
+        495,
+        11,
+        2788,
+        408,
+        262,
+        6,
+        332,
+        49911,
+        908,
+        1736,
+        13,
+        50548
+      ],
+      "avg_logprob": -0.09739888220122367,
+      "compression_ratio": 1.5849673202614378,
+      "no_speech_prob": 8.273370703804073e-12,
+      "words": [
+        {
+          "start": 1.01,
+          "end": 1.47,
+          "word": " Tu",
+          "probability": 0.9813592433929443
+        },
+        {
+          "start": 1.47,
+          "end": 1.57,
+          "word": " n",
+          "probability": 0.999909520149231
+        },
+        {
+          "start": 1.57,
+          "end": 1.63,
+          "word": "'as",
+          "probability": 0.9999237656593323
+        },
+        {
+          "start": 1.63,
+          "end": 1.73,
+          "word": " pas",
+          "probability": 0.9999716281890869
+        },
+        {
+          "start": 1.73,
+          "end": 1.85,
+          "word": " le",
+          "probability": 0.9998843669891357
+        },
+        {
+          "start": 1.85,
+          "end": 2.09,
+          "word": " choix.",
+          "probability": 0.9999719858169556
+        },
+        {
+          "start": 2.63,
+          "end": 3.01,
+          "word": " Crocheter",
+          "probability": 0.9061173597971598
+        },
+        {
+          "start": 3.01,
+          "end": 3.17,
+          "word": " des",
+          "probability": 0.9998302459716797
+        },
+        {
+          "start": 3.17,
+          "end": 3.57,
+          "word": " serrures,",
+          "probability": 0.9971030553181967
+        },
+        {
+          "start": 3.69,
+          "end": 3.91,
+          "word": " ça",
+          "probability": 0.9998553991317749
+        },
+        {
+          "start": 3.91,
+          "end": 4.01,
+          "word": " ne",
+          "probability": 0.9999386072158813
+        },
+        {
+          "start": 4.01,
+          "end": 4.11,
+          "word": " s",
+          "probability": 0.9999276399612427
+        },
+        {
+          "start": 4.11,
+          "end": 4.47,
+          "word": "'improvise",
+          "probability": 0.9993955790996552
+        },
+        {
+          "start": 4.47,
+          "end": 4.63,
+          "word": " pas.",
+          "probability": 0.9999878406524658
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.89,
+      "end": 6.65,
+      "text": " Tu dois lui avouer que tu as menti.",
+      "tokens": [
+        50571,
+        7836,
+        11854,
+        8783,
+        1305,
+        263,
+        260,
+        631,
+        2604,
+        382,
+        3074,
+        72,
+        13,
+        50649
+      ],
+      "avg_logprob": -0.09739888220122367,
+      "compression_ratio": 1.5849673202614378,
+      "no_speech_prob": 8.273370703804073e-12,
+      "words": [
+        {
+          "start": 4.89,
+          "end": 5.23,
+          "word": " Tu",
+          "probability": 0.9991859793663025
+        },
+        {
+          "start": 5.23,
+          "end": 5.41,
+          "word": " dois",
+          "probability": 0.9997610449790955
+        },
+        {
+          "start": 5.41,
+          "end": 5.61,
+          "word": " lui",
+          "probability": 0.9999444484710693
+        },
+        {
+          "start": 5.61,
+          "end": 5.93,
+          "word": " avouer",
+          "probability": 0.9983497659365336
+        },
+        {
+          "start": 5.93,
+          "end": 6.07,
+          "word": " que",
+          "probability": 0.9999701976776123
+        },
+        {
+          "start": 6.07,
+          "end": 6.21,
+          "word": " tu",
+          "probability": 0.9999629259109497
+        },
+        {
+          "start": 6.21,
+          "end": 6.35,
+          "word": " as",
+          "probability": 0.9997392296791077
+        },
+        {
+          "start": 6.35,
+          "end": 6.65,
+          "word": " menti.",
+          "probability": 0.9998146295547485
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.19,
+      "end": 10.55,
+      "text": " Avec un peu de chance, Kissandra ne te renverra pas sur le champ.",
+      "tokens": [
+        50683,
+        31720,
+        517,
+        5604,
+        368,
+        2931,
+        11,
+        24297,
+        18401,
+        408,
+        535,
+        8124,
+        331,
+        424,
+        1736,
+        1022,
+        476,
+        5921,
+        13,
+        50843
+      ],
+      "avg_logprob": -0.09739888220122367,
+      "compression_ratio": 1.5849673202614378,
+      "no_speech_prob": 8.273370703804073e-12,
+      "words": [
+        {
+          "start": 7.19,
+          "end": 7.57,
+          "word": " Avec",
+          "probability": 0.9996521472930908
+        },
+        {
+          "start": 7.57,
+          "end": 7.73,
+          "word": " un",
+          "probability": 0.9999598264694214
+        },
+        {
+          "start": 7.73,
+          "end": 7.83,
+          "word": " peu",
+          "probability": 0.9998621940612793
+        },
+        {
+          "start": 7.83,
+          "end": 7.91,
+          "word": " de",
+          "probability": 0.9999834299087524
+        },
+        {
+          "start": 7.91,
+          "end": 8.29,
+          "word": " chance,",
+          "probability": 0.9992364645004272
+        },
+        {
+          "start": 8.75,
+          "end": 9.19,
+          "word": " Kissandra",
+          "probability": 0.8159761130809784
+        },
+        {
+          "start": 9.19,
+          "end": 9.41,
+          "word": " ne",
+          "probability": 0.9998077750205994
+        },
+        {
+          "start": 9.41,
+          "end": 9.57,
+          "word": " te",
+          "probability": 0.999985933303833
+        },
+        {
+          "start": 9.57,
+          "end": 9.91,
+          "word": " renverra",
+          "probability": 0.9975289503733317
+        },
+        {
+          "start": 9.91,
+          "end": 10.03,
+          "word": " pas",
+          "probability": 0.9999738931655884
+        },
+        {
+          "start": 10.03,
+          "end": 10.23,
+          "word": " sur",
+          "probability": 0.9998636245727539
+        },
+        {
+          "start": 10.23,
+          "end": 10.37,
+          "word": " le",
+          "probability": 0.9996287822723389
+        },
+        {
+          "start": 10.37,
+          "end": 10.55,
+          "word": " champ.",
+          "probability": 0.9967858791351318
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 11.05,
+      "end": 14.71,
+      "text": " La déception que tu lis sur son visage est peut-être pire.",
+      "tokens": [
+        50879,
+        2369,
+        2795,
+        7311,
+        631,
+        2604,
+        32670,
+        1022,
+        1872,
+        1452,
+        609,
+        871,
+        5977,
+        12,
+        9498,
+        280,
+        621,
+        13,
+        51051
+      ],
+      "avg_logprob": -0.09739888220122367,
+      "compression_ratio": 1.5849673202614378,
+      "no_speech_prob": 8.273370703804073e-12,
+      "words": [
+        {
+          "start": 11.05,
+          "end": 11.43,
+          "word": " La",
+          "probability": 0.999795138835907
+        },
+        {
+          "start": 11.43,
+          "end": 11.91,
+          "word": " déception",
+          "probability": 0.9998434782028198
+        },
+        {
+          "start": 11.91,
+          "end": 12.19,
+          "word": " que",
+          "probability": 0.9999263286590576
+        },
+        {
+          "start": 12.19,
+          "end": 12.33,
+          "word": " tu",
+          "probability": 0.9999605417251587
+        },
+        {
+          "start": 12.33,
+          "end": 12.47,
+          "word": " lis",
+          "probability": 0.9739779233932495
+        },
+        {
+          "start": 12.47,
+          "end": 12.67,
+          "word": " sur",
+          "probability": 0.9999665021896362
+        },
+        {
+          "start": 12.67,
+          "end": 12.83,
+          "word": " son",
+          "probability": 0.9999425411224365
+        },
+        {
+          "start": 12.83,
+          "end": 13.31,
+          "word": " visage",
+          "probability": 0.99992835521698
+        },
+        {
+          "start": 13.31,
+          "end": 13.79,
+          "word": " est",
+          "probability": 0.9993574023246765
+        },
+        {
+          "start": 13.79,
+          "end": 14.03,
+          "word": " peut",
+          "probability": 0.9999560117721558
+        },
+        {
+          "start": 14.03,
+          "end": 14.23,
+          "word": "-être",
+          "probability": 0.9999163746833801
+        },
+        {
+          "start": 14.23,
+          "end": 14.71,
+          "word": " pire.",
+          "probability": 0.999741792678833
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 15.17,
+      "end": 16.17,
+      "text": " Elle pousse un soupir.",
+      "tokens": [
+        51074,
+        16227,
+        280,
+        28521,
+        517,
+        7884,
+        347,
+        13,
+        51124
+      ],
+      "avg_logprob": -0.09739888220122367,
+      "compression_ratio": 1.5849673202614378,
+      "no_speech_prob": 8.273370703804073e-12,
+      "words": [
+        {
+          "start": 15.17,
+          "end": 15.31,
+          "word": " Elle",
+          "probability": 0.9977329969406128
+        },
+        {
+          "start": 15.31,
+          "end": 15.59,
+          "word": " pousse",
+          "probability": 0.9992725849151611
+        },
+        {
+          "start": 15.59,
+          "end": 15.75,
+          "word": " un",
+          "probability": 0.9991293549537659
+        },
+        {
+          "start": 15.75,
+          "end": 16.17,
+          "word": " soupir.",
+          "probability": 0.9971360564231873
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 17.39,
+      "end": 19.85,
+      "text": " Tu n'as peut-être pas ta place parmi nous, après tout.",
+      "tokens": [
+        51184,
+        7836,
+        297,
+        6,
+        296,
+        5977,
+        12,
+        9498,
+        1736,
+        1846,
+        1081,
+        971,
+        3057,
+        4666,
+        11,
+        13274,
+        3486,
+        13,
+        51308
+      ],
+      "avg_logprob": -0.09739888220122367,
+      "compression_ratio": 1.5849673202614378,
+      "no_speech_prob": 8.273370703804073e-12,
+      "words": [
+        {
+          "start": 17.39,
+          "end": 17.83,
+          "word": " Tu",
+          "probability": 0.9868983030319214
+        },
+        {
+          "start": 17.83,
+          "end": 17.95,
+          "word": " n",
+          "probability": 0.9998465776443481
+        },
+        {
+          "start": 17.95,
+          "end": 18.01,
+          "word": "'as",
+          "probability": 0.9999483227729797
+        },
+        {
+          "start": 18.01,
+          "end": 18.15,
+          "word": " peut",
+          "probability": 0.999886155128479
+        },
+        {
+          "start": 18.15,
+          "end": 18.33,
+          "word": "-être",
+          "probability": 0.9999836087226868
+        },
+        {
+          "start": 18.33,
+          "end": 18.53,
+          "word": " pas",
+          "probability": 0.9999659061431885
+        },
+        {
+          "start": 18.53,
+          "end": 18.65,
+          "word": " ta",
+          "probability": 0.9995587468147278
+        },
+        {
+          "start": 18.65,
+          "end": 18.87,
+          "word": " place",
+          "probability": 0.999956488609314
+        },
+        {
+          "start": 18.87,
+          "end": 19.19,
+          "word": " parmi",
+          "probability": 0.9998212158679962
+        },
+        {
+          "start": 19.19,
+          "end": 19.35,
+          "word": " nous,",
+          "probability": 0.999245285987854
+        },
+        {
+          "start": 19.45,
+          "end": 19.65,
+          "word": " après",
+          "probability": 0.9999508857727051
+        },
+        {
+          "start": 19.65,
+          "end": 19.85,
+          "word": " tout.",
+          "probability": 0.9999048709869385
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 20.75,
+      "end": 22.21,
+      "text": " Tu t'apprêtes à protester.",
+      "tokens": [
+        51352,
+        7836,
+        256,
+        6,
+        1746,
+        81,
+        38262,
+        1531,
+        1742,
+        3011,
+        13,
+        51425
+      ],
+      "avg_logprob": -0.09739888220122367,
+      "compression_ratio": 1.5849673202614378,
+      "no_speech_prob": 8.273370703804073e-12,
+      "words": [
+        {
+          "start": 20.75,
+          "end": 21.19,
+          "word": " Tu",
+          "probability": 0.9988138675689697
+        },
+        {
+          "start": 21.19,
+          "end": 21.33,
+          "word": " t",
+          "probability": 0.9997187256813049
+        },
+        {
+          "start": 21.33,
+          "end": 21.57,
+          "word": "'apprêtes",
+          "probability": 0.985927477478981
+        },
+        {
+          "start": 21.57,
+          "end": 21.73,
+          "word": " à",
+          "probability": 0.9999676942825317
+        },
+        {
+          "start": 21.73,
+          "end": 22.21,
+          "word": " protester.",
+          "probability": 0.9982225596904755
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 22.83,
+      "end": 27.41,
+      "text": " Mais elle t'écarte, sort ses outils de voleuse et commence à farfouiller dans la serrure.",
+      "tokens": [
+        51465,
+        6313,
+        8404,
+        256,
+        6,
+        9062,
+        11026,
+        11,
+        1333,
+        5385,
+        484,
+        4174,
+        368,
+        49877,
+        438,
+        1030,
+        18137,
+        1531,
+        1400,
+        69,
+        263,
+        10497,
+        2680,
+        635,
+        816,
+        81,
+        540,
+        13,
+        51686
+      ],
+      "avg_logprob": -0.09739888220122367,
+      "compression_ratio": 1.5849673202614378,
+      "no_speech_prob": 8.273370703804073e-12,
+      "words": [
+        {
+          "start": 22.83,
+          "end": 23.27,
+          "word": " Mais",
+          "probability": 0.9984347224235535
+        },
+        {
+          "start": 23.27,
+          "end": 23.45,
+          "word": " elle",
+          "probability": 0.9994121789932251
+        },
+        {
+          "start": 23.45,
+          "end": 23.57,
+          "word": " t",
+          "probability": 0.9998633861541748
+        },
+        {
+          "start": 23.57,
+          "end": 23.91,
+          "word": "'écarte,",
+          "probability": 0.9990300536155701
+        },
+        {
+          "start": 24.37,
+          "end": 24.49,
+          "word": " sort",
+          "probability": 0.6215478777885437
+        },
+        {
+          "start": 24.49,
+          "end": 24.67,
+          "word": " ses",
+          "probability": 0.9972600936889648
+        },
+        {
+          "start": 24.67,
+          "end": 24.95,
+          "word": " outils",
+          "probability": 0.9998317062854767
+        },
+        {
+          "start": 24.95,
+          "end": 25.11,
+          "word": " de",
+          "probability": 0.9997145533561707
+        },
+        {
+          "start": 25.11,
+          "end": 25.55,
+          "word": " voleuse",
+          "probability": 0.9803070724010468
+        },
+        {
+          "start": 25.55,
+          "end": 25.81,
+          "word": " et",
+          "probability": 0.9622499346733093
+        },
+        {
+          "start": 25.81,
+          "end": 26.11,
+          "word": " commence",
+          "probability": 0.9991244673728943
+        },
+        {
+          "start": 26.11,
+          "end": 26.31,
+          "word": " à",
+          "probability": 0.9996587038040161
+        },
+        {
+          "start": 26.31,
+          "end": 26.79,
+          "word": " farfouiller",
+          "probability": 0.9971351474523544
+        },
+        {
+          "start": 26.79,
+          "end": 26.93,
+          "word": " dans",
+          "probability": 0.9978025555610657
+        },
+        {
+          "start": 26.93,
+          "end": 27.05,
+          "word": " la",
+          "probability": 0.9995980858802795
+        },
+        {
+          "start": 27.05,
+          "end": 27.41,
+          "word": " serrure.",
+          "probability": 0.9979862570762634
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 28.03,
+      "end": 30.77,
+      "text": " Après un instant seulement, le verrou cède enfin.",
+      "tokens": [
+        51711,
+        29265,
+        517,
+        9836,
+        27772,
+        11,
+        476,
+        1306,
+        13122,
+        269,
+        1462,
+        1479,
+        25059,
+        13,
+        51856
+      ],
+      "avg_logprob": -0.09739888220122367,
+      "compression_ratio": 1.5849673202614378,
+      "no_speech_prob": 8.273370703804073e-12,
+      "words": [
+        {
+          "start": 28.03,
+          "end": 28.47,
+          "word": " Après",
+          "probability": 0.9984849095344543
+        },
+        {
+          "start": 28.47,
+          "end": 28.63,
+          "word": " un",
+          "probability": 0.9999316930770874
+        },
+        {
+          "start": 28.63,
+          "end": 28.95,
+          "word": " instant",
+          "probability": 0.9997389912605286
+        },
+        {
+          "start": 28.95,
+          "end": 29.27,
+          "word": " seulement,",
+          "probability": 0.9997742772102356
+        },
+        {
+          "start": 29.71,
+          "end": 29.95,
+          "word": " le",
+          "probability": 0.998977541923523
+        },
+        {
+          "start": 29.95,
+          "end": 30.23,
+          "word": " verrou",
+          "probability": 0.9967887699604034
+        },
+        {
+          "start": 30.23,
+          "end": 30.53,
+          "word": " cède",
+          "probability": 0.9938961664835612
+        },
+        {
+          "start": 30.53,
+          "end": 30.77,
+          "word": " enfin.",
+          "probability": 0.9984779953956604
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 3000,
+      "start": 31.49,
+      "end": 34.97,
+      "text": " Elle recule et te fait signe d'ouvrir au moins la porte.",
+      "tokens": [
+        50409,
+        16227,
+        850,
+        2271,
+        1030,
+        535,
+        3887,
+        4556,
+        716,
+        274,
+        6,
+        22941,
+        10949,
+        1609,
+        13099,
+        635,
+        26658,
+        13,
+        50564
+      ],
+      "avg_logprob": -0.14473433420062065,
+      "compression_ratio": 0.9032258064516129,
+      "no_speech_prob": 5.104064306621359e-12,
+      "words": [
+        {
+          "start": 31.49,
+          "end": 32.01,
+          "word": " Elle",
+          "probability": 0.9552715420722961
+        },
+        {
+          "start": 32.01,
+          "end": 32.51,
+          "word": " recule",
+          "probability": 0.9984905421733856
+        },
+        {
+          "start": 32.51,
+          "end": 32.77,
+          "word": " et",
+          "probability": 0.995765209197998
+        },
+        {
+          "start": 32.77,
+          "end": 32.91,
+          "word": " te",
+          "probability": 0.993202805519104
+        },
+        {
+          "start": 32.91,
+          "end": 33.11,
+          "word": " fait",
+          "probability": 0.9968283772468567
+        },
+        {
+          "start": 33.11,
+          "end": 33.41,
+          "word": " signe",
+          "probability": 0.996759295463562
+        },
+        {
+          "start": 33.41,
+          "end": 33.51,
+          "word": " d",
+          "probability": 0.9979281425476074
+        },
+        {
+          "start": 33.51,
+          "end": 33.81,
+          "word": "'ouvrir",
+          "probability": 0.9999501705169678
+        },
+        {
+          "start": 33.81,
+          "end": 34.23,
+          "word": " au",
+          "probability": 0.9988847374916077
+        },
+        {
+          "start": 34.23,
+          "end": 34.47,
+          "word": " moins",
+          "probability": 0.9999154806137085
+        },
+        {
+          "start": 34.47,
+          "end": 34.65,
+          "word": " la",
+          "probability": 0.999850869178772
+        },
+        {
+          "start": 34.65,
+          "end": 34.97,
+          "word": " porte.",
+          "probability": 0.9997449517250061
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "scene": "B30d_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B30d_list.mp3",
+  "sha256": "4a3c11f675cddc37e081450ec95a61dcbc04409c821ef729e1820859838cba1a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.3349375,
+  "text": "Que préfères-tu?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.14,
+      "text": " Que préfères-tu?",
+      "tokens": [
+        50365,
+        4493,
+        31139,
+        13927,
+        12,
+        9179,
+        2506,
+        50465
+      ],
+      "avg_logprob": -0.2642714712354872,
+      "compression_ratio": 0.7037037037037037,
+      "no_speech_prob": 3.771208605812815e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.32,
+          "word": " Que",
+          "probability": 0.9087141156196594
+        },
+        {
+          "start": 0.32,
+          "end": 0.76,
+          "word": " préfères",
+          "probability": 0.9943856596946716
+        },
+        {
+          "start": 0.76,
+          "end": 0.98,
+          "word": "-tu",
+          "probability": 0.9922177493572235
+        },
+        {
+          "start": 0.98,
+          "end": 1.14,
+          "word": "?",
+          "probability": 0.9369024038314819
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

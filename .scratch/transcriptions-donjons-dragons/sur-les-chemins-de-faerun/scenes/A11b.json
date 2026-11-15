@@ -1,0 +1,543 @@
+{
+  "scene": "A11b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A11b.mp3",
+  "sha256": "2f49c58760dfb85c2d577d6c81f6b9950702b31062d6078476084397621bde5c",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 22.017875,
+  "text": "Tu demandes comment obtenir les trois autres médaillons. Peut-être sont-ils simplement cachés ici et là dans la forêt. Peut-être qu'il suffira de se promener l'œil aux aguets pour les trouver. La dryade rit si fort que toutes les feuilles qui l'habillent frémissent. Tu es chou! Et complètement à côté de la plaque.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.82,
+      "end": 3.8,
+      "text": " Tu demandes comment obtenir les trois autres médaillons.",
+      "tokens": [
+        50365,
+        7836,
+        4733,
+        279,
+        2871,
+        28326,
+        347,
+        1512,
+        19758,
+        17093,
+        13191,
+        2675,
+        373,
+        892,
+        13,
+        50514
+      ],
+      "avg_logprob": -0.09910550595510124,
+      "compression_ratio": 1.4260869565217391,
+      "no_speech_prob": 6.200377884735264e-12,
+      "words": [
+        {
+          "start": 0.82,
+          "end": 1.26,
+          "word": " Tu",
+          "probability": 0.9110010862350464
+        },
+        {
+          "start": 1.26,
+          "end": 1.72,
+          "word": " demandes",
+          "probability": 0.998787522315979
+        },
+        {
+          "start": 1.72,
+          "end": 1.96,
+          "word": " comment",
+          "probability": 0.9996857643127441
+        },
+        {
+          "start": 1.96,
+          "end": 2.56,
+          "word": " obtenir",
+          "probability": 0.9999443292617798
+        },
+        {
+          "start": 2.56,
+          "end": 2.72,
+          "word": " les",
+          "probability": 0.9991481304168701
+        },
+        {
+          "start": 2.72,
+          "end": 2.96,
+          "word": " trois",
+          "probability": 0.9623444080352783
+        },
+        {
+          "start": 2.96,
+          "end": 3.3,
+          "word": " autres",
+          "probability": 0.9999387264251709
+        },
+        {
+          "start": 3.3,
+          "end": 3.8,
+          "word": " médaillons.",
+          "probability": 0.9951238036155701
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.26,
+      "end": 7.54,
+      "text": " Peut-être sont-ils simplement cachés ici et là dans la forêt.",
+      "tokens": [
+        50556,
+        2396,
+        325,
+        12,
+        9498,
+        4900,
+        12,
+        4174,
+        24208,
+        32773,
+        2191,
+        11575,
+        1030,
+        3684,
+        2680,
+        635,
+        337,
+        15519,
+        13,
+        50701
+      ],
+      "avg_logprob": -0.09910550595510124,
+      "compression_ratio": 1.4260869565217391,
+      "no_speech_prob": 6.200377884735264e-12,
+      "words": [
+        {
+          "start": 4.26,
+          "end": 4.82,
+          "word": " Peut",
+          "probability": 0.9993237257003784
+        },
+        {
+          "start": 4.82,
+          "end": 4.96,
+          "word": "-être",
+          "probability": 0.9999114274978638
+        },
+        {
+          "start": 4.96,
+          "end": 5.2,
+          "word": " sont",
+          "probability": 0.9994733929634094
+        },
+        {
+          "start": 5.2,
+          "end": 5.4,
+          "word": "-ils",
+          "probability": 0.9994901120662689
+        },
+        {
+          "start": 5.4,
+          "end": 5.8,
+          "word": " simplement",
+          "probability": 0.9996837377548218
+        },
+        {
+          "start": 5.8,
+          "end": 6.34,
+          "word": " cachés",
+          "probability": 0.9998988509178162
+        },
+        {
+          "start": 6.34,
+          "end": 6.7,
+          "word": " ici",
+          "probability": 0.9769802093505859
+        },
+        {
+          "start": 6.7,
+          "end": 6.88,
+          "word": " et",
+          "probability": 0.999976396560669
+        },
+        {
+          "start": 6.88,
+          "end": 6.98,
+          "word": " là",
+          "probability": 0.9999654293060303
+        },
+        {
+          "start": 6.98,
+          "end": 7.12,
+          "word": " dans",
+          "probability": 0.9955957531929016
+        },
+        {
+          "start": 7.12,
+          "end": 7.26,
+          "word": " la",
+          "probability": 0.9999649524688721
+        },
+        {
+          "start": 7.26,
+          "end": 7.54,
+          "word": " forêt.",
+          "probability": 0.9998042285442352
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.94,
+      "end": 11.9,
+      "text": " Peut-être qu'il suffira de se promener l'œil aux aguets pour les trouver.",
+      "tokens": [
+        50738,
+        2396,
+        325,
+        12,
+        9498,
+        421,
+        6,
+        388,
+        3889,
+        4271,
+        368,
+        369,
+        2234,
+        7971,
+        287,
+        6,
+        34073,
+        388,
+        7865,
+        34438,
+        1385,
+        2016,
+        1512,
+        23546,
+        13,
+        50920
+      ],
+      "avg_logprob": -0.09910550595510124,
+      "compression_ratio": 1.4260869565217391,
+      "no_speech_prob": 6.200377884735264e-12,
+      "words": [
+        {
+          "start": 7.94,
+          "end": 8.5,
+          "word": " Peut",
+          "probability": 0.9996657073497772
+        },
+        {
+          "start": 8.5,
+          "end": 8.68,
+          "word": "-être",
+          "probability": 0.9999830722808838
+        },
+        {
+          "start": 8.68,
+          "end": 8.84,
+          "word": " qu",
+          "probability": 0.9998636245727539
+        },
+        {
+          "start": 8.84,
+          "end": 8.94,
+          "word": "'il",
+          "probability": 0.9997803866863251
+        },
+        {
+          "start": 8.94,
+          "end": 9.36,
+          "word": " suffira",
+          "probability": 0.9994876682758331
+        },
+        {
+          "start": 9.36,
+          "end": 9.56,
+          "word": " de",
+          "probability": 0.999646782875061
+        },
+        {
+          "start": 9.56,
+          "end": 9.72,
+          "word": " se",
+          "probability": 0.9997944235801697
+        },
+        {
+          "start": 9.72,
+          "end": 10.16,
+          "word": " promener",
+          "probability": 0.9997189342975616
+        },
+        {
+          "start": 10.16,
+          "end": 10.6,
+          "word": " l",
+          "probability": 0.8400341868400574
+        },
+        {
+          "start": 10.6,
+          "end": 10.76,
+          "word": "'œil",
+          "probability": 0.99525252978007
+        },
+        {
+          "start": 10.76,
+          "end": 10.92,
+          "word": " aux",
+          "probability": 0.9950637221336365
+        },
+        {
+          "start": 10.92,
+          "end": 11.2,
+          "word": " aguets",
+          "probability": 0.9833967387676239
+        },
+        {
+          "start": 11.2,
+          "end": 11.52,
+          "word": " pour",
+          "probability": 0.9993602633476257
+        },
+        {
+          "start": 11.52,
+          "end": 11.64,
+          "word": " les",
+          "probability": 0.9999508857727051
+        },
+        {
+          "start": 11.64,
+          "end": 11.9,
+          "word": " trouver.",
+          "probability": 0.9998036026954651
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.36,
+      "end": 16.42,
+      "text": " La dryade rit si fort que toutes les feuilles qui l'habillent frémissent.",
+      "tokens": [
+        50954,
+        2369,
+        4016,
+        762,
+        11289,
+        1511,
+        5009,
+        631,
+        14437,
+        1512,
+        29539,
+        14835,
+        1956,
+        287,
+        6,
+        7821,
+        373,
+        317,
+        431,
+        4011,
+        25450,
+        13,
+        51145
+      ],
+      "avg_logprob": -0.09910550595510124,
+      "compression_ratio": 1.4260869565217391,
+      "no_speech_prob": 6.200377884735264e-12,
+      "words": [
+        {
+          "start": 12.36,
+          "end": 12.76,
+          "word": " La",
+          "probability": 0.9972696900367737
+        },
+        {
+          "start": 12.76,
+          "end": 13.3,
+          "word": " dryade",
+          "probability": 0.8307973146438599
+        },
+        {
+          "start": 13.3,
+          "end": 13.54,
+          "word": " rit",
+          "probability": 0.9898763298988342
+        },
+        {
+          "start": 13.54,
+          "end": 13.76,
+          "word": " si",
+          "probability": 0.9994781613349915
+        },
+        {
+          "start": 13.76,
+          "end": 14.1,
+          "word": " fort",
+          "probability": 0.9995689988136292
+        },
+        {
+          "start": 14.1,
+          "end": 14.46,
+          "word": " que",
+          "probability": 0.9990956783294678
+        },
+        {
+          "start": 14.46,
+          "end": 14.74,
+          "word": " toutes",
+          "probability": 0.9995085000991821
+        },
+        {
+          "start": 14.74,
+          "end": 14.92,
+          "word": " les",
+          "probability": 0.9999796152114868
+        },
+        {
+          "start": 14.92,
+          "end": 15.24,
+          "word": " feuilles",
+          "probability": 0.9997288286685944
+        },
+        {
+          "start": 15.24,
+          "end": 15.38,
+          "word": " qui",
+          "probability": 0.9412094950675964
+        },
+        {
+          "start": 15.38,
+          "end": 15.52,
+          "word": " l",
+          "probability": 0.9865599870681763
+        },
+        {
+          "start": 15.52,
+          "end": 15.92,
+          "word": "'habillent",
+          "probability": 0.9979179352521896
+        },
+        {
+          "start": 15.92,
+          "end": 16.42,
+          "word": " frémissent.",
+          "probability": 0.7773054937521616
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 16.62,
+      "end": 20.4,
+      "text": " Tu es chou! Et complètement à côté de la plaque.",
+      "tokens": [
+        51145,
+        7836,
+        785,
+        417,
+        263,
+        2298,
+        3790,
+        31331,
+        1531,
+        18437,
+        368,
+        635,
+        36542,
+        13,
+        51347
+      ],
+      "avg_logprob": -0.09910550595510124,
+      "compression_ratio": 1.4260869565217391,
+      "no_speech_prob": 6.200377884735264e-12,
+      "words": [
+        {
+          "start": 16.62,
+          "end": 16.88,
+          "word": " Tu",
+          "probability": 0.33665701746940613
+        },
+        {
+          "start": 16.88,
+          "end": 17.04,
+          "word": " es",
+          "probability": 0.9945870637893677
+        },
+        {
+          "start": 17.04,
+          "end": 17.4,
+          "word": " chou",
+          "probability": 0.9968658089637756
+        },
+        {
+          "start": 17.4,
+          "end": 18.06,
+          "word": "!",
+          "probability": 0.7315346002578735
+        },
+        {
+          "start": 18.06,
+          "end": 18.24,
+          "word": " Et",
+          "probability": 0.936532199382782
+        },
+        {
+          "start": 18.24,
+          "end": 18.92,
+          "word": " complètement",
+          "probability": 0.9988551139831543
+        },
+        {
+          "start": 18.92,
+          "end": 19.32,
+          "word": " à",
+          "probability": 0.9996389150619507
+        },
+        {
+          "start": 19.32,
+          "end": 19.64,
+          "word": " côté",
+          "probability": 0.9998227953910828
+        },
+        {
+          "start": 19.64,
+          "end": 19.82,
+          "word": " de",
+          "probability": 0.9998270869255066
+        },
+        {
+          "start": 19.82,
+          "end": 19.96,
+          "word": " la",
+          "probability": 0.9998502731323242
+        },
+        {
+          "start": 19.96,
+          "end": 20.4,
+          "word": " plaque.",
+          "probability": 0.999283492565155
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

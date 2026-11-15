@@ -1,0 +1,809 @@
+{
+  "scene": "A8",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A8.mp3",
+  "sha256": "be0884e7b59c2e0cce7483915e01f70aa8ac39fa11a8a051b43a7a789383c953",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 28.5093125,
+  "text": "Tu n'as que quelques jours pour dénicher le scoop de ta carrière. Sinon, tu risques de ne plus avoir de carrière du tout. Tu as mieux à faire que de courir après de jeunes criminels à travers aux profondes. À entendre comment elle a parlé de la vipère noire, tu pourrais presque croire que quelqu'un au bureau te l'a envoyé pour se moquer de toi. Il te faut du nouveau. Tu décides d'aller à l'auberge du Portail Béant comme tu en avais l'intention au départ.",
+  "review": [
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.81,
+      "end": 4.69,
+      "text": " Tu n'as que quelques jours pour dénicher le scoop de ta carrière.",
+      "tokens": [
+        50365,
+        7836,
+        297,
+        6,
+        296,
+        631,
+        16597,
+        20724,
+        2016,
+        2795,
+        77,
+        14934,
+        476,
+        19555,
+        368,
+        1846,
+        1032,
+        22166,
+        13,
+        50508
+      ],
+      "avg_logprob": -0.07733743108552078,
+      "compression_ratio": 1.6219931271477663,
+      "no_speech_prob": 8.249023859818738e-12,
+      "words": [
+        {
+          "start": 1.81,
+          "end": 2.21,
+          "word": " Tu",
+          "probability": 0.9656649827957153
+        },
+        {
+          "start": 2.21,
+          "end": 2.31,
+          "word": " n",
+          "probability": 0.9999157190322876
+        },
+        {
+          "start": 2.31,
+          "end": 2.37,
+          "word": "'as",
+          "probability": 0.9999191761016846
+        },
+        {
+          "start": 2.37,
+          "end": 2.49,
+          "word": " que",
+          "probability": 0.9999366998672485
+        },
+        {
+          "start": 2.49,
+          "end": 2.77,
+          "word": " quelques",
+          "probability": 0.999950647354126
+        },
+        {
+          "start": 2.77,
+          "end": 3.03,
+          "word": " jours",
+          "probability": 0.999977707862854
+        },
+        {
+          "start": 3.03,
+          "end": 3.23,
+          "word": " pour",
+          "probability": 0.9999116659164429
+        },
+        {
+          "start": 3.23,
+          "end": 3.61,
+          "word": " dénicher",
+          "probability": 0.9992885589599609
+        },
+        {
+          "start": 3.61,
+          "end": 3.79,
+          "word": " le",
+          "probability": 0.9998579025268555
+        },
+        {
+          "start": 3.79,
+          "end": 3.99,
+          "word": " scoop",
+          "probability": 0.9988486766815186
+        },
+        {
+          "start": 3.99,
+          "end": 4.13,
+          "word": " de",
+          "probability": 0.9999568462371826
+        },
+        {
+          "start": 4.13,
+          "end": 4.27,
+          "word": " ta",
+          "probability": 0.9998989105224609
+        },
+        {
+          "start": 4.27,
+          "end": 4.69,
+          "word": " carrière.",
+          "probability": 0.9998965561389923
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.07,
+      "end": 7.77,
+      "text": " Sinon, tu risques de ne plus avoir de carrière du tout.",
+      "tokens": [
+        50531,
+        11187,
+        266,
+        11,
+        2604,
+        2253,
+        7519,
+        368,
+        408,
+        1804,
+        10853,
+        368,
+        1032,
+        22166,
+        1581,
+        3486,
+        13,
+        50664
+      ],
+      "avg_logprob": -0.07733743108552078,
+      "compression_ratio": 1.6219931271477663,
+      "no_speech_prob": 8.249023859818738e-12,
+      "words": [
+        {
+          "start": 5.07,
+          "end": 5.47,
+          "word": " Sinon,",
+          "probability": 0.9996272623538971
+        },
+        {
+          "start": 5.61,
+          "end": 5.85,
+          "word": " tu",
+          "probability": 0.9999568462371826
+        },
+        {
+          "start": 5.85,
+          "end": 6.17,
+          "word": " risques",
+          "probability": 0.9995578825473785
+        },
+        {
+          "start": 6.17,
+          "end": 6.33,
+          "word": " de",
+          "probability": 0.9999620914459229
+        },
+        {
+          "start": 6.33,
+          "end": 6.43,
+          "word": " ne",
+          "probability": 0.9999380111694336
+        },
+        {
+          "start": 6.43,
+          "end": 6.61,
+          "word": " plus",
+          "probability": 0.999961256980896
+        },
+        {
+          "start": 6.61,
+          "end": 6.81,
+          "word": " avoir",
+          "probability": 0.9999423027038574
+        },
+        {
+          "start": 6.81,
+          "end": 7.03,
+          "word": " de",
+          "probability": 0.9999761581420898
+        },
+        {
+          "start": 7.03,
+          "end": 7.41,
+          "word": " carrière",
+          "probability": 0.9998726844787598
+        },
+        {
+          "start": 7.41,
+          "end": 7.63,
+          "word": " du",
+          "probability": 0.9998031258583069
+        },
+        {
+          "start": 7.63,
+          "end": 7.77,
+          "word": " tout.",
+          "probability": 0.9999581575393677
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.09,
+      "end": 11.87,
+      "text": " Tu as mieux à faire que de courir après de jeunes criminels à travers aux profondes.",
+      "tokens": [
+        50694,
+        7836,
+        382,
+        20401,
+        1531,
+        4865,
+        631,
+        368,
+        1005,
+        347,
+        13274,
+        368,
+        32830,
+        19044,
+        1625,
+        1531,
+        23149,
+        7865,
+        1740,
+        684,
+        279,
+        13,
+        50868
+      ],
+      "avg_logprob": -0.07733743108552078,
+      "compression_ratio": 1.6219931271477663,
+      "no_speech_prob": 8.249023859818738e-12,
+      "words": [
+        {
+          "start": 8.09,
+          "end": 8.49,
+          "word": " Tu",
+          "probability": 0.999760091304779
+        },
+        {
+          "start": 8.49,
+          "end": 8.61,
+          "word": " as",
+          "probability": 0.999231219291687
+        },
+        {
+          "start": 8.61,
+          "end": 8.79,
+          "word": " mieux",
+          "probability": 0.9999744892120361
+        },
+        {
+          "start": 8.79,
+          "end": 8.95,
+          "word": " à",
+          "probability": 0.9972381591796875
+        },
+        {
+          "start": 8.95,
+          "end": 9.15,
+          "word": " faire",
+          "probability": 0.9999356269836426
+        },
+        {
+          "start": 9.15,
+          "end": 9.31,
+          "word": " que",
+          "probability": 0.9999483823776245
+        },
+        {
+          "start": 9.31,
+          "end": 9.45,
+          "word": " de",
+          "probability": 0.999982476234436
+        },
+        {
+          "start": 9.45,
+          "end": 9.77,
+          "word": " courir",
+          "probability": 0.9998061954975128
+        },
+        {
+          "start": 9.77,
+          "end": 9.95,
+          "word": " après",
+          "probability": 0.8380612730979919
+        },
+        {
+          "start": 9.95,
+          "end": 10.15,
+          "word": " de",
+          "probability": 0.9975293278694153
+        },
+        {
+          "start": 10.15,
+          "end": 10.37,
+          "word": " jeunes",
+          "probability": 0.9992191791534424
+        },
+        {
+          "start": 10.37,
+          "end": 10.81,
+          "word": " criminels",
+          "probability": 0.9984359741210938
+        },
+        {
+          "start": 10.81,
+          "end": 10.95,
+          "word": " à",
+          "probability": 0.9999117851257324
+        },
+        {
+          "start": 10.95,
+          "end": 11.19,
+          "word": " travers",
+          "probability": 0.999964714050293
+        },
+        {
+          "start": 11.19,
+          "end": 11.33,
+          "word": " aux",
+          "probability": 0.3404473662376404
+        },
+        {
+          "start": 11.33,
+          "end": 11.87,
+          "word": " profondes.",
+          "probability": 0.9927028020222982
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.23,
+      "end": 14.75,
+      "text": " À entendre comment elle a parlé de la vipère noire,",
+      "tokens": [
+        50900,
+        19018,
+        16612,
+        265,
+        2871,
+        8404,
+        257,
+        38570,
+        368,
+        635,
+        371,
+        647,
+        4212,
+        572,
+        621,
+        11,
+        51012
+      ],
+      "avg_logprob": -0.07733743108552078,
+      "compression_ratio": 1.6219931271477663,
+      "no_speech_prob": 8.249023859818738e-12,
+      "words": [
+        {
+          "start": 12.23,
+          "end": 12.61,
+          "word": " À",
+          "probability": 0.8414376378059387
+        },
+        {
+          "start": 12.61,
+          "end": 13.03,
+          "word": " entendre",
+          "probability": 0.9999355673789978
+        },
+        {
+          "start": 13.03,
+          "end": 13.29,
+          "word": " comment",
+          "probability": 0.9995601773262024
+        },
+        {
+          "start": 13.29,
+          "end": 13.45,
+          "word": " elle",
+          "probability": 0.9983360171318054
+        },
+        {
+          "start": 13.45,
+          "end": 13.55,
+          "word": " a",
+          "probability": 0.9998856782913208
+        },
+        {
+          "start": 13.55,
+          "end": 13.83,
+          "word": " parlé",
+          "probability": 0.9998213648796082
+        },
+        {
+          "start": 13.83,
+          "end": 13.97,
+          "word": " de",
+          "probability": 0.9999158382415771
+        },
+        {
+          "start": 13.97,
+          "end": 14.13,
+          "word": " la",
+          "probability": 0.9840176701545715
+        },
+        {
+          "start": 14.13,
+          "end": 14.45,
+          "word": " vipère",
+          "probability": 0.9505870540936788
+        },
+        {
+          "start": 14.45,
+          "end": 14.75,
+          "word": " noire,",
+          "probability": 0.9780653417110443
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 15.09,
+      "end": 18.99,
+      "text": " tu pourrais presque croire que quelqu'un au bureau te l'a envoyé pour se moquer de toi.",
+      "tokens": [
+        51045,
+        2604,
+        2016,
+        20769,
+        37843,
+        4848,
+        621,
+        631,
+        25283,
+        6,
+        409,
+        1609,
+        35343,
+        535,
+        287,
+        6,
+        64,
+        35351,
+        526,
+        2016,
+        369,
+        705,
+        8035,
+        368,
+        15648,
+        13,
+        51224
+      ],
+      "avg_logprob": -0.07733743108552078,
+      "compression_ratio": 1.6219931271477663,
+      "no_speech_prob": 8.249023859818738e-12,
+      "words": [
+        {
+          "start": 15.09,
+          "end": 15.49,
+          "word": " tu",
+          "probability": 0.9988117218017578
+        },
+        {
+          "start": 15.49,
+          "end": 15.79,
+          "word": " pourrais",
+          "probability": 0.9982897341251373
+        },
+        {
+          "start": 15.79,
+          "end": 16.19,
+          "word": " presque",
+          "probability": 0.9998966455459595
+        },
+        {
+          "start": 16.19,
+          "end": 16.53,
+          "word": " croire",
+          "probability": 0.9998519122600555
+        },
+        {
+          "start": 16.53,
+          "end": 16.67,
+          "word": " que",
+          "probability": 0.9999219179153442
+        },
+        {
+          "start": 16.67,
+          "end": 16.91,
+          "word": " quelqu",
+          "probability": 0.9999808073043823
+        },
+        {
+          "start": 16.91,
+          "end": 17.07,
+          "word": "'un",
+          "probability": 0.9999922513961792
+        },
+        {
+          "start": 17.07,
+          "end": 17.17,
+          "word": " au",
+          "probability": 0.9999146461486816
+        },
+        {
+          "start": 17.17,
+          "end": 17.43,
+          "word": " bureau",
+          "probability": 0.999914288520813
+        },
+        {
+          "start": 17.43,
+          "end": 17.59,
+          "word": " te",
+          "probability": 0.9998500347137451
+        },
+        {
+          "start": 17.59,
+          "end": 17.69,
+          "word": " l",
+          "probability": 0.9999063014984131
+        },
+        {
+          "start": 17.69,
+          "end": 17.73,
+          "word": "'a",
+          "probability": 0.9999611377716064
+        },
+        {
+          "start": 17.73,
+          "end": 18.09,
+          "word": " envoyé",
+          "probability": 0.8377989828586578
+        },
+        {
+          "start": 18.09,
+          "end": 18.25,
+          "word": " pour",
+          "probability": 0.9999033212661743
+        },
+        {
+          "start": 18.25,
+          "end": 18.43,
+          "word": " se",
+          "probability": 0.9999319314956665
+        },
+        {
+          "start": 18.43,
+          "end": 18.67,
+          "word": " moquer",
+          "probability": 0.999904215335846
+        },
+        {
+          "start": 18.67,
+          "end": 18.81,
+          "word": " de",
+          "probability": 0.9999656677246094
+        },
+        {
+          "start": 18.81,
+          "end": 18.99,
+          "word": " toi.",
+          "probability": 0.9998446702957153
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 19.39,
+      "end": 20.45,
+      "text": " Il te faut du nouveau.",
+      "tokens": [
+        51255,
+        4416,
+        535,
+        8487,
+        1581,
+        23326,
+        13,
+        51297
+      ],
+      "avg_logprob": -0.07733743108552078,
+      "compression_ratio": 1.6219931271477663,
+      "no_speech_prob": 8.249023859818738e-12,
+      "words": [
+        {
+          "start": 19.39,
+          "end": 19.73,
+          "word": " Il",
+          "probability": 0.997776210308075
+        },
+        {
+          "start": 19.73,
+          "end": 19.85,
+          "word": " te",
+          "probability": 0.9999430179595947
+        },
+        {
+          "start": 19.85,
+          "end": 20.05,
+          "word": " faut",
+          "probability": 0.9992782473564148
+        },
+        {
+          "start": 20.05,
+          "end": 20.19,
+          "word": " du",
+          "probability": 0.9998043179512024
+        },
+        {
+          "start": 20.19,
+          "end": 20.45,
+          "word": " nouveau.",
+          "probability": 0.999914288520813
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 21.13,
+      "end": 25.41,
+      "text": " Tu décides d'aller à l'auberge du Portail Béant comme tu en avais l'intention au départ.",
+      "tokens": [
+        51344,
+        7836,
+        9198,
+        1875,
+        274,
+        6,
+        22414,
+        1531,
+        287,
+        6,
+        1459,
+        607,
+        432,
+        1581,
+        2436,
+        864,
+        15807,
+        394,
+        5173,
+        2604,
+        465,
+        1305,
+        1527,
+        287,
+        6,
+        686,
+        1251,
+        1609,
+        37745,
+        13,
+        51551
+      ],
+      "avg_logprob": -0.07733743108552078,
+      "compression_ratio": 1.6219931271477663,
+      "no_speech_prob": 8.249023859818738e-12,
+      "words": [
+        {
+          "start": 21.13,
+          "end": 21.53,
+          "word": " Tu",
+          "probability": 0.9992960691452026
+        },
+        {
+          "start": 21.53,
+          "end": 21.93,
+          "word": " décides",
+          "probability": 0.9993273317813873
+        },
+        {
+          "start": 21.93,
+          "end": 22.03,
+          "word": " d",
+          "probability": 0.9999340772628784
+        },
+        {
+          "start": 22.03,
+          "end": 22.17,
+          "word": "'aller",
+          "probability": 0.9999499320983887
+        },
+        {
+          "start": 22.17,
+          "end": 22.29,
+          "word": " à",
+          "probability": 0.9999492168426514
+        },
+        {
+          "start": 22.29,
+          "end": 22.39,
+          "word": " l",
+          "probability": 0.999957799911499
+        },
+        {
+          "start": 22.39,
+          "end": 22.73,
+          "word": "'auberge",
+          "probability": 0.9979724735021591
+        },
+        {
+          "start": 22.73,
+          "end": 22.87,
+          "word": " du",
+          "probability": 0.9999279975891113
+        },
+        {
+          "start": 22.87,
+          "end": 23.25,
+          "word": " portail",
+          "probability": 0.8063640892505646
+        },
+        {
+          "start": 23.25,
+          "end": 23.57,
+          "word": " béant",
+          "probability": 0.9427250921726227
+        },
+        {
+          "start": 23.57,
+          "end": 23.93,
+          "word": " comme",
+          "probability": 0.9548396468162537
+        },
+        {
+          "start": 23.93,
+          "end": 24.11,
+          "word": " tu",
+          "probability": 0.9997350573539734
+        },
+        {
+          "start": 24.11,
+          "end": 24.29,
+          "word": " en",
+          "probability": 0.9999308586120605
+        },
+        {
+          "start": 24.29,
+          "end": 24.53,
+          "word": " avais",
+          "probability": 0.9987277686595917
+        },
+        {
+          "start": 24.53,
+          "end": 24.63,
+          "word": " l",
+          "probability": 0.999954104423523
+        },
+        {
+          "start": 24.63,
+          "end": 25.03,
+          "word": "'intention",
+          "probability": 0.9996674855550131
+        },
+        {
+          "start": 25.03,
+          "end": 25.17,
+          "word": " au",
+          "probability": 0.9992772936820984
+        },
+        {
+          "start": 25.17,
+          "end": 25.41,
+          "word": " départ.",
+          "probability": 0.9998986721038818
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

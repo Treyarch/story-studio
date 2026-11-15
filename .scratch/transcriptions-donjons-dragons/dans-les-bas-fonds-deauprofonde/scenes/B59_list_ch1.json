@@ -1,0 +1,61 @@
+{
+  "scene": "B59_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B59_list_ch1.mp3",
+  "sha256": "33c699f979029038a59a9e3c7ee83bf20507ff93263b8dda952e187b497cc2c7",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.2188125,
+  "text": "Écoutez leurs conversations?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.71,
+      "text": " Écoutez leurs conversations?",
+      "tokens": [
+        50365,
+        4922,
+        66,
+        48903,
+        18341,
+        7315,
+        2506,
+        50474
+      ],
+      "avg_logprob": -0.4559006161159939,
+      "compression_ratio": 0.7894736842105263,
+      "no_speech_prob": 4.727516988989322e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.77,
+          "word": " Écoutez",
+          "probability": 0.7438855767250061
+        },
+        {
+          "start": 0.77,
+          "end": 0.95,
+          "word": " leurs",
+          "probability": 0.7648464441299438
+        },
+        {
+          "start": 0.95,
+          "end": 1.47,
+          "word": " conversations",
+          "probability": 0.9961440563201904
+        },
+        {
+          "start": 1.47,
+          "end": 1.71,
+          "word": "?",
+          "probability": 0.5001670122146606
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

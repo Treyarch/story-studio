@@ -1,0 +1,64 @@
+{
+  "scene": "item_title_ros_xa-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_ros_xa-fr_FR.mp3",
+  "sha256": "f85ec8b80cca1605bd0e6b2b5e05ffa7c651152828ebc352a0200283953aca85",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.3401875,
+  "text": "Rojenard travaille avec Xanathar.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.11,
+      "end": 2.61,
+      "text": " Rojenard travaille avec Xanathar.",
+      "tokens": [
+        50365,
+        3101,
+        73,
+        20062,
+        41072,
+        4163,
+        1783,
+        282,
+        12051,
+        13,
+        50493
+      ],
+      "avg_logprob": -0.21859955166776976,
+      "compression_ratio": 0.7894736842105263,
+      "no_speech_prob": 4.948404099675008e-12,
+      "words": [
+        {
+          "start": 0.11,
+          "end": 1.03,
+          "word": " Rojenard",
+          "probability": 0.8124180436134338
+        },
+        {
+          "start": 1.03,
+          "end": 1.51,
+          "word": " travaille",
+          "probability": 0.9932199120521545
+        },
+        {
+          "start": 1.51,
+          "end": 1.93,
+          "word": " avec",
+          "probability": 0.9998595714569092
+        },
+        {
+          "start": 1.93,
+          "end": 2.61,
+          "word": " Xanathar.",
+          "probability": 0.8889631430308024
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

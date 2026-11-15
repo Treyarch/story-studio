@@ -1,0 +1,38 @@
+{
+  "scene": "IN1b_list_ch4",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/IN1b_list_ch4.mp3",
+  "sha256": "8536dec84d02400bbc27ce9884854d1b2c5a8bdf0825da98c330d37a932e415a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.5399375,
+  "text": "Rodeur",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 0.94,
+      "text": " Rodeur",
+      "tokens": [
+        50365,
+        497,
+        1429,
+        374,
+        50409
+      ],
+      "avg_logprob": -0.28151392936706543,
+      "compression_ratio": 0.42857142857142855,
+      "no_speech_prob": 3.72528136810546e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.94,
+          "word": " Rodeur",
+          "probability": 0.7935412526130676
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

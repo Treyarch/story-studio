@@ -1,0 +1,60 @@
+{
+  "scene": "IN1a_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/IN1a_list_ch2.mp3",
+  "sha256": "5a7ef460d2c81a53971d0a2e0a6cf8138b2cd34e16bc67ee30dc5c4b3db6a556",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.7003125,
+  "text": "Au half-land?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.25,
+      "text": " Au half-land?",
+      "tokens": [
+        50365,
+        12160,
+        1922,
+        12,
+        1661,
+        2506,
+        50448
+      ],
+      "avg_logprob": -0.6711634024977684,
+      "compression_ratio": 0.6363636363636364,
+      "no_speech_prob": 1.513007774622821e-11,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.51,
+          "word": " Au",
+          "probability": 0.6294088959693909
+        },
+        {
+          "start": 0.51,
+          "end": 0.87,
+          "word": " half",
+          "probability": 0.28895607590675354
+        },
+        {
+          "start": 0.87,
+          "end": 1.07,
+          "word": "-land",
+          "probability": 0.4854385554790497
+        },
+        {
+          "start": 1.07,
+          "end": 1.25,
+          "word": "?",
+          "probability": 0.8263038992881775
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

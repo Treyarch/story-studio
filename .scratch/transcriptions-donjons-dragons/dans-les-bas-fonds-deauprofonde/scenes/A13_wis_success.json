@@ -1,0 +1,625 @@
+{
+  "scene": "A13_wis_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A13_wis_success.mp3",
+  "sha256": "6ca2a714c5125864587cbecc893cfe1dcab44d6664342f9fc3ad2d98a3f5e4c6",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 26.738,
+  "text": "Attends, cet homme n'est pas du tout un agent du guet. Pour commencer, il est affreusement sale. Et puis son uniforme est taché et déchiré. Tu le lui fais remarquer sans ciller. Il s'empourprend, confus. Alors qu'il baisse les yeux vers le trou au beau milieu de sa tunique, tu en profites pour t'élancer vers l'autre extrémité de l'impasse.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.3,
+      "end": 4.84,
+      "text": " Attends, cet homme n'est pas du tout un agent du guet.",
+      "tokens": [
+        50384,
+        7298,
+        2581,
+        11,
+        8603,
+        35794,
+        297,
+        6,
+        377,
+        1736,
+        1581,
+        3486,
+        517,
+        9461,
+        1581,
+        695,
+        302,
+        13,
+        50542
+      ],
+      "avg_logprob": -0.14755243213236832,
+      "compression_ratio": 1.4518828451882846,
+      "no_speech_prob": 8.892777139668517e-12,
+      "words": [
+        {
+          "start": 1.3,
+          "end": 2.0,
+          "word": " Attends,",
+          "probability": 0.8976978957653046
+        },
+        {
+          "start": 2.98,
+          "end": 3.22,
+          "word": " cet",
+          "probability": 0.998836100101471
+        },
+        {
+          "start": 3.22,
+          "end": 3.42,
+          "word": " homme",
+          "probability": 0.9999021291732788
+        },
+        {
+          "start": 3.42,
+          "end": 3.52,
+          "word": " n",
+          "probability": 0.9999070167541504
+        },
+        {
+          "start": 3.52,
+          "end": 3.58,
+          "word": "'est",
+          "probability": 0.9999887943267822
+        },
+        {
+          "start": 3.58,
+          "end": 3.72,
+          "word": " pas",
+          "probability": 0.9999663829803467
+        },
+        {
+          "start": 3.72,
+          "end": 3.94,
+          "word": " du",
+          "probability": 0.9999048709869385
+        },
+        {
+          "start": 3.94,
+          "end": 4.06,
+          "word": " tout",
+          "probability": 0.9999262094497681
+        },
+        {
+          "start": 4.06,
+          "end": 4.24,
+          "word": " un",
+          "probability": 0.99977046251297
+        },
+        {
+          "start": 4.24,
+          "end": 4.48,
+          "word": " agent",
+          "probability": 0.9988459348678589
+        },
+        {
+          "start": 4.48,
+          "end": 4.64,
+          "word": " du",
+          "probability": 0.9907106757164001
+        },
+        {
+          "start": 4.64,
+          "end": 4.84,
+          "word": " guet.",
+          "probability": 0.7043103724718094
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.32,
+      "end": 7.48,
+      "text": " Pour commencer, il est affreusement sale.",
+      "tokens": [
+        50584,
+        8732,
+        32817,
+        11,
+        1930,
+        871,
+        2096,
+        265,
+        21359,
+        8680,
+        13,
+        50675
+      ],
+      "avg_logprob": -0.14755243213236832,
+      "compression_ratio": 1.4518828451882846,
+      "no_speech_prob": 8.892777139668517e-12,
+      "words": [
+        {
+          "start": 5.32,
+          "end": 5.8,
+          "word": " Pour",
+          "probability": 0.9969684481620789
+        },
+        {
+          "start": 5.8,
+          "end": 6.2,
+          "word": " commencer,",
+          "probability": 0.9998999834060669
+        },
+        {
+          "start": 6.44,
+          "end": 6.56,
+          "word": " il",
+          "probability": 0.9999008178710938
+        },
+        {
+          "start": 6.56,
+          "end": 6.72,
+          "word": " est",
+          "probability": 0.9999486207962036
+        },
+        {
+          "start": 6.72,
+          "end": 7.14,
+          "word": " affreusement",
+          "probability": 0.9990914662679037
+        },
+        {
+          "start": 7.14,
+          "end": 7.48,
+          "word": " sale.",
+          "probability": 0.9943740367889404
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.74,
+      "end": 10.4,
+      "text": " Et puis son uniforme est taché et déchiré.",
+      "tokens": [
+        50705,
+        3790,
+        9093,
+        1872,
+        9452,
+        68,
+        871,
+        256,
+        608,
+        526,
+        1030,
+        2795,
+        339,
+        347,
+        526,
+        13,
+        50821
+      ],
+      "avg_logprob": -0.14755243213236832,
+      "compression_ratio": 1.4518828451882846,
+      "no_speech_prob": 8.892777139668517e-12,
+      "words": [
+        {
+          "start": 7.74,
+          "end": 8.22,
+          "word": " Et",
+          "probability": 0.99956876039505
+        },
+        {
+          "start": 8.22,
+          "end": 8.38,
+          "word": " puis",
+          "probability": 0.9999129772186279
+        },
+        {
+          "start": 8.38,
+          "end": 8.58,
+          "word": " son",
+          "probability": 0.9189472198486328
+        },
+        {
+          "start": 8.58,
+          "end": 9.18,
+          "word": " uniforme",
+          "probability": 0.9998096227645874
+        },
+        {
+          "start": 9.18,
+          "end": 9.28,
+          "word": " est",
+          "probability": 0.9997161030769348
+        },
+        {
+          "start": 9.28,
+          "end": 9.62,
+          "word": " taché",
+          "probability": 0.757000744342804
+        },
+        {
+          "start": 9.62,
+          "end": 9.84,
+          "word": " et",
+          "probability": 0.9954468607902527
+        },
+        {
+          "start": 9.84,
+          "end": 10.4,
+          "word": " déchiré.",
+          "probability": 0.9998137354850769
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 10.98,
+      "end": 13.1,
+      "text": " Tu le lui fais remarquer sans ciller.",
+      "tokens": [
+        50868,
+        7836,
+        476,
+        8783,
+        12153,
+        34329,
+        8035,
+        12177,
+        269,
+        10497,
+        13,
+        50955
+      ],
+      "avg_logprob": -0.14755243213236832,
+      "compression_ratio": 1.4518828451882846,
+      "no_speech_prob": 8.892777139668517e-12,
+      "words": [
+        {
+          "start": 10.98,
+          "end": 11.46,
+          "word": " Tu",
+          "probability": 0.9980320334434509
+        },
+        {
+          "start": 11.46,
+          "end": 11.62,
+          "word": " le",
+          "probability": 0.9997506737709045
+        },
+        {
+          "start": 11.62,
+          "end": 11.82,
+          "word": " lui",
+          "probability": 0.9996033310890198
+        },
+        {
+          "start": 11.82,
+          "end": 11.98,
+          "word": " fais",
+          "probability": 0.9972798824310303
+        },
+        {
+          "start": 11.98,
+          "end": 12.48,
+          "word": " remarquer",
+          "probability": 0.9998081028461456
+        },
+        {
+          "start": 12.48,
+          "end": 12.82,
+          "word": " sans",
+          "probability": 0.9638954997062683
+        },
+        {
+          "start": 12.82,
+          "end": 13.1,
+          "word": " ciller.",
+          "probability": 0.6292609721422195
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 13.56,
+      "end": 15.36,
+      "text": " Il s'empourprend, confus.",
+      "tokens": [
+        50995,
+        4416,
+        262,
+        6,
+        15970,
+        396,
+        32725,
+        11,
+        1497,
+        301,
+        13,
+        51068
+      ],
+      "avg_logprob": -0.14755243213236832,
+      "compression_ratio": 1.4518828451882846,
+      "no_speech_prob": 8.892777139668517e-12,
+      "words": [
+        {
+          "start": 13.56,
+          "end": 14.04,
+          "word": " Il",
+          "probability": 0.9995385408401489
+        },
+        {
+          "start": 14.04,
+          "end": 14.22,
+          "word": " s",
+          "probability": 0.917777955532074
+        },
+        {
+          "start": 14.22,
+          "end": 14.72,
+          "word": "'empourprend,",
+          "probability": 0.7683387994766235
+        },
+        {
+          "start": 14.98,
+          "end": 15.36,
+          "word": " confus.",
+          "probability": 0.9961674213409424
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 16.32,
+      "end": 19.86,
+      "text": " Alors qu'il baisse les yeux vers le trou au beau milieu de sa tunique,",
+      "tokens": [
+        51126,
+        9946,
+        421,
+        6,
+        388,
+        272,
+        40714,
+        1512,
+        36163,
+        1774,
+        476,
+        3455,
+        1609,
+        29891,
+        34276,
+        368,
+        601,
+        4267,
+        1925,
+        11,
+        51293
+      ],
+      "avg_logprob": -0.14755243213236832,
+      "compression_ratio": 1.4518828451882846,
+      "no_speech_prob": 8.892777139668517e-12,
+      "words": [
+        {
+          "start": 16.32,
+          "end": 16.8,
+          "word": " Alors",
+          "probability": 0.9995560050010681
+        },
+        {
+          "start": 16.8,
+          "end": 17.0,
+          "word": " qu",
+          "probability": 0.9999781847000122
+        },
+        {
+          "start": 17.0,
+          "end": 17.1,
+          "word": "'il",
+          "probability": 0.9996069669723511
+        },
+        {
+          "start": 17.1,
+          "end": 17.34,
+          "word": " baisse",
+          "probability": 0.9968383610248566
+        },
+        {
+          "start": 17.34,
+          "end": 17.5,
+          "word": " les",
+          "probability": 0.9998390674591064
+        },
+        {
+          "start": 17.5,
+          "end": 17.74,
+          "word": " yeux",
+          "probability": 0.9999827146530151
+        },
+        {
+          "start": 17.74,
+          "end": 17.94,
+          "word": " vers",
+          "probability": 0.9998487234115601
+        },
+        {
+          "start": 17.94,
+          "end": 18.14,
+          "word": " le",
+          "probability": 0.9999514818191528
+        },
+        {
+          "start": 18.14,
+          "end": 18.36,
+          "word": " trou",
+          "probability": 0.9984769225120544
+        },
+        {
+          "start": 18.36,
+          "end": 18.6,
+          "word": " au",
+          "probability": 0.9994358420372009
+        },
+        {
+          "start": 18.6,
+          "end": 18.76,
+          "word": " beau",
+          "probability": 0.9983981251716614
+        },
+        {
+          "start": 18.76,
+          "end": 19.1,
+          "word": " milieu",
+          "probability": 0.9999047517776489
+        },
+        {
+          "start": 19.1,
+          "end": 19.26,
+          "word": " de",
+          "probability": 0.9998282194137573
+        },
+        {
+          "start": 19.26,
+          "end": 19.48,
+          "word": " sa",
+          "probability": 0.9994242191314697
+        },
+        {
+          "start": 19.48,
+          "end": 19.86,
+          "word": " tunique,",
+          "probability": 0.9983692169189453
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 20.04,
+      "end": 23.52,
+      "text": " tu en profites pour t'élancer vers l'autre extrémité de l'impasse.",
+      "tokens": [
+        51320,
+        2604,
+        465,
+        1740,
+        3324,
+        2016,
+        256,
+        6,
+        8025,
+        28347,
+        1774,
+        287,
+        6,
+        19702,
+        1279,
+        10521,
+        3508,
+        526,
+        368,
+        287,
+        6,
+        8814,
+        8604,
+        13,
+        51477
+      ],
+      "avg_logprob": -0.14755243213236832,
+      "compression_ratio": 1.4518828451882846,
+      "no_speech_prob": 8.892777139668517e-12,
+      "words": [
+        {
+          "start": 20.04,
+          "end": 20.48,
+          "word": " tu",
+          "probability": 0.9990135431289673
+        },
+        {
+          "start": 20.48,
+          "end": 20.66,
+          "word": " en",
+          "probability": 0.9998385906219482
+        },
+        {
+          "start": 20.66,
+          "end": 21.04,
+          "word": " profites",
+          "probability": 0.9465890526771545
+        },
+        {
+          "start": 21.04,
+          "end": 21.24,
+          "word": " pour",
+          "probability": 0.9998766183853149
+        },
+        {
+          "start": 21.24,
+          "end": 21.38,
+          "word": " t",
+          "probability": 0.989588737487793
+        },
+        {
+          "start": 21.38,
+          "end": 21.72,
+          "word": "'élancer",
+          "probability": 0.9954245686531067
+        },
+        {
+          "start": 21.72,
+          "end": 22.08,
+          "word": " vers",
+          "probability": 0.9998561143875122
+        },
+        {
+          "start": 22.08,
+          "end": 22.22,
+          "word": " l",
+          "probability": 0.9998052716255188
+        },
+        {
+          "start": 22.22,
+          "end": 22.36,
+          "word": "'autre",
+          "probability": 0.999941885471344
+        },
+        {
+          "start": 22.36,
+          "end": 22.96,
+          "word": " extrémité",
+          "probability": 0.9992067515850067
+        },
+        {
+          "start": 22.96,
+          "end": 23.06,
+          "word": " de",
+          "probability": 0.9993675351142883
+        },
+        {
+          "start": 23.06,
+          "end": 23.16,
+          "word": " l",
+          "probability": 0.9998154044151306
+        },
+        {
+          "start": 23.16,
+          "end": 23.52,
+          "word": "'impasse.",
+          "probability": 0.9990599950154623
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

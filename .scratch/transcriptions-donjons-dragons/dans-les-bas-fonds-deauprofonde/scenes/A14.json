@@ -1,0 +1,1668 @@
+{
+  "scene": "A14",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A14.mp3",
+  "sha256": "5e99e4a6549d984ea5f845c6044e3bb1fea024582819d693ec5bd0b0d2cd8277",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 60.018,
+  "text": "Tu respires enfin! Quel soulagement! Tu as réussi à sortir de cette impasse sans trop de casse. Mais au lieu de rejoindre les rues plus larges et plus sûres, tu préfères semer la jambe dans les ruelles sinueuses du quartier des docks. Tu tournes dans les allées au hasard pour t'assurer que tu n'es pas suivie. Seulement, Kissandra aussi risque d'avoir plus de mal à te retrouver. Peut-être que tu n'en as pas envie. Tu commences à te demander si elle ne t'a pas tendu un piège. Mais avant que tu aies le temps d'y réfléchir davantage Une silhouette tombe du ciel devant toi avec un bruit sourd C'est une grande femme vêtue d'une épaisse armure d'acier Elle brandit une énorme hache qui semble faire toute la largeur de l'aller Où est-ce que tu files comme ça? Ce territoire est interdit aux fouines curieuses comme toi Tu n'as rien à faire là Cette fois, tu es bel et bien coincé Manifestement, tu n'as pas d'autre option que de l'affronter",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.78,
+      "end": 6.84,
+      "text": " Tu respires enfin! Quel soulagement! Tu as réussi à sortir de cette impasse sans trop de casse.",
+      "tokens": [
+        50365,
+        7836,
+        1597,
+        3145,
+        25059,
+        2298,
+        43521,
+        5133,
+        11129,
+        2298,
+        7836,
+        382,
+        46171,
+        1531,
+        26906,
+        368,
+        5550,
+        704,
+        8604,
+        12177,
+        9006,
+        368,
+        3058,
+        405,
+        13,
+        50670
+      ],
+      "avg_logprob": -0.11446715759015397,
+      "compression_ratio": 1.611842105263158,
+      "no_speech_prob": 7.99083629127173e-12,
+      "words": [
+        {
+          "start": 0.78,
+          "end": 1.2,
+          "word": " Tu",
+          "probability": 0.9757810235023499
+        },
+        {
+          "start": 1.2,
+          "end": 1.66,
+          "word": " respires",
+          "probability": 0.9965597987174988
+        },
+        {
+          "start": 1.66,
+          "end": 1.94,
+          "word": " enfin",
+          "probability": 0.997556209564209
+        },
+        {
+          "start": 1.94,
+          "end": 2.44,
+          "word": "!",
+          "probability": 0.6517162919044495
+        },
+        {
+          "start": 2.44,
+          "end": 2.62,
+          "word": " Quel",
+          "probability": 0.9981266856193542
+        },
+        {
+          "start": 2.62,
+          "end": 3.14,
+          "word": " soulagement",
+          "probability": 0.9996381402015686
+        },
+        {
+          "start": 3.14,
+          "end": 3.38,
+          "word": "!",
+          "probability": 0.9997861981391907
+        },
+        {
+          "start": 3.38,
+          "end": 3.94,
+          "word": " Tu",
+          "probability": 0.9977490305900574
+        },
+        {
+          "start": 3.94,
+          "end": 4.06,
+          "word": " as",
+          "probability": 0.9992990493774414
+        },
+        {
+          "start": 4.06,
+          "end": 4.42,
+          "word": " réussi",
+          "probability": 0.9998375177383423
+        },
+        {
+          "start": 4.42,
+          "end": 4.6,
+          "word": " à",
+          "probability": 0.9999555349349976
+        },
+        {
+          "start": 4.6,
+          "end": 4.92,
+          "word": " sortir",
+          "probability": 0.9996961355209351
+        },
+        {
+          "start": 4.92,
+          "end": 5.1,
+          "word": " de",
+          "probability": 0.9999779462814331
+        },
+        {
+          "start": 5.1,
+          "end": 5.32,
+          "word": " cette",
+          "probability": 0.9254142642021179
+        },
+        {
+          "start": 5.32,
+          "end": 5.76,
+          "word": " impasse",
+          "probability": 0.9998984932899475
+        },
+        {
+          "start": 5.76,
+          "end": 6.12,
+          "word": " sans",
+          "probability": 0.9991106390953064
+        },
+        {
+          "start": 6.12,
+          "end": 6.3,
+          "word": " trop",
+          "probability": 0.9999840259552002
+        },
+        {
+          "start": 6.3,
+          "end": 6.48,
+          "word": " de",
+          "probability": 0.9999691247940063
+        },
+        {
+          "start": 6.48,
+          "end": 6.84,
+          "word": " casse.",
+          "probability": 0.9506199359893799
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7.08,
+      "end": 14.02,
+      "text": " Mais au lieu de rejoindre les rues plus larges et plus sûres, tu préfères semer la jambe dans les ruelles sinueuses du quartier des docks.",
+      "tokens": [
+        50695,
+        6313,
+        1609,
+        26036,
+        368,
+        22087,
+        28786,
+        1512,
+        367,
+        1247,
+        1804,
+        1613,
+        2880,
+        1030,
+        1804,
+        15998,
+        495,
+        11,
+        2604,
+        31139,
+        13927,
+        369,
+        936,
+        635,
+        7872,
+        650,
+        2680,
+        1512,
+        367,
+        13789,
+        279,
+        3343,
+        622,
+        8355,
+        1581,
+        20837,
+        811,
+        730,
+        360,
+        2761,
+        13,
+        51027
+      ],
+      "avg_logprob": -0.11446715759015397,
+      "compression_ratio": 1.611842105263158,
+      "no_speech_prob": 7.99083629127173e-12,
+      "words": [
+        {
+          "start": 7.08,
+          "end": 7.52,
+          "word": " Mais",
+          "probability": 0.9997673630714417
+        },
+        {
+          "start": 7.52,
+          "end": 7.66,
+          "word": " au",
+          "probability": 0.9998229146003723
+        },
+        {
+          "start": 7.66,
+          "end": 7.82,
+          "word": " lieu",
+          "probability": 0.999962329864502
+        },
+        {
+          "start": 7.82,
+          "end": 7.96,
+          "word": " de",
+          "probability": 0.9999837875366211
+        },
+        {
+          "start": 7.96,
+          "end": 8.4,
+          "word": " rejoindre",
+          "probability": 0.9999192357063293
+        },
+        {
+          "start": 8.4,
+          "end": 8.62,
+          "word": " les",
+          "probability": 0.9998862743377686
+        },
+        {
+          "start": 8.62,
+          "end": 8.8,
+          "word": " rues",
+          "probability": 0.9997197687625885
+        },
+        {
+          "start": 8.8,
+          "end": 9.0,
+          "word": " plus",
+          "probability": 0.9999604225158691
+        },
+        {
+          "start": 9.0,
+          "end": 9.36,
+          "word": " larges",
+          "probability": 0.9924502670764923
+        },
+        {
+          "start": 9.36,
+          "end": 9.54,
+          "word": " et",
+          "probability": 0.9999790191650391
+        },
+        {
+          "start": 9.54,
+          "end": 9.78,
+          "word": " plus",
+          "probability": 0.999934196472168
+        },
+        {
+          "start": 9.78,
+          "end": 10.1,
+          "word": " sûres,",
+          "probability": 0.9935890734195709
+        },
+        {
+          "start": 10.5,
+          "end": 10.62,
+          "word": " tu",
+          "probability": 0.9993969202041626
+        },
+        {
+          "start": 10.62,
+          "end": 11.12,
+          "word": " préfères",
+          "probability": 0.9984677135944366
+        },
+        {
+          "start": 11.12,
+          "end": 11.52,
+          "word": " semer",
+          "probability": 0.9986540377140045
+        },
+        {
+          "start": 11.52,
+          "end": 11.7,
+          "word": " la",
+          "probability": 0.9884415864944458
+        },
+        {
+          "start": 11.7,
+          "end": 11.92,
+          "word": " jambe",
+          "probability": 0.877426415681839
+        },
+        {
+          "start": 11.92,
+          "end": 12.04,
+          "word": " dans",
+          "probability": 0.9994370341300964
+        },
+        {
+          "start": 12.04,
+          "end": 12.2,
+          "word": " les",
+          "probability": 0.9995906949043274
+        },
+        {
+          "start": 12.2,
+          "end": 12.54,
+          "word": " ruelles",
+          "probability": 0.9953535596529642
+        },
+        {
+          "start": 12.54,
+          "end": 13.14,
+          "word": " sinueuses",
+          "probability": 0.9982660611470541
+        },
+        {
+          "start": 13.14,
+          "end": 13.3,
+          "word": " du",
+          "probability": 0.9997956156730652
+        },
+        {
+          "start": 13.3,
+          "end": 13.62,
+          "word": " quartier",
+          "probability": 0.9993024468421936
+        },
+        {
+          "start": 13.62,
+          "end": 13.74,
+          "word": " des",
+          "probability": 0.9472134709358215
+        },
+        {
+          "start": 13.74,
+          "end": 14.02,
+          "word": " docks.",
+          "probability": 0.6879277676343918
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 14.56,
+      "end": 18.26,
+      "text": " Tu tournes dans les allées au hasard pour t'assurer que tu n'es pas suivie.",
+      "tokens": [
+        51058,
+        7836,
+        3512,
+        4081,
+        2680,
+        1512,
+        439,
+        6836,
+        1609,
+        575,
+        515,
+        2016,
+        256,
+        6,
+        640,
+        9858,
+        631,
+        2604,
+        297,
+        6,
+        279,
+        1736,
+        20751,
+        414,
+        13,
+        51240
+      ],
+      "avg_logprob": -0.11446715759015397,
+      "compression_ratio": 1.611842105263158,
+      "no_speech_prob": 7.99083629127173e-12,
+      "words": [
+        {
+          "start": 14.56,
+          "end": 15.0,
+          "word": " Tu",
+          "probability": 0.9993785619735718
+        },
+        {
+          "start": 15.0,
+          "end": 15.38,
+          "word": " tournes",
+          "probability": 0.998230367898941
+        },
+        {
+          "start": 15.38,
+          "end": 15.52,
+          "word": " dans",
+          "probability": 0.9999502897262573
+        },
+        {
+          "start": 15.52,
+          "end": 15.68,
+          "word": " les",
+          "probability": 0.9999527931213379
+        },
+        {
+          "start": 15.68,
+          "end": 15.96,
+          "word": " allées",
+          "probability": 0.9641118943691254
+        },
+        {
+          "start": 15.96,
+          "end": 16.08,
+          "word": " au",
+          "probability": 0.9993265867233276
+        },
+        {
+          "start": 16.08,
+          "end": 16.46,
+          "word": " hasard",
+          "probability": 0.9998027086257935
+        },
+        {
+          "start": 16.46,
+          "end": 16.72,
+          "word": " pour",
+          "probability": 0.9951634407043457
+        },
+        {
+          "start": 16.72,
+          "end": 16.88,
+          "word": " t",
+          "probability": 0.9993438124656677
+        },
+        {
+          "start": 16.88,
+          "end": 17.2,
+          "word": "'assurer",
+          "probability": 0.9998538692792257
+        },
+        {
+          "start": 17.2,
+          "end": 17.38,
+          "word": " que",
+          "probability": 0.9998406171798706
+        },
+        {
+          "start": 17.38,
+          "end": 17.52,
+          "word": " tu",
+          "probability": 0.9998918771743774
+        },
+        {
+          "start": 17.52,
+          "end": 17.64,
+          "word": " n",
+          "probability": 0.999840259552002
+        },
+        {
+          "start": 17.64,
+          "end": 17.66,
+          "word": "'es",
+          "probability": 0.9934485554695129
+        },
+        {
+          "start": 17.66,
+          "end": 17.84,
+          "word": " pas",
+          "probability": 0.9997934699058533
+        },
+        {
+          "start": 17.84,
+          "end": 18.26,
+          "word": " suivie.",
+          "probability": 0.7909615635871887
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 19.56,
+      "end": 22.96,
+      "text": " Seulement, Kissandra aussi risque d'avoir plus de mal à te retrouver.",
+      "tokens": [
+        51281,
+        1100,
+        2271,
+        518,
+        11,
+        24297,
+        18401,
+        6212,
+        37574,
+        274,
+        6,
+        17239,
+        1804,
+        368,
+        2806,
+        1531,
+        535,
+        36511,
+        13,
+        51475
+      ],
+      "avg_logprob": -0.11446715759015397,
+      "compression_ratio": 1.611842105263158,
+      "no_speech_prob": 7.99083629127173e-12,
+      "words": [
+        {
+          "start": 19.56,
+          "end": 20.0,
+          "word": " Seulement,",
+          "probability": 0.9993135333061218
+        },
+        {
+          "start": 20.0,
+          "end": 20.44,
+          "word": " Kissandra",
+          "probability": 0.7551244795322418
+        },
+        {
+          "start": 20.44,
+          "end": 20.88,
+          "word": " aussi",
+          "probability": 0.9994215965270996
+        },
+        {
+          "start": 20.88,
+          "end": 21.32,
+          "word": " risque",
+          "probability": 0.9988258481025696
+        },
+        {
+          "start": 21.32,
+          "end": 21.48,
+          "word": " d",
+          "probability": 0.9999822378158569
+        },
+        {
+          "start": 21.48,
+          "end": 21.62,
+          "word": "'avoir",
+          "probability": 0.9999255537986755
+        },
+        {
+          "start": 21.62,
+          "end": 21.98,
+          "word": " plus",
+          "probability": 0.9998542070388794
+        },
+        {
+          "start": 21.98,
+          "end": 22.14,
+          "word": " de",
+          "probability": 0.9990710020065308
+        },
+        {
+          "start": 22.14,
+          "end": 22.3,
+          "word": " mal",
+          "probability": 0.9980289340019226
+        },
+        {
+          "start": 22.3,
+          "end": 22.46,
+          "word": " à",
+          "probability": 0.9995468258857727
+        },
+        {
+          "start": 22.46,
+          "end": 22.58,
+          "word": " te",
+          "probability": 0.9991225600242615
+        },
+        {
+          "start": 22.58,
+          "end": 22.96,
+          "word": " retrouver.",
+          "probability": 0.9996053576469421
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 23.64,
+      "end": 25.18,
+      "text": " Peut-être que tu n'en as pas envie.",
+      "tokens": [
+        51519,
+        2396,
+        325,
+        12,
+        9498,
+        631,
+        2604,
+        297,
+        6,
+        268,
+        382,
+        1736,
+        24149,
+        13,
+        51586
+      ],
+      "avg_logprob": -0.11446715759015397,
+      "compression_ratio": 1.611842105263158,
+      "no_speech_prob": 7.99083629127173e-12,
+      "words": [
+        {
+          "start": 23.64,
+          "end": 24.08,
+          "word": " Peut",
+          "probability": 0.9985343217849731
+        },
+        {
+          "start": 24.08,
+          "end": 24.22,
+          "word": "-être",
+          "probability": 0.9999107122421265
+        },
+        {
+          "start": 24.22,
+          "end": 24.42,
+          "word": " que",
+          "probability": 0.9999443292617798
+        },
+        {
+          "start": 24.42,
+          "end": 24.54,
+          "word": " tu",
+          "probability": 0.9997743964195251
+        },
+        {
+          "start": 24.54,
+          "end": 24.64,
+          "word": " n",
+          "probability": 0.9991724491119385
+        },
+        {
+          "start": 24.64,
+          "end": 24.7,
+          "word": "'en",
+          "probability": 0.9999895691871643
+        },
+        {
+          "start": 24.7,
+          "end": 24.8,
+          "word": " as",
+          "probability": 0.9989094734191895
+        },
+        {
+          "start": 24.8,
+          "end": 24.92,
+          "word": " pas",
+          "probability": 0.9998292922973633
+        },
+        {
+          "start": 24.92,
+          "end": 25.18,
+          "word": " envie.",
+          "probability": 0.9996837377548218
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 25.68,
+      "end": 28.98,
+      "text": " Tu commences à te demander si elle ne t'a pas tendu un piège.",
+      "tokens": [
+        51626,
+        7836,
+        800,
+        2667,
+        1531,
+        535,
+        39169,
+        1511,
+        8404,
+        408,
+        256,
+        6,
+        64,
+        1736,
+        3928,
+        84,
+        517,
+        3895,
+        44924,
+        13,
+        51775
+      ],
+      "avg_logprob": -0.11446715759015397,
+      "compression_ratio": 1.611842105263158,
+      "no_speech_prob": 7.99083629127173e-12,
+      "words": [
+        {
+          "start": 25.68,
+          "end": 26.12,
+          "word": " Tu",
+          "probability": 0.9952749013900757
+        },
+        {
+          "start": 26.12,
+          "end": 26.52,
+          "word": " commences",
+          "probability": 0.996189534664154
+        },
+        {
+          "start": 26.52,
+          "end": 26.66,
+          "word": " à",
+          "probability": 0.9992615580558777
+        },
+        {
+          "start": 26.66,
+          "end": 26.78,
+          "word": " te",
+          "probability": 0.9980953335762024
+        },
+        {
+          "start": 26.78,
+          "end": 27.2,
+          "word": " demander",
+          "probability": 0.9992478489875793
+        },
+        {
+          "start": 27.2,
+          "end": 27.52,
+          "word": " si",
+          "probability": 0.9986888766288757
+        },
+        {
+          "start": 27.52,
+          "end": 27.64,
+          "word": " elle",
+          "probability": 0.9990602135658264
+        },
+        {
+          "start": 27.64,
+          "end": 27.76,
+          "word": " ne",
+          "probability": 0.9987670183181763
+        },
+        {
+          "start": 27.76,
+          "end": 27.9,
+          "word": " t",
+          "probability": 0.9998866319656372
+        },
+        {
+          "start": 27.9,
+          "end": 27.94,
+          "word": "'a",
+          "probability": 0.9988829493522644
+        },
+        {
+          "start": 27.94,
+          "end": 28.1,
+          "word": " pas",
+          "probability": 0.9982086420059204
+        },
+        {
+          "start": 28.1,
+          "end": 28.44,
+          "word": " tendu",
+          "probability": 0.9852951765060425
+        },
+        {
+          "start": 28.44,
+          "end": 28.6,
+          "word": " un",
+          "probability": 0.9992365837097168
+        },
+        {
+          "start": 28.6,
+          "end": 28.98,
+          "word": " piège.",
+          "probability": 0.9995800852775574
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 2820,
+      "start": 28.98,
+      "end": 32.28,
+      "text": " Mais avant que tu aies le temps d'y réfléchir davantage",
+      "tokens": [
+        50365,
+        6313,
+        13439,
+        631,
+        2604,
+        257,
+        530,
+        476,
+        8827,
+        274,
+        6,
+        88,
+        48438,
+        30606,
+        347,
+        11753,
+        4370,
+        50531
+      ],
+      "avg_logprob": -0.10231911185148515,
+      "compression_ratio": 1.561056105610561,
+      "no_speech_prob": 8.83866677764411e-12,
+      "words": [
+        {
+          "start": 28.98,
+          "end": 29.86,
+          "word": " Mais",
+          "probability": 0.9889750480651855
+        },
+        {
+          "start": 29.86,
+          "end": 30.16,
+          "word": " avant",
+          "probability": 0.9997642636299133
+        },
+        {
+          "start": 30.16,
+          "end": 30.34,
+          "word": " que",
+          "probability": 0.9999253749847412
+        },
+        {
+          "start": 30.34,
+          "end": 30.52,
+          "word": " tu",
+          "probability": 0.9993498921394348
+        },
+        {
+          "start": 30.52,
+          "end": 30.64,
+          "word": " aies",
+          "probability": 0.9956886470317841
+        },
+        {
+          "start": 30.64,
+          "end": 30.78,
+          "word": " le",
+          "probability": 0.9999350309371948
+        },
+        {
+          "start": 30.78,
+          "end": 30.92,
+          "word": " temps",
+          "probability": 0.9999359846115112
+        },
+        {
+          "start": 30.92,
+          "end": 31.04,
+          "word": " d",
+          "probability": 0.9989041090011597
+        },
+        {
+          "start": 31.04,
+          "end": 31.12,
+          "word": "'y",
+          "probability": 0.9999720454216003
+        },
+        {
+          "start": 31.12,
+          "end": 31.66,
+          "word": " réfléchir",
+          "probability": 0.9999764760335287
+        },
+        {
+          "start": 31.66,
+          "end": 32.28,
+          "word": " davantage",
+          "probability": 0.999509185552597
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 2820,
+      "start": 32.28,
+      "end": 35.92,
+      "text": " Une silhouette tombe du ciel devant toi avec un bruit sourd",
+      "tokens": [
+        50531,
+        16701,
+        38275,
+        2916,
+        650,
+        1581,
+        34380,
+        28982,
+        15648,
+        4163,
+        517,
+        738,
+        1983,
+        11006,
+        67,
+        50733
+      ],
+      "avg_logprob": -0.10231911185148515,
+      "compression_ratio": 1.561056105610561,
+      "no_speech_prob": 8.83866677764411e-12,
+      "words": [
+        {
+          "start": 32.28,
+          "end": 33.18,
+          "word": " Une",
+          "probability": 0.007283380720764399
+        },
+        {
+          "start": 33.18,
+          "end": 33.58,
+          "word": " silhouette",
+          "probability": 0.9981359243392944
+        },
+        {
+          "start": 33.58,
+          "end": 33.94,
+          "word": " tombe",
+          "probability": 0.9987080693244934
+        },
+        {
+          "start": 33.94,
+          "end": 34.08,
+          "word": " du",
+          "probability": 0.9979022741317749
+        },
+        {
+          "start": 34.08,
+          "end": 34.34,
+          "word": " ciel",
+          "probability": 0.9999616146087646
+        },
+        {
+          "start": 34.34,
+          "end": 34.62,
+          "word": " devant",
+          "probability": 0.9855743646621704
+        },
+        {
+          "start": 34.62,
+          "end": 34.9,
+          "word": " toi",
+          "probability": 0.9997571110725403
+        },
+        {
+          "start": 34.9,
+          "end": 35.14,
+          "word": " avec",
+          "probability": 0.9602431058883667
+        },
+        {
+          "start": 35.14,
+          "end": 35.3,
+          "word": " un",
+          "probability": 0.9999555349349976
+        },
+        {
+          "start": 35.3,
+          "end": 35.54,
+          "word": " bruit",
+          "probability": 0.9992624223232269
+        },
+        {
+          "start": 35.54,
+          "end": 35.92,
+          "word": " sourd",
+          "probability": 0.9982663691043854
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2820,
+      "start": 35.92,
+      "end": 39.56,
+      "text": " C'est une grande femme vêtue d'une épaisse armure d'acier",
+      "tokens": [
+        50733,
+        383,
+        6,
+        377,
+        2251,
+        8883,
+        27427,
+        371,
+        15519,
+        622,
+        274,
+        6,
+        2613,
+        21018,
+        40714,
+        3726,
+        540,
+        274,
+        6,
+        326,
+        811,
+        50894
+      ],
+      "avg_logprob": -0.10231911185148515,
+      "compression_ratio": 1.561056105610561,
+      "no_speech_prob": 8.83866677764411e-12,
+      "words": [
+        {
+          "start": 35.92,
+          "end": 36.58,
+          "word": " C",
+          "probability": 0.9786913394927979
+        },
+        {
+          "start": 36.58,
+          "end": 36.7,
+          "word": "'est",
+          "probability": 0.9999777674674988
+        },
+        {
+          "start": 36.7,
+          "end": 36.9,
+          "word": " une",
+          "probability": 0.9999164342880249
+        },
+        {
+          "start": 36.9,
+          "end": 37.22,
+          "word": " grande",
+          "probability": 0.9995717406272888
+        },
+        {
+          "start": 37.22,
+          "end": 37.6,
+          "word": " femme",
+          "probability": 0.9998923540115356
+        },
+        {
+          "start": 37.6,
+          "end": 38.1,
+          "word": " vêtue",
+          "probability": 0.8533740043640137
+        },
+        {
+          "start": 38.1,
+          "end": 38.22,
+          "word": " d",
+          "probability": 0.9999688863754272
+        },
+        {
+          "start": 38.22,
+          "end": 38.32,
+          "word": "'une",
+          "probability": 0.9999281167984009
+        },
+        {
+          "start": 38.32,
+          "end": 38.78,
+          "word": " épaisse",
+          "probability": 0.9994224905967712
+        },
+        {
+          "start": 38.78,
+          "end": 39.12,
+          "word": " armure",
+          "probability": 0.9987964630126953
+        },
+        {
+          "start": 39.12,
+          "end": 39.26,
+          "word": " d",
+          "probability": 0.9998503923416138
+        },
+        {
+          "start": 39.26,
+          "end": 39.56,
+          "word": "'acier",
+          "probability": 0.9990473985671997
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2820,
+      "start": 39.56,
+      "end": 44.36,
+      "text": " Elle brandit une énorme hache qui semble faire toute la largeur de l'aller",
+      "tokens": [
+        50894,
+        16227,
+        3360,
+        270,
+        2251,
+        27982,
+        68,
+        324,
+        1876,
+        1956,
+        38328,
+        4865,
+        14953,
+        635,
+        2416,
+        374,
+        368,
+        287,
+        6,
+        22414,
+        51135
+      ],
+      "avg_logprob": -0.10231911185148515,
+      "compression_ratio": 1.561056105610561,
+      "no_speech_prob": 8.83866677764411e-12,
+      "words": [
+        {
+          "start": 39.56,
+          "end": 40.14,
+          "word": " Elle",
+          "probability": 0.997597873210907
+        },
+        {
+          "start": 40.14,
+          "end": 40.66,
+          "word": " brandit",
+          "probability": 0.9975024461746216
+        },
+        {
+          "start": 40.66,
+          "end": 40.98,
+          "word": " une",
+          "probability": 0.9965644478797913
+        },
+        {
+          "start": 40.98,
+          "end": 41.6,
+          "word": " énorme",
+          "probability": 0.9995562732219696
+        },
+        {
+          "start": 41.6,
+          "end": 41.96,
+          "word": " hache",
+          "probability": 0.999297171831131
+        },
+        {
+          "start": 41.96,
+          "end": 42.38,
+          "word": " qui",
+          "probability": 0.9633589386940002
+        },
+        {
+          "start": 42.38,
+          "end": 42.72,
+          "word": " semble",
+          "probability": 0.9996028542518616
+        },
+        {
+          "start": 42.72,
+          "end": 43.04,
+          "word": " faire",
+          "probability": 0.9994394183158875
+        },
+        {
+          "start": 43.04,
+          "end": 43.42,
+          "word": " toute",
+          "probability": 0.9995239973068237
+        },
+        {
+          "start": 43.42,
+          "end": 43.6,
+          "word": " la",
+          "probability": 0.9999022483825684
+        },
+        {
+          "start": 43.6,
+          "end": 43.98,
+          "word": " largeur",
+          "probability": 0.9997451305389404
+        },
+        {
+          "start": 43.98,
+          "end": 44.12,
+          "word": " de",
+          "probability": 0.9988118410110474
+        },
+        {
+          "start": 44.12,
+          "end": 44.22,
+          "word": " l",
+          "probability": 0.999152660369873
+        },
+        {
+          "start": 44.22,
+          "end": 44.36,
+          "word": "'aller",
+          "probability": 0.7762240469455719
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 11,
+      "seek": 2820,
+      "start": 44.84,
+      "end": 46.62,
+      "text": " Où est-ce que tu files comme ça?",
+      "tokens": [
+        51135,
+        422,
+        5035,
+        871,
+        12,
+        384,
+        631,
+        2604,
+        7098,
+        5173,
+        2788,
+        2506,
+        51258
+      ],
+      "avg_logprob": -0.10231911185148515,
+      "compression_ratio": 1.561056105610561,
+      "no_speech_prob": 8.83866677764411e-12,
+      "words": [
+        {
+          "start": 44.84,
+          "end": 45.32,
+          "word": " Où",
+          "probability": 0.997191995382309
+        },
+        {
+          "start": 45.32,
+          "end": 45.38,
+          "word": " est",
+          "probability": 0.9979116320610046
+        },
+        {
+          "start": 45.38,
+          "end": 45.44,
+          "word": "-ce",
+          "probability": 0.9994982481002808
+        },
+        {
+          "start": 45.44,
+          "end": 45.5,
+          "word": " que",
+          "probability": 0.9999654293060303
+        },
+        {
+          "start": 45.5,
+          "end": 45.62,
+          "word": " tu",
+          "probability": 0.9999709129333496
+        },
+        {
+          "start": 45.62,
+          "end": 45.86,
+          "word": " files",
+          "probability": 0.8714339733123779
+        },
+        {
+          "start": 45.86,
+          "end": 46.06,
+          "word": " comme",
+          "probability": 0.9992363452911377
+        },
+        {
+          "start": 46.06,
+          "end": 46.22,
+          "word": " ça",
+          "probability": 0.9998817443847656
+        },
+        {
+          "start": 46.22,
+          "end": 46.62,
+          "word": "?",
+          "probability": 0.9911250472068787
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 12,
+      "seek": 2820,
+      "start": 46.62,
+      "end": 49.66,
+      "text": " Ce territoire est interdit aux fouines curieuses comme toi",
+      "tokens": [
+        51258,
+        8257,
+        8673,
+        20378,
+        871,
+        728,
+        17975,
+        7865,
+        32012,
+        1652,
+        1262,
+        414,
+        8355,
+        5173,
+        15648,
+        51401
+      ],
+      "avg_logprob": -0.10231911185148515,
+      "compression_ratio": 1.561056105610561,
+      "no_speech_prob": 8.83866677764411e-12,
+      "words": [
+        {
+          "start": 46.62,
+          "end": 46.94,
+          "word": " Ce",
+          "probability": 0.9312213659286499
+        },
+        {
+          "start": 46.94,
+          "end": 47.44,
+          "word": " territoire",
+          "probability": 0.9995473325252533
+        },
+        {
+          "start": 47.44,
+          "end": 47.6,
+          "word": " est",
+          "probability": 0.9997766613960266
+        },
+        {
+          "start": 47.6,
+          "end": 48.06,
+          "word": " interdit",
+          "probability": 0.999752551317215
+        },
+        {
+          "start": 48.06,
+          "end": 48.3,
+          "word": " aux",
+          "probability": 0.9950939416885376
+        },
+        {
+          "start": 48.3,
+          "end": 48.68,
+          "word": " fouines",
+          "probability": 0.977180689573288
+        },
+        {
+          "start": 48.68,
+          "end": 49.22,
+          "word": " curieuses",
+          "probability": 0.9988096356391907
+        },
+        {
+          "start": 49.22,
+          "end": 49.42,
+          "word": " comme",
+          "probability": 0.9996664524078369
+        },
+        {
+          "start": 49.42,
+          "end": 49.66,
+          "word": " toi",
+          "probability": 0.9996799230575562
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 13,
+      "seek": 2820,
+      "start": 49.66,
+      "end": 51.1,
+      "text": " Tu n'as rien à faire là",
+      "tokens": [
+        51401,
+        7836,
+        297,
+        6,
+        296,
+        13355,
+        1531,
+        4865,
+        3684,
+        51476
+      ],
+      "avg_logprob": -0.10231911185148515,
+      "compression_ratio": 1.561056105610561,
+      "no_speech_prob": 8.83866677764411e-12,
+      "words": [
+        {
+          "start": 49.66,
+          "end": 50.34,
+          "word": " Tu",
+          "probability": 0.985230028629303
+        },
+        {
+          "start": 50.34,
+          "end": 50.44,
+          "word": " n",
+          "probability": 0.9999653100967407
+        },
+        {
+          "start": 50.44,
+          "end": 50.48,
+          "word": "'as",
+          "probability": 0.9999362826347351
+        },
+        {
+          "start": 50.48,
+          "end": 50.66,
+          "word": " rien",
+          "probability": 0.9999866485595703
+        },
+        {
+          "start": 50.66,
+          "end": 50.78,
+          "word": " à",
+          "probability": 0.9998133778572083
+        },
+        {
+          "start": 50.78,
+          "end": 50.94,
+          "word": " faire",
+          "probability": 0.9998953342437744
+        },
+        {
+          "start": 50.94,
+          "end": 51.1,
+          "word": " là",
+          "probability": 0.9995775818824768
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 14,
+      "seek": 2820,
+      "start": 51.1,
+      "end": 53.96,
+      "text": " Cette fois, tu es bel et bien coincé",
+      "tokens": [
+        51476,
+        25556,
+        9576,
+        11,
+        2604,
+        785,
+        989,
+        1030,
+        3610,
+        13001,
+        526,
+        51616
+      ],
+      "avg_logprob": -0.10231911185148515,
+      "compression_ratio": 1.561056105610561,
+      "no_speech_prob": 8.83866677764411e-12,
+      "words": [
+        {
+          "start": 51.1,
+          "end": 52.0,
+          "word": " Cette",
+          "probability": 0.9779461622238159
+        },
+        {
+          "start": 52.0,
+          "end": 52.24,
+          "word": " fois,",
+          "probability": 0.9998511075973511
+        },
+        {
+          "start": 52.44,
+          "end": 52.88,
+          "word": " tu",
+          "probability": 0.9993475079536438
+        },
+        {
+          "start": 52.88,
+          "end": 53.0,
+          "word": " es",
+          "probability": 0.9983618855476379
+        },
+        {
+          "start": 53.0,
+          "end": 53.24,
+          "word": " bel",
+          "probability": 0.9104167222976685
+        },
+        {
+          "start": 53.24,
+          "end": 53.32,
+          "word": " et",
+          "probability": 0.999836802482605
+        },
+        {
+          "start": 53.32,
+          "end": 53.5,
+          "word": " bien",
+          "probability": 0.9998819828033447
+        },
+        {
+          "start": 53.5,
+          "end": 53.96,
+          "word": " coincé",
+          "probability": 0.7608981430530548
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 15,
+      "seek": 2820,
+      "start": 55.08,
+      "end": 57.72,
+      "text": " Manifestement, tu n'as pas d'autre option que de l'affronter",
+      "tokens": [
+        51616,
+        2458,
+        351,
+        377,
+        1712,
+        11,
+        2604,
+        297,
+        6,
+        296,
+        1736,
+        274,
+        6,
+        19702,
+        3614,
+        631,
+        368,
+        287,
+        6,
+        2518,
+        2044,
+        391,
+        51804
+      ],
+      "avg_logprob": -0.10231911185148515,
+      "compression_ratio": 1.561056105610561,
+      "no_speech_prob": 8.83866677764411e-12,
+      "words": [
+        {
+          "start": 55.08,
+          "end": 55.56,
+          "word": " Manifestement,",
+          "probability": 0.9961171746253967
+        },
+        {
+          "start": 55.56,
+          "end": 56.04,
+          "word": " tu",
+          "probability": 0.9997891783714294
+        },
+        {
+          "start": 56.04,
+          "end": 56.14,
+          "word": " n",
+          "probability": 0.9999169111251831
+        },
+        {
+          "start": 56.14,
+          "end": 56.2,
+          "word": "'as",
+          "probability": 0.9999202489852905
+        },
+        {
+          "start": 56.2,
+          "end": 56.34,
+          "word": " pas",
+          "probability": 0.9998831748962402
+        },
+        {
+          "start": 56.34,
+          "end": 56.48,
+          "word": " d",
+          "probability": 0.9996045231819153
+        },
+        {
+          "start": 56.48,
+          "end": 56.6,
+          "word": "'autre",
+          "probability": 0.9972014427185059
+        },
+        {
+          "start": 56.6,
+          "end": 56.96,
+          "word": " option",
+          "probability": 0.9998103976249695
+        },
+        {
+          "start": 56.96,
+          "end": 57.14,
+          "word": " que",
+          "probability": 0.9999457597732544
+        },
+        {
+          "start": 57.14,
+          "end": 57.26,
+          "word": " de",
+          "probability": 0.9999366998672485
+        },
+        {
+          "start": 57.26,
+          "end": 57.34,
+          "word": " l",
+          "probability": 0.9900481700897217
+        },
+        {
+          "start": 57.34,
+          "end": 57.72,
+          "word": "'affronter",
+          "probability": 0.9992803633213043
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

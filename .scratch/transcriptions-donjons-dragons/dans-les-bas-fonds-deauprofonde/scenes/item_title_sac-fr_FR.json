@@ -1,0 +1,58 @@
+{
+  "scene": "item_title_sac-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_sac-fr_FR.mp3",
+  "sha256": "60da87548c9a7027693036d8f7dda85d3e632d5f04d807486e5b9a7657526d02",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.799625,
+  "text": "Un sac sans fond.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.21,
+      "text": " Un sac sans fond.",
+      "tokens": [
+        50365,
+        1156,
+        4899,
+        12177,
+        9557,
+        13,
+        50424
+      ],
+      "avg_logprob": -0.19932997785508633,
+      "compression_ratio": 0.7391304347826086,
+      "no_speech_prob": 7.337607951796166e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.55,
+          "word": " Un",
+          "probability": 0.7099608182907104
+        },
+        {
+          "start": 0.55,
+          "end": 0.83,
+          "word": " sac",
+          "probability": 0.9878731966018677
+        },
+        {
+          "start": 0.83,
+          "end": 1.01,
+          "word": " sans",
+          "probability": 0.9611243605613708
+        },
+        {
+          "start": 1.01,
+          "end": 1.21,
+          "word": " fond.",
+          "probability": 0.9971691966056824
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

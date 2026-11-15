@@ -1,0 +1,315 @@
+{
+  "scene": "B60_wis_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B60_wis_fail.mp3",
+  "sha256": "0ed1f342a9235ac94d643e64867b03597833cf29441537e910b509afba7cab12",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 13.029,
+  "text": "Tu ne comprends absolument rien à ce que se disent les deux dragons. Tu hésites à leur demander de parler en langue commune pour te faciliter la tâche. Mais tu doutes qu'ils acceptent.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.42,
+      "end": 4.58,
+      "text": " Tu ne comprends absolument rien à ce que se disent les deux dragons.",
+      "tokens": [
+        50365,
+        7836,
+        408,
+        30765,
+        82,
+        34508,
+        13355,
+        1531,
+        1769,
+        631,
+        369,
+        37313,
+        1512,
+        8208,
+        27240,
+        13,
+        50525
+      ],
+      "avg_logprob": -0.10010704831643538,
+      "compression_ratio": 1.296551724137931,
+      "no_speech_prob": 4.263612900234914e-12,
+      "words": [
+        {
+          "start": 1.42,
+          "end": 1.84,
+          "word": " Tu",
+          "probability": 0.9535163640975952
+        },
+        {
+          "start": 1.84,
+          "end": 1.98,
+          "word": " ne",
+          "probability": 0.9997534155845642
+        },
+        {
+          "start": 1.98,
+          "end": 2.4,
+          "word": " comprends",
+          "probability": 0.9994174838066101
+        },
+        {
+          "start": 2.4,
+          "end": 2.94,
+          "word": " absolument",
+          "probability": 0.9998043179512024
+        },
+        {
+          "start": 2.94,
+          "end": 3.3,
+          "word": " rien",
+          "probability": 0.9999802112579346
+        },
+        {
+          "start": 3.3,
+          "end": 3.42,
+          "word": " à",
+          "probability": 0.9998255372047424
+        },
+        {
+          "start": 3.42,
+          "end": 3.56,
+          "word": " ce",
+          "probability": 0.9999403953552246
+        },
+        {
+          "start": 3.56,
+          "end": 3.68,
+          "word": " que",
+          "probability": 0.9999644756317139
+        },
+        {
+          "start": 3.68,
+          "end": 3.84,
+          "word": " se",
+          "probability": 0.9996500015258789
+        },
+        {
+          "start": 3.84,
+          "end": 4.04,
+          "word": " disent",
+          "probability": 0.9994024038314819
+        },
+        {
+          "start": 4.04,
+          "end": 4.18,
+          "word": " les",
+          "probability": 0.9998563528060913
+        },
+        {
+          "start": 4.18,
+          "end": 4.28,
+          "word": " deux",
+          "probability": 0.9925496578216553
+        },
+        {
+          "start": 4.28,
+          "end": 4.58,
+          "word": " dragons.",
+          "probability": 0.9971179962158203
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.1,
+      "end": 9.24,
+      "text": " Tu hésites à leur demander de parler en langue commune pour te faciliter la tâche.",
+      "tokens": [
+        50565,
+        7836,
+        276,
+        2191,
+        3324,
+        1531,
+        9580,
+        39169,
+        368,
+        16421,
+        465,
+        40318,
+        1199,
+        68,
+        2016,
+        535,
+        10217,
+        1681,
+        635,
+        256,
+        3201,
+        1876,
+        13,
+        50756
+      ],
+      "avg_logprob": -0.10010704831643538,
+      "compression_ratio": 1.296551724137931,
+      "no_speech_prob": 4.263612900234914e-12,
+      "words": [
+        {
+          "start": 5.1,
+          "end": 5.54,
+          "word": " Tu",
+          "probability": 0.9994069337844849
+        },
+        {
+          "start": 5.54,
+          "end": 5.88,
+          "word": " hésites",
+          "probability": 0.9949251810709635
+        },
+        {
+          "start": 5.88,
+          "end": 6.0,
+          "word": " à",
+          "probability": 0.999958872795105
+        },
+        {
+          "start": 6.0,
+          "end": 6.14,
+          "word": " leur",
+          "probability": 0.9992067217826843
+        },
+        {
+          "start": 6.14,
+          "end": 6.5,
+          "word": " demander",
+          "probability": 0.9999043941497803
+        },
+        {
+          "start": 6.5,
+          "end": 6.68,
+          "word": " de",
+          "probability": 0.9997090697288513
+        },
+        {
+          "start": 6.68,
+          "end": 6.96,
+          "word": " parler",
+          "probability": 0.9995834231376648
+        },
+        {
+          "start": 6.96,
+          "end": 7.1,
+          "word": " en",
+          "probability": 0.9998339414596558
+        },
+        {
+          "start": 7.1,
+          "end": 7.3,
+          "word": " langue",
+          "probability": 0.9993932247161865
+        },
+        {
+          "start": 7.3,
+          "end": 7.84,
+          "word": " commune",
+          "probability": 0.9996511340141296
+        },
+        {
+          "start": 7.84,
+          "end": 8.1,
+          "word": " pour",
+          "probability": 0.7972038388252258
+        },
+        {
+          "start": 8.1,
+          "end": 8.22,
+          "word": " te",
+          "probability": 0.999935507774353
+        },
+        {
+          "start": 8.22,
+          "end": 8.74,
+          "word": " faciliter",
+          "probability": 0.9998616874217987
+        },
+        {
+          "start": 8.74,
+          "end": 8.9,
+          "word": " la",
+          "probability": 0.9997395873069763
+        },
+        {
+          "start": 8.9,
+          "end": 9.24,
+          "word": " tâche.",
+          "probability": 0.999687671661377
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.76,
+      "end": 11.78,
+      "text": " Mais tu doutes qu'ils acceptent.",
+      "tokens": [
+        50785,
+        6313,
+        2604,
+        274,
+        346,
+        279,
+        421,
+        6,
+        4174,
+        3241,
+        317,
+        13,
+        50882
+      ],
+      "avg_logprob": -0.10010704831643538,
+      "compression_ratio": 1.296551724137931,
+      "no_speech_prob": 4.263612900234914e-12,
+      "words": [
+        {
+          "start": 9.76,
+          "end": 10.2,
+          "word": " Mais",
+          "probability": 0.9993683695793152
+        },
+        {
+          "start": 10.2,
+          "end": 10.64,
+          "word": " tu",
+          "probability": 0.9960644841194153
+        },
+        {
+          "start": 10.64,
+          "end": 10.98,
+          "word": " doutes",
+          "probability": 0.998574455579122
+        },
+        {
+          "start": 10.98,
+          "end": 11.06,
+          "word": " qu",
+          "probability": 0.9997352957725525
+        },
+        {
+          "start": 11.06,
+          "end": 11.16,
+          "word": "'ils",
+          "probability": 0.9999184608459473
+        },
+        {
+          "start": 11.16,
+          "end": 11.78,
+          "word": " acceptent.",
+          "probability": 0.9996663630008698
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

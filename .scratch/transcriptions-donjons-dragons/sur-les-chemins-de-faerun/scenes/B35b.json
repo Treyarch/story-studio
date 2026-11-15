@@ -1,0 +1,606 @@
+{
+  "scene": "B35b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B35b.mp3",
+  "sha256": "0923272012ef0db5691aec4300dc82e49ab7d759eae161d83c6313ebe54c332f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 27.341875,
+  "text": "Tu tires ton arme et tu attaques en espérant le blesser avant qu'il ne te blesse. Cependant, tu as beau bouger à vitesse grand V, ses onze yeux te rattrapent instantanément. L'un d'eux capte ton regard et te voilà paralysé sur le champ. Quand le monstre cligne des yeux, tu peux bouger à nouveau. Néanmoins, tu comprends que tu as commis une grosse erreur.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.14,
+      "end": 5.58,
+      "text": " Tu tires ton arme et tu attaques en espérant le blesser avant qu'il ne te blesse.",
+      "tokens": [
+        50365,
+        7836,
+        13885,
+        2952,
+        594,
+        1398,
+        1030,
+        2604,
+        951,
+        64,
+        7519,
+        465,
+        7089,
+        4198,
+        394,
+        476,
+        5227,
+        260,
+        13439,
+        421,
+        6,
+        388,
+        408,
+        535,
+        888,
+        7357,
+        13,
+        50588
+      ],
+      "avg_logprob": -0.08392820444147465,
+      "compression_ratio": 1.5188284518828452,
+      "no_speech_prob": 5.206835396870391e-12,
+      "words": [
+        {
+          "start": 1.14,
+          "end": 1.58,
+          "word": " Tu",
+          "probability": 0.9913928508758545
+        },
+        {
+          "start": 1.58,
+          "end": 1.84,
+          "word": " tires",
+          "probability": 0.9946780204772949
+        },
+        {
+          "start": 1.84,
+          "end": 2.02,
+          "word": " ton",
+          "probability": 0.9992470741271973
+        },
+        {
+          "start": 2.02,
+          "end": 2.36,
+          "word": " arme",
+          "probability": 0.9992915987968445
+        },
+        {
+          "start": 2.36,
+          "end": 2.54,
+          "word": " et",
+          "probability": 0.9974728226661682
+        },
+        {
+          "start": 2.54,
+          "end": 2.68,
+          "word": " tu",
+          "probability": 0.9998188614845276
+        },
+        {
+          "start": 2.68,
+          "end": 3.2,
+          "word": " attaques",
+          "probability": 0.9973604281743368
+        },
+        {
+          "start": 3.2,
+          "end": 3.48,
+          "word": " en",
+          "probability": 0.9934126734733582
+        },
+        {
+          "start": 3.48,
+          "end": 3.98,
+          "word": " espérant",
+          "probability": 0.9998844464619955
+        },
+        {
+          "start": 3.98,
+          "end": 4.1,
+          "word": " le",
+          "probability": 0.9999085664749146
+        },
+        {
+          "start": 4.1,
+          "end": 4.56,
+          "word": " blesser",
+          "probability": 0.989867776632309
+        },
+        {
+          "start": 4.56,
+          "end": 4.76,
+          "word": " avant",
+          "probability": 0.9996540546417236
+        },
+        {
+          "start": 4.76,
+          "end": 4.9,
+          "word": " qu",
+          "probability": 0.9999827146530151
+        },
+        {
+          "start": 4.9,
+          "end": 5.0,
+          "word": "'il",
+          "probability": 0.9983106553554535
+        },
+        {
+          "start": 5.0,
+          "end": 5.1,
+          "word": " ne",
+          "probability": 0.9998416900634766
+        },
+        {
+          "start": 5.1,
+          "end": 5.24,
+          "word": " te",
+          "probability": 0.9999688863754272
+        },
+        {
+          "start": 5.24,
+          "end": 5.58,
+          "word": " blesse.",
+          "probability": 0.9952603578567505
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.22,
+      "end": 11.86,
+      "text": " Cependant, tu as beau bouger à vitesse grand V, ses onze yeux te rattrapent instantanément.",
+      "tokens": [
+        50621,
+        383,
+        4217,
+        394,
+        11,
+        2604,
+        382,
+        29891,
+        46553,
+        260,
+        1531,
+        49573,
+        2697,
+        691,
+        11,
+        5385,
+        29460,
+        36163,
+        535,
+        27081,
+        4007,
+        317,
+        9836,
+        282,
+        17595,
+        13,
+        50901
+      ],
+      "avg_logprob": -0.08392820444147465,
+      "compression_ratio": 1.5188284518828452,
+      "no_speech_prob": 5.206835396870391e-12,
+      "words": [
+        {
+          "start": 6.22,
+          "end": 6.78,
+          "word": " Cependant,",
+          "probability": 0.9998606642087301
+        },
+        {
+          "start": 6.98,
+          "end": 7.34,
+          "word": " tu",
+          "probability": 0.9996227025985718
+        },
+        {
+          "start": 7.34,
+          "end": 7.48,
+          "word": " as",
+          "probability": 0.997922956943512
+        },
+        {
+          "start": 7.48,
+          "end": 7.66,
+          "word": " beau",
+          "probability": 0.9991391897201538
+        },
+        {
+          "start": 7.66,
+          "end": 8.0,
+          "word": " bouger",
+          "probability": 0.9998171329498291
+        },
+        {
+          "start": 8.0,
+          "end": 8.14,
+          "word": " à",
+          "probability": 0.9993459582328796
+        },
+        {
+          "start": 8.14,
+          "end": 8.48,
+          "word": " vitesse",
+          "probability": 0.9987537860870361
+        },
+        {
+          "start": 8.48,
+          "end": 8.7,
+          "word": " grand",
+          "probability": 0.9761255383491516
+        },
+        {
+          "start": 8.7,
+          "end": 8.86,
+          "word": " V,",
+          "probability": 0.9807412028312683
+        },
+        {
+          "start": 9.36,
+          "end": 9.56,
+          "word": " ses",
+          "probability": 0.9618887901306152
+        },
+        {
+          "start": 9.56,
+          "end": 9.96,
+          "word": " onze",
+          "probability": 0.8101844787597656
+        },
+        {
+          "start": 9.96,
+          "end": 10.26,
+          "word": " yeux",
+          "probability": 0.999806821346283
+        },
+        {
+          "start": 10.26,
+          "end": 10.46,
+          "word": " te",
+          "probability": 0.9996817111968994
+        },
+        {
+          "start": 10.46,
+          "end": 11.1,
+          "word": " rattrapent",
+          "probability": 0.9961962103843689
+        },
+        {
+          "start": 11.1,
+          "end": 11.86,
+          "word": " instantanément.",
+          "probability": 0.9998212854067484
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 12.58,
+      "end": 16.58,
+      "text": " L'un d'eux capte ton regard et te voilà paralysé sur le champ.",
+      "tokens": [
+        50957,
+        441,
+        6,
+        409,
+        274,
+        6,
+        68,
+        2449,
+        1410,
+        975,
+        2952,
+        3843,
+        1030,
+        535,
+        14624,
+        26009,
+        749,
+        526,
+        1022,
+        476,
+        5921,
+        13,
+        51138
+      ],
+      "avg_logprob": -0.08392820444147465,
+      "compression_ratio": 1.5188284518828452,
+      "no_speech_prob": 5.206835396870391e-12,
+      "words": [
+        {
+          "start": 12.58,
+          "end": 13.1,
+          "word": " L",
+          "probability": 0.9974536299705505
+        },
+        {
+          "start": 13.1,
+          "end": 13.2,
+          "word": "'un",
+          "probability": 0.9992115795612335
+        },
+        {
+          "start": 13.2,
+          "end": 13.34,
+          "word": " d",
+          "probability": 0.9976930022239685
+        },
+        {
+          "start": 13.34,
+          "end": 13.42,
+          "word": "'eux",
+          "probability": 0.9987849791844686
+        },
+        {
+          "start": 13.42,
+          "end": 13.8,
+          "word": " capte",
+          "probability": 0.9977314174175262
+        },
+        {
+          "start": 13.8,
+          "end": 14.0,
+          "word": " ton",
+          "probability": 0.9986451268196106
+        },
+        {
+          "start": 14.0,
+          "end": 14.42,
+          "word": " regard",
+          "probability": 0.9993632435798645
+        },
+        {
+          "start": 14.42,
+          "end": 14.84,
+          "word": " et",
+          "probability": 0.9977385997772217
+        },
+        {
+          "start": 14.84,
+          "end": 15.0,
+          "word": " te",
+          "probability": 0.9991070628166199
+        },
+        {
+          "start": 15.0,
+          "end": 15.22,
+          "word": " voilà",
+          "probability": 0.9181738495826721
+        },
+        {
+          "start": 15.22,
+          "end": 16.0,
+          "word": " paralysé",
+          "probability": 0.9920260906219482
+        },
+        {
+          "start": 16.0,
+          "end": 16.24,
+          "word": " sur",
+          "probability": 0.9998194575309753
+        },
+        {
+          "start": 16.24,
+          "end": 16.38,
+          "word": " le",
+          "probability": 0.9981561303138733
+        },
+        {
+          "start": 16.38,
+          "end": 16.58,
+          "word": " champ.",
+          "probability": 0.9978558421134949
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 17.22,
+      "end": 20.82,
+      "text": " Quand le monstre cligne des yeux, tu peux bouger à nouveau.",
+      "tokens": [
+        51189,
+        22015,
+        476,
+        1108,
+        26421,
+        596,
+        26341,
+        730,
+        36163,
+        11,
+        2604,
+        14844,
+        46553,
+        260,
+        1531,
+        23326,
+        13,
+        51349
+      ],
+      "avg_logprob": -0.08392820444147465,
+      "compression_ratio": 1.5188284518828452,
+      "no_speech_prob": 5.206835396870391e-12,
+      "words": [
+        {
+          "start": 17.22,
+          "end": 17.76,
+          "word": " Quand",
+          "probability": 0.9990785121917725
+        },
+        {
+          "start": 17.76,
+          "end": 17.96,
+          "word": " le",
+          "probability": 0.9999096393585205
+        },
+        {
+          "start": 17.96,
+          "end": 18.4,
+          "word": " monstre",
+          "probability": 0.9983720183372498
+        },
+        {
+          "start": 18.4,
+          "end": 18.82,
+          "word": " cligne",
+          "probability": 0.9946839511394501
+        },
+        {
+          "start": 18.82,
+          "end": 19.0,
+          "word": " des",
+          "probability": 0.9965707063674927
+        },
+        {
+          "start": 19.0,
+          "end": 19.26,
+          "word": " yeux,",
+          "probability": 0.9999793767929077
+        },
+        {
+          "start": 19.58,
+          "end": 19.9,
+          "word": " tu",
+          "probability": 0.999363362789154
+        },
+        {
+          "start": 19.9,
+          "end": 20.08,
+          "word": " peux",
+          "probability": 0.998469889163971
+        },
+        {
+          "start": 20.08,
+          "end": 20.44,
+          "word": " bouger",
+          "probability": 0.9999203085899353
+        },
+        {
+          "start": 20.44,
+          "end": 20.54,
+          "word": " à",
+          "probability": 0.9996398687362671
+        },
+        {
+          "start": 20.54,
+          "end": 20.82,
+          "word": " nouveau.",
+          "probability": 0.9999074935913086
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 21.6,
+      "end": 25.52,
+      "text": " Néanmoins, tu comprends que tu as commis une grosse erreur.",
+      "tokens": [
+        51391,
+        426,
+        526,
+        282,
+        3280,
+        1292,
+        11,
+        2604,
+        30765,
+        82,
+        631,
+        2604,
+        382,
+        800,
+        271,
+        2251,
+        40009,
+        28641,
+        374,
+        13,
+        51585
+      ],
+      "avg_logprob": -0.08392820444147465,
+      "compression_ratio": 1.5188284518828452,
+      "no_speech_prob": 5.206835396870391e-12,
+      "words": [
+        {
+          "start": 21.6,
+          "end": 22.16,
+          "word": " Néanmoins,",
+          "probability": 0.9996695518493652
+        },
+        {
+          "start": 22.4,
+          "end": 22.68,
+          "word": " tu",
+          "probability": 0.9998332262039185
+        },
+        {
+          "start": 22.68,
+          "end": 23.16,
+          "word": " comprends",
+          "probability": 0.9995695352554321
+        },
+        {
+          "start": 23.16,
+          "end": 23.28,
+          "word": " que",
+          "probability": 0.9998540878295898
+        },
+        {
+          "start": 23.28,
+          "end": 23.44,
+          "word": " tu",
+          "probability": 0.9999576807022095
+        },
+        {
+          "start": 23.44,
+          "end": 23.62,
+          "word": " as",
+          "probability": 0.9992771744728088
+        },
+        {
+          "start": 23.62,
+          "end": 23.98,
+          "word": " commis",
+          "probability": 0.999801754951477
+        },
+        {
+          "start": 23.98,
+          "end": 24.34,
+          "word": " une",
+          "probability": 0.9994301199913025
+        },
+        {
+          "start": 24.34,
+          "end": 24.8,
+          "word": " grosse",
+          "probability": 0.9997504353523254
+        },
+        {
+          "start": 24.8,
+          "end": 25.52,
+          "word": " erreur.",
+          "probability": 0.9985110759735107
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

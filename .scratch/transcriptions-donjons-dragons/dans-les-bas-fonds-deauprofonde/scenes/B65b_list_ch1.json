@@ -1,0 +1,61 @@
+{
+  "scene": "B65b_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B65b_list_ch1.mp3",
+  "sha256": "84f8464c416cb51704fe4d7c33451b894373d60dcac7e1b67c15558d9d2d3c39",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.7341875,
+  "text": "Parlez aux marchands?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.28,
+      "text": " Parlez aux marchands?",
+      "tokens": [
+        50365,
+        3457,
+        20336,
+        7865,
+        8368,
+        2967,
+        2506,
+        50448
+      ],
+      "avg_logprob": -0.39311398400200737,
+      "compression_ratio": 0.7333333333333333,
+      "no_speech_prob": 3.644690018539398e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.7,
+          "word": " Parlez",
+          "probability": 0.7952317595481873
+        },
+        {
+          "start": 0.7,
+          "end": 0.8,
+          "word": " aux",
+          "probability": 0.8837366700172424
+        },
+        {
+          "start": 0.8,
+          "end": 1.14,
+          "word": " marchands",
+          "probability": 0.998082309961319
+        },
+        {
+          "start": 1.14,
+          "end": 1.28,
+          "word": "?",
+          "probability": 0.4760613739490509
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

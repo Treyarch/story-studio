@@ -1,0 +1,49 @@
+{
+  "scene": "A26e_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A26e_list_ch1.mp3",
+  "sha256": "ce1e61da363bbf820a3dfd1fff5bb019f8c0c3162c23e63dcc76c913b9620073",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.104375,
+  "text": "Interrogez Tacheline.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.11,
+      "end": 1.47,
+      "text": " Interrogez Tacheline.",
+      "tokens": [
+        50365,
+        5751,
+        340,
+        432,
+        89,
+        314,
+        608,
+        5440,
+        13,
+        50434
+      ],
+      "avg_logprob": -0.2561238137158481,
+      "compression_ratio": 0.7241379310344828,
+      "no_speech_prob": 4.086243062667583e-12,
+      "words": [
+        {
+          "start": 0.11,
+          "end": 1.05,
+          "word": " Interrogez",
+          "probability": 0.8816715776920319
+        },
+        {
+          "start": 1.05,
+          "end": 1.47,
+          "word": " Tacheline.",
+          "probability": 0.7534261842568716
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

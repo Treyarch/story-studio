@@ -1,0 +1,59 @@
+{
+  "scene": "A7b_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A7b_list_ch1.mp3",
+  "sha256": "cb1713ab42fb8688fe976a76c0008438d813ff86b632c3fd149444883e62d1b5",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.9219375,
+  "text": "Tu la laisses partir.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.11,
+      "text": " Tu la laisses partir.",
+      "tokens": [
+        50365,
+        7836,
+        635,
+        635,
+        40487,
+        13906,
+        13,
+        50427
+      ],
+      "avg_logprob": -0.22141493691338432,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 4.754462015060801e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.47,
+          "word": " Tu",
+          "probability": 0.7526766657829285
+        },
+        {
+          "start": 0.47,
+          "end": 0.63,
+          "word": " la",
+          "probability": 0.9994346499443054
+        },
+        {
+          "start": 0.63,
+          "end": 0.81,
+          "word": " laisses",
+          "probability": 0.9980934858322144
+        },
+        {
+          "start": 0.81,
+          "end": 1.11,
+          "word": " partir.",
+          "probability": 0.9992989301681519
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

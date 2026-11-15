@@ -1,0 +1,61 @@
+{
+  "scene": "B37b_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B37b_list_ch1.mp3",
+  "sha256": "0b3b03f0cad7082a7ecd8cc95dfe4af47a60250d4e76c7f2be72905e8ba07fb9",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.8085625,
+  "text": "Espionner en ville?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.64,
+      "end": 1.62,
+      "text": " Espionner en ville?",
+      "tokens": [
+        50365,
+        24978,
+        313,
+        1193,
+        465,
+        23019,
+        2506,
+        50447
+      ],
+      "avg_logprob": -0.4776516490512424,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 5.775902759547202e-12,
+      "words": [
+        {
+          "start": 0.64,
+          "end": 1.06,
+          "word": " Espionner",
+          "probability": 0.7737598816553751
+        },
+        {
+          "start": 1.06,
+          "end": 1.2,
+          "word": " en",
+          "probability": 0.9981222748756409
+        },
+        {
+          "start": 1.2,
+          "end": 1.42,
+          "word": " ville",
+          "probability": 0.9984305500984192
+        },
+        {
+          "start": 1.42,
+          "end": 1.62,
+          "word": "?",
+          "probability": 0.9180042147636414
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

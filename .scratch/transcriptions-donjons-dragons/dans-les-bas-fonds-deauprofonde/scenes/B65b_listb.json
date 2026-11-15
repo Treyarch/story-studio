@@ -1,0 +1,66 @@
+{
+  "scene": "B65b_listb",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B65b_listb.mp3",
+  "sha256": "7a8a7a47e348bfb079e9adc21d0ebfecdd4a4ec3b02e5bf58a12806696012cdc",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.8085,
+  "text": "Que faire à présent?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.31,
+      "text": " Que faire à présent?",
+      "tokens": [
+        50365,
+        4493,
+        4865,
+        1531,
+        26056,
+        2506,
+        50453
+      ],
+      "avg_logprob": -0.28554170206189156,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 3.949966222160928e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.47,
+          "word": " Que",
+          "probability": 0.9624145030975342
+        },
+        {
+          "start": 0.47,
+          "end": 0.77,
+          "word": " faire",
+          "probability": 0.9997932314872742
+        },
+        {
+          "start": 0.77,
+          "end": 0.91,
+          "word": " à",
+          "probability": 0.999717652797699
+        },
+        {
+          "start": 0.91,
+          "end": 1.21,
+          "word": " présent",
+          "probability": 0.9998693466186523
+        },
+        {
+          "start": 1.21,
+          "end": 1.31,
+          "word": "?",
+          "probability": 0.9876073002815247
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

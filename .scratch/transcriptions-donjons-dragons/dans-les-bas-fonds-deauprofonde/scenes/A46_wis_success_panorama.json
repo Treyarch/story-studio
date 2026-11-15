@@ -1,0 +1,158 @@
+{
+  "scene": "A46_wis_success_panorama",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A46_wis_success_panorama.mp3",
+  "sha256": "98c0288f9e86dddb92bc8f4e5bd6524eebe0f3bf806c3cfd3c6a6d89075e3fc0",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 7.037,
+  "text": "Sélectionne les cercles de couleurs dans le bon ordre pour former le mot qui déverrouillera la porte.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.78,
+      "end": 6.2,
+      "text": " Sélectionne les cercles de couleurs dans le bon ordre pour former le mot qui déverrouillera la porte.",
+      "tokens": [
+        50365,
+        49556,
+        5450,
+        716,
+        1512,
+        36099,
+        904,
+        368,
+        33644,
+        2156,
+        2680,
+        476,
+        4428,
+        4792,
+        265,
+        2016,
+        5819,
+        476,
+        2184,
+        1956,
+        2795,
+        331,
+        13122,
+        373,
+        1663,
+        635,
+        26658,
+        13,
+        50637
+      ],
+      "avg_logprob": -0.10253304118911426,
+      "compression_ratio": 1.1704545454545454,
+      "no_speech_prob": 4.882480270779199e-12,
+      "words": [
+        {
+          "start": 0.78,
+          "end": 1.7,
+          "word": " Sélectionne",
+          "probability": 0.9903723994890848
+        },
+        {
+          "start": 1.7,
+          "end": 1.84,
+          "word": " les",
+          "probability": 0.999537467956543
+        },
+        {
+          "start": 1.84,
+          "end": 2.2,
+          "word": " cercles",
+          "probability": 0.9985063076019287
+        },
+        {
+          "start": 2.2,
+          "end": 2.34,
+          "word": " de",
+          "probability": 0.9997792840003967
+        },
+        {
+          "start": 2.34,
+          "end": 2.72,
+          "word": " couleurs",
+          "probability": 0.7903209030628204
+        },
+        {
+          "start": 2.72,
+          "end": 2.84,
+          "word": " dans",
+          "probability": 0.9994749426841736
+        },
+        {
+          "start": 2.84,
+          "end": 2.98,
+          "word": " le",
+          "probability": 0.9999760389328003
+        },
+        {
+          "start": 2.98,
+          "end": 3.16,
+          "word": " bon",
+          "probability": 0.9998351335525513
+        },
+        {
+          "start": 3.16,
+          "end": 3.54,
+          "word": " ordre",
+          "probability": 0.9995655119419098
+        },
+        {
+          "start": 3.54,
+          "end": 3.94,
+          "word": " pour",
+          "probability": 0.9954718351364136
+        },
+        {
+          "start": 3.94,
+          "end": 4.26,
+          "word": " former",
+          "probability": 0.9997852444648743
+        },
+        {
+          "start": 4.26,
+          "end": 4.42,
+          "word": " le",
+          "probability": 0.9998574256896973
+        },
+        {
+          "start": 4.42,
+          "end": 4.6,
+          "word": " mot",
+          "probability": 0.997534990310669
+        },
+        {
+          "start": 4.6,
+          "end": 5.08,
+          "word": " qui",
+          "probability": 0.9981690645217896
+        },
+        {
+          "start": 5.08,
+          "end": 5.74,
+          "word": " déverrouillera",
+          "probability": 0.9929479241371155
+        },
+        {
+          "start": 5.74,
+          "end": 5.9,
+          "word": " la",
+          "probability": 0.9996198415756226
+        },
+        {
+          "start": 5.9,
+          "end": 6.2,
+          "word": " porte.",
+          "probability": 0.9997956156730652
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

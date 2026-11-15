@@ -1,0 +1,59 @@
+{
+  "scene": "multi1_ch4_result_12",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/multi1_ch4_result_12.mp3",
+  "sha256": "c20ac6c8cc61c3beacdd98d8d21a8a7f5c22304991e1281950d3a09a0d90c45f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.29475,
+  "text": "Degré de difficulté 12",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 2.46,
+      "text": " Degré de difficulté 12",
+      "tokens": [
+        50365,
+        1346,
+        36341,
+        368,
+        2252,
+        526,
+        2272,
+        50496
+      ],
+      "avg_logprob": -0.20798635482788086,
+      "compression_ratio": 0.7741935483870968,
+      "no_speech_prob": 5.747146248485935e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.74,
+          "word": " Degré",
+          "probability": 0.9048317968845367
+        },
+        {
+          "start": 0.74,
+          "end": 0.94,
+          "word": " de",
+          "probability": 0.9997130036354065
+        },
+        {
+          "start": 0.94,
+          "end": 1.7,
+          "word": " difficulté",
+          "probability": 0.9991475939750671
+        },
+        {
+          "start": 1.7,
+          "end": 2.46,
+          "word": " 12",
+          "probability": 0.6965875625610352
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

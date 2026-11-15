@@ -1,0 +1,70 @@
+{
+  "scene": "B51b_chapitre",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B51b_chapitre.mp3",
+  "sha256": "b28d0057579beb007eef8d46331c59419485361aafb752e97c9fb002a17833f8",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.437125,
+  "text": "Bienvenue chez les Ménestrelles!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.16,
+      "text": " Bienvenue chez les Ménestrelles!",
+      "tokens": [
+        50365,
+        16956,
+        29307,
+        17855,
+        1512,
+        376,
+        3516,
+        41135,
+        19126,
+        2298,
+        50487
+      ],
+      "avg_logprob": -0.39713548868894577,
+      "compression_ratio": 0.85,
+      "no_speech_prob": 3.517119755158671e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.88,
+          "word": " Bienvenue",
+          "probability": 0.994757205247879
+        },
+        {
+          "start": 0.88,
+          "end": 1.1,
+          "word": " chez",
+          "probability": 0.9997302889823914
+        },
+        {
+          "start": 1.1,
+          "end": 1.3,
+          "word": " les",
+          "probability": 0.9510106444358826
+        },
+        {
+          "start": 1.3,
+          "end": 2.0,
+          "word": " Ménestrelles",
+          "probability": 0.7465851828455925
+        },
+        {
+          "start": 2.0,
+          "end": 2.16,
+          "word": "!",
+          "probability": 0.7109277844429016
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

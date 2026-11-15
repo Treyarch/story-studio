@@ -1,0 +1,847 @@
+{
+  "scene": "A46_wis_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A46_wis_success.mp3",
+  "sha256": "1f4e74c8f58ad07bdb99672caa4d08584f132a26a563f60349b197115a530596",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 41.7054375,
+  "text": "Le choix des couleurs te semble familier. Bleu, vert, orange, rose et rouge. La solution t'apparaît d'un coup. Ce sont cinq des couleurs des huit écoles de magie. Bleu pour abjuration, vert pour nécromancie, orange pour métamorphose, rose pour enchantement et rouge pour invocation. Si tu prends la première lettre de chacun de ces mots, ça te donne A, N, M, E et I. Ces lettres arrangées ensemble peuvent former trois mots. Mener, anime ou manier. Lequel est le bon?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.66,
+      "end": 2.9,
+      "text": " Le choix des couleurs te semble familier.",
+      "tokens": [
+        50365,
+        1456,
+        32688,
+        730,
+        33644,
+        2156,
+        535,
+        38328,
+        4085,
+        811,
+        13,
+        50478
+      ],
+      "avg_logprob": -0.10816306879203166,
+      "compression_ratio": 1.5435684647302905,
+      "no_speech_prob": 7.722391302811271e-12,
+      "words": [
+        {
+          "start": 0.66,
+          "end": 1.16,
+          "word": " Le",
+          "probability": 0.994527280330658
+        },
+        {
+          "start": 1.16,
+          "end": 1.38,
+          "word": " choix",
+          "probability": 0.9999357461929321
+        },
+        {
+          "start": 1.38,
+          "end": 1.52,
+          "word": " des",
+          "probability": 0.9999696016311646
+        },
+        {
+          "start": 1.52,
+          "end": 1.86,
+          "word": " couleurs",
+          "probability": 0.999941885471344
+        },
+        {
+          "start": 1.86,
+          "end": 2.02,
+          "word": " te",
+          "probability": 0.9997075200080872
+        },
+        {
+          "start": 2.02,
+          "end": 2.32,
+          "word": " semble",
+          "probability": 0.999728262424469
+        },
+        {
+          "start": 2.32,
+          "end": 2.9,
+          "word": " familier.",
+          "probability": 0.9994353950023651
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.16,
+      "end": 5.88,
+      "text": " Bleu, vert, orange, rose et rouge.",
+      "tokens": [
+        50505,
+        30721,
+        84,
+        11,
+        6509,
+        11,
+        7671,
+        11,
+        10895,
+        1030,
+        40605,
+        13,
+        50627
+      ],
+      "avg_logprob": -0.10816306879203166,
+      "compression_ratio": 1.5435684647302905,
+      "no_speech_prob": 7.722391302811271e-12,
+      "words": [
+        {
+          "start": 3.16,
+          "end": 3.76,
+          "word": " Bleu,",
+          "probability": 0.9971911609172821
+        },
+        {
+          "start": 4.06,
+          "end": 4.36,
+          "word": " vert,",
+          "probability": 0.9989783763885498
+        },
+        {
+          "start": 4.6,
+          "end": 4.92,
+          "word": " orange,",
+          "probability": 0.9997610449790955
+        },
+        {
+          "start": 5.2,
+          "end": 5.48,
+          "word": " rose",
+          "probability": 0.9994804263114929
+        },
+        {
+          "start": 5.48,
+          "end": 5.6,
+          "word": " et",
+          "probability": 0.9999390840530396
+        },
+        {
+          "start": 5.6,
+          "end": 5.88,
+          "word": " rouge.",
+          "probability": 0.9997773766517639
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 6.4,
+      "end": 8.32,
+      "text": " La solution t'apparaît d'un coup.",
+      "tokens": [
+        50660,
+        2369,
+        3827,
+        256,
+        6,
+        1746,
+        2419,
+        20028,
+        274,
+        6,
+        409,
+        8682,
+        13,
+        50749
+      ],
+      "avg_logprob": -0.10816306879203166,
+      "compression_ratio": 1.5435684647302905,
+      "no_speech_prob": 7.722391302811271e-12,
+      "words": [
+        {
+          "start": 6.4,
+          "end": 7.0,
+          "word": " La",
+          "probability": 0.9998655319213867
+        },
+        {
+          "start": 7.0,
+          "end": 7.44,
+          "word": " solution",
+          "probability": 0.9998711347579956
+        },
+        {
+          "start": 7.44,
+          "end": 7.7,
+          "word": " t",
+          "probability": 0.9978333115577698
+        },
+        {
+          "start": 7.7,
+          "end": 7.98,
+          "word": "'apparaît",
+          "probability": 0.9951399117708206
+        },
+        {
+          "start": 7.98,
+          "end": 8.1,
+          "word": " d",
+          "probability": 0.9999830722808838
+        },
+        {
+          "start": 8.1,
+          "end": 8.16,
+          "word": "'un",
+          "probability": 0.99998539686203
+        },
+        {
+          "start": 8.16,
+          "end": 8.32,
+          "word": " coup.",
+          "probability": 0.99968421459198
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 8.74,
+      "end": 11.94,
+      "text": " Ce sont cinq des couleurs des huit écoles de magie.",
+      "tokens": [
+        50791,
+        8257,
+        4900,
+        43335,
+        730,
+        33644,
+        2156,
+        730,
+        276,
+        1983,
+        15175,
+        7456,
+        368,
+        2258,
+        414,
+        13,
+        50930
+      ],
+      "avg_logprob": -0.10816306879203166,
+      "compression_ratio": 1.5435684647302905,
+      "no_speech_prob": 7.722391302811271e-12,
+      "words": [
+        {
+          "start": 8.74,
+          "end": 9.3,
+          "word": " Ce",
+          "probability": 0.99933260679245
+        },
+        {
+          "start": 9.3,
+          "end": 9.54,
+          "word": " sont",
+          "probability": 0.9999350309371948
+        },
+        {
+          "start": 9.54,
+          "end": 9.9,
+          "word": " cinq",
+          "probability": 0.6614798307418823
+        },
+        {
+          "start": 9.9,
+          "end": 10.06,
+          "word": " des",
+          "probability": 0.9969907999038696
+        },
+        {
+          "start": 10.06,
+          "end": 10.5,
+          "word": " couleurs",
+          "probability": 0.9999551773071289
+        },
+        {
+          "start": 10.5,
+          "end": 10.7,
+          "word": " des",
+          "probability": 0.9997718930244446
+        },
+        {
+          "start": 10.7,
+          "end": 11.02,
+          "word": " huit",
+          "probability": 0.9940603673458099
+        },
+        {
+          "start": 11.02,
+          "end": 11.4,
+          "word": " écoles",
+          "probability": 0.9994800090789795
+        },
+        {
+          "start": 11.4,
+          "end": 11.56,
+          "word": " de",
+          "probability": 0.9999903440475464
+        },
+        {
+          "start": 11.56,
+          "end": 11.94,
+          "word": " magie.",
+          "probability": 0.9998889267444611
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 12.64,
+      "end": 15.72,
+      "text": " Bleu pour abjuration, vert pour nécromancie,",
+      "tokens": [
+        50970,
+        30721,
+        84,
+        2016,
+        410,
+        73,
+        8167,
+        11,
+        6509,
+        2016,
+        7024,
+        10757,
+        4277,
+        4260,
+        11,
+        51118
+      ],
+      "avg_logprob": -0.10816306879203166,
+      "compression_ratio": 1.5435684647302905,
+      "no_speech_prob": 7.722391302811271e-12,
+      "words": [
+        {
+          "start": 12.64,
+          "end": 12.98,
+          "word": " Bleu",
+          "probability": 0.9979790449142456
+        },
+        {
+          "start": 12.98,
+          "end": 13.2,
+          "word": " pour",
+          "probability": 0.9998170733451843
+        },
+        {
+          "start": 13.2,
+          "end": 13.8,
+          "word": " abjuration,",
+          "probability": 0.9882721304893494
+        },
+        {
+          "start": 14.28,
+          "end": 14.76,
+          "word": " vert",
+          "probability": 0.9977299571037292
+        },
+        {
+          "start": 14.76,
+          "end": 15.02,
+          "word": " pour",
+          "probability": 0.9999903440475464
+        },
+        {
+          "start": 15.02,
+          "end": 15.72,
+          "word": " nécromancie,",
+          "probability": 0.9966631531715393
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 16.4,
+      "end": 17.64,
+      "text": " orange pour métamorphose,",
+      "tokens": [
+        51151,
+        7671,
+        2016,
+        20275,
+        50232,
+        541,
+        11,
+        51215
+      ],
+      "avg_logprob": -0.10816306879203166,
+      "compression_ratio": 1.5435684647302905,
+      "no_speech_prob": 7.722391302811271e-12,
+      "words": [
+        {
+          "start": 16.4,
+          "end": 16.66,
+          "word": " orange",
+          "probability": 0.9989738464355469
+        },
+        {
+          "start": 16.66,
+          "end": 16.88,
+          "word": " pour",
+          "probability": 0.9999905824661255
+        },
+        {
+          "start": 16.88,
+          "end": 17.64,
+          "word": " métamorphose,",
+          "probability": 0.9986466368039449
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 18.16,
+      "end": 20.58,
+      "text": " rose pour enchantement et rouge pour invocation.",
+      "tokens": [
+        51240,
+        10895,
+        2016,
+        465,
+        24628,
+        1712,
+        1030,
+        40605,
+        2016,
+        1048,
+        27943,
+        13,
+        51364
+      ],
+      "avg_logprob": -0.10816306879203166,
+      "compression_ratio": 1.5435684647302905,
+      "no_speech_prob": 7.722391302811271e-12,
+      "words": [
+        {
+          "start": 18.16,
+          "end": 18.36,
+          "word": " rose",
+          "probability": 0.9991496801376343
+        },
+        {
+          "start": 18.36,
+          "end": 18.6,
+          "word": " pour",
+          "probability": 0.9999921321868896
+        },
+        {
+          "start": 18.6,
+          "end": 19.14,
+          "word": " enchantement",
+          "probability": 0.999765415986379
+        },
+        {
+          "start": 19.14,
+          "end": 19.44,
+          "word": " et",
+          "probability": 0.9703021049499512
+        },
+        {
+          "start": 19.44,
+          "end": 19.74,
+          "word": " rouge",
+          "probability": 0.9996511936187744
+        },
+        {
+          "start": 19.74,
+          "end": 20.02,
+          "word": " pour",
+          "probability": 0.9999915361404419
+        },
+        {
+          "start": 20.02,
+          "end": 20.58,
+          "word": " invocation.",
+          "probability": 0.9976531267166138
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 21.46,
+      "end": 24.36,
+      "text": " Si tu prends la première lettre de chacun de ces mots,",
+      "tokens": [
+        51424,
+        4909,
+        2604,
+        46750,
+        635,
+        17872,
+        718,
+        3599,
+        368,
+        42241,
+        368,
+        7879,
+        34009,
+        11,
+        51551
+      ],
+      "avg_logprob": -0.10816306879203166,
+      "compression_ratio": 1.5435684647302905,
+      "no_speech_prob": 7.722391302811271e-12,
+      "words": [
+        {
+          "start": 21.46,
+          "end": 22.06,
+          "word": " Si",
+          "probability": 0.9993237257003784
+        },
+        {
+          "start": 22.06,
+          "end": 22.22,
+          "word": " tu",
+          "probability": 0.9999604225158691
+        },
+        {
+          "start": 22.22,
+          "end": 22.42,
+          "word": " prends",
+          "probability": 0.9996598958969116
+        },
+        {
+          "start": 22.42,
+          "end": 22.6,
+          "word": " la",
+          "probability": 0.9999582767486572
+        },
+        {
+          "start": 22.6,
+          "end": 22.98,
+          "word": " première",
+          "probability": 0.9999309778213501
+        },
+        {
+          "start": 22.98,
+          "end": 23.34,
+          "word": " lettre",
+          "probability": 0.9994953274726868
+        },
+        {
+          "start": 23.34,
+          "end": 23.52,
+          "word": " de",
+          "probability": 0.9997922778129578
+        },
+        {
+          "start": 23.52,
+          "end": 23.84,
+          "word": " chacun",
+          "probability": 0.99919193983078
+        },
+        {
+          "start": 23.84,
+          "end": 24.02,
+          "word": " de",
+          "probability": 0.999625563621521
+        },
+        {
+          "start": 24.02,
+          "end": 24.18,
+          "word": " ces",
+          "probability": 0.9980677962303162
+        },
+        {
+          "start": 24.18,
+          "end": 24.36,
+          "word": " mots,",
+          "probability": 0.9997435212135315
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 24.86,
+      "end": 29.74,
+      "text": " ça te donne A, N, M, E et I.",
+      "tokens": [
+        51551,
+        2788,
+        535,
+        21837,
+        316,
+        11,
+        426,
+        11,
+        376,
+        11,
+        462,
+        1030,
+        286,
+        13,
+        51821
+      ],
+      "avg_logprob": -0.10816306879203166,
+      "compression_ratio": 1.5435684647302905,
+      "no_speech_prob": 7.722391302811271e-12,
+      "words": [
+        {
+          "start": 24.86,
+          "end": 24.96,
+          "word": " ça",
+          "probability": 0.9989306330680847
+        },
+        {
+          "start": 24.96,
+          "end": 25.12,
+          "word": " te",
+          "probability": 0.9998568296432495
+        },
+        {
+          "start": 25.12,
+          "end": 25.46,
+          "word": " donne",
+          "probability": 0.9997645020484924
+        },
+        {
+          "start": 25.46,
+          "end": 26.38,
+          "word": " A,",
+          "probability": 0.9775182604789734
+        },
+        {
+          "start": 26.68,
+          "end": 27.3,
+          "word": " N,",
+          "probability": 0.9995332956314087
+        },
+        {
+          "start": 27.7,
+          "end": 28.12,
+          "word": " M,",
+          "probability": 0.99901282787323
+        },
+        {
+          "start": 28.58,
+          "end": 28.86,
+          "word": " E",
+          "probability": 0.9993793964385986
+        },
+        {
+          "start": 28.86,
+          "end": 29.48,
+          "word": " et",
+          "probability": 0.9907886385917664
+        },
+        {
+          "start": 29.48,
+          "end": 29.74,
+          "word": " I.",
+          "probability": 0.9948215484619141
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 3000,
+      "start": 30.66,
+      "end": 33.74,
+      "text": " Ces lettres arrangées ensemble peuvent former trois mots.",
+      "tokens": [
+        50365,
+        28414,
+        20689,
+        495,
+        5539,
+        656,
+        6836,
+        19492,
+        24335,
+        5819,
+        19758,
+        34009,
+        13,
+        50521
+      ],
+      "avg_logprob": -0.2764833623712713,
+      "compression_ratio": 1.108695652173913,
+      "no_speech_prob": 6.048308121703316e-12,
+      "words": [
+        {
+          "start": 30.66,
+          "end": 31.04,
+          "word": " Ces",
+          "probability": 0.92604660987854
+        },
+        {
+          "start": 31.04,
+          "end": 31.38,
+          "word": " lettres",
+          "probability": 0.995587557554245
+        },
+        {
+          "start": 31.38,
+          "end": 31.86,
+          "word": " arrangées",
+          "probability": 0.9870949983596802
+        },
+        {
+          "start": 31.86,
+          "end": 32.34,
+          "word": " ensemble",
+          "probability": 0.9976232647895813
+        },
+        {
+          "start": 32.34,
+          "end": 32.8,
+          "word": " peuvent",
+          "probability": 0.997990608215332
+        },
+        {
+          "start": 32.8,
+          "end": 33.2,
+          "word": " former",
+          "probability": 0.9996649026870728
+        },
+        {
+          "start": 33.2,
+          "end": 33.5,
+          "word": " trois",
+          "probability": 0.9331668019294739
+        },
+        {
+          "start": 33.5,
+          "end": 33.74,
+          "word": " mots.",
+          "probability": 0.999518871307373
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 11,
+      "seek": 3000,
+      "start": 34.28,
+      "end": 37.86,
+      "text": " Mener, anime ou manier.",
+      "tokens": [
+        50569,
+        6685,
+        260,
+        11,
+        12435,
+        2820,
+        587,
+        811,
+        13,
+        50726
+      ],
+      "avg_logprob": -0.2764833623712713,
+      "compression_ratio": 1.108695652173913,
+      "no_speech_prob": 6.048308121703316e-12,
+      "words": [
+        {
+          "start": 34.28,
+          "end": 35.14,
+          "word": " Mener,",
+          "probability": 0.59662264585495
+        },
+        {
+          "start": 35.84,
+          "end": 36.44,
+          "word": " anime",
+          "probability": 0.7834064960479736
+        },
+        {
+          "start": 36.44,
+          "end": 37.42,
+          "word": " ou",
+          "probability": 0.9953195452690125
+        },
+        {
+          "start": 37.42,
+          "end": 37.86,
+          "word": " manier.",
+          "probability": 0.6622928082942963
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 12,
+      "seek": 3000,
+      "start": 38.54,
+      "end": 40.24,
+      "text": " Lequel est le bon?",
+      "tokens": [
+        50784,
+        1456,
+        20593,
+        871,
+        476,
+        4428,
+        2506,
+        50865
+      ],
+      "avg_logprob": -0.2764833623712713,
+      "compression_ratio": 1.108695652173913,
+      "no_speech_prob": 6.048308121703316e-12,
+      "words": [
+        {
+          "start": 38.54,
+          "end": 39.4,
+          "word": " Lequel",
+          "probability": 0.9952060878276825
+        },
+        {
+          "start": 39.4,
+          "end": 39.5,
+          "word": " est",
+          "probability": 0.9998725652694702
+        },
+        {
+          "start": 39.5,
+          "end": 39.62,
+          "word": " le",
+          "probability": 0.9997084736824036
+        },
+        {
+          "start": 39.62,
+          "end": 39.82,
+          "word": " bon",
+          "probability": 0.9989053010940552
+        },
+        {
+          "start": 39.82,
+          "end": 40.24,
+          "word": "?",
+          "probability": 0.9952077269554138
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

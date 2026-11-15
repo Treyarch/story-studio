@@ -1,0 +1,407 @@
+{
+  "scene": "B45_barde_guerrier_rodeur_str_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B45_barde_guerrier_rodeur_str_success.mp3",
+  "sha256": "528be230c39d8d47e5b286cd397a8e62335cb24ec7c0c5d73d15cff9f4514cbc",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 16.2293125,
+  "text": "La mimique tente à nouveau de te frapper avec sa langue. Tu t'écartes d'un bond et y plantes ton épée pour l'épingler sur la porte. Le monstre hurle de stupeur et de douleur. Il recule en oscillant sur ses gonds.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.39,
+      "end": 4.31,
+      "text": " La mimique tente à nouveau de te frapper avec sa langue.",
+      "tokens": [
+        50365,
+        2369,
+        12247,
+        1925,
+        256,
+        1576,
+        1531,
+        23326,
+        368,
+        535,
+        6600,
+        3717,
+        4163,
+        601,
+        40318,
+        13,
+        50512
+      ],
+      "avg_logprob": -0.08151429490401195,
+      "compression_ratio": 1.3647798742138364,
+      "no_speech_prob": 7.300982735047867e-12,
+      "words": [
+        {
+          "start": 1.39,
+          "end": 1.95,
+          "word": " La",
+          "probability": 0.9748207926750183
+        },
+        {
+          "start": 1.95,
+          "end": 2.39,
+          "word": " mimique",
+          "probability": 0.7556920051574707
+        },
+        {
+          "start": 2.39,
+          "end": 2.63,
+          "word": " tente",
+          "probability": 0.9980727732181549
+        },
+        {
+          "start": 2.63,
+          "end": 2.75,
+          "word": " à",
+          "probability": 0.9987714886665344
+        },
+        {
+          "start": 2.75,
+          "end": 2.97,
+          "word": " nouveau",
+          "probability": 0.9999793767929077
+        },
+        {
+          "start": 2.97,
+          "end": 3.13,
+          "word": " de",
+          "probability": 0.9999518394470215
+        },
+        {
+          "start": 3.13,
+          "end": 3.27,
+          "word": " te",
+          "probability": 0.9999058246612549
+        },
+        {
+          "start": 3.27,
+          "end": 3.61,
+          "word": " frapper",
+          "probability": 0.999721497297287
+        },
+        {
+          "start": 3.61,
+          "end": 3.87,
+          "word": " avec",
+          "probability": 0.9996510744094849
+        },
+        {
+          "start": 3.87,
+          "end": 4.09,
+          "word": " sa",
+          "probability": 0.9996912479400635
+        },
+        {
+          "start": 4.09,
+          "end": 4.31,
+          "word": " langue.",
+          "probability": 0.9977486729621887
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.51,
+      "end": 8.75,
+      "text": " Tu t'écartes d'un bond et y plantes ton épée pour l'épingler sur la porte.",
+      "tokens": [
+        50532,
+        7836,
+        256,
+        6,
+        9062,
+        446,
+        279,
+        274,
+        6,
+        409,
+        6086,
+        1030,
+        288,
+        3709,
+        279,
+        2952,
+        21018,
+        3856,
+        2016,
+        287,
+        6,
+        526,
+        3381,
+        1918,
+        1022,
+        635,
+        26658,
+        13,
+        50733
+      ],
+      "avg_logprob": -0.08151429490401195,
+      "compression_ratio": 1.3647798742138364,
+      "no_speech_prob": 7.300982735047867e-12,
+      "words": [
+        {
+          "start": 4.51,
+          "end": 4.81,
+          "word": " Tu",
+          "probability": 0.9979414343833923
+        },
+        {
+          "start": 4.81,
+          "end": 4.97,
+          "word": " t",
+          "probability": 0.9999569654464722
+        },
+        {
+          "start": 4.97,
+          "end": 5.41,
+          "word": "'écartes",
+          "probability": 0.9962944090366364
+        },
+        {
+          "start": 5.41,
+          "end": 5.51,
+          "word": " d",
+          "probability": 0.999685525894165
+        },
+        {
+          "start": 5.51,
+          "end": 5.59,
+          "word": "'un",
+          "probability": 0.9992124736309052
+        },
+        {
+          "start": 5.59,
+          "end": 5.77,
+          "word": " bond",
+          "probability": 0.9640369415283203
+        },
+        {
+          "start": 5.77,
+          "end": 6.29,
+          "word": " et",
+          "probability": 0.9806328415870667
+        },
+        {
+          "start": 6.29,
+          "end": 6.43,
+          "word": " y",
+          "probability": 0.5876504182815552
+        },
+        {
+          "start": 6.43,
+          "end": 6.93,
+          "word": " plantes",
+          "probability": 0.9020001292228699
+        },
+        {
+          "start": 6.93,
+          "end": 7.07,
+          "word": " ton",
+          "probability": 0.9990504384040833
+        },
+        {
+          "start": 7.07,
+          "end": 7.41,
+          "word": " épée",
+          "probability": 0.9940427541732788
+        },
+        {
+          "start": 7.41,
+          "end": 7.63,
+          "word": " pour",
+          "probability": 0.999829888343811
+        },
+        {
+          "start": 7.63,
+          "end": 7.75,
+          "word": " l",
+          "probability": 0.9999107122421265
+        },
+        {
+          "start": 7.75,
+          "end": 8.13,
+          "word": "'épingler",
+          "probability": 0.9988151788711548
+        },
+        {
+          "start": 8.13,
+          "end": 8.33,
+          "word": " sur",
+          "probability": 0.9999245405197144
+        },
+        {
+          "start": 8.33,
+          "end": 8.45,
+          "word": " la",
+          "probability": 0.9999133348464966
+        },
+        {
+          "start": 8.45,
+          "end": 8.75,
+          "word": " porte.",
+          "probability": 0.9998552799224854
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.19,
+      "end": 11.97,
+      "text": " Le monstre hurle de stupeur et de douleur.",
+      "tokens": [
+        50772,
+        1456,
+        1108,
+        26421,
+        2756,
+        306,
+        368,
+        342,
+        84,
+        494,
+        374,
+        1030,
+        368,
+        2482,
+        306,
+        374,
+        13,
+        50894
+      ],
+      "avg_logprob": -0.08151429490401195,
+      "compression_ratio": 1.3647798742138364,
+      "no_speech_prob": 7.300982735047867e-12,
+      "words": [
+        {
+          "start": 9.19,
+          "end": 9.67,
+          "word": " Le",
+          "probability": 0.9995631575584412
+        },
+        {
+          "start": 9.67,
+          "end": 10.11,
+          "word": " monstre",
+          "probability": 0.9983108937740326
+        },
+        {
+          "start": 10.11,
+          "end": 10.51,
+          "word": " hurle",
+          "probability": 0.9997266829013824
+        },
+        {
+          "start": 10.51,
+          "end": 10.67,
+          "word": " de",
+          "probability": 0.9999682903289795
+        },
+        {
+          "start": 10.67,
+          "end": 11.19,
+          "word": " stupeur",
+          "probability": 0.9985600709915161
+        },
+        {
+          "start": 11.19,
+          "end": 11.43,
+          "word": " et",
+          "probability": 0.9999349117279053
+        },
+        {
+          "start": 11.43,
+          "end": 11.59,
+          "word": " de",
+          "probability": 0.9999052286148071
+        },
+        {
+          "start": 11.59,
+          "end": 11.97,
+          "word": " douleur.",
+          "probability": 0.9995094736417135
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.17,
+      "end": 14.39,
+      "text": " Il recule en oscillant sur ses gonds.",
+      "tokens": [
+        50923,
+        4416,
+        850,
+        2271,
+        465,
+        18225,
+        394,
+        1022,
+        5385,
+        290,
+        10166,
+        13,
+        51016
+      ],
+      "avg_logprob": -0.08151429490401195,
+      "compression_ratio": 1.3647798742138364,
+      "no_speech_prob": 7.300982735047867e-12,
+      "words": [
+        {
+          "start": 12.17,
+          "end": 12.65,
+          "word": " Il",
+          "probability": 0.9993948936462402
+        },
+        {
+          "start": 12.65,
+          "end": 13.09,
+          "word": " recule",
+          "probability": 0.9997952282428741
+        },
+        {
+          "start": 13.09,
+          "end": 13.35,
+          "word": " en",
+          "probability": 0.9999409914016724
+        },
+        {
+          "start": 13.35,
+          "end": 13.87,
+          "word": " oscillant",
+          "probability": 0.9961802363395691
+        },
+        {
+          "start": 13.87,
+          "end": 14.07,
+          "word": " sur",
+          "probability": 0.9998636245727539
+        },
+        {
+          "start": 14.07,
+          "end": 14.27,
+          "word": " ses",
+          "probability": 0.9985376596450806
+        },
+        {
+          "start": 14.27,
+          "end": 14.39,
+          "word": " gonds.",
+          "probability": 0.9864723086357117
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

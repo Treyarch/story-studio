@@ -1,0 +1,240 @@
+{
+  "scene": "intro02_roublard",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/intro02_roublard.mp3",
+  "sha256": "6c4c6962a6556fae88e860f82729c49026f4361ee0a13d35b294acccef3c0b39",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 10.693,
+  "text": "Les vieux outils de ton papa pour crocheter les serrures. Ils lui ont ouvert bon nombre de portes et ils l'ont souvent tiré d'affaires.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.04,
+      "end": 4.34,
+      "text": " Les vieux outils de ton papa pour crocheter les serrures.",
+      "tokens": [
+        50365,
+        6965,
+        4941,
+        2449,
+        484,
+        4174,
+        368,
+        2952,
+        31015,
+        2016,
+        8191,
+        2398,
+        1512,
+        816,
+        894,
+        495,
+        13,
+        50529
+      ],
+      "avg_logprob": -0.12091781753440235,
+      "compression_ratio": 1.2363636363636363,
+      "no_speech_prob": 3.823265922603403e-12,
+      "words": [
+        {
+          "start": 1.04,
+          "end": 1.62,
+          "word": " Les",
+          "probability": 0.9625674486160278
+        },
+        {
+          "start": 1.62,
+          "end": 1.94,
+          "word": " vieux",
+          "probability": 0.9997246861457825
+        },
+        {
+          "start": 1.94,
+          "end": 2.26,
+          "word": " outils",
+          "probability": 0.9998540580272675
+        },
+        {
+          "start": 2.26,
+          "end": 2.4,
+          "word": " de",
+          "probability": 0.9999954700469971
+        },
+        {
+          "start": 2.4,
+          "end": 2.54,
+          "word": " ton",
+          "probability": 0.9998534917831421
+        },
+        {
+          "start": 2.54,
+          "end": 2.9,
+          "word": " papa",
+          "probability": 0.9992581009864807
+        },
+        {
+          "start": 2.9,
+          "end": 3.3,
+          "word": " pour",
+          "probability": 0.9986802935600281
+        },
+        {
+          "start": 3.3,
+          "end": 3.7,
+          "word": " crocheter",
+          "probability": 0.9973791837692261
+        },
+        {
+          "start": 3.7,
+          "end": 3.88,
+          "word": " les",
+          "probability": 0.9999295473098755
+        },
+        {
+          "start": 3.88,
+          "end": 4.34,
+          "word": " serrures.",
+          "probability": 0.979335606098175
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.66,
+      "end": 9.42,
+      "text": " Ils lui ont ouvert bon nombre de portes et ils l'ont souvent tiré d'affaires.",
+      "tokens": [
+        50569,
+        17979,
+        8783,
+        6592,
+        47683,
+        4428,
+        13000,
+        368,
+        2436,
+        279,
+        1030,
+        9047,
+        287,
+        6,
+        896,
+        20847,
+        13807,
+        526,
+        274,
+        6,
+        2518,
+        10840,
+        13,
+        50785
+      ],
+      "avg_logprob": -0.12091781753440235,
+      "compression_ratio": 1.2363636363636363,
+      "no_speech_prob": 3.823265922603403e-12,
+      "words": [
+        {
+          "start": 4.66,
+          "end": 5.24,
+          "word": " Ils",
+          "probability": 0.9989676475524902
+        },
+        {
+          "start": 5.24,
+          "end": 5.4,
+          "word": " lui",
+          "probability": 0.9999756813049316
+        },
+        {
+          "start": 5.4,
+          "end": 5.58,
+          "word": " ont",
+          "probability": 0.999933123588562
+        },
+        {
+          "start": 5.58,
+          "end": 5.96,
+          "word": " ouvert",
+          "probability": 0.999808132648468
+        },
+        {
+          "start": 5.96,
+          "end": 6.24,
+          "word": " bon",
+          "probability": 0.9997348189353943
+        },
+        {
+          "start": 6.24,
+          "end": 6.54,
+          "word": " nombre",
+          "probability": 0.9997467398643494
+        },
+        {
+          "start": 6.54,
+          "end": 6.78,
+          "word": " de",
+          "probability": 0.9999964237213135
+        },
+        {
+          "start": 6.78,
+          "end": 7.58,
+          "word": " portes",
+          "probability": 0.9997872710227966
+        },
+        {
+          "start": 7.58,
+          "end": 7.82,
+          "word": " et",
+          "probability": 0.6393105387687683
+        },
+        {
+          "start": 7.82,
+          "end": 8.02,
+          "word": " ils",
+          "probability": 0.9988995790481567
+        },
+        {
+          "start": 8.02,
+          "end": 8.12,
+          "word": " l",
+          "probability": 0.9999532699584961
+        },
+        {
+          "start": 8.12,
+          "end": 8.2,
+          "word": "'ont",
+          "probability": 0.9999344348907471
+        },
+        {
+          "start": 8.2,
+          "end": 8.66,
+          "word": " souvent",
+          "probability": 0.9999655485153198
+        },
+        {
+          "start": 8.66,
+          "end": 8.96,
+          "word": " tiré",
+          "probability": 0.9354149699211121
+        },
+        {
+          "start": 8.96,
+          "end": 9.06,
+          "word": " d",
+          "probability": 0.9999706745147705
+        },
+        {
+          "start": 9.06,
+          "end": 9.42,
+          "word": "'affaires.",
+          "probability": 0.9052330851554871
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

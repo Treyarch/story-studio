@@ -1,0 +1,260 @@
+{
+  "scene": "B63_roublard_cha_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B63_roublard_cha_fail.mp3",
+  "sha256": "957d104ab830bd42ffdfb4e768c2324a3b115d38179a6a6e0895f15b17308bc2",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 10.5735,
+  "text": "L'estomac du dragon tortue gargouille si fort que tu n'arrives plus à réfléchir. L'immense créature ne va certainement pas partir aussi loin avant de manger.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.82,
+      "end": 5.02,
+      "text": " L'estomac du dragon tortue gargouille si fort que tu n'arrives plus à réfléchir.",
+      "tokens": [
+        50365,
+        441,
+        6,
+        377,
+        298,
+        326,
+        1581,
+        12165,
+        10806,
+        622,
+        3691,
+        70,
+        263,
+        3409,
+        1511,
+        5009,
+        631,
+        2604,
+        297,
+        6,
+        289,
+        470,
+        977,
+        1804,
+        1531,
+        48438,
+        30606,
+        347,
+        13,
+        50575
+      ],
+      "avg_logprob": -0.059275646858355575,
+      "compression_ratio": 1.2677165354330708,
+      "no_speech_prob": 4.97921105388488e-12,
+      "words": [
+        {
+          "start": 0.82,
+          "end": 1.34,
+          "word": " L",
+          "probability": 0.9723366498947144
+        },
+        {
+          "start": 1.34,
+          "end": 1.74,
+          "word": "'estomac",
+          "probability": 0.9991603791713715
+        },
+        {
+          "start": 1.74,
+          "end": 1.86,
+          "word": " du",
+          "probability": 0.9998553991317749
+        },
+        {
+          "start": 1.86,
+          "end": 2.12,
+          "word": " dragon",
+          "probability": 0.9863507151603699
+        },
+        {
+          "start": 2.12,
+          "end": 2.54,
+          "word": " tortue",
+          "probability": 0.8073208630084991
+        },
+        {
+          "start": 2.54,
+          "end": 3.0,
+          "word": " gargouille",
+          "probability": 0.9973390251398087
+        },
+        {
+          "start": 3.0,
+          "end": 3.22,
+          "word": " si",
+          "probability": 0.9993185997009277
+        },
+        {
+          "start": 3.22,
+          "end": 3.58,
+          "word": " fort",
+          "probability": 0.9998898506164551
+        },
+        {
+          "start": 3.58,
+          "end": 3.78,
+          "word": " que",
+          "probability": 0.999201238155365
+        },
+        {
+          "start": 3.78,
+          "end": 3.9,
+          "word": " tu",
+          "probability": 0.9998825788497925
+        },
+        {
+          "start": 3.9,
+          "end": 4.0,
+          "word": " n",
+          "probability": 0.999771773815155
+        },
+        {
+          "start": 4.0,
+          "end": 4.2,
+          "word": "'arrives",
+          "probability": 0.9972263872623444
+        },
+        {
+          "start": 4.2,
+          "end": 4.34,
+          "word": " plus",
+          "probability": 0.9999127388000488
+        },
+        {
+          "start": 4.34,
+          "end": 4.44,
+          "word": " à",
+          "probability": 0.9999573230743408
+        },
+        {
+          "start": 4.44,
+          "end": 5.02,
+          "word": " réfléchir.",
+          "probability": 0.9999751249949137
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.52,
+      "end": 9.28,
+      "text": " L'immense créature ne va certainement pas partir aussi loin avant de manger.",
+      "tokens": [
+        50619,
+        441,
+        6,
+        6753,
+        1288,
+        15609,
+        1503,
+        408,
+        2773,
+        1629,
+        1712,
+        1736,
+        13906,
+        6212,
+        25048,
+        13439,
+        368,
+        34372,
+        13,
+        50790
+      ],
+      "avg_logprob": -0.059275646858355575,
+      "compression_ratio": 1.2677165354330708,
+      "no_speech_prob": 4.97921105388488e-12,
+      "words": [
+        {
+          "start": 5.52,
+          "end": 6.0,
+          "word": " L",
+          "probability": 0.9996844530105591
+        },
+        {
+          "start": 6.0,
+          "end": 6.28,
+          "word": "'immense",
+          "probability": 0.9994256496429443
+        },
+        {
+          "start": 6.28,
+          "end": 6.8,
+          "word": " créature",
+          "probability": 0.9998046457767487
+        },
+        {
+          "start": 6.8,
+          "end": 6.98,
+          "word": " ne",
+          "probability": 0.9999053478240967
+        },
+        {
+          "start": 6.98,
+          "end": 7.12,
+          "word": " va",
+          "probability": 0.9998867511749268
+        },
+        {
+          "start": 7.12,
+          "end": 7.68,
+          "word": " certainement",
+          "probability": 0.9998021125793457
+        },
+        {
+          "start": 7.68,
+          "end": 7.82,
+          "word": " pas",
+          "probability": 0.999895453453064
+        },
+        {
+          "start": 7.82,
+          "end": 8.2,
+          "word": " partir",
+          "probability": 0.9997121691703796
+        },
+        {
+          "start": 8.2,
+          "end": 8.46,
+          "word": " aussi",
+          "probability": 0.999188244342804
+        },
+        {
+          "start": 8.46,
+          "end": 8.68,
+          "word": " loin",
+          "probability": 0.999944806098938
+        },
+        {
+          "start": 8.68,
+          "end": 8.86,
+          "word": " avant",
+          "probability": 0.9998480081558228
+        },
+        {
+          "start": 8.86,
+          "end": 9.02,
+          "word": " de",
+          "probability": 0.9999182224273682
+        },
+        {
+          "start": 9.02,
+          "end": 9.28,
+          "word": " manger.",
+          "probability": 0.9998865127563477
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

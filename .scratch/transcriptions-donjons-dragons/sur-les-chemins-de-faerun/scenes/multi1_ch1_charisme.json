@@ -1,0 +1,54 @@
+{
+  "scene": "multi1_ch1_charisme",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/multi1_ch1_charisme.mp3",
+  "sha256": "059d2018545f2301640f730cf84eb0aea1c6b1599f19077e91b93fe887b11481",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.58525,
+  "text": "Utilise ton charisme.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.4,
+      "text": " Utilise ton charisme.",
+      "tokens": [
+        50365,
+        12555,
+        388,
+        908,
+        2952,
+        1290,
+        16415,
+        13,
+        50437
+      ],
+      "avg_logprob": -0.23586927652359008,
+      "compression_ratio": 0.7241379310344828,
+      "no_speech_prob": 4.904685164952571e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.62,
+          "word": " Utilise",
+          "probability": 0.970304032166799
+        },
+        {
+          "start": 0.62,
+          "end": 0.84,
+          "word": " ton",
+          "probability": 0.9990265369415283
+        },
+        {
+          "start": 0.84,
+          "end": 1.4,
+          "word": " charisme.",
+          "probability": 0.9981332421302795
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

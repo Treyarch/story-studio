@@ -1,0 +1,61 @@
+{
+  "scene": "A18_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A18_list.mp3",
+  "sha256": "94c000678d861c720fd7ed71c3190c2627fcee2872510aa9ff083177c4958410",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.3034375,
+  "text": "Alors, tu oses?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.82,
+      "text": " Alors, tu oses?",
+      "tokens": [
+        50365,
+        9946,
+        11,
+        2604,
+        3003,
+        279,
+        2506,
+        50476
+      ],
+      "avg_logprob": -0.2139963044060601,
+      "compression_ratio": 0.6666666666666666,
+      "no_speech_prob": 3.915194123765842e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.72,
+          "word": " Alors,",
+          "probability": 0.9525343179702759
+        },
+        {
+          "start": 0.94,
+          "end": 1.38,
+          "word": " tu",
+          "probability": 0.9993815422058105
+        },
+        {
+          "start": 1.38,
+          "end": 1.74,
+          "word": " oses",
+          "probability": 0.9838116765022278
+        },
+        {
+          "start": 1.74,
+          "end": 1.82,
+          "word": "?",
+          "probability": 0.991575300693512
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

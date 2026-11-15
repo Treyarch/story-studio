@@ -1,0 +1,55 @@
+{
+  "scene": "A3b_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A3b_list_ch2.mp3",
+  "sha256": "de139f4b78b0d697903f5adfe299f8199c6c8599f4703407a363f6646d453499",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.1226875,
+  "text": "Renverser un stand.",
+  "review": [
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.42,
+      "text": " Renverser un stand.",
+      "tokens": [
+        50365,
+        12883,
+        840,
+        260,
+        465,
+        1463,
+        13,
+        50438
+      ],
+      "avg_logprob": -0.4138246642218696,
+      "compression_ratio": 0.7037037037037037,
+      "no_speech_prob": 7.43299605893144e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 1.0,
+          "word": " Renverser",
+          "probability": 0.5974831481774648
+        },
+        {
+          "start": 1.0,
+          "end": 1.18,
+          "word": " en",
+          "probability": 0.9337863326072693
+        },
+        {
+          "start": 1.18,
+          "end": 1.42,
+          "word": " stand.",
+          "probability": 0.9499994516372681
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

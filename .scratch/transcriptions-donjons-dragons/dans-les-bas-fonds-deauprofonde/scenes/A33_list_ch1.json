@@ -1,0 +1,60 @@
+{
+  "scene": "A33_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A33_list_ch1.mp3",
+  "sha256": "69eb6cfa979e5b1c44c105b92b2b8a48d396b6fb312eb98cd7ae52404fedacb6",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.7958125,
+  "text": "Tu casses la vitre.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.19,
+      "text": " Tu casses la vitre.",
+      "tokens": [
+        50365,
+        7836,
+        21943,
+        279,
+        635,
+        9467,
+        265,
+        13,
+        50423
+      ],
+      "avg_logprob": -0.22450294643640517,
+      "compression_ratio": 0.7037037037037037,
+      "no_speech_prob": 4.397798531591279e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.51,
+          "word": " Tu",
+          "probability": 0.8550252318382263
+        },
+        {
+          "start": 0.51,
+          "end": 0.83,
+          "word": " casses",
+          "probability": 0.992533266544342
+        },
+        {
+          "start": 0.83,
+          "end": 0.89,
+          "word": " la",
+          "probability": 0.9998338222503662
+        },
+        {
+          "start": 0.89,
+          "end": 1.19,
+          "word": " vitre.",
+          "probability": 0.9994337260723114
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

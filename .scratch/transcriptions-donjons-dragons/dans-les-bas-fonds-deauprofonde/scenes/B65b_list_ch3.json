@@ -1,0 +1,75 @@
+{
+  "scene": "B65b_list_ch3",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B65b_list_ch3.mp3",
+  "sha256": "5801f1b0fa568ec355f4cc91d4c8b148375699bdda69813a99f65f93db44812e",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.0505,
+  "text": "Aller au coin du défunt?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.6,
+      "text": " Aller au coin du défunt?",
+      "tokens": [
+        50365,
+        1057,
+        260,
+        1609,
+        11464,
+        1581,
+        30456,
+        2760,
+        2506,
+        50465
+      ],
+      "avg_logprob": -0.30440170656551013,
+      "compression_ratio": 0.7647058823529411,
+      "no_speech_prob": 4.954897169645589e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.66,
+          "word": " Aller",
+          "probability": 0.702566996216774
+        },
+        {
+          "start": 0.66,
+          "end": 0.8,
+          "word": " au",
+          "probability": 0.994225800037384
+        },
+        {
+          "start": 0.8,
+          "end": 1.02,
+          "word": " coin",
+          "probability": 0.9981830716133118
+        },
+        {
+          "start": 1.02,
+          "end": 1.18,
+          "word": " du",
+          "probability": 0.9998389482498169
+        },
+        {
+          "start": 1.18,
+          "end": 1.5,
+          "word": " défunt",
+          "probability": 0.9972390532493591
+        },
+        {
+          "start": 1.5,
+          "end": 1.6,
+          "word": "?",
+          "probability": 0.9005371332168579
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

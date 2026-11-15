@@ -1,0 +1,69 @@
+{
+  "scene": "item_title_quatrieme_oiseau",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_title_quatrieme_oiseau.mp3",
+  "sha256": "b74df2de3bdc17798aa1bbd3d52b4c2d8d27e4a23846b61764acd7cc7c8ad848",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.3943125,
+  "text": "ton quatrième oiseau de papier.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.92,
+      "text": " ton quatrième oiseau de papier.",
+      "tokens": [
+        50365,
+        2952,
+        421,
+        31674,
+        8433,
+        277,
+        908,
+        1459,
+        368,
+        37410,
+        13,
+        50461
+      ],
+      "avg_logprob": -0.1482508916121263,
+      "compression_ratio": 0.8,
+      "no_speech_prob": 5.8556965699951835e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.32,
+          "word": " ton",
+          "probability": 0.6646103262901306
+        },
+        {
+          "start": 0.32,
+          "end": 0.98,
+          "word": " quatrième",
+          "probability": 0.992452879746755
+        },
+        {
+          "start": 0.98,
+          "end": 1.38,
+          "word": " oiseau",
+          "probability": 0.9995904564857483
+        },
+        {
+          "start": 1.38,
+          "end": 1.54,
+          "word": " de",
+          "probability": 0.9998325109481812
+        },
+        {
+          "start": 1.54,
+          "end": 1.92,
+          "word": " papier.",
+          "probability": 0.994193971157074
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

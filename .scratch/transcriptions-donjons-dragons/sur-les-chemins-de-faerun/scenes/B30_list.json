@@ -1,0 +1,61 @@
+{
+  "scene": "B30_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B30_list.mp3",
+  "sha256": "201fd3f323f2fc57e8e2883ab471471cbfdd48a129c8babaea7c1653e70714ff",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.2840625,
+  "text": "Que décides-tu?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.1,
+      "text": " Que décides-tu?",
+      "tokens": [
+        50365,
+        4493,
+        9198,
+        1875,
+        12,
+        9179,
+        2506,
+        50427
+      ],
+      "avg_logprob": -0.42159533500671387,
+      "compression_ratio": 0.68,
+      "no_speech_prob": 4.079632465181504e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.34,
+          "word": " Que",
+          "probability": 0.7587329149246216
+        },
+        {
+          "start": 0.34,
+          "end": 0.78,
+          "word": " décides",
+          "probability": 0.9953464567661285
+        },
+        {
+          "start": 0.78,
+          "end": 0.98,
+          "word": "-tu",
+          "probability": 0.9866994321346283
+        },
+        {
+          "start": 0.98,
+          "end": 1.1,
+          "word": "?",
+          "probability": 0.9590923190116882
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "scene": "A26d_list_ch3",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A26d_list_ch3.mp3",
+  "sha256": "e16b06336503da3b8207198fb16588231160e886384c8b459e0024f0d291d0d3",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.554,
+  "text": "Le parchemin de fracassement",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.11,
+      "end": 1.87,
+      "text": " Le parchemin de fracassement",
+      "tokens": [
+        50365,
+        1456,
+        971,
+        17345,
+        259,
+        368,
+        431,
+        326,
+        8604,
+        518,
+        50454
+      ],
+      "avg_logprob": -0.15720431506633759,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 3.812756100424197e-12,
+      "words": [
+        {
+          "start": 0.11,
+          "end": 0.61,
+          "word": " Le",
+          "probability": 0.8391974568367004
+        },
+        {
+          "start": 0.61,
+          "end": 1.15,
+          "word": " parchemin",
+          "probability": 0.9955028494199117
+        },
+        {
+          "start": 1.15,
+          "end": 1.27,
+          "word": " de",
+          "probability": 0.9996412992477417
+        },
+        {
+          "start": 1.27,
+          "end": 1.87,
+          "word": " fracassement",
+          "probability": 0.9912325888872147
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

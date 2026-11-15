@@ -1,0 +1,74 @@
+{
+  "scene": "A04_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A04_list.mp3",
+  "sha256": "09151cd3dd1df0e09d83879ed408e9d0446764c9314ccefff2ca8cfb28597906",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.4625625,
+  "text": "À ton avis, il vaut mieux.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.02,
+      "text": " À ton avis, il vaut mieux.",
+      "tokens": [
+        50378,
+        19018,
+        2952,
+        34588,
+        11,
+        1930,
+        371,
+        1375,
+        20401,
+        13,
+        50466
+      ],
+      "avg_logprob": -0.21325921888152757,
+      "compression_ratio": 0.7714285714285715,
+      "no_speech_prob": 4.68003196960054e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.34,
+          "word": " À",
+          "probability": 0.6393579244613647
+        },
+        {
+          "start": 0.34,
+          "end": 0.48,
+          "word": " ton",
+          "probability": 0.999829888343811
+        },
+        {
+          "start": 0.48,
+          "end": 0.8,
+          "word": " avis,",
+          "probability": 0.9999450445175171
+        },
+        {
+          "start": 1.28,
+          "end": 1.6,
+          "word": " il",
+          "probability": 0.9945752620697021
+        },
+        {
+          "start": 1.6,
+          "end": 1.78,
+          "word": " vaut",
+          "probability": 0.9998555779457092
+        },
+        {
+          "start": 1.78,
+          "end": 2.02,
+          "word": " mieux.",
+          "probability": 0.9999918937683105
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scene": "B73_list_ch3",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B73_list_ch3.mp3",
+  "sha256": "7a1fab257eb6920f11e2a0c4e044c6ca6f73aa7cf360746afbcf87de4e6a40c0",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.1006875,
+  "text": "Tu vexes Xanathar.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.56,
+      "text": " Tu vexes Xanathar.",
+      "tokens": [
+        50365,
+        7836,
+        1241,
+        47047,
+        1783,
+        282,
+        998,
+        289,
+        13,
+        50440
+      ],
+      "avg_logprob": -0.2978646213358099,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 5.9438109815956874e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.52,
+          "word": " Tu",
+          "probability": 0.8324235081672668
+        },
+        {
+          "start": 0.52,
+          "end": 0.84,
+          "word": " vexes",
+          "probability": 0.9961751103401184
+        },
+        {
+          "start": 0.84,
+          "end": 1.56,
+          "word": " Xanathar.",
+          "probability": 0.841581404209137
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "scene": "multi1_ch2_result_16",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/multi1_ch2_result_16.mp3",
+  "sha256": "95d8022b6358b61fd72fe060940b8bb74b24ac9989b196018f50eeebbad4285d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 4.08175,
+  "text": "Atteindras-tu le résultat de 16 nécessaire pour réussir cette épreuve?",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.06,
+      "text": " Atteindras-tu le résultat de 16 nécessaire pour réussir cette épreuve?",
+      "tokens": [
+        50365,
+        1711,
+        975,
+        471,
+        3906,
+        12,
+        9179,
+        476,
+        33671,
+        267,
+        368,
+        3165,
+        31956,
+        10840,
+        2016,
+        28099,
+        347,
+        5550,
+        1136,
+        3712,
+        31564,
+        2506,
+        50571
+      ],
+      "avg_logprob": -0.19449317951997122,
+      "compression_ratio": 0.9743589743589743,
+      "no_speech_prob": 3.769791336732942e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.46,
+          "word": " Atteindras",
+          "probability": 0.8710415959358215
+        },
+        {
+          "start": 0.46,
+          "end": 0.66,
+          "word": "-tu",
+          "probability": 0.9982495903968811
+        },
+        {
+          "start": 0.66,
+          "end": 0.82,
+          "word": " le",
+          "probability": 0.999675989151001
+        },
+        {
+          "start": 0.82,
+          "end": 1.26,
+          "word": " résultat",
+          "probability": 0.9998573958873749
+        },
+        {
+          "start": 1.26,
+          "end": 1.38,
+          "word": " de",
+          "probability": 0.9997250437736511
+        },
+        {
+          "start": 1.38,
+          "end": 1.74,
+          "word": " 16",
+          "probability": 0.957895040512085
+        },
+        {
+          "start": 1.74,
+          "end": 2.68,
+          "word": " nécessaires",
+          "probability": 0.6740892231464386
+        },
+        {
+          "start": 2.68,
+          "end": 2.86,
+          "word": " pour",
+          "probability": 0.9999605417251587
+        },
+        {
+          "start": 2.86,
+          "end": 3.3,
+          "word": " réussir",
+          "probability": 0.9999299049377441
+        },
+        {
+          "start": 3.3,
+          "end": 3.52,
+          "word": " cette",
+          "probability": 0.9997230172157288
+        },
+        {
+          "start": 3.52,
+          "end": 3.92,
+          "word": " épreuve",
+          "probability": 0.9998517831166586
+        },
+        {
+          "start": 3.92,
+          "end": 4.06,
+          "word": "?",
+          "probability": 0.9908939599990845
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

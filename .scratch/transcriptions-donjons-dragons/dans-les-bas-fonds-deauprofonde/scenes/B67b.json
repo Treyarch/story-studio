@@ -1,0 +1,699 @@
+{
+  "scene": "B67b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B67b.mp3",
+  "sha256": "621aa5859a47d13d067679a65b6c647a502b9be30494c800cfcc2f28cd8e92fb",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 28.761875,
+  "text": "Ah, merci! Le jeune Kenku empoche ton or et regarde dans tous les sens avant de se pencher vers toi pour te murmurer à l'oreille Au fait, le mot de passe pour rentrer dans le salon privé de Rochenard est grand Xa. Tu essaies de le remercier, mais il est déjà parti. Tu as bien fait de lui donner quelques pièces apparemment. Il est temps de noter tout ça dans ton carnet avant de continuer.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.62,
+      "end": 3.1,
+      "text": " Ah, merci!",
+      "tokens": [
+        50365,
+        2438,
+        11,
+        30532,
+        2298,
+        50445
+      ],
+      "avg_logprob": -0.11475827200573031,
+      "compression_ratio": 1.5447470817120623,
+      "no_speech_prob": 9.696161408501158e-12,
+      "words": [
+        {
+          "start": 1.62,
+          "end": 1.96,
+          "word": " Ah,",
+          "probability": 0.3442501127719879
+        },
+        {
+          "start": 2.32,
+          "end": 2.68,
+          "word": " merci",
+          "probability": 0.9995885491371155
+        },
+        {
+          "start": 2.68,
+          "end": 3.1,
+          "word": "!",
+          "probability": 0.9160110950469971
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.1,
+      "end": 7.02,
+      "text": " Le jeune Kenku empoche ton or et regarde dans tous les sens",
+      "tokens": [
+        50445,
+        1456,
+        35610,
+        8273,
+        5279,
+        846,
+        2259,
+        1876,
+        2952,
+        420,
+        1030,
+        33357,
+        2680,
+        8317,
+        1512,
+        2923,
+        50636
+      ],
+      "avg_logprob": -0.11475827200573031,
+      "compression_ratio": 1.5447470817120623,
+      "no_speech_prob": 9.696161408501158e-12,
+      "words": [
+        {
+          "start": 3.1,
+          "end": 3.46,
+          "word": " Le",
+          "probability": 0.9319193959236145
+        },
+        {
+          "start": 3.46,
+          "end": 3.72,
+          "word": " jeune",
+          "probability": 0.9995638728141785
+        },
+        {
+          "start": 3.72,
+          "end": 4.18,
+          "word": " Kenku",
+          "probability": 0.9368065595626831
+        },
+        {
+          "start": 4.18,
+          "end": 4.72,
+          "word": " empoche",
+          "probability": 0.997914731502533
+        },
+        {
+          "start": 4.72,
+          "end": 4.9,
+          "word": " ton",
+          "probability": 0.9986432194709778
+        },
+        {
+          "start": 4.9,
+          "end": 5.2,
+          "word": " or",
+          "probability": 0.9918062686920166
+        },
+        {
+          "start": 5.2,
+          "end": 5.74,
+          "word": " et",
+          "probability": 0.9769416451454163
+        },
+        {
+          "start": 5.74,
+          "end": 6.16,
+          "word": " regarde",
+          "probability": 0.9998706579208374
+        },
+        {
+          "start": 6.16,
+          "end": 6.36,
+          "word": " dans",
+          "probability": 0.9998778104782104
+        },
+        {
+          "start": 6.36,
+          "end": 6.54,
+          "word": " tous",
+          "probability": 0.9998736381530762
+        },
+        {
+          "start": 6.54,
+          "end": 6.7,
+          "word": " les",
+          "probability": 0.9999120235443115
+        },
+        {
+          "start": 6.7,
+          "end": 7.02,
+          "word": " sens",
+          "probability": 0.9997085928916931
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.02,
+      "end": 10.72,
+      "text": " avant de se pencher vers toi pour te murmurer à l'oreille",
+      "tokens": [
+        50636,
+        13439,
+        368,
+        369,
+        3435,
+        6759,
+        1774,
+        15648,
+        2016,
+        535,
+        39729,
+        9858,
+        1531,
+        287,
+        6,
+        418,
+        3409,
+        50821
+      ],
+      "avg_logprob": -0.11475827200573031,
+      "compression_ratio": 1.5447470817120623,
+      "no_speech_prob": 9.696161408501158e-12,
+      "words": [
+        {
+          "start": 7.02,
+          "end": 7.44,
+          "word": " avant",
+          "probability": 0.7702134251594543
+        },
+        {
+          "start": 7.44,
+          "end": 7.64,
+          "word": " de",
+          "probability": 0.9999544620513916
+        },
+        {
+          "start": 7.64,
+          "end": 7.82,
+          "word": " se",
+          "probability": 0.9998480081558228
+        },
+        {
+          "start": 7.82,
+          "end": 8.2,
+          "word": " pencher",
+          "probability": 0.999944269657135
+        },
+        {
+          "start": 8.2,
+          "end": 8.4,
+          "word": " vers",
+          "probability": 0.9998620748519897
+        },
+        {
+          "start": 8.4,
+          "end": 8.64,
+          "word": " toi",
+          "probability": 0.9996154308319092
+        },
+        {
+          "start": 8.64,
+          "end": 9.32,
+          "word": " pour",
+          "probability": 0.9911532998085022
+        },
+        {
+          "start": 9.32,
+          "end": 9.54,
+          "word": " te",
+          "probability": 0.9998058676719666
+        },
+        {
+          "start": 9.54,
+          "end": 10.1,
+          "word": " murmurer",
+          "probability": 0.9998517334461212
+        },
+        {
+          "start": 10.1,
+          "end": 10.26,
+          "word": " à",
+          "probability": 0.999213457107544
+        },
+        {
+          "start": 10.26,
+          "end": 10.36,
+          "word": " l",
+          "probability": 0.9999334812164307
+        },
+        {
+          "start": 10.36,
+          "end": 10.72,
+          "word": "'oreille",
+          "probability": 0.9998111923535665
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 10.72,
+      "end": 16.1,
+      "text": " Au fait, le mot de passe pour rentrer dans le salon privé de Rochenard est grand Xa.",
+      "tokens": [
+        50821,
+        12160,
+        3887,
+        11,
+        476,
+        2184,
+        368,
+        14530,
+        2016,
+        6214,
+        9797,
+        2680,
+        476,
+        27768,
+        2915,
+        526,
+        368,
+        3101,
+        2470,
+        515,
+        871,
+        2697,
+        1783,
+        64,
+        13,
+        51090
+      ],
+      "avg_logprob": -0.11475827200573031,
+      "compression_ratio": 1.5447470817120623,
+      "no_speech_prob": 9.696161408501158e-12,
+      "words": [
+        {
+          "start": 10.72,
+          "end": 11.16,
+          "word": " Au",
+          "probability": 0.39082637429237366
+        },
+        {
+          "start": 11.16,
+          "end": 11.48,
+          "word": " fait,",
+          "probability": 0.9993789196014404
+        },
+        {
+          "start": 11.82,
+          "end": 12.18,
+          "word": " le",
+          "probability": 0.999778687953949
+        },
+        {
+          "start": 12.18,
+          "end": 12.42,
+          "word": " mot",
+          "probability": 0.9955340623855591
+        },
+        {
+          "start": 12.42,
+          "end": 12.6,
+          "word": " de",
+          "probability": 0.9998327493667603
+        },
+        {
+          "start": 12.6,
+          "end": 12.96,
+          "word": " passe",
+          "probability": 0.9979934692382812
+        },
+        {
+          "start": 12.96,
+          "end": 13.24,
+          "word": " pour",
+          "probability": 0.9994022846221924
+        },
+        {
+          "start": 13.24,
+          "end": 13.58,
+          "word": " rentrer",
+          "probability": 0.9552167356014252
+        },
+        {
+          "start": 13.58,
+          "end": 13.68,
+          "word": " dans",
+          "probability": 0.9999011754989624
+        },
+        {
+          "start": 13.68,
+          "end": 13.82,
+          "word": " le",
+          "probability": 0.999826967716217
+        },
+        {
+          "start": 13.82,
+          "end": 14.04,
+          "word": " salon",
+          "probability": 0.9994841814041138
+        },
+        {
+          "start": 14.04,
+          "end": 14.38,
+          "word": " privé",
+          "probability": 0.9995335042476654
+        },
+        {
+          "start": 14.38,
+          "end": 14.5,
+          "word": " de",
+          "probability": 0.9962792992591858
+        },
+        {
+          "start": 14.5,
+          "end": 15.04,
+          "word": " Rochenard",
+          "probability": 0.9008036255836487
+        },
+        {
+          "start": 15.04,
+          "end": 15.36,
+          "word": " est",
+          "probability": 0.9952958226203918
+        },
+        {
+          "start": 15.36,
+          "end": 15.66,
+          "word": " grand",
+          "probability": 0.9758906960487366
+        },
+        {
+          "start": 15.66,
+          "end": 16.1,
+          "word": " Xa.",
+          "probability": 0.5195761322975159
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 16.28,
+      "end": 19.08,
+      "text": " Tu essaies de le remercier, mais il est déjà parti.",
+      "tokens": [
+        51105,
+        7836,
+        7208,
+        530,
+        368,
+        476,
+        890,
+        260,
+        27674,
+        11,
+        2420,
+        1930,
+        871,
+        12027,
+        24408,
+        13,
+        51239
+      ],
+      "avg_logprob": -0.11475827200573031,
+      "compression_ratio": 1.5447470817120623,
+      "no_speech_prob": 9.696161408501158e-12,
+      "words": [
+        {
+          "start": 16.28,
+          "end": 16.54,
+          "word": " Tu",
+          "probability": 0.9977086782455444
+        },
+        {
+          "start": 16.54,
+          "end": 16.86,
+          "word": " essaies",
+          "probability": 0.9861312806606293
+        },
+        {
+          "start": 16.86,
+          "end": 16.94,
+          "word": " de",
+          "probability": 0.9999775886535645
+        },
+        {
+          "start": 16.94,
+          "end": 17.08,
+          "word": " le",
+          "probability": 0.9999353885650635
+        },
+        {
+          "start": 17.08,
+          "end": 17.52,
+          "word": " remercier,",
+          "probability": 0.9998120466868082
+        },
+        {
+          "start": 17.7,
+          "end": 18.24,
+          "word": " mais",
+          "probability": 0.9998559951782227
+        },
+        {
+          "start": 18.24,
+          "end": 18.44,
+          "word": " il",
+          "probability": 0.99986732006073
+        },
+        {
+          "start": 18.44,
+          "end": 18.52,
+          "word": " est",
+          "probability": 0.9999527931213379
+        },
+        {
+          "start": 18.52,
+          "end": 18.76,
+          "word": " déjà",
+          "probability": 0.9999504089355469
+        },
+        {
+          "start": 18.76,
+          "end": 19.08,
+          "word": " parti.",
+          "probability": 0.9998464584350586
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 19.5,
+      "end": 22.32,
+      "text": " Tu as bien fait de lui donner quelques pièces apparemment.",
+      "tokens": [
+        51281,
+        7836,
+        382,
+        3610,
+        3887,
+        368,
+        8783,
+        20882,
+        16597,
+        3895,
+        44778,
+        724,
+        19183,
+        518,
+        13,
+        51400
+      ],
+      "avg_logprob": -0.11475827200573031,
+      "compression_ratio": 1.5447470817120623,
+      "no_speech_prob": 9.696161408501158e-12,
+      "words": [
+        {
+          "start": 19.5,
+          "end": 20.04,
+          "word": " Tu",
+          "probability": 0.9981808662414551
+        },
+        {
+          "start": 20.04,
+          "end": 20.18,
+          "word": " as",
+          "probability": 0.9996732473373413
+        },
+        {
+          "start": 20.18,
+          "end": 20.4,
+          "word": " bien",
+          "probability": 0.9999651908874512
+        },
+        {
+          "start": 20.4,
+          "end": 20.6,
+          "word": " fait",
+          "probability": 0.9997065663337708
+        },
+        {
+          "start": 20.6,
+          "end": 20.76,
+          "word": " de",
+          "probability": 0.9999465942382812
+        },
+        {
+          "start": 20.76,
+          "end": 20.9,
+          "word": " lui",
+          "probability": 0.9999874830245972
+        },
+        {
+          "start": 20.9,
+          "end": 21.14,
+          "word": " donner",
+          "probability": 0.9998565912246704
+        },
+        {
+          "start": 21.14,
+          "end": 21.42,
+          "word": " quelques",
+          "probability": 0.9993594288825989
+        },
+        {
+          "start": 21.42,
+          "end": 21.78,
+          "word": " pièces",
+          "probability": 0.9997378587722778
+        },
+        {
+          "start": 21.78,
+          "end": 22.32,
+          "word": " apparemment.",
+          "probability": 0.9366709987322489
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 22.92,
+      "end": 25.96,
+      "text": " Il est temps de noter tout ça dans ton carnet avant de continuer.",
+      "tokens": [
+        51451,
+        4416,
+        871,
+        8827,
+        368,
+        406,
+        260,
+        3486,
+        2788,
+        2680,
+        2952,
+        1032,
+        7129,
+        13439,
+        368,
+        35660,
+        13,
+        51584
+      ],
+      "avg_logprob": -0.11475827200573031,
+      "compression_ratio": 1.5447470817120623,
+      "no_speech_prob": 9.696161408501158e-12,
+      "words": [
+        {
+          "start": 22.92,
+          "end": 23.46,
+          "word": " Il",
+          "probability": 0.9991525411605835
+        },
+        {
+          "start": 23.46,
+          "end": 23.62,
+          "word": " est",
+          "probability": 0.9999551773071289
+        },
+        {
+          "start": 23.62,
+          "end": 23.72,
+          "word": " temps",
+          "probability": 0.9994914531707764
+        },
+        {
+          "start": 23.72,
+          "end": 23.88,
+          "word": " de",
+          "probability": 0.9999785423278809
+        },
+        {
+          "start": 23.88,
+          "end": 24.18,
+          "word": " noter",
+          "probability": 0.9996344149112701
+        },
+        {
+          "start": 24.18,
+          "end": 24.34,
+          "word": " tout",
+          "probability": 0.9997902512550354
+        },
+        {
+          "start": 24.34,
+          "end": 24.5,
+          "word": " ça",
+          "probability": 0.9996820688247681
+        },
+        {
+          "start": 24.5,
+          "end": 24.64,
+          "word": " dans",
+          "probability": 0.9996631145477295
+        },
+        {
+          "start": 24.64,
+          "end": 24.8,
+          "word": " ton",
+          "probability": 0.9995315074920654
+        },
+        {
+          "start": 24.8,
+          "end": 25.12,
+          "word": " carnet",
+          "probability": 0.9993729293346405
+        },
+        {
+          "start": 25.12,
+          "end": 25.42,
+          "word": " avant",
+          "probability": 0.9978498220443726
+        },
+        {
+          "start": 25.42,
+          "end": 25.58,
+          "word": " de",
+          "probability": 0.9999709129333496
+        },
+        {
+          "start": 25.58,
+          "end": 25.96,
+          "word": " continuer.",
+          "probability": 0.999775230884552
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

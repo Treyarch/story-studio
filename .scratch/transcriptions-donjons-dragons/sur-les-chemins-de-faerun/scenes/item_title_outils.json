@@ -1,0 +1,60 @@
+{
+  "scene": "item_title_outils",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_title_outils.mp3",
+  "sha256": "54fd7eb3808c67e5e5aca5eb6fa0314a01bae91c19be10a8410766a995d92411",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.90325,
+  "text": "tes outils de voleurs.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.44,
+      "text": " tes outils de voleurs.",
+      "tokens": [
+        50365,
+        20018,
+        484,
+        4174,
+        368,
+        49877,
+        2156,
+        13,
+        50438
+      ],
+      "avg_logprob": -0.30112608075141906,
+      "compression_ratio": 0.7333333333333333,
+      "no_speech_prob": 7.826152052803348e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.3,
+          "word": " tes",
+          "probability": 0.30678510665893555
+        },
+        {
+          "start": 0.3,
+          "end": 0.74,
+          "word": " outils",
+          "probability": 0.9993217587471008
+        },
+        {
+          "start": 0.74,
+          "end": 0.92,
+          "word": " de",
+          "probability": 0.9994556307792664
+        },
+        {
+          "start": 0.92,
+          "end": 1.44,
+          "word": " voleurs.",
+          "probability": 0.8809769451618195
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

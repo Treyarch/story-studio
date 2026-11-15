@@ -1,0 +1,60 @@
+{
+  "scene": "B52_list_ch4",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B52_list_ch4.mp3",
+  "sha256": "ec6b5af2c3483794a0db047319f7fca353782516f0e5f31a6838ae47b8fd71f9",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.9991875,
+  "text": "Tu te transformes?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.44,
+      "text": " Tu te transformes?",
+      "tokens": [
+        50365,
+        7836,
+        535,
+        4088,
+        279,
+        2506,
+        50461
+      ],
+      "avg_logprob": -0.3064938671886921,
+      "compression_ratio": 0.7037037037037037,
+      "no_speech_prob": 3.9030848865417855e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.5,
+          "word": " Tu",
+          "probability": 0.689045250415802
+        },
+        {
+          "start": 0.5,
+          "end": 0.68,
+          "word": " te",
+          "probability": 0.9998070597648621
+        },
+        {
+          "start": 0.68,
+          "end": 1.42,
+          "word": " transformes",
+          "probability": 0.9869175255298615
+        },
+        {
+          "start": 1.42,
+          "end": 1.44,
+          "word": "?",
+          "probability": 0.9643808603286743
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

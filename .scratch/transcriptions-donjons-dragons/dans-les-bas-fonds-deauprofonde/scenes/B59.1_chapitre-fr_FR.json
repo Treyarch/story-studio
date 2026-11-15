@@ -1,0 +1,73 @@
+{
+  "scene": "B59.1_chapitre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B59.1_chapitre-fr_FR.mp3",
+  "sha256": "a45f79214eff82516c40b52a825a0f069c2379c2b5f90d27d3c5a74d4e0e475c",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.7048125,
+  "text": "en mission pour les Gris Force.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 2.08,
+      "text": " en mission pour les Gris Force.",
+      "tokens": [
+        50365,
+        465,
+        4447,
+        2016,
+        1512,
+        2606,
+        271,
+        10580,
+        13,
+        50471
+      ],
+      "avg_logprob": -0.40135895664041693,
+      "compression_ratio": 0.7948717948717948,
+      "no_speech_prob": 6.003972059104301e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.52,
+          "word": " en",
+          "probability": 0.632562518119812
+        },
+        {
+          "start": 0.52,
+          "end": 0.96,
+          "word": " mission",
+          "probability": 0.9919964671134949
+        },
+        {
+          "start": 0.96,
+          "end": 1.32,
+          "word": " pour",
+          "probability": 0.9986194372177124
+        },
+        {
+          "start": 1.32,
+          "end": 1.5,
+          "word": " les",
+          "probability": 0.9923018217086792
+        },
+        {
+          "start": 1.5,
+          "end": 1.76,
+          "word": " Gris",
+          "probability": 0.6599156260490417
+        },
+        {
+          "start": 1.76,
+          "end": 2.08,
+          "word": " Force.",
+          "probability": 0.2980039715766907
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "scene": "item_title_bannissement-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_bannissement-fr_FR.mp3",
+  "sha256": "fb013e67169cf1367ba443edf9d1fea665fa3284d5e6f744eaa4e1d6ccfed93e",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.416625,
+  "text": "Le parchemin de bannissement",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.74,
+      "text": " Le parchemin de bannissement",
+      "tokens": [
+        50365,
+        1456,
+        971,
+        17345,
+        259,
+        368,
+        272,
+        969,
+        31931,
+        50452
+      ],
+      "avg_logprob": -0.12317024848677895,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 4.379589139263951e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.52,
+          "word": " Le",
+          "probability": 0.6316701769828796
+        },
+        {
+          "start": 0.52,
+          "end": 1.1,
+          "word": " parchemin",
+          "probability": 0.9949088096618652
+        },
+        {
+          "start": 1.1,
+          "end": 1.24,
+          "word": " de",
+          "probability": 0.9993118047714233
+        },
+        {
+          "start": 1.24,
+          "end": 1.74,
+          "word": " bannissement",
+          "probability": 0.9991961518923441
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

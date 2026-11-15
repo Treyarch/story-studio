@@ -1,0 +1,59 @@
+{
+  "scene": "B65b_list_ch7",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B65b_list_ch7.mp3",
+  "sha256": "743f946de3519f67c393623474dd7c6769b10241c57537256f48cdbee88e7f03",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.407625,
+  "text": "Défiez Seigneur Rojenard.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.81,
+      "text": " Défiez Seigneur Rojenard.",
+      "tokens": [
+        50365,
+        31153,
+        69,
+        18812,
+        1100,
+        26341,
+        374,
+        3101,
+        73,
+        20062,
+        13,
+        50455
+      ],
+      "avg_logprob": -0.261782169342041,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 3.949574608336226e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.81,
+          "word": " Défiez",
+          "probability": 0.8896339535713196
+        },
+        {
+          "start": 0.81,
+          "end": 1.31,
+          "word": " Seigneur",
+          "probability": 0.9671145478884379
+        },
+        {
+          "start": 1.31,
+          "end": 1.81,
+          "word": " Rojenard.",
+          "probability": 0.6685160994529724
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "scene": "B30d_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B30d_list_ch2.mp3",
+  "sha256": "1e91cada0570cb6578beeed825f086ff5c5bdc7ed43eb3bec209b594fd1bd780",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.856875,
+  "text": "Insister auprès de la dame",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.54,
+      "text": " Insister auprès de la dame",
+      "tokens": [
+        50365,
+        9442,
+        1964,
+        257,
+        1010,
+        32524,
+        368,
+        635,
+        274,
+        529,
+        50443
+      ],
+      "avg_logprob": -0.24284357577562332,
+      "compression_ratio": 0.7714285714285715,
+      "no_speech_prob": 7.786018357824886e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.74,
+          "word": " Insister",
+          "probability": 0.4172574579715729
+        },
+        {
+          "start": 0.74,
+          "end": 1.06,
+          "word": " auprès",
+          "probability": 0.9991584618886312
+        },
+        {
+          "start": 1.06,
+          "end": 1.16,
+          "word": " de",
+          "probability": 0.9994000196456909
+        },
+        {
+          "start": 1.16,
+          "end": 1.32,
+          "word": " la",
+          "probability": 0.9964196681976318
+        },
+        {
+          "start": 1.32,
+          "end": 1.54,
+          "word": " dame",
+          "probability": 0.9330693483352661
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

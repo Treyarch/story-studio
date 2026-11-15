@@ -1,0 +1,644 @@
+{
+  "scene": "A29_cha_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A29_cha_success.mp3",
+  "sha256": "61475b7996e8b870a969c8ca5fe53b0a47615895d1ebf79117172827b3261e5f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 27.5174375,
+  "text": "Debout devant Tacheline, tu es sûr de l'avoir convaincue avec tes arguments en béton. Le Zhentarim doit couper tout lien avec Seigneur Rojenard avant qu'il soit trop tard. Malgré ton entrain, Tacheline reste de marbre. Possible, mais tu n'as aucune preuve de ce que tu affirmes. En attendant, l'or de Rojenard me convient très bien. Apparemment, tu vas devoir déployer plus d'efforts que ça.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.26,
+      "end": 6.14,
+      "text": " Debout devant Tacheline, tu es sûr de l'avoir convaincue avec tes arguments en béton.",
+      "tokens": [
+        50365,
+        27347,
+        346,
+        28982,
+        314,
+        608,
+        5440,
+        11,
+        2604,
+        785,
+        18143,
+        368,
+        287,
+        6,
+        17239,
+        3754,
+        491,
+        31765,
+        4163,
+        20018,
+        12869,
+        465,
+        15807,
+        1756,
+        13,
+        50610
+      ],
+      "avg_logprob": -0.11681002836058459,
+      "compression_ratio": 1.4736842105263157,
+      "no_speech_prob": 7.762727960436422e-12,
+      "words": [
+        {
+          "start": 1.26,
+          "end": 1.94,
+          "word": " Debout",
+          "probability": 0.8917046785354614
+        },
+        {
+          "start": 1.94,
+          "end": 2.24,
+          "word": " devant",
+          "probability": 0.9978518486022949
+        },
+        {
+          "start": 2.24,
+          "end": 2.72,
+          "word": " Tacheline,",
+          "probability": 0.8501342137654623
+        },
+        {
+          "start": 3.02,
+          "end": 3.3,
+          "word": " tu",
+          "probability": 0.9982045888900757
+        },
+        {
+          "start": 3.3,
+          "end": 3.5,
+          "word": " es",
+          "probability": 0.9996649026870728
+        },
+        {
+          "start": 3.5,
+          "end": 3.88,
+          "word": " sûr",
+          "probability": 0.808959424495697
+        },
+        {
+          "start": 3.88,
+          "end": 4.08,
+          "word": " de",
+          "probability": 0.9992456436157227
+        },
+        {
+          "start": 4.08,
+          "end": 4.18,
+          "word": " l",
+          "probability": 0.9925774931907654
+        },
+        {
+          "start": 4.18,
+          "end": 4.36,
+          "word": "'avoir",
+          "probability": 0.9999425411224365
+        },
+        {
+          "start": 4.36,
+          "end": 4.92,
+          "word": " convaincue",
+          "probability": 0.9053285717964172
+        },
+        {
+          "start": 4.92,
+          "end": 5.1,
+          "word": " avec",
+          "probability": 0.9986006617546082
+        },
+        {
+          "start": 5.1,
+          "end": 5.32,
+          "word": " tes",
+          "probability": 0.9983330368995667
+        },
+        {
+          "start": 5.32,
+          "end": 5.7,
+          "word": " arguments",
+          "probability": 0.9997765421867371
+        },
+        {
+          "start": 5.7,
+          "end": 5.9,
+          "word": " en",
+          "probability": 0.992774486541748
+        },
+        {
+          "start": 5.9,
+          "end": 6.14,
+          "word": " béton.",
+          "probability": 0.9996231496334076
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.44,
+      "end": 11.06,
+      "text": " Le Zhentarim doit couper tout lien avec Seigneur Rojenard avant qu'il soit trop tard.",
+      "tokens": [
+        50643,
+        1456,
+        44091,
+        289,
+        332,
+        19193,
+        1384,
+        610,
+        3486,
+        32553,
+        4163,
+        1100,
+        26341,
+        374,
+        3101,
+        73,
+        20062,
+        13439,
+        421,
+        6,
+        388,
+        12703,
+        9006,
+        21057,
+        13,
+        50856
+      ],
+      "avg_logprob": -0.11681002836058459,
+      "compression_ratio": 1.4736842105263157,
+      "no_speech_prob": 7.762727960436422e-12,
+      "words": [
+        {
+          "start": 6.44,
+          "end": 6.92,
+          "word": " Le",
+          "probability": 0.998274564743042
+        },
+        {
+          "start": 6.92,
+          "end": 7.5,
+          "word": " Zhentarim",
+          "probability": 0.7516058087348938
+        },
+        {
+          "start": 7.5,
+          "end": 7.68,
+          "word": " doit",
+          "probability": 0.9990290403366089
+        },
+        {
+          "start": 7.68,
+          "end": 8.0,
+          "word": " couper",
+          "probability": 0.9997142851352692
+        },
+        {
+          "start": 8.0,
+          "end": 8.24,
+          "word": " tout",
+          "probability": 0.9983456134796143
+        },
+        {
+          "start": 8.24,
+          "end": 8.5,
+          "word": " lien",
+          "probability": 0.9997898936271667
+        },
+        {
+          "start": 8.5,
+          "end": 8.88,
+          "word": " avec",
+          "probability": 0.9999086856842041
+        },
+        {
+          "start": 8.88,
+          "end": 9.36,
+          "word": " Seigneur",
+          "probability": 0.9564855098724365
+        },
+        {
+          "start": 9.36,
+          "end": 9.78,
+          "word": " Rojenard",
+          "probability": 0.8184471329053243
+        },
+        {
+          "start": 9.78,
+          "end": 10.22,
+          "word": " avant",
+          "probability": 0.9040210843086243
+        },
+        {
+          "start": 10.22,
+          "end": 10.36,
+          "word": " qu",
+          "probability": 0.999968409538269
+        },
+        {
+          "start": 10.36,
+          "end": 10.44,
+          "word": "'il",
+          "probability": 0.9998989403247833
+        },
+        {
+          "start": 10.44,
+          "end": 10.62,
+          "word": " soit",
+          "probability": 0.9968892931938171
+        },
+        {
+          "start": 10.62,
+          "end": 10.84,
+          "word": " trop",
+          "probability": 0.9996240139007568
+        },
+        {
+          "start": 10.84,
+          "end": 11.06,
+          "word": " tard.",
+          "probability": 0.9995806813240051
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.48,
+      "end": 14.4,
+      "text": " Malgré ton entrain, Tacheline reste de marbre.",
+      "tokens": [
+        50886,
+        5746,
+        36341,
+        2952,
+        948,
+        7146,
+        11,
+        314,
+        608,
+        5440,
+        20694,
+        368,
+        1849,
+        2672,
+        13,
+        51023
+      ],
+      "avg_logprob": -0.11681002836058459,
+      "compression_ratio": 1.4736842105263157,
+      "no_speech_prob": 7.762727960436422e-12,
+      "words": [
+        {
+          "start": 11.48,
+          "end": 12.0,
+          "word": " Malgré",
+          "probability": 0.9997317492961884
+        },
+        {
+          "start": 12.0,
+          "end": 12.16,
+          "word": " ton",
+          "probability": 0.9990500807762146
+        },
+        {
+          "start": 12.16,
+          "end": 12.56,
+          "word": " entrain,",
+          "probability": 0.9851446151733398
+        },
+        {
+          "start": 13.14,
+          "end": 13.56,
+          "word": " Tacheline",
+          "probability": 0.998963455359141
+        },
+        {
+          "start": 13.56,
+          "end": 13.88,
+          "word": " reste",
+          "probability": 0.999924898147583
+        },
+        {
+          "start": 13.88,
+          "end": 14.06,
+          "word": " de",
+          "probability": 0.9978540539741516
+        },
+        {
+          "start": 14.06,
+          "end": 14.4,
+          "word": " marbre.",
+          "probability": 0.9987390339374542
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 15.34,
+      "end": 18.16,
+      "text": " Possible, mais tu n'as aucune preuve de ce que tu affirmes.",
+      "tokens": [
+        51073,
+        430,
+        5785,
+        11,
+        2420,
+        2604,
+        297,
+        6,
+        296,
+        40076,
+        659,
+        31564,
+        368,
+        1769,
+        631,
+        2604,
+        21260,
+        279,
+        13,
+        51210
+      ],
+      "avg_logprob": -0.11681002836058459,
+      "compression_ratio": 1.4736842105263157,
+      "no_speech_prob": 7.762727960436422e-12,
+      "words": [
+        {
+          "start": 15.34,
+          "end": 15.86,
+          "word": " Possible,",
+          "probability": 0.9820493757724762
+        },
+        {
+          "start": 16.14,
+          "end": 16.4,
+          "word": " mais",
+          "probability": 0.9997861981391907
+        },
+        {
+          "start": 16.4,
+          "end": 16.54,
+          "word": " tu",
+          "probability": 0.9979236125946045
+        },
+        {
+          "start": 16.54,
+          "end": 16.6,
+          "word": " n",
+          "probability": 0.9999369382858276
+        },
+        {
+          "start": 16.6,
+          "end": 16.66,
+          "word": "'as",
+          "probability": 0.9998988211154938
+        },
+        {
+          "start": 16.66,
+          "end": 16.92,
+          "word": " aucune",
+          "probability": 0.9998764991760254
+        },
+        {
+          "start": 16.92,
+          "end": 17.22,
+          "word": " preuve",
+          "probability": 0.9987583160400391
+        },
+        {
+          "start": 17.22,
+          "end": 17.32,
+          "word": " de",
+          "probability": 0.9975517392158508
+        },
+        {
+          "start": 17.32,
+          "end": 17.4,
+          "word": " ce",
+          "probability": 0.9996668100357056
+        },
+        {
+          "start": 17.4,
+          "end": 17.48,
+          "word": " que",
+          "probability": 0.9998915195465088
+        },
+        {
+          "start": 17.48,
+          "end": 17.62,
+          "word": " tu",
+          "probability": 0.9997779726982117
+        },
+        {
+          "start": 17.62,
+          "end": 18.16,
+          "word": " affirmes.",
+          "probability": 0.9512466788291931
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 18.3,
+      "end": 20.76,
+      "text": " En attendant, l'or de Rojenard me convient très bien.",
+      "tokens": [
+        51228,
+        2193,
+        39339,
+        11,
+        287,
+        6,
+        284,
+        368,
+        3101,
+        73,
+        20062,
+        385,
+        3754,
+        1196,
+        5732,
+        3610,
+        13,
+        51341
+      ],
+      "avg_logprob": -0.11681002836058459,
+      "compression_ratio": 1.4736842105263157,
+      "no_speech_prob": 7.762727960436422e-12,
+      "words": [
+        {
+          "start": 18.3,
+          "end": 18.6,
+          "word": " En",
+          "probability": 0.9988893866539001
+        },
+        {
+          "start": 18.6,
+          "end": 18.98,
+          "word": " attendant,",
+          "probability": 0.999954342842102
+        },
+        {
+          "start": 19.2,
+          "end": 19.26,
+          "word": " l",
+          "probability": 0.8017387986183167
+        },
+        {
+          "start": 19.26,
+          "end": 19.34,
+          "word": "'or",
+          "probability": 0.7094594836235046
+        },
+        {
+          "start": 19.34,
+          "end": 19.44,
+          "word": " de",
+          "probability": 0.9995470643043518
+        },
+        {
+          "start": 19.44,
+          "end": 19.88,
+          "word": " Rojenard",
+          "probability": 0.9992177486419678
+        },
+        {
+          "start": 19.88,
+          "end": 20.02,
+          "word": " me",
+          "probability": 0.9998052716255188
+        },
+        {
+          "start": 20.02,
+          "end": 20.34,
+          "word": " convient",
+          "probability": 0.9997147023677826
+        },
+        {
+          "start": 20.34,
+          "end": 20.52,
+          "word": " très",
+          "probability": 0.9999312162399292
+        },
+        {
+          "start": 20.52,
+          "end": 20.76,
+          "word": " bien.",
+          "probability": 0.9999626874923706
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 21.22,
+      "end": 24.04,
+      "text": " Apparemment, tu vas devoir déployer plus d'efforts que ça.",
+      "tokens": [
+        51364,
+        3132,
+        19183,
+        518,
+        11,
+        2604,
+        11481,
+        48920,
+        2795,
+        2384,
+        260,
+        1804,
+        274,
+        6,
+        30774,
+        3299,
+        631,
+        2788,
+        13,
+        51505
+      ],
+      "avg_logprob": -0.11681002836058459,
+      "compression_ratio": 1.4736842105263157,
+      "no_speech_prob": 7.762727960436422e-12,
+      "words": [
+        {
+          "start": 21.22,
+          "end": 21.74,
+          "word": " Apparemment,",
+          "probability": 0.9985803564389547
+        },
+        {
+          "start": 22.0,
+          "end": 22.12,
+          "word": " tu",
+          "probability": 0.9993813037872314
+        },
+        {
+          "start": 22.12,
+          "end": 22.26,
+          "word": " vas",
+          "probability": 0.9987396597862244
+        },
+        {
+          "start": 22.26,
+          "end": 22.56,
+          "word": " devoir",
+          "probability": 0.9996308088302612
+        },
+        {
+          "start": 22.56,
+          "end": 23.06,
+          "word": " déployer",
+          "probability": 0.9996423721313477
+        },
+        {
+          "start": 23.06,
+          "end": 23.34,
+          "word": " plus",
+          "probability": 0.9974502921104431
+        },
+        {
+          "start": 23.34,
+          "end": 23.48,
+          "word": " d",
+          "probability": 0.9995130300521851
+        },
+        {
+          "start": 23.48,
+          "end": 23.72,
+          "word": "'efforts",
+          "probability": 0.9927534659703573
+        },
+        {
+          "start": 23.72,
+          "end": 23.86,
+          "word": " que",
+          "probability": 0.9995829463005066
+        },
+        {
+          "start": 23.86,
+          "end": 24.04,
+          "word": " ça.",
+          "probability": 0.9998904466629028
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

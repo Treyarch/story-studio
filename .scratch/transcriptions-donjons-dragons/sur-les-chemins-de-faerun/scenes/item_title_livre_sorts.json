@@ -1,0 +1,58 @@
+{
+  "scene": "item_title_livre_sorts",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_title_livre_sorts.mp3",
+  "sha256": "4b29a7c988bcde9b273fde435bd01f0343decab876f8a0e953d7e1a8db1d3fab",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.7215,
+  "text": "Ton livre de sort.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.22,
+      "text": " Ton livre de sort.",
+      "tokens": [
+        50365,
+        11385,
+        24735,
+        368,
+        1333,
+        13,
+        50428
+      ],
+      "avg_logprob": -0.24972223863005638,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 8.876629466192387e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.32,
+          "word": " Ton",
+          "probability": 0.5520901679992676
+        },
+        {
+          "start": 0.32,
+          "end": 0.68,
+          "word": " livre",
+          "probability": 0.9729794859886169
+        },
+        {
+          "start": 0.68,
+          "end": 0.86,
+          "word": " de",
+          "probability": 0.9997594952583313
+        },
+        {
+          "start": 0.86,
+          "end": 1.22,
+          "word": " sort.",
+          "probability": 0.9100378751754761
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

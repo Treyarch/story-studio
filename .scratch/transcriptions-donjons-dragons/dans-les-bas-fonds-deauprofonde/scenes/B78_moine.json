@@ -1,0 +1,728 @@
+{
+  "scene": "B78_moine",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B78_moine.mp3",
+  "sha256": "1e0986c6ad5090e9d82b52c6ebe21fd6676770a43bd7e0c1303de788a08c05e7",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 29.307125,
+  "text": "Tu repères la fenêtre ouverte à l'autre bout de la pièce et tu te dis que tu pourras peut-être l'atteindre en courant sur le mur. Xanathar ne s'y attend sans doute pas. Tu devras contourner Seigneur Rojenard, mais ça ne devrait pas te poser de problème. Tu bondis et t'élances sur une trajectoire perpendiculaire au tyrannœil. Alors que tes pieds touchent le mur, tu mets toute ta force dans tes jambes, le regard rivé sur la fenêtre ouverte.",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.97,
+      "end": 8.95,
+      "text": " Tu repères la fenêtre ouverte à l'autre bout de la pièce et tu te dis que tu pourras peut-être l'atteindre en courant sur le mur.",
+      "tokens": [
+        50365,
+        7836,
+        1085,
+        13927,
+        635,
+        26830,
+        9498,
+        2820,
+        331,
+        975,
+        1531,
+        287,
+        6,
+        19702,
+        15738,
+        368,
+        635,
+        3895,
+        30236,
+        1030,
+        2604,
+        535,
+        717,
+        631,
+        2604,
+        2016,
+        3906,
+        5977,
+        12,
+        9498,
+        287,
+        6,
+        30466,
+        28786,
+        465,
+        1005,
+        394,
+        1022,
+        476,
+        5257,
+        13,
+        50714
+      ],
+      "avg_logprob": -0.07185868337644753,
+      "compression_ratio": 1.5901060070671378,
+      "no_speech_prob": 7.016282953936637e-12,
+      "words": [
+        {
+          "start": 1.97,
+          "end": 2.39,
+          "word": " Tu",
+          "probability": 0.9852105975151062
+        },
+        {
+          "start": 2.39,
+          "end": 2.79,
+          "word": " repères",
+          "probability": 0.9986407458782196
+        },
+        {
+          "start": 2.79,
+          "end": 2.95,
+          "word": " la",
+          "probability": 0.9998468160629272
+        },
+        {
+          "start": 2.95,
+          "end": 3.37,
+          "word": " fenêtre",
+          "probability": 0.9996046721935272
+        },
+        {
+          "start": 3.37,
+          "end": 3.81,
+          "word": " ouverte",
+          "probability": 0.9990659554799398
+        },
+        {
+          "start": 3.81,
+          "end": 3.95,
+          "word": " à",
+          "probability": 0.9998200535774231
+        },
+        {
+          "start": 3.95,
+          "end": 4.03,
+          "word": " l",
+          "probability": 0.9999855756759644
+        },
+        {
+          "start": 4.03,
+          "end": 4.21,
+          "word": "'autre",
+          "probability": 0.9999778866767883
+        },
+        {
+          "start": 4.21,
+          "end": 4.43,
+          "word": " bout",
+          "probability": 0.9998190999031067
+        },
+        {
+          "start": 4.43,
+          "end": 4.55,
+          "word": " de",
+          "probability": 0.9999417066574097
+        },
+        {
+          "start": 4.55,
+          "end": 4.69,
+          "word": " la",
+          "probability": 0.9999819993972778
+        },
+        {
+          "start": 4.69,
+          "end": 5.09,
+          "word": " pièce",
+          "probability": 0.9999282956123352
+        },
+        {
+          "start": 5.09,
+          "end": 5.67,
+          "word": " et",
+          "probability": 0.7424911260604858
+        },
+        {
+          "start": 5.67,
+          "end": 5.87,
+          "word": " tu",
+          "probability": 0.9997993111610413
+        },
+        {
+          "start": 5.87,
+          "end": 6.07,
+          "word": " te",
+          "probability": 0.9999432563781738
+        },
+        {
+          "start": 6.07,
+          "end": 6.21,
+          "word": " dis",
+          "probability": 0.9998047947883606
+        },
+        {
+          "start": 6.21,
+          "end": 6.39,
+          "word": " que",
+          "probability": 0.9999574422836304
+        },
+        {
+          "start": 6.39,
+          "end": 6.55,
+          "word": " tu",
+          "probability": 0.9999657869338989
+        },
+        {
+          "start": 6.55,
+          "end": 6.91,
+          "word": " pourras",
+          "probability": 0.9984086751937866
+        },
+        {
+          "start": 6.91,
+          "end": 7.11,
+          "word": " peut",
+          "probability": 0.9999715089797974
+        },
+        {
+          "start": 7.11,
+          "end": 7.35,
+          "word": "-être",
+          "probability": 0.9998709261417389
+        },
+        {
+          "start": 7.35,
+          "end": 7.57,
+          "word": " l",
+          "probability": 0.999922513961792
+        },
+        {
+          "start": 7.57,
+          "end": 7.87,
+          "word": "'atteindre",
+          "probability": 0.9998669624328613
+        },
+        {
+          "start": 7.87,
+          "end": 8.07,
+          "word": " en",
+          "probability": 0.9999583959579468
+        },
+        {
+          "start": 8.07,
+          "end": 8.37,
+          "word": " courant",
+          "probability": 0.9996513426303864
+        },
+        {
+          "start": 8.37,
+          "end": 8.57,
+          "word": " sur",
+          "probability": 0.999957799911499
+        },
+        {
+          "start": 8.57,
+          "end": 8.71,
+          "word": " le",
+          "probability": 0.9999719858169556
+        },
+        {
+          "start": 8.71,
+          "end": 8.95,
+          "word": " mur.",
+          "probability": 0.9998262524604797
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 9.79,
+      "end": 11.45,
+      "text": " Xanathar ne s'y attend sans doute pas.",
+      "tokens": [
+        50756,
+        1783,
+        282,
+        998,
+        289,
+        408,
+        262,
+        6,
+        88,
+        6888,
+        12177,
+        41984,
+        1736,
+        13,
+        50841
+      ],
+      "avg_logprob": -0.07185868337644753,
+      "compression_ratio": 1.5901060070671378,
+      "no_speech_prob": 7.016282953936637e-12,
+      "words": [
+        {
+          "start": 9.79,
+          "end": 10.23,
+          "word": " Xanathar",
+          "probability": 0.9531551152467728
+        },
+        {
+          "start": 10.23,
+          "end": 10.41,
+          "word": " ne",
+          "probability": 0.9997352957725525
+        },
+        {
+          "start": 10.41,
+          "end": 10.53,
+          "word": " s",
+          "probability": 0.999902606010437
+        },
+        {
+          "start": 10.53,
+          "end": 10.61,
+          "word": "'y",
+          "probability": 0.9999856948852539
+        },
+        {
+          "start": 10.61,
+          "end": 10.79,
+          "word": " attend",
+          "probability": 0.9858047366142273
+        },
+        {
+          "start": 10.79,
+          "end": 11.01,
+          "word": " sans",
+          "probability": 0.9996974468231201
+        },
+        {
+          "start": 11.01,
+          "end": 11.23,
+          "word": " doute",
+          "probability": 0.9999938011169434
+        },
+        {
+          "start": 11.23,
+          "end": 11.45,
+          "word": " pas.",
+          "probability": 0.9999852180480957
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.97,
+      "end": 16.33,
+      "text": " Tu devras contourner Seigneur Rojenard, mais ça ne devrait pas te poser de problème.",
+      "tokens": [
+        50882,
+        7836,
+        1905,
+        3906,
+        21234,
+        1193,
+        1100,
+        26341,
+        374,
+        3101,
+        73,
+        20062,
+        11,
+        2420,
+        2788,
+        408,
+        43356,
+        1736,
+        535,
+        39355,
+        368,
+        21111,
+        13,
+        51083
+      ],
+      "avg_logprob": -0.07185868337644753,
+      "compression_ratio": 1.5901060070671378,
+      "no_speech_prob": 7.016282953936637e-12,
+      "words": [
+        {
+          "start": 11.97,
+          "end": 12.41,
+          "word": " Tu",
+          "probability": 0.9995673298835754
+        },
+        {
+          "start": 12.41,
+          "end": 12.75,
+          "word": " devras",
+          "probability": 0.9994134604930878
+        },
+        {
+          "start": 12.75,
+          "end": 13.43,
+          "word": " contourner",
+          "probability": 0.9998868703842163
+        },
+        {
+          "start": 13.43,
+          "end": 13.93,
+          "word": " Seigneur",
+          "probability": 0.9799652099609375
+        },
+        {
+          "start": 13.93,
+          "end": 14.33,
+          "word": " Rojenard,",
+          "probability": 0.6460948487122854
+        },
+        {
+          "start": 14.57,
+          "end": 14.91,
+          "word": " mais",
+          "probability": 0.9999532699584961
+        },
+        {
+          "start": 14.91,
+          "end": 15.07,
+          "word": " ça",
+          "probability": 0.9998413324356079
+        },
+        {
+          "start": 15.07,
+          "end": 15.15,
+          "word": " ne",
+          "probability": 0.9999864101409912
+        },
+        {
+          "start": 15.15,
+          "end": 15.35,
+          "word": " devrait",
+          "probability": 0.9991064667701721
+        },
+        {
+          "start": 15.35,
+          "end": 15.53,
+          "word": " pas",
+          "probability": 0.999991774559021
+        },
+        {
+          "start": 15.53,
+          "end": 15.67,
+          "word": " te",
+          "probability": 0.9999593496322632
+        },
+        {
+          "start": 15.67,
+          "end": 15.89,
+          "word": " poser",
+          "probability": 0.999835729598999
+        },
+        {
+          "start": 15.89,
+          "end": 16.01,
+          "word": " de",
+          "probability": 0.9985252022743225
+        },
+        {
+          "start": 16.01,
+          "end": 16.33,
+          "word": " problème.",
+          "probability": 0.9748752117156982
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 16.83,
+      "end": 20.93,
+      "text": " Tu bondis et t'élances sur une trajectoire perpendiculaire au tyrannœil.",
+      "tokens": [
+        51119,
+        7836,
+        6086,
+        271,
+        1030,
+        256,
+        6,
+        8025,
+        2676,
+        1022,
+        2251,
+        18257,
+        20378,
+        26095,
+        299,
+        3780,
+        621,
+        1609,
+        13807,
+        1929,
+        84,
+        388,
+        13,
+        51313
+      ],
+      "avg_logprob": -0.07185868337644753,
+      "compression_ratio": 1.5901060070671378,
+      "no_speech_prob": 7.016282953936637e-12,
+      "words": [
+        {
+          "start": 16.83,
+          "end": 17.27,
+          "word": " Tu",
+          "probability": 0.9995761513710022
+        },
+        {
+          "start": 17.27,
+          "end": 17.71,
+          "word": " bondis",
+          "probability": 0.9806537628173828
+        },
+        {
+          "start": 17.71,
+          "end": 17.95,
+          "word": " et",
+          "probability": 0.9997245669364929
+        },
+        {
+          "start": 17.95,
+          "end": 18.07,
+          "word": " t",
+          "probability": 0.9924740195274353
+        },
+        {
+          "start": 18.07,
+          "end": 18.41,
+          "word": "'élances",
+          "probability": 0.9927778045336405
+        },
+        {
+          "start": 18.41,
+          "end": 18.71,
+          "word": " sur",
+          "probability": 0.9999734163284302
+        },
+        {
+          "start": 18.71,
+          "end": 18.83,
+          "word": " une",
+          "probability": 0.999951958656311
+        },
+        {
+          "start": 18.83,
+          "end": 19.43,
+          "word": " trajectoire",
+          "probability": 0.9999816417694092
+        },
+        {
+          "start": 19.43,
+          "end": 20.29,
+          "word": " perpendiculaire",
+          "probability": 0.9997352808713913
+        },
+        {
+          "start": 20.29,
+          "end": 20.43,
+          "word": " au",
+          "probability": 0.9909494519233704
+        },
+        {
+          "start": 20.43,
+          "end": 20.93,
+          "word": " tyrannœil.",
+          "probability": 0.8205037266016006
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 21.07,
+      "end": 27.29,
+      "text": " Alors que tes pieds touchent le mur, tu mets toute ta force dans tes jambes, le regard rivé sur la fenêtre ouverte.",
+      "tokens": [
+        51331,
+        9946,
+        631,
+        20018,
+        24186,
+        82,
+        2557,
+        317,
+        476,
+        5257,
+        11,
+        2604,
+        37231,
+        14953,
+        1846,
+        3464,
+        2680,
+        20018,
+        361,
+        2173,
+        279,
+        11,
+        476,
+        3843,
+        28745,
+        526,
+        1022,
+        635,
+        26830,
+        9498,
+        2820,
+        331,
+        975,
+        13,
+        51632
+      ],
+      "avg_logprob": -0.07185868337644753,
+      "compression_ratio": 1.5901060070671378,
+      "no_speech_prob": 7.016282953936637e-12,
+      "words": [
+        {
+          "start": 21.07,
+          "end": 21.49,
+          "word": " Alors",
+          "probability": 0.9994994401931763
+        },
+        {
+          "start": 21.49,
+          "end": 21.69,
+          "word": " que",
+          "probability": 0.999991774559021
+        },
+        {
+          "start": 21.69,
+          "end": 21.85,
+          "word": " tes",
+          "probability": 0.9999076128005981
+        },
+        {
+          "start": 21.85,
+          "end": 22.17,
+          "word": " pieds",
+          "probability": 0.9999204874038696
+        },
+        {
+          "start": 22.17,
+          "end": 22.39,
+          "word": " touchent",
+          "probability": 0.9993404448032379
+        },
+        {
+          "start": 22.39,
+          "end": 22.49,
+          "word": " le",
+          "probability": 0.9999281167984009
+        },
+        {
+          "start": 22.49,
+          "end": 22.77,
+          "word": " mur,",
+          "probability": 0.9999194145202637
+        },
+        {
+          "start": 23.01,
+          "end": 23.29,
+          "word": " tu",
+          "probability": 0.9998140931129456
+        },
+        {
+          "start": 23.29,
+          "end": 23.49,
+          "word": " mets",
+          "probability": 0.9847418069839478
+        },
+        {
+          "start": 23.49,
+          "end": 23.83,
+          "word": " toute",
+          "probability": 0.9990447163581848
+        },
+        {
+          "start": 23.83,
+          "end": 24.03,
+          "word": " ta",
+          "probability": 0.9988552331924438
+        },
+        {
+          "start": 24.03,
+          "end": 24.31,
+          "word": " force",
+          "probability": 0.9998730421066284
+        },
+        {
+          "start": 24.31,
+          "end": 24.53,
+          "word": " dans",
+          "probability": 0.9998028874397278
+        },
+        {
+          "start": 24.53,
+          "end": 24.69,
+          "word": " tes",
+          "probability": 0.9998329877853394
+        },
+        {
+          "start": 24.69,
+          "end": 25.07,
+          "word": " jambes,",
+          "probability": 0.999654491742452
+        },
+        {
+          "start": 25.27,
+          "end": 25.55,
+          "word": " le",
+          "probability": 0.9991768002510071
+        },
+        {
+          "start": 25.55,
+          "end": 25.87,
+          "word": " regard",
+          "probability": 0.9995822310447693
+        },
+        {
+          "start": 25.87,
+          "end": 26.23,
+          "word": " rivé",
+          "probability": 0.9857387840747833
+        },
+        {
+          "start": 26.23,
+          "end": 26.41,
+          "word": " sur",
+          "probability": 0.9998675584793091
+        },
+        {
+          "start": 26.41,
+          "end": 26.55,
+          "word": " la",
+          "probability": 0.999937891960144
+        },
+        {
+          "start": 26.55,
+          "end": 26.87,
+          "word": " fenêtre",
+          "probability": 0.9995574057102203
+        },
+        {
+          "start": 26.87,
+          "end": 27.29,
+          "word": " ouverte.",
+          "probability": 0.9998514453570048
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

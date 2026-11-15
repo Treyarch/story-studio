@@ -1,0 +1,97 @@
+{
+  "scene": "B52_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B52_list.mp3",
+  "sha256": "9af1bba8cd313d8cda06c7ea01e4e5f0526ee6b805b61f9cb5de4fd09bd812b9",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.0944375,
+  "text": "Comment veux-tu te mêler à leur conversation?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 2.65,
+      "text": " Comment veux-tu te mêler à leur conversation?",
+      "tokens": [
+        50365,
+        16328,
+        16389,
+        12,
+        9179,
+        535,
+        275,
+        1307,
+        1918,
+        1531,
+        9580,
+        3761,
+        2506,
+        50517
+      ],
+      "avg_logprob": -0.16274360020955403,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 3.7775776430548635e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.63,
+          "word": " Comment",
+          "probability": 0.8628069758415222
+        },
+        {
+          "start": 0.63,
+          "end": 0.87,
+          "word": " veux",
+          "probability": 0.997891366481781
+        },
+        {
+          "start": 0.87,
+          "end": 1.03,
+          "word": "-tu",
+          "probability": 0.9996615946292877
+        },
+        {
+          "start": 1.03,
+          "end": 1.21,
+          "word": " te",
+          "probability": 0.9996774196624756
+        },
+        {
+          "start": 1.21,
+          "end": 1.53,
+          "word": " mêler",
+          "probability": 0.9990321397781372
+        },
+        {
+          "start": 1.53,
+          "end": 1.73,
+          "word": " à",
+          "probability": 0.9996465444564819
+        },
+        {
+          "start": 1.73,
+          "end": 1.85,
+          "word": " leur",
+          "probability": 0.8786540627479553
+        },
+        {
+          "start": 1.85,
+          "end": 2.43,
+          "word": " conversation",
+          "probability": 0.9993312358856201
+        },
+        {
+          "start": 2.43,
+          "end": 2.65,
+          "word": "?",
+          "probability": 0.9931700229644775
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "scene": "dice_21",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/dice_21.mp3",
+  "sha256": "e767a82aab8ae266c0b92bc1f4ecc6e565b54199b276935b6948f0ff85a55629",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.83775,
+  "text": "Bravo!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.35,
+      "end": 3.33,
+      "text": " Bravo!",
+      "tokens": [
+        50365,
+        28861,
+        2298,
+        50439
+      ],
+      "avg_logprob": -0.5036190986633301,
+      "compression_ratio": 0.4666666666666667,
+      "no_speech_prob": 1.507986617521606e-11,
+      "words": [
+        {
+          "start": 2.35,
+          "end": 3.03,
+          "word": " Bravo",
+          "probability": 0.9744214415550232
+        },
+        {
+          "start": 3.03,
+          "end": 3.33,
+          "word": "!",
+          "probability": 0.646203339099884
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

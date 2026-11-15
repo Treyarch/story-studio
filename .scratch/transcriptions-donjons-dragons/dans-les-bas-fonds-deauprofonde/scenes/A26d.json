@@ -1,0 +1,779 @@
+{
+  "scene": "A26d",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A26d.mp3",
+  "sha256": "0eaf011b6eb4a29962a5fc1bd870cfb5f0b466420a94b2f5e7bb0e69c6153b2a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 28.5234375,
+  "text": "Tu en profites pour te servir aussi. Après tout, qui remarquera qu'il manque un objet de plus? Et vu tous les efforts que tu as déployés pour être ici, tu peux bien te récompenser. Ça peut toujours servir. Alors que tu glisses ta main dans un casier, tu découvres des tubes contenant des sorts qui n'apparaissent pas sur ta liste. Tu te dis que tu peux en empocher un sans que Kissandra le remarque. Ils sont étiquetés pour en faciliter le rangement.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.26,
+      "end": 3.26,
+      "text": " Tu en profites pour te servir aussi.",
+      "tokens": [
+        50365,
+        7836,
+        465,
+        1740,
+        3324,
+        2016,
+        535,
+        29463,
+        6212,
+        13,
+        50467
+      ],
+      "avg_logprob": -0.07427269729840405,
+      "compression_ratio": 1.602787456445993,
+      "no_speech_prob": 8.145353315447412e-12,
+      "words": [
+        {
+          "start": 1.26,
+          "end": 1.64,
+          "word": " Tu",
+          "probability": 0.9714880585670471
+        },
+        {
+          "start": 1.64,
+          "end": 1.82,
+          "word": " en",
+          "probability": 0.9999289512634277
+        },
+        {
+          "start": 1.82,
+          "end": 2.28,
+          "word": " profites",
+          "probability": 0.9449304342269897
+        },
+        {
+          "start": 2.28,
+          "end": 2.42,
+          "word": " pour",
+          "probability": 0.9999402761459351
+        },
+        {
+          "start": 2.42,
+          "end": 2.58,
+          "word": " te",
+          "probability": 0.9999427795410156
+        },
+        {
+          "start": 2.58,
+          "end": 2.92,
+          "word": " servir",
+          "probability": 0.9999759197235107
+        },
+        {
+          "start": 2.92,
+          "end": 3.26,
+          "word": " aussi.",
+          "probability": 0.9998238682746887
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.92,
+      "end": 7.24,
+      "text": " Après tout, qui remarquera qu'il manque un objet de plus?",
+      "tokens": [
+        50509,
+        29265,
+        3486,
+        11,
+        1956,
+        34329,
+        358,
+        1663,
+        421,
+        6,
+        388,
+        48124,
+        517,
+        14964,
+        368,
+        1804,
+        2506,
+        50677
+      ],
+      "avg_logprob": -0.07427269729840405,
+      "compression_ratio": 1.602787456445993,
+      "no_speech_prob": 8.145353315447412e-12,
+      "words": [
+        {
+          "start": 3.92,
+          "end": 4.36,
+          "word": " Après",
+          "probability": 0.9994019269943237
+        },
+        {
+          "start": 4.36,
+          "end": 4.6,
+          "word": " tout,",
+          "probability": 0.9999653100967407
+        },
+        {
+          "start": 5.06,
+          "end": 5.2,
+          "word": " qui",
+          "probability": 0.9893344044685364
+        },
+        {
+          "start": 5.2,
+          "end": 5.72,
+          "word": " remarquera",
+          "probability": 0.9994572599728903
+        },
+        {
+          "start": 5.72,
+          "end": 5.88,
+          "word": " qu",
+          "probability": 0.9999262094497681
+        },
+        {
+          "start": 5.88,
+          "end": 5.94,
+          "word": "'il",
+          "probability": 0.9999000132083893
+        },
+        {
+          "start": 5.94,
+          "end": 6.1,
+          "word": " manque",
+          "probability": 0.9997603297233582
+        },
+        {
+          "start": 6.1,
+          "end": 6.26,
+          "word": " un",
+          "probability": 0.9999152421951294
+        },
+        {
+          "start": 6.26,
+          "end": 6.5,
+          "word": " objet",
+          "probability": 0.9984877109527588
+        },
+        {
+          "start": 6.5,
+          "end": 6.64,
+          "word": " de",
+          "probability": 0.9999867677688599
+        },
+        {
+          "start": 6.64,
+          "end": 6.94,
+          "word": " plus",
+          "probability": 0.9999433755874634
+        },
+        {
+          "start": 6.94,
+          "end": 7.24,
+          "word": "?",
+          "probability": 0.9942584037780762
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.24,
+      "end": 11.46,
+      "text": " Et vu tous les efforts que tu as déployés pour être ici, tu peux bien te récompenser.",
+      "tokens": [
+        50677,
+        3790,
+        9732,
+        8317,
+        1512,
+        6484,
+        631,
+        2604,
+        382,
+        2795,
+        2384,
+        2191,
+        2016,
+        7418,
+        11575,
+        11,
+        2604,
+        14844,
+        3610,
+        535,
+        3960,
+        21541,
+        30041,
+        13,
+        50876
+      ],
+      "avg_logprob": -0.07427269729840405,
+      "compression_ratio": 1.602787456445993,
+      "no_speech_prob": 8.145353315447412e-12,
+      "words": [
+        {
+          "start": 7.24,
+          "end": 7.6,
+          "word": " Et",
+          "probability": 0.9992056488990784
+        },
+        {
+          "start": 7.6,
+          "end": 7.76,
+          "word": " vu",
+          "probability": 0.9998470544815063
+        },
+        {
+          "start": 7.76,
+          "end": 7.92,
+          "word": " tous",
+          "probability": 0.9988045692443848
+        },
+        {
+          "start": 7.92,
+          "end": 8.06,
+          "word": " les",
+          "probability": 0.9999628067016602
+        },
+        {
+          "start": 8.06,
+          "end": 8.38,
+          "word": " efforts",
+          "probability": 0.9995693564414978
+        },
+        {
+          "start": 8.38,
+          "end": 8.54,
+          "word": " que",
+          "probability": 0.9998393058776855
+        },
+        {
+          "start": 8.54,
+          "end": 8.66,
+          "word": " tu",
+          "probability": 0.9999765157699585
+        },
+        {
+          "start": 8.66,
+          "end": 8.76,
+          "word": " as",
+          "probability": 0.9991076588630676
+        },
+        {
+          "start": 8.76,
+          "end": 9.28,
+          "word": " déployés",
+          "probability": 0.9951769113540649
+        },
+        {
+          "start": 9.28,
+          "end": 9.48,
+          "word": " pour",
+          "probability": 0.9998964071273804
+        },
+        {
+          "start": 9.48,
+          "end": 9.62,
+          "word": " être",
+          "probability": 0.9998044371604919
+        },
+        {
+          "start": 9.62,
+          "end": 9.92,
+          "word": " ici,",
+          "probability": 0.9997788071632385
+        },
+        {
+          "start": 10.22,
+          "end": 10.42,
+          "word": " tu",
+          "probability": 0.9998763799667358
+        },
+        {
+          "start": 10.42,
+          "end": 10.56,
+          "word": " peux",
+          "probability": 0.9997829794883728
+        },
+        {
+          "start": 10.56,
+          "end": 10.74,
+          "word": " bien",
+          "probability": 0.9999516010284424
+        },
+        {
+          "start": 10.74,
+          "end": 10.88,
+          "word": " te",
+          "probability": 0.9999464750289917
+        },
+        {
+          "start": 10.88,
+          "end": 11.46,
+          "word": " récompenser.",
+          "probability": 0.9994834065437317
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 11.86,
+      "end": 12.84,
+      "text": " Ça peut toujours servir.",
+      "tokens": [
+        50902,
+        11527,
+        5977,
+        11936,
+        29463,
+        13,
+        50946
+      ],
+      "avg_logprob": -0.07427269729840405,
+      "compression_ratio": 1.602787456445993,
+      "no_speech_prob": 8.145353315447412e-12,
+      "words": [
+        {
+          "start": 11.86,
+          "end": 12.08,
+          "word": " Ça",
+          "probability": 0.9951366782188416
+        },
+        {
+          "start": 12.08,
+          "end": 12.24,
+          "word": " peut",
+          "probability": 0.999764621257782
+        },
+        {
+          "start": 12.24,
+          "end": 12.46,
+          "word": " toujours",
+          "probability": 0.9999661445617676
+        },
+        {
+          "start": 12.46,
+          "end": 12.84,
+          "word": " servir.",
+          "probability": 0.9999181032180786
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 13.54,
+      "end": 15.96,
+      "text": " Alors que tu glisses ta main dans un casier,",
+      "tokens": [
+        50991,
+        9946,
+        631,
+        2604,
+        1563,
+        40487,
+        1846,
+        2135,
+        2680,
+        517,
+        3058,
+        811,
+        11,
+        51101
+      ],
+      "avg_logprob": -0.07427269729840405,
+      "compression_ratio": 1.602787456445993,
+      "no_speech_prob": 8.145353315447412e-12,
+      "words": [
+        {
+          "start": 13.54,
+          "end": 13.98,
+          "word": " Alors",
+          "probability": 0.9993613362312317
+        },
+        {
+          "start": 13.98,
+          "end": 14.2,
+          "word": " que",
+          "probability": 0.9999853372573853
+        },
+        {
+          "start": 14.2,
+          "end": 14.38,
+          "word": " tu",
+          "probability": 0.999974250793457
+        },
+        {
+          "start": 14.38,
+          "end": 14.72,
+          "word": " glisses",
+          "probability": 0.9993570446968079
+        },
+        {
+          "start": 14.72,
+          "end": 14.84,
+          "word": " ta",
+          "probability": 0.9997121691703796
+        },
+        {
+          "start": 14.84,
+          "end": 15.04,
+          "word": " main",
+          "probability": 0.9998923540115356
+        },
+        {
+          "start": 15.04,
+          "end": 15.36,
+          "word": " dans",
+          "probability": 0.9987686276435852
+        },
+        {
+          "start": 15.36,
+          "end": 15.6,
+          "word": " un",
+          "probability": 0.9999809265136719
+        },
+        {
+          "start": 15.6,
+          "end": 15.96,
+          "word": " casier,",
+          "probability": 0.9995934367179871
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 16.28,
+      "end": 20.22,
+      "text": " tu découvres des tubes contenant des sorts qui n'apparaissent pas sur ta liste.",
+      "tokens": [
+        51134,
+        2604,
+        35687,
+        495,
+        730,
+        21458,
+        21795,
+        394,
+        730,
+        7527,
+        1956,
+        297,
+        6,
+        1746,
+        2419,
+        25450,
+        1736,
+        1022,
+        1846,
+        1329,
+        68,
+        13,
+        51313
+      ],
+      "avg_logprob": -0.07427269729840405,
+      "compression_ratio": 1.602787456445993,
+      "no_speech_prob": 8.145353315447412e-12,
+      "words": [
+        {
+          "start": 16.28,
+          "end": 16.74,
+          "word": " tu",
+          "probability": 0.9996702671051025
+        },
+        {
+          "start": 16.74,
+          "end": 17.22,
+          "word": " découvres",
+          "probability": 0.9994768500328064
+        },
+        {
+          "start": 17.22,
+          "end": 17.4,
+          "word": " des",
+          "probability": 0.9998462200164795
+        },
+        {
+          "start": 17.4,
+          "end": 17.68,
+          "word": " tubes",
+          "probability": 0.9994940757751465
+        },
+        {
+          "start": 17.68,
+          "end": 18.2,
+          "word": " contenant",
+          "probability": 0.9996469914913177
+        },
+        {
+          "start": 18.2,
+          "end": 18.34,
+          "word": " des",
+          "probability": 0.9997565150260925
+        },
+        {
+          "start": 18.34,
+          "end": 18.58,
+          "word": " sorts",
+          "probability": 0.9927290081977844
+        },
+        {
+          "start": 18.58,
+          "end": 18.78,
+          "word": " qui",
+          "probability": 0.999751627445221
+        },
+        {
+          "start": 18.78,
+          "end": 18.9,
+          "word": " n",
+          "probability": 0.9999536275863647
+        },
+        {
+          "start": 18.9,
+          "end": 19.3,
+          "word": "'apparaissent",
+          "probability": 0.9995049834251404
+        },
+        {
+          "start": 19.3,
+          "end": 19.44,
+          "word": " pas",
+          "probability": 0.9999822378158569
+        },
+        {
+          "start": 19.44,
+          "end": 19.64,
+          "word": " sur",
+          "probability": 0.9998416900634766
+        },
+        {
+          "start": 19.64,
+          "end": 19.8,
+          "word": " ta",
+          "probability": 0.9998019337654114
+        },
+        {
+          "start": 19.8,
+          "end": 20.22,
+          "word": " liste.",
+          "probability": 0.999846488237381
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 20.38,
+      "end": 23.94,
+      "text": " Tu te dis que tu peux en empocher un sans que Kissandra le remarque.",
+      "tokens": [
+        51337,
+        7836,
+        535,
+        717,
+        631,
+        2604,
+        14844,
+        465,
+        846,
+        2259,
+        6759,
+        517,
+        12177,
+        631,
+        24297,
+        18401,
+        476,
+        34329,
+        1077,
+        13,
+        51500
+      ],
+      "avg_logprob": -0.07427269729840405,
+      "compression_ratio": 1.602787456445993,
+      "no_speech_prob": 8.145353315447412e-12,
+      "words": [
+        {
+          "start": 20.38,
+          "end": 20.8,
+          "word": " Tu",
+          "probability": 0.9995245933532715
+        },
+        {
+          "start": 20.8,
+          "end": 20.98,
+          "word": " te",
+          "probability": 0.9998871088027954
+        },
+        {
+          "start": 20.98,
+          "end": 21.14,
+          "word": " dis",
+          "probability": 0.9997474551200867
+        },
+        {
+          "start": 21.14,
+          "end": 21.32,
+          "word": " que",
+          "probability": 0.9999476671218872
+        },
+        {
+          "start": 21.32,
+          "end": 21.5,
+          "word": " tu",
+          "probability": 0.9999568462371826
+        },
+        {
+          "start": 21.5,
+          "end": 21.7,
+          "word": " peux",
+          "probability": 0.999208390712738
+        },
+        {
+          "start": 21.7,
+          "end": 21.86,
+          "word": " en",
+          "probability": 0.999894380569458
+        },
+        {
+          "start": 21.86,
+          "end": 22.26,
+          "word": " empocher",
+          "probability": 0.9842541217803955
+        },
+        {
+          "start": 22.26,
+          "end": 22.48,
+          "word": " un",
+          "probability": 0.999782383441925
+        },
+        {
+          "start": 22.48,
+          "end": 22.72,
+          "word": " sans",
+          "probability": 0.9982026815414429
+        },
+        {
+          "start": 22.72,
+          "end": 22.9,
+          "word": " que",
+          "probability": 0.9981227517127991
+        },
+        {
+          "start": 22.9,
+          "end": 23.34,
+          "word": " Kissandra",
+          "probability": 0.6947496682405472
+        },
+        {
+          "start": 23.34,
+          "end": 23.56,
+          "word": " le",
+          "probability": 0.9980290532112122
+        },
+        {
+          "start": 23.56,
+          "end": 23.94,
+          "word": " remarque.",
+          "probability": 0.9992131888866425
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 24.22,
+      "end": 26.6,
+      "text": " Ils sont étiquetés pour en faciliter le rangement.",
+      "tokens": [
+        51530,
+        17979,
+        4900,
+        4823,
+        3221,
+        302,
+        2191,
+        2016,
+        465,
+        10217,
+        1681,
+        476,
+        3613,
+        518,
+        13,
+        51633
+      ],
+      "avg_logprob": -0.07427269729840405,
+      "compression_ratio": 1.602787456445993,
+      "no_speech_prob": 8.145353315447412e-12,
+      "words": [
+        {
+          "start": 24.22,
+          "end": 24.66,
+          "word": " Ils",
+          "probability": 0.9992576241493225
+        },
+        {
+          "start": 24.66,
+          "end": 24.88,
+          "word": " sont",
+          "probability": 0.9996249675750732
+        },
+        {
+          "start": 24.88,
+          "end": 25.36,
+          "word": " étiquetés",
+          "probability": 0.997521698474884
+        },
+        {
+          "start": 25.36,
+          "end": 25.52,
+          "word": " pour",
+          "probability": 0.9998262524604797
+        },
+        {
+          "start": 25.52,
+          "end": 25.66,
+          "word": " en",
+          "probability": 0.9999098777770996
+        },
+        {
+          "start": 25.66,
+          "end": 26.14,
+          "word": " faciliter",
+          "probability": 0.999811977148056
+        },
+        {
+          "start": 26.14,
+          "end": 26.26,
+          "word": " le",
+          "probability": 0.9986598491668701
+        },
+        {
+          "start": 26.26,
+          "end": 26.6,
+          "word": " rangement.",
+          "probability": 0.9990007877349854
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

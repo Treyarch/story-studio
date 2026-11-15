@@ -1,0 +1,673 @@
+{
+  "scene": "A14_wis_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A14_wis_success.mp3",
+  "sha256": "fd5b571ca872028a1b600e544296536d2a5b2c06c40e4b3557594d1a1267d464",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 34.4390625,
+  "text": "Ton mobile est parfait. Ce n'est peut-être pas le plus bel objet que tu aies jamais vu, mais il fonctionne. Les équilibres sont corrects et chaque élément se déplace librement dans les tourbillons que provoquent les allées et venues du méphite fumant. Après un moment, la créature cesse ses circonvolutions autour du mobile. Un étrange sourire apparaît sur son visage. Splendide, absolument splendide. Tu as définitivement une âme d'artiste.",
+  "review": [
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.54,
+      "end": 4.18,
+      "text": " Ton mobile est parfait.",
+      "tokens": [
+        50365,
+        11385,
+        6013,
+        871,
+        36102,
+        13,
+        50448
+      ],
+      "avg_logprob": -0.10452302985570648,
+      "compression_ratio": 1.552901023890785,
+      "no_speech_prob": 7.882844550721746e-12,
+      "words": [
+        {
+          "start": 2.54,
+          "end": 3.02,
+          "word": " Ton",
+          "probability": 0.9875710010528564
+        },
+        {
+          "start": 3.02,
+          "end": 3.4,
+          "word": " mobile",
+          "probability": 0.9979425072669983
+        },
+        {
+          "start": 3.4,
+          "end": 3.74,
+          "word": " est",
+          "probability": 0.999940037727356
+        },
+        {
+          "start": 3.74,
+          "end": 4.18,
+          "word": " parfait.",
+          "probability": 0.9999505281448364
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.48,
+      "end": 8.82,
+      "text": " Ce n'est peut-être pas le plus bel objet que tu aies jamais vu, mais il fonctionne.",
+      "tokens": [
+        50486,
+        8257,
+        297,
+        6,
+        377,
+        5977,
+        12,
+        9498,
+        1736,
+        476,
+        1804,
+        989,
+        14964,
+        631,
+        2604,
+        257,
+        530,
+        14540,
+        9732,
+        11,
+        2420,
+        1930,
+        49216,
+        13,
+        50681
+      ],
+      "avg_logprob": -0.10452302985570648,
+      "compression_ratio": 1.552901023890785,
+      "no_speech_prob": 7.882844550721746e-12,
+      "words": [
+        {
+          "start": 4.48,
+          "end": 5.04,
+          "word": " Ce",
+          "probability": 0.9996988773345947
+        },
+        {
+          "start": 5.04,
+          "end": 5.14,
+          "word": " n",
+          "probability": 0.9999428987503052
+        },
+        {
+          "start": 5.14,
+          "end": 5.2,
+          "word": "'est",
+          "probability": 0.9999942779541016
+        },
+        {
+          "start": 5.2,
+          "end": 5.38,
+          "word": " peut",
+          "probability": 0.9998602867126465
+        },
+        {
+          "start": 5.38,
+          "end": 5.54,
+          "word": "-être",
+          "probability": 0.9998791515827179
+        },
+        {
+          "start": 5.54,
+          "end": 5.76,
+          "word": " pas",
+          "probability": 0.9999709129333496
+        },
+        {
+          "start": 5.76,
+          "end": 5.94,
+          "word": " le",
+          "probability": 0.9999157190322876
+        },
+        {
+          "start": 5.94,
+          "end": 6.12,
+          "word": " plus",
+          "probability": 0.9998342990875244
+        },
+        {
+          "start": 6.12,
+          "end": 6.36,
+          "word": " bel",
+          "probability": 0.9994124174118042
+        },
+        {
+          "start": 6.36,
+          "end": 6.62,
+          "word": " objet",
+          "probability": 0.9979472756385803
+        },
+        {
+          "start": 6.62,
+          "end": 6.82,
+          "word": " que",
+          "probability": 0.9998606443405151
+        },
+        {
+          "start": 6.82,
+          "end": 6.96,
+          "word": " tu",
+          "probability": 0.9999569654464722
+        },
+        {
+          "start": 6.96,
+          "end": 7.1,
+          "word": " aies",
+          "probability": 0.9577558934688568
+        },
+        {
+          "start": 7.1,
+          "end": 7.34,
+          "word": " jamais",
+          "probability": 0.999931812286377
+        },
+        {
+          "start": 7.34,
+          "end": 7.54,
+          "word": " vu,",
+          "probability": 0.9992825388908386
+        },
+        {
+          "start": 7.82,
+          "end": 8.22,
+          "word": " mais",
+          "probability": 0.9998205304145813
+        },
+        {
+          "start": 8.22,
+          "end": 8.36,
+          "word": " il",
+          "probability": 0.9998005032539368
+        },
+        {
+          "start": 8.36,
+          "end": 8.82,
+          "word": " fonctionne.",
+          "probability": 0.9997475743293762
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.34,
+      "end": 17.24,
+      "text": " Les équilibres sont corrects et chaque élément se déplace librement dans les tourbillons que provoquent les allées et venues du méphite fumant.",
+      "tokens": [
+        50727,
+        6965,
+        25830,
+        12722,
+        495,
+        4900,
+        3006,
+        82,
+        1030,
+        18920,
+        11810,
+        17595,
+        369,
+        2795,
+        6742,
+        29976,
+        518,
+        2680,
+        1512,
+        3512,
+        65,
+        373,
+        892,
+        631,
+        1439,
+        78,
+        28842,
+        1512,
+        439,
+        6836,
+        1030,
+        32882,
+        1581,
+        13191,
+        69,
+        414,
+        368,
+        43845,
+        394,
+        13,
+        51101
+      ],
+      "avg_logprob": -0.10452302985570648,
+      "compression_ratio": 1.552901023890785,
+      "no_speech_prob": 7.882844550721746e-12,
+      "words": [
+        {
+          "start": 9.34,
+          "end": 9.94,
+          "word": " Les",
+          "probability": 0.9994638562202454
+        },
+        {
+          "start": 9.94,
+          "end": 10.52,
+          "word": " équilibres",
+          "probability": 0.9995407064755758
+        },
+        {
+          "start": 10.52,
+          "end": 10.74,
+          "word": " sont",
+          "probability": 0.9998307228088379
+        },
+        {
+          "start": 10.74,
+          "end": 11.3,
+          "word": " corrects",
+          "probability": 0.999138593673706
+        },
+        {
+          "start": 11.3,
+          "end": 11.68,
+          "word": " et",
+          "probability": 0.8269912600517273
+        },
+        {
+          "start": 11.68,
+          "end": 12.0,
+          "word": " chaque",
+          "probability": 0.9998076558113098
+        },
+        {
+          "start": 12.0,
+          "end": 12.4,
+          "word": " élément",
+          "probability": 0.999703973531723
+        },
+        {
+          "start": 12.4,
+          "end": 12.66,
+          "word": " se",
+          "probability": 0.9997343420982361
+        },
+        {
+          "start": 12.66,
+          "end": 13.12,
+          "word": " déplace",
+          "probability": 0.9993396103382111
+        },
+        {
+          "start": 13.12,
+          "end": 13.88,
+          "word": " librement",
+          "probability": 0.9994697570800781
+        },
+        {
+          "start": 13.88,
+          "end": 14.04,
+          "word": " dans",
+          "probability": 0.9998514652252197
+        },
+        {
+          "start": 14.04,
+          "end": 14.2,
+          "word": " les",
+          "probability": 0.9997469782829285
+        },
+        {
+          "start": 14.2,
+          "end": 14.7,
+          "word": " tourbillons",
+          "probability": 0.9992574006319046
+        },
+        {
+          "start": 14.7,
+          "end": 14.86,
+          "word": " que",
+          "probability": 0.9993496537208557
+        },
+        {
+          "start": 14.86,
+          "end": 15.36,
+          "word": " provoquent",
+          "probability": 0.9960609674453735
+        },
+        {
+          "start": 15.36,
+          "end": 15.58,
+          "word": " les",
+          "probability": 0.9999198913574219
+        },
+        {
+          "start": 15.58,
+          "end": 15.82,
+          "word": " allées",
+          "probability": 0.9897115230560303
+        },
+        {
+          "start": 15.82,
+          "end": 16.06,
+          "word": " et",
+          "probability": 0.99993896484375
+        },
+        {
+          "start": 16.06,
+          "end": 16.3,
+          "word": " venues",
+          "probability": 0.9974430799484253
+        },
+        {
+          "start": 16.3,
+          "end": 16.5,
+          "word": " du",
+          "probability": 0.9996600151062012
+        },
+        {
+          "start": 16.5,
+          "end": 16.84,
+          "word": " méfie",
+          "probability": 0.6570759018262228
+        },
+        {
+          "start": 16.84,
+          "end": 16.94,
+          "word": " de",
+          "probability": 0.9942893981933594
+        },
+        {
+          "start": 16.94,
+          "end": 17.24,
+          "word": " fumant.",
+          "probability": 0.8098541796207428
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 17.66,
+      "end": 22.36,
+      "text": " Après un moment, la créature cesse ses circonvolutions autour du mobile.",
+      "tokens": [
+        51139,
+        29265,
+        517,
+        1623,
+        11,
+        635,
+        15609,
+        1503,
+        269,
+        7357,
+        5385,
+        2450,
+        1671,
+        85,
+        15892,
+        30249,
+        1581,
+        6013,
+        13,
+        51357
+      ],
+      "avg_logprob": -0.10452302985570648,
+      "compression_ratio": 1.552901023890785,
+      "no_speech_prob": 7.882844550721746e-12,
+      "words": [
+        {
+          "start": 17.66,
+          "end": 18.26,
+          "word": " Après",
+          "probability": 0.9995428323745728
+        },
+        {
+          "start": 18.26,
+          "end": 18.4,
+          "word": " un",
+          "probability": 0.9999818801879883
+        },
+        {
+          "start": 18.4,
+          "end": 18.66,
+          "word": " moment,",
+          "probability": 0.9999257326126099
+        },
+        {
+          "start": 19.24,
+          "end": 19.38,
+          "word": " la",
+          "probability": 0.9996838569641113
+        },
+        {
+          "start": 19.38,
+          "end": 19.98,
+          "word": " créature",
+          "probability": 0.9998921751976013
+        },
+        {
+          "start": 19.98,
+          "end": 20.4,
+          "word": " cesse",
+          "probability": 0.9994543790817261
+        },
+        {
+          "start": 20.4,
+          "end": 20.7,
+          "word": " ses",
+          "probability": 0.9903361797332764
+        },
+        {
+          "start": 20.7,
+          "end": 21.48,
+          "word": " circonvolutions",
+          "probability": 0.9964207410812378
+        },
+        {
+          "start": 21.48,
+          "end": 21.84,
+          "word": " autour",
+          "probability": 0.9997594952583313
+        },
+        {
+          "start": 21.84,
+          "end": 22.04,
+          "word": " du",
+          "probability": 0.9999474287033081
+        },
+        {
+          "start": 22.04,
+          "end": 22.36,
+          "word": " mobile.",
+          "probability": 0.9996013045310974
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 23.62,
+      "end": 26.44,
+      "text": " Un étrange sourire apparaît sur son visage.",
+      "tokens": [
+        51425,
+        1156,
+        4823,
+        14521,
+        11006,
+        621,
+        724,
+        2419,
+        20028,
+        1022,
+        1872,
+        1452,
+        609,
+        13,
+        51561
+      ],
+      "avg_logprob": -0.10452302985570648,
+      "compression_ratio": 1.552901023890785,
+      "no_speech_prob": 7.882844550721746e-12,
+      "words": [
+        {
+          "start": 23.62,
+          "end": 24.22,
+          "word": " Un",
+          "probability": 0.9993025064468384
+        },
+        {
+          "start": 24.22,
+          "end": 24.7,
+          "word": " étrange",
+          "probability": 0.9993299543857574
+        },
+        {
+          "start": 24.7,
+          "end": 25.16,
+          "word": " sourire",
+          "probability": 0.9998377561569214
+        },
+        {
+          "start": 25.16,
+          "end": 25.66,
+          "word": " apparaît",
+          "probability": 0.9993359645207723
+        },
+        {
+          "start": 25.66,
+          "end": 25.82,
+          "word": " sur",
+          "probability": 0.9999237060546875
+        },
+        {
+          "start": 25.82,
+          "end": 26.0,
+          "word": " son",
+          "probability": 0.9999098777770996
+        },
+        {
+          "start": 26.0,
+          "end": 26.44,
+          "word": " visage.",
+          "probability": 0.9998882710933685
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 26.8,
+      "end": 32.24,
+      "text": " Splendide, absolument splendide. Tu as définitivement une âme d'artiste.",
+      "tokens": [
+        51582,
+        19788,
+        521,
+        482,
+        11,
+        34508,
+        34350,
+        482,
+        13,
+        7836,
+        382,
+        40763,
+        2187,
+        518,
+        2251,
+        20621,
+        1398,
+        274,
+        6,
+        446,
+        8375,
+        13,
+        51851
+      ],
+      "avg_logprob": -0.10452302985570648,
+      "compression_ratio": 1.552901023890785,
+      "no_speech_prob": 7.882844550721746e-12,
+      "words": [
+        {
+          "start": 26.8,
+          "end": 27.4,
+          "word": " Splendide,",
+          "probability": 0.9833660324414571
+        },
+        {
+          "start": 27.78,
+          "end": 28.38,
+          "word": " absolument",
+          "probability": 0.9999414682388306
+        },
+        {
+          "start": 28.38,
+          "end": 29.16,
+          "word": " splendide.",
+          "probability": 0.988258957862854
+        },
+        {
+          "start": 29.48,
+          "end": 29.8,
+          "word": " Tu",
+          "probability": 0.9968751668930054
+        },
+        {
+          "start": 29.8,
+          "end": 29.96,
+          "word": " as",
+          "probability": 0.999567449092865
+        },
+        {
+          "start": 29.96,
+          "end": 30.88,
+          "word": " définitivement",
+          "probability": 0.9997661908467611
+        },
+        {
+          "start": 30.88,
+          "end": 31.12,
+          "word": " une",
+          "probability": 0.9983218312263489
+        },
+        {
+          "start": 31.12,
+          "end": 31.34,
+          "word": " âme",
+          "probability": 0.9998366236686707
+        },
+        {
+          "start": 31.34,
+          "end": 31.48,
+          "word": " d",
+          "probability": 0.999948263168335
+        },
+        {
+          "start": 31.48,
+          "end": 32.24,
+          "word": "'artiste.",
+          "probability": 0.9997113545735677
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

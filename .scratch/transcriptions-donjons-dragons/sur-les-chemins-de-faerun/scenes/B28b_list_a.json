@@ -1,0 +1,68 @@
+{
+  "scene": "B28b_list_a",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B28b_list_a.mp3",
+  "sha256": "b0e134f252c704643d53c0a399669a427e5e947cfe78fb96641c74178c16504c",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.6481875,
+  "text": "Que comptes-tu faire?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.24,
+      "end": 1.26,
+      "text": " Que comptes-tu faire?",
+      "tokens": [
+        50365,
+        4493,
+        15660,
+        279,
+        12,
+        9179,
+        4865,
+        2506,
+        50435
+      ],
+      "avg_logprob": -0.328047975897789,
+      "compression_ratio": 0.7333333333333333,
+      "no_speech_prob": 4.62775564397111e-12,
+      "words": [
+        {
+          "start": 0.24,
+          "end": 0.46,
+          "word": " Que",
+          "probability": 0.705308198928833
+        },
+        {
+          "start": 0.46,
+          "end": 0.84,
+          "word": " comptes",
+          "probability": 0.9967028796672821
+        },
+        {
+          "start": 0.84,
+          "end": 0.96,
+          "word": "-tu",
+          "probability": 0.9957263469696045
+        },
+        {
+          "start": 0.96,
+          "end": 1.26,
+          "word": " faire",
+          "probability": 0.9996758699417114
+        },
+        {
+          "start": 1.26,
+          "end": 1.26,
+          "word": "?",
+          "probability": 0.9849949479103088
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

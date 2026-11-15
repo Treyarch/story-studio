@@ -1,0 +1,72 @@
+{
+  "scene": "B28_chapitre",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B28_chapitre.mp3",
+  "sha256": "9cd14f925c492badd71c33d20c0e593c07933635cfe2030cb95b651f74cf48ec",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.118625,
+  "text": "Aux profondes, cité des splendeurs.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.7,
+      "text": " Aux profondes, cité des splendeurs.",
+      "tokens": [
+        50365,
+        316,
+        2449,
+        1740,
+        684,
+        279,
+        11,
+        4814,
+        526,
+        730,
+        4732,
+        5445,
+        2156,
+        13,
+        50501
+      ],
+      "avg_logprob": -0.20987811964005232,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 6.86174207731316e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.46,
+          "word": " Aux",
+          "probability": 0.7181184589862823
+        },
+        {
+          "start": 0.46,
+          "end": 1.2,
+          "word": " profondes,",
+          "probability": 0.9814441402753195
+        },
+        {
+          "start": 1.5,
+          "end": 1.78,
+          "word": " cité",
+          "probability": 0.7104666382074356
+        },
+        {
+          "start": 1.78,
+          "end": 1.98,
+          "word": " des",
+          "probability": 0.9997385144233704
+        },
+        {
+          "start": 1.98,
+          "end": 2.7,
+          "word": " splendeurs.",
+          "probability": 0.9890482227007548
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

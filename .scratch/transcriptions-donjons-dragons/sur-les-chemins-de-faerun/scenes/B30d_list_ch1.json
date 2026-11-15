@@ -1,0 +1,75 @@
+{
+  "scene": "B30d_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B30d_list_ch1.mp3",
+  "sha256": "f6835f3f2ee846575fa953fe7c4bfa9471fb62605d8cacc53d7c852f6791f675",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.290125,
+  "text": "Cherchez le livre qui t'intéresse.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.94,
+      "text": " Cherchez le livre qui t'intéresse.",
+      "tokens": [
+        50365,
+        14825,
+        30196,
+        476,
+        24735,
+        1956,
+        256,
+        6,
+        36934,
+        22603,
+        13,
+        50463
+      ],
+      "avg_logprob": -0.3252041981770442,
+      "compression_ratio": 0.813953488372093,
+      "no_speech_prob": 6.0307158572525665e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.7,
+          "word": " Cherchez",
+          "probability": 0.6442364454269409
+        },
+        {
+          "start": 0.7,
+          "end": 0.84,
+          "word": " le",
+          "probability": 0.9986521601676941
+        },
+        {
+          "start": 0.84,
+          "end": 1.12,
+          "word": " livre",
+          "probability": 0.9993109703063965
+        },
+        {
+          "start": 1.12,
+          "end": 1.34,
+          "word": " qui",
+          "probability": 0.9993008375167847
+        },
+        {
+          "start": 1.34,
+          "end": 1.44,
+          "word": " t",
+          "probability": 0.9997809529304504
+        },
+        {
+          "start": 1.44,
+          "end": 1.94,
+          "word": "'intéresse.",
+          "probability": 0.9995999733606974
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

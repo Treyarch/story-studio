@@ -1,0 +1,972 @@
+{
+  "scene": "B33d",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B33d.mp3",
+  "sha256": "f2a24c6bf1b2a361e6635bbb06e651a7519badb107a6b2c557a718fa88e38038",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 41.048125,
+  "text": "Le cube gélatineux avance dans ton dos. Tu ouvres la bouche pour crier. Avant que tu n'y parviennes, le monstre t'avale. Ton seul soulagement? Avoir pu inspirer une grande goulée d'air avant qu'il ne te hape. Tu constates avec horreur que la créature continue d'avancer vers la grille et essaie de te pousser entre les barreaux. Tu te rassures en te disant que tu n'y es toi-même pas parvenu. Sauf que la créature qui t'a ingurgité est composée d'une matière si grasse et huileuse que tu commences effectivement à glisser à travers les barreaux.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.87,
+      "end": 4.51,
+      "text": " Le cube gélatineux avance dans ton dos.",
+      "tokens": [
+        50365,
+        1456,
+        13728,
+        290,
+        8025,
+        267,
+        533,
+        2449,
+        1305,
+        719,
+        2680,
+        2952,
+        4491,
+        13,
+        50498
+      ],
+      "avg_logprob": -0.11479636244740046,
+      "compression_ratio": 1.5753968253968254,
+      "no_speech_prob": 6.82187075926044e-12,
+      "words": [
+        {
+          "start": 1.87,
+          "end": 2.43,
+          "word": " Le",
+          "probability": 0.9195444583892822
+        },
+        {
+          "start": 2.43,
+          "end": 2.79,
+          "word": " cube",
+          "probability": 0.9971352815628052
+        },
+        {
+          "start": 2.79,
+          "end": 3.51,
+          "word": " gélatineux",
+          "probability": 0.9962172746658325
+        },
+        {
+          "start": 3.51,
+          "end": 4.01,
+          "word": " avance",
+          "probability": 0.9997790157794952
+        },
+        {
+          "start": 4.01,
+          "end": 4.15,
+          "word": " dans",
+          "probability": 0.999942421913147
+        },
+        {
+          "start": 4.15,
+          "end": 4.35,
+          "word": " ton",
+          "probability": 0.9999414682388306
+        },
+        {
+          "start": 4.35,
+          "end": 4.51,
+          "word": " dos.",
+          "probability": 0.9983847141265869
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.03,
+      "end": 6.77,
+      "text": " Tu ouvres la bouche pour crier.",
+      "tokens": [
+        50541,
+        7836,
+        21157,
+        495,
+        635,
+        15345,
+        1876,
+        2016,
+        269,
+        7326,
+        13,
+        50610
+      ],
+      "avg_logprob": -0.11479636244740046,
+      "compression_ratio": 1.5753968253968254,
+      "no_speech_prob": 6.82187075926044e-12,
+      "words": [
+        {
+          "start": 5.03,
+          "end": 5.51,
+          "word": " Tu",
+          "probability": 0.9992715716362
+        },
+        {
+          "start": 5.51,
+          "end": 5.81,
+          "word": " ouvres",
+          "probability": 0.9998625814914703
+        },
+        {
+          "start": 5.81,
+          "end": 5.97,
+          "word": " la",
+          "probability": 0.9999505281448364
+        },
+        {
+          "start": 5.97,
+          "end": 6.25,
+          "word": " bouche",
+          "probability": 0.9998264014720917
+        },
+        {
+          "start": 6.25,
+          "end": 6.47,
+          "word": " pour",
+          "probability": 0.9999735355377197
+        },
+        {
+          "start": 6.47,
+          "end": 6.77,
+          "word": " crier.",
+          "probability": 0.9978589117527008
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.23,
+      "end": 10.15,
+      "text": " Avant que tu n'y parviennes, le monstre t'avale.",
+      "tokens": [
+        50644,
+        44822,
+        631,
+        2604,
+        297,
+        6,
+        88,
+        971,
+        85,
+        1053,
+        4081,
+        11,
+        476,
+        1108,
+        26421,
+        256,
+        6,
+        706,
+        1220,
+        13,
+        50780
+      ],
+      "avg_logprob": -0.11479636244740046,
+      "compression_ratio": 1.5753968253968254,
+      "no_speech_prob": 6.82187075926044e-12,
+      "words": [
+        {
+          "start": 7.23,
+          "end": 7.65,
+          "word": " Avant",
+          "probability": 0.998783528804779
+        },
+        {
+          "start": 7.65,
+          "end": 7.83,
+          "word": " que",
+          "probability": 0.999915361404419
+        },
+        {
+          "start": 7.83,
+          "end": 7.95,
+          "word": " tu",
+          "probability": 0.9992563128471375
+        },
+        {
+          "start": 7.95,
+          "end": 8.07,
+          "word": " n",
+          "probability": 0.9991791844367981
+        },
+        {
+          "start": 8.07,
+          "end": 8.11,
+          "word": "'y",
+          "probability": 0.9999850392341614
+        },
+        {
+          "start": 8.11,
+          "end": 8.65,
+          "word": " parviennes,",
+          "probability": 0.9904565662145615
+        },
+        {
+          "start": 8.87,
+          "end": 9.23,
+          "word": " le",
+          "probability": 0.9994339346885681
+        },
+        {
+          "start": 9.23,
+          "end": 9.63,
+          "word": " monstre",
+          "probability": 0.9977653622627258
+        },
+        {
+          "start": 9.63,
+          "end": 9.85,
+          "word": " t",
+          "probability": 0.9982749223709106
+        },
+        {
+          "start": 9.85,
+          "end": 10.15,
+          "word": "'avale.",
+          "probability": 0.9971550107002258
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 10.81,
+      "end": 12.07,
+      "text": " Ton seul soulagement?",
+      "tokens": [
+        50820,
+        11385,
+        24448,
+        5133,
+        11129,
+        2506,
+        50897
+      ],
+      "avg_logprob": -0.11479636244740046,
+      "compression_ratio": 1.5753968253968254,
+      "no_speech_prob": 6.82187075926044e-12,
+      "words": [
+        {
+          "start": 10.81,
+          "end": 11.09,
+          "word": " Ton",
+          "probability": 0.9987843632698059
+        },
+        {
+          "start": 11.09,
+          "end": 11.35,
+          "word": " seul",
+          "probability": 0.9998513460159302
+        },
+        {
+          "start": 11.35,
+          "end": 11.85,
+          "word": " soulagement",
+          "probability": 0.9996806383132935
+        },
+        {
+          "start": 11.85,
+          "end": 12.07,
+          "word": "?",
+          "probability": 0.6092267036437988
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 12.07,
+      "end": 15.41,
+      "text": " Avoir pu inspirer une grande goulée d'air avant qu'il ne te hape.",
+      "tokens": [
+        50897,
+        316,
+        8823,
+        2362,
+        17432,
+        260,
+        2251,
+        8883,
+        290,
+        3298,
+        3856,
+        274,
+        6,
+        1246,
+        13439,
+        421,
+        6,
+        388,
+        408,
+        535,
+        324,
+        494,
+        13,
+        51043
+      ],
+      "avg_logprob": -0.11479636244740046,
+      "compression_ratio": 1.5753968253968254,
+      "no_speech_prob": 6.82187075926044e-12,
+      "words": [
+        {
+          "start": 12.07,
+          "end": 12.75,
+          "word": " Avoir",
+          "probability": 0.9819852113723755
+        },
+        {
+          "start": 12.75,
+          "end": 12.91,
+          "word": " pu",
+          "probability": 0.9998810291290283
+        },
+        {
+          "start": 12.91,
+          "end": 13.37,
+          "word": " inspirer",
+          "probability": 0.9990912675857544
+        },
+        {
+          "start": 13.37,
+          "end": 13.53,
+          "word": " une",
+          "probability": 0.9997344613075256
+        },
+        {
+          "start": 13.53,
+          "end": 13.77,
+          "word": " grande",
+          "probability": 0.9996546506881714
+        },
+        {
+          "start": 13.77,
+          "end": 14.07,
+          "word": " goulée",
+          "probability": 0.8142897387345632
+        },
+        {
+          "start": 14.07,
+          "end": 14.17,
+          "word": " d",
+          "probability": 0.9999969005584717
+        },
+        {
+          "start": 14.17,
+          "end": 14.31,
+          "word": "'air",
+          "probability": 0.9998631179332733
+        },
+        {
+          "start": 14.31,
+          "end": 14.63,
+          "word": " avant",
+          "probability": 0.9991282820701599
+        },
+        {
+          "start": 14.63,
+          "end": 14.79,
+          "word": " qu",
+          "probability": 0.9999762773513794
+        },
+        {
+          "start": 14.79,
+          "end": 14.87,
+          "word": "'il",
+          "probability": 0.9989223480224609
+        },
+        {
+          "start": 14.87,
+          "end": 14.99,
+          "word": " ne",
+          "probability": 0.9998822212219238
+        },
+        {
+          "start": 14.99,
+          "end": 15.13,
+          "word": " te",
+          "probability": 0.9998706579208374
+        },
+        {
+          "start": 15.13,
+          "end": 15.41,
+          "word": " hape.",
+          "probability": 0.648030549287796
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 16.15,
+      "end": 20.89,
+      "text": " Tu constates avec horreur que la créature continue d'avancer vers la grille",
+      "tokens": [
+        51094,
+        7836,
+        1817,
+        1024,
+        4163,
+        2569,
+        265,
+        374,
+        631,
+        635,
+        15609,
+        1503,
+        2354,
+        274,
+        6,
+        21071,
+        1776,
+        1774,
+        635,
+        49011,
+        51317
+      ],
+      "avg_logprob": -0.11479636244740046,
+      "compression_ratio": 1.5753968253968254,
+      "no_speech_prob": 6.82187075926044e-12,
+      "words": [
+        {
+          "start": 16.15,
+          "end": 16.71,
+          "word": " Tu",
+          "probability": 0.9993164539337158
+        },
+        {
+          "start": 16.71,
+          "end": 17.27,
+          "word": " constates",
+          "probability": 0.9981963336467743
+        },
+        {
+          "start": 17.27,
+          "end": 17.61,
+          "word": " avec",
+          "probability": 0.9987452030181885
+        },
+        {
+          "start": 17.61,
+          "end": 18.09,
+          "word": " horreur",
+          "probability": 0.9998054901758829
+        },
+        {
+          "start": 18.09,
+          "end": 18.51,
+          "word": " que",
+          "probability": 0.9998018145561218
+        },
+        {
+          "start": 18.51,
+          "end": 18.67,
+          "word": " la",
+          "probability": 0.9998493194580078
+        },
+        {
+          "start": 18.67,
+          "end": 19.21,
+          "word": " créature",
+          "probability": 0.9997973144054413
+        },
+        {
+          "start": 19.21,
+          "end": 19.81,
+          "word": " continue",
+          "probability": 0.9998517036437988
+        },
+        {
+          "start": 19.81,
+          "end": 19.93,
+          "word": " d",
+          "probability": 0.999915599822998
+        },
+        {
+          "start": 19.93,
+          "end": 20.29,
+          "word": "'avancer",
+          "probability": 0.9997730851173401
+        },
+        {
+          "start": 20.29,
+          "end": 20.45,
+          "word": " vers",
+          "probability": 0.9998179078102112
+        },
+        {
+          "start": 20.45,
+          "end": 20.61,
+          "word": " la",
+          "probability": 0.999885082244873
+        },
+        {
+          "start": 20.61,
+          "end": 20.89,
+          "word": " grille",
+          "probability": 0.9962072372436523
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 20.89,
+      "end": 23.21,
+      "text": " et essaie de te pousser entre les barreaux.",
+      "tokens": [
+        51317,
+        1030,
+        7208,
+        414,
+        368,
+        535,
+        39140,
+        12484,
+        3962,
+        1512,
+        43834,
+        7511,
+        13,
+        51433
+      ],
+      "avg_logprob": -0.11479636244740046,
+      "compression_ratio": 1.5753968253968254,
+      "no_speech_prob": 6.82187075926044e-12,
+      "words": [
+        {
+          "start": 20.89,
+          "end": 21.39,
+          "word": " et",
+          "probability": 0.9844421744346619
+        },
+        {
+          "start": 21.39,
+          "end": 21.83,
+          "word": " essaie",
+          "probability": 0.9970047473907471
+        },
+        {
+          "start": 21.83,
+          "end": 21.93,
+          "word": " de",
+          "probability": 0.9999861717224121
+        },
+        {
+          "start": 21.93,
+          "end": 22.09,
+          "word": " te",
+          "probability": 0.999613344669342
+        },
+        {
+          "start": 22.09,
+          "end": 22.53,
+          "word": " pousser",
+          "probability": 0.9998479187488556
+        },
+        {
+          "start": 22.53,
+          "end": 22.75,
+          "word": " entre",
+          "probability": 0.9989822506904602
+        },
+        {
+          "start": 22.75,
+          "end": 22.95,
+          "word": " les",
+          "probability": 0.9999146461486816
+        },
+        {
+          "start": 22.95,
+          "end": 23.21,
+          "word": " barreaux.",
+          "probability": 0.9987365901470184
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 23.91,
+      "end": 27.53,
+      "text": " Tu te rassures en te disant que tu n'y es toi-même pas parvenu.",
+      "tokens": [
+        51478,
+        7836,
+        535,
+        367,
+        640,
+        1303,
+        465,
+        535,
+        717,
+        394,
+        631,
+        2604,
+        297,
+        6,
+        88,
+        785,
+        15648,
+        12,
+        27770,
+        1736,
+        971,
+        553,
+        84,
+        13,
+        51650
+      ],
+      "avg_logprob": -0.11479636244740046,
+      "compression_ratio": 1.5753968253968254,
+      "no_speech_prob": 6.82187075926044e-12,
+      "words": [
+        {
+          "start": 23.91,
+          "end": 24.23,
+          "word": " Tu",
+          "probability": 0.9982074499130249
+        },
+        {
+          "start": 24.23,
+          "end": 24.39,
+          "word": " te",
+          "probability": 0.9980136156082153
+        },
+        {
+          "start": 24.39,
+          "end": 24.85,
+          "word": " rassures",
+          "probability": 0.9983621835708618
+        },
+        {
+          "start": 24.85,
+          "end": 25.31,
+          "word": " en",
+          "probability": 0.9977918863296509
+        },
+        {
+          "start": 25.31,
+          "end": 25.45,
+          "word": " te",
+          "probability": 0.9999023675918579
+        },
+        {
+          "start": 25.45,
+          "end": 25.79,
+          "word": " disant",
+          "probability": 0.9998149275779724
+        },
+        {
+          "start": 25.79,
+          "end": 26.03,
+          "word": " que",
+          "probability": 0.9997978806495667
+        },
+        {
+          "start": 26.03,
+          "end": 26.17,
+          "word": " tu",
+          "probability": 0.9985238909721375
+        },
+        {
+          "start": 26.17,
+          "end": 26.31,
+          "word": " n",
+          "probability": 0.9997618794441223
+        },
+        {
+          "start": 26.31,
+          "end": 26.41,
+          "word": "'y",
+          "probability": 0.9999068081378937
+        },
+        {
+          "start": 26.41,
+          "end": 26.45,
+          "word": " es",
+          "probability": 0.9916355609893799
+        },
+        {
+          "start": 26.45,
+          "end": 26.63,
+          "word": " toi",
+          "probability": 0.9976576566696167
+        },
+        {
+          "start": 26.63,
+          "end": 26.85,
+          "word": "-même",
+          "probability": 0.9959365725517273
+        },
+        {
+          "start": 26.85,
+          "end": 27.03,
+          "word": " pas",
+          "probability": 0.9997552037239075
+        },
+        {
+          "start": 27.03,
+          "end": 27.53,
+          "word": " parvenu.",
+          "probability": 0.9709641138712565
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2566,
+      "start": 29.67,
+      "end": 34.85,
+      "text": " Sauf que la créature qui t'a ingurgité est composée d'une matière si grasse et huileuse",
+      "tokens": [
+        50403,
+        318,
+        9507,
+        631,
+        635,
+        15609,
+        1503,
+        1956,
+        256,
+        6,
+        64,
+        3957,
+        5476,
+        5066,
+        871,
+        10199,
+        3856,
+        274,
+        6,
+        2613,
+        46600,
+        1511,
+        677,
+        8604,
+        1030,
+        2137,
+        794,
+        438,
+        50662
+      ],
+      "avg_logprob": -0.0907838320278603,
+      "compression_ratio": 1.264,
+      "no_speech_prob": 6.545228768695122e-12,
+      "words": [
+        {
+          "start": 29.67,
+          "end": 29.99,
+          "word": " Sauf",
+          "probability": 0.9564186036586761
+        },
+        {
+          "start": 29.99,
+          "end": 30.13,
+          "word": " que",
+          "probability": 0.9998906850814819
+        },
+        {
+          "start": 30.13,
+          "end": 30.27,
+          "word": " la",
+          "probability": 0.9995861649513245
+        },
+        {
+          "start": 30.27,
+          "end": 30.83,
+          "word": " créature",
+          "probability": 0.9999011754989624
+        },
+        {
+          "start": 30.83,
+          "end": 31.01,
+          "word": " qui",
+          "probability": 0.9918551445007324
+        },
+        {
+          "start": 31.01,
+          "end": 31.11,
+          "word": " t",
+          "probability": 0.9995098114013672
+        },
+        {
+          "start": 31.11,
+          "end": 31.19,
+          "word": "'a",
+          "probability": 0.9988196492195129
+        },
+        {
+          "start": 31.19,
+          "end": 31.89,
+          "word": " ingurgité",
+          "probability": 0.9784576892852783
+        },
+        {
+          "start": 31.89,
+          "end": 32.37,
+          "word": " est",
+          "probability": 0.9399417638778687
+        },
+        {
+          "start": 32.37,
+          "end": 32.91,
+          "word": " composée",
+          "probability": 0.998631626367569
+        },
+        {
+          "start": 32.91,
+          "end": 33.01,
+          "word": " d",
+          "probability": 0.9998025298118591
+        },
+        {
+          "start": 33.01,
+          "end": 33.09,
+          "word": "'une",
+          "probability": 0.9999595880508423
+        },
+        {
+          "start": 33.09,
+          "end": 33.49,
+          "word": " matière",
+          "probability": 0.9999209642410278
+        },
+        {
+          "start": 33.49,
+          "end": 33.83,
+          "word": " si",
+          "probability": 0.9989593029022217
+        },
+        {
+          "start": 33.83,
+          "end": 34.17,
+          "word": " grasse",
+          "probability": 0.9827715456485748
+        },
+        {
+          "start": 34.17,
+          "end": 34.33,
+          "word": " et",
+          "probability": 0.9996175765991211
+        },
+        {
+          "start": 34.33,
+          "end": 34.85,
+          "word": " huileuse",
+          "probability": 0.9994939565658569
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2566,
+      "start": 34.85,
+      "end": 37.87,
+      "text": " que tu commences effectivement à glisser à travers les barreaux.",
+      "tokens": [
+        50662,
+        631,
+        2604,
+        800,
+        2667,
+        40126,
+        1531,
+        1563,
+        23714,
+        1531,
+        23149,
+        1512,
+        43834,
+        7511,
+        13,
+        50813
+      ],
+      "avg_logprob": -0.0907838320278603,
+      "compression_ratio": 1.264,
+      "no_speech_prob": 6.545228768695122e-12,
+      "words": [
+        {
+          "start": 34.85,
+          "end": 35.39,
+          "word": " que",
+          "probability": 0.8726730346679688
+        },
+        {
+          "start": 35.39,
+          "end": 35.53,
+          "word": " tu",
+          "probability": 0.9997153878211975
+        },
+        {
+          "start": 35.53,
+          "end": 35.93,
+          "word": " commences",
+          "probability": 0.9976785778999329
+        },
+        {
+          "start": 35.93,
+          "end": 36.33,
+          "word": " effectivement",
+          "probability": 0.9969947338104248
+        },
+        {
+          "start": 36.33,
+          "end": 36.63,
+          "word": " à",
+          "probability": 0.9996626377105713
+        },
+        {
+          "start": 36.63,
+          "end": 37.01,
+          "word": " glisser",
+          "probability": 0.9998496472835541
+        },
+        {
+          "start": 37.01,
+          "end": 37.15,
+          "word": " à",
+          "probability": 0.9997549653053284
+        },
+        {
+          "start": 37.15,
+          "end": 37.43,
+          "word": " travers",
+          "probability": 0.9999731779098511
+        },
+        {
+          "start": 37.43,
+          "end": 37.61,
+          "word": " les",
+          "probability": 0.9997953772544861
+        },
+        {
+          "start": 37.61,
+          "end": 37.87,
+          "word": " barreaux.",
+          "probability": 0.998204380273819
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

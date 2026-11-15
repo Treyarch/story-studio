@@ -1,0 +1,67 @@
+{
+  "scene": "B59_list_ch5",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B59_list_ch5.mp3",
+  "sha256": "bb75e976154d15cda32a825d95e051456469308f8a3cc700e6332cca862dbc77",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.6318125,
+  "text": "Jeter un sort de traduction.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.97,
+      "text": " Jeter un sort de traduction.",
+      "tokens": [
+        50365,
+        508,
+        2398,
+        517,
+        1333,
+        368,
+        2479,
+        27549,
+        13,
+        50463
+      ],
+      "avg_logprob": -0.214525813406164,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 4.58234795594481e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.77,
+          "word": " Jeter",
+          "probability": 0.7834786176681519
+        },
+        {
+          "start": 0.77,
+          "end": 0.99,
+          "word": " un",
+          "probability": 0.9993732571601868
+        },
+        {
+          "start": 0.99,
+          "end": 1.29,
+          "word": " sort",
+          "probability": 0.9993689656257629
+        },
+        {
+          "start": 1.29,
+          "end": 1.47,
+          "word": " de",
+          "probability": 0.9999362230300903
+        },
+        {
+          "start": 1.47,
+          "end": 1.97,
+          "word": " traduction.",
+          "probability": 0.9983727931976318
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

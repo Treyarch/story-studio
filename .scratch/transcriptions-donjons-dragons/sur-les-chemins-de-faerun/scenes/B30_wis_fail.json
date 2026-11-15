@@ -1,0 +1,455 @@
+{
+  "scene": "B30_wis_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B30_wis_fail.mp3",
+  "sha256": "56869c0feabe49ad81cd1f20838dbae1ee29ca60e285cf159cdfe3db0e89f71d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 18.40075,
+  "text": "Cette impression d'être observé ne te quitte pas. Pourtant, tu ne remarques rien de suspect. Bigre! Aurais-tu raté quelque chose? Tant pis, tu ne vas pas gâcher ton premier jour à haut profond à cause de cela. Tu as du pain sur la planche.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.91,
+      "end": 3.71,
+      "text": " Cette impression d'être observé ne te quitte pas.",
+      "tokens": [
+        50365,
+        25556,
+        9995,
+        274,
+        6,
+        9498,
+        9951,
+        526,
+        408,
+        535,
+        421,
+        9786,
+        1736,
+        13,
+        50506
+      ],
+      "avg_logprob": -0.10835514924948729,
+      "compression_ratio": 1.3423913043478262,
+      "no_speech_prob": 7.804740360939366e-12,
+      "words": [
+        {
+          "start": 0.91,
+          "end": 1.41,
+          "word": " Cette",
+          "probability": 0.9622757434844971
+        },
+        {
+          "start": 1.41,
+          "end": 1.95,
+          "word": " impression",
+          "probability": 0.9995803236961365
+        },
+        {
+          "start": 1.95,
+          "end": 2.15,
+          "word": " d",
+          "probability": 0.9998397827148438
+        },
+        {
+          "start": 2.15,
+          "end": 2.29,
+          "word": "'être",
+          "probability": 0.9999215602874756
+        },
+        {
+          "start": 2.29,
+          "end": 2.95,
+          "word": " observé",
+          "probability": 0.7990402281284332
+        },
+        {
+          "start": 2.95,
+          "end": 3.09,
+          "word": " ne",
+          "probability": 0.9996980428695679
+        },
+        {
+          "start": 3.09,
+          "end": 3.23,
+          "word": " te",
+          "probability": 0.9999269247055054
+        },
+        {
+          "start": 3.23,
+          "end": 3.51,
+          "word": " quitte",
+          "probability": 0.9989692568778992
+        },
+        {
+          "start": 3.51,
+          "end": 3.71,
+          "word": " pas.",
+          "probability": 0.9999791383743286
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.07,
+      "end": 6.47,
+      "text": " Pourtant, tu ne remarques rien de suspect.",
+      "tokens": [
+        50531,
+        8732,
+        35717,
+        11,
+        2604,
+        408,
+        34329,
+        7519,
+        13355,
+        368,
+        9091,
+        13,
+        50643
+      ],
+      "avg_logprob": -0.10835514924948729,
+      "compression_ratio": 1.3423913043478262,
+      "no_speech_prob": 7.804740360939366e-12,
+      "words": [
+        {
+          "start": 4.07,
+          "end": 4.53,
+          "word": " Pourtant,",
+          "probability": 0.9992317855358124
+        },
+        {
+          "start": 4.73,
+          "end": 5.09,
+          "word": " tu",
+          "probability": 0.9997281432151794
+        },
+        {
+          "start": 5.09,
+          "end": 5.23,
+          "word": " ne",
+          "probability": 0.9999576807022095
+        },
+        {
+          "start": 5.23,
+          "end": 5.67,
+          "word": " remarques",
+          "probability": 0.9998887181282043
+        },
+        {
+          "start": 5.67,
+          "end": 5.93,
+          "word": " rien",
+          "probability": 0.9998791217803955
+        },
+        {
+          "start": 5.93,
+          "end": 6.11,
+          "word": " de",
+          "probability": 0.9999381303787231
+        },
+        {
+          "start": 6.11,
+          "end": 6.47,
+          "word": " suspect.",
+          "probability": 0.9980248212814331
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 6.91,
+      "end": 9.77,
+      "text": " Bigre! Aurais-tu raté quelque chose?",
+      "tokens": [
+        50666,
+        5429,
+        265,
+        2298,
+        26945,
+        1527,
+        12,
+        9179,
+        5937,
+        526,
+        14448,
+        5111,
+        2506,
+        50831
+      ],
+      "avg_logprob": -0.10835514924948729,
+      "compression_ratio": 1.3423913043478262,
+      "no_speech_prob": 7.804740360939366e-12,
+      "words": [
+        {
+          "start": 6.91,
+          "end": 7.29,
+          "word": " Bigre",
+          "probability": 0.9777660667896271
+        },
+        {
+          "start": 7.29,
+          "end": 7.73,
+          "word": "!",
+          "probability": 0.8010514974594116
+        },
+        {
+          "start": 7.73,
+          "end": 8.13,
+          "word": " Aurais",
+          "probability": 0.9939143359661102
+        },
+        {
+          "start": 8.13,
+          "end": 8.27,
+          "word": "-tu",
+          "probability": 0.999098151922226
+        },
+        {
+          "start": 8.27,
+          "end": 8.57,
+          "word": " raté",
+          "probability": 0.9998028874397278
+        },
+        {
+          "start": 8.57,
+          "end": 8.79,
+          "word": " quelque",
+          "probability": 0.9998770952224731
+        },
+        {
+          "start": 8.79,
+          "end": 9.21,
+          "word": " chose",
+          "probability": 0.9999886751174927
+        },
+        {
+          "start": 9.21,
+          "end": 9.77,
+          "word": "?",
+          "probability": 0.9989981055259705
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 9.77,
+      "end": 14.25,
+      "text": " Tant pis, tu ne vas pas gâcher ton premier jour à haut profond à cause de cela.",
+      "tokens": [
+        50831,
+        314,
+        394,
+        26584,
+        11,
+        2604,
+        408,
+        11481,
+        1736,
+        290,
+        3201,
+        6759,
+        2952,
+        12689,
+        2827,
+        1531,
+        29032,
+        1740,
+        684,
+        1531,
+        3082,
+        368,
+        15437,
+        13,
+        51033
+      ],
+      "avg_logprob": -0.10835514924948729,
+      "compression_ratio": 1.3423913043478262,
+      "no_speech_prob": 7.804740360939366e-12,
+      "words": [
+        {
+          "start": 9.77,
+          "end": 10.47,
+          "word": " Tant",
+          "probability": 0.9953728914260864
+        },
+        {
+          "start": 10.47,
+          "end": 10.63,
+          "word": " pis,",
+          "probability": 0.9983918070793152
+        },
+        {
+          "start": 11.21,
+          "end": 11.31,
+          "word": " tu",
+          "probability": 0.9993951320648193
+        },
+        {
+          "start": 11.31,
+          "end": 11.41,
+          "word": " ne",
+          "probability": 0.9997946619987488
+        },
+        {
+          "start": 11.41,
+          "end": 11.51,
+          "word": " vas",
+          "probability": 0.9990192651748657
+        },
+        {
+          "start": 11.51,
+          "end": 11.67,
+          "word": " pas",
+          "probability": 0.9999767541885376
+        },
+        {
+          "start": 11.67,
+          "end": 11.97,
+          "word": " gâcher",
+          "probability": 0.9996212323506674
+        },
+        {
+          "start": 11.97,
+          "end": 12.13,
+          "word": " ton",
+          "probability": 0.9994237422943115
+        },
+        {
+          "start": 12.13,
+          "end": 12.49,
+          "word": " premier",
+          "probability": 0.9992464780807495
+        },
+        {
+          "start": 12.49,
+          "end": 12.77,
+          "word": " jour",
+          "probability": 0.9992917776107788
+        },
+        {
+          "start": 12.77,
+          "end": 12.95,
+          "word": " à",
+          "probability": 0.9231343865394592
+        },
+        {
+          "start": 12.95,
+          "end": 13.15,
+          "word": " haut",
+          "probability": 0.8573801517486572
+        },
+        {
+          "start": 13.15,
+          "end": 13.51,
+          "word": " profond",
+          "probability": 0.9822686016559601
+        },
+        {
+          "start": 13.51,
+          "end": 13.67,
+          "word": " à",
+          "probability": 0.8079164624214172
+        },
+        {
+          "start": 13.67,
+          "end": 13.87,
+          "word": " cause",
+          "probability": 0.9991663694381714
+        },
+        {
+          "start": 13.87,
+          "end": 13.99,
+          "word": " de",
+          "probability": 0.9997227787971497
+        },
+        {
+          "start": 13.99,
+          "end": 14.25,
+          "word": " cela.",
+          "probability": 0.9992669224739075
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 14.51,
+      "end": 16.05,
+      "text": " Tu as du pain sur la planche.",
+      "tokens": [
+        51061,
+        7836,
+        382,
+        1581,
+        1822,
+        1022,
+        635,
+        1393,
+        1876,
+        13,
+        51123
+      ],
+      "avg_logprob": -0.10835514924948729,
+      "compression_ratio": 1.3423913043478262,
+      "no_speech_prob": 7.804740360939366e-12,
+      "words": [
+        {
+          "start": 14.51,
+          "end": 14.93,
+          "word": " Tu",
+          "probability": 0.9983362555503845
+        },
+        {
+          "start": 14.93,
+          "end": 15.05,
+          "word": " as",
+          "probability": 0.9996763467788696
+        },
+        {
+          "start": 15.05,
+          "end": 15.17,
+          "word": " du",
+          "probability": 0.9992382526397705
+        },
+        {
+          "start": 15.17,
+          "end": 15.37,
+          "word": " pain",
+          "probability": 0.9975537657737732
+        },
+        {
+          "start": 15.37,
+          "end": 15.55,
+          "word": " sur",
+          "probability": 0.9996247291564941
+        },
+        {
+          "start": 15.55,
+          "end": 15.69,
+          "word": " la",
+          "probability": 0.9999568462371826
+        },
+        {
+          "start": 15.69,
+          "end": 16.05,
+          "word": " planche.",
+          "probability": 0.9998109936714172
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

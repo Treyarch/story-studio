@@ -1,0 +1,158 @@
+{
+  "scene": "item_sac-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_sac-fr_FR.mp3",
+  "sha256": "df39cde93183307c52e9e41d527ff654fff13b0c621d0225457ba74d443d09d8",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 6.7894375,
+  "text": "Un sac magique, plus grand à l'intérieur qu'à l'extérieur, pratique en bien des circonstances.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.11,
+      "end": 5.95,
+      "text": " Un sac magique, plus grand à l'intérieur qu'à l'extérieur, pratique en bien des circonstances.",
+      "tokens": [
+        50365,
+        1156,
+        4899,
+        2258,
+        1925,
+        11,
+        1804,
+        2697,
+        1531,
+        287,
+        6,
+        39166,
+        421,
+        6,
+        1467,
+        287,
+        6,
+        3828,
+        24608,
+        11,
+        43740,
+        465,
+        3610,
+        730,
+        2450,
+        25279,
+        2676,
+        13,
+        50657
+      ],
+      "avg_logprob": -0.0668591819703579,
+      "compression_ratio": 1.0769230769230769,
+      "no_speech_prob": 5.683621975838271e-12,
+      "words": [
+        {
+          "start": 0.11,
+          "end": 0.55,
+          "word": " Un",
+          "probability": 0.9617676734924316
+        },
+        {
+          "start": 0.55,
+          "end": 0.83,
+          "word": " sac",
+          "probability": 0.9993484616279602
+        },
+        {
+          "start": 0.83,
+          "end": 1.39,
+          "word": " magique,",
+          "probability": 0.9995936155319214
+        },
+        {
+          "start": 1.53,
+          "end": 1.81,
+          "word": " plus",
+          "probability": 0.9999494552612305
+        },
+        {
+          "start": 1.81,
+          "end": 2.03,
+          "word": " grand",
+          "probability": 0.9998449087142944
+        },
+        {
+          "start": 2.03,
+          "end": 2.17,
+          "word": " à",
+          "probability": 0.99988853931427
+        },
+        {
+          "start": 2.17,
+          "end": 2.25,
+          "word": " l",
+          "probability": 0.999990701675415
+        },
+        {
+          "start": 2.25,
+          "end": 2.63,
+          "word": "'intérieur",
+          "probability": 0.9996725022792816
+        },
+        {
+          "start": 2.63,
+          "end": 2.83,
+          "word": " qu",
+          "probability": 0.9994978904724121
+        },
+        {
+          "start": 2.83,
+          "end": 2.89,
+          "word": "'à",
+          "probability": 0.999912679195404
+        },
+        {
+          "start": 2.89,
+          "end": 2.95,
+          "word": " l",
+          "probability": 0.9999936819076538
+        },
+        {
+          "start": 2.95,
+          "end": 3.49,
+          "word": "'extérieur,",
+          "probability": 0.9998485247294108
+        },
+        {
+          "start": 4.11,
+          "end": 4.43,
+          "word": " pratique",
+          "probability": 0.9963753819465637
+        },
+        {
+          "start": 4.43,
+          "end": 4.79,
+          "word": " en",
+          "probability": 0.9998674392700195
+        },
+        {
+          "start": 4.79,
+          "end": 5.03,
+          "word": " bien",
+          "probability": 0.9998939037322998
+        },
+        {
+          "start": 5.03,
+          "end": 5.19,
+          "word": " des",
+          "probability": 0.9999111890792847
+        },
+        {
+          "start": 5.19,
+          "end": 5.95,
+          "word": " circonstances.",
+          "probability": 0.9995225071907043
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

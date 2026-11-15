@@ -1,0 +1,52 @@
+{
+  "scene": "dice_35",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/dice_35.mp3",
+  "sha256": "f6c909566004786a44bb6e396430d1dc3f97eedddc3f136a4946cb806a724419",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.56175,
+  "text": "On continue?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.18,
+      "end": 1.1,
+      "text": " On continue?",
+      "tokens": [
+        50365,
+        1282,
+        2354,
+        2506,
+        50434
+      ],
+      "avg_logprob": -0.38053855299949646,
+      "compression_ratio": 0.6190476190476191,
+      "no_speech_prob": 4.021251647640112e-12,
+      "words": [
+        {
+          "start": 0.18,
+          "end": 0.5,
+          "word": " On",
+          "probability": 0.9686347842216492
+        },
+        {
+          "start": 0.5,
+          "end": 0.92,
+          "word": " continue",
+          "probability": 0.9998138546943665
+        },
+        {
+          "start": 0.92,
+          "end": 1.1,
+          "word": "?",
+          "probability": 0.9804070591926575
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

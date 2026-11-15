@@ -1,0 +1,56 @@
+{
+  "scene": "A12_chapitre",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A12_chapitre.mp3",
+  "sha256": "13430490ca5d76864b61ea826d0a4fadfe876ddda6b529f18b35651d59da2b25",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.89625,
+  "text": "le méphite fumant.",
+  "review": [
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.52,
+      "text": " le méphite fumant.",
+      "tokens": [
+        50365,
+        476,
+        13191,
+        69,
+        642,
+        43845,
+        394,
+        13,
+        50442
+      ],
+      "avg_logprob": -0.2868576139211655,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 3.895793410091386e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.4,
+          "word": " le",
+          "probability": 0.4492999017238617
+        },
+        {
+          "start": 0.4,
+          "end": 0.96,
+          "word": " méphite",
+          "probability": 0.8053134679794312
+        },
+        {
+          "start": 0.96,
+          "end": 1.52,
+          "word": " fumant.",
+          "probability": 0.9990376830101013
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

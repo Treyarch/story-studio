@@ -1,0 +1,1109 @@
+{
+  "scene": "B42b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B42b.mp3",
+  "sha256": "fd3343149b2db3ee4cb6fe924f50396e77c2319844cbe5f41ccb97e360d74bc9",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 42.1438125,
+  "text": "Pourquoi le cherches-tu? Tu lui expliques que Renaer Neverember t'a envoyé chercher des affaires qu'il a laissées au château et il croit que certaines peuvent avoir fini entre les mains du seigneur Phylund. Il est donc essentiel que tu le trouves. Elle hausse les épaules, estimant sans doute que tu n'es pas une menace, et lâche. Bon, il ne doit pas être loin. Garde les yeux ouverts. Si je le vois partir, je lui dirai que tu le cherches. Tu remercies la garde et retournes à ton enquête. Au moins, il semble bien que le seigneur Phylund soit dans les parages. C'est plutôt une bonne nouvelle. Mais comment comptes-tu en profiter?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.87,
+      "end": 3.39,
+      "text": " Pourquoi le cherches-tu?",
+      "tokens": [
+        50365,
+        30333,
+        476,
+        12085,
+        3781,
+        12,
+        9179,
+        2506,
+        50452
+      ],
+      "avg_logprob": -0.12250231206417084,
+      "compression_ratio": 1.5791139240506329,
+      "no_speech_prob": 7.793341492978723e-12,
+      "words": [
+        {
+          "start": 1.87,
+          "end": 2.41,
+          "word": " Pourquoi",
+          "probability": 0.6584060788154602
+        },
+        {
+          "start": 2.41,
+          "end": 2.55,
+          "word": " le",
+          "probability": 0.9985072016716003
+        },
+        {
+          "start": 2.55,
+          "end": 2.77,
+          "word": " cherches",
+          "probability": 0.9744151532649994
+        },
+        {
+          "start": 2.77,
+          "end": 2.95,
+          "word": "-tu",
+          "probability": 0.9995143115520477
+        },
+        {
+          "start": 2.95,
+          "end": 3.39,
+          "word": "?",
+          "probability": 0.9936593174934387
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.39,
+      "end": 8.97,
+      "text": " Tu lui expliques que Renaer Neverember t'a envoyé chercher des affaires qu'il a laissées au château",
+      "tokens": [
+        50452,
+        7836,
+        8783,
+        1490,
+        4911,
+        631,
+        12883,
+        1193,
+        7344,
+        1304,
+        256,
+        6,
+        64,
+        35351,
+        526,
+        38747,
+        730,
+        2096,
+        10840,
+        421,
+        6,
+        388,
+        257,
+        635,
+        891,
+        6836,
+        1609,
+        417,
+        33680,
+        1459,
+        50721
+      ],
+      "avg_logprob": -0.12250231206417084,
+      "compression_ratio": 1.5791139240506329,
+      "no_speech_prob": 7.793341492978723e-12,
+      "words": [
+        {
+          "start": 3.39,
+          "end": 3.77,
+          "word": " Tu",
+          "probability": 0.9577921628952026
+        },
+        {
+          "start": 3.77,
+          "end": 3.95,
+          "word": " lui",
+          "probability": 0.9999340772628784
+        },
+        {
+          "start": 3.95,
+          "end": 4.45,
+          "word": " expliques",
+          "probability": 0.9996262490749359
+        },
+        {
+          "start": 4.45,
+          "end": 4.89,
+          "word": " que",
+          "probability": 0.9987037181854248
+        },
+        {
+          "start": 4.89,
+          "end": 5.23,
+          "word": " Renaer",
+          "probability": 0.8295630812644958
+        },
+        {
+          "start": 5.23,
+          "end": 5.87,
+          "word": " Neverember",
+          "probability": 0.5497031658887863
+        },
+        {
+          "start": 5.87,
+          "end": 6.15,
+          "word": " t",
+          "probability": 0.25152164697647095
+        },
+        {
+          "start": 6.15,
+          "end": 6.23,
+          "word": "'a",
+          "probability": 0.9988998472690582
+        },
+        {
+          "start": 6.23,
+          "end": 6.81,
+          "word": " envoyé",
+          "probability": 0.997483640909195
+        },
+        {
+          "start": 6.81,
+          "end": 7.13,
+          "word": " chercher",
+          "probability": 0.9998934268951416
+        },
+        {
+          "start": 7.13,
+          "end": 7.41,
+          "word": " des",
+          "probability": 0.999911904335022
+        },
+        {
+          "start": 7.41,
+          "end": 7.83,
+          "word": " affaires",
+          "probability": 0.9998553693294525
+        },
+        {
+          "start": 7.83,
+          "end": 8.13,
+          "word": " qu",
+          "probability": 0.8018171787261963
+        },
+        {
+          "start": 8.13,
+          "end": 8.21,
+          "word": "'il",
+          "probability": 0.9999767541885376
+        },
+        {
+          "start": 8.21,
+          "end": 8.29,
+          "word": " a",
+          "probability": 0.9998468160629272
+        },
+        {
+          "start": 8.29,
+          "end": 8.51,
+          "word": " laissées",
+          "probability": 0.9774027665456136
+        },
+        {
+          "start": 8.51,
+          "end": 8.63,
+          "word": " au",
+          "probability": 0.9990569949150085
+        },
+        {
+          "start": 8.63,
+          "end": 8.97,
+          "word": " château",
+          "probability": 0.9993012348810831
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.97,
+      "end": 13.31,
+      "text": " et il croit que certaines peuvent avoir fini entre les mains du seigneur Phylund.",
+      "tokens": [
+        50721,
+        1030,
+        1930,
+        4848,
+        270,
+        631,
+        36993,
+        24335,
+        10853,
+        40634,
+        3962,
+        1512,
+        32519,
+        1581,
+        369,
+        26341,
+        374,
+        46530,
+        1661,
+        13,
+        50938
+      ],
+      "avg_logprob": -0.12250231206417084,
+      "compression_ratio": 1.5791139240506329,
+      "no_speech_prob": 7.793341492978723e-12,
+      "words": [
+        {
+          "start": 8.97,
+          "end": 9.35,
+          "word": " et",
+          "probability": 0.4943917691707611
+        },
+        {
+          "start": 9.35,
+          "end": 9.53,
+          "word": " il",
+          "probability": 0.9991338849067688
+        },
+        {
+          "start": 9.53,
+          "end": 9.83,
+          "word": " croit",
+          "probability": 0.9969570636749268
+        },
+        {
+          "start": 9.83,
+          "end": 10.11,
+          "word": " que",
+          "probability": 0.9998937845230103
+        },
+        {
+          "start": 10.11,
+          "end": 10.63,
+          "word": " certaines",
+          "probability": 0.9989621639251709
+        },
+        {
+          "start": 10.63,
+          "end": 10.95,
+          "word": " peuvent",
+          "probability": 0.9994456171989441
+        },
+        {
+          "start": 10.95,
+          "end": 11.23,
+          "word": " avoir",
+          "probability": 0.9999529123306274
+        },
+        {
+          "start": 11.23,
+          "end": 11.59,
+          "word": " fini",
+          "probability": 0.9916427135467529
+        },
+        {
+          "start": 11.59,
+          "end": 12.07,
+          "word": " entre",
+          "probability": 0.9946286082267761
+        },
+        {
+          "start": 12.07,
+          "end": 12.25,
+          "word": " les",
+          "probability": 0.999975323677063
+        },
+        {
+          "start": 12.25,
+          "end": 12.41,
+          "word": " mains",
+          "probability": 0.9998121857643127
+        },
+        {
+          "start": 12.41,
+          "end": 12.55,
+          "word": " du",
+          "probability": 0.9997765421867371
+        },
+        {
+          "start": 12.55,
+          "end": 12.89,
+          "word": " seigneur",
+          "probability": 0.893099288145701
+        },
+        {
+          "start": 12.89,
+          "end": 13.31,
+          "word": " Phylund.",
+          "probability": 0.5211374312639236
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 13.57,
+      "end": 15.81,
+      "text": " Il est donc essentiel que tu le trouves.",
+      "tokens": [
+        50966,
+        4416,
+        871,
+        5926,
+        47056,
+        1187,
+        631,
+        2604,
+        476,
+        3455,
+        977,
+        13,
+        51063
+      ],
+      "avg_logprob": -0.12250231206417084,
+      "compression_ratio": 1.5791139240506329,
+      "no_speech_prob": 7.793341492978723e-12,
+      "words": [
+        {
+          "start": 13.57,
+          "end": 14.03,
+          "word": " Il",
+          "probability": 0.9986263513565063
+        },
+        {
+          "start": 14.03,
+          "end": 14.13,
+          "word": " est",
+          "probability": 0.9999563694000244
+        },
+        {
+          "start": 14.13,
+          "end": 14.37,
+          "word": " donc",
+          "probability": 0.9999309778213501
+        },
+        {
+          "start": 14.37,
+          "end": 15.03,
+          "word": " essentiel",
+          "probability": 0.999854177236557
+        },
+        {
+          "start": 15.03,
+          "end": 15.17,
+          "word": " que",
+          "probability": 0.9999442100524902
+        },
+        {
+          "start": 15.17,
+          "end": 15.31,
+          "word": " tu",
+          "probability": 0.9999127388000488
+        },
+        {
+          "start": 15.31,
+          "end": 15.45,
+          "word": " le",
+          "probability": 0.9999433755874634
+        },
+        {
+          "start": 15.45,
+          "end": 15.81,
+          "word": " trouves.",
+          "probability": 0.9908701777458191
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 16.31,
+      "end": 21.63,
+      "text": " Elle hausse les épaules, estimant sans doute que tu n'es pas une menace, et lâche.",
+      "tokens": [
+        51097,
+        16227,
+        324,
+        301,
+        405,
+        1512,
+        1136,
+        4306,
+        3473,
+        11,
+        8017,
+        394,
+        12177,
+        41984,
+        631,
+        2604,
+        297,
+        6,
+        279,
+        1736,
+        2251,
+        1706,
+        617,
+        11,
+        1030,
+        48835,
+        1876,
+        13,
+        51354
+      ],
+      "avg_logprob": -0.12250231206417084,
+      "compression_ratio": 1.5791139240506329,
+      "no_speech_prob": 7.793341492978723e-12,
+      "words": [
+        {
+          "start": 16.31,
+          "end": 16.69,
+          "word": " Elle",
+          "probability": 0.9473575949668884
+        },
+        {
+          "start": 16.69,
+          "end": 16.99,
+          "word": " hausse",
+          "probability": 0.9921808242797852
+        },
+        {
+          "start": 16.99,
+          "end": 17.19,
+          "word": " les",
+          "probability": 0.9998688697814941
+        },
+        {
+          "start": 17.19,
+          "end": 17.61,
+          "word": " épaules,",
+          "probability": 0.9995615482330322
+        },
+        {
+          "start": 18.09,
+          "end": 18.77,
+          "word": " estimant",
+          "probability": 0.9926730692386627
+        },
+        {
+          "start": 18.77,
+          "end": 18.99,
+          "word": " sans",
+          "probability": 0.9998747110366821
+        },
+        {
+          "start": 18.99,
+          "end": 19.23,
+          "word": " doute",
+          "probability": 0.9999936819076538
+        },
+        {
+          "start": 19.23,
+          "end": 19.41,
+          "word": " que",
+          "probability": 0.999757707118988
+        },
+        {
+          "start": 19.41,
+          "end": 19.55,
+          "word": " tu",
+          "probability": 0.9996225833892822
+        },
+        {
+          "start": 19.55,
+          "end": 19.67,
+          "word": " n",
+          "probability": 0.9998792409896851
+        },
+        {
+          "start": 19.67,
+          "end": 19.73,
+          "word": "'es",
+          "probability": 0.9805071353912354
+        },
+        {
+          "start": 19.73,
+          "end": 19.91,
+          "word": " pas",
+          "probability": 0.9998784065246582
+        },
+        {
+          "start": 19.91,
+          "end": 20.11,
+          "word": " une",
+          "probability": 0.9993717074394226
+        },
+        {
+          "start": 20.11,
+          "end": 20.61,
+          "word": " menace,",
+          "probability": 0.9995482861995697
+        },
+        {
+          "start": 20.81,
+          "end": 21.25,
+          "word": " et",
+          "probability": 0.9977446794509888
+        },
+        {
+          "start": 21.25,
+          "end": 21.63,
+          "word": " lâche.",
+          "probability": 0.9990579187870026
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 21.91,
+      "end": 23.57,
+      "text": " Bon, il ne doit pas être loin.",
+      "tokens": [
+        51370,
+        7368,
+        11,
+        1930,
+        408,
+        19193,
+        1736,
+        7418,
+        25048,
+        13,
+        51452
+      ],
+      "avg_logprob": -0.12250231206417084,
+      "compression_ratio": 1.5791139240506329,
+      "no_speech_prob": 7.793341492978723e-12,
+      "words": [
+        {
+          "start": 21.91,
+          "end": 22.17,
+          "word": " Bon,",
+          "probability": 0.9633097052574158
+        },
+        {
+          "start": 22.49,
+          "end": 22.79,
+          "word": " il",
+          "probability": 0.9998292922973633
+        },
+        {
+          "start": 22.79,
+          "end": 22.89,
+          "word": " ne",
+          "probability": 0.9999444484710693
+        },
+        {
+          "start": 22.89,
+          "end": 23.03,
+          "word": " doit",
+          "probability": 0.9994144439697266
+        },
+        {
+          "start": 23.03,
+          "end": 23.15,
+          "word": " pas",
+          "probability": 0.9999873638153076
+        },
+        {
+          "start": 23.15,
+          "end": 23.33,
+          "word": " être",
+          "probability": 0.9998733997344971
+        },
+        {
+          "start": 23.33,
+          "end": 23.57,
+          "word": " loin.",
+          "probability": 0.9996353387832642
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 24.29,
+      "end": 25.19,
+      "text": " Garde les yeux ouverts.",
+      "tokens": [
+        51489,
+        460,
+        10866,
+        1512,
+        36163,
+        2820,
+        36999,
+        13,
+        51533
+      ],
+      "avg_logprob": -0.12250231206417084,
+      "compression_ratio": 1.5791139240506329,
+      "no_speech_prob": 7.793341492978723e-12,
+      "words": [
+        {
+          "start": 24.29,
+          "end": 24.55,
+          "word": " Garde",
+          "probability": 0.9931765496730804
+        },
+        {
+          "start": 24.55,
+          "end": 24.69,
+          "word": " les",
+          "probability": 0.9998651742935181
+        },
+        {
+          "start": 24.69,
+          "end": 24.85,
+          "word": " yeux",
+          "probability": 0.9999589920043945
+        },
+        {
+          "start": 24.85,
+          "end": 25.19,
+          "word": " ouverts.",
+          "probability": 0.9983966052532196
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 25.49,
+      "end": 27.59,
+      "text": " Si je le vois partir, je lui dirai que tu le cherches.",
+      "tokens": [
+        51560,
+        4909,
+        1506,
+        476,
+        18297,
+        13906,
+        11,
+        1506,
+        8783,
+        4746,
+        1301,
+        631,
+        2604,
+        476,
+        12085,
+        3781,
+        13,
+        51652
+      ],
+      "avg_logprob": -0.12250231206417084,
+      "compression_ratio": 1.5791139240506329,
+      "no_speech_prob": 7.793341492978723e-12,
+      "words": [
+        {
+          "start": 25.49,
+          "end": 25.85,
+          "word": " Si",
+          "probability": 0.9985054731369019
+        },
+        {
+          "start": 25.85,
+          "end": 25.93,
+          "word": " je",
+          "probability": 0.9993608593940735
+        },
+        {
+          "start": 25.93,
+          "end": 26.03,
+          "word": " le",
+          "probability": 0.9995169639587402
+        },
+        {
+          "start": 26.03,
+          "end": 26.13,
+          "word": " vois",
+          "probability": 0.9995418787002563
+        },
+        {
+          "start": 26.13,
+          "end": 26.45,
+          "word": " partir,",
+          "probability": 0.9997608065605164
+        },
+        {
+          "start": 26.73,
+          "end": 26.81,
+          "word": " je",
+          "probability": 0.999152660369873
+        },
+        {
+          "start": 26.81,
+          "end": 26.91,
+          "word": " lui",
+          "probability": 0.9991363883018494
+        },
+        {
+          "start": 26.91,
+          "end": 27.05,
+          "word": " dirai",
+          "probability": 0.9171794652938843
+        },
+        {
+          "start": 27.05,
+          "end": 27.19,
+          "word": " que",
+          "probability": 0.9999147653579712
+        },
+        {
+          "start": 27.19,
+          "end": 27.25,
+          "word": " tu",
+          "probability": 0.9998656511306763
+        },
+        {
+          "start": 27.25,
+          "end": 27.33,
+          "word": " le",
+          "probability": 0.9998886585235596
+        },
+        {
+          "start": 27.33,
+          "end": 27.59,
+          "word": " cherches.",
+          "probability": 0.9975726306438446
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 27.97,
+      "end": 30.99,
+      "text": " Tu remercies la garde et retournes à ton enquête.",
+      "tokens": [
+        51684,
+        7836,
+        890,
+        2869,
+        530,
+        635,
+        47903,
+        1030,
+        28873,
+        4081,
+        1531,
+        2952,
+        21304,
+        12943,
+        13,
+        51822
+      ],
+      "avg_logprob": -0.12250231206417084,
+      "compression_ratio": 1.5791139240506329,
+      "no_speech_prob": 7.793341492978723e-12,
+      "words": [
+        {
+          "start": 27.97,
+          "end": 28.41,
+          "word": " Tu",
+          "probability": 0.9978729486465454
+        },
+        {
+          "start": 28.41,
+          "end": 28.89,
+          "word": " remercies",
+          "probability": 0.9910043478012085
+        },
+        {
+          "start": 28.89,
+          "end": 29.07,
+          "word": " la",
+          "probability": 0.9945672750473022
+        },
+        {
+          "start": 29.07,
+          "end": 29.33,
+          "word": " garde",
+          "probability": 0.998814582824707
+        },
+        {
+          "start": 29.33,
+          "end": 29.81,
+          "word": " et",
+          "probability": 0.9988798499107361
+        },
+        {
+          "start": 29.81,
+          "end": 30.33,
+          "word": " retournes",
+          "probability": 0.9880853593349457
+        },
+        {
+          "start": 30.33,
+          "end": 30.41,
+          "word": " à",
+          "probability": 0.9996534585952759
+        },
+        {
+          "start": 30.41,
+          "end": 30.55,
+          "word": " ton",
+          "probability": 0.9991776347160339
+        },
+        {
+          "start": 30.55,
+          "end": 30.99,
+          "word": " enquête.",
+          "probability": 0.9997174143791199
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 3000,
+      "start": 31.87,
+      "end": 36.09,
+      "text": " Au moins, il semble bien que le seigneur Phylund soit dans les parages.",
+      "tokens": [
+        50365,
+        12160,
+        13099,
+        11,
+        1930,
+        38328,
+        3610,
+        631,
+        476,
+        369,
+        26341,
+        374,
+        2623,
+        88,
+        1661,
+        12703,
+        2680,
+        1512,
+        971,
+        1660,
+        13,
+        50576
+      ],
+      "avg_logprob": -0.19580354028277927,
+      "compression_ratio": 1.153225806451613,
+      "no_speech_prob": 5.630163869840832e-12,
+      "words": [
+        {
+          "start": 31.87,
+          "end": 32.11,
+          "word": " Au",
+          "probability": 0.9517983198165894
+        },
+        {
+          "start": 32.11,
+          "end": 32.35,
+          "word": " moins,",
+          "probability": 0.999900221824646
+        },
+        {
+          "start": 32.87,
+          "end": 33.03,
+          "word": " il",
+          "probability": 0.9991108775138855
+        },
+        {
+          "start": 33.03,
+          "end": 33.39,
+          "word": " semble",
+          "probability": 0.9998313188552856
+        },
+        {
+          "start": 33.39,
+          "end": 33.65,
+          "word": " bien",
+          "probability": 0.9998700618743896
+        },
+        {
+          "start": 33.65,
+          "end": 33.83,
+          "word": " que",
+          "probability": 0.9996157884597778
+        },
+        {
+          "start": 33.83,
+          "end": 33.99,
+          "word": " le",
+          "probability": 0.9979094862937927
+        },
+        {
+          "start": 33.99,
+          "end": 34.47,
+          "word": " seigneur",
+          "probability": 0.9585246046384176
+        },
+        {
+          "start": 34.47,
+          "end": 34.99,
+          "word": " Phylund",
+          "probability": 0.5755740702152252
+        },
+        {
+          "start": 34.99,
+          "end": 35.37,
+          "word": " soit",
+          "probability": 0.9894298911094666
+        },
+        {
+          "start": 35.37,
+          "end": 35.53,
+          "word": " dans",
+          "probability": 0.9998520612716675
+        },
+        {
+          "start": 35.53,
+          "end": 35.65,
+          "word": " les",
+          "probability": 0.9984489679336548
+        },
+        {
+          "start": 35.65,
+          "end": 36.09,
+          "word": " parages.",
+          "probability": 0.9994544088840485
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 11,
+      "seek": 3000,
+      "start": 36.23,
+      "end": 37.51,
+      "text": " C'est plutôt une bonne nouvelle.",
+      "tokens": [
+        50599,
+        383,
+        6,
+        377,
+        20856,
+        2251,
+        20577,
+        24156,
+        13,
+        50648
+      ],
+      "avg_logprob": -0.19580354028277927,
+      "compression_ratio": 1.153225806451613,
+      "no_speech_prob": 5.630163869840832e-12,
+      "words": [
+        {
+          "start": 36.23,
+          "end": 36.61,
+          "word": " C",
+          "probability": 0.9960242509841919
+        },
+        {
+          "start": 36.61,
+          "end": 36.73,
+          "word": "'est",
+          "probability": 0.9999840259552002
+        },
+        {
+          "start": 36.73,
+          "end": 36.93,
+          "word": " plutôt",
+          "probability": 0.9987689852714539
+        },
+        {
+          "start": 36.93,
+          "end": 37.07,
+          "word": " une",
+          "probability": 0.999945878982544
+        },
+        {
+          "start": 37.07,
+          "end": 37.19,
+          "word": " bonne",
+          "probability": 0.9998804330825806
+        },
+        {
+          "start": 37.19,
+          "end": 37.51,
+          "word": " nouvelle.",
+          "probability": 0.9999662637710571
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 12,
+      "seek": 3000,
+      "start": 37.91,
+      "end": 40.27,
+      "text": " Mais comment comptes-tu en profiter?",
+      "tokens": [
+        50684,
+        6313,
+        2871,
+        15660,
+        279,
+        12,
+        9179,
+        465,
+        1740,
+        1681,
+        2506,
+        50815
+      ],
+      "avg_logprob": -0.19580354028277927,
+      "compression_ratio": 1.153225806451613,
+      "no_speech_prob": 5.630163869840832e-12,
+      "words": [
+        {
+          "start": 37.91,
+          "end": 38.43,
+          "word": " Mais",
+          "probability": 0.9960986375808716
+        },
+        {
+          "start": 38.43,
+          "end": 38.91,
+          "word": " comment",
+          "probability": 0.9998443126678467
+        },
+        {
+          "start": 38.91,
+          "end": 39.33,
+          "word": " comptes",
+          "probability": 0.9967106580734253
+        },
+        {
+          "start": 39.33,
+          "end": 39.41,
+          "word": "-tu",
+          "probability": 0.9994040131568909
+        },
+        {
+          "start": 39.41,
+          "end": 39.55,
+          "word": " en",
+          "probability": 0.9999265670776367
+        },
+        {
+          "start": 39.55,
+          "end": 39.99,
+          "word": " profiter",
+          "probability": 0.9998226463794708
+        },
+        {
+          "start": 39.99,
+          "end": 40.27,
+          "word": "?",
+          "probability": 0.9449842572212219
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

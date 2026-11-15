@@ -1,0 +1,787 @@
+{
+  "scene": "A41.1_moine",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A41.1_moine.mp3",
+  "sha256": "a73f9b86aacda3665699ae2cf0ede2902a3514781c7d0f4b328362d299ecb001",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 31.7408125,
+  "text": "Juste au-dessus de la porte vitrée, la lucarne est grande ouverte pour laisser passer un peu d'air frais. Rares sont ceux qui pourraient l'atteindre. Mais pour quelqu'un d'aussi entraîné que toi, ce sera du gâteau. Tu recules de quelques pas et fonces droit vers le mur. En trois grandes foulées, te voilà sur le rebord au-dessus de la porte. Le plus silencieusement possible, tu te glisses par la lucarne, passe derrière le rideau et te voilà à l'intérieur.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.71,
+      "end": 3.79,
+      "text": " Juste au-dessus de la porte vitrée,",
+      "tokens": [
+        50389,
+        1449,
+        68,
+        1609,
+        12,
+        42401,
+        368,
+        635,
+        26658,
+        9467,
+        37735,
+        11,
+        50470
+      ],
+      "avg_logprob": -0.112650729970981,
+      "compression_ratio": 1.6421052631578947,
+      "no_speech_prob": 8.881314086939263e-12,
+      "words": [
+        {
+          "start": 1.71,
+          "end": 2.49,
+          "word": " Juste",
+          "probability": 0.9930495023727417
+        },
+        {
+          "start": 2.49,
+          "end": 2.61,
+          "word": " au",
+          "probability": 0.9998981952667236
+        },
+        {
+          "start": 2.61,
+          "end": 2.85,
+          "word": "-dessus",
+          "probability": 0.9975287020206451
+        },
+        {
+          "start": 2.85,
+          "end": 3.01,
+          "word": " de",
+          "probability": 0.9999614953994751
+        },
+        {
+          "start": 3.01,
+          "end": 3.15,
+          "word": " la",
+          "probability": 0.9998903274536133
+        },
+        {
+          "start": 3.15,
+          "end": 3.41,
+          "word": " porte",
+          "probability": 0.9983788728713989
+        },
+        {
+          "start": 3.41,
+          "end": 3.79,
+          "word": " vitrée,",
+          "probability": 0.9965319931507111
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.17,
+      "end": 7.21,
+      "text": " la lucarne est grande ouverte pour laisser passer un peu d'air frais.",
+      "tokens": [
+        50500,
+        635,
+        21296,
+        289,
+        716,
+        871,
+        8883,
+        2820,
+        331,
+        975,
+        2016,
+        34463,
+        18509,
+        517,
+        5604,
+        274,
+        6,
+        1246,
+        6600,
+        271,
+        13,
+        50641
+      ],
+      "avg_logprob": -0.112650729970981,
+      "compression_ratio": 1.6421052631578947,
+      "no_speech_prob": 8.881314086939263e-12,
+      "words": [
+        {
+          "start": 4.17,
+          "end": 4.53,
+          "word": " la",
+          "probability": 0.9934985637664795
+        },
+        {
+          "start": 4.53,
+          "end": 4.97,
+          "word": " lucarne",
+          "probability": 0.996821939945221
+        },
+        {
+          "start": 4.97,
+          "end": 5.05,
+          "word": " est",
+          "probability": 0.9994602799415588
+        },
+        {
+          "start": 5.05,
+          "end": 5.31,
+          "word": " grande",
+          "probability": 0.9753026962280273
+        },
+        {
+          "start": 5.31,
+          "end": 5.75,
+          "word": " ouverte",
+          "probability": 0.9972911874453226
+        },
+        {
+          "start": 5.75,
+          "end": 5.91,
+          "word": " pour",
+          "probability": 0.9989625215530396
+        },
+        {
+          "start": 5.91,
+          "end": 6.15,
+          "word": " laisser",
+          "probability": 0.9994094371795654
+        },
+        {
+          "start": 6.15,
+          "end": 6.49,
+          "word": " passer",
+          "probability": 0.9998144507408142
+        },
+        {
+          "start": 6.49,
+          "end": 6.67,
+          "word": " un",
+          "probability": 0.9998972415924072
+        },
+        {
+          "start": 6.67,
+          "end": 6.77,
+          "word": " peu",
+          "probability": 0.9998283386230469
+        },
+        {
+          "start": 6.77,
+          "end": 6.87,
+          "word": " d",
+          "probability": 0.9999432563781738
+        },
+        {
+          "start": 6.87,
+          "end": 6.95,
+          "word": "'air",
+          "probability": 0.9996806681156158
+        },
+        {
+          "start": 6.95,
+          "end": 7.21,
+          "word": " frais.",
+          "probability": 0.999343752861023
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.77,
+      "end": 9.33,
+      "text": " Rares sont ceux qui pourraient l'atteindre.",
+      "tokens": [
+        50669,
+        7591,
+        495,
+        4900,
+        21314,
+        1956,
+        37753,
+        1196,
+        287,
+        6,
+        30466,
+        28786,
+        13,
+        50747
+      ],
+      "avg_logprob": -0.112650729970981,
+      "compression_ratio": 1.6421052631578947,
+      "no_speech_prob": 8.881314086939263e-12,
+      "words": [
+        {
+          "start": 7.77,
+          "end": 7.99,
+          "word": " Rares",
+          "probability": 0.9538813829421997
+        },
+        {
+          "start": 7.99,
+          "end": 8.17,
+          "word": " sont",
+          "probability": 0.9999325275421143
+        },
+        {
+          "start": 8.17,
+          "end": 8.37,
+          "word": " ceux",
+          "probability": 0.9999663829803467
+        },
+        {
+          "start": 8.37,
+          "end": 8.55,
+          "word": " qui",
+          "probability": 0.9999550580978394
+        },
+        {
+          "start": 8.55,
+          "end": 8.89,
+          "word": " pourraient",
+          "probability": 0.9997744262218475
+        },
+        {
+          "start": 8.89,
+          "end": 8.97,
+          "word": " l",
+          "probability": 0.9988872408866882
+        },
+        {
+          "start": 8.97,
+          "end": 9.33,
+          "word": "'atteindre.",
+          "probability": 0.999843160311381
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 9.59,
+      "end": 13.11,
+      "text": " Mais pour quelqu'un d'aussi entraîné que toi, ce sera du gâteau.",
+      "tokens": [
+        50773,
+        6313,
+        2016,
+        25283,
+        6,
+        409,
+        274,
+        6,
+        64,
+        2023,
+        72,
+        22284,
+        7517,
+        15055,
+        631,
+        15648,
+        11,
+        1769,
+        15021,
+        1581,
+        290,
+        33680,
+        1459,
+        13,
+        50936
+      ],
+      "avg_logprob": -0.112650729970981,
+      "compression_ratio": 1.6421052631578947,
+      "no_speech_prob": 8.881314086939263e-12,
+      "words": [
+        {
+          "start": 9.59,
+          "end": 9.97,
+          "word": " Mais",
+          "probability": 0.999535083770752
+        },
+        {
+          "start": 9.97,
+          "end": 10.17,
+          "word": " pour",
+          "probability": 0.999686598777771
+        },
+        {
+          "start": 10.17,
+          "end": 10.41,
+          "word": " quelqu",
+          "probability": 0.9999088048934937
+        },
+        {
+          "start": 10.41,
+          "end": 10.59,
+          "word": "'un",
+          "probability": 0.9999841451644897
+        },
+        {
+          "start": 10.59,
+          "end": 10.71,
+          "word": " d",
+          "probability": 0.9982854723930359
+        },
+        {
+          "start": 10.71,
+          "end": 10.97,
+          "word": "'aussi",
+          "probability": 0.9963180422782898
+        },
+        {
+          "start": 10.97,
+          "end": 11.51,
+          "word": " entraîné",
+          "probability": 0.9983315666516622
+        },
+        {
+          "start": 11.51,
+          "end": 11.67,
+          "word": " que",
+          "probability": 0.9999792575836182
+        },
+        {
+          "start": 11.67,
+          "end": 11.89,
+          "word": " toi,",
+          "probability": 0.9992725253105164
+        },
+        {
+          "start": 12.41,
+          "end": 12.49,
+          "word": " ce",
+          "probability": 0.998950183391571
+        },
+        {
+          "start": 12.49,
+          "end": 12.65,
+          "word": " sera",
+          "probability": 0.9995692372322083
+        },
+        {
+          "start": 12.65,
+          "end": 12.79,
+          "word": " du",
+          "probability": 0.9997583031654358
+        },
+        {
+          "start": 12.79,
+          "end": 13.11,
+          "word": " gâteau.",
+          "probability": 0.9996632933616638
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 13.59,
+      "end": 17.29,
+      "text": " Tu recules de quelques pas et fonces droit vers le mur.",
+      "tokens": [
+        50975,
+        7836,
+        850,
+        3473,
+        368,
+        16597,
+        1736,
+        1030,
+        17290,
+        887,
+        25971,
+        1774,
+        476,
+        5257,
+        13,
+        51145
+      ],
+      "avg_logprob": -0.112650729970981,
+      "compression_ratio": 1.6421052631578947,
+      "no_speech_prob": 8.881314086939263e-12,
+      "words": [
+        {
+          "start": 13.59,
+          "end": 14.01,
+          "word": " Tu",
+          "probability": 0.9984127283096313
+        },
+        {
+          "start": 14.01,
+          "end": 14.51,
+          "word": " recules",
+          "probability": 0.9900670051574707
+        },
+        {
+          "start": 14.51,
+          "end": 14.71,
+          "word": " de",
+          "probability": 0.9997939467430115
+        },
+        {
+          "start": 14.71,
+          "end": 15.19,
+          "word": " quelques",
+          "probability": 0.9990531802177429
+        },
+        {
+          "start": 15.19,
+          "end": 15.49,
+          "word": " pas",
+          "probability": 0.9991574287414551
+        },
+        {
+          "start": 15.49,
+          "end": 16.01,
+          "word": " et",
+          "probability": 0.9979442954063416
+        },
+        {
+          "start": 16.01,
+          "end": 16.41,
+          "word": " fonces",
+          "probability": 0.8810118436813354
+        },
+        {
+          "start": 16.41,
+          "end": 16.65,
+          "word": " droit",
+          "probability": 0.9994719624519348
+        },
+        {
+          "start": 16.65,
+          "end": 16.87,
+          "word": " vers",
+          "probability": 0.9998764991760254
+        },
+        {
+          "start": 16.87,
+          "end": 17.01,
+          "word": " le",
+          "probability": 0.9999446868896484
+        },
+        {
+          "start": 17.01,
+          "end": 17.29,
+          "word": " mur.",
+          "probability": 0.9996912479400635
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 17.91,
+      "end": 21.67,
+      "text": " En trois grandes foulées, te voilà sur le rebord au-dessus de la porte.",
+      "tokens": [
+        51190,
+        2193,
+        19758,
+        16640,
+        23491,
+        6836,
+        11,
+        535,
+        14624,
+        1022,
+        476,
+        12970,
+        765,
+        1609,
+        12,
+        42401,
+        368,
+        635,
+        26658,
+        13,
+        51365
+      ],
+      "avg_logprob": -0.112650729970981,
+      "compression_ratio": 1.6421052631578947,
+      "no_speech_prob": 8.881314086939263e-12,
+      "words": [
+        {
+          "start": 17.91,
+          "end": 18.43,
+          "word": " En",
+          "probability": 0.9992139339447021
+        },
+        {
+          "start": 18.43,
+          "end": 18.61,
+          "word": " trois",
+          "probability": 0.9943317174911499
+        },
+        {
+          "start": 18.61,
+          "end": 18.87,
+          "word": " grandes",
+          "probability": 0.9993206262588501
+        },
+        {
+          "start": 18.87,
+          "end": 19.19,
+          "word": " foulées,",
+          "probability": 0.9955823719501495
+        },
+        {
+          "start": 19.39,
+          "end": 19.55,
+          "word": " te",
+          "probability": 0.9971545934677124
+        },
+        {
+          "start": 19.55,
+          "end": 19.77,
+          "word": " voilà",
+          "probability": 0.9915964007377625
+        },
+        {
+          "start": 19.77,
+          "end": 20.01,
+          "word": " sur",
+          "probability": 0.9999384880065918
+        },
+        {
+          "start": 20.01,
+          "end": 20.15,
+          "word": " le",
+          "probability": 0.9999105930328369
+        },
+        {
+          "start": 20.15,
+          "end": 20.53,
+          "word": " rebord",
+          "probability": 0.9987791180610657
+        },
+        {
+          "start": 20.53,
+          "end": 20.81,
+          "word": " au",
+          "probability": 0.9985804557800293
+        },
+        {
+          "start": 20.81,
+          "end": 21.07,
+          "word": "-dessus",
+          "probability": 0.9995310008525848
+        },
+        {
+          "start": 21.07,
+          "end": 21.23,
+          "word": " de",
+          "probability": 0.9999278783798218
+        },
+        {
+          "start": 21.23,
+          "end": 21.37,
+          "word": " la",
+          "probability": 0.9999191761016846
+        },
+        {
+          "start": 21.37,
+          "end": 21.67,
+          "word": " porte.",
+          "probability": 0.9998148083686829
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 22.07,
+      "end": 26.33,
+      "text": " Le plus silencieusement possible, tu te glisses par la lucarne,",
+      "tokens": [
+        51402,
+        1456,
+        1804,
+        3425,
+        36220,
+        21359,
+        1944,
+        11,
+        2604,
+        535,
+        1563,
+        40487,
+        971,
+        635,
+        21296,
+        289,
+        716,
+        11,
+        51597
+      ],
+      "avg_logprob": -0.112650729970981,
+      "compression_ratio": 1.6421052631578947,
+      "no_speech_prob": 8.881314086939263e-12,
+      "words": [
+        {
+          "start": 22.07,
+          "end": 22.57,
+          "word": " Le",
+          "probability": 0.9994339346885681
+        },
+        {
+          "start": 22.57,
+          "end": 22.85,
+          "word": " plus",
+          "probability": 0.9999103546142578
+        },
+        {
+          "start": 22.85,
+          "end": 23.71,
+          "word": " silencieusement",
+          "probability": 0.9997668663660685
+        },
+        {
+          "start": 23.71,
+          "end": 24.29,
+          "word": " possible,",
+          "probability": 0.9997918009757996
+        },
+        {
+          "start": 24.81,
+          "end": 24.89,
+          "word": " tu",
+          "probability": 0.9993025064468384
+        },
+        {
+          "start": 24.89,
+          "end": 25.07,
+          "word": " te",
+          "probability": 0.9995086193084717
+        },
+        {
+          "start": 25.07,
+          "end": 25.45,
+          "word": " glisses",
+          "probability": 0.9991840124130249
+        },
+        {
+          "start": 25.45,
+          "end": 25.65,
+          "word": " par",
+          "probability": 0.9993441700935364
+        },
+        {
+          "start": 25.65,
+          "end": 25.79,
+          "word": " la",
+          "probability": 0.9996142387390137
+        },
+        {
+          "start": 25.79,
+          "end": 26.33,
+          "word": " lucarne,",
+          "probability": 0.9999319712320963
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 26.75,
+      "end": 29.61,
+      "text": " passe derrière le rideau et te voilà à l'intérieur.",
+      "tokens": [
+        51597,
+        14530,
+        31465,
+        476,
+        5077,
+        1459,
+        1030,
+        535,
+        14624,
+        1531,
+        287,
+        6,
+        39166,
+        13,
+        51761
+      ],
+      "avg_logprob": -0.112650729970981,
+      "compression_ratio": 1.6421052631578947,
+      "no_speech_prob": 8.881314086939263e-12,
+      "words": [
+        {
+          "start": 26.75,
+          "end": 26.95,
+          "word": " passe",
+          "probability": 0.1176166981458664
+        },
+        {
+          "start": 26.95,
+          "end": 27.27,
+          "word": " derrière",
+          "probability": 0.9999098777770996
+        },
+        {
+          "start": 27.27,
+          "end": 27.51,
+          "word": " le",
+          "probability": 0.9999399185180664
+        },
+        {
+          "start": 27.51,
+          "end": 27.79,
+          "word": " rideau",
+          "probability": 0.9987972676753998
+        },
+        {
+          "start": 27.79,
+          "end": 28.45,
+          "word": " et",
+          "probability": 0.9757103323936462
+        },
+        {
+          "start": 28.45,
+          "end": 28.65,
+          "word": " te",
+          "probability": 0.9997977614402771
+        },
+        {
+          "start": 28.65,
+          "end": 28.99,
+          "word": " voilà",
+          "probability": 0.9855287671089172
+        },
+        {
+          "start": 28.99,
+          "end": 29.19,
+          "word": " à",
+          "probability": 0.9998953342437744
+        },
+        {
+          "start": 29.19,
+          "end": 29.25,
+          "word": " l",
+          "probability": 0.9999337196350098
+        },
+        {
+          "start": 29.25,
+          "end": 29.61,
+          "word": "'intérieur.",
+          "probability": 0.9999387264251709
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

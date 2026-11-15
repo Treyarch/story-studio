@@ -1,0 +1,62 @@
+{
+  "scene": "item_quatrieme_oiseau",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_quatrieme_oiseau.mp3",
+  "sha256": "d1967038525013cfc3d007fc678bb0cdcbebce87acbde6199244828f747b0e41",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.0796875,
+  "text": "Renaer à la rescousse.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.6,
+      "text": " Renaer à la rescousse.",
+      "tokens": [
+        50365,
+        12883,
+        1193,
+        1531,
+        635,
+        9610,
+        28521,
+        13,
+        50447
+      ],
+      "avg_logprob": -0.4029535710811615,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 5.998589212158345e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.72,
+          "word": " Renaer",
+          "probability": 0.8008783757686615
+        },
+        {
+          "start": 0.72,
+          "end": 1.0,
+          "word": " à",
+          "probability": 0.8259828090667725
+        },
+        {
+          "start": 1.0,
+          "end": 1.14,
+          "word": " la",
+          "probability": 0.9978232383728027
+        },
+        {
+          "start": 1.14,
+          "end": 1.6,
+          "word": " rescousse.",
+          "probability": 0.9968991577625275
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

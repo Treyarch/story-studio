@@ -1,0 +1,69 @@
+{
+  "scene": "A2_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A2_list_ch1.mp3",
+  "sha256": "fb06b4d1340358913be35db2b4e958dda2a686763e170bc0616671b99ff38154",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.7955,
+  "text": "Allez à l'auberge?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.35,
+      "end": 1.31,
+      "text": " Allez à l'auberge?",
+      "tokens": [
+        50365,
+        29616,
+        1531,
+        287,
+        6,
+        1459,
+        607,
+        432,
+        2506,
+        50453
+      ],
+      "avg_logprob": -0.2537947622212497,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 5.3187463114334754e-12,
+      "words": [
+        {
+          "start": 0.35,
+          "end": 0.59,
+          "word": " Allez",
+          "probability": 0.6975685954093933
+        },
+        {
+          "start": 0.59,
+          "end": 0.71,
+          "word": " à",
+          "probability": 0.9983713030815125
+        },
+        {
+          "start": 0.71,
+          "end": 0.79,
+          "word": " l",
+          "probability": 0.9999532699584961
+        },
+        {
+          "start": 0.79,
+          "end": 1.23,
+          "word": "'auberge",
+          "probability": 0.9989179074764252
+        },
+        {
+          "start": 1.23,
+          "end": 1.31,
+          "word": "?",
+          "probability": 0.8590339422225952
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

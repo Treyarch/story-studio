@@ -1,0 +1,67 @@
+{
+  "scene": "A10_list_ch4",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A10_list_ch4.mp3",
+  "sha256": "dc37d65425ffba42faa03e4d5231ae7abd134df04e0bd94b25e450099cb52784",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.1038125,
+  "text": "Tu le contournes en douce.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.48,
+      "text": " Tu le contournes en douce.",
+      "tokens": [
+        50365,
+        7836,
+        476,
+        21234,
+        4081,
+        465,
+        2482,
+        384,
+        13,
+        50436
+      ],
+      "avg_logprob": -0.1136775856668299,
+      "compression_ratio": 0.7647058823529411,
+      "no_speech_prob": 5.2727453479783915e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.46,
+          "word": " Tu",
+          "probability": 0.7872332334518433
+        },
+        {
+          "start": 0.46,
+          "end": 0.62,
+          "word": " le",
+          "probability": 0.9995872378349304
+        },
+        {
+          "start": 0.62,
+          "end": 1.06,
+          "word": " contournes",
+          "probability": 0.9993866086006165
+        },
+        {
+          "start": 1.06,
+          "end": 1.2,
+          "word": " en",
+          "probability": 0.9997914433479309
+        },
+        {
+          "start": 1.2,
+          "end": 1.48,
+          "word": " douce.",
+          "probability": 0.9978096187114716
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

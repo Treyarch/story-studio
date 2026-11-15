@@ -1,0 +1,59 @@
+{
+  "scene": "title_card_g-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/title_card_g-fr_FR.mp3",
+  "sha256": "10d1ce760b8cb62d1774a4844598504576cd4945816e16d68c0da6fa6e1db292",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.3874375,
+  "text": "Une affaire de reporter.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.52,
+      "text": " Une affaire de reporter.",
+      "tokens": [
+        50365,
+        16701,
+        2096,
+        9020,
+        368,
+        19152,
+        13,
+        50441
+      ],
+      "avg_logprob": -0.15599759419759116,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 5.07848190584026e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.58,
+          "word": " Une",
+          "probability": 0.9092305302619934
+        },
+        {
+          "start": 0.58,
+          "end": 0.96,
+          "word": " affaire",
+          "probability": 0.9838974177837372
+        },
+        {
+          "start": 0.96,
+          "end": 1.1,
+          "word": " de",
+          "probability": 0.999874472618103
+        },
+        {
+          "start": 1.1,
+          "end": 1.52,
+          "word": " reporter.",
+          "probability": 0.9374302625656128
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

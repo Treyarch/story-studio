@@ -1,0 +1,57 @@
+{
+  "scene": "multi1_ch1_dexterite",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/multi1_ch1_dexterite.mp3",
+  "sha256": "3422b4149a46c1823b5550a06b6905d67454f88bd4dc325d59830fee4f051231",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.426625,
+  "text": "Utilise ta dextérité.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.88,
+      "text": " Utilise ta dextérité.",
+      "tokens": [
+        50365,
+        12555,
+        388,
+        908,
+        1846,
+        368,
+        734,
+        526,
+        3210,
+        526,
+        13,
+        50458
+      ],
+      "avg_logprob": -0.1796140716626094,
+      "compression_ratio": 0.7666666666666667,
+      "no_speech_prob": 4.3789412200456734e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 1.0,
+          "word": " Utilise",
+          "probability": 0.9960136810938517
+        },
+        {
+          "start": 1.0,
+          "end": 1.18,
+          "word": " ta",
+          "probability": 0.9973413348197937
+        },
+        {
+          "start": 1.18,
+          "end": 1.88,
+          "word": " dextérité.",
+          "probability": 0.995343279838562
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

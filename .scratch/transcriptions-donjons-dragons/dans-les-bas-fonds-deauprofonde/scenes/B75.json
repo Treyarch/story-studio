@@ -1,0 +1,258 @@
+{
+  "scene": "B75",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B75.mp3",
+  "sha256": "a3e5a5b2673217e8aa0d9e3a567024c40fa332abbffc173b8d2ad7c26006854a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 12.011875,
+  "text": "Tu ne vois pas comment tu pourrais t'en sortir, mais tu ne vas pas abandonner sans te battre. Tu bondis sur Xanathar, bien déterminé à te défendre.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.42,
+      "end": 6.08,
+      "text": " Tu ne vois pas comment tu pourrais t'en sortir, mais tu ne vas pas abandonner sans te battre.",
+      "tokens": [
+        50365,
+        7836,
+        408,
+        18297,
+        1736,
+        2871,
+        2604,
+        2016,
+        20769,
+        256,
+        6,
+        268,
+        26906,
+        11,
+        2420,
+        2604,
+        408,
+        11481,
+        1736,
+        9072,
+        1193,
+        12177,
+        535,
+        9591,
+        265,
+        13,
+        50598
+      ],
+      "avg_logprob": -0.07896345245594881,
+      "compression_ratio": 1.2905982905982907,
+      "no_speech_prob": 5.23434073862461e-12,
+      "words": [
+        {
+          "start": 1.42,
+          "end": 1.88,
+          "word": " Tu",
+          "probability": 0.9505656957626343
+        },
+        {
+          "start": 1.88,
+          "end": 2.02,
+          "word": " ne",
+          "probability": 0.9999673366546631
+        },
+        {
+          "start": 2.02,
+          "end": 2.2,
+          "word": " vois",
+          "probability": 0.9993170499801636
+        },
+        {
+          "start": 2.2,
+          "end": 2.38,
+          "word": " pas",
+          "probability": 0.9999853372573853
+        },
+        {
+          "start": 2.38,
+          "end": 2.64,
+          "word": " comment",
+          "probability": 0.9998452663421631
+        },
+        {
+          "start": 2.64,
+          "end": 2.82,
+          "word": " tu",
+          "probability": 0.9999037981033325
+        },
+        {
+          "start": 2.82,
+          "end": 3.08,
+          "word": " pourrais",
+          "probability": 0.997726172208786
+        },
+        {
+          "start": 3.08,
+          "end": 3.16,
+          "word": " t",
+          "probability": 0.9989521503448486
+        },
+        {
+          "start": 3.16,
+          "end": 3.26,
+          "word": "'en",
+          "probability": 0.9999517798423767
+        },
+        {
+          "start": 3.26,
+          "end": 3.58,
+          "word": " sortir,",
+          "probability": 0.9999741315841675
+        },
+        {
+          "start": 3.82,
+          "end": 4.5,
+          "word": " mais",
+          "probability": 0.9996371269226074
+        },
+        {
+          "start": 4.5,
+          "end": 4.64,
+          "word": " tu",
+          "probability": 0.9999597072601318
+        },
+        {
+          "start": 4.64,
+          "end": 4.72,
+          "word": " ne",
+          "probability": 0.9999345541000366
+        },
+        {
+          "start": 4.72,
+          "end": 4.82,
+          "word": " vas",
+          "probability": 0.9989466071128845
+        },
+        {
+          "start": 4.82,
+          "end": 4.98,
+          "word": " pas",
+          "probability": 0.9999916553497314
+        },
+        {
+          "start": 4.98,
+          "end": 5.46,
+          "word": " abandonner",
+          "probability": 0.9996062219142914
+        },
+        {
+          "start": 5.46,
+          "end": 5.62,
+          "word": " sans",
+          "probability": 0.9998780488967896
+        },
+        {
+          "start": 5.62,
+          "end": 5.76,
+          "word": " te",
+          "probability": 0.9999574422836304
+        },
+        {
+          "start": 5.76,
+          "end": 6.08,
+          "word": " battre.",
+          "probability": 0.9999670386314392
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.34,
+      "end": 9.98,
+      "text": " Tu bondis sur Xanathar, bien déterminé à te défendre.",
+      "tokens": [
+        50624,
+        7836,
+        6086,
+        271,
+        1022,
+        1783,
+        282,
+        998,
+        289,
+        11,
+        3610,
+        2795,
+        29725,
+        526,
+        1531,
+        535,
+        2795,
+        18676,
+        265,
+        13,
+        50793
+      ],
+      "avg_logprob": -0.07896345245594881,
+      "compression_ratio": 1.2905982905982907,
+      "no_speech_prob": 5.23434073862461e-12,
+      "words": [
+        {
+          "start": 6.34,
+          "end": 6.7,
+          "word": " Tu",
+          "probability": 0.9992710947990417
+        },
+        {
+          "start": 6.7,
+          "end": 7.14,
+          "word": " bondis",
+          "probability": 0.9876632690429688
+        },
+        {
+          "start": 7.14,
+          "end": 7.34,
+          "word": " sur",
+          "probability": 0.999935507774353
+        },
+        {
+          "start": 7.34,
+          "end": 8.02,
+          "word": " Xanathar,",
+          "probability": 0.8834160715341568
+        },
+        {
+          "start": 8.4,
+          "end": 8.56,
+          "word": " bien",
+          "probability": 0.9999431371688843
+        },
+        {
+          "start": 8.56,
+          "end": 9.2,
+          "word": " déterminé",
+          "probability": 0.976656456788381
+        },
+        {
+          "start": 9.2,
+          "end": 9.32,
+          "word": " à",
+          "probability": 0.9999681711196899
+        },
+        {
+          "start": 9.32,
+          "end": 9.44,
+          "word": " te",
+          "probability": 0.9998915195465088
+        },
+        {
+          "start": 9.44,
+          "end": 9.98,
+          "word": " défendre.",
+          "probability": 0.9997826019922892
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

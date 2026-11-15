@@ -1,0 +1,66 @@
+{
+  "scene": "A10_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A10_list_ch1.mp3",
+  "sha256": "58d385aab677c915086fa27dd473f3c946ad2ed74743244aeeaf4d20274c1875",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.9205,
+  "text": "Tu passes en force?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.43,
+      "text": " Tu passes en force?",
+      "tokens": [
+        50365,
+        7836,
+        11335,
+        465,
+        3464,
+        2506,
+        50459
+      ],
+      "avg_logprob": -0.2699970006942749,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 4.917193388576102e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.49,
+          "word": " Tu",
+          "probability": 0.8772482872009277
+        },
+        {
+          "start": 0.49,
+          "end": 0.73,
+          "word": " passes",
+          "probability": 0.987225353717804
+        },
+        {
+          "start": 0.73,
+          "end": 0.91,
+          "word": " en",
+          "probability": 0.9997952580451965
+        },
+        {
+          "start": 0.91,
+          "end": 1.29,
+          "word": " force",
+          "probability": 0.9988710284233093
+        },
+        {
+          "start": 1.29,
+          "end": 1.43,
+          "word": "?",
+          "probability": 0.9456290602684021
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

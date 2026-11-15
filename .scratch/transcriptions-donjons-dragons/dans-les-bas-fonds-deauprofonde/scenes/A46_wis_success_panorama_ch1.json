@@ -1,0 +1,175 @@
+{
+  "scene": "A46_wis_success_panorama_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A46_wis_success_panorama_ch1.mp3",
+  "sha256": "0bfe40f17c3950134597326742ff20c59682021ef9556af67d3b4af457387c35",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 8.5050625,
+  "text": "Menet. Rien ne se passe. Tu espères que tu as le droit à plusieurs essais.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.14,
+      "end": 1.5,
+      "text": " Menet.",
+      "tokens": [
+        50391,
+        6685,
+        302,
+        13,
+        50409
+      ],
+      "avg_logprob": -0.28723966664281386,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 7.76298296478739e-12,
+      "words": [
+        {
+          "start": 1.14,
+          "end": 1.5,
+          "word": " Menet.",
+          "probability": 0.7554607391357422
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.14,
+      "end": 4.22,
+      "text": " Rien ne se passe.",
+      "tokens": [
+        50494,
+        497,
+        1053,
+        408,
+        369,
+        14530,
+        13,
+        50546
+      ],
+      "avg_logprob": -0.28723966664281386,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 7.76298296478739e-12,
+      "words": [
+        {
+          "start": 3.14,
+          "end": 3.62,
+          "word": " Rien",
+          "probability": 0.8099792003631592
+        },
+        {
+          "start": 3.62,
+          "end": 3.72,
+          "word": " ne",
+          "probability": 0.9977414608001709
+        },
+        {
+          "start": 3.72,
+          "end": 3.9,
+          "word": " se",
+          "probability": 0.9999620914459229
+        },
+        {
+          "start": 3.9,
+          "end": 4.22,
+          "word": " passe.",
+          "probability": 0.9996730089187622
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 4.42,
+      "end": 6.54,
+      "text": " Tu espères que tu as le droit à plusieurs essais.",
+      "tokens": [
+        50567,
+        7836,
+        7089,
+        13927,
+        631,
+        2604,
+        382,
+        476,
+        25971,
+        1531,
+        20208,
+        2097,
+        1527,
+        13,
+        50661
+      ],
+      "avg_logprob": -0.28723966664281386,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 7.76298296478739e-12,
+      "words": [
+        {
+          "start": 4.42,
+          "end": 4.76,
+          "word": " Tu",
+          "probability": 0.9970402121543884
+        },
+        {
+          "start": 4.76,
+          "end": 5.14,
+          "word": " espères",
+          "probability": 0.9960264265537262
+        },
+        {
+          "start": 5.14,
+          "end": 5.28,
+          "word": " que",
+          "probability": 0.9997585415840149
+        },
+        {
+          "start": 5.28,
+          "end": 5.42,
+          "word": " tu",
+          "probability": 0.9999005794525146
+        },
+        {
+          "start": 5.42,
+          "end": 5.54,
+          "word": " as",
+          "probability": 0.9994913339614868
+        },
+        {
+          "start": 5.54,
+          "end": 5.6,
+          "word": " le",
+          "probability": 0.9890621304512024
+        },
+        {
+          "start": 5.6,
+          "end": 5.72,
+          "word": " droit",
+          "probability": 0.9999761581420898
+        },
+        {
+          "start": 5.72,
+          "end": 5.86,
+          "word": " à",
+          "probability": 0.9997151494026184
+        },
+        {
+          "start": 5.86,
+          "end": 6.16,
+          "word": " plusieurs",
+          "probability": 0.999679684638977
+        },
+        {
+          "start": 6.16,
+          "end": 6.54,
+          "word": " essais.",
+          "probability": 0.9992435872554779
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

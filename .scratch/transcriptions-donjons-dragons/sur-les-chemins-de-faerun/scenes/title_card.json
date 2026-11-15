@@ -1,0 +1,93 @@
+{
+  "scene": "title_card",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/title_card.mp3",
+  "sha256": "186c1e35c355f0be4fd1d88644315fb48de4215488db1085f4385ce41fefdd88",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.7051875,
+  "text": "Donjons et dragons sur les chemins de Faerûn",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.26,
+      "text": " Donjons et dragons sur les chemins de Faerûn",
+      "tokens": [
+        50365,
+        1468,
+        73,
+        892,
+        1030,
+        27240,
+        1022,
+        1512,
+        4771,
+        1292,
+        368,
+        479,
+        526,
+        4198,
+        2613,
+        50528
+      ],
+      "avg_logprob": -0.12798519695506377,
+      "compression_ratio": 0.9038461538461539,
+      "no_speech_prob": 5.657907302392129e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.78,
+          "word": " Donjons",
+          "probability": 0.9317468404769897
+        },
+        {
+          "start": 0.78,
+          "end": 1.02,
+          "word": " et",
+          "probability": 0.9989023208618164
+        },
+        {
+          "start": 1.02,
+          "end": 1.4,
+          "word": " dragons",
+          "probability": 0.9345968961715698
+        },
+        {
+          "start": 1.4,
+          "end": 1.92,
+          "word": " sur",
+          "probability": 0.9991379976272583
+        },
+        {
+          "start": 1.92,
+          "end": 2.1,
+          "word": " les",
+          "probability": 0.9999172687530518
+        },
+        {
+          "start": 2.1,
+          "end": 2.48,
+          "word": " chemins",
+          "probability": 0.9992683529853821
+        },
+        {
+          "start": 2.48,
+          "end": 2.66,
+          "word": " de",
+          "probability": 0.9997585415840149
+        },
+        {
+          "start": 2.66,
+          "end": 3.26,
+          "word": " Faerûn",
+          "probability": 0.879661813378334
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

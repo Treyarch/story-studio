@@ -1,0 +1,53 @@
+{
+  "scene": "item_title_feu",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_title_feu.mp3",
+  "sha256": "cc2c4cb932a647bd9fef1ca6e6dced64cdf51814818974e09bf43e2cefa5fb2e",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.6673125,
+  "text": "Ton médaillon feu.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.2,
+      "text": " Ton médaillon feu.",
+      "tokens": [
+        50365,
+        11385,
+        13191,
+        2675,
+        30961,
+        29539,
+        13,
+        50427
+      ],
+      "avg_logprob": -0.3068765004475911,
+      "compression_ratio": 0.7307692307692307,
+      "no_speech_prob": 6.976158799937293e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.3,
+          "word": " Ton",
+          "probability": 0.48253753781318665
+        },
+        {
+          "start": 0.3,
+          "end": 0.84,
+          "word": " médaillon",
+          "probability": 0.9983683625857035
+        },
+        {
+          "start": 0.84,
+          "end": 1.2,
+          "word": " feu.",
+          "probability": 0.7962133884429932
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

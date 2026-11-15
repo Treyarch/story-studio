@@ -1,0 +1,246 @@
+{
+  "scene": "A46_wis_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A46_wis_fail.mp3",
+  "sha256": "7f0ffe596f2b6ea7b15be18710b3a3016fb9b2d0d6aa56edc86e8d986817ed99",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 13.103875,
+  "text": "Hum, tu aurais aimé avoir un indice pour te faciliter la tâche. Tu essaies quelques combinaisons. En vain, il doit exister un autre moyen.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.17,
+      "end": 4.73,
+      "text": " Hum, tu aurais aimé avoir un indice pour te faciliter la tâche.",
+      "tokens": [
+        50365,
+        12877,
+        11,
+        2604,
+        19145,
+        1527,
+        5939,
+        526,
+        10853,
+        517,
+        1016,
+        573,
+        2016,
+        535,
+        10217,
+        1681,
+        635,
+        256,
+        3201,
+        1876,
+        13,
+        50543
+      ],
+      "avg_logprob": -0.12992391605740009,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 5.934247884753496e-12,
+      "words": [
+        {
+          "start": 1.17,
+          "end": 1.31,
+          "word": " Hum,",
+          "probability": 0.2516724169254303
+        },
+        {
+          "start": 2.05,
+          "end": 2.25,
+          "word": " tu",
+          "probability": 0.9998742341995239
+        },
+        {
+          "start": 2.25,
+          "end": 2.49,
+          "word": " aurais",
+          "probability": 0.9908798038959503
+        },
+        {
+          "start": 2.49,
+          "end": 2.67,
+          "word": " aimé",
+          "probability": 0.9998849332332611
+        },
+        {
+          "start": 2.67,
+          "end": 2.93,
+          "word": " avoir",
+          "probability": 0.9998112320899963
+        },
+        {
+          "start": 2.93,
+          "end": 3.11,
+          "word": " un",
+          "probability": 0.9999361038208008
+        },
+        {
+          "start": 3.11,
+          "end": 3.43,
+          "word": " indice",
+          "probability": 0.9993546605110168
+        },
+        {
+          "start": 3.43,
+          "end": 3.61,
+          "word": " pour",
+          "probability": 0.9996777772903442
+        },
+        {
+          "start": 3.61,
+          "end": 3.73,
+          "word": " te",
+          "probability": 0.999920129776001
+        },
+        {
+          "start": 3.73,
+          "end": 4.23,
+          "word": " faciliter",
+          "probability": 0.9998487532138824
+        },
+        {
+          "start": 4.23,
+          "end": 4.41,
+          "word": " la",
+          "probability": 0.9995096921920776
+        },
+        {
+          "start": 4.41,
+          "end": 4.73,
+          "word": " tâche.",
+          "probability": 0.9992775122324625
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.05,
+      "end": 6.73,
+      "text": " Tu essaies quelques combinaisons.",
+      "tokens": [
+        50577,
+        7836,
+        7208,
+        530,
+        16597,
+        2512,
+        1426,
+        23886,
+        13,
+        50644
+      ],
+      "avg_logprob": -0.12992391605740009,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 5.934247884753496e-12,
+      "words": [
+        {
+          "start": 5.05,
+          "end": 5.51,
+          "word": " Tu",
+          "probability": 0.9985828399658203
+        },
+        {
+          "start": 5.51,
+          "end": 5.77,
+          "word": " essaies",
+          "probability": 0.9650736153125763
+        },
+        {
+          "start": 5.77,
+          "end": 6.09,
+          "word": " quelques",
+          "probability": 0.9979800581932068
+        },
+        {
+          "start": 6.09,
+          "end": 6.73,
+          "word": " combinaisons.",
+          "probability": 0.9993058840433756
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.99,
+      "end": 11.17,
+      "text": " En vain, il doit exister un autre moyen.",
+      "tokens": [
+        50724,
+        2193,
+        22240,
+        11,
+        1930,
+        19193,
+        454,
+        1964,
+        517,
+        15081,
+        42009,
+        13,
+        50866
+      ],
+      "avg_logprob": -0.12992391605740009,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 5.934247884753496e-12,
+      "words": [
+        {
+          "start": 7.99,
+          "end": 8.51,
+          "word": " En",
+          "probability": 0.9881529211997986
+        },
+        {
+          "start": 8.51,
+          "end": 8.69,
+          "word": " vain,",
+          "probability": 0.9228455424308777
+        },
+        {
+          "start": 9.75,
+          "end": 9.85,
+          "word": " il",
+          "probability": 0.9998145699501038
+        },
+        {
+          "start": 9.85,
+          "end": 10.01,
+          "word": " doit",
+          "probability": 0.9998995065689087
+        },
+        {
+          "start": 10.01,
+          "end": 10.47,
+          "word": " exister",
+          "probability": 0.9994759261608124
+        },
+        {
+          "start": 10.47,
+          "end": 10.61,
+          "word": " un",
+          "probability": 0.9995546936988831
+        },
+        {
+          "start": 10.61,
+          "end": 10.83,
+          "word": " autre",
+          "probability": 0.9999508857727051
+        },
+        {
+          "start": 10.83,
+          "end": 11.17,
+          "word": " moyen.",
+          "probability": 0.9998225569725037
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

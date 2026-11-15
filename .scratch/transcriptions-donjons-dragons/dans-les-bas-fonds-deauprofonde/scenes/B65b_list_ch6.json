@@ -1,0 +1,69 @@
+{
+  "scene": "B65b_list_ch6",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B65b_list_ch6.mp3",
+  "sha256": "ff2807ac759ac87cb0b21ee19b74ad10d467a6379ba8fed6d9e6b5e5ab4a66c1",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.2008125,
+  "text": "Faire appel à un indic.",
+  "review": [
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.11,
+      "end": 1.57,
+      "text": " Faire appel à un indic.",
+      "tokens": [
+        50365,
+        479,
+        9020,
+        36332,
+        1531,
+        517,
+        1016,
+        1925,
+        13,
+        50439
+      ],
+      "avg_logprob": -0.21803053942593661,
+      "compression_ratio": 0.7647058823529411,
+      "no_speech_prob": 5.020915540970838e-12,
+      "words": [
+        {
+          "start": 0.11,
+          "end": 0.63,
+          "word": " Faire",
+          "probability": 0.8743807673454285
+        },
+        {
+          "start": 0.63,
+          "end": 0.89,
+          "word": " appel",
+          "probability": 0.9988753199577332
+        },
+        {
+          "start": 0.89,
+          "end": 1.05,
+          "word": " à",
+          "probability": 0.9987542629241943
+        },
+        {
+          "start": 1.05,
+          "end": 1.17,
+          "word": " un",
+          "probability": 0.9956132173538208
+        },
+        {
+          "start": 1.17,
+          "end": 1.57,
+          "word": " indique.",
+          "probability": 0.7231147140264511
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

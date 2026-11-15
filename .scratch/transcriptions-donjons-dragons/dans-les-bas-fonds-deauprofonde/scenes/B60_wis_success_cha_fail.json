@@ -1,0 +1,330 @@
+{
+  "scene": "B60_wis_success_cha_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B60_wis_success_cha_fail.mp3",
+  "sha256": "eae3fc12141815a34f243636a2b0890a9fe082258036db9068330d27358bbc19",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 15.945375,
+  "text": "Malgré le soutien de Horinax, le dragon-tortue reste inflexible. Elle dit que rester ici est le plus sûr moyen d'avoir à manger rapidement. Chasser des hordes de sangliers sauvages lui paraît trop contraignant.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.55,
+      "end": 5.77,
+      "text": " Malgré le soutien de Horinax, le dragon-tortue reste inflexible.",
+      "tokens": [
+        50387,
+        5746,
+        36341,
+        476,
+        29350,
+        1053,
+        368,
+        10691,
+        1426,
+        87,
+        11,
+        476,
+        12165,
+        12,
+        83,
+        477,
+        622,
+        20694,
+        1536,
+        2021,
+        964,
+        13,
+        50577
+      ],
+      "avg_logprob": -0.12367110047489405,
+      "compression_ratio": 1.2969696969696969,
+      "no_speech_prob": 6.242045508947358e-12,
+      "words": [
+        {
+          "start": 1.55,
+          "end": 2.29,
+          "word": " Malgré",
+          "probability": 0.9942319691181183
+        },
+        {
+          "start": 2.29,
+          "end": 2.45,
+          "word": " le",
+          "probability": 0.9999053478240967
+        },
+        {
+          "start": 2.45,
+          "end": 2.79,
+          "word": " soutien",
+          "probability": 0.9999078512191772
+        },
+        {
+          "start": 2.79,
+          "end": 2.95,
+          "word": " de",
+          "probability": 0.9898210763931274
+        },
+        {
+          "start": 2.95,
+          "end": 3.47,
+          "word": " Horinax,",
+          "probability": 0.8998489578564962
+        },
+        {
+          "start": 3.69,
+          "end": 4.07,
+          "word": " le",
+          "probability": 0.9986542463302612
+        },
+        {
+          "start": 4.07,
+          "end": 4.35,
+          "word": " dragon",
+          "probability": 0.9881206750869751
+        },
+        {
+          "start": 4.35,
+          "end": 4.75,
+          "word": "-tortue",
+          "probability": 0.8231397569179535
+        },
+        {
+          "start": 4.75,
+          "end": 4.99,
+          "word": " reste",
+          "probability": 0.999721109867096
+        },
+        {
+          "start": 4.99,
+          "end": 5.77,
+          "word": " inflexible.",
+          "probability": 0.9998441338539124
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.01,
+      "end": 10.21,
+      "text": " Elle dit que rester ici est le plus sûr moyen d'avoir à manger rapidement.",
+      "tokens": [
+        50603,
+        16227,
+        6176,
+        631,
+        37197,
+        11575,
+        871,
+        476,
+        1804,
+        18143,
+        42009,
+        274,
+        6,
+        17239,
+        1531,
+        34372,
+        37757,
+        13,
+        50798
+      ],
+      "avg_logprob": -0.12367110047489405,
+      "compression_ratio": 1.2969696969696969,
+      "no_speech_prob": 6.242045508947358e-12,
+      "words": [
+        {
+          "start": 6.01,
+          "end": 6.43,
+          "word": " Elle",
+          "probability": 0.9053537845611572
+        },
+        {
+          "start": 6.43,
+          "end": 6.63,
+          "word": " dit",
+          "probability": 0.9996711015701294
+        },
+        {
+          "start": 6.63,
+          "end": 6.83,
+          "word": " que",
+          "probability": 0.9999312162399292
+        },
+        {
+          "start": 6.83,
+          "end": 7.21,
+          "word": " rester",
+          "probability": 0.9983785152435303
+        },
+        {
+          "start": 7.21,
+          "end": 7.61,
+          "word": " ici",
+          "probability": 0.9999140501022339
+        },
+        {
+          "start": 7.61,
+          "end": 7.75,
+          "word": " est",
+          "probability": 0.9997442364692688
+        },
+        {
+          "start": 7.75,
+          "end": 7.85,
+          "word": " le",
+          "probability": 0.9998051524162292
+        },
+        {
+          "start": 7.85,
+          "end": 8.07,
+          "word": " plus",
+          "probability": 0.9998370409011841
+        },
+        {
+          "start": 8.07,
+          "end": 8.45,
+          "word": " sûr",
+          "probability": 0.9902620911598206
+        },
+        {
+          "start": 8.45,
+          "end": 8.85,
+          "word": " moyen",
+          "probability": 0.9999459981918335
+        },
+        {
+          "start": 8.85,
+          "end": 9.03,
+          "word": " d",
+          "probability": 0.9998598098754883
+        },
+        {
+          "start": 9.03,
+          "end": 9.23,
+          "word": "'avoir",
+          "probability": 0.9999483227729797
+        },
+        {
+          "start": 9.23,
+          "end": 9.37,
+          "word": " à",
+          "probability": 0.9999573230743408
+        },
+        {
+          "start": 9.37,
+          "end": 9.67,
+          "word": " manger",
+          "probability": 0.9998698234558105
+        },
+        {
+          "start": 9.67,
+          "end": 10.21,
+          "word": " rapidement.",
+          "probability": 0.9995911717414856
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.91,
+      "end": 14.07,
+      "text": " Chasser des hordes de sangliers sauvages lui paraît trop contraignant.",
+      "tokens": [
+        50838,
+        761,
+        12129,
+        730,
+        276,
+        765,
+        279,
+        368,
+        9980,
+        23646,
+        601,
+        9350,
+        1660,
+        8783,
+        1690,
+        20028,
+        9006,
+        10742,
+        36818,
+        13,
+        50990
+      ],
+      "avg_logprob": -0.12367110047489405,
+      "compression_ratio": 1.2969696969696969,
+      "no_speech_prob": 6.242045508947358e-12,
+      "words": [
+        {
+          "start": 10.91,
+          "end": 11.31,
+          "word": " Chasser",
+          "probability": 0.9944350123405457
+        },
+        {
+          "start": 11.31,
+          "end": 11.51,
+          "word": " des",
+          "probability": 0.9999328851699829
+        },
+        {
+          "start": 11.51,
+          "end": 11.85,
+          "word": " hordes",
+          "probability": 0.9982242782910665
+        },
+        {
+          "start": 11.85,
+          "end": 11.97,
+          "word": " de",
+          "probability": 0.999906063079834
+        },
+        {
+          "start": 11.97,
+          "end": 12.35,
+          "word": " sangliers",
+          "probability": 0.9958825409412384
+        },
+        {
+          "start": 12.35,
+          "end": 12.87,
+          "word": " sauvages",
+          "probability": 0.9971262415250143
+        },
+        {
+          "start": 12.87,
+          "end": 12.99,
+          "word": " lui",
+          "probability": 0.9998946189880371
+        },
+        {
+          "start": 12.99,
+          "end": 13.29,
+          "word": " paraît",
+          "probability": 0.9975572228431702
+        },
+        {
+          "start": 13.29,
+          "end": 13.49,
+          "word": " trop",
+          "probability": 0.9981878399848938
+        },
+        {
+          "start": 13.49,
+          "end": 14.07,
+          "word": " contraignant.",
+          "probability": 0.9954512119293213
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

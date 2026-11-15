@@ -1,0 +1,432 @@
+{
+  "scene": "B45_druide_roublard_magicien",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B45_druide_roublard_magicien.mp3",
+  "sha256": "64a126a4755b996263995b14637a3c288d18887cfb083f1f41175d6029440c03",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 21.0080625,
+  "text": "Tu te rédits, respires un grand coup et passes à l'attaque. Tu tires ta dague et charges, frappant la mimique avec ta lame. La porte rugit, l'écrou claque, une langue immense apparaît. Elle te défie et se tortille devant toi, prête à t'affronter.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.98,
+      "end": 5.12,
+      "text": " Tu te rédits, respires un grand coup et passes à l'attaque.",
+      "tokens": [
+        50365,
+        7836,
+        535,
+        3960,
+        67,
+        1208,
+        11,
+        1597,
+        3145,
+        517,
+        2697,
+        8682,
+        1030,
+        11335,
+        1531,
+        287,
+        6,
+        18405,
+        1077,
+        13,
+        50572
+      ],
+      "avg_logprob": -0.11224560141563415,
+      "compression_ratio": 1.3825136612021858,
+      "no_speech_prob": 7.289278555755452e-12,
+      "words": [
+        {
+          "start": 0.98,
+          "end": 1.4,
+          "word": " Tu",
+          "probability": 0.9635887742042542
+        },
+        {
+          "start": 1.4,
+          "end": 1.6,
+          "word": " te",
+          "probability": 0.9984595775604248
+        },
+        {
+          "start": 1.6,
+          "end": 1.96,
+          "word": " rédits,",
+          "probability": 0.6225256224473318
+        },
+        {
+          "start": 2.46,
+          "end": 2.88,
+          "word": " respires",
+          "probability": 0.9165790975093842
+        },
+        {
+          "start": 2.88,
+          "end": 3.14,
+          "word": " un",
+          "probability": 0.9993606209754944
+        },
+        {
+          "start": 3.14,
+          "end": 3.42,
+          "word": " grand",
+          "probability": 0.9992215633392334
+        },
+        {
+          "start": 3.42,
+          "end": 3.66,
+          "word": " coup",
+          "probability": 0.9915640354156494
+        },
+        {
+          "start": 3.66,
+          "end": 4.06,
+          "word": " et",
+          "probability": 0.9619244337081909
+        },
+        {
+          "start": 4.06,
+          "end": 4.48,
+          "word": " passes",
+          "probability": 0.9203640222549438
+        },
+        {
+          "start": 4.48,
+          "end": 4.68,
+          "word": " à",
+          "probability": 0.9998408555984497
+        },
+        {
+          "start": 4.68,
+          "end": 4.76,
+          "word": " l",
+          "probability": 0.9990932941436768
+        },
+        {
+          "start": 4.76,
+          "end": 5.12,
+          "word": "'attaque.",
+          "probability": 0.9996756116549174
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.32,
+      "end": 9.18,
+      "text": " Tu tires ta dague et charges, frappant la mimique avec ta lame.",
+      "tokens": [
+        50594,
+        7836,
+        13885,
+        1846,
+        274,
+        4918,
+        1030,
+        12235,
+        11,
+        6600,
+        427,
+        394,
+        635,
+        12247,
+        1925,
+        4163,
+        1846,
+        27635,
+        13,
+        50777
+      ],
+      "avg_logprob": -0.11224560141563415,
+      "compression_ratio": 1.3825136612021858,
+      "no_speech_prob": 7.289278555755452e-12,
+      "words": [
+        {
+          "start": 5.32,
+          "end": 5.72,
+          "word": " Tu",
+          "probability": 0.9994694590568542
+        },
+        {
+          "start": 5.72,
+          "end": 6.02,
+          "word": " tires",
+          "probability": 0.9935342073440552
+        },
+        {
+          "start": 6.02,
+          "end": 6.22,
+          "word": " ta",
+          "probability": 0.9994426369667053
+        },
+        {
+          "start": 6.22,
+          "end": 6.52,
+          "word": " dague",
+          "probability": 0.9515169560909271
+        },
+        {
+          "start": 6.52,
+          "end": 6.74,
+          "word": " et",
+          "probability": 0.9999158382415771
+        },
+        {
+          "start": 6.74,
+          "end": 7.16,
+          "word": " charges,",
+          "probability": 0.9514164328575134
+        },
+        {
+          "start": 7.48,
+          "end": 7.86,
+          "word": " frappant",
+          "probability": 0.9991732239723206
+        },
+        {
+          "start": 7.86,
+          "end": 8.0,
+          "word": " la",
+          "probability": 0.9998840093612671
+        },
+        {
+          "start": 8.0,
+          "end": 8.46,
+          "word": " mimique",
+          "probability": 0.9212234318256378
+        },
+        {
+          "start": 8.46,
+          "end": 8.78,
+          "word": " avec",
+          "probability": 0.9998570680618286
+        },
+        {
+          "start": 8.78,
+          "end": 8.96,
+          "word": " ta",
+          "probability": 0.9996294975280762
+        },
+        {
+          "start": 8.96,
+          "end": 9.18,
+          "word": " lame.",
+          "probability": 0.9897797703742981
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.54,
+      "end": 14.22,
+      "text": " La porte rugit, l'écrou claque, une langue immense apparaît.",
+      "tokens": [
+        50811,
+        2369,
+        26658,
+        18329,
+        270,
+        11,
+        287,
+        6,
+        9062,
+        13122,
+        3583,
+        1077,
+        11,
+        2251,
+        40318,
+        22920,
+        724,
+        2419,
+        20028,
+        13,
+        51026
+      ],
+      "avg_logprob": -0.11224560141563415,
+      "compression_ratio": 1.3825136612021858,
+      "no_speech_prob": 7.289278555755452e-12,
+      "words": [
+        {
+          "start": 9.54,
+          "end": 10.06,
+          "word": " La",
+          "probability": 0.9996355772018433
+        },
+        {
+          "start": 10.06,
+          "end": 10.38,
+          "word": " porte",
+          "probability": 0.9997805953025818
+        },
+        {
+          "start": 10.38,
+          "end": 10.9,
+          "word": " rugit,",
+          "probability": 0.999409943819046
+        },
+        {
+          "start": 11.18,
+          "end": 11.3,
+          "word": " l",
+          "probability": 0.9257959127426147
+        },
+        {
+          "start": 11.3,
+          "end": 11.58,
+          "word": "'écrou",
+          "probability": 0.8388242522875468
+        },
+        {
+          "start": 11.58,
+          "end": 12.02,
+          "word": " claque,",
+          "probability": 0.9971270561218262
+        },
+        {
+          "start": 12.4,
+          "end": 12.68,
+          "word": " une",
+          "probability": 0.9986912608146667
+        },
+        {
+          "start": 12.68,
+          "end": 12.96,
+          "word": " langue",
+          "probability": 0.988401472568512
+        },
+        {
+          "start": 12.96,
+          "end": 13.62,
+          "word": " immense",
+          "probability": 0.9995984435081482
+        },
+        {
+          "start": 13.62,
+          "end": 14.22,
+          "word": " apparaît.",
+          "probability": 0.9986119866371155
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 14.44,
+      "end": 19.04,
+      "text": " Elle te défie et se tortille devant toi, prête à t'affronter.",
+      "tokens": [
+        51049,
+        16227,
+        535,
+        30456,
+        414,
+        1030,
+        369,
+        10806,
+        3409,
+        28982,
+        15648,
+        11,
+        582,
+        12943,
+        1531,
+        256,
+        6,
+        2518,
+        2044,
+        391,
+        13,
+        51269
+      ],
+      "avg_logprob": -0.11224560141563415,
+      "compression_ratio": 1.3825136612021858,
+      "no_speech_prob": 7.289278555755452e-12,
+      "words": [
+        {
+          "start": 14.44,
+          "end": 14.8,
+          "word": " Elle",
+          "probability": 0.9990672469139099
+        },
+        {
+          "start": 14.8,
+          "end": 15.0,
+          "word": " te",
+          "probability": 0.9999468326568604
+        },
+        {
+          "start": 15.0,
+          "end": 15.5,
+          "word": " défie",
+          "probability": 0.9780798554420471
+        },
+        {
+          "start": 15.5,
+          "end": 15.72,
+          "word": " et",
+          "probability": 0.9995989203453064
+        },
+        {
+          "start": 15.72,
+          "end": 15.96,
+          "word": " se",
+          "probability": 0.9998563528060913
+        },
+        {
+          "start": 15.96,
+          "end": 16.56,
+          "word": " tortille",
+          "probability": 0.9857349097728729
+        },
+        {
+          "start": 16.56,
+          "end": 16.96,
+          "word": " devant",
+          "probability": 0.9996752738952637
+        },
+        {
+          "start": 16.96,
+          "end": 17.32,
+          "word": " toi,",
+          "probability": 0.9998743534088135
+        },
+        {
+          "start": 17.88,
+          "end": 18.24,
+          "word": " prête",
+          "probability": 0.9982187449932098
+        },
+        {
+          "start": 18.24,
+          "end": 18.44,
+          "word": " à",
+          "probability": 0.9999703168869019
+        },
+        {
+          "start": 18.44,
+          "end": 18.6,
+          "word": " t",
+          "probability": 0.9992378950119019
+        },
+        {
+          "start": 18.6,
+          "end": 19.04,
+          "word": "'affronter.",
+          "probability": 0.9995008558034897
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

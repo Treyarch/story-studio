@@ -1,0 +1,549 @@
+{
+  "scene": "A06_cha_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A06_cha_success.mp3",
+  "sha256": "6efa541e9b5f8f7f13f40e34123ace6a212adcfe7284285d52d3a8c4fc4da62f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 25.8909375,
+  "text": "Les yeux de la petite créature s'écarquillent de bonheur. Puis, la bestiole te répond de son cri heureux. Tu souris à ton nouvel ami et descends un peu le cours d'eau en continuant à émettre doucement tes petits cris, jusqu'à trouver un endroit moins raide. Là, tu aides l'ours-hibou à sortir du ravin.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.94,
+      "end": 5.22,
+      "text": " Les yeux de la petite créature s'écarquillent de bonheur.",
+      "tokens": [
+        50365,
+        6965,
+        36163,
+        368,
+        635,
+        18319,
+        15609,
+        1503,
+        262,
+        6,
+        526,
+        6166,
+        358,
+        373,
+        317,
+        368,
+        4428,
+        675,
+        374,
+        13,
+        50580
+      ],
+      "avg_logprob": -0.08957589432024039,
+      "compression_ratio": 1.4784688995215312,
+      "no_speech_prob": 7.749944783141949e-12,
+      "words": [
+        {
+          "start": 0.94,
+          "end": 1.48,
+          "word": " Les",
+          "probability": 0.9897789359092712
+        },
+        {
+          "start": 1.48,
+          "end": 1.74,
+          "word": " yeux",
+          "probability": 0.9999703168869019
+        },
+        {
+          "start": 1.74,
+          "end": 1.88,
+          "word": " de",
+          "probability": 0.999991774559021
+        },
+        {
+          "start": 1.88,
+          "end": 2.06,
+          "word": " la",
+          "probability": 0.9999639987945557
+        },
+        {
+          "start": 2.06,
+          "end": 2.44,
+          "word": " petite",
+          "probability": 0.9998447895050049
+        },
+        {
+          "start": 2.44,
+          "end": 3.18,
+          "word": " créature",
+          "probability": 0.9998727142810822
+        },
+        {
+          "start": 3.18,
+          "end": 3.8,
+          "word": " s",
+          "probability": 0.9986100196838379
+        },
+        {
+          "start": 3.8,
+          "end": 4.54,
+          "word": "'écarquillent",
+          "probability": 0.9956546823183695
+        },
+        {
+          "start": 4.54,
+          "end": 4.66,
+          "word": " de",
+          "probability": 0.9999221563339233
+        },
+        {
+          "start": 4.66,
+          "end": 5.22,
+          "word": " bonheur.",
+          "probability": 0.9964734315872192
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.78,
+      "end": 8.84,
+      "text": " Puis, la bestiole te répond de son cri heureux.",
+      "tokens": [
+        50624,
+        30033,
+        11,
+        635,
+        1151,
+        1004,
+        306,
+        535,
+        26027,
+        368,
+        1872,
+        12815,
+        30027,
+        2449,
+        13,
+        50759
+      ],
+      "avg_logprob": -0.08957589432024039,
+      "compression_ratio": 1.4784688995215312,
+      "no_speech_prob": 7.749944783141949e-12,
+      "words": [
+        {
+          "start": 5.78,
+          "end": 6.34,
+          "word": " Puis,",
+          "probability": 0.9997780919075012
+        },
+        {
+          "start": 6.54,
+          "end": 6.86,
+          "word": " la",
+          "probability": 0.9999724626541138
+        },
+        {
+          "start": 6.86,
+          "end": 7.32,
+          "word": " bestiole",
+          "probability": 0.9993810256322225
+        },
+        {
+          "start": 7.32,
+          "end": 7.46,
+          "word": " te",
+          "probability": 0.9999674558639526
+        },
+        {
+          "start": 7.46,
+          "end": 7.8,
+          "word": " répond",
+          "probability": 0.9991470575332642
+        },
+        {
+          "start": 7.8,
+          "end": 7.98,
+          "word": " de",
+          "probability": 0.9998369216918945
+        },
+        {
+          "start": 7.98,
+          "end": 8.18,
+          "word": " son",
+          "probability": 0.9999632835388184
+        },
+        {
+          "start": 8.18,
+          "end": 8.42,
+          "word": " cri",
+          "probability": 0.9967595934867859
+        },
+        {
+          "start": 8.42,
+          "end": 8.84,
+          "word": " heureux.",
+          "probability": 0.9994171857833862
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.66,
+      "end": 13.58,
+      "text": " Tu souris à ton nouvel ami et descends un peu le cours d'eau",
+      "tokens": [
+        50824,
+        7836,
+        11006,
+        271,
+        1531,
+        2952,
+        23641,
+        779,
+        33206,
+        1030,
+        7471,
+        2581,
+        517,
+        5604,
+        476,
+        25452,
+        274,
+        6,
+        22290,
+        50998
+      ],
+      "avg_logprob": -0.08957589432024039,
+      "compression_ratio": 1.4784688995215312,
+      "no_speech_prob": 7.749944783141949e-12,
+      "words": [
+        {
+          "start": 9.66,
+          "end": 10.22,
+          "word": " Tu",
+          "probability": 0.9995858073234558
+        },
+        {
+          "start": 10.22,
+          "end": 10.58,
+          "word": " souris",
+          "probability": 0.9978158473968506
+        },
+        {
+          "start": 10.58,
+          "end": 10.7,
+          "word": " à",
+          "probability": 0.9999418258666992
+        },
+        {
+          "start": 10.7,
+          "end": 10.82,
+          "word": " ton",
+          "probability": 0.9999505281448364
+        },
+        {
+          "start": 10.82,
+          "end": 11.1,
+          "word": " nouvel",
+          "probability": 0.9986189901828766
+        },
+        {
+          "start": 11.1,
+          "end": 11.34,
+          "word": " ami",
+          "probability": 0.992368757724762
+        },
+        {
+          "start": 11.34,
+          "end": 12.12,
+          "word": " et",
+          "probability": 0.8789342045783997
+        },
+        {
+          "start": 12.12,
+          "end": 12.6,
+          "word": " descends",
+          "probability": 0.9934390485286713
+        },
+        {
+          "start": 12.6,
+          "end": 12.82,
+          "word": " un",
+          "probability": 0.9999489784240723
+        },
+        {
+          "start": 12.82,
+          "end": 12.98,
+          "word": " peu",
+          "probability": 0.9998600482940674
+        },
+        {
+          "start": 12.98,
+          "end": 13.14,
+          "word": " le",
+          "probability": 0.9998592138290405
+        },
+        {
+          "start": 13.14,
+          "end": 13.36,
+          "word": " cours",
+          "probability": 0.997787594795227
+        },
+        {
+          "start": 13.36,
+          "end": 13.5,
+          "word": " d",
+          "probability": 0.9999600648880005
+        },
+        {
+          "start": 13.5,
+          "end": 13.58,
+          "word": "'eau",
+          "probability": 0.9996930956840515
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 13.58,
+      "end": 16.8,
+      "text": " en continuant à émettre doucement tes petits cris,",
+      "tokens": [
+        50998,
+        465,
+        2993,
+        394,
+        1531,
+        1136,
+        76,
+        40681,
+        2482,
+        384,
+        518,
+        20018,
+        26487,
+        4661,
+        11,
+        51159
+      ],
+      "avg_logprob": -0.08957589432024039,
+      "compression_ratio": 1.4784688995215312,
+      "no_speech_prob": 7.749944783141949e-12,
+      "words": [
+        {
+          "start": 13.58,
+          "end": 14.08,
+          "word": " en",
+          "probability": 0.9756514430046082
+        },
+        {
+          "start": 14.08,
+          "end": 14.74,
+          "word": " continuant",
+          "probability": 0.9988023638725281
+        },
+        {
+          "start": 14.74,
+          "end": 14.92,
+          "word": " à",
+          "probability": 0.9999552965164185
+        },
+        {
+          "start": 14.92,
+          "end": 15.4,
+          "word": " émettre",
+          "probability": 0.9988788962364197
+        },
+        {
+          "start": 15.4,
+          "end": 16.02,
+          "word": " doucement",
+          "probability": 0.9998242855072021
+        },
+        {
+          "start": 16.02,
+          "end": 16.24,
+          "word": " tes",
+          "probability": 0.9995457530021667
+        },
+        {
+          "start": 16.24,
+          "end": 16.56,
+          "word": " petits",
+          "probability": 0.9998055100440979
+        },
+        {
+          "start": 16.56,
+          "end": 16.8,
+          "word": " cris,",
+          "probability": 0.9925899505615234
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 17.1,
+      "end": 19.02,
+      "text": " jusqu'à trouver un endroit moins raide.",
+      "tokens": [
+        51188,
+        20340,
+        6,
+        1467,
+        23546,
+        517,
+        47390,
+        13099,
+        3342,
+        482,
+        13,
+        51269
+      ],
+      "avg_logprob": -0.08957589432024039,
+      "compression_ratio": 1.4784688995215312,
+      "no_speech_prob": 7.749944783141949e-12,
+      "words": [
+        {
+          "start": 17.1,
+          "end": 17.56,
+          "word": " jusqu",
+          "probability": 0.9998897314071655
+        },
+        {
+          "start": 17.56,
+          "end": 17.76,
+          "word": "'à",
+          "probability": 0.9999713897705078
+        },
+        {
+          "start": 17.76,
+          "end": 18.0,
+          "word": " trouver",
+          "probability": 0.9997692704200745
+        },
+        {
+          "start": 18.0,
+          "end": 18.2,
+          "word": " un",
+          "probability": 0.9999679327011108
+        },
+        {
+          "start": 18.2,
+          "end": 18.5,
+          "word": " endroit",
+          "probability": 0.9999593496322632
+        },
+        {
+          "start": 18.5,
+          "end": 18.74,
+          "word": " moins",
+          "probability": 0.9997621178627014
+        },
+        {
+          "start": 18.74,
+          "end": 19.02,
+          "word": " raide.",
+          "probability": 0.9948582053184509
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 19.86,
+      "end": 23.02,
+      "text": " Là, tu aides l'ours-hibou à sortir du ravin.",
+      "tokens": [
+        51321,
+        22237,
+        11,
+        2604,
+        257,
+        1875,
+        287,
+        6,
+        5067,
+        897,
+        263,
+        1531,
+        26906,
+        1581,
+        367,
+        19249,
+        13,
+        51469
+      ],
+      "avg_logprob": -0.08957589432024039,
+      "compression_ratio": 1.4784688995215312,
+      "no_speech_prob": 7.749944783141949e-12,
+      "words": [
+        {
+          "start": 19.86,
+          "end": 20.26,
+          "word": " Là,",
+          "probability": 0.9997957348823547
+        },
+        {
+          "start": 20.52,
+          "end": 20.9,
+          "word": " tu",
+          "probability": 0.9999258518218994
+        },
+        {
+          "start": 20.9,
+          "end": 21.18,
+          "word": " aides",
+          "probability": 0.9987902939319611
+        },
+        {
+          "start": 21.18,
+          "end": 21.34,
+          "word": " l",
+          "probability": 0.9958508014678955
+        },
+        {
+          "start": 21.34,
+          "end": 21.82,
+          "word": "'ours-hibou",
+          "probability": 0.865816056728363
+        },
+        {
+          "start": 21.82,
+          "end": 22.1,
+          "word": " à",
+          "probability": 0.9986151456832886
+        },
+        {
+          "start": 22.1,
+          "end": 22.54,
+          "word": " sortir",
+          "probability": 0.9992955923080444
+        },
+        {
+          "start": 22.54,
+          "end": 22.72,
+          "word": " du",
+          "probability": 0.9999454021453857
+        },
+        {
+          "start": 22.72,
+          "end": 23.02,
+          "word": " ravin.",
+          "probability": 0.9935775101184845
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

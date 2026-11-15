@@ -1,0 +1,52 @@
+{
+  "scene": "A9a_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A9a_list_ch2.mp3",
+  "sha256": "cd4630a78d6852c19d1409d5a2837a92c3c7f8dcecd79a85ea3b28800be83c8a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.58975,
+  "text": "Par les airs.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.06,
+      "text": " Par les airs.",
+      "tokens": [
+        50365,
+        3457,
+        1512,
+        1988,
+        82,
+        13,
+        50415
+      ],
+      "avg_logprob": -0.4439721629023552,
+      "compression_ratio": 0.6190476190476191,
+      "no_speech_prob": 5.297758325778501e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.54,
+          "word": " Par",
+          "probability": 0.6856151819229126
+        },
+        {
+          "start": 0.54,
+          "end": 0.74,
+          "word": " les",
+          "probability": 0.9076039791107178
+        },
+        {
+          "start": 0.74,
+          "end": 1.06,
+          "word": " airs.",
+          "probability": 0.9782878756523132
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

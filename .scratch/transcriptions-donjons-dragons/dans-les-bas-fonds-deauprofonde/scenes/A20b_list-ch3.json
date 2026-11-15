@@ -1,0 +1,75 @@
+{
+  "scene": "A20b_list-ch3",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A20b_list-ch3.mp3",
+  "sha256": "1bcd3a135c0cdb3d81b14f39b9a87a6ed059ba0f274ce55b8c78912948bd6ccd",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.3535,
+  "text": "Tu fais appel à un indic.",
+  "review": [
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.71,
+      "text": " Tu fais appel à un indic.",
+      "tokens": [
+        50365,
+        7836,
+        12153,
+        36332,
+        1531,
+        517,
+        1016,
+        1925,
+        13,
+        50450
+      ],
+      "avg_logprob": -0.19679824059659784,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 4.535748946571383e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.49,
+          "word": " Tu",
+          "probability": 0.8757504820823669
+        },
+        {
+          "start": 0.49,
+          "end": 0.69,
+          "word": " fais",
+          "probability": 0.999492883682251
+        },
+        {
+          "start": 0.69,
+          "end": 1.03,
+          "word": " appel",
+          "probability": 0.9998001456260681
+        },
+        {
+          "start": 1.03,
+          "end": 1.19,
+          "word": " à",
+          "probability": 0.9998602867126465
+        },
+        {
+          "start": 1.19,
+          "end": 1.33,
+          "word": " un",
+          "probability": 0.9996626377105713
+        },
+        {
+          "start": 1.33,
+          "end": 1.71,
+          "word": " indique.",
+          "probability": 0.667030930519104
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

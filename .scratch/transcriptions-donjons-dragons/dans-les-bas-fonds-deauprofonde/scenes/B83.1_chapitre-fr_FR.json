@@ -1,0 +1,63 @@
+{
+  "scene": "B83.1_chapitre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B83.1_chapitre-fr_FR.mp3",
+  "sha256": "65ae9bb5f8e2b7730cdb312afaa5e00d6efb0bc60bbf3cc53e73f184fa56c7f8",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.5389375,
+  "text": "Retour à Eauprofonde.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.85,
+      "text": " Retour à Eauprofonde.",
+      "tokens": [
+        50365,
+        11495,
+        396,
+        1531,
+        308,
+        1459,
+        1740,
+        7259,
+        13,
+        50457
+      ],
+      "avg_logprob": -0.12747140093283219,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 4.428278924106799e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.93,
+          "word": " Retour",
+          "probability": 0.9899789392948151
+        },
+        {
+          "start": 0.93,
+          "end": 1.15,
+          "word": " à",
+          "probability": 0.9997087121009827
+        },
+        {
+          "start": 1.15,
+          "end": 1.39,
+          "word": " eau",
+          "probability": 0.851341962814331
+        },
+        {
+          "start": 1.39,
+          "end": 1.85,
+          "word": " profonde.",
+          "probability": 0.9995931386947632
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "scene": "item_title_lettre_xa-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_lettre_xa-fr_FR.mp3",
+  "sha256": "48ededfe898b4ced92ea5dbbabbb731b8726d9550ad6186a1eb88d13ed93bc10",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.2550625,
+  "text": "La lettre du Grand Xa",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.68,
+      "text": " La lettre du Grand Xa",
+      "tokens": [
+        50365,
+        2369,
+        718,
+        3599,
+        1581,
+        6757,
+        1783,
+        64,
+        50448
+      ],
+      "avg_logprob": -0.19715700745582582,
+      "compression_ratio": 0.7241379310344828,
+      "no_speech_prob": 6.522073679737783e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.58,
+          "word": " La",
+          "probability": 0.9290207624435425
+        },
+        {
+          "start": 0.58,
+          "end": 0.98,
+          "word": " lettre",
+          "probability": 0.9733196794986725
+        },
+        {
+          "start": 0.98,
+          "end": 1.16,
+          "word": " du",
+          "probability": 0.9998371601104736
+        },
+        {
+          "start": 1.16,
+          "end": 1.4,
+          "word": " Grand",
+          "probability": 0.5734305381774902
+        },
+        {
+          "start": 1.4,
+          "end": 1.68,
+          "word": " Xa",
+          "probability": 0.8942119479179382
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

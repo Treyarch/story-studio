@@ -1,0 +1,65 @@
+{
+  "scene": "A30_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A30_list_ch1.mp3",
+  "sha256": "20d8d60ac13c89d320c2e2bf9c7223b96bf78eac0c0224d6e84f84fe5127c2fb",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.507125,
+  "text": "Accosté Seigneur Rojenard?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 2.04,
+      "text": " Accosté Seigneur Rojenard?",
+      "tokens": [
+        50365,
+        5097,
+        27718,
+        526,
+        1100,
+        26341,
+        374,
+        3101,
+        73,
+        20062,
+        2506,
+        50487
+      ],
+      "avg_logprob": -0.44945985537308913,
+      "compression_ratio": 0.7647058823529411,
+      "no_speech_prob": 8.504211224114044e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.92,
+          "word": " Accosté",
+          "probability": 0.5445685088634491
+        },
+        {
+          "start": 0.92,
+          "end": 1.38,
+          "word": " Seigneur",
+          "probability": 0.8123255173365275
+        },
+        {
+          "start": 1.38,
+          "end": 1.84,
+          "word": " Rojenard",
+          "probability": 0.7102672855059305
+        },
+        {
+          "start": 1.84,
+          "end": 2.04,
+          "word": "?",
+          "probability": 0.7485905885696411
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

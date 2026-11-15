@@ -1,0 +1,738 @@
+{
+  "scene": "A24",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A24.mp3",
+  "sha256": "7aea8b296e2143e25afacb18194047e3123cd6cf352768f8016654dfe5d17f9b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 31.8368125,
+  "text": "Tu décides de lui confier l'œuf pendant que tu vas chercher de quoi remplir ta mission. Tu fonces vers la forêt. Tu farfouilles jusqu'à tomber sur un arbre mort, susceptible de faire du bon bois pour le feu. En tombant, le tronc s'est appuyé sur un autre arbre, ce qui lui a permis de ne pas être en contact avec le sol et de sécher parfaitement. Tu sors une hachette de ton sac sans fond et tu entreprends de le couper.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.78,
+      "end": 6.62,
+      "text": " Tu décides de lui confier l'œuf pendant que tu vas chercher de quoi remplir ta mission.",
+      "tokens": [
+        50365,
+        7836,
+        9198,
+        1875,
+        368,
+        8783,
+        1497,
+        811,
+        287,
+        6,
+        34073,
+        2947,
+        17338,
+        631,
+        2604,
+        11481,
+        38747,
+        368,
+        11714,
+        36576,
+        347,
+        1846,
+        4447,
+        13,
+        50607
+      ],
+      "avg_logprob": -0.07940513478185897,
+      "compression_ratio": 1.5583941605839415,
+      "no_speech_prob": 5.642072312822544e-12,
+      "words": [
+        {
+          "start": 1.78,
+          "end": 2.2,
+          "word": " Tu",
+          "probability": 0.9769518971443176
+        },
+        {
+          "start": 2.2,
+          "end": 2.72,
+          "word": " décides",
+          "probability": 0.9991609454154968
+        },
+        {
+          "start": 2.72,
+          "end": 2.9,
+          "word": " de",
+          "probability": 0.9999809265136719
+        },
+        {
+          "start": 2.9,
+          "end": 3.1,
+          "word": " lui",
+          "probability": 0.9999918937683105
+        },
+        {
+          "start": 3.1,
+          "end": 3.56,
+          "word": " confier",
+          "probability": 0.9997383952140808
+        },
+        {
+          "start": 3.56,
+          "end": 3.72,
+          "word": " l",
+          "probability": 0.9999784231185913
+        },
+        {
+          "start": 3.72,
+          "end": 3.96,
+          "word": "'œuf",
+          "probability": 0.9840040405591329
+        },
+        {
+          "start": 3.96,
+          "end": 4.36,
+          "word": " pendant",
+          "probability": 0.9987398982048035
+        },
+        {
+          "start": 4.36,
+          "end": 4.58,
+          "word": " que",
+          "probability": 0.9999761581420898
+        },
+        {
+          "start": 4.58,
+          "end": 4.72,
+          "word": " tu",
+          "probability": 0.9999840259552002
+        },
+        {
+          "start": 4.72,
+          "end": 4.88,
+          "word": " vas",
+          "probability": 0.9990543723106384
+        },
+        {
+          "start": 4.88,
+          "end": 5.26,
+          "word": " chercher",
+          "probability": 0.99992835521698
+        },
+        {
+          "start": 5.26,
+          "end": 5.48,
+          "word": " de",
+          "probability": 0.9999908208847046
+        },
+        {
+          "start": 5.48,
+          "end": 5.68,
+          "word": " quoi",
+          "probability": 0.9999593496322632
+        },
+        {
+          "start": 5.68,
+          "end": 6.14,
+          "word": " remplir",
+          "probability": 0.9999051690101624
+        },
+        {
+          "start": 6.14,
+          "end": 6.28,
+          "word": " ta",
+          "probability": 0.9998540878295898
+        },
+        {
+          "start": 6.28,
+          "end": 6.62,
+          "word": " mission.",
+          "probability": 0.9997298121452332
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7.14,
+      "end": 8.64,
+      "text": " Tu fonces vers la forêt.",
+      "tokens": [
+        50645,
+        7836,
+        283,
+        8498,
+        1774,
+        635,
+        337,
+        15519,
+        13,
+        50708
+      ],
+      "avg_logprob": -0.07940513478185897,
+      "compression_ratio": 1.5583941605839415,
+      "no_speech_prob": 5.642072312822544e-12,
+      "words": [
+        {
+          "start": 7.14,
+          "end": 7.66,
+          "word": " Tu",
+          "probability": 0.9997310042381287
+        },
+        {
+          "start": 7.66,
+          "end": 8.0,
+          "word": " fonces",
+          "probability": 0.9584197103977203
+        },
+        {
+          "start": 8.0,
+          "end": 8.16,
+          "word": " vers",
+          "probability": 0.9999387264251709
+        },
+        {
+          "start": 8.16,
+          "end": 8.32,
+          "word": " la",
+          "probability": 0.99998939037323
+        },
+        {
+          "start": 8.32,
+          "end": 8.64,
+          "word": " forêt.",
+          "probability": 0.9998210370540619
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.1,
+      "end": 15.32,
+      "text": " Tu farfouilles jusqu'à tomber sur un arbre mort, susceptible de faire du bon bois pour le feu.",
+      "tokens": [
+        50751,
+        7836,
+        1400,
+        69,
+        263,
+        14835,
+        20340,
+        6,
+        1467,
+        2916,
+        607,
+        1022,
+        517,
+        594,
+        2672,
+        6599,
+        11,
+        31249,
+        368,
+        4865,
+        1581,
+        4428,
+        44808,
+        2016,
+        476,
+        29539,
+        13,
+        51043
+      ],
+      "avg_logprob": -0.07940513478185897,
+      "compression_ratio": 1.5583941605839415,
+      "no_speech_prob": 5.642072312822544e-12,
+      "words": [
+        {
+          "start": 9.1,
+          "end": 9.62,
+          "word": " Tu",
+          "probability": 0.9997536540031433
+        },
+        {
+          "start": 9.62,
+          "end": 10.22,
+          "word": " farfouilles",
+          "probability": 0.9985737502574921
+        },
+        {
+          "start": 10.22,
+          "end": 10.88,
+          "word": " jusqu",
+          "probability": 0.9980853796005249
+        },
+        {
+          "start": 10.88,
+          "end": 11.12,
+          "word": "'à",
+          "probability": 0.9999752044677734
+        },
+        {
+          "start": 11.12,
+          "end": 11.48,
+          "word": " tomber",
+          "probability": 0.999594509601593
+        },
+        {
+          "start": 11.48,
+          "end": 11.72,
+          "word": " sur",
+          "probability": 0.999972939491272
+        },
+        {
+          "start": 11.72,
+          "end": 11.9,
+          "word": " un",
+          "probability": 0.99997878074646
+        },
+        {
+          "start": 11.9,
+          "end": 12.26,
+          "word": " arbre",
+          "probability": 0.9996495544910431
+        },
+        {
+          "start": 12.26,
+          "end": 12.6,
+          "word": " mort,",
+          "probability": 0.999834418296814
+        },
+        {
+          "start": 12.8,
+          "end": 13.5,
+          "word": " susceptible",
+          "probability": 0.9989560842514038
+        },
+        {
+          "start": 13.5,
+          "end": 13.9,
+          "word": " de",
+          "probability": 0.9999948740005493
+        },
+        {
+          "start": 13.9,
+          "end": 14.14,
+          "word": " faire",
+          "probability": 0.9999125003814697
+        },
+        {
+          "start": 14.14,
+          "end": 14.32,
+          "word": " du",
+          "probability": 0.9999833106994629
+        },
+        {
+          "start": 14.32,
+          "end": 14.54,
+          "word": " bon",
+          "probability": 0.997833788394928
+        },
+        {
+          "start": 14.54,
+          "end": 14.78,
+          "word": " bois",
+          "probability": 0.973412036895752
+        },
+        {
+          "start": 14.78,
+          "end": 14.98,
+          "word": " pour",
+          "probability": 0.9999643564224243
+        },
+        {
+          "start": 14.98,
+          "end": 15.14,
+          "word": " le",
+          "probability": 0.9999797344207764
+        },
+        {
+          "start": 15.14,
+          "end": 15.32,
+          "word": " feu.",
+          "probability": 0.9999721050262451
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 15.98,
+      "end": 19.32,
+      "text": " En tombant, le tronc s'est appuyé sur un autre arbre,",
+      "tokens": [
+        51090,
+        2193,
+        18712,
+        394,
+        11,
+        476,
+        504,
+        266,
+        66,
+        262,
+        6,
+        377,
+        724,
+        7493,
+        526,
+        1022,
+        517,
+        15081,
+        594,
+        2672,
+        11,
+        51243
+      ],
+      "avg_logprob": -0.07940513478185897,
+      "compression_ratio": 1.5583941605839415,
+      "no_speech_prob": 5.642072312822544e-12,
+      "words": [
+        {
+          "start": 15.98,
+          "end": 16.42,
+          "word": " En",
+          "probability": 0.999945878982544
+        },
+        {
+          "start": 16.42,
+          "end": 16.8,
+          "word": " tombant,",
+          "probability": 0.9999110698699951
+        },
+        {
+          "start": 17.3,
+          "end": 17.48,
+          "word": " le",
+          "probability": 0.9996287822723389
+        },
+        {
+          "start": 17.48,
+          "end": 17.74,
+          "word": " tronc",
+          "probability": 0.9982689420382181
+        },
+        {
+          "start": 17.74,
+          "end": 17.84,
+          "word": " s",
+          "probability": 0.9957426190376282
+        },
+        {
+          "start": 17.84,
+          "end": 17.92,
+          "word": "'est",
+          "probability": 0.9995052814483643
+        },
+        {
+          "start": 17.92,
+          "end": 18.4,
+          "word": " appuyé",
+          "probability": 0.9998670220375061
+        },
+        {
+          "start": 18.4,
+          "end": 18.68,
+          "word": " sur",
+          "probability": 0.999859094619751
+        },
+        {
+          "start": 18.68,
+          "end": 18.8,
+          "word": " un",
+          "probability": 0.9996768236160278
+        },
+        {
+          "start": 18.8,
+          "end": 19.0,
+          "word": " autre",
+          "probability": 0.9999771118164062
+        },
+        {
+          "start": 19.0,
+          "end": 19.32,
+          "word": " arbre,",
+          "probability": 0.999799370765686
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 19.74,
+      "end": 25.08,
+      "text": " ce qui lui a permis de ne pas être en contact avec le sol et de sécher parfaitement.",
+      "tokens": [
+        51280,
+        1769,
+        1956,
+        8783,
+        257,
+        44744,
+        368,
+        408,
+        1736,
+        7418,
+        465,
+        3385,
+        4163,
+        476,
+        1404,
+        1030,
+        368,
+        7910,
+        6759,
+        36102,
+        1712,
+        13,
+        51531
+      ],
+      "avg_logprob": -0.07940513478185897,
+      "compression_ratio": 1.5583941605839415,
+      "no_speech_prob": 5.642072312822544e-12,
+      "words": [
+        {
+          "start": 19.74,
+          "end": 20.16,
+          "word": " ce",
+          "probability": 0.999767005443573
+        },
+        {
+          "start": 20.16,
+          "end": 20.34,
+          "word": " qui",
+          "probability": 0.9999910593032837
+        },
+        {
+          "start": 20.34,
+          "end": 20.5,
+          "word": " lui",
+          "probability": 0.9999921321868896
+        },
+        {
+          "start": 20.5,
+          "end": 20.66,
+          "word": " a",
+          "probability": 0.9999746084213257
+        },
+        {
+          "start": 20.66,
+          "end": 21.06,
+          "word": " permis",
+          "probability": 0.999931812286377
+        },
+        {
+          "start": 21.06,
+          "end": 21.38,
+          "word": " de",
+          "probability": 0.9999877214431763
+        },
+        {
+          "start": 21.38,
+          "end": 21.5,
+          "word": " ne",
+          "probability": 0.9999918937683105
+        },
+        {
+          "start": 21.5,
+          "end": 21.7,
+          "word": " pas",
+          "probability": 0.9999806880950928
+        },
+        {
+          "start": 21.7,
+          "end": 21.92,
+          "word": " être",
+          "probability": 0.999921441078186
+        },
+        {
+          "start": 21.92,
+          "end": 22.04,
+          "word": " en",
+          "probability": 0.9999548196792603
+        },
+        {
+          "start": 22.04,
+          "end": 22.34,
+          "word": " contact",
+          "probability": 0.9998877048492432
+        },
+        {
+          "start": 22.34,
+          "end": 22.62,
+          "word": " avec",
+          "probability": 0.9997991919517517
+        },
+        {
+          "start": 22.62,
+          "end": 22.82,
+          "word": " le",
+          "probability": 0.9999587535858154
+        },
+        {
+          "start": 22.82,
+          "end": 23.1,
+          "word": " sol",
+          "probability": 0.9998188614845276
+        },
+        {
+          "start": 23.1,
+          "end": 23.6,
+          "word": " et",
+          "probability": 0.9992319345474243
+        },
+        {
+          "start": 23.6,
+          "end": 23.76,
+          "word": " de",
+          "probability": 0.9999935626983643
+        },
+        {
+          "start": 23.76,
+          "end": 24.26,
+          "word": " sécher",
+          "probability": 0.9997020959854126
+        },
+        {
+          "start": 24.26,
+          "end": 25.08,
+          "word": " parfaitement.",
+          "probability": 0.9999433755874634
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 25.48,
+      "end": 30.16,
+      "text": " Tu sors une hachette de ton sac sans fond et tu entreprends de le couper.",
+      "tokens": [
+        51570,
+        7836,
+        262,
+        830,
+        2251,
+        324,
+        339,
+        3007,
+        368,
+        2952,
+        4899,
+        12177,
+        9557,
+        1030,
+        2604,
+        3962,
+        32725,
+        82,
+        368,
+        476,
+        1384,
+        610,
+        13,
+        51784
+      ],
+      "avg_logprob": -0.07940513478185897,
+      "compression_ratio": 1.5583941605839415,
+      "no_speech_prob": 5.642072312822544e-12,
+      "words": [
+        {
+          "start": 25.48,
+          "end": 26.0,
+          "word": " Tu",
+          "probability": 0.9990183115005493
+        },
+        {
+          "start": 26.0,
+          "end": 26.42,
+          "word": " sors",
+          "probability": 0.9981195330619812
+        },
+        {
+          "start": 26.42,
+          "end": 26.76,
+          "word": " une",
+          "probability": 0.9997918009757996
+        },
+        {
+          "start": 26.76,
+          "end": 27.3,
+          "word": " hachette",
+          "probability": 0.9811378518740336
+        },
+        {
+          "start": 27.3,
+          "end": 27.46,
+          "word": " de",
+          "probability": 0.9999359846115112
+        },
+        {
+          "start": 27.46,
+          "end": 27.64,
+          "word": " ton",
+          "probability": 0.999908447265625
+        },
+        {
+          "start": 27.64,
+          "end": 27.9,
+          "word": " sac",
+          "probability": 0.9991531372070312
+        },
+        {
+          "start": 27.9,
+          "end": 28.1,
+          "word": " sans",
+          "probability": 0.9734581112861633
+        },
+        {
+          "start": 28.1,
+          "end": 28.26,
+          "word": " fond",
+          "probability": 0.9979647397994995
+        },
+        {
+          "start": 28.26,
+          "end": 28.84,
+          "word": " et",
+          "probability": 0.9757688641548157
+        },
+        {
+          "start": 28.84,
+          "end": 29.04,
+          "word": " tu",
+          "probability": 0.9999195337295532
+        },
+        {
+          "start": 29.04,
+          "end": 29.64,
+          "word": " entreprends",
+          "probability": 0.9972129662831625
+        },
+        {
+          "start": 29.64,
+          "end": 29.74,
+          "word": " de",
+          "probability": 0.9967241883277893
+        },
+        {
+          "start": 29.74,
+          "end": 29.84,
+          "word": " le",
+          "probability": 0.999882698059082
+        },
+        {
+          "start": 29.84,
+          "end": 30.16,
+          "word": " couper.",
+          "probability": 0.9977355599403381
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

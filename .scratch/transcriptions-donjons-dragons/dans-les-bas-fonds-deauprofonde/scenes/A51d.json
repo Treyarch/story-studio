@@ -1,0 +1,438 @@
+{
+  "scene": "A51d",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A51d.mp3",
+  "sha256": "05a87e630bed2995a32f51bc6116b914dca9037ec1fcaed18fffbdf736ed0d63",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 23.5341875,
+  "text": "Quelle joie! Tu souris à pleines dents! Jamais tu n'aurais imaginé un tel honneur! Si tu décides de reprendre le journalisme, ça fera une histoire sensationnelle! Mais pour l'instant, tu es ravi de te consacrer à cette nouvelle carrière avec tes valeureux amis!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.98,
+      "end": 7.82,
+      "text": " Quelle joie! Tu souris à pleines dents! Jamais tu n'aurais imaginé un tel honneur!",
+      "tokens": [
+        50365,
+        4493,
+        2447,
+        1488,
+        414,
+        2298,
+        7836,
+        11006,
+        271,
+        1531,
+        3362,
+        1652,
+        274,
+        791,
+        2298,
+        10372,
+        1527,
+        2604,
+        297,
+        6,
+        44608,
+        23427,
+        526,
+        517,
+        15284,
+        2157,
+        716,
+        374,
+        2298,
+        50736
+      ],
+      "avg_logprob": -0.09065744103863835,
+      "compression_ratio": 1.4093264248704662,
+      "no_speech_prob": 8.091929036557755e-12,
+      "words": [
+        {
+          "start": 0.98,
+          "end": 1.66,
+          "word": " Quelle",
+          "probability": 0.9945442974567413
+        },
+        {
+          "start": 1.66,
+          "end": 2.1,
+          "word": " joie",
+          "probability": 0.9996066689491272
+        },
+        {
+          "start": 2.1,
+          "end": 2.3,
+          "word": "!",
+          "probability": 0.9707830548286438
+        },
+        {
+          "start": 2.3,
+          "end": 2.88,
+          "word": " Tu",
+          "probability": 0.9991922974586487
+        },
+        {
+          "start": 2.88,
+          "end": 3.36,
+          "word": " souris",
+          "probability": 0.99295574426651
+        },
+        {
+          "start": 3.36,
+          "end": 3.56,
+          "word": " à",
+          "probability": 0.9995443224906921
+        },
+        {
+          "start": 3.56,
+          "end": 3.88,
+          "word": " pleines",
+          "probability": 0.9547862112522125
+        },
+        {
+          "start": 3.88,
+          "end": 4.08,
+          "word": " dents",
+          "probability": 0.9954405128955841
+        },
+        {
+          "start": 4.08,
+          "end": 4.64,
+          "word": "!",
+          "probability": 0.8882893323898315
+        },
+        {
+          "start": 4.64,
+          "end": 5.08,
+          "word": " Jamais",
+          "probability": 0.9994434118270874
+        },
+        {
+          "start": 5.08,
+          "end": 5.28,
+          "word": " tu",
+          "probability": 0.9996143579483032
+        },
+        {
+          "start": 5.28,
+          "end": 5.4,
+          "word": " n",
+          "probability": 0.9997401833534241
+        },
+        {
+          "start": 5.4,
+          "end": 5.54,
+          "word": "'aurais",
+          "probability": 0.9869350790977478
+        },
+        {
+          "start": 5.54,
+          "end": 6.16,
+          "word": " imaginé",
+          "probability": 0.9993111491203308
+        },
+        {
+          "start": 6.16,
+          "end": 6.4,
+          "word": " un",
+          "probability": 0.9999651908874512
+        },
+        {
+          "start": 6.4,
+          "end": 6.7,
+          "word": " tel",
+          "probability": 0.9996949434280396
+        },
+        {
+          "start": 6.7,
+          "end": 7.16,
+          "word": " honneur",
+          "probability": 0.999313493569692
+        },
+        {
+          "start": 7.16,
+          "end": 7.82,
+          "word": "!",
+          "probability": 0.8953049182891846
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.25,
+      "end": 13.42,
+      "text": " Si tu décides de reprendre le journalisme, ça fera une histoire sensationnelle!",
+      "tokens": [
+        50736,
+        4909,
+        2604,
+        9198,
+        1875,
+        368,
+        1085,
+        17218,
+        476,
+        6708,
+        16415,
+        11,
+        2788,
+        50169,
+        2251,
+        31202,
+        20069,
+        37365,
+        2298,
+        51004
+      ],
+      "avg_logprob": -0.09065744103863835,
+      "compression_ratio": 1.4093264248704662,
+      "no_speech_prob": 8.091929036557755e-12,
+      "words": [
+        {
+          "start": 8.25,
+          "end": 8.58,
+          "word": " Si",
+          "probability": 0.9997058510780334
+        },
+        {
+          "start": 8.58,
+          "end": 8.76,
+          "word": " tu",
+          "probability": 0.9999821186065674
+        },
+        {
+          "start": 8.76,
+          "end": 9.26,
+          "word": " décides",
+          "probability": 0.9994107782840729
+        },
+        {
+          "start": 9.26,
+          "end": 9.44,
+          "word": " de",
+          "probability": 0.9999886751174927
+        },
+        {
+          "start": 9.44,
+          "end": 9.88,
+          "word": " reprendre",
+          "probability": 0.9999100565910339
+        },
+        {
+          "start": 9.88,
+          "end": 10.12,
+          "word": " le",
+          "probability": 0.9999611377716064
+        },
+        {
+          "start": 10.12,
+          "end": 10.84,
+          "word": " journalisme,",
+          "probability": 0.9995402097702026
+        },
+        {
+          "start": 11.2,
+          "end": 11.3,
+          "word": " ça",
+          "probability": 0.9997863173484802
+        },
+        {
+          "start": 11.3,
+          "end": 11.56,
+          "word": " fera",
+          "probability": 0.9997357726097107
+        },
+        {
+          "start": 11.56,
+          "end": 11.78,
+          "word": " une",
+          "probability": 0.9999538660049438
+        },
+        {
+          "start": 11.78,
+          "end": 12.12,
+          "word": " histoire",
+          "probability": 0.999882698059082
+        },
+        {
+          "start": 12.12,
+          "end": 13.06,
+          "word": " sensationnelle",
+          "probability": 0.9995920062065125
+        },
+        {
+          "start": 13.06,
+          "end": 13.42,
+          "word": "!",
+          "probability": 0.8272227644920349
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 13.42,
+      "end": 20.14,
+      "text": " Mais pour l'instant, tu es ravi de te consacrer à cette nouvelle carrière avec tes valeureux amis!",
+      "tokens": [
+        51004,
+        6313,
+        2016,
+        287,
+        6,
+        48142,
+        11,
+        2604,
+        785,
+        367,
+        18442,
+        368,
+        535,
+        1014,
+        326,
+        9797,
+        1531,
+        5550,
+        24156,
+        1032,
+        22166,
+        4163,
+        20018,
+        15474,
+        540,
+        2449,
+        32929,
+        2298,
+        51338
+      ],
+      "avg_logprob": -0.09065744103863835,
+      "compression_ratio": 1.4093264248704662,
+      "no_speech_prob": 8.091929036557755e-12,
+      "words": [
+        {
+          "start": 13.42,
+          "end": 13.98,
+          "word": " Mais",
+          "probability": 0.999872088432312
+        },
+        {
+          "start": 13.98,
+          "end": 14.26,
+          "word": " pour",
+          "probability": 0.9993896484375
+        },
+        {
+          "start": 14.26,
+          "end": 14.4,
+          "word": " l",
+          "probability": 0.9999945163726807
+        },
+        {
+          "start": 14.4,
+          "end": 14.72,
+          "word": "'instant,",
+          "probability": 0.9999622702598572
+        },
+        {
+          "start": 15.28,
+          "end": 15.42,
+          "word": " tu",
+          "probability": 0.9999486207962036
+        },
+        {
+          "start": 15.42,
+          "end": 15.6,
+          "word": " es",
+          "probability": 0.9996308088302612
+        },
+        {
+          "start": 15.6,
+          "end": 15.96,
+          "word": " ravi",
+          "probability": 0.941444456577301
+        },
+        {
+          "start": 15.96,
+          "end": 16.1,
+          "word": " de",
+          "probability": 0.9999878406524658
+        },
+        {
+          "start": 16.1,
+          "end": 16.26,
+          "word": " te",
+          "probability": 0.9999266862869263
+        },
+        {
+          "start": 16.26,
+          "end": 16.86,
+          "word": " consacrer",
+          "probability": 0.9998906056086222
+        },
+        {
+          "start": 16.86,
+          "end": 17.42,
+          "word": " à",
+          "probability": 0.9992775321006775
+        },
+        {
+          "start": 17.42,
+          "end": 17.72,
+          "word": " cette",
+          "probability": 0.9998576641082764
+        },
+        {
+          "start": 17.72,
+          "end": 18.06,
+          "word": " nouvelle",
+          "probability": 0.9998238682746887
+        },
+        {
+          "start": 18.06,
+          "end": 18.6,
+          "word": " carrière",
+          "probability": 0.9998973608016968
+        },
+        {
+          "start": 18.6,
+          "end": 19.08,
+          "word": " avec",
+          "probability": 0.9997543692588806
+        },
+        {
+          "start": 19.08,
+          "end": 19.26,
+          "word": " tes",
+          "probability": 0.9997040629386902
+        },
+        {
+          "start": 19.26,
+          "end": 19.74,
+          "word": " valeureux",
+          "probability": 0.9384233554204305
+        },
+        {
+          "start": 19.74,
+          "end": 19.94,
+          "word": " amis",
+          "probability": 0.9913233518600464
+        },
+        {
+          "start": 19.94,
+          "end": 20.14,
+          "word": "!",
+          "probability": 0.5819945931434631
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

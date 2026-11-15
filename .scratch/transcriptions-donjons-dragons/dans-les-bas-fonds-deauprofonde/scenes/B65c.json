@@ -1,0 +1,202 @@
+{
+  "scene": "B65c",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B65c.mp3",
+  "sha256": "ab128a970e0486580ed008734597623bf10b410399557ad9fe174ea0d6833527",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 11.3016875,
+  "text": "Tu as plusieurs choix et beaucoup à apprendre. Alors, tu sors ton précieux carnet pour t'aider à y voir clair.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.9,
+      "end": 4.46,
+      "text": " Tu as plusieurs choix et beaucoup à apprendre.",
+      "tokens": [
+        50365,
+        7836,
+        382,
+        20208,
+        32688,
+        1030,
+        8796,
+        1531,
+        46609,
+        13,
+        50494
+      ],
+      "avg_logprob": -0.0861216549362455,
+      "compression_ratio": 1.0970873786407767,
+      "no_speech_prob": 5.697243024571641e-12,
+      "words": [
+        {
+          "start": 1.9,
+          "end": 2.34,
+          "word": " Tu",
+          "probability": 0.9034676551818848
+        },
+        {
+          "start": 2.34,
+          "end": 2.46,
+          "word": " as",
+          "probability": 0.9990527033805847
+        },
+        {
+          "start": 2.46,
+          "end": 2.76,
+          "word": " plusieurs",
+          "probability": 0.9986457228660583
+        },
+        {
+          "start": 2.76,
+          "end": 3.08,
+          "word": " choix",
+          "probability": 0.9995809197425842
+        },
+        {
+          "start": 3.08,
+          "end": 3.5,
+          "word": " et",
+          "probability": 0.9482579231262207
+        },
+        {
+          "start": 3.5,
+          "end": 3.84,
+          "word": " beaucoup",
+          "probability": 0.9995668530464172
+        },
+        {
+          "start": 3.84,
+          "end": 4.06,
+          "word": " à",
+          "probability": 0.9993690848350525
+        },
+        {
+          "start": 4.06,
+          "end": 4.46,
+          "word": " apprendre.",
+          "probability": 0.9997420907020569
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.08,
+      "end": 8.62,
+      "text": " Alors, tu sors ton précieux carnet pour t'aider à y voir clair.",
+      "tokens": [
+        50533,
+        9946,
+        11,
+        2604,
+        262,
+        830,
+        2952,
+        11127,
+        4260,
+        2449,
+        1032,
+        7129,
+        2016,
+        256,
+        6,
+        64,
+        1438,
+        1531,
+        288,
+        10695,
+        41375,
+        13,
+        50705
+      ],
+      "avg_logprob": -0.0861216549362455,
+      "compression_ratio": 1.0970873786407767,
+      "no_speech_prob": 5.697243024571641e-12,
+      "words": [
+        {
+          "start": 5.08,
+          "end": 5.62,
+          "word": " Alors,",
+          "probability": 0.9992064833641052
+        },
+        {
+          "start": 5.86,
+          "end": 6.18,
+          "word": " tu",
+          "probability": 0.9997037053108215
+        },
+        {
+          "start": 6.18,
+          "end": 6.44,
+          "word": " sors",
+          "probability": 0.9988183677196503
+        },
+        {
+          "start": 6.44,
+          "end": 6.58,
+          "word": " ton",
+          "probability": 0.9998947381973267
+        },
+        {
+          "start": 6.58,
+          "end": 7.1,
+          "word": " précieux",
+          "probability": 0.9996782938639323
+        },
+        {
+          "start": 7.1,
+          "end": 7.42,
+          "word": " carnet",
+          "probability": 0.9984269142150879
+        },
+        {
+          "start": 7.42,
+          "end": 7.68,
+          "word": " pour",
+          "probability": 0.9987457990646362
+        },
+        {
+          "start": 7.68,
+          "end": 7.8,
+          "word": " t",
+          "probability": 0.9997606873512268
+        },
+        {
+          "start": 7.8,
+          "end": 7.98,
+          "word": "'aider",
+          "probability": 0.9994098742802938
+        },
+        {
+          "start": 7.98,
+          "end": 8.1,
+          "word": " à",
+          "probability": 0.9997839331626892
+        },
+        {
+          "start": 8.1,
+          "end": 8.22,
+          "word": " y",
+          "probability": 0.9960898160934448
+        },
+        {
+          "start": 8.22,
+          "end": 8.38,
+          "word": " voir",
+          "probability": 0.9985966086387634
+        },
+        {
+          "start": 8.38,
+          "end": 8.62,
+          "word": " clair.",
+          "probability": 0.9815651774406433
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

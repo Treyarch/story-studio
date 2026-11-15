@@ -1,0 +1,739 @@
+{
+  "scene": "B33_guerrier",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B33_guerrier.mp3",
+  "sha256": "6a63d9980b539a2f720c7fcf26d27b1b3ff210b8434e0543406a0d67f0f2b80e",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 32.5068125,
+  "text": "Rien à faire. Il n'y a qu'une solution, le combat. Tu tires ton épée et la brandis devant toi, mettant la créature au défi d'avancer. Elle ne s'en prive pas et lance sur toi un autre tentacule. Tu le frappes de ton épée. La lame tranche net l'appendice. Il tombe au sol et se met à frétiller comme un poisson échoué sur la rive. Jusqu'à ce que le cube gélatineux l'attrape et l'ingère tourne.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.9,
+      "end": 5.88,
+      "text": " Rien à faire. Il n'y a qu'une solution, le combat.",
+      "tokens": [
+        50365,
+        497,
+        1053,
+        1531,
+        4865,
+        13,
+        4416,
+        297,
+        6,
+        88,
+        257,
+        421,
+        6,
+        2613,
+        3827,
+        11,
+        476,
+        8361,
+        13,
+        50564
+      ],
+      "avg_logprob": -0.10019286369828329,
+      "compression_ratio": 1.549618320610687,
+      "no_speech_prob": 7.99258662725899e-12,
+      "words": [
+        {
+          "start": 1.9,
+          "end": 2.5,
+          "word": " Rien",
+          "probability": 0.8891238272190094
+        },
+        {
+          "start": 2.5,
+          "end": 2.72,
+          "word": " à",
+          "probability": 0.9996732473373413
+        },
+        {
+          "start": 2.72,
+          "end": 2.96,
+          "word": " faire.",
+          "probability": 0.9998756647109985
+        },
+        {
+          "start": 3.3,
+          "end": 3.82,
+          "word": " Il",
+          "probability": 0.9988886713981628
+        },
+        {
+          "start": 3.82,
+          "end": 3.94,
+          "word": " n",
+          "probability": 0.9991180300712585
+        },
+        {
+          "start": 3.94,
+          "end": 4.02,
+          "word": "'y",
+          "probability": 0.9999673962593079
+        },
+        {
+          "start": 4.02,
+          "end": 4.04,
+          "word": " a",
+          "probability": 0.9999783039093018
+        },
+        {
+          "start": 4.04,
+          "end": 4.2,
+          "word": " qu",
+          "probability": 0.9999115467071533
+        },
+        {
+          "start": 4.2,
+          "end": 4.3,
+          "word": "'une",
+          "probability": 0.9999336004257202
+        },
+        {
+          "start": 4.3,
+          "end": 4.74,
+          "word": " solution,",
+          "probability": 0.9999284744262695
+        },
+        {
+          "start": 5.06,
+          "end": 5.46,
+          "word": " le",
+          "probability": 0.9998401403427124
+        },
+        {
+          "start": 5.46,
+          "end": 5.88,
+          "word": " combat.",
+          "probability": 0.9999228715896606
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.62,
+      "end": 11.94,
+      "text": " Tu tires ton épée et la brandis devant toi, mettant la créature au défi d'avancer.",
+      "tokens": [
+        50621,
+        7836,
+        13885,
+        2952,
+        21018,
+        3856,
+        1030,
+        635,
+        3360,
+        271,
+        28982,
+        15648,
+        11,
+        27812,
+        394,
+        635,
+        15609,
+        1503,
+        1609,
+        2795,
+        13325,
+        274,
+        6,
+        21071,
+        1776,
+        13,
+        50868
+      ],
+      "avg_logprob": -0.10019286369828329,
+      "compression_ratio": 1.549618320610687,
+      "no_speech_prob": 7.99258662725899e-12,
+      "words": [
+        {
+          "start": 6.62,
+          "end": 7.14,
+          "word": " Tu",
+          "probability": 0.9983090162277222
+        },
+        {
+          "start": 7.14,
+          "end": 7.42,
+          "word": " tires",
+          "probability": 0.99592125415802
+        },
+        {
+          "start": 7.42,
+          "end": 7.62,
+          "word": " ton",
+          "probability": 0.9996446371078491
+        },
+        {
+          "start": 7.62,
+          "end": 7.96,
+          "word": " épée",
+          "probability": 0.9981920719146729
+        },
+        {
+          "start": 7.96,
+          "end": 8.3,
+          "word": " et",
+          "probability": 0.9982244372367859
+        },
+        {
+          "start": 8.3,
+          "end": 8.42,
+          "word": " la",
+          "probability": 0.9897240400314331
+        },
+        {
+          "start": 8.42,
+          "end": 8.86,
+          "word": " brandis",
+          "probability": 0.9740889966487885
+        },
+        {
+          "start": 8.86,
+          "end": 9.12,
+          "word": " devant",
+          "probability": 0.9998252987861633
+        },
+        {
+          "start": 9.12,
+          "end": 9.4,
+          "word": " toi,",
+          "probability": 0.9999016523361206
+        },
+        {
+          "start": 9.68,
+          "end": 10.18,
+          "word": " mettant",
+          "probability": 0.9983209669589996
+        },
+        {
+          "start": 10.18,
+          "end": 10.32,
+          "word": " la",
+          "probability": 0.9999487400054932
+        },
+        {
+          "start": 10.32,
+          "end": 10.88,
+          "word": " créature",
+          "probability": 0.9998905658721924
+        },
+        {
+          "start": 10.88,
+          "end": 11.14,
+          "word": " au",
+          "probability": 0.9964331388473511
+        },
+        {
+          "start": 11.14,
+          "end": 11.48,
+          "word": " défi",
+          "probability": 0.9995394945144653
+        },
+        {
+          "start": 11.48,
+          "end": 11.6,
+          "word": " d",
+          "probability": 0.9998412132263184
+        },
+        {
+          "start": 11.6,
+          "end": 11.94,
+          "word": "'avancer.",
+          "probability": 0.9984229207038879
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 12.56,
+      "end": 16.3,
+      "text": " Elle ne s'en prive pas et lance sur toi un autre tentacule.",
+      "tokens": [
+        50910,
+        16227,
+        408,
+        262,
+        6,
+        268,
+        1790,
+        303,
+        1736,
+        1030,
+        39234,
+        1022,
+        15648,
+        517,
+        15081,
+        7054,
+        326,
+        2271,
+        13,
+        51085
+      ],
+      "avg_logprob": -0.10019286369828329,
+      "compression_ratio": 1.549618320610687,
+      "no_speech_prob": 7.99258662725899e-12,
+      "words": [
+        {
+          "start": 12.56,
+          "end": 12.92,
+          "word": " Elle",
+          "probability": 0.9989363551139832
+        },
+        {
+          "start": 12.92,
+          "end": 13.06,
+          "word": " ne",
+          "probability": 0.9997856020927429
+        },
+        {
+          "start": 13.06,
+          "end": 13.24,
+          "word": " s",
+          "probability": 0.9995988011360168
+        },
+        {
+          "start": 13.24,
+          "end": 13.28,
+          "word": "'en",
+          "probability": 0.9973647892475128
+        },
+        {
+          "start": 13.28,
+          "end": 13.54,
+          "word": " prive",
+          "probability": 0.9820326864719391
+        },
+        {
+          "start": 13.54,
+          "end": 13.78,
+          "word": " pas",
+          "probability": 0.9998452663421631
+        },
+        {
+          "start": 13.78,
+          "end": 14.2,
+          "word": " et",
+          "probability": 0.961649477481842
+        },
+        {
+          "start": 14.2,
+          "end": 14.54,
+          "word": " lance",
+          "probability": 0.9978041052818298
+        },
+        {
+          "start": 14.54,
+          "end": 14.78,
+          "word": " sur",
+          "probability": 0.9998598098754883
+        },
+        {
+          "start": 14.78,
+          "end": 15.0,
+          "word": " toi",
+          "probability": 0.999566376209259
+        },
+        {
+          "start": 15.0,
+          "end": 15.32,
+          "word": " un",
+          "probability": 0.9993020296096802
+        },
+        {
+          "start": 15.32,
+          "end": 15.64,
+          "word": " autre",
+          "probability": 0.9999579191207886
+        },
+        {
+          "start": 15.64,
+          "end": 16.3,
+          "word": " tentacule.",
+          "probability": 0.9955653150876363
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 16.54,
+      "end": 20.2,
+      "text": " Tu le frappes de ton épée. La lame tranche net l'appendice.",
+      "tokens": [
+        51107,
+        7836,
+        476,
+        6600,
+        427,
+        279,
+        368,
+        2952,
+        21018,
+        3856,
+        13,
+        2369,
+        27635,
+        14404,
+        1876,
+        2533,
+        287,
+        6,
+        1746,
+        521,
+        573,
+        13,
+        51281
+      ],
+      "avg_logprob": -0.10019286369828329,
+      "compression_ratio": 1.549618320610687,
+      "no_speech_prob": 7.99258662725899e-12,
+      "words": [
+        {
+          "start": 16.54,
+          "end": 16.82,
+          "word": " Tu",
+          "probability": 0.9979610443115234
+        },
+        {
+          "start": 16.82,
+          "end": 17.0,
+          "word": " le",
+          "probability": 0.9992567896842957
+        },
+        {
+          "start": 17.0,
+          "end": 17.3,
+          "word": " frappes",
+          "probability": 0.9989614089330038
+        },
+        {
+          "start": 17.3,
+          "end": 17.44,
+          "word": " de",
+          "probability": 0.9998441934585571
+        },
+        {
+          "start": 17.44,
+          "end": 17.58,
+          "word": " ton",
+          "probability": 0.9995307922363281
+        },
+        {
+          "start": 17.58,
+          "end": 17.88,
+          "word": " épée.",
+          "probability": 0.9998817443847656
+        },
+        {
+          "start": 18.38,
+          "end": 18.56,
+          "word": " La",
+          "probability": 0.9983978867530823
+        },
+        {
+          "start": 18.56,
+          "end": 18.82,
+          "word": " lame",
+          "probability": 0.9988038539886475
+        },
+        {
+          "start": 18.82,
+          "end": 19.3,
+          "word": " tranche",
+          "probability": 0.9995791018009186
+        },
+        {
+          "start": 19.3,
+          "end": 19.52,
+          "word": " net",
+          "probability": 0.9931974411010742
+        },
+        {
+          "start": 19.52,
+          "end": 19.7,
+          "word": " l",
+          "probability": 0.9693707823753357
+        },
+        {
+          "start": 19.7,
+          "end": 20.2,
+          "word": "'appendice.",
+          "probability": 0.99275803565979
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 20.56,
+      "end": 24.94,
+      "text": " Il tombe au sol et se met à frétiller comme un poisson échoué sur la rive.",
+      "tokens": [
+        51320,
+        4416,
+        2916,
+        650,
+        1609,
+        1404,
+        1030,
+        369,
+        1131,
+        1531,
+        431,
+        4051,
+        10497,
+        5173,
+        517,
+        714,
+        30472,
+        39310,
+        263,
+        526,
+        1022,
+        635,
+        367,
+        488,
+        13,
+        51517
+      ],
+      "avg_logprob": -0.10019286369828329,
+      "compression_ratio": 1.549618320610687,
+      "no_speech_prob": 7.99258662725899e-12,
+      "words": [
+        {
+          "start": 20.56,
+          "end": 21.08,
+          "word": " Il",
+          "probability": 0.9910504817962646
+        },
+        {
+          "start": 21.08,
+          "end": 21.34,
+          "word": " tombe",
+          "probability": 0.9996666610240936
+        },
+        {
+          "start": 21.34,
+          "end": 21.48,
+          "word": " au",
+          "probability": 0.9999121427536011
+        },
+        {
+          "start": 21.48,
+          "end": 21.7,
+          "word": " sol",
+          "probability": 0.999708354473114
+        },
+        {
+          "start": 21.7,
+          "end": 22.26,
+          "word": " et",
+          "probability": 0.9987409710884094
+        },
+        {
+          "start": 22.26,
+          "end": 22.46,
+          "word": " se",
+          "probability": 0.9996695518493652
+        },
+        {
+          "start": 22.46,
+          "end": 22.56,
+          "word": " met",
+          "probability": 0.9986806511878967
+        },
+        {
+          "start": 22.56,
+          "end": 22.74,
+          "word": " à",
+          "probability": 0.9998575448989868
+        },
+        {
+          "start": 22.74,
+          "end": 23.16,
+          "word": " frétiller",
+          "probability": 0.9749342203140259
+        },
+        {
+          "start": 23.16,
+          "end": 23.5,
+          "word": " comme",
+          "probability": 0.9991633892059326
+        },
+        {
+          "start": 23.5,
+          "end": 23.66,
+          "word": " un",
+          "probability": 0.9990109205245972
+        },
+        {
+          "start": 23.66,
+          "end": 24.08,
+          "word": " poisson",
+          "probability": 0.9996187388896942
+        },
+        {
+          "start": 24.08,
+          "end": 24.42,
+          "word": " échoué",
+          "probability": 0.9974757234255472
+        },
+        {
+          "start": 24.42,
+          "end": 24.56,
+          "word": " sur",
+          "probability": 0.9996626377105713
+        },
+        {
+          "start": 24.56,
+          "end": 24.72,
+          "word": " la",
+          "probability": 0.9977832436561584
+        },
+        {
+          "start": 24.72,
+          "end": 24.94,
+          "word": " rive.",
+          "probability": 0.9988180696964264
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 25.76,
+      "end": 29.4,
+      "text": " Jusqu'à ce que le cube gélatineux l'attrape et l'ingère tourne.",
+      "tokens": [
+        51557,
+        508,
+        301,
+        358,
+        6,
+        1467,
+        1769,
+        631,
+        476,
+        13728,
+        290,
+        8025,
+        267,
+        533,
+        2449,
+        287,
+        6,
+        1591,
+        424,
+        494,
+        1030,
+        287,
+        6,
+        278,
+        4212,
+        3512,
+        716,
+        13,
+        51742
+      ],
+      "avg_logprob": -0.10019286369828329,
+      "compression_ratio": 1.549618320610687,
+      "no_speech_prob": 7.99258662725899e-12,
+      "words": [
+        {
+          "start": 25.76,
+          "end": 26.28,
+          "word": " Jusqu",
+          "probability": 0.9993059039115906
+        },
+        {
+          "start": 26.28,
+          "end": 26.36,
+          "word": "'à",
+          "probability": 0.999915361404419
+        },
+        {
+          "start": 26.36,
+          "end": 26.44,
+          "word": " ce",
+          "probability": 0.9997579455375671
+        },
+        {
+          "start": 26.44,
+          "end": 26.54,
+          "word": " que",
+          "probability": 0.9999510049819946
+        },
+        {
+          "start": 26.54,
+          "end": 26.7,
+          "word": " le",
+          "probability": 0.9989446997642517
+        },
+        {
+          "start": 26.7,
+          "end": 26.94,
+          "word": " cube",
+          "probability": 0.996616542339325
+        },
+        {
+          "start": 26.94,
+          "end": 27.58,
+          "word": " gélatineux",
+          "probability": 0.8895814061164856
+        },
+        {
+          "start": 27.58,
+          "end": 27.62,
+          "word": " l",
+          "probability": 0.9979389309883118
+        },
+        {
+          "start": 27.62,
+          "end": 28.0,
+          "word": "'attrape",
+          "probability": 0.9989417493343353
+        },
+        {
+          "start": 28.0,
+          "end": 28.48,
+          "word": " et",
+          "probability": 0.9988825917243958
+        },
+        {
+          "start": 28.48,
+          "end": 28.66,
+          "word": " l",
+          "probability": 0.981812059879303
+        },
+        {
+          "start": 28.66,
+          "end": 29.0,
+          "word": "'ingère",
+          "probability": 0.9959153135617574
+        },
+        {
+          "start": 29.0,
+          "end": 29.4,
+          "word": " tourne.",
+          "probability": 0.945896178483963
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

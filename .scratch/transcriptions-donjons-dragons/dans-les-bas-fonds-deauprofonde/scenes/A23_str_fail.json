@@ -1,0 +1,708 @@
+{
+  "scene": "A23_str_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A23_str_fail.mp3",
+  "sha256": "c09d4d8d6e7174fe5ac8dfada3c6c3d984163ce7e1c04b5336d996ec2d1fd489",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 30.3119375,
+  "text": "Malgré tes efforts, l'écrou résiste. Tu sens que la bête éclipsante t'attire à elle, vers sa gueule grande ouverte. L'espace d'un instant, tu te demandes si tu es sur le point d'établir le record de la plus courte participation aux Entarim. Kissandra intervient alors et tranche le tentacule avec son poignard. La bête pousse un hurlement de douleur et te relâche. Sans te donner le temps de la remercier, Kissandra te crie...",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.42,
+      "end": 4.08,
+      "text": " Malgré tes efforts, l'écrou résiste.",
+      "tokens": [
+        50365,
+        5746,
+        36341,
+        20018,
+        6484,
+        11,
+        287,
+        6,
+        9062,
+        13122,
+        14415,
+        8375,
+        13,
+        50499
+      ],
+      "avg_logprob": -0.13578214762094137,
+      "compression_ratio": 1.5519713261648747,
+      "no_speech_prob": 1.054373689052257e-11,
+      "words": [
+        {
+          "start": 1.42,
+          "end": 2.1,
+          "word": " Malgré",
+          "probability": 0.9828238189220428
+        },
+        {
+          "start": 2.1,
+          "end": 2.26,
+          "word": " tes",
+          "probability": 0.9968017339706421
+        },
+        {
+          "start": 2.26,
+          "end": 2.6,
+          "word": " efforts,",
+          "probability": 0.9997321963310242
+        },
+        {
+          "start": 3.14,
+          "end": 3.32,
+          "word": " l",
+          "probability": 0.431636244058609
+        },
+        {
+          "start": 3.32,
+          "end": 3.54,
+          "word": "'écrou",
+          "probability": 0.8271064062913259
+        },
+        {
+          "start": 3.54,
+          "end": 4.08,
+          "word": " résiste.",
+          "probability": 0.9891122281551361
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.34,
+      "end": 8.64,
+      "text": " Tu sens que la bête éclipsante t'attire à elle, vers sa gueule grande ouverte.",
+      "tokens": [
+        50529,
+        7836,
+        2923,
+        631,
+        635,
+        272,
+        12943,
+        1136,
+        3474,
+        2600,
+        2879,
+        256,
+        6,
+        1591,
+        621,
+        1531,
+        8404,
+        11,
+        1774,
+        601,
+        13987,
+        2271,
+        8883,
+        2820,
+        331,
+        975,
+        13,
+        50727
+      ],
+      "avg_logprob": -0.13578214762094137,
+      "compression_ratio": 1.5519713261648747,
+      "no_speech_prob": 1.054373689052257e-11,
+      "words": [
+        {
+          "start": 4.34,
+          "end": 4.82,
+          "word": " Tu",
+          "probability": 0.9970892071723938
+        },
+        {
+          "start": 4.82,
+          "end": 5.06,
+          "word": " sens",
+          "probability": 0.9502090811729431
+        },
+        {
+          "start": 5.06,
+          "end": 5.22,
+          "word": " que",
+          "probability": 0.9998451471328735
+        },
+        {
+          "start": 5.22,
+          "end": 5.34,
+          "word": " la",
+          "probability": 0.9945912957191467
+        },
+        {
+          "start": 5.34,
+          "end": 5.54,
+          "word": " bête",
+          "probability": 0.9957756102085114
+        },
+        {
+          "start": 5.54,
+          "end": 6.14,
+          "word": " éclipsante",
+          "probability": 0.9857689589262009
+        },
+        {
+          "start": 6.14,
+          "end": 6.38,
+          "word": " t",
+          "probability": 0.9983848333358765
+        },
+        {
+          "start": 6.38,
+          "end": 6.68,
+          "word": "'attire",
+          "probability": 0.999678393205007
+        },
+        {
+          "start": 6.68,
+          "end": 6.82,
+          "word": " à",
+          "probability": 0.9994121789932251
+        },
+        {
+          "start": 6.82,
+          "end": 7.02,
+          "word": " elle,",
+          "probability": 0.9984217882156372
+        },
+        {
+          "start": 7.18,
+          "end": 7.58,
+          "word": " vers",
+          "probability": 0.9985380172729492
+        },
+        {
+          "start": 7.58,
+          "end": 7.78,
+          "word": " sa",
+          "probability": 0.999915361404419
+        },
+        {
+          "start": 7.78,
+          "end": 7.94,
+          "word": " gueule",
+          "probability": 0.9991175532341003
+        },
+        {
+          "start": 7.94,
+          "end": 8.18,
+          "word": " grande",
+          "probability": 0.9897897839546204
+        },
+        {
+          "start": 8.18,
+          "end": 8.64,
+          "word": " ouverte.",
+          "probability": 0.9614452918370565
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.14,
+      "end": 15.66,
+      "text": " L'espace d'un instant, tu te demandes si tu es sur le point d'établir le record de la plus courte participation aux Entarim.",
+      "tokens": [
+        50758,
+        441,
+        6,
+        45792,
+        274,
+        6,
+        409,
+        9836,
+        11,
+        2604,
+        535,
+        4733,
+        279,
+        1511,
+        2604,
+        785,
+        1022,
+        476,
+        935,
+        274,
+        6,
+        4051,
+        32212,
+        347,
+        476,
+        2136,
+        368,
+        635,
+        1804,
+        1005,
+        975,
+        13487,
+        7865,
+        3951,
+        289,
+        332,
+        13,
+        51078
+      ],
+      "avg_logprob": -0.13578214762094137,
+      "compression_ratio": 1.5519713261648747,
+      "no_speech_prob": 1.054373689052257e-11,
+      "words": [
+        {
+          "start": 9.14,
+          "end": 9.34,
+          "word": " L",
+          "probability": 0.9877246022224426
+        },
+        {
+          "start": 9.34,
+          "end": 9.56,
+          "word": "'espace",
+          "probability": 0.9997509121894836
+        },
+        {
+          "start": 9.56,
+          "end": 9.76,
+          "word": " d",
+          "probability": 0.9999321699142456
+        },
+        {
+          "start": 9.76,
+          "end": 9.86,
+          "word": "'un",
+          "probability": 0.9999434351921082
+        },
+        {
+          "start": 9.86,
+          "end": 10.18,
+          "word": " instant,",
+          "probability": 0.9998990297317505
+        },
+        {
+          "start": 10.32,
+          "end": 10.4,
+          "word": " tu",
+          "probability": 0.9997475743293762
+        },
+        {
+          "start": 10.4,
+          "end": 10.54,
+          "word": " te",
+          "probability": 0.9998478889465332
+        },
+        {
+          "start": 10.54,
+          "end": 11.06,
+          "word": " demandes",
+          "probability": 0.9991835355758667
+        },
+        {
+          "start": 11.06,
+          "end": 11.48,
+          "word": " si",
+          "probability": 0.9961506128311157
+        },
+        {
+          "start": 11.48,
+          "end": 11.68,
+          "word": " tu",
+          "probability": 0.9998451471328735
+        },
+        {
+          "start": 11.68,
+          "end": 11.82,
+          "word": " es",
+          "probability": 0.9997544884681702
+        },
+        {
+          "start": 11.82,
+          "end": 12.02,
+          "word": " sur",
+          "probability": 0.9982165694236755
+        },
+        {
+          "start": 12.02,
+          "end": 12.14,
+          "word": " le",
+          "probability": 0.999954104423523
+        },
+        {
+          "start": 12.14,
+          "end": 12.38,
+          "word": " point",
+          "probability": 0.9995136260986328
+        },
+        {
+          "start": 12.38,
+          "end": 12.5,
+          "word": " d",
+          "probability": 0.9991542100906372
+        },
+        {
+          "start": 12.5,
+          "end": 12.9,
+          "word": "'établir",
+          "probability": 0.9998597800731659
+        },
+        {
+          "start": 12.9,
+          "end": 13.04,
+          "word": " le",
+          "probability": 0.9996769428253174
+        },
+        {
+          "start": 13.04,
+          "end": 13.36,
+          "word": " record",
+          "probability": 0.9998586177825928
+        },
+        {
+          "start": 13.36,
+          "end": 13.52,
+          "word": " de",
+          "probability": 0.9997054934501648
+        },
+        {
+          "start": 13.52,
+          "end": 13.64,
+          "word": " la",
+          "probability": 0.999861478805542
+        },
+        {
+          "start": 13.64,
+          "end": 13.82,
+          "word": " plus",
+          "probability": 0.9998711347579956
+        },
+        {
+          "start": 13.82,
+          "end": 14.12,
+          "word": " courte",
+          "probability": 0.9998495876789093
+        },
+        {
+          "start": 14.12,
+          "end": 14.9,
+          "word": " participation",
+          "probability": 0.9998490810394287
+        },
+        {
+          "start": 14.9,
+          "end": 15.18,
+          "word": " aux",
+          "probability": 0.9641900658607483
+        },
+        {
+          "start": 15.18,
+          "end": 15.66,
+          "word": " Entarim.",
+          "probability": 0.7627789974212646
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 16.54,
+      "end": 20.18,
+      "text": " Kissandra intervient alors et tranche le tentacule avec son poignard.",
+      "tokens": [
+        51111,
+        591,
+        271,
+        18401,
+        728,
+        85,
+        1196,
+        11246,
+        1030,
+        14404,
+        1876,
+        476,
+        7054,
+        326,
+        2271,
+        4163,
+        1872,
+        714,
+        788,
+        515,
+        13,
+        51304
+      ],
+      "avg_logprob": -0.13578214762094137,
+      "compression_ratio": 1.5519713261648747,
+      "no_speech_prob": 1.054373689052257e-11,
+      "words": [
+        {
+          "start": 16.54,
+          "end": 17.02,
+          "word": " Kissandra",
+          "probability": 0.6760513484477997
+        },
+        {
+          "start": 17.02,
+          "end": 17.5,
+          "word": " intervient",
+          "probability": 0.9997138182322184
+        },
+        {
+          "start": 17.5,
+          "end": 17.82,
+          "word": " alors",
+          "probability": 0.9988065958023071
+        },
+        {
+          "start": 17.82,
+          "end": 18.16,
+          "word": " et",
+          "probability": 0.9953107237815857
+        },
+        {
+          "start": 18.16,
+          "end": 18.56,
+          "word": " tranche",
+          "probability": 0.9688347280025482
+        },
+        {
+          "start": 18.56,
+          "end": 18.72,
+          "word": " le",
+          "probability": 0.9629506468772888
+        },
+        {
+          "start": 18.72,
+          "end": 19.24,
+          "word": " tentacule",
+          "probability": 0.9876375397046407
+        },
+        {
+          "start": 19.24,
+          "end": 19.54,
+          "word": " avec",
+          "probability": 0.9998194575309753
+        },
+        {
+          "start": 19.54,
+          "end": 19.74,
+          "word": " son",
+          "probability": 0.9999210834503174
+        },
+        {
+          "start": 19.74,
+          "end": 20.18,
+          "word": " poignard.",
+          "probability": 0.9995806415875753
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 20.62,
+      "end": 23.96,
+      "text": " La bête pousse un hurlement de douleur et te relâche.",
+      "tokens": [
+        51343,
+        2369,
+        272,
+        12943,
+        280,
+        28521,
+        517,
+        2756,
+        3054,
+        368,
+        2482,
+        306,
+        374,
+        1030,
+        535,
+        1039,
+        3201,
+        1876,
+        13,
+        51494
+      ],
+      "avg_logprob": -0.13578214762094137,
+      "compression_ratio": 1.5519713261648747,
+      "no_speech_prob": 1.054373689052257e-11,
+      "words": [
+        {
+          "start": 20.62,
+          "end": 21.1,
+          "word": " La",
+          "probability": 0.9995005130767822
+        },
+        {
+          "start": 21.1,
+          "end": 21.34,
+          "word": " bête",
+          "probability": 0.9999287128448486
+        },
+        {
+          "start": 21.34,
+          "end": 21.62,
+          "word": " pousse",
+          "probability": 0.9969006776809692
+        },
+        {
+          "start": 21.62,
+          "end": 21.76,
+          "word": " un",
+          "probability": 0.9996689558029175
+        },
+        {
+          "start": 21.76,
+          "end": 22.14,
+          "word": " hurlement",
+          "probability": 0.998865932226181
+        },
+        {
+          "start": 22.14,
+          "end": 22.34,
+          "word": " de",
+          "probability": 0.9998717308044434
+        },
+        {
+          "start": 22.34,
+          "end": 22.74,
+          "word": " douleur",
+          "probability": 0.998370091120402
+        },
+        {
+          "start": 22.74,
+          "end": 23.36,
+          "word": " et",
+          "probability": 0.9962297081947327
+        },
+        {
+          "start": 23.36,
+          "end": 23.5,
+          "word": " te",
+          "probability": 0.999086856842041
+        },
+        {
+          "start": 23.5,
+          "end": 23.96,
+          "word": " relâche.",
+          "probability": 0.9996286233266195
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 24.46,
+      "end": 27.88,
+      "text": " Sans te donner le temps de la remercier, Kissandra te crie...",
+      "tokens": [
+        51533,
+        21504,
+        535,
+        20882,
+        476,
+        8827,
+        368,
+        635,
+        890,
+        260,
+        27674,
+        11,
+        591,
+        271,
+        18401,
+        535,
+        941,
+        414,
+        485,
+        51690
+      ],
+      "avg_logprob": -0.13578214762094137,
+      "compression_ratio": 1.5519713261648747,
+      "no_speech_prob": 1.054373689052257e-11,
+      "words": [
+        {
+          "start": 24.46,
+          "end": 24.94,
+          "word": " Sans",
+          "probability": 0.9990309476852417
+        },
+        {
+          "start": 24.94,
+          "end": 25.08,
+          "word": " te",
+          "probability": 0.9997579455375671
+        },
+        {
+          "start": 25.08,
+          "end": 25.32,
+          "word": " donner",
+          "probability": 0.9997484087944031
+        },
+        {
+          "start": 25.32,
+          "end": 25.48,
+          "word": " le",
+          "probability": 0.9999336004257202
+        },
+        {
+          "start": 25.48,
+          "end": 25.64,
+          "word": " temps",
+          "probability": 0.9999418258666992
+        },
+        {
+          "start": 25.64,
+          "end": 25.78,
+          "word": " de",
+          "probability": 0.9998785257339478
+        },
+        {
+          "start": 25.78,
+          "end": 25.9,
+          "word": " la",
+          "probability": 0.9998107552528381
+        },
+        {
+          "start": 25.9,
+          "end": 26.4,
+          "word": " remercier,",
+          "probability": 0.9998517235120138
+        },
+        {
+          "start": 26.84,
+          "end": 27.2,
+          "word": " Kissandra",
+          "probability": 0.9991899927457174
+        },
+        {
+          "start": 27.2,
+          "end": 27.42,
+          "word": " te",
+          "probability": 0.9997168183326721
+        },
+        {
+          "start": 27.42,
+          "end": 27.88,
+          "word": " crie...",
+          "probability": 0.8725115855534872
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

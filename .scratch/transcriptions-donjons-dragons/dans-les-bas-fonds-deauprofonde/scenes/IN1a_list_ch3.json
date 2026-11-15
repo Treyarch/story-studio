@@ -1,0 +1,54 @@
+{
+  "scene": "IN1a_list_ch3",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/IN1a_list_ch3.mp3",
+  "sha256": "56906f2bc7346f6e38697c38de4d99223079c0f8647da9c736dd03e950aa2722",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.4576875,
+  "text": "Aux humains?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.05,
+      "text": " Aux humains?",
+      "tokens": [
+        50365,
+        316,
+        2449,
+        1484,
+        2315,
+        2506,
+        50435
+      ],
+      "avg_logprob": -0.31038883700966835,
+      "compression_ratio": 0.6190476190476191,
+      "no_speech_prob": 4.211713009599771e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.61,
+          "word": " Aux",
+          "probability": 0.8636347949504852
+        },
+        {
+          "start": 0.61,
+          "end": 0.87,
+          "word": " humains",
+          "probability": 0.9977329671382904
+        },
+        {
+          "start": 0.87,
+          "end": 1.05,
+          "word": "?",
+          "probability": 0.6743698716163635
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

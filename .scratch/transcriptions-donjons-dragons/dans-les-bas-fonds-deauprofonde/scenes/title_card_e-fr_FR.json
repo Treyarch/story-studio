@@ -1,0 +1,64 @@
+{
+  "scene": "title_card_e-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/title_card_e-fr_FR.mp3",
+  "sha256": "e315f8d45a3d0f1e64b9221cf972f5d706d7af0ab17bfa137e8b85ec52b0c5d1",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.5165625,
+  "text": "Eauprofonde, la secrète.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.88,
+      "text": " Eauprofonde, la secrète.",
+      "tokens": [
+        50365,
+        12160,
+        1740,
+        7259,
+        11,
+        635,
+        907,
+        81,
+        22279,
+        13,
+        50458
+      ],
+      "avg_logprob": -0.21263917783896127,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 5.246453011614749e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.54,
+          "word": " Au",
+          "probability": 0.8297520279884338
+        },
+        {
+          "start": 0.54,
+          "end": 1.1,
+          "word": " profonde,",
+          "probability": 0.6960258483886719
+        },
+        {
+          "start": 1.28,
+          "end": 1.36,
+          "word": " la",
+          "probability": 0.9612079858779907
+        },
+        {
+          "start": 1.36,
+          "end": 1.88,
+          "word": " secrète.",
+          "probability": 0.9942026933034261
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

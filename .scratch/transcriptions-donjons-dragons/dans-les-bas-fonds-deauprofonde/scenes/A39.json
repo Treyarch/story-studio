@@ -1,0 +1,445 @@
+{
+  "scene": "A39",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A39.mp3",
+  "sha256": "5d3022d9da67e04fc7c3e58e60b29598f7312f07c2f08335c5e53dca6ab519cb",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 18.2210625,
+  "text": "Tu fais le tour du pâté de maison aussi vite que tu peux pour arriver avant Rojenard, son domestique et ses gardes. Et tu les attends au coin de la rue. Quand le domestique passe à côté de toi, tu t'empares de la sacoche et prends tes jambes à ton cou.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.03,
+      "end": 8.21,
+      "text": " Tu fais le tour du pâté de maison aussi vite que tu peux pour arriver avant Rojenard, son domestique et ses gardes.",
+      "tokens": [
+        50365,
+        7836,
+        12153,
+        476,
+        3512,
+        1581,
+        280,
+        29190,
+        526,
+        368,
+        28511,
+        6212,
+        24462,
+        631,
+        2604,
+        14844,
+        2016,
+        34142,
+        13439,
+        3101,
+        15378,
+        515,
+        11,
+        1872,
+        39125,
+        1925,
+        1030,
+        5385,
+        5628,
+        279,
+        13,
+        50666
+      ],
+      "avg_logprob": -0.09177821564984012,
+      "compression_ratio": 1.4333333333333333,
+      "no_speech_prob": 6.52759400351921e-12,
+      "words": [
+        {
+          "start": 2.03,
+          "end": 2.47,
+          "word": " Tu",
+          "probability": 0.9511538147926331
+        },
+        {
+          "start": 2.47,
+          "end": 2.67,
+          "word": " fais",
+          "probability": 0.9994412064552307
+        },
+        {
+          "start": 2.67,
+          "end": 2.83,
+          "word": " le",
+          "probability": 0.9999229907989502
+        },
+        {
+          "start": 2.83,
+          "end": 3.03,
+          "word": " tour",
+          "probability": 0.9996963739395142
+        },
+        {
+          "start": 3.03,
+          "end": 3.21,
+          "word": " du",
+          "probability": 0.9999276399612427
+        },
+        {
+          "start": 3.21,
+          "end": 3.53,
+          "word": " pâté",
+          "probability": 0.9844648440678915
+        },
+        {
+          "start": 3.53,
+          "end": 3.65,
+          "word": " de",
+          "probability": 0.9997997879981995
+        },
+        {
+          "start": 3.65,
+          "end": 3.95,
+          "word": " maison",
+          "probability": 0.9878023266792297
+        },
+        {
+          "start": 3.95,
+          "end": 4.43,
+          "word": " aussi",
+          "probability": 0.9993347525596619
+        },
+        {
+          "start": 4.43,
+          "end": 4.67,
+          "word": " vite",
+          "probability": 0.9995539784431458
+        },
+        {
+          "start": 4.67,
+          "end": 4.81,
+          "word": " que",
+          "probability": 0.9999736547470093
+        },
+        {
+          "start": 4.81,
+          "end": 4.97,
+          "word": " tu",
+          "probability": 0.9999746084213257
+        },
+        {
+          "start": 4.97,
+          "end": 5.17,
+          "word": " peux",
+          "probability": 0.9994114637374878
+        },
+        {
+          "start": 5.17,
+          "end": 5.55,
+          "word": " pour",
+          "probability": 0.7369927763938904
+        },
+        {
+          "start": 5.55,
+          "end": 5.89,
+          "word": " arriver",
+          "probability": 0.9998835325241089
+        },
+        {
+          "start": 5.89,
+          "end": 6.11,
+          "word": " avant",
+          "probability": 0.8199793696403503
+        },
+        {
+          "start": 6.11,
+          "end": 6.63,
+          "word": " Rojenard,",
+          "probability": 0.7174513538678488
+        },
+        {
+          "start": 6.79,
+          "end": 6.89,
+          "word": " son",
+          "probability": 0.9998451471328735
+        },
+        {
+          "start": 6.89,
+          "end": 7.41,
+          "word": " domestique",
+          "probability": 0.9996641576290131
+        },
+        {
+          "start": 7.41,
+          "end": 7.53,
+          "word": " et",
+          "probability": 0.9969592094421387
+        },
+        {
+          "start": 7.53,
+          "end": 7.69,
+          "word": " ses",
+          "probability": 0.9998428821563721
+        },
+        {
+          "start": 7.69,
+          "end": 8.21,
+          "word": " gardes.",
+          "probability": 0.999723345041275
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.29,
+      "end": 10.31,
+      "text": " Et tu les attends au coin de la rue.",
+      "tokens": [
+        50693,
+        3790,
+        2604,
+        1512,
+        49837,
+        1609,
+        11464,
+        368,
+        635,
+        43919,
+        13,
+        50780
+      ],
+      "avg_logprob": -0.09177821564984012,
+      "compression_ratio": 1.4333333333333333,
+      "no_speech_prob": 6.52759400351921e-12,
+      "words": [
+        {
+          "start": 8.29,
+          "end": 8.69,
+          "word": " Et",
+          "probability": 0.9998190999031067
+        },
+        {
+          "start": 8.69,
+          "end": 8.85,
+          "word": " tu",
+          "probability": 0.9999659061431885
+        },
+        {
+          "start": 8.85,
+          "end": 9.07,
+          "word": " les",
+          "probability": 0.9999555349349976
+        },
+        {
+          "start": 9.07,
+          "end": 9.39,
+          "word": " attends",
+          "probability": 0.9969003200531006
+        },
+        {
+          "start": 9.39,
+          "end": 9.63,
+          "word": " au",
+          "probability": 0.9854379892349243
+        },
+        {
+          "start": 9.63,
+          "end": 9.87,
+          "word": " coin",
+          "probability": 0.998786985874176
+        },
+        {
+          "start": 9.87,
+          "end": 9.99,
+          "word": " de",
+          "probability": 0.9999914169311523
+        },
+        {
+          "start": 9.99,
+          "end": 10.13,
+          "word": " la",
+          "probability": 0.9999727010726929
+        },
+        {
+          "start": 10.13,
+          "end": 10.31,
+          "word": " rue.",
+          "probability": 0.9999610185623169
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.73,
+      "end": 15.91,
+      "text": " Quand le domestique passe à côté de toi, tu t'empares de la sacoche et prends tes jambes à ton cou.",
+      "tokens": [
+        50815,
+        22015,
+        476,
+        39125,
+        1925,
+        14530,
+        1531,
+        18437,
+        368,
+        15648,
+        11,
+        2604,
+        256,
+        6,
+        15970,
+        8643,
+        368,
+        635,
+        4899,
+        78,
+        1876,
+        1030,
+        46750,
+        20018,
+        361,
+        2173,
+        279,
+        1531,
+        2952,
+        1384,
+        13,
+        51060
+      ],
+      "avg_logprob": -0.09177821564984012,
+      "compression_ratio": 1.4333333333333333,
+      "no_speech_prob": 6.52759400351921e-12,
+      "words": [
+        {
+          "start": 10.73,
+          "end": 11.13,
+          "word": " Quand",
+          "probability": 0.9993895292282104
+        },
+        {
+          "start": 11.13,
+          "end": 11.27,
+          "word": " le",
+          "probability": 0.9998733997344971
+        },
+        {
+          "start": 11.27,
+          "end": 11.81,
+          "word": " domestique",
+          "probability": 0.9998819828033447
+        },
+        {
+          "start": 11.81,
+          "end": 12.01,
+          "word": " passe",
+          "probability": 0.9997977614402771
+        },
+        {
+          "start": 12.01,
+          "end": 12.21,
+          "word": " à",
+          "probability": 0.9999372959136963
+        },
+        {
+          "start": 12.21,
+          "end": 12.35,
+          "word": " côté",
+          "probability": 0.999612033367157
+        },
+        {
+          "start": 12.35,
+          "end": 12.53,
+          "word": " de",
+          "probability": 0.9999734163284302
+        },
+        {
+          "start": 12.53,
+          "end": 12.75,
+          "word": " toi,",
+          "probability": 0.9998290538787842
+        },
+        {
+          "start": 13.01,
+          "end": 13.53,
+          "word": " tu",
+          "probability": 0.9998055100440979
+        },
+        {
+          "start": 13.53,
+          "end": 13.69,
+          "word": " t",
+          "probability": 0.9995595812797546
+        },
+        {
+          "start": 13.69,
+          "end": 13.97,
+          "word": "'empares",
+          "probability": 0.9056910276412964
+        },
+        {
+          "start": 13.97,
+          "end": 14.07,
+          "word": " de",
+          "probability": 0.9998824596405029
+        },
+        {
+          "start": 14.07,
+          "end": 14.21,
+          "word": " la",
+          "probability": 0.9968550205230713
+        },
+        {
+          "start": 14.21,
+          "end": 14.69,
+          "word": " sacoche",
+          "probability": 0.9976723988850912
+        },
+        {
+          "start": 14.69,
+          "end": 14.89,
+          "word": " et",
+          "probability": 0.999910831451416
+        },
+        {
+          "start": 14.89,
+          "end": 15.13,
+          "word": " prends",
+          "probability": 0.9916881918907166
+        },
+        {
+          "start": 15.13,
+          "end": 15.31,
+          "word": " tes",
+          "probability": 0.9998502731323242
+        },
+        {
+          "start": 15.31,
+          "end": 15.61,
+          "word": " jambes",
+          "probability": 0.9995816946029663
+        },
+        {
+          "start": 15.61,
+          "end": 15.65,
+          "word": " à",
+          "probability": 0.9997214674949646
+        },
+        {
+          "start": 15.65,
+          "end": 15.79,
+          "word": " ton",
+          "probability": 0.9997164607048035
+        },
+        {
+          "start": 15.79,
+          "end": 15.91,
+          "word": " cou.",
+          "probability": 0.914517879486084
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

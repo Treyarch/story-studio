@@ -1,0 +1,788 @@
+{
+  "scene": "A20b_rodeur",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A20b_rodeur.mp3",
+  "sha256": "e38a371168f2809d2d61157dc9c40e93634500295ea3b3293de10444974214f3",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 38.8501875,
+  "text": "Tu bandes ton arc et prends une flèche dans le carquois que tu portes sur ton dos. Puis, tu vises avec attention le monstre qui te fonce dessus, cherchant l'endroit le plus vulnérable. Les yeux peut-être? Ou la gorge? En réalité, il arrive si rapidement que tu seras déjà très chanceux si tu le touches. Tu inspires un bon coup pour te concentrer et tu lâches ta flèche. Elle file vers la créature, mais chose incroyable, elle la traverse sans la blesser.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.36,
+      "end": 5.82,
+      "text": " Tu bandes ton arc et prends une flèche dans le carquois que tu portes sur ton dos.",
+      "tokens": [
+        50365,
+        7836,
+        4116,
+        279,
+        2952,
+        10346,
+        1030,
+        46750,
+        2251,
+        932,
+        1462,
+        1876,
+        2680,
+        476,
+        1032,
+        358,
+        7376,
+        631,
+        2604,
+        2436,
+        279,
+        1022,
+        2952,
+        4491,
+        13,
+        50589
+      ],
+      "avg_logprob": -0.11617638240173711,
+      "compression_ratio": 1.4806201550387597,
+      "no_speech_prob": 7.170273923218229e-12,
+      "words": [
+        {
+          "start": 1.36,
+          "end": 1.8,
+          "word": " Tu",
+          "probability": 0.9251232743263245
+        },
+        {
+          "start": 1.8,
+          "end": 2.2,
+          "word": " bandes",
+          "probability": 0.9962010979652405
+        },
+        {
+          "start": 2.2,
+          "end": 2.4,
+          "word": " ton",
+          "probability": 0.9994801878929138
+        },
+        {
+          "start": 2.4,
+          "end": 2.76,
+          "word": " arc",
+          "probability": 0.9992039799690247
+        },
+        {
+          "start": 2.76,
+          "end": 3.02,
+          "word": " et",
+          "probability": 0.9974173307418823
+        },
+        {
+          "start": 3.02,
+          "end": 3.3,
+          "word": " prends",
+          "probability": 0.9878326654434204
+        },
+        {
+          "start": 3.3,
+          "end": 3.46,
+          "word": " une",
+          "probability": 0.9997822642326355
+        },
+        {
+          "start": 3.46,
+          "end": 3.84,
+          "word": " flèche",
+          "probability": 0.9992915391921997
+        },
+        {
+          "start": 3.84,
+          "end": 3.96,
+          "word": " dans",
+          "probability": 0.9996639490127563
+        },
+        {
+          "start": 3.96,
+          "end": 4.12,
+          "word": " le",
+          "probability": 0.9998538494110107
+        },
+        {
+          "start": 4.12,
+          "end": 4.6,
+          "word": " carquois",
+          "probability": 0.9834853013356527
+        },
+        {
+          "start": 4.6,
+          "end": 4.78,
+          "word": " que",
+          "probability": 0.9995294809341431
+        },
+        {
+          "start": 4.78,
+          "end": 4.94,
+          "word": " tu",
+          "probability": 0.9999563694000244
+        },
+        {
+          "start": 4.94,
+          "end": 5.3,
+          "word": " portes",
+          "probability": 0.9995338916778564
+        },
+        {
+          "start": 5.3,
+          "end": 5.5,
+          "word": " sur",
+          "probability": 0.9995424747467041
+        },
+        {
+          "start": 5.5,
+          "end": 5.68,
+          "word": " ton",
+          "probability": 0.999847412109375
+        },
+        {
+          "start": 5.68,
+          "end": 5.82,
+          "word": " dos.",
+          "probability": 0.9981372356414795
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7.72,
+      "end": 11.54,
+      "text": " Puis, tu vises avec attention le monstre qui te fonce dessus,",
+      "tokens": [
+        50667,
+        30033,
+        11,
+        2604,
+        1452,
+        279,
+        4163,
+        3202,
+        476,
+        1108,
+        26421,
+        1956,
+        535,
+        17290,
+        384,
+        30677,
+        11,
+        50875
+      ],
+      "avg_logprob": -0.11617638240173711,
+      "compression_ratio": 1.4806201550387597,
+      "no_speech_prob": 7.170273923218229e-12,
+      "words": [
+        {
+          "start": 7.72,
+          "end": 8.32,
+          "word": " Puis,",
+          "probability": 0.9989205598831177
+        },
+        {
+          "start": 8.32,
+          "end": 8.92,
+          "word": " tu",
+          "probability": 0.9995467066764832
+        },
+        {
+          "start": 8.92,
+          "end": 9.26,
+          "word": " vises",
+          "probability": 0.9360427558422089
+        },
+        {
+          "start": 9.26,
+          "end": 9.44,
+          "word": " avec",
+          "probability": 0.9996175765991211
+        },
+        {
+          "start": 9.44,
+          "end": 9.9,
+          "word": " attention",
+          "probability": 0.9994218349456787
+        },
+        {
+          "start": 9.9,
+          "end": 10.14,
+          "word": " le",
+          "probability": 0.9992635846138
+        },
+        {
+          "start": 10.14,
+          "end": 10.52,
+          "word": " monstre",
+          "probability": 0.9987772703170776
+        },
+        {
+          "start": 10.52,
+          "end": 10.72,
+          "word": " qui",
+          "probability": 0.9993892908096313
+        },
+        {
+          "start": 10.72,
+          "end": 10.9,
+          "word": " te",
+          "probability": 0.9997438788414001
+        },
+        {
+          "start": 10.9,
+          "end": 11.18,
+          "word": " fonce",
+          "probability": 0.9988842308521271
+        },
+        {
+          "start": 11.18,
+          "end": 11.54,
+          "word": " dessus,",
+          "probability": 0.999812662601471
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.88,
+      "end": 14.26,
+      "text": " cherchant l'endroit le plus vulnérable.",
+      "tokens": [
+        50908,
+        12085,
+        24628,
+        287,
+        6,
+        521,
+        15772,
+        476,
+        1804,
+        7452,
+        15055,
+        424,
+        638,
+        13,
+        51010
+      ],
+      "avg_logprob": -0.11617638240173711,
+      "compression_ratio": 1.4806201550387597,
+      "no_speech_prob": 7.170273923218229e-12,
+      "words": [
+        {
+          "start": 11.88,
+          "end": 12.6,
+          "word": " cherchant",
+          "probability": 0.999473363161087
+        },
+        {
+          "start": 12.6,
+          "end": 12.78,
+          "word": " l",
+          "probability": 0.9999364614486694
+        },
+        {
+          "start": 12.78,
+          "end": 13.08,
+          "word": "'endroit",
+          "probability": 0.9997360110282898
+        },
+        {
+          "start": 13.08,
+          "end": 13.28,
+          "word": " le",
+          "probability": 0.9979560375213623
+        },
+        {
+          "start": 13.28,
+          "end": 13.56,
+          "word": " plus",
+          "probability": 0.9997803568840027
+        },
+        {
+          "start": 13.56,
+          "end": 14.26,
+          "word": " vulnérable.",
+          "probability": 0.9996541738510132
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 14.8,
+      "end": 17.74,
+      "text": " Les yeux peut-être? Ou la gorge?",
+      "tokens": [
+        51058,
+        6965,
+        36163,
+        5977,
+        12,
+        9498,
+        2506,
+        11710,
+        635,
+        290,
+        4685,
+        2506,
+        51205
+      ],
+      "avg_logprob": -0.11617638240173711,
+      "compression_ratio": 1.4806201550387597,
+      "no_speech_prob": 7.170273923218229e-12,
+      "words": [
+        {
+          "start": 14.8,
+          "end": 15.4,
+          "word": " Les",
+          "probability": 0.9991374015808105
+        },
+        {
+          "start": 15.4,
+          "end": 15.62,
+          "word": " yeux",
+          "probability": 0.9998571872711182
+        },
+        {
+          "start": 15.62,
+          "end": 15.84,
+          "word": " peut",
+          "probability": 0.8665855526924133
+        },
+        {
+          "start": 15.84,
+          "end": 16.08,
+          "word": "-être",
+          "probability": 0.999791145324707
+        },
+        {
+          "start": 16.08,
+          "end": 16.3,
+          "word": "?",
+          "probability": 0.7121435403823853
+        },
+        {
+          "start": 16.3,
+          "end": 16.8,
+          "word": " Ou",
+          "probability": 0.9962360262870789
+        },
+        {
+          "start": 16.8,
+          "end": 17.12,
+          "word": " la",
+          "probability": 0.9993497729301453
+        },
+        {
+          "start": 17.12,
+          "end": 17.46,
+          "word": " gorge",
+          "probability": 0.9997615218162537
+        },
+        {
+          "start": 17.46,
+          "end": 17.74,
+          "word": "?",
+          "probability": 0.9997850060462952
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 17.74,
+      "end": 23.1,
+      "text": " En réalité, il arrive si rapidement que tu seras déjà très chanceux si tu le touches.",
+      "tokens": [
+        51205,
+        2193,
+        35677,
+        11,
+        1930,
+        8881,
+        1511,
+        37757,
+        631,
+        2604,
+        816,
+        296,
+        12027,
+        5732,
+        2931,
+        2449,
+        1511,
+        2604,
+        476,
+        17431,
+        13,
+        51453
+      ],
+      "avg_logprob": -0.11617638240173711,
+      "compression_ratio": 1.4806201550387597,
+      "no_speech_prob": 7.170273923218229e-12,
+      "words": [
+        {
+          "start": 17.74,
+          "end": 18.28,
+          "word": " En",
+          "probability": 0.9980400204658508
+        },
+        {
+          "start": 18.28,
+          "end": 18.72,
+          "word": " réalité,",
+          "probability": 0.9997492432594299
+        },
+        {
+          "start": 19.0,
+          "end": 19.44,
+          "word": " il",
+          "probability": 0.9877432584762573
+        },
+        {
+          "start": 19.44,
+          "end": 19.78,
+          "word": " arrive",
+          "probability": 0.999830961227417
+        },
+        {
+          "start": 19.78,
+          "end": 20.02,
+          "word": " si",
+          "probability": 0.9994606375694275
+        },
+        {
+          "start": 20.02,
+          "end": 20.52,
+          "word": " rapidement",
+          "probability": 0.9998860359191895
+        },
+        {
+          "start": 20.52,
+          "end": 20.82,
+          "word": " que",
+          "probability": 0.9996225833892822
+        },
+        {
+          "start": 20.82,
+          "end": 21.0,
+          "word": " tu",
+          "probability": 0.9998806715011597
+        },
+        {
+          "start": 21.0,
+          "end": 21.3,
+          "word": " seras",
+          "probability": 0.9987953901290894
+        },
+        {
+          "start": 21.3,
+          "end": 21.58,
+          "word": " déjà",
+          "probability": 0.9997875094413757
+        },
+        {
+          "start": 21.58,
+          "end": 21.92,
+          "word": " très",
+          "probability": 0.9906737208366394
+        },
+        {
+          "start": 21.92,
+          "end": 22.34,
+          "word": " chanceux",
+          "probability": 0.9897027313709259
+        },
+        {
+          "start": 22.34,
+          "end": 22.52,
+          "word": " si",
+          "probability": 0.9996891021728516
+        },
+        {
+          "start": 22.52,
+          "end": 22.66,
+          "word": " tu",
+          "probability": 0.9999057054519653
+        },
+        {
+          "start": 22.66,
+          "end": 22.8,
+          "word": " le",
+          "probability": 0.9996776580810547
+        },
+        {
+          "start": 22.8,
+          "end": 23.1,
+          "word": " touches.",
+          "probability": 0.9979840517044067
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 24.2,
+      "end": 27.12,
+      "text": " Tu inspires un bon coup pour te concentrer",
+      "tokens": [
+        51514,
+        7836,
+        32566,
+        517,
+        4428,
+        8682,
+        2016,
+        535,
+        5512,
+        9797,
+        51654
+      ],
+      "avg_logprob": -0.11617638240173711,
+      "compression_ratio": 1.4806201550387597,
+      "no_speech_prob": 7.170273923218229e-12,
+      "words": [
+        {
+          "start": 24.2,
+          "end": 24.8,
+          "word": " Tu",
+          "probability": 0.998584508895874
+        },
+        {
+          "start": 24.8,
+          "end": 25.34,
+          "word": " inspires",
+          "probability": 0.9943080544471741
+        },
+        {
+          "start": 25.34,
+          "end": 25.7,
+          "word": " un",
+          "probability": 0.9997182488441467
+        },
+        {
+          "start": 25.7,
+          "end": 25.92,
+          "word": " bon",
+          "probability": 0.9993390440940857
+        },
+        {
+          "start": 25.92,
+          "end": 26.16,
+          "word": " coup",
+          "probability": 0.9951186180114746
+        },
+        {
+          "start": 26.16,
+          "end": 26.38,
+          "word": " pour",
+          "probability": 0.9996970891952515
+        },
+        {
+          "start": 26.38,
+          "end": 26.54,
+          "word": " te",
+          "probability": 0.9996716976165771
+        },
+        {
+          "start": 26.54,
+          "end": 27.12,
+          "word": " concentrer",
+          "probability": 0.9998191893100739
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 28.12,
+      "end": 29.78,
+      "text": " et tu lâches ta flèche.",
+      "tokens": [
+        51654,
+        1030,
+        2604,
+        48835,
+        3781,
+        1846,
+        932,
+        1462,
+        1876,
+        13,
+        51787
+      ],
+      "avg_logprob": -0.11617638240173711,
+      "compression_ratio": 1.4806201550387597,
+      "no_speech_prob": 7.170273923218229e-12,
+      "words": [
+        {
+          "start": 28.12,
+          "end": 28.72,
+          "word": " et",
+          "probability": 0.6891632676124573
+        },
+        {
+          "start": 28.72,
+          "end": 28.9,
+          "word": " tu",
+          "probability": 0.999809205532074
+        },
+        {
+          "start": 28.9,
+          "end": 29.22,
+          "word": " lâches",
+          "probability": 0.9976370632648468
+        },
+        {
+          "start": 29.22,
+          "end": 29.36,
+          "word": " ta",
+          "probability": 0.9982863068580627
+        },
+        {
+          "start": 29.36,
+          "end": 29.78,
+          "word": " flèche.",
+          "probability": 0.9998068610827128
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 2842,
+      "start": 29.78,
+      "end": 36.64,
+      "text": " Elle file vers la créature, mais chose incroyable, elle la traverse sans la blesser.",
+      "tokens": [
+        50404,
+        16227,
+        3991,
+        1774,
+        635,
+        15609,
+        1503,
+        11,
+        2420,
+        5111,
+        834,
+        45976,
+        11,
+        8404,
+        635,
+        45674,
+        12177,
+        635,
+        5227,
+        260,
+        13,
+        50708
+      ],
+      "avg_logprob": -0.16502656755240067,
+      "compression_ratio": 1.0493827160493827,
+      "no_speech_prob": 6.581700896096665e-12,
+      "words": [
+        {
+          "start": 29.78,
+          "end": 30.68,
+          "word": " Elle",
+          "probability": 0.8207676410675049
+        },
+        {
+          "start": 30.68,
+          "end": 31.0,
+          "word": " file",
+          "probability": 0.9974814057350159
+        },
+        {
+          "start": 31.0,
+          "end": 31.22,
+          "word": " vers",
+          "probability": 0.9996107220649719
+        },
+        {
+          "start": 31.22,
+          "end": 31.4,
+          "word": " la",
+          "probability": 0.9998014569282532
+        },
+        {
+          "start": 31.4,
+          "end": 31.98,
+          "word": " créature,",
+          "probability": 0.9997653961181641
+        },
+        {
+          "start": 32.2,
+          "end": 32.94,
+          "word": " mais",
+          "probability": 0.9982990622520447
+        },
+        {
+          "start": 32.94,
+          "end": 33.56,
+          "word": " chose",
+          "probability": 0.626581072807312
+        },
+        {
+          "start": 33.56,
+          "end": 34.36,
+          "word": " incroyable,",
+          "probability": 0.9998065531253815
+        },
+        {
+          "start": 34.54,
+          "end": 35.22,
+          "word": " elle",
+          "probability": 0.9990574717521667
+        },
+        {
+          "start": 35.22,
+          "end": 35.38,
+          "word": " la",
+          "probability": 0.9997407793998718
+        },
+        {
+          "start": 35.38,
+          "end": 35.76,
+          "word": " traverse",
+          "probability": 0.9998757839202881
+        },
+        {
+          "start": 35.76,
+          "end": 36.1,
+          "word": " sans",
+          "probability": 0.9996556043624878
+        },
+        {
+          "start": 36.1,
+          "end": 36.24,
+          "word": " la",
+          "probability": 0.9998703002929688
+        },
+        {
+          "start": 36.24,
+          "end": 36.64,
+          "word": " blesser.",
+          "probability": 0.9866403639316559
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

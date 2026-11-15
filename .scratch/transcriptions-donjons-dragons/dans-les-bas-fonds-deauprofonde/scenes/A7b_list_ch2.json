@@ -1,0 +1,68 @@
+{
+  "scene": "A7b_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A7b_list_ch2.mp3",
+  "sha256": "4df77d24f3121e339db7036df62106fa6e03b41f03fef8c69fa36cf62a67490d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.661875,
+  "text": "Tu la suis. Vite!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 2.27,
+      "text": " Tu la suis. Vite!",
+      "tokens": [
+        50365,
+        7836,
+        635,
+        7624,
+        13,
+        691,
+        642,
+        2298,
+        50496
+      ],
+      "avg_logprob": -0.37748390436172485,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 4.193861403989363e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.49,
+          "word": " Tu",
+          "probability": 0.9024536609649658
+        },
+        {
+          "start": 0.49,
+          "end": 0.69,
+          "word": " la",
+          "probability": 0.9971402883529663
+        },
+        {
+          "start": 0.69,
+          "end": 0.89,
+          "word": " suis.",
+          "probability": 0.9788345098495483
+        },
+        {
+          "start": 1.39,
+          "end": 2.01,
+          "word": " Vite",
+          "probability": 0.9961933195590973
+        },
+        {
+          "start": 2.01,
+          "end": 2.27,
+          "word": "!",
+          "probability": 0.7817897796630859
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

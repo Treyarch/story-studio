@@ -1,0 +1,57 @@
+{
+  "scene": "main_menu_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/main_menu_ch1.mp3",
+  "sha256": "6868bc8d07638b79e9ebdcbd45fcfc23f540bd7e5eb9634341deb68427211737",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.908,
+  "text": "Ta fiche personnage.",
+  "review": [
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.5,
+      "text": " Ta fiche personnage.",
+      "tokens": [
+        50365,
+        314,
+        6,
+        2518,
+        480,
+        279,
+        30194,
+        1660,
+        13,
+        50440
+      ],
+      "avg_logprob": -0.3693316199562766,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 4.153556838748518e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.26,
+          "word": " T",
+          "probability": 0.17938390374183655
+        },
+        {
+          "start": 0.26,
+          "end": 0.76,
+          "word": "'affiches",
+          "probability": 0.9082867801189423
+        },
+        {
+          "start": 0.76,
+          "end": 1.5,
+          "word": " personnages.",
+          "probability": 0.9393782913684845
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

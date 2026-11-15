@@ -1,0 +1,100 @@
+{
+  "scene": "B38_list_ch1_a",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B38_list_ch1_a.mp3",
+  "sha256": "6568850e4bc7816bcc5525586b27d1ff318ba0ee41a3f8149db9feb9c571535e",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.74225,
+  "text": "Jouez la sécurité et rapportez l'information à Renaer.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.38,
+      "text": " Jouez la sécurité et rapportez l'information à Renaer.",
+      "tokens": [
+        50365,
+        508,
+        263,
+        4371,
+        635,
+        37600,
+        1030,
+        18018,
+        4371,
+        287,
+        6,
+        20941,
+        1531,
+        12883,
+        1193,
+        13,
+        50534
+      ],
+      "avg_logprob": -0.15075477129883236,
+      "compression_ratio": 0.9047619047619048,
+      "no_speech_prob": 3.493182305913667e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.66,
+          "word": " Jouez",
+          "probability": 0.9072282910346985
+        },
+        {
+          "start": 0.66,
+          "end": 0.8,
+          "word": " la",
+          "probability": 0.9993554949760437
+        },
+        {
+          "start": 0.8,
+          "end": 1.32,
+          "word": " sécurité",
+          "probability": 0.9980475902557373
+        },
+        {
+          "start": 1.32,
+          "end": 1.76,
+          "word": " et",
+          "probability": 0.9961243271827698
+        },
+        {
+          "start": 1.76,
+          "end": 2.22,
+          "word": " rapportez",
+          "probability": 0.9058743417263031
+        },
+        {
+          "start": 2.22,
+          "end": 2.3,
+          "word": " l",
+          "probability": 0.9999611377716064
+        },
+        {
+          "start": 2.3,
+          "end": 2.8,
+          "word": "'information",
+          "probability": 0.9994929730892181
+        },
+        {
+          "start": 2.8,
+          "end": 3.06,
+          "word": " à",
+          "probability": 0.8932910561561584
+        },
+        {
+          "start": 3.06,
+          "end": 3.38,
+          "word": " Renaer.",
+          "probability": 0.8659294843673706
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

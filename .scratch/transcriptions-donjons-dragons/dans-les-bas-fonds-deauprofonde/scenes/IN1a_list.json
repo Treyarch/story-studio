@@ -1,0 +1,76 @@
+{
+  "scene": "IN1a_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/IN1a_list.mp3",
+  "sha256": "3c9834dfceed923ad5d6f1b76a789ae4e86a40994207f36e8f2a18f943b2cf34",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.5881875,
+  "text": "À quel peuple appartiens-tu?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.21,
+      "end": 2.11,
+      "text": " À quel peuple appartiens-tu?",
+      "tokens": [
+        50365,
+        19018,
+        7178,
+        49186,
+        724,
+        446,
+        24594,
+        12,
+        9179,
+        2506,
+        50484
+      ],
+      "avg_logprob": -0.23364435384670892,
+      "compression_ratio": 0.7894736842105263,
+      "no_speech_prob": 5.138196725734678e-12,
+      "words": [
+        {
+          "start": 0.21,
+          "end": 0.47,
+          "word": " À",
+          "probability": 0.5311621427536011
+        },
+        {
+          "start": 0.47,
+          "end": 0.75,
+          "word": " quel",
+          "probability": 0.997717022895813
+        },
+        {
+          "start": 0.75,
+          "end": 1.09,
+          "word": " peuple",
+          "probability": 0.9999147653579712
+        },
+        {
+          "start": 1.09,
+          "end": 1.73,
+          "word": " appartiens",
+          "probability": 0.9880996942520142
+        },
+        {
+          "start": 1.73,
+          "end": 1.93,
+          "word": "-tu",
+          "probability": 0.9983295202255249
+        },
+        {
+          "start": 1.93,
+          "end": 2.11,
+          "word": "?",
+          "probability": 0.9914498925209045
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

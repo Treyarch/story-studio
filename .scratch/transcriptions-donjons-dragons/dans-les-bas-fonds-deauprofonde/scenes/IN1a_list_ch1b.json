@@ -1,0 +1,54 @@
+{
+  "scene": "IN1a_list_ch1b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/IN1a_list_ch1b.mp3",
+  "sha256": "e6f0546115740ffc16684a1b83881cf9995063d0c62906eb3478ca224b077ed6",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.9266875,
+  "text": "Aux elfes sombres,",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.32,
+      "text": " Aux elfes sombres,",
+      "tokens": [
+        50365,
+        316,
+        2449,
+        35565,
+        279,
+        3307,
+        46823,
+        11,
+        50431
+      ],
+      "avg_logprob": -0.27915559709072113,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 4.277622093346034e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.66,
+          "word": " Aux",
+          "probability": 0.9031613171100616
+        },
+        {
+          "start": 0.66,
+          "end": 1.04,
+          "word": " elfes",
+          "probability": 0.9702481925487518
+        },
+        {
+          "start": 1.04,
+          "end": 1.32,
+          "word": " sombres,",
+          "probability": 0.9994343817234039
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

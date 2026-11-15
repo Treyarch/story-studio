@@ -1,0 +1,68 @@
+{
+  "scene": "IN1a_list_ch1c",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/IN1a_list_ch1c.mp3",
+  "sha256": "a85d0b25b88b3dae623e30151560c70ccec84076cf8977e81a5cae9b18f537cb",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.87275,
+  "text": "Aux elfes de nuit?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.36,
+      "text": " Aux elfes de nuit?",
+      "tokens": [
+        50365,
+        316,
+        2449,
+        35565,
+        279,
+        368,
+        38467,
+        2506,
+        50458
+      ],
+      "avg_logprob": -0.25562009811401365,
+      "compression_ratio": 0.7037037037037037,
+      "no_speech_prob": 5.855894762152314e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.66,
+          "word": " Aux",
+          "probability": 0.9635982811450958
+        },
+        {
+          "start": 0.66,
+          "end": 0.96,
+          "word": " elfes",
+          "probability": 0.9414156675338745
+        },
+        {
+          "start": 0.96,
+          "end": 1.06,
+          "word": " de",
+          "probability": 0.9996598958969116
+        },
+        {
+          "start": 1.06,
+          "end": 1.24,
+          "word": " nuit",
+          "probability": 0.9987502098083496
+        },
+        {
+          "start": 1.24,
+          "end": 1.36,
+          "word": "?",
+          "probability": 0.7554731369018555
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

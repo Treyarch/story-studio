@@ -1,0 +1,748 @@
+{
+  "scene": "B32b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B32b.mp3",
+  "sha256": "3ecac6cc2f345524df22ce4c06e2fb6d67e91e47ed3df7d7fc81335c9d7fe2aa",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 32.4860625,
+  "text": "Tu repères le mendiant qui te suit depuis ce matin en te demandant si c'est un hasard ou s'il t'a de nouveau filé jusqu'ici. Il n'a pourtant pas l'air de te voir. Au contraire, il scrute la foule comme s'il attendait quelque chose ou quelqu'un. Quand il pivote dans ta direction, tu distingues une petite harpe argentée épinglée au revers de sa veste. Il se dirige vers toi. Pas de doute, c'est toi qu'il cherche.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.46,
+      "end": 9.06,
+      "text": " Tu repères le mendiant qui te suit depuis ce matin en te demandant si c'est un hasard ou s'il t'a de nouveau filé jusqu'ici.",
+      "tokens": [
+        50365,
+        7836,
+        1085,
+        13927,
+        476,
+        31161,
+        5798,
+        1956,
+        535,
+        5722,
+        16062,
+        1769,
+        33389,
+        465,
+        535,
+        4733,
+        394,
+        1511,
+        269,
+        6,
+        377,
+        517,
+        575,
+        515,
+        2820,
+        262,
+        6,
+        388,
+        256,
+        6,
+        64,
+        368,
+        23326,
+        1387,
+        526,
+        20340,
+        6,
+        8787,
+        13,
+        50746
+      ],
+      "avg_logprob": -0.07940294316215236,
+      "compression_ratio": 1.5655430711610487,
+      "no_speech_prob": 6.808535939900606e-12,
+      "words": [
+        {
+          "start": 1.46,
+          "end": 1.88,
+          "word": " Tu",
+          "probability": 0.9855595827102661
+        },
+        {
+          "start": 1.88,
+          "end": 2.28,
+          "word": " repères",
+          "probability": 0.9989283978939056
+        },
+        {
+          "start": 2.28,
+          "end": 2.44,
+          "word": " le",
+          "probability": 0.9997617602348328
+        },
+        {
+          "start": 2.44,
+          "end": 2.86,
+          "word": " mendiant",
+          "probability": 0.9811110198497772
+        },
+        {
+          "start": 2.86,
+          "end": 3.06,
+          "word": " qui",
+          "probability": 0.9997995495796204
+        },
+        {
+          "start": 3.06,
+          "end": 3.22,
+          "word": " te",
+          "probability": 0.9999488592147827
+        },
+        {
+          "start": 3.22,
+          "end": 3.44,
+          "word": " suit",
+          "probability": 0.9987612962722778
+        },
+        {
+          "start": 3.44,
+          "end": 3.7,
+          "word": " depuis",
+          "probability": 0.9998525381088257
+        },
+        {
+          "start": 3.7,
+          "end": 4.02,
+          "word": " ce",
+          "probability": 0.9998877048492432
+        },
+        {
+          "start": 4.02,
+          "end": 4.32,
+          "word": " matin",
+          "probability": 0.9999814033508301
+        },
+        {
+          "start": 4.32,
+          "end": 5.02,
+          "word": " en",
+          "probability": 0.8409568071365356
+        },
+        {
+          "start": 5.02,
+          "end": 5.2,
+          "word": " te",
+          "probability": 0.9999821186065674
+        },
+        {
+          "start": 5.2,
+          "end": 5.68,
+          "word": " demandant",
+          "probability": 0.9999004900455475
+        },
+        {
+          "start": 5.68,
+          "end": 5.86,
+          "word": " si",
+          "probability": 0.9997479319572449
+        },
+        {
+          "start": 5.86,
+          "end": 6.0,
+          "word": " c",
+          "probability": 0.9999723434448242
+        },
+        {
+          "start": 6.0,
+          "end": 6.08,
+          "word": "'est",
+          "probability": 0.9998245239257812
+        },
+        {
+          "start": 6.08,
+          "end": 6.22,
+          "word": " un",
+          "probability": 0.9999531507492065
+        },
+        {
+          "start": 6.22,
+          "end": 6.64,
+          "word": " hasard",
+          "probability": 0.9998767077922821
+        },
+        {
+          "start": 6.64,
+          "end": 7.16,
+          "word": " ou",
+          "probability": 0.9898644089698792
+        },
+        {
+          "start": 7.16,
+          "end": 7.38,
+          "word": " s",
+          "probability": 0.9990667700767517
+        },
+        {
+          "start": 7.38,
+          "end": 7.5,
+          "word": "'il",
+          "probability": 0.9999629855155945
+        },
+        {
+          "start": 7.5,
+          "end": 7.62,
+          "word": " t",
+          "probability": 0.9997873902320862
+        },
+        {
+          "start": 7.62,
+          "end": 7.7,
+          "word": "'a",
+          "probability": 0.9998480677604675
+        },
+        {
+          "start": 7.7,
+          "end": 7.9,
+          "word": " de",
+          "probability": 0.9997368454933167
+        },
+        {
+          "start": 7.9,
+          "end": 8.16,
+          "word": " nouveau",
+          "probability": 0.9997348189353943
+        },
+        {
+          "start": 8.16,
+          "end": 8.54,
+          "word": " filé",
+          "probability": 0.9961226582527161
+        },
+        {
+          "start": 8.54,
+          "end": 8.72,
+          "word": " jusqu",
+          "probability": 0.9998660087585449
+        },
+        {
+          "start": 8.72,
+          "end": 9.06,
+          "word": "'ici.",
+          "probability": 0.9999698400497437
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 9.68,
+      "end": 11.58,
+      "text": " Il n'a pourtant pas l'air de te voir.",
+      "tokens": [
+        50796,
+        4416,
+        297,
+        6,
+        64,
+        47856,
+        1736,
+        287,
+        6,
+        1246,
+        368,
+        535,
+        10695,
+        13,
+        50873
+      ],
+      "avg_logprob": -0.07940294316215236,
+      "compression_ratio": 1.5655430711610487,
+      "no_speech_prob": 6.808535939900606e-12,
+      "words": [
+        {
+          "start": 9.68,
+          "end": 10.2,
+          "word": " Il",
+          "probability": 0.9995556473731995
+        },
+        {
+          "start": 10.2,
+          "end": 10.3,
+          "word": " n",
+          "probability": 0.9999375343322754
+        },
+        {
+          "start": 10.3,
+          "end": 10.38,
+          "word": "'a",
+          "probability": 0.9999889135360718
+        },
+        {
+          "start": 10.38,
+          "end": 10.68,
+          "word": " pourtant",
+          "probability": 0.9999721050262451
+        },
+        {
+          "start": 10.68,
+          "end": 10.86,
+          "word": " pas",
+          "probability": 0.9999815225601196
+        },
+        {
+          "start": 10.86,
+          "end": 10.96,
+          "word": " l",
+          "probability": 0.9999700784683228
+        },
+        {
+          "start": 10.96,
+          "end": 11.02,
+          "word": "'air",
+          "probability": 0.9996892809867859
+        },
+        {
+          "start": 11.02,
+          "end": 11.16,
+          "word": " de",
+          "probability": 0.9999593496322632
+        },
+        {
+          "start": 11.16,
+          "end": 11.3,
+          "word": " te",
+          "probability": 0.9997846484184265
+        },
+        {
+          "start": 11.3,
+          "end": 11.58,
+          "word": " voir.",
+          "probability": 0.9997661709785461
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 12.06,
+      "end": 16.64,
+      "text": " Au contraire, il scrute la foule comme s'il attendait quelque chose ou quelqu'un.",
+      "tokens": [
+        50911,
+        12160,
+        10742,
+        621,
+        11,
+        1930,
+        5918,
+        1169,
+        635,
+        283,
+        26757,
+        5173,
+        262,
+        6,
+        388,
+        6888,
+        1001,
+        14448,
+        5111,
+        2820,
+        25283,
+        6,
+        409,
+        13,
+        51124
+      ],
+      "avg_logprob": -0.07940294316215236,
+      "compression_ratio": 1.5655430711610487,
+      "no_speech_prob": 6.808535939900606e-12,
+      "words": [
+        {
+          "start": 12.06,
+          "end": 12.46,
+          "word": " Au",
+          "probability": 0.9995330572128296
+        },
+        {
+          "start": 12.46,
+          "end": 12.92,
+          "word": " contraire,",
+          "probability": 0.9999507069587708
+        },
+        {
+          "start": 13.18,
+          "end": 13.52,
+          "word": " il",
+          "probability": 0.9973613619804382
+        },
+        {
+          "start": 13.52,
+          "end": 13.86,
+          "word": " scrute",
+          "probability": 0.9949004948139191
+        },
+        {
+          "start": 13.86,
+          "end": 14.04,
+          "word": " la",
+          "probability": 0.9998138546943665
+        },
+        {
+          "start": 14.04,
+          "end": 14.34,
+          "word": " foule",
+          "probability": 0.9995947480201721
+        },
+        {
+          "start": 14.34,
+          "end": 14.86,
+          "word": " comme",
+          "probability": 0.9993816614151001
+        },
+        {
+          "start": 14.86,
+          "end": 15.08,
+          "word": " s",
+          "probability": 0.999228835105896
+        },
+        {
+          "start": 15.08,
+          "end": 15.18,
+          "word": "'il",
+          "probability": 0.9998095631599426
+        },
+        {
+          "start": 15.18,
+          "end": 15.54,
+          "word": " attendait",
+          "probability": 0.9994547367095947
+        },
+        {
+          "start": 15.54,
+          "end": 15.82,
+          "word": " quelque",
+          "probability": 0.9989632368087769
+        },
+        {
+          "start": 15.82,
+          "end": 16.14,
+          "word": " chose",
+          "probability": 0.9999676942825317
+        },
+        {
+          "start": 16.14,
+          "end": 16.28,
+          "word": " ou",
+          "probability": 0.9957026839256287
+        },
+        {
+          "start": 16.28,
+          "end": 16.48,
+          "word": " quelqu",
+          "probability": 0.9997492432594299
+        },
+        {
+          "start": 16.48,
+          "end": 16.64,
+          "word": "'un.",
+          "probability": 0.9999944567680359
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 17.54,
+      "end": 24.56,
+      "text": " Quand il pivote dans ta direction, tu distingues une petite harpe argentée épinglée au revers de sa veste.",
+      "tokens": [
+        51188,
+        22015,
+        1930,
+        280,
+        592,
+        1370,
+        2680,
+        1846,
+        3513,
+        11,
+        2604,
+        1483,
+        278,
+        1247,
+        2251,
+        18319,
+        2233,
+        494,
+        33977,
+        3856,
+        1136,
+        3381,
+        75,
+        3856,
+        1609,
+        14582,
+        368,
+        601,
+        371,
+        8887,
+        13,
+        51520
+      ],
+      "avg_logprob": -0.07940294316215236,
+      "compression_ratio": 1.5655430711610487,
+      "no_speech_prob": 6.808535939900606e-12,
+      "words": [
+        {
+          "start": 17.54,
+          "end": 18.06,
+          "word": " Quand",
+          "probability": 0.9987421631813049
+        },
+        {
+          "start": 18.06,
+          "end": 18.26,
+          "word": " il",
+          "probability": 0.9988848567008972
+        },
+        {
+          "start": 18.26,
+          "end": 18.72,
+          "word": " pivote",
+          "probability": 0.9966560999552408
+        },
+        {
+          "start": 18.72,
+          "end": 18.9,
+          "word": " dans",
+          "probability": 0.9997836947441101
+        },
+        {
+          "start": 18.9,
+          "end": 19.08,
+          "word": " ta",
+          "probability": 0.9998795986175537
+        },
+        {
+          "start": 19.08,
+          "end": 19.56,
+          "word": " direction,",
+          "probability": 0.9996640682220459
+        },
+        {
+          "start": 19.96,
+          "end": 20.36,
+          "word": " tu",
+          "probability": 0.9996340274810791
+        },
+        {
+          "start": 20.36,
+          "end": 21.0,
+          "word": " distingues",
+          "probability": 0.9901737173398336
+        },
+        {
+          "start": 21.0,
+          "end": 21.24,
+          "word": " une",
+          "probability": 0.9989317059516907
+        },
+        {
+          "start": 21.24,
+          "end": 21.64,
+          "word": " petite",
+          "probability": 0.9998273253440857
+        },
+        {
+          "start": 21.64,
+          "end": 22.0,
+          "word": " harpe",
+          "probability": 0.8925850093364716
+        },
+        {
+          "start": 22.0,
+          "end": 22.6,
+          "word": " argentée",
+          "probability": 0.9976948499679565
+        },
+        {
+          "start": 22.6,
+          "end": 23.3,
+          "word": " épinglée",
+          "probability": 0.9921583235263824
+        },
+        {
+          "start": 23.3,
+          "end": 23.56,
+          "word": " au",
+          "probability": 0.9989008903503418
+        },
+        {
+          "start": 23.56,
+          "end": 23.86,
+          "word": " revers",
+          "probability": 0.9988144636154175
+        },
+        {
+          "start": 23.86,
+          "end": 24.02,
+          "word": " de",
+          "probability": 0.9999374151229858
+        },
+        {
+          "start": 24.02,
+          "end": 24.24,
+          "word": " sa",
+          "probability": 0.9996417760848999
+        },
+        {
+          "start": 24.24,
+          "end": 24.56,
+          "word": " veste.",
+          "probability": 0.9997189939022064
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 24.82,
+      "end": 26.28,
+      "text": " Il se dirige vers toi.",
+      "tokens": [
+        51552,
+        4416,
+        369,
+        4746,
+        3969,
+        1774,
+        15648,
+        13,
+        51607
+      ],
+      "avg_logprob": -0.07940294316215236,
+      "compression_ratio": 1.5655430711610487,
+      "no_speech_prob": 6.808535939900606e-12,
+      "words": [
+        {
+          "start": 24.82,
+          "end": 25.32,
+          "word": " Il",
+          "probability": 0.9977996945381165
+        },
+        {
+          "start": 25.32,
+          "end": 25.52,
+          "word": " se",
+          "probability": 0.999788224697113
+        },
+        {
+          "start": 25.52,
+          "end": 25.88,
+          "word": " dirige",
+          "probability": 0.9995194673538208
+        },
+        {
+          "start": 25.88,
+          "end": 26.06,
+          "word": " vers",
+          "probability": 0.9997381567955017
+        },
+        {
+          "start": 26.06,
+          "end": 26.28,
+          "word": " toi.",
+          "probability": 0.9997609257698059
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 26.98,
+      "end": 29.5,
+      "text": " Pas de doute, c'est toi qu'il cherche.",
+      "tokens": [
+        51662,
+        14199,
+        368,
+        41984,
+        11,
+        269,
+        6,
+        377,
+        15648,
+        421,
+        6,
+        388,
+        41644,
+        13,
+        51769
+      ],
+      "avg_logprob": -0.07940294316215236,
+      "compression_ratio": 1.5655430711610487,
+      "no_speech_prob": 6.808535939900606e-12,
+      "words": [
+        {
+          "start": 26.98,
+          "end": 27.5,
+          "word": " Pas",
+          "probability": 0.997072696685791
+        },
+        {
+          "start": 27.5,
+          "end": 27.68,
+          "word": " de",
+          "probability": 0.9999359846115112
+        },
+        {
+          "start": 27.68,
+          "end": 27.9,
+          "word": " doute,",
+          "probability": 0.9992613196372986
+        },
+        {
+          "start": 28.34,
+          "end": 28.74,
+          "word": " c",
+          "probability": 0.9992899894714355
+        },
+        {
+          "start": 28.74,
+          "end": 28.8,
+          "word": "'est",
+          "probability": 0.9999938607215881
+        },
+        {
+          "start": 28.8,
+          "end": 28.98,
+          "word": " toi",
+          "probability": 0.9983595013618469
+        },
+        {
+          "start": 28.98,
+          "end": 29.12,
+          "word": " qu",
+          "probability": 0.7016716003417969
+        },
+        {
+          "start": 29.12,
+          "end": 29.18,
+          "word": "'il",
+          "probability": 0.9981850385665894
+        },
+        {
+          "start": 29.18,
+          "end": 29.5,
+          "word": " cherche.",
+          "probability": 0.9978869557380676
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

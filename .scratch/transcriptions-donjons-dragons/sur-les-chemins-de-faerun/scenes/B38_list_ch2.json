@@ -1,0 +1,68 @@
+{
+  "scene": "B38_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B38_list_ch2.mp3",
+  "sha256": "356cae2ed1334e82bd9275c59ffc24258be6fbad962fc3aa85cb766ee3f8bb30",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.6564375,
+  "text": "T'emparer de la carte.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.26,
+      "text": " T'emparer de la carte.",
+      "tokens": [
+        50365,
+        314,
+        6,
+        443,
+        2181,
+        260,
+        368,
+        635,
+        31483,
+        13,
+        50428
+      ],
+      "avg_logprob": -0.16385360062122345,
+      "compression_ratio": 0.7333333333333333,
+      "no_speech_prob": 5.844365789930972e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.4,
+          "word": " T",
+          "probability": 0.8779513239860535
+        },
+        {
+          "start": 0.4,
+          "end": 0.72,
+          "word": "'emparer",
+          "probability": 0.9682604372501373
+        },
+        {
+          "start": 0.72,
+          "end": 0.82,
+          "word": " de",
+          "probability": 0.9996649026870728
+        },
+        {
+          "start": 0.82,
+          "end": 0.94,
+          "word": " la",
+          "probability": 0.9993855953216553
+        },
+        {
+          "start": 0.94,
+          "end": 1.26,
+          "word": " carte.",
+          "probability": 0.9996172189712524
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

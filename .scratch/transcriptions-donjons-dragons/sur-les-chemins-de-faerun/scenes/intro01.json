@@ -1,0 +1,2440 @@
+{
+  "scene": "intro01",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/intro01.mp3",
+  "sha256": "bdc32c8870b98b62e014afb3392e04c982419a353fe7c2c53c30488c76617e2c",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 111.906125,
+  "text": "Salut à toi qui aimes l'aventure et bienvenue dans Donjons et Dragons. L'aventure que tu vas vivre se situe dans le monde de Faerûn, un territoire fabuleux où des héros pleins d'ambition, braves les plus grands périls, s'enfoncent dans les donjons les plus inquiétants et affrontent les monstres les plus étonnants. C'est un endroit gorgé de mystères et de magie. À toi de l'explorer! L'histoire va commencer dans un instant, mais avant cela, dis-nous un peu qui tu es, ou plutôt, quel personnage tu veux être. Tu as le choix entre quatre peuples. À Fée et Rune, il y a surtout des humains, mais on trouve aussi d'autres créatures, dont des orques, des halflins, des gnomes, etc. Les humains sont semblables aux gens que tu côtoies dans ton monde. Ils n'ont pas de pouvoirs spéciaux, mais ils brillent par leur capacité d'adaptation et leur volonté de réussir. Les elfes sont des créatures gracieuses et magiques. Ils sont à peine moins grands que les humains et, en général, plus veltes qu'eux. Pourvus d'oreilles pointues, ils vivent le plus souvent dans les bois. Les nains sont encore plus petits que les elfes et davantage trapus que les humains. Ils vivent plutôt sous terre, dans des habitations taillées à même la roche Là, ils creusent des mines s'enfonçant profondément sous la surface Les tabaxis ressemblent à des chats au corps d'humain Ils sont couverts de fourrure de la tête au pied Comme les chats, ils ont dégriffé une queue, peuvent voir dans l'obscurité et sont très agiles",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.93,
+      "end": 7.63,
+      "text": " Salut à toi qui aimes l'aventure et bienvenue dans Donjons et Dragons.",
+      "tokens": [
+        50365,
+        33559,
+        1531,
+        15648,
+        1956,
+        257,
+        1532,
+        287,
+        6,
+        706,
+        317,
+        540,
+        1030,
+        3610,
+        29307,
+        2680,
+        1468,
+        73,
+        892,
+        1030,
+        37437,
+        13,
+        50602
+      ],
+      "avg_logprob": -0.12935775386936524,
+      "compression_ratio": 1.55078125,
+      "no_speech_prob": 1.2715610682445533e-11,
+      "words": [
+        {
+          "start": 2.93,
+          "end": 3.63,
+          "word": " Salut",
+          "probability": 0.9318677186965942
+        },
+        {
+          "start": 3.63,
+          "end": 3.81,
+          "word": " à",
+          "probability": 0.999677300453186
+        },
+        {
+          "start": 3.81,
+          "end": 4.01,
+          "word": " toi",
+          "probability": 0.999016523361206
+        },
+        {
+          "start": 4.01,
+          "end": 4.43,
+          "word": " qui",
+          "probability": 0.7695358991622925
+        },
+        {
+          "start": 4.43,
+          "end": 4.63,
+          "word": " aimes",
+          "probability": 0.6296107769012451
+        },
+        {
+          "start": 4.63,
+          "end": 4.73,
+          "word": " l",
+          "probability": 0.9999325275421143
+        },
+        {
+          "start": 4.73,
+          "end": 5.31,
+          "word": "'aventure",
+          "probability": 0.9991419911384583
+        },
+        {
+          "start": 5.31,
+          "end": 5.79,
+          "word": " et",
+          "probability": 0.7247517108917236
+        },
+        {
+          "start": 5.79,
+          "end": 6.33,
+          "word": " bienvenue",
+          "probability": 0.9993139803409576
+        },
+        {
+          "start": 6.33,
+          "end": 6.59,
+          "word": " dans",
+          "probability": 0.999891996383667
+        },
+        {
+          "start": 6.59,
+          "end": 7.09,
+          "word": " Donjons",
+          "probability": 0.978747546672821
+        },
+        {
+          "start": 7.09,
+          "end": 7.27,
+          "word": " et",
+          "probability": 0.9394316673278809
+        },
+        {
+          "start": 7.27,
+          "end": 7.63,
+          "word": " Dragons.",
+          "probability": 0.9276230931282043
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.25,
+      "end": 12.67,
+      "text": " L'aventure que tu vas vivre se situe dans le monde de Faerûn,",
+      "tokens": [
+        50656,
+        441,
+        6,
+        706,
+        317,
+        540,
+        631,
+        2604,
+        11481,
+        34248,
+        369,
+        1394,
+        622,
+        2680,
+        476,
+        10431,
+        368,
+        479,
+        526,
+        4198,
+        2613,
+        11,
+        50853
+      ],
+      "avg_logprob": -0.12935775386936524,
+      "compression_ratio": 1.55078125,
+      "no_speech_prob": 1.2715610682445533e-11,
+      "words": [
+        {
+          "start": 8.25,
+          "end": 8.83,
+          "word": " L",
+          "probability": 0.9997580647468567
+        },
+        {
+          "start": 8.83,
+          "end": 9.35,
+          "word": "'aventure",
+          "probability": 0.9997745305299759
+        },
+        {
+          "start": 9.35,
+          "end": 9.49,
+          "word": " que",
+          "probability": 0.9999245405197144
+        },
+        {
+          "start": 9.49,
+          "end": 9.63,
+          "word": " tu",
+          "probability": 0.9999805688858032
+        },
+        {
+          "start": 9.63,
+          "end": 9.79,
+          "word": " vas",
+          "probability": 0.9995694756507874
+        },
+        {
+          "start": 9.79,
+          "end": 10.09,
+          "word": " vivre",
+          "probability": 0.9999288320541382
+        },
+        {
+          "start": 10.09,
+          "end": 10.61,
+          "word": " se",
+          "probability": 0.9999445676803589
+        },
+        {
+          "start": 10.61,
+          "end": 11.03,
+          "word": " situe",
+          "probability": 0.9990064203739166
+        },
+        {
+          "start": 11.03,
+          "end": 11.19,
+          "word": " dans",
+          "probability": 0.9999812841415405
+        },
+        {
+          "start": 11.19,
+          "end": 11.33,
+          "word": " le",
+          "probability": 0.9997807145118713
+        },
+        {
+          "start": 11.33,
+          "end": 11.65,
+          "word": " monde",
+          "probability": 0.9996455907821655
+        },
+        {
+          "start": 11.65,
+          "end": 11.95,
+          "word": " de",
+          "probability": 0.9997801184654236
+        },
+        {
+          "start": 11.95,
+          "end": 12.67,
+          "word": " Faerûn,",
+          "probability": 0.7936723381280899
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 13.09,
+      "end": 18.25,
+      "text": " un territoire fabuleux où des héros pleins d'ambition, braves les plus grands périls,",
+      "tokens": [
+        50883,
+        517,
+        8673,
+        20378,
+        5355,
+        2271,
+        2449,
+        9068,
+        730,
+        32537,
+        2635,
+        3362,
+        1292,
+        274,
+        6,
+        2173,
+        849,
+        11,
+        1548,
+        977,
+        1512,
+        1804,
+        33298,
+        280,
+        4198,
+        4174,
+        11,
+        51132
+      ],
+      "avg_logprob": -0.12935775386936524,
+      "compression_ratio": 1.55078125,
+      "no_speech_prob": 1.2715610682445533e-11,
+      "words": [
+        {
+          "start": 13.09,
+          "end": 13.41,
+          "word": " un",
+          "probability": 0.9995934367179871
+        },
+        {
+          "start": 13.41,
+          "end": 14.11,
+          "word": " territoire",
+          "probability": 0.9999096989631653
+        },
+        {
+          "start": 14.11,
+          "end": 14.75,
+          "word": " fabuleux",
+          "probability": 0.9989517529805502
+        },
+        {
+          "start": 14.75,
+          "end": 15.23,
+          "word": " où",
+          "probability": 0.999731719493866
+        },
+        {
+          "start": 15.23,
+          "end": 15.41,
+          "word": " des",
+          "probability": 0.9999679327011108
+        },
+        {
+          "start": 15.41,
+          "end": 15.71,
+          "word": " héros",
+          "probability": 0.9996891915798187
+        },
+        {
+          "start": 15.71,
+          "end": 16.05,
+          "word": " pleins",
+          "probability": 0.9548637270927429
+        },
+        {
+          "start": 16.05,
+          "end": 16.15,
+          "word": " d",
+          "probability": 0.9999731779098511
+        },
+        {
+          "start": 16.15,
+          "end": 16.59,
+          "word": "'ambition,",
+          "probability": 0.9919704000155131
+        },
+        {
+          "start": 16.99,
+          "end": 17.25,
+          "word": " braves",
+          "probability": 0.9851851165294647
+        },
+        {
+          "start": 17.25,
+          "end": 17.39,
+          "word": " les",
+          "probability": 0.9986316561698914
+        },
+        {
+          "start": 17.39,
+          "end": 17.57,
+          "word": " plus",
+          "probability": 0.9999585151672363
+        },
+        {
+          "start": 17.57,
+          "end": 17.79,
+          "word": " grands",
+          "probability": 0.9856507182121277
+        },
+        {
+          "start": 17.79,
+          "end": 18.25,
+          "word": " périls,",
+          "probability": 0.9983636935551962
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 18.59,
+      "end": 23.57,
+      "text": " s'enfoncent dans les donjons les plus inquiétants et affrontent les monstres les plus étonnants.",
+      "tokens": [
+        51151,
+        262,
+        6,
+        268,
+        14338,
+        2207,
+        2680,
+        1512,
+        500,
+        73,
+        892,
+        1512,
+        1804,
+        13570,
+        72,
+        4051,
+        1719,
+        1030,
+        2096,
+        10001,
+        317,
+        1512,
+        1108,
+        372,
+        495,
+        1512,
+        1804,
+        1136,
+        1756,
+        41508,
+        13,
+        51398
+      ],
+      "avg_logprob": -0.12935775386936524,
+      "compression_ratio": 1.55078125,
+      "no_speech_prob": 1.2715610682445533e-11,
+      "words": [
+        {
+          "start": 18.59,
+          "end": 18.73,
+          "word": " s",
+          "probability": 0.9998339414596558
+        },
+        {
+          "start": 18.73,
+          "end": 19.15,
+          "word": "'enfoncent",
+          "probability": 0.9977113753557205
+        },
+        {
+          "start": 19.15,
+          "end": 19.27,
+          "word": " dans",
+          "probability": 0.9999237060546875
+        },
+        {
+          "start": 19.27,
+          "end": 19.41,
+          "word": " les",
+          "probability": 0.9999076128005981
+        },
+        {
+          "start": 19.41,
+          "end": 19.81,
+          "word": " donjons",
+          "probability": 0.9988442858060201
+        },
+        {
+          "start": 19.81,
+          "end": 19.97,
+          "word": " les",
+          "probability": 0.9997057318687439
+        },
+        {
+          "start": 19.97,
+          "end": 20.21,
+          "word": " plus",
+          "probability": 0.9999790191650391
+        },
+        {
+          "start": 20.21,
+          "end": 20.77,
+          "word": " inquiétants",
+          "probability": 0.9993882328271866
+        },
+        {
+          "start": 20.77,
+          "end": 21.37,
+          "word": " et",
+          "probability": 0.9992555975914001
+        },
+        {
+          "start": 21.37,
+          "end": 21.93,
+          "word": " affrontent",
+          "probability": 0.9985665480295817
+        },
+        {
+          "start": 21.93,
+          "end": 22.07,
+          "word": " les",
+          "probability": 0.9998890161514282
+        },
+        {
+          "start": 22.07,
+          "end": 22.55,
+          "word": " monstres",
+          "probability": 0.9988739689191183
+        },
+        {
+          "start": 22.55,
+          "end": 22.77,
+          "word": " les",
+          "probability": 0.9997777342796326
+        },
+        {
+          "start": 22.77,
+          "end": 23.09,
+          "word": " plus",
+          "probability": 0.9999082088470459
+        },
+        {
+          "start": 23.09,
+          "end": 23.57,
+          "word": " étonnants.",
+          "probability": 0.9988370537757874
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 24.57,
+      "end": 27.31,
+      "text": " C'est un endroit gorgé de mystères et de magie.",
+      "tokens": [
+        51457,
+        383,
+        6,
+        377,
+        517,
+        47390,
+        290,
+        4646,
+        526,
+        368,
+        9111,
+        13927,
+        1030,
+        368,
+        2258,
+        414,
+        13,
+        51585
+      ],
+      "avg_logprob": -0.12935775386936524,
+      "compression_ratio": 1.55078125,
+      "no_speech_prob": 1.2715610682445533e-11,
+      "words": [
+        {
+          "start": 24.57,
+          "end": 24.89,
+          "word": " C",
+          "probability": 0.999695897102356
+        },
+        {
+          "start": 24.89,
+          "end": 25.01,
+          "word": "'est",
+          "probability": 0.9999815821647644
+        },
+        {
+          "start": 25.01,
+          "end": 25.17,
+          "word": " un",
+          "probability": 0.9991967082023621
+        },
+        {
+          "start": 25.17,
+          "end": 25.53,
+          "word": " endroit",
+          "probability": 0.9990805387496948
+        },
+        {
+          "start": 25.53,
+          "end": 26.07,
+          "word": " gorgé",
+          "probability": 0.996943732102712
+        },
+        {
+          "start": 26.07,
+          "end": 26.23,
+          "word": " de",
+          "probability": 0.9999500513076782
+        },
+        {
+          "start": 26.23,
+          "end": 26.71,
+          "word": " mystères",
+          "probability": 0.9337882697582245
+        },
+        {
+          "start": 26.71,
+          "end": 26.81,
+          "word": " et",
+          "probability": 0.9998031258583069
+        },
+        {
+          "start": 26.81,
+          "end": 26.97,
+          "word": " de",
+          "probability": 0.9999253749847412
+        },
+        {
+          "start": 26.97,
+          "end": 27.31,
+          "word": " magie.",
+          "probability": 0.9946154057979584
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 27.75,
+      "end": 29.37,
+      "text": " À toi de l'explorer!",
+      "tokens": [
+        51622,
+        19018,
+        15648,
+        368,
+        287,
+        6,
+        23040,
+        17618,
+        2298,
+        51715
+      ],
+      "avg_logprob": -0.12935775386936524,
+      "compression_ratio": 1.55078125,
+      "no_speech_prob": 1.2715610682445533e-11,
+      "words": [
+        {
+          "start": 27.75,
+          "end": 28.15,
+          "word": " À",
+          "probability": 0.5793885588645935
+        },
+        {
+          "start": 28.15,
+          "end": 28.41,
+          "word": " toi",
+          "probability": 0.9996950626373291
+        },
+        {
+          "start": 28.41,
+          "end": 28.57,
+          "word": " de",
+          "probability": 0.9998946189880371
+        },
+        {
+          "start": 28.57,
+          "end": 28.67,
+          "word": " l",
+          "probability": 0.9999148845672607
+        },
+        {
+          "start": 28.67,
+          "end": 29.11,
+          "word": "'explorer",
+          "probability": 0.9991941452026367
+        },
+        {
+          "start": 29.11,
+          "end": 29.37,
+          "word": "!",
+          "probability": 0.9017081260681152
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 2644,
+      "start": 30.45,
+      "end": 36.33,
+      "text": " L'histoire va commencer dans un instant, mais avant cela, dis-nous un peu qui tu es,",
+      "tokens": [
+        50365,
+        441,
+        6,
+        29093,
+        2773,
+        32817,
+        2680,
+        517,
+        9836,
+        11,
+        2420,
+        13439,
+        15437,
+        11,
+        717,
+        12,
+        47008,
+        517,
+        5604,
+        1956,
+        2604,
+        785,
+        11,
+        50714
+      ],
+      "avg_logprob": -0.1409077078365443,
+      "compression_ratio": 1.5020408163265306,
+      "no_speech_prob": 7.47667466133306e-12,
+      "words": [
+        {
+          "start": 30.45,
+          "end": 31.03,
+          "word": " L",
+          "probability": 0.9097838997840881
+        },
+        {
+          "start": 31.03,
+          "end": 31.39,
+          "word": "'histoire",
+          "probability": 0.994050145149231
+        },
+        {
+          "start": 31.39,
+          "end": 31.65,
+          "word": " va",
+          "probability": 0.999471127986908
+        },
+        {
+          "start": 31.65,
+          "end": 32.15,
+          "word": " commencer",
+          "probability": 0.999840259552002
+        },
+        {
+          "start": 32.15,
+          "end": 32.39,
+          "word": " dans",
+          "probability": 0.9996449947357178
+        },
+        {
+          "start": 32.39,
+          "end": 32.65,
+          "word": " un",
+          "probability": 0.9999821186065674
+        },
+        {
+          "start": 32.65,
+          "end": 33.03,
+          "word": " instant,",
+          "probability": 0.9999352693557739
+        },
+        {
+          "start": 33.33,
+          "end": 33.83,
+          "word": " mais",
+          "probability": 0.9996548891067505
+        },
+        {
+          "start": 33.83,
+          "end": 34.15,
+          "word": " avant",
+          "probability": 0.9999260902404785
+        },
+        {
+          "start": 34.15,
+          "end": 34.49,
+          "word": " cela,",
+          "probability": 0.9999017715454102
+        },
+        {
+          "start": 35.13,
+          "end": 35.25,
+          "word": " dis",
+          "probability": 0.9983023405075073
+        },
+        {
+          "start": 35.25,
+          "end": 35.41,
+          "word": "-nous",
+          "probability": 0.9990032017230988
+        },
+        {
+          "start": 35.41,
+          "end": 35.57,
+          "word": " un",
+          "probability": 0.9994213581085205
+        },
+        {
+          "start": 35.57,
+          "end": 35.71,
+          "word": " peu",
+          "probability": 0.9997279047966003
+        },
+        {
+          "start": 35.71,
+          "end": 35.97,
+          "word": " qui",
+          "probability": 0.99981290102005
+        },
+        {
+          "start": 35.97,
+          "end": 36.15,
+          "word": " tu",
+          "probability": 0.999777615070343
+        },
+        {
+          "start": 36.15,
+          "end": 36.33,
+          "word": " es,",
+          "probability": 0.9990952014923096
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 2644,
+      "start": 36.55,
+      "end": 39.67,
+      "text": " ou plutôt, quel personnage tu veux être.",
+      "tokens": [
+        50743,
+        2820,
+        20856,
+        11,
+        7178,
+        43952,
+        2604,
+        16389,
+        7418,
+        13,
+        50881
+      ],
+      "avg_logprob": -0.1409077078365443,
+      "compression_ratio": 1.5020408163265306,
+      "no_speech_prob": 7.47667466133306e-12,
+      "words": [
+        {
+          "start": 36.55,
+          "end": 37.03,
+          "word": " ou",
+          "probability": 0.9996811151504517
+        },
+        {
+          "start": 37.03,
+          "end": 37.43,
+          "word": " plutôt,",
+          "probability": 0.9998481273651123
+        },
+        {
+          "start": 37.91,
+          "end": 38.07,
+          "word": " quel",
+          "probability": 0.9958327412605286
+        },
+        {
+          "start": 38.07,
+          "end": 38.79,
+          "word": " personnage",
+          "probability": 0.9995928406715393
+        },
+        {
+          "start": 38.79,
+          "end": 39.21,
+          "word": " tu",
+          "probability": 0.999705970287323
+        },
+        {
+          "start": 39.21,
+          "end": 39.37,
+          "word": " veux",
+          "probability": 0.9995478987693787
+        },
+        {
+          "start": 39.37,
+          "end": 39.67,
+          "word": " être.",
+          "probability": 0.9999322891235352
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2644,
+      "start": 42.24,
+      "end": 44.62,
+      "text": " Tu as le choix entre quatre peuples.",
+      "tokens": [
+        50920,
+        7836,
+        382,
+        476,
+        32688,
+        3962,
+        31334,
+        5604,
+        2622,
+        13,
+        51023
+      ],
+      "avg_logprob": -0.1409077078365443,
+      "compression_ratio": 1.5020408163265306,
+      "no_speech_prob": 7.47667466133306e-12,
+      "words": [
+        {
+          "start": 42.24,
+          "end": 42.68,
+          "word": " Tu",
+          "probability": 0.9956725835800171
+        },
+        {
+          "start": 42.68,
+          "end": 42.8,
+          "word": " as",
+          "probability": 0.998862624168396
+        },
+        {
+          "start": 42.8,
+          "end": 42.92,
+          "word": " le",
+          "probability": 0.9999209642410278
+        },
+        {
+          "start": 42.92,
+          "end": 43.22,
+          "word": " choix",
+          "probability": 0.9999582767486572
+        },
+        {
+          "start": 43.22,
+          "end": 43.74,
+          "word": " entre",
+          "probability": 0.9997803568840027
+        },
+        {
+          "start": 43.74,
+          "end": 44.14,
+          "word": " quatre",
+          "probability": 0.8299345970153809
+        },
+        {
+          "start": 44.14,
+          "end": 44.62,
+          "word": " peuples.",
+          "probability": 0.9989299476146698
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2644,
+      "start": 45.74,
+      "end": 50.52,
+      "text": " À Fée et Rune, il y a surtout des humains, mais on trouve aussi d'autres créatures,",
+      "tokens": [
+        51081,
+        19018,
+        479,
+        3856,
+        1030,
+        497,
+        2613,
+        11,
+        1930,
+        288,
+        257,
+        19903,
+        730,
+        1484,
+        2315,
+        11,
+        2420,
+        322,
+        19359,
+        6212,
+        274,
+        6,
+        16752,
+        15609,
+        3377,
+        11,
+        51318
+      ],
+      "avg_logprob": -0.1409077078365443,
+      "compression_ratio": 1.5020408163265306,
+      "no_speech_prob": 7.47667466133306e-12,
+      "words": [
+        {
+          "start": 45.74,
+          "end": 45.88,
+          "word": " À",
+          "probability": 0.8404786586761475
+        },
+        {
+          "start": 45.88,
+          "end": 46.12,
+          "word": " Fée",
+          "probability": 0.6804574131965637
+        },
+        {
+          "start": 46.12,
+          "end": 46.3,
+          "word": " et",
+          "probability": 0.9088520407676697
+        },
+        {
+          "start": 46.3,
+          "end": 46.5,
+          "word": " Rune,",
+          "probability": 0.8846370577812195
+        },
+        {
+          "start": 46.7,
+          "end": 47.02,
+          "word": " il",
+          "probability": 0.9999425411224365
+        },
+        {
+          "start": 47.02,
+          "end": 47.14,
+          "word": " y",
+          "probability": 0.9999598264694214
+        },
+        {
+          "start": 47.14,
+          "end": 47.2,
+          "word": " a",
+          "probability": 0.9998642206192017
+        },
+        {
+          "start": 47.2,
+          "end": 47.52,
+          "word": " surtout",
+          "probability": 0.9999345541000366
+        },
+        {
+          "start": 47.52,
+          "end": 47.74,
+          "word": " des",
+          "probability": 0.9999788999557495
+        },
+        {
+          "start": 47.74,
+          "end": 48.02,
+          "word": " humains,",
+          "probability": 0.9994063079357147
+        },
+        {
+          "start": 48.32,
+          "end": 48.76,
+          "word": " mais",
+          "probability": 0.9998045563697815
+        },
+        {
+          "start": 48.76,
+          "end": 48.92,
+          "word": " on",
+          "probability": 0.9998923540115356
+        },
+        {
+          "start": 48.92,
+          "end": 49.18,
+          "word": " trouve",
+          "probability": 0.9995259046554565
+        },
+        {
+          "start": 49.18,
+          "end": 49.5,
+          "word": " aussi",
+          "probability": 0.9998525381088257
+        },
+        {
+          "start": 49.5,
+          "end": 49.7,
+          "word": " d",
+          "probability": 0.9999220371246338
+        },
+        {
+          "start": 49.7,
+          "end": 49.86,
+          "word": "'autres",
+          "probability": 0.9999687075614929
+        },
+        {
+          "start": 49.86,
+          "end": 50.52,
+          "word": " créatures,",
+          "probability": 0.9992989301681519
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 11,
+      "seek": 2644,
+      "start": 50.86,
+      "end": 54.64,
+      "text": " dont des orques, des halflins, des gnomes, etc.",
+      "tokens": [
+        51345,
+        9400,
+        730,
+        420,
+        7519,
+        11,
+        730,
+        7523,
+        3423,
+        1292,
+        11,
+        730,
+        290,
+        15819,
+        279,
+        11,
+        5183,
+        13,
+        51525
+      ],
+      "avg_logprob": -0.1409077078365443,
+      "compression_ratio": 1.5020408163265306,
+      "no_speech_prob": 7.47667466133306e-12,
+      "words": [
+        {
+          "start": 50.86,
+          "end": 51.22,
+          "word": " dont",
+          "probability": 0.9994243383407593
+        },
+        {
+          "start": 51.22,
+          "end": 51.44,
+          "word": " des",
+          "probability": 0.9998164772987366
+        },
+        {
+          "start": 51.44,
+          "end": 51.82,
+          "word": " orques,",
+          "probability": 0.9751412272453308
+        },
+        {
+          "start": 52.1,
+          "end": 52.32,
+          "word": " des",
+          "probability": 0.9999430179595947
+        },
+        {
+          "start": 52.32,
+          "end": 52.88,
+          "word": " halflins,",
+          "probability": 0.6649685055017471
+        },
+        {
+          "start": 53.4,
+          "end": 53.56,
+          "word": " des",
+          "probability": 0.9999442100524902
+        },
+        {
+          "start": 53.56,
+          "end": 54.04,
+          "word": " gnomes,",
+          "probability": 0.9991828401883444
+        },
+        {
+          "start": 54.32,
+          "end": 54.64,
+          "word": " etc.",
+          "probability": 0.9999010562896729
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 12,
+      "seek": 2644,
+      "start": 55.64,
+      "end": 59.12,
+      "text": " Les humains sont semblables aux gens que tu côtoies dans ton monde.",
+      "tokens": [
+        51575,
+        6965,
+        1484,
+        2315,
+        4900,
+        20775,
+        75,
+        2965,
+        7865,
+        10668,
+        631,
+        2604,
+        35167,
+        1353,
+        530,
+        2680,
+        2952,
+        10431,
+        13,
+        51748
+      ],
+      "avg_logprob": -0.1409077078365443,
+      "compression_ratio": 1.5020408163265306,
+      "no_speech_prob": 7.47667466133306e-12,
+      "words": [
+        {
+          "start": 55.64,
+          "end": 56.22,
+          "word": " Les",
+          "probability": 0.998383641242981
+        },
+        {
+          "start": 56.22,
+          "end": 56.54,
+          "word": " humains",
+          "probability": 0.9998667538166046
+        },
+        {
+          "start": 56.54,
+          "end": 56.78,
+          "word": " sont",
+          "probability": 0.9999198913574219
+        },
+        {
+          "start": 56.78,
+          "end": 57.36,
+          "word": " semblables",
+          "probability": 0.9984533190727234
+        },
+        {
+          "start": 57.36,
+          "end": 57.6,
+          "word": " aux",
+          "probability": 0.9996073842048645
+        },
+        {
+          "start": 57.6,
+          "end": 57.78,
+          "word": " gens",
+          "probability": 0.9998089671134949
+        },
+        {
+          "start": 57.78,
+          "end": 57.94,
+          "word": " que",
+          "probability": 0.9999103546142578
+        },
+        {
+          "start": 57.94,
+          "end": 58.1,
+          "word": " tu",
+          "probability": 0.9999363422393799
+        },
+        {
+          "start": 58.1,
+          "end": 58.5,
+          "word": " côtoies",
+          "probability": 0.9971285065015157
+        },
+        {
+          "start": 58.5,
+          "end": 58.66,
+          "word": " dans",
+          "probability": 0.9998410940170288
+        },
+        {
+          "start": 58.66,
+          "end": 58.82,
+          "word": " ton",
+          "probability": 0.9999276399612427
+        },
+        {
+          "start": 58.82,
+          "end": 59.12,
+          "word": " monde.",
+          "probability": 0.9992731213569641
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 13,
+      "seek": 5408,
+      "start": 59.12,
+      "end": 66.7,
+      "text": " Ils n'ont pas de pouvoirs spéciaux, mais ils brillent par leur capacité d'adaptation et leur volonté de réussir.",
+      "tokens": [
+        50365,
+        17979,
+        297,
+        6,
+        896,
+        1736,
+        368,
+        14874,
+        82,
+        31198,
+        537,
+        7511,
+        11,
+        2420,
+        9047,
+        8695,
+        317,
+        971,
+        9580,
+        4637,
+        5066,
+        274,
+        6,
+        345,
+        2796,
+        399,
+        1030,
+        9580,
+        40005,
+        526,
+        368,
+        28099,
+        347,
+        13,
+        50745
+      ],
+      "avg_logprob": -0.11885339021682739,
+      "compression_ratio": 1.630952380952381,
+      "no_speech_prob": 6.951683152733867e-12,
+      "words": [
+        {
+          "start": 59.12,
+          "end": 60.3,
+          "word": " Ils",
+          "probability": 0.9941049814224243
+        },
+        {
+          "start": 60.3,
+          "end": 60.42,
+          "word": " n",
+          "probability": 0.9994882345199585
+        },
+        {
+          "start": 60.42,
+          "end": 60.46,
+          "word": "'ont",
+          "probability": 0.9998452365398407
+        },
+        {
+          "start": 60.46,
+          "end": 60.62,
+          "word": " pas",
+          "probability": 0.999977707862854
+        },
+        {
+          "start": 60.62,
+          "end": 60.76,
+          "word": " de",
+          "probability": 0.9999704360961914
+        },
+        {
+          "start": 60.76,
+          "end": 61.24,
+          "word": " pouvoirs",
+          "probability": 0.9817412793636322
+        },
+        {
+          "start": 61.24,
+          "end": 61.64,
+          "word": " spéciaux,",
+          "probability": 0.9998226563135783
+        },
+        {
+          "start": 61.68,
+          "end": 62.4,
+          "word": " mais",
+          "probability": 0.9996956586837769
+        },
+        {
+          "start": 62.4,
+          "end": 62.64,
+          "word": " ils",
+          "probability": 0.9993815422058105
+        },
+        {
+          "start": 62.64,
+          "end": 63.02,
+          "word": " brillent",
+          "probability": 0.9994498789310455
+        },
+        {
+          "start": 63.02,
+          "end": 63.2,
+          "word": " par",
+          "probability": 0.99958735704422
+        },
+        {
+          "start": 63.2,
+          "end": 63.36,
+          "word": " leur",
+          "probability": 0.9774462580680847
+        },
+        {
+          "start": 63.36,
+          "end": 64.04,
+          "word": " capacité",
+          "probability": 0.9999278783798218
+        },
+        {
+          "start": 64.04,
+          "end": 64.2,
+          "word": " d",
+          "probability": 0.9999438524246216
+        },
+        {
+          "start": 64.2,
+          "end": 64.84,
+          "word": "'adaptation",
+          "probability": 0.9996291846036911
+        },
+        {
+          "start": 64.84,
+          "end": 65.3,
+          "word": " et",
+          "probability": 0.9996235370635986
+        },
+        {
+          "start": 65.3,
+          "end": 65.48,
+          "word": " leur",
+          "probability": 0.9999185800552368
+        },
+        {
+          "start": 65.48,
+          "end": 65.96,
+          "word": " volonté",
+          "probability": 0.999988317489624
+        },
+        {
+          "start": 65.96,
+          "end": 66.1,
+          "word": " de",
+          "probability": 0.9999654293060303
+        },
+        {
+          "start": 66.1,
+          "end": 66.7,
+          "word": " réussir.",
+          "probability": 0.9999698996543884
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 14,
+      "seek": 5408,
+      "start": 67.44,
+      "end": 70.74,
+      "text": " Les elfes sont des créatures gracieuses et magiques.",
+      "tokens": [
+        50801,
+        6965,
+        35565,
+        279,
+        4900,
+        730,
+        15609,
+        3377,
+        11625,
+        414,
+        8355,
+        1030,
+        2258,
+        4911,
+        13,
+        50947
+      ],
+      "avg_logprob": -0.11885339021682739,
+      "compression_ratio": 1.630952380952381,
+      "no_speech_prob": 6.951683152733867e-12,
+      "words": [
+        {
+          "start": 67.44,
+          "end": 68.04,
+          "word": " Les",
+          "probability": 0.9995265007019043
+        },
+        {
+          "start": 68.04,
+          "end": 68.42,
+          "word": " elfes",
+          "probability": 0.9941434860229492
+        },
+        {
+          "start": 68.42,
+          "end": 68.68,
+          "word": " sont",
+          "probability": 0.9998008608818054
+        },
+        {
+          "start": 68.68,
+          "end": 68.82,
+          "word": " des",
+          "probability": 0.9999222755432129
+        },
+        {
+          "start": 68.82,
+          "end": 69.32,
+          "word": " créatures",
+          "probability": 0.9997603595256805
+        },
+        {
+          "start": 69.32,
+          "end": 69.98,
+          "word": " gracieuses",
+          "probability": 0.9994776447614034
+        },
+        {
+          "start": 69.98,
+          "end": 70.24,
+          "word": " et",
+          "probability": 0.9999408721923828
+        },
+        {
+          "start": 70.24,
+          "end": 70.74,
+          "word": " magiques.",
+          "probability": 0.9997412860393524
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 15,
+      "seek": 5408,
+      "start": 71.14,
+      "end": 76.0,
+      "text": " Ils sont à peine moins grands que les humains et, en général, plus veltes qu'eux.",
+      "tokens": [
+        50991,
+        17979,
+        4900,
+        1531,
+        46655,
+        13099,
+        33298,
+        631,
+        1512,
+        1484,
+        2315,
+        1030,
+        11,
+        465,
+        27796,
+        11,
+        1804,
+        14610,
+        7269,
+        421,
+        6,
+        68,
+        2449,
+        13,
+        51207
+      ],
+      "avg_logprob": -0.11885339021682739,
+      "compression_ratio": 1.630952380952381,
+      "no_speech_prob": 6.951683152733867e-12,
+      "words": [
+        {
+          "start": 71.14,
+          "end": 71.74,
+          "word": " Ils",
+          "probability": 0.9993308782577515
+        },
+        {
+          "start": 71.74,
+          "end": 71.98,
+          "word": " sont",
+          "probability": 0.9997296929359436
+        },
+        {
+          "start": 71.98,
+          "end": 72.22,
+          "word": " à",
+          "probability": 0.9999393224716187
+        },
+        {
+          "start": 72.22,
+          "end": 72.42,
+          "word": " peine",
+          "probability": 0.9997450709342957
+        },
+        {
+          "start": 72.42,
+          "end": 72.6,
+          "word": " moins",
+          "probability": 0.9998958110809326
+        },
+        {
+          "start": 72.6,
+          "end": 72.82,
+          "word": " grands",
+          "probability": 0.998760461807251
+        },
+        {
+          "start": 72.82,
+          "end": 72.98,
+          "word": " que",
+          "probability": 0.9999774694442749
+        },
+        {
+          "start": 72.98,
+          "end": 73.18,
+          "word": " les",
+          "probability": 0.9999698400497437
+        },
+        {
+          "start": 73.18,
+          "end": 73.48,
+          "word": " humains",
+          "probability": 0.9994421601295471
+        },
+        {
+          "start": 73.48,
+          "end": 74.02,
+          "word": " et,",
+          "probability": 0.8876791596412659
+        },
+        {
+          "start": 74.1,
+          "end": 74.16,
+          "word": " en",
+          "probability": 0.9999560117721558
+        },
+        {
+          "start": 74.16,
+          "end": 74.58,
+          "word": " général,",
+          "probability": 0.9997604489326477
+        },
+        {
+          "start": 75.06,
+          "end": 75.36,
+          "word": " plus",
+          "probability": 0.9997407793998718
+        },
+        {
+          "start": 75.36,
+          "end": 75.7,
+          "word": " veltes",
+          "probability": 0.750115156173706
+        },
+        {
+          "start": 75.7,
+          "end": 75.88,
+          "word": " qu",
+          "probability": 0.8534822463989258
+        },
+        {
+          "start": 75.88,
+          "end": 76.0,
+          "word": "'eux.",
+          "probability": 0.9984177152315775
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 16,
+      "seek": 5408,
+      "start": 76.5,
+      "end": 80.16,
+      "text": " Pourvus d'oreilles pointues, ils vivent le plus souvent dans les bois.",
+      "tokens": [
+        51238,
+        8732,
+        85,
+        301,
+        274,
+        6,
+        418,
+        14835,
+        935,
+        1247,
+        11,
+        9047,
+        11005,
+        317,
+        476,
+        1804,
+        20847,
+        2680,
+        1512,
+        44808,
+        13,
+        51418
+      ],
+      "avg_logprob": -0.11885339021682739,
+      "compression_ratio": 1.630952380952381,
+      "no_speech_prob": 6.951683152733867e-12,
+      "words": [
+        {
+          "start": 76.5,
+          "end": 76.92,
+          "word": " Pourvus",
+          "probability": 0.9583046038945516
+        },
+        {
+          "start": 76.92,
+          "end": 77.04,
+          "word": " d",
+          "probability": 0.9999537467956543
+        },
+        {
+          "start": 77.04,
+          "end": 77.32,
+          "word": "'oreilles",
+          "probability": 0.9986708561579386
+        },
+        {
+          "start": 77.32,
+          "end": 77.84,
+          "word": " pointues,",
+          "probability": 0.9986581206321716
+        },
+        {
+          "start": 78.16,
+          "end": 78.5,
+          "word": " ils",
+          "probability": 0.9998195767402649
+        },
+        {
+          "start": 78.5,
+          "end": 78.82,
+          "word": " vivent",
+          "probability": 0.9996782541275024
+        },
+        {
+          "start": 78.82,
+          "end": 78.96,
+          "word": " le",
+          "probability": 0.9998694658279419
+        },
+        {
+          "start": 78.96,
+          "end": 79.18,
+          "word": " plus",
+          "probability": 0.9999525547027588
+        },
+        {
+          "start": 79.18,
+          "end": 79.58,
+          "word": " souvent",
+          "probability": 0.9999649524688721
+        },
+        {
+          "start": 79.58,
+          "end": 79.8,
+          "word": " dans",
+          "probability": 0.9998794794082642
+        },
+        {
+          "start": 79.8,
+          "end": 79.94,
+          "word": " les",
+          "probability": 0.9999479055404663
+        },
+        {
+          "start": 79.94,
+          "end": 80.16,
+          "word": " bois.",
+          "probability": 0.9995156526565552
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 17,
+      "seek": 5408,
+      "start": 81.82,
+      "end": 86.76,
+      "text": " Les nains sont encore plus petits que les elfes et davantage trapus que les humains.",
+      "tokens": [
+        51521,
+        6965,
+        297,
+        2315,
+        4900,
+        10122,
+        1804,
+        26487,
+        631,
+        1512,
+        35565,
+        279,
+        1030,
+        11753,
+        4370,
+        11487,
+        301,
+        631,
+        1512,
+        1484,
+        2315,
+        13,
+        51747
+      ],
+      "avg_logprob": -0.11885339021682739,
+      "compression_ratio": 1.630952380952381,
+      "no_speech_prob": 6.951683152733867e-12,
+      "words": [
+        {
+          "start": 81.82,
+          "end": 82.42,
+          "word": " Les",
+          "probability": 0.9996260404586792
+        },
+        {
+          "start": 82.42,
+          "end": 82.64,
+          "word": " nains",
+          "probability": 0.99941685795784
+        },
+        {
+          "start": 82.64,
+          "end": 82.88,
+          "word": " sont",
+          "probability": 0.9998810291290283
+        },
+        {
+          "start": 82.88,
+          "end": 83.26,
+          "word": " encore",
+          "probability": 0.9999681711196899
+        },
+        {
+          "start": 83.26,
+          "end": 83.6,
+          "word": " plus",
+          "probability": 0.9999840259552002
+        },
+        {
+          "start": 83.6,
+          "end": 83.9,
+          "word": " petits",
+          "probability": 0.9996904134750366
+        },
+        {
+          "start": 83.9,
+          "end": 84.06,
+          "word": " que",
+          "probability": 0.999956488609314
+        },
+        {
+          "start": 84.06,
+          "end": 84.26,
+          "word": " les",
+          "probability": 0.9999876022338867
+        },
+        {
+          "start": 84.26,
+          "end": 84.72,
+          "word": " elfes",
+          "probability": 0.9998127222061157
+        },
+        {
+          "start": 84.72,
+          "end": 85.04,
+          "word": " et",
+          "probability": 0.9918588995933533
+        },
+        {
+          "start": 85.04,
+          "end": 85.68,
+          "word": " davantage",
+          "probability": 0.9997143745422363
+        },
+        {
+          "start": 85.68,
+          "end": 86.12,
+          "word": " trapus",
+          "probability": 0.9968746900558472
+        },
+        {
+          "start": 86.12,
+          "end": 86.28,
+          "word": " que",
+          "probability": 0.9997629523277283
+        },
+        {
+          "start": 86.28,
+          "end": 86.46,
+          "word": " les",
+          "probability": 0.9999866485595703
+        },
+        {
+          "start": 86.46,
+          "end": 86.76,
+          "word": " humains.",
+          "probability": 0.9999614953994751
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 18,
+      "seek": 8172,
+      "start": 86.76,
+      "end": 91.66,
+      "text": " Ils vivent plutôt sous terre, dans des habitations taillées à même la roche",
+      "tokens": [
+        50365,
+        17979,
+        11005,
+        317,
+        20856,
+        16686,
+        31815,
+        11,
+        2680,
+        730,
+        7164,
+        763,
+        1846,
+        373,
+        6836,
+        1531,
+        5698,
+        635,
+        744,
+        1876,
+        50611
+      ],
+      "avg_logprob": -0.10858459082933572,
+      "compression_ratio": 1.4936708860759493,
+      "no_speech_prob": 8.046973677677816e-12,
+      "words": [
+        {
+          "start": 86.76,
+          "end": 87.74,
+          "word": " Ils",
+          "probability": 0.9821627736091614
+        },
+        {
+          "start": 87.74,
+          "end": 88.06,
+          "word": " vivent",
+          "probability": 0.9994653761386871
+        },
+        {
+          "start": 88.06,
+          "end": 88.32,
+          "word": " plutôt",
+          "probability": 0.9998410940170288
+        },
+        {
+          "start": 88.32,
+          "end": 88.54,
+          "word": " sous",
+          "probability": 0.9995021820068359
+        },
+        {
+          "start": 88.54,
+          "end": 88.84,
+          "word": " terre,",
+          "probability": 0.9985577464103699
+        },
+        {
+          "start": 89.08,
+          "end": 89.44,
+          "word": " dans",
+          "probability": 0.9997932314872742
+        },
+        {
+          "start": 89.44,
+          "end": 89.64,
+          "word": " des",
+          "probability": 0.9999890327453613
+        },
+        {
+          "start": 89.64,
+          "end": 90.24,
+          "word": " habitations",
+          "probability": 0.9989854693412781
+        },
+        {
+          "start": 90.24,
+          "end": 90.66,
+          "word": " taillées",
+          "probability": 0.9997670451800028
+        },
+        {
+          "start": 90.66,
+          "end": 90.88,
+          "word": " à",
+          "probability": 0.9997052550315857
+        },
+        {
+          "start": 90.88,
+          "end": 91.14,
+          "word": " même",
+          "probability": 0.9979377388954163
+        },
+        {
+          "start": 91.14,
+          "end": 91.3,
+          "word": " la",
+          "probability": 0.9899773597717285
+        },
+        {
+          "start": 91.3,
+          "end": 91.66,
+          "word": " roche",
+          "probability": 0.9993927180767059
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 19,
+      "seek": 8172,
+      "start": 91.66,
+      "end": 96.56,
+      "text": " Là, ils creusent des mines s'enfonçant profondément sous la surface",
+      "tokens": [
+        50611,
+        22237,
+        11,
+        9047,
+        1197,
+        301,
+        317,
+        730,
+        25398,
+        262,
+        6,
+        268,
+        14338,
+        1138,
+        394,
+        1740,
+        684,
+        17595,
+        16686,
+        635,
+        3753,
+        50857
+      ],
+      "avg_logprob": -0.10858459082933572,
+      "compression_ratio": 1.4936708860759493,
+      "no_speech_prob": 8.046973677677816e-12,
+      "words": [
+        {
+          "start": 91.66,
+          "end": 92.34,
+          "word": " Là,",
+          "probability": 0.09102761745452881
+        },
+        {
+          "start": 92.76,
+          "end": 92.98,
+          "word": " ils",
+          "probability": 0.9989155530929565
+        },
+        {
+          "start": 92.98,
+          "end": 93.36,
+          "word": " creusent",
+          "probability": 0.9987744092941284
+        },
+        {
+          "start": 93.36,
+          "end": 93.5,
+          "word": " des",
+          "probability": 0.9999662637710571
+        },
+        {
+          "start": 93.5,
+          "end": 93.82,
+          "word": " mines",
+          "probability": 0.9996395111083984
+        },
+        {
+          "start": 93.82,
+          "end": 94.18,
+          "word": " s",
+          "probability": 0.90607750415802
+        },
+        {
+          "start": 94.18,
+          "end": 94.7,
+          "word": "'enfonçant",
+          "probability": 0.9990948915481568
+        },
+        {
+          "start": 94.7,
+          "end": 95.62,
+          "word": " profondément",
+          "probability": 0.9998691280682882
+        },
+        {
+          "start": 95.62,
+          "end": 95.92,
+          "word": " sous",
+          "probability": 0.999455988407135
+        },
+        {
+          "start": 95.92,
+          "end": 96.08,
+          "word": " la",
+          "probability": 0.9999678134918213
+        },
+        {
+          "start": 96.08,
+          "end": 96.56,
+          "word": " surface",
+          "probability": 0.999886155128479
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 20,
+      "seek": 8172,
+      "start": 97.46,
+      "end": 100.7,
+      "text": " Les tabaxis ressemblent à des chats au corps d'humain",
+      "tokens": [
+        50857,
+        6965,
+        4421,
+        24633,
+        725,
+        15750,
+        75,
+        317,
+        1531,
+        730,
+        38057,
+        1609,
+        18271,
+        274,
+        6,
+        14645,
+        491,
+        51062
+      ],
+      "avg_logprob": -0.10858459082933572,
+      "compression_ratio": 1.4936708860759493,
+      "no_speech_prob": 8.046973677677816e-12,
+      "words": [
+        {
+          "start": 97.46,
+          "end": 98.02,
+          "word": " Les",
+          "probability": 0.9963290095329285
+        },
+        {
+          "start": 98.02,
+          "end": 98.52,
+          "word": " tabaxis",
+          "probability": 0.7392680943012238
+        },
+        {
+          "start": 98.52,
+          "end": 99.34,
+          "word": " ressemblent",
+          "probability": 0.9989966601133347
+        },
+        {
+          "start": 99.34,
+          "end": 99.42,
+          "word": " à",
+          "probability": 0.9998732805252075
+        },
+        {
+          "start": 99.42,
+          "end": 99.56,
+          "word": " des",
+          "probability": 0.9999778270721436
+        },
+        {
+          "start": 99.56,
+          "end": 99.84,
+          "word": " chats",
+          "probability": 0.998393714427948
+        },
+        {
+          "start": 99.84,
+          "end": 100.1,
+          "word": " au",
+          "probability": 0.6890008449554443
+        },
+        {
+          "start": 100.1,
+          "end": 100.38,
+          "word": " corps",
+          "probability": 0.9986724853515625
+        },
+        {
+          "start": 100.38,
+          "end": 100.46,
+          "word": " d",
+          "probability": 0.6939147114753723
+        },
+        {
+          "start": 100.46,
+          "end": 100.7,
+          "word": "'humain",
+          "probability": 0.9231417576471964
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 21,
+      "seek": 8172,
+      "start": 100.7,
+      "end": 103.58,
+      "text": " Ils sont couverts de fourrure de la tête au pied",
+      "tokens": [
+        51062,
+        17979,
+        4900,
+        1384,
+        36999,
+        368,
+        1451,
+        81,
+        540,
+        368,
+        635,
+        24661,
+        1609,
+        24186,
+        51207
+      ],
+      "avg_logprob": -0.10858459082933572,
+      "compression_ratio": 1.4936708860759493,
+      "no_speech_prob": 8.046973677677816e-12,
+      "words": [
+        {
+          "start": 100.7,
+          "end": 101.48,
+          "word": " Ils",
+          "probability": 0.9843965172767639
+        },
+        {
+          "start": 101.48,
+          "end": 101.7,
+          "word": " sont",
+          "probability": 0.9999383687973022
+        },
+        {
+          "start": 101.7,
+          "end": 102.1,
+          "word": " couverts",
+          "probability": 0.9990161955356598
+        },
+        {
+          "start": 102.1,
+          "end": 102.28,
+          "word": " de",
+          "probability": 0.9999178647994995
+        },
+        {
+          "start": 102.28,
+          "end": 102.72,
+          "word": " fourrure",
+          "probability": 0.923719604810079
+        },
+        {
+          "start": 102.72,
+          "end": 102.88,
+          "word": " de",
+          "probability": 0.969851016998291
+        },
+        {
+          "start": 102.88,
+          "end": 103.02,
+          "word": " la",
+          "probability": 0.9999693632125854
+        },
+        {
+          "start": 103.02,
+          "end": 103.26,
+          "word": " tête",
+          "probability": 0.9999411106109619
+        },
+        {
+          "start": 103.26,
+          "end": 103.38,
+          "word": " au",
+          "probability": 0.22502712905406952
+        },
+        {
+          "start": 103.38,
+          "end": 103.58,
+          "word": " pied",
+          "probability": 0.9999035596847534
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 22,
+      "seek": 8172,
+      "start": 103.58,
+      "end": 110.3,
+      "text": " Comme les chats, ils ont dégriffé une queue, peuvent voir dans l'obscurité et sont très agiles",
+      "tokens": [
+        51207,
+        24308,
+        1512,
+        38057,
+        11,
+        9047,
+        6592,
+        2795,
+        32783,
+        526,
+        2251,
+        18639,
+        11,
+        24335,
+        10695,
+        2680,
+        287,
+        6,
+        16537,
+        14112,
+        5066,
+        1030,
+        4900,
+        5732,
+        623,
+        4680,
+        51543
+      ],
+      "avg_logprob": -0.10858459082933572,
+      "compression_ratio": 1.4936708860759493,
+      "no_speech_prob": 8.046973677677816e-12,
+      "words": [
+        {
+          "start": 103.58,
+          "end": 104.54,
+          "word": " Comme",
+          "probability": 0.9976940751075745
+        },
+        {
+          "start": 104.54,
+          "end": 104.7,
+          "word": " les",
+          "probability": 0.9999711513519287
+        },
+        {
+          "start": 104.7,
+          "end": 104.96,
+          "word": " chats,",
+          "probability": 0.9998553991317749
+        },
+        {
+          "start": 105.3,
+          "end": 105.62,
+          "word": " ils",
+          "probability": 0.999806821346283
+        },
+        {
+          "start": 105.62,
+          "end": 105.82,
+          "word": " ont",
+          "probability": 0.9996296167373657
+        },
+        {
+          "start": 105.82,
+          "end": 106.36,
+          "word": " dégriffé",
+          "probability": 0.826485256354014
+        },
+        {
+          "start": 106.36,
+          "end": 106.58,
+          "word": " une",
+          "probability": 0.9996926784515381
+        },
+        {
+          "start": 106.58,
+          "end": 106.74,
+          "word": " queue,",
+          "probability": 0.9993360638618469
+        },
+        {
+          "start": 107.02,
+          "end": 107.5,
+          "word": " peuvent",
+          "probability": 0.9989895224571228
+        },
+        {
+          "start": 107.5,
+          "end": 107.82,
+          "word": " voir",
+          "probability": 0.9985297918319702
+        },
+        {
+          "start": 107.82,
+          "end": 108.02,
+          "word": " dans",
+          "probability": 0.9998520612716675
+        },
+        {
+          "start": 108.02,
+          "end": 108.14,
+          "word": " l",
+          "probability": 0.9999839067459106
+        },
+        {
+          "start": 108.14,
+          "end": 108.78,
+          "word": "'obscurité",
+          "probability": 0.9998688399791718
+        },
+        {
+          "start": 108.78,
+          "end": 109.26,
+          "word": " et",
+          "probability": 0.9922853708267212
+        },
+        {
+          "start": 109.26,
+          "end": 109.52,
+          "word": " sont",
+          "probability": 0.9999126195907593
+        },
+        {
+          "start": 109.52,
+          "end": 109.8,
+          "word": " très",
+          "probability": 0.9998661279678345
+        },
+        {
+          "start": 109.8,
+          "end": 110.3,
+          "word": " agiles",
+          "probability": 0.996110737323761
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

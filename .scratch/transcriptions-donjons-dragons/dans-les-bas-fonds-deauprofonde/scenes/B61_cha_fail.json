@@ -1,0 +1,432 @@
+{
+  "scene": "B61_cha_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B61_cha_fail.mp3",
+  "sha256": "35a69fca566b246b347f3757071fefae718cf25c3e376a2544ae9eefca653c16",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 21.0308125,
+  "text": "Aurinax Grommel Je compatis, crois-moi. Mais je ne peux pas intervenir dans les affaires des aventuriers chaque fois qu'ils en ont besoin. Vous devez parfois apprendre à vous débrouiller tout seul. Sinon je ne pourrai jamais profiter d'un instant de répit.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.04,
+      "end": 2.6,
+      "text": " Aurinax Grommel",
+      "tokens": [
+        50386,
+        1610,
+        1426,
+        87,
+        2606,
+        1204,
+        338,
+        50444
+      ],
+      "avg_logprob": -0.15227206107228994,
+      "compression_ratio": 1.350785340314136,
+      "no_speech_prob": 8.81033874328141e-12,
+      "words": [
+        {
+          "start": 1.04,
+          "end": 2.02,
+          "word": " Aurinax",
+          "probability": 0.9051527579625448
+        },
+        {
+          "start": 2.02,
+          "end": 2.6,
+          "word": " Grommel",
+          "probability": 0.7992734313011169
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.94,
+      "end": 6.14,
+      "text": " Je compatis, crois-moi.",
+      "tokens": [
+        50444,
+        2588,
+        13147,
+        271,
+        11,
+        21724,
+        12,
+        29292,
+        13,
+        50621
+      ],
+      "avg_logprob": -0.15227206107228994,
+      "compression_ratio": 1.350785340314136,
+      "no_speech_prob": 8.81033874328141e-12,
+      "words": [
+        {
+          "start": 3.94,
+          "end": 4.58,
+          "word": " Je",
+          "probability": 0.3845984935760498
+        },
+        {
+          "start": 4.58,
+          "end": 5.22,
+          "word": " compatis,",
+          "probability": 0.9961789846420288
+        },
+        {
+          "start": 5.6,
+          "end": 5.82,
+          "word": " crois",
+          "probability": 0.9854921698570251
+        },
+        {
+          "start": 5.82,
+          "end": 6.14,
+          "word": "-moi.",
+          "probability": 0.9963010549545288
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 6.4,
+      "end": 11.26,
+      "text": " Mais je ne peux pas intervenir dans les affaires des aventuriers chaque fois qu'ils en ont besoin.",
+      "tokens": [
+        50649,
+        6313,
+        1506,
+        408,
+        14844,
+        1736,
+        17104,
+        347,
+        2680,
+        1512,
+        2096,
+        10840,
+        730,
+        36399,
+        374,
+        4890,
+        18920,
+        9576,
+        421,
+        6,
+        4174,
+        465,
+        6592,
+        19207,
+        13,
+        50877
+      ],
+      "avg_logprob": -0.15227206107228994,
+      "compression_ratio": 1.350785340314136,
+      "no_speech_prob": 8.81033874328141e-12,
+      "words": [
+        {
+          "start": 6.4,
+          "end": 6.82,
+          "word": " Mais",
+          "probability": 0.9997650980949402
+        },
+        {
+          "start": 6.82,
+          "end": 7.0,
+          "word": " je",
+          "probability": 0.9999816417694092
+        },
+        {
+          "start": 7.0,
+          "end": 7.12,
+          "word": " ne",
+          "probability": 0.999969482421875
+        },
+        {
+          "start": 7.12,
+          "end": 7.28,
+          "word": " peux",
+          "probability": 0.9998705387115479
+        },
+        {
+          "start": 7.28,
+          "end": 7.46,
+          "word": " pas",
+          "probability": 0.9999969005584717
+        },
+        {
+          "start": 7.46,
+          "end": 8.14,
+          "word": " intervenir",
+          "probability": 0.9999483823776245
+        },
+        {
+          "start": 8.14,
+          "end": 8.26,
+          "word": " dans",
+          "probability": 0.9999444484710693
+        },
+        {
+          "start": 8.26,
+          "end": 8.44,
+          "word": " les",
+          "probability": 0.9999622106552124
+        },
+        {
+          "start": 8.44,
+          "end": 8.82,
+          "word": " affaires",
+          "probability": 0.9996355473995209
+        },
+        {
+          "start": 8.82,
+          "end": 9.0,
+          "word": " des",
+          "probability": 0.9996695518493652
+        },
+        {
+          "start": 9.0,
+          "end": 9.64,
+          "word": " aventuriers",
+          "probability": 0.9974718689918518
+        },
+        {
+          "start": 9.64,
+          "end": 10.02,
+          "word": " chaque",
+          "probability": 0.9993999004364014
+        },
+        {
+          "start": 10.02,
+          "end": 10.24,
+          "word": " fois",
+          "probability": 0.999982476234436
+        },
+        {
+          "start": 10.24,
+          "end": 10.4,
+          "word": " qu",
+          "probability": 0.9999943971633911
+        },
+        {
+          "start": 10.4,
+          "end": 10.52,
+          "word": "'ils",
+          "probability": 0.9999492168426514
+        },
+        {
+          "start": 10.52,
+          "end": 10.66,
+          "word": " en",
+          "probability": 0.999948263168335
+        },
+        {
+          "start": 10.66,
+          "end": 10.8,
+          "word": " ont",
+          "probability": 0.9997366070747375
+        },
+        {
+          "start": 10.8,
+          "end": 11.26,
+          "word": " besoin.",
+          "probability": 0.9999923706054688
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 11.5,
+      "end": 14.58,
+      "text": " Vous devez parfois apprendre à vous débrouiller tout seul.",
+      "tokens": [
+        50905,
+        10802,
+        368,
+        10941,
+        30125,
+        46609,
+        1531,
+        2630,
+        2795,
+        1443,
+        263,
+        10497,
+        3486,
+        24448,
+        13,
+        51044
+      ],
+      "avg_logprob": -0.15227206107228994,
+      "compression_ratio": 1.350785340314136,
+      "no_speech_prob": 8.81033874328141e-12,
+      "words": [
+        {
+          "start": 11.5,
+          "end": 11.94,
+          "word": " Vous",
+          "probability": 0.9998263716697693
+        },
+        {
+          "start": 11.94,
+          "end": 12.26,
+          "word": " devez",
+          "probability": 0.9999341368675232
+        },
+        {
+          "start": 12.26,
+          "end": 12.66,
+          "word": " parfois",
+          "probability": 0.9999817609786987
+        },
+        {
+          "start": 12.66,
+          "end": 13.1,
+          "word": " apprendre",
+          "probability": 0.9976162910461426
+        },
+        {
+          "start": 13.1,
+          "end": 13.34,
+          "word": " à",
+          "probability": 0.9999923706054688
+        },
+        {
+          "start": 13.34,
+          "end": 13.48,
+          "word": " vous",
+          "probability": 0.9999552965164185
+        },
+        {
+          "start": 13.48,
+          "end": 13.98,
+          "word": " débrouiller",
+          "probability": 0.9998078942298889
+        },
+        {
+          "start": 13.98,
+          "end": 14.16,
+          "word": " tout",
+          "probability": 0.99944669008255
+        },
+        {
+          "start": 14.16,
+          "end": 14.58,
+          "word": " seul.",
+          "probability": 0.9925463795661926
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 15.12,
+      "end": 19.32,
+      "text": " Sinon je ne pourrai jamais profiter d'un instant de répit.",
+      "tokens": [
+        51078,
+        11187,
+        266,
+        1506,
+        408,
+        2016,
+        34554,
+        14540,
+        1740,
+        1681,
+        274,
+        6,
+        409,
+        9836,
+        368,
+        14243,
+        270,
+        13,
+        51283
+      ],
+      "avg_logprob": -0.15227206107228994,
+      "compression_ratio": 1.350785340314136,
+      "no_speech_prob": 8.81033874328141e-12,
+      "words": [
+        {
+          "start": 15.12,
+          "end": 15.76,
+          "word": " Sinon",
+          "probability": 0.9993427693843842
+        },
+        {
+          "start": 15.76,
+          "end": 15.96,
+          "word": " je",
+          "probability": 0.4817488193511963
+        },
+        {
+          "start": 15.96,
+          "end": 16.12,
+          "word": " ne",
+          "probability": 0.9999791383743286
+        },
+        {
+          "start": 16.12,
+          "end": 16.52,
+          "word": " pourrai",
+          "probability": 0.8331227004528046
+        },
+        {
+          "start": 16.52,
+          "end": 17.04,
+          "word": " jamais",
+          "probability": 0.999982476234436
+        },
+        {
+          "start": 17.04,
+          "end": 17.74,
+          "word": " profiter",
+          "probability": 0.9998648464679718
+        },
+        {
+          "start": 17.74,
+          "end": 17.9,
+          "word": " d",
+          "probability": 0.9999315738677979
+        },
+        {
+          "start": 17.9,
+          "end": 18.02,
+          "word": "'un",
+          "probability": 0.9999686479568481
+        },
+        {
+          "start": 18.02,
+          "end": 18.52,
+          "word": " instant",
+          "probability": 0.9999325275421143
+        },
+        {
+          "start": 18.52,
+          "end": 18.78,
+          "word": " de",
+          "probability": 0.9999268054962158
+        },
+        {
+          "start": 18.78,
+          "end": 19.32,
+          "word": " répit.",
+          "probability": 0.9973011910915375
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

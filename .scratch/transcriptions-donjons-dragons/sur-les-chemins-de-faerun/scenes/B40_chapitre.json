@@ -1,0 +1,72 @@
+{
+  "scene": "B40_chapitre",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B40_chapitre.mp3",
+  "sha256": "24e068c4fb167e5239bf5ca1c7ebd1bdf48fe5a1976ab01659814b3396d013c7",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.1091875,
+  "text": "l'auberge du Portail Béant.",
+  "review": [
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.74,
+      "text": " l'auberge du Portail Béant.",
+      "tokens": [
+        50365,
+        287,
+        6,
+        1459,
+        607,
+        432,
+        1581,
+        2436,
+        864,
+        15807,
+        394,
+        13,
+        50453
+      ],
+      "avg_logprob": -0.1695490958435195,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 5.468945608877451e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.36,
+          "word": " l",
+          "probability": 0.7265437841415405
+        },
+        {
+          "start": 0.36,
+          "end": 0.8,
+          "word": "'auberge",
+          "probability": 0.9962458461523056
+        },
+        {
+          "start": 0.8,
+          "end": 0.98,
+          "word": " du",
+          "probability": 0.9998470544815063
+        },
+        {
+          "start": 0.98,
+          "end": 1.44,
+          "word": " portail",
+          "probability": 0.8830326199531555
+        },
+        {
+          "start": 1.44,
+          "end": 1.74,
+          "word": " béant.",
+          "probability": 0.9451439380645752
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

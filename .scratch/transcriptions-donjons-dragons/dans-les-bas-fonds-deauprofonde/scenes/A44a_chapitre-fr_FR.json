@@ -1,0 +1,60 @@
+{
+  "scene": "A44a_chapitre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A44a_chapitre-fr_FR.mp3",
+  "sha256": "3dfa7d63c4ea60665fa3b90d4aa845205a9c518a930bf374b1304de13ab36d78",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.416625,
+  "text": "La vengeance se prépare.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.8,
+      "text": " La vengeance se prépare.",
+      "tokens": [
+        50365,
+        2369,
+        43818,
+        369,
+        11127,
+        79,
+        543,
+        13,
+        50455
+      ],
+      "avg_logprob": -0.1201603889465332,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 4.503427145086114e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.58,
+          "word": " La",
+          "probability": 0.8569680452346802
+        },
+        {
+          "start": 0.58,
+          "end": 0.92,
+          "word": " vengeance",
+          "probability": 0.9875217080116272
+        },
+        {
+          "start": 0.92,
+          "end": 1.36,
+          "word": " se",
+          "probability": 0.9995872378349304
+        },
+        {
+          "start": 1.36,
+          "end": 1.8,
+          "word": " prépare.",
+          "probability": 0.9996870557467142
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

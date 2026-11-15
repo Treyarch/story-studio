@@ -1,0 +1,114 @@
+{
+  "scene": "multi1_ch3_bonus_charisme",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/multi1_ch3_bonus_charisme.mp3",
+  "sha256": "80d66583405e16e5279e782c91762570fd51096f9a27b940f53bc1d24337d91b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.522125,
+  "text": "Ton bonus de charisme s'ajoutera au résultat que tu obtiendras.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.42,
+      "text": " Ton bonus de charisme s'ajoutera au résultat que tu obtiendras.",
+      "tokens": [
+        50365,
+        11385,
+        10882,
+        368,
+        1290,
+        16415,
+        262,
+        6,
+        1805,
+        346,
+        1663,
+        1609,
+        33671,
+        267,
+        631,
+        2604,
+        7464,
+        1174,
+        3906,
+        13,
+        50536
+      ],
+      "avg_logprob": -0.056047982620922004,
+      "compression_ratio": 0.927536231884058,
+      "no_speech_prob": 4.381394119040705e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.12,
+          "word": " Ton",
+          "probability": 0.9417293071746826
+        },
+        {
+          "start": 0.12,
+          "end": 0.46,
+          "word": " bonus",
+          "probability": 0.9997219443321228
+        },
+        {
+          "start": 0.46,
+          "end": 0.62,
+          "word": " de",
+          "probability": 0.999840259552002
+        },
+        {
+          "start": 0.62,
+          "end": 1.14,
+          "word": " charisme",
+          "probability": 0.9841460883617401
+        },
+        {
+          "start": 1.14,
+          "end": 1.44,
+          "word": " s",
+          "probability": 0.9995657801628113
+        },
+        {
+          "start": 1.44,
+          "end": 1.94,
+          "word": "'ajoutera",
+          "probability": 0.9994121491909027
+        },
+        {
+          "start": 1.94,
+          "end": 2.14,
+          "word": " au",
+          "probability": 0.6290100812911987
+        },
+        {
+          "start": 2.14,
+          "end": 2.62,
+          "word": " résultat",
+          "probability": 0.9998141527175903
+        },
+        {
+          "start": 2.62,
+          "end": 2.74,
+          "word": " que",
+          "probability": 0.9998593330383301
+        },
+        {
+          "start": 2.74,
+          "end": 2.88,
+          "word": " tu",
+          "probability": 0.9999706745147705
+        },
+        {
+          "start": 2.88,
+          "end": 3.42,
+          "word": " obtiendras.",
+          "probability": 0.986741820971171
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

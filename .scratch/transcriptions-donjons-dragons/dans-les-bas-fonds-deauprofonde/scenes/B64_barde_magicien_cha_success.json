@@ -1,0 +1,819 @@
+{
+  "scene": "B64_barde_magicien_cha_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B64_barde_magicien_cha_success.mp3",
+  "sha256": "b20b050dd6bb1bb08745c44e04a37bab273725021dc94fb3ecb69def57934410",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 29.390125,
+  "text": "« Merci pour tes manières et ta gentillesse, inconnue. » Elle plonge sans attendre et nage en direction du port d'Eauprofonde. Aurinax t'adresse un clin d'œil et te demande tout bas. « Tu as vraiment vu un banc de poissons? » Tu lui assures qu'il y a forcément des poissons là-bas. Il suffit que le dragon-tortue cherche un peu, ailleurs qu'ici. Et sans attendre, tu rames vers l'entrée des grottes marines accompagnées par le rire mélodieux d'Aurinax.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.74,
+      "end": 6.52,
+      "text": " « Merci pour tes manières et ta gentillesse, inconnue. »",
+      "tokens": [
+        50365,
+        4657,
+        19856,
+        2016,
+        20018,
+        587,
+        39408,
+        1030,
+        1846,
+        16108,
+        373,
+        7357,
+        11,
+        834,
+        19968,
+        622,
+        13,
+        8793,
+        50603
+      ],
+      "avg_logprob": -0.1071611124126217,
+      "compression_ratio": 1.518032786885246,
+      "no_speech_prob": 8.003002774370493e-12,
+      "words": [
+        {
+          "start": 1.74,
+          "end": 2.22,
+          "word": " «",
+          "probability": 0.4503697156906128
+        },
+        {
+          "start": 2.22,
+          "end": 2.68,
+          "word": " Merci",
+          "probability": 0.9966930150985718
+        },
+        {
+          "start": 2.68,
+          "end": 3.02,
+          "word": " pour",
+          "probability": 0.9998973608016968
+        },
+        {
+          "start": 3.02,
+          "end": 3.24,
+          "word": " tes",
+          "probability": 0.9999055862426758
+        },
+        {
+          "start": 3.24,
+          "end": 3.8,
+          "word": " manières",
+          "probability": 0.9998661875724792
+        },
+        {
+          "start": 3.8,
+          "end": 4.04,
+          "word": " et",
+          "probability": 0.999403715133667
+        },
+        {
+          "start": 4.04,
+          "end": 4.16,
+          "word": " ta",
+          "probability": 0.9998263716697693
+        },
+        {
+          "start": 4.16,
+          "end": 5.06,
+          "word": " gentillesse,",
+          "probability": 0.999713659286499
+        },
+        {
+          "start": 5.52,
+          "end": 6.16,
+          "word": " inconnue.",
+          "probability": 0.9368379513422648
+        },
+        {
+          "start": 6.26,
+          "end": 6.52,
+          "word": " »",
+          "probability": 0.9988918900489807
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.52,
+      "end": 9.94,
+      "text": " Elle plonge sans attendre et nage en direction du port d'Eauprofonde.",
+      "tokens": [
+        50603,
+        16227,
+        499,
+        15430,
+        12177,
+        6888,
+        265,
+        1030,
+        297,
+        609,
+        465,
+        3513,
+        1581,
+        2436,
+        274,
+        6,
+        22290,
+        1740,
+        7259,
+        13,
+        50776
+      ],
+      "avg_logprob": -0.1071611124126217,
+      "compression_ratio": 1.518032786885246,
+      "no_speech_prob": 8.003002774370493e-12,
+      "words": [
+        {
+          "start": 6.52,
+          "end": 6.66,
+          "word": " Elle",
+          "probability": 0.9333729147911072
+        },
+        {
+          "start": 6.66,
+          "end": 7.04,
+          "word": " plonge",
+          "probability": 0.9980823695659637
+        },
+        {
+          "start": 7.04,
+          "end": 7.22,
+          "word": " sans",
+          "probability": 0.9999146461486816
+        },
+        {
+          "start": 7.22,
+          "end": 7.76,
+          "word": " attendre",
+          "probability": 0.9997071325778961
+        },
+        {
+          "start": 7.76,
+          "end": 8.04,
+          "word": " et",
+          "probability": 0.9961620569229126
+        },
+        {
+          "start": 8.04,
+          "end": 8.3,
+          "word": " nage",
+          "probability": 0.9801331162452698
+        },
+        {
+          "start": 8.3,
+          "end": 8.4,
+          "word": " en",
+          "probability": 0.9999468326568604
+        },
+        {
+          "start": 8.4,
+          "end": 8.82,
+          "word": " direction",
+          "probability": 0.9999006986618042
+        },
+        {
+          "start": 8.82,
+          "end": 9.08,
+          "word": " du",
+          "probability": 0.9995334148406982
+        },
+        {
+          "start": 9.08,
+          "end": 9.3,
+          "word": " port",
+          "probability": 0.8896200060844421
+        },
+        {
+          "start": 9.3,
+          "end": 9.4,
+          "word": " d",
+          "probability": 0.996129035949707
+        },
+        {
+          "start": 9.4,
+          "end": 9.46,
+          "word": "'eau",
+          "probability": 0.9735859334468842
+        },
+        {
+          "start": 9.46,
+          "end": 9.94,
+          "word": " profonde.",
+          "probability": 0.9982441067695618
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.58,
+      "end": 12.96,
+      "text": " Aurinax t'adresse un clin d'œil et te demande tout bas.",
+      "tokens": [
+        50806,
+        1610,
+        1426,
+        87,
+        256,
+        6,
+        345,
+        22603,
+        517,
+        5538,
+        274,
+        6,
+        34073,
+        388,
+        1030,
+        535,
+        26982,
+        3486,
+        987,
+        13,
+        50927
+      ],
+      "avg_logprob": -0.1071611124126217,
+      "compression_ratio": 1.518032786885246,
+      "no_speech_prob": 8.003002774370493e-12,
+      "words": [
+        {
+          "start": 10.58,
+          "end": 10.98,
+          "word": " Aurinax",
+          "probability": 0.903937021891276
+        },
+        {
+          "start": 10.98,
+          "end": 11.1,
+          "word": " t",
+          "probability": 0.9995111227035522
+        },
+        {
+          "start": 11.1,
+          "end": 11.34,
+          "word": "'adresse",
+          "probability": 0.9998812079429626
+        },
+        {
+          "start": 11.34,
+          "end": 11.48,
+          "word": " un",
+          "probability": 0.9995488524436951
+        },
+        {
+          "start": 11.48,
+          "end": 11.64,
+          "word": " clin",
+          "probability": 0.9989352822303772
+        },
+        {
+          "start": 11.64,
+          "end": 11.78,
+          "word": " d",
+          "probability": 0.9999967813491821
+        },
+        {
+          "start": 11.78,
+          "end": 11.96,
+          "word": "'œil",
+          "probability": 0.9930364886919657
+        },
+        {
+          "start": 11.96,
+          "end": 12.16,
+          "word": " et",
+          "probability": 0.9999001026153564
+        },
+        {
+          "start": 12.16,
+          "end": 12.3,
+          "word": " te",
+          "probability": 0.999805748462677
+        },
+        {
+          "start": 12.3,
+          "end": 12.64,
+          "word": " demande",
+          "probability": 0.9998148083686829
+        },
+        {
+          "start": 12.64,
+          "end": 12.8,
+          "word": " tout",
+          "probability": 0.9695672988891602
+        },
+        {
+          "start": 12.8,
+          "end": 12.96,
+          "word": " bas.",
+          "probability": 0.9976551532745361
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 13.12,
+      "end": 15.42,
+      "text": " « Tu as vraiment vu un banc de poissons? »",
+      "tokens": [
+        50943,
+        4657,
+        7836,
+        382,
+        8322,
+        9732,
+        517,
+        39612,
+        368,
+        714,
+        891,
+        892,
+        2506,
+        8793,
+        51051
+      ],
+      "avg_logprob": -0.1071611124126217,
+      "compression_ratio": 1.518032786885246,
+      "no_speech_prob": 8.003002774370493e-12,
+      "words": [
+        {
+          "start": 13.12,
+          "end": 13.32,
+          "word": " «",
+          "probability": 0.9778285026550293
+        },
+        {
+          "start": 13.32,
+          "end": 13.42,
+          "word": " Tu",
+          "probability": 0.9992243051528931
+        },
+        {
+          "start": 13.42,
+          "end": 13.54,
+          "word": " as",
+          "probability": 0.9981495141983032
+        },
+        {
+          "start": 13.54,
+          "end": 13.8,
+          "word": " vraiment",
+          "probability": 0.9998420476913452
+        },
+        {
+          "start": 13.8,
+          "end": 14.0,
+          "word": " vu",
+          "probability": 0.9998630285263062
+        },
+        {
+          "start": 14.0,
+          "end": 14.16,
+          "word": " un",
+          "probability": 0.9997401833534241
+        },
+        {
+          "start": 14.16,
+          "end": 14.26,
+          "word": " banc",
+          "probability": 0.9135449528694153
+        },
+        {
+          "start": 14.26,
+          "end": 14.34,
+          "word": " de",
+          "probability": 0.9997139573097229
+        },
+        {
+          "start": 14.34,
+          "end": 14.84,
+          "word": " poissons",
+          "probability": 0.9658031463623047
+        },
+        {
+          "start": 14.84,
+          "end": 15.02,
+          "word": "?",
+          "probability": 0.9841958284378052
+        },
+        {
+          "start": 15.02,
+          "end": 15.42,
+          "word": " »",
+          "probability": 0.9985254406929016
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 15.42,
+      "end": 17.82,
+      "text": " Tu lui assures qu'il y a forcément des poissons là-bas.",
+      "tokens": [
+        51051,
+        7836,
+        8783,
+        1256,
+        1303,
+        421,
+        6,
+        388,
+        288,
+        257,
+        31358,
+        730,
+        714,
+        891,
+        892,
+        3684,
+        12,
+        16342,
+        13,
+        51169
+      ],
+      "avg_logprob": -0.1071611124126217,
+      "compression_ratio": 1.518032786885246,
+      "no_speech_prob": 8.003002774370493e-12,
+      "words": [
+        {
+          "start": 15.42,
+          "end": 15.6,
+          "word": " Tu",
+          "probability": 0.8964029550552368
+        },
+        {
+          "start": 15.6,
+          "end": 15.78,
+          "word": " lui",
+          "probability": 0.9996533393859863
+        },
+        {
+          "start": 15.78,
+          "end": 16.2,
+          "word": " assures",
+          "probability": 0.8830505609512329
+        },
+        {
+          "start": 16.2,
+          "end": 16.34,
+          "word": " qu",
+          "probability": 0.9997255206108093
+        },
+        {
+          "start": 16.34,
+          "end": 16.42,
+          "word": "'il",
+          "probability": 0.9999884366989136
+        },
+        {
+          "start": 16.42,
+          "end": 16.5,
+          "word": " y",
+          "probability": 0.9999266862869263
+        },
+        {
+          "start": 16.5,
+          "end": 16.56,
+          "word": " a",
+          "probability": 0.9999456405639648
+        },
+        {
+          "start": 16.56,
+          "end": 16.96,
+          "word": " forcément",
+          "probability": 0.9997493624687195
+        },
+        {
+          "start": 16.96,
+          "end": 17.16,
+          "word": " des",
+          "probability": 0.9999136924743652
+        },
+        {
+          "start": 17.16,
+          "end": 17.54,
+          "word": " poissons",
+          "probability": 0.9999520778656006
+        },
+        {
+          "start": 17.54,
+          "end": 17.68,
+          "word": " là",
+          "probability": 0.9958484172821045
+        },
+        {
+          "start": 17.68,
+          "end": 17.82,
+          "word": "-bas.",
+          "probability": 0.999477744102478
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 18.24,
+      "end": 21.08,
+      "text": " Il suffit que le dragon-tortue cherche un peu, ailleurs qu'ici.",
+      "tokens": [
+        51202,
+        4416,
+        3889,
+        270,
+        631,
+        476,
+        12165,
+        12,
+        83,
+        477,
+        622,
+        41644,
+        517,
+        5604,
+        11,
+        257,
+        14810,
+        421,
+        6,
+        8787,
+        13,
+        51333
+      ],
+      "avg_logprob": -0.1071611124126217,
+      "compression_ratio": 1.518032786885246,
+      "no_speech_prob": 8.003002774370493e-12,
+      "words": [
+        {
+          "start": 18.24,
+          "end": 18.58,
+          "word": " Il",
+          "probability": 0.8656920790672302
+        },
+        {
+          "start": 18.58,
+          "end": 18.88,
+          "word": " suffit",
+          "probability": 0.9999625086784363
+        },
+        {
+          "start": 18.88,
+          "end": 19.0,
+          "word": " que",
+          "probability": 0.9999502897262573
+        },
+        {
+          "start": 19.0,
+          "end": 19.12,
+          "word": " le",
+          "probability": 0.9997758269309998
+        },
+        {
+          "start": 19.12,
+          "end": 19.38,
+          "word": " dragon",
+          "probability": 0.9851462244987488
+        },
+        {
+          "start": 19.38,
+          "end": 19.72,
+          "word": "-tortue",
+          "probability": 0.9329273253679276
+        },
+        {
+          "start": 19.72,
+          "end": 19.86,
+          "word": " cherche",
+          "probability": 0.9979775547981262
+        },
+        {
+          "start": 19.86,
+          "end": 20.06,
+          "word": " un",
+          "probability": 0.9999600648880005
+        },
+        {
+          "start": 20.06,
+          "end": 20.18,
+          "word": " peu,",
+          "probability": 0.9998087286949158
+        },
+        {
+          "start": 20.36,
+          "end": 20.76,
+          "word": " ailleurs",
+          "probability": 0.9994547367095947
+        },
+        {
+          "start": 20.76,
+          "end": 20.9,
+          "word": " qu",
+          "probability": 0.9994882345199585
+        },
+        {
+          "start": 20.9,
+          "end": 21.08,
+          "word": "'ici.",
+          "probability": 0.9996179938316345
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 21.62,
+      "end": 24.76,
+      "text": " Et sans attendre, tu rames vers l'entrée des grottes marines",
+      "tokens": [
+        51372,
+        3790,
+        12177,
+        6888,
+        265,
+        11,
+        2604,
+        367,
+        1632,
+        1774,
+        287,
+        6,
+        317,
+        37735,
+        730,
+        677,
+        1521,
+        279,
+        1849,
+        1652,
+        51516
+      ],
+      "avg_logprob": -0.1071611124126217,
+      "compression_ratio": 1.518032786885246,
+      "no_speech_prob": 8.003002774370493e-12,
+      "words": [
+        {
+          "start": 21.62,
+          "end": 22.0,
+          "word": " Et",
+          "probability": 0.9989897608757019
+        },
+        {
+          "start": 22.0,
+          "end": 22.24,
+          "word": " sans",
+          "probability": 0.9996142387390137
+        },
+        {
+          "start": 22.24,
+          "end": 22.78,
+          "word": " attendre,",
+          "probability": 0.9998951256275177
+        },
+        {
+          "start": 23.1,
+          "end": 23.26,
+          "word": " tu",
+          "probability": 0.9995682835578918
+        },
+        {
+          "start": 23.26,
+          "end": 23.5,
+          "word": " rames",
+          "probability": 0.9944092631340027
+        },
+        {
+          "start": 23.5,
+          "end": 23.66,
+          "word": " vers",
+          "probability": 0.9998812675476074
+        },
+        {
+          "start": 23.66,
+          "end": 23.78,
+          "word": " l",
+          "probability": 0.9999163150787354
+        },
+        {
+          "start": 23.78,
+          "end": 23.98,
+          "word": "'entrée",
+          "probability": 0.9997616012891134
+        },
+        {
+          "start": 23.98,
+          "end": 24.12,
+          "word": " des",
+          "probability": 0.9998249411582947
+        },
+        {
+          "start": 24.12,
+          "end": 24.46,
+          "word": " grottes",
+          "probability": 0.9997049570083618
+        },
+        {
+          "start": 24.46,
+          "end": 24.76,
+          "word": " marines",
+          "probability": 0.9980112016201019
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 24.76,
+      "end": 27.06,
+      "text": " accompagnées par le rire mélodieux d'Aurinax.",
+      "tokens": [
+        51516,
+        18037,
+        4535,
+        6836,
+        971,
+        476,
+        367,
+        621,
+        41953,
+        378,
+        35371,
+        274,
+        6,
+        21520,
+        1426,
+        87,
+        13,
+        51630
+      ],
+      "avg_logprob": -0.1071611124126217,
+      "compression_ratio": 1.518032786885246,
+      "no_speech_prob": 8.003002774370493e-12,
+      "words": [
+        {
+          "start": 24.76,
+          "end": 25.48,
+          "word": " accompagnées",
+          "probability": 0.8787965774536133
+        },
+        {
+          "start": 25.48,
+          "end": 25.64,
+          "word": " par",
+          "probability": 0.9999556541442871
+        },
+        {
+          "start": 25.64,
+          "end": 25.82,
+          "word": " le",
+          "probability": 0.9998351335525513
+        },
+        {
+          "start": 25.82,
+          "end": 26.02,
+          "word": " rire",
+          "probability": 0.999585896730423
+        },
+        {
+          "start": 26.02,
+          "end": 26.48,
+          "word": " mélodieux",
+          "probability": 0.9843990405400594
+        },
+        {
+          "start": 26.48,
+          "end": 26.58,
+          "word": " d",
+          "probability": 0.9995249509811401
+        },
+        {
+          "start": 26.58,
+          "end": 27.06,
+          "word": "'Aurinax.",
+          "probability": 0.9364205896854401
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "scene": "title_card_m-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/title_card_m-fr_FR.mp3",
+  "sha256": "cdc756f5d78eab121cfa4072c8f07de35d7c469c7c1357f13caf63b934262f75",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.3473125,
+  "text": "Donjons et dragons",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.31,
+      "text": " Donjons et dragons",
+      "tokens": [
+        50365,
+        1468,
+        73,
+        892,
+        1030,
+        27240,
+        50431
+      ],
+      "avg_logprob": -0.24820846691727638,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 4.646008838066207e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.81,
+          "word": " Donjons",
+          "probability": 0.9317178328831991
+        },
+        {
+          "start": 0.81,
+          "end": 0.99,
+          "word": " et",
+          "probability": 0.9718360304832458
+        },
+        {
+          "start": 0.99,
+          "end": 1.31,
+          "word": " dragons",
+          "probability": 0.6599282622337341
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "scene": "item_title_ordres_xa-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_ordres_xa-fr_FR.mp3",
+  "sha256": "4e997690f2f373538bf4760a3a05f0e117f3cb45530201de93d27717721cd4aa",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.4063125,
+  "text": "Les ordres du Grand Xa",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.84,
+      "text": " Les ordres du Grand Xa",
+      "tokens": [
+        50365,
+        6965,
+        4792,
+        495,
+        1581,
+        6757,
+        1783,
+        64,
+        50456
+      ],
+      "avg_logprob": -0.2079038143157959,
+      "compression_ratio": 0.7857142857142857,
+      "no_speech_prob": 5.390208678707209e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.66,
+          "word": " Les",
+          "probability": 0.8010991215705872
+        },
+        {
+          "start": 0.66,
+          "end": 1.1,
+          "word": " ordres",
+          "probability": 0.8574701547622681
+        },
+        {
+          "start": 1.1,
+          "end": 1.26,
+          "word": " du",
+          "probability": 0.999813973903656
+        },
+        {
+          "start": 1.26,
+          "end": 1.5,
+          "word": " Grand",
+          "probability": 0.6337396502494812
+        },
+        {
+          "start": 1.5,
+          "end": 1.84,
+          "word": " Xa",
+          "probability": 0.925736665725708
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

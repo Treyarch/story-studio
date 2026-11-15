@@ -1,0 +1,37 @@
+{
+  "scene": "B67a_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B67a_list_ch1.mp3",
+  "sha256": "5f0881b9b224ec0793891c68f58c78b4679a8bf5e13ea1e3fa11a3d103f70e4d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.2091875,
+  "text": "Oui.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 0.6,
+      "text": " Oui.",
+      "tokens": [
+        50365,
+        14005,
+        13,
+        50395
+      ],
+      "avg_logprob": -0.4013040542602539,
+      "compression_ratio": 0.3333333333333333,
+      "no_speech_prob": 1.3109493525453875e-11,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.6,
+          "word": " Oui.",
+          "probability": 0.9607791304588318
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

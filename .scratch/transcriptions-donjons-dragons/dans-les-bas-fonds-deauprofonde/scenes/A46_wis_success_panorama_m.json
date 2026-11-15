@@ -1,0 +1,37 @@
+{
+  "scene": "A46_wis_success_panorama_m",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A46_wis_success_panorama_m.mp3",
+  "sha256": "18ab894819bbf587e8b0525a2bb0d4e9d3fdda0cff610ed6c20f61d92dd522db",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.1825,
+  "text": "M.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.14,
+      "end": 0.66,
+      "text": " M.",
+      "tokens": [
+        50365,
+        376,
+        13,
+        50393
+      ],
+      "avg_logprob": -0.5274098873138428,
+      "compression_ratio": 0.2,
+      "no_speech_prob": 7.038070126696994e-11,
+      "words": [
+        {
+          "start": 0.14,
+          "end": 0.66,
+          "word": " M.",
+          "probability": 0.5937938094139099
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

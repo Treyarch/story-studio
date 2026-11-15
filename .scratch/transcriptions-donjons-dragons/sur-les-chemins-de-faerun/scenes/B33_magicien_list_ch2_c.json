@@ -1,0 +1,66 @@
+{
+  "scene": "B33_magicien_list_ch2_c",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B33_magicien_list_ch2_c.mp3",
+  "sha256": "7c45696b680e7408969a126645b4281598761bdc446047a1c7955d7120e51052",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.8483125,
+  "text": "te servir de ta magie.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.58,
+      "text": " te servir de ta magie.",
+      "tokens": [
+        50365,
+        535,
+        29463,
+        368,
+        1846,
+        2258,
+        414,
+        13,
+        50443
+      ],
+      "avg_logprob": -0.24718924462795258,
+      "compression_ratio": 0.7333333333333333,
+      "no_speech_prob": 8.411433008448377e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.38,
+          "word": " te",
+          "probability": 0.5432543754577637
+        },
+        {
+          "start": 0.38,
+          "end": 0.84,
+          "word": " servir",
+          "probability": 0.9993671774864197
+        },
+        {
+          "start": 0.84,
+          "end": 1.04,
+          "word": " de",
+          "probability": 0.9981160163879395
+        },
+        {
+          "start": 1.04,
+          "end": 1.22,
+          "word": " ta",
+          "probability": 0.9965732097625732
+        },
+        {
+          "start": 1.22,
+          "end": 1.58,
+          "word": " magie.",
+          "probability": 0.9991050660610199
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

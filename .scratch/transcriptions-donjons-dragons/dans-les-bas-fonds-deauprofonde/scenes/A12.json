@@ -1,0 +1,586 @@
+{
+  "scene": "A12",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A12.mp3",
+  "sha256": "336a872ef725faab5ca1d6e1be0044f06d6ee5016ebee2ecc5e6c59c302df9c8",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 21.50475,
+  "text": "Tu te redresses fièrement face à l'agent qui avance vers toi, décidée à ne pas te laisser impressionner. Tu n'as rien fait de mal et tu n'as rien à cacher. Tu dois juste trouver un moyen de justifier ta présence dans ce coin malfamé. Vous diriez que je viens de coincer une belle crapule. Qu'as-tu à dire pour ta défense?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.78,
+      "end": 6.08,
+      "text": " Tu te redresses fièrement face à l'agent qui avance vers toi, décidée à ne pas te laisser impressionner.",
+      "tokens": [
+        50365,
+        7836,
+        535,
+        2182,
+        40352,
+        283,
+        29922,
+        1851,
+        1531,
+        287,
+        6,
+        559,
+        317,
+        1956,
+        1305,
+        719,
+        1774,
+        15648,
+        11,
+        9198,
+        34281,
+        1531,
+        408,
+        1736,
+        535,
+        34463,
+        9995,
+        1193,
+        13,
+        50631
+      ],
+      "avg_logprob": -0.13632746055430056,
+      "compression_ratio": 1.4954954954954955,
+      "no_speech_prob": 9.299849085264711e-12,
+      "words": [
+        {
+          "start": 0.78,
+          "end": 1.24,
+          "word": " Tu",
+          "probability": 0.9611161351203918
+        },
+        {
+          "start": 1.24,
+          "end": 1.38,
+          "word": " te",
+          "probability": 0.9994389414787292
+        },
+        {
+          "start": 1.38,
+          "end": 1.82,
+          "word": " redresses",
+          "probability": 0.9766314923763275
+        },
+        {
+          "start": 1.82,
+          "end": 2.18,
+          "word": " fièrement",
+          "probability": 0.9956835806369781
+        },
+        {
+          "start": 2.18,
+          "end": 2.54,
+          "word": " face",
+          "probability": 0.9996086955070496
+        },
+        {
+          "start": 2.54,
+          "end": 2.66,
+          "word": " à",
+          "probability": 0.9998745918273926
+        },
+        {
+          "start": 2.66,
+          "end": 2.74,
+          "word": " l",
+          "probability": 0.997439980506897
+        },
+        {
+          "start": 2.74,
+          "end": 2.96,
+          "word": "'agent",
+          "probability": 0.9989688595136007
+        },
+        {
+          "start": 2.96,
+          "end": 3.14,
+          "word": " qui",
+          "probability": 0.9997033476829529
+        },
+        {
+          "start": 3.14,
+          "end": 3.46,
+          "word": " avance",
+          "probability": 0.9995954632759094
+        },
+        {
+          "start": 3.46,
+          "end": 3.62,
+          "word": " vers",
+          "probability": 0.9999047517776489
+        },
+        {
+          "start": 3.62,
+          "end": 3.86,
+          "word": " toi,",
+          "probability": 0.9998328685760498
+        },
+        {
+          "start": 4.28,
+          "end": 4.72,
+          "word": " décidée",
+          "probability": 0.27699634432792664
+        },
+        {
+          "start": 4.72,
+          "end": 4.84,
+          "word": " à",
+          "probability": 0.9996603727340698
+        },
+        {
+          "start": 4.84,
+          "end": 4.94,
+          "word": " ne",
+          "probability": 0.9999731779098511
+        },
+        {
+          "start": 4.94,
+          "end": 5.12,
+          "word": " pas",
+          "probability": 0.9999808073043823
+        },
+        {
+          "start": 5.12,
+          "end": 5.26,
+          "word": " te",
+          "probability": 0.9999508857727051
+        },
+        {
+          "start": 5.26,
+          "end": 5.5,
+          "word": " laisser",
+          "probability": 0.9997230172157288
+        },
+        {
+          "start": 5.5,
+          "end": 6.08,
+          "word": " impressionner.",
+          "probability": 0.9984432458877563
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.32,
+      "end": 9.18,
+      "text": " Tu n'as rien fait de mal et tu n'as rien à cacher.",
+      "tokens": [
+        50657,
+        7836,
+        297,
+        6,
+        296,
+        13355,
+        3887,
+        368,
+        2806,
+        1030,
+        2604,
+        297,
+        6,
+        296,
+        13355,
+        1531,
+        269,
+        4062,
+        13,
+        50784
+      ],
+      "avg_logprob": -0.13632746055430056,
+      "compression_ratio": 1.4954954954954955,
+      "no_speech_prob": 9.299849085264711e-12,
+      "words": [
+        {
+          "start": 6.32,
+          "end": 6.7,
+          "word": " Tu",
+          "probability": 0.9983755350112915
+        },
+        {
+          "start": 6.7,
+          "end": 6.82,
+          "word": " n",
+          "probability": 0.9999841451644897
+        },
+        {
+          "start": 6.82,
+          "end": 6.9,
+          "word": "'as",
+          "probability": 0.9999246001243591
+        },
+        {
+          "start": 6.9,
+          "end": 7.1,
+          "word": " rien",
+          "probability": 0.9999849796295166
+        },
+        {
+          "start": 7.1,
+          "end": 7.26,
+          "word": " fait",
+          "probability": 0.9999042749404907
+        },
+        {
+          "start": 7.26,
+          "end": 7.38,
+          "word": " de",
+          "probability": 0.9999791383743286
+        },
+        {
+          "start": 7.38,
+          "end": 7.6,
+          "word": " mal",
+          "probability": 0.9995947480201721
+        },
+        {
+          "start": 7.6,
+          "end": 8.28,
+          "word": " et",
+          "probability": 0.5323647856712341
+        },
+        {
+          "start": 8.28,
+          "end": 8.42,
+          "word": " tu",
+          "probability": 0.999943733215332
+        },
+        {
+          "start": 8.42,
+          "end": 8.5,
+          "word": " n",
+          "probability": 0.9999748468399048
+        },
+        {
+          "start": 8.5,
+          "end": 8.58,
+          "word": "'as",
+          "probability": 0.999922513961792
+        },
+        {
+          "start": 8.58,
+          "end": 8.7,
+          "word": " rien",
+          "probability": 0.9999905824661255
+        },
+        {
+          "start": 8.7,
+          "end": 8.9,
+          "word": " à",
+          "probability": 0.9998791217803955
+        },
+        {
+          "start": 8.9,
+          "end": 9.18,
+          "word": " cacher.",
+          "probability": 0.9991113245487213
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.52,
+      "end": 14.14,
+      "text": " Tu dois juste trouver un moyen de justifier ta présence dans ce coin malfamé.",
+      "tokens": [
+        50816,
+        7836,
+        11854,
+        13016,
+        23546,
+        517,
+        42009,
+        368,
+        445,
+        9902,
+        1846,
+        11761,
+        655,
+        2680,
+        1769,
+        11464,
+        41318,
+        335,
+        526,
+        13,
+        51034
+      ],
+      "avg_logprob": -0.13632746055430056,
+      "compression_ratio": 1.4954954954954955,
+      "no_speech_prob": 9.299849085264711e-12,
+      "words": [
+        {
+          "start": 9.52,
+          "end": 9.9,
+          "word": " Tu",
+          "probability": 0.998583197593689
+        },
+        {
+          "start": 9.9,
+          "end": 10.08,
+          "word": " dois",
+          "probability": 0.9997614026069641
+        },
+        {
+          "start": 10.08,
+          "end": 10.36,
+          "word": " juste",
+          "probability": 0.9999170303344727
+        },
+        {
+          "start": 10.36,
+          "end": 10.72,
+          "word": " trouver",
+          "probability": 0.9975531697273254
+        },
+        {
+          "start": 10.72,
+          "end": 10.9,
+          "word": " un",
+          "probability": 0.9999747276306152
+        },
+        {
+          "start": 10.9,
+          "end": 11.2,
+          "word": " moyen",
+          "probability": 0.999904990196228
+        },
+        {
+          "start": 11.2,
+          "end": 11.38,
+          "word": " de",
+          "probability": 0.9998962879180908
+        },
+        {
+          "start": 11.38,
+          "end": 11.92,
+          "word": " justifier",
+          "probability": 0.9998531937599182
+        },
+        {
+          "start": 11.92,
+          "end": 12.1,
+          "word": " ta",
+          "probability": 0.9998040795326233
+        },
+        {
+          "start": 12.1,
+          "end": 12.66,
+          "word": " présence",
+          "probability": 0.9998939633369446
+        },
+        {
+          "start": 12.66,
+          "end": 13.12,
+          "word": " dans",
+          "probability": 0.9995279312133789
+        },
+        {
+          "start": 13.12,
+          "end": 13.34,
+          "word": " ce",
+          "probability": 0.9998807907104492
+        },
+        {
+          "start": 13.34,
+          "end": 13.62,
+          "word": " coin",
+          "probability": 0.9962640404701233
+        },
+        {
+          "start": 13.62,
+          "end": 14.14,
+          "word": " malfamé.",
+          "probability": 0.9171798626581827
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 14.44,
+      "end": 16.88,
+      "text": " Vous diriez que je viens de coincer une belle crapule.",
+      "tokens": [
+        51049,
+        10802,
+        4746,
+        18812,
+        631,
+        1506,
+        36421,
+        368,
+        11464,
+        1776,
+        2251,
+        28770,
+        12426,
+        2271,
+        13,
+        51170
+      ],
+      "avg_logprob": -0.13632746055430056,
+      "compression_ratio": 1.4954954954954955,
+      "no_speech_prob": 9.299849085264711e-12,
+      "words": [
+        {
+          "start": 14.44,
+          "end": 14.58,
+          "word": " Vous",
+          "probability": 0.9194987416267395
+        },
+        {
+          "start": 14.58,
+          "end": 14.88,
+          "word": " diriez",
+          "probability": 0.5832384675741196
+        },
+        {
+          "start": 14.88,
+          "end": 15.04,
+          "word": " que",
+          "probability": 0.9999806880950928
+        },
+        {
+          "start": 15.04,
+          "end": 15.14,
+          "word": " je",
+          "probability": 0.9994969367980957
+        },
+        {
+          "start": 15.14,
+          "end": 15.28,
+          "word": " viens",
+          "probability": 0.999858021736145
+        },
+        {
+          "start": 15.28,
+          "end": 15.4,
+          "word": " de",
+          "probability": 0.9997212290763855
+        },
+        {
+          "start": 15.4,
+          "end": 15.74,
+          "word": " coincer",
+          "probability": 0.9936441779136658
+        },
+        {
+          "start": 15.74,
+          "end": 15.94,
+          "word": " une",
+          "probability": 0.9998875856399536
+        },
+        {
+          "start": 15.94,
+          "end": 16.24,
+          "word": " belle",
+          "probability": 0.9995679259300232
+        },
+        {
+          "start": 16.24,
+          "end": 16.88,
+          "word": " crapule.",
+          "probability": 0.9880697131156921
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 17.48,
+      "end": 19.18,
+      "text": " Qu'as-tu à dire pour ta défense?",
+      "tokens": [
+        51205,
+        2326,
+        6,
+        296,
+        12,
+        9179,
+        1531,
+        1264,
+        2016,
+        1846,
+        30456,
+        1288,
+        2506,
+        51305
+      ],
+      "avg_logprob": -0.13632746055430056,
+      "compression_ratio": 1.4954954954954955,
+      "no_speech_prob": 9.299849085264711e-12,
+      "words": [
+        {
+          "start": 17.48,
+          "end": 17.66,
+          "word": " Qu",
+          "probability": 0.9968047142028809
+        },
+        {
+          "start": 17.66,
+          "end": 17.76,
+          "word": "'as",
+          "probability": 0.9877492487430573
+        },
+        {
+          "start": 17.76,
+          "end": 17.86,
+          "word": "-tu",
+          "probability": 0.999532550573349
+        },
+        {
+          "start": 17.86,
+          "end": 18.0,
+          "word": " à",
+          "probability": 0.9999282360076904
+        },
+        {
+          "start": 18.0,
+          "end": 18.16,
+          "word": " dire",
+          "probability": 0.9998817443847656
+        },
+        {
+          "start": 18.16,
+          "end": 18.32,
+          "word": " pour",
+          "probability": 0.9997155070304871
+        },
+        {
+          "start": 18.32,
+          "end": 18.48,
+          "word": " ta",
+          "probability": 0.9995148181915283
+        },
+        {
+          "start": 18.48,
+          "end": 18.98,
+          "word": " défense",
+          "probability": 0.9995550811290741
+        },
+        {
+          "start": 18.98,
+          "end": 19.18,
+          "word": "?",
+          "probability": 0.9933290481567383
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

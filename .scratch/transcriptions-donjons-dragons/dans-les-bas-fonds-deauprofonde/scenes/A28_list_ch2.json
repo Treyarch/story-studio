@@ -1,0 +1,77 @@
+{
+  "scene": "A28_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A28_list_ch2.mp3",
+  "sha256": "b8f8be568ccfb6c2de3a8032bb6a31f11de871eceb576b8bf3f5de2155a50cd5",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.1724375,
+  "text": "Inutile. Tu n'es pas crédible.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 2.54,
+      "text": " Inutile. Tu n'es pas crédible.",
+      "tokens": [
+        50365,
+        682,
+        325,
+        794,
+        13,
+        7836,
+        297,
+        6,
+        279,
+        1736,
+        37368,
+        964,
+        13,
+        50492
+      ],
+      "avg_logprob": -0.2617067019144694,
+      "compression_ratio": 0.8157894736842105,
+      "no_speech_prob": 4.541117482048662e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 1.04,
+          "word": " Inutile.",
+          "probability": 0.9516865611076355
+        },
+        {
+          "start": 1.34,
+          "end": 1.78,
+          "word": " Tu",
+          "probability": 0.998427152633667
+        },
+        {
+          "start": 1.78,
+          "end": 1.88,
+          "word": " n",
+          "probability": 0.999930739402771
+        },
+        {
+          "start": 1.88,
+          "end": 1.94,
+          "word": "'es",
+          "probability": 0.9996102750301361
+        },
+        {
+          "start": 1.94,
+          "end": 2.06,
+          "word": " pas",
+          "probability": 0.9999134540557861
+        },
+        {
+          "start": 2.06,
+          "end": 2.54,
+          "word": " crédible.",
+          "probability": 0.9992496967315674
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

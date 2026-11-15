@@ -1,0 +1,53 @@
+{
+  "scene": "multi1_ch1_force",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/multi1_ch1_force.mp3",
+  "sha256": "8d7020c7cc9aed0c00d145ba7e95fb8f543be4f0a04b37db77b4567a8a5eee2c",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.195375,
+  "text": "Utilise ta force.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.56,
+      "text": " Utilise ta force.",
+      "tokens": [
+        50365,
+        12555,
+        388,
+        908,
+        1846,
+        3464,
+        13,
+        50443
+      ],
+      "avg_logprob": -0.16051477856106228,
+      "compression_ratio": 0.68,
+      "no_speech_prob": 4.958921294428986e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.96,
+          "word": " Utilise",
+          "probability": 0.9949362277984619
+        },
+        {
+          "start": 0.96,
+          "end": 1.1,
+          "word": " ta",
+          "probability": 0.9958224296569824
+        },
+        {
+          "start": 1.1,
+          "end": 1.56,
+          "word": " force.",
+          "probability": 0.9982109069824219
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

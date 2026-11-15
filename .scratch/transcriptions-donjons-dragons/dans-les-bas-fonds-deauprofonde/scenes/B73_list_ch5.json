@@ -1,0 +1,65 @@
+{
+  "scene": "B73_list_ch5",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B73_list_ch5.mp3",
+  "sha256": "1ade03f9b802288bb8a4748d6c2f74932acf7aa14342b6ee03775c606fe8e510",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.9440625,
+  "text": "Tu cours sur le mur.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.25,
+      "text": " Tu cours sur le mur.",
+      "tokens": [
+        50365,
+        7836,
+        25452,
+        1022,
+        476,
+        5257,
+        13,
+        50426
+      ],
+      "avg_logprob": -0.313407474093967,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 6.605155658534478e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.49,
+          "word": " Tu",
+          "probability": 0.8466821908950806
+        },
+        {
+          "start": 0.49,
+          "end": 0.73,
+          "word": " cours",
+          "probability": 0.992463231086731
+        },
+        {
+          "start": 0.73,
+          "end": 0.91,
+          "word": " sur",
+          "probability": 0.9998679161071777
+        },
+        {
+          "start": 0.91,
+          "end": 1.03,
+          "word": " le",
+          "probability": 0.9997795224189758
+        },
+        {
+          "start": 1.03,
+          "end": 1.25,
+          "word": " mur.",
+          "probability": 0.9998316764831543
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "scene": "A51a_boule_feu",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A51a_boule_feu.mp3",
+  "sha256": "fc772d57043feb599d2b29770fc3d6937b627085f688ad912108f1812d72a476",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 19.507,
+  "text": "Le sort de boule de feu explose un peu trop fort. Le golem de glace part en éclat, mais tu es aussi projeté en arrière. Un peu désorienté, tu prends un moment pour épousseter les braises sur tes vêtements et sur tes cheveux, étonné d'être encore en vie.",
+  "review": [
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.98,
+      "end": 4.16,
+      "text": " Le sort de boule de feu explose un peu trop fort.",
+      "tokens": [
+        50370,
+        1456,
+        1333,
+        368,
+        15345,
+        306,
+        368,
+        29539,
+        1490,
+        541,
+        517,
+        5604,
+        9006,
+        5009,
+        13,
+        50525
+      ],
+      "avg_logprob": -0.09135025908194837,
+      "compression_ratio": 1.441988950276243,
+      "no_speech_prob": 7.601276379165522e-12,
+      "words": [
+        {
+          "start": 0.98,
+          "end": 1.56,
+          "word": " Le",
+          "probability": 0.9564563632011414
+        },
+        {
+          "start": 1.56,
+          "end": 1.82,
+          "word": " sort",
+          "probability": 0.9932014346122742
+        },
+        {
+          "start": 1.82,
+          "end": 1.96,
+          "word": " de",
+          "probability": 0.9988306164741516
+        },
+        {
+          "start": 1.96,
+          "end": 2.18,
+          "word": " boule",
+          "probability": 0.9533753991127014
+        },
+        {
+          "start": 2.18,
+          "end": 2.3,
+          "word": " de",
+          "probability": 0.9995999932289124
+        },
+        {
+          "start": 2.3,
+          "end": 2.52,
+          "word": " feu",
+          "probability": 0.9995149374008179
+        },
+        {
+          "start": 2.52,
+          "end": 3.22,
+          "word": " explose",
+          "probability": 0.9970516860485077
+        },
+        {
+          "start": 3.22,
+          "end": 3.48,
+          "word": " un",
+          "probability": 0.9995104074478149
+        },
+        {
+          "start": 3.48,
+          "end": 3.64,
+          "word": " peu",
+          "probability": 0.9998437166213989
+        },
+        {
+          "start": 3.64,
+          "end": 3.84,
+          "word": " trop",
+          "probability": 0.9999371767044067
+        },
+        {
+          "start": 3.84,
+          "end": 4.16,
+          "word": " fort.",
+          "probability": 0.9998030066490173
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.26,
+      "end": 9.22,
+      "text": " Le golem de glace part en éclat, mais tu es aussi projeté en arrière.",
+      "tokens": [
+        50581,
+        1456,
+        352,
+        10386,
+        368,
+        1563,
+        617,
+        644,
+        465,
+        1136,
+        3474,
+        267,
+        11,
+        2420,
+        2604,
+        785,
+        6212,
+        17929,
+        526,
+        465,
+        3399,
+        4212,
+        13,
+        50778
+      ],
+      "avg_logprob": -0.09135025908194837,
+      "compression_ratio": 1.441988950276243,
+      "no_speech_prob": 7.601276379165522e-12,
+      "words": [
+        {
+          "start": 5.26,
+          "end": 5.74,
+          "word": " Le",
+          "probability": 0.99979168176651
+        },
+        {
+          "start": 5.74,
+          "end": 6.08,
+          "word": " golem",
+          "probability": 0.9946540296077728
+        },
+        {
+          "start": 6.08,
+          "end": 6.22,
+          "word": " de",
+          "probability": 0.9998664855957031
+        },
+        {
+          "start": 6.22,
+          "end": 6.5,
+          "word": " glace",
+          "probability": 0.9986443519592285
+        },
+        {
+          "start": 6.5,
+          "end": 6.72,
+          "word": " part",
+          "probability": 0.9991777539253235
+        },
+        {
+          "start": 6.72,
+          "end": 6.82,
+          "word": " en",
+          "probability": 0.9999526739120483
+        },
+        {
+          "start": 6.82,
+          "end": 7.18,
+          "word": " éclat,",
+          "probability": 0.9263608256975809
+        },
+        {
+          "start": 7.3,
+          "end": 7.68,
+          "word": " mais",
+          "probability": 0.999828577041626
+        },
+        {
+          "start": 7.68,
+          "end": 7.84,
+          "word": " tu",
+          "probability": 0.9996503591537476
+        },
+        {
+          "start": 7.84,
+          "end": 7.94,
+          "word": " es",
+          "probability": 0.8113846182823181
+        },
+        {
+          "start": 7.94,
+          "end": 8.32,
+          "word": " aussi",
+          "probability": 0.9999446868896484
+        },
+        {
+          "start": 8.32,
+          "end": 8.76,
+          "word": " projeté",
+          "probability": 0.9978191554546356
+        },
+        {
+          "start": 8.76,
+          "end": 8.88,
+          "word": " en",
+          "probability": 0.9999642372131348
+        },
+        {
+          "start": 8.88,
+          "end": 9.22,
+          "word": " arrière.",
+          "probability": 0.999953031539917
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.8,
+      "end": 15.08,
+      "text": " Un peu désorienté, tu prends un moment pour épousseter les braises sur tes vêtements et sur tes cheveux,",
+      "tokens": [
+        50821,
+        1156,
+        5604,
+        18963,
+        19521,
+        526,
+        11,
+        2604,
+        46750,
+        517,
+        1623,
+        2016,
+        21018,
+        563,
+        12484,
+        1512,
+        1548,
+        3598,
+        1022,
+        20018,
+        371,
+        15519,
+        6400,
+        1030,
+        1022,
+        20018,
+        947,
+        303,
+        2449,
+        11,
+        51070
+      ],
+      "avg_logprob": -0.09135025908194837,
+      "compression_ratio": 1.441988950276243,
+      "no_speech_prob": 7.601276379165522e-12,
+      "words": [
+        {
+          "start": 9.8,
+          "end": 10.24,
+          "word": " Un",
+          "probability": 0.9996281862258911
+        },
+        {
+          "start": 10.24,
+          "end": 10.38,
+          "word": " peu",
+          "probability": 0.9998682737350464
+        },
+        {
+          "start": 10.38,
+          "end": 11.08,
+          "word": " désorienté,",
+          "probability": 0.9981884360313416
+        },
+        {
+          "start": 11.36,
+          "end": 11.64,
+          "word": " tu",
+          "probability": 0.9995608925819397
+        },
+        {
+          "start": 11.64,
+          "end": 11.84,
+          "word": " prends",
+          "probability": 0.998833954334259
+        },
+        {
+          "start": 11.84,
+          "end": 11.98,
+          "word": " un",
+          "probability": 0.9998780488967896
+        },
+        {
+          "start": 11.98,
+          "end": 12.24,
+          "word": " moment",
+          "probability": 0.999873161315918
+        },
+        {
+          "start": 12.24,
+          "end": 12.48,
+          "word": " pour",
+          "probability": 0.9998160004615784
+        },
+        {
+          "start": 12.48,
+          "end": 13.0,
+          "word": " épousser",
+          "probability": 0.7564366559187571
+        },
+        {
+          "start": 13.0,
+          "end": 13.18,
+          "word": " les",
+          "probability": 0.9960237741470337
+        },
+        {
+          "start": 13.18,
+          "end": 13.5,
+          "word": " braises",
+          "probability": 0.9972966909408569
+        },
+        {
+          "start": 13.5,
+          "end": 13.78,
+          "word": " sur",
+          "probability": 0.9991170763969421
+        },
+        {
+          "start": 13.78,
+          "end": 13.92,
+          "word": " tes",
+          "probability": 0.999466598033905
+        },
+        {
+          "start": 13.92,
+          "end": 14.26,
+          "word": " vêtements",
+          "probability": 0.99921186765035
+        },
+        {
+          "start": 14.26,
+          "end": 14.4,
+          "word": " et",
+          "probability": 0.9998328685760498
+        },
+        {
+          "start": 14.4,
+          "end": 14.56,
+          "word": " sur",
+          "probability": 0.999041736125946
+        },
+        {
+          "start": 14.56,
+          "end": 14.7,
+          "word": " tes",
+          "probability": 0.9998897314071655
+        },
+        {
+          "start": 14.7,
+          "end": 15.08,
+          "word": " cheveux,",
+          "probability": 0.9998300472895304
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 15.74,
+      "end": 16.88,
+      "text": " étonné d'être encore en vie.",
+      "tokens": [
+        51104,
+        1136,
+        1756,
+        15055,
+        274,
+        6,
+        9498,
+        10122,
+        465,
+        4941,
+        13,
+        51161
+      ],
+      "avg_logprob": -0.09135025908194837,
+      "compression_ratio": 1.441988950276243,
+      "no_speech_prob": 7.601276379165522e-12,
+      "words": [
+        {
+          "start": 15.74,
+          "end": 16.12,
+          "word": " étonné",
+          "probability": 0.9943979779879252
+        },
+        {
+          "start": 16.12,
+          "end": 16.22,
+          "word": " d",
+          "probability": 0.9999533891677856
+        },
+        {
+          "start": 16.22,
+          "end": 16.34,
+          "word": "'être",
+          "probability": 0.9999714493751526
+        },
+        {
+          "start": 16.34,
+          "end": 16.58,
+          "word": " encore",
+          "probability": 0.9996439218521118
+        },
+        {
+          "start": 16.58,
+          "end": 16.76,
+          "word": " en",
+          "probability": 0.9993288516998291
+        },
+        {
+          "start": 16.76,
+          "end": 16.88,
+          "word": " vie.",
+          "probability": 0.9990857839584351
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

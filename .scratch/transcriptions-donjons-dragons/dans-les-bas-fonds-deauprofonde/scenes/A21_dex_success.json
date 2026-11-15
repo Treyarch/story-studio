@@ -1,0 +1,596 @@
+{
+  "scene": "A21_dex_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A21_dex_success.mp3",
+  "sha256": "3f73f67366259f98b206c812c714c6b8dfdd1ae4c12f75d3e3b2077995ddca86",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 24.2033125,
+  "text": "Crois-le ou non, mais tu es vraiment très douée. La serrure cède avec un claquement bruyant et tu adresses un grand sourire à Kissandra. Elle n'a pas l'air impressionnée. Peut-être que tous les membres du Zhentarim sont capables de crocheter une serrure les yeux bandés. Mais tu es vraiment fière de toi. Tu te redresses et ouvres la porte.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.74,
+      "end": 4.6,
+      "text": " Crois-le ou non, mais tu es vraiment très douée.",
+      "tokens": [
+        50365,
+        18965,
+        271,
+        12,
+        306,
+        2820,
+        2107,
+        11,
+        2420,
+        2604,
+        785,
+        8322,
+        5732,
+        2482,
+        3856,
+        13,
+        50508
+      ],
+      "avg_logprob": -0.13004432994386425,
+      "compression_ratio": 1.4892703862660943,
+      "no_speech_prob": 6.819836795984857e-12,
+      "words": [
+        {
+          "start": 1.74,
+          "end": 2.38,
+          "word": " Crois",
+          "probability": 0.9245834350585938
+        },
+        {
+          "start": 2.38,
+          "end": 2.48,
+          "word": "-le",
+          "probability": 0.9944342076778412
+        },
+        {
+          "start": 2.48,
+          "end": 2.64,
+          "word": " ou",
+          "probability": 0.9996445178985596
+        },
+        {
+          "start": 2.64,
+          "end": 2.8,
+          "word": " non,",
+          "probability": 0.9999234676361084
+        },
+        {
+          "start": 3.18,
+          "end": 3.38,
+          "word": " mais",
+          "probability": 0.9991680383682251
+        },
+        {
+          "start": 3.38,
+          "end": 3.58,
+          "word": " tu",
+          "probability": 0.9998155236244202
+        },
+        {
+          "start": 3.58,
+          "end": 3.7,
+          "word": " es",
+          "probability": 0.9997281432151794
+        },
+        {
+          "start": 3.7,
+          "end": 4.06,
+          "word": " vraiment",
+          "probability": 0.9996864795684814
+        },
+        {
+          "start": 4.06,
+          "end": 4.32,
+          "word": " très",
+          "probability": 0.9994964599609375
+        },
+        {
+          "start": 4.32,
+          "end": 4.6,
+          "word": " douée.",
+          "probability": 0.7548083662986755
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.0,
+      "end": 10.46,
+      "text": " La serrure cède avec un claquement bruyant et tu adresses un grand sourire à Kissandra.",
+      "tokens": [
+        50543,
+        2369,
+        816,
+        81,
+        540,
+        269,
+        1462,
+        1479,
+        4163,
+        517,
+        3583,
+        358,
+        1712,
+        738,
+        7493,
+        394,
+        1030,
+        2604,
+        614,
+        40352,
+        517,
+        2697,
+        11006,
+        621,
+        1531,
+        591,
+        891,
+        18401,
+        13,
+        50801
+      ],
+      "avg_logprob": -0.13004432994386425,
+      "compression_ratio": 1.4892703862660943,
+      "no_speech_prob": 6.819836795984857e-12,
+      "words": [
+        {
+          "start": 5.0,
+          "end": 5.46,
+          "word": " La",
+          "probability": 0.993526816368103
+        },
+        {
+          "start": 5.46,
+          "end": 5.98,
+          "word": " serrure",
+          "probability": 0.9996340870857239
+        },
+        {
+          "start": 5.98,
+          "end": 6.4,
+          "word": " cède",
+          "probability": 0.9715867241223654
+        },
+        {
+          "start": 6.4,
+          "end": 6.76,
+          "word": " avec",
+          "probability": 0.9997370839118958
+        },
+        {
+          "start": 6.76,
+          "end": 6.96,
+          "word": " un",
+          "probability": 0.9999279975891113
+        },
+        {
+          "start": 6.96,
+          "end": 7.46,
+          "word": " claquement",
+          "probability": 0.9993060429890951
+        },
+        {
+          "start": 7.46,
+          "end": 7.92,
+          "word": " bruyant",
+          "probability": 0.9983840584754944
+        },
+        {
+          "start": 7.92,
+          "end": 8.38,
+          "word": " et",
+          "probability": 0.9594691395759583
+        },
+        {
+          "start": 8.38,
+          "end": 8.56,
+          "word": " tu",
+          "probability": 0.9998421669006348
+        },
+        {
+          "start": 8.56,
+          "end": 8.98,
+          "word": " adresses",
+          "probability": 0.9981904327869415
+        },
+        {
+          "start": 8.98,
+          "end": 9.26,
+          "word": " un",
+          "probability": 0.9997468590736389
+        },
+        {
+          "start": 9.26,
+          "end": 9.52,
+          "word": " grand",
+          "probability": 0.9996867179870605
+        },
+        {
+          "start": 9.52,
+          "end": 9.9,
+          "word": " sourire",
+          "probability": 0.9996895790100098
+        },
+        {
+          "start": 9.9,
+          "end": 10.08,
+          "word": " à",
+          "probability": 0.9995974898338318
+        },
+        {
+          "start": 10.08,
+          "end": 10.46,
+          "word": " Kissandra.",
+          "probability": 0.7968195279439291
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.8,
+      "end": 12.3,
+      "text": " Elle n'a pas l'air impressionnée.",
+      "tokens": [
+        50829,
+        16227,
+        297,
+        6,
+        64,
+        1736,
+        287,
+        6,
+        1246,
+        9995,
+        77,
+        3856,
+        13,
+        50892
+      ],
+      "avg_logprob": -0.13004432994386425,
+      "compression_ratio": 1.4892703862660943,
+      "no_speech_prob": 6.819836795984857e-12,
+      "words": [
+        {
+          "start": 10.8,
+          "end": 11.24,
+          "word": " Elle",
+          "probability": 0.9993689656257629
+        },
+        {
+          "start": 11.24,
+          "end": 11.34,
+          "word": " n",
+          "probability": 0.9999836683273315
+        },
+        {
+          "start": 11.34,
+          "end": 11.4,
+          "word": "'a",
+          "probability": 0.9999791979789734
+        },
+        {
+          "start": 11.4,
+          "end": 11.54,
+          "word": " pas",
+          "probability": 0.9999812841415405
+        },
+        {
+          "start": 11.54,
+          "end": 11.62,
+          "word": " l",
+          "probability": 0.9999477863311768
+        },
+        {
+          "start": 11.62,
+          "end": 11.72,
+          "word": "'air",
+          "probability": 0.999735414981842
+        },
+        {
+          "start": 11.72,
+          "end": 12.3,
+          "word": " impressionnée.",
+          "probability": 0.9942184090614319
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.64,
+      "end": 17.54,
+      "text": " Peut-être que tous les membres du Zhentarim sont capables de crocheter une serrure les yeux bandés.",
+      "tokens": [
+        50925,
+        2396,
+        325,
+        12,
+        9498,
+        631,
+        8317,
+        1512,
+        27942,
+        495,
+        1581,
+        44091,
+        289,
+        332,
+        4900,
+        1410,
+        2965,
+        368,
+        8191,
+        2398,
+        2251,
+        816,
+        81,
+        540,
+        1512,
+        36163,
+        4116,
+        2191,
+        13,
+        51155
+      ],
+      "avg_logprob": -0.13004432994386425,
+      "compression_ratio": 1.4892703862660943,
+      "no_speech_prob": 6.819836795984857e-12,
+      "words": [
+        {
+          "start": 12.64,
+          "end": 13.14,
+          "word": " Peut",
+          "probability": 0.9996125996112823
+        },
+        {
+          "start": 13.14,
+          "end": 13.32,
+          "word": "-être",
+          "probability": 0.9997771084308624
+        },
+        {
+          "start": 13.32,
+          "end": 13.56,
+          "word": " que",
+          "probability": 0.9999028444290161
+        },
+        {
+          "start": 13.56,
+          "end": 13.78,
+          "word": " tous",
+          "probability": 0.9997798800468445
+        },
+        {
+          "start": 13.78,
+          "end": 13.94,
+          "word": " les",
+          "probability": 0.9999194145202637
+        },
+        {
+          "start": 13.94,
+          "end": 14.34,
+          "word": " membres",
+          "probability": 0.9998546540737152
+        },
+        {
+          "start": 14.34,
+          "end": 14.52,
+          "word": " du",
+          "probability": 0.9989232420921326
+        },
+        {
+          "start": 14.52,
+          "end": 15.12,
+          "word": " Zhentarim",
+          "probability": 0.7680491507053375
+        },
+        {
+          "start": 15.12,
+          "end": 15.36,
+          "word": " sont",
+          "probability": 0.9992497563362122
+        },
+        {
+          "start": 15.36,
+          "end": 15.88,
+          "word": " capables",
+          "probability": 0.9996128082275391
+        },
+        {
+          "start": 15.88,
+          "end": 16.04,
+          "word": " de",
+          "probability": 0.9999427795410156
+        },
+        {
+          "start": 16.04,
+          "end": 16.44,
+          "word": " crocheter",
+          "probability": 0.9985691905021667
+        },
+        {
+          "start": 16.44,
+          "end": 16.6,
+          "word": " une",
+          "probability": 0.9990347623825073
+        },
+        {
+          "start": 16.6,
+          "end": 16.94,
+          "word": " serrure",
+          "probability": 0.9998473723729452
+        },
+        {
+          "start": 16.94,
+          "end": 17.06,
+          "word": " les",
+          "probability": 0.992222249507904
+        },
+        {
+          "start": 17.06,
+          "end": 17.22,
+          "word": " yeux",
+          "probability": 0.9999749660491943
+        },
+        {
+          "start": 17.22,
+          "end": 17.54,
+          "word": " bandés.",
+          "probability": 0.9980756640434265
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 17.9,
+      "end": 19.74,
+      "text": " Mais tu es vraiment fière de toi.",
+      "tokens": [
+        51190,
+        6313,
+        2604,
+        785,
+        8322,
+        283,
+        10195,
+        368,
+        15648,
+        13,
+        51265
+      ],
+      "avg_logprob": -0.13004432994386425,
+      "compression_ratio": 1.4892703862660943,
+      "no_speech_prob": 6.819836795984857e-12,
+      "words": [
+        {
+          "start": 17.9,
+          "end": 18.46,
+          "word": " Mais",
+          "probability": 0.9995322227478027
+        },
+        {
+          "start": 18.46,
+          "end": 18.68,
+          "word": " tu",
+          "probability": 0.9998065829277039
+        },
+        {
+          "start": 18.68,
+          "end": 18.8,
+          "word": " es",
+          "probability": 0.9998714923858643
+        },
+        {
+          "start": 18.8,
+          "end": 19.12,
+          "word": " vraiment",
+          "probability": 0.9999532699584961
+        },
+        {
+          "start": 19.12,
+          "end": 19.4,
+          "word": " fière",
+          "probability": 0.8360016345977783
+        },
+        {
+          "start": 19.4,
+          "end": 19.54,
+          "word": " de",
+          "probability": 0.9999396800994873
+        },
+        {
+          "start": 19.54,
+          "end": 19.74,
+          "word": " toi.",
+          "probability": 0.9996324777603149
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 20.0,
+      "end": 22.4,
+      "text": " Tu te redresses et ouvres la porte.",
+      "tokens": [
+        51296,
+        7836,
+        535,
+        2182,
+        40352,
+        1030,
+        21157,
+        495,
+        635,
+        26658,
+        13,
+        51399
+      ],
+      "avg_logprob": -0.13004432994386425,
+      "compression_ratio": 1.4892703862660943,
+      "no_speech_prob": 6.819836795984857e-12,
+      "words": [
+        {
+          "start": 20.0,
+          "end": 20.46,
+          "word": " Tu",
+          "probability": 0.9963276982307434
+        },
+        {
+          "start": 20.46,
+          "end": 20.62,
+          "word": " te",
+          "probability": 0.9996898174285889
+        },
+        {
+          "start": 20.62,
+          "end": 21.1,
+          "word": " redresses",
+          "probability": 0.9944173097610474
+        },
+        {
+          "start": 21.1,
+          "end": 21.54,
+          "word": " et",
+          "probability": 0.9993188381195068
+        },
+        {
+          "start": 21.54,
+          "end": 21.92,
+          "word": " ouvres",
+          "probability": 0.9799905717372894
+        },
+        {
+          "start": 21.92,
+          "end": 22.08,
+          "word": " la",
+          "probability": 0.9999086856842041
+        },
+        {
+          "start": 22.08,
+          "end": 22.4,
+          "word": " porte.",
+          "probability": 0.9998699426651001
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

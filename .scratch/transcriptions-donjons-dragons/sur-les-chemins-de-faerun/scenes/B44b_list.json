@@ -1,0 +1,75 @@
+{
+  "scene": "B44b_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B44b_list.mp3",
+  "sha256": "95964ad5d1d54171f65e5db63cb55da0046f65cb6e31141645257e8b27639f06",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.8119375,
+  "text": "Que choisis-tu de faire?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.62,
+      "text": " Que choisis-tu de faire?",
+      "tokens": [
+        50365,
+        4493,
+        1586,
+        28436,
+        12,
+        9179,
+        368,
+        4865,
+        2506,
+        50465
+      ],
+      "avg_logprob": -0.2667957273396579,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 3.189193700792181e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.42,
+          "word": " Que",
+          "probability": 0.9414368271827698
+        },
+        {
+          "start": 0.42,
+          "end": 0.86,
+          "word": " choisis",
+          "probability": 0.9952345788478851
+        },
+        {
+          "start": 0.86,
+          "end": 1.04,
+          "word": "-tu",
+          "probability": 0.9973790049552917
+        },
+        {
+          "start": 1.04,
+          "end": 1.16,
+          "word": " de",
+          "probability": 0.9998202919960022
+        },
+        {
+          "start": 1.16,
+          "end": 1.48,
+          "word": " faire",
+          "probability": 0.999893069267273
+        },
+        {
+          "start": 1.48,
+          "end": 1.62,
+          "word": "?",
+          "probability": 0.9810972213745117
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

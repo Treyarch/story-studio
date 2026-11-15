@@ -1,0 +1,789 @@
+{
+  "scene": "A3b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A3b.mp3",
+  "sha256": "c13e0b3de0a1ddebba2d1c629f3697f44299294ceb5cc2f5cdf6b51be7bc3709",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 34.299875,
+  "text": "Les agents sont sur vos talons, mais la fille accélère, et maintenant, c'est elle qui t'entraîne dans cette course. Elle tourne à gauche, à droite, et de nouveau à gauche, si vivement que tu as du mal à ne pas te faire distancer. Tu tournes la tête, les agents gagnent du terrain. Tu dois faire quelque chose pour les semer. Et vite! La fille t'a conduit droit vers la cour du taureau blanc, un marché ouvert qui réunit une foule compacte de chalands. Voilà, on peut les semer ici.",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.98,
+      "end": 7.64,
+      "text": " Les agents sont sur vos talons, mais la fille accélère, et maintenant, c'est elle qui t'entraîne dans cette course.",
+      "tokens": [
+        50390,
+        6965,
+        12554,
+        4900,
+        1022,
+        13845,
+        4023,
+        892,
+        11,
+        2420,
+        635,
+        39216,
+        1317,
+        8025,
+        4212,
+        11,
+        1030,
+        14817,
+        11,
+        269,
+        6,
+        377,
+        8404,
+        1956,
+        256,
+        6,
+        317,
+        424,
+        24741,
+        2680,
+        5550,
+        1164,
+        13,
+        50700
+      ],
+      "avg_logprob": -0.10044120015068488,
+      "compression_ratio": 1.6347517730496455,
+      "no_speech_prob": 1.0509413651826893e-11,
+      "words": [
+        {
+          "start": 0.98,
+          "end": 1.94,
+          "word": " Les",
+          "probability": 0.9957026839256287
+        },
+        {
+          "start": 1.94,
+          "end": 2.26,
+          "word": " agents",
+          "probability": 0.9980676770210266
+        },
+        {
+          "start": 2.26,
+          "end": 2.46,
+          "word": " sont",
+          "probability": 0.9998316764831543
+        },
+        {
+          "start": 2.46,
+          "end": 2.66,
+          "word": " sur",
+          "probability": 0.999771773815155
+        },
+        {
+          "start": 2.66,
+          "end": 2.84,
+          "word": " vos",
+          "probability": 0.9995995163917542
+        },
+        {
+          "start": 2.84,
+          "end": 3.12,
+          "word": " talons,",
+          "probability": 0.9981449544429779
+        },
+        {
+          "start": 3.22,
+          "end": 3.84,
+          "word": " mais",
+          "probability": 0.9997938275337219
+        },
+        {
+          "start": 3.84,
+          "end": 4.0,
+          "word": " la",
+          "probability": 0.8981748223304749
+        },
+        {
+          "start": 4.0,
+          "end": 4.18,
+          "word": " fille",
+          "probability": 0.999115526676178
+        },
+        {
+          "start": 4.18,
+          "end": 4.86,
+          "word": " accélère,",
+          "probability": 0.9990130066871643
+        },
+        {
+          "start": 5.04,
+          "end": 5.3,
+          "word": " et",
+          "probability": 0.9999350309371948
+        },
+        {
+          "start": 5.3,
+          "end": 5.68,
+          "word": " maintenant,",
+          "probability": 0.9999827146530151
+        },
+        {
+          "start": 5.88,
+          "end": 6.2,
+          "word": " c",
+          "probability": 0.9999946355819702
+        },
+        {
+          "start": 6.2,
+          "end": 6.3,
+          "word": "'est",
+          "probability": 0.9999931454658508
+        },
+        {
+          "start": 6.3,
+          "end": 6.48,
+          "word": " elle",
+          "probability": 0.9997743964195251
+        },
+        {
+          "start": 6.48,
+          "end": 6.62,
+          "word": " qui",
+          "probability": 0.9998960494995117
+        },
+        {
+          "start": 6.62,
+          "end": 6.74,
+          "word": " t",
+          "probability": 0.9997175335884094
+        },
+        {
+          "start": 6.74,
+          "end": 7.02,
+          "word": "'entraîne",
+          "probability": 0.9984752386808395
+        },
+        {
+          "start": 7.02,
+          "end": 7.16,
+          "word": " dans",
+          "probability": 0.9999866485595703
+        },
+        {
+          "start": 7.16,
+          "end": 7.36,
+          "word": " cette",
+          "probability": 0.9999890327453613
+        },
+        {
+          "start": 7.36,
+          "end": 7.64,
+          "word": " course.",
+          "probability": 0.9992755055427551
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.16,
+      "end": 15.1,
+      "text": " Elle tourne à gauche, à droite, et de nouveau à gauche, si vivement que tu as du mal à ne pas te faire distancer.",
+      "tokens": [
+        50734,
+        16227,
+        3512,
+        716,
+        1531,
+        36724,
+        11,
+        1531,
+        37321,
+        11,
+        1030,
+        368,
+        23326,
+        1531,
+        36724,
+        11,
+        1511,
+        28927,
+        518,
+        631,
+        2604,
+        382,
+        1581,
+        2806,
+        1531,
+        408,
+        1736,
+        535,
+        4865,
+        1483,
+        28347,
+        13,
+        51071
+      ],
+      "avg_logprob": -0.10044120015068488,
+      "compression_ratio": 1.6347517730496455,
+      "no_speech_prob": 1.0509413651826893e-11,
+      "words": [
+        {
+          "start": 8.16,
+          "end": 8.48,
+          "word": " Elle",
+          "probability": 0.9991544485092163
+        },
+        {
+          "start": 8.48,
+          "end": 8.78,
+          "word": " tourne",
+          "probability": 0.9999341368675232
+        },
+        {
+          "start": 8.78,
+          "end": 8.88,
+          "word": " à",
+          "probability": 0.9999972581863403
+        },
+        {
+          "start": 8.88,
+          "end": 9.28,
+          "word": " gauche,",
+          "probability": 0.9999593496322632
+        },
+        {
+          "start": 9.5,
+          "end": 10.02,
+          "word": " à",
+          "probability": 0.9999979734420776
+        },
+        {
+          "start": 10.02,
+          "end": 10.4,
+          "word": " droite,",
+          "probability": 0.9999865293502808
+        },
+        {
+          "start": 10.66,
+          "end": 11.16,
+          "word": " et",
+          "probability": 0.9999892711639404
+        },
+        {
+          "start": 11.16,
+          "end": 11.3,
+          "word": " de",
+          "probability": 0.9999896287918091
+        },
+        {
+          "start": 11.3,
+          "end": 11.54,
+          "word": " nouveau",
+          "probability": 0.9997923970222473
+        },
+        {
+          "start": 11.54,
+          "end": 11.7,
+          "word": " à",
+          "probability": 0.9999969005584717
+        },
+        {
+          "start": 11.7,
+          "end": 12.04,
+          "word": " gauche,",
+          "probability": 0.9999234676361084
+        },
+        {
+          "start": 12.22,
+          "end": 12.54,
+          "word": " si",
+          "probability": 0.9995083808898926
+        },
+        {
+          "start": 12.54,
+          "end": 12.98,
+          "word": " vivement",
+          "probability": 0.9998246133327484
+        },
+        {
+          "start": 12.98,
+          "end": 13.16,
+          "word": " que",
+          "probability": 0.9999748468399048
+        },
+        {
+          "start": 13.16,
+          "end": 13.3,
+          "word": " tu",
+          "probability": 0.9999895095825195
+        },
+        {
+          "start": 13.3,
+          "end": 13.42,
+          "word": " as",
+          "probability": 0.999594509601593
+        },
+        {
+          "start": 13.42,
+          "end": 13.56,
+          "word": " du",
+          "probability": 0.9998358488082886
+        },
+        {
+          "start": 13.56,
+          "end": 13.78,
+          "word": " mal",
+          "probability": 0.9999547004699707
+        },
+        {
+          "start": 13.78,
+          "end": 13.94,
+          "word": " à",
+          "probability": 0.9999896287918091
+        },
+        {
+          "start": 13.94,
+          "end": 14.06,
+          "word": " ne",
+          "probability": 0.9999890327453613
+        },
+        {
+          "start": 14.06,
+          "end": 14.26,
+          "word": " pas",
+          "probability": 0.9999903440475464
+        },
+        {
+          "start": 14.26,
+          "end": 14.4,
+          "word": " te",
+          "probability": 0.999981164932251
+        },
+        {
+          "start": 14.4,
+          "end": 14.58,
+          "word": " faire",
+          "probability": 0.9999192953109741
+        },
+        {
+          "start": 14.58,
+          "end": 15.1,
+          "word": " distancer.",
+          "probability": 0.9978299736976624
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 15.42,
+      "end": 22.4,
+      "text": " Tu tournes la tête, les agents gagnent du terrain. Tu dois faire quelque chose pour les semer. Et vite!",
+      "tokens": [
+        51093,
+        7836,
+        3512,
+        4081,
+        635,
+        24661,
+        11,
+        1512,
+        12554,
+        49177,
+        317,
+        1581,
+        17674,
+        13,
+        7836,
+        11854,
+        4865,
+        14448,
+        5111,
+        2016,
+        1512,
+        369,
+        936,
+        13,
+        3790,
+        24462,
+        2298,
+        51415
+      ],
+      "avg_logprob": -0.10044120015068488,
+      "compression_ratio": 1.6347517730496455,
+      "no_speech_prob": 1.0509413651826893e-11,
+      "words": [
+        {
+          "start": 15.42,
+          "end": 15.92,
+          "word": " Tu",
+          "probability": 0.999472439289093
+        },
+        {
+          "start": 15.92,
+          "end": 16.12,
+          "word": " tournes",
+          "probability": 0.9990997016429901
+        },
+        {
+          "start": 16.12,
+          "end": 16.26,
+          "word": " la",
+          "probability": 0.9999858140945435
+        },
+        {
+          "start": 16.26,
+          "end": 16.46,
+          "word": " tête,",
+          "probability": 0.9999874830245972
+        },
+        {
+          "start": 16.72,
+          "end": 17.1,
+          "word": " les",
+          "probability": 0.9999619722366333
+        },
+        {
+          "start": 17.1,
+          "end": 17.36,
+          "word": " agents",
+          "probability": 0.9998486042022705
+        },
+        {
+          "start": 17.36,
+          "end": 17.68,
+          "word": " gagnent",
+          "probability": 0.9997208118438721
+        },
+        {
+          "start": 17.68,
+          "end": 17.82,
+          "word": " du",
+          "probability": 0.9999655485153198
+        },
+        {
+          "start": 17.82,
+          "end": 18.08,
+          "word": " terrain.",
+          "probability": 0.9999831914901733
+        },
+        {
+          "start": 18.52,
+          "end": 18.82,
+          "word": " Tu",
+          "probability": 0.9997459053993225
+        },
+        {
+          "start": 18.82,
+          "end": 18.98,
+          "word": " dois",
+          "probability": 0.9996824264526367
+        },
+        {
+          "start": 18.98,
+          "end": 19.22,
+          "word": " faire",
+          "probability": 0.9999521970748901
+        },
+        {
+          "start": 19.22,
+          "end": 19.46,
+          "word": " quelque",
+          "probability": 0.9998983144760132
+        },
+        {
+          "start": 19.46,
+          "end": 19.74,
+          "word": " chose",
+          "probability": 0.9999749660491943
+        },
+        {
+          "start": 19.74,
+          "end": 19.94,
+          "word": " pour",
+          "probability": 0.9999940395355225
+        },
+        {
+          "start": 19.94,
+          "end": 20.1,
+          "word": " les",
+          "probability": 0.9998947381973267
+        },
+        {
+          "start": 20.1,
+          "end": 20.38,
+          "word": " semer.",
+          "probability": 0.994999349117279
+        },
+        {
+          "start": 20.8,
+          "end": 21.26,
+          "word": " Et",
+          "probability": 0.9995214939117432
+        },
+        {
+          "start": 21.26,
+          "end": 21.56,
+          "word": " vite",
+          "probability": 0.9997219443321228
+        },
+        {
+          "start": 21.56,
+          "end": 22.4,
+          "word": "!",
+          "probability": 0.989594578742981
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 22.4,
+      "end": 29.56,
+      "text": " La fille t'a conduit droit vers la cour du taureau blanc, un marché ouvert qui réunit une foule compacte de chalands.",
+      "tokens": [
+        51456,
+        2369,
+        39216,
+        256,
+        6,
+        64,
+        15504,
+        270,
+        25971,
+        1774,
+        635,
+        1005,
+        1581,
+        1846,
+        15235,
+        34437,
+        11,
+        517,
+        37441,
+        47683,
+        1956,
+        3960,
+        409,
+        270,
+        2251,
+        283,
+        26757,
+        14679,
+        68,
+        368,
+        417,
+        304,
+        892,
+        13,
+        51794
+      ],
+      "avg_logprob": -0.10044120015068488,
+      "compression_ratio": 1.6347517730496455,
+      "no_speech_prob": 1.0509413651826893e-11,
+      "words": [
+        {
+          "start": 22.4,
+          "end": 22.98,
+          "word": " La",
+          "probability": 0.9983371496200562
+        },
+        {
+          "start": 22.98,
+          "end": 23.24,
+          "word": " fille",
+          "probability": 0.9996775388717651
+        },
+        {
+          "start": 23.24,
+          "end": 23.34,
+          "word": " t",
+          "probability": 0.9990971088409424
+        },
+        {
+          "start": 23.34,
+          "end": 23.42,
+          "word": "'a",
+          "probability": 0.9994374215602875
+        },
+        {
+          "start": 23.42,
+          "end": 23.74,
+          "word": " conduit",
+          "probability": 0.9983416497707367
+        },
+        {
+          "start": 23.74,
+          "end": 23.98,
+          "word": " droit",
+          "probability": 0.9997627139091492
+        },
+        {
+          "start": 23.98,
+          "end": 24.2,
+          "word": " vers",
+          "probability": 0.9998482465744019
+        },
+        {
+          "start": 24.2,
+          "end": 24.36,
+          "word": " la",
+          "probability": 0.9999572038650513
+        },
+        {
+          "start": 24.36,
+          "end": 24.6,
+          "word": " cour",
+          "probability": 0.9979301691055298
+        },
+        {
+          "start": 24.6,
+          "end": 24.78,
+          "word": " du",
+          "probability": 0.9999730587005615
+        },
+        {
+          "start": 24.78,
+          "end": 25.1,
+          "word": " taureau",
+          "probability": 0.7774786353111267
+        },
+        {
+          "start": 25.1,
+          "end": 25.34,
+          "word": " blanc,",
+          "probability": 0.9944287538528442
+        },
+        {
+          "start": 25.68,
+          "end": 26.16,
+          "word": " un",
+          "probability": 0.9998853206634521
+        },
+        {
+          "start": 26.16,
+          "end": 26.52,
+          "word": " marché",
+          "probability": 0.9998757839202881
+        },
+        {
+          "start": 26.52,
+          "end": 26.9,
+          "word": " ouvert",
+          "probability": 0.9994688630104065
+        },
+        {
+          "start": 26.9,
+          "end": 27.32,
+          "word": " qui",
+          "probability": 0.9998911619186401
+        },
+        {
+          "start": 27.32,
+          "end": 27.82,
+          "word": " réunit",
+          "probability": 0.9987521370251974
+        },
+        {
+          "start": 27.82,
+          "end": 28.1,
+          "word": " une",
+          "probability": 0.9999545812606812
+        },
+        {
+          "start": 28.1,
+          "end": 28.42,
+          "word": " foule",
+          "probability": 0.9985204935073853
+        },
+        {
+          "start": 28.42,
+          "end": 29.1,
+          "word": " compacte",
+          "probability": 0.9993572533130646
+        },
+        {
+          "start": 29.1,
+          "end": 29.2,
+          "word": " de",
+          "probability": 0.9997852444648743
+        },
+        {
+          "start": 29.2,
+          "end": 29.56,
+          "word": " chalands.",
+          "probability": 0.7310790916283926
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 2858,
+      "start": 29.56,
+      "end": 31.02,
+      "text": " Voilà, on peut les semer ici.",
+      "tokens": [
+        50365,
+        18677,
+        11,
+        322,
+        5977,
+        1512,
+        369,
+        936,
+        11575,
+        13,
+        50440
+      ],
+      "avg_logprob": -0.29121172179778415,
+      "compression_ratio": 0.7894736842105263,
+      "no_speech_prob": 1.3426914094449849e-11,
+      "words": [
+        {
+          "start": 29.56,
+          "end": 29.96,
+          "word": " Voilà,",
+          "probability": 0.24348044395446777
+        },
+        {
+          "start": 30.16,
+          "end": 30.24,
+          "word": " on",
+          "probability": 0.9973885416984558
+        },
+        {
+          "start": 30.24,
+          "end": 30.38,
+          "word": " peut",
+          "probability": 0.9963216781616211
+        },
+        {
+          "start": 30.38,
+          "end": 30.5,
+          "word": " les",
+          "probability": 0.9923487901687622
+        },
+        {
+          "start": 30.5,
+          "end": 30.78,
+          "word": " semer",
+          "probability": 0.9965423047542572
+        },
+        {
+          "start": 30.78,
+          "end": 31.02,
+          "word": " ici.",
+          "probability": 0.9805110096931458
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

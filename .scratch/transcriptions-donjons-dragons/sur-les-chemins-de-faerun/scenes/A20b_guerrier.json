@@ -1,0 +1,782 @@
+{
+  "scene": "A20b_guerrier",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A20b_guerrier.mp3",
+  "sha256": "136b0f187cf0ba9744137955cbc875c2efbca5c35d04aab9ef9805999280eb46",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 31.279125,
+  "text": "Voilà un moment que tu attendais l'occasion de combattre. Mais cette première fois risque aussi d'être la dernière. Tu tires ton épée et te mets en garde, dans ta posture de combat habituelle. Tu n'auras qu'une seule chance pour frapper le dragon quand il sera à ta portée. Et tu as bien l'intention qu'il s'en souvienne. Tu portes un coup alors que la créature fond sur toi. Tu crois avoir bien visé, sauf que tu n'as frappé que le vide.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.78,
+      "end": 3.68,
+      "text": " Voilà un moment que tu attendais l'occasion de combattre.",
+      "tokens": [
+        50365,
+        18677,
+        517,
+        1623,
+        631,
+        2604,
+        6888,
+        1527,
+        287,
+        6,
+        43280,
+        6822,
+        368,
+        2512,
+        1591,
+        265,
+        13,
+        50512
+      ],
+      "avg_logprob": -0.09987583383917809,
+      "compression_ratio": 1.6093189964157706,
+      "no_speech_prob": 7.303739210651194e-12,
+      "words": [
+        {
+          "start": 0.78,
+          "end": 1.42,
+          "word": " Voilà",
+          "probability": 0.9332900643348694
+        },
+        {
+          "start": 1.42,
+          "end": 1.6,
+          "word": " un",
+          "probability": 0.9997275471687317
+        },
+        {
+          "start": 1.6,
+          "end": 1.88,
+          "word": " moment",
+          "probability": 0.9999421834945679
+        },
+        {
+          "start": 1.88,
+          "end": 2.04,
+          "word": " que",
+          "probability": 0.9992139339447021
+        },
+        {
+          "start": 2.04,
+          "end": 2.2,
+          "word": " tu",
+          "probability": 0.999893307685852
+        },
+        {
+          "start": 2.2,
+          "end": 2.6,
+          "word": " attendais",
+          "probability": 0.995958536863327
+        },
+        {
+          "start": 2.6,
+          "end": 2.74,
+          "word": " l",
+          "probability": 0.9986019730567932
+        },
+        {
+          "start": 2.74,
+          "end": 3.04,
+          "word": "'occasion",
+          "probability": 0.9998460014661154
+        },
+        {
+          "start": 3.04,
+          "end": 3.18,
+          "word": " de",
+          "probability": 0.9999511241912842
+        },
+        {
+          "start": 3.18,
+          "end": 3.68,
+          "word": " combattre.",
+          "probability": 0.9998741149902344
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.14,
+      "end": 7.0,
+      "text": " Mais cette première fois risque aussi d'être la dernière.",
+      "tokens": [
+        50545,
+        6313,
+        5550,
+        17872,
+        9576,
+        37574,
+        6212,
+        274,
+        6,
+        9498,
+        635,
+        29028,
+        13,
+        50681
+      ],
+      "avg_logprob": -0.09987583383917809,
+      "compression_ratio": 1.6093189964157706,
+      "no_speech_prob": 7.303739210651194e-12,
+      "words": [
+        {
+          "start": 4.14,
+          "end": 4.62,
+          "word": " Mais",
+          "probability": 0.999776303768158
+        },
+        {
+          "start": 4.62,
+          "end": 4.86,
+          "word": " cette",
+          "probability": 0.9998522996902466
+        },
+        {
+          "start": 4.86,
+          "end": 5.22,
+          "word": " première",
+          "probability": 0.9996910095214844
+        },
+        {
+          "start": 5.22,
+          "end": 5.5,
+          "word": " fois",
+          "probability": 0.9998670816421509
+        },
+        {
+          "start": 5.5,
+          "end": 5.86,
+          "word": " risque",
+          "probability": 0.9997863173484802
+        },
+        {
+          "start": 5.86,
+          "end": 6.22,
+          "word": " aussi",
+          "probability": 0.9996086955070496
+        },
+        {
+          "start": 6.22,
+          "end": 6.38,
+          "word": " d",
+          "probability": 0.9998193383216858
+        },
+        {
+          "start": 6.38,
+          "end": 6.5,
+          "word": "'être",
+          "probability": 0.9999464750289917
+        },
+        {
+          "start": 6.5,
+          "end": 6.68,
+          "word": " la",
+          "probability": 0.9998069405555725
+        },
+        {
+          "start": 6.68,
+          "end": 7.0,
+          "word": " dernière.",
+          "probability": 0.9997755885124207
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.02,
+      "end": 12.34,
+      "text": " Tu tires ton épée et te mets en garde, dans ta posture de combat habituelle.",
+      "tokens": [
+        50729,
+        7836,
+        13885,
+        2952,
+        21018,
+        3856,
+        1030,
+        535,
+        37231,
+        465,
+        47903,
+        11,
+        2680,
+        1846,
+        18502,
+        368,
+        8361,
+        7164,
+        23635,
+        13,
+        50944
+      ],
+      "avg_logprob": -0.09987583383917809,
+      "compression_ratio": 1.6093189964157706,
+      "no_speech_prob": 7.303739210651194e-12,
+      "words": [
+        {
+          "start": 8.02,
+          "end": 8.5,
+          "word": " Tu",
+          "probability": 0.9991557598114014
+        },
+        {
+          "start": 8.5,
+          "end": 8.78,
+          "word": " tires",
+          "probability": 0.9950979351997375
+        },
+        {
+          "start": 8.78,
+          "end": 8.98,
+          "word": " ton",
+          "probability": 0.9994321465492249
+        },
+        {
+          "start": 8.98,
+          "end": 9.3,
+          "word": " épée",
+          "probability": 0.9969057440757751
+        },
+        {
+          "start": 9.3,
+          "end": 9.54,
+          "word": " et",
+          "probability": 0.9992085099220276
+        },
+        {
+          "start": 9.54,
+          "end": 9.68,
+          "word": " te",
+          "probability": 0.999638557434082
+        },
+        {
+          "start": 9.68,
+          "end": 9.84,
+          "word": " mets",
+          "probability": 0.9946492314338684
+        },
+        {
+          "start": 9.84,
+          "end": 9.98,
+          "word": " en",
+          "probability": 0.9999727010726929
+        },
+        {
+          "start": 9.98,
+          "end": 10.3,
+          "word": " garde,",
+          "probability": 0.9998798370361328
+        },
+        {
+          "start": 10.44,
+          "end": 10.74,
+          "word": " dans",
+          "probability": 0.9998654127120972
+        },
+        {
+          "start": 10.74,
+          "end": 10.92,
+          "word": " ta",
+          "probability": 0.9998559951782227
+        },
+        {
+          "start": 10.92,
+          "end": 11.28,
+          "word": " posture",
+          "probability": 0.9997989535331726
+        },
+        {
+          "start": 11.28,
+          "end": 11.46,
+          "word": " de",
+          "probability": 0.9998487234115601
+        },
+        {
+          "start": 11.46,
+          "end": 11.76,
+          "word": " combat",
+          "probability": 0.9997895359992981
+        },
+        {
+          "start": 11.76,
+          "end": 12.34,
+          "word": " habituelle.",
+          "probability": 0.9867139756679535
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.9,
+      "end": 16.62,
+      "text": " Tu n'auras qu'une seule chance pour frapper le dragon quand il sera à ta portée.",
+      "tokens": [
+        50990,
+        7836,
+        297,
+        6,
+        3463,
+        296,
+        421,
+        6,
+        2613,
+        18800,
+        2931,
+        2016,
+        6600,
+        3717,
+        476,
+        12165,
+        6932,
+        1930,
+        15021,
+        1531,
+        1846,
+        2436,
+        3856,
+        13,
+        51157
+      ],
+      "avg_logprob": -0.09987583383917809,
+      "compression_ratio": 1.6093189964157706,
+      "no_speech_prob": 7.303739210651194e-12,
+      "words": [
+        {
+          "start": 12.9,
+          "end": 13.38,
+          "word": " Tu",
+          "probability": 0.9994398951530457
+        },
+        {
+          "start": 13.38,
+          "end": 13.48,
+          "word": " n",
+          "probability": 0.9999798536300659
+        },
+        {
+          "start": 13.48,
+          "end": 13.66,
+          "word": "'auras",
+          "probability": 0.9972301920255026
+        },
+        {
+          "start": 13.66,
+          "end": 13.82,
+          "word": " qu",
+          "probability": 0.9999171495437622
+        },
+        {
+          "start": 13.82,
+          "end": 13.94,
+          "word": "'une",
+          "probability": 0.9999346733093262
+        },
+        {
+          "start": 13.94,
+          "end": 14.14,
+          "word": " seule",
+          "probability": 0.9998447895050049
+        },
+        {
+          "start": 14.14,
+          "end": 14.46,
+          "word": " chance",
+          "probability": 0.9991175532341003
+        },
+        {
+          "start": 14.46,
+          "end": 14.62,
+          "word": " pour",
+          "probability": 0.9988551139831543
+        },
+        {
+          "start": 14.62,
+          "end": 14.92,
+          "word": " frapper",
+          "probability": 0.999174565076828
+        },
+        {
+          "start": 14.92,
+          "end": 15.06,
+          "word": " le",
+          "probability": 0.9996763467788696
+        },
+        {
+          "start": 15.06,
+          "end": 15.34,
+          "word": " dragon",
+          "probability": 0.9987442493438721
+        },
+        {
+          "start": 15.34,
+          "end": 15.6,
+          "word": " quand",
+          "probability": 0.9957877993583679
+        },
+        {
+          "start": 15.6,
+          "end": 15.76,
+          "word": " il",
+          "probability": 0.9999797344207764
+        },
+        {
+          "start": 15.76,
+          "end": 16.02,
+          "word": " sera",
+          "probability": 0.9995518326759338
+        },
+        {
+          "start": 16.02,
+          "end": 16.18,
+          "word": " à",
+          "probability": 0.9997517466545105
+        },
+        {
+          "start": 16.18,
+          "end": 16.24,
+          "word": " ta",
+          "probability": 0.9995456337928772
+        },
+        {
+          "start": 16.24,
+          "end": 16.62,
+          "word": " portée.",
+          "probability": 0.9994103014469147
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 16.96,
+      "end": 19.28,
+      "text": " Et tu as bien l'intention qu'il s'en souvienne.",
+      "tokens": [
+        51190,
+        3790,
+        2604,
+        382,
+        3610,
+        287,
+        6,
+        686,
+        1251,
+        421,
+        6,
+        388,
+        262,
+        6,
+        268,
+        6926,
+        85,
+        21262,
+        13,
+        51291
+      ],
+      "avg_logprob": -0.09987583383917809,
+      "compression_ratio": 1.6093189964157706,
+      "no_speech_prob": 7.303739210651194e-12,
+      "words": [
+        {
+          "start": 16.96,
+          "end": 17.38,
+          "word": " Et",
+          "probability": 0.9993139505386353
+        },
+        {
+          "start": 17.38,
+          "end": 17.54,
+          "word": " tu",
+          "probability": 0.9997313618659973
+        },
+        {
+          "start": 17.54,
+          "end": 17.68,
+          "word": " as",
+          "probability": 0.9995991587638855
+        },
+        {
+          "start": 17.68,
+          "end": 17.96,
+          "word": " bien",
+          "probability": 0.9998177886009216
+        },
+        {
+          "start": 17.96,
+          "end": 18.14,
+          "word": " l",
+          "probability": 0.9986020922660828
+        },
+        {
+          "start": 18.14,
+          "end": 18.48,
+          "word": "'intention",
+          "probability": 0.9995290239651998
+        },
+        {
+          "start": 18.48,
+          "end": 18.64,
+          "word": " qu",
+          "probability": 0.9988313317298889
+        },
+        {
+          "start": 18.64,
+          "end": 18.72,
+          "word": "'il",
+          "probability": 0.9973346292972565
+        },
+        {
+          "start": 18.72,
+          "end": 18.84,
+          "word": " s",
+          "probability": 0.999914288520813
+        },
+        {
+          "start": 18.84,
+          "end": 18.88,
+          "word": "'en",
+          "probability": 0.9999669194221497
+        },
+        {
+          "start": 18.88,
+          "end": 19.28,
+          "word": " souvienne.",
+          "probability": 0.999315063158671
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 20.12,
+      "end": 23.08,
+      "text": " Tu portes un coup alors que la créature fond sur toi.",
+      "tokens": [
+        51337,
+        7836,
+        2436,
+        279,
+        517,
+        8682,
+        11246,
+        631,
+        635,
+        15609,
+        1503,
+        9557,
+        1022,
+        15648,
+        13,
+        51481
+      ],
+      "avg_logprob": -0.09987583383917809,
+      "compression_ratio": 1.6093189964157706,
+      "no_speech_prob": 7.303739210651194e-12,
+      "words": [
+        {
+          "start": 20.12,
+          "end": 20.6,
+          "word": " Tu",
+          "probability": 0.998779833316803
+        },
+        {
+          "start": 20.6,
+          "end": 20.96,
+          "word": " portes",
+          "probability": 0.9981675744056702
+        },
+        {
+          "start": 20.96,
+          "end": 21.06,
+          "word": " un",
+          "probability": 0.9988394379615784
+        },
+        {
+          "start": 21.06,
+          "end": 21.22,
+          "word": " coup",
+          "probability": 0.9987605810165405
+        },
+        {
+          "start": 21.22,
+          "end": 21.48,
+          "word": " alors",
+          "probability": 0.9974769949913025
+        },
+        {
+          "start": 21.48,
+          "end": 21.72,
+          "word": " que",
+          "probability": 0.9999372959136963
+        },
+        {
+          "start": 21.72,
+          "end": 21.86,
+          "word": " la",
+          "probability": 0.9997974038124084
+        },
+        {
+          "start": 21.86,
+          "end": 22.42,
+          "word": " créature",
+          "probability": 0.9998553693294525
+        },
+        {
+          "start": 22.42,
+          "end": 22.66,
+          "word": " fond",
+          "probability": 0.9849667549133301
+        },
+        {
+          "start": 22.66,
+          "end": 22.86,
+          "word": " sur",
+          "probability": 0.9489501118659973
+        },
+        {
+          "start": 22.86,
+          "end": 23.08,
+          "word": " toi.",
+          "probability": 0.9993446469306946
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 23.78,
+      "end": 27.72,
+      "text": " Tu crois avoir bien visé, sauf que tu n'as frappé que le vide.",
+      "tokens": [
+        51529,
+        7836,
+        21724,
+        10853,
+        3610,
+        1452,
+        526,
+        11,
+        601,
+        2947,
+        631,
+        2604,
+        297,
+        6,
+        296,
+        6600,
+        427,
+        526,
+        631,
+        476,
+        838,
+        13,
+        51713
+      ],
+      "avg_logprob": -0.09987583383917809,
+      "compression_ratio": 1.6093189964157706,
+      "no_speech_prob": 7.303739210651194e-12,
+      "words": [
+        {
+          "start": 23.78,
+          "end": 24.26,
+          "word": " Tu",
+          "probability": 0.9978798627853394
+        },
+        {
+          "start": 24.26,
+          "end": 24.48,
+          "word": " crois",
+          "probability": 0.9896770715713501
+        },
+        {
+          "start": 24.48,
+          "end": 24.72,
+          "word": " avoir",
+          "probability": 0.999421238899231
+        },
+        {
+          "start": 24.72,
+          "end": 24.96,
+          "word": " bien",
+          "probability": 0.9997456669807434
+        },
+        {
+          "start": 24.96,
+          "end": 25.34,
+          "word": " visé,",
+          "probability": 0.9979421496391296
+        },
+        {
+          "start": 25.68,
+          "end": 25.98,
+          "word": " sauf",
+          "probability": 0.9992558658123016
+        },
+        {
+          "start": 25.98,
+          "end": 26.2,
+          "word": " que",
+          "probability": 0.999970555305481
+        },
+        {
+          "start": 26.2,
+          "end": 26.54,
+          "word": " tu",
+          "probability": 0.9858074188232422
+        },
+        {
+          "start": 26.54,
+          "end": 26.66,
+          "word": " n",
+          "probability": 0.9918881058692932
+        },
+        {
+          "start": 26.66,
+          "end": 26.74,
+          "word": "'as",
+          "probability": 0.9996879696846008
+        },
+        {
+          "start": 26.74,
+          "end": 27.14,
+          "word": " frappé",
+          "probability": 0.998262902100881
+        },
+        {
+          "start": 27.14,
+          "end": 27.3,
+          "word": " que",
+          "probability": 0.9995959401130676
+        },
+        {
+          "start": 27.3,
+          "end": 27.44,
+          "word": " le",
+          "probability": 0.999771773815155
+        },
+        {
+          "start": 27.44,
+          "end": 27.72,
+          "word": " vide.",
+          "probability": 0.9987415671348572
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

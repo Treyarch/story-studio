@@ -1,0 +1,52 @@
+{
+  "scene": "A20b_list_ch2_b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A20b_list_ch2_b.mp3",
+  "sha256": "022ab41ce653e3a2c2a5f14fb98bbdf7ada252d43257e126ef8b4b4bdc5561eb",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.7539375,
+  "text": "Lancez un sort.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.6,
+      "end": 1.4,
+      "text": " Lancez un sort.",
+      "tokens": [
+        50365,
+        40493,
+        89,
+        517,
+        1333,
+        13,
+        50429
+      ],
+      "avg_logprob": -0.33581243082880974,
+      "compression_ratio": 0.6521739130434783,
+      "no_speech_prob": 5.7118606719419596e-12,
+      "words": [
+        {
+          "start": 0.6,
+          "end": 1.02,
+          "word": " Lancez",
+          "probability": 0.8494744598865509
+        },
+        {
+          "start": 1.02,
+          "end": 1.16,
+          "word": " un",
+          "probability": 0.9987908005714417
+        },
+        {
+          "start": 1.16,
+          "end": 1.4,
+          "word": " sort.",
+          "probability": 0.9980564117431641
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

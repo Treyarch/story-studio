@@ -1,0 +1,60 @@
+{
+  "scene": "A26e_chapitre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A26e_chapitre-fr_FR.mp3",
+  "sha256": "a37e5e253de49ee4b151a8e82259841b50723c7da3a55daada91abf0b4fbaae2",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.5241875,
+  "text": "La tanière des Entes",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.94,
+      "text": " La tanière des Entes",
+      "tokens": [
+        50365,
+        2369,
+        256,
+        3782,
+        4212,
+        730,
+        3951,
+        279,
+        50462
+      ],
+      "avg_logprob": -0.41160192489624026,
+      "compression_ratio": 0.7241379310344828,
+      "no_speech_prob": 5.6790323312017055e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.6,
+          "word": " La",
+          "probability": 0.7624813914299011
+        },
+        {
+          "start": 0.6,
+          "end": 1.18,
+          "word": " tanière",
+          "probability": 0.8795303503672282
+        },
+        {
+          "start": 1.18,
+          "end": 1.44,
+          "word": " des",
+          "probability": 0.9991998076438904
+        },
+        {
+          "start": 1.44,
+          "end": 1.94,
+          "word": " Entes",
+          "probability": 0.7730066180229187
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

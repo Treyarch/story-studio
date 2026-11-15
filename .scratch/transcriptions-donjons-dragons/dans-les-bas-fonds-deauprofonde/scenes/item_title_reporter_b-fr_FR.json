@@ -1,0 +1,63 @@
+{
+  "scene": "item_title_reporter_b-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_reporter_b-fr_FR.mp3",
+  "sha256": "09c1b206edd1c789d3ac602c51cfcf27588e856df13cdae880d5e8aaf0a3ac80",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.572875,
+  "text": "ton insigne d'indépendance.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.97,
+      "text": " ton insigne d'indépendance.",
+      "tokens": [
+        50365,
+        2952,
+        1028,
+        26341,
+        274,
+        6,
+        471,
+        16171,
+        521,
+        719,
+        13,
+        50462
+      ],
+      "avg_logprob": -0.14660035646878755,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 3.947835981732428e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.49,
+          "word": " ton",
+          "probability": 0.7174736857414246
+        },
+        {
+          "start": 0.49,
+          "end": 1.09,
+          "word": " insigne",
+          "probability": 0.98784539103508
+        },
+        {
+          "start": 1.09,
+          "end": 1.27,
+          "word": " d",
+          "probability": 0.9996945858001709
+        },
+        {
+          "start": 1.27,
+          "end": 1.97,
+          "word": "'indépendance.",
+          "probability": 0.9997931361198426
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

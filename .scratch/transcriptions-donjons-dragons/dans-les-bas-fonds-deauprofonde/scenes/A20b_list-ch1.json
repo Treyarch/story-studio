@@ -1,0 +1,61 @@
+{
+  "scene": "A20b_list-ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A20b_list-ch1.mp3",
+  "sha256": "c1dd7b53e7d4f6cd2379ad3f1665314e2a37c6012f80b7b3802494fc8dc82798",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.671,
+  "text": "Tu crochettes la serrure.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.53,
+      "end": 2.09,
+      "text": " Tu crochettes la serrure.",
+      "tokens": [
+        50365,
+        7836,
+        8191,
+        16049,
+        635,
+        816,
+        81,
+        540,
+        13,
+        50443
+      ],
+      "avg_logprob": -0.29754459857940674,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 5.130289856131176e-12,
+      "words": [
+        {
+          "start": 0.53,
+          "end": 0.97,
+          "word": " Tu",
+          "probability": 0.7310371398925781
+        },
+        {
+          "start": 0.97,
+          "end": 1.45,
+          "word": " crochettes",
+          "probability": 0.7685691118240356
+        },
+        {
+          "start": 1.45,
+          "end": 1.63,
+          "word": " la",
+          "probability": 0.999639630317688
+        },
+        {
+          "start": 1.63,
+          "end": 2.09,
+          "word": " serrure.",
+          "probability": 0.99858025709788
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "scene": "IN1b_list_ch6",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/IN1b_list_ch6.mp3",
+  "sha256": "f89eae2f3eca1bdf2f6162a32d1e0c11aff31cfcebd3c4ea53ade8e52c690eee",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.546375,
+  "text": "Magicien",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 0.96,
+      "text": " Magicien",
+      "tokens": [
+        50365,
+        16154,
+        1053,
+        50413
+      ],
+      "avg_logprob": -0.42664618492126466,
+      "compression_ratio": 0.5,
+      "no_speech_prob": 4.1525277140463945e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.96,
+          "word": " Magicien",
+          "probability": 0.8192944824695587
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

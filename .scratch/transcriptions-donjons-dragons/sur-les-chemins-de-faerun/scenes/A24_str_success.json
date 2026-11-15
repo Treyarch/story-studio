@@ -1,0 +1,920 @@
+{
+  "scene": "A24_str_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A24_str_success.mp3",
+  "sha256": "c659be6cb14c7d8a8d22c2a0159e81380314739587413d8c8e66f5e047b085a4",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 36.6160625,
+  "text": "En un rien de temps, tu débites le tronc en un tas de bûches que tu emportes l'une après l'autre sur ton épaule jusqu'à la tanière du dragon, avant de les empiler autour de l'œuf. Tu ajoutes aussi beaucoup de petits bois et de feuilles séchées. Avec de silex, tu mets le feu aux feuilles. Bientôt, un âtre incandescent entoure l'œuf et les grosses bûches commencent à prendre. Aspine semble un peu tendue devant les flammes qui s'élèvent. Mais elle te tapote l'épaule en te félicitant Comme un peu plus tôt Bravo",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.42,
+      "end": 10.04,
+      "text": " En un rien de temps, tu débites le tronc en un tas de bûches que tu emportes l'une après l'autre sur ton épaule jusqu'à la tanière du dragon,",
+      "tokens": [
+        50365,
+        2193,
+        517,
+        13355,
+        368,
+        8827,
+        11,
+        2604,
+        2795,
+        5260,
+        279,
+        476,
+        504,
+        266,
+        66,
+        465,
+        517,
+        8023,
+        368,
+        272,
+        8879,
+        3781,
+        631,
+        2604,
+        846,
+        2707,
+        279,
+        287,
+        6,
+        2613,
+        13274,
+        287,
+        6,
+        19702,
+        1022,
+        2952,
+        21018,
+        1459,
+        306,
+        20340,
+        6,
+        1467,
+        635,
+        256,
+        3782,
+        4212,
+        1581,
+        12165,
+        11,
+        50796
+      ],
+      "avg_logprob": -0.08762907310339965,
+      "compression_ratio": 1.5494880546075085,
+      "no_speech_prob": 6.401941910622044e-12,
+      "words": [
+        {
+          "start": 1.42,
+          "end": 1.92,
+          "word": " En",
+          "probability": 0.9964175224304199
+        },
+        {
+          "start": 1.92,
+          "end": 2.08,
+          "word": " un",
+          "probability": 0.9996901750564575
+        },
+        {
+          "start": 2.08,
+          "end": 2.26,
+          "word": " rien",
+          "probability": 0.9979159235954285
+        },
+        {
+          "start": 2.26,
+          "end": 2.46,
+          "word": " de",
+          "probability": 0.9997929930686951
+        },
+        {
+          "start": 2.46,
+          "end": 2.64,
+          "word": " temps,",
+          "probability": 0.9995347261428833
+        },
+        {
+          "start": 3.24,
+          "end": 3.36,
+          "word": " tu",
+          "probability": 0.999671220779419
+        },
+        {
+          "start": 3.36,
+          "end": 3.82,
+          "word": " débites",
+          "probability": 0.793262779712677
+        },
+        {
+          "start": 3.82,
+          "end": 3.98,
+          "word": " le",
+          "probability": 0.9998683929443359
+        },
+        {
+          "start": 3.98,
+          "end": 4.22,
+          "word": " tronc",
+          "probability": 0.9982328216234843
+        },
+        {
+          "start": 4.22,
+          "end": 4.48,
+          "word": " en",
+          "probability": 0.999868631362915
+        },
+        {
+          "start": 4.48,
+          "end": 4.72,
+          "word": " un",
+          "probability": 0.9999556541442871
+        },
+        {
+          "start": 4.72,
+          "end": 4.82,
+          "word": " tas",
+          "probability": 0.999943733215332
+        },
+        {
+          "start": 4.82,
+          "end": 5.0,
+          "word": " de",
+          "probability": 0.9999821186065674
+        },
+        {
+          "start": 5.0,
+          "end": 5.34,
+          "word": " bûches",
+          "probability": 0.9988383054733276
+        },
+        {
+          "start": 5.34,
+          "end": 5.5,
+          "word": " que",
+          "probability": 0.9994786381721497
+        },
+        {
+          "start": 5.5,
+          "end": 5.7,
+          "word": " tu",
+          "probability": 0.9999855756759644
+        },
+        {
+          "start": 5.7,
+          "end": 6.34,
+          "word": " emportes",
+          "probability": 0.9976850152015686
+        },
+        {
+          "start": 6.34,
+          "end": 6.54,
+          "word": " l",
+          "probability": 0.9999403953552246
+        },
+        {
+          "start": 6.54,
+          "end": 6.64,
+          "word": "'une",
+          "probability": 0.9997805953025818
+        },
+        {
+          "start": 6.64,
+          "end": 6.88,
+          "word": " après",
+          "probability": 0.9999285936355591
+        },
+        {
+          "start": 6.88,
+          "end": 7.02,
+          "word": " l",
+          "probability": 0.999983549118042
+        },
+        {
+          "start": 7.02,
+          "end": 7.2,
+          "word": "'autre",
+          "probability": 0.9999298453330994
+        },
+        {
+          "start": 7.2,
+          "end": 7.46,
+          "word": " sur",
+          "probability": 0.9999287128448486
+        },
+        {
+          "start": 7.46,
+          "end": 7.64,
+          "word": " ton",
+          "probability": 0.9999381303787231
+        },
+        {
+          "start": 7.64,
+          "end": 8.12,
+          "word": " épaule",
+          "probability": 0.998106320699056
+        },
+        {
+          "start": 8.12,
+          "end": 8.82,
+          "word": " jusqu",
+          "probability": 0.9324685335159302
+        },
+        {
+          "start": 8.82,
+          "end": 9.06,
+          "word": "'à",
+          "probability": 0.9999812841415405
+        },
+        {
+          "start": 9.06,
+          "end": 9.22,
+          "word": " la",
+          "probability": 0.9999732971191406
+        },
+        {
+          "start": 9.22,
+          "end": 9.58,
+          "word": " tanière",
+          "probability": 0.9931977788607279
+        },
+        {
+          "start": 9.58,
+          "end": 9.72,
+          "word": " du",
+          "probability": 0.9999569654464722
+        },
+        {
+          "start": 9.72,
+          "end": 10.04,
+          "word": " dragon,",
+          "probability": 0.9995566010475159
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 10.42,
+      "end": 12.6,
+      "text": " avant de les empiler autour de l'œuf.",
+      "tokens": [
+        50826,
+        13439,
+        368,
+        1512,
+        4012,
+        5441,
+        30249,
+        368,
+        287,
+        6,
+        34073,
+        2947,
+        13,
+        50924
+      ],
+      "avg_logprob": -0.08762907310339965,
+      "compression_ratio": 1.5494880546075085,
+      "no_speech_prob": 6.401941910622044e-12,
+      "words": [
+        {
+          "start": 10.42,
+          "end": 10.9,
+          "word": " avant",
+          "probability": 0.9998822212219238
+        },
+        {
+          "start": 10.9,
+          "end": 11.08,
+          "word": " de",
+          "probability": 0.9999967813491821
+        },
+        {
+          "start": 11.08,
+          "end": 11.22,
+          "word": " les",
+          "probability": 0.999976634979248
+        },
+        {
+          "start": 11.22,
+          "end": 11.68,
+          "word": " empiler",
+          "probability": 0.9996528327465057
+        },
+        {
+          "start": 11.68,
+          "end": 12.12,
+          "word": " autour",
+          "probability": 0.9999551773071289
+        },
+        {
+          "start": 12.12,
+          "end": 12.32,
+          "word": " de",
+          "probability": 0.999886155128479
+        },
+        {
+          "start": 12.32,
+          "end": 12.42,
+          "word": " l",
+          "probability": 0.9999901056289673
+        },
+        {
+          "start": 12.42,
+          "end": 12.6,
+          "word": "'œuf.",
+          "probability": 0.9826513528823853
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 12.86,
+      "end": 16.0,
+      "text": " Tu ajoutes aussi beaucoup de petits bois et de feuilles séchées.",
+      "tokens": [
+        50951,
+        7836,
+        17680,
+        346,
+        279,
+        6212,
+        8796,
+        368,
+        26487,
+        44808,
+        1030,
+        368,
+        29539,
+        14835,
+        7910,
+        339,
+        6836,
+        13,
+        51094
+      ],
+      "avg_logprob": -0.08762907310339965,
+      "compression_ratio": 1.5494880546075085,
+      "no_speech_prob": 6.401941910622044e-12,
+      "words": [
+        {
+          "start": 12.86,
+          "end": 13.34,
+          "word": " Tu",
+          "probability": 0.9997064471244812
+        },
+        {
+          "start": 13.34,
+          "end": 13.7,
+          "word": " ajoutes",
+          "probability": 0.9990986585617065
+        },
+        {
+          "start": 13.7,
+          "end": 13.98,
+          "word": " aussi",
+          "probability": 0.9999864101409912
+        },
+        {
+          "start": 13.98,
+          "end": 14.34,
+          "word": " beaucoup",
+          "probability": 0.9999723434448242
+        },
+        {
+          "start": 14.34,
+          "end": 14.56,
+          "word": " de",
+          "probability": 0.9999910593032837
+        },
+        {
+          "start": 14.56,
+          "end": 14.86,
+          "word": " petits",
+          "probability": 0.9977814555168152
+        },
+        {
+          "start": 14.86,
+          "end": 15.1,
+          "word": " bois",
+          "probability": 0.9996160268783569
+        },
+        {
+          "start": 15.1,
+          "end": 15.24,
+          "word": " et",
+          "probability": 0.9999896287918091
+        },
+        {
+          "start": 15.24,
+          "end": 15.36,
+          "word": " de",
+          "probability": 0.9999656677246094
+        },
+        {
+          "start": 15.36,
+          "end": 15.62,
+          "word": " feuilles",
+          "probability": 0.9994470179080963
+        },
+        {
+          "start": 15.62,
+          "end": 16.0,
+          "word": " séchées.",
+          "probability": 0.9989571372667948
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 16.44,
+      "end": 18.9,
+      "text": " Avec de silex, tu mets le feu aux feuilles.",
+      "tokens": [
+        51128,
+        31720,
+        368,
+        262,
+        794,
+        87,
+        11,
+        2604,
+        37231,
+        476,
+        29539,
+        7865,
+        29539,
+        14835,
+        13,
+        51240
+      ],
+      "avg_logprob": -0.08762907310339965,
+      "compression_ratio": 1.5494880546075085,
+      "no_speech_prob": 6.401941910622044e-12,
+      "words": [
+        {
+          "start": 16.44,
+          "end": 16.92,
+          "word": " Avec",
+          "probability": 0.9996936321258545
+        },
+        {
+          "start": 16.92,
+          "end": 17.1,
+          "word": " de",
+          "probability": 0.9595584869384766
+        },
+        {
+          "start": 17.1,
+          "end": 17.62,
+          "word": " silex,",
+          "probability": 0.9865979353586832
+        },
+        {
+          "start": 17.8,
+          "end": 17.94,
+          "word": " tu",
+          "probability": 0.9999849796295166
+        },
+        {
+          "start": 17.94,
+          "end": 18.08,
+          "word": " mets",
+          "probability": 0.9990646243095398
+        },
+        {
+          "start": 18.08,
+          "end": 18.24,
+          "word": " le",
+          "probability": 0.9999520778656006
+        },
+        {
+          "start": 18.24,
+          "end": 18.42,
+          "word": " feu",
+          "probability": 0.9999325275421143
+        },
+        {
+          "start": 18.42,
+          "end": 18.62,
+          "word": " aux",
+          "probability": 0.9991764426231384
+        },
+        {
+          "start": 18.62,
+          "end": 18.9,
+          "word": " feuilles.",
+          "probability": 0.9998718500137329
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 19.6,
+      "end": 24.9,
+      "text": " Bientôt, un âtre incandescent entoure l'œuf et les grosses bûches commencent à prendre.",
+      "tokens": [
+        51280,
+        363,
+        33844,
+        11,
+        517,
+        20621,
+        3599,
+        834,
+        474,
+        279,
+        2207,
+        948,
+        44283,
+        287,
+        6,
+        34073,
+        2947,
+        1030,
+        1512,
+        11367,
+        279,
+        272,
+        8879,
+        3781,
+        29199,
+        2207,
+        1531,
+        16566,
+        13,
+        51540
+      ],
+      "avg_logprob": -0.08762907310339965,
+      "compression_ratio": 1.5494880546075085,
+      "no_speech_prob": 6.401941910622044e-12,
+      "words": [
+        {
+          "start": 19.6,
+          "end": 20.08,
+          "word": " Bientôt,",
+          "probability": 0.9993186891078949
+        },
+        {
+          "start": 20.32,
+          "end": 20.74,
+          "word": " un",
+          "probability": 0.9998390674591064
+        },
+        {
+          "start": 20.74,
+          "end": 21.04,
+          "word": " âtre",
+          "probability": 0.7980513274669647
+        },
+        {
+          "start": 21.04,
+          "end": 21.92,
+          "word": " incandescent",
+          "probability": 0.9975396692752838
+        },
+        {
+          "start": 21.92,
+          "end": 22.34,
+          "word": " entoure",
+          "probability": 0.997526615858078
+        },
+        {
+          "start": 22.34,
+          "end": 22.48,
+          "word": " l",
+          "probability": 0.9998654127120972
+        },
+        {
+          "start": 22.48,
+          "end": 22.68,
+          "word": "'œuf",
+          "probability": 0.9998860557874044
+        },
+        {
+          "start": 22.68,
+          "end": 23.14,
+          "word": " et",
+          "probability": 0.6726699471473694
+        },
+        {
+          "start": 23.14,
+          "end": 23.32,
+          "word": " les",
+          "probability": 0.9999521970748901
+        },
+        {
+          "start": 23.32,
+          "end": 23.72,
+          "word": " grosses",
+          "probability": 0.9994816184043884
+        },
+        {
+          "start": 23.72,
+          "end": 23.98,
+          "word": " bûches",
+          "probability": 0.9994118014971415
+        },
+        {
+          "start": 23.98,
+          "end": 24.46,
+          "word": " commencent",
+          "probability": 0.9991753995418549
+        },
+        {
+          "start": 24.46,
+          "end": 24.58,
+          "word": " à",
+          "probability": 0.9999018907546997
+        },
+        {
+          "start": 24.58,
+          "end": 24.9,
+          "word": " prendre.",
+          "probability": 0.9973629117012024
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 26.36,
+      "end": 29.4,
+      "text": " Aspine semble un peu tendue devant les flammes qui s'élèvent.",
+      "tokens": [
+        51612,
+        1018,
+        40412,
+        38328,
+        517,
+        5604,
+        3928,
+        622,
+        28982,
+        1512,
+        932,
+        5136,
+        279,
+        1956,
+        262,
+        6,
+        8025,
+        1462,
+        2475,
+        13,
+        51765
+      ],
+      "avg_logprob": -0.08762907310339965,
+      "compression_ratio": 1.5494880546075085,
+      "no_speech_prob": 6.401941910622044e-12,
+      "words": [
+        {
+          "start": 26.36,
+          "end": 26.84,
+          "word": " Aspine",
+          "probability": 0.8201101720333099
+        },
+        {
+          "start": 26.84,
+          "end": 27.28,
+          "word": " semble",
+          "probability": 0.9987375140190125
+        },
+        {
+          "start": 27.28,
+          "end": 27.5,
+          "word": " un",
+          "probability": 0.9999014139175415
+        },
+        {
+          "start": 27.5,
+          "end": 27.64,
+          "word": " peu",
+          "probability": 0.9995282888412476
+        },
+        {
+          "start": 27.64,
+          "end": 28.02,
+          "word": " tendue",
+          "probability": 0.9941200315952301
+        },
+        {
+          "start": 28.02,
+          "end": 28.28,
+          "word": " devant",
+          "probability": 0.9996997117996216
+        },
+        {
+          "start": 28.28,
+          "end": 28.44,
+          "word": " les",
+          "probability": 0.9997609257698059
+        },
+        {
+          "start": 28.44,
+          "end": 28.76,
+          "word": " flammes",
+          "probability": 0.9994288285573324
+        },
+        {
+          "start": 28.76,
+          "end": 28.9,
+          "word": " qui",
+          "probability": 0.9996230602264404
+        },
+        {
+          "start": 28.9,
+          "end": 29.06,
+          "word": " s",
+          "probability": 0.9998111128807068
+        },
+        {
+          "start": 29.06,
+          "end": 29.4,
+          "word": "'élèvent.",
+          "probability": 0.9996649771928787
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 2798,
+      "start": 29.4,
+      "end": 32.64,
+      "text": " Mais elle te tapote l'épaule en te félicitant",
+      "tokens": [
+        50365,
+        6313,
+        8404,
+        535,
+        5119,
+        1370,
+        287,
+        6,
+        16171,
+        1459,
+        306,
+        465,
+        535,
+        34271,
+        1050,
+        270,
+        394,
+        50528
+      ],
+      "avg_logprob": -0.13026143858830133,
+      "compression_ratio": 0.9743589743589743,
+      "no_speech_prob": 4.449331094530384e-12,
+      "words": [
+        {
+          "start": 29.4,
+          "end": 30.3,
+          "word": " Mais",
+          "probability": 0.7564734816551208
+        },
+        {
+          "start": 30.3,
+          "end": 30.52,
+          "word": " elle",
+          "probability": 0.9550251960754395
+        },
+        {
+          "start": 30.52,
+          "end": 30.66,
+          "word": " te",
+          "probability": 0.9997630715370178
+        },
+        {
+          "start": 30.66,
+          "end": 31.04,
+          "word": " tapote",
+          "probability": 0.9993045032024384
+        },
+        {
+          "start": 31.04,
+          "end": 31.16,
+          "word": " l",
+          "probability": 0.9988129138946533
+        },
+        {
+          "start": 31.16,
+          "end": 31.54,
+          "word": "'épaule",
+          "probability": 0.9974021017551422
+        },
+        {
+          "start": 31.54,
+          "end": 31.8,
+          "word": " en",
+          "probability": 0.9664135575294495
+        },
+        {
+          "start": 31.8,
+          "end": 31.98,
+          "word": " te",
+          "probability": 0.9999561309814453
+        },
+        {
+          "start": 31.98,
+          "end": 32.64,
+          "word": " félicitant",
+          "probability": 0.9996302574872971
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 2798,
+      "start": 32.64,
+      "end": 33.96,
+      "text": " Comme un peu plus tôt",
+      "tokens": [
+        50528,
+        24308,
+        517,
+        5604,
+        1804,
+        256,
+        8775,
+        50592
+      ],
+      "avg_logprob": -0.13026143858830133,
+      "compression_ratio": 0.9743589743589743,
+      "no_speech_prob": 4.449331094530384e-12,
+      "words": [
+        {
+          "start": 32.64,
+          "end": 33.22,
+          "word": " Comme",
+          "probability": 0.26416242122650146
+        },
+        {
+          "start": 33.22,
+          "end": 33.4,
+          "word": " un",
+          "probability": 0.9998950958251953
+        },
+        {
+          "start": 33.4,
+          "end": 33.5,
+          "word": " peu",
+          "probability": 0.9996340274810791
+        },
+        {
+          "start": 33.5,
+          "end": 33.74,
+          "word": " plus",
+          "probability": 0.9998283386230469
+        },
+        {
+          "start": 33.74,
+          "end": 33.96,
+          "word": " tôt",
+          "probability": 0.9998475015163422
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2798,
+      "start": 33.96,
+      "end": 34.48,
+      "text": " Bravo",
+      "tokens": [
+        50592,
+        28861,
+        50624
+      ],
+      "avg_logprob": -0.13026143858830133,
+      "compression_ratio": 0.9743589743589743,
+      "no_speech_prob": 4.449331094530384e-12,
+      "words": [
+        {
+          "start": 33.96,
+          "end": 34.48,
+          "word": " Bravo",
+          "probability": 0.9402558207511902
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

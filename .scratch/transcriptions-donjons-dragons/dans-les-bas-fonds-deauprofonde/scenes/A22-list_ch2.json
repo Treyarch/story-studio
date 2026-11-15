@@ -1,0 +1,65 @@
+{
+  "scene": "A22-list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A22-list_ch2.mp3",
+  "sha256": "12fe7a740d4a42d7870f4efa1eb8d4cc230cd34b855b549721499a008bb0562a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.8085,
+  "text": "Tu fais comme chez toi.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.21,
+      "text": " Tu fais comme chez toi.",
+      "tokens": [
+        50365,
+        7836,
+        12153,
+        5173,
+        17855,
+        15648,
+        13,
+        50423
+      ],
+      "avg_logprob": -0.15837679968939888,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 3.862973742968512e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.47,
+          "word": " Tu",
+          "probability": 0.8591016530990601
+        },
+        {
+          "start": 0.47,
+          "end": 0.63,
+          "word": " fais",
+          "probability": 0.9996029734611511
+        },
+        {
+          "start": 0.63,
+          "end": 0.85,
+          "word": " comme",
+          "probability": 0.9999334812164307
+        },
+        {
+          "start": 0.85,
+          "end": 0.99,
+          "word": " chez",
+          "probability": 0.9936935305595398
+        },
+        {
+          "start": 0.99,
+          "end": 1.21,
+          "word": " toi.",
+          "probability": 0.9997647404670715
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "scene": "title_card_d-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/title_card_d-fr_FR.mp3",
+  "sha256": "6d158c501b880e42fc6b1f632f4336f53e8e95e8b46b992e90c1cb286743a9e1",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.04125,
+  "text": "Eauprofonde, la mystérieuse.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 2.4,
+      "text": " Eauprofonde, la mystérieuse.",
+      "tokens": [
+        50365,
+        12160,
+        1740,
+        7259,
+        11,
+        635,
+        9111,
+        10746,
+        438,
+        13,
+        50484
+      ],
+      "avg_logprob": -0.16835538297891617,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 5.885374219222195e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.54,
+          "word": " Au",
+          "probability": 0.8755954504013062
+        },
+        {
+          "start": 0.54,
+          "end": 1.1,
+          "word": " profonde,",
+          "probability": 0.7855298221111298
+        },
+        {
+          "start": 1.36,
+          "end": 1.5,
+          "word": " la",
+          "probability": 0.9800870418548584
+        },
+        {
+          "start": 1.5,
+          "end": 2.4,
+          "word": " mystérieuse.",
+          "probability": 0.9951180020968119
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "scene": "B73_list_ch6",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B73_list_ch6.mp3",
+  "sha256": "952fb73443707e42be9bb876d8c412ca8592ceedc5b74c9995d6e6556f9eaf61",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.2476875,
+  "text": "Tu décoches une flèche.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.65,
+      "text": " Tu décoches une flèche.",
+      "tokens": [
+        50365,
+        7836,
+        2795,
+        1291,
+        3781,
+        2251,
+        932,
+        1462,
+        1876,
+        13,
+        50445
+      ],
+      "avg_logprob": -0.23253572980562845,
+      "compression_ratio": 0.78125,
+      "no_speech_prob": 4.8548617383181725e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.53,
+          "word": " Tu",
+          "probability": 0.8420454859733582
+        },
+        {
+          "start": 0.53,
+          "end": 1.05,
+          "word": " décoches",
+          "probability": 0.9977479775746664
+        },
+        {
+          "start": 1.05,
+          "end": 1.21,
+          "word": " une",
+          "probability": 0.9995984435081482
+        },
+        {
+          "start": 1.21,
+          "end": 1.65,
+          "word": " flèche.",
+          "probability": 0.9993741114934286
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

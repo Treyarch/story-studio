@@ -1,0 +1,103 @@
+{
+  "scene": "item_cape-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_cape-fr_FR.mp3",
+  "sha256": "d958915d5a7c5f7da6252ea52e59a6fe1b34722f7a2ee32f934fb56372f2391f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 4.28375,
+  "text": "Un cadeau de grande valeur dont il faudra prendre soin.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 3.53,
+      "text": " Un cadeau de grande valeur dont il faudra prendre soin.",
+      "tokens": [
+        50365,
+        1156,
+        37571,
+        1459,
+        368,
+        8883,
+        45255,
+        9400,
+        1930,
+        38694,
+        424,
+        16566,
+        370,
+        259,
+        13,
+        50540
+      ],
+      "avg_logprob": -0.1284065807566923,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 5.844236119351143e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.53,
+          "word": " Un",
+          "probability": 0.6819026470184326
+        },
+        {
+          "start": 0.53,
+          "end": 0.93,
+          "word": " cadeau",
+          "probability": 0.999925434589386
+        },
+        {
+          "start": 0.93,
+          "end": 1.07,
+          "word": " de",
+          "probability": 0.9999456405639648
+        },
+        {
+          "start": 1.07,
+          "end": 1.35,
+          "word": " grande",
+          "probability": 0.9926770925521851
+        },
+        {
+          "start": 1.35,
+          "end": 1.77,
+          "word": " valeur",
+          "probability": 0.9997223019599915
+        },
+        {
+          "start": 1.77,
+          "end": 2.29,
+          "word": " dont",
+          "probability": 0.8435845971107483
+        },
+        {
+          "start": 2.29,
+          "end": 2.51,
+          "word": " il",
+          "probability": 0.9999662637710571
+        },
+        {
+          "start": 2.51,
+          "end": 2.87,
+          "word": " faudra",
+          "probability": 0.9999592900276184
+        },
+        {
+          "start": 2.87,
+          "end": 3.13,
+          "word": " prendre",
+          "probability": 0.999883770942688
+        },
+        {
+          "start": 3.13,
+          "end": 3.53,
+          "word": " soin.",
+          "probability": 0.999882698059082
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "scene": "A11",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A11.mp3",
+  "sha256": "7aeec84de7c268e96db20834ffa75a806a7d601dc32cb1e85822eb40d67bf8cb",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 15.305625,
+  "text": "L'agent est tout seul et tu as déjà échappé à deux autres hommes du guet par la force de tes mollets. Tu ne vois pas pourquoi tu renoncerais à une stratégie payante. Tu te reçures l'agent, mais au dernier moment, tu déris vers la droite.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.91,
+      "end": 6.09,
+      "text": " L'agent est tout seul et tu as déjà échappé à deux autres hommes du guet par la force de tes mollets.",
+      "tokens": [
+        50365,
+        441,
+        6,
+        559,
+        317,
+        871,
+        3486,
+        24448,
+        1030,
+        2604,
+        382,
+        12027,
+        39310,
+        1746,
+        526,
+        1531,
+        8208,
+        17093,
+        34795,
+        1581,
+        695,
+        302,
+        971,
+        635,
+        3464,
+        368,
+        20018,
+        705,
+        285,
+        1385,
+        13,
+        50624
+      ],
+      "avg_logprob": -0.10197914548610386,
+      "compression_ratio": 1.3820224719101124,
+      "no_speech_prob": 5.501229680127118e-12,
+      "words": [
+        {
+          "start": 0.91,
+          "end": 1.43,
+          "word": " L",
+          "probability": 0.990781843662262
+        },
+        {
+          "start": 1.43,
+          "end": 1.65,
+          "word": "'agent",
+          "probability": 0.9979072411855062
+        },
+        {
+          "start": 1.65,
+          "end": 1.77,
+          "word": " est",
+          "probability": 0.999879002571106
+        },
+        {
+          "start": 1.77,
+          "end": 1.91,
+          "word": " tout",
+          "probability": 0.9999316930770874
+        },
+        {
+          "start": 1.91,
+          "end": 2.19,
+          "word": " seul",
+          "probability": 0.9998526573181152
+        },
+        {
+          "start": 2.19,
+          "end": 2.41,
+          "word": " et",
+          "probability": 0.9734224081039429
+        },
+        {
+          "start": 2.41,
+          "end": 2.55,
+          "word": " tu",
+          "probability": 0.9999431371688843
+        },
+        {
+          "start": 2.55,
+          "end": 2.67,
+          "word": " as",
+          "probability": 0.99952232837677
+        },
+        {
+          "start": 2.67,
+          "end": 2.91,
+          "word": " déjà",
+          "probability": 0.9998525381088257
+        },
+        {
+          "start": 2.91,
+          "end": 3.43,
+          "word": " échappé",
+          "probability": 0.9998690287272135
+        },
+        {
+          "start": 3.43,
+          "end": 3.61,
+          "word": " à",
+          "probability": 0.9999080896377563
+        },
+        {
+          "start": 3.61,
+          "end": 3.77,
+          "word": " deux",
+          "probability": 0.9947680234909058
+        },
+        {
+          "start": 3.77,
+          "end": 4.03,
+          "word": " autres",
+          "probability": 0.9999388456344604
+        },
+        {
+          "start": 4.03,
+          "end": 4.35,
+          "word": " hommes",
+          "probability": 0.9970743656158447
+        },
+        {
+          "start": 4.35,
+          "end": 4.51,
+          "word": " du",
+          "probability": 0.9929136633872986
+        },
+        {
+          "start": 4.51,
+          "end": 4.71,
+          "word": " guet",
+          "probability": 0.7505978643894196
+        },
+        {
+          "start": 4.71,
+          "end": 4.99,
+          "word": " par",
+          "probability": 0.9992621541023254
+        },
+        {
+          "start": 4.99,
+          "end": 5.13,
+          "word": " la",
+          "probability": 0.9999558925628662
+        },
+        {
+          "start": 5.13,
+          "end": 5.43,
+          "word": " force",
+          "probability": 0.9999499320983887
+        },
+        {
+          "start": 5.43,
+          "end": 5.61,
+          "word": " de",
+          "probability": 0.9998818635940552
+        },
+        {
+          "start": 5.61,
+          "end": 5.79,
+          "word": " tes",
+          "probability": 0.9998582601547241
+        },
+        {
+          "start": 5.79,
+          "end": 6.09,
+          "word": " mollets.",
+          "probability": 0.9841692248980204
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.45,
+      "end": 9.45,
+      "text": " Tu ne vois pas pourquoi tu renoncerais à une stratégie payante.",
+      "tokens": [
+        50660,
+        7836,
+        408,
+        18297,
+        1736,
+        19934,
+        2604,
+        8124,
+        266,
+        1776,
+        1527,
+        1531,
+        2251,
+        45023,
+        414,
+        1689,
+        2879,
+        13,
+        50792
+      ],
+      "avg_logprob": -0.10197914548610386,
+      "compression_ratio": 1.3820224719101124,
+      "no_speech_prob": 5.501229680127118e-12,
+      "words": [
+        {
+          "start": 6.45,
+          "end": 6.89,
+          "word": " Tu",
+          "probability": 0.9996718168258667
+        },
+        {
+          "start": 6.89,
+          "end": 6.99,
+          "word": " ne",
+          "probability": 0.9998854398727417
+        },
+        {
+          "start": 6.99,
+          "end": 7.11,
+          "word": " vois",
+          "probability": 0.9994537234306335
+        },
+        {
+          "start": 7.11,
+          "end": 7.27,
+          "word": " pas",
+          "probability": 0.9999897480010986
+        },
+        {
+          "start": 7.27,
+          "end": 7.57,
+          "word": " pourquoi",
+          "probability": 0.9998754262924194
+        },
+        {
+          "start": 7.57,
+          "end": 7.77,
+          "word": " tu",
+          "probability": 0.9999711513519287
+        },
+        {
+          "start": 7.77,
+          "end": 8.29,
+          "word": " renoncerais",
+          "probability": 0.9957753270864487
+        },
+        {
+          "start": 8.29,
+          "end": 8.39,
+          "word": " à",
+          "probability": 0.9999650716781616
+        },
+        {
+          "start": 8.39,
+          "end": 8.53,
+          "word": " une",
+          "probability": 0.9999293088912964
+        },
+        {
+          "start": 8.53,
+          "end": 9.01,
+          "word": " stratégie",
+          "probability": 0.9999732375144958
+        },
+        {
+          "start": 9.01,
+          "end": 9.45,
+          "word": " payante.",
+          "probability": 0.9999554753303528
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.95,
+      "end": 14.03,
+      "text": " Tu te reçures l'agent, mais au dernier moment, tu déris vers la droite.",
+      "tokens": [
+        50816,
+        7836,
+        535,
+        319,
+        1138,
+        1303,
+        287,
+        6,
+        559,
+        317,
+        11,
+        2420,
+        1609,
+        29332,
+        1623,
+        11,
+        2604,
+        2795,
+        5714,
+        1774,
+        635,
+        37321,
+        13,
+        51022
+      ],
+      "avg_logprob": -0.10197914548610386,
+      "compression_ratio": 1.3820224719101124,
+      "no_speech_prob": 5.501229680127118e-12,
+      "words": [
+        {
+          "start": 9.95,
+          "end": 10.39,
+          "word": " Tu",
+          "probability": 0.9989186525344849
+        },
+        {
+          "start": 10.39,
+          "end": 10.59,
+          "word": " te",
+          "probability": 0.9997536540031433
+        },
+        {
+          "start": 10.59,
+          "end": 10.95,
+          "word": " reçures",
+          "probability": 0.5992935399214426
+        },
+        {
+          "start": 10.95,
+          "end": 11.05,
+          "word": " l",
+          "probability": 0.999699592590332
+        },
+        {
+          "start": 11.05,
+          "end": 11.31,
+          "word": "'agent,",
+          "probability": 0.9997314612070719
+        },
+        {
+          "start": 11.39,
+          "end": 11.81,
+          "word": " mais",
+          "probability": 0.9999434947967529
+        },
+        {
+          "start": 11.81,
+          "end": 11.93,
+          "word": " au",
+          "probability": 0.9999511241912842
+        },
+        {
+          "start": 11.93,
+          "end": 12.23,
+          "word": " dernier",
+          "probability": 0.9999818801879883
+        },
+        {
+          "start": 12.23,
+          "end": 12.61,
+          "word": " moment,",
+          "probability": 0.999932050704956
+        },
+        {
+          "start": 12.85,
+          "end": 13.19,
+          "word": " tu",
+          "probability": 0.9999593496322632
+        },
+        {
+          "start": 13.19,
+          "end": 13.53,
+          "word": " déris",
+          "probability": 0.6945784240961075
+        },
+        {
+          "start": 13.53,
+          "end": 13.67,
+          "word": " vers",
+          "probability": 0.9995111227035522
+        },
+        {
+          "start": 13.67,
+          "end": 13.77,
+          "word": " la",
+          "probability": 0.9999603033065796
+        },
+        {
+          "start": 13.77,
+          "end": 14.03,
+          "word": " droite.",
+          "probability": 0.9999624490737915
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,812 @@
+{
+  "scene": "B61",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B61.mp3",
+  "sha256": "b4db87e6add0a3a738a6c1756f36818a6fbba33e1d374a90e68c8ff855ffa71d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 30.01175,
+  "text": "Tu t'armes de courage et demandes à Aurinax d'approcher pour lui parler de plus près. Le dragon-tortue te dévisage un moment. La bête immense ne pense tout de même pas que tu te portes volontaire pour être dévoré. Aurinax semble amusé par ton culot. Qu'est-ce que je peux faire pour toi? Bon début! Encouragé par les bonnes manières d'Aurinax, tu lui expliques que tu es en mission pour Griseforces et que tu as besoin d'entrer dans les grottes marines.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.91,
+      "end": 5.45,
+      "text": " Tu t'armes de courage et demandes à Aurinax d'approcher pour lui parler de plus près.",
+      "tokens": [
+        50365,
+        7836,
+        256,
+        6,
+        4452,
+        279,
+        368,
+        9892,
+        1030,
+        4733,
+        279,
+        1531,
+        1610,
+        1426,
+        87,
+        274,
+        6,
+        35821,
+        6759,
+        2016,
+        8783,
+        16421,
+        368,
+        1804,
+        25350,
+        13,
+        50594
+      ],
+      "avg_logprob": -0.07774751411368515,
+      "compression_ratio": 1.5876288659793814,
+      "no_speech_prob": 6.495681163093403e-12,
+      "words": [
+        {
+          "start": 0.91,
+          "end": 1.37,
+          "word": " Tu",
+          "probability": 0.9927074313163757
+        },
+        {
+          "start": 1.37,
+          "end": 1.53,
+          "word": " t",
+          "probability": 0.9700455069541931
+        },
+        {
+          "start": 1.53,
+          "end": 1.73,
+          "word": "'armes",
+          "probability": 0.9202980001767477
+        },
+        {
+          "start": 1.73,
+          "end": 1.83,
+          "word": " de",
+          "probability": 0.9992676377296448
+        },
+        {
+          "start": 1.83,
+          "end": 2.19,
+          "word": " courage",
+          "probability": 0.999402642250061
+        },
+        {
+          "start": 2.19,
+          "end": 2.61,
+          "word": " et",
+          "probability": 0.9976268410682678
+        },
+        {
+          "start": 2.61,
+          "end": 3.01,
+          "word": " demandes",
+          "probability": 0.9950762987136841
+        },
+        {
+          "start": 3.01,
+          "end": 3.11,
+          "word": " à",
+          "probability": 0.9998037219047546
+        },
+        {
+          "start": 3.11,
+          "end": 3.57,
+          "word": " Aurinax",
+          "probability": 0.8940512339274088
+        },
+        {
+          "start": 3.57,
+          "end": 3.71,
+          "word": " d",
+          "probability": 0.9999537467956543
+        },
+        {
+          "start": 3.71,
+          "end": 4.13,
+          "word": "'approcher",
+          "probability": 0.9992982149124146
+        },
+        {
+          "start": 4.13,
+          "end": 4.47,
+          "word": " pour",
+          "probability": 0.9986722469329834
+        },
+        {
+          "start": 4.47,
+          "end": 4.63,
+          "word": " lui",
+          "probability": 0.9999896287918091
+        },
+        {
+          "start": 4.63,
+          "end": 4.93,
+          "word": " parler",
+          "probability": 0.9999784231185913
+        },
+        {
+          "start": 4.93,
+          "end": 5.13,
+          "word": " de",
+          "probability": 0.9999768733978271
+        },
+        {
+          "start": 5.13,
+          "end": 5.27,
+          "word": " plus",
+          "probability": 0.9999668598175049
+        },
+        {
+          "start": 5.27,
+          "end": 5.45,
+          "word": " près.",
+          "probability": 0.9998019337654114
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.77,
+      "end": 7.85,
+      "text": " Le dragon-tortue te dévisage un moment.",
+      "tokens": [
+        50624,
+        1456,
+        12165,
+        12,
+        83,
+        477,
+        622,
+        535,
+        2795,
+        4938,
+        609,
+        517,
+        1623,
+        13,
+        50713
+      ],
+      "avg_logprob": -0.07774751411368515,
+      "compression_ratio": 1.5876288659793814,
+      "no_speech_prob": 6.495681163093403e-12,
+      "words": [
+        {
+          "start": 5.77,
+          "end": 6.19,
+          "word": " Le",
+          "probability": 0.9989282488822937
+        },
+        {
+          "start": 6.19,
+          "end": 6.51,
+          "word": " dragon",
+          "probability": 0.9751275777816772
+        },
+        {
+          "start": 6.51,
+          "end": 6.89,
+          "word": "-tortue",
+          "probability": 0.8570366352796555
+        },
+        {
+          "start": 6.89,
+          "end": 7.05,
+          "word": " te",
+          "probability": 0.9998778104782104
+        },
+        {
+          "start": 7.05,
+          "end": 7.53,
+          "word": " dévisage",
+          "probability": 0.9982168475786845
+        },
+        {
+          "start": 7.53,
+          "end": 7.61,
+          "word": " un",
+          "probability": 0.9997774958610535
+        },
+        {
+          "start": 7.61,
+          "end": 7.85,
+          "word": " moment.",
+          "probability": 0.999897837638855
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.41,
+      "end": 12.77,
+      "text": " La bête immense ne pense tout de même pas que tu te portes volontaire pour être dévoré.",
+      "tokens": [
+        50751,
+        2369,
+        272,
+        12943,
+        22920,
+        408,
+        11209,
+        3486,
+        368,
+        5698,
+        1736,
+        631,
+        2604,
+        535,
+        2436,
+        279,
+        40005,
+        9020,
+        2016,
+        7418,
+        2795,
+        8453,
+        526,
+        13,
+        50959
+      ],
+      "avg_logprob": -0.07774751411368515,
+      "compression_ratio": 1.5876288659793814,
+      "no_speech_prob": 6.495681163093403e-12,
+      "words": [
+        {
+          "start": 8.41,
+          "end": 8.73,
+          "word": " La",
+          "probability": 0.9917004704475403
+        },
+        {
+          "start": 8.73,
+          "end": 8.97,
+          "word": " bête",
+          "probability": 0.9932012856006622
+        },
+        {
+          "start": 8.97,
+          "end": 9.37,
+          "word": " immense",
+          "probability": 0.996116042137146
+        },
+        {
+          "start": 9.37,
+          "end": 9.73,
+          "word": " ne",
+          "probability": 0.99978107213974
+        },
+        {
+          "start": 9.73,
+          "end": 10.05,
+          "word": " pense",
+          "probability": 0.9991993308067322
+        },
+        {
+          "start": 10.05,
+          "end": 10.23,
+          "word": " tout",
+          "probability": 0.9996901750564575
+        },
+        {
+          "start": 10.23,
+          "end": 10.35,
+          "word": " de",
+          "probability": 0.998015284538269
+        },
+        {
+          "start": 10.35,
+          "end": 10.51,
+          "word": " même",
+          "probability": 0.9999686479568481
+        },
+        {
+          "start": 10.51,
+          "end": 10.73,
+          "word": " pas",
+          "probability": 0.9999610185623169
+        },
+        {
+          "start": 10.73,
+          "end": 10.91,
+          "word": " que",
+          "probability": 0.999936580657959
+        },
+        {
+          "start": 10.91,
+          "end": 11.05,
+          "word": " tu",
+          "probability": 0.9999485015869141
+        },
+        {
+          "start": 11.05,
+          "end": 11.21,
+          "word": " te",
+          "probability": 0.9998451471328735
+        },
+        {
+          "start": 11.21,
+          "end": 11.49,
+          "word": " portes",
+          "probability": 0.9988340437412262
+        },
+        {
+          "start": 11.49,
+          "end": 11.93,
+          "word": " volontaire",
+          "probability": 0.9957321584224701
+        },
+        {
+          "start": 11.93,
+          "end": 12.13,
+          "word": " pour",
+          "probability": 0.9997233748435974
+        },
+        {
+          "start": 12.13,
+          "end": 12.29,
+          "word": " être",
+          "probability": 0.9999017715454102
+        },
+        {
+          "start": 12.29,
+          "end": 12.77,
+          "word": " dévoré.",
+          "probability": 0.8253834148248037
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 13.51,
+      "end": 15.43,
+      "text": " Aurinax semble amusé par ton culot.",
+      "tokens": [
+        50997,
+        1610,
+        1426,
+        87,
+        38328,
+        669,
+        301,
+        526,
+        971,
+        2952,
+        11021,
+        310,
+        13,
+        51092
+      ],
+      "avg_logprob": -0.07774751411368515,
+      "compression_ratio": 1.5876288659793814,
+      "no_speech_prob": 6.495681163093403e-12,
+      "words": [
+        {
+          "start": 13.51,
+          "end": 14.01,
+          "word": " Aurinax",
+          "probability": 0.9995900789896647
+        },
+        {
+          "start": 14.01,
+          "end": 14.39,
+          "word": " semble",
+          "probability": 0.9992479681968689
+        },
+        {
+          "start": 14.39,
+          "end": 14.77,
+          "word": " amusé",
+          "probability": 0.9119238058725992
+        },
+        {
+          "start": 14.77,
+          "end": 14.93,
+          "word": " par",
+          "probability": 0.9999719858169556
+        },
+        {
+          "start": 14.93,
+          "end": 15.09,
+          "word": " ton",
+          "probability": 0.9999274015426636
+        },
+        {
+          "start": 15.09,
+          "end": 15.43,
+          "word": " culot.",
+          "probability": 0.9988642036914825
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 16.11,
+      "end": 18.41,
+      "text": " Qu'est-ce que je peux faire pour toi?",
+      "tokens": [
+        51131,
+        2326,
+        6,
+        377,
+        12,
+        384,
+        631,
+        1506,
+        14844,
+        4865,
+        2016,
+        15648,
+        2506,
+        51247
+      ],
+      "avg_logprob": -0.07774751411368515,
+      "compression_ratio": 1.5876288659793814,
+      "no_speech_prob": 6.495681163093403e-12,
+      "words": [
+        {
+          "start": 16.11,
+          "end": 16.33,
+          "word": " Qu",
+          "probability": 0.8687922358512878
+        },
+        {
+          "start": 16.33,
+          "end": 16.47,
+          "word": "'est",
+          "probability": 0.9998885095119476
+        },
+        {
+          "start": 16.47,
+          "end": 16.55,
+          "word": "-ce",
+          "probability": 0.9998498260974884
+        },
+        {
+          "start": 16.55,
+          "end": 16.67,
+          "word": " que",
+          "probability": 0.9999886751174927
+        },
+        {
+          "start": 16.67,
+          "end": 16.81,
+          "word": " je",
+          "probability": 0.9999655485153198
+        },
+        {
+          "start": 16.81,
+          "end": 16.99,
+          "word": " peux",
+          "probability": 0.9998631477355957
+        },
+        {
+          "start": 16.99,
+          "end": 17.39,
+          "word": " faire",
+          "probability": 0.9999755620956421
+        },
+        {
+          "start": 17.39,
+          "end": 17.63,
+          "word": " pour",
+          "probability": 0.9998843669891357
+        },
+        {
+          "start": 17.63,
+          "end": 17.89,
+          "word": " toi",
+          "probability": 0.9998723268508911
+        },
+        {
+          "start": 17.89,
+          "end": 18.41,
+          "word": "?",
+          "probability": 0.9973040819168091
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 18.41,
+      "end": 19.51,
+      "text": " Bon début!",
+      "tokens": [
+        51247,
+        7368,
+        22594,
+        2298,
+        51308
+      ],
+      "avg_logprob": -0.07774751411368515,
+      "compression_ratio": 1.5876288659793814,
+      "no_speech_prob": 6.495681163093403e-12,
+      "words": [
+        {
+          "start": 18.41,
+          "end": 18.69,
+          "word": " Bon",
+          "probability": 0.9966097474098206
+        },
+        {
+          "start": 18.69,
+          "end": 18.99,
+          "word": " début",
+          "probability": 0.9998764991760254
+        },
+        {
+          "start": 18.99,
+          "end": 19.51,
+          "word": "!",
+          "probability": 0.9515244364738464
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 19.51,
+      "end": 25.17,
+      "text": " Encouragé par les bonnes manières d'Aurinax, tu lui expliques que tu es en mission pour Griseforces",
+      "tokens": [
+        51308,
+        29584,
+        396,
+        559,
+        526,
+        971,
+        1512,
+        4428,
+        4081,
+        587,
+        39408,
+        274,
+        6,
+        21520,
+        1426,
+        87,
+        11,
+        2604,
+        8783,
+        1490,
+        4911,
+        631,
+        2604,
+        785,
+        465,
+        4447,
+        2016,
+        2606,
+        271,
+        5156,
+        51580
+      ],
+      "avg_logprob": -0.07774751411368515,
+      "compression_ratio": 1.5876288659793814,
+      "no_speech_prob": 6.495681163093403e-12,
+      "words": [
+        {
+          "start": 19.51,
+          "end": 20.29,
+          "word": " Encouragé",
+          "probability": 0.9885664731264114
+        },
+        {
+          "start": 20.29,
+          "end": 20.45,
+          "word": " par",
+          "probability": 0.9999778270721436
+        },
+        {
+          "start": 20.45,
+          "end": 20.61,
+          "word": " les",
+          "probability": 0.9998422861099243
+        },
+        {
+          "start": 20.61,
+          "end": 20.89,
+          "word": " bonnes",
+          "probability": 0.999775767326355
+        },
+        {
+          "start": 20.89,
+          "end": 21.17,
+          "word": " manières",
+          "probability": 0.9997898936271667
+        },
+        {
+          "start": 21.17,
+          "end": 21.31,
+          "word": " d",
+          "probability": 0.9998574256896973
+        },
+        {
+          "start": 21.31,
+          "end": 21.79,
+          "word": "'Aurinax,",
+          "probability": 0.9371804893016815
+        },
+        {
+          "start": 21.95,
+          "end": 22.29,
+          "word": " tu",
+          "probability": 0.9993765950202942
+        },
+        {
+          "start": 22.29,
+          "end": 22.53,
+          "word": " lui",
+          "probability": 0.9999915361404419
+        },
+        {
+          "start": 22.53,
+          "end": 23.19,
+          "word": " expliques",
+          "probability": 0.9996602535247803
+        },
+        {
+          "start": 23.19,
+          "end": 23.43,
+          "word": " que",
+          "probability": 0.999833345413208
+        },
+        {
+          "start": 23.43,
+          "end": 23.57,
+          "word": " tu",
+          "probability": 0.9998108744621277
+        },
+        {
+          "start": 23.57,
+          "end": 23.71,
+          "word": " es",
+          "probability": 0.9990859031677246
+        },
+        {
+          "start": 23.71,
+          "end": 23.87,
+          "word": " en",
+          "probability": 0.9998524188995361
+        },
+        {
+          "start": 23.87,
+          "end": 24.27,
+          "word": " mission",
+          "probability": 0.9996185302734375
+        },
+        {
+          "start": 24.27,
+          "end": 24.57,
+          "word": " pour",
+          "probability": 0.9997627139091492
+        },
+        {
+          "start": 24.57,
+          "end": 25.17,
+          "word": " Griseforces",
+          "probability": 0.8802524010340372
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 25.17,
+      "end": 27.61,
+      "text": " et que tu as besoin d'entrer dans les grottes marines.",
+      "tokens": [
+        51580,
+        1030,
+        631,
+        2604,
+        382,
+        19207,
+        274,
+        6,
+        317,
+        9797,
+        2680,
+        1512,
+        677,
+        1521,
+        279,
+        1849,
+        1652,
+        13,
+        51701
+      ],
+      "avg_logprob": -0.07774751411368515,
+      "compression_ratio": 1.5876288659793814,
+      "no_speech_prob": 6.495681163093403e-12,
+      "words": [
+        {
+          "start": 25.17,
+          "end": 25.65,
+          "word": " et",
+          "probability": 0.9286862015724182
+        },
+        {
+          "start": 25.65,
+          "end": 25.77,
+          "word": " que",
+          "probability": 0.9999697208404541
+        },
+        {
+          "start": 25.77,
+          "end": 25.91,
+          "word": " tu",
+          "probability": 0.9999635219573975
+        },
+        {
+          "start": 25.91,
+          "end": 26.05,
+          "word": " as",
+          "probability": 0.9994468092918396
+        },
+        {
+          "start": 26.05,
+          "end": 26.35,
+          "word": " besoin",
+          "probability": 0.9999767541885376
+        },
+        {
+          "start": 26.35,
+          "end": 26.51,
+          "word": " d",
+          "probability": 0.9999496936798096
+        },
+        {
+          "start": 26.51,
+          "end": 26.77,
+          "word": "'entrer",
+          "probability": 0.9986474514007568
+        },
+        {
+          "start": 26.77,
+          "end": 26.89,
+          "word": " dans",
+          "probability": 0.9998200535774231
+        },
+        {
+          "start": 26.89,
+          "end": 27.01,
+          "word": " les",
+          "probability": 0.9998176693916321
+        },
+        {
+          "start": 27.01,
+          "end": 27.31,
+          "word": " grottes",
+          "probability": 0.9991026123364767
+        },
+        {
+          "start": 27.31,
+          "end": 27.61,
+          "word": " marines.",
+          "probability": 0.9988506138324738
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "scene": "A12_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A12_list.mp3",
+  "sha256": "2003771d2eabfd27e03bf54eb571d2d13a5c193dfcf9ac60f00e4a3223ca8a29",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.8954375,
+  "text": "Comment veux-tu prouver ta valeur au méphite?",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.62,
+      "text": " Comment veux-tu prouver ta valeur au méphite?",
+      "tokens": [
+        50365,
+        16328,
+        16389,
+        12,
+        9179,
+        582,
+        19677,
+        1846,
+        45255,
+        1609,
+        13191,
+        69,
+        642,
+        2506,
+        50511
+      ],
+      "avg_logprob": -0.23532279767096043,
+      "compression_ratio": 0.8518518518518519,
+      "no_speech_prob": 3.3388370193621064e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.52,
+          "word": " Comment",
+          "probability": 0.9755174517631531
+        },
+        {
+          "start": 0.52,
+          "end": 0.74,
+          "word": " veux",
+          "probability": 0.9982086420059204
+        },
+        {
+          "start": 0.74,
+          "end": 0.9,
+          "word": "-tu",
+          "probability": 0.9997712671756744
+        },
+        {
+          "start": 0.9,
+          "end": 1.28,
+          "word": " prouver",
+          "probability": 0.9996783137321472
+        },
+        {
+          "start": 1.28,
+          "end": 1.5,
+          "word": " ta",
+          "probability": 0.9994970560073853
+        },
+        {
+          "start": 1.5,
+          "end": 1.88,
+          "word": " valeur",
+          "probability": 0.9999022483825684
+        },
+        {
+          "start": 1.88,
+          "end": 2.04,
+          "word": " au",
+          "probability": 0.5692331790924072
+        },
+        {
+          "start": 2.04,
+          "end": 2.46,
+          "word": " méphite",
+          "probability": 0.7900498509407043
+        },
+        {
+          "start": 2.46,
+          "end": 2.62,
+          "word": "?",
+          "probability": 0.996663510799408
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

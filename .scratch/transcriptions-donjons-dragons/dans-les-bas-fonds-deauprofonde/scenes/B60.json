@@ -1,0 +1,283 @@
+{
+  "scene": "B60",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B60.mp3",
+  "sha256": "49435455b4093b65350055425d242c7bda468bd76a5fae2717744e21fa493537",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 15.547875,
+  "text": "Tu rames très lentement pour t'approcher des deux créatures. Dès que tu arrives à distinguer des mots, tu t'arrêtes et tends l'oreille le plus discrètement possible.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.74,
+      "end": 5.24,
+      "text": " Tu rames très lentement pour t'approcher des deux créatures.",
+      "tokens": [
+        50365,
+        7836,
+        367,
+        1632,
+        5732,
+        23556,
+        1712,
+        2016,
+        256,
+        6,
+        35821,
+        6759,
+        730,
+        8208,
+        15609,
+        3377,
+        13,
+        50542
+      ],
+      "avg_logprob": -0.05994979278096613,
+      "compression_ratio": 1.2761194029850746,
+      "no_speech_prob": 6.866749356626567e-12,
+      "words": [
+        {
+          "start": 1.74,
+          "end": 2.26,
+          "word": " Tu",
+          "probability": 0.9530884623527527
+        },
+        {
+          "start": 2.26,
+          "end": 2.56,
+          "word": " rames",
+          "probability": 0.9975714385509491
+        },
+        {
+          "start": 2.56,
+          "end": 3.06,
+          "word": " très",
+          "probability": 0.9994014501571655
+        },
+        {
+          "start": 3.06,
+          "end": 3.5,
+          "word": " lentement",
+          "probability": 0.999954104423523
+        },
+        {
+          "start": 3.5,
+          "end": 3.76,
+          "word": " pour",
+          "probability": 0.9991783499717712
+        },
+        {
+          "start": 3.76,
+          "end": 3.88,
+          "word": " t",
+          "probability": 0.9996660947799683
+        },
+        {
+          "start": 3.88,
+          "end": 4.34,
+          "word": "'approcher",
+          "probability": 0.9998089472452799
+        },
+        {
+          "start": 4.34,
+          "end": 4.52,
+          "word": " des",
+          "probability": 0.9997286200523376
+        },
+        {
+          "start": 4.52,
+          "end": 4.66,
+          "word": " deux",
+          "probability": 0.9956965446472168
+        },
+        {
+          "start": 4.66,
+          "end": 5.24,
+          "word": " créatures.",
+          "probability": 0.9997996687889099
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.02,
+      "end": 8.2,
+      "text": " Dès que tu arrives à distinguer des mots,",
+      "tokens": [
+        50601,
+        413,
+        3645,
+        631,
+        2604,
+        20116,
+        1531,
+        1483,
+        278,
+        5486,
+        730,
+        34009,
+        11,
+        50689
+      ],
+      "avg_logprob": -0.05994979278096613,
+      "compression_ratio": 1.2761194029850746,
+      "no_speech_prob": 6.866749356626567e-12,
+      "words": [
+        {
+          "start": 6.02,
+          "end": 6.62,
+          "word": " Dès",
+          "probability": 0.9997142553329468
+        },
+        {
+          "start": 6.62,
+          "end": 6.72,
+          "word": " que",
+          "probability": 0.9999877214431763
+        },
+        {
+          "start": 6.72,
+          "end": 6.9,
+          "word": " tu",
+          "probability": 0.9999579191207886
+        },
+        {
+          "start": 6.9,
+          "end": 7.18,
+          "word": " arrives",
+          "probability": 0.9994233846664429
+        },
+        {
+          "start": 7.18,
+          "end": 7.34,
+          "word": " à",
+          "probability": 0.9998875856399536
+        },
+        {
+          "start": 7.34,
+          "end": 7.86,
+          "word": " distinguer",
+          "probability": 0.9996427893638611
+        },
+        {
+          "start": 7.86,
+          "end": 8.0,
+          "word": " des",
+          "probability": 0.999421238899231
+        },
+        {
+          "start": 8.0,
+          "end": 8.2,
+          "word": " mots,",
+          "probability": 0.9728009104728699
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.46,
+      "end": 12.72,
+      "text": " tu t'arrêtes et tends l'oreille le plus discrètement possible.",
+      "tokens": [
+        50724,
+        2604,
+        256,
+        6,
+        2284,
+        38262,
+        1030,
+        12258,
+        287,
+        6,
+        418,
+        3409,
+        476,
+        1804,
+        2983,
+        81,
+        27236,
+        1944,
+        13,
+        50915
+      ],
+      "avg_logprob": -0.05994979278096613,
+      "compression_ratio": 1.2761194029850746,
+      "no_speech_prob": 6.866749356626567e-12,
+      "words": [
+        {
+          "start": 8.46,
+          "end": 9.02,
+          "word": " tu",
+          "probability": 0.9995226860046387
+        },
+        {
+          "start": 9.02,
+          "end": 9.18,
+          "word": " t",
+          "probability": 0.9996490478515625
+        },
+        {
+          "start": 9.18,
+          "end": 9.52,
+          "word": "'arrêtes",
+          "probability": 0.9951724410057068
+        },
+        {
+          "start": 9.52,
+          "end": 9.92,
+          "word": " et",
+          "probability": 0.9833816289901733
+        },
+        {
+          "start": 9.92,
+          "end": 10.14,
+          "word": " tends",
+          "probability": 0.9050646424293518
+        },
+        {
+          "start": 10.14,
+          "end": 10.28,
+          "word": " l",
+          "probability": 0.9998594522476196
+        },
+        {
+          "start": 10.28,
+          "end": 10.64,
+          "word": "'oreille",
+          "probability": 0.9998812874158224
+        },
+        {
+          "start": 10.64,
+          "end": 11.14,
+          "word": " le",
+          "probability": 0.9889575839042664
+        },
+        {
+          "start": 11.14,
+          "end": 11.44,
+          "word": " plus",
+          "probability": 0.9999337196350098
+        },
+        {
+          "start": 11.44,
+          "end": 12.14,
+          "word": " discrètement",
+          "probability": 0.9985914627710978
+        },
+        {
+          "start": 12.14,
+          "end": 12.72,
+          "word": " possible.",
+          "probability": 0.9989481568336487
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

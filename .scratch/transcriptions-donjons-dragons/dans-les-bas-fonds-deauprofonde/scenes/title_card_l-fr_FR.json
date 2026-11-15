@@ -1,0 +1,67 @@
+{
+  "scene": "title_card_l-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/title_card_l-fr_FR.mp3",
+  "sha256": "7d2502063b5cbb4818d00f46840551dd6a06ce9cd9d601a947b75375a34450ac",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.5636875,
+  "text": "Donjons et Dragons, volume 2",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.98,
+      "text": " Donjons et Dragons, volume 2",
+      "tokens": [
+        50365,
+        1468,
+        73,
+        892,
+        1030,
+        37437,
+        11,
+        5523,
+        568,
+        50465
+      ],
+      "avg_logprob": -0.24841706861149182,
+      "compression_ratio": 0.8235294117647058,
+      "no_speech_prob": 6.904425382120438e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.76,
+          "word": " Donjons",
+          "probability": 0.9112932880719503
+        },
+        {
+          "start": 0.76,
+          "end": 0.84,
+          "word": " et",
+          "probability": 0.950486958026886
+        },
+        {
+          "start": 0.84,
+          "end": 1.18,
+          "word": " Dragons,",
+          "probability": 0.6588940620422363
+        },
+        {
+          "start": 1.42,
+          "end": 1.74,
+          "word": " volume",
+          "probability": 0.8105930089950562
+        },
+        {
+          "start": 1.74,
+          "end": 1.98,
+          "word": " 2",
+          "probability": 0.9984838366508484
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

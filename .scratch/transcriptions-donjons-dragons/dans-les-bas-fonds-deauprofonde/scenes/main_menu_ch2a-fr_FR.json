@@ -1,0 +1,45 @@
+{
+  "scene": "main_menu_ch2a-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/main_menu_ch2a-fr_FR.mp3",
+  "sha256": "90922b3829467b4878935335164735ab1d4b02eaa30c413793cabff88533ea04",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.7613125,
+  "text": "Ton inventaire.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.19,
+      "text": " Ton inventaire.",
+      "tokens": [
+        50365,
+        11385,
+        7962,
+        9020,
+        13,
+        50422
+      ],
+      "avg_logprob": -0.2979368397167751,
+      "compression_ratio": 0.6521739130434783,
+      "no_speech_prob": 4.778312728132006e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.51,
+          "word": " Ton",
+          "probability": 0.6929506063461304
+        },
+        {
+          "start": 0.51,
+          "end": 1.19,
+          "word": " inventaire.",
+          "probability": 0.9949804544448853
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

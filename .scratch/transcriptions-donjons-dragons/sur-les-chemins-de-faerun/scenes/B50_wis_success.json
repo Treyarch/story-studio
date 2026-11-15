@@ -1,0 +1,934 @@
+{
+  "scene": "B50_wis_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B50_wis_success.mp3",
+  "sha256": "b68df57e6bd1e3872cbcd97897e0adf545b571369b9c80e4206d5fbd331417a5",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 38.1609375,
+  "text": "Tu agites les mains et émets les sons que tu as répétés tant et tant de fois. Cependant, le bâton est puissamment ensorcelé. Rien à voir avec les petits sorts que tu combattais chez toi. Il te faut mobiliser toutes tes connaissances, toute ton expérience et toute ta jugeote pour ne pas te décourager. Mais bravo! Tu en viens à bout! Le bâton tremble, puis tombe à terre. Tu sens qu'il se libère d'une puissance invisible et redevient ce qu'il était avant d'être envoûté, un inoffensif bout de bois orné de jolis motifs.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.49,
+      "end": 5.51,
+      "text": " Tu agites les mains et émets les sons que tu as répétés tant et tant de fois.",
+      "tokens": [
+        50365,
+        7836,
+        623,
+        3324,
+        1512,
+        32519,
+        1030,
+        1136,
+        76,
+        1385,
+        1512,
+        13476,
+        631,
+        2604,
+        382,
+        14243,
+        4051,
+        2191,
+        12095,
+        1030,
+        12095,
+        368,
+        9576,
+        13,
+        50566
+      ],
+      "avg_logprob": -0.09965508825012616,
+      "compression_ratio": 1.5740072202166064,
+      "no_speech_prob": 7.877721912297186e-12,
+      "words": [
+        {
+          "start": 1.49,
+          "end": 1.97,
+          "word": " Tu",
+          "probability": 0.9808441996574402
+        },
+        {
+          "start": 1.97,
+          "end": 2.35,
+          "word": " agites",
+          "probability": 0.9985821545124054
+        },
+        {
+          "start": 2.35,
+          "end": 2.49,
+          "word": " les",
+          "probability": 0.9999024868011475
+        },
+        {
+          "start": 2.49,
+          "end": 2.69,
+          "word": " mains",
+          "probability": 0.9998936653137207
+        },
+        {
+          "start": 2.69,
+          "end": 2.97,
+          "word": " et",
+          "probability": 0.9996639490127563
+        },
+        {
+          "start": 2.97,
+          "end": 3.31,
+          "word": " émets",
+          "probability": 0.9521218538284302
+        },
+        {
+          "start": 3.31,
+          "end": 3.43,
+          "word": " les",
+          "probability": 0.9991225600242615
+        },
+        {
+          "start": 3.43,
+          "end": 3.65,
+          "word": " sons",
+          "probability": 0.9985892176628113
+        },
+        {
+          "start": 3.65,
+          "end": 3.81,
+          "word": " que",
+          "probability": 0.9998842477798462
+        },
+        {
+          "start": 3.81,
+          "end": 3.95,
+          "word": " tu",
+          "probability": 0.9999696016311646
+        },
+        {
+          "start": 3.95,
+          "end": 4.07,
+          "word": " as",
+          "probability": 0.999503493309021
+        },
+        {
+          "start": 4.07,
+          "end": 4.53,
+          "word": " répétés",
+          "probability": 0.9977460304896036
+        },
+        {
+          "start": 4.53,
+          "end": 4.81,
+          "word": " tant",
+          "probability": 0.998663067817688
+        },
+        {
+          "start": 4.81,
+          "end": 4.95,
+          "word": " et",
+          "probability": 0.9999816417694092
+        },
+        {
+          "start": 4.95,
+          "end": 5.13,
+          "word": " tant",
+          "probability": 0.9992632269859314
+        },
+        {
+          "start": 5.13,
+          "end": 5.27,
+          "word": " de",
+          "probability": 0.9995007514953613
+        },
+        {
+          "start": 5.27,
+          "end": 5.51,
+          "word": " fois.",
+          "probability": 0.9999597072601318
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.23,
+      "end": 9.15,
+      "text": " Cependant, le bâton est puissamment ensorcelé.",
+      "tokens": [
+        50606,
+        383,
+        4217,
+        394,
+        11,
+        476,
+        272,
+        3201,
+        1756,
+        871,
+        2362,
+        891,
+        20619,
+        3489,
+        284,
+        4933,
+        526,
+        13,
+        50748
+      ],
+      "avg_logprob": -0.09965508825012616,
+      "compression_ratio": 1.5740072202166064,
+      "no_speech_prob": 7.877721912297186e-12,
+      "words": [
+        {
+          "start": 6.23,
+          "end": 6.77,
+          "word": " Cependant,",
+          "probability": 0.9998753269513448
+        },
+        {
+          "start": 6.99,
+          "end": 7.47,
+          "word": " le",
+          "probability": 0.9998741149902344
+        },
+        {
+          "start": 7.47,
+          "end": 7.79,
+          "word": " bâton",
+          "probability": 0.9990775187810262
+        },
+        {
+          "start": 7.79,
+          "end": 7.93,
+          "word": " est",
+          "probability": 0.9998051524162292
+        },
+        {
+          "start": 7.93,
+          "end": 8.53,
+          "word": " puissamment",
+          "probability": 0.9979303081830343
+        },
+        {
+          "start": 8.53,
+          "end": 9.15,
+          "word": " ensorcelé.",
+          "probability": 0.9984901994466782
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.41,
+      "end": 12.41,
+      "text": " Rien à voir avec les petits sorts que tu combattais chez toi.",
+      "tokens": [
+        50776,
+        497,
+        1053,
+        1531,
+        10695,
+        4163,
+        1512,
+        26487,
+        7527,
+        631,
+        2604,
+        2512,
+        1591,
+        1527,
+        17855,
+        15648,
+        13,
+        50912
+      ],
+      "avg_logprob": -0.09965508825012616,
+      "compression_ratio": 1.5740072202166064,
+      "no_speech_prob": 7.877721912297186e-12,
+      "words": [
+        {
+          "start": 9.41,
+          "end": 9.89,
+          "word": " Rien",
+          "probability": 0.9995315670967102
+        },
+        {
+          "start": 9.89,
+          "end": 10.03,
+          "word": " à",
+          "probability": 0.9979519248008728
+        },
+        {
+          "start": 10.03,
+          "end": 10.21,
+          "word": " voir",
+          "probability": 0.9974936246871948
+        },
+        {
+          "start": 10.21,
+          "end": 10.47,
+          "word": " avec",
+          "probability": 0.9999898672103882
+        },
+        {
+          "start": 10.47,
+          "end": 10.63,
+          "word": " les",
+          "probability": 0.9999562501907349
+        },
+        {
+          "start": 10.63,
+          "end": 10.99,
+          "word": " petits",
+          "probability": 0.9999736547470093
+        },
+        {
+          "start": 10.99,
+          "end": 11.29,
+          "word": " sorts",
+          "probability": 0.9790184497833252
+        },
+        {
+          "start": 11.29,
+          "end": 11.49,
+          "word": " que",
+          "probability": 0.9999262094497681
+        },
+        {
+          "start": 11.49,
+          "end": 11.65,
+          "word": " tu",
+          "probability": 0.9999734163284302
+        },
+        {
+          "start": 11.65,
+          "end": 12.05,
+          "word": " combattais",
+          "probability": 0.8565547664960226
+        },
+        {
+          "start": 12.05,
+          "end": 12.21,
+          "word": " chez",
+          "probability": 0.9999644756317139
+        },
+        {
+          "start": 12.21,
+          "end": 12.41,
+          "word": " toi.",
+          "probability": 0.9998983144760132
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.93,
+      "end": 15.71,
+      "text": " Il te faut mobiliser toutes tes connaissances,",
+      "tokens": [
+        50951,
+        4416,
+        535,
+        8487,
+        15891,
+        6694,
+        14437,
+        20018,
+        15477,
+        891,
+        2676,
+        11,
+        51077
+      ],
+      "avg_logprob": -0.09965508825012616,
+      "compression_ratio": 1.5740072202166064,
+      "no_speech_prob": 7.877721912297186e-12,
+      "words": [
+        {
+          "start": 12.93,
+          "end": 13.33,
+          "word": " Il",
+          "probability": 0.999530553817749
+        },
+        {
+          "start": 13.33,
+          "end": 13.47,
+          "word": " te",
+          "probability": 0.9999681711196899
+        },
+        {
+          "start": 13.47,
+          "end": 13.71,
+          "word": " faut",
+          "probability": 0.9997236132621765
+        },
+        {
+          "start": 13.71,
+          "end": 14.37,
+          "word": " mobiliser",
+          "probability": 0.9998812973499298
+        },
+        {
+          "start": 14.37,
+          "end": 14.83,
+          "word": " toutes",
+          "probability": 0.9992569088935852
+        },
+        {
+          "start": 14.83,
+          "end": 15.05,
+          "word": " tes",
+          "probability": 0.9998607635498047
+        },
+        {
+          "start": 15.05,
+          "end": 15.71,
+          "word": " connaissances,",
+          "probability": 0.9998579223950704
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 16.21,
+      "end": 20.05,
+      "text": " toute ton expérience et toute ta jugeote pour ne pas te décourager.",
+      "tokens": [
+        51103,
+        14953,
+        2952,
+        1278,
+        35627,
+        1030,
+        14953,
+        1846,
+        3649,
+        432,
+        1370,
+        2016,
+        408,
+        1736,
+        535,
+        9198,
+        396,
+        3557,
+        13,
+        51294
+      ],
+      "avg_logprob": -0.09965508825012616,
+      "compression_ratio": 1.5740072202166064,
+      "no_speech_prob": 7.877721912297186e-12,
+      "words": [
+        {
+          "start": 16.21,
+          "end": 16.41,
+          "word": " toute",
+          "probability": 0.9333409667015076
+        },
+        {
+          "start": 16.41,
+          "end": 16.63,
+          "word": " ton",
+          "probability": 0.9997102618217468
+        },
+        {
+          "start": 16.63,
+          "end": 17.23,
+          "word": " expérience",
+          "probability": 0.9999094605445862
+        },
+        {
+          "start": 17.23,
+          "end": 17.75,
+          "word": " et",
+          "probability": 0.9787086844444275
+        },
+        {
+          "start": 17.75,
+          "end": 18.03,
+          "word": " toute",
+          "probability": 0.9935158491134644
+        },
+        {
+          "start": 18.03,
+          "end": 18.21,
+          "word": " ta",
+          "probability": 0.9984128475189209
+        },
+        {
+          "start": 18.21,
+          "end": 18.63,
+          "word": " jugeote",
+          "probability": 0.9532117048899332
+        },
+        {
+          "start": 18.63,
+          "end": 19.01,
+          "word": " pour",
+          "probability": 0.997892439365387
+        },
+        {
+          "start": 19.01,
+          "end": 19.17,
+          "word": " ne",
+          "probability": 0.9999896287918091
+        },
+        {
+          "start": 19.17,
+          "end": 19.37,
+          "word": " pas",
+          "probability": 0.9999867677688599
+        },
+        {
+          "start": 19.37,
+          "end": 19.51,
+          "word": " te",
+          "probability": 0.9999634027481079
+        },
+        {
+          "start": 19.51,
+          "end": 20.05,
+          "word": " décourager.",
+          "probability": 0.9996407230695089
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 20.53,
+      "end": 23.45,
+      "text": " Mais bravo! Tu en viens à bout!",
+      "tokens": [
+        51332,
+        6313,
+        1548,
+        3080,
+        2298,
+        7836,
+        465,
+        36421,
+        1531,
+        15738,
+        2298,
+        51481
+      ],
+      "avg_logprob": -0.09965508825012616,
+      "compression_ratio": 1.5740072202166064,
+      "no_speech_prob": 7.877721912297186e-12,
+      "words": [
+        {
+          "start": 20.53,
+          "end": 21.07,
+          "word": " Mais",
+          "probability": 0.9973992109298706
+        },
+        {
+          "start": 21.07,
+          "end": 21.67,
+          "word": " bravo",
+          "probability": 0.9978620409965515
+        },
+        {
+          "start": 21.67,
+          "end": 22.05,
+          "word": "!",
+          "probability": 0.8509024977684021
+        },
+        {
+          "start": 22.05,
+          "end": 22.41,
+          "word": " Tu",
+          "probability": 0.9997110962867737
+        },
+        {
+          "start": 22.41,
+          "end": 22.59,
+          "word": " en",
+          "probability": 0.999270498752594
+        },
+        {
+          "start": 22.59,
+          "end": 22.77,
+          "word": " viens",
+          "probability": 0.9946013689041138
+        },
+        {
+          "start": 22.77,
+          "end": 22.95,
+          "word": " à",
+          "probability": 0.9995114803314209
+        },
+        {
+          "start": 22.95,
+          "end": 23.05,
+          "word": " bout",
+          "probability": 0.9991514682769775
+        },
+        {
+          "start": 23.05,
+          "end": 23.45,
+          "word": "!",
+          "probability": 0.6537359952926636
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 23.45,
+      "end": 26.47,
+      "text": " Le bâton tremble, puis tombe à terre.",
+      "tokens": [
+        51481,
+        1456,
+        272,
+        3201,
+        1756,
+        7813,
+        638,
+        11,
+        9093,
+        2916,
+        650,
+        1531,
+        31815,
+        13,
+        51615
+      ],
+      "avg_logprob": -0.09965508825012616,
+      "compression_ratio": 1.5740072202166064,
+      "no_speech_prob": 7.877721912297186e-12,
+      "words": [
+        {
+          "start": 23.45,
+          "end": 23.95,
+          "word": " Le",
+          "probability": 0.9994663596153259
+        },
+        {
+          "start": 23.95,
+          "end": 24.37,
+          "word": " bâton",
+          "probability": 0.9998748699824015
+        },
+        {
+          "start": 24.37,
+          "end": 25.05,
+          "word": " tremble,",
+          "probability": 0.9991630613803864
+        },
+        {
+          "start": 25.25,
+          "end": 25.77,
+          "word": " puis",
+          "probability": 0.9994909763336182
+        },
+        {
+          "start": 25.77,
+          "end": 26.19,
+          "word": " tombe",
+          "probability": 0.9957992136478424
+        },
+        {
+          "start": 26.19,
+          "end": 26.23,
+          "word": " à",
+          "probability": 0.9999535083770752
+        },
+        {
+          "start": 26.23,
+          "end": 26.47,
+          "word": " terre.",
+          "probability": 0.9995087385177612
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 26.97,
+      "end": 30.17,
+      "text": " Tu sens qu'il se libère d'une puissance invisible",
+      "tokens": [
+        51660,
+        7836,
+        2923,
+        421,
+        6,
+        388,
+        369,
+        22854,
+        4212,
+        274,
+        6,
+        2613,
+        2362,
+        14431,
+        14603,
+        51802
+      ],
+      "avg_logprob": -0.09965508825012616,
+      "compression_ratio": 1.5740072202166064,
+      "no_speech_prob": 7.877721912297186e-12,
+      "words": [
+        {
+          "start": 26.97,
+          "end": 27.51,
+          "word": " Tu",
+          "probability": 0.9920674562454224
+        },
+        {
+          "start": 27.51,
+          "end": 27.71,
+          "word": " sens",
+          "probability": 0.9955927729606628
+        },
+        {
+          "start": 27.71,
+          "end": 27.89,
+          "word": " qu",
+          "probability": 0.9999078512191772
+        },
+        {
+          "start": 27.89,
+          "end": 27.99,
+          "word": "'il",
+          "probability": 0.9998493492603302
+        },
+        {
+          "start": 27.99,
+          "end": 28.17,
+          "word": " se",
+          "probability": 0.9999083280563354
+        },
+        {
+          "start": 28.17,
+          "end": 28.67,
+          "word": " libère",
+          "probability": 0.9997456073760986
+        },
+        {
+          "start": 28.67,
+          "end": 28.81,
+          "word": " d",
+          "probability": 0.9953305721282959
+        },
+        {
+          "start": 28.81,
+          "end": 28.93,
+          "word": "'une",
+          "probability": 0.9999240636825562
+        },
+        {
+          "start": 28.93,
+          "end": 29.51,
+          "word": " puissance",
+          "probability": 0.9995529353618622
+        },
+        {
+          "start": 29.51,
+          "end": 30.17,
+          "word": " invisible",
+          "probability": 0.9969314336776733
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2868,
+      "start": 30.17,
+      "end": 32.79,
+      "text": " et redevient ce qu'il était avant d'être envoûté,",
+      "tokens": [
+        50365,
+        1030,
+        14328,
+        85,
+        1196,
+        1769,
+        421,
+        6,
+        388,
+        11806,
+        13439,
+        274,
+        6,
+        9498,
+        2267,
+        78,
+        30692,
+        526,
+        11,
+        50496
+      ],
+      "avg_logprob": -0.084329387316337,
+      "compression_ratio": 1.0957446808510638,
+      "no_speech_prob": 1.076677809408455e-11,
+      "words": [
+        {
+          "start": 30.17,
+          "end": 30.83,
+          "word": " et",
+          "probability": 0.933487057685852
+        },
+        {
+          "start": 30.83,
+          "end": 31.29,
+          "word": " redevient",
+          "probability": 0.9972265561421713
+        },
+        {
+          "start": 31.29,
+          "end": 31.47,
+          "word": " ce",
+          "probability": 0.999485969543457
+        },
+        {
+          "start": 31.47,
+          "end": 31.59,
+          "word": " qu",
+          "probability": 0.9990719556808472
+        },
+        {
+          "start": 31.59,
+          "end": 31.69,
+          "word": "'il",
+          "probability": 0.9988286793231964
+        },
+        {
+          "start": 31.69,
+          "end": 31.87,
+          "word": " était",
+          "probability": 0.9992238283157349
+        },
+        {
+          "start": 31.87,
+          "end": 32.15,
+          "word": " avant",
+          "probability": 0.9996604919433594
+        },
+        {
+          "start": 32.15,
+          "end": 32.25,
+          "word": " d",
+          "probability": 0.9999128580093384
+        },
+        {
+          "start": 32.25,
+          "end": 32.39,
+          "word": "'être",
+          "probability": 0.9999386668205261
+        },
+        {
+          "start": 32.39,
+          "end": 32.79,
+          "word": " envoûté,",
+          "probability": 0.9854312241077423
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2868,
+      "start": 33.55,
+      "end": 36.21,
+      "text": " un inoffensif bout de bois orné de jolis motifs.",
+      "tokens": [
+        50526,
+        517,
+        294,
+        4506,
+        694,
+        351,
+        15738,
+        368,
+        44808,
+        420,
+        15055,
+        368,
+        361,
+        16466,
+        2184,
+        18290,
+        13,
+        50667
+      ],
+      "avg_logprob": -0.084329387316337,
+      "compression_ratio": 1.0957446808510638,
+      "no_speech_prob": 1.076677809408455e-11,
+      "words": [
+        {
+          "start": 33.55,
+          "end": 33.91,
+          "word": " un",
+          "probability": 0.9994400143623352
+        },
+        {
+          "start": 33.91,
+          "end": 34.27,
+          "word": " inoffensif",
+          "probability": 0.9982853829860687
+        },
+        {
+          "start": 34.27,
+          "end": 34.41,
+          "word": " bout",
+          "probability": 0.9900360107421875
+        },
+        {
+          "start": 34.41,
+          "end": 34.57,
+          "word": " de",
+          "probability": 0.9999300241470337
+        },
+        {
+          "start": 34.57,
+          "end": 34.83,
+          "word": " bois",
+          "probability": 0.9998985528945923
+        },
+        {
+          "start": 34.83,
+          "end": 35.29,
+          "word": " orné",
+          "probability": 0.9970172345638275
+        },
+        {
+          "start": 35.29,
+          "end": 35.45,
+          "word": " de",
+          "probability": 0.9999620914459229
+        },
+        {
+          "start": 35.45,
+          "end": 35.73,
+          "word": " jolis",
+          "probability": 0.9970459640026093
+        },
+        {
+          "start": 35.73,
+          "end": 36.21,
+          "word": " motifs.",
+          "probability": 0.9984921514987946
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

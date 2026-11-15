@@ -1,0 +1,131 @@
+{
+  "scene": "multi2_ch1_lancer",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/multi2_ch1_lancer.mp3",
+  "sha256": "278536f6241703b4db9133c26aa658db1dc2ade72529e67a8bd3e90772210108",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 4.355,
+  "text": "Lance ton dé à 20 faces et découvre ce que le hasard te réserve.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.18,
+      "text": " Lance ton dé à 20 faces et découvre ce que le hasard te réserve.",
+      "tokens": [
+        50365,
+        40493,
+        2952,
+        2795,
+        1531,
+        945,
+        8475,
+        1030,
+        35687,
+        265,
+        1769,
+        631,
+        476,
+        575,
+        515,
+        535,
+        14415,
+        3768,
+        13,
+        50576
+      ],
+      "avg_logprob": -0.13434276694343203,
+      "compression_ratio": 0.9315068493150684,
+      "no_speech_prob": 5.732043745904081e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.38,
+          "word": " Lance",
+          "probability": 0.7522391080856323
+        },
+        {
+          "start": 0.38,
+          "end": 0.5,
+          "word": " ton",
+          "probability": 0.6647506952285767
+        },
+        {
+          "start": 0.5,
+          "end": 0.64,
+          "word": " dé",
+          "probability": 0.6409874558448792
+        },
+        {
+          "start": 0.64,
+          "end": 0.94,
+          "word": " à",
+          "probability": 0.9661529064178467
+        },
+        {
+          "start": 0.94,
+          "end": 1.08,
+          "word": " 20",
+          "probability": 0.8342728018760681
+        },
+        {
+          "start": 1.08,
+          "end": 1.5,
+          "word": " faces",
+          "probability": 0.9570105671882629
+        },
+        {
+          "start": 1.5,
+          "end": 1.96,
+          "word": " et",
+          "probability": 0.9823936223983765
+        },
+        {
+          "start": 1.96,
+          "end": 2.58,
+          "word": " découvre",
+          "probability": 0.998530387878418
+        },
+        {
+          "start": 2.58,
+          "end": 2.88,
+          "word": " ce",
+          "probability": 0.9995373487472534
+        },
+        {
+          "start": 2.88,
+          "end": 3.02,
+          "word": " que",
+          "probability": 0.9999774694442749
+        },
+        {
+          "start": 3.02,
+          "end": 3.18,
+          "word": " le",
+          "probability": 0.9991127848625183
+        },
+        {
+          "start": 3.18,
+          "end": 3.62,
+          "word": " hasard",
+          "probability": 0.9976103603839874
+        },
+        {
+          "start": 3.62,
+          "end": 3.76,
+          "word": " te",
+          "probability": 0.997831404209137
+        },
+        {
+          "start": 3.76,
+          "end": 4.18,
+          "word": " réserve.",
+          "probability": 0.9991708993911743
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

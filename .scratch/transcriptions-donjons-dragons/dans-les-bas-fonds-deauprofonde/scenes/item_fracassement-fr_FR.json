@@ -1,0 +1,180 @@
+{
+  "scene": "item_fracassement-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_fracassement-fr_FR.mp3",
+  "sha256": "ecb763c7abb3850c8836e6f9f214cddb59239605a15f1fe37270d5164d0254a8",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 5.53425,
+  "text": "« Shippez dans le coffre de la banque! » Un sort pareil, ça ne se refuse pas.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 2.48,
+      "text": " « Shippez dans le coffre de la banque! »",
+      "tokens": [
+        50365,
+        4657,
+        1160,
+        2488,
+        4371,
+        2680,
+        476,
+        24768,
+        265,
+        368,
+        635,
+        5643,
+        1077,
+        2298,
+        8793,
+        50490
+      ],
+      "avg_logprob": -0.2013498935206183,
+      "compression_ratio": 0.9642857142857143,
+      "no_speech_prob": 6.254026810315061e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.54,
+          "word": " «",
+          "probability": 0.1315983682870865
+        },
+        {
+          "start": 0.54,
+          "end": 0.8,
+          "word": " Shippez",
+          "probability": 0.6658985416094462
+        },
+        {
+          "start": 0.8,
+          "end": 0.92,
+          "word": " dans",
+          "probability": 0.998950183391571
+        },
+        {
+          "start": 0.92,
+          "end": 1.06,
+          "word": " le",
+          "probability": 0.9999434947967529
+        },
+        {
+          "start": 1.06,
+          "end": 1.42,
+          "word": " coffre",
+          "probability": 0.9998679459095001
+        },
+        {
+          "start": 1.42,
+          "end": 1.54,
+          "word": " de",
+          "probability": 0.9998791217803955
+        },
+        {
+          "start": 1.54,
+          "end": 1.68,
+          "word": " la",
+          "probability": 0.999951958656311
+        },
+        {
+          "start": 1.68,
+          "end": 2.04,
+          "word": " banque",
+          "probability": 0.9996804594993591
+        },
+        {
+          "start": 2.04,
+          "end": 2.18,
+          "word": "!",
+          "probability": 0.5875098705291748
+        },
+        {
+          "start": 2.18,
+          "end": 2.48,
+          "word": " »",
+          "probability": 0.928714394569397
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 2.48,
+      "end": 4.54,
+      "text": " Un sort pareil, ça ne se refuse pas.",
+      "tokens": [
+        50490,
+        1156,
+        1333,
+        46020,
+        11,
+        2788,
+        408,
+        369,
+        16791,
+        1736,
+        13,
+        50592
+      ],
+      "avg_logprob": -0.2013498935206183,
+      "compression_ratio": 0.9642857142857143,
+      "no_speech_prob": 6.254026810315061e-12,
+      "words": [
+        {
+          "start": 2.48,
+          "end": 2.64,
+          "word": " Un",
+          "probability": 0.9574105143547058
+        },
+        {
+          "start": 2.64,
+          "end": 2.9,
+          "word": " sort",
+          "probability": 0.9988642930984497
+        },
+        {
+          "start": 2.9,
+          "end": 3.28,
+          "word": " pareil,",
+          "probability": 0.9977631568908691
+        },
+        {
+          "start": 3.54,
+          "end": 3.82,
+          "word": " ça",
+          "probability": 0.9970647692680359
+        },
+        {
+          "start": 3.82,
+          "end": 3.92,
+          "word": " ne",
+          "probability": 0.9999252557754517
+        },
+        {
+          "start": 3.92,
+          "end": 4.06,
+          "word": " se",
+          "probability": 0.9999785423278809
+        },
+        {
+          "start": 4.06,
+          "end": 4.34,
+          "word": " refuse",
+          "probability": 0.9995508790016174
+        },
+        {
+          "start": 4.34,
+          "end": 4.54,
+          "word": " pas.",
+          "probability": 0.9999810457229614
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "scene": "B67a_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B67a_list_ch2.mp3",
+  "sha256": "540e7f3002a7d3cbbeda25eef2a106da1a86ebbc139505123fc2f3939a77130b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.75125,
+  "text": "Jamais de la vie.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.52,
+      "end": 1.1,
+      "text": " Jamais de la vie.",
+      "tokens": [
+        50365,
+        10372,
+        1527,
+        368,
+        635,
+        4941,
+        13,
+        50420
+      ],
+      "avg_logprob": -0.366504881117079,
+      "compression_ratio": 0.68,
+      "no_speech_prob": 6.732468749159892e-12,
+      "words": [
+        {
+          "start": 0.52,
+          "end": 0.76,
+          "word": " Jamais",
+          "probability": 0.9095854163169861
+        },
+        {
+          "start": 0.76,
+          "end": 0.86,
+          "word": " de",
+          "probability": 0.9849063754081726
+        },
+        {
+          "start": 0.86,
+          "end": 0.98,
+          "word": " la",
+          "probability": 0.9989840388298035
+        },
+        {
+          "start": 0.98,
+          "end": 1.1,
+          "word": " vie.",
+          "probability": 0.9997941851615906
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

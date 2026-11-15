@@ -1,0 +1,63 @@
+{
+  "scene": "A23_list_ch2_b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A23_list_ch2_b.mp3",
+  "sha256": "a2088d6aef19610bd7be2c309e802cc0523c686c8f589fbad9efdcd30d20dee3",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.3365,
+  "text": "en rassemblant des brindilles.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.82,
+      "text": " en rassemblant des brindilles.",
+      "tokens": [
+        50365,
+        465,
+        367,
+        29386,
+        75,
+        394,
+        730,
+        738,
+        471,
+        14835,
+        13,
+        50456
+      ],
+      "avg_logprob": -0.1364623216482309,
+      "compression_ratio": 0.7894736842105263,
+      "no_speech_prob": 3.2464085673172827e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.52,
+          "word": " en",
+          "probability": 0.6959188580513
+        },
+        {
+          "start": 0.52,
+          "end": 1.12,
+          "word": " rassemblant",
+          "probability": 0.9994292259216309
+        },
+        {
+          "start": 1.12,
+          "end": 1.28,
+          "word": " des",
+          "probability": 0.9980377554893494
+        },
+        {
+          "start": 1.28,
+          "end": 1.82,
+          "word": " brindilles.",
+          "probability": 0.9990201592445374
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

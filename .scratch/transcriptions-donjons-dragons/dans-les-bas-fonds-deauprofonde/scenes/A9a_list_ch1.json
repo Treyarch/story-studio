@@ -1,0 +1,52 @@
+{
+  "scene": "A9a_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A9a_list_ch1.mp3",
+  "sha256": "42e84b0010054238bb7cfc14c42fd1e102510c05172f7d8a292c329c615d8da3",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.368625,
+  "text": "À pied?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 0.89,
+      "text": " À pied?",
+      "tokens": [
+        50365,
+        19018,
+        24186,
+        2506,
+        50431
+      ],
+      "avg_logprob": -0.5393208563327789,
+      "compression_ratio": 0.5294117647058824,
+      "no_speech_prob": 3.891532495553518e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.53,
+          "word": " À",
+          "probability": 0.631867527961731
+        },
+        {
+          "start": 0.53,
+          "end": 0.71,
+          "word": " pied",
+          "probability": 0.9997633099555969
+        },
+        {
+          "start": 0.71,
+          "end": 0.89,
+          "word": "?",
+          "probability": 0.34300974011421204
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

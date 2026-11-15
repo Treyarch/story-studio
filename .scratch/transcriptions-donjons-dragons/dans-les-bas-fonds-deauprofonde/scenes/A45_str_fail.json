@@ -1,0 +1,694 @@
+{
+  "scene": "A45_str_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A45_str_fail.mp3",
+  "sha256": "dd5c5ca30a5a5494f682e477a050e5737e0dc664646cefdf122930e8186d1cb1",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 25.466375,
+  "text": "Les énigmes, c'est drôle de minute. Seulement, dans la vraie vie, rien ne remplace les solutions sans détour. Tu te penches un peu et donnes un grand coup d'épaule dans la porte. Risqué, mais efficace la plupart du temps. Aïe, ça fait mal. Cette porte est bien plus solide qu'il n'y paraît. Il doit exister d'autres moyens d'entrer. Ça tombe bien, tu as d'autres options.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.91,
+      "end": 3.01,
+      "text": " Les énigmes, c'est drôle de minute.",
+      "tokens": [
+        50375,
+        6965,
+        39315,
+        328,
+        5814,
+        11,
+        269,
+        6,
+        377,
+        1224,
+        22313,
+        368,
+        3456,
+        13,
+        50472
+      ],
+      "avg_logprob": -0.10086343545495098,
+      "compression_ratio": 1.4615384615384615,
+      "no_speech_prob": 7.674104407495719e-12,
+      "words": [
+        {
+          "start": 0.91,
+          "end": 1.45,
+          "word": " Les",
+          "probability": 0.9897981882095337
+        },
+        {
+          "start": 1.45,
+          "end": 1.95,
+          "word": " énigmes,",
+          "probability": 0.9966013431549072
+        },
+        {
+          "start": 2.15,
+          "end": 2.27,
+          "word": " c",
+          "probability": 0.996965229511261
+        },
+        {
+          "start": 2.27,
+          "end": 2.33,
+          "word": "'est",
+          "probability": 0.999986469745636
+        },
+        {
+          "start": 2.33,
+          "end": 2.57,
+          "word": " drôle",
+          "probability": 0.9995077252388
+        },
+        {
+          "start": 2.57,
+          "end": 2.69,
+          "word": " de",
+          "probability": 0.9899643063545227
+        },
+        {
+          "start": 2.69,
+          "end": 3.01,
+          "word": " minute.",
+          "probability": 0.7279337644577026
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.37,
+      "end": 6.85,
+      "text": " Seulement, dans la vraie vie, rien ne remplace les solutions sans détour.",
+      "tokens": [
+        50495,
+        1100,
+        2271,
+        518,
+        11,
+        2680,
+        635,
+        6070,
+        414,
+        4941,
+        11,
+        13355,
+        408,
+        890,
+        6742,
+        1512,
+        6547,
+        12177,
+        22312,
+        396,
+        13,
+        50663
+      ],
+      "avg_logprob": -0.10086343545495098,
+      "compression_ratio": 1.4615384615384615,
+      "no_speech_prob": 7.674104407495719e-12,
+      "words": [
+        {
+          "start": 3.37,
+          "end": 3.85,
+          "word": " Seulement,",
+          "probability": 0.9990792274475098
+        },
+        {
+          "start": 3.93,
+          "end": 3.99,
+          "word": " dans",
+          "probability": 0.9999195337295532
+        },
+        {
+          "start": 3.99,
+          "end": 4.15,
+          "word": " la",
+          "probability": 0.9999600648880005
+        },
+        {
+          "start": 4.15,
+          "end": 4.37,
+          "word": " vraie",
+          "probability": 0.9995697736740112
+        },
+        {
+          "start": 4.37,
+          "end": 4.49,
+          "word": " vie,",
+          "probability": 0.9999028444290161
+        },
+        {
+          "start": 4.83,
+          "end": 5.01,
+          "word": " rien",
+          "probability": 0.9999290704727173
+        },
+        {
+          "start": 5.01,
+          "end": 5.17,
+          "word": " ne",
+          "probability": 0.9999861717224121
+        },
+        {
+          "start": 5.17,
+          "end": 5.59,
+          "word": " remplace",
+          "probability": 0.998042643070221
+        },
+        {
+          "start": 5.59,
+          "end": 5.79,
+          "word": " les",
+          "probability": 0.9995718598365784
+        },
+        {
+          "start": 5.79,
+          "end": 6.19,
+          "word": " solutions",
+          "probability": 0.9996022582054138
+        },
+        {
+          "start": 6.19,
+          "end": 6.47,
+          "word": " sans",
+          "probability": 0.9995386600494385
+        },
+        {
+          "start": 6.47,
+          "end": 6.85,
+          "word": " détour.",
+          "probability": 0.9171070456504822
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.25,
+      "end": 11.03,
+      "text": " Tu te penches un peu et donnes un grand coup d'épaule dans la porte.",
+      "tokens": [
+        50700,
+        7836,
+        535,
+        3435,
+        3781,
+        517,
+        5604,
+        1030,
+        500,
+        4081,
+        517,
+        2697,
+        8682,
+        274,
+        6,
+        16171,
+        1459,
+        306,
+        2680,
+        635,
+        26658,
+        13,
+        50871
+      ],
+      "avg_logprob": -0.10086343545495098,
+      "compression_ratio": 1.4615384615384615,
+      "no_speech_prob": 7.674104407495719e-12,
+      "words": [
+        {
+          "start": 7.25,
+          "end": 7.71,
+          "word": " Tu",
+          "probability": 0.9992719292640686
+        },
+        {
+          "start": 7.71,
+          "end": 7.91,
+          "word": " te",
+          "probability": 0.9999150037765503
+        },
+        {
+          "start": 7.91,
+          "end": 8.23,
+          "word": " penches",
+          "probability": 0.9991604685783386
+        },
+        {
+          "start": 8.23,
+          "end": 8.47,
+          "word": " un",
+          "probability": 0.9999727010726929
+        },
+        {
+          "start": 8.47,
+          "end": 8.67,
+          "word": " peu",
+          "probability": 0.9998706579208374
+        },
+        {
+          "start": 8.67,
+          "end": 9.27,
+          "word": " et",
+          "probability": 0.9874025583267212
+        },
+        {
+          "start": 9.27,
+          "end": 9.49,
+          "word": " donnes",
+          "probability": 0.9941498637199402
+        },
+        {
+          "start": 9.49,
+          "end": 9.61,
+          "word": " un",
+          "probability": 0.9999227523803711
+        },
+        {
+          "start": 9.61,
+          "end": 9.87,
+          "word": " grand",
+          "probability": 0.9569798707962036
+        },
+        {
+          "start": 9.87,
+          "end": 10.05,
+          "word": " coup",
+          "probability": 0.9911079406738281
+        },
+        {
+          "start": 10.05,
+          "end": 10.17,
+          "word": " d",
+          "probability": 0.9999104738235474
+        },
+        {
+          "start": 10.17,
+          "end": 10.47,
+          "word": "'épaule",
+          "probability": 0.9955892562866211
+        },
+        {
+          "start": 10.47,
+          "end": 10.57,
+          "word": " dans",
+          "probability": 0.9999064207077026
+        },
+        {
+          "start": 10.57,
+          "end": 10.71,
+          "word": " la",
+          "probability": 0.999951958656311
+        },
+        {
+          "start": 10.71,
+          "end": 11.03,
+          "word": " porte.",
+          "probability": 0.9996128678321838
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 11.63,
+      "end": 13.67,
+      "text": " Risqué, mais efficace la plupart du temps.",
+      "tokens": [
+        50908,
+        30897,
+        16412,
+        11,
+        2420,
+        4703,
+        617,
+        635,
+        45403,
+        1581,
+        8827,
+        13,
+        51004
+      ],
+      "avg_logprob": -0.10086343545495098,
+      "compression_ratio": 1.4615384615384615,
+      "no_speech_prob": 7.674104407495719e-12,
+      "words": [
+        {
+          "start": 11.63,
+          "end": 12.11,
+          "word": " Risqué,",
+          "probability": 0.96137535572052
+        },
+        {
+          "start": 12.25,
+          "end": 12.35,
+          "word": " mais",
+          "probability": 0.9998480081558228
+        },
+        {
+          "start": 12.35,
+          "end": 12.89,
+          "word": " efficace",
+          "probability": 0.9998644292354584
+        },
+        {
+          "start": 12.89,
+          "end": 13.05,
+          "word": " la",
+          "probability": 0.9234976172447205
+        },
+        {
+          "start": 13.05,
+          "end": 13.29,
+          "word": " plupart",
+          "probability": 0.9999455213546753
+        },
+        {
+          "start": 13.29,
+          "end": 13.51,
+          "word": " du",
+          "probability": 0.9999731779098511
+        },
+        {
+          "start": 13.51,
+          "end": 13.67,
+          "word": " temps.",
+          "probability": 0.999920129776001
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 14.65,
+      "end": 16.03,
+      "text": " Aïe, ça fait mal.",
+      "tokens": [
+        51054,
+        316,
+        15487,
+        68,
+        11,
+        2788,
+        3887,
+        2806,
+        13,
+        51123
+      ],
+      "avg_logprob": -0.10086343545495098,
+      "compression_ratio": 1.4615384615384615,
+      "no_speech_prob": 7.674104407495719e-12,
+      "words": [
+        {
+          "start": 14.65,
+          "end": 15.13,
+          "word": " Aïe,",
+          "probability": 0.9983875552813212
+        },
+        {
+          "start": 15.37,
+          "end": 15.55,
+          "word": " ça",
+          "probability": 0.9998500347137451
+        },
+        {
+          "start": 15.55,
+          "end": 15.73,
+          "word": " fait",
+          "probability": 0.9998964071273804
+        },
+        {
+          "start": 15.73,
+          "end": 16.03,
+          "word": " mal.",
+          "probability": 0.9999078512191772
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 16.41,
+      "end": 18.87,
+      "text": " Cette porte est bien plus solide qu'il n'y paraît.",
+      "tokens": [
+        51156,
+        25556,
+        26658,
+        871,
+        3610,
+        1804,
+        1404,
+        482,
+        421,
+        6,
+        388,
+        297,
+        6,
+        88,
+        1690,
+        20028,
+        13,
+        51263
+      ],
+      "avg_logprob": -0.10086343545495098,
+      "compression_ratio": 1.4615384615384615,
+      "no_speech_prob": 7.674104407495719e-12,
+      "words": [
+        {
+          "start": 16.41,
+          "end": 16.89,
+          "word": " Cette",
+          "probability": 0.9992890357971191
+        },
+        {
+          "start": 16.89,
+          "end": 17.19,
+          "word": " porte",
+          "probability": 0.9998612403869629
+        },
+        {
+          "start": 17.19,
+          "end": 17.35,
+          "word": " est",
+          "probability": 0.9998669624328613
+        },
+        {
+          "start": 17.35,
+          "end": 17.57,
+          "word": " bien",
+          "probability": 0.9999349117279053
+        },
+        {
+          "start": 17.57,
+          "end": 17.85,
+          "word": " plus",
+          "probability": 0.9999343156814575
+        },
+        {
+          "start": 17.85,
+          "end": 18.21,
+          "word": " solide",
+          "probability": 0.9998942017555237
+        },
+        {
+          "start": 18.21,
+          "end": 18.33,
+          "word": " qu",
+          "probability": 0.9999657869338989
+        },
+        {
+          "start": 18.33,
+          "end": 18.41,
+          "word": "'il",
+          "probability": 0.9999315142631531
+        },
+        {
+          "start": 18.41,
+          "end": 18.51,
+          "word": " n",
+          "probability": 0.9997186064720154
+        },
+        {
+          "start": 18.51,
+          "end": 18.57,
+          "word": "'y",
+          "probability": 0.9999827146530151
+        },
+        {
+          "start": 18.57,
+          "end": 18.87,
+          "word": " paraît.",
+          "probability": 0.9975596070289612
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 19.39,
+      "end": 21.49,
+      "text": " Il doit exister d'autres moyens d'entrer.",
+      "tokens": [
+        51307,
+        4416,
+        19193,
+        454,
+        1964,
+        274,
+        6,
+        16752,
+        47040,
+        274,
+        6,
+        317,
+        9797,
+        13,
+        51395
+      ],
+      "avg_logprob": -0.10086343545495098,
+      "compression_ratio": 1.4615384615384615,
+      "no_speech_prob": 7.674104407495719e-12,
+      "words": [
+        {
+          "start": 19.39,
+          "end": 19.87,
+          "word": " Il",
+          "probability": 0.99920254945755
+        },
+        {
+          "start": 19.87,
+          "end": 20.03,
+          "word": " doit",
+          "probability": 0.9998196959495544
+        },
+        {
+          "start": 20.03,
+          "end": 20.49,
+          "word": " exister",
+          "probability": 0.9992698729038239
+        },
+        {
+          "start": 20.49,
+          "end": 20.65,
+          "word": " d",
+          "probability": 0.9999641180038452
+        },
+        {
+          "start": 20.65,
+          "end": 20.79,
+          "word": "'autres",
+          "probability": 0.9995927512645721
+        },
+        {
+          "start": 20.79,
+          "end": 21.13,
+          "word": " moyens",
+          "probability": 0.9998934268951416
+        },
+        {
+          "start": 21.13,
+          "end": 21.25,
+          "word": " d",
+          "probability": 0.9999740123748779
+        },
+        {
+          "start": 21.25,
+          "end": 21.49,
+          "word": "'entrer.",
+          "probability": 0.9540878931681315
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 22.19,
+      "end": 24.07,
+      "text": " Ça tombe bien, tu as d'autres options.",
+      "tokens": [
+        51436,
+        11527,
+        2916,
+        650,
+        3610,
+        11,
+        2604,
+        382,
+        274,
+        6,
+        16752,
+        3956,
+        13,
+        51526
+      ],
+      "avg_logprob": -0.10086343545495098,
+      "compression_ratio": 1.4615384615384615,
+      "no_speech_prob": 7.674104407495719e-12,
+      "words": [
+        {
+          "start": 22.19,
+          "end": 22.43,
+          "word": " Ça",
+          "probability": 0.9982262253761292
+        },
+        {
+          "start": 22.43,
+          "end": 22.67,
+          "word": " tombe",
+          "probability": 0.9994009137153625
+        },
+        {
+          "start": 22.67,
+          "end": 22.83,
+          "word": " bien,",
+          "probability": 0.9998811483383179
+        },
+        {
+          "start": 23.27,
+          "end": 23.37,
+          "word": " tu",
+          "probability": 0.9996631145477295
+        },
+        {
+          "start": 23.37,
+          "end": 23.49,
+          "word": " as",
+          "probability": 0.9996225833892822
+        },
+        {
+          "start": 23.49,
+          "end": 23.61,
+          "word": " d",
+          "probability": 0.9999493360519409
+        },
+        {
+          "start": 23.61,
+          "end": 23.75,
+          "word": "'autres",
+          "probability": 0.9999799132347107
+        },
+        {
+          "start": 23.75,
+          "end": 24.07,
+          "word": " options.",
+          "probability": 0.9992831349372864
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

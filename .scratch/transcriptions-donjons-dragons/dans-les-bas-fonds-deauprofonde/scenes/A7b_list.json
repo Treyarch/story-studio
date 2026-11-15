@@ -1,0 +1,83 @@
+{
+  "scene": "A7b_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A7b_list.mp3",
+  "sha256": "bcb40612c3c010b0038c7f5bc2fdf77f739733d4566b69439b6397beccf931d8",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.9301875,
+  "text": "Qu'est-ce que tu décides?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.45,
+      "text": " Qu'est-ce que tu décides?",
+      "tokens": [
+        50365,
+        2326,
+        6,
+        377,
+        12,
+        384,
+        631,
+        2604,
+        9198,
+        1875,
+        2506,
+        50460
+      ],
+      "avg_logprob": -0.16611359211114737,
+      "compression_ratio": 0.7714285714285715,
+      "no_speech_prob": 3.944615901280146e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.47,
+          "word": " Qu",
+          "probability": 0.8496244549751282
+        },
+        {
+          "start": 0.47,
+          "end": 0.55,
+          "word": "'est",
+          "probability": 0.9997923374176025
+        },
+        {
+          "start": 0.55,
+          "end": 0.63,
+          "word": "-ce",
+          "probability": 0.9970769286155701
+        },
+        {
+          "start": 0.63,
+          "end": 0.71,
+          "word": " que",
+          "probability": 0.9999210834503174
+        },
+        {
+          "start": 0.71,
+          "end": 0.85,
+          "word": " tu",
+          "probability": 0.9999008178710938
+        },
+        {
+          "start": 0.85,
+          "end": 1.31,
+          "word": " décides",
+          "probability": 0.9993704855442047
+        },
+        {
+          "start": 1.31,
+          "end": 1.45,
+          "word": "?",
+          "probability": 0.9855486750602722
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

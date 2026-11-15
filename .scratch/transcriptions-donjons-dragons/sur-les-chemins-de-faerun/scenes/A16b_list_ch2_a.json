@@ -1,0 +1,76 @@
+{
+  "scene": "A16b_list_ch2_a",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A16b_list_ch2_a.mp3",
+  "sha256": "df7564e87b7f6be7300e64f2be5c3dce8d3827140d17485bb0202365d0ae0abd",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.9978125,
+  "text": "Créer une potion de respiration aquatique.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.64,
+      "text": " Créer une potion de respiration aquatique.",
+      "tokens": [
+        50365,
+        4779,
+        526,
+        260,
+        2251,
+        39113,
+        368,
+        1597,
+        7611,
+        2373,
+        20728,
+        13,
+        50497
+      ],
+      "avg_logprob": -0.2054275114621435,
+      "compression_ratio": 0.9347826086956522,
+      "no_speech_prob": 3.845506812288901e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.58,
+          "word": " Créer",
+          "probability": 0.7568849821885427
+        },
+        {
+          "start": 0.58,
+          "end": 0.76,
+          "word": " une",
+          "probability": 0.9993517994880676
+        },
+        {
+          "start": 0.76,
+          "end": 1.14,
+          "word": " potion",
+          "probability": 0.9851566553115845
+        },
+        {
+          "start": 1.14,
+          "end": 1.42,
+          "word": " de",
+          "probability": 0.9996880292892456
+        },
+        {
+          "start": 1.42,
+          "end": 2.08,
+          "word": " respiration",
+          "probability": 0.9989076256752014
+        },
+        {
+          "start": 2.08,
+          "end": 2.64,
+          "word": " aquatique.",
+          "probability": 0.9975043833255768
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

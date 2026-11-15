@@ -1,0 +1,287 @@
+{
+  "scene": "A41_roublard",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A41_roublard.mp3",
+  "sha256": "da9a10e4482f65bddab686168a01be09aecd8574346ea0e9896e20a5d5326a1f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 13.1646875,
+  "text": "Il serait plus avisé d'entrer dans le bureau du seigneur Rojenard sans rien casser et sans faire de bruit si tu peux. Tu tentes de crocheter les portes-fenêtres du balcon.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.14,
+      "end": 6.92,
+      "text": " Il serait plus avisé d'entrer dans le bureau du seigneur Rojenard sans rien casser et sans faire de bruit si tu peux.",
+      "tokens": [
+        50365,
+        4416,
+        23139,
+        1804,
+        1305,
+        22118,
+        274,
+        6,
+        317,
+        9797,
+        2680,
+        476,
+        35343,
+        1581,
+        369,
+        26341,
+        374,
+        3101,
+        15378,
+        515,
+        12177,
+        13355,
+        269,
+        12129,
+        1030,
+        12177,
+        4865,
+        368,
+        738,
+        1983,
+        1511,
+        2604,
+        14844,
+        13,
+        50655
+      ],
+      "avg_logprob": -0.08783684739911998,
+      "compression_ratio": 1.291044776119403,
+      "no_speech_prob": 6.660855460943749e-12,
+      "words": [
+        {
+          "start": 1.14,
+          "end": 1.64,
+          "word": " Il",
+          "probability": 0.8937406539916992
+        },
+        {
+          "start": 1.64,
+          "end": 1.9,
+          "word": " serait",
+          "probability": 0.9995189905166626
+        },
+        {
+          "start": 1.9,
+          "end": 2.18,
+          "word": " plus",
+          "probability": 0.9999362230300903
+        },
+        {
+          "start": 2.18,
+          "end": 2.6,
+          "word": " avisé",
+          "probability": 0.9960975050926208
+        },
+        {
+          "start": 2.6,
+          "end": 2.74,
+          "word": " d",
+          "probability": 0.999913215637207
+        },
+        {
+          "start": 2.74,
+          "end": 2.98,
+          "word": "'entrer",
+          "probability": 0.9995613495508829
+        },
+        {
+          "start": 2.98,
+          "end": 3.08,
+          "word": " dans",
+          "probability": 0.9999717473983765
+        },
+        {
+          "start": 3.08,
+          "end": 3.22,
+          "word": " le",
+          "probability": 0.999961256980896
+        },
+        {
+          "start": 3.22,
+          "end": 3.48,
+          "word": " bureau",
+          "probability": 0.9998984336853027
+        },
+        {
+          "start": 3.48,
+          "end": 3.68,
+          "word": " du",
+          "probability": 0.9998441934585571
+        },
+        {
+          "start": 3.68,
+          "end": 4.12,
+          "word": " seigneur",
+          "probability": 0.9425980051358541
+        },
+        {
+          "start": 4.12,
+          "end": 4.6,
+          "word": " Rojenard",
+          "probability": 0.7022639413674673
+        },
+        {
+          "start": 4.6,
+          "end": 4.8,
+          "word": " sans",
+          "probability": 0.9915837049484253
+        },
+        {
+          "start": 4.8,
+          "end": 5.04,
+          "word": " rien",
+          "probability": 0.9999732971191406
+        },
+        {
+          "start": 5.04,
+          "end": 5.44,
+          "word": " casser",
+          "probability": 0.9981295764446259
+        },
+        {
+          "start": 5.44,
+          "end": 5.64,
+          "word": " et",
+          "probability": 0.9992325305938721
+        },
+        {
+          "start": 5.64,
+          "end": 5.82,
+          "word": " sans",
+          "probability": 0.9999339580535889
+        },
+        {
+          "start": 5.82,
+          "end": 6.02,
+          "word": " faire",
+          "probability": 0.9998964071273804
+        },
+        {
+          "start": 6.02,
+          "end": 6.18,
+          "word": " de",
+          "probability": 0.9997678399085999
+        },
+        {
+          "start": 6.18,
+          "end": 6.42,
+          "word": " bruit",
+          "probability": 0.998220682144165
+        },
+        {
+          "start": 6.42,
+          "end": 6.6,
+          "word": " si",
+          "probability": 0.8804931640625
+        },
+        {
+          "start": 6.6,
+          "end": 6.78,
+          "word": " tu",
+          "probability": 0.9999383687973022
+        },
+        {
+          "start": 6.78,
+          "end": 6.92,
+          "word": " peux.",
+          "probability": 0.9971820116043091
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7.58,
+      "end": 10.2,
+      "text": " Tu tentes de crocheter les portes-fenêtres du balcon.",
+      "tokens": [
+        50706,
+        7836,
+        7054,
+        279,
+        368,
+        8191,
+        2398,
+        1512,
+        2436,
+        279,
+        12,
+        6570,
+        15519,
+        495,
+        1581,
+        26450,
+        13,
+        50822
+      ],
+      "avg_logprob": -0.08783684739911998,
+      "compression_ratio": 1.291044776119403,
+      "no_speech_prob": 6.660855460943749e-12,
+      "words": [
+        {
+          "start": 7.58,
+          "end": 8.06,
+          "word": " Tu",
+          "probability": 0.9990405440330505
+        },
+        {
+          "start": 8.06,
+          "end": 8.44,
+          "word": " tentes",
+          "probability": 0.9904921054840088
+        },
+        {
+          "start": 8.44,
+          "end": 8.56,
+          "word": " de",
+          "probability": 0.9999791383743286
+        },
+        {
+          "start": 8.56,
+          "end": 8.96,
+          "word": " crocheter",
+          "probability": 0.9986625611782074
+        },
+        {
+          "start": 8.96,
+          "end": 9.14,
+          "word": " les",
+          "probability": 0.999784529209137
+        },
+        {
+          "start": 9.14,
+          "end": 9.46,
+          "word": " portes",
+          "probability": 0.9146048426628113
+        },
+        {
+          "start": 9.46,
+          "end": 9.8,
+          "word": "-fenêtres",
+          "probability": 0.9832451790571213
+        },
+        {
+          "start": 9.8,
+          "end": 9.96,
+          "word": " du",
+          "probability": 0.9998160004615784
+        },
+        {
+          "start": 9.96,
+          "end": 10.2,
+          "word": " balcon.",
+          "probability": 0.9997773766517639
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

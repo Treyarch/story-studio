@@ -1,0 +1,57 @@
+{
+  "scene": "title_card_j-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/title_card_j-fr_FR.mp3",
+  "sha256": "da79107048e89976a5fe38e6e1eec8adddb9412dd8e8cee4b032763b92c9bd52",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.225875,
+  "text": "Le scoop du siècle",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.52,
+      "text": " Le scoop du siècle",
+      "tokens": [
+        50365,
+        1456,
+        19555,
+        1581,
+        40830,
+        50443
+      ],
+      "avg_logprob": -0.1418262847832271,
+      "compression_ratio": 0.7037037037037037,
+      "no_speech_prob": 5.1685474476703686e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.56,
+          "word": " Le",
+          "probability": 0.930452287197113
+        },
+        {
+          "start": 0.56,
+          "end": 0.88,
+          "word": " scoop",
+          "probability": 0.8177875876426697
+        },
+        {
+          "start": 0.88,
+          "end": 1.18,
+          "word": " du",
+          "probability": 0.9999704360961914
+        },
+        {
+          "start": 1.18,
+          "end": 1.52,
+          "word": " siècle",
+          "probability": 0.9969053864479065
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

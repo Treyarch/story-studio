@@ -1,0 +1,52 @@
+{
+  "scene": "A44c_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A44c_list_ch1.mp3",
+  "sha256": "67fea208c4ce4183cd596ae8bb61822dea49c1316c51e7a1233c0ade9f1fa6ad",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.7905,
+  "text": "Forcez la porte.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.12,
+      "text": " Forcez la porte.",
+      "tokens": [
+        50365,
+        10580,
+        89,
+        635,
+        26658,
+        13,
+        50420
+      ],
+      "avg_logprob": -0.39232057705521584,
+      "compression_ratio": 0.6666666666666666,
+      "no_speech_prob": 4.030408819188924e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.78,
+          "word": " Forcez",
+          "probability": 0.8318428099155426
+        },
+        {
+          "start": 0.78,
+          "end": 0.86,
+          "word": " la",
+          "probability": 0.999462902545929
+        },
+        {
+          "start": 0.86,
+          "end": 1.12,
+          "word": " porte.",
+          "probability": 0.9996829032897949
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

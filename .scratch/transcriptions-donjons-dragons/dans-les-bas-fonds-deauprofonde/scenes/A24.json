@@ -1,0 +1,497 @@
+{
+  "scene": "A24",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A24.mp3",
+  "sha256": "f31f815c1e2de91b90f4bf8fbcae73f969df1de197a9dfe23a176ce50c0ebfbd",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 21.047875,
+  "text": "Tu supposes que la bête éclipsante est dressée pour ne pas attaquer les employés de la banque ou du moins les gens qui semblent travailler là. Elle ne doit sans doute pas être capable de distinguer qui est qui. Tu décides de tenter ta chance. Tu avances comme si tu étais ici chez toi.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.52,
+      "end": 6.72,
+      "text": " Tu supposes que la bête éclipsante est dressée pour ne pas attaquer les employés de la banque",
+      "tokens": [
+        50365,
+        7836,
+        1003,
+        4201,
+        631,
+        635,
+        272,
+        12943,
+        1136,
+        3474,
+        2600,
+        2879,
+        871,
+        5231,
+        3856,
+        2016,
+        408,
+        1736,
+        951,
+        64,
+        8035,
+        1512,
+        3188,
+        2191,
+        368,
+        635,
+        5643,
+        1077,
+        50626
+      ],
+      "avg_logprob": -0.10423058511196882,
+      "compression_ratio": 1.5025641025641026,
+      "no_speech_prob": 6.124200539053826e-12,
+      "words": [
+        {
+          "start": 1.52,
+          "end": 2.1,
+          "word": " Tu",
+          "probability": 0.9511820673942566
+        },
+        {
+          "start": 2.1,
+          "end": 2.68,
+          "word": " supposes",
+          "probability": 0.9722987413406372
+        },
+        {
+          "start": 2.68,
+          "end": 2.84,
+          "word": " que",
+          "probability": 0.9997984766960144
+        },
+        {
+          "start": 2.84,
+          "end": 3.0,
+          "word": " la",
+          "probability": 0.9978331923484802
+        },
+        {
+          "start": 3.0,
+          "end": 3.24,
+          "word": " bête",
+          "probability": 0.9994392693042755
+        },
+        {
+          "start": 3.24,
+          "end": 3.9,
+          "word": " éclipsante",
+          "probability": 0.9938315004110336
+        },
+        {
+          "start": 3.9,
+          "end": 4.16,
+          "word": " est",
+          "probability": 0.9910020232200623
+        },
+        {
+          "start": 4.16,
+          "end": 4.6,
+          "word": " dressée",
+          "probability": 0.9994542002677917
+        },
+        {
+          "start": 4.6,
+          "end": 4.76,
+          "word": " pour",
+          "probability": 0.9996433258056641
+        },
+        {
+          "start": 4.76,
+          "end": 4.9,
+          "word": " ne",
+          "probability": 0.9999210834503174
+        },
+        {
+          "start": 4.9,
+          "end": 5.18,
+          "word": " pas",
+          "probability": 0.9999794960021973
+        },
+        {
+          "start": 5.18,
+          "end": 5.56,
+          "word": " attaquer",
+          "probability": 0.99934983253479
+        },
+        {
+          "start": 5.56,
+          "end": 5.74,
+          "word": " les",
+          "probability": 0.9997277855873108
+        },
+        {
+          "start": 5.74,
+          "end": 6.18,
+          "word": " employés",
+          "probability": 0.9996404945850372
+        },
+        {
+          "start": 6.18,
+          "end": 6.28,
+          "word": " de",
+          "probability": 0.9995686411857605
+        },
+        {
+          "start": 6.28,
+          "end": 6.4,
+          "word": " la",
+          "probability": 0.999914288520813
+        },
+        {
+          "start": 6.4,
+          "end": 6.72,
+          "word": " banque",
+          "probability": 0.9996851682662964
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.72,
+      "end": 9.46,
+      "text": " ou du moins les gens qui semblent travailler là.",
+      "tokens": [
+        50626,
+        2820,
+        1581,
+        13099,
+        1512,
+        10668,
+        1956,
+        20775,
+        75,
+        317,
+        30968,
+        3684,
+        13,
+        50765
+      ],
+      "avg_logprob": -0.10423058511196882,
+      "compression_ratio": 1.5025641025641026,
+      "no_speech_prob": 6.124200539053826e-12,
+      "words": [
+        {
+          "start": 6.72,
+          "end": 7.48,
+          "word": " ou",
+          "probability": 0.2266363799571991
+        },
+        {
+          "start": 7.48,
+          "end": 7.66,
+          "word": " du",
+          "probability": 0.996024489402771
+        },
+        {
+          "start": 7.66,
+          "end": 7.9,
+          "word": " moins",
+          "probability": 0.9998856782913208
+        },
+        {
+          "start": 7.9,
+          "end": 8.1,
+          "word": " les",
+          "probability": 0.9916291236877441
+        },
+        {
+          "start": 8.1,
+          "end": 8.32,
+          "word": " gens",
+          "probability": 0.9999057054519653
+        },
+        {
+          "start": 8.32,
+          "end": 8.52,
+          "word": " qui",
+          "probability": 0.9999380111694336
+        },
+        {
+          "start": 8.52,
+          "end": 8.9,
+          "word": " semblent",
+          "probability": 0.9994072119394938
+        },
+        {
+          "start": 8.9,
+          "end": 9.28,
+          "word": " travailler",
+          "probability": 0.9994930028915405
+        },
+        {
+          "start": 9.28,
+          "end": 9.46,
+          "word": " là.",
+          "probability": 0.9997244477272034
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.0,
+      "end": 13.06,
+      "text": " Elle ne doit sans doute pas être capable de distinguer qui est qui.",
+      "tokens": [
+        50801,
+        16227,
+        408,
+        19193,
+        12177,
+        41984,
+        1736,
+        7418,
+        8189,
+        368,
+        1483,
+        278,
+        5486,
+        1956,
+        871,
+        1956,
+        13,
+        50943
+      ],
+      "avg_logprob": -0.10423058511196882,
+      "compression_ratio": 1.5025641025641026,
+      "no_speech_prob": 6.124200539053826e-12,
+      "words": [
+        {
+          "start": 10.0,
+          "end": 10.38,
+          "word": " Elle",
+          "probability": 0.9976155757904053
+        },
+        {
+          "start": 10.38,
+          "end": 10.48,
+          "word": " ne",
+          "probability": 0.9998973608016968
+        },
+        {
+          "start": 10.48,
+          "end": 10.66,
+          "word": " doit",
+          "probability": 0.9996368885040283
+        },
+        {
+          "start": 10.66,
+          "end": 10.86,
+          "word": " sans",
+          "probability": 0.9995303153991699
+        },
+        {
+          "start": 10.86,
+          "end": 11.04,
+          "word": " doute",
+          "probability": 0.999985933303833
+        },
+        {
+          "start": 11.04,
+          "end": 11.18,
+          "word": " pas",
+          "probability": 0.9998780488967896
+        },
+        {
+          "start": 11.18,
+          "end": 11.34,
+          "word": " être",
+          "probability": 0.9999444484710693
+        },
+        {
+          "start": 11.34,
+          "end": 11.76,
+          "word": " capable",
+          "probability": 0.9989451766014099
+        },
+        {
+          "start": 11.76,
+          "end": 12.04,
+          "word": " de",
+          "probability": 0.9999029636383057
+        },
+        {
+          "start": 12.04,
+          "end": 12.54,
+          "word": " distinguer",
+          "probability": 0.9987898866335551
+        },
+        {
+          "start": 12.54,
+          "end": 12.74,
+          "word": " qui",
+          "probability": 0.9996212720870972
+        },
+        {
+          "start": 12.74,
+          "end": 12.86,
+          "word": " est",
+          "probability": 0.9836277961730957
+        },
+        {
+          "start": 12.86,
+          "end": 13.06,
+          "word": " qui.",
+          "probability": 0.9997349381446838
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 13.62,
+      "end": 15.7,
+      "text": " Tu décides de tenter ta chance.",
+      "tokens": [
+        50987,
+        7836,
+        9198,
+        1875,
+        368,
+        7054,
+        260,
+        1846,
+        2931,
+        13,
+        51075
+      ],
+      "avg_logprob": -0.10423058511196882,
+      "compression_ratio": 1.5025641025641026,
+      "no_speech_prob": 6.124200539053826e-12,
+      "words": [
+        {
+          "start": 13.62,
+          "end": 14.1,
+          "word": " Tu",
+          "probability": 0.9981807470321655
+        },
+        {
+          "start": 14.1,
+          "end": 14.58,
+          "word": " décides",
+          "probability": 0.9991329908370972
+        },
+        {
+          "start": 14.58,
+          "end": 14.8,
+          "word": " de",
+          "probability": 0.9997888207435608
+        },
+        {
+          "start": 14.8,
+          "end": 15.18,
+          "word": " tenter",
+          "probability": 0.9997089803218842
+        },
+        {
+          "start": 15.18,
+          "end": 15.32,
+          "word": " ta",
+          "probability": 0.9996517896652222
+        },
+        {
+          "start": 15.32,
+          "end": 15.7,
+          "word": " chance.",
+          "probability": 0.9998396635055542
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 16.0,
+      "end": 18.66,
+      "text": " Tu avances comme si tu étais ici chez toi.",
+      "tokens": [
+        51108,
+        7836,
+        1305,
+        2676,
+        5173,
+        1511,
+        2604,
+        21325,
+        271,
+        11575,
+        17855,
+        15648,
+        13,
+        51223
+      ],
+      "avg_logprob": -0.10423058511196882,
+      "compression_ratio": 1.5025641025641026,
+      "no_speech_prob": 6.124200539053826e-12,
+      "words": [
+        {
+          "start": 16.0,
+          "end": 16.48,
+          "word": " Tu",
+          "probability": 0.9993200302124023
+        },
+        {
+          "start": 16.48,
+          "end": 17.02,
+          "word": " avances",
+          "probability": 0.9978892803192139
+        },
+        {
+          "start": 17.02,
+          "end": 17.34,
+          "word": " comme",
+          "probability": 0.9996418952941895
+        },
+        {
+          "start": 17.34,
+          "end": 17.56,
+          "word": " si",
+          "probability": 0.9992142915725708
+        },
+        {
+          "start": 17.56,
+          "end": 17.7,
+          "word": " tu",
+          "probability": 0.9999116659164429
+        },
+        {
+          "start": 17.7,
+          "end": 18.0,
+          "word": " étais",
+          "probability": 0.9987475872039795
+        },
+        {
+          "start": 18.0,
+          "end": 18.26,
+          "word": " ici",
+          "probability": 0.9994864463806152
+        },
+        {
+          "start": 18.26,
+          "end": 18.44,
+          "word": " chez",
+          "probability": 0.987916886806488
+        },
+        {
+          "start": 18.44,
+          "end": 18.66,
+          "word": " toi.",
+          "probability": 0.9997630715370178
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

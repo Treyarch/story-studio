@@ -1,0 +1,1109 @@
+{
+  "scene": "A20b_roublard",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A20b_roublard.mp3",
+  "sha256": "e42518c1e59887de7fde3cf7e1aa0f17390853ade91a7f8e14d6fe4b5639bff7",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 44.863875,
+  "text": "Tu ne vois pas comment tu pourrais frapper un dragon avec une dague. Mais peut-être seras-tu capable de berner la créature. Tu t'enveloppes dans ton manteau, qui a pris la couleur de l'herbe depuis que tu crapautes dans la forêt, et tu plonges dans les plus hautes herbes. En attendant de savoir si le dragon a vraiment une très bonne vue, tu t'empares de ta dague et espères que quand la créature sera toute proche, tu pourras la frapper. Enfin, c'est le moment D'un geste précis, tu t'élances Afin de toucher la bête au moment où elle te frôle Tu crois avoir bien visé? Sauf que tu n'as frappé que le vide",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.94,
+      "end": 5.2,
+      "text": " Tu ne vois pas comment tu pourrais frapper un dragon avec une dague.",
+      "tokens": [
+        50365,
+        7836,
+        408,
+        18297,
+        1736,
+        2871,
+        2604,
+        2016,
+        20769,
+        6600,
+        3717,
+        517,
+        12165,
+        4163,
+        2251,
+        274,
+        4918,
+        13,
+        50528
+      ],
+      "avg_logprob": -0.10272568146533825,
+      "compression_ratio": 1.6604477611940298,
+      "no_speech_prob": 7.330350736134417e-12,
+      "words": [
+        {
+          "start": 1.94,
+          "end": 2.38,
+          "word": " Tu",
+          "probability": 0.963750422000885
+        },
+        {
+          "start": 2.38,
+          "end": 2.5,
+          "word": " ne",
+          "probability": 0.9985017776489258
+        },
+        {
+          "start": 2.5,
+          "end": 2.68,
+          "word": " vois",
+          "probability": 0.9990696310997009
+        },
+        {
+          "start": 2.68,
+          "end": 2.86,
+          "word": " pas",
+          "probability": 0.9999710321426392
+        },
+        {
+          "start": 2.86,
+          "end": 3.14,
+          "word": " comment",
+          "probability": 0.9995290040969849
+        },
+        {
+          "start": 3.14,
+          "end": 3.34,
+          "word": " tu",
+          "probability": 0.9998879432678223
+        },
+        {
+          "start": 3.34,
+          "end": 3.64,
+          "word": " pourrais",
+          "probability": 0.9979738891124725
+        },
+        {
+          "start": 3.64,
+          "end": 3.98,
+          "word": " frapper",
+          "probability": 0.999731183052063
+        },
+        {
+          "start": 3.98,
+          "end": 4.14,
+          "word": " un",
+          "probability": 0.9997425675392151
+        },
+        {
+          "start": 4.14,
+          "end": 4.44,
+          "word": " dragon",
+          "probability": 0.9997876286506653
+        },
+        {
+          "start": 4.44,
+          "end": 4.7,
+          "word": " avec",
+          "probability": 0.9993792772293091
+        },
+        {
+          "start": 4.7,
+          "end": 4.96,
+          "word": " une",
+          "probability": 0.9998216032981873
+        },
+        {
+          "start": 4.96,
+          "end": 5.2,
+          "word": " dague.",
+          "probability": 0.9869694113731384
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.82,
+      "end": 8.96,
+      "text": " Mais peut-être seras-tu capable de berner la créature.",
+      "tokens": [
+        50571,
+        6313,
+        5977,
+        12,
+        9498,
+        816,
+        296,
+        12,
+        9179,
+        8189,
+        368,
+        5948,
+        1193,
+        635,
+        15609,
+        1503,
+        13,
+        50717
+      ],
+      "avg_logprob": -0.10272568146533825,
+      "compression_ratio": 1.6604477611940298,
+      "no_speech_prob": 7.330350736134417e-12,
+      "words": [
+        {
+          "start": 5.82,
+          "end": 6.32,
+          "word": " Mais",
+          "probability": 0.9996544122695923
+        },
+        {
+          "start": 6.32,
+          "end": 6.7,
+          "word": " peut",
+          "probability": 0.9991543292999268
+        },
+        {
+          "start": 6.7,
+          "end": 6.88,
+          "word": "-être",
+          "probability": 0.9999369978904724
+        },
+        {
+          "start": 6.88,
+          "end": 7.26,
+          "word": " seras",
+          "probability": 0.9989890158176422
+        },
+        {
+          "start": 7.26,
+          "end": 7.38,
+          "word": "-tu",
+          "probability": 0.9997836947441101
+        },
+        {
+          "start": 7.38,
+          "end": 7.78,
+          "word": " capable",
+          "probability": 0.9996527433395386
+        },
+        {
+          "start": 7.78,
+          "end": 8.04,
+          "word": " de",
+          "probability": 0.9999245405197144
+        },
+        {
+          "start": 8.04,
+          "end": 8.32,
+          "word": " berner",
+          "probability": 0.9974382817745209
+        },
+        {
+          "start": 8.32,
+          "end": 8.46,
+          "word": " la",
+          "probability": 0.9997943043708801
+        },
+        {
+          "start": 8.46,
+          "end": 8.96,
+          "word": " créature.",
+          "probability": 0.9998340904712677
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.14,
+      "end": 15.94,
+      "text": " Tu t'enveloppes dans ton manteau, qui a pris la couleur de l'herbe depuis que tu crapautes dans la forêt,",
+      "tokens": [
+        50779,
+        7836,
+        256,
+        6,
+        268,
+        1388,
+        5190,
+        2680,
+        2952,
+        275,
+        2879,
+        1459,
+        11,
+        1956,
+        257,
+        16163,
+        635,
+        49462,
+        368,
+        287,
+        6,
+        511,
+        650,
+        16062,
+        631,
+        2604,
+        2094,
+        4306,
+        1819,
+        2680,
+        635,
+        337,
+        15519,
+        11,
+        51064
+      ],
+      "avg_logprob": -0.10272568146533825,
+      "compression_ratio": 1.6604477611940298,
+      "no_speech_prob": 7.330350736134417e-12,
+      "words": [
+        {
+          "start": 10.14,
+          "end": 10.64,
+          "word": " Tu",
+          "probability": 0.9980050921440125
+        },
+        {
+          "start": 10.64,
+          "end": 10.8,
+          "word": " t",
+          "probability": 0.9997346997261047
+        },
+        {
+          "start": 10.8,
+          "end": 11.18,
+          "word": "'enveloppes",
+          "probability": 0.9986627697944641
+        },
+        {
+          "start": 11.18,
+          "end": 11.32,
+          "word": " dans",
+          "probability": 0.9997599720954895
+        },
+        {
+          "start": 11.32,
+          "end": 11.48,
+          "word": " ton",
+          "probability": 0.9997336268424988
+        },
+        {
+          "start": 11.48,
+          "end": 11.88,
+          "word": " manteau,",
+          "probability": 0.9993975957234701
+        },
+        {
+          "start": 12.0,
+          "end": 12.46,
+          "word": " qui",
+          "probability": 0.9997432827949524
+        },
+        {
+          "start": 12.46,
+          "end": 12.62,
+          "word": " a",
+          "probability": 0.9876866936683655
+        },
+        {
+          "start": 12.62,
+          "end": 12.76,
+          "word": " pris",
+          "probability": 0.997545063495636
+        },
+        {
+          "start": 12.76,
+          "end": 12.94,
+          "word": " la",
+          "probability": 0.9998918771743774
+        },
+        {
+          "start": 12.94,
+          "end": 13.26,
+          "word": " couleur",
+          "probability": 0.9999629259109497
+        },
+        {
+          "start": 13.26,
+          "end": 13.44,
+          "word": " de",
+          "probability": 0.9999628067016602
+        },
+        {
+          "start": 13.44,
+          "end": 13.58,
+          "word": " l",
+          "probability": 0.9999649524688721
+        },
+        {
+          "start": 13.58,
+          "end": 13.78,
+          "word": "'herbe",
+          "probability": 0.9997603098551432
+        },
+        {
+          "start": 13.78,
+          "end": 14.26,
+          "word": " depuis",
+          "probability": 0.9807077050209045
+        },
+        {
+          "start": 14.26,
+          "end": 14.5,
+          "word": " que",
+          "probability": 0.9999512434005737
+        },
+        {
+          "start": 14.5,
+          "end": 14.64,
+          "word": " tu",
+          "probability": 0.9999376535415649
+        },
+        {
+          "start": 14.64,
+          "end": 15.22,
+          "word": " crapautes",
+          "probability": 0.6747850974400839
+        },
+        {
+          "start": 15.22,
+          "end": 15.44,
+          "word": " dans",
+          "probability": 0.9986997842788696
+        },
+        {
+          "start": 15.44,
+          "end": 15.58,
+          "word": " la",
+          "probability": 0.9999014139175415
+        },
+        {
+          "start": 15.58,
+          "end": 15.94,
+          "word": " forêt,",
+          "probability": 0.9996460974216461
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 16.14,
+      "end": 18.32,
+      "text": " et tu plonges dans les plus hautes herbes.",
+      "tokens": [
+        51093,
+        1030,
+        2604,
+        499,
+        556,
+        279,
+        2680,
+        1512,
+        1804,
+        324,
+        1819,
+        720,
+        6446,
+        13,
+        51184
+      ],
+      "avg_logprob": -0.10272568146533825,
+      "compression_ratio": 1.6604477611940298,
+      "no_speech_prob": 7.330350736134417e-12,
+      "words": [
+        {
+          "start": 16.14,
+          "end": 16.66,
+          "word": " et",
+          "probability": 0.9997963309288025
+        },
+        {
+          "start": 16.66,
+          "end": 16.82,
+          "word": " tu",
+          "probability": 0.9998875856399536
+        },
+        {
+          "start": 16.82,
+          "end": 17.26,
+          "word": " plonges",
+          "probability": 0.9985364278157552
+        },
+        {
+          "start": 17.26,
+          "end": 17.36,
+          "word": " dans",
+          "probability": 0.999772846698761
+        },
+        {
+          "start": 17.36,
+          "end": 17.5,
+          "word": " les",
+          "probability": 0.9998704195022583
+        },
+        {
+          "start": 17.5,
+          "end": 17.74,
+          "word": " plus",
+          "probability": 0.99972003698349
+        },
+        {
+          "start": 17.74,
+          "end": 17.98,
+          "word": " hautes",
+          "probability": 0.9989565908908844
+        },
+        {
+          "start": 17.98,
+          "end": 18.32,
+          "word": " herbes.",
+          "probability": 0.9992286562919617
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 19.22,
+      "end": 22.86,
+      "text": " En attendant de savoir si le dragon a vraiment une très bonne vue,",
+      "tokens": [
+        51249,
+        2193,
+        39339,
+        368,
+        19345,
+        1511,
+        476,
+        12165,
+        257,
+        8322,
+        2251,
+        5732,
+        20577,
+        32859,
+        11,
+        51412
+      ],
+      "avg_logprob": -0.10272568146533825,
+      "compression_ratio": 1.6604477611940298,
+      "no_speech_prob": 7.330350736134417e-12,
+      "words": [
+        {
+          "start": 19.22,
+          "end": 19.72,
+          "word": " En",
+          "probability": 0.9997615218162537
+        },
+        {
+          "start": 19.72,
+          "end": 20.12,
+          "word": " attendant",
+          "probability": 0.9998526573181152
+        },
+        {
+          "start": 20.12,
+          "end": 20.34,
+          "word": " de",
+          "probability": 0.9999444484710693
+        },
+        {
+          "start": 20.34,
+          "end": 20.72,
+          "word": " savoir",
+          "probability": 0.999248206615448
+        },
+        {
+          "start": 20.72,
+          "end": 21.1,
+          "word": " si",
+          "probability": 0.9993563294410706
+        },
+        {
+          "start": 21.1,
+          "end": 21.24,
+          "word": " le",
+          "probability": 0.9996213912963867
+        },
+        {
+          "start": 21.24,
+          "end": 21.58,
+          "word": " dragon",
+          "probability": 0.9999203681945801
+        },
+        {
+          "start": 21.58,
+          "end": 21.76,
+          "word": " a",
+          "probability": 0.9994379878044128
+        },
+        {
+          "start": 21.76,
+          "end": 22.08,
+          "word": " vraiment",
+          "probability": 0.9997209906578064
+        },
+        {
+          "start": 22.08,
+          "end": 22.26,
+          "word": " une",
+          "probability": 0.9997311234474182
+        },
+        {
+          "start": 22.26,
+          "end": 22.42,
+          "word": " très",
+          "probability": 0.9998612403869629
+        },
+        {
+          "start": 22.42,
+          "end": 22.64,
+          "word": " bonne",
+          "probability": 0.9999130964279175
+        },
+        {
+          "start": 22.64,
+          "end": 22.86,
+          "word": " vue,",
+          "probability": 0.999815046787262
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 23.24,
+      "end": 29.72,
+      "text": " tu t'empares de ta dague et espères que quand la créature sera toute proche, tu pourras la frapper.",
+      "tokens": [
+        51412,
+        2604,
+        256,
+        6,
+        15970,
+        8643,
+        368,
+        1846,
+        274,
+        4918,
+        1030,
+        7089,
+        13927,
+        631,
+        6932,
+        635,
+        15609,
+        1503,
+        15021,
+        14953,
+        447,
+        1876,
+        11,
+        2604,
+        2016,
+        3906,
+        635,
+        6600,
+        3717,
+        13,
+        51755
+      ],
+      "avg_logprob": -0.10272568146533825,
+      "compression_ratio": 1.6604477611940298,
+      "no_speech_prob": 7.330350736134417e-12,
+      "words": [
+        {
+          "start": 23.24,
+          "end": 23.64,
+          "word": " tu",
+          "probability": 0.9991408586502075
+        },
+        {
+          "start": 23.64,
+          "end": 23.8,
+          "word": " t",
+          "probability": 0.9989174604415894
+        },
+        {
+          "start": 23.8,
+          "end": 24.12,
+          "word": "'empares",
+          "probability": 0.9382797082265218
+        },
+        {
+          "start": 24.12,
+          "end": 24.26,
+          "word": " de",
+          "probability": 0.9998400211334229
+        },
+        {
+          "start": 24.26,
+          "end": 24.44,
+          "word": " ta",
+          "probability": 0.9927794337272644
+        },
+        {
+          "start": 24.44,
+          "end": 24.76,
+          "word": " dague",
+          "probability": 0.9990662634372711
+        },
+        {
+          "start": 24.76,
+          "end": 25.3,
+          "word": " et",
+          "probability": 0.9362059235572815
+        },
+        {
+          "start": 25.3,
+          "end": 25.86,
+          "word": " espères",
+          "probability": 0.9971981942653656
+        },
+        {
+          "start": 25.86,
+          "end": 26.06,
+          "word": " que",
+          "probability": 0.9995686411857605
+        },
+        {
+          "start": 26.06,
+          "end": 26.24,
+          "word": " quand",
+          "probability": 0.9746039509773254
+        },
+        {
+          "start": 26.24,
+          "end": 26.4,
+          "word": " la",
+          "probability": 0.9991480112075806
+        },
+        {
+          "start": 26.4,
+          "end": 26.92,
+          "word": " créature",
+          "probability": 0.9996288120746613
+        },
+        {
+          "start": 26.92,
+          "end": 27.24,
+          "word": " sera",
+          "probability": 0.9971711039543152
+        },
+        {
+          "start": 27.24,
+          "end": 27.46,
+          "word": " toute",
+          "probability": 0.9966521859169006
+        },
+        {
+          "start": 27.46,
+          "end": 27.9,
+          "word": " proche,",
+          "probability": 0.999417781829834
+        },
+        {
+          "start": 28.08,
+          "end": 28.72,
+          "word": " tu",
+          "probability": 0.9994921684265137
+        },
+        {
+          "start": 28.72,
+          "end": 29.2,
+          "word": " pourras",
+          "probability": 0.9982871413230896
+        },
+        {
+          "start": 29.2,
+          "end": 29.36,
+          "word": " la",
+          "probability": 0.999648928642273
+        },
+        {
+          "start": 29.36,
+          "end": 29.72,
+          "word": " frapper.",
+          "probability": 0.9997633099555969
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 2778,
+      "start": 30.56,
+      "end": 32.04,
+      "text": " Enfin, c'est le moment",
+      "tokens": [
+        50365,
+        35861,
+        11,
+        269,
+        6,
+        377,
+        476,
+        1623,
+        50482
+      ],
+      "avg_logprob": -0.09176863156832181,
+      "compression_ratio": 1.232394366197183,
+      "no_speech_prob": 5.740035616957906e-12,
+      "words": [
+        {
+          "start": 30.56,
+          "end": 31.06,
+          "word": " Enfin,",
+          "probability": 0.9496548175811768
+        },
+        {
+          "start": 31.36,
+          "end": 31.6,
+          "word": " c",
+          "probability": 0.9996091723442078
+        },
+        {
+          "start": 31.6,
+          "end": 31.66,
+          "word": "'est",
+          "probability": 0.9999922513961792
+        },
+        {
+          "start": 31.66,
+          "end": 31.76,
+          "word": " le",
+          "probability": 0.9998968839645386
+        },
+        {
+          "start": 31.76,
+          "end": 32.04,
+          "word": " moment",
+          "probability": 0.9999134540557861
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 2778,
+      "start": 32.04,
+      "end": 34.58,
+      "text": " D'un geste précis, tu t'élances",
+      "tokens": [
+        50482,
+        413,
+        6,
+        409,
+        7219,
+        68,
+        49436,
+        11,
+        2604,
+        256,
+        6,
+        8025,
+        2676,
+        50609
+      ],
+      "avg_logprob": -0.09176863156832181,
+      "compression_ratio": 1.232394366197183,
+      "no_speech_prob": 5.740035616957906e-12,
+      "words": [
+        {
+          "start": 32.04,
+          "end": 32.46,
+          "word": " D",
+          "probability": 0.018019670620560646
+        },
+        {
+          "start": 32.46,
+          "end": 33.08,
+          "word": "'un",
+          "probability": 0.9999611973762512
+        },
+        {
+          "start": 33.08,
+          "end": 33.48,
+          "word": " geste",
+          "probability": 0.9998391568660736
+        },
+        {
+          "start": 33.48,
+          "end": 33.82,
+          "word": " précis,",
+          "probability": 0.9995390176773071
+        },
+        {
+          "start": 33.94,
+          "end": 34.04,
+          "word": " tu",
+          "probability": 0.9981293082237244
+        },
+        {
+          "start": 34.04,
+          "end": 34.16,
+          "word": " t",
+          "probability": 0.8842468857765198
+        },
+        {
+          "start": 34.16,
+          "end": 34.58,
+          "word": "'élances",
+          "probability": 0.9840052525202433
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2778,
+      "start": 34.58,
+      "end": 37.2,
+      "text": " Afin de toucher la bête au moment où elle te frôle",
+      "tokens": [
+        50609,
+        3325,
+        259,
+        368,
+        2557,
+        260,
+        635,
+        272,
+        12943,
+        1609,
+        1623,
+        9068,
+        8404,
+        535,
+        431,
+        22313,
+        50740
+      ],
+      "avg_logprob": -0.09176863156832181,
+      "compression_ratio": 1.232394366197183,
+      "no_speech_prob": 5.740035616957906e-12,
+      "words": [
+        {
+          "start": 34.58,
+          "end": 35.06,
+          "word": " Afin",
+          "probability": 0.618923082947731
+        },
+        {
+          "start": 35.06,
+          "end": 35.22,
+          "word": " de",
+          "probability": 0.9999233484268188
+        },
+        {
+          "start": 35.22,
+          "end": 35.58,
+          "word": " toucher",
+          "probability": 0.9997674524784088
+        },
+        {
+          "start": 35.58,
+          "end": 35.7,
+          "word": " la",
+          "probability": 0.9994490742683411
+        },
+        {
+          "start": 35.7,
+          "end": 35.98,
+          "word": " bête",
+          "probability": 0.999786376953125
+        },
+        {
+          "start": 35.98,
+          "end": 36.18,
+          "word": " au",
+          "probability": 0.8718504905700684
+        },
+        {
+          "start": 36.18,
+          "end": 36.46,
+          "word": " moment",
+          "probability": 0.9998843669891357
+        },
+        {
+          "start": 36.46,
+          "end": 36.62,
+          "word": " où",
+          "probability": 0.9863408803939819
+        },
+        {
+          "start": 36.62,
+          "end": 36.74,
+          "word": " elle",
+          "probability": 0.9991058707237244
+        },
+        {
+          "start": 36.74,
+          "end": 36.9,
+          "word": " te",
+          "probability": 0.9998751878738403
+        },
+        {
+          "start": 36.9,
+          "end": 37.2,
+          "word": " frôle",
+          "probability": 0.9874019622802734
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2778,
+      "start": 37.74,
+      "end": 39.62,
+      "text": " Tu crois avoir bien visé?",
+      "tokens": [
+        50740,
+        7836,
+        21724,
+        10853,
+        3610,
+        1452,
+        526,
+        2506,
+        50878
+      ],
+      "avg_logprob": -0.09176863156832181,
+      "compression_ratio": 1.232394366197183,
+      "no_speech_prob": 5.740035616957906e-12,
+      "words": [
+        {
+          "start": 37.74,
+          "end": 38.24,
+          "word": " Tu",
+          "probability": 0.9964941143989563
+        },
+        {
+          "start": 38.24,
+          "end": 38.46,
+          "word": " crois",
+          "probability": 0.9940651655197144
+        },
+        {
+          "start": 38.46,
+          "end": 38.72,
+          "word": " avoir",
+          "probability": 0.9999126195907593
+        },
+        {
+          "start": 38.72,
+          "end": 38.94,
+          "word": " bien",
+          "probability": 0.9998438358306885
+        },
+        {
+          "start": 38.94,
+          "end": 39.32,
+          "word": " visé",
+          "probability": 0.992768257856369
+        },
+        {
+          "start": 39.32,
+          "end": 39.62,
+          "word": "?",
+          "probability": 0.2490134984254837
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 11,
+      "seek": 2778,
+      "start": 39.62,
+      "end": 41.6,
+      "text": " Sauf que tu n'as frappé que le vide",
+      "tokens": [
+        50878,
+        318,
+        9507,
+        631,
+        2604,
+        297,
+        6,
+        296,
+        6600,
+        427,
+        526,
+        631,
+        476,
+        838,
+        50960
+      ],
+      "avg_logprob": -0.09176863156832181,
+      "compression_ratio": 1.232394366197183,
+      "no_speech_prob": 5.740035616957906e-12,
+      "words": [
+        {
+          "start": 39.62,
+          "end": 40.22,
+          "word": " Sauf",
+          "probability": 0.9990909397602081
+        },
+        {
+          "start": 40.22,
+          "end": 40.38,
+          "word": " que",
+          "probability": 0.9999377727508545
+        },
+        {
+          "start": 40.38,
+          "end": 40.5,
+          "word": " tu",
+          "probability": 0.9998533725738525
+        },
+        {
+          "start": 40.5,
+          "end": 40.6,
+          "word": " n",
+          "probability": 0.99912029504776
+        },
+        {
+          "start": 40.6,
+          "end": 40.7,
+          "word": "'as",
+          "probability": 0.9998103976249695
+        },
+        {
+          "start": 40.7,
+          "end": 41.04,
+          "word": " frappé",
+          "probability": 0.9993865489959717
+        },
+        {
+          "start": 41.04,
+          "end": 41.2,
+          "word": " que",
+          "probability": 0.9990500807762146
+        },
+        {
+          "start": 41.2,
+          "end": 41.34,
+          "word": " le",
+          "probability": 0.9999285936355591
+        },
+        {
+          "start": 41.34,
+          "end": 41.6,
+          "word": " vide",
+          "probability": 0.9993281364440918
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

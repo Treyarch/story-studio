@@ -1,0 +1,463 @@
+{
+  "scene": "A13_wis_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A13_wis_fail.mp3",
+  "sha256": "19287320577b91066a455367cef03690e710a181e894368df9d2e1db215c8997",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 17.9856875,
+  "text": "Tu examines l'homme de plus près, mais sans parvenir à trouver ce qui cloche. Tu as déjà interviewé des agents du guet, et bien sûr, ils présentent en général mieux que celui-ci. Mais peut-être que les policiers du port sont plus négligés que ceux des quartiers plus riches, qui sait?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.72,
+      "end": 4.94,
+      "text": " Tu examines l'homme de plus près, mais sans parvenir à trouver ce qui cloche.",
+      "tokens": [
+        50365,
+        7836,
+        1139,
+        1652,
+        287,
+        6,
+        38073,
+        368,
+        1804,
+        25350,
+        11,
+        2420,
+        12177,
+        971,
+        21955,
+        1531,
+        23546,
+        1769,
+        1956,
+        20123,
+        1876,
+        13,
+        50577
+      ],
+      "avg_logprob": -0.10848217540317112,
+      "compression_ratio": 1.4210526315789473,
+      "no_speech_prob": 4.973057122353852e-12,
+      "words": [
+        {
+          "start": 0.72,
+          "end": 1.12,
+          "word": " Tu",
+          "probability": 0.971413791179657
+        },
+        {
+          "start": 1.12,
+          "end": 1.66,
+          "word": " examines",
+          "probability": 0.9893008470535278
+        },
+        {
+          "start": 1.66,
+          "end": 1.78,
+          "word": " l",
+          "probability": 0.9999523162841797
+        },
+        {
+          "start": 1.78,
+          "end": 1.92,
+          "word": "'homme",
+          "probability": 0.9994906485080719
+        },
+        {
+          "start": 1.92,
+          "end": 2.06,
+          "word": " de",
+          "probability": 0.999921441078186
+        },
+        {
+          "start": 2.06,
+          "end": 2.26,
+          "word": " plus",
+          "probability": 0.9999299049377441
+        },
+        {
+          "start": 2.26,
+          "end": 2.52,
+          "word": " près,",
+          "probability": 0.999894380569458
+        },
+        {
+          "start": 2.7,
+          "end": 3.08,
+          "word": " mais",
+          "probability": 0.9997755885124207
+        },
+        {
+          "start": 3.08,
+          "end": 3.32,
+          "word": " sans",
+          "probability": 0.9998675584793091
+        },
+        {
+          "start": 3.32,
+          "end": 3.8,
+          "word": " parvenir",
+          "probability": 0.9999181628227234
+        },
+        {
+          "start": 3.8,
+          "end": 4.0,
+          "word": " à",
+          "probability": 0.9999206066131592
+        },
+        {
+          "start": 4.0,
+          "end": 4.24,
+          "word": " trouver",
+          "probability": 0.9994565844535828
+        },
+        {
+          "start": 4.24,
+          "end": 4.42,
+          "word": " ce",
+          "probability": 0.9926689863204956
+        },
+        {
+          "start": 4.42,
+          "end": 4.58,
+          "word": " qui",
+          "probability": 0.9996323585510254
+        },
+        {
+          "start": 4.58,
+          "end": 4.94,
+          "word": " cloche.",
+          "probability": 0.9987250566482544
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.22,
+      "end": 10.38,
+      "text": " Tu as déjà interviewé des agents du guet, et bien sûr, ils présentent en général mieux que celui-ci.",
+      "tokens": [
+        50608,
+        7836,
+        382,
+        12027,
+        4049,
+        526,
+        730,
+        12554,
+        1581,
+        695,
+        302,
+        11,
+        1030,
+        3610,
+        18143,
+        11,
+        9047,
+        26056,
+        317,
+        465,
+        27796,
+        20401,
+        631,
+        22829,
+        12,
+        537,
+        13,
+        50849
+      ],
+      "avg_logprob": -0.10848217540317112,
+      "compression_ratio": 1.4210526315789473,
+      "no_speech_prob": 4.973057122353852e-12,
+      "words": [
+        {
+          "start": 5.22,
+          "end": 5.68,
+          "word": " Tu",
+          "probability": 0.9993687272071838
+        },
+        {
+          "start": 5.68,
+          "end": 5.8,
+          "word": " as",
+          "probability": 0.9994459748268127
+        },
+        {
+          "start": 5.8,
+          "end": 6.08,
+          "word": " déjà",
+          "probability": 0.9998661279678345
+        },
+        {
+          "start": 6.08,
+          "end": 6.7,
+          "word": " interviewé",
+          "probability": 0.9996847808361053
+        },
+        {
+          "start": 6.7,
+          "end": 6.88,
+          "word": " des",
+          "probability": 0.9999068975448608
+        },
+        {
+          "start": 6.88,
+          "end": 7.14,
+          "word": " agents",
+          "probability": 0.9994221925735474
+        },
+        {
+          "start": 7.14,
+          "end": 7.3,
+          "word": " du",
+          "probability": 0.9600577354431152
+        },
+        {
+          "start": 7.3,
+          "end": 7.5,
+          "word": " guet,",
+          "probability": 0.7336957901716232
+        },
+        {
+          "start": 7.6,
+          "end": 7.74,
+          "word": " et",
+          "probability": 0.9998949766159058
+        },
+        {
+          "start": 7.74,
+          "end": 7.92,
+          "word": " bien",
+          "probability": 0.9997715353965759
+        },
+        {
+          "start": 7.92,
+          "end": 8.24,
+          "word": " sûr,",
+          "probability": 0.9999279975891113
+        },
+        {
+          "start": 8.36,
+          "end": 8.52,
+          "word": " ils",
+          "probability": 0.9596765041351318
+        },
+        {
+          "start": 8.52,
+          "end": 8.98,
+          "word": " présentent",
+          "probability": 0.9874509871006012
+        },
+        {
+          "start": 8.98,
+          "end": 9.04,
+          "word": " en",
+          "probability": 0.9992393255233765
+        },
+        {
+          "start": 9.04,
+          "end": 9.38,
+          "word": " général",
+          "probability": 0.9998261332511902
+        },
+        {
+          "start": 9.38,
+          "end": 9.72,
+          "word": " mieux",
+          "probability": 0.9997187256813049
+        },
+        {
+          "start": 9.72,
+          "end": 9.88,
+          "word": " que",
+          "probability": 0.9999599456787109
+        },
+        {
+          "start": 9.88,
+          "end": 10.16,
+          "word": " celui",
+          "probability": 0.9999134540557861
+        },
+        {
+          "start": 10.16,
+          "end": 10.38,
+          "word": "-ci.",
+          "probability": 0.999876081943512
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.86,
+      "end": 16.54,
+      "text": " Mais peut-être que les policiers du port sont plus négligés que ceux des quartiers plus riches, qui sait?",
+      "tokens": [
+        50882,
+        6313,
+        5977,
+        12,
+        9498,
+        631,
+        1512,
+        6285,
+        4890,
+        1581,
+        2436,
+        4900,
+        1804,
+        7024,
+        70,
+        5073,
+        2191,
+        631,
+        21314,
+        730,
+        20837,
+        4890,
+        1804,
+        35777,
+        11,
+        1956,
+        23146,
+        2506,
+        51165
+      ],
+      "avg_logprob": -0.10848217540317112,
+      "compression_ratio": 1.4210526315789473,
+      "no_speech_prob": 4.973057122353852e-12,
+      "words": [
+        {
+          "start": 10.86,
+          "end": 11.34,
+          "word": " Mais",
+          "probability": 0.9991936087608337
+        },
+        {
+          "start": 11.34,
+          "end": 12.04,
+          "word": " peut",
+          "probability": 0.9878432750701904
+        },
+        {
+          "start": 12.04,
+          "end": 12.26,
+          "word": "-être",
+          "probability": 0.999960720539093
+        },
+        {
+          "start": 12.26,
+          "end": 12.5,
+          "word": " que",
+          "probability": 0.9999371767044067
+        },
+        {
+          "start": 12.5,
+          "end": 12.66,
+          "word": " les",
+          "probability": 0.9997289776802063
+        },
+        {
+          "start": 12.66,
+          "end": 13.18,
+          "word": " policiers",
+          "probability": 0.9997712671756744
+        },
+        {
+          "start": 13.18,
+          "end": 13.34,
+          "word": " du",
+          "probability": 0.9996602535247803
+        },
+        {
+          "start": 13.34,
+          "end": 13.62,
+          "word": " port",
+          "probability": 0.9950937032699585
+        },
+        {
+          "start": 13.62,
+          "end": 13.88,
+          "word": " sont",
+          "probability": 0.9992254972457886
+        },
+        {
+          "start": 13.88,
+          "end": 14.12,
+          "word": " plus",
+          "probability": 0.9997174143791199
+        },
+        {
+          "start": 14.12,
+          "end": 14.64,
+          "word": " négligés",
+          "probability": 0.9994049668312073
+        },
+        {
+          "start": 14.64,
+          "end": 14.8,
+          "word": " que",
+          "probability": 0.999665379524231
+        },
+        {
+          "start": 14.8,
+          "end": 15.0,
+          "word": " ceux",
+          "probability": 0.9996602535247803
+        },
+        {
+          "start": 15.0,
+          "end": 15.14,
+          "word": " des",
+          "probability": 0.999913215637207
+        },
+        {
+          "start": 15.14,
+          "end": 15.5,
+          "word": " quartiers",
+          "probability": 0.9997184574604034
+        },
+        {
+          "start": 15.5,
+          "end": 15.68,
+          "word": " plus",
+          "probability": 0.9996824264526367
+        },
+        {
+          "start": 15.68,
+          "end": 15.94,
+          "word": " riches,",
+          "probability": 0.999553382396698
+        },
+        {
+          "start": 16.08,
+          "end": 16.08,
+          "word": " qui",
+          "probability": 0.998296320438385
+        },
+        {
+          "start": 16.08,
+          "end": 16.3,
+          "word": " sait",
+          "probability": 0.9744336605072021
+        },
+        {
+          "start": 16.3,
+          "end": 16.54,
+          "word": "?",
+          "probability": 0.8742075562477112
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

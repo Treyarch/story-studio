@@ -1,0 +1,74 @@
+{
+  "scene": "B41b_list_ch2_b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B41b_list_ch2_b.mp3",
+  "sha256": "00b8870840f0fd8c7cc0e37375de90cbee77cd111468acdbbadc7b36325567ba",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.905,
+  "text": "Allez au bureau de l'ERAL.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.6,
+      "text": " Allez au bureau de l'ERAL.",
+      "tokens": [
+        50365,
+        29616,
+        1609,
+        35343,
+        368,
+        287,
+        6,
+        1598,
+        3427,
+        13,
+        50446
+      ],
+      "avg_logprob": -0.26934420069058734,
+      "compression_ratio": 0.8125,
+      "no_speech_prob": 7.258882731009386e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.54,
+          "word": " Allez",
+          "probability": 0.8684825897216797
+        },
+        {
+          "start": 0.54,
+          "end": 0.7,
+          "word": " au",
+          "probability": 0.9983646273612976
+        },
+        {
+          "start": 0.7,
+          "end": 0.98,
+          "word": " bureau",
+          "probability": 0.9946459531784058
+        },
+        {
+          "start": 0.98,
+          "end": 1.18,
+          "word": " de",
+          "probability": 0.9991030693054199
+        },
+        {
+          "start": 1.18,
+          "end": 1.28,
+          "word": " l",
+          "probability": 0.9663884043693542
+        },
+        {
+          "start": 1.28,
+          "end": 1.6,
+          "word": "'ERAL.",
+          "probability": 0.73000468313694
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

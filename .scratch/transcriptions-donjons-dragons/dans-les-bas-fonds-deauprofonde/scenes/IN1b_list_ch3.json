@@ -1,0 +1,46 @@
+{
+  "scene": "IN1b_list_ch3",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/IN1b_list_ch3.mp3",
+  "sha256": "8c61517995c7333d0204fcf4092f4d385b031151fa5ed4c3a258942a63763f00",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.483625,
+  "text": "Moines?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.14,
+      "end": 0.96,
+      "text": " Moines?",
+      "tokens": [
+        50365,
+        3335,
+        1652,
+        2506,
+        50432
+      ],
+      "avg_logprob": -0.603971928358078,
+      "compression_ratio": 0.5,
+      "no_speech_prob": 3.858516631205511e-11,
+      "words": [
+        {
+          "start": 0.14,
+          "end": 0.82,
+          "word": " Moines",
+          "probability": 0.7403301894664764
+        },
+        {
+          "start": 0.82,
+          "end": 0.96,
+          "word": "?",
+          "probability": 0.600380003452301
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

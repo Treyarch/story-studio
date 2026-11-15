@@ -1,0 +1,45 @@
+{
+  "scene": "A46_wis_success_panorama_e",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A46_wis_success_panorama_e.mp3",
+  "sha256": "e748060bd60a2205c545069490b4ef82b685e8b8bfea8aca3172e5544ec54f88",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.1045,
+  "text": "Euh?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 0.86,
+      "text": " Euh?",
+      "tokens": [
+        50365,
+        47320,
+        2506,
+        50416
+      ],
+      "avg_logprob": -0.602351713180542,
+      "compression_ratio": 0.38461538461538464,
+      "no_speech_prob": 2.882667438086628e-10,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.56,
+          "word": " Euh",
+          "probability": 0.19698961079120636
+        },
+        {
+          "start": 0.56,
+          "end": 0.86,
+          "word": "?",
+          "probability": 0.8945450782775879
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "scene": "A41_roublard_dex_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A41_roublard_dex_success.mp3",
+  "sha256": "37eea80e1642005bd2f55ac56d0b0ee80842e3862ee709501dfe762ff7940da1",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 15.20875,
+  "text": "Tu parviens à crocheter la serrure et ouvres les portes le plus discrètement possible. Tu tends l'oreille, pas d'alarme. Tu te glisses à l'intérieur et refermes derrière toi.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.14,
+      "end": 6.4,
+      "text": " Tu parviens à crocheter la serrure et ouvres les portes le plus discrètement possible.",
+      "tokens": [
+        50365,
+        7836,
+        971,
+        4917,
+        694,
+        1531,
+        8191,
+        2398,
+        635,
+        816,
+        81,
+        540,
+        1030,
+        21157,
+        495,
+        1512,
+        2436,
+        279,
+        476,
+        1804,
+        2983,
+        81,
+        27236,
+        1944,
+        13,
+        50629
+      ],
+      "avg_logprob": -0.084010882881181,
+      "compression_ratio": 1.3161764705882353,
+      "no_speech_prob": 5.018969614911661e-12,
+      "words": [
+        {
+          "start": 1.14,
+          "end": 1.58,
+          "word": " Tu",
+          "probability": 0.9748611450195312
+        },
+        {
+          "start": 1.58,
+          "end": 2.06,
+          "word": " parviens",
+          "probability": 0.9967908461888632
+        },
+        {
+          "start": 2.06,
+          "end": 2.24,
+          "word": " à",
+          "probability": 0.9994288086891174
+        },
+        {
+          "start": 2.24,
+          "end": 2.58,
+          "word": " crocheter",
+          "probability": 0.9980418682098389
+        },
+        {
+          "start": 2.58,
+          "end": 2.7,
+          "word": " la",
+          "probability": 0.9996156692504883
+        },
+        {
+          "start": 2.7,
+          "end": 3.16,
+          "word": " serrure",
+          "probability": 0.999467670917511
+        },
+        {
+          "start": 3.16,
+          "end": 3.66,
+          "word": " et",
+          "probability": 0.9814376831054688
+        },
+        {
+          "start": 3.66,
+          "end": 4.06,
+          "word": " ouvres",
+          "probability": 0.9016011655330658
+        },
+        {
+          "start": 4.06,
+          "end": 4.2,
+          "word": " les",
+          "probability": 0.9997666478157043
+        },
+        {
+          "start": 4.2,
+          "end": 4.6,
+          "word": " portes",
+          "probability": 0.9997227191925049
+        },
+        {
+          "start": 4.6,
+          "end": 4.82,
+          "word": " le",
+          "probability": 0.9978781938552856
+        },
+        {
+          "start": 4.82,
+          "end": 5.1,
+          "word": " plus",
+          "probability": 0.9998480081558228
+        },
+        {
+          "start": 5.1,
+          "end": 5.76,
+          "word": " discrètement",
+          "probability": 0.9992648760477701
+        },
+        {
+          "start": 5.76,
+          "end": 6.4,
+          "word": " possible.",
+          "probability": 0.9990369081497192
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.66,
+      "end": 9.2,
+      "text": " Tu tends l'oreille, pas d'alarme.",
+      "tokens": [
+        50665,
+        7836,
+        12258,
+        287,
+        6,
+        418,
+        3409,
+        11,
+        1736,
+        274,
+        6,
+        12031,
+        1398,
+        13,
+        50768
+      ],
+      "avg_logprob": -0.084010882881181,
+      "compression_ratio": 1.3161764705882353,
+      "no_speech_prob": 5.018969614911661e-12,
+      "words": [
+        {
+          "start": 6.66,
+          "end": 7.22,
+          "word": " Tu",
+          "probability": 0.9983865022659302
+        },
+        {
+          "start": 7.22,
+          "end": 7.38,
+          "word": " tends",
+          "probability": 0.41867297887802124
+        },
+        {
+          "start": 7.38,
+          "end": 7.48,
+          "word": " l",
+          "probability": 0.9930375218391418
+        },
+        {
+          "start": 7.48,
+          "end": 7.92,
+          "word": "'oreille,",
+          "probability": 0.999781866868337
+        },
+        {
+          "start": 8.18,
+          "end": 8.72,
+          "word": " pas",
+          "probability": 0.9990054965019226
+        },
+        {
+          "start": 8.72,
+          "end": 8.8,
+          "word": " d",
+          "probability": 0.9999517202377319
+        },
+        {
+          "start": 8.8,
+          "end": 9.2,
+          "word": "'alarme.",
+          "probability": 0.9989500443140665
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.5,
+      "end": 12.42,
+      "text": " Tu te glisses à l'intérieur et refermes derrière toi.",
+      "tokens": [
+        50807,
+        7836,
+        535,
+        1563,
+        40487,
+        1531,
+        287,
+        6,
+        39166,
+        1030,
+        2864,
+        5814,
+        31465,
+        15648,
+        13,
+        50930
+      ],
+      "avg_logprob": -0.084010882881181,
+      "compression_ratio": 1.3161764705882353,
+      "no_speech_prob": 5.018969614911661e-12,
+      "words": [
+        {
+          "start": 9.5,
+          "end": 10.06,
+          "word": " Tu",
+          "probability": 0.9981510043144226
+        },
+        {
+          "start": 10.06,
+          "end": 10.24,
+          "word": " te",
+          "probability": 0.9997197985649109
+        },
+        {
+          "start": 10.24,
+          "end": 10.5,
+          "word": " glisses",
+          "probability": 0.9993111491203308
+        },
+        {
+          "start": 10.5,
+          "end": 10.6,
+          "word": " à",
+          "probability": 0.999830961227417
+        },
+        {
+          "start": 10.6,
+          "end": 10.68,
+          "word": " l",
+          "probability": 0.9999468326568604
+        },
+        {
+          "start": 10.68,
+          "end": 11.02,
+          "word": "'intérieur",
+          "probability": 0.999932050704956
+        },
+        {
+          "start": 11.02,
+          "end": 11.46,
+          "word": " et",
+          "probability": 0.9992376565933228
+        },
+        {
+          "start": 11.46,
+          "end": 11.9,
+          "word": " refermes",
+          "probability": 0.9252927601337433
+        },
+        {
+          "start": 11.9,
+          "end": 12.1,
+          "word": " derrière",
+          "probability": 0.9998120665550232
+        },
+        {
+          "start": 12.1,
+          "end": 12.42,
+          "word": " toi.",
+          "probability": 0.999264657497406
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

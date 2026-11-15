@@ -1,0 +1,475 @@
+{
+  "scene": "A51a_fracassement",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A51a_fracassement.mp3",
+  "sha256": "81ef7bc568b52c5ae2d2473363b30753cee62962bc34537de9343ca5d9723bdf",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 20.003375,
+  "text": "Le sort de fracassement a exactement l'effet que tu espérais. Il pulvérise le golem en un million de bris de verre qui pleuvent sur toi comme des flocons de neige tombés du ciel. Il t'égratigne légèrement en glissant sur ta peau, mais tu es soulagé d'être en vie pour le remarquer.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.49,
+      "end": 5.17,
+      "text": " Le sort de fracassement a exactement l'effet que tu espérais.",
+      "tokens": [
+        50365,
+        1456,
+        1333,
+        368,
+        431,
+        326,
+        8604,
+        518,
+        257,
+        38111,
+        287,
+        6,
+        30774,
+        302,
+        631,
+        2604,
+        7089,
+        526,
+        20769,
+        13,
+        50550
+      ],
+      "avg_logprob": -0.07543226464798576,
+      "compression_ratio": 1.4595959595959596,
+      "no_speech_prob": 8.147101049349459e-12,
+      "words": [
+        {
+          "start": 1.49,
+          "end": 2.01,
+          "word": " Le",
+          "probability": 0.9649852514266968
+        },
+        {
+          "start": 2.01,
+          "end": 2.29,
+          "word": " sort",
+          "probability": 0.9969412684440613
+        },
+        {
+          "start": 2.29,
+          "end": 2.43,
+          "word": " de",
+          "probability": 0.9988855719566345
+        },
+        {
+          "start": 2.43,
+          "end": 3.05,
+          "word": " fracassement",
+          "probability": 0.9850700199604034
+        },
+        {
+          "start": 3.05,
+          "end": 3.33,
+          "word": " a",
+          "probability": 0.9955095052719116
+        },
+        {
+          "start": 3.33,
+          "end": 3.95,
+          "word": " exactement",
+          "probability": 0.9998743534088135
+        },
+        {
+          "start": 3.95,
+          "end": 4.21,
+          "word": " l",
+          "probability": 0.9946823716163635
+        },
+        {
+          "start": 4.21,
+          "end": 4.43,
+          "word": "'effet",
+          "probability": 0.9997557401657104
+        },
+        {
+          "start": 4.43,
+          "end": 4.57,
+          "word": " que",
+          "probability": 0.9998185038566589
+        },
+        {
+          "start": 4.57,
+          "end": 4.71,
+          "word": " tu",
+          "probability": 0.9999810457229614
+        },
+        {
+          "start": 4.71,
+          "end": 5.17,
+          "word": " espérais.",
+          "probability": 0.9973132212956747
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.91,
+      "end": 11.89,
+      "text": " Il pulvérise le golem en un million de bris de verre qui pleuvent sur toi comme des flocons de neige tombés du ciel.",
+      "tokens": [
+        50596,
+        4416,
+        8331,
+        85,
+        4198,
+        908,
+        476,
+        352,
+        10386,
+        465,
+        517,
+        2459,
+        368,
+        738,
+        271,
+        368,
+        1306,
+        265,
+        1956,
+        3362,
+        84,
+        2475,
+        1022,
+        15648,
+        5173,
+        730,
+        2591,
+        21190,
+        368,
+        408,
+        3969,
+        18712,
+        2191,
+        1581,
+        34380,
+        13,
+        50885
+      ],
+      "avg_logprob": -0.07543226464798576,
+      "compression_ratio": 1.4595959595959596,
+      "no_speech_prob": 8.147101049349459e-12,
+      "words": [
+        {
+          "start": 5.91,
+          "end": 6.39,
+          "word": " Il",
+          "probability": 0.9875009059906006
+        },
+        {
+          "start": 6.39,
+          "end": 6.87,
+          "word": " pulvérise",
+          "probability": 0.9995418041944504
+        },
+        {
+          "start": 6.87,
+          "end": 7.03,
+          "word": " le",
+          "probability": 0.999863862991333
+        },
+        {
+          "start": 7.03,
+          "end": 7.39,
+          "word": " golem",
+          "probability": 0.9817717671394348
+        },
+        {
+          "start": 7.39,
+          "end": 7.67,
+          "word": " en",
+          "probability": 0.9992332458496094
+        },
+        {
+          "start": 7.67,
+          "end": 7.83,
+          "word": " un",
+          "probability": 0.9995384216308594
+        },
+        {
+          "start": 7.83,
+          "end": 8.19,
+          "word": " million",
+          "probability": 0.9910827875137329
+        },
+        {
+          "start": 8.19,
+          "end": 8.41,
+          "word": " de",
+          "probability": 0.9997323155403137
+        },
+        {
+          "start": 8.41,
+          "end": 8.59,
+          "word": " bris",
+          "probability": 0.7561064958572388
+        },
+        {
+          "start": 8.59,
+          "end": 8.69,
+          "word": " de",
+          "probability": 0.99906986951828
+        },
+        {
+          "start": 8.69,
+          "end": 8.99,
+          "word": " verre",
+          "probability": 0.959459513425827
+        },
+        {
+          "start": 8.99,
+          "end": 9.15,
+          "word": " qui",
+          "probability": 0.999534010887146
+        },
+        {
+          "start": 9.15,
+          "end": 9.53,
+          "word": " pleuvent",
+          "probability": 0.8376316626866659
+        },
+        {
+          "start": 9.53,
+          "end": 9.69,
+          "word": " sur",
+          "probability": 0.9998962879180908
+        },
+        {
+          "start": 9.69,
+          "end": 9.93,
+          "word": " toi",
+          "probability": 0.9997338652610779
+        },
+        {
+          "start": 9.93,
+          "end": 10.23,
+          "word": " comme",
+          "probability": 0.9992828965187073
+        },
+        {
+          "start": 10.23,
+          "end": 10.39,
+          "word": " des",
+          "probability": 0.9998968839645386
+        },
+        {
+          "start": 10.39,
+          "end": 10.75,
+          "word": " flocons",
+          "probability": 0.9985422492027283
+        },
+        {
+          "start": 10.75,
+          "end": 10.89,
+          "word": " de",
+          "probability": 0.9999779462814331
+        },
+        {
+          "start": 10.89,
+          "end": 11.15,
+          "word": " neige",
+          "probability": 0.9995623528957367
+        },
+        {
+          "start": 11.15,
+          "end": 11.47,
+          "word": " tombés",
+          "probability": 0.98984295129776
+        },
+        {
+          "start": 11.47,
+          "end": 11.61,
+          "word": " du",
+          "probability": 0.9997300505638123
+        },
+        {
+          "start": 11.61,
+          "end": 11.89,
+          "word": " ciel.",
+          "probability": 0.999967098236084
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 12.13,
+      "end": 17.41,
+      "text": " Il t'égratigne légèrement en glissant sur ta peau, mais tu es soulagé d'être en vie pour le remarquer.",
+      "tokens": [
+        50914,
+        4416,
+        256,
+        6,
+        526,
+        861,
+        267,
+        26341,
+        27122,
+        4212,
+        518,
+        465,
+        1563,
+        29492,
+        1022,
+        1846,
+        520,
+        1459,
+        11,
+        2420,
+        2604,
+        785,
+        5133,
+        559,
+        526,
+        274,
+        6,
+        9498,
+        465,
+        4941,
+        2016,
+        476,
+        34329,
+        8035,
+        13,
+        51162
+      ],
+      "avg_logprob": -0.07543226464798576,
+      "compression_ratio": 1.4595959595959596,
+      "no_speech_prob": 8.147101049349459e-12,
+      "words": [
+        {
+          "start": 12.13,
+          "end": 12.57,
+          "word": " Il",
+          "probability": 0.983467161655426
+        },
+        {
+          "start": 12.57,
+          "end": 12.71,
+          "word": " t",
+          "probability": 0.9967215657234192
+        },
+        {
+          "start": 12.71,
+          "end": 13.15,
+          "word": "'égratigne",
+          "probability": 0.993918776512146
+        },
+        {
+          "start": 13.15,
+          "end": 13.77,
+          "word": " légèrement",
+          "probability": 0.9998796184857687
+        },
+        {
+          "start": 13.77,
+          "end": 13.99,
+          "word": " en",
+          "probability": 0.999842643737793
+        },
+        {
+          "start": 13.99,
+          "end": 14.35,
+          "word": " glissant",
+          "probability": 0.9995827078819275
+        },
+        {
+          "start": 14.35,
+          "end": 14.55,
+          "word": " sur",
+          "probability": 0.9998360872268677
+        },
+        {
+          "start": 14.55,
+          "end": 14.71,
+          "word": " ta",
+          "probability": 0.9998488426208496
+        },
+        {
+          "start": 14.71,
+          "end": 14.95,
+          "word": " peau,",
+          "probability": 0.999801516532898
+        },
+        {
+          "start": 15.05,
+          "end": 15.53,
+          "word": " mais",
+          "probability": 0.9998192191123962
+        },
+        {
+          "start": 15.53,
+          "end": 15.69,
+          "word": " tu",
+          "probability": 0.9997686743736267
+        },
+        {
+          "start": 15.69,
+          "end": 15.81,
+          "word": " es",
+          "probability": 0.9993793964385986
+        },
+        {
+          "start": 15.81,
+          "end": 16.25,
+          "word": " soulagé",
+          "probability": 0.986259659131368
+        },
+        {
+          "start": 16.25,
+          "end": 16.35,
+          "word": " d",
+          "probability": 0.99985671043396
+        },
+        {
+          "start": 16.35,
+          "end": 16.49,
+          "word": "'être",
+          "probability": 0.9998851120471954
+        },
+        {
+          "start": 16.49,
+          "end": 16.63,
+          "word": " en",
+          "probability": 0.9862837791442871
+        },
+        {
+          "start": 16.63,
+          "end": 16.73,
+          "word": " vie",
+          "probability": 0.998181939125061
+        },
+        {
+          "start": 16.73,
+          "end": 16.89,
+          "word": " pour",
+          "probability": 0.9999147653579712
+        },
+        {
+          "start": 16.89,
+          "end": 17.01,
+          "word": " le",
+          "probability": 0.9998980760574341
+        },
+        {
+          "start": 17.01,
+          "end": 17.41,
+          "word": " remarquer.",
+          "probability": 0.9997359812259674
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

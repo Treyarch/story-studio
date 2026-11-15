@@ -1,0 +1,39 @@
+{
+  "scene": "dice_39",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/dice_39.mp3",
+  "sha256": "8adde51d9168fe14fa5c3a3c3e9549ae96ec87d422e22e562de09183c95ad131",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.6684375,
+  "text": "Sagesse.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.21,
+      "end": 1.09,
+      "text": " Sagesse.",
+      "tokens": [
+        50365,
+        318,
+        1660,
+        405,
+        13,
+        50409
+      ],
+      "avg_logprob": -0.5614598137991769,
+      "compression_ratio": 0.5,
+      "no_speech_prob": 5.240399086892111e-11,
+      "words": [
+        {
+          "start": 0.21,
+          "end": 1.09,
+          "word": " Sagesse.",
+          "probability": 0.9614735643068949
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

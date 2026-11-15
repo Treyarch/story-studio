@@ -1,0 +1,905 @@
+{
+  "scene": "A21_druide_moine_rodeur",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A21_druide_moine_rodeur.mp3",
+  "sha256": "76602695c5b695ccc3c8df051b550e3d57509bc2ac38ccda18b72edb5ba53729",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 33.4620625,
+  "text": "Tu expliques à Kissandra que tu ne t'attendais pas à devoir cambrioler une banque aujourd'hui. Alors, tu as laissé tes crochets chez toi. Avec un soupir, elle fouille dans sa poche et dépose ses instruments dans ta main. Tu me revaudras ça. Tu n'as pas le temps de te disputer avec elle. Tu te mets directement au travail. Même si tu ne l'as jamais fait toi-même, tu as déjà interviewé des voleurs sur comment crocheter des serrures. Il suffit d'insérer le crochet et de triturer un peu à l'intérieur, non? Merci.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.74,
+      "end": 6.32,
+      "text": " Tu expliques à Kissandra que tu ne t'attendais pas à devoir cambrioler une banque aujourd'hui.",
+      "tokens": [
+        50365,
+        7836,
+        1490,
+        4911,
+        1531,
+        591,
+        891,
+        18401,
+        631,
+        2604,
+        408,
+        256,
+        6,
+        49548,
+        1527,
+        1736,
+        1531,
+        48920,
+        18751,
+        470,
+        27035,
+        2251,
+        5643,
+        1077,
+        14023,
+        6,
+        10556,
+        13,
+        50595
+      ],
+      "avg_logprob": -0.09876281051140912,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 7.920324118781963e-12,
+      "words": [
+        {
+          "start": 1.74,
+          "end": 2.2,
+          "word": " Tu",
+          "probability": 0.9502052664756775
+        },
+        {
+          "start": 2.2,
+          "end": 2.68,
+          "word": " expliques",
+          "probability": 0.9990696609020233
+        },
+        {
+          "start": 2.68,
+          "end": 2.84,
+          "word": " à",
+          "probability": 0.9998058676719666
+        },
+        {
+          "start": 2.84,
+          "end": 3.3,
+          "word": " Kissandra",
+          "probability": 0.7562913099924723
+        },
+        {
+          "start": 3.3,
+          "end": 3.7,
+          "word": " que",
+          "probability": 0.9996758699417114
+        },
+        {
+          "start": 3.7,
+          "end": 3.82,
+          "word": " tu",
+          "probability": 0.9999032020568848
+        },
+        {
+          "start": 3.82,
+          "end": 3.92,
+          "word": " ne",
+          "probability": 0.9996582269668579
+        },
+        {
+          "start": 3.92,
+          "end": 4.02,
+          "word": " t",
+          "probability": 0.9999353885650635
+        },
+        {
+          "start": 4.02,
+          "end": 4.36,
+          "word": "'attendais",
+          "probability": 0.9995304942131042
+        },
+        {
+          "start": 4.36,
+          "end": 4.5,
+          "word": " pas",
+          "probability": 0.9999903440475464
+        },
+        {
+          "start": 4.5,
+          "end": 4.64,
+          "word": " à",
+          "probability": 0.9998472929000854
+        },
+        {
+          "start": 4.64,
+          "end": 4.92,
+          "word": " devoir",
+          "probability": 0.9997003078460693
+        },
+        {
+          "start": 4.92,
+          "end": 5.5,
+          "word": " cambrioler",
+          "probability": 0.997783342997233
+        },
+        {
+          "start": 5.5,
+          "end": 5.66,
+          "word": " une",
+          "probability": 0.9998974800109863
+        },
+        {
+          "start": 5.66,
+          "end": 5.9,
+          "word": " banque",
+          "probability": 0.9996145665645599
+        },
+        {
+          "start": 5.9,
+          "end": 6.06,
+          "word": " aujourd",
+          "probability": 0.9996765851974487
+        },
+        {
+          "start": 6.06,
+          "end": 6.32,
+          "word": "'hui.",
+          "probability": 0.9999820590019226
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.62,
+      "end": 8.6,
+      "text": " Alors, tu as laissé tes crochets chez toi.",
+      "tokens": [
+        50619,
+        9946,
+        11,
+        2604,
+        382,
+        635,
+        891,
+        526,
+        20018,
+        27115,
+        17855,
+        15648,
+        13,
+        50709
+      ],
+      "avg_logprob": -0.09876281051140912,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 7.920324118781963e-12,
+      "words": [
+        {
+          "start": 6.62,
+          "end": 7.1,
+          "word": " Alors,",
+          "probability": 0.9988880753517151
+        },
+        {
+          "start": 7.1,
+          "end": 7.38,
+          "word": " tu",
+          "probability": 0.9999592304229736
+        },
+        {
+          "start": 7.38,
+          "end": 7.5,
+          "word": " as",
+          "probability": 0.9993365406990051
+        },
+        {
+          "start": 7.5,
+          "end": 7.78,
+          "word": " laissé",
+          "probability": 0.9995848337809244
+        },
+        {
+          "start": 7.78,
+          "end": 7.94,
+          "word": " tes",
+          "probability": 0.9996311664581299
+        },
+        {
+          "start": 7.94,
+          "end": 8.18,
+          "word": " crochets",
+          "probability": 0.988705575466156
+        },
+        {
+          "start": 8.18,
+          "end": 8.4,
+          "word": " chez",
+          "probability": 0.9998568296432495
+        },
+        {
+          "start": 8.4,
+          "end": 8.6,
+          "word": " toi.",
+          "probability": 0.9998179078102112
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.24,
+      "end": 13.82,
+      "text": " Avec un soupir, elle fouille dans sa poche et dépose ses instruments dans ta main.",
+      "tokens": [
+        50745,
+        31720,
+        517,
+        7884,
+        347,
+        11,
+        8404,
+        32012,
+        3409,
+        2680,
+        601,
+        714,
+        1876,
+        1030,
+        27998,
+        541,
+        5385,
+        12190,
+        2680,
+        1846,
+        2135,
+        13,
+        50970
+      ],
+      "avg_logprob": -0.09876281051140912,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 7.920324118781963e-12,
+      "words": [
+        {
+          "start": 9.24,
+          "end": 9.72,
+          "word": " Avec",
+          "probability": 0.9920915365219116
+        },
+        {
+          "start": 9.72,
+          "end": 9.9,
+          "word": " un",
+          "probability": 0.9999839067459106
+        },
+        {
+          "start": 9.9,
+          "end": 10.32,
+          "word": " soupir,",
+          "probability": 0.997691422700882
+        },
+        {
+          "start": 10.82,
+          "end": 10.98,
+          "word": " elle",
+          "probability": 0.9990437626838684
+        },
+        {
+          "start": 10.98,
+          "end": 11.24,
+          "word": " fouille",
+          "probability": 0.9993801116943359
+        },
+        {
+          "start": 11.24,
+          "end": 11.36,
+          "word": " dans",
+          "probability": 0.999968409538269
+        },
+        {
+          "start": 11.36,
+          "end": 11.54,
+          "word": " sa",
+          "probability": 0.9999651908874512
+        },
+        {
+          "start": 11.54,
+          "end": 11.88,
+          "word": " poche",
+          "probability": 0.9999117851257324
+        },
+        {
+          "start": 11.88,
+          "end": 12.12,
+          "word": " et",
+          "probability": 0.9999052286148071
+        },
+        {
+          "start": 12.12,
+          "end": 12.6,
+          "word": " dépose",
+          "probability": 0.9995282888412476
+        },
+        {
+          "start": 12.6,
+          "end": 12.84,
+          "word": " ses",
+          "probability": 0.9972440004348755
+        },
+        {
+          "start": 12.84,
+          "end": 13.3,
+          "word": " instruments",
+          "probability": 0.999855637550354
+        },
+        {
+          "start": 13.3,
+          "end": 13.5,
+          "word": " dans",
+          "probability": 0.9998729228973389
+        },
+        {
+          "start": 13.5,
+          "end": 13.66,
+          "word": " ta",
+          "probability": 0.9997804760932922
+        },
+        {
+          "start": 13.66,
+          "end": 13.82,
+          "word": " main.",
+          "probability": 0.9998217225074768
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 14.88,
+      "end": 15.98,
+      "text": " Tu me revaudras ça.",
+      "tokens": [
+        51023,
+        7836,
+        385,
+        319,
+        2757,
+        532,
+        3906,
+        2788,
+        13,
+        51078
+      ],
+      "avg_logprob": -0.09876281051140912,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 7.920324118781963e-12,
+      "words": [
+        {
+          "start": 14.88,
+          "end": 15.36,
+          "word": " Tu",
+          "probability": 0.9873550534248352
+        },
+        {
+          "start": 15.36,
+          "end": 15.46,
+          "word": " me",
+          "probability": 0.9713402390480042
+        },
+        {
+          "start": 15.46,
+          "end": 15.8,
+          "word": " revaudras",
+          "probability": 0.977569654583931
+        },
+        {
+          "start": 15.8,
+          "end": 15.98,
+          "word": " ça.",
+          "probability": 0.9994520545005798
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 16.32,
+      "end": 18.46,
+      "text": " Tu n'as pas le temps de te disputer avec elle.",
+      "tokens": [
+        51106,
+        7836,
+        297,
+        6,
+        296,
+        1736,
+        476,
+        8827,
+        368,
+        535,
+        717,
+        13849,
+        4163,
+        8404,
+        13,
+        51202
+      ],
+      "avg_logprob": -0.09876281051140912,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 7.920324118781963e-12,
+      "words": [
+        {
+          "start": 16.32,
+          "end": 16.68,
+          "word": " Tu",
+          "probability": 0.9988681077957153
+        },
+        {
+          "start": 16.68,
+          "end": 16.78,
+          "word": " n",
+          "probability": 0.9998853206634521
+        },
+        {
+          "start": 16.78,
+          "end": 16.84,
+          "word": "'as",
+          "probability": 0.9998950660228729
+        },
+        {
+          "start": 16.84,
+          "end": 16.96,
+          "word": " pas",
+          "probability": 0.9999854564666748
+        },
+        {
+          "start": 16.96,
+          "end": 17.14,
+          "word": " le",
+          "probability": 0.9998706579208374
+        },
+        {
+          "start": 17.14,
+          "end": 17.26,
+          "word": " temps",
+          "probability": 0.9998308420181274
+        },
+        {
+          "start": 17.26,
+          "end": 17.4,
+          "word": " de",
+          "probability": 0.9999390840530396
+        },
+        {
+          "start": 17.4,
+          "end": 17.56,
+          "word": " te",
+          "probability": 0.9997676014900208
+        },
+        {
+          "start": 17.56,
+          "end": 17.94,
+          "word": " disputer",
+          "probability": 0.994706004858017
+        },
+        {
+          "start": 17.94,
+          "end": 18.18,
+          "word": " avec",
+          "probability": 0.9998749494552612
+        },
+        {
+          "start": 18.18,
+          "end": 18.46,
+          "word": " elle.",
+          "probability": 0.9848750233650208
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 18.68,
+      "end": 20.48,
+      "text": " Tu te mets directement au travail.",
+      "tokens": [
+        51228,
+        7836,
+        535,
+        37231,
+        37297,
+        1609,
+        18047,
+        13,
+        51305
+      ],
+      "avg_logprob": -0.09876281051140912,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 7.920324118781963e-12,
+      "words": [
+        {
+          "start": 18.68,
+          "end": 19.1,
+          "word": " Tu",
+          "probability": 0.9993398785591125
+        },
+        {
+          "start": 19.1,
+          "end": 19.26,
+          "word": " te",
+          "probability": 0.9999332427978516
+        },
+        {
+          "start": 19.26,
+          "end": 19.38,
+          "word": " mets",
+          "probability": 0.9982434511184692
+        },
+        {
+          "start": 19.38,
+          "end": 19.98,
+          "word": " directement",
+          "probability": 0.9997840523719788
+        },
+        {
+          "start": 19.98,
+          "end": 20.14,
+          "word": " au",
+          "probability": 0.9999678134918213
+        },
+        {
+          "start": 20.14,
+          "end": 20.48,
+          "word": " travail.",
+          "probability": 0.9999545812606812
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 20.84,
+      "end": 26.96,
+      "text": " Même si tu ne l'as jamais fait toi-même, tu as déjà interviewé des voleurs sur comment crocheter des serrures.",
+      "tokens": [
+        51336,
+        42027,
+        1511,
+        2604,
+        408,
+        287,
+        6,
+        296,
+        14540,
+        3887,
+        15648,
+        12,
+        27770,
+        11,
+        2604,
+        382,
+        12027,
+        4049,
+        526,
+        730,
+        49877,
+        2156,
+        1022,
+        2871,
+        8191,
+        2398,
+        730,
+        816,
+        894,
+        495,
+        13,
+        51627
+      ],
+      "avg_logprob": -0.09876281051140912,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 7.920324118781963e-12,
+      "words": [
+        {
+          "start": 20.84,
+          "end": 21.32,
+          "word": " Même",
+          "probability": 0.9996139407157898
+        },
+        {
+          "start": 21.32,
+          "end": 21.48,
+          "word": " si",
+          "probability": 0.9999792575836182
+        },
+        {
+          "start": 21.48,
+          "end": 21.62,
+          "word": " tu",
+          "probability": 0.999967098236084
+        },
+        {
+          "start": 21.62,
+          "end": 21.72,
+          "word": " ne",
+          "probability": 0.9996606111526489
+        },
+        {
+          "start": 21.72,
+          "end": 21.78,
+          "word": " l",
+          "probability": 0.9997534155845642
+        },
+        {
+          "start": 21.78,
+          "end": 21.84,
+          "word": "'as",
+          "probability": 0.9999010860919952
+        },
+        {
+          "start": 21.84,
+          "end": 22.08,
+          "word": " jamais",
+          "probability": 0.9999419450759888
+        },
+        {
+          "start": 22.08,
+          "end": 22.26,
+          "word": " fait",
+          "probability": 0.9990941286087036
+        },
+        {
+          "start": 22.26,
+          "end": 22.44,
+          "word": " toi",
+          "probability": 0.9963536262512207
+        },
+        {
+          "start": 22.44,
+          "end": 22.68,
+          "word": "-même,",
+          "probability": 0.9997611343860626
+        },
+        {
+          "start": 22.88,
+          "end": 23.18,
+          "word": " tu",
+          "probability": 0.9995384216308594
+        },
+        {
+          "start": 23.18,
+          "end": 23.3,
+          "word": " as",
+          "probability": 0.9996534585952759
+        },
+        {
+          "start": 23.3,
+          "end": 23.58,
+          "word": " déjà",
+          "probability": 0.9998064637184143
+        },
+        {
+          "start": 23.58,
+          "end": 24.22,
+          "word": " interviewé",
+          "probability": 0.9995767176151276
+        },
+        {
+          "start": 24.22,
+          "end": 24.4,
+          "word": " des",
+          "probability": 0.9999111890792847
+        },
+        {
+          "start": 24.4,
+          "end": 24.82,
+          "word": " voleurs",
+          "probability": 0.9998534023761749
+        },
+        {
+          "start": 24.82,
+          "end": 25.38,
+          "word": " sur",
+          "probability": 0.9990443587303162
+        },
+        {
+          "start": 25.38,
+          "end": 25.9,
+          "word": " comment",
+          "probability": 0.9931492209434509
+        },
+        {
+          "start": 25.9,
+          "end": 26.38,
+          "word": " crocheter",
+          "probability": 0.9986631870269775
+        },
+        {
+          "start": 26.38,
+          "end": 26.56,
+          "word": " des",
+          "probability": 0.9994308352470398
+        },
+        {
+          "start": 26.56,
+          "end": 26.96,
+          "word": " serrures.",
+          "probability": 0.998612642288208
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 27.16,
+      "end": 31.6,
+      "text": " Il suffit d'insérer le crochet et de triturer un peu à l'intérieur, non?",
+      "tokens": [
+        51627,
+        4416,
+        3889,
+        270,
+        274,
+        6,
+        1292,
+        21824,
+        476,
+        9387,
+        1030,
+        368,
+        504,
+        270,
+        9858,
+        517,
+        5604,
+        1531,
+        287,
+        6,
+        39166,
+        11,
+        2107,
+        2506,
+        51864
+      ],
+      "avg_logprob": -0.09876281051140912,
+      "compression_ratio": 1.6,
+      "no_speech_prob": 7.920324118781963e-12,
+      "words": [
+        {
+          "start": 27.16,
+          "end": 27.44,
+          "word": " Il",
+          "probability": 0.9933446645736694
+        },
+        {
+          "start": 27.44,
+          "end": 27.78,
+          "word": " suffit",
+          "probability": 0.9999373555183411
+        },
+        {
+          "start": 27.78,
+          "end": 27.88,
+          "word": " d",
+          "probability": 0.9999648332595825
+        },
+        {
+          "start": 27.88,
+          "end": 28.18,
+          "word": "'insérer",
+          "probability": 0.9995060165723165
+        },
+        {
+          "start": 28.18,
+          "end": 28.36,
+          "word": " le",
+          "probability": 0.999915361404419
+        },
+        {
+          "start": 28.36,
+          "end": 28.72,
+          "word": " crochet",
+          "probability": 0.9997251629829407
+        },
+        {
+          "start": 28.72,
+          "end": 29.22,
+          "word": " et",
+          "probability": 0.9993543028831482
+        },
+        {
+          "start": 29.22,
+          "end": 29.38,
+          "word": " de",
+          "probability": 0.999948263168335
+        },
+        {
+          "start": 29.38,
+          "end": 29.84,
+          "word": " triturer",
+          "probability": 0.9994744857152303
+        },
+        {
+          "start": 29.84,
+          "end": 30.08,
+          "word": " un",
+          "probability": 0.9995538592338562
+        },
+        {
+          "start": 30.08,
+          "end": 30.22,
+          "word": " peu",
+          "probability": 0.9998769760131836
+        },
+        {
+          "start": 30.22,
+          "end": 30.34,
+          "word": " à",
+          "probability": 0.9993832111358643
+        },
+        {
+          "start": 30.34,
+          "end": 30.4,
+          "word": " l",
+          "probability": 0.9999556541442871
+        },
+        {
+          "start": 30.4,
+          "end": 30.74,
+          "word": "'intérieur,",
+          "probability": 0.999975323677063
+        },
+        {
+          "start": 31.2,
+          "end": 31.44,
+          "word": " non",
+          "probability": 0.9997760653495789
+        },
+        {
+          "start": 31.44,
+          "end": 31.6,
+          "word": "?",
+          "probability": 0.9313766956329346
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 3000,
+      "start": 31.74,
+      "end": 32.02,
+      "text": " Merci.",
+      "tokens": [
+        50365,
+        19856,
+        13,
+        50415
+      ],
+      "avg_logprob": -0.6321021556854248,
+      "compression_ratio": 0.42857142857142855,
+      "no_speech_prob": 1.2865510046200512e-10,
+      "words": [
+        {
+          "start": 31.74,
+          "end": 32.02,
+          "word": " Merci.",
+          "probability": 0.11432895064353943
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

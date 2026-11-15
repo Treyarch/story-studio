@@ -1,0 +1,130 @@
+{
+  "scene": "multi3_ch2_success_8",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/multi3_ch2_success_8.mp3",
+  "sha256": "8e0123024244d809c680e99246bf129a38258890f94dbec6e23e3ed4ba89ad54",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 4.5835625,
+  "text": "Tu as atteint l'objectif de 8, c'est un lancer réussi!",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 4.14,
+      "text": " Tu as atteint l'objectif de 8, c'est un lancer réussi!",
+      "tokens": [
+        50365,
+        7836,
+        382,
+        42783,
+        686,
+        287,
+        6,
+        41070,
+        351,
+        368,
+        1649,
+        11,
+        269,
+        6,
+        377,
+        517,
+        287,
+        4463,
+        526,
+        46171,
+        2298,
+        50565
+      ],
+      "avg_logprob": -0.1844680192677871,
+      "compression_ratio": 0.875,
+      "no_speech_prob": 4.566578018505574e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.5,
+          "word": " Tu",
+          "probability": 0.920224666595459
+        },
+        {
+          "start": 0.5,
+          "end": 0.68,
+          "word": " as",
+          "probability": 0.9995356798171997
+        },
+        {
+          "start": 0.68,
+          "end": 1.08,
+          "word": " atteint",
+          "probability": 0.9998770356178284
+        },
+        {
+          "start": 1.08,
+          "end": 1.32,
+          "word": " l",
+          "probability": 0.999523401260376
+        },
+        {
+          "start": 1.32,
+          "end": 1.9,
+          "word": "'objectif",
+          "probability": 0.9996452132860819
+        },
+        {
+          "start": 1.9,
+          "end": 2.0,
+          "word": " de",
+          "probability": 0.998491644859314
+        },
+        {
+          "start": 2.0,
+          "end": 2.24,
+          "word": " 8,",
+          "probability": 0.8887959122657776
+        },
+        {
+          "start": 2.5,
+          "end": 2.78,
+          "word": " c",
+          "probability": 0.9990839958190918
+        },
+        {
+          "start": 2.78,
+          "end": 2.92,
+          "word": "'est",
+          "probability": 0.9999852180480957
+        },
+        {
+          "start": 2.92,
+          "end": 3.04,
+          "word": " un",
+          "probability": 0.9998983144760132
+        },
+        {
+          "start": 3.04,
+          "end": 3.46,
+          "word": " lancé",
+          "probability": 0.8612001339594523
+        },
+        {
+          "start": 3.46,
+          "end": 3.9,
+          "word": " réussi",
+          "probability": 0.9961925745010376
+        },
+        {
+          "start": 3.9,
+          "end": 4.14,
+          "word": "!",
+          "probability": 0.6368609070777893
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

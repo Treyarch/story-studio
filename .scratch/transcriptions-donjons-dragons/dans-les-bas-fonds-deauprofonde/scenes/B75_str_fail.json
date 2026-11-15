@@ -1,0 +1,597 @@
+{
+  "scene": "B75_str_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B75_str_fail.mp3",
+  "sha256": "7d52eeb0450c4e833f70f208a449e73bb65d886bf11208eb9a9377660b931b25",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 24.4835625,
+  "text": "Tu vises son œil, mais il se décale au dernier moment, et ton poing lui arrive sur le côté de la tête. Tu te crois en mesure de me vaincre? Moi? Tu te prends pour qui? Minable reporter à la solde d'une feuille de chou qui ne va pas tarder à disparaître! Et il éclate de rire, te mettant au défi d'essayer autre chose.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.42,
+      "end": 7.94,
+      "text": " Tu vises son œil, mais il se décale au dernier moment, et ton poing lui arrive sur le côté de la tête.",
+      "tokens": [
+        50365,
+        7836,
+        1452,
+        279,
+        1872,
+        48360,
+        388,
+        11,
+        2420,
+        1930,
+        369,
+        9198,
+        1220,
+        1609,
+        29332,
+        1623,
+        11,
+        1030,
+        2952,
+        714,
+        278,
+        8783,
+        8881,
+        1022,
+        476,
+        18437,
+        368,
+        635,
+        24661,
+        13,
+        50643
+      ],
+      "avg_logprob": -0.08800052006084186,
+      "compression_ratio": 1.432900432900433,
+      "no_speech_prob": 8.26745182730404e-12,
+      "words": [
+        {
+          "start": 2.42,
+          "end": 2.86,
+          "word": " Tu",
+          "probability": 0.9860425591468811
+        },
+        {
+          "start": 2.86,
+          "end": 3.26,
+          "word": " vises",
+          "probability": 0.9811168015003204
+        },
+        {
+          "start": 3.26,
+          "end": 3.4,
+          "word": " son",
+          "probability": 0.9996765851974487
+        },
+        {
+          "start": 3.4,
+          "end": 3.72,
+          "word": " œil,",
+          "probability": 0.8474033176898956
+        },
+        {
+          "start": 3.86,
+          "end": 4.26,
+          "word": " mais",
+          "probability": 0.9998421669006348
+        },
+        {
+          "start": 4.26,
+          "end": 4.4,
+          "word": " il",
+          "probability": 0.9997830986976624
+        },
+        {
+          "start": 4.4,
+          "end": 4.56,
+          "word": " se",
+          "probability": 0.9999463558197021
+        },
+        {
+          "start": 4.56,
+          "end": 4.9,
+          "word": " décale",
+          "probability": 0.9994027316570282
+        },
+        {
+          "start": 4.9,
+          "end": 5.0,
+          "word": " au",
+          "probability": 0.9996951818466187
+        },
+        {
+          "start": 5.0,
+          "end": 5.28,
+          "word": " dernier",
+          "probability": 0.9999551773071289
+        },
+        {
+          "start": 5.28,
+          "end": 5.6,
+          "word": " moment,",
+          "probability": 0.9999359846115112
+        },
+        {
+          "start": 5.68,
+          "end": 5.98,
+          "word": " et",
+          "probability": 0.9998434782028198
+        },
+        {
+          "start": 5.98,
+          "end": 6.18,
+          "word": " ton",
+          "probability": 0.9995736479759216
+        },
+        {
+          "start": 6.18,
+          "end": 6.42,
+          "word": " poing",
+          "probability": 0.7909731864929199
+        },
+        {
+          "start": 6.42,
+          "end": 6.58,
+          "word": " lui",
+          "probability": 0.9995740056037903
+        },
+        {
+          "start": 6.58,
+          "end": 6.86,
+          "word": " arrive",
+          "probability": 0.9999748468399048
+        },
+        {
+          "start": 6.86,
+          "end": 7.04,
+          "word": " sur",
+          "probability": 0.9999034404754639
+        },
+        {
+          "start": 7.04,
+          "end": 7.18,
+          "word": " le",
+          "probability": 0.9999595880508423
+        },
+        {
+          "start": 7.18,
+          "end": 7.42,
+          "word": " côté",
+          "probability": 0.9999109506607056
+        },
+        {
+          "start": 7.42,
+          "end": 7.56,
+          "word": " de",
+          "probability": 0.9999780654907227
+        },
+        {
+          "start": 7.56,
+          "end": 7.68,
+          "word": " la",
+          "probability": 0.9997555613517761
+        },
+        {
+          "start": 7.68,
+          "end": 7.94,
+          "word": " tête.",
+          "probability": 0.9999560117721558
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.1,
+      "end": 13.08,
+      "text": " Tu te crois en mesure de me vaincre? Moi? Tu te prends pour qui?",
+      "tokens": [
+        50655,
+        7836,
+        535,
+        21724,
+        465,
+        37981,
+        368,
+        385,
+        22240,
+        14066,
+        2506,
+        20256,
+        2506,
+        7836,
+        535,
+        46750,
+        2016,
+        1956,
+        2506,
+        50901
+      ],
+      "avg_logprob": -0.08800052006084186,
+      "compression_ratio": 1.432900432900433,
+      "no_speech_prob": 8.26745182730404e-12,
+      "words": [
+        {
+          "start": 8.1,
+          "end": 8.34,
+          "word": " Tu",
+          "probability": 0.773733913898468
+        },
+        {
+          "start": 8.34,
+          "end": 8.52,
+          "word": " te",
+          "probability": 0.9998992681503296
+        },
+        {
+          "start": 8.52,
+          "end": 8.74,
+          "word": " crois",
+          "probability": 0.9968039989471436
+        },
+        {
+          "start": 8.74,
+          "end": 8.9,
+          "word": " en",
+          "probability": 0.9961429238319397
+        },
+        {
+          "start": 8.9,
+          "end": 9.16,
+          "word": " mesure",
+          "probability": 0.9999082088470459
+        },
+        {
+          "start": 9.16,
+          "end": 9.38,
+          "word": " de",
+          "probability": 0.9999794960021973
+        },
+        {
+          "start": 9.38,
+          "end": 9.5,
+          "word": " me",
+          "probability": 0.9999047517776489
+        },
+        {
+          "start": 9.5,
+          "end": 10.34,
+          "word": " vaincre",
+          "probability": 0.9996758699417114
+        },
+        {
+          "start": 10.34,
+          "end": 10.58,
+          "word": "?",
+          "probability": 0.9483411908149719
+        },
+        {
+          "start": 10.58,
+          "end": 11.14,
+          "word": " Moi",
+          "probability": 0.9974107146263123
+        },
+        {
+          "start": 11.14,
+          "end": 11.42,
+          "word": "?",
+          "probability": 0.7048673629760742
+        },
+        {
+          "start": 11.42,
+          "end": 11.7,
+          "word": " Tu",
+          "probability": 0.9984927177429199
+        },
+        {
+          "start": 11.7,
+          "end": 11.84,
+          "word": " te",
+          "probability": 0.999427318572998
+        },
+        {
+          "start": 11.84,
+          "end": 12.06,
+          "word": " prends",
+          "probability": 0.9991626739501953
+        },
+        {
+          "start": 12.06,
+          "end": 12.26,
+          "word": " pour",
+          "probability": 0.9962211847305298
+        },
+        {
+          "start": 12.26,
+          "end": 12.64,
+          "word": " qui",
+          "probability": 0.9642807245254517
+        },
+        {
+          "start": 12.64,
+          "end": 13.08,
+          "word": "?",
+          "probability": 0.9991782307624817
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 13.08,
+      "end": 18.9,
+      "text": " Minable reporter à la solde d'une feuille de chou qui ne va pas tarder à disparaître!",
+      "tokens": [
+        50901,
+        2829,
+        712,
+        19152,
+        1531,
+        635,
+        3718,
+        68,
+        274,
+        6,
+        2613,
+        29539,
+        3409,
+        368,
+        417,
+        263,
+        1956,
+        408,
+        2773,
+        1736,
+        21057,
+        260,
+        1531,
+        14548,
+        64,
+        25011,
+        2298,
+        51197
+      ],
+      "avg_logprob": -0.08800052006084186,
+      "compression_ratio": 1.432900432900433,
+      "no_speech_prob": 8.26745182730404e-12,
+      "words": [
+        {
+          "start": 13.08,
+          "end": 13.72,
+          "word": " Minable",
+          "probability": 0.9920904040336609
+        },
+        {
+          "start": 13.72,
+          "end": 14.3,
+          "word": " reporter",
+          "probability": 0.9949544072151184
+        },
+        {
+          "start": 14.3,
+          "end": 14.62,
+          "word": " à",
+          "probability": 0.996160626411438
+        },
+        {
+          "start": 14.62,
+          "end": 14.78,
+          "word": " la",
+          "probability": 0.9983395338058472
+        },
+        {
+          "start": 14.78,
+          "end": 15.12,
+          "word": " solde",
+          "probability": 0.9988491535186768
+        },
+        {
+          "start": 15.12,
+          "end": 15.22,
+          "word": " d",
+          "probability": 0.9999319314956665
+        },
+        {
+          "start": 15.22,
+          "end": 15.34,
+          "word": "'une",
+          "probability": 0.9999620914459229
+        },
+        {
+          "start": 15.34,
+          "end": 15.72,
+          "word": " feuille",
+          "probability": 0.9998216927051544
+        },
+        {
+          "start": 15.72,
+          "end": 15.84,
+          "word": " de",
+          "probability": 0.9791186451911926
+        },
+        {
+          "start": 15.84,
+          "end": 16.34,
+          "word": " chou",
+          "probability": 0.8677183985710144
+        },
+        {
+          "start": 16.34,
+          "end": 16.66,
+          "word": " qui",
+          "probability": 0.7523552775382996
+        },
+        {
+          "start": 16.66,
+          "end": 16.76,
+          "word": " ne",
+          "probability": 0.9993640780448914
+        },
+        {
+          "start": 16.76,
+          "end": 16.84,
+          "word": " va",
+          "probability": 0.9997114539146423
+        },
+        {
+          "start": 16.84,
+          "end": 17.04,
+          "word": " pas",
+          "probability": 0.9999784231185913
+        },
+        {
+          "start": 17.04,
+          "end": 17.42,
+          "word": " tarder",
+          "probability": 0.9937207400798798
+        },
+        {
+          "start": 17.42,
+          "end": 17.58,
+          "word": " à",
+          "probability": 0.9998965263366699
+        },
+        {
+          "start": 17.58,
+          "end": 18.68,
+          "word": " disparaître",
+          "probability": 0.9970204631487528
+        },
+        {
+          "start": 18.68,
+          "end": 18.9,
+          "word": "!",
+          "probability": 0.45465177297592163
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 18.9,
+      "end": 22.34,
+      "text": " Et il éclate de rire, te mettant au défi d'essayer autre chose.",
+      "tokens": [
+        51197,
+        3790,
+        1930,
+        1136,
+        3474,
+        473,
+        368,
+        367,
+        621,
+        11,
+        535,
+        27812,
+        394,
+        1609,
+        2795,
+        13325,
+        274,
+        6,
+        442,
+        11167,
+        15081,
+        5111,
+        13,
+        51362
+      ],
+      "avg_logprob": -0.08800052006084186,
+      "compression_ratio": 1.432900432900433,
+      "no_speech_prob": 8.26745182730404e-12,
+      "words": [
+        {
+          "start": 18.9,
+          "end": 19.16,
+          "word": " Et",
+          "probability": 0.9932180047035217
+        },
+        {
+          "start": 19.16,
+          "end": 19.3,
+          "word": " il",
+          "probability": 0.9997417330741882
+        },
+        {
+          "start": 19.3,
+          "end": 19.62,
+          "word": " éclate",
+          "probability": 0.9996228416760763
+        },
+        {
+          "start": 19.62,
+          "end": 19.76,
+          "word": " de",
+          "probability": 0.9989527463912964
+        },
+        {
+          "start": 19.76,
+          "end": 20.04,
+          "word": " rire,",
+          "probability": 0.9871548712253571
+        },
+        {
+          "start": 20.32,
+          "end": 20.6,
+          "word": " te",
+          "probability": 0.9989621639251709
+        },
+        {
+          "start": 20.6,
+          "end": 20.9,
+          "word": " mettant",
+          "probability": 0.9995515048503876
+        },
+        {
+          "start": 20.9,
+          "end": 21.02,
+          "word": " au",
+          "probability": 0.99978107213974
+        },
+        {
+          "start": 21.02,
+          "end": 21.34,
+          "word": " défi",
+          "probability": 0.9996261298656464
+        },
+        {
+          "start": 21.34,
+          "end": 21.48,
+          "word": " d",
+          "probability": 0.9998373985290527
+        },
+        {
+          "start": 21.48,
+          "end": 21.8,
+          "word": "'essayer",
+          "probability": 0.9998560150464376
+        },
+        {
+          "start": 21.8,
+          "end": 22.0,
+          "word": " autre",
+          "probability": 0.9996175765991211
+        },
+        {
+          "start": 22.0,
+          "end": 22.34,
+          "word": " chose.",
+          "probability": 0.9999159574508667
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

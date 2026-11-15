@@ -1,0 +1,593 @@
+{
+  "scene": "A51b_bannissement",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A51b_bannissement.mp3",
+  "sha256": "982675d56aea252f12a0b7bf812596aa6fecd24b7e2abfeeeda1413f08fe51e1",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 23.4985,
+  "text": "Avant que tu aies le temps de disparaître dans les ruelles sombres, tu entends un autre plop, plus fort cette fois. Et le golem de verre apparaît dans l'ombre azur de la porte de l'entrepôt. Heureusement, il te tourne le dos et retourne à l'intérieur, sûrement pour t'y chercher. Si tu avais besoin d'une raison pour te sauver, tu en as une bonne.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.42,
+      "end": 7.88,
+      "text": " Avant que tu aies le temps de disparaître dans les ruelles sombres, tu entends un autre plop, plus fort cette fois.",
+      "tokens": [
+        50365,
+        44822,
+        631,
+        2604,
+        257,
+        530,
+        476,
+        8827,
+        368,
+        14548,
+        64,
+        25011,
+        2680,
+        1512,
+        367,
+        13789,
+        279,
+        3307,
+        46823,
+        11,
+        2604,
+        948,
+        2581,
+        517,
+        15081,
+        499,
+        404,
+        11,
+        1804,
+        5009,
+        5550,
+        9576,
+        13,
+        50689
+      ],
+      "avg_logprob": -0.06791541928000618,
+      "compression_ratio": 1.5347826086956522,
+      "no_speech_prob": 8.490748902578726e-12,
+      "words": [
+        {
+          "start": 1.42,
+          "end": 2.04,
+          "word": " Avant",
+          "probability": 0.958625853061676
+        },
+        {
+          "start": 2.04,
+          "end": 2.22,
+          "word": " que",
+          "probability": 0.999683141708374
+        },
+        {
+          "start": 2.22,
+          "end": 2.38,
+          "word": " tu",
+          "probability": 0.9994288086891174
+        },
+        {
+          "start": 2.38,
+          "end": 2.5,
+          "word": " aies",
+          "probability": 0.9834240078926086
+        },
+        {
+          "start": 2.5,
+          "end": 2.66,
+          "word": " le",
+          "probability": 0.9998774528503418
+        },
+        {
+          "start": 2.66,
+          "end": 2.76,
+          "word": " temps",
+          "probability": 0.9999063014984131
+        },
+        {
+          "start": 2.76,
+          "end": 2.92,
+          "word": " de",
+          "probability": 0.9996228218078613
+        },
+        {
+          "start": 2.92,
+          "end": 3.52,
+          "word": " disparaître",
+          "probability": 0.9995428522427877
+        },
+        {
+          "start": 3.52,
+          "end": 3.7,
+          "word": " dans",
+          "probability": 0.9946172833442688
+        },
+        {
+          "start": 3.7,
+          "end": 3.84,
+          "word": " les",
+          "probability": 0.9996296167373657
+        },
+        {
+          "start": 3.84,
+          "end": 4.2,
+          "word": " ruelles",
+          "probability": 0.9960503180821737
+        },
+        {
+          "start": 4.2,
+          "end": 4.48,
+          "word": " sombres,",
+          "probability": 0.9989932775497437
+        },
+        {
+          "start": 4.64,
+          "end": 5.24,
+          "word": " tu",
+          "probability": 0.9994648098945618
+        },
+        {
+          "start": 5.24,
+          "end": 5.6,
+          "word": " entends",
+          "probability": 0.9979038834571838
+        },
+        {
+          "start": 5.6,
+          "end": 5.84,
+          "word": " un",
+          "probability": 0.9995949864387512
+        },
+        {
+          "start": 5.84,
+          "end": 6.2,
+          "word": " autre",
+          "probability": 0.9998968839645386
+        },
+        {
+          "start": 6.2,
+          "end": 6.62,
+          "word": " plop,",
+          "probability": 0.9594255983829498
+        },
+        {
+          "start": 6.84,
+          "end": 7.24,
+          "word": " plus",
+          "probability": 0.9998815059661865
+        },
+        {
+          "start": 7.24,
+          "end": 7.48,
+          "word": " fort",
+          "probability": 0.9998064637184143
+        },
+        {
+          "start": 7.48,
+          "end": 7.66,
+          "word": " cette",
+          "probability": 0.9994199275970459
+        },
+        {
+          "start": 7.66,
+          "end": 7.88,
+          "word": " fois.",
+          "probability": 0.9993230104446411
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.26,
+      "end": 12.06,
+      "text": " Et le golem de verre apparaît dans l'ombre azur de la porte de l'entrepôt.",
+      "tokens": [
+        50724,
+        3790,
+        476,
+        352,
+        10386,
+        368,
+        1306,
+        265,
+        724,
+        2419,
+        20028,
+        2680,
+        287,
+        6,
+        298,
+        2672,
+        7883,
+        374,
+        368,
+        635,
+        26658,
+        368,
+        287,
+        6,
+        317,
+        19919,
+        8775,
+        13,
+        50898
+      ],
+      "avg_logprob": -0.06791541928000618,
+      "compression_ratio": 1.5347826086956522,
+      "no_speech_prob": 8.490748902578726e-12,
+      "words": [
+        {
+          "start": 8.26,
+          "end": 8.7,
+          "word": " Et",
+          "probability": 0.994635283946991
+        },
+        {
+          "start": 8.7,
+          "end": 8.88,
+          "word": " le",
+          "probability": 0.9998942613601685
+        },
+        {
+          "start": 8.88,
+          "end": 9.18,
+          "word": " golem",
+          "probability": 0.9805940389633179
+        },
+        {
+          "start": 9.18,
+          "end": 9.32,
+          "word": " de",
+          "probability": 0.9991948008537292
+        },
+        {
+          "start": 9.32,
+          "end": 9.82,
+          "word": " verre",
+          "probability": 0.8113004863262177
+        },
+        {
+          "start": 9.82,
+          "end": 10.22,
+          "word": " apparaît",
+          "probability": 0.99857230981191
+        },
+        {
+          "start": 10.22,
+          "end": 10.32,
+          "word": " dans",
+          "probability": 0.999940037727356
+        },
+        {
+          "start": 10.32,
+          "end": 10.42,
+          "word": " l",
+          "probability": 0.9999711513519287
+        },
+        {
+          "start": 10.42,
+          "end": 10.6,
+          "word": "'ombre",
+          "probability": 0.9511317014694214
+        },
+        {
+          "start": 10.6,
+          "end": 10.86,
+          "word": " azur",
+          "probability": 0.8549224436283112
+        },
+        {
+          "start": 10.86,
+          "end": 10.98,
+          "word": " de",
+          "probability": 0.999728262424469
+        },
+        {
+          "start": 10.98,
+          "end": 11.12,
+          "word": " la",
+          "probability": 0.9998964071273804
+        },
+        {
+          "start": 11.12,
+          "end": 11.4,
+          "word": " porte",
+          "probability": 0.9996281862258911
+        },
+        {
+          "start": 11.4,
+          "end": 11.58,
+          "word": " de",
+          "probability": 0.998384952545166
+        },
+        {
+          "start": 11.58,
+          "end": 11.68,
+          "word": " l",
+          "probability": 0.9999655485153198
+        },
+        {
+          "start": 11.68,
+          "end": 12.06,
+          "word": "'entrepôt.",
+          "probability": 0.9974966794252396
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 13.1,
+      "end": 17.44,
+      "text": " Heureusement, il te tourne le dos et retourne à l'intérieur, sûrement pour t'y chercher.",
+      "tokens": [
+        50951,
+        634,
+        540,
+        21359,
+        11,
+        1930,
+        535,
+        3512,
+        716,
+        476,
+        4491,
+        1030,
+        28873,
+        716,
+        1531,
+        287,
+        6,
+        39166,
+        11,
+        15998,
+        37934,
+        2016,
+        256,
+        6,
+        88,
+        38747,
+        13,
+        51167
+      ],
+      "avg_logprob": -0.06791541928000618,
+      "compression_ratio": 1.5347826086956522,
+      "no_speech_prob": 8.490748902578726e-12,
+      "words": [
+        {
+          "start": 13.1,
+          "end": 13.54,
+          "word": " Heureusement,",
+          "probability": 0.9994746247927347
+        },
+        {
+          "start": 13.84,
+          "end": 14.18,
+          "word": " il",
+          "probability": 0.9986467957496643
+        },
+        {
+          "start": 14.18,
+          "end": 14.32,
+          "word": " te",
+          "probability": 0.9995928406715393
+        },
+        {
+          "start": 14.32,
+          "end": 14.62,
+          "word": " tourne",
+          "probability": 0.9993326663970947
+        },
+        {
+          "start": 14.62,
+          "end": 14.76,
+          "word": " le",
+          "probability": 0.9997606873512268
+        },
+        {
+          "start": 14.76,
+          "end": 14.88,
+          "word": " dos",
+          "probability": 0.9994414448738098
+        },
+        {
+          "start": 14.88,
+          "end": 15.1,
+          "word": " et",
+          "probability": 0.9989390969276428
+        },
+        {
+          "start": 15.1,
+          "end": 15.56,
+          "word": " retourne",
+          "probability": 0.9997657239437103
+        },
+        {
+          "start": 15.56,
+          "end": 15.62,
+          "word": " à",
+          "probability": 0.9990479350090027
+        },
+        {
+          "start": 15.62,
+          "end": 15.68,
+          "word": " l",
+          "probability": 0.9999204874038696
+        },
+        {
+          "start": 15.68,
+          "end": 16.06,
+          "word": "'intérieur,",
+          "probability": 0.9998994767665863
+        },
+        {
+          "start": 16.46,
+          "end": 16.78,
+          "word": " sûrement",
+          "probability": 0.9990235269069672
+        },
+        {
+          "start": 16.78,
+          "end": 16.98,
+          "word": " pour",
+          "probability": 0.9998534917831421
+        },
+        {
+          "start": 16.98,
+          "end": 17.1,
+          "word": " t",
+          "probability": 0.9991146922111511
+        },
+        {
+          "start": 17.1,
+          "end": 17.14,
+          "word": "'y",
+          "probability": 0.9999410510063171
+        },
+        {
+          "start": 17.14,
+          "end": 17.44,
+          "word": " chercher.",
+          "probability": 0.9997642636299133
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 18.02,
+      "end": 21.52,
+      "text": " Si tu avais besoin d'une raison pour te sauver, tu en as une bonne.",
+      "tokens": [
+        51209,
+        4909,
+        2604,
+        1305,
+        1527,
+        19207,
+        274,
+        6,
+        2613,
+        28402,
+        2016,
+        535,
+        17828,
+        331,
+        11,
+        2604,
+        465,
+        382,
+        2251,
+        20577,
+        13,
+        51373
+      ],
+      "avg_logprob": -0.06791541928000618,
+      "compression_ratio": 1.5347826086956522,
+      "no_speech_prob": 8.490748902578726e-12,
+      "words": [
+        {
+          "start": 18.02,
+          "end": 18.46,
+          "word": " Si",
+          "probability": 0.9962782263755798
+        },
+        {
+          "start": 18.46,
+          "end": 18.62,
+          "word": " tu",
+          "probability": 0.9998594522476196
+        },
+        {
+          "start": 18.62,
+          "end": 18.84,
+          "word": " avais",
+          "probability": 0.9992579519748688
+        },
+        {
+          "start": 18.84,
+          "end": 19.14,
+          "word": " besoin",
+          "probability": 0.99997878074646
+        },
+        {
+          "start": 19.14,
+          "end": 19.26,
+          "word": " d",
+          "probability": 0.9998558759689331
+        },
+        {
+          "start": 19.26,
+          "end": 19.34,
+          "word": "'une",
+          "probability": 0.9999451041221619
+        },
+        {
+          "start": 19.34,
+          "end": 19.58,
+          "word": " raison",
+          "probability": 0.9997428059577942
+        },
+        {
+          "start": 19.58,
+          "end": 19.78,
+          "word": " pour",
+          "probability": 0.99955815076828
+        },
+        {
+          "start": 19.78,
+          "end": 19.92,
+          "word": " te",
+          "probability": 0.9995785355567932
+        },
+        {
+          "start": 19.92,
+          "end": 20.26,
+          "word": " sauver,",
+          "probability": 0.9981952905654907
+        },
+        {
+          "start": 20.68,
+          "end": 20.94,
+          "word": " tu",
+          "probability": 0.9989659786224365
+        },
+        {
+          "start": 20.94,
+          "end": 21.08,
+          "word": " en",
+          "probability": 0.999826967716217
+        },
+        {
+          "start": 21.08,
+          "end": 21.18,
+          "word": " as",
+          "probability": 0.9989482760429382
+        },
+        {
+          "start": 21.18,
+          "end": 21.34,
+          "word": " une",
+          "probability": 0.9999179840087891
+        },
+        {
+          "start": 21.34,
+          "end": 21.52,
+          "word": " bonne.",
+          "probability": 0.999586284160614
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "scene": "B59_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B59_list_ch2.mp3",
+  "sha256": "68241653c9fb1b090fdb06273eef9435328cb1c72ad9836b1dd041aff386b825",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.3089375,
+  "text": "Demandez de l'aide à Aurinax?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.5,
+      "end": 1.9,
+      "text": " Demandez de l'aide à Aurinax?",
+      "tokens": [
+        50365,
+        4686,
+        37003,
+        368,
+        287,
+        6,
+        41980,
+        1531,
+        1610,
+        1426,
+        87,
+        2506,
+        50481
+      ],
+      "avg_logprob": -0.25185439203466686,
+      "compression_ratio": 0.8108108108108109,
+      "no_speech_prob": 4.58602166658606e-12,
+      "words": [
+        {
+          "start": 0.5,
+          "end": 0.78,
+          "word": " Demandez",
+          "probability": 0.8633882403373718
+        },
+        {
+          "start": 0.78,
+          "end": 0.92,
+          "word": " de",
+          "probability": 0.9977153539657593
+        },
+        {
+          "start": 0.92,
+          "end": 1.02,
+          "word": " l",
+          "probability": 0.9997672438621521
+        },
+        {
+          "start": 1.02,
+          "end": 1.14,
+          "word": "'aide",
+          "probability": 0.9999616146087646
+        },
+        {
+          "start": 1.14,
+          "end": 1.26,
+          "word": " à",
+          "probability": 0.9989063739776611
+        },
+        {
+          "start": 1.26,
+          "end": 1.76,
+          "word": " Aurinax",
+          "probability": 0.9368305603663126
+        },
+        {
+          "start": 1.76,
+          "end": 1.9,
+          "word": "?",
+          "probability": 0.8588169813156128
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

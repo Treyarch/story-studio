@@ -1,0 +1,95 @@
+{
+  "scene": "intro01_list_ch4_a",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/intro01_list_ch4_a.mp3",
+  "sha256": "0814b2c8c71f248f5c6ba3a3dcd5354a1f6ea3268fbb504f8eed095322cd1213",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 4.8251875,
+  "text": "Au tabaxi, sorte de félins recouverts de fourrure.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.3,
+      "end": 4.0,
+      "text": " Au tabaxi, sorte de félins recouverts de fourrure.",
+      "tokens": [
+        50365,
+        12160,
+        4421,
+        2797,
+        72,
+        11,
+        25559,
+        368,
+        283,
+        8025,
+        1292,
+        850,
+        19677,
+        1373,
+        368,
+        1451,
+        81,
+        540,
+        13,
+        50550
+      ],
+      "avg_logprob": -0.1598030754498073,
+      "compression_ratio": 0.9107142857142857,
+      "no_speech_prob": 4.547030720697398e-12,
+      "words": [
+        {
+          "start": 0.3,
+          "end": 0.78,
+          "word": " Au",
+          "probability": 0.5649596452713013
+        },
+        {
+          "start": 0.78,
+          "end": 1.38,
+          "word": " tabaxi,",
+          "probability": 0.894729475180308
+        },
+        {
+          "start": 1.98,
+          "end": 2.22,
+          "word": " sorte",
+          "probability": 0.8952246904373169
+        },
+        {
+          "start": 2.22,
+          "end": 2.44,
+          "word": " de",
+          "probability": 0.999913215637207
+        },
+        {
+          "start": 2.44,
+          "end": 2.86,
+          "word": " félins",
+          "probability": 0.7357324759165446
+        },
+        {
+          "start": 2.86,
+          "end": 3.42,
+          "word": " recouverts",
+          "probability": 0.9964028000831604
+        },
+        {
+          "start": 3.42,
+          "end": 3.52,
+          "word": " de",
+          "probability": 0.9999322891235352
+        },
+        {
+          "start": 3.52,
+          "end": 4.0,
+          "word": " fourrure.",
+          "probability": 0.8688914775848389
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

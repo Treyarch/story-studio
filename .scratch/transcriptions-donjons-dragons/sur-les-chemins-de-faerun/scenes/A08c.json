@@ -1,0 +1,731 @@
+{
+  "scene": "A08c",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A08c.mp3",
+  "sha256": "de880063470fe5b70fc13ccc8c61486e978a311d58d38d06fa5180cbb406ab58",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 28.35325,
+  "text": "Tu te demandes ce que te conseillerait tes parents. Sauver le bébé ours-hibou paraît la bonne chose à faire, même si cela te met en péril. Après tout, tant que tu n'énerves pas la maman, il n'y a pas de raison que l'affaire tourne au vinaigre. Il est temps d'utiliser ta jugeote. Tu portes tes mains devant ta bouche et inspires un bon coup. Puis, tu te remets à imiter de ton mieux le cri de l'ours-hibou.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.33,
+      "end": 3.99,
+      "text": " Tu te demandes ce que te conseillerait tes parents.",
+      "tokens": [
+        50365,
+        7836,
+        535,
+        4733,
+        279,
+        1769,
+        631,
+        535,
+        4425,
+        10497,
+        1001,
+        20018,
+        3152,
+        13,
+        50499
+      ],
+      "avg_logprob": -0.07383956984781168,
+      "compression_ratio": 1.5166051660516606,
+      "no_speech_prob": 9.461735214766342e-12,
+      "words": [
+        {
+          "start": 1.33,
+          "end": 1.77,
+          "word": " Tu",
+          "probability": 0.9729515314102173
+        },
+        {
+          "start": 1.77,
+          "end": 1.95,
+          "word": " te",
+          "probability": 0.9993199110031128
+        },
+        {
+          "start": 1.95,
+          "end": 2.45,
+          "word": " demandes",
+          "probability": 0.9994331300258636
+        },
+        {
+          "start": 2.45,
+          "end": 2.71,
+          "word": " ce",
+          "probability": 0.9999098777770996
+        },
+        {
+          "start": 2.71,
+          "end": 2.85,
+          "word": " que",
+          "probability": 0.9999390840530396
+        },
+        {
+          "start": 2.85,
+          "end": 3.01,
+          "word": " te",
+          "probability": 0.9995446801185608
+        },
+        {
+          "start": 3.01,
+          "end": 3.55,
+          "word": " conseillerait",
+          "probability": 0.823920339345932
+        },
+        {
+          "start": 3.55,
+          "end": 3.71,
+          "word": " tes",
+          "probability": 0.9980796575546265
+        },
+        {
+          "start": 3.71,
+          "end": 3.99,
+          "word": " parents.",
+          "probability": 0.9998445510864258
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.67,
+      "end": 9.69,
+      "text": " Sauver le bébé ours-hibou paraît la bonne chose à faire, même si cela te met en péril.",
+      "tokens": [
+        50541,
+        22557,
+        331,
+        476,
+        15807,
+        27166,
+        11896,
+        897,
+        263,
+        1690,
+        20028,
+        635,
+        20577,
+        5111,
+        1531,
+        4865,
+        11,
+        5698,
+        1511,
+        15437,
+        535,
+        1131,
+        465,
+        280,
+        4198,
+        388,
+        13,
+        50783
+      ],
+      "avg_logprob": -0.07383956984781168,
+      "compression_ratio": 1.5166051660516606,
+      "no_speech_prob": 9.461735214766342e-12,
+      "words": [
+        {
+          "start": 4.67,
+          "end": 5.11,
+          "word": " Sauver",
+          "probability": 0.9972512423992157
+        },
+        {
+          "start": 5.11,
+          "end": 5.25,
+          "word": " le",
+          "probability": 0.9999457597732544
+        },
+        {
+          "start": 5.25,
+          "end": 5.55,
+          "word": " bébé",
+          "probability": 0.9998724460601807
+        },
+        {
+          "start": 5.55,
+          "end": 6.11,
+          "word": " ours-hibou",
+          "probability": 0.8915377457936605
+        },
+        {
+          "start": 6.11,
+          "end": 6.65,
+          "word": " paraît",
+          "probability": 0.983147531747818
+        },
+        {
+          "start": 6.65,
+          "end": 6.77,
+          "word": " la",
+          "probability": 0.9998843669891357
+        },
+        {
+          "start": 6.77,
+          "end": 6.99,
+          "word": " bonne",
+          "probability": 0.999880313873291
+        },
+        {
+          "start": 6.99,
+          "end": 7.21,
+          "word": " chose",
+          "probability": 0.9999301433563232
+        },
+        {
+          "start": 7.21,
+          "end": 7.39,
+          "word": " à",
+          "probability": 0.9999402761459351
+        },
+        {
+          "start": 7.39,
+          "end": 7.65,
+          "word": " faire,",
+          "probability": 0.9999276399612427
+        },
+        {
+          "start": 7.91,
+          "end": 8.39,
+          "word": " même",
+          "probability": 0.9999175071716309
+        },
+        {
+          "start": 8.39,
+          "end": 8.59,
+          "word": " si",
+          "probability": 0.9999672174453735
+        },
+        {
+          "start": 8.59,
+          "end": 8.87,
+          "word": " cela",
+          "probability": 0.9998921155929565
+        },
+        {
+          "start": 8.87,
+          "end": 9.05,
+          "word": " te",
+          "probability": 0.9999783039093018
+        },
+        {
+          "start": 9.05,
+          "end": 9.19,
+          "word": " met",
+          "probability": 0.9990065693855286
+        },
+        {
+          "start": 9.19,
+          "end": 9.33,
+          "word": " en",
+          "probability": 0.999962568283081
+        },
+        {
+          "start": 9.33,
+          "end": 9.69,
+          "word": " péril.",
+          "probability": 0.9996471802393595
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.21,
+      "end": 15.83,
+      "text": " Après tout, tant que tu n'énerves pas la maman, il n'y a pas de raison que l'affaire tourne au vinaigre.",
+      "tokens": [
+        50819,
+        29265,
+        3486,
+        11,
+        12095,
+        631,
+        2604,
+        297,
+        6,
+        29535,
+        977,
+        1736,
+        635,
+        275,
+        6147,
+        11,
+        1930,
+        297,
+        6,
+        88,
+        257,
+        1736,
+        368,
+        28402,
+        631,
+        287,
+        6,
+        2518,
+        9020,
+        3512,
+        716,
+        1609,
+        371,
+        1426,
+        328,
+        265,
+        13,
+        51091
+      ],
+      "avg_logprob": -0.07383956984781168,
+      "compression_ratio": 1.5166051660516606,
+      "no_speech_prob": 9.461735214766342e-12,
+      "words": [
+        {
+          "start": 10.21,
+          "end": 10.65,
+          "word": " Après",
+          "probability": 0.9998747110366821
+        },
+        {
+          "start": 10.65,
+          "end": 10.87,
+          "word": " tout,",
+          "probability": 0.9999735355377197
+        },
+        {
+          "start": 11.45,
+          "end": 11.61,
+          "word": " tant",
+          "probability": 0.9991570711135864
+        },
+        {
+          "start": 11.61,
+          "end": 11.81,
+          "word": " que",
+          "probability": 0.9999880790710449
+        },
+        {
+          "start": 11.81,
+          "end": 11.99,
+          "word": " tu",
+          "probability": 0.9997511506080627
+        },
+        {
+          "start": 11.99,
+          "end": 12.11,
+          "word": " n",
+          "probability": 0.9995437264442444
+        },
+        {
+          "start": 12.11,
+          "end": 12.45,
+          "word": "'énerves",
+          "probability": 0.996099849541982
+        },
+        {
+          "start": 12.45,
+          "end": 12.59,
+          "word": " pas",
+          "probability": 0.9999555349349976
+        },
+        {
+          "start": 12.59,
+          "end": 12.71,
+          "word": " la",
+          "probability": 0.9997784495353699
+        },
+        {
+          "start": 12.71,
+          "end": 13.01,
+          "word": " maman,",
+          "probability": 0.9998553693294525
+        },
+        {
+          "start": 13.31,
+          "end": 13.63,
+          "word": " il",
+          "probability": 0.9999257326126099
+        },
+        {
+          "start": 13.63,
+          "end": 13.73,
+          "word": " n",
+          "probability": 0.9999254941940308
+        },
+        {
+          "start": 13.73,
+          "end": 13.79,
+          "word": "'y",
+          "probability": 0.999933123588562
+        },
+        {
+          "start": 13.79,
+          "end": 13.81,
+          "word": " a",
+          "probability": 0.9999605417251587
+        },
+        {
+          "start": 13.81,
+          "end": 13.95,
+          "word": " pas",
+          "probability": 0.9999651908874512
+        },
+        {
+          "start": 13.95,
+          "end": 14.13,
+          "word": " de",
+          "probability": 0.9997372031211853
+        },
+        {
+          "start": 14.13,
+          "end": 14.39,
+          "word": " raison",
+          "probability": 0.9992918968200684
+        },
+        {
+          "start": 14.39,
+          "end": 14.61,
+          "word": " que",
+          "probability": 0.9998176693916321
+        },
+        {
+          "start": 14.61,
+          "end": 14.73,
+          "word": " l",
+          "probability": 0.9962001442909241
+        },
+        {
+          "start": 14.73,
+          "end": 15.01,
+          "word": "'affaire",
+          "probability": 0.9997090498606364
+        },
+        {
+          "start": 15.01,
+          "end": 15.33,
+          "word": " tourne",
+          "probability": 0.9995777606964111
+        },
+        {
+          "start": 15.33,
+          "end": 15.45,
+          "word": " au",
+          "probability": 0.9995265007019043
+        },
+        {
+          "start": 15.45,
+          "end": 15.83,
+          "word": " vinaigre.",
+          "probability": 0.9984042197465897
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 16.29,
+      "end": 18.33,
+      "text": " Il est temps d'utiliser ta jugeote.",
+      "tokens": [
+        51130,
+        4416,
+        871,
+        8827,
+        274,
+        6,
+        20835,
+        6694,
+        1846,
+        3649,
+        432,
+        1370,
+        13,
+        51215
+      ],
+      "avg_logprob": -0.07383956984781168,
+      "compression_ratio": 1.5166051660516606,
+      "no_speech_prob": 9.461735214766342e-12,
+      "words": [
+        {
+          "start": 16.29,
+          "end": 16.73,
+          "word": " Il",
+          "probability": 0.9995108842849731
+        },
+        {
+          "start": 16.73,
+          "end": 16.91,
+          "word": " est",
+          "probability": 0.9999420642852783
+        },
+        {
+          "start": 16.91,
+          "end": 17.05,
+          "word": " temps",
+          "probability": 0.9994908571243286
+        },
+        {
+          "start": 17.05,
+          "end": 17.17,
+          "word": " d",
+          "probability": 0.9999390840530396
+        },
+        {
+          "start": 17.17,
+          "end": 17.67,
+          "word": "'utiliser",
+          "probability": 0.9999372561772665
+        },
+        {
+          "start": 17.67,
+          "end": 17.87,
+          "word": " ta",
+          "probability": 0.9962624907493591
+        },
+        {
+          "start": 17.87,
+          "end": 18.33,
+          "word": " jugeote.",
+          "probability": 0.9361239671707153
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 18.97,
+      "end": 22.71,
+      "text": " Tu portes tes mains devant ta bouche et inspires un bon coup.",
+      "tokens": [
+        51263,
+        7836,
+        2436,
+        279,
+        20018,
+        32519,
+        28982,
+        1846,
+        15345,
+        1876,
+        1030,
+        32566,
+        517,
+        4428,
+        8682,
+        13,
+        51436
+      ],
+      "avg_logprob": -0.07383956984781168,
+      "compression_ratio": 1.5166051660516606,
+      "no_speech_prob": 9.461735214766342e-12,
+      "words": [
+        {
+          "start": 18.97,
+          "end": 19.41,
+          "word": " Tu",
+          "probability": 0.9989759922027588
+        },
+        {
+          "start": 19.41,
+          "end": 19.83,
+          "word": " portes",
+          "probability": 0.9992715418338776
+        },
+        {
+          "start": 19.83,
+          "end": 19.99,
+          "word": " tes",
+          "probability": 0.9989734888076782
+        },
+        {
+          "start": 19.99,
+          "end": 20.17,
+          "word": " mains",
+          "probability": 0.9996432065963745
+        },
+        {
+          "start": 20.17,
+          "end": 20.47,
+          "word": " devant",
+          "probability": 0.9997473359107971
+        },
+        {
+          "start": 20.47,
+          "end": 20.69,
+          "word": " ta",
+          "probability": 0.998723566532135
+        },
+        {
+          "start": 20.69,
+          "end": 21.07,
+          "word": " bouche",
+          "probability": 0.9997558295726776
+        },
+        {
+          "start": 21.07,
+          "end": 21.39,
+          "word": " et",
+          "probability": 0.9987700581550598
+        },
+        {
+          "start": 21.39,
+          "end": 21.87,
+          "word": " inspires",
+          "probability": 0.8957313299179077
+        },
+        {
+          "start": 21.87,
+          "end": 22.27,
+          "word": " un",
+          "probability": 0.9996473789215088
+        },
+        {
+          "start": 22.27,
+          "end": 22.49,
+          "word": " bon",
+          "probability": 0.9947901964187622
+        },
+        {
+          "start": 22.49,
+          "end": 22.71,
+          "word": " coup.",
+          "probability": 0.9937438368797302
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 23.01,
+      "end": 26.67,
+      "text": " Puis, tu te remets à imiter de ton mieux le cri de l'ours-hibou.",
+      "tokens": [
+        51462,
+        30033,
+        11,
+        2604,
+        535,
+        890,
+        1385,
+        1531,
+        566,
+        1681,
+        368,
+        2952,
+        20401,
+        476,
+        12815,
+        368,
+        287,
+        6,
+        5067,
+        897,
+        263,
+        13,
+        51632
+      ],
+      "avg_logprob": -0.07383956984781168,
+      "compression_ratio": 1.5166051660516606,
+      "no_speech_prob": 9.461735214766342e-12,
+      "words": [
+        {
+          "start": 23.01,
+          "end": 23.45,
+          "word": " Puis,",
+          "probability": 0.9992955923080444
+        },
+        {
+          "start": 23.63,
+          "end": 23.91,
+          "word": " tu",
+          "probability": 0.9995496869087219
+        },
+        {
+          "start": 23.91,
+          "end": 24.09,
+          "word": " te",
+          "probability": 0.9978287816047668
+        },
+        {
+          "start": 24.09,
+          "end": 24.43,
+          "word": " remets",
+          "probability": 0.9991097450256348
+        },
+        {
+          "start": 24.43,
+          "end": 24.57,
+          "word": " à",
+          "probability": 0.9974831938743591
+        },
+        {
+          "start": 24.57,
+          "end": 25.03,
+          "word": " imiter",
+          "probability": 0.9922676682472229
+        },
+        {
+          "start": 25.03,
+          "end": 25.19,
+          "word": " de",
+          "probability": 0.9989732503890991
+        },
+        {
+          "start": 25.19,
+          "end": 25.37,
+          "word": " ton",
+          "probability": 0.9992855191230774
+        },
+        {
+          "start": 25.37,
+          "end": 25.59,
+          "word": " mieux",
+          "probability": 0.9997310042381287
+        },
+        {
+          "start": 25.59,
+          "end": 25.79,
+          "word": " le",
+          "probability": 0.9989699125289917
+        },
+        {
+          "start": 25.79,
+          "end": 25.99,
+          "word": " cri",
+          "probability": 0.9986587762832642
+        },
+        {
+          "start": 25.99,
+          "end": 26.13,
+          "word": " de",
+          "probability": 0.9987095594406128
+        },
+        {
+          "start": 26.13,
+          "end": 26.23,
+          "word": " l",
+          "probability": 0.999043881893158
+        },
+        {
+          "start": 26.23,
+          "end": 26.67,
+          "word": "'ours-hibou.",
+          "probability": 0.9833267629146576
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

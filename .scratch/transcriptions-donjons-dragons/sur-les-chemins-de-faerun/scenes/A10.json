@@ -1,0 +1,1967 @@
+{
+  "scene": "A10",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A10.mp3",
+  "sha256": "272da2983d0daea98f1a79de1d0edc01a3feb14f633eb3fcc65f30021b9e3edc",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 62.7788125,
+  "text": "Tu dis à Shanaïra que tu es vraiment flattée par son invitation à rejoindre l'Enclave d'Émeraude, mais que tu n'es pas encore disposée à t'engager de façon aussi importante. L'elfe a qui est-ce? Elle n'a pas du tout l'air en colère ou vexée. Elle te répond. Je comprends. Je me doutais bien que tu ferais ce choix. Tu lui expliques que tu as promis à tes parents que tu te rendrais à Eauprofonde. Et tu as hâte de voir ce que la ville peut t'offrir. C'est par là. Elle désigne l'Ouest. À présent, à la lumière du jour, tu distingues une piste qui sillonne vers l'autre côté de la forêt. L'elfe murmure. Il y a longtemps que l'on ne peut plus me dire jeune, mais je me souviens de ce que l'on ressent quand on aspire à trouver sa place dans le monde. Adieu, bonne chance, et n'oublie pas de cultiver cette gentillesse qui t'est naturelle. À ton tour, tu fais tes adieux et tu reprends la route vers les berges du Dessarine, puis vers le pont de Zuld. Cette fois, tu le traverses, déterminé à découvrir les merveilles d'Eauprofonde.",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.72,
+      "end": 5.94,
+      "text": " Tu dis à Shanaïra que tu es vraiment flattée par son invitation à rejoindre l'Enclave d'Émeraude,",
+      "tokens": [
+        50365,
+        7836,
+        717,
+        1531,
+        1160,
+        2095,
+        15487,
+        424,
+        631,
+        2604,
+        785,
+        8322,
+        932,
+        1591,
+        3856,
+        971,
+        1872,
+        17890,
+        1531,
+        22087,
+        28786,
+        287,
+        6,
+        22660,
+        27995,
+        274,
+        6,
+        526,
+        35984,
+        2303,
+        11,
+        50626
+      ],
+      "avg_logprob": -0.16901848350252424,
+      "compression_ratio": 1.5768025078369905,
+      "no_speech_prob": 6.8783060844235244e-12,
+      "words": [
+        {
+          "start": 0.72,
+          "end": 1.14,
+          "word": " Tu",
+          "probability": 0.9366168975830078
+        },
+        {
+          "start": 1.14,
+          "end": 1.32,
+          "word": " dis",
+          "probability": 0.999748170375824
+        },
+        {
+          "start": 1.32,
+          "end": 1.5,
+          "word": " à",
+          "probability": 0.999872088432312
+        },
+        {
+          "start": 1.5,
+          "end": 2.02,
+          "word": " Shanaïra",
+          "probability": 0.6894141733646393
+        },
+        {
+          "start": 2.02,
+          "end": 2.22,
+          "word": " que",
+          "probability": 0.9997989535331726
+        },
+        {
+          "start": 2.22,
+          "end": 2.38,
+          "word": " tu",
+          "probability": 0.9999138116836548
+        },
+        {
+          "start": 2.38,
+          "end": 2.52,
+          "word": " es",
+          "probability": 0.998776376247406
+        },
+        {
+          "start": 2.52,
+          "end": 2.86,
+          "word": " vraiment",
+          "probability": 0.9998125433921814
+        },
+        {
+          "start": 2.86,
+          "end": 3.28,
+          "word": " flattée",
+          "probability": 0.8462687730789185
+        },
+        {
+          "start": 3.28,
+          "end": 3.46,
+          "word": " par",
+          "probability": 0.9995999932289124
+        },
+        {
+          "start": 3.46,
+          "end": 3.64,
+          "word": " son",
+          "probability": 0.9998663663864136
+        },
+        {
+          "start": 3.64,
+          "end": 4.14,
+          "word": " invitation",
+          "probability": 0.9998393058776855
+        },
+        {
+          "start": 4.14,
+          "end": 4.46,
+          "word": " à",
+          "probability": 0.9997290968894958
+        },
+        {
+          "start": 4.46,
+          "end": 4.92,
+          "word": " rejoindre",
+          "probability": 0.9999136924743652
+        },
+        {
+          "start": 4.92,
+          "end": 5.12,
+          "word": " l",
+          "probability": 0.9997454285621643
+        },
+        {
+          "start": 5.12,
+          "end": 5.44,
+          "word": "'enclave",
+          "probability": 0.9893529812494913
+        },
+        {
+          "start": 5.44,
+          "end": 5.58,
+          "word": " d",
+          "probability": 0.9954512715339661
+        },
+        {
+          "start": 5.58,
+          "end": 5.94,
+          "word": "'émeraude,",
+          "probability": 0.8153571337461472
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.42,
+      "end": 10.3,
+      "text": " mais que tu n'es pas encore disposée à t'engager de façon aussi importante.",
+      "tokens": [
+        50659,
+        2420,
+        631,
+        2604,
+        297,
+        6,
+        279,
+        1736,
+        10122,
+        15885,
+        3856,
+        1531,
+        256,
+        6,
+        1501,
+        3557,
+        368,
+        20725,
+        6212,
+        9416,
+        13,
+        50846
+      ],
+      "avg_logprob": -0.16901848350252424,
+      "compression_ratio": 1.5768025078369905,
+      "no_speech_prob": 6.8783060844235244e-12,
+      "words": [
+        {
+          "start": 6.42,
+          "end": 6.82,
+          "word": " mais",
+          "probability": 0.9996341466903687
+        },
+        {
+          "start": 6.82,
+          "end": 6.98,
+          "word": " que",
+          "probability": 0.999976634979248
+        },
+        {
+          "start": 6.98,
+          "end": 7.1,
+          "word": " tu",
+          "probability": 0.9999743700027466
+        },
+        {
+          "start": 7.1,
+          "end": 7.24,
+          "word": " n",
+          "probability": 0.9999282360076904
+        },
+        {
+          "start": 7.24,
+          "end": 7.28,
+          "word": "'es",
+          "probability": 0.9989478588104248
+        },
+        {
+          "start": 7.28,
+          "end": 7.46,
+          "word": " pas",
+          "probability": 0.9999673366546631
+        },
+        {
+          "start": 7.46,
+          "end": 7.84,
+          "word": " encore",
+          "probability": 0.9999194145202637
+        },
+        {
+          "start": 7.84,
+          "end": 8.4,
+          "word": " disposée",
+          "probability": 0.986152321100235
+        },
+        {
+          "start": 8.4,
+          "end": 8.52,
+          "word": " à",
+          "probability": 0.9997280240058899
+        },
+        {
+          "start": 8.52,
+          "end": 8.66,
+          "word": " t",
+          "probability": 0.999890923500061
+        },
+        {
+          "start": 8.66,
+          "end": 9.0,
+          "word": "'engager",
+          "probability": 0.9994393388430277
+        },
+        {
+          "start": 9.0,
+          "end": 9.18,
+          "word": " de",
+          "probability": 0.9999216794967651
+        },
+        {
+          "start": 9.18,
+          "end": 9.52,
+          "word": " façon",
+          "probability": 0.9999047517776489
+        },
+        {
+          "start": 9.52,
+          "end": 9.8,
+          "word": " aussi",
+          "probability": 0.9998538494110107
+        },
+        {
+          "start": 9.8,
+          "end": 10.3,
+          "word": " importante.",
+          "probability": 0.9997392296791077
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.1,
+      "end": 12.78,
+      "text": " L'elfe a qui est-ce?",
+      "tokens": [
+        50899,
+        441,
+        6,
+        1967,
+        68,
+        257,
+        1956,
+        871,
+        12,
+        384,
+        2506,
+        50986
+      ],
+      "avg_logprob": -0.16901848350252424,
+      "compression_ratio": 1.5768025078369905,
+      "no_speech_prob": 6.8783060844235244e-12,
+      "words": [
+        {
+          "start": 11.1,
+          "end": 11.5,
+          "word": " L",
+          "probability": 0.9904205799102783
+        },
+        {
+          "start": 11.5,
+          "end": 11.88,
+          "word": "'elfe",
+          "probability": 0.946725865205129
+        },
+        {
+          "start": 11.88,
+          "end": 12.04,
+          "word": " a",
+          "probability": 0.27746862173080444
+        },
+        {
+          "start": 12.04,
+          "end": 12.16,
+          "word": " qui",
+          "probability": 0.3546711504459381
+        },
+        {
+          "start": 12.16,
+          "end": 12.32,
+          "word": " est",
+          "probability": 0.378430038690567
+        },
+        {
+          "start": 12.32,
+          "end": 12.4,
+          "word": "-ce",
+          "probability": 0.6471345871686935
+        },
+        {
+          "start": 12.4,
+          "end": 12.78,
+          "word": "?",
+          "probability": 0.8963448405265808
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.78,
+      "end": 14.9,
+      "text": " Elle n'a pas du tout l'air en colère ou vexée.",
+      "tokens": [
+        50986,
+        16227,
+        297,
+        6,
+        64,
+        1736,
+        1581,
+        3486,
+        287,
+        6,
+        1246,
+        465,
+        1173,
+        4212,
+        2820,
+        1241,
+        87,
+        3856,
+        13,
+        51075
+      ],
+      "avg_logprob": -0.16901848350252424,
+      "compression_ratio": 1.5768025078369905,
+      "no_speech_prob": 6.8783060844235244e-12,
+      "words": [
+        {
+          "start": 12.78,
+          "end": 13.24,
+          "word": " Elle",
+          "probability": 0.9952148199081421
+        },
+        {
+          "start": 13.24,
+          "end": 13.34,
+          "word": " n",
+          "probability": 0.9997797608375549
+        },
+        {
+          "start": 13.34,
+          "end": 13.4,
+          "word": "'a",
+          "probability": 0.9999281167984009
+        },
+        {
+          "start": 13.4,
+          "end": 13.52,
+          "word": " pas",
+          "probability": 0.99993896484375
+        },
+        {
+          "start": 13.52,
+          "end": 13.68,
+          "word": " du",
+          "probability": 0.9997888207435608
+        },
+        {
+          "start": 13.68,
+          "end": 13.82,
+          "word": " tout",
+          "probability": 0.9998685121536255
+        },
+        {
+          "start": 13.82,
+          "end": 13.92,
+          "word": " l",
+          "probability": 0.9995379447937012
+        },
+        {
+          "start": 13.92,
+          "end": 14.0,
+          "word": "'air",
+          "probability": 0.9992350935935974
+        },
+        {
+          "start": 14.0,
+          "end": 14.14,
+          "word": " en",
+          "probability": 0.9996511936187744
+        },
+        {
+          "start": 14.14,
+          "end": 14.4,
+          "word": " colère",
+          "probability": 0.9997795224189758
+        },
+        {
+          "start": 14.4,
+          "end": 14.54,
+          "word": " ou",
+          "probability": 0.9994344115257263
+        },
+        {
+          "start": 14.54,
+          "end": 14.9,
+          "word": " vexée.",
+          "probability": 0.9907843470573425
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 15.4,
+      "end": 16.3,
+      "text": " Elle te répond.",
+      "tokens": [
+        51112,
+        16227,
+        535,
+        26027,
+        13,
+        51145
+      ],
+      "avg_logprob": -0.16901848350252424,
+      "compression_ratio": 1.5768025078369905,
+      "no_speech_prob": 6.8783060844235244e-12,
+      "words": [
+        {
+          "start": 15.4,
+          "end": 15.8,
+          "word": " Elle",
+          "probability": 0.9995124340057373
+        },
+        {
+          "start": 15.8,
+          "end": 15.96,
+          "word": " te",
+          "probability": 0.9999004602432251
+        },
+        {
+          "start": 15.96,
+          "end": 16.3,
+          "word": " répond.",
+          "probability": 0.9994854927062988
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 16.54,
+      "end": 19.5,
+      "text": " Je comprends. Je me doutais bien que tu ferais ce choix.",
+      "tokens": [
+        51169,
+        2588,
+        30765,
+        82,
+        13,
+        2588,
+        385,
+        274,
+        346,
+        1527,
+        3610,
+        631,
+        2604,
+        7202,
+        1527,
+        1769,
+        32688,
+        13,
+        51304
+      ],
+      "avg_logprob": -0.16901848350252424,
+      "compression_ratio": 1.5768025078369905,
+      "no_speech_prob": 6.8783060844235244e-12,
+      "words": [
+        {
+          "start": 16.54,
+          "end": 16.9,
+          "word": " Je",
+          "probability": 0.7940438389778137
+        },
+        {
+          "start": 16.9,
+          "end": 17.34,
+          "word": " comprends.",
+          "probability": 0.9995584785938263
+        },
+        {
+          "start": 17.72,
+          "end": 18.12,
+          "word": " Je",
+          "probability": 0.9997848868370056
+        },
+        {
+          "start": 18.12,
+          "end": 18.24,
+          "word": " me",
+          "probability": 0.9997664093971252
+        },
+        {
+          "start": 18.24,
+          "end": 18.46,
+          "word": " doutais",
+          "probability": 0.9991868734359741
+        },
+        {
+          "start": 18.46,
+          "end": 18.62,
+          "word": " bien",
+          "probability": 0.9999526739120483
+        },
+        {
+          "start": 18.62,
+          "end": 18.78,
+          "word": " que",
+          "probability": 0.9999619722366333
+        },
+        {
+          "start": 18.78,
+          "end": 18.9,
+          "word": " tu",
+          "probability": 0.9999765157699585
+        },
+        {
+          "start": 18.9,
+          "end": 19.12,
+          "word": " ferais",
+          "probability": 0.9963345527648926
+        },
+        {
+          "start": 19.12,
+          "end": 19.26,
+          "word": " ce",
+          "probability": 0.9999359846115112
+        },
+        {
+          "start": 19.26,
+          "end": 19.5,
+          "word": " choix.",
+          "probability": 0.9999704360961914
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 19.68,
+      "end": 23.56,
+      "text": " Tu lui expliques que tu as promis à tes parents que tu te rendrais à Eauprofonde.",
+      "tokens": [
+        51318,
+        7836,
+        8783,
+        1490,
+        4911,
+        631,
+        2604,
+        382,
+        2234,
+        271,
+        1531,
+        20018,
+        3152,
+        631,
+        2604,
+        535,
+        6125,
+        20769,
+        1531,
+        308,
+        1459,
+        1740,
+        7259,
+        13,
+        51509
+      ],
+      "avg_logprob": -0.16901848350252424,
+      "compression_ratio": 1.5768025078369905,
+      "no_speech_prob": 6.8783060844235244e-12,
+      "words": [
+        {
+          "start": 19.68,
+          "end": 19.88,
+          "word": " Tu",
+          "probability": 0.9975835084915161
+        },
+        {
+          "start": 19.88,
+          "end": 20.08,
+          "word": " lui",
+          "probability": 0.9999598264694214
+        },
+        {
+          "start": 20.08,
+          "end": 20.66,
+          "word": " expliques",
+          "probability": 0.9996801912784576
+        },
+        {
+          "start": 20.66,
+          "end": 20.88,
+          "word": " que",
+          "probability": 0.9998823404312134
+        },
+        {
+          "start": 20.88,
+          "end": 21.04,
+          "word": " tu",
+          "probability": 0.999977707862854
+        },
+        {
+          "start": 21.04,
+          "end": 21.2,
+          "word": " as",
+          "probability": 0.9996277093887329
+        },
+        {
+          "start": 21.2,
+          "end": 21.52,
+          "word": " promis",
+          "probability": 0.9992654621601105
+        },
+        {
+          "start": 21.52,
+          "end": 21.62,
+          "word": " à",
+          "probability": 0.9999772310256958
+        },
+        {
+          "start": 21.62,
+          "end": 21.76,
+          "word": " tes",
+          "probability": 0.9997472167015076
+        },
+        {
+          "start": 21.76,
+          "end": 22.04,
+          "word": " parents",
+          "probability": 0.9998062252998352
+        },
+        {
+          "start": 22.04,
+          "end": 22.22,
+          "word": " que",
+          "probability": 0.9999054670333862
+        },
+        {
+          "start": 22.22,
+          "end": 22.36,
+          "word": " tu",
+          "probability": 0.9999512434005737
+        },
+        {
+          "start": 22.36,
+          "end": 22.52,
+          "word": " te",
+          "probability": 0.999906063079834
+        },
+        {
+          "start": 22.52,
+          "end": 22.86,
+          "word": " rendrais",
+          "probability": 0.9983774125576019
+        },
+        {
+          "start": 22.86,
+          "end": 22.98,
+          "word": " à",
+          "probability": 0.9916030764579773
+        },
+        {
+          "start": 22.98,
+          "end": 23.06,
+          "word": " eau",
+          "probability": 0.8585573434829712
+        },
+        {
+          "start": 23.06,
+          "end": 23.56,
+          "word": " profonde.",
+          "probability": 0.9991641938686371
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 23.82,
+      "end": 26.42,
+      "text": " Et tu as hâte de voir ce que la ville peut t'offrir.",
+      "tokens": [
+        51527,
+        3790,
+        2604,
+        382,
+        276,
+        33680,
+        368,
+        10695,
+        1769,
+        631,
+        635,
+        23019,
+        5977,
+        256,
+        6,
+        4506,
+        10949,
+        13,
+        51660
+      ],
+      "avg_logprob": -0.16901848350252424,
+      "compression_ratio": 1.5768025078369905,
+      "no_speech_prob": 6.8783060844235244e-12,
+      "words": [
+        {
+          "start": 23.82,
+          "end": 24.1,
+          "word": " Et",
+          "probability": 0.9978504180908203
+        },
+        {
+          "start": 24.1,
+          "end": 24.34,
+          "word": " tu",
+          "probability": 0.9997825026512146
+        },
+        {
+          "start": 24.34,
+          "end": 24.5,
+          "word": " as",
+          "probability": 0.9992916584014893
+        },
+        {
+          "start": 24.5,
+          "end": 24.74,
+          "word": " hâte",
+          "probability": 0.9998777210712433
+        },
+        {
+          "start": 24.74,
+          "end": 24.94,
+          "word": " de",
+          "probability": 0.999907374382019
+        },
+        {
+          "start": 24.94,
+          "end": 25.2,
+          "word": " voir",
+          "probability": 0.9993820190429688
+        },
+        {
+          "start": 25.2,
+          "end": 25.38,
+          "word": " ce",
+          "probability": 0.9993040561676025
+        },
+        {
+          "start": 25.38,
+          "end": 25.48,
+          "word": " que",
+          "probability": 0.9999616146087646
+        },
+        {
+          "start": 25.48,
+          "end": 25.62,
+          "word": " la",
+          "probability": 0.9972550272941589
+        },
+        {
+          "start": 25.62,
+          "end": 25.84,
+          "word": " ville",
+          "probability": 0.9838361144065857
+        },
+        {
+          "start": 25.84,
+          "end": 26.0,
+          "word": " peut",
+          "probability": 0.9989266991615295
+        },
+        {
+          "start": 26.0,
+          "end": 26.1,
+          "word": " t",
+          "probability": 0.8890345096588135
+        },
+        {
+          "start": 26.1,
+          "end": 26.42,
+          "word": "'offrir.",
+          "probability": 0.9997992912928263
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 26.92,
+      "end": 27.7,
+      "text": " C'est par là.",
+      "tokens": [
+        51691,
+        383,
+        6,
+        377,
+        971,
+        3684,
+        13,
+        51716
+      ],
+      "avg_logprob": -0.16901848350252424,
+      "compression_ratio": 1.5768025078369905,
+      "no_speech_prob": 6.8783060844235244e-12,
+      "words": [
+        {
+          "start": 26.92,
+          "end": 27.32,
+          "word": " C",
+          "probability": 0.9973986148834229
+        },
+        {
+          "start": 27.32,
+          "end": 27.4,
+          "word": "'est",
+          "probability": 0.9999876022338867
+        },
+        {
+          "start": 27.4,
+          "end": 27.54,
+          "word": " par",
+          "probability": 0.9996126294136047
+        },
+        {
+          "start": 27.54,
+          "end": 27.7,
+          "word": " là.",
+          "probability": 0.9958339929580688
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 28.16,
+      "end": 29.38,
+      "text": " Elle désigne l'Ouest.",
+      "tokens": [
+        51747,
+        16227,
+        18963,
+        26341,
+        287,
+        6,
+        46,
+        11493,
+        13,
+        51800
+      ],
+      "avg_logprob": -0.16901848350252424,
+      "compression_ratio": 1.5768025078369905,
+      "no_speech_prob": 6.8783060844235244e-12,
+      "words": [
+        {
+          "start": 28.16,
+          "end": 28.56,
+          "word": " Elle",
+          "probability": 0.9960642457008362
+        },
+        {
+          "start": 28.56,
+          "end": 28.96,
+          "word": " désigne",
+          "probability": 0.9994146525859833
+        },
+        {
+          "start": 28.96,
+          "end": 29.12,
+          "word": " l",
+          "probability": 0.9972744584083557
+        },
+        {
+          "start": 29.12,
+          "end": 29.38,
+          "word": "'Ouest.",
+          "probability": 0.8995924393335978
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 11,
+      "seek": 2866,
+      "start": 30.0,
+      "end": 31.92,
+      "text": " À présent, à la lumière du jour,",
+      "tokens": [
+        50403,
+        19018,
+        26056,
+        11,
+        1531,
+        635,
+        43193,
+        1581,
+        2827,
+        11,
+        50494
+      ],
+      "avg_logprob": -0.11746762893162668,
+      "compression_ratio": 1.5733333333333333,
+      "no_speech_prob": 1.2190679021806261e-11,
+      "words": [
+        {
+          "start": 30.0,
+          "end": 30.22,
+          "word": " À",
+          "probability": 0.7614099383354187
+        },
+        {
+          "start": 30.22,
+          "end": 30.58,
+          "word": " présent,",
+          "probability": 0.975472629070282
+        },
+        {
+          "start": 30.82,
+          "end": 31.04,
+          "word": " à",
+          "probability": 0.999082088470459
+        },
+        {
+          "start": 31.04,
+          "end": 31.16,
+          "word": " la",
+          "probability": 0.9996967315673828
+        },
+        {
+          "start": 31.16,
+          "end": 31.46,
+          "word": " lumière",
+          "probability": 0.9998780488967896
+        },
+        {
+          "start": 31.46,
+          "end": 31.64,
+          "word": " du",
+          "probability": 0.9998801946640015
+        },
+        {
+          "start": 31.64,
+          "end": 31.92,
+          "word": " jour,",
+          "probability": 0.9999579191207886
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 12,
+      "seek": 2866,
+      "start": 32.22,
+      "end": 35.54,
+      "text": " tu distingues une piste qui sillonne vers l'autre côté de la forêt.",
+      "tokens": [
+        50519,
+        2604,
+        1483,
+        278,
+        1247,
+        2251,
+        280,
+        8375,
+        1956,
+        37160,
+        22419,
+        1774,
+        287,
+        6,
+        19702,
+        18437,
+        368,
+        635,
+        337,
+        15519,
+        13,
+        50673
+      ],
+      "avg_logprob": -0.11746762893162668,
+      "compression_ratio": 1.5733333333333333,
+      "no_speech_prob": 1.2190679021806261e-11,
+      "words": [
+        {
+          "start": 32.22,
+          "end": 32.54,
+          "word": " tu",
+          "probability": 0.9982513785362244
+        },
+        {
+          "start": 32.54,
+          "end": 33.06,
+          "word": " distingues",
+          "probability": 0.9812271595001221
+        },
+        {
+          "start": 33.06,
+          "end": 33.2,
+          "word": " une",
+          "probability": 0.9996774196624756
+        },
+        {
+          "start": 33.2,
+          "end": 33.54,
+          "word": " piste",
+          "probability": 0.9991426169872284
+        },
+        {
+          "start": 33.54,
+          "end": 33.74,
+          "word": " qui",
+          "probability": 0.9994128942489624
+        },
+        {
+          "start": 33.74,
+          "end": 34.2,
+          "word": " sillonne",
+          "probability": 0.9939878284931183
+        },
+        {
+          "start": 34.2,
+          "end": 34.36,
+          "word": " vers",
+          "probability": 0.9998306035995483
+        },
+        {
+          "start": 34.36,
+          "end": 34.48,
+          "word": " l",
+          "probability": 0.9999819993972778
+        },
+        {
+          "start": 34.48,
+          "end": 34.62,
+          "word": "'autre",
+          "probability": 0.9999736547470093
+        },
+        {
+          "start": 34.62,
+          "end": 34.96,
+          "word": " côté",
+          "probability": 0.9998600482940674
+        },
+        {
+          "start": 34.96,
+          "end": 35.08,
+          "word": " de",
+          "probability": 0.9997630715370178
+        },
+        {
+          "start": 35.08,
+          "end": 35.22,
+          "word": " la",
+          "probability": 0.9997634291648865
+        },
+        {
+          "start": 35.22,
+          "end": 35.54,
+          "word": " forêt.",
+          "probability": 0.9997453093528748
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 13,
+      "seek": 2866,
+      "start": 35.74,
+      "end": 36.86,
+      "text": " L'elfe murmure.",
+      "tokens": [
+        50692,
+        441,
+        6,
+        1967,
+        68,
+        39729,
+        540,
+        13,
+        50739
+      ],
+      "avg_logprob": -0.11746762893162668,
+      "compression_ratio": 1.5733333333333333,
+      "no_speech_prob": 1.2190679021806261e-11,
+      "words": [
+        {
+          "start": 35.74,
+          "end": 36.02,
+          "word": " L",
+          "probability": 0.9966719150543213
+        },
+        {
+          "start": 36.02,
+          "end": 36.36,
+          "word": "'elfe",
+          "probability": 0.9612000981966654
+        },
+        {
+          "start": 36.36,
+          "end": 36.86,
+          "word": " murmure.",
+          "probability": 0.9995070397853851
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 14,
+      "seek": 2866,
+      "start": 37.12,
+      "end": 39.52,
+      "text": " Il y a longtemps que l'on ne peut plus me dire jeune,",
+      "tokens": [
+        50767,
+        4416,
+        288,
+        257,
+        32437,
+        631,
+        287,
+        6,
+        266,
+        408,
+        5977,
+        1804,
+        385,
+        1264,
+        35610,
+        11,
+        50874
+      ],
+      "avg_logprob": -0.11746762893162668,
+      "compression_ratio": 1.5733333333333333,
+      "no_speech_prob": 1.2190679021806261e-11,
+      "words": [
+        {
+          "start": 37.12,
+          "end": 37.56,
+          "word": " Il",
+          "probability": 0.43121224641799927
+        },
+        {
+          "start": 37.56,
+          "end": 37.68,
+          "word": " y",
+          "probability": 0.9996414184570312
+        },
+        {
+          "start": 37.68,
+          "end": 37.76,
+          "word": " a",
+          "probability": 0.9999481439590454
+        },
+        {
+          "start": 37.76,
+          "end": 38.04,
+          "word": " longtemps",
+          "probability": 0.9999843835830688
+        },
+        {
+          "start": 38.04,
+          "end": 38.26,
+          "word": " que",
+          "probability": 0.9996836185455322
+        },
+        {
+          "start": 38.26,
+          "end": 38.36,
+          "word": " l",
+          "probability": 0.9999493360519409
+        },
+        {
+          "start": 38.36,
+          "end": 38.4,
+          "word": "'on",
+          "probability": 0.9999901652336121
+        },
+        {
+          "start": 38.4,
+          "end": 38.54,
+          "word": " ne",
+          "probability": 0.999993085861206
+        },
+        {
+          "start": 38.54,
+          "end": 38.64,
+          "word": " peut",
+          "probability": 0.999754011631012
+        },
+        {
+          "start": 38.64,
+          "end": 38.84,
+          "word": " plus",
+          "probability": 0.9999784231185913
+        },
+        {
+          "start": 38.84,
+          "end": 38.98,
+          "word": " me",
+          "probability": 0.9997655749320984
+        },
+        {
+          "start": 38.98,
+          "end": 39.2,
+          "word": " dire",
+          "probability": 0.9999090433120728
+        },
+        {
+          "start": 39.2,
+          "end": 39.52,
+          "word": " jeune,",
+          "probability": 0.574994683265686
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 15,
+      "seek": 2866,
+      "start": 39.68,
+      "end": 41.78,
+      "text": " mais je me souviens de ce que l'on ressent",
+      "tokens": [
+        50898,
+        2420,
+        1506,
+        385,
+        6926,
+        4917,
+        694,
+        368,
+        1769,
+        631,
+        287,
+        6,
+        266,
+        24689,
+        317,
+        50985
+      ],
+      "avg_logprob": -0.11746762893162668,
+      "compression_ratio": 1.5733333333333333,
+      "no_speech_prob": 1.2190679021806261e-11,
+      "words": [
+        {
+          "start": 39.68,
+          "end": 40.18,
+          "word": " mais",
+          "probability": 0.9996234178543091
+        },
+        {
+          "start": 40.18,
+          "end": 40.38,
+          "word": " je",
+          "probability": 0.9999542236328125
+        },
+        {
+          "start": 40.38,
+          "end": 40.5,
+          "word": " me",
+          "probability": 0.9998835325241089
+        },
+        {
+          "start": 40.5,
+          "end": 40.88,
+          "word": " souviens",
+          "probability": 0.999777098496755
+        },
+        {
+          "start": 40.88,
+          "end": 41.02,
+          "word": " de",
+          "probability": 0.9999692440032959
+        },
+        {
+          "start": 41.02,
+          "end": 41.12,
+          "word": " ce",
+          "probability": 0.9999642372131348
+        },
+        {
+          "start": 41.12,
+          "end": 41.22,
+          "word": " que",
+          "probability": 0.9983469247817993
+        },
+        {
+          "start": 41.22,
+          "end": 41.34,
+          "word": " l",
+          "probability": 0.9999111890792847
+        },
+        {
+          "start": 41.34,
+          "end": 41.38,
+          "word": "'on",
+          "probability": 0.9999861717224121
+        },
+        {
+          "start": 41.38,
+          "end": 41.78,
+          "word": " ressent",
+          "probability": 0.9989981055259705
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 16,
+      "seek": 2866,
+      "start": 41.78,
+      "end": 44.32,
+      "text": " quand on aspire à trouver sa place dans le monde.",
+      "tokens": [
+        50985,
+        6932,
+        322,
+        41224,
+        1531,
+        23546,
+        601,
+        1081,
+        2680,
+        476,
+        10431,
+        13,
+        51113
+      ],
+      "avg_logprob": -0.11746762893162668,
+      "compression_ratio": 1.5733333333333333,
+      "no_speech_prob": 1.2190679021806261e-11,
+      "words": [
+        {
+          "start": 41.78,
+          "end": 41.92,
+          "word": " quand",
+          "probability": 0.9993228912353516
+        },
+        {
+          "start": 41.92,
+          "end": 42.08,
+          "word": " on",
+          "probability": 0.9976701140403748
+        },
+        {
+          "start": 42.08,
+          "end": 42.44,
+          "word": " aspire",
+          "probability": 0.9996954202651978
+        },
+        {
+          "start": 42.44,
+          "end": 42.68,
+          "word": " à",
+          "probability": 0.9998823404312134
+        },
+        {
+          "start": 42.68,
+          "end": 42.98,
+          "word": " trouver",
+          "probability": 0.9997448325157166
+        },
+        {
+          "start": 42.98,
+          "end": 43.22,
+          "word": " sa",
+          "probability": 0.9999514818191528
+        },
+        {
+          "start": 43.22,
+          "end": 43.62,
+          "word": " place",
+          "probability": 0.9999711513519287
+        },
+        {
+          "start": 43.62,
+          "end": 43.84,
+          "word": " dans",
+          "probability": 0.9996427297592163
+        },
+        {
+          "start": 43.84,
+          "end": 43.98,
+          "word": " le",
+          "probability": 0.9998949766159058
+        },
+        {
+          "start": 43.98,
+          "end": 44.32,
+          "word": " monde.",
+          "probability": 0.9999195337295532
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 17,
+      "seek": 2866,
+      "start": 44.74,
+      "end": 46.54,
+      "text": " Adieu, bonne chance,",
+      "tokens": [
+        51134,
+        1999,
+        19347,
+        11,
+        20577,
+        2931,
+        11,
+        51225
+      ],
+      "avg_logprob": -0.11746762893162668,
+      "compression_ratio": 1.5733333333333333,
+      "no_speech_prob": 1.2190679021806261e-11,
+      "words": [
+        {
+          "start": 44.74,
+          "end": 45.1,
+          "word": " Adieu,",
+          "probability": 0.9950809180736542
+        },
+        {
+          "start": 45.6,
+          "end": 46.06,
+          "word": " bonne",
+          "probability": 0.9995332956314087
+        },
+        {
+          "start": 46.06,
+          "end": 46.54,
+          "word": " chance,",
+          "probability": 0.9998716115951538
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 18,
+      "seek": 2866,
+      "start": 46.78,
+      "end": 49.84,
+      "text": " et n'oublie pas de cultiver cette gentillesse qui t'est naturelle.",
+      "tokens": [
+        51248,
+        1030,
+        297,
+        6,
+        46680,
+        414,
+        1736,
+        368,
+        2376,
+        1837,
+        5550,
+        16108,
+        373,
+        7357,
+        1956,
+        256,
+        6,
+        377,
+        3687,
+        2447,
+        13,
+        51389
+      ],
+      "avg_logprob": -0.11746762893162668,
+      "compression_ratio": 1.5733333333333333,
+      "no_speech_prob": 1.2190679021806261e-11,
+      "words": [
+        {
+          "start": 46.78,
+          "end": 47.12,
+          "word": " et",
+          "probability": 0.9998875856399536
+        },
+        {
+          "start": 47.12,
+          "end": 47.22,
+          "word": " n",
+          "probability": 0.9999645948410034
+        },
+        {
+          "start": 47.22,
+          "end": 47.44,
+          "word": "'oublie",
+          "probability": 0.9993877013524374
+        },
+        {
+          "start": 47.44,
+          "end": 47.6,
+          "word": " pas",
+          "probability": 0.9999904632568359
+        },
+        {
+          "start": 47.6,
+          "end": 47.76,
+          "word": " de",
+          "probability": 0.9997910857200623
+        },
+        {
+          "start": 47.76,
+          "end": 48.22,
+          "word": " cultiver",
+          "probability": 0.9992155432701111
+        },
+        {
+          "start": 48.22,
+          "end": 48.44,
+          "word": " cette",
+          "probability": 0.9986573457717896
+        },
+        {
+          "start": 48.44,
+          "end": 49.04,
+          "word": " gentillesse",
+          "probability": 0.9997378587722778
+        },
+        {
+          "start": 49.04,
+          "end": 49.22,
+          "word": " qui",
+          "probability": 0.9925159811973572
+        },
+        {
+          "start": 49.22,
+          "end": 49.28,
+          "word": " t",
+          "probability": 0.9904392957687378
+        },
+        {
+          "start": 49.28,
+          "end": 49.34,
+          "word": "'est",
+          "probability": 0.9919294714927673
+        },
+        {
+          "start": 49.34,
+          "end": 49.84,
+          "word": " naturelle.",
+          "probability": 0.9989090263843536
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 19,
+      "seek": 2866,
+      "start": 49.98,
+      "end": 51.84,
+      "text": " À ton tour, tu fais tes adieux",
+      "tokens": [
+        51389,
+        19018,
+        2952,
+        3512,
+        11,
+        2604,
+        12153,
+        20018,
+        614,
+        35371,
+        51489
+      ],
+      "avg_logprob": -0.11746762893162668,
+      "compression_ratio": 1.5733333333333333,
+      "no_speech_prob": 1.2190679021806261e-11,
+      "words": [
+        {
+          "start": 49.98,
+          "end": 50.16,
+          "word": " À",
+          "probability": 0.9904273748397827
+        },
+        {
+          "start": 50.16,
+          "end": 50.3,
+          "word": " ton",
+          "probability": 0.9996820688247681
+        },
+        {
+          "start": 50.3,
+          "end": 50.64,
+          "word": " tour,",
+          "probability": 0.9996906518936157
+        },
+        {
+          "start": 50.86,
+          "end": 51.1,
+          "word": " tu",
+          "probability": 0.9997819066047668
+        },
+        {
+          "start": 51.1,
+          "end": 51.3,
+          "word": " fais",
+          "probability": 0.987224817276001
+        },
+        {
+          "start": 51.3,
+          "end": 51.5,
+          "word": " tes",
+          "probability": 0.9994571805000305
+        },
+        {
+          "start": 51.5,
+          "end": 51.84,
+          "word": " adieux",
+          "probability": 0.9960106015205383
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 20,
+      "seek": 2866,
+      "start": 51.84,
+      "end": 54.62,
+      "text": " et tu reprends la route vers les berges du Dessarine,",
+      "tokens": [
+        51489,
+        1030,
+        2604,
+        1085,
+        4542,
+        82,
+        635,
+        7955,
+        1774,
+        1512,
+        5948,
+        2880,
+        1581,
+        413,
+        442,
+        289,
+        533,
+        11,
+        51628
+      ],
+      "avg_logprob": -0.11746762893162668,
+      "compression_ratio": 1.5733333333333333,
+      "no_speech_prob": 1.2190679021806261e-11,
+      "words": [
+        {
+          "start": 51.84,
+          "end": 52.06,
+          "word": " et",
+          "probability": 0.9768475294113159
+        },
+        {
+          "start": 52.06,
+          "end": 52.22,
+          "word": " tu",
+          "probability": 0.9994837045669556
+        },
+        {
+          "start": 52.22,
+          "end": 52.6,
+          "word": " reprends",
+          "probability": 0.9988308350245158
+        },
+        {
+          "start": 52.6,
+          "end": 52.68,
+          "word": " la",
+          "probability": 0.9998297691345215
+        },
+        {
+          "start": 52.68,
+          "end": 52.96,
+          "word": " route",
+          "probability": 0.9999361038208008
+        },
+        {
+          "start": 52.96,
+          "end": 53.38,
+          "word": " vers",
+          "probability": 0.9995734095573425
+        },
+        {
+          "start": 53.38,
+          "end": 53.54,
+          "word": " les",
+          "probability": 0.9806150794029236
+        },
+        {
+          "start": 53.54,
+          "end": 53.9,
+          "word": " berges",
+          "probability": 0.9858165681362152
+        },
+        {
+          "start": 53.9,
+          "end": 54.06,
+          "word": " du",
+          "probability": 0.9981302618980408
+        },
+        {
+          "start": 54.06,
+          "end": 54.62,
+          "word": " Dessarine,",
+          "probability": 0.9237831681966782
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 21,
+      "seek": 2866,
+      "start": 54.84,
+      "end": 56.04,
+      "text": " puis vers le pont de Zuld.",
+      "tokens": [
+        51643,
+        9093,
+        1774,
+        476,
+        18770,
+        368,
+        1176,
+        13432,
+        13,
+        51698
+      ],
+      "avg_logprob": -0.11746762893162668,
+      "compression_ratio": 1.5733333333333333,
+      "no_speech_prob": 1.2190679021806261e-11,
+      "words": [
+        {
+          "start": 54.84,
+          "end": 55.06,
+          "word": " puis",
+          "probability": 0.9997789263725281
+        },
+        {
+          "start": 55.06,
+          "end": 55.26,
+          "word": " vers",
+          "probability": 0.9999305009841919
+        },
+        {
+          "start": 55.26,
+          "end": 55.4,
+          "word": " le",
+          "probability": 0.9998722076416016
+        },
+        {
+          "start": 55.4,
+          "end": 55.56,
+          "word": " pont",
+          "probability": 0.9967977404594421
+        },
+        {
+          "start": 55.56,
+          "end": 55.7,
+          "word": " de",
+          "probability": 0.9954525828361511
+        },
+        {
+          "start": 55.7,
+          "end": 56.04,
+          "word": " Zuld.",
+          "probability": 0.5723454430699348
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 22,
+      "seek": 5532,
+      "start": 56.04,
+      "end": 61.4,
+      "text": " Cette fois, tu le traverses, déterminé à découvrir les merveilles d'Eauprofonde.",
+      "tokens": [
+        50365,
+        25556,
+        9576,
+        11,
+        2604,
+        476,
+        23149,
+        279,
+        11,
+        2795,
+        29725,
+        526,
+        1531,
+        47756,
+        1512,
+        3551,
+        303,
+        14835,
+        274,
+        6,
+        22290,
+        1740,
+        7259,
+        13,
+        50634
+      ],
+      "avg_logprob": -0.07852220621246558,
+      "compression_ratio": 1.0240963855421688,
+      "no_speech_prob": 4.675435819750939e-12,
+      "words": [
+        {
+          "start": 56.04,
+          "end": 56.82,
+          "word": " Cette",
+          "probability": 0.9569994211196899
+        },
+        {
+          "start": 56.82,
+          "end": 57.06,
+          "word": " fois,",
+          "probability": 0.999580442905426
+        },
+        {
+          "start": 57.34,
+          "end": 57.68,
+          "word": " tu",
+          "probability": 0.9991812109947205
+        },
+        {
+          "start": 57.68,
+          "end": 57.86,
+          "word": " le",
+          "probability": 0.997840404510498
+        },
+        {
+          "start": 57.86,
+          "end": 58.64,
+          "word": " traverses,",
+          "probability": 0.9988221228122711
+        },
+        {
+          "start": 58.64,
+          "end": 59.52,
+          "word": " déterminé",
+          "probability": 0.9923542340596517
+        },
+        {
+          "start": 59.52,
+          "end": 59.64,
+          "word": " à",
+          "probability": 0.999947190284729
+        },
+        {
+          "start": 59.64,
+          "end": 60.1,
+          "word": " découvrir",
+          "probability": 0.999863862991333
+        },
+        {
+          "start": 60.1,
+          "end": 60.34,
+          "word": " les",
+          "probability": 0.9994970560073853
+        },
+        {
+          "start": 60.34,
+          "end": 60.76,
+          "word": " merveilles",
+          "probability": 0.9995928406715393
+        },
+        {
+          "start": 60.76,
+          "end": 60.88,
+          "word": " d",
+          "probability": 0.9998620748519897
+        },
+        {
+          "start": 60.88,
+          "end": 60.92,
+          "word": "'eau",
+          "probability": 0.976333349943161
+        },
+        {
+          "start": 60.92,
+          "end": 61.4,
+          "word": " profonde.",
+          "probability": 0.9988129436969757
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

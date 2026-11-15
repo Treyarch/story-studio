@@ -1,0 +1,75 @@
+{
+  "scene": "item_title_mdp_b-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_mdp_b-fr_FR.mp3",
+  "sha256": "45f47c4ba428fced037cd003c168da40be46869729364dd3166dc4a0654b2d64",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.8306875,
+  "text": "Mot de passe égale Grand Xa.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 3.2,
+      "text": " Mot de passe égale Grand Xa.",
+      "tokens": [
+        50365,
+        8956,
+        368,
+        14530,
+        1136,
+        70,
+        1220,
+        6757,
+        1783,
+        64,
+        13,
+        50525
+      ],
+      "avg_logprob": -0.26782960158128005,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 5.324475235712889e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.58,
+          "word": " Mot",
+          "probability": 0.7148944139480591
+        },
+        {
+          "start": 0.58,
+          "end": 0.74,
+          "word": " de",
+          "probability": 0.9982543587684631
+        },
+        {
+          "start": 0.74,
+          "end": 1.1,
+          "word": " passe",
+          "probability": 0.9966192245483398
+        },
+        {
+          "start": 1.1,
+          "end": 1.94,
+          "word": " égale",
+          "probability": 0.7807249029477438
+        },
+        {
+          "start": 1.94,
+          "end": 2.7,
+          "word": " Grand",
+          "probability": 0.363271027803421
+        },
+        {
+          "start": 2.7,
+          "end": 3.2,
+          "word": " Xa.",
+          "probability": 0.8795158863067627
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

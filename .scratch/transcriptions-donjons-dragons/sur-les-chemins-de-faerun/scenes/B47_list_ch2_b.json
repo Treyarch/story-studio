@@ -1,0 +1,55 @@
+{
+  "scene": "B47_list_ch2_b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B47_list_ch2_b.mp3",
+  "sha256": "2016bc512a1139d0cf67df3262125fc7a84d1cd0e90a841a5fc9d49ef273eba0",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.5015625,
+  "text": "Attaque le bâton.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.11,
+      "end": 1.09,
+      "text": " Attaque le bâton.",
+      "tokens": [
+        50365,
+        1711,
+        1328,
+        1077,
+        476,
+        272,
+        3201,
+        1756,
+        13,
+        50414
+      ],
+      "avg_logprob": -0.10637738487937233,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 4.207248265053476e-12,
+      "words": [
+        {
+          "start": 0.11,
+          "end": 0.67,
+          "word": " Attaque",
+          "probability": 0.9688034653663635
+        },
+        {
+          "start": 0.67,
+          "end": 0.77,
+          "word": " le",
+          "probability": 0.9986461997032166
+        },
+        {
+          "start": 0.77,
+          "end": 1.09,
+          "word": " bâton.",
+          "probability": 0.9977913101514181
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

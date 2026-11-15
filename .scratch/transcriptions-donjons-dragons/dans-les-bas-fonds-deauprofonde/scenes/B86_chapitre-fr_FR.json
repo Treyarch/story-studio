@@ -1,0 +1,53 @@
+{
+  "scene": "B86_chapitre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B86_chapitre-fr_FR.mp3",
+  "sha256": "b4b9fbcda58b4695416ee7d94347dbdc2b8aa855e634a94446abc49e7263ac09",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.0673125,
+  "text": "La Vipère Noire",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.46,
+      "text": " La Vipère Noire",
+      "tokens": [
+        50365,
+        2369,
+        691,
+        647,
+        4212,
+        883,
+        621,
+        50438
+      ],
+      "avg_logprob": -0.2810424698723687,
+      "compression_ratio": 0.6666666666666666,
+      "no_speech_prob": 4.5006307708428395e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.62,
+          "word": " La",
+          "probability": 0.9198196530342102
+        },
+        {
+          "start": 0.62,
+          "end": 1.08,
+          "word": " Vipère",
+          "probability": 0.6320951928695043
+        },
+        {
+          "start": 1.08,
+          "end": 1.46,
+          "word": " Noire",
+          "probability": 0.9780322015285492
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

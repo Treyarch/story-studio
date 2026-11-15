@@ -1,0 +1,99 @@
+{
+  "scene": "item_broche",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_broche.mp3",
+  "sha256": "e7b7817beeb83c9b12d7e4b2fb9df170c41188290a999c2234ba8928ac4e4256",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 4.011125,
+  "text": "Un bijou sans pareil, apporté avec beaucoup de fierté.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.62,
+      "text": " Un bijou sans pareil, apporté avec beaucoup de fierté.",
+      "tokens": [
+        50365,
+        1156,
+        10317,
+        263,
+        12177,
+        46020,
+        11,
+        724,
+        477,
+        526,
+        4163,
+        8796,
+        368,
+        283,
+        4859,
+        526,
+        13,
+        50546
+      ],
+      "avg_logprob": -0.16706114850546183,
+      "compression_ratio": 0.9032258064516129,
+      "no_speech_prob": 6.637486567317996e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.34,
+          "word": " Un",
+          "probability": 0.7969547510147095
+        },
+        {
+          "start": 0.34,
+          "end": 0.7,
+          "word": " bijou",
+          "probability": 0.9972952306270599
+        },
+        {
+          "start": 0.7,
+          "end": 0.92,
+          "word": " sans",
+          "probability": 0.9776230454444885
+        },
+        {
+          "start": 0.92,
+          "end": 1.32,
+          "word": " pareil,",
+          "probability": 0.9078263640403748
+        },
+        {
+          "start": 1.84,
+          "end": 2.3,
+          "word": " apporté",
+          "probability": 0.7958580156167349
+        },
+        {
+          "start": 2.3,
+          "end": 2.7,
+          "word": " avec",
+          "probability": 0.999862551689148
+        },
+        {
+          "start": 2.7,
+          "end": 3.0,
+          "word": " beaucoup",
+          "probability": 0.9999449253082275
+        },
+        {
+          "start": 3.0,
+          "end": 3.24,
+          "word": " de",
+          "probability": 0.9999752044677734
+        },
+        {
+          "start": 3.24,
+          "end": 3.62,
+          "word": " fierté.",
+          "probability": 0.999539295832316
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

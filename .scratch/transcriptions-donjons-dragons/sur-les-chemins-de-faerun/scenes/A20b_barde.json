@@ -1,0 +1,718 @@
+{
+  "scene": "A20b_barde",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A20b_barde.mp3",
+  "sha256": "cb69af49b0febdfcd363d9d7a6481e72898931944c6dd63dd3c2714daf833fa0",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 27.5716875,
+  "text": "Tu dégaines ton luth et enrages de ne pas avoir le temps de l'accorder. Peut-être que ta musique apaisera le monstre, qui sait? Tu attaques les cordes avec force et joues ton air préféré le plus fort possible. Si tu dois mourir, que ce soit en mettant tout ton cœur dans la musique. Et malgré cela, le dragon n'a pas l'air d'entendre ton air le moins du monde. N'aurait-il pas de cœur?",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.67,
+      "end": 6.51,
+      "text": " Tu dégaines ton luth et enrages de ne pas avoir le temps de l'accorder.",
+      "tokens": [
+        50365,
+        7836,
+        2795,
+        70,
+        19295,
+        2952,
+        38319,
+        975,
+        1030,
+        465,
+        424,
+        2880,
+        368,
+        408,
+        1736,
+        10853,
+        476,
+        8827,
+        368,
+        287,
+        6,
+        8476,
+        4687,
+        13,
+        50608
+      ],
+      "avg_logprob": -0.09794908185722306,
+      "compression_ratio": 1.5408560311284047,
+      "no_speech_prob": 9.130969418069679e-12,
+      "words": [
+        {
+          "start": 2.67,
+          "end": 3.15,
+          "word": " Tu",
+          "probability": 0.7237784266471863
+        },
+        {
+          "start": 3.15,
+          "end": 3.57,
+          "word": " dégaines",
+          "probability": 0.9271840850512186
+        },
+        {
+          "start": 3.57,
+          "end": 3.73,
+          "word": " ton",
+          "probability": 0.998691737651825
+        },
+        {
+          "start": 3.73,
+          "end": 4.11,
+          "word": " lutte",
+          "probability": 0.9963786005973816
+        },
+        {
+          "start": 4.11,
+          "end": 4.39,
+          "word": " et",
+          "probability": 0.9893163442611694
+        },
+        {
+          "start": 4.39,
+          "end": 4.91,
+          "word": " enrages",
+          "probability": 0.81157053510348
+        },
+        {
+          "start": 4.91,
+          "end": 5.03,
+          "word": " de",
+          "probability": 0.9995480179786682
+        },
+        {
+          "start": 5.03,
+          "end": 5.13,
+          "word": " ne",
+          "probability": 0.9999463558197021
+        },
+        {
+          "start": 5.13,
+          "end": 5.37,
+          "word": " pas",
+          "probability": 0.9999831914901733
+        },
+        {
+          "start": 5.37,
+          "end": 5.63,
+          "word": " avoir",
+          "probability": 0.9999068975448608
+        },
+        {
+          "start": 5.63,
+          "end": 5.81,
+          "word": " le",
+          "probability": 0.9998351335525513
+        },
+        {
+          "start": 5.81,
+          "end": 5.95,
+          "word": " temps",
+          "probability": 0.999954342842102
+        },
+        {
+          "start": 5.95,
+          "end": 6.07,
+          "word": " de",
+          "probability": 0.9998406171798706
+        },
+        {
+          "start": 6.07,
+          "end": 6.17,
+          "word": " l",
+          "probability": 0.6098213791847229
+        },
+        {
+          "start": 6.17,
+          "end": 6.51,
+          "word": "'accorder.",
+          "probability": 0.9892745216687521
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7.07,
+      "end": 10.77,
+      "text": " Peut-être que ta musique apaisera le monstre, qui sait?",
+      "tokens": [
+        50650,
+        2396,
+        325,
+        12,
+        9498,
+        631,
+        1846,
+        34108,
+        1882,
+        1527,
+        1663,
+        476,
+        1108,
+        26421,
+        11,
+        1956,
+        23146,
+        2506,
+        50832
+      ],
+      "avg_logprob": -0.09794908185722306,
+      "compression_ratio": 1.5408560311284047,
+      "no_speech_prob": 9.130969418069679e-12,
+      "words": [
+        {
+          "start": 7.07,
+          "end": 7.55,
+          "word": " Peut",
+          "probability": 0.9993592202663422
+        },
+        {
+          "start": 7.55,
+          "end": 7.73,
+          "word": "-être",
+          "probability": 0.999769002199173
+        },
+        {
+          "start": 7.73,
+          "end": 7.91,
+          "word": " que",
+          "probability": 0.9999074935913086
+        },
+        {
+          "start": 7.91,
+          "end": 8.07,
+          "word": " ta",
+          "probability": 0.9993948936462402
+        },
+        {
+          "start": 8.07,
+          "end": 8.43,
+          "word": " musique",
+          "probability": 0.9997467398643494
+        },
+        {
+          "start": 8.43,
+          "end": 8.97,
+          "word": " apaisera",
+          "probability": 0.9971402684847513
+        },
+        {
+          "start": 8.97,
+          "end": 9.13,
+          "word": " le",
+          "probability": 0.9998784065246582
+        },
+        {
+          "start": 9.13,
+          "end": 9.55,
+          "word": " monstre,",
+          "probability": 0.998775839805603
+        },
+        {
+          "start": 9.73,
+          "end": 10.03,
+          "word": " qui",
+          "probability": 0.9997336268424988
+        },
+        {
+          "start": 10.03,
+          "end": 10.23,
+          "word": " sait",
+          "probability": 0.9987772107124329
+        },
+        {
+          "start": 10.23,
+          "end": 10.77,
+          "word": "?",
+          "probability": 0.9167819619178772
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.77,
+      "end": 15.67,
+      "text": " Tu attaques les cordes avec force et joues ton air préféré le plus fort possible.",
+      "tokens": [
+        50832,
+        7836,
+        951,
+        64,
+        7519,
+        1512,
+        12250,
+        279,
+        4163,
+        3464,
+        1030,
+        11110,
+        279,
+        2952,
+        1988,
+        31139,
+        29071,
+        476,
+        1804,
+        5009,
+        1944,
+        13,
+        51067
+      ],
+      "avg_logprob": -0.09794908185722306,
+      "compression_ratio": 1.5408560311284047,
+      "no_speech_prob": 9.130969418069679e-12,
+      "words": [
+        {
+          "start": 10.77,
+          "end": 11.11,
+          "word": " Tu",
+          "probability": 0.9986520409584045
+        },
+        {
+          "start": 11.11,
+          "end": 11.55,
+          "word": " attaques",
+          "probability": 0.9965158502260844
+        },
+        {
+          "start": 11.55,
+          "end": 11.71,
+          "word": " les",
+          "probability": 0.9995601773262024
+        },
+        {
+          "start": 11.71,
+          "end": 12.11,
+          "word": " cordes",
+          "probability": 0.9996011257171631
+        },
+        {
+          "start": 12.11,
+          "end": 12.59,
+          "word": " avec",
+          "probability": 0.9842000603675842
+        },
+        {
+          "start": 12.59,
+          "end": 13.13,
+          "word": " force",
+          "probability": 0.9999212026596069
+        },
+        {
+          "start": 13.13,
+          "end": 13.61,
+          "word": " et",
+          "probability": 0.9987924098968506
+        },
+        {
+          "start": 13.61,
+          "end": 13.83,
+          "word": " joues",
+          "probability": 0.9931171536445618
+        },
+        {
+          "start": 13.83,
+          "end": 13.97,
+          "word": " ton",
+          "probability": 0.9994315505027771
+        },
+        {
+          "start": 13.97,
+          "end": 14.13,
+          "word": " air",
+          "probability": 0.9955370426177979
+        },
+        {
+          "start": 14.13,
+          "end": 14.65,
+          "word": " préféré",
+          "probability": 0.9998939037322998
+        },
+        {
+          "start": 14.65,
+          "end": 14.81,
+          "word": " le",
+          "probability": 0.9995846152305603
+        },
+        {
+          "start": 14.81,
+          "end": 15.01,
+          "word": " plus",
+          "probability": 0.9999021291732788
+        },
+        {
+          "start": 15.01,
+          "end": 15.23,
+          "word": " fort",
+          "probability": 0.9998064637184143
+        },
+        {
+          "start": 15.23,
+          "end": 15.67,
+          "word": " possible.",
+          "probability": 0.9994978904724121
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 15.89,
+      "end": 19.93,
+      "text": " Si tu dois mourir, que ce soit en mettant tout ton cœur dans la musique.",
+      "tokens": [
+        51095,
+        4909,
+        2604,
+        11854,
+        22235,
+        347,
+        11,
+        631,
+        1769,
+        12703,
+        465,
+        27812,
+        394,
+        3486,
+        2952,
+        43207,
+        2680,
+        635,
+        34108,
+        13,
+        51280
+      ],
+      "avg_logprob": -0.09794908185722306,
+      "compression_ratio": 1.5408560311284047,
+      "no_speech_prob": 9.130969418069679e-12,
+      "words": [
+        {
+          "start": 15.89,
+          "end": 16.37,
+          "word": " Si",
+          "probability": 0.9973582625389099
+        },
+        {
+          "start": 16.37,
+          "end": 16.51,
+          "word": " tu",
+          "probability": 0.9998483657836914
+        },
+        {
+          "start": 16.51,
+          "end": 16.67,
+          "word": " dois",
+          "probability": 0.9983260035514832
+        },
+        {
+          "start": 16.67,
+          "end": 17.13,
+          "word": " mourir,",
+          "probability": 0.9997414946556091
+        },
+        {
+          "start": 17.31,
+          "end": 17.73,
+          "word": " que",
+          "probability": 0.9998860359191895
+        },
+        {
+          "start": 17.73,
+          "end": 17.91,
+          "word": " ce",
+          "probability": 0.9999477863311768
+        },
+        {
+          "start": 17.91,
+          "end": 18.15,
+          "word": " soit",
+          "probability": 0.9999406337738037
+        },
+        {
+          "start": 18.15,
+          "end": 18.33,
+          "word": " en",
+          "probability": 0.9999423027038574
+        },
+        {
+          "start": 18.33,
+          "end": 18.73,
+          "word": " mettant",
+          "probability": 0.9996813833713531
+        },
+        {
+          "start": 18.73,
+          "end": 18.91,
+          "word": " tout",
+          "probability": 0.9996715784072876
+        },
+        {
+          "start": 18.91,
+          "end": 19.09,
+          "word": " ton",
+          "probability": 0.9998880624771118
+        },
+        {
+          "start": 19.09,
+          "end": 19.29,
+          "word": " cœur",
+          "probability": 0.9791039228439331
+        },
+        {
+          "start": 19.29,
+          "end": 19.45,
+          "word": " dans",
+          "probability": 0.9994465708732605
+        },
+        {
+          "start": 19.45,
+          "end": 19.55,
+          "word": " la",
+          "probability": 0.9998106360435486
+        },
+        {
+          "start": 19.55,
+          "end": 19.93,
+          "word": " musique.",
+          "probability": 0.9998553991317749
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 20.23,
+      "end": 24.61,
+      "text": " Et malgré cela, le dragon n'a pas l'air d'entendre ton air le moins du monde.",
+      "tokens": [
+        51310,
+        3790,
+        2806,
+        36341,
+        15437,
+        11,
+        476,
+        12165,
+        297,
+        6,
+        64,
+        1736,
+        287,
+        6,
+        1246,
+        274,
+        6,
+        317,
+        37850,
+        2952,
+        1988,
+        476,
+        13099,
+        1581,
+        10431,
+        13,
+        51514
+      ],
+      "avg_logprob": -0.09794908185722306,
+      "compression_ratio": 1.5408560311284047,
+      "no_speech_prob": 9.130969418069679e-12,
+      "words": [
+        {
+          "start": 20.23,
+          "end": 20.65,
+          "word": " Et",
+          "probability": 0.9989545345306396
+        },
+        {
+          "start": 20.65,
+          "end": 21.07,
+          "word": " malgré",
+          "probability": 0.9998519122600555
+        },
+        {
+          "start": 21.07,
+          "end": 21.33,
+          "word": " cela,",
+          "probability": 0.9998038411140442
+        },
+        {
+          "start": 21.59,
+          "end": 21.95,
+          "word": " le",
+          "probability": 0.9991102814674377
+        },
+        {
+          "start": 21.95,
+          "end": 22.25,
+          "word": " dragon",
+          "probability": 0.997020423412323
+        },
+        {
+          "start": 22.25,
+          "end": 22.41,
+          "word": " n",
+          "probability": 0.9998377561569214
+        },
+        {
+          "start": 22.41,
+          "end": 22.49,
+          "word": "'a",
+          "probability": 0.9999839067459106
+        },
+        {
+          "start": 22.49,
+          "end": 22.67,
+          "word": " pas",
+          "probability": 0.9999819993972778
+        },
+        {
+          "start": 22.67,
+          "end": 22.77,
+          "word": " l",
+          "probability": 0.9999550580978394
+        },
+        {
+          "start": 22.77,
+          "end": 22.85,
+          "word": "'air",
+          "probability": 0.9994513392448425
+        },
+        {
+          "start": 22.85,
+          "end": 22.97,
+          "word": " d",
+          "probability": 0.9999405145645142
+        },
+        {
+          "start": 22.97,
+          "end": 23.27,
+          "word": "'entendre",
+          "probability": 0.9998382925987244
+        },
+        {
+          "start": 23.27,
+          "end": 23.51,
+          "word": " ton",
+          "probability": 0.9994144439697266
+        },
+        {
+          "start": 23.51,
+          "end": 23.77,
+          "word": " air",
+          "probability": 0.9995719790458679
+        },
+        {
+          "start": 23.77,
+          "end": 23.93,
+          "word": " le",
+          "probability": 0.9966022968292236
+        },
+        {
+          "start": 23.93,
+          "end": 24.19,
+          "word": " moins",
+          "probability": 0.9992905855178833
+        },
+        {
+          "start": 24.19,
+          "end": 24.33,
+          "word": " du",
+          "probability": 0.9996452331542969
+        },
+        {
+          "start": 24.33,
+          "end": 24.61,
+          "word": " monde.",
+          "probability": 0.9998918771743774
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 24.99,
+      "end": 26.55,
+      "text": " N'aurait-il pas de cœur?",
+      "tokens": [
+        51547,
+        426,
+        6,
+        3463,
+        1001,
+        12,
+        388,
+        1736,
+        368,
+        43207,
+        2506,
+        51632
+      ],
+      "avg_logprob": -0.09794908185722306,
+      "compression_ratio": 1.5408560311284047,
+      "no_speech_prob": 9.130969418069679e-12,
+      "words": [
+        {
+          "start": 24.99,
+          "end": 25.35,
+          "word": " N",
+          "probability": 0.9976850748062134
+        },
+        {
+          "start": 25.35,
+          "end": 25.59,
+          "word": "'aurait",
+          "probability": 0.9961251020431519
+        },
+        {
+          "start": 25.59,
+          "end": 25.77,
+          "word": "-il",
+          "probability": 0.9994518756866455
+        },
+        {
+          "start": 25.77,
+          "end": 25.93,
+          "word": " pas",
+          "probability": 0.9999423027038574
+        },
+        {
+          "start": 25.93,
+          "end": 26.07,
+          "word": " de",
+          "probability": 0.9998785257339478
+        },
+        {
+          "start": 26.07,
+          "end": 26.35,
+          "word": " cœur",
+          "probability": 0.9982896447181702
+        },
+        {
+          "start": 26.35,
+          "end": 26.55,
+          "word": "?",
+          "probability": 0.9995947480201721
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

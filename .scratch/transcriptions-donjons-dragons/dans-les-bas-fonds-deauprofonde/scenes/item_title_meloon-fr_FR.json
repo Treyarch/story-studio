@@ -1,0 +1,84 @@
+{
+  "scene": "item_title_meloon-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_meloon-fr_FR.mp3",
+  "sha256": "c57065b31d09aaa8ecbf58bd067310ee625244e867f6b2b718d2d89eab51042b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.326,
+  "text": "Méloun a subi un lavage de cerveau.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 2.8,
+      "text": " Méloun a subi un lavage de cerveau.",
+      "tokens": [
+        50365,
+        376,
+        8025,
+        1733,
+        257,
+        1422,
+        72,
+        517,
+        20923,
+        609,
+        368,
+        33792,
+        1459,
+        13,
+        50506
+      ],
+      "avg_logprob": -0.2480330877006054,
+      "compression_ratio": 0.8372093023255814,
+      "no_speech_prob": 6.408975346955392e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.88,
+          "word": " Méloun",
+          "probability": 0.5668253103892008
+        },
+        {
+          "start": 0.88,
+          "end": 1.16,
+          "word": " a",
+          "probability": 0.9969314336776733
+        },
+        {
+          "start": 1.16,
+          "end": 1.58,
+          "word": " subi",
+          "probability": 0.9966250956058502
+        },
+        {
+          "start": 1.58,
+          "end": 1.78,
+          "word": " un",
+          "probability": 0.9997913241386414
+        },
+        {
+          "start": 1.78,
+          "end": 2.26,
+          "word": " lavage",
+          "probability": 0.9997280538082123
+        },
+        {
+          "start": 2.26,
+          "end": 2.38,
+          "word": " de",
+          "probability": 0.9996639490127563
+        },
+        {
+          "start": 2.38,
+          "end": 2.8,
+          "word": " cerveau.",
+          "probability": 0.9920566380023956
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

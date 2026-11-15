@@ -1,0 +1,562 @@
+{
+  "scene": "A41.3_bardes_magiciens",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A41.3_bardes_magiciens.mp3",
+  "sha256": "abc48700be1738791007a595d6ab01ca1efafd790ba54c752819c58054703552",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 23.0006875,
+  "text": "Pas besoin de t'embêter avec des serrures ou de casser des vitres. Tu peux utiliser la magie, toi. Tu te plantes devant la porte et des mots enchantés s'échappent de tes lèvres. Un puissant claquement retentit alors. Pourvu que personne d'autre ne l'ait entendu. La porte s'ouvre et tu te glisses à l'intérieur.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.07,
+      "end": 4.23,
+      "text": " Pas besoin de t'embêter avec des serrures ou de casser des vitres.",
+      "tokens": [
+        50365,
+        14199,
+        19207,
+        368,
+        256,
+        6,
+        33748,
+        37754,
+        4163,
+        730,
+        816,
+        894,
+        495,
+        2820,
+        368,
+        269,
+        12129,
+        730,
+        9467,
+        495,
+        13,
+        50523
+      ],
+      "avg_logprob": -0.08512026294369564,
+      "compression_ratio": 1.4952830188679245,
+      "no_speech_prob": 6.8261641998634826e-12,
+      "words": [
+        {
+          "start": 1.07,
+          "end": 1.55,
+          "word": " Pas",
+          "probability": 0.9927083849906921
+        },
+        {
+          "start": 1.55,
+          "end": 1.87,
+          "word": " besoin",
+          "probability": 0.999996542930603
+        },
+        {
+          "start": 1.87,
+          "end": 2.01,
+          "word": " de",
+          "probability": 0.9998370409011841
+        },
+        {
+          "start": 2.01,
+          "end": 2.13,
+          "word": " t",
+          "probability": 0.999718964099884
+        },
+        {
+          "start": 2.13,
+          "end": 2.41,
+          "word": "'embêter",
+          "probability": 0.999511182308197
+        },
+        {
+          "start": 2.41,
+          "end": 2.67,
+          "word": " avec",
+          "probability": 0.9999232292175293
+        },
+        {
+          "start": 2.67,
+          "end": 2.85,
+          "word": " des",
+          "probability": 0.9999827146530151
+        },
+        {
+          "start": 2.85,
+          "end": 3.27,
+          "word": " serrures",
+          "probability": 0.9924359122912089
+        },
+        {
+          "start": 3.27,
+          "end": 3.39,
+          "word": " ou",
+          "probability": 0.9991594552993774
+        },
+        {
+          "start": 3.39,
+          "end": 3.51,
+          "word": " de",
+          "probability": 0.9999957084655762
+        },
+        {
+          "start": 3.51,
+          "end": 3.79,
+          "word": " casser",
+          "probability": 0.9992546439170837
+        },
+        {
+          "start": 3.79,
+          "end": 3.93,
+          "word": " des",
+          "probability": 0.9998807907104492
+        },
+        {
+          "start": 3.93,
+          "end": 4.23,
+          "word": " vitres.",
+          "probability": 0.999445229768753
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.41,
+      "end": 6.23,
+      "text": " Tu peux utiliser la magie, toi.",
+      "tokens": [
+        50551,
+        7836,
+        14844,
+        34535,
+        635,
+        2258,
+        414,
+        11,
+        15648,
+        13,
+        50623
+      ],
+      "avg_logprob": -0.08512026294369564,
+      "compression_ratio": 1.4952830188679245,
+      "no_speech_prob": 6.8261641998634826e-12,
+      "words": [
+        {
+          "start": 4.41,
+          "end": 4.89,
+          "word": " Tu",
+          "probability": 0.999591052532196
+        },
+        {
+          "start": 4.89,
+          "end": 5.07,
+          "word": " peux",
+          "probability": 0.9996007084846497
+        },
+        {
+          "start": 5.07,
+          "end": 5.53,
+          "word": " utiliser",
+          "probability": 0.9996219873428345
+        },
+        {
+          "start": 5.53,
+          "end": 5.73,
+          "word": " la",
+          "probability": 0.9999547004699707
+        },
+        {
+          "start": 5.73,
+          "end": 6.05,
+          "word": " magie,",
+          "probability": 0.9999272227287292
+        },
+        {
+          "start": 6.09,
+          "end": 6.23,
+          "word": " toi.",
+          "probability": 0.9996058344841003
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 6.97,
+      "end": 11.41,
+      "text": " Tu te plantes devant la porte et des mots enchantés s'échappent de tes lèvres.",
+      "tokens": [
+        50679,
+        7836,
+        535,
+        3709,
+        279,
+        28982,
+        635,
+        26658,
+        1030,
+        730,
+        34009,
+        465,
+        24628,
+        2191,
+        262,
+        6,
+        30606,
+        1746,
+        317,
+        368,
+        20018,
+        287,
+        1462,
+        85,
+        495,
+        13,
+        50882
+      ],
+      "avg_logprob": -0.08512026294369564,
+      "compression_ratio": 1.4952830188679245,
+      "no_speech_prob": 6.8261641998634826e-12,
+      "words": [
+        {
+          "start": 6.97,
+          "end": 7.49,
+          "word": " Tu",
+          "probability": 0.9993712306022644
+        },
+        {
+          "start": 7.49,
+          "end": 7.67,
+          "word": " te",
+          "probability": 0.9999605417251587
+        },
+        {
+          "start": 7.67,
+          "end": 8.05,
+          "word": " plantes",
+          "probability": 0.9935915470123291
+        },
+        {
+          "start": 8.05,
+          "end": 8.25,
+          "word": " devant",
+          "probability": 0.9999812841415405
+        },
+        {
+          "start": 8.25,
+          "end": 8.45,
+          "word": " la",
+          "probability": 0.9999728202819824
+        },
+        {
+          "start": 8.45,
+          "end": 8.79,
+          "word": " porte",
+          "probability": 0.9999161958694458
+        },
+        {
+          "start": 8.79,
+          "end": 9.17,
+          "word": " et",
+          "probability": 0.9627284407615662
+        },
+        {
+          "start": 9.17,
+          "end": 9.35,
+          "word": " des",
+          "probability": 0.9999020099639893
+        },
+        {
+          "start": 9.35,
+          "end": 9.59,
+          "word": " mots",
+          "probability": 0.9784414172172546
+        },
+        {
+          "start": 9.59,
+          "end": 10.29,
+          "word": " enchantés",
+          "probability": 0.9996378024419149
+        },
+        {
+          "start": 10.29,
+          "end": 10.49,
+          "word": " s",
+          "probability": 0.9998985528945923
+        },
+        {
+          "start": 10.49,
+          "end": 10.81,
+          "word": "'échappent",
+          "probability": 0.9986806660890579
+        },
+        {
+          "start": 10.81,
+          "end": 10.91,
+          "word": " de",
+          "probability": 0.9998992681503296
+        },
+        {
+          "start": 10.91,
+          "end": 11.07,
+          "word": " tes",
+          "probability": 0.999956488609314
+        },
+        {
+          "start": 11.07,
+          "end": 11.41,
+          "word": " lèvres.",
+          "probability": 0.9998705834150314
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 11.75,
+      "end": 14.27,
+      "text": " Un puissant claquement retentit alors.",
+      "tokens": [
+        50917,
+        1156,
+        2362,
+        29492,
+        3583,
+        358,
+        1712,
+        1533,
+        317,
+        270,
+        11246,
+        13,
+        51027
+      ],
+      "avg_logprob": -0.08512026294369564,
+      "compression_ratio": 1.4952830188679245,
+      "no_speech_prob": 6.8261641998634826e-12,
+      "words": [
+        {
+          "start": 11.75,
+          "end": 12.27,
+          "word": " Un",
+          "probability": 0.9993404746055603
+        },
+        {
+          "start": 12.27,
+          "end": 12.77,
+          "word": " puissant",
+          "probability": 0.9998411238193512
+        },
+        {
+          "start": 12.77,
+          "end": 13.29,
+          "word": " claquement",
+          "probability": 0.9987136721611023
+        },
+        {
+          "start": 13.29,
+          "end": 13.89,
+          "word": " retentit",
+          "probability": 0.9971950054168701
+        },
+        {
+          "start": 13.89,
+          "end": 14.27,
+          "word": " alors.",
+          "probability": 0.8998922109603882
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 15.37,
+      "end": 17.47,
+      "text": " Pourvu que personne d'autre ne l'ait entendu.",
+      "tokens": [
+        51089,
+        8732,
+        32257,
+        631,
+        17219,
+        274,
+        6,
+        19702,
+        408,
+        287,
+        6,
+        1001,
+        41489,
+        13,
+        51186
+      ],
+      "avg_logprob": -0.08512026294369564,
+      "compression_ratio": 1.4952830188679245,
+      "no_speech_prob": 6.8261641998634826e-12,
+      "words": [
+        {
+          "start": 15.37,
+          "end": 15.89,
+          "word": " Pourvu",
+          "probability": 0.9984523057937622
+        },
+        {
+          "start": 15.89,
+          "end": 16.05,
+          "word": " que",
+          "probability": 0.9999794960021973
+        },
+        {
+          "start": 16.05,
+          "end": 16.49,
+          "word": " personne",
+          "probability": 0.999923825263977
+        },
+        {
+          "start": 16.49,
+          "end": 16.67,
+          "word": " d",
+          "probability": 0.9995895028114319
+        },
+        {
+          "start": 16.67,
+          "end": 16.79,
+          "word": "'autre",
+          "probability": 0.9987411499023438
+        },
+        {
+          "start": 16.79,
+          "end": 16.99,
+          "word": " ne",
+          "probability": 0.9997478127479553
+        },
+        {
+          "start": 16.99,
+          "end": 17.07,
+          "word": " l",
+          "probability": 0.9999412298202515
+        },
+        {
+          "start": 17.07,
+          "end": 17.13,
+          "word": "'ait",
+          "probability": 0.9989983141422272
+        },
+        {
+          "start": 17.13,
+          "end": 17.47,
+          "word": " entendu.",
+          "probability": 0.9933772683143616
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 17.83,
+      "end": 20.29,
+      "text": " La porte s'ouvre et tu te glisses à l'intérieur.",
+      "tokens": [
+        51221,
+        2369,
+        26658,
+        262,
+        6,
+        22941,
+        265,
+        1030,
+        2604,
+        535,
+        1563,
+        40487,
+        1531,
+        287,
+        6,
+        39166,
+        13,
+        51329
+      ],
+      "avg_logprob": -0.08512026294369564,
+      "compression_ratio": 1.4952830188679245,
+      "no_speech_prob": 6.8261641998634826e-12,
+      "words": [
+        {
+          "start": 17.83,
+          "end": 18.31,
+          "word": " La",
+          "probability": 0.9991911053657532
+        },
+        {
+          "start": 18.31,
+          "end": 18.55,
+          "word": " porte",
+          "probability": 0.9997908473014832
+        },
+        {
+          "start": 18.55,
+          "end": 18.81,
+          "word": " s",
+          "probability": 0.9997617602348328
+        },
+        {
+          "start": 18.81,
+          "end": 19.07,
+          "word": "'ouvre",
+          "probability": 0.9996351202329
+        },
+        {
+          "start": 19.07,
+          "end": 19.41,
+          "word": " et",
+          "probability": 0.9972583055496216
+        },
+        {
+          "start": 19.41,
+          "end": 19.53,
+          "word": " tu",
+          "probability": 0.999808132648468
+        },
+        {
+          "start": 19.53,
+          "end": 19.65,
+          "word": " te",
+          "probability": 0.9999395608901978
+        },
+        {
+          "start": 19.65,
+          "end": 19.89,
+          "word": " glisses",
+          "probability": 0.9984598159790039
+        },
+        {
+          "start": 19.89,
+          "end": 19.99,
+          "word": " à",
+          "probability": 0.9999703168869019
+        },
+        {
+          "start": 19.99,
+          "end": 20.03,
+          "word": " l",
+          "probability": 0.9999624490737915
+        },
+        {
+          "start": 20.03,
+          "end": 20.29,
+          "word": "'intérieur.",
+          "probability": 0.9998937547206879
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

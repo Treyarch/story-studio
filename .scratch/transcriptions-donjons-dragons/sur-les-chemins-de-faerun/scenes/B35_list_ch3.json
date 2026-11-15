@@ -1,0 +1,45 @@
+{
+  "scene": "B35_list_ch3",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B35_list_ch3.mp3",
+  "sha256": "6089e64a8ccf557d109a983a65d23ecc85813644006c128a0e3a7b90128ac374",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.383375,
+  "text": "se planquer.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 0.9,
+      "text": " se planquer.",
+      "tokens": [
+        50365,
+        369,
+        1393,
+        8035,
+        13,
+        50410
+      ],
+      "avg_logprob": -0.43033264364515034,
+      "compression_ratio": 0.6,
+      "no_speech_prob": 6.1497135508958856e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.44,
+          "word": " se",
+          "probability": 0.47483596205711365
+        },
+        {
+          "start": 0.44,
+          "end": 0.9,
+          "word": " planquer.",
+          "probability": 0.9938169121742249
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

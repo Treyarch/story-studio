@@ -1,0 +1,61 @@
+{
+  "scene": "B28b_list_ch3_b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B28b_list_ch3_b.mp3",
+  "sha256": "344f923979bb110cd8bedce19ae27f2bbd80071f61e2ae87e0f2b076108d6a1f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.7208125,
+  "text": "Retournez dans la forêt.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.46,
+      "end": 1.42,
+      "text": " Retournez dans la forêt.",
+      "tokens": [
+        50365,
+        11495,
+        396,
+        28018,
+        2680,
+        635,
+        337,
+        15519,
+        13,
+        50436
+      ],
+      "avg_logprob": -0.2842020175673745,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 5.452285758295039e-12,
+      "words": [
+        {
+          "start": 0.46,
+          "end": 0.78,
+          "word": " Retournez",
+          "probability": 0.741285483042399
+        },
+        {
+          "start": 0.78,
+          "end": 0.94,
+          "word": " dans",
+          "probability": 0.9991509914398193
+        },
+        {
+          "start": 0.94,
+          "end": 1.08,
+          "word": " la",
+          "probability": 0.9997252821922302
+        },
+        {
+          "start": 1.08,
+          "end": 1.42,
+          "word": " forêt.",
+          "probability": 0.9991949796676636
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

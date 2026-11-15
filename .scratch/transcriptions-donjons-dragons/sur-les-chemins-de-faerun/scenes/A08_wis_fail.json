@@ -1,0 +1,1127 @@
+{
+  "scene": "A08_wis_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A08_wis_fail.mp3",
+  "sha256": "dade23e513f979e75a8262edee45955a6a8de8a1d248fc56886f428e72649764",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 49.646125,
+  "text": "Tu grulules jusqu'à ce que tu n'aies plus de souffle, et tu ne t'arrêtes que pour écouter si quelqu'un te répond. En vain. Apparemment, c'est raté pour ce coup-ci. Petit à petit, tu te rends compte que la nuit tombe. Tu regardes le bébé ours-hibou et tu hausses les épaules. Pas le choix. Tu vas devoir prendre le petit monstre avec toi. Tu lui demandes si le projet lui convient. Il ne te répond pas, mais son regard plein d'espoir exprime la confiance qu'il a en toi. Il est clair que tu ne peux pas l'abandonner ici. Alors, tu lui fais signe de te suivre. Et quand tu te mets en route, il t'emboîte le pas.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.5,
+      "end": 7.86,
+      "text": " Tu grulules jusqu'à ce que tu n'aies plus de souffle, et tu ne t'arrêtes que pour écouter si quelqu'un te répond.",
+      "tokens": [
+        50404,
+        7836,
+        677,
+        425,
+        3473,
+        20340,
+        6,
+        1467,
+        1769,
+        631,
+        2604,
+        297,
+        6,
+        64,
+        530,
+        1804,
+        368,
+        36966,
+        306,
+        11,
+        1030,
+        2604,
+        408,
+        256,
+        6,
+        2284,
+        38262,
+        631,
+        2016,
+        15175,
+        23985,
+        1511,
+        25283,
+        6,
+        409,
+        535,
+        26027,
+        13,
+        50720
+      ],
+      "avg_logprob": -0.10109343815308351,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 6.776458300744581e-12,
+      "words": [
+        {
+          "start": 1.5,
+          "end": 2.02,
+          "word": " Tu",
+          "probability": 0.9432006478309631
+        },
+        {
+          "start": 2.02,
+          "end": 2.54,
+          "word": " grulules",
+          "probability": 0.9944356878598531
+        },
+        {
+          "start": 2.54,
+          "end": 2.96,
+          "word": " jusqu",
+          "probability": 0.9997469782829285
+        },
+        {
+          "start": 2.96,
+          "end": 3.22,
+          "word": "'à",
+          "probability": 0.9999642968177795
+        },
+        {
+          "start": 3.22,
+          "end": 3.3,
+          "word": " ce",
+          "probability": 0.9998886585235596
+        },
+        {
+          "start": 3.3,
+          "end": 3.4,
+          "word": " que",
+          "probability": 0.9999524354934692
+        },
+        {
+          "start": 3.4,
+          "end": 3.52,
+          "word": " tu",
+          "probability": 0.9999527931213379
+        },
+        {
+          "start": 3.52,
+          "end": 3.62,
+          "word": " n",
+          "probability": 0.9999186992645264
+        },
+        {
+          "start": 3.62,
+          "end": 3.7,
+          "word": "'aies",
+          "probability": 0.9884976148605347
+        },
+        {
+          "start": 3.7,
+          "end": 3.88,
+          "word": " plus",
+          "probability": 0.999988317489624
+        },
+        {
+          "start": 3.88,
+          "end": 4.04,
+          "word": " de",
+          "probability": 0.999987006187439
+        },
+        {
+          "start": 4.04,
+          "end": 4.46,
+          "word": " souffle,",
+          "probability": 0.9957170486450195
+        },
+        {
+          "start": 4.6,
+          "end": 5.08,
+          "word": " et",
+          "probability": 0.9998594522476196
+        },
+        {
+          "start": 5.08,
+          "end": 5.24,
+          "word": " tu",
+          "probability": 0.9998993873596191
+        },
+        {
+          "start": 5.24,
+          "end": 5.4,
+          "word": " ne",
+          "probability": 0.9999227523803711
+        },
+        {
+          "start": 5.4,
+          "end": 5.62,
+          "word": " t",
+          "probability": 0.9999706745147705
+        },
+        {
+          "start": 5.62,
+          "end": 5.92,
+          "word": "'arrêtes",
+          "probability": 0.9942265351613363
+        },
+        {
+          "start": 5.92,
+          "end": 6.16,
+          "word": " que",
+          "probability": 0.9999669790267944
+        },
+        {
+          "start": 6.16,
+          "end": 6.42,
+          "word": " pour",
+          "probability": 0.9999746084213257
+        },
+        {
+          "start": 6.42,
+          "end": 6.8,
+          "word": " écouter",
+          "probability": 0.9998956918716431
+        },
+        {
+          "start": 6.8,
+          "end": 7.04,
+          "word": " si",
+          "probability": 0.999871015548706
+        },
+        {
+          "start": 7.04,
+          "end": 7.28,
+          "word": " quelqu",
+          "probability": 0.9999681711196899
+        },
+        {
+          "start": 7.28,
+          "end": 7.4,
+          "word": "'un",
+          "probability": 0.9999932050704956
+        },
+        {
+          "start": 7.4,
+          "end": 7.54,
+          "word": " te",
+          "probability": 0.9999829530715942
+        },
+        {
+          "start": 7.54,
+          "end": 7.86,
+          "word": " répond.",
+          "probability": 0.9989763498306274
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.88,
+      "end": 12.76,
+      "text": " En vain. Apparemment, c'est raté pour ce coup-ci.",
+      "tokens": [
+        50788,
+        2193,
+        22240,
+        13,
+        3132,
+        19183,
+        518,
+        11,
+        269,
+        6,
+        377,
+        5937,
+        526,
+        2016,
+        1769,
+        8682,
+        12,
+        537,
+        13,
+        50966
+      ],
+      "avg_logprob": -0.10109343815308351,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 6.776458300744581e-12,
+      "words": [
+        {
+          "start": 8.88,
+          "end": 9.4,
+          "word": " En",
+          "probability": 0.9983353018760681
+        },
+        {
+          "start": 9.4,
+          "end": 9.58,
+          "word": " vain.",
+          "probability": 0.983975887298584
+        },
+        {
+          "start": 10.58,
+          "end": 11.1,
+          "word": " Apparemment,",
+          "probability": 0.9989421566327413
+        },
+        {
+          "start": 11.4,
+          "end": 11.76,
+          "word": " c",
+          "probability": 0.9998751878738403
+        },
+        {
+          "start": 11.76,
+          "end": 11.84,
+          "word": "'est",
+          "probability": 0.9999954700469971
+        },
+        {
+          "start": 11.84,
+          "end": 12.12,
+          "word": " raté",
+          "probability": 0.9998709857463837
+        },
+        {
+          "start": 12.12,
+          "end": 12.28,
+          "word": " pour",
+          "probability": 0.999972939491272
+        },
+        {
+          "start": 12.28,
+          "end": 12.44,
+          "word": " ce",
+          "probability": 0.9994433522224426
+        },
+        {
+          "start": 12.44,
+          "end": 12.56,
+          "word": " coup",
+          "probability": 0.9983135461807251
+        },
+        {
+          "start": 12.56,
+          "end": 12.76,
+          "word": "-ci.",
+          "probability": 0.9998768866062164
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 14.22,
+      "end": 17.6,
+      "text": " Petit à petit, tu te rends compte que la nuit tombe.",
+      "tokens": [
+        51047,
+        10472,
+        270,
+        1531,
+        9686,
+        11,
+        2604,
+        535,
+        6125,
+        82,
+        19424,
+        631,
+        635,
+        38467,
+        2916,
+        650,
+        13,
+        51207
+      ],
+      "avg_logprob": -0.10109343815308351,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 6.776458300744581e-12,
+      "words": [
+        {
+          "start": 14.22,
+          "end": 14.74,
+          "word": " Petit",
+          "probability": 0.9993873536586761
+        },
+        {
+          "start": 14.74,
+          "end": 14.88,
+          "word": " à",
+          "probability": 0.9998217225074768
+        },
+        {
+          "start": 14.88,
+          "end": 15.14,
+          "word": " petit,",
+          "probability": 0.9998798370361328
+        },
+        {
+          "start": 15.62,
+          "end": 15.98,
+          "word": " tu",
+          "probability": 0.9999114274978638
+        },
+        {
+          "start": 15.98,
+          "end": 16.14,
+          "word": " te",
+          "probability": 0.9997242093086243
+        },
+        {
+          "start": 16.14,
+          "end": 16.46,
+          "word": " rends",
+          "probability": 0.9992084205150604
+        },
+        {
+          "start": 16.46,
+          "end": 16.66,
+          "word": " compte",
+          "probability": 0.9999568462371826
+        },
+        {
+          "start": 16.66,
+          "end": 16.84,
+          "word": " que",
+          "probability": 0.9999737739562988
+        },
+        {
+          "start": 16.84,
+          "end": 16.98,
+          "word": " la",
+          "probability": 0.9999417066574097
+        },
+        {
+          "start": 16.98,
+          "end": 17.16,
+          "word": " nuit",
+          "probability": 0.9999651908874512
+        },
+        {
+          "start": 17.16,
+          "end": 17.6,
+          "word": " tombe.",
+          "probability": 0.9997812211513519
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 18.02,
+      "end": 21.66,
+      "text": " Tu regardes le bébé ours-hibou et tu hausses les épaules.",
+      "tokens": [
+        51246,
+        7836,
+        3843,
+        279,
+        476,
+        15807,
+        27166,
+        11896,
+        897,
+        263,
+        1030,
+        2604,
+        324,
+        2023,
+        279,
+        1512,
+        1136,
+        4306,
+        3473,
+        13,
+        51410
+      ],
+      "avg_logprob": -0.10109343815308351,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 6.776458300744581e-12,
+      "words": [
+        {
+          "start": 18.02,
+          "end": 18.52,
+          "word": " Tu",
+          "probability": 0.9995717406272888
+        },
+        {
+          "start": 18.52,
+          "end": 18.98,
+          "word": " regardes",
+          "probability": 0.9992956817150116
+        },
+        {
+          "start": 18.98,
+          "end": 19.12,
+          "word": " le",
+          "probability": 0.9999434947967529
+        },
+        {
+          "start": 19.12,
+          "end": 19.46,
+          "word": " bébé",
+          "probability": 0.999873012304306
+        },
+        {
+          "start": 19.46,
+          "end": 20.12,
+          "word": " ours-hibou",
+          "probability": 0.8218374451001486
+        },
+        {
+          "start": 20.12,
+          "end": 20.7,
+          "word": " et",
+          "probability": 0.8295570015907288
+        },
+        {
+          "start": 20.7,
+          "end": 20.86,
+          "word": " tu",
+          "probability": 0.9999617338180542
+        },
+        {
+          "start": 20.86,
+          "end": 21.16,
+          "word": " hausses",
+          "probability": 0.9728933970133463
+        },
+        {
+          "start": 21.16,
+          "end": 21.3,
+          "word": " les",
+          "probability": 0.9999279975891113
+        },
+        {
+          "start": 21.3,
+          "end": 21.66,
+          "word": " épaules.",
+          "probability": 0.9994662006696066
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 22.54,
+      "end": 26.46,
+      "text": " Pas le choix. Tu vas devoir prendre le petit monstre avec toi.",
+      "tokens": [
+        51474,
+        14199,
+        476,
+        32688,
+        13,
+        7836,
+        11481,
+        48920,
+        16566,
+        476,
+        9686,
+        1108,
+        26421,
+        4163,
+        15648,
+        13,
+        51650
+      ],
+      "avg_logprob": -0.10109343815308351,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 6.776458300744581e-12,
+      "words": [
+        {
+          "start": 22.54,
+          "end": 23.06,
+          "word": " Pas",
+          "probability": 0.9964653253555298
+        },
+        {
+          "start": 23.06,
+          "end": 23.2,
+          "word": " le",
+          "probability": 0.9999665021896362
+        },
+        {
+          "start": 23.2,
+          "end": 23.44,
+          "word": " choix.",
+          "probability": 0.9999704360961914
+        },
+        {
+          "start": 23.92,
+          "end": 24.36,
+          "word": " Tu",
+          "probability": 0.9970232844352722
+        },
+        {
+          "start": 24.36,
+          "end": 24.5,
+          "word": " vas",
+          "probability": 0.9991455078125
+        },
+        {
+          "start": 24.5,
+          "end": 24.78,
+          "word": " devoir",
+          "probability": 0.9997819066047668
+        },
+        {
+          "start": 24.78,
+          "end": 25.14,
+          "word": " prendre",
+          "probability": 0.9998818635940552
+        },
+        {
+          "start": 25.14,
+          "end": 25.4,
+          "word": " le",
+          "probability": 0.999862551689148
+        },
+        {
+          "start": 25.4,
+          "end": 25.66,
+          "word": " petit",
+          "probability": 0.9998049139976501
+        },
+        {
+          "start": 25.66,
+          "end": 26.02,
+          "word": " monstre",
+          "probability": 0.9986176788806915
+        },
+        {
+          "start": 26.02,
+          "end": 26.24,
+          "word": " avec",
+          "probability": 0.9998441934585571
+        },
+        {
+          "start": 26.24,
+          "end": 26.46,
+          "word": " toi.",
+          "probability": 0.9998465776443481
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 27.14,
+      "end": 29.4,
+      "text": " Tu lui demandes si le projet lui convient.",
+      "tokens": [
+        51700,
+        7836,
+        8783,
+        4733,
+        279,
+        1511,
+        476,
+        17929,
+        8783,
+        3754,
+        1196,
+        13,
+        51796
+      ],
+      "avg_logprob": -0.10109343815308351,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 6.776458300744581e-12,
+      "words": [
+        {
+          "start": 27.14,
+          "end": 27.62,
+          "word": " Tu",
+          "probability": 0.9968498349189758
+        },
+        {
+          "start": 27.62,
+          "end": 27.8,
+          "word": " lui",
+          "probability": 0.9999539852142334
+        },
+        {
+          "start": 27.8,
+          "end": 28.26,
+          "word": " demandes",
+          "probability": 0.999669224023819
+        },
+        {
+          "start": 28.26,
+          "end": 28.42,
+          "word": " si",
+          "probability": 0.9999219179153442
+        },
+        {
+          "start": 28.42,
+          "end": 28.54,
+          "word": " le",
+          "probability": 0.999923825263977
+        },
+        {
+          "start": 28.54,
+          "end": 28.82,
+          "word": " projet",
+          "probability": 0.9994889497756958
+        },
+        {
+          "start": 28.82,
+          "end": 28.98,
+          "word": " lui",
+          "probability": 0.9999536275863647
+        },
+        {
+          "start": 28.98,
+          "end": 29.4,
+          "word": " convient.",
+          "probability": 0.9997282028198242
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 2862,
+      "start": 30.36,
+      "end": 35.68,
+      "text": " Il ne te répond pas, mais son regard plein d'espoir exprime la confiance qu'il a en toi.",
+      "tokens": [
+        50365,
+        4416,
+        408,
+        535,
+        26027,
+        1736,
+        11,
+        2420,
+        1872,
+        3843,
+        21088,
+        274,
+        6,
+        279,
+        2259,
+        347,
+        1278,
+        81,
+        1312,
+        635,
+        43213,
+        421,
+        6,
+        388,
+        257,
+        465,
+        15648,
+        13,
+        50681
+      ],
+      "avg_logprob": -0.08782718516886234,
+      "compression_ratio": 1.377245508982036,
+      "no_speech_prob": 7.846072749839728e-12,
+      "words": [
+        {
+          "start": 30.36,
+          "end": 30.76,
+          "word": " Il",
+          "probability": 0.9764857292175293
+        },
+        {
+          "start": 30.76,
+          "end": 30.9,
+          "word": " ne",
+          "probability": 0.999480664730072
+        },
+        {
+          "start": 30.9,
+          "end": 31.02,
+          "word": " te",
+          "probability": 0.99982088804245
+        },
+        {
+          "start": 31.02,
+          "end": 31.22,
+          "word": " répond",
+          "probability": 0.9992793202400208
+        },
+        {
+          "start": 31.22,
+          "end": 31.46,
+          "word": " pas,",
+          "probability": 0.9998732805252075
+        },
+        {
+          "start": 31.68,
+          "end": 32.34,
+          "word": " mais",
+          "probability": 0.9996077418327332
+        },
+        {
+          "start": 32.34,
+          "end": 32.58,
+          "word": " son",
+          "probability": 0.9996768236160278
+        },
+        {
+          "start": 32.58,
+          "end": 32.94,
+          "word": " regard",
+          "probability": 0.9997223019599915
+        },
+        {
+          "start": 32.94,
+          "end": 33.24,
+          "word": " plein",
+          "probability": 0.9985271692276001
+        },
+        {
+          "start": 33.24,
+          "end": 33.38,
+          "word": " d",
+          "probability": 0.999954342842102
+        },
+        {
+          "start": 33.38,
+          "end": 33.84,
+          "word": "'espoir",
+          "probability": 0.9998916536569595
+        },
+        {
+          "start": 33.84,
+          "end": 34.46,
+          "word": " exprime",
+          "probability": 0.9985827604929606
+        },
+        {
+          "start": 34.46,
+          "end": 34.6,
+          "word": " la",
+          "probability": 0.9997729659080505
+        },
+        {
+          "start": 34.6,
+          "end": 35.04,
+          "word": " confiance",
+          "probability": 0.9991864562034607
+        },
+        {
+          "start": 35.04,
+          "end": 35.2,
+          "word": " qu",
+          "probability": 0.9999321699142456
+        },
+        {
+          "start": 35.2,
+          "end": 35.3,
+          "word": "'il",
+          "probability": 0.9999793767929077
+        },
+        {
+          "start": 35.3,
+          "end": 35.36,
+          "word": " a",
+          "probability": 0.9997095465660095
+        },
+        {
+          "start": 35.36,
+          "end": 35.5,
+          "word": " en",
+          "probability": 0.9999657869338989
+        },
+        {
+          "start": 35.5,
+          "end": 35.68,
+          "word": " toi.",
+          "probability": 0.999868631362915
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 2862,
+      "start": 36.44,
+      "end": 38.9,
+      "text": " Il est clair que tu ne peux pas l'abandonner ici.",
+      "tokens": [
+        50731,
+        4416,
+        871,
+        41375,
+        631,
+        2604,
+        408,
+        14844,
+        1736,
+        287,
+        6,
+        455,
+        8518,
+        1193,
+        11575,
+        13,
+        50841
+      ],
+      "avg_logprob": -0.08782718516886234,
+      "compression_ratio": 1.377245508982036,
+      "no_speech_prob": 7.846072749839728e-12,
+      "words": [
+        {
+          "start": 36.44,
+          "end": 36.84,
+          "word": " Il",
+          "probability": 0.981858491897583
+        },
+        {
+          "start": 36.84,
+          "end": 37.0,
+          "word": " est",
+          "probability": 0.9998216032981873
+        },
+        {
+          "start": 37.0,
+          "end": 37.26,
+          "word": " clair",
+          "probability": 0.9998974800109863
+        },
+        {
+          "start": 37.26,
+          "end": 37.46,
+          "word": " que",
+          "probability": 0.9999059438705444
+        },
+        {
+          "start": 37.46,
+          "end": 37.58,
+          "word": " tu",
+          "probability": 0.9997833371162415
+        },
+        {
+          "start": 37.58,
+          "end": 37.68,
+          "word": " ne",
+          "probability": 0.9999485015869141
+        },
+        {
+          "start": 37.68,
+          "end": 37.82,
+          "word": " peux",
+          "probability": 0.9997506737709045
+        },
+        {
+          "start": 37.82,
+          "end": 38.0,
+          "word": " pas",
+          "probability": 0.9999715089797974
+        },
+        {
+          "start": 38.0,
+          "end": 38.1,
+          "word": " l",
+          "probability": 0.9999276399612427
+        },
+        {
+          "start": 38.1,
+          "end": 38.58,
+          "word": "'abandonner",
+          "probability": 0.9998581409454346
+        },
+        {
+          "start": 38.58,
+          "end": 38.9,
+          "word": " ici.",
+          "probability": 0.997870683670044
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2862,
+      "start": 40.32,
+      "end": 42.52,
+      "text": " Alors, tu lui fais signe de te suivre.",
+      "tokens": [
+        50896,
+        9946,
+        11,
+        2604,
+        8783,
+        12153,
+        4556,
+        716,
+        368,
+        535,
+        43404,
+        13,
+        51022
+      ],
+      "avg_logprob": -0.08782718516886234,
+      "compression_ratio": 1.377245508982036,
+      "no_speech_prob": 7.846072749839728e-12,
+      "words": [
+        {
+          "start": 40.32,
+          "end": 40.72,
+          "word": " Alors,",
+          "probability": 0.9990636706352234
+        },
+        {
+          "start": 40.72,
+          "end": 41.12,
+          "word": " tu",
+          "probability": 0.999553382396698
+        },
+        {
+          "start": 41.12,
+          "end": 41.3,
+          "word": " lui",
+          "probability": 0.9999066591262817
+        },
+        {
+          "start": 41.3,
+          "end": 41.46,
+          "word": " fais",
+          "probability": 0.9993832111358643
+        },
+        {
+          "start": 41.46,
+          "end": 41.84,
+          "word": " signe",
+          "probability": 0.9986711144447327
+        },
+        {
+          "start": 41.84,
+          "end": 41.98,
+          "word": " de",
+          "probability": 0.9997332692146301
+        },
+        {
+          "start": 41.98,
+          "end": 42.14,
+          "word": " te",
+          "probability": 0.9997660517692566
+        },
+        {
+          "start": 42.14,
+          "end": 42.52,
+          "word": " suivre.",
+          "probability": 0.9996176958084106
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2862,
+      "start": 43.64,
+      "end": 46.6,
+      "text": " Et quand tu te mets en route, il t'emboîte le pas.",
+      "tokens": [
+        51080,
+        3790,
+        6932,
+        2604,
+        535,
+        37231,
+        465,
+        7955,
+        11,
+        1930,
+        256,
+        6,
+        443,
+        1763,
+        7517,
+        975,
+        476,
+        1736,
+        13,
+        51226
+      ],
+      "avg_logprob": -0.08782718516886234,
+      "compression_ratio": 1.377245508982036,
+      "no_speech_prob": 7.846072749839728e-12,
+      "words": [
+        {
+          "start": 43.64,
+          "end": 44.04,
+          "word": " Et",
+          "probability": 0.9996439218521118
+        },
+        {
+          "start": 44.04,
+          "end": 44.26,
+          "word": " quand",
+          "probability": 0.9997445940971375
+        },
+        {
+          "start": 44.26,
+          "end": 44.42,
+          "word": " tu",
+          "probability": 0.9999057054519653
+        },
+        {
+          "start": 44.42,
+          "end": 44.56,
+          "word": " te",
+          "probability": 0.999924898147583
+        },
+        {
+          "start": 44.56,
+          "end": 44.7,
+          "word": " mets",
+          "probability": 0.9989306330680847
+        },
+        {
+          "start": 44.7,
+          "end": 44.84,
+          "word": " en",
+          "probability": 0.9999567270278931
+        },
+        {
+          "start": 44.84,
+          "end": 45.1,
+          "word": " route,",
+          "probability": 0.9998388290405273
+        },
+        {
+          "start": 45.76,
+          "end": 45.96,
+          "word": " il",
+          "probability": 0.9981107711791992
+        },
+        {
+          "start": 45.96,
+          "end": 46.06,
+          "word": " t",
+          "probability": 0.9994242191314697
+        },
+        {
+          "start": 46.06,
+          "end": 46.32,
+          "word": "'emboîte",
+          "probability": 0.9842103719711304
+        },
+        {
+          "start": 46.32,
+          "end": 46.44,
+          "word": " le",
+          "probability": 0.9975321292877197
+        },
+        {
+          "start": 46.44,
+          "end": 46.6,
+          "word": " pas.",
+          "probability": 0.9993811845779419
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

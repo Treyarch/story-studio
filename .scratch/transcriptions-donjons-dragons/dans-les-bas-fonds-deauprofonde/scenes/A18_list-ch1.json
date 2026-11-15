@@ -1,0 +1,44 @@
+{
+  "scene": "A18_list-ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A18_list-ch1.mp3",
+  "sha256": "9bc9d5c60a8eb3ad2b2f7ce7b1535f70afeec0da4669c46c433a6449c1ab3608",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.4975,
+  "text": "Pas question.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 0.81,
+      "text": " Pas question.",
+      "tokens": [
+        50365,
+        14199,
+        1168,
+        13,
+        50405
+      ],
+      "avg_logprob": -0.537386437257131,
+      "compression_ratio": 0.6190476190476191,
+      "no_speech_prob": 4.69238970596253e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.51,
+          "word": " Pas",
+          "probability": 0.9661480188369751
+        },
+        {
+          "start": 0.51,
+          "end": 0.81,
+          "word": " question.",
+          "probability": 0.9932796359062195
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

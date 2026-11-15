@@ -1,0 +1,67 @@
+{
+  "scene": "item_title_troisieme_oiseau",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_title_troisieme_oiseau.mp3",
+  "sha256": "e0a198830e03bfec6d1f6446d08faf701e402f4889d5d5f4b8713b147306ff32",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.3144375,
+  "text": "Ton troisième oiseau de papier.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.8,
+      "text": " Ton troisième oiseau de papier.",
+      "tokens": [
+        50365,
+        11385,
+        47582,
+        277,
+        908,
+        1459,
+        368,
+        37410,
+        13,
+        50457
+      ],
+      "avg_logprob": -0.17490183765237982,
+      "compression_ratio": 0.8205128205128205,
+      "no_speech_prob": 4.509987435591389e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.32,
+          "word": " Ton",
+          "probability": 0.47063764929771423
+        },
+        {
+          "start": 0.32,
+          "end": 0.78,
+          "word": " troisième",
+          "probability": 0.9366042613983154
+        },
+        {
+          "start": 0.78,
+          "end": 1.32,
+          "word": " oiseau",
+          "probability": 0.9996510148048401
+        },
+        {
+          "start": 1.32,
+          "end": 1.46,
+          "word": " de",
+          "probability": 0.9998764991760254
+        },
+        {
+          "start": 1.46,
+          "end": 1.8,
+          "word": " papier.",
+          "probability": 0.9951688647270203
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

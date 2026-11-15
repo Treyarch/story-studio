@@ -1,0 +1,259 @@
+{
+  "scene": "intro02_guerrier",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/intro02_guerrier.mp3",
+  "sha256": "70932b431be9de1bad53cd4c0718436d99d7cb124d202aa11aeb6c906724cf31",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 10.459875,
+  "text": "C'est ton livre préféré! Le guide monstrueux de Volo! Sans lui, comment aurais-tu distingué un dragon vert d'un dragon émeraude?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.01,
+      "end": 2.71,
+      "text": " C'est ton livre préféré!",
+      "tokens": [
+        50365,
+        383,
+        6,
+        377,
+        2952,
+        24735,
+        31139,
+        29071,
+        2298,
+        50471
+      ],
+      "avg_logprob": -0.19452398618062336,
+      "compression_ratio": 1.152542372881356,
+      "no_speech_prob": 5.36682547361278e-12,
+      "words": [
+        {
+          "start": 1.01,
+          "end": 1.43,
+          "word": " C",
+          "probability": 0.8550920486450195
+        },
+        {
+          "start": 1.43,
+          "end": 1.55,
+          "word": "'est",
+          "probability": 0.9998473227024078
+        },
+        {
+          "start": 1.55,
+          "end": 1.63,
+          "word": " ton",
+          "probability": 0.9979912042617798
+        },
+        {
+          "start": 1.63,
+          "end": 1.89,
+          "word": " livre",
+          "probability": 0.9997571110725403
+        },
+        {
+          "start": 1.89,
+          "end": 2.45,
+          "word": " préféré",
+          "probability": 0.9999000430107117
+        },
+        {
+          "start": 2.45,
+          "end": 2.71,
+          "word": "!",
+          "probability": 0.4719732403755188
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 2.71,
+      "end": 4.97,
+      "text": " Le guide monstrueux de Volo!",
+      "tokens": [
+        50471,
+        1456,
+        5934,
+        47137,
+        622,
+        2449,
+        368,
+        691,
+        7902,
+        2298,
+        50581
+      ],
+      "avg_logprob": -0.19452398618062336,
+      "compression_ratio": 1.152542372881356,
+      "no_speech_prob": 5.36682547361278e-12,
+      "words": [
+        {
+          "start": 2.71,
+          "end": 3.27,
+          "word": " Le",
+          "probability": 0.9421393275260925
+        },
+        {
+          "start": 3.27,
+          "end": 3.57,
+          "word": " guide",
+          "probability": 0.8157083988189697
+        },
+        {
+          "start": 3.57,
+          "end": 4.21,
+          "word": " monstrueux",
+          "probability": 0.9988323847452799
+        },
+        {
+          "start": 4.21,
+          "end": 4.35,
+          "word": " de",
+          "probability": 0.999775230884552
+        },
+        {
+          "start": 4.35,
+          "end": 4.67,
+          "word": " Volo",
+          "probability": 0.9415946900844574
+        },
+        {
+          "start": 4.67,
+          "end": 4.97,
+          "word": "!",
+          "probability": 0.5686047077178955
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 4.97,
+      "end": 9.33,
+      "text": " Sans lui, comment aurais-tu distingué un dragon vert d'un dragon émeraude?",
+      "tokens": [
+        50581,
+        21504,
+        8783,
+        11,
+        2871,
+        19145,
+        1527,
+        12,
+        9179,
+        11365,
+        526,
+        517,
+        12165,
+        6509,
+        274,
+        6,
+        409,
+        12165,
+        1136,
+        35984,
+        2303,
+        2506,
+        50837
+      ],
+      "avg_logprob": -0.19452398618062336,
+      "compression_ratio": 1.152542372881356,
+      "no_speech_prob": 5.36682547361278e-12,
+      "words": [
+        {
+          "start": 4.97,
+          "end": 5.49,
+          "word": " Sans",
+          "probability": 0.9970322847366333
+        },
+        {
+          "start": 5.49,
+          "end": 5.69,
+          "word": " lui,",
+          "probability": 0.9997610449790955
+        },
+        {
+          "start": 5.91,
+          "end": 6.35,
+          "word": " comment",
+          "probability": 0.9992669224739075
+        },
+        {
+          "start": 6.35,
+          "end": 6.63,
+          "word": " aurais",
+          "probability": 0.9925274848937988
+        },
+        {
+          "start": 6.63,
+          "end": 6.79,
+          "word": "-tu",
+          "probability": 0.9988135397434235
+        },
+        {
+          "start": 6.79,
+          "end": 7.39,
+          "word": " distingué",
+          "probability": 0.9886123836040497
+        },
+        {
+          "start": 7.39,
+          "end": 7.61,
+          "word": " un",
+          "probability": 0.9992572665214539
+        },
+        {
+          "start": 7.61,
+          "end": 7.93,
+          "word": " dragon",
+          "probability": 0.9986602067947388
+        },
+        {
+          "start": 7.93,
+          "end": 8.21,
+          "word": " vert",
+          "probability": 0.9981898665428162
+        },
+        {
+          "start": 8.21,
+          "end": 8.33,
+          "word": " d",
+          "probability": 0.9996371269226074
+        },
+        {
+          "start": 8.33,
+          "end": 8.41,
+          "word": "'un",
+          "probability": 0.9999684691429138
+        },
+        {
+          "start": 8.41,
+          "end": 8.69,
+          "word": " dragon",
+          "probability": 0.9997451901435852
+        },
+        {
+          "start": 8.69,
+          "end": 9.19,
+          "word": " émeraude",
+          "probability": 0.9950730601946512
+        },
+        {
+          "start": 9.19,
+          "end": 9.33,
+          "word": "?",
+          "probability": 0.9964786171913147
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

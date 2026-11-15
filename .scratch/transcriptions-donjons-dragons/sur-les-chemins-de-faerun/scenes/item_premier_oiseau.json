@@ -1,0 +1,105 @@
+{
+  "scene": "item_premier_oiseau",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_premier_oiseau.mp3",
+  "sha256": "5c07f1459a9b998a861b8e50e39b43eba4d06396d4403aefcbe394e7f8d5aef7",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.7685,
+  "text": "en souvenir du premier message que t'as envoyé Renaer.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.32,
+      "text": " en souvenir du premier message que t'as envoyé Renaer.",
+      "tokens": [
+        50365,
+        465,
+        44361,
+        1581,
+        12689,
+        3636,
+        631,
+        256,
+        6,
+        296,
+        35351,
+        526,
+        12883,
+        1193,
+        13,
+        50532
+      ],
+      "avg_logprob": -0.1594705862157485,
+      "compression_ratio": 0.873015873015873,
+      "no_speech_prob": 4.394800062063053e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.3,
+          "word": " en",
+          "probability": 0.5773153305053711
+        },
+        {
+          "start": 0.3,
+          "end": 0.76,
+          "word": " souvenir",
+          "probability": 0.9970582723617554
+        },
+        {
+          "start": 0.76,
+          "end": 1.12,
+          "word": " du",
+          "probability": 0.9996645450592041
+        },
+        {
+          "start": 1.12,
+          "end": 1.46,
+          "word": " premier",
+          "probability": 0.9980549812316895
+        },
+        {
+          "start": 1.46,
+          "end": 1.92,
+          "word": " message",
+          "probability": 0.9995688796043396
+        },
+        {
+          "start": 1.92,
+          "end": 2.16,
+          "word": " que",
+          "probability": 0.9995276927947998
+        },
+        {
+          "start": 2.16,
+          "end": 2.28,
+          "word": " t",
+          "probability": 0.8154772520065308
+        },
+        {
+          "start": 2.28,
+          "end": 2.36,
+          "word": "'as",
+          "probability": 0.9704994559288025
+        },
+        {
+          "start": 2.36,
+          "end": 2.9,
+          "word": " envoyé",
+          "probability": 0.999689131975174
+        },
+        {
+          "start": 2.9,
+          "end": 3.32,
+          "word": " Renaer.",
+          "probability": 0.8221833109855652
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

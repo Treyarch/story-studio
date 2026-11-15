@@ -1,0 +1,68 @@
+{
+  "scene": "A20b_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A20b_list.mp3",
+  "sha256": "93af413c9371ec09e0b8f3e84075b7addf3f3ae7ec54fa263f65b9d58937356b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.78425,
+  "text": "Que vas-tu choisir?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.52,
+      "text": " Que vas-tu choisir?",
+      "tokens": [
+        50365,
+        4493,
+        11481,
+        12,
+        9179,
+        37827,
+        347,
+        2506,
+        50450
+      ],
+      "avg_logprob": -0.27805460393428805,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 3.5277269386929655e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.52,
+          "word": " Que",
+          "probability": 0.9395896792411804
+        },
+        {
+          "start": 0.52,
+          "end": 0.7,
+          "word": " vas",
+          "probability": 0.9977049231529236
+        },
+        {
+          "start": 0.7,
+          "end": 0.86,
+          "word": "-tu",
+          "probability": 0.9994983673095703
+        },
+        {
+          "start": 0.86,
+          "end": 1.4,
+          "word": " choisir",
+          "probability": 0.9999338388442993
+        },
+        {
+          "start": 1.4,
+          "end": 1.52,
+          "word": "?",
+          "probability": 0.947605311870575
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

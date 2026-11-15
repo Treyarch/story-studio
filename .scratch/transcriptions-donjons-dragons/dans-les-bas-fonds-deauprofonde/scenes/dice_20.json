@@ -1,0 +1,52 @@
+{
+  "scene": "dice_20",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/dice_20.mp3",
+  "sha256": "fe5434004433761c9127960d898d07bfe43939c037dfc5c5955bd322f8e5a79d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.7003125,
+  "text": "Lancez le dé.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.58,
+      "end": 1.1,
+      "text": " Lancez le dé.",
+      "tokens": [
+        50365,
+        40493,
+        89,
+        476,
+        2795,
+        13,
+        50420
+      ],
+      "avg_logprob": -0.291827492415905,
+      "compression_ratio": 0.6363636363636364,
+      "no_speech_prob": 5.364080273712046e-12,
+      "words": [
+        {
+          "start": 0.58,
+          "end": 0.86,
+          "word": " Lancez",
+          "probability": 0.9503944218158722
+        },
+        {
+          "start": 0.86,
+          "end": 0.98,
+          "word": " le",
+          "probability": 0.9826432466506958
+        },
+        {
+          "start": 0.98,
+          "end": 1.1,
+          "word": " dé.",
+          "probability": 0.9068902730941772
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

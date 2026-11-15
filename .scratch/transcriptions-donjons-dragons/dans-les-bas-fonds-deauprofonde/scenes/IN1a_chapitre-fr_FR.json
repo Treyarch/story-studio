@@ -1,0 +1,52 @@
+{
+  "scene": "IN1a_chapitre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/IN1a_chapitre-fr_FR.mp3",
+  "sha256": "5c2e75df8252677818909c3d138a359fd35ddb0bc97e79d1c498642b071f7c5b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.057875,
+  "text": "Crée ton personnage.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.22,
+      "text": " Crée ton personnage.",
+      "tokens": [
+        50365,
+        4779,
+        3856,
+        2952,
+        43952,
+        13,
+        50432
+      ],
+      "avg_logprob": -0.21779084764420986,
+      "compression_ratio": 0.7241379310344828,
+      "no_speech_prob": 3.73646599771682e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.6,
+          "word": " Crée",
+          "probability": 0.9611962139606476
+        },
+        {
+          "start": 0.6,
+          "end": 0.72,
+          "word": " ton",
+          "probability": 0.998730480670929
+        },
+        {
+          "start": 0.72,
+          "end": 1.22,
+          "word": " personnage.",
+          "probability": 0.9997312426567078
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

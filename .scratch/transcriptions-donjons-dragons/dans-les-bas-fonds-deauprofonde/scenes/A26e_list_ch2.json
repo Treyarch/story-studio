@@ -1,0 +1,52 @@
+{
+  "scene": "A26e_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A26e_list_ch2.mp3",
+  "sha256": "0efac7c9ddbbe4784b540eec85be7e1eae30fae7c52e1f5ff031b2b31f5e4314",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.9199375,
+  "text": "Manger et dormir.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 2.06,
+      "text": " Manger et dormir.",
+      "tokens": [
+        50365,
+        376,
+        3176,
+        1030,
+        33098,
+        13,
+        50474
+      ],
+      "avg_logprob": -0.25997577980160713,
+      "compression_ratio": 0.68,
+      "no_speech_prob": 4.709627219462442e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.94,
+          "word": " Manger",
+          "probability": 0.76383838057518
+        },
+        {
+          "start": 0.94,
+          "end": 1.76,
+          "word": " et",
+          "probability": 0.9909089207649231
+        },
+        {
+          "start": 1.76,
+          "end": 2.06,
+          "word": " dormir.",
+          "probability": 0.9968127608299255
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

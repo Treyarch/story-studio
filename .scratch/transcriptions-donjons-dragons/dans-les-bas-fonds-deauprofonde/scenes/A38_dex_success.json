@@ -1,0 +1,486 @@
+{
+  "scene": "A38_dex_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A38_dex_success.mp3",
+  "sha256": "22f8c2246f0fbc5ddbd2e3f5b5bf69104aea21129954547b8b7d016f509390bf",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 22.3118125,
+  "text": "Tu éternues bruyamment et couvres ta bouche d'une main. Tandis que de l'autre, tu glisses le document sous ton manteau. Personne ne semble avoir vu ton geste. Tu bredouilles encore quelques excuses et pars dans la direction opposée. Une fois en sécurité, tu retournes à la cachette du Zhentarim.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.26,
+      "end": 4.18,
+      "text": " Tu éternues bruyamment et couvres ta bouche d'une main.",
+      "tokens": [
+        50365,
+        7836,
+        1136,
+        2231,
+        1247,
+        738,
+        7493,
+        20619,
+        1030,
+        1384,
+        85,
+        495,
+        1846,
+        15345,
+        1876,
+        274,
+        6,
+        2613,
+        2135,
+        13,
+        50511
+      ],
+      "avg_logprob": -0.11702994394885458,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 6.470241443318203e-12,
+      "words": [
+        {
+          "start": 1.26,
+          "end": 1.68,
+          "word": " Tu",
+          "probability": 0.9823190569877625
+        },
+        {
+          "start": 1.68,
+          "end": 2.22,
+          "word": " éternues",
+          "probability": 0.7843201160430908
+        },
+        {
+          "start": 2.22,
+          "end": 2.74,
+          "word": " bruyamment",
+          "probability": 0.9902030825614929
+        },
+        {
+          "start": 2.74,
+          "end": 3.04,
+          "word": " et",
+          "probability": 0.9982946515083313
+        },
+        {
+          "start": 3.04,
+          "end": 3.38,
+          "word": " couvres",
+          "probability": 0.9835744102795919
+        },
+        {
+          "start": 3.38,
+          "end": 3.54,
+          "word": " ta",
+          "probability": 0.9991365075111389
+        },
+        {
+          "start": 3.54,
+          "end": 3.82,
+          "word": " bouche",
+          "probability": 0.9987926185131073
+        },
+        {
+          "start": 3.82,
+          "end": 3.92,
+          "word": " d",
+          "probability": 0.999860405921936
+        },
+        {
+          "start": 3.92,
+          "end": 4.02,
+          "word": "'une",
+          "probability": 0.999960720539093
+        },
+        {
+          "start": 4.02,
+          "end": 4.18,
+          "word": " main.",
+          "probability": 0.9995062351226807
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.6,
+      "end": 8.0,
+      "text": " Tandis que de l'autre, tu glisses le document sous ton manteau.",
+      "tokens": [
+        50540,
+        314,
+        474,
+        271,
+        631,
+        368,
+        287,
+        6,
+        19702,
+        11,
+        2604,
+        1563,
+        40487,
+        476,
+        4166,
+        16686,
+        2952,
+        275,
+        2879,
+        1459,
+        13,
+        50702
+      ],
+      "avg_logprob": -0.11702994394885458,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 6.470241443318203e-12,
+      "words": [
+        {
+          "start": 4.6,
+          "end": 5.16,
+          "word": " Tandis",
+          "probability": 0.9991138776143392
+        },
+        {
+          "start": 5.16,
+          "end": 5.28,
+          "word": " que",
+          "probability": 0.9999808073043823
+        },
+        {
+          "start": 5.28,
+          "end": 5.42,
+          "word": " de",
+          "probability": 0.9948445558547974
+        },
+        {
+          "start": 5.42,
+          "end": 5.56,
+          "word": " l",
+          "probability": 0.9999781847000122
+        },
+        {
+          "start": 5.56,
+          "end": 5.78,
+          "word": "'autre,",
+          "probability": 0.9999842047691345
+        },
+        {
+          "start": 6.06,
+          "end": 6.14,
+          "word": " tu",
+          "probability": 0.999686598777771
+        },
+        {
+          "start": 6.14,
+          "end": 6.56,
+          "word": " glisses",
+          "probability": 0.9994542896747589
+        },
+        {
+          "start": 6.56,
+          "end": 6.72,
+          "word": " le",
+          "probability": 0.9996102452278137
+        },
+        {
+          "start": 6.72,
+          "end": 7.14,
+          "word": " document",
+          "probability": 0.9997350573539734
+        },
+        {
+          "start": 7.14,
+          "end": 7.46,
+          "word": " sous",
+          "probability": 0.9994279742240906
+        },
+        {
+          "start": 7.46,
+          "end": 7.64,
+          "word": " ton",
+          "probability": 0.9988672733306885
+        },
+        {
+          "start": 7.64,
+          "end": 8.0,
+          "word": " manteau.",
+          "probability": 0.9993482232093811
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.68,
+      "end": 10.7,
+      "text": " Personne ne semble avoir vu ton geste.",
+      "tokens": [
+        50739,
+        8443,
+        716,
+        408,
+        38328,
+        10853,
+        9732,
+        2952,
+        7219,
+        68,
+        13,
+        50837
+      ],
+      "avg_logprob": -0.11702994394885458,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 6.470241443318203e-12,
+      "words": [
+        {
+          "start": 8.68,
+          "end": 9.24,
+          "word": " Personne",
+          "probability": 0.9989337921142578
+        },
+        {
+          "start": 9.24,
+          "end": 9.38,
+          "word": " ne",
+          "probability": 0.9999327659606934
+        },
+        {
+          "start": 9.38,
+          "end": 9.68,
+          "word": " semble",
+          "probability": 0.9998421669006348
+        },
+        {
+          "start": 9.68,
+          "end": 9.9,
+          "word": " avoir",
+          "probability": 0.9999003410339355
+        },
+        {
+          "start": 9.9,
+          "end": 10.08,
+          "word": " vu",
+          "probability": 0.999816358089447
+        },
+        {
+          "start": 10.08,
+          "end": 10.28,
+          "word": " ton",
+          "probability": 0.9996758699417114
+        },
+        {
+          "start": 10.28,
+          "end": 10.7,
+          "word": " geste.",
+          "probability": 0.9999299049377441
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 10.9,
+      "end": 15.06,
+      "text": " Tu bredouilles encore quelques excuses et pars dans la direction opposée.",
+      "tokens": [
+        50866,
+        7836,
+        34133,
+        263,
+        14835,
+        10122,
+        16597,
+        24666,
+        1030,
+        21156,
+        2680,
+        635,
+        3513,
+        4665,
+        3856,
+        13,
+        51056
+      ],
+      "avg_logprob": -0.11702994394885458,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 6.470241443318203e-12,
+      "words": [
+        {
+          "start": 10.9,
+          "end": 11.36,
+          "word": " Tu",
+          "probability": 0.9988692402839661
+        },
+        {
+          "start": 11.36,
+          "end": 11.74,
+          "word": " bredouilles",
+          "probability": 0.9719311793645223
+        },
+        {
+          "start": 11.74,
+          "end": 11.98,
+          "word": " encore",
+          "probability": 0.9989398121833801
+        },
+        {
+          "start": 11.98,
+          "end": 12.32,
+          "word": " quelques",
+          "probability": 0.9989579916000366
+        },
+        {
+          "start": 12.32,
+          "end": 12.84,
+          "word": " excuses",
+          "probability": 0.9996471405029297
+        },
+        {
+          "start": 12.84,
+          "end": 13.6,
+          "word": " et",
+          "probability": 0.9771556854248047
+        },
+        {
+          "start": 13.6,
+          "end": 13.9,
+          "word": " pars",
+          "probability": 0.9849227666854858
+        },
+        {
+          "start": 13.9,
+          "end": 14.02,
+          "word": " dans",
+          "probability": 0.9995999932289124
+        },
+        {
+          "start": 14.02,
+          "end": 14.16,
+          "word": " la",
+          "probability": 0.9998055100440979
+        },
+        {
+          "start": 14.16,
+          "end": 14.58,
+          "word": " direction",
+          "probability": 0.9997379183769226
+        },
+        {
+          "start": 14.58,
+          "end": 15.06,
+          "word": " opposée.",
+          "probability": 0.9992592930793762
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 16.0,
+      "end": 19.76,
+      "text": " Une fois en sécurité, tu retournes à la cachette du Zhentarim.",
+      "tokens": [
+        51123,
+        16701,
+        9576,
+        465,
+        37600,
+        11,
+        2604,
+        28873,
+        4081,
+        1531,
+        635,
+        32773,
+        3007,
+        1581,
+        1176,
+        32067,
+        332,
+        13,
+        51291
+      ],
+      "avg_logprob": -0.11702994394885458,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 6.470241443318203e-12,
+      "words": [
+        {
+          "start": 16.0,
+          "end": 16.56,
+          "word": " Une",
+          "probability": 0.9995170831680298
+        },
+        {
+          "start": 16.56,
+          "end": 16.76,
+          "word": " fois",
+          "probability": 0.9999641180038452
+        },
+        {
+          "start": 16.76,
+          "end": 16.92,
+          "word": " en",
+          "probability": 0.9999254941940308
+        },
+        {
+          "start": 16.92,
+          "end": 17.4,
+          "word": " sécurité,",
+          "probability": 0.9999215602874756
+        },
+        {
+          "start": 17.68,
+          "end": 17.96,
+          "word": " tu",
+          "probability": 0.9991838335990906
+        },
+        {
+          "start": 17.96,
+          "end": 18.42,
+          "word": " retournes",
+          "probability": 0.9979757368564606
+        },
+        {
+          "start": 18.42,
+          "end": 18.5,
+          "word": " à",
+          "probability": 0.9967029690742493
+        },
+        {
+          "start": 18.5,
+          "end": 18.62,
+          "word": " la",
+          "probability": 0.9994274377822876
+        },
+        {
+          "start": 18.62,
+          "end": 19.06,
+          "word": " cachette",
+          "probability": 0.9996622800827026
+        },
+        {
+          "start": 19.06,
+          "end": 19.22,
+          "word": " du",
+          "probability": 0.9960699081420898
+        },
+        {
+          "start": 19.22,
+          "end": 19.76,
+          "word": " Zhentarim.",
+          "probability": 0.7428323328495026
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

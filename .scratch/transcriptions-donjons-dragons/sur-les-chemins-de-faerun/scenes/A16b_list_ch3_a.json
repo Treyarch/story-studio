@@ -1,0 +1,74 @@
+{
+  "scene": "A16b_list_ch3_a",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A16b_list_ch3_a.mp3",
+  "sha256": "507a8199d29fcee423652d5c86d809bf1a86e278135b0bd065890516b756c44d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.9348125,
+  "text": "lancer un sort de respiration aquatique",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.54,
+      "text": " lancer un sort de respiration aquatique",
+      "tokens": [
+        50365,
+        9326,
+        1776,
+        517,
+        1333,
+        368,
+        1597,
+        7611,
+        2373,
+        20728,
+        50493
+      ],
+      "avg_logprob": -0.1886644350985686,
+      "compression_ratio": 0.8666666666666667,
+      "no_speech_prob": 3.976792419674302e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.66,
+          "word": " lancer",
+          "probability": 0.7012786269187927
+        },
+        {
+          "start": 0.66,
+          "end": 0.84,
+          "word": " un",
+          "probability": 0.9992828965187073
+        },
+        {
+          "start": 0.84,
+          "end": 1.08,
+          "word": " sort",
+          "probability": 0.999568521976471
+        },
+        {
+          "start": 1.08,
+          "end": 1.26,
+          "word": " de",
+          "probability": 0.9999468326568604
+        },
+        {
+          "start": 1.26,
+          "end": 1.9,
+          "word": " respiration",
+          "probability": 0.9989757537841797
+        },
+        {
+          "start": 1.9,
+          "end": 2.54,
+          "word": " aquatique",
+          "probability": 0.9974663257598877
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

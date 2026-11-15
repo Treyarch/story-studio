@@ -1,0 +1,306 @@
+{
+  "scene": "A43b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A43b.mp3",
+  "sha256": "1369591fe31522d295d139de44638cffa7fb8e2589193dbb394b852d67d47077",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 15.0064375,
+  "text": "Tu reposes la lampe à sa place et ressors sur le balcon sans un bruit. Un instant plus tard, tu es redescendu dans la rue et tu pars en courant vers la cachette du Zhentarim.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.62,
+      "end": 5.96,
+      "text": " Tu reposes la lampe à sa place et ressors sur le balcon sans un bruit.",
+      "tokens": [
+        50365,
+        7836,
+        1085,
+        4201,
+        635,
+        24688,
+        494,
+        1531,
+        601,
+        1081,
+        1030,
+        24689,
+        830,
+        1022,
+        476,
+        26450,
+        12177,
+        517,
+        738,
+        1983,
+        13,
+        50581
+      ],
+      "avg_logprob": -0.08363421176964382,
+      "compression_ratio": 1.359375,
+      "no_speech_prob": 5.791997957638184e-12,
+      "words": [
+        {
+          "start": 1.62,
+          "end": 2.02,
+          "word": " Tu",
+          "probability": 0.9575830101966858
+        },
+        {
+          "start": 2.02,
+          "end": 2.46,
+          "word": " reposes",
+          "probability": 0.9977716505527496
+        },
+        {
+          "start": 2.46,
+          "end": 2.6,
+          "word": " la",
+          "probability": 0.9997060894966125
+        },
+        {
+          "start": 2.6,
+          "end": 2.86,
+          "word": " lampe",
+          "probability": 0.9988147020339966
+        },
+        {
+          "start": 2.86,
+          "end": 2.96,
+          "word": " à",
+          "probability": 0.9998981952667236
+        },
+        {
+          "start": 2.96,
+          "end": 3.06,
+          "word": " sa",
+          "probability": 0.99986732006073
+        },
+        {
+          "start": 3.06,
+          "end": 3.48,
+          "word": " place",
+          "probability": 0.9999681711196899
+        },
+        {
+          "start": 3.48,
+          "end": 3.7,
+          "word": " et",
+          "probability": 0.9947282671928406
+        },
+        {
+          "start": 3.7,
+          "end": 4.14,
+          "word": " ressors",
+          "probability": 0.9301839768886566
+        },
+        {
+          "start": 4.14,
+          "end": 4.32,
+          "word": " sur",
+          "probability": 0.9999041557312012
+        },
+        {
+          "start": 4.32,
+          "end": 4.46,
+          "word": " le",
+          "probability": 0.9999539852142334
+        },
+        {
+          "start": 4.46,
+          "end": 4.88,
+          "word": " balcon",
+          "probability": 0.999852180480957
+        },
+        {
+          "start": 4.88,
+          "end": 5.46,
+          "word": " sans",
+          "probability": 0.9287956953048706
+        },
+        {
+          "start": 5.46,
+          "end": 5.72,
+          "word": " un",
+          "probability": 0.9957776069641113
+        },
+        {
+          "start": 5.72,
+          "end": 5.96,
+          "word": " bruit.",
+          "probability": 0.9996338486671448
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.32,
+      "end": 12.28,
+      "text": " Un instant plus tard, tu es redescendu dans la rue et tu pars en courant vers la cachette du Zhentarim.",
+      "tokens": [
+        50616,
+        1156,
+        9836,
+        1804,
+        21057,
+        11,
+        2604,
+        785,
+        16762,
+        21153,
+        84,
+        2680,
+        635,
+        43919,
+        1030,
+        2604,
+        21156,
+        465,
+        1005,
+        394,
+        1774,
+        635,
+        32773,
+        3007,
+        1581,
+        44091,
+        289,
+        332,
+        13,
+        50898
+      ],
+      "avg_logprob": -0.08363421176964382,
+      "compression_ratio": 1.359375,
+      "no_speech_prob": 5.791997957638184e-12,
+      "words": [
+        {
+          "start": 6.32,
+          "end": 6.74,
+          "word": " Un",
+          "probability": 0.9994608759880066
+        },
+        {
+          "start": 6.74,
+          "end": 7.08,
+          "word": " instant",
+          "probability": 0.9998750686645508
+        },
+        {
+          "start": 7.08,
+          "end": 7.3,
+          "word": " plus",
+          "probability": 0.9999353885650635
+        },
+        {
+          "start": 7.3,
+          "end": 7.56,
+          "word": " tard,",
+          "probability": 0.9999551773071289
+        },
+        {
+          "start": 7.92,
+          "end": 8.0,
+          "word": " tu",
+          "probability": 0.9997132420539856
+        },
+        {
+          "start": 8.0,
+          "end": 8.12,
+          "word": " es",
+          "probability": 0.9990839958190918
+        },
+        {
+          "start": 8.12,
+          "end": 8.72,
+          "word": " redescendu",
+          "probability": 0.9949091275533041
+        },
+        {
+          "start": 8.72,
+          "end": 8.84,
+          "word": " dans",
+          "probability": 0.999860405921936
+        },
+        {
+          "start": 8.84,
+          "end": 8.98,
+          "word": " la",
+          "probability": 0.9999699592590332
+        },
+        {
+          "start": 8.98,
+          "end": 9.16,
+          "word": " rue",
+          "probability": 0.9999247789382935
+        },
+        {
+          "start": 9.16,
+          "end": 9.52,
+          "word": " et",
+          "probability": 0.9862923622131348
+        },
+        {
+          "start": 9.52,
+          "end": 9.7,
+          "word": " tu",
+          "probability": 0.9998495578765869
+        },
+        {
+          "start": 9.7,
+          "end": 9.92,
+          "word": " pars",
+          "probability": 0.9815040826797485
+        },
+        {
+          "start": 9.92,
+          "end": 10.08,
+          "word": " en",
+          "probability": 0.9677520990371704
+        },
+        {
+          "start": 10.08,
+          "end": 10.4,
+          "word": " courant",
+          "probability": 0.9997593760490417
+        },
+        {
+          "start": 10.4,
+          "end": 10.72,
+          "word": " vers",
+          "probability": 0.9952214360237122
+        },
+        {
+          "start": 10.72,
+          "end": 10.9,
+          "word": " la",
+          "probability": 0.9998235106468201
+        },
+        {
+          "start": 10.9,
+          "end": 11.4,
+          "word": " cachette",
+          "probability": 0.9997314810752869
+        },
+        {
+          "start": 11.4,
+          "end": 11.66,
+          "word": " du",
+          "probability": 0.99782794713974
+        },
+        {
+          "start": 11.66,
+          "end": 12.28,
+          "word": " Zhentarim.",
+          "probability": 0.6955540378888448
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

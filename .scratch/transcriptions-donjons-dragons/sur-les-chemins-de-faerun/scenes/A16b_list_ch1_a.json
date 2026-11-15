@@ -1,0 +1,91 @@
+{
+  "scene": "A16b_list_ch1_a",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A16b_list_ch1_a.mp3",
+  "sha256": "5e93f3aff0864351056ec0668388b42239025d83c6c0648db202b9904274fd8b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.0055,
+  "text": "Plonger sans attendre pour retrouver la pierre?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.72,
+      "text": " Plonger sans attendre pour retrouver la pierre?",
+      "tokens": [
+        50365,
+        2149,
+        556,
+        260,
+        12177,
+        6888,
+        265,
+        2016,
+        36511,
+        635,
+        9766,
+        265,
+        2506,
+        50515
+      ],
+      "avg_logprob": -0.21590490539868673,
+      "compression_ratio": 0.9056603773584906,
+      "no_speech_prob": 4.146946674943308e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.66,
+          "word": " Plonger",
+          "probability": 0.8464305798212687
+        },
+        {
+          "start": 0.66,
+          "end": 0.86,
+          "word": " sans",
+          "probability": 0.9998726844787598
+        },
+        {
+          "start": 0.86,
+          "end": 1.44,
+          "word": " attendre",
+          "probability": 0.9997011721134186
+        },
+        {
+          "start": 1.44,
+          "end": 1.68,
+          "word": " pour",
+          "probability": 0.9988200068473816
+        },
+        {
+          "start": 1.68,
+          "end": 2.08,
+          "word": " retrouver",
+          "probability": 0.999542236328125
+        },
+        {
+          "start": 2.08,
+          "end": 2.28,
+          "word": " la",
+          "probability": 0.9997014403343201
+        },
+        {
+          "start": 2.28,
+          "end": 2.72,
+          "word": " pierre",
+          "probability": 0.9997292160987854
+        },
+        {
+          "start": 2.72,
+          "end": 2.72,
+          "word": "?",
+          "probability": 0.9513553380966187
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "scene": "item_reporter-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_reporter-fr_FR.mp3",
+  "sha256": "65c9e336d33ab3c3ee5693d442c7fa5248fbee22ad45e3e45570e7dbdcd7741b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 6.5533125,
+  "text": "Tu as décidé de garder ton indépendance, preuve de ta grande intégrité de journaliste.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 5.72,
+      "text": " Tu as décidé de garder ton indépendance, preuve de ta grande intégrité de journaliste.",
+      "tokens": [
+        50365,
+        7836,
+        382,
+        43206,
+        368,
+        47167,
+        2952,
+        1016,
+        16171,
+        521,
+        719,
+        11,
+        659,
+        31564,
+        368,
+        1846,
+        8883,
+        18555,
+        861,
+        5066,
+        368,
+        6708,
+        8375,
+        13,
+        50647
+      ],
+      "avg_logprob": -0.08119381247804715,
+      "compression_ratio": 1.0705882352941176,
+      "no_speech_prob": 3.913607719147061e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.48,
+          "word": " Tu",
+          "probability": 0.6452718377113342
+        },
+        {
+          "start": 0.48,
+          "end": 0.62,
+          "word": " as",
+          "probability": 0.9997518658638
+        },
+        {
+          "start": 0.62,
+          "end": 1.06,
+          "word": " décidé",
+          "probability": 0.9995878338813782
+        },
+        {
+          "start": 1.06,
+          "end": 1.3,
+          "word": " de",
+          "probability": 0.9999512434005737
+        },
+        {
+          "start": 1.3,
+          "end": 1.62,
+          "word": " garder",
+          "probability": 0.9998668432235718
+        },
+        {
+          "start": 1.62,
+          "end": 1.86,
+          "word": " ton",
+          "probability": 0.9995720982551575
+        },
+        {
+          "start": 1.86,
+          "end": 2.72,
+          "word": " indépendance,",
+          "probability": 0.9998874068260193
+        },
+        {
+          "start": 2.98,
+          "end": 3.7,
+          "word": " preuve",
+          "probability": 0.999725729227066
+        },
+        {
+          "start": 3.7,
+          "end": 3.86,
+          "word": " de",
+          "probability": 0.9999638795852661
+        },
+        {
+          "start": 3.86,
+          "end": 4.02,
+          "word": " ta",
+          "probability": 0.999658465385437
+        },
+        {
+          "start": 4.02,
+          "end": 4.38,
+          "word": " grande",
+          "probability": 0.9998481273651123
+        },
+        {
+          "start": 4.38,
+          "end": 4.96,
+          "word": " intégrité",
+          "probability": 0.9995865424474081
+        },
+        {
+          "start": 4.96,
+          "end": 5.1,
+          "word": " de",
+          "probability": 0.9998272061347961
+        },
+        {
+          "start": 5.1,
+          "end": 5.72,
+          "word": " journaliste.",
+          "probability": 0.9982357621192932
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

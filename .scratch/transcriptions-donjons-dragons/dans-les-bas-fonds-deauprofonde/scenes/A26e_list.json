@@ -1,0 +1,66 @@
+{
+  "scene": "A26e_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A26e_list.mp3",
+  "sha256": "44a661fb602d100ea6b5f1548341c47c248402fd714e10a82291a2b089b3275b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.8906875,
+  "text": "Que faire en premier?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.37,
+      "text": " Que faire en premier?",
+      "tokens": [
+        50365,
+        4493,
+        4865,
+        465,
+        12689,
+        2506,
+        50457
+      ],
+      "avg_logprob": -0.20826784148812294,
+      "compression_ratio": 0.7333333333333333,
+      "no_speech_prob": 3.714655319453364e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.47,
+          "word": " Que",
+          "probability": 0.971455991268158
+        },
+        {
+          "start": 0.47,
+          "end": 0.71,
+          "word": " faire",
+          "probability": 0.9997758269309998
+        },
+        {
+          "start": 0.71,
+          "end": 0.85,
+          "word": " en",
+          "probability": 0.9996715784072876
+        },
+        {
+          "start": 0.85,
+          "end": 1.17,
+          "word": " premier",
+          "probability": 0.9988304972648621
+        },
+        {
+          "start": 1.17,
+          "end": 1.37,
+          "word": "?",
+          "probability": 0.9852924942970276
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

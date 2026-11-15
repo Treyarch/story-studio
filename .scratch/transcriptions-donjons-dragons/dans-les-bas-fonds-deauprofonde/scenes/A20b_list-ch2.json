@@ -1,0 +1,70 @@
+{
+  "scene": "A20b_list-ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A20b_list-ch2.mp3",
+  "sha256": "0682785516705a20377b49e07236a7b43b22e4293501ff24fbb3a66ef4d595a3",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.396,
+  "text": "Tu avoues ton incompétence?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.91,
+      "text": " Tu avoues ton incompétence?",
+      "tokens": [
+        50365,
+        7836,
+        1305,
+        263,
+        279,
+        2952,
+        40393,
+        4051,
+        655,
+        2506,
+        50483
+      ],
+      "avg_logprob": -0.1625602605442206,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 3.986447023179851e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.49,
+          "word": " Tu",
+          "probability": 0.92487633228302
+        },
+        {
+          "start": 0.49,
+          "end": 0.87,
+          "word": " avoues",
+          "probability": 0.9916977286338806
+        },
+        {
+          "start": 0.87,
+          "end": 0.97,
+          "word": " ton",
+          "probability": 0.9993492960929871
+        },
+        {
+          "start": 0.97,
+          "end": 1.77,
+          "word": " incompétence",
+          "probability": 0.9987538456916809
+        },
+        {
+          "start": 1.77,
+          "end": 1.91,
+          "word": "?",
+          "probability": 0.9855920076370239
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

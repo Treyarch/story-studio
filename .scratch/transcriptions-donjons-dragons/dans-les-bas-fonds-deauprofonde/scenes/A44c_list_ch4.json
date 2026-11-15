@@ -1,0 +1,61 @@
+{
+  "scene": "A44c_list_ch4",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A44c_list_ch4.mp3",
+  "sha256": "14ace980c1849dd25126c346aa009bd77f4cd1cfb10d70aa5ca3da67ec7f1d12",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.829625,
+  "text": "Trouvez une autre entrée.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.11,
+      "end": 1.35,
+      "text": " Trouvez une autre entrée.",
+      "tokens": [
+        50365,
+        1765,
+        8162,
+        89,
+        2251,
+        15081,
+        8041,
+        3856,
+        13,
+        50427
+      ],
+      "avg_logprob": -0.14119173992763867,
+      "compression_ratio": 0.7647058823529411,
+      "no_speech_prob": 4.174233441539554e-12,
+      "words": [
+        {
+          "start": 0.11,
+          "end": 0.75,
+          "word": " Trouvez",
+          "probability": 0.9339324434598287
+        },
+        {
+          "start": 0.75,
+          "end": 0.85,
+          "word": " une",
+          "probability": 0.9993614554405212
+        },
+        {
+          "start": 0.85,
+          "end": 1.01,
+          "word": " autre",
+          "probability": 0.999210000038147
+        },
+        {
+          "start": 1.01,
+          "end": 1.35,
+          "word": " entrée.",
+          "probability": 0.9924768209457397
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

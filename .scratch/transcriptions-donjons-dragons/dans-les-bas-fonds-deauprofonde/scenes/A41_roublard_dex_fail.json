@@ -1,0 +1,231 @@
+{
+  "scene": "A41_roublard_dex_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A41_roublard_dex_fail.mp3",
+  "sha256": "56e232b2da419428fd7eda4ae52a81cb1787848ff02593b6db323993303ce3ea",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 11.10775,
+  "text": "Malgré tes efforts, tu ne parviens pas à crocheter la serrure. C'est frustrant, certes, mais il y a d'autres moyens d'entrer.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.1,
+      "end": 4.64,
+      "text": " Malgré tes efforts, tu ne parviens pas à crocheter la serrure.",
+      "tokens": [
+        50381,
+        5746,
+        36341,
+        20018,
+        6484,
+        11,
+        2604,
+        408,
+        971,
+        4917,
+        694,
+        1736,
+        1531,
+        8191,
+        2398,
+        635,
+        816,
+        81,
+        540,
+        13,
+        50543
+      ],
+      "avg_logprob": -0.07823994950107906,
+      "compression_ratio": 1.1441441441441442,
+      "no_speech_prob": 5.714290585850934e-12,
+      "words": [
+        {
+          "start": 1.1,
+          "end": 1.86,
+          "word": " Malgré",
+          "probability": 0.9756395220756531
+        },
+        {
+          "start": 1.86,
+          "end": 2.02,
+          "word": " tes",
+          "probability": 0.9997076392173767
+        },
+        {
+          "start": 2.02,
+          "end": 2.4,
+          "word": " efforts,",
+          "probability": 0.9998544454574585
+        },
+        {
+          "start": 2.64,
+          "end": 2.92,
+          "word": " tu",
+          "probability": 0.9995017051696777
+        },
+        {
+          "start": 2.92,
+          "end": 3.06,
+          "word": " ne",
+          "probability": 0.9998540878295898
+        },
+        {
+          "start": 3.06,
+          "end": 3.44,
+          "word": " parviens",
+          "probability": 0.9991928537686666
+        },
+        {
+          "start": 3.44,
+          "end": 3.62,
+          "word": " pas",
+          "probability": 0.999920129776001
+        },
+        {
+          "start": 3.62,
+          "end": 3.78,
+          "word": " à",
+          "probability": 0.9964644908905029
+        },
+        {
+          "start": 3.78,
+          "end": 4.1,
+          "word": " crocheter",
+          "probability": 0.9955912828445435
+        },
+        {
+          "start": 4.1,
+          "end": 4.24,
+          "word": " la",
+          "probability": 0.9996719360351562
+        },
+        {
+          "start": 4.24,
+          "end": 4.64,
+          "word": " serrure.",
+          "probability": 0.9994568427403768
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.32,
+      "end": 8.72,
+      "text": " C'est frustrant, certes, mais il y a d'autres moyens d'entrer.",
+      "tokens": [
+        50592,
+        383,
+        6,
+        377,
+        7454,
+        7541,
+        11,
+        5351,
+        279,
+        11,
+        2420,
+        1930,
+        288,
+        257,
+        274,
+        6,
+        16752,
+        47040,
+        274,
+        6,
+        317,
+        9797,
+        13,
+        50746
+      ],
+      "avg_logprob": -0.07823994950107906,
+      "compression_ratio": 1.1441441441441442,
+      "no_speech_prob": 5.714290585850934e-12,
+      "words": [
+        {
+          "start": 5.32,
+          "end": 5.72,
+          "word": " C",
+          "probability": 0.999647855758667
+        },
+        {
+          "start": 5.72,
+          "end": 5.8,
+          "word": "'est",
+          "probability": 0.9999704360961914
+        },
+        {
+          "start": 5.8,
+          "end": 6.24,
+          "word": " frustrant,",
+          "probability": 0.9995310604572296
+        },
+        {
+          "start": 6.44,
+          "end": 7.16,
+          "word": " certes,",
+          "probability": 0.9998023211956024
+        },
+        {
+          "start": 7.24,
+          "end": 7.52,
+          "word": " mais",
+          "probability": 0.9998464584350586
+        },
+        {
+          "start": 7.52,
+          "end": 7.7,
+          "word": " il",
+          "probability": 0.9999063014984131
+        },
+        {
+          "start": 7.7,
+          "end": 7.76,
+          "word": " y",
+          "probability": 0.9998964071273804
+        },
+        {
+          "start": 7.76,
+          "end": 7.82,
+          "word": " a",
+          "probability": 0.9999226331710815
+        },
+        {
+          "start": 7.82,
+          "end": 7.92,
+          "word": " d",
+          "probability": 0.9999728202819824
+        },
+        {
+          "start": 7.92,
+          "end": 8.06,
+          "word": "'autres",
+          "probability": 0.9998114109039307
+        },
+        {
+          "start": 8.06,
+          "end": 8.36,
+          "word": " moyens",
+          "probability": 0.9998776912689209
+        },
+        {
+          "start": 8.36,
+          "end": 8.48,
+          "word": " d",
+          "probability": 0.9999462366104126
+        },
+        {
+          "start": 8.48,
+          "end": 8.72,
+          "word": "'entrer.",
+          "probability": 0.9924979408582052
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

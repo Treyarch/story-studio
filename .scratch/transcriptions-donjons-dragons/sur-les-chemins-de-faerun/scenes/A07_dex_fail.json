@@ -1,0 +1,759 @@
+{
+  "scene": "A07_dex_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A07_dex_fail.mp3",
+  "sha256": "ece30ce3ac75e427ab2436aeaa2a5f057f113f8522e843025798269b050f39bb",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 28.922125,
+  "text": "Tu te penches en avant, mais le bébé ours-hibou est plus rapide que toi. Agile, il bondit hors de ta portée, tandis qu'emporté par ton élan, tu te casses la figure et finis le nez dans l'eau boueuse du ruisseau. La bonne nouvelle, c'est que tu ne lui as pas fait peur. Au lieu de s'enfuir, il te regarde sans comprendre pendant que tu t'essuies le visage. Bon, ton plan a échoué. Que vas-tu tenter maintenant?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.04,
+      "end": 5.02,
+      "text": " Tu te penches en avant, mais le bébé ours-hibou est plus rapide que toi.",
+      "tokens": [
+        50365,
+        7836,
+        535,
+        3435,
+        3781,
+        465,
+        13439,
+        11,
+        2420,
+        476,
+        15807,
+        27166,
+        11896,
+        897,
+        263,
+        871,
+        1804,
+        5099,
+        482,
+        631,
+        15648,
+        13,
+        50565
+      ],
+      "avg_logprob": -0.08193181778167512,
+      "compression_ratio": 1.554307116104869,
+      "no_speech_prob": 7.392851088250385e-12,
+      "words": [
+        {
+          "start": 1.04,
+          "end": 1.82,
+          "word": " Tu",
+          "probability": 0.9929600358009338
+        },
+        {
+          "start": 1.82,
+          "end": 1.98,
+          "word": " te",
+          "probability": 0.9999383687973022
+        },
+        {
+          "start": 1.98,
+          "end": 2.26,
+          "word": " penches",
+          "probability": 0.9987153708934784
+        },
+        {
+          "start": 2.26,
+          "end": 2.38,
+          "word": " en",
+          "probability": 0.9999850988388062
+        },
+        {
+          "start": 2.38,
+          "end": 2.62,
+          "word": " avant,",
+          "probability": 0.9998874664306641
+        },
+        {
+          "start": 2.78,
+          "end": 3.06,
+          "word": " mais",
+          "probability": 0.9999240636825562
+        },
+        {
+          "start": 3.06,
+          "end": 3.22,
+          "word": " le",
+          "probability": 0.9999185800552368
+        },
+        {
+          "start": 3.22,
+          "end": 3.5,
+          "word": " bébé",
+          "probability": 0.9995961785316467
+        },
+        {
+          "start": 3.5,
+          "end": 4.0,
+          "word": " ours-hibou",
+          "probability": 0.7525654435157776
+        },
+        {
+          "start": 4.0,
+          "end": 4.14,
+          "word": " est",
+          "probability": 0.997342050075531
+        },
+        {
+          "start": 4.14,
+          "end": 4.3,
+          "word": " plus",
+          "probability": 0.9999334812164307
+        },
+        {
+          "start": 4.3,
+          "end": 4.66,
+          "word": " rapide",
+          "probability": 0.9999036192893982
+        },
+        {
+          "start": 4.66,
+          "end": 4.78,
+          "word": " que",
+          "probability": 0.9999773502349854
+        },
+        {
+          "start": 4.78,
+          "end": 5.02,
+          "word": " toi.",
+          "probability": 0.9998364448547363
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.58,
+      "end": 9.58,
+      "text": " Agile, il bondit hors de ta portée, tandis qu'emporté par ton élan,",
+      "tokens": [
+        50593,
+        2725,
+        794,
+        11,
+        1930,
+        6086,
+        270,
+        11912,
+        368,
+        1846,
+        2436,
+        3856,
+        11,
+        35274,
+        271,
+        421,
+        6,
+        443,
+        2707,
+        526,
+        971,
+        2952,
+        1136,
+        8658,
+        11,
+        50793
+      ],
+      "avg_logprob": -0.08193181778167512,
+      "compression_ratio": 1.554307116104869,
+      "no_speech_prob": 7.392851088250385e-12,
+      "words": [
+        {
+          "start": 5.58,
+          "end": 6.0,
+          "word": " Agile,",
+          "probability": 0.997485876083374
+        },
+        {
+          "start": 6.22,
+          "end": 6.44,
+          "word": " il",
+          "probability": 0.9999383687973022
+        },
+        {
+          "start": 6.44,
+          "end": 6.84,
+          "word": " bondit",
+          "probability": 0.9974722564220428
+        },
+        {
+          "start": 6.84,
+          "end": 6.98,
+          "word": " hors",
+          "probability": 0.9995385408401489
+        },
+        {
+          "start": 6.98,
+          "end": 7.1,
+          "word": " de",
+          "probability": 0.9999663829803467
+        },
+        {
+          "start": 7.1,
+          "end": 7.26,
+          "word": " ta",
+          "probability": 0.9996482133865356
+        },
+        {
+          "start": 7.26,
+          "end": 7.64,
+          "word": " portée,",
+          "probability": 0.9997757375240326
+        },
+        {
+          "start": 7.8,
+          "end": 8.26,
+          "word": " tandis",
+          "probability": 0.9998790323734283
+        },
+        {
+          "start": 8.26,
+          "end": 8.38,
+          "word": " qu",
+          "probability": 0.44442304968833923
+        },
+        {
+          "start": 8.38,
+          "end": 8.94,
+          "word": "'emporté",
+          "probability": 0.9956018924713135
+        },
+        {
+          "start": 8.94,
+          "end": 9.12,
+          "word": " par",
+          "probability": 0.9998195767402649
+        },
+        {
+          "start": 9.12,
+          "end": 9.32,
+          "word": " ton",
+          "probability": 0.9998148083686829
+        },
+        {
+          "start": 9.32,
+          "end": 9.58,
+          "word": " élan,",
+          "probability": 0.9965783059597015
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.88,
+      "end": 13.24,
+      "text": " tu te casses la figure et finis le nez dans l'eau boueuse du ruisseau.",
+      "tokens": [
+        50809,
+        2604,
+        535,
+        21943,
+        279,
+        635,
+        2573,
+        1030,
+        962,
+        271,
+        476,
+        408,
+        89,
+        2680,
+        287,
+        6,
+        22290,
+        15345,
+        68,
+        438,
+        1581,
+        5420,
+        7746,
+        1459,
+        13,
+        50976
+      ],
+      "avg_logprob": -0.08193181778167512,
+      "compression_ratio": 1.554307116104869,
+      "no_speech_prob": 7.392851088250385e-12,
+      "words": [
+        {
+          "start": 9.88,
+          "end": 10.0,
+          "word": " tu",
+          "probability": 0.9999231100082397
+        },
+        {
+          "start": 10.0,
+          "end": 10.2,
+          "word": " te",
+          "probability": 0.999962568283081
+        },
+        {
+          "start": 10.2,
+          "end": 10.48,
+          "word": " casses",
+          "probability": 0.9860612154006958
+        },
+        {
+          "start": 10.48,
+          "end": 10.56,
+          "word": " la",
+          "probability": 0.9998605251312256
+        },
+        {
+          "start": 10.56,
+          "end": 10.9,
+          "word": " figure",
+          "probability": 0.9998034834861755
+        },
+        {
+          "start": 10.9,
+          "end": 11.12,
+          "word": " et",
+          "probability": 0.9998154044151306
+        },
+        {
+          "start": 11.12,
+          "end": 11.44,
+          "word": " finis",
+          "probability": 0.9959981143474579
+        },
+        {
+          "start": 11.44,
+          "end": 11.6,
+          "word": " le",
+          "probability": 0.9997932314872742
+        },
+        {
+          "start": 11.6,
+          "end": 11.76,
+          "word": " nez",
+          "probability": 0.9997366964817047
+        },
+        {
+          "start": 11.76,
+          "end": 11.98,
+          "word": " dans",
+          "probability": 0.9997311234474182
+        },
+        {
+          "start": 11.98,
+          "end": 12.08,
+          "word": " l",
+          "probability": 0.9991492033004761
+        },
+        {
+          "start": 12.08,
+          "end": 12.16,
+          "word": "'eau",
+          "probability": 0.9992101192474365
+        },
+        {
+          "start": 12.16,
+          "end": 12.66,
+          "word": " boueuse",
+          "probability": 0.9952608346939087
+        },
+        {
+          "start": 12.66,
+          "end": 12.82,
+          "word": " du",
+          "probability": 0.9972501397132874
+        },
+        {
+          "start": 12.82,
+          "end": 13.24,
+          "word": " ruisseau.",
+          "probability": 0.999005397160848
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 14.22,
+      "end": 17.0,
+      "text": " La bonne nouvelle, c'est que tu ne lui as pas fait peur.",
+      "tokens": [
+        51040,
+        2369,
+        20577,
+        24156,
+        11,
+        269,
+        6,
+        377,
+        631,
+        2604,
+        408,
+        8783,
+        382,
+        1736,
+        3887,
+        30071,
+        13,
+        51164
+      ],
+      "avg_logprob": -0.08193181778167512,
+      "compression_ratio": 1.554307116104869,
+      "no_speech_prob": 7.392851088250385e-12,
+      "words": [
+        {
+          "start": 14.22,
+          "end": 14.7,
+          "word": " La",
+          "probability": 0.9999034404754639
+        },
+        {
+          "start": 14.7,
+          "end": 14.92,
+          "word": " bonne",
+          "probability": 0.9998939037322998
+        },
+        {
+          "start": 14.92,
+          "end": 15.28,
+          "word": " nouvelle,",
+          "probability": 0.9999496936798096
+        },
+        {
+          "start": 15.48,
+          "end": 15.78,
+          "word": " c",
+          "probability": 0.9999920129776001
+        },
+        {
+          "start": 15.78,
+          "end": 15.84,
+          "word": "'est",
+          "probability": 0.9999938011169434
+        },
+        {
+          "start": 15.84,
+          "end": 15.96,
+          "word": " que",
+          "probability": 0.9997828602790833
+        },
+        {
+          "start": 15.96,
+          "end": 16.1,
+          "word": " tu",
+          "probability": 0.9998536109924316
+        },
+        {
+          "start": 16.1,
+          "end": 16.2,
+          "word": " ne",
+          "probability": 0.996227502822876
+        },
+        {
+          "start": 16.2,
+          "end": 16.28,
+          "word": " lui",
+          "probability": 0.999203622341156
+        },
+        {
+          "start": 16.28,
+          "end": 16.36,
+          "word": " as",
+          "probability": 0.999022364616394
+        },
+        {
+          "start": 16.36,
+          "end": 16.5,
+          "word": " pas",
+          "probability": 0.9999581575393677
+        },
+        {
+          "start": 16.5,
+          "end": 16.68,
+          "word": " fait",
+          "probability": 0.9984989166259766
+        },
+        {
+          "start": 16.68,
+          "end": 17.0,
+          "word": " peur.",
+          "probability": 0.999935507774353
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 17.42,
+      "end": 22.78,
+      "text": " Au lieu de s'enfuir, il te regarde sans comprendre pendant que tu t'essuies le visage.",
+      "tokens": [
+        51204,
+        12160,
+        26036,
+        368,
+        262,
+        6,
+        268,
+        14127,
+        347,
+        11,
+        1930,
+        535,
+        33357,
+        12177,
+        26856,
+        17338,
+        631,
+        2604,
+        256,
+        6,
+        442,
+        84,
+        530,
+        476,
+        1452,
+        609,
+        13,
+        51453
+      ],
+      "avg_logprob": -0.08193181778167512,
+      "compression_ratio": 1.554307116104869,
+      "no_speech_prob": 7.392851088250385e-12,
+      "words": [
+        {
+          "start": 17.42,
+          "end": 17.9,
+          "word": " Au",
+          "probability": 0.9997647404670715
+        },
+        {
+          "start": 17.9,
+          "end": 18.04,
+          "word": " lieu",
+          "probability": 0.9999709129333496
+        },
+        {
+          "start": 18.04,
+          "end": 18.18,
+          "word": " de",
+          "probability": 0.9999368190765381
+        },
+        {
+          "start": 18.18,
+          "end": 18.32,
+          "word": " s",
+          "probability": 0.9999353885650635
+        },
+        {
+          "start": 18.32,
+          "end": 18.72,
+          "word": "'enfuir,",
+          "probability": 0.996886745095253
+        },
+        {
+          "start": 19.04,
+          "end": 19.52,
+          "word": " il",
+          "probability": 0.9996190071105957
+        },
+        {
+          "start": 19.52,
+          "end": 19.68,
+          "word": " te",
+          "probability": 0.9996050000190735
+        },
+        {
+          "start": 19.68,
+          "end": 20.08,
+          "word": " regarde",
+          "probability": 0.999607264995575
+        },
+        {
+          "start": 20.08,
+          "end": 20.4,
+          "word": " sans",
+          "probability": 0.9994179010391235
+        },
+        {
+          "start": 20.4,
+          "end": 20.98,
+          "word": " comprendre",
+          "probability": 0.9998453855514526
+        },
+        {
+          "start": 20.98,
+          "end": 21.46,
+          "word": " pendant",
+          "probability": 0.9819834232330322
+        },
+        {
+          "start": 21.46,
+          "end": 21.7,
+          "word": " que",
+          "probability": 0.9999183416366577
+        },
+        {
+          "start": 21.7,
+          "end": 21.84,
+          "word": " tu",
+          "probability": 0.9999603033065796
+        },
+        {
+          "start": 21.84,
+          "end": 21.96,
+          "word": " t",
+          "probability": 0.9996539354324341
+        },
+        {
+          "start": 21.96,
+          "end": 22.2,
+          "word": "'essuies",
+          "probability": 0.9973841607570648
+        },
+        {
+          "start": 22.2,
+          "end": 22.36,
+          "word": " le",
+          "probability": 0.9999462366104126
+        },
+        {
+          "start": 22.36,
+          "end": 22.78,
+          "word": " visage.",
+          "probability": 0.9999130368232727
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 23.54,
+      "end": 25.38,
+      "text": " Bon, ton plan a échoué.",
+      "tokens": [
+        51499,
+        7368,
+        11,
+        2952,
+        1393,
+        257,
+        39310,
+        263,
+        526,
+        13,
+        51583
+      ],
+      "avg_logprob": -0.08193181778167512,
+      "compression_ratio": 1.554307116104869,
+      "no_speech_prob": 7.392851088250385e-12,
+      "words": [
+        {
+          "start": 23.54,
+          "end": 23.94,
+          "word": " Bon,",
+          "probability": 0.9887839555740356
+        },
+        {
+          "start": 24.32,
+          "end": 24.48,
+          "word": " ton",
+          "probability": 0.9994877576828003
+        },
+        {
+          "start": 24.48,
+          "end": 24.8,
+          "word": " plan",
+          "probability": 0.9999059438705444
+        },
+        {
+          "start": 24.8,
+          "end": 24.96,
+          "word": " a",
+          "probability": 0.999599277973175
+        },
+        {
+          "start": 24.96,
+          "end": 25.38,
+          "word": " échoué.",
+          "probability": 0.999893307685852
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 26.14,
+      "end": 27.86,
+      "text": " Que vas-tu tenter maintenant?",
+      "tokens": [
+        51639,
+        4493,
+        11481,
+        12,
+        9179,
+        7054,
+        260,
+        14817,
+        2506,
+        51715
+      ],
+      "avg_logprob": -0.08193181778167512,
+      "compression_ratio": 1.554307116104869,
+      "no_speech_prob": 7.392851088250385e-12,
+      "words": [
+        {
+          "start": 26.14,
+          "end": 26.62,
+          "word": " Que",
+          "probability": 0.9974045157432556
+        },
+        {
+          "start": 26.62,
+          "end": 26.78,
+          "word": " vas",
+          "probability": 0.9979028701782227
+        },
+        {
+          "start": 26.78,
+          "end": 26.94,
+          "word": "-tu",
+          "probability": 0.9997490048408508
+        },
+        {
+          "start": 26.94,
+          "end": 27.26,
+          "word": " tenter",
+          "probability": 0.999677985906601
+        },
+        {
+          "start": 27.26,
+          "end": 27.5,
+          "word": " maintenant",
+          "probability": 0.9917659163475037
+        },
+        {
+          "start": 27.5,
+          "end": 27.86,
+          "word": "?",
+          "probability": 0.9962510466575623
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

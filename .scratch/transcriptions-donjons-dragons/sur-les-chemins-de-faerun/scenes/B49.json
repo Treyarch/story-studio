@@ -1,0 +1,630 @@
+{
+  "scene": "B49",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B49.mp3",
+  "sha256": "bfa6e5a93348ce6568f48645f0f72256dbe917d04201e1c9b4cf2f732d8ad763",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 25.7843125,
+  "text": "Attaquer directement l'Héral Silverhand est visiblement trop difficile pour toi. En revanche, tu penses être capable de combattre le bâton. La seule difficulté est de l'atteindre avant que l'Héral ne t'en empêche. Tu te diriges vers l'objet. Dame Silverhand te laisse faire, jusqu'à ce que tu te penches pour t'en saisir. Elle se met à hurler dès que tu l'attrapes.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.42,
+      "end": 5.98,
+      "text": " Attaquer directement l'Héral Silverhand est visiblement trop difficile pour toi.",
+      "tokens": [
+        50385,
+        1711,
+        1328,
+        8035,
+        37297,
+        287,
+        6,
+        39,
+        20596,
+        15861,
+        5543,
+        871,
+        8974,
+        518,
+        9006,
+        26607,
+        2016,
+        15648,
+        13,
+        50594
+      ],
+      "avg_logprob": -0.10562576784575281,
+      "compression_ratio": 1.5203252032520325,
+      "no_speech_prob": 7.163441281127225e-12,
+      "words": [
+        {
+          "start": 1.42,
+          "end": 2.16,
+          "word": " Attaquer",
+          "probability": 0.9680901368459066
+        },
+        {
+          "start": 2.16,
+          "end": 2.78,
+          "word": " directement",
+          "probability": 0.9997249245643616
+        },
+        {
+          "start": 2.78,
+          "end": 2.98,
+          "word": " l",
+          "probability": 0.7929171323776245
+        },
+        {
+          "start": 2.98,
+          "end": 3.22,
+          "word": "'Héral",
+          "probability": 0.7099177539348602
+        },
+        {
+          "start": 3.22,
+          "end": 3.92,
+          "word": " Silverhand",
+          "probability": 0.8960361778736115
+        },
+        {
+          "start": 3.92,
+          "end": 4.22,
+          "word": " est",
+          "probability": 0.9982668161392212
+        },
+        {
+          "start": 4.22,
+          "end": 4.84,
+          "word": " visiblement",
+          "probability": 0.999857097864151
+        },
+        {
+          "start": 4.84,
+          "end": 5.08,
+          "word": " trop",
+          "probability": 0.9996423721313477
+        },
+        {
+          "start": 5.08,
+          "end": 5.52,
+          "word": " difficile",
+          "probability": 0.9998898506164551
+        },
+        {
+          "start": 5.52,
+          "end": 5.76,
+          "word": " pour",
+          "probability": 0.9994140863418579
+        },
+        {
+          "start": 5.76,
+          "end": 5.98,
+          "word": " toi.",
+          "probability": 0.999861478805542
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.32,
+      "end": 9.76,
+      "text": " En revanche, tu penses être capable de combattre le bâton.",
+      "tokens": [
+        50626,
+        2193,
+        3698,
+        22806,
+        11,
+        2604,
+        6099,
+        279,
+        7418,
+        8189,
+        368,
+        2512,
+        1591,
+        265,
+        476,
+        272,
+        3201,
+        1756,
+        13,
+        50782
+      ],
+      "avg_logprob": -0.10562576784575281,
+      "compression_ratio": 1.5203252032520325,
+      "no_speech_prob": 7.163441281127225e-12,
+      "words": [
+        {
+          "start": 6.32,
+          "end": 6.74,
+          "word": " En",
+          "probability": 0.9996572732925415
+        },
+        {
+          "start": 6.74,
+          "end": 7.28,
+          "word": " revanche,",
+          "probability": 0.9999316930770874
+        },
+        {
+          "start": 7.48,
+          "end": 7.66,
+          "word": " tu",
+          "probability": 0.9996867179870605
+        },
+        {
+          "start": 7.66,
+          "end": 8.06,
+          "word": " penses",
+          "probability": 0.9994510114192963
+        },
+        {
+          "start": 8.06,
+          "end": 8.18,
+          "word": " être",
+          "probability": 0.9998138546943665
+        },
+        {
+          "start": 8.18,
+          "end": 8.6,
+          "word": " capable",
+          "probability": 0.9994809031486511
+        },
+        {
+          "start": 8.6,
+          "end": 8.82,
+          "word": " de",
+          "probability": 0.9999271631240845
+        },
+        {
+          "start": 8.82,
+          "end": 9.34,
+          "word": " combattre",
+          "probability": 0.9998314380645752
+        },
+        {
+          "start": 9.34,
+          "end": 9.46,
+          "word": " le",
+          "probability": 0.999640703201294
+        },
+        {
+          "start": 9.46,
+          "end": 9.76,
+          "word": " bâton.",
+          "probability": 0.9982474247614542
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.52,
+      "end": 14.38,
+      "text": " La seule difficulté est de l'atteindre avant que l'Héral ne t'en empêche.",
+      "tokens": [
+        50837,
+        2369,
+        18800,
+        2252,
+        526,
+        871,
+        368,
+        287,
+        6,
+        30466,
+        28786,
+        13439,
+        631,
+        287,
+        6,
+        39,
+        20596,
+        408,
+        256,
+        6,
+        268,
+        4012,
+        1307,
+        1876,
+        13,
+        51013
+      ],
+      "avg_logprob": -0.10562576784575281,
+      "compression_ratio": 1.5203252032520325,
+      "no_speech_prob": 7.163441281127225e-12,
+      "words": [
+        {
+          "start": 10.52,
+          "end": 11.0,
+          "word": " La",
+          "probability": 0.9996436834335327
+        },
+        {
+          "start": 11.0,
+          "end": 11.28,
+          "word": " seule",
+          "probability": 0.9999411106109619
+        },
+        {
+          "start": 11.28,
+          "end": 11.92,
+          "word": " difficulté",
+          "probability": 0.9997169971466064
+        },
+        {
+          "start": 11.92,
+          "end": 12.14,
+          "word": " est",
+          "probability": 0.9996359348297119
+        },
+        {
+          "start": 12.14,
+          "end": 12.26,
+          "word": " de",
+          "probability": 0.9997426867485046
+        },
+        {
+          "start": 12.26,
+          "end": 12.38,
+          "word": " l",
+          "probability": 0.999969482421875
+        },
+        {
+          "start": 12.38,
+          "end": 12.72,
+          "word": "'atteindre",
+          "probability": 0.9998564720153809
+        },
+        {
+          "start": 12.72,
+          "end": 13.06,
+          "word": " avant",
+          "probability": 0.999319314956665
+        },
+        {
+          "start": 13.06,
+          "end": 13.28,
+          "word": " que",
+          "probability": 0.9997356534004211
+        },
+        {
+          "start": 13.28,
+          "end": 13.4,
+          "word": " l",
+          "probability": 0.9988916516304016
+        },
+        {
+          "start": 13.4,
+          "end": 13.58,
+          "word": "'Héral",
+          "probability": 0.9972802400588989
+        },
+        {
+          "start": 13.58,
+          "end": 13.76,
+          "word": " ne",
+          "probability": 0.995250940322876
+        },
+        {
+          "start": 13.76,
+          "end": 13.88,
+          "word": " t",
+          "probability": 0.999911904335022
+        },
+        {
+          "start": 13.88,
+          "end": 13.94,
+          "word": "'en",
+          "probability": 0.9997236430644989
+        },
+        {
+          "start": 13.94,
+          "end": 14.38,
+          "word": " empêche.",
+          "probability": 0.9998686909675598
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 14.8,
+      "end": 16.5,
+      "text": " Tu te diriges vers l'objet.",
+      "tokens": [
+        51049,
+        7836,
+        535,
+        4746,
+        20609,
+        1774,
+        287,
+        6,
+        996,
+        7108,
+        13,
+        51119
+      ],
+      "avg_logprob": -0.10562576784575281,
+      "compression_ratio": 1.5203252032520325,
+      "no_speech_prob": 7.163441281127225e-12,
+      "words": [
+        {
+          "start": 14.8,
+          "end": 15.2,
+          "word": " Tu",
+          "probability": 0.9990221261978149
+        },
+        {
+          "start": 15.2,
+          "end": 15.42,
+          "word": " te",
+          "probability": 0.9999372959136963
+        },
+        {
+          "start": 15.42,
+          "end": 15.9,
+          "word": " diriges",
+          "probability": 0.9927307069301605
+        },
+        {
+          "start": 15.9,
+          "end": 16.1,
+          "word": " vers",
+          "probability": 0.9998204112052917
+        },
+        {
+          "start": 16.1,
+          "end": 16.2,
+          "word": " l",
+          "probability": 0.9999387264251709
+        },
+        {
+          "start": 16.2,
+          "end": 16.5,
+          "word": "'objet.",
+          "probability": 0.9996287624041239
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 17.0,
+      "end": 21.34,
+      "text": " Dame Silverhand te laisse faire, jusqu'à ce que tu te penches pour t'en saisir.",
+      "tokens": [
+        51145,
+        34447,
+        15861,
+        5543,
+        535,
+        30969,
+        4865,
+        11,
+        20340,
+        6,
+        1467,
+        1769,
+        631,
+        2604,
+        535,
+        3435,
+        3781,
+        2016,
+        256,
+        6,
+        268,
+        11757,
+        347,
+        13,
+        51361
+      ],
+      "avg_logprob": -0.10562576784575281,
+      "compression_ratio": 1.5203252032520325,
+      "no_speech_prob": 7.163441281127225e-12,
+      "words": [
+        {
+          "start": 17.0,
+          "end": 17.18,
+          "word": " Dame",
+          "probability": 0.997951090335846
+        },
+        {
+          "start": 17.18,
+          "end": 17.86,
+          "word": " Silverhand",
+          "probability": 0.9998343288898468
+        },
+        {
+          "start": 17.86,
+          "end": 18.16,
+          "word": " te",
+          "probability": 0.9996517896652222
+        },
+        {
+          "start": 18.16,
+          "end": 18.4,
+          "word": " laisse",
+          "probability": 0.998784601688385
+        },
+        {
+          "start": 18.4,
+          "end": 18.68,
+          "word": " faire,",
+          "probability": 0.9984839558601379
+        },
+        {
+          "start": 18.88,
+          "end": 19.26,
+          "word": " jusqu",
+          "probability": 0.9998377561569214
+        },
+        {
+          "start": 19.26,
+          "end": 19.54,
+          "word": "'à",
+          "probability": 0.9999592304229736
+        },
+        {
+          "start": 19.54,
+          "end": 19.62,
+          "word": " ce",
+          "probability": 0.9999350309371948
+        },
+        {
+          "start": 19.62,
+          "end": 19.76,
+          "word": " que",
+          "probability": 0.9999728202819824
+        },
+        {
+          "start": 19.76,
+          "end": 19.92,
+          "word": " tu",
+          "probability": 0.9998829364776611
+        },
+        {
+          "start": 19.92,
+          "end": 20.12,
+          "word": " te",
+          "probability": 0.9998443126678467
+        },
+        {
+          "start": 20.12,
+          "end": 20.46,
+          "word": " penches",
+          "probability": 0.9987540543079376
+        },
+        {
+          "start": 20.46,
+          "end": 20.7,
+          "word": " pour",
+          "probability": 0.9993361830711365
+        },
+        {
+          "start": 20.7,
+          "end": 20.8,
+          "word": " t",
+          "probability": 0.9994149208068848
+        },
+        {
+          "start": 20.8,
+          "end": 20.86,
+          "word": "'en",
+          "probability": 0.999919056892395
+        },
+        {
+          "start": 20.86,
+          "end": 21.34,
+          "word": " saisir.",
+          "probability": 0.9999240040779114
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 21.56,
+      "end": 23.94,
+      "text": " Elle se met à hurler dès que tu l'attrapes.",
+      "tokens": [
+        51383,
+        16227,
+        369,
+        1131,
+        1531,
+        2756,
+        1918,
+        34163,
+        631,
+        2604,
+        287,
+        6,
+        1591,
+        4007,
+        279,
+        13,
+        51489
+      ],
+      "avg_logprob": -0.10562576784575281,
+      "compression_ratio": 1.5203252032520325,
+      "no_speech_prob": 7.163441281127225e-12,
+      "words": [
+        {
+          "start": 21.56,
+          "end": 21.92,
+          "word": " Elle",
+          "probability": 0.9993201494216919
+        },
+        {
+          "start": 21.92,
+          "end": 22.14,
+          "word": " se",
+          "probability": 0.9990867376327515
+        },
+        {
+          "start": 22.14,
+          "end": 22.3,
+          "word": " met",
+          "probability": 0.9986949563026428
+        },
+        {
+          "start": 22.3,
+          "end": 22.48,
+          "word": " à",
+          "probability": 0.9998328685760498
+        },
+        {
+          "start": 22.48,
+          "end": 22.92,
+          "word": " hurler",
+          "probability": 0.99945467710495
+        },
+        {
+          "start": 22.92,
+          "end": 23.12,
+          "word": " dès",
+          "probability": 0.999643087387085
+        },
+        {
+          "start": 23.12,
+          "end": 23.26,
+          "word": " que",
+          "probability": 0.9999686479568481
+        },
+        {
+          "start": 23.26,
+          "end": 23.4,
+          "word": " tu",
+          "probability": 0.9999072551727295
+        },
+        {
+          "start": 23.4,
+          "end": 23.5,
+          "word": " l",
+          "probability": 0.9479113817214966
+        },
+        {
+          "start": 23.5,
+          "end": 23.94,
+          "word": "'attrapes.",
+          "probability": 0.9815231710672379
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

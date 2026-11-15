@@ -1,0 +1,301 @@
+{
+  "scene": "A13_ch_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A13_ch_success.mp3",
+  "sha256": "8df35166e9353453fe270b3956d55b652cb4ac49dfd71a8c7b38e83b306caadc",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 16.3489375,
+  "text": "Après un moment, le méphite fumant cesse ses circonvolutions. Enfin, un étrange sourire apparaît sur son visage. Splendide! Absolument splendide! Tu as définitivement une âme d'artiste!",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.88,
+      "end": 4.6,
+      "text": " Après un moment, le méphite fumant cesse ses circonvolutions.",
+      "tokens": [
+        50365,
+        29265,
+        517,
+        1623,
+        11,
+        476,
+        13191,
+        69,
+        642,
+        43845,
+        394,
+        269,
+        7357,
+        5385,
+        2450,
+        1671,
+        85,
+        15892,
+        13,
+        50552
+      ],
+      "avg_logprob": -0.15688009704312972,
+      "compression_ratio": 1.2781456953642385,
+      "no_speech_prob": 5.187357054320385e-12,
+      "words": [
+        {
+          "start": 0.88,
+          "end": 1.48,
+          "word": " Après",
+          "probability": 0.9932465553283691
+        },
+        {
+          "start": 1.48,
+          "end": 1.62,
+          "word": " un",
+          "probability": 0.9999606609344482
+        },
+        {
+          "start": 1.62,
+          "end": 1.88,
+          "word": " moment,",
+          "probability": 0.9999492168426514
+        },
+        {
+          "start": 2.2,
+          "end": 2.6,
+          "word": " le",
+          "probability": 0.9991094470024109
+        },
+        {
+          "start": 2.6,
+          "end": 2.96,
+          "word": " méphite",
+          "probability": 0.8727607727050781
+        },
+        {
+          "start": 2.96,
+          "end": 3.38,
+          "word": " fumant",
+          "probability": 0.9993797242641449
+        },
+        {
+          "start": 3.38,
+          "end": 3.72,
+          "word": " cesse",
+          "probability": 0.9976617395877838
+        },
+        {
+          "start": 3.72,
+          "end": 3.84,
+          "word": " ses",
+          "probability": 0.9682969450950623
+        },
+        {
+          "start": 3.84,
+          "end": 4.6,
+          "word": " circonvolutions.",
+          "probability": 0.996764287352562
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.08,
+      "end": 8.7,
+      "text": " Enfin, un étrange sourire apparaît sur son visage.",
+      "tokens": [
+        50597,
+        35861,
+        11,
+        517,
+        4823,
+        14521,
+        11006,
+        621,
+        724,
+        2419,
+        20028,
+        1022,
+        1872,
+        1452,
+        609,
+        13,
+        50756
+      ],
+      "avg_logprob": -0.15688009704312972,
+      "compression_ratio": 1.2781456953642385,
+      "no_speech_prob": 5.187357054320385e-12,
+      "words": [
+        {
+          "start": 5.08,
+          "end": 5.82,
+          "word": " Enfin,",
+          "probability": 0.9993656277656555
+        },
+        {
+          "start": 6.06,
+          "end": 6.58,
+          "word": " un",
+          "probability": 0.999757707118988
+        },
+        {
+          "start": 6.58,
+          "end": 7.08,
+          "word": " étrange",
+          "probability": 0.9995467364788055
+        },
+        {
+          "start": 7.08,
+          "end": 7.48,
+          "word": " sourire",
+          "probability": 0.99988654255867
+        },
+        {
+          "start": 7.48,
+          "end": 7.86,
+          "word": " apparaît",
+          "probability": 0.9992628494898478
+        },
+        {
+          "start": 7.86,
+          "end": 8.02,
+          "word": " sur",
+          "probability": 0.9998831748962402
+        },
+        {
+          "start": 8.02,
+          "end": 8.2,
+          "word": " son",
+          "probability": 0.9999059438705444
+        },
+        {
+          "start": 8.2,
+          "end": 8.7,
+          "word": " visage.",
+          "probability": 0.999939501285553
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.04,
+      "end": 15.16,
+      "text": " Splendide! Absolument splendide! Tu as définitivement une âme d'artiste!",
+      "tokens": [
+        50776,
+        19788,
+        521,
+        482,
+        2298,
+        43965,
+        2206,
+        34350,
+        482,
+        2298,
+        7836,
+        382,
+        40763,
+        2187,
+        518,
+        2251,
+        20621,
+        1398,
+        274,
+        6,
+        446,
+        8375,
+        2298,
+        51106
+      ],
+      "avg_logprob": -0.15688009704312972,
+      "compression_ratio": 1.2781456953642385,
+      "no_speech_prob": 5.187357054320385e-12,
+      "words": [
+        {
+          "start": 9.04,
+          "end": 9.78,
+          "word": " Splendide",
+          "probability": 0.9342007040977478
+        },
+        {
+          "start": 9.78,
+          "end": 10.22,
+          "word": "!",
+          "probability": 0.6141135692596436
+        },
+        {
+          "start": 10.22,
+          "end": 11.16,
+          "word": " Absolument",
+          "probability": 0.9967220425605774
+        },
+        {
+          "start": 11.16,
+          "end": 12.2,
+          "word": " splendide",
+          "probability": 0.9863038063049316
+        },
+        {
+          "start": 12.2,
+          "end": 12.44,
+          "word": "!",
+          "probability": 0.9989771842956543
+        },
+        {
+          "start": 12.44,
+          "end": 12.92,
+          "word": " Tu",
+          "probability": 0.9992250204086304
+        },
+        {
+          "start": 12.92,
+          "end": 13.06,
+          "word": " as",
+          "probability": 0.999433696269989
+        },
+        {
+          "start": 13.06,
+          "end": 13.9,
+          "word": " définitivement",
+          "probability": 0.999854842821757
+        },
+        {
+          "start": 13.9,
+          "end": 14.08,
+          "word": " une",
+          "probability": 0.9990691542625427
+        },
+        {
+          "start": 14.08,
+          "end": 14.28,
+          "word": " âme",
+          "probability": 0.9998137652873993
+        },
+        {
+          "start": 14.28,
+          "end": 14.42,
+          "word": " d",
+          "probability": 0.9999707937240601
+        },
+        {
+          "start": 14.42,
+          "end": 14.98,
+          "word": "'artiste",
+          "probability": 0.9995403488477071
+        },
+        {
+          "start": 14.98,
+          "end": 15.16,
+          "word": "!",
+          "probability": 0.9954689741134644
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

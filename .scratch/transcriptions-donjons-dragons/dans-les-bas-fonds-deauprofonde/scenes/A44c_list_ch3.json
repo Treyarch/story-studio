@@ -1,0 +1,58 @@
+{
+  "scene": "A44c_list_ch3",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A44c_list_ch3.mp3",
+  "sha256": "fdcfed165e7c95edb9afb7216cbd420df4942c4fa7e2622033e233b9612c709f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.1554375,
+  "text": "te transformer en ours.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.53,
+      "text": " te transformer en ours.",
+      "tokens": [
+        50365,
+        535,
+        31782,
+        465,
+        11896,
+        13,
+        50439
+      ],
+      "avg_logprob": -0.2486722469329834,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 4.888977243877601e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.49,
+          "word": " te",
+          "probability": 0.6587109565734863
+        },
+        {
+          "start": 0.49,
+          "end": 1.03,
+          "word": " transformer",
+          "probability": 0.9851401448249817
+        },
+        {
+          "start": 1.03,
+          "end": 1.23,
+          "word": " en",
+          "probability": 0.9998238682746887
+        },
+        {
+          "start": 1.23,
+          "end": 1.53,
+          "word": " ours.",
+          "probability": 0.9958727955818176
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

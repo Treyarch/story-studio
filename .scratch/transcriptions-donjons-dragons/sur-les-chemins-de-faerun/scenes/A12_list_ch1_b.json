@@ -1,0 +1,72 @@
+{
+  "scene": "A12_list_ch1_b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A12_list_ch1_b.mp3",
+  "sha256": "cc9ab8af189ecfa15f4fd9fe7a5b2937974bbfef1ec7d2f15621acff3b3d6fc7",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.8769375,
+  "text": "grâce à ton sens du beau.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.44,
+      "text": " grâce à ton sens du beau.",
+      "tokens": [
+        50365,
+        31180,
+        1531,
+        2952,
+        2923,
+        1581,
+        29891,
+        13,
+        50438
+      ],
+      "avg_logprob": -0.19954681545495986,
+      "compression_ratio": 0.7714285714285715,
+      "no_speech_prob": 4.700949265273868e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.5,
+          "word": " grâce",
+          "probability": 0.6913588643074036
+        },
+        {
+          "start": 0.5,
+          "end": 0.7,
+          "word": " à",
+          "probability": 0.9993163347244263
+        },
+        {
+          "start": 0.7,
+          "end": 0.82,
+          "word": " ton",
+          "probability": 0.9977883100509644
+        },
+        {
+          "start": 0.82,
+          "end": 1.1,
+          "word": " sens",
+          "probability": 0.9975347518920898
+        },
+        {
+          "start": 1.1,
+          "end": 1.28,
+          "word": " du",
+          "probability": 0.9889270067214966
+        },
+        {
+          "start": 1.28,
+          "end": 1.44,
+          "word": " beau.",
+          "probability": 0.997211754322052
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

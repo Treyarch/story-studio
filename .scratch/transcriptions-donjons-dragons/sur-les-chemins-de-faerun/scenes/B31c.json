@@ -1,0 +1,626 @@
+{
+  "scene": "B31c",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B31c.mp3",
+  "sha256": "76cdd1e7f8789ec72cd991e95025124df7ed4d3bb3d408019458e303021670d6",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 23.970625,
+  "text": "Dans quel panier de crabes es-tu tombé? Ce n'est pas clair, mais désormais tu as une piste. Tu plies le papier et le glisses dans ta poche. Tu as un peu de temps avant le concert, donc tu décides d'aller manger un morceau. Ton père te l'a souvent seriné. Rien de pire que de partir à l'aventure le ventre vide.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.72,
+      "end": 3.58,
+      "text": " Dans quel panier de crabes es-tu tombé?",
+      "tokens": [
+        50372,
+        16897,
+        7178,
+        2462,
+        811,
+        368,
+        2094,
+        6446,
+        785,
+        12,
+        9179,
+        18712,
+        526,
+        2506,
+        50528
+      ],
+      "avg_logprob": -0.12037818479750838,
+      "compression_ratio": 1.4952830188679245,
+      "no_speech_prob": 8.309007128171064e-12,
+      "words": [
+        {
+          "start": 0.72,
+          "end": 1.3,
+          "word": " Dans",
+          "probability": 0.9687381982803345
+        },
+        {
+          "start": 1.3,
+          "end": 1.62,
+          "word": " quel",
+          "probability": 0.9976149797439575
+        },
+        {
+          "start": 1.62,
+          "end": 2.02,
+          "word": " panier",
+          "probability": 0.9995886981487274
+        },
+        {
+          "start": 2.02,
+          "end": 2.18,
+          "word": " de",
+          "probability": 0.9999206066131592
+        },
+        {
+          "start": 2.18,
+          "end": 2.5,
+          "word": " crabes",
+          "probability": 0.8121059238910675
+        },
+        {
+          "start": 2.5,
+          "end": 2.62,
+          "word": " es",
+          "probability": 0.9979926347732544
+        },
+        {
+          "start": 2.62,
+          "end": 2.74,
+          "word": "-tu",
+          "probability": 0.9994990229606628
+        },
+        {
+          "start": 2.74,
+          "end": 3.06,
+          "word": " tombé",
+          "probability": 0.9581468403339386
+        },
+        {
+          "start": 3.06,
+          "end": 3.58,
+          "word": "?",
+          "probability": 0.9922411441802979
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.58,
+      "end": 6.82,
+      "text": " Ce n'est pas clair, mais désormais tu as une piste.",
+      "tokens": [
+        50528,
+        8257,
+        297,
+        6,
+        377,
+        1736,
+        41375,
+        11,
+        2420,
+        18963,
+        687,
+        1527,
+        2604,
+        382,
+        2251,
+        280,
+        8375,
+        13,
+        50671
+      ],
+      "avg_logprob": -0.12037818479750838,
+      "compression_ratio": 1.4952830188679245,
+      "no_speech_prob": 8.309007128171064e-12,
+      "words": [
+        {
+          "start": 3.58,
+          "end": 4.16,
+          "word": " Ce",
+          "probability": 0.9985122084617615
+        },
+        {
+          "start": 4.16,
+          "end": 4.26,
+          "word": " n",
+          "probability": 0.9999935626983643
+        },
+        {
+          "start": 4.26,
+          "end": 4.34,
+          "word": "'est",
+          "probability": 0.9999837875366211
+        },
+        {
+          "start": 4.34,
+          "end": 4.46,
+          "word": " pas",
+          "probability": 0.9999904632568359
+        },
+        {
+          "start": 4.46,
+          "end": 4.8,
+          "word": " clair,",
+          "probability": 0.999934196472168
+        },
+        {
+          "start": 4.98,
+          "end": 5.32,
+          "word": " mais",
+          "probability": 0.9999371767044067
+        },
+        {
+          "start": 5.32,
+          "end": 5.98,
+          "word": " désormais",
+          "probability": 0.9998298287391663
+        },
+        {
+          "start": 5.98,
+          "end": 6.16,
+          "word": " tu",
+          "probability": 0.9348704218864441
+        },
+        {
+          "start": 6.16,
+          "end": 6.3,
+          "word": " as",
+          "probability": 0.9993809461593628
+        },
+        {
+          "start": 6.3,
+          "end": 6.44,
+          "word": " une",
+          "probability": 0.9999502897262573
+        },
+        {
+          "start": 6.44,
+          "end": 6.82,
+          "word": " piste.",
+          "probability": 0.9997702836990356
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.32,
+      "end": 10.5,
+      "text": " Tu plies le papier et le glisses dans ta poche.",
+      "tokens": [
+        50715,
+        7836,
+        499,
+        530,
+        476,
+        37410,
+        1030,
+        476,
+        1563,
+        40487,
+        2680,
+        1846,
+        714,
+        1876,
+        13,
+        50855
+      ],
+      "avg_logprob": -0.12037818479750838,
+      "compression_ratio": 1.4952830188679245,
+      "no_speech_prob": 8.309007128171064e-12,
+      "words": [
+        {
+          "start": 7.32,
+          "end": 7.88,
+          "word": " Tu",
+          "probability": 0.9997934699058533
+        },
+        {
+          "start": 7.88,
+          "end": 8.22,
+          "word": " plies",
+          "probability": 0.9956702291965485
+        },
+        {
+          "start": 8.22,
+          "end": 8.38,
+          "word": " le",
+          "probability": 0.9999785423278809
+        },
+        {
+          "start": 8.38,
+          "end": 8.78,
+          "word": " papier",
+          "probability": 0.99993896484375
+        },
+        {
+          "start": 8.78,
+          "end": 9.34,
+          "word": " et",
+          "probability": 0.9988372921943665
+        },
+        {
+          "start": 9.34,
+          "end": 9.5,
+          "word": " le",
+          "probability": 0.9998511075973511
+        },
+        {
+          "start": 9.5,
+          "end": 9.84,
+          "word": " glisses",
+          "probability": 0.9931322634220123
+        },
+        {
+          "start": 9.84,
+          "end": 9.98,
+          "word": " dans",
+          "probability": 0.9999779462814331
+        },
+        {
+          "start": 9.98,
+          "end": 10.14,
+          "word": " ta",
+          "probability": 0.9999386072158813
+        },
+        {
+          "start": 10.14,
+          "end": 10.5,
+          "word": " poche.",
+          "probability": 0.9998627603054047
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 10.86,
+      "end": 12.88,
+      "text": " Tu as un peu de temps avant le concert,",
+      "tokens": [
+        50893,
+        7836,
+        382,
+        517,
+        5604,
+        368,
+        8827,
+        13439,
+        476,
+        8543,
+        11,
+        50974
+      ],
+      "avg_logprob": -0.12037818479750838,
+      "compression_ratio": 1.4952830188679245,
+      "no_speech_prob": 8.309007128171064e-12,
+      "words": [
+        {
+          "start": 10.86,
+          "end": 11.38,
+          "word": " Tu",
+          "probability": 0.9997963309288025
+        },
+        {
+          "start": 11.38,
+          "end": 11.52,
+          "word": " as",
+          "probability": 0.9996516704559326
+        },
+        {
+          "start": 11.52,
+          "end": 11.64,
+          "word": " un",
+          "probability": 0.999954342842102
+        },
+        {
+          "start": 11.64,
+          "end": 11.74,
+          "word": " peu",
+          "probability": 0.9999023675918579
+        },
+        {
+          "start": 11.74,
+          "end": 11.88,
+          "word": " de",
+          "probability": 0.9999880790710449
+        },
+        {
+          "start": 11.88,
+          "end": 12.08,
+          "word": " temps",
+          "probability": 0.9997937083244324
+        },
+        {
+          "start": 12.08,
+          "end": 12.28,
+          "word": " avant",
+          "probability": 0.9999101161956787
+        },
+        {
+          "start": 12.28,
+          "end": 12.44,
+          "word": " le",
+          "probability": 0.999910831451416
+        },
+        {
+          "start": 12.44,
+          "end": 12.88,
+          "word": " concert,",
+          "probability": 0.9963418841362
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 13.16,
+      "end": 15.4,
+      "text": " donc tu décides d'aller manger un morceau.",
+      "tokens": [
+        51006,
+        5926,
+        2604,
+        9198,
+        1875,
+        274,
+        6,
+        22414,
+        34372,
+        517,
+        1896,
+        384,
+        1459,
+        13,
+        51100
+      ],
+      "avg_logprob": -0.12037818479750838,
+      "compression_ratio": 1.4952830188679245,
+      "no_speech_prob": 8.309007128171064e-12,
+      "words": [
+        {
+          "start": 13.16,
+          "end": 13.76,
+          "word": " donc",
+          "probability": 0.9999167919158936
+        },
+        {
+          "start": 13.76,
+          "end": 13.94,
+          "word": " tu",
+          "probability": 0.9999616146087646
+        },
+        {
+          "start": 13.94,
+          "end": 14.3,
+          "word": " décides",
+          "probability": 0.9993803799152374
+        },
+        {
+          "start": 14.3,
+          "end": 14.4,
+          "word": " d",
+          "probability": 0.9999758005142212
+        },
+        {
+          "start": 14.4,
+          "end": 14.54,
+          "word": "'aller",
+          "probability": 0.9999417066574097
+        },
+        {
+          "start": 14.54,
+          "end": 14.84,
+          "word": " manger",
+          "probability": 0.9999024868011475
+        },
+        {
+          "start": 14.84,
+          "end": 15.0,
+          "word": " un",
+          "probability": 0.9999229907989502
+        },
+        {
+          "start": 15.0,
+          "end": 15.4,
+          "word": " morceau.",
+          "probability": 0.999919056892395
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 16.08,
+      "end": 18.04,
+      "text": " Ton père te l'a souvent seriné.",
+      "tokens": [
+        51153,
+        11385,
+        37653,
+        535,
+        287,
+        6,
+        64,
+        20847,
+        816,
+        259,
+        526,
+        13,
+        51232
+      ],
+      "avg_logprob": -0.12037818479750838,
+      "compression_ratio": 1.4952830188679245,
+      "no_speech_prob": 8.309007128171064e-12,
+      "words": [
+        {
+          "start": 16.08,
+          "end": 16.6,
+          "word": " Ton",
+          "probability": 0.9991554021835327
+        },
+        {
+          "start": 16.6,
+          "end": 16.88,
+          "word": " père",
+          "probability": 0.999545156955719
+        },
+        {
+          "start": 16.88,
+          "end": 17.02,
+          "word": " te",
+          "probability": 0.9976230263710022
+        },
+        {
+          "start": 17.02,
+          "end": 17.12,
+          "word": " l",
+          "probability": 0.9593977928161621
+        },
+        {
+          "start": 17.12,
+          "end": 17.2,
+          "word": "'a",
+          "probability": 0.999588668346405
+        },
+        {
+          "start": 17.2,
+          "end": 17.56,
+          "word": " souvent",
+          "probability": 0.9999433755874634
+        },
+        {
+          "start": 17.56,
+          "end": 18.04,
+          "word": " seriné.",
+          "probability": 0.9640572468439738
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 18.42,
+      "end": 21.76,
+      "text": " Rien de pire que de partir à l'aventure le ventre vide.",
+      "tokens": [
+        51256,
+        497,
+        1053,
+        368,
+        280,
+        621,
+        631,
+        368,
+        13906,
+        1531,
+        287,
+        6,
+        706,
+        317,
+        540,
+        476,
+        6931,
+        265,
+        838,
+        13,
+        51424
+      ],
+      "avg_logprob": -0.12037818479750838,
+      "compression_ratio": 1.4952830188679245,
+      "no_speech_prob": 8.309007128171064e-12,
+      "words": [
+        {
+          "start": 18.42,
+          "end": 18.78,
+          "word": " Rien",
+          "probability": 0.9614738523960114
+        },
+        {
+          "start": 18.78,
+          "end": 18.94,
+          "word": " de",
+          "probability": 0.9998574256896973
+        },
+        {
+          "start": 18.94,
+          "end": 19.38,
+          "word": " pire",
+          "probability": 0.9998816847801208
+        },
+        {
+          "start": 19.38,
+          "end": 19.56,
+          "word": " que",
+          "probability": 0.999967098236084
+        },
+        {
+          "start": 19.56,
+          "end": 19.74,
+          "word": " de",
+          "probability": 0.9997000694274902
+        },
+        {
+          "start": 19.74,
+          "end": 20.1,
+          "word": " partir",
+          "probability": 0.9989151954650879
+        },
+        {
+          "start": 20.1,
+          "end": 20.28,
+          "word": " à",
+          "probability": 0.9992056488990784
+        },
+        {
+          "start": 20.28,
+          "end": 20.34,
+          "word": " l",
+          "probability": 0.9997707009315491
+        },
+        {
+          "start": 20.34,
+          "end": 20.9,
+          "word": "'aventure",
+          "probability": 0.9987113326787949
+        },
+        {
+          "start": 20.9,
+          "end": 21.14,
+          "word": " le",
+          "probability": 0.9436447024345398
+        },
+        {
+          "start": 21.14,
+          "end": 21.54,
+          "word": " ventre",
+          "probability": 0.8237050175666809
+        },
+        {
+          "start": 21.54,
+          "end": 21.76,
+          "word": " vide.",
+          "probability": 0.9118549823760986
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

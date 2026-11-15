@@ -1,0 +1,630 @@
+{
+  "scene": "A12_cha_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A12_cha_fail.mp3",
+  "sha256": "f785fd9f0894dc947d7c6d6f209ec39eb64d0666b943eb0fcfb5141ef1ab0f19",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 23.01175,
+  "text": "Malheureusement, tu ne trouves rien à lui dire. Tu sèches complètement. Tu as beau manier la plume comme personne, une fois mis au pied du mur, forcé à improviser, tu perds tes moyens. Tu hausses les épaules et fais mine de ne pas comprendre de quoi parle l'agent. Il n'est pas dupe. Tu dois essayer une autre tactique.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.24,
+      "end": 3.32,
+      "text": " Malheureusement, tu ne trouves rien à lui dire.",
+      "tokens": [
+        50394,
+        5746,
+        23084,
+        21359,
+        11,
+        2604,
+        408,
+        3455,
+        977,
+        13355,
+        1531,
+        8783,
+        1264,
+        13,
+        50498
+      ],
+      "avg_logprob": -0.11981385590833261,
+      "compression_ratio": 1.5186915887850467,
+      "no_speech_prob": 8.728696584969775e-12,
+      "words": [
+        {
+          "start": 1.24,
+          "end": 1.7,
+          "word": " Malheureusement,",
+          "probability": 0.9769392410914103
+        },
+        {
+          "start": 1.92,
+          "end": 2.18,
+          "word": " tu",
+          "probability": 0.9997319579124451
+        },
+        {
+          "start": 2.18,
+          "end": 2.3,
+          "word": " ne",
+          "probability": 0.9998519420623779
+        },
+        {
+          "start": 2.3,
+          "end": 2.56,
+          "word": " trouves",
+          "probability": 0.9964405298233032
+        },
+        {
+          "start": 2.56,
+          "end": 2.76,
+          "word": " rien",
+          "probability": 0.9999542236328125
+        },
+        {
+          "start": 2.76,
+          "end": 2.92,
+          "word": " à",
+          "probability": 0.9998862743377686
+        },
+        {
+          "start": 2.92,
+          "end": 3.06,
+          "word": " lui",
+          "probability": 0.9999834299087524
+        },
+        {
+          "start": 3.06,
+          "end": 3.32,
+          "word": " dire.",
+          "probability": 0.9999823570251465
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.56,
+      "end": 5.12,
+      "text": " Tu sèches complètement.",
+      "tokens": [
+        50528,
+        7836,
+        262,
+        1462,
+        3781,
+        31331,
+        13,
+        50590
+      ],
+      "avg_logprob": -0.11981385590833261,
+      "compression_ratio": 1.5186915887850467,
+      "no_speech_prob": 8.728696584969775e-12,
+      "words": [
+        {
+          "start": 3.56,
+          "end": 4.02,
+          "word": " Tu",
+          "probability": 0.9989114999771118
+        },
+        {
+          "start": 4.02,
+          "end": 4.42,
+          "word": " sèches",
+          "probability": 0.9983348449071249
+        },
+        {
+          "start": 4.42,
+          "end": 5.12,
+          "word": " complètement.",
+          "probability": 0.9987543821334839
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 5.66,
+      "end": 8.0,
+      "text": " Tu as beau manier la plume comme personne,",
+      "tokens": [
+        50631,
+        7836,
+        382,
+        29891,
+        587,
+        811,
+        635,
+        499,
+        2540,
+        5173,
+        17219,
+        11,
+        50735
+      ],
+      "avg_logprob": -0.11981385590833261,
+      "compression_ratio": 1.5186915887850467,
+      "no_speech_prob": 8.728696584969775e-12,
+      "words": [
+        {
+          "start": 5.66,
+          "end": 6.08,
+          "word": " Tu",
+          "probability": 0.9989041090011597
+        },
+        {
+          "start": 6.08,
+          "end": 6.22,
+          "word": " as",
+          "probability": 0.9916513562202454
+        },
+        {
+          "start": 6.22,
+          "end": 6.34,
+          "word": " beau",
+          "probability": 0.9992214441299438
+        },
+        {
+          "start": 6.34,
+          "end": 6.62,
+          "word": " manier",
+          "probability": 0.997417151927948
+        },
+        {
+          "start": 6.62,
+          "end": 6.78,
+          "word": " la",
+          "probability": 0.9998340606689453
+        },
+        {
+          "start": 6.78,
+          "end": 7.16,
+          "word": " plume",
+          "probability": 0.9998412430286407
+        },
+        {
+          "start": 7.16,
+          "end": 7.44,
+          "word": " comme",
+          "probability": 0.9984580278396606
+        },
+        {
+          "start": 7.44,
+          "end": 8.0,
+          "word": " personne,",
+          "probability": 0.9996639490127563
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 8.44,
+      "end": 10.0,
+      "text": " une fois mis au pied du mur,",
+      "tokens": [
+        50764,
+        2251,
+        9576,
+        3346,
+        1609,
+        24186,
+        1581,
+        5257,
+        11,
+        50832
+      ],
+      "avg_logprob": -0.11981385590833261,
+      "compression_ratio": 1.5186915887850467,
+      "no_speech_prob": 8.728696584969775e-12,
+      "words": [
+        {
+          "start": 8.44,
+          "end": 8.78,
+          "word": " une",
+          "probability": 0.9976345300674438
+        },
+        {
+          "start": 8.78,
+          "end": 9.0,
+          "word": " fois",
+          "probability": 0.9999865293502808
+        },
+        {
+          "start": 9.0,
+          "end": 9.18,
+          "word": " mis",
+          "probability": 0.6584206223487854
+        },
+        {
+          "start": 9.18,
+          "end": 9.34,
+          "word": " au",
+          "probability": 0.9798876047134399
+        },
+        {
+          "start": 9.34,
+          "end": 9.5,
+          "word": " pied",
+          "probability": 0.9999041557312012
+        },
+        {
+          "start": 9.5,
+          "end": 9.68,
+          "word": " du",
+          "probability": 0.999722421169281
+        },
+        {
+          "start": 9.68,
+          "end": 10.0,
+          "word": " mur,",
+          "probability": 0.9998335838317871
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 10.42,
+      "end": 11.46,
+      "text": " forcé à improviser,",
+      "tokens": [
+        50855,
+        30137,
+        1531,
+        39784,
+        260,
+        11,
+        50906
+      ],
+      "avg_logprob": -0.11981385590833261,
+      "compression_ratio": 1.5186915887850467,
+      "no_speech_prob": 8.728696584969775e-12,
+      "words": [
+        {
+          "start": 10.42,
+          "end": 10.68,
+          "word": " forcé",
+          "probability": 0.9606068730354309
+        },
+        {
+          "start": 10.68,
+          "end": 10.84,
+          "word": " à",
+          "probability": 0.9998522996902466
+        },
+        {
+          "start": 10.84,
+          "end": 11.46,
+          "word": " improviser,",
+          "probability": 0.9998708367347717
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 11.94,
+      "end": 12.86,
+      "text": " tu perds tes moyens.",
+      "tokens": [
+        50932,
+        2604,
+        12611,
+        82,
+        20018,
+        47040,
+        13,
+        50975
+      ],
+      "avg_logprob": -0.11981385590833261,
+      "compression_ratio": 1.5186915887850467,
+      "no_speech_prob": 8.728696584969775e-12,
+      "words": [
+        {
+          "start": 11.94,
+          "end": 12.1,
+          "word": " tu",
+          "probability": 0.9997707009315491
+        },
+        {
+          "start": 12.1,
+          "end": 12.48,
+          "word": " perds",
+          "probability": 0.984107255935669
+        },
+        {
+          "start": 12.48,
+          "end": 12.54,
+          "word": " tes",
+          "probability": 0.9973245859146118
+        },
+        {
+          "start": 12.54,
+          "end": 12.86,
+          "word": " moyens.",
+          "probability": 0.9999105930328369
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 13.52,
+      "end": 14.94,
+      "text": " Tu hausses les épaules",
+      "tokens": [
+        51028,
+        7836,
+        324,
+        2023,
+        279,
+        1512,
+        1136,
+        4306,
+        3473,
+        51079
+      ],
+      "avg_logprob": -0.11981385590833261,
+      "compression_ratio": 1.5186915887850467,
+      "no_speech_prob": 8.728696584969775e-12,
+      "words": [
+        {
+          "start": 13.52,
+          "end": 14.04,
+          "word": " Tu",
+          "probability": 0.9991010427474976
+        },
+        {
+          "start": 14.04,
+          "end": 14.38,
+          "word": " hausses",
+          "probability": 0.9894751310348511
+        },
+        {
+          "start": 14.38,
+          "end": 14.5,
+          "word": " les",
+          "probability": 0.9997254014015198
+        },
+        {
+          "start": 14.5,
+          "end": 14.94,
+          "word": " épaules",
+          "probability": 0.9996118942896525
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 14.94,
+      "end": 17.68,
+      "text": " et fais mine de ne pas comprendre de quoi parle l'agent.",
+      "tokens": [
+        51079,
+        1030,
+        12153,
+        3892,
+        368,
+        408,
+        1736,
+        26856,
+        368,
+        11714,
+        18508,
+        287,
+        6,
+        559,
+        317,
+        13,
+        51216
+      ],
+      "avg_logprob": -0.11981385590833261,
+      "compression_ratio": 1.5186915887850467,
+      "no_speech_prob": 8.728696584969775e-12,
+      "words": [
+        {
+          "start": 14.94,
+          "end": 15.34,
+          "word": " et",
+          "probability": 0.9853498935699463
+        },
+        {
+          "start": 15.34,
+          "end": 15.5,
+          "word": " fais",
+          "probability": 0.8865214586257935
+        },
+        {
+          "start": 15.5,
+          "end": 15.72,
+          "word": " mine",
+          "probability": 0.9337397813796997
+        },
+        {
+          "start": 15.72,
+          "end": 15.88,
+          "word": " de",
+          "probability": 0.9998775720596313
+        },
+        {
+          "start": 15.88,
+          "end": 15.98,
+          "word": " ne",
+          "probability": 0.999665379524231
+        },
+        {
+          "start": 15.98,
+          "end": 16.18,
+          "word": " pas",
+          "probability": 0.9999607801437378
+        },
+        {
+          "start": 16.18,
+          "end": 16.6,
+          "word": " comprendre",
+          "probability": 0.9995155334472656
+        },
+        {
+          "start": 16.6,
+          "end": 16.86,
+          "word": " de",
+          "probability": 0.9997453093528748
+        },
+        {
+          "start": 16.86,
+          "end": 17.02,
+          "word": " quoi",
+          "probability": 0.9999372959136963
+        },
+        {
+          "start": 17.02,
+          "end": 17.3,
+          "word": " parle",
+          "probability": 0.9980789422988892
+        },
+        {
+          "start": 17.3,
+          "end": 17.44,
+          "word": " l",
+          "probability": 0.9956235289573669
+        },
+        {
+          "start": 17.44,
+          "end": 17.68,
+          "word": "'agent.",
+          "probability": 0.9989442229270935
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 18.12,
+      "end": 18.98,
+      "text": " Il n'est pas dupe.",
+      "tokens": [
+        51247,
+        4416,
+        297,
+        6,
+        377,
+        1736,
+        1581,
+        494,
+        13,
+        51282
+      ],
+      "avg_logprob": -0.11981385590833261,
+      "compression_ratio": 1.5186915887850467,
+      "no_speech_prob": 8.728696584969775e-12,
+      "words": [
+        {
+          "start": 18.12,
+          "end": 18.4,
+          "word": " Il",
+          "probability": 0.9970991611480713
+        },
+        {
+          "start": 18.4,
+          "end": 18.5,
+          "word": " n",
+          "probability": 0.999967098236084
+        },
+        {
+          "start": 18.5,
+          "end": 18.56,
+          "word": "'est",
+          "probability": 0.9998943507671356
+        },
+        {
+          "start": 18.56,
+          "end": 18.7,
+          "word": " pas",
+          "probability": 0.9999676942825317
+        },
+        {
+          "start": 18.7,
+          "end": 18.98,
+          "word": " dupe.",
+          "probability": 0.9942388236522675
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 19.46,
+      "end": 21.5,
+      "text": " Tu dois essayer une autre tactique.",
+      "tokens": [
+        51326,
+        7836,
+        11854,
+        32421,
+        2251,
+        15081,
+        9959,
+        1925,
+        13,
+        51408
+      ],
+      "avg_logprob": -0.11981385590833261,
+      "compression_ratio": 1.5186915887850467,
+      "no_speech_prob": 8.728696584969775e-12,
+      "words": [
+        {
+          "start": 19.46,
+          "end": 19.98,
+          "word": " Tu",
+          "probability": 0.9988222718238831
+        },
+        {
+          "start": 19.98,
+          "end": 20.18,
+          "word": " dois",
+          "probability": 0.9993948936462402
+        },
+        {
+          "start": 20.18,
+          "end": 20.54,
+          "word": " essayer",
+          "probability": 0.9996947050094604
+        },
+        {
+          "start": 20.54,
+          "end": 20.76,
+          "word": " une",
+          "probability": 0.9997660517692566
+        },
+        {
+          "start": 20.76,
+          "end": 20.98,
+          "word": " autre",
+          "probability": 0.999894380569458
+        },
+        {
+          "start": 20.98,
+          "end": 21.5,
+          "word": " tactique.",
+          "probability": 0.9986409544944763
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

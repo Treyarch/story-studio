@@ -1,0 +1,67 @@
+{
+  "scene": "A44c_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A44c_list.mp3",
+  "sha256": "4116894c6792b8b79b6c1248159a2f6405b150286cd021d20655d9aaa3a71bae",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.7639375,
+  "text": "Que veux-tu faire?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.27,
+      "text": " Que veux-tu faire?",
+      "tokens": [
+        50365,
+        4493,
+        16389,
+        12,
+        9179,
+        4865,
+        2506,
+        50451
+      ],
+      "avg_logprob": -0.25226995680067277,
+      "compression_ratio": 0.7037037037037037,
+      "no_speech_prob": 4.532732262446659e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.51,
+          "word": " Que",
+          "probability": 0.9428623914718628
+        },
+        {
+          "start": 0.51,
+          "end": 0.65,
+          "word": " veux",
+          "probability": 0.99873286485672
+        },
+        {
+          "start": 0.65,
+          "end": 0.81,
+          "word": "-tu",
+          "probability": 0.9905664920806885
+        },
+        {
+          "start": 0.81,
+          "end": 1.13,
+          "word": " faire",
+          "probability": 0.9997074007987976
+        },
+        {
+          "start": 1.13,
+          "end": 1.27,
+          "word": "?",
+          "probability": 0.9708427786827087
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

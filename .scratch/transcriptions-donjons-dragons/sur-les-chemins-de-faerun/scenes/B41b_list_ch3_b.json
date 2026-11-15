@@ -1,0 +1,61 @@
+{
+  "scene": "B41b_list_ch3_b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B41b_list_ch3_b.mp3",
+  "sha256": "3a0cd2c4ae3d67fad710e0a2f308abf200c33e5272f391cc8fbbe32933fa09d2",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.4744375,
+  "text": "Explorer les étages inférieurs.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.16,
+      "text": " Explorer les étages inférieurs.",
+      "tokens": [
+        50365,
+        31895,
+        1512,
+        4823,
+        1660,
+        1536,
+        10746,
+        2156,
+        13,
+        50474
+      ],
+      "avg_logprob": -0.1986056701703505,
+      "compression_ratio": 0.825,
+      "no_speech_prob": 4.50790012956892e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.76,
+          "word": " Explorer",
+          "probability": 0.5564632415771484
+        },
+        {
+          "start": 0.76,
+          "end": 1.08,
+          "word": " les",
+          "probability": 0.9996542930603027
+        },
+        {
+          "start": 1.08,
+          "end": 1.48,
+          "word": " étages",
+          "probability": 0.9996177852153778
+        },
+        {
+          "start": 1.48,
+          "end": 2.16,
+          "word": " inférieurs.",
+          "probability": 0.9986548821131388
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

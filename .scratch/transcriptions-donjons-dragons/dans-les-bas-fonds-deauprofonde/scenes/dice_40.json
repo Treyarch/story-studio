@@ -1,0 +1,36 @@
+{
+  "scene": "dice_40",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/dice_40.mp3",
+  "sha256": "200984719fa0f55941b24f0b5fd4bb8c19d40cbd382845c83fbf400a096975cd",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.6378125,
+  "text": "Force",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.21,
+      "end": 0.85,
+      "text": " Force",
+      "tokens": [
+        50365,
+        10580,
+        50465
+      ],
+      "avg_logprob": -0.5667193382978439,
+      "compression_ratio": 0.38461538461538464,
+      "no_speech_prob": 3.637367490538779e-11,
+      "words": [
+        {
+          "start": 0.21,
+          "end": 0.85,
+          "word": " Force",
+          "probability": 0.6339561343193054
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

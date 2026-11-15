@@ -1,0 +1,61 @@
+{
+  "scene": "B44_chapitre",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B44_chapitre.mp3",
+  "sha256": "aaabe699862530a4f9ad1e1f27c76ac5be2357f8b94dd4ab150115b17f0cc3d3",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.7835,
+  "text": "La descente aux oubliettes",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.38,
+      "text": " La descente aux oubliettes",
+      "tokens": [
+        50365,
+        2369,
+        7471,
+        1576,
+        7865,
+        2820,
+        5199,
+        1684,
+        7269,
+        50484
+      ],
+      "avg_logprob": -0.2110685408115387,
+      "compression_ratio": 0.7647058823529411,
+      "no_speech_prob": 5.960537619031925e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.44,
+          "word": " La",
+          "probability": 0.7011035084724426
+        },
+        {
+          "start": 0.44,
+          "end": 1.14,
+          "word": " descente",
+          "probability": 0.9921781718730927
+        },
+        {
+          "start": 1.14,
+          "end": 1.58,
+          "word": " aux",
+          "probability": 0.9997703433036804
+        },
+        {
+          "start": 1.58,
+          "end": 2.38,
+          "word": " oubliettes",
+          "probability": 0.9935532808303833
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

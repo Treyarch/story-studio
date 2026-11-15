@@ -1,0 +1,40 @@
+{
+  "scene": "B35_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B35_list_ch1.mp3",
+  "sha256": "f1747fad57e8c1f202db17ff5e8d1bc21f883a953fa6812f54aaeb1b68c115a6",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.1439375,
+  "text": "Attaqués.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 0.79,
+      "text": " Attaqués.",
+      "tokens": [
+        50365,
+        1711,
+        1328,
+        358,
+        2191,
+        13,
+        50401
+      ],
+      "avg_logprob": -0.626404419541359,
+      "compression_ratio": 0.5555555555555556,
+      "no_speech_prob": 4.292448688159034e-11,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.79,
+          "word": " Attaqués.",
+          "probability": 0.6927759870886803
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

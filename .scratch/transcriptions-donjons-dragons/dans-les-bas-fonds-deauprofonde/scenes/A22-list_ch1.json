@@ -1,0 +1,77 @@
+{
+  "scene": "A22-list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A22-list_ch1.mp3",
+  "sha256": "b0be0f0deba265d5eeb9513681f940ae46821ea8e7bf58047a0cdaeec279fa69",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.0934375,
+  "text": "Tu tentes de l'esquiver?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.72,
+      "text": " Tu tentes de l'esquiver?",
+      "tokens": [
+        50365,
+        7836,
+        7054,
+        279,
+        368,
+        287,
+        6,
+        279,
+        358,
+        1837,
+        2506,
+        50465
+      ],
+      "avg_logprob": -0.18295592528123122,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 4.807714122645468e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.52,
+          "word": " Tu",
+          "probability": 0.7844768166542053
+        },
+        {
+          "start": 0.52,
+          "end": 0.94,
+          "word": " tentes",
+          "probability": 0.9948574304580688
+        },
+        {
+          "start": 0.94,
+          "end": 1.04,
+          "word": " de",
+          "probability": 0.9998466968536377
+        },
+        {
+          "start": 1.04,
+          "end": 1.12,
+          "word": " l",
+          "probability": 0.9999415874481201
+        },
+        {
+          "start": 1.12,
+          "end": 1.56,
+          "word": "'esquiver",
+          "probability": 0.9890697598457336
+        },
+        {
+          "start": 1.56,
+          "end": 1.72,
+          "word": "?",
+          "probability": 0.9272111058235168
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

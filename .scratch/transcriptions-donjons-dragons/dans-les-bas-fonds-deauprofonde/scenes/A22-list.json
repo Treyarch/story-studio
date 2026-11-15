@@ -1,0 +1,67 @@
+{
+  "scene": "A22-list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A22-list.mp3",
+  "sha256": "f98c11d89c65141f5783d30f421298dd62fa54eb089a3b93a684c2ed1954c08c",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.030125,
+  "text": "Comment vas-tu passer?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.56,
+      "text": " Comment vas-tu passer?",
+      "tokens": [
+        50365,
+        16328,
+        11481,
+        12,
+        9179,
+        18509,
+        2506,
+        50463
+      ],
+      "avg_logprob": -0.22685538397894967,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 7.63411642928924e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.7,
+          "word": " Comment",
+          "probability": 0.8202977776527405
+        },
+        {
+          "start": 0.7,
+          "end": 0.9,
+          "word": " vas",
+          "probability": 0.9974174499511719
+        },
+        {
+          "start": 0.9,
+          "end": 1.06,
+          "word": "-tu",
+          "probability": 0.9995661079883575
+        },
+        {
+          "start": 1.06,
+          "end": 1.38,
+          "word": " passer",
+          "probability": 0.9994480013847351
+        },
+        {
+          "start": 1.38,
+          "end": 1.56,
+          "word": "?",
+          "probability": 0.9586030840873718
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "scene": "A9a_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A9a_list.mp3",
+  "sha256": "21c29e2308f74622f4c8903ed8cd27d0759d20bc65bbf1e13d023cc9ff39f67b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.9234375,
+  "text": "Comment la poursuis-tu?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.4,
+      "text": " Comment la poursuis-tu?",
+      "tokens": [
+        50365,
+        16328,
+        635,
+        2016,
+        82,
+        8479,
+        12,
+        9179,
+        2506,
+        50457
+      ],
+      "avg_logprob": -0.20661866123026068,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 4.3027977014720165e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.6,
+          "word": " Comment",
+          "probability": 0.6132252812385559
+        },
+        {
+          "start": 0.6,
+          "end": 0.76,
+          "word": " la",
+          "probability": 0.9919561147689819
+        },
+        {
+          "start": 0.76,
+          "end": 1.14,
+          "word": " poursuis",
+          "probability": 0.9980450669924418
+        },
+        {
+          "start": 1.14,
+          "end": 1.3,
+          "word": "-tu",
+          "probability": 0.9993687570095062
+        },
+        {
+          "start": 1.3,
+          "end": 1.4,
+          "word": "?",
+          "probability": 0.9660882353782654
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "scene": "A09c_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A09c_list_ch2.mp3",
+  "sha256": "e3d9d90aa5febc59d3cb5d8fbc133854ca3eff3a4c16f43b036df0ed06655bc7",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.8615,
+  "text": "Rejoindre la cité.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.44,
+      "text": " Rejoindre la cité.",
+      "tokens": [
+        50365,
+        1300,
+        5134,
+        28786,
+        635,
+        4814,
+        526,
+        13,
+        50436
+      ],
+      "avg_logprob": -0.35738085508346557,
+      "compression_ratio": 0.7037037037037037,
+      "no_speech_prob": 4.783122682650021e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.84,
+          "word": " Rejoindre",
+          "probability": 0.7953595618406931
+        },
+        {
+          "start": 0.84,
+          "end": 1.06,
+          "word": " la",
+          "probability": 0.9983634352684021
+        },
+        {
+          "start": 1.06,
+          "end": 1.44,
+          "word": " cité.",
+          "probability": 0.937345415353775
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

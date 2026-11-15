@@ -1,0 +1,72 @@
+{
+  "scene": "B41b_chapitre",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B41b_chapitre.mp3",
+  "sha256": "d060b528c50e2e4c31dbf517f3308c5ff135b660541a3251dbb89f9d2ca05422",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.0691875,
+  "text": "au château d'Eauprofonde.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.58,
+      "text": " au château d'Eauprofonde.",
+      "tokens": [
+        50365,
+        1609,
+        417,
+        33680,
+        1459,
+        274,
+        6,
+        36,
+        1459,
+        6039,
+        7259,
+        13,
+        50445
+      ],
+      "avg_logprob": -0.17419658388410295,
+      "compression_ratio": 0.7941176470588235,
+      "no_speech_prob": 5.738470462701706e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.38,
+          "word": " au",
+          "probability": 0.7612419128417969
+        },
+        {
+          "start": 0.38,
+          "end": 0.86,
+          "word": " château",
+          "probability": 0.9743151267369589
+        },
+        {
+          "start": 0.86,
+          "end": 0.98,
+          "word": " d",
+          "probability": 0.9944037199020386
+        },
+        {
+          "start": 0.98,
+          "end": 1.08,
+          "word": "'Eau",
+          "probability": 0.8513701756795248
+        },
+        {
+          "start": 1.08,
+          "end": 1.58,
+          "word": " Profonde.",
+          "probability": 0.9304195046424866
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

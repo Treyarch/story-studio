@@ -1,0 +1,64 @@
+{
+  "scene": "title_card_b-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/title_card_b-fr_FR.mp3",
+  "sha256": "19b65003b9e0b865234d7268c5ad72fc9ff0d9e0808349e27aedc38b55257fad",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.4944375,
+  "text": "Enquête à Eauprofonde.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.81,
+      "text": " Enquête à Eauprofonde.",
+      "tokens": [
+        50365,
+        2193,
+        358,
+        12943,
+        1531,
+        308,
+        1459,
+        1740,
+        7259,
+        13,
+        50455
+      ],
+      "avg_logprob": -0.15686373164256415,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 3.606659892615993e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.85,
+          "word": " Enquête",
+          "probability": 0.9663013418515524
+        },
+        {
+          "start": 0.85,
+          "end": 1.09,
+          "word": " à",
+          "probability": 0.9995750784873962
+        },
+        {
+          "start": 1.09,
+          "end": 1.33,
+          "word": " eau",
+          "probability": 0.8744681179523468
+        },
+        {
+          "start": 1.33,
+          "end": 1.81,
+          "word": " profonde.",
+          "probability": 0.9994143843650818
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

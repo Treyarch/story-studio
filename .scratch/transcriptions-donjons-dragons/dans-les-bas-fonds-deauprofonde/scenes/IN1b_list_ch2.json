@@ -1,0 +1,46 @@
+{
+  "scene": "IN1b_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/IN1b_list_ch2.mp3",
+  "sha256": "cbe97d6eeea6ac93edf2805229098db7127d308e7b2ff898ed49813a0833765f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.4140625,
+  "text": "Druides?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.15,
+      "text": " Druides?",
+      "tokens": [
+        50365,
+        36744,
+        1875,
+        2506,
+        50433
+      ],
+      "avg_logprob": -0.3677709400653839,
+      "compression_ratio": 0.5294117647058824,
+      "no_speech_prob": 3.6855045924821805e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.77,
+          "word": " Druides",
+          "probability": 0.8548814058303833
+        },
+        {
+          "start": 0.77,
+          "end": 1.15,
+          "word": "?",
+          "probability": 0.9398617148399353
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

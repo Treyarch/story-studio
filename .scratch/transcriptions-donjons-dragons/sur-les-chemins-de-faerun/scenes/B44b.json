@@ -1,0 +1,1586 @@
+{
+  "scene": "B44b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B44b.mp3",
+  "sha256": "7cf3943990e9d3068fcccee6ba46fb70c11dfa3535ee0c6c87419f78f7c174f5",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 60.7823125,
+  "text": "Tu as entendu parler de ce type de créature dans le guide monstrueux de Volo. Il s'agit d'une mimique. Un monstre capable de prendre la forme de n'importe quel objet imposant. Ces créatures passent l'essentiel de leur existence dans les donjons, où elles imitent la forme de malles au trésor pour tromper les aventuriers trop distraits. Se transformer en porte vivante ne doit pas leur poser de grandes difficultés. Au moins, le métamorphe ne te poursuit pas. Le seigneur Phylund a dû lui ordonner de ne pas abandonner sa position. Tu hésites. Battras-tu en retraite jusqu'à l'auberge du Portail Béant pour raconter à Renaer ce que tu as découvert? Dans ce cas, tu crains de manquer le retour de Phylund au château, surtout s'il prévoit de déplacer Dame Silverhand dans une autre geôle ou de commettre l'irréparable. Non, décidément, il te faut élaborer une stratégie pour passer outre la mimique et libérer Dame Silverhand.",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.88,
+      "end": 5.02,
+      "text": " Tu as entendu parler de ce type de créature dans le guide monstrueux de Volo.",
+      "tokens": [
+        50365,
+        7836,
+        382,
+        41489,
+        16421,
+        368,
+        1769,
+        2010,
+        368,
+        15609,
+        1503,
+        2680,
+        476,
+        5934,
+        47137,
+        622,
+        2449,
+        368,
+        691,
+        7902,
+        13,
+        50573
+      ],
+      "avg_logprob": -0.08366931463990893,
+      "compression_ratio": 1.6373239436619718,
+      "no_speech_prob": 6.978982496075314e-12,
+      "words": [
+        {
+          "start": 0.88,
+          "end": 1.28,
+          "word": " Tu",
+          "probability": 0.8759292364120483
+        },
+        {
+          "start": 1.28,
+          "end": 1.44,
+          "word": " as",
+          "probability": 0.9997828602790833
+        },
+        {
+          "start": 1.44,
+          "end": 1.78,
+          "word": " entendu",
+          "probability": 0.9999035596847534
+        },
+        {
+          "start": 1.78,
+          "end": 2.14,
+          "word": " parler",
+          "probability": 0.9970249533653259
+        },
+        {
+          "start": 2.14,
+          "end": 2.32,
+          "word": " de",
+          "probability": 0.9999747276306152
+        },
+        {
+          "start": 2.32,
+          "end": 2.52,
+          "word": " ce",
+          "probability": 0.9998754262924194
+        },
+        {
+          "start": 2.52,
+          "end": 2.72,
+          "word": " type",
+          "probability": 0.9997005462646484
+        },
+        {
+          "start": 2.72,
+          "end": 2.86,
+          "word": " de",
+          "probability": 0.9999866485595703
+        },
+        {
+          "start": 2.86,
+          "end": 3.42,
+          "word": " créature",
+          "probability": 0.7878822684288025
+        },
+        {
+          "start": 3.42,
+          "end": 3.64,
+          "word": " dans",
+          "probability": 0.9996259212493896
+        },
+        {
+          "start": 3.64,
+          "end": 3.78,
+          "word": " le",
+          "probability": 0.9849417209625244
+        },
+        {
+          "start": 3.78,
+          "end": 4.0,
+          "word": " guide",
+          "probability": 0.8348128199577332
+        },
+        {
+          "start": 4.0,
+          "end": 4.6,
+          "word": " monstrueux",
+          "probability": 0.997642437616984
+        },
+        {
+          "start": 4.6,
+          "end": 4.74,
+          "word": " de",
+          "probability": 0.9998581409454346
+        },
+        {
+          "start": 4.74,
+          "end": 5.02,
+          "word": " Volo.",
+          "probability": 0.9533701837062836
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.24,
+      "end": 7.16,
+      "text": " Il s'agit d'une mimique.",
+      "tokens": [
+        50596,
+        4416,
+        262,
+        6,
+        32730,
+        274,
+        6,
+        2613,
+        12247,
+        1925,
+        13,
+        50680
+      ],
+      "avg_logprob": -0.08366931463990893,
+      "compression_ratio": 1.6373239436619718,
+      "no_speech_prob": 6.978982496075314e-12,
+      "words": [
+        {
+          "start": 5.24,
+          "end": 5.68,
+          "word": " Il",
+          "probability": 0.9995431900024414
+        },
+        {
+          "start": 5.68,
+          "end": 5.92,
+          "word": " s",
+          "probability": 0.9999815225601196
+        },
+        {
+          "start": 5.92,
+          "end": 6.22,
+          "word": "'agit",
+          "probability": 0.999991774559021
+        },
+        {
+          "start": 6.22,
+          "end": 6.52,
+          "word": " d",
+          "probability": 0.9999747276306152
+        },
+        {
+          "start": 6.52,
+          "end": 6.66,
+          "word": "'une",
+          "probability": 0.9999791979789734
+        },
+        {
+          "start": 6.66,
+          "end": 7.16,
+          "word": " mimique.",
+          "probability": 0.9941070973873138
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.36,
+      "end": 11.68,
+      "text": " Un monstre capable de prendre la forme de n'importe quel objet imposant.",
+      "tokens": [
+        50705,
+        1156,
+        1108,
+        26421,
+        8189,
+        368,
+        16566,
+        635,
+        28670,
+        368,
+        297,
+        6,
+        38320,
+        7178,
+        14964,
+        38396,
+        394,
+        13,
+        50906
+      ],
+      "avg_logprob": -0.08366931463990893,
+      "compression_ratio": 1.6373239436619718,
+      "no_speech_prob": 6.978982496075314e-12,
+      "words": [
+        {
+          "start": 7.36,
+          "end": 7.82,
+          "word": " Un",
+          "probability": 0.9995168447494507
+        },
+        {
+          "start": 7.82,
+          "end": 8.3,
+          "word": " monstre",
+          "probability": 0.9981347620487213
+        },
+        {
+          "start": 8.3,
+          "end": 8.86,
+          "word": " capable",
+          "probability": 0.9909562468528748
+        },
+        {
+          "start": 8.86,
+          "end": 9.16,
+          "word": " de",
+          "probability": 0.9999881982803345
+        },
+        {
+          "start": 9.16,
+          "end": 9.42,
+          "word": " prendre",
+          "probability": 0.9999047517776489
+        },
+        {
+          "start": 9.42,
+          "end": 9.7,
+          "word": " la",
+          "probability": 0.9999654293060303
+        },
+        {
+          "start": 9.7,
+          "end": 10.0,
+          "word": " forme",
+          "probability": 0.9999567270278931
+        },
+        {
+          "start": 10.0,
+          "end": 10.16,
+          "word": " de",
+          "probability": 0.9996434450149536
+        },
+        {
+          "start": 10.16,
+          "end": 10.38,
+          "word": " n",
+          "probability": 0.9999276399612427
+        },
+        {
+          "start": 10.38,
+          "end": 10.7,
+          "word": "'importe",
+          "probability": 0.9999776482582092
+        },
+        {
+          "start": 10.7,
+          "end": 10.96,
+          "word": " quel",
+          "probability": 0.9994372725486755
+        },
+        {
+          "start": 10.96,
+          "end": 11.22,
+          "word": " objet",
+          "probability": 0.9994885921478271
+        },
+        {
+          "start": 11.22,
+          "end": 11.68,
+          "word": " imposant.",
+          "probability": 0.9997667074203491
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.02,
+      "end": 15.8,
+      "text": " Ces créatures passent l'essentiel de leur existence dans les donjons,",
+      "tokens": [
+        50935,
+        28414,
+        15609,
+        3377,
+        1320,
+        317,
+        287,
+        6,
+        442,
+        317,
+        1187,
+        368,
+        9580,
+        9123,
+        2680,
+        1512,
+        500,
+        73,
+        892,
+        11,
+        51111
+      ],
+      "avg_logprob": -0.08366931463990893,
+      "compression_ratio": 1.6373239436619718,
+      "no_speech_prob": 6.978982496075314e-12,
+      "words": [
+        {
+          "start": 12.02,
+          "end": 12.38,
+          "word": " Ces",
+          "probability": 0.9674229025840759
+        },
+        {
+          "start": 12.38,
+          "end": 12.98,
+          "word": " créatures",
+          "probability": 0.9999411106109619
+        },
+        {
+          "start": 12.98,
+          "end": 13.32,
+          "word": " passent",
+          "probability": 0.9995138943195343
+        },
+        {
+          "start": 13.32,
+          "end": 13.44,
+          "word": " l",
+          "probability": 0.9999881982803345
+        },
+        {
+          "start": 13.44,
+          "end": 13.96,
+          "word": "'essentiel",
+          "probability": 0.9994132816791534
+        },
+        {
+          "start": 13.96,
+          "end": 14.12,
+          "word": " de",
+          "probability": 0.9999731779098511
+        },
+        {
+          "start": 14.12,
+          "end": 14.3,
+          "word": " leur",
+          "probability": 0.9999511241912842
+        },
+        {
+          "start": 14.3,
+          "end": 14.96,
+          "word": " existence",
+          "probability": 0.99946528673172
+        },
+        {
+          "start": 14.96,
+          "end": 15.28,
+          "word": " dans",
+          "probability": 0.9999784231185913
+        },
+        {
+          "start": 15.28,
+          "end": 15.42,
+          "word": " les",
+          "probability": 0.9999428987503052
+        },
+        {
+          "start": 15.42,
+          "end": 15.8,
+          "word": " donjons,",
+          "probability": 0.998101274172465
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 15.98,
+      "end": 21.26,
+      "text": " où elles imitent la forme de malles au trésor pour tromper les aventuriers trop distraits.",
+      "tokens": [
+        51140,
+        9068,
+        23576,
+        566,
+        270,
+        317,
+        635,
+        28670,
+        368,
+        275,
+        3201,
+        904,
+        1609,
+        504,
+        2191,
+        284,
+        2016,
+        504,
+        298,
+        610,
+        1512,
+        36399,
+        374,
+        4890,
+        9006,
+        1483,
+        29323,
+        13,
+        51385
+      ],
+      "avg_logprob": -0.08366931463990893,
+      "compression_ratio": 1.6373239436619718,
+      "no_speech_prob": 6.978982496075314e-12,
+      "words": [
+        {
+          "start": 15.98,
+          "end": 16.48,
+          "word": " où",
+          "probability": 0.9946795105934143
+        },
+        {
+          "start": 16.48,
+          "end": 16.76,
+          "word": " elles",
+          "probability": 0.998755931854248
+        },
+        {
+          "start": 16.76,
+          "end": 17.18,
+          "word": " imitent",
+          "probability": 0.9992381930351257
+        },
+        {
+          "start": 17.18,
+          "end": 17.38,
+          "word": " la",
+          "probability": 0.9999730587005615
+        },
+        {
+          "start": 17.38,
+          "end": 17.78,
+          "word": " forme",
+          "probability": 0.9999343156814575
+        },
+        {
+          "start": 17.78,
+          "end": 18.02,
+          "word": " de",
+          "probability": 0.9996892213821411
+        },
+        {
+          "start": 18.02,
+          "end": 18.28,
+          "word": " mâles",
+          "probability": 0.7905040184656779
+        },
+        {
+          "start": 18.28,
+          "end": 18.44,
+          "word": " au",
+          "probability": 0.8725536465644836
+        },
+        {
+          "start": 18.44,
+          "end": 18.9,
+          "word": " trésor",
+          "probability": 0.9983219703038534
+        },
+        {
+          "start": 18.9,
+          "end": 19.42,
+          "word": " pour",
+          "probability": 0.9923464059829712
+        },
+        {
+          "start": 19.42,
+          "end": 19.84,
+          "word": " tromper",
+          "probability": 0.9997122685114542
+        },
+        {
+          "start": 19.84,
+          "end": 20.06,
+          "word": " les",
+          "probability": 0.9996963739395142
+        },
+        {
+          "start": 20.06,
+          "end": 20.64,
+          "word": " aventuriers",
+          "probability": 0.999276876449585
+        },
+        {
+          "start": 20.64,
+          "end": 20.88,
+          "word": " trop",
+          "probability": 0.999891996383667
+        },
+        {
+          "start": 20.88,
+          "end": 21.26,
+          "word": " distraits.",
+          "probability": 0.9925861060619354
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 21.8,
+      "end": 25.76,
+      "text": " Se transformer en porte vivante ne doit pas leur poser de grandes difficultés.",
+      "tokens": [
+        51415,
+        1100,
+        31782,
+        465,
+        26658,
+        11005,
+        2879,
+        408,
+        19193,
+        1736,
+        9580,
+        39355,
+        368,
+        16640,
+        2252,
+        2191,
+        13,
+        51610
+      ],
+      "avg_logprob": -0.08366931463990893,
+      "compression_ratio": 1.6373239436619718,
+      "no_speech_prob": 6.978982496075314e-12,
+      "words": [
+        {
+          "start": 21.8,
+          "end": 21.98,
+          "word": " Se",
+          "probability": 0.9989128112792969
+        },
+        {
+          "start": 21.98,
+          "end": 22.52,
+          "word": " transformer",
+          "probability": 0.9994493126869202
+        },
+        {
+          "start": 22.52,
+          "end": 22.78,
+          "word": " en",
+          "probability": 0.9999904632568359
+        },
+        {
+          "start": 22.78,
+          "end": 23.02,
+          "word": " porte",
+          "probability": 0.9696633219718933
+        },
+        {
+          "start": 23.02,
+          "end": 23.5,
+          "word": " vivante",
+          "probability": 0.9979520738124847
+        },
+        {
+          "start": 23.5,
+          "end": 23.9,
+          "word": " ne",
+          "probability": 0.9997933506965637
+        },
+        {
+          "start": 23.9,
+          "end": 24.08,
+          "word": " doit",
+          "probability": 0.9990265369415283
+        },
+        {
+          "start": 24.08,
+          "end": 24.26,
+          "word": " pas",
+          "probability": 0.9998965263366699
+        },
+        {
+          "start": 24.26,
+          "end": 24.42,
+          "word": " leur",
+          "probability": 0.9997829794883728
+        },
+        {
+          "start": 24.42,
+          "end": 24.72,
+          "word": " poser",
+          "probability": 0.9998169541358948
+        },
+        {
+          "start": 24.72,
+          "end": 24.88,
+          "word": " de",
+          "probability": 0.9999587535858154
+        },
+        {
+          "start": 24.88,
+          "end": 25.12,
+          "word": " grandes",
+          "probability": 0.9964070916175842
+        },
+        {
+          "start": 25.12,
+          "end": 25.76,
+          "word": " difficultés.",
+          "probability": 0.9996139109134674
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 26.56,
+      "end": 29.32,
+      "text": " Au moins, le métamorphe ne te poursuit pas.",
+      "tokens": [
+        51669,
+        12160,
+        13099,
+        11,
+        476,
+        20275,
+        335,
+        18703,
+        675,
+        408,
+        535,
+        2016,
+        82,
+        1983,
+        1736,
+        13,
+        51789
+      ],
+      "avg_logprob": -0.08366931463990893,
+      "compression_ratio": 1.6373239436619718,
+      "no_speech_prob": 6.978982496075314e-12,
+      "words": [
+        {
+          "start": 26.56,
+          "end": 27.12,
+          "word": " Au",
+          "probability": 0.9990153312683105
+        },
+        {
+          "start": 27.12,
+          "end": 27.4,
+          "word": " moins,",
+          "probability": 0.9999295473098755
+        },
+        {
+          "start": 27.68,
+          "end": 27.86,
+          "word": " le",
+          "probability": 0.9996434450149536
+        },
+        {
+          "start": 27.86,
+          "end": 28.5,
+          "word": " métamorphe",
+          "probability": 0.8616484701633453
+        },
+        {
+          "start": 28.5,
+          "end": 28.64,
+          "word": " ne",
+          "probability": 0.9996480941772461
+        },
+        {
+          "start": 28.64,
+          "end": 28.8,
+          "word": " te",
+          "probability": 0.9996918439865112
+        },
+        {
+          "start": 28.8,
+          "end": 29.14,
+          "word": " poursuit",
+          "probability": 0.9996002713839213
+        },
+        {
+          "start": 29.14,
+          "end": 29.32,
+          "word": " pas.",
+          "probability": 0.9999740123748779
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 2844,
+      "start": 29.64,
+      "end": 33.36,
+      "text": " Le seigneur Phylund a dû lui ordonner de ne pas abandonner sa position.",
+      "tokens": [
+        50392,
+        1456,
+        369,
+        26341,
+        374,
+        2623,
+        88,
+        1661,
+        257,
+        42300,
+        8783,
+        4792,
+        38885,
+        368,
+        408,
+        1736,
+        9072,
+        1193,
+        601,
+        2535,
+        13,
+        50568
+      ],
+      "avg_logprob": -0.11766068320120535,
+      "compression_ratio": 1.5616883116883118,
+      "no_speech_prob": 6.462864098055743e-12,
+      "words": [
+        {
+          "start": 29.64,
+          "end": 29.96,
+          "word": " Le",
+          "probability": 0.754802405834198
+        },
+        {
+          "start": 29.96,
+          "end": 30.38,
+          "word": " seigneur",
+          "probability": 0.9452407161394755
+        },
+        {
+          "start": 30.38,
+          "end": 30.84,
+          "word": " Phylund",
+          "probability": 0.5743749439716339
+        },
+        {
+          "start": 30.84,
+          "end": 31.16,
+          "word": " a",
+          "probability": 0.9955272078514099
+        },
+        {
+          "start": 31.16,
+          "end": 31.3,
+          "word": " dû",
+          "probability": 0.9994696974754333
+        },
+        {
+          "start": 31.3,
+          "end": 31.46,
+          "word": " lui",
+          "probability": 0.9999575614929199
+        },
+        {
+          "start": 31.46,
+          "end": 31.88,
+          "word": " ordonner",
+          "probability": 0.9985219240188599
+        },
+        {
+          "start": 31.88,
+          "end": 32.04,
+          "word": " de",
+          "probability": 0.9974992871284485
+        },
+        {
+          "start": 32.04,
+          "end": 32.14,
+          "word": " ne",
+          "probability": 0.9999762773513794
+        },
+        {
+          "start": 32.14,
+          "end": 32.34,
+          "word": " pas",
+          "probability": 0.9999825954437256
+        },
+        {
+          "start": 32.34,
+          "end": 32.82,
+          "word": " abandonner",
+          "probability": 0.9999099969863892
+        },
+        {
+          "start": 32.82,
+          "end": 32.98,
+          "word": " sa",
+          "probability": 0.9998912811279297
+        },
+        {
+          "start": 32.98,
+          "end": 33.36,
+          "word": " position.",
+          "probability": 0.9998574256896973
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2844,
+      "start": 33.86,
+      "end": 34.72,
+      "text": " Tu hésites.",
+      "tokens": [
+        50606,
+        7836,
+        276,
+        2191,
+        3324,
+        13,
+        50635
+      ],
+      "avg_logprob": -0.11766068320120535,
+      "compression_ratio": 1.5616883116883118,
+      "no_speech_prob": 6.462864098055743e-12,
+      "words": [
+        {
+          "start": 33.86,
+          "end": 34.28,
+          "word": " Tu",
+          "probability": 0.9962871074676514
+        },
+        {
+          "start": 34.28,
+          "end": 34.72,
+          "word": " hésites.",
+          "probability": 0.9937408765157064
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2844,
+      "start": 35.36,
+      "end": 38.68,
+      "text": " Battras-tu en retraite jusqu'à l'auberge du Portail Béant",
+      "tokens": [
+        50667,
+        29439,
+        3906,
+        12,
+        9179,
+        465,
+        49356,
+        642,
+        20340,
+        6,
+        1467,
+        287,
+        6,
+        1459,
+        607,
+        432,
+        1581,
+        2436,
+        864,
+        15807,
+        394,
+        50833
+      ],
+      "avg_logprob": -0.11766068320120535,
+      "compression_ratio": 1.5616883116883118,
+      "no_speech_prob": 6.462864098055743e-12,
+      "words": [
+        {
+          "start": 35.36,
+          "end": 35.66,
+          "word": " Battras",
+          "probability": 0.9531084895133972
+        },
+        {
+          "start": 35.66,
+          "end": 35.8,
+          "word": "-tu",
+          "probability": 0.999458521604538
+        },
+        {
+          "start": 35.8,
+          "end": 35.94,
+          "word": " en",
+          "probability": 0.9999251365661621
+        },
+        {
+          "start": 35.94,
+          "end": 36.42,
+          "word": " retraite",
+          "probability": 0.9998078048229218
+        },
+        {
+          "start": 36.42,
+          "end": 36.86,
+          "word": " jusqu",
+          "probability": 0.7589773535728455
+        },
+        {
+          "start": 36.86,
+          "end": 37.12,
+          "word": "'à",
+          "probability": 0.999980092048645
+        },
+        {
+          "start": 37.12,
+          "end": 37.24,
+          "word": " l",
+          "probability": 0.9999258518218994
+        },
+        {
+          "start": 37.24,
+          "end": 37.64,
+          "word": "'auberge",
+          "probability": 0.9945507645606995
+        },
+        {
+          "start": 37.64,
+          "end": 37.82,
+          "word": " du",
+          "probability": 0.9999034404754639
+        },
+        {
+          "start": 37.82,
+          "end": 38.3,
+          "word": " portail",
+          "probability": 0.9663119614124298
+        },
+        {
+          "start": 38.3,
+          "end": 38.68,
+          "word": " béant",
+          "probability": 0.8802911639213562
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 11,
+      "seek": 2844,
+      "start": 38.68,
+      "end": 41.32,
+      "text": " pour raconter à Renaer ce que tu as découvert?",
+      "tokens": [
+        50833,
+        2016,
+        4129,
+        41806,
+        1531,
+        12883,
+        1193,
+        1769,
+        631,
+        2604,
+        382,
+        9198,
+        43315,
+        2506,
+        50983
+      ],
+      "avg_logprob": -0.11766068320120535,
+      "compression_ratio": 1.5616883116883118,
+      "no_speech_prob": 6.462864098055743e-12,
+      "words": [
+        {
+          "start": 38.68,
+          "end": 38.92,
+          "word": " pour",
+          "probability": 0.9993951320648193
+        },
+        {
+          "start": 38.92,
+          "end": 39.42,
+          "word": " raconter",
+          "probability": 0.9998376071453094
+        },
+        {
+          "start": 39.42,
+          "end": 39.62,
+          "word": " à",
+          "probability": 0.99980229139328
+        },
+        {
+          "start": 39.62,
+          "end": 39.9,
+          "word": " Renaer",
+          "probability": 0.8545672595500946
+        },
+        {
+          "start": 39.9,
+          "end": 40.08,
+          "word": " ce",
+          "probability": 0.9994156360626221
+        },
+        {
+          "start": 40.08,
+          "end": 40.22,
+          "word": " que",
+          "probability": 0.9999635219573975
+        },
+        {
+          "start": 40.22,
+          "end": 40.36,
+          "word": " tu",
+          "probability": 0.9999382495880127
+        },
+        {
+          "start": 40.36,
+          "end": 40.48,
+          "word": " as",
+          "probability": 0.9996703863143921
+        },
+        {
+          "start": 40.48,
+          "end": 40.96,
+          "word": " découvert",
+          "probability": 0.999779224395752
+        },
+        {
+          "start": 40.96,
+          "end": 41.32,
+          "word": "?",
+          "probability": 0.9960772395133972
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 12,
+      "seek": 2844,
+      "start": 41.32,
+      "end": 45.14,
+      "text": " Dans ce cas, tu crains de manquer le retour de Phylund au château,",
+      "tokens": [
+        50983,
+        16897,
+        1769,
+        3058,
+        11,
+        2604,
+        2094,
+        1292,
+        368,
+        587,
+        8035,
+        476,
+        28873,
+        368,
+        2623,
+        88,
+        1661,
+        1609,
+        417,
+        33680,
+        1459,
+        11,
+        51156
+      ],
+      "avg_logprob": -0.11766068320120535,
+      "compression_ratio": 1.5616883116883118,
+      "no_speech_prob": 6.462864098055743e-12,
+      "words": [
+        {
+          "start": 41.32,
+          "end": 41.86,
+          "word": " Dans",
+          "probability": 0.9990456700325012
+        },
+        {
+          "start": 41.86,
+          "end": 42.04,
+          "word": " ce",
+          "probability": 0.9998657703399658
+        },
+        {
+          "start": 42.04,
+          "end": 42.26,
+          "word": " cas,",
+          "probability": 0.9997746348381042
+        },
+        {
+          "start": 42.68,
+          "end": 42.8,
+          "word": " tu",
+          "probability": 0.9996682405471802
+        },
+        {
+          "start": 42.8,
+          "end": 43.06,
+          "word": " crains",
+          "probability": 0.995907187461853
+        },
+        {
+          "start": 43.06,
+          "end": 43.2,
+          "word": " de",
+          "probability": 0.9999362230300903
+        },
+        {
+          "start": 43.2,
+          "end": 43.5,
+          "word": " manquer",
+          "probability": 0.9996853172779083
+        },
+        {
+          "start": 43.5,
+          "end": 43.68,
+          "word": " le",
+          "probability": 0.9998576641082764
+        },
+        {
+          "start": 43.68,
+          "end": 44.02,
+          "word": " retour",
+          "probability": 0.9995914101600647
+        },
+        {
+          "start": 44.02,
+          "end": 44.18,
+          "word": " de",
+          "probability": 0.9996024966239929
+        },
+        {
+          "start": 44.18,
+          "end": 44.62,
+          "word": " Phylund",
+          "probability": 0.9954117933909098
+        },
+        {
+          "start": 44.62,
+          "end": 44.78,
+          "word": " au",
+          "probability": 0.9994543194770813
+        },
+        {
+          "start": 44.78,
+          "end": 45.14,
+          "word": " château,",
+          "probability": 0.9996162454287211
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 13,
+      "seek": 2844,
+      "start": 45.32,
+      "end": 49.4,
+      "text": " surtout s'il prévoit de déplacer Dame Silverhand dans une autre geôle",
+      "tokens": [
+        51184,
+        19903,
+        262,
+        6,
+        388,
+        11127,
+        3080,
+        270,
+        368,
+        47687,
+        12858,
+        34447,
+        15861,
+        5543,
+        2680,
+        2251,
+        15081,
+        1519,
+        22313,
+        51370
+      ],
+      "avg_logprob": -0.11766068320120535,
+      "compression_ratio": 1.5616883116883118,
+      "no_speech_prob": 6.462864098055743e-12,
+      "words": [
+        {
+          "start": 45.32,
+          "end": 46.0,
+          "word": " surtout",
+          "probability": 0.9998430013656616
+        },
+        {
+          "start": 46.0,
+          "end": 46.24,
+          "word": " s",
+          "probability": 0.9980522394180298
+        },
+        {
+          "start": 46.24,
+          "end": 46.34,
+          "word": "'il",
+          "probability": 0.9995731115341187
+        },
+        {
+          "start": 46.34,
+          "end": 46.76,
+          "word": " prévoit",
+          "probability": 0.9997279842694601
+        },
+        {
+          "start": 46.76,
+          "end": 46.9,
+          "word": " de",
+          "probability": 0.9999537467956543
+        },
+        {
+          "start": 46.9,
+          "end": 47.46,
+          "word": " déplacer",
+          "probability": 0.9997889697551727
+        },
+        {
+          "start": 47.46,
+          "end": 47.7,
+          "word": " Dame",
+          "probability": 0.9391191005706787
+        },
+        {
+          "start": 47.7,
+          "end": 48.28,
+          "word": " Silverhand",
+          "probability": 0.9059208333492279
+        },
+        {
+          "start": 48.28,
+          "end": 48.6,
+          "word": " dans",
+          "probability": 0.9997366070747375
+        },
+        {
+          "start": 48.6,
+          "end": 48.8,
+          "word": " une",
+          "probability": 0.9993684887886047
+        },
+        {
+          "start": 48.8,
+          "end": 49.04,
+          "word": " autre",
+          "probability": 0.9999420642852783
+        },
+        {
+          "start": 49.04,
+          "end": 49.4,
+          "word": " geôle",
+          "probability": 0.7117827087640762
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 14,
+      "seek": 2844,
+      "start": 49.4,
+      "end": 51.14,
+      "text": " ou de commettre l'irréparable.",
+      "tokens": [
+        51370,
+        2820,
+        368,
+        800,
+        40681,
+        287,
+        6,
+        347,
+        10521,
+        42012,
+        13,
+        51457
+      ],
+      "avg_logprob": -0.11766068320120535,
+      "compression_ratio": 1.5616883116883118,
+      "no_speech_prob": 6.462864098055743e-12,
+      "words": [
+        {
+          "start": 49.4,
+          "end": 49.86,
+          "word": " ou",
+          "probability": 0.8824310898780823
+        },
+        {
+          "start": 49.86,
+          "end": 50.02,
+          "word": " de",
+          "probability": 0.9999827146530151
+        },
+        {
+          "start": 50.02,
+          "end": 50.4,
+          "word": " commettre",
+          "probability": 0.9997323751449585
+        },
+        {
+          "start": 50.4,
+          "end": 50.6,
+          "word": " l",
+          "probability": 0.9998733997344971
+        },
+        {
+          "start": 50.6,
+          "end": 51.14,
+          "word": "'irréparable.",
+          "probability": 0.999205470085144
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 15,
+      "seek": 2844,
+      "start": 51.74,
+      "end": 55.76,
+      "text": " Non, décidément, il te faut élaborer une stratégie",
+      "tokens": [
+        51497,
+        8774,
+        11,
+        9198,
+        327,
+        17595,
+        11,
+        1930,
+        535,
+        8487,
+        11810,
+        3816,
+        260,
+        2251,
+        45023,
+        414,
+        51689
+      ],
+      "avg_logprob": -0.11766068320120535,
+      "compression_ratio": 1.5616883116883118,
+      "no_speech_prob": 6.462864098055743e-12,
+      "words": [
+        {
+          "start": 51.74,
+          "end": 52.1,
+          "word": " Non,",
+          "probability": 0.9982695579528809
+        },
+        {
+          "start": 52.66,
+          "end": 53.3,
+          "word": " décidément,",
+          "probability": 0.9991177916526794
+        },
+        {
+          "start": 53.52,
+          "end": 54.0,
+          "word": " il",
+          "probability": 0.9996527433395386
+        },
+        {
+          "start": 54.0,
+          "end": 54.18,
+          "word": " te",
+          "probability": 0.9999231100082397
+        },
+        {
+          "start": 54.18,
+          "end": 54.42,
+          "word": " faut",
+          "probability": 0.9998563528060913
+        },
+        {
+          "start": 54.42,
+          "end": 54.9,
+          "word": " élaborer",
+          "probability": 0.9996772408485413
+        },
+        {
+          "start": 54.9,
+          "end": 55.1,
+          "word": " une",
+          "probability": 0.9998821020126343
+        },
+        {
+          "start": 55.1,
+          "end": 55.76,
+          "word": " stratégie",
+          "probability": 0.9999620318412781
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 16,
+      "seek": 2844,
+      "start": 55.76,
+      "end": 59.24,
+      "text": " pour passer outre la mimique et libérer Dame Silverhand.",
+      "tokens": [
+        51689,
+        2016,
+        18509,
+        484,
+        265,
+        635,
+        12247,
+        1925,
+        1030,
+        22854,
+        21824,
+        34447,
+        15861,
+        5543,
+        13,
+        51863
+      ],
+      "avg_logprob": -0.11766068320120535,
+      "compression_ratio": 1.5616883116883118,
+      "no_speech_prob": 6.462864098055743e-12,
+      "words": [
+        {
+          "start": 55.76,
+          "end": 56.26,
+          "word": " pour",
+          "probability": 0.9991982579231262
+        },
+        {
+          "start": 56.26,
+          "end": 56.64,
+          "word": " passer",
+          "probability": 0.9965762495994568
+        },
+        {
+          "start": 56.64,
+          "end": 57.04,
+          "word": " outre",
+          "probability": 0.9994559586048126
+        },
+        {
+          "start": 57.04,
+          "end": 57.2,
+          "word": " la",
+          "probability": 0.9997590184211731
+        },
+        {
+          "start": 57.2,
+          "end": 57.62,
+          "word": " mimique",
+          "probability": 0.9669390618801117
+        },
+        {
+          "start": 57.62,
+          "end": 57.92,
+          "word": " et",
+          "probability": 0.9995900988578796
+        },
+        {
+          "start": 57.92,
+          "end": 58.38,
+          "word": " libérer",
+          "probability": 0.99970343708992
+        },
+        {
+          "start": 58.38,
+          "end": 58.64,
+          "word": " Dame",
+          "probability": 0.9995846152305603
+        },
+        {
+          "start": 58.64,
+          "end": 59.24,
+          "word": " Silverhand.",
+          "probability": 0.9997604191303253
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 17,
+      "seek": 5844,
+      "start": 59.32,
+      "end": 60.76,
+      "text": "",
+      "tokens": [
+        50365,
+        1662,
+        318,
+        563,
+        12,
+        27689,
+        16223,
+        15288,
+        7201,
+        51864
+      ],
+      "avg_logprob": -0.4768139123916626,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 3.171375662081033e-10,
+      "words": [
+        {
+          "start": 59.32,
+          "end": 59.38,
+          "word": " –",
+          "probability": 0.03185082599520683
+        },
+        {
+          "start": 59.38,
+          "end": 60.76,
+          "word": " Sous",
+          "probability": 0.9048624336719513
+        },
+        {
+          "start": 60.76,
+          "end": 60.76,
+          "word": "-titrage",
+          "probability": 0.997065544128418
+        },
+        {
+          "start": 60.76,
+          "end": 60.76,
+          "word": " FR",
+          "probability": 0.8051872849464417
+        },
+        {
+          "start": 60.76,
+          "end": 60.76,
+          "word": " 2021",
+          "probability": 0.40900176763534546
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

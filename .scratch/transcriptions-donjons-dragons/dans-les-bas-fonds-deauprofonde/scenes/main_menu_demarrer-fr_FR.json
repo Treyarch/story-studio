@@ -1,0 +1,40 @@
+{
+  "scene": "main_menu_demarrer-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/main_menu_demarrer-fr_FR.mp3",
+  "sha256": "a316ca47cbd10fb30d6b354f092685d9aeec4b7dfb434ce926ed740f7bbdb857",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.4143125,
+  "text": "Démarrez.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 0.88,
+      "text": " Démarrez.",
+      "tokens": [
+        50365,
+        413,
+        4011,
+        15531,
+        89,
+        13,
+        50408
+      ],
+      "avg_logprob": -0.36723442003130913,
+      "compression_ratio": 0.5555555555555556,
+      "no_speech_prob": 4.322937841028107e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.88,
+          "word": " Démarrez.",
+          "probability": 0.9428263306617737
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

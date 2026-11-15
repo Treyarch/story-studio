@@ -1,0 +1,70 @@
+{
+  "scene": "item_title_document-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_document-fr_FR.mp3",
+  "sha256": "b77adc8715477853cb0d937a302a63153ffd00abc40f4767dfed01f64ee44f8a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.14475,
+  "text": "Le document de Seigneur Rojenard",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 2.44,
+      "text": " Le document de Seigneur Rojenard",
+      "tokens": [
+        50365,
+        1456,
+        4166,
+        368,
+        1100,
+        26341,
+        374,
+        3101,
+        73,
+        20062,
+        50490
+      ],
+      "avg_logprob": -0.17115438481171927,
+      "compression_ratio": 0.7894736842105263,
+      "no_speech_prob": 6.468439065626663e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.58,
+          "word": " Le",
+          "probability": 0.9387133121490479
+        },
+        {
+          "start": 0.58,
+          "end": 1.1,
+          "word": " document",
+          "probability": 0.9674221277236938
+        },
+        {
+          "start": 1.1,
+          "end": 1.46,
+          "word": " de",
+          "probability": 0.9944562315940857
+        },
+        {
+          "start": 1.46,
+          "end": 2.02,
+          "word": " Seigneur",
+          "probability": 0.9606746633847555
+        },
+        {
+          "start": 2.02,
+          "end": 2.44,
+          "word": " Rojenard",
+          "probability": 0.7971098025639852
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

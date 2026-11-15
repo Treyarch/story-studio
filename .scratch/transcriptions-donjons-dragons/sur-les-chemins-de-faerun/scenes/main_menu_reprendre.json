@@ -1,0 +1,55 @@
+{
+  "scene": "main_menu_reprendre",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/main_menu_reprendre.mp3",
+  "sha256": "7abfa151a7a365e35171ddc069846fe86e582c86b4b45925e391e6fb9474b834",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.8633125,
+  "text": "Reprendre l'aventure.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.46,
+      "text": " Reprendre l'aventure.",
+      "tokens": [
+        50365,
+        3696,
+        17218,
+        287,
+        6,
+        706,
+        317,
+        540,
+        13,
+        50439
+      ],
+      "avg_logprob": -0.16524791717529297,
+      "compression_ratio": 0.7241379310344828,
+      "no_speech_prob": 5.0486494325430176e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.68,
+          "word": " Reprendre",
+          "probability": 0.8829482793807983
+        },
+        {
+          "start": 0.68,
+          "end": 0.88,
+          "word": " l",
+          "probability": 0.9973474740982056
+        },
+        {
+          "start": 0.88,
+          "end": 1.46,
+          "word": "'aventure.",
+          "probability": 0.9966377764940262
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

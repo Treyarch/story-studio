@@ -1,0 +1,62 @@
+{
+  "scene": "B47_list_ch1_a",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B47_list_ch1_a.mp3",
+  "sha256": "e91dcdc4f4ce2283bbadbcede3de1d7c3fae872cf712aa7a2475ba35c01af413",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.20275,
+  "text": "Attaque Dame Silverhand!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.85,
+      "text": " Attaque Dame Silverhand!",
+      "tokens": [
+        50365,
+        1711,
+        1328,
+        1077,
+        34447,
+        15861,
+        5543,
+        2298,
+        50474
+      ],
+      "avg_logprob": -0.317403119802475,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 1.9008265447761907e-11,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.83,
+          "word": " Attaque",
+          "probability": 0.9732487797737122
+        },
+        {
+          "start": 0.83,
+          "end": 1.05,
+          "word": " Dame",
+          "probability": 0.9100445508956909
+        },
+        {
+          "start": 1.05,
+          "end": 1.69,
+          "word": " Silverhand",
+          "probability": 0.8652770519256592
+        },
+        {
+          "start": 1.69,
+          "end": 1.85,
+          "word": "!",
+          "probability": 0.8929898142814636
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

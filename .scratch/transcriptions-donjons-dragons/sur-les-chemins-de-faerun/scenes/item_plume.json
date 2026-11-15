@@ -1,0 +1,88 @@
+{
+  "scene": "item_plume",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_plume.mp3",
+  "sha256": "7ebfad312de3bee7d38bc844a78f1ec7c8537d9e019eefe6ea473b91eac3c101",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.836,
+  "text": "Un joli souvenir de ton ami à plumes.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.38,
+      "text": " Un joli souvenir de ton ami à plumes.",
+      "tokens": [
+        50365,
+        1156,
+        361,
+        9384,
+        44361,
+        368,
+        2952,
+        33206,
+        1531,
+        499,
+        10018,
+        13,
+        50484
+      ],
+      "avg_logprob": -0.10954403930476733,
+      "compression_ratio": 0.8260869565217391,
+      "no_speech_prob": 6.028262090895797e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.3,
+          "word": " Un",
+          "probability": 0.8604608774185181
+        },
+        {
+          "start": 0.3,
+          "end": 0.6,
+          "word": " joli",
+          "probability": 0.99961718916893
+        },
+        {
+          "start": 0.6,
+          "end": 0.96,
+          "word": " souvenir",
+          "probability": 0.9999666213989258
+        },
+        {
+          "start": 0.96,
+          "end": 1.46,
+          "word": " de",
+          "probability": 0.9997672438621521
+        },
+        {
+          "start": 1.46,
+          "end": 1.62,
+          "word": " ton",
+          "probability": 0.9995158910751343
+        },
+        {
+          "start": 1.62,
+          "end": 1.9,
+          "word": " ami",
+          "probability": 0.989111602306366
+        },
+        {
+          "start": 1.9,
+          "end": 2.08,
+          "word": " à",
+          "probability": 0.9867094159126282
+        },
+        {
+          "start": 2.08,
+          "end": 2.38,
+          "word": " plumes.",
+          "probability": 0.9565494954586029
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

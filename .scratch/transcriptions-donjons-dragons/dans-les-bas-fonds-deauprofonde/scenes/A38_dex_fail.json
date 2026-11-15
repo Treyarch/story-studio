@@ -1,0 +1,449 @@
+{
+  "scene": "A38_dex_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A38_dex_fail.mp3",
+  "sha256": "f031f104873891df34f46da20283a00e7c5fe3a0246613e7bf8bab8b57263b22",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 15.562,
+  "text": "Tu pousses bruyamment pour essayer de détourner l'attention de ce que tu es en train de faire. C'est-à-dire fourrer le papier dans une poche. Mais le domestique t'attrape par le poignet. L'œil mauvais. Qu'est-ce que tu fabriques?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.71,
+      "end": 6.09,
+      "text": " Tu pousses bruyamment pour essayer de détourner l'attention de ce que tu es en train de faire.",
+      "tokens": [
+        50365,
+        7836,
+        39140,
+        6196,
+        738,
+        7493,
+        20619,
+        2016,
+        32421,
+        368,
+        22312,
+        396,
+        1193,
+        287,
+        6,
+        1591,
+        1251,
+        368,
+        1769,
+        631,
+        2604,
+        785,
+        465,
+        3847,
+        368,
+        4865,
+        13,
+        50585
+      ],
+      "avg_logprob": -0.1200470787637374,
+      "compression_ratio": 1.378698224852071,
+      "no_speech_prob": 5.583357561012026e-12,
+      "words": [
+        {
+          "start": 1.71,
+          "end": 2.21,
+          "word": " Tu",
+          "probability": 0.9401587843894958
+        },
+        {
+          "start": 2.21,
+          "end": 2.51,
+          "word": " pousses",
+          "probability": 0.7198527753353119
+        },
+        {
+          "start": 2.51,
+          "end": 2.99,
+          "word": " bruyamment",
+          "probability": 0.9948339859644572
+        },
+        {
+          "start": 2.99,
+          "end": 3.31,
+          "word": " pour",
+          "probability": 0.9417117238044739
+        },
+        {
+          "start": 3.31,
+          "end": 3.65,
+          "word": " essayer",
+          "probability": 0.9994608759880066
+        },
+        {
+          "start": 3.65,
+          "end": 3.87,
+          "word": " de",
+          "probability": 0.9999417066574097
+        },
+        {
+          "start": 3.87,
+          "end": 4.29,
+          "word": " détourner",
+          "probability": 0.9998694658279419
+        },
+        {
+          "start": 4.29,
+          "end": 4.41,
+          "word": " l",
+          "probability": 0.8566734194755554
+        },
+        {
+          "start": 4.41,
+          "end": 4.79,
+          "word": "'attention",
+          "probability": 0.9993873635927836
+        },
+        {
+          "start": 4.79,
+          "end": 4.97,
+          "word": " de",
+          "probability": 0.9995193481445312
+        },
+        {
+          "start": 4.97,
+          "end": 5.11,
+          "word": " ce",
+          "probability": 0.9998612403869629
+        },
+        {
+          "start": 5.11,
+          "end": 5.23,
+          "word": " que",
+          "probability": 0.9999297857284546
+        },
+        {
+          "start": 5.23,
+          "end": 5.37,
+          "word": " tu",
+          "probability": 0.999916672706604
+        },
+        {
+          "start": 5.37,
+          "end": 5.51,
+          "word": " es",
+          "probability": 0.9993044137954712
+        },
+        {
+          "start": 5.51,
+          "end": 5.67,
+          "word": " en",
+          "probability": 0.9998959302902222
+        },
+        {
+          "start": 5.67,
+          "end": 5.75,
+          "word": " train",
+          "probability": 0.9999638795852661
+        },
+        {
+          "start": 5.75,
+          "end": 5.83,
+          "word": " de",
+          "probability": 0.999963641166687
+        },
+        {
+          "start": 5.83,
+          "end": 6.09,
+          "word": " faire.",
+          "probability": 0.9999362230300903
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.27,
+      "end": 8.79,
+      "text": " C'est-à-dire fourrer le papier dans une poche.",
+      "tokens": [
+        50608,
+        383,
+        6,
+        377,
+        12,
+        1467,
+        12,
+        18267,
+        1451,
+        9797,
+        476,
+        37410,
+        2680,
+        2251,
+        714,
+        1876,
+        13,
+        50720
+      ],
+      "avg_logprob": -0.1200470787637374,
+      "compression_ratio": 1.378698224852071,
+      "no_speech_prob": 5.583357561012026e-12,
+      "words": [
+        {
+          "start": 6.27,
+          "end": 6.65,
+          "word": " C",
+          "probability": 0.999487042427063
+        },
+        {
+          "start": 6.65,
+          "end": 6.77,
+          "word": "'est",
+          "probability": 0.9999719262123108
+        },
+        {
+          "start": 6.77,
+          "end": 6.91,
+          "word": "-à",
+          "probability": 0.9905994236469269
+        },
+        {
+          "start": 6.91,
+          "end": 7.19,
+          "word": "-dire",
+          "probability": 0.9999526739120483
+        },
+        {
+          "start": 7.19,
+          "end": 7.61,
+          "word": " fourrer",
+          "probability": 0.966987669467926
+        },
+        {
+          "start": 7.61,
+          "end": 7.75,
+          "word": " le",
+          "probability": 0.9999330043792725
+        },
+        {
+          "start": 7.75,
+          "end": 8.09,
+          "word": " papier",
+          "probability": 0.9997832179069519
+        },
+        {
+          "start": 8.09,
+          "end": 8.25,
+          "word": " dans",
+          "probability": 0.9998056292533875
+        },
+        {
+          "start": 8.25,
+          "end": 8.43,
+          "word": " une",
+          "probability": 0.9999021291732788
+        },
+        {
+          "start": 8.43,
+          "end": 8.79,
+          "word": " poche.",
+          "probability": 0.9998199939727783
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.03,
+      "end": 11.21,
+      "text": " Mais le domestique t'attrape par le poignet.",
+      "tokens": [
+        50746,
+        6313,
+        476,
+        39125,
+        1925,
+        256,
+        6,
+        1591,
+        424,
+        494,
+        971,
+        476,
+        714,
+        788,
+        302,
+        13,
+        50840
+      ],
+      "avg_logprob": -0.1200470787637374,
+      "compression_ratio": 1.378698224852071,
+      "no_speech_prob": 5.583357561012026e-12,
+      "words": [
+        {
+          "start": 9.03,
+          "end": 9.43,
+          "word": " Mais",
+          "probability": 0.999529242515564
+        },
+        {
+          "start": 9.43,
+          "end": 9.57,
+          "word": " le",
+          "probability": 0.9998681545257568
+        },
+        {
+          "start": 9.57,
+          "end": 10.07,
+          "word": " domestique",
+          "probability": 0.9986358284950256
+        },
+        {
+          "start": 10.07,
+          "end": 10.21,
+          "word": " t",
+          "probability": 0.9996926784515381
+        },
+        {
+          "start": 10.21,
+          "end": 10.53,
+          "word": "'attrape",
+          "probability": 0.9991502463817596
+        },
+        {
+          "start": 10.53,
+          "end": 10.67,
+          "word": " par",
+          "probability": 0.9998630285263062
+        },
+        {
+          "start": 10.67,
+          "end": 10.79,
+          "word": " le",
+          "probability": 0.999947190284729
+        },
+        {
+          "start": 10.79,
+          "end": 11.21,
+          "word": " poignet.",
+          "probability": 0.9985555211702982
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 11.45,
+      "end": 12.39,
+      "text": " L'œil mauvais.",
+      "tokens": [
+        50867,
+        441,
+        6,
+        34073,
+        388,
+        50018,
+        13,
+        50900
+      ],
+      "avg_logprob": -0.1200470787637374,
+      "compression_ratio": 1.378698224852071,
+      "no_speech_prob": 5.583357561012026e-12,
+      "words": [
+        {
+          "start": 11.45,
+          "end": 11.85,
+          "word": " L",
+          "probability": 0.9902031421661377
+        },
+        {
+          "start": 11.85,
+          "end": 12.01,
+          "word": "'œil",
+          "probability": 0.9718209902445475
+        },
+        {
+          "start": 12.01,
+          "end": 12.39,
+          "word": " mauvais.",
+          "probability": 0.9733797311782837
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 12.65,
+      "end": 13.83,
+      "text": " Qu'est-ce que tu fabriques?",
+      "tokens": [
+        50921,
+        2326,
+        6,
+        377,
+        12,
+        384,
+        631,
+        2604,
+        5355,
+        470,
+        7519,
+        2506,
+        50995
+      ],
+      "avg_logprob": -0.1200470787637374,
+      "compression_ratio": 1.378698224852071,
+      "no_speech_prob": 5.583357561012026e-12,
+      "words": [
+        {
+          "start": 12.65,
+          "end": 12.93,
+          "word": " Qu",
+          "probability": 0.9955087900161743
+        },
+        {
+          "start": 12.93,
+          "end": 12.93,
+          "word": "'est",
+          "probability": 0.9998759329319
+        },
+        {
+          "start": 12.93,
+          "end": 13.01,
+          "word": "-ce",
+          "probability": 0.999968945980072
+        },
+        {
+          "start": 13.01,
+          "end": 13.07,
+          "word": " que",
+          "probability": 0.9997109770774841
+        },
+        {
+          "start": 13.07,
+          "end": 13.17,
+          "word": " tu",
+          "probability": 0.9999263286590576
+        },
+        {
+          "start": 13.17,
+          "end": 13.63,
+          "word": " fabriques",
+          "probability": 0.9980065623919169
+        },
+        {
+          "start": 13.63,
+          "end": 13.83,
+          "word": "?",
+          "probability": 0.9971828460693359
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

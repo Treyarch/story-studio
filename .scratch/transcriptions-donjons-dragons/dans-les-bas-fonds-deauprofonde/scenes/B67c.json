@@ -1,0 +1,805 @@
+{
+  "scene": "B67c",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B67c.mp3",
+  "sha256": "af77ead11b8df4d71f3510be67b67307a2ef7f6930ef965c49104313df46b903",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 27.7970625,
+  "text": "Le jeune espion te sermonne. Bon ben super! Merci beaucoup! Ça m'apprendra à faire confiance. Je ne referai plus jamais cette erreur. Et toi non plus! Laisse-moi te le dire. Sans te laisser le temps de réagir, le kenku te donne un coup de bec au visage et s'en va à toute vitesse. Tu grognes de douleur, mais ça passe vite. Tu prends le temps de noter toutes ces informations avant de te remettre en route.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.87,
+      "end": 3.83,
+      "text": " Le jeune espion te sermonne.",
+      "tokens": [
+        50365,
+        1456,
+        35610,
+        7089,
+        313,
+        535,
+        34610,
+        716,
+        13,
+        50464
+      ],
+      "avg_logprob": -0.16039683333149662,
+      "compression_ratio": 1.5622641509433963,
+      "no_speech_prob": 9.484107943436015e-12,
+      "words": [
+        {
+          "start": 1.87,
+          "end": 2.43,
+          "word": " Le",
+          "probability": 0.9054391980171204
+        },
+        {
+          "start": 2.43,
+          "end": 2.67,
+          "word": " jeune",
+          "probability": 0.9996947050094604
+        },
+        {
+          "start": 2.67,
+          "end": 3.05,
+          "word": " espion",
+          "probability": 0.9988338947296143
+        },
+        {
+          "start": 3.05,
+          "end": 3.21,
+          "word": " te",
+          "probability": 0.9990087747573853
+        },
+        {
+          "start": 3.21,
+          "end": 3.83,
+          "word": " sermonne.",
+          "probability": 0.9639745950698853
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.93,
+      "end": 6.81,
+      "text": " Bon ben super! Merci beaucoup!",
+      "tokens": [
+        50478,
+        7368,
+        3271,
+        1687,
+        2298,
+        19856,
+        8796,
+        2298,
+        50616
+      ],
+      "avg_logprob": -0.16039683333149662,
+      "compression_ratio": 1.5622641509433963,
+      "no_speech_prob": 9.484107943436015e-12,
+      "words": [
+        {
+          "start": 3.93,
+          "end": 4.27,
+          "word": " Bon",
+          "probability": 0.6427689790725708
+        },
+        {
+          "start": 4.27,
+          "end": 4.47,
+          "word": " ben",
+          "probability": 0.5820081830024719
+        },
+        {
+          "start": 4.47,
+          "end": 4.83,
+          "word": " super",
+          "probability": 0.787558913230896
+        },
+        {
+          "start": 4.83,
+          "end": 5.27,
+          "word": "!",
+          "probability": 0.3962530493736267
+        },
+        {
+          "start": 5.27,
+          "end": 6.27,
+          "word": " Merci",
+          "probability": 0.9916627407073975
+        },
+        {
+          "start": 6.27,
+          "end": 6.63,
+          "word": " beaucoup",
+          "probability": 0.9999436140060425
+        },
+        {
+          "start": 6.63,
+          "end": 6.81,
+          "word": "!",
+          "probability": 0.5369486808776855
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 6.81,
+      "end": 8.43,
+      "text": " Ça m'apprendra à faire confiance.",
+      "tokens": [
+        50616,
+        11527,
+        275,
+        6,
+        1746,
+        4542,
+        424,
+        1531,
+        4865,
+        43213,
+        13,
+        50694
+      ],
+      "avg_logprob": -0.16039683333149662,
+      "compression_ratio": 1.5622641509433963,
+      "no_speech_prob": 9.484107943436015e-12,
+      "words": [
+        {
+          "start": 6.81,
+          "end": 7.19,
+          "word": " Ça",
+          "probability": 0.99313884973526
+        },
+        {
+          "start": 7.19,
+          "end": 7.31,
+          "word": " m",
+          "probability": 0.8689655661582947
+        },
+        {
+          "start": 7.31,
+          "end": 7.73,
+          "word": "'apprendra",
+          "probability": 0.9989303648471832
+        },
+        {
+          "start": 7.73,
+          "end": 7.85,
+          "word": " à",
+          "probability": 0.9985659718513489
+        },
+        {
+          "start": 7.85,
+          "end": 7.99,
+          "word": " faire",
+          "probability": 0.9991185069084167
+        },
+        {
+          "start": 7.99,
+          "end": 8.43,
+          "word": " confiance.",
+          "probability": 0.9998900890350342
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 8.65,
+      "end": 10.49,
+      "text": " Je ne referai plus jamais cette erreur.",
+      "tokens": [
+        50715,
+        2588,
+        408,
+        2864,
+        1301,
+        1804,
+        14540,
+        5550,
+        28641,
+        374,
+        13,
+        50796
+      ],
+      "avg_logprob": -0.16039683333149662,
+      "compression_ratio": 1.5622641509433963,
+      "no_speech_prob": 9.484107943436015e-12,
+      "words": [
+        {
+          "start": 8.65,
+          "end": 8.97,
+          "word": " Je",
+          "probability": 0.999651312828064
+        },
+        {
+          "start": 8.97,
+          "end": 9.05,
+          "word": " ne",
+          "probability": 0.9995232820510864
+        },
+        {
+          "start": 9.05,
+          "end": 9.37,
+          "word": " referai",
+          "probability": 0.8718633055686951
+        },
+        {
+          "start": 9.37,
+          "end": 9.55,
+          "word": " plus",
+          "probability": 0.9996778964996338
+        },
+        {
+          "start": 9.55,
+          "end": 9.89,
+          "word": " jamais",
+          "probability": 0.9997441172599792
+        },
+        {
+          "start": 9.89,
+          "end": 10.13,
+          "word": " cette",
+          "probability": 0.9985639452934265
+        },
+        {
+          "start": 10.13,
+          "end": 10.49,
+          "word": " erreur.",
+          "probability": 0.9999210834503174
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 10.61,
+      "end": 12.83,
+      "text": " Et toi non plus! Laisse-moi te le dire.",
+      "tokens": [
+        50805,
+        3790,
+        15648,
+        2107,
+        1804,
+        2298,
+        441,
+        40714,
+        12,
+        29292,
+        535,
+        476,
+        1264,
+        13,
+        50919
+      ],
+      "avg_logprob": -0.16039683333149662,
+      "compression_ratio": 1.5622641509433963,
+      "no_speech_prob": 9.484107943436015e-12,
+      "words": [
+        {
+          "start": 10.61,
+          "end": 10.75,
+          "word": " Et",
+          "probability": 0.9992743134498596
+        },
+        {
+          "start": 10.75,
+          "end": 10.95,
+          "word": " toi",
+          "probability": 0.9997410178184509
+        },
+        {
+          "start": 10.95,
+          "end": 11.07,
+          "word": " non",
+          "probability": 0.9997743964195251
+        },
+        {
+          "start": 11.07,
+          "end": 11.29,
+          "word": " plus",
+          "probability": 0.9999690055847168
+        },
+        {
+          "start": 11.29,
+          "end": 11.49,
+          "word": "!",
+          "probability": 0.6247295141220093
+        },
+        {
+          "start": 11.49,
+          "end": 11.97,
+          "word": " Laisse",
+          "probability": 0.9971170723438263
+        },
+        {
+          "start": 11.97,
+          "end": 12.21,
+          "word": "-moi",
+          "probability": 0.9951008558273315
+        },
+        {
+          "start": 12.21,
+          "end": 12.41,
+          "word": " te",
+          "probability": 0.9999023675918579
+        },
+        {
+          "start": 12.41,
+          "end": 12.57,
+          "word": " le",
+          "probability": 0.999619722366333
+        },
+        {
+          "start": 12.57,
+          "end": 12.83,
+          "word": " dire.",
+          "probability": 0.999326229095459
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 13.31,
+      "end": 14.91,
+      "text": " Sans te laisser le temps de réagir,",
+      "tokens": [
+        50940,
+        21504,
+        535,
+        34463,
+        476,
+        8827,
+        368,
+        3960,
+        559,
+        347,
+        11,
+        51017
+      ],
+      "avg_logprob": -0.16039683333149662,
+      "compression_ratio": 1.5622641509433963,
+      "no_speech_prob": 9.484107943436015e-12,
+      "words": [
+        {
+          "start": 13.31,
+          "end": 13.55,
+          "word": " Sans",
+          "probability": 0.9957798719406128
+        },
+        {
+          "start": 13.55,
+          "end": 13.69,
+          "word": " te",
+          "probability": 0.9998959302902222
+        },
+        {
+          "start": 13.69,
+          "end": 13.93,
+          "word": " laisser",
+          "probability": 0.9995703101158142
+        },
+        {
+          "start": 13.93,
+          "end": 14.11,
+          "word": " le",
+          "probability": 0.9997283816337585
+        },
+        {
+          "start": 14.11,
+          "end": 14.25,
+          "word": " temps",
+          "probability": 0.9998902082443237
+        },
+        {
+          "start": 14.25,
+          "end": 14.37,
+          "word": " de",
+          "probability": 0.9999229907989502
+        },
+        {
+          "start": 14.37,
+          "end": 14.91,
+          "word": " réagir,",
+          "probability": 0.999426543712616
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 15.17,
+      "end": 17.41,
+      "text": " le kenku te donne un coup de bec au visage",
+      "tokens": [
+        51033,
+        476,
+        18787,
+        5279,
+        535,
+        21837,
+        517,
+        8682,
+        368,
+        312,
+        66,
+        1609,
+        1452,
+        609,
+        51142
+      ],
+      "avg_logprob": -0.16039683333149662,
+      "compression_ratio": 1.5622641509433963,
+      "no_speech_prob": 9.484107943436015e-12,
+      "words": [
+        {
+          "start": 15.17,
+          "end": 15.33,
+          "word": " le",
+          "probability": 0.9889988303184509
+        },
+        {
+          "start": 15.33,
+          "end": 15.77,
+          "word": " kenku",
+          "probability": 0.6327845305204391
+        },
+        {
+          "start": 15.77,
+          "end": 15.95,
+          "word": " te",
+          "probability": 0.9992249011993408
+        },
+        {
+          "start": 15.95,
+          "end": 16.17,
+          "word": " donne",
+          "probability": 0.9994088411331177
+        },
+        {
+          "start": 16.17,
+          "end": 16.43,
+          "word": " un",
+          "probability": 0.9998037219047546
+        },
+        {
+          "start": 16.43,
+          "end": 16.59,
+          "word": " coup",
+          "probability": 0.9988443851470947
+        },
+        {
+          "start": 16.59,
+          "end": 16.69,
+          "word": " de",
+          "probability": 0.9998655319213867
+        },
+        {
+          "start": 16.69,
+          "end": 16.87,
+          "word": " bec",
+          "probability": 0.9959364235401154
+        },
+        {
+          "start": 16.87,
+          "end": 17.01,
+          "word": " au",
+          "probability": 0.9994261264801025
+        },
+        {
+          "start": 17.01,
+          "end": 17.41,
+          "word": " visage",
+          "probability": 0.9999457001686096
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 17.41,
+      "end": 18.67,
+      "text": " et s'en va à toute vitesse.",
+      "tokens": [
+        51142,
+        1030,
+        262,
+        6,
+        268,
+        2773,
+        1531,
+        14953,
+        49573,
+        13,
+        51209
+      ],
+      "avg_logprob": -0.16039683333149662,
+      "compression_ratio": 1.5622641509433963,
+      "no_speech_prob": 9.484107943436015e-12,
+      "words": [
+        {
+          "start": 17.41,
+          "end": 17.63,
+          "word": " et",
+          "probability": 0.9715112447738647
+        },
+        {
+          "start": 17.63,
+          "end": 17.79,
+          "word": " s",
+          "probability": 0.9998751878738403
+        },
+        {
+          "start": 17.79,
+          "end": 17.85,
+          "word": "'en",
+          "probability": 0.9999557137489319
+        },
+        {
+          "start": 17.85,
+          "end": 17.97,
+          "word": " va",
+          "probability": 0.9997190833091736
+        },
+        {
+          "start": 17.97,
+          "end": 18.13,
+          "word": " à",
+          "probability": 0.9998934268951416
+        },
+        {
+          "start": 18.13,
+          "end": 18.29,
+          "word": " toute",
+          "probability": 0.9990382194519043
+        },
+        {
+          "start": 18.29,
+          "end": 18.67,
+          "word": " vitesse.",
+          "probability": 0.9998548030853271
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 18.93,
+      "end": 21.37,
+      "text": " Tu grognes de douleur, mais ça passe vite.",
+      "tokens": [
+        51228,
+        7836,
+        4634,
+        70,
+        4081,
+        368,
+        2482,
+        306,
+        374,
+        11,
+        2420,
+        2788,
+        14530,
+        24462,
+        13,
+        51342
+      ],
+      "avg_logprob": -0.16039683333149662,
+      "compression_ratio": 1.5622641509433963,
+      "no_speech_prob": 9.484107943436015e-12,
+      "words": [
+        {
+          "start": 18.93,
+          "end": 19.23,
+          "word": " Tu",
+          "probability": 0.9993256330490112
+        },
+        {
+          "start": 19.23,
+          "end": 19.59,
+          "word": " grognes",
+          "probability": 0.9953661759694418
+        },
+        {
+          "start": 19.59,
+          "end": 19.77,
+          "word": " de",
+          "probability": 0.9995334148406982
+        },
+        {
+          "start": 19.77,
+          "end": 20.15,
+          "word": " douleur,",
+          "probability": 0.9951914350191752
+        },
+        {
+          "start": 20.29,
+          "end": 20.71,
+          "word": " mais",
+          "probability": 0.9999154806137085
+        },
+        {
+          "start": 20.71,
+          "end": 20.95,
+          "word": " ça",
+          "probability": 0.9999439716339111
+        },
+        {
+          "start": 20.95,
+          "end": 21.15,
+          "word": " passe",
+          "probability": 0.9995988011360168
+        },
+        {
+          "start": 21.15,
+          "end": 21.37,
+          "word": " vite.",
+          "probability": 0.9999129772186279
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 21.65,
+      "end": 24.03,
+      "text": " Tu prends le temps de noter toutes ces informations",
+      "tokens": [
+        51371,
+        7836,
+        46750,
+        476,
+        8827,
+        368,
+        406,
+        260,
+        14437,
+        7879,
+        38855,
+        51473
+      ],
+      "avg_logprob": -0.16039683333149662,
+      "compression_ratio": 1.5622641509433963,
+      "no_speech_prob": 9.484107943436015e-12,
+      "words": [
+        {
+          "start": 21.65,
+          "end": 22.09,
+          "word": " Tu",
+          "probability": 0.9988375306129456
+        },
+        {
+          "start": 22.09,
+          "end": 22.27,
+          "word": " prends",
+          "probability": 0.9990936517715454
+        },
+        {
+          "start": 22.27,
+          "end": 22.45,
+          "word": " le",
+          "probability": 0.999961256980896
+        },
+        {
+          "start": 22.45,
+          "end": 22.57,
+          "word": " temps",
+          "probability": 0.9999555349349976
+        },
+        {
+          "start": 22.57,
+          "end": 22.71,
+          "word": " de",
+          "probability": 0.9999346733093262
+        },
+        {
+          "start": 22.71,
+          "end": 23.01,
+          "word": " noter",
+          "probability": 0.9998501837253571
+        },
+        {
+          "start": 23.01,
+          "end": 23.29,
+          "word": " toutes",
+          "probability": 0.9998107552528381
+        },
+        {
+          "start": 23.29,
+          "end": 23.47,
+          "word": " ces",
+          "probability": 0.9938138723373413
+        },
+        {
+          "start": 23.47,
+          "end": 24.03,
+          "word": " informations",
+          "probability": 0.9993454813957214
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 11,
+      "seek": 0,
+      "start": 24.03,
+      "end": 25.67,
+      "text": " avant de te remettre en route.",
+      "tokens": [
+        51473,
+        13439,
+        368,
+        535,
+        890,
+        40681,
+        465,
+        7955,
+        13,
+        51556
+      ],
+      "avg_logprob": -0.16039683333149662,
+      "compression_ratio": 1.5622641509433963,
+      "no_speech_prob": 9.484107943436015e-12,
+      "words": [
+        {
+          "start": 24.03,
+          "end": 24.69,
+          "word": " avant",
+          "probability": 0.9947786331176758
+        },
+        {
+          "start": 24.69,
+          "end": 24.87,
+          "word": " de",
+          "probability": 0.9998760223388672
+        },
+        {
+          "start": 24.87,
+          "end": 25.01,
+          "word": " te",
+          "probability": 0.9996302127838135
+        },
+        {
+          "start": 25.01,
+          "end": 25.31,
+          "word": " remettre",
+          "probability": 0.9997346997261047
+        },
+        {
+          "start": 25.31,
+          "end": 25.47,
+          "word": " en",
+          "probability": 0.9999874830245972
+        },
+        {
+          "start": 25.47,
+          "end": 25.67,
+          "word": " route.",
+          "probability": 0.9998589754104614
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

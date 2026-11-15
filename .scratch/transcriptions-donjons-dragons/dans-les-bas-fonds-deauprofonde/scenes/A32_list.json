@@ -1,0 +1,74 @@
+{
+  "scene": "A32_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A32_list.mp3",
+  "sha256": "e91db4437ff904f48f0652f344ef4142681b76178b360a0c9c5de0869c46e069",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.1799375,
+  "text": "Mais comment t'y prendre?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.8,
+      "text": " Mais comment t'y prendre?",
+      "tokens": [
+        50365,
+        6313,
+        2871,
+        256,
+        6,
+        88,
+        16566,
+        2506,
+        50473
+      ],
+      "avg_logprob": -0.2579546391963959,
+      "compression_ratio": 0.7647058823529411,
+      "no_speech_prob": 4.360432587918739e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.62,
+          "word": " Mais",
+          "probability": 0.9036691784858704
+        },
+        {
+          "start": 0.62,
+          "end": 1.0,
+          "word": " comment",
+          "probability": 0.9993435740470886
+        },
+        {
+          "start": 1.0,
+          "end": 1.22,
+          "word": " t",
+          "probability": 0.6156073808670044
+        },
+        {
+          "start": 1.22,
+          "end": 1.3,
+          "word": "'y",
+          "probability": 0.9996044039726257
+        },
+        {
+          "start": 1.3,
+          "end": 1.56,
+          "word": " prendre",
+          "probability": 0.9979367256164551
+        },
+        {
+          "start": 1.56,
+          "end": 1.8,
+          "word": "?",
+          "probability": 0.9614288210868835
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

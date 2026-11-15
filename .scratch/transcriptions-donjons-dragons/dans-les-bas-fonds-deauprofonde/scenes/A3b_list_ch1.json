@@ -1,0 +1,60 @@
+{
+  "scene": "A3b_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A3b_list_ch1.mp3",
+  "sha256": "c09d14f7820823486b6110d6214c5aee8ed239f50b8374051d1597a5ee70c927",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.3965625,
+  "text": "Demandez de l'aide.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.06,
+      "end": 1.78,
+      "text": " Demandez de l'aide.",
+      "tokens": [
+        50365,
+        4686,
+        37003,
+        368,
+        287,
+        6,
+        41980,
+        13,
+        50429
+      ],
+      "avg_logprob": -0.31979299485683443,
+      "compression_ratio": 0.7037037037037037,
+      "no_speech_prob": 4.950713016621533e-12,
+      "words": [
+        {
+          "start": 1.06,
+          "end": 1.38,
+          "word": " Demandez",
+          "probability": 0.8597246408462524
+        },
+        {
+          "start": 1.38,
+          "end": 1.52,
+          "word": " de",
+          "probability": 0.9981572031974792
+        },
+        {
+          "start": 1.52,
+          "end": 1.62,
+          "word": " l",
+          "probability": 0.999640703201294
+        },
+        {
+          "start": 1.62,
+          "end": 1.78,
+          "word": "'aide.",
+          "probability": 0.9998585283756256
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

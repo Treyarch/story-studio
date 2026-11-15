@@ -1,0 +1,1291 @@
+{
+  "scene": "A16",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A16.mp3",
+  "sha256": "cbcc9b2dda6294ca84da35cc00b15adcf03e0213a6ce169229e729576aa239a0",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 56.840375,
+  "text": "Satisfait de tes efforts, le méphite fumant se dirige au-dessus du feu et en aspire profondément les fumées et les braises. Bientôt, les flammes meurent et c'est à peine si les cendres qui restent fument encore. Une fois le feu éteint, la créature se tourne vers toi. Bravo! C'est rare qu'un être de ce monde m'impressionne. et il disparaît dans une explosion de fumée qui monte en tournoyant vers le ciel, laissant quelques volutes grises derrière elle. Aspine te lance. Félicitations! Tu as bien mérité le médaillon de l'air. Elle te montre un nouveau disque qui semble avoir été sculpté dans du vert, d'un bleu semblable à celui d'un ciel sans nuages. La dryade te le remet. Tu le soupèses dans ta paume avec précaution avant de le ranger avec le premier.",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.26,
+      "end": 9.32,
+      "text": " Satisfait de tes efforts, le méphite fumant se dirige au-dessus du feu et en aspire profondément les fumées et les braises.",
+      "tokens": [
+        50365,
+        5344,
+        4937,
+        1001,
+        368,
+        20018,
+        6484,
+        11,
+        476,
+        13191,
+        69,
+        642,
+        43845,
+        394,
+        369,
+        4746,
+        3969,
+        1609,
+        12,
+        42401,
+        1581,
+        29539,
+        1030,
+        465,
+        41224,
+        1740,
+        684,
+        17595,
+        1512,
+        43845,
+        6836,
+        1030,
+        1512,
+        1548,
+        3598,
+        13,
+        50769
+      ],
+      "avg_logprob": -0.08222217754357392,
+      "compression_ratio": 1.4755555555555555,
+      "no_speech_prob": 7.907354458713822e-12,
+      "words": [
+        {
+          "start": 1.26,
+          "end": 2.14,
+          "word": " Satisfait",
+          "probability": 0.9230129917462667
+        },
+        {
+          "start": 2.14,
+          "end": 2.28,
+          "word": " de",
+          "probability": 0.9905626773834229
+        },
+        {
+          "start": 2.28,
+          "end": 2.44,
+          "word": " tes",
+          "probability": 0.9997228980064392
+        },
+        {
+          "start": 2.44,
+          "end": 2.78,
+          "word": " efforts,",
+          "probability": 0.9997977614402771
+        },
+        {
+          "start": 3.32,
+          "end": 3.56,
+          "word": " le",
+          "probability": 0.9986370205879211
+        },
+        {
+          "start": 3.56,
+          "end": 4.0,
+          "word": " méphite",
+          "probability": 0.8689562082290649
+        },
+        {
+          "start": 4.0,
+          "end": 4.44,
+          "word": " fumant",
+          "probability": 0.999428391456604
+        },
+        {
+          "start": 4.44,
+          "end": 4.92,
+          "word": " se",
+          "probability": 0.9994009733200073
+        },
+        {
+          "start": 4.92,
+          "end": 5.34,
+          "word": " dirige",
+          "probability": 0.9998928606510162
+        },
+        {
+          "start": 5.34,
+          "end": 5.48,
+          "word": " au",
+          "probability": 0.9999284744262695
+        },
+        {
+          "start": 5.48,
+          "end": 5.76,
+          "word": "-dessus",
+          "probability": 0.9915087819099426
+        },
+        {
+          "start": 5.76,
+          "end": 5.96,
+          "word": " du",
+          "probability": 0.9998235106468201
+        },
+        {
+          "start": 5.96,
+          "end": 6.18,
+          "word": " feu",
+          "probability": 0.9999337196350098
+        },
+        {
+          "start": 6.18,
+          "end": 6.66,
+          "word": " et",
+          "probability": 0.9956486821174622
+        },
+        {
+          "start": 6.66,
+          "end": 6.86,
+          "word": " en",
+          "probability": 0.9996969699859619
+        },
+        {
+          "start": 6.86,
+          "end": 7.26,
+          "word": " aspire",
+          "probability": 0.998134434223175
+        },
+        {
+          "start": 7.26,
+          "end": 8.14,
+          "word": " profondément",
+          "probability": 0.9968957702318827
+        },
+        {
+          "start": 8.14,
+          "end": 8.36,
+          "word": " les",
+          "probability": 0.999085545539856
+        },
+        {
+          "start": 8.36,
+          "end": 8.72,
+          "word": " fumées",
+          "probability": 0.9992141723632812
+        },
+        {
+          "start": 8.72,
+          "end": 8.84,
+          "word": " et",
+          "probability": 0.9986287355422974
+        },
+        {
+          "start": 8.84,
+          "end": 9.0,
+          "word": " les",
+          "probability": 0.9997261166572571
+        },
+        {
+          "start": 9.0,
+          "end": 9.32,
+          "word": " braises.",
+          "probability": 0.9923521876335144
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 10.3,
+      "end": 15.28,
+      "text": " Bientôt, les flammes meurent et c'est à peine si les cendres qui restent fument encore.",
+      "tokens": [
+        50812,
+        363,
+        33844,
+        11,
+        1512,
+        932,
+        5136,
+        279,
+        385,
+        540,
+        580,
+        1030,
+        269,
+        6,
+        377,
+        1531,
+        46655,
+        1511,
+        1512,
+        269,
+        521,
+        495,
+        1956,
+        1472,
+        317,
+        283,
+        2206,
+        10122,
+        13,
+        51068
+      ],
+      "avg_logprob": -0.08222217754357392,
+      "compression_ratio": 1.4755555555555555,
+      "no_speech_prob": 7.907354458713822e-12,
+      "words": [
+        {
+          "start": 10.3,
+          "end": 10.82,
+          "word": " Bientôt,",
+          "probability": 0.9986326694488525
+        },
+        {
+          "start": 10.82,
+          "end": 11.34,
+          "word": " les",
+          "probability": 0.9996715784072876
+        },
+        {
+          "start": 11.34,
+          "end": 11.78,
+          "word": " flammes",
+          "probability": 0.9994265834490458
+        },
+        {
+          "start": 11.78,
+          "end": 12.2,
+          "word": " meurent",
+          "probability": 0.9976786176363627
+        },
+        {
+          "start": 12.2,
+          "end": 12.64,
+          "word": " et",
+          "probability": 0.6182559728622437
+        },
+        {
+          "start": 12.64,
+          "end": 12.78,
+          "word": " c",
+          "probability": 0.9991559982299805
+        },
+        {
+          "start": 12.78,
+          "end": 12.9,
+          "word": "'est",
+          "probability": 0.9999946355819702
+        },
+        {
+          "start": 12.9,
+          "end": 13.06,
+          "word": " à",
+          "probability": 0.9991605281829834
+        },
+        {
+          "start": 13.06,
+          "end": 13.26,
+          "word": " peine",
+          "probability": 0.9999419450759888
+        },
+        {
+          "start": 13.26,
+          "end": 13.48,
+          "word": " si",
+          "probability": 0.9997126460075378
+        },
+        {
+          "start": 13.48,
+          "end": 13.64,
+          "word": " les",
+          "probability": 0.9996174573898315
+        },
+        {
+          "start": 13.64,
+          "end": 13.96,
+          "word": " cendres",
+          "probability": 0.9992844661076864
+        },
+        {
+          "start": 13.96,
+          "end": 14.18,
+          "word": " qui",
+          "probability": 0.998519241809845
+        },
+        {
+          "start": 14.18,
+          "end": 14.54,
+          "word": " restent",
+          "probability": 0.999590277671814
+        },
+        {
+          "start": 14.54,
+          "end": 14.84,
+          "word": " fument",
+          "probability": 0.9773814976215363
+        },
+        {
+          "start": 14.84,
+          "end": 15.28,
+          "word": " encore.",
+          "probability": 0.9997499585151672
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 16.54,
+      "end": 20.18,
+      "text": " Une fois le feu éteint, la créature se tourne vers toi.",
+      "tokens": [
+        51147,
+        16701,
+        9576,
+        476,
+        29539,
+        1136,
+        975,
+        686,
+        11,
+        635,
+        15609,
+        1503,
+        369,
+        3512,
+        716,
+        1774,
+        15648,
+        13,
+        51313
+      ],
+      "avg_logprob": -0.08222217754357392,
+      "compression_ratio": 1.4755555555555555,
+      "no_speech_prob": 7.907354458713822e-12,
+      "words": [
+        {
+          "start": 16.54,
+          "end": 17.06,
+          "word": " Une",
+          "probability": 0.9991889595985413
+        },
+        {
+          "start": 17.06,
+          "end": 17.24,
+          "word": " fois",
+          "probability": 0.9999722242355347
+        },
+        {
+          "start": 17.24,
+          "end": 17.42,
+          "word": " le",
+          "probability": 0.9993997812271118
+        },
+        {
+          "start": 17.42,
+          "end": 17.62,
+          "word": " feu",
+          "probability": 0.9999679327011108
+        },
+        {
+          "start": 17.62,
+          "end": 17.94,
+          "word": " éteint,",
+          "probability": 0.9990235567092896
+        },
+        {
+          "start": 18.48,
+          "end": 18.62,
+          "word": " la",
+          "probability": 0.9996780157089233
+        },
+        {
+          "start": 18.62,
+          "end": 19.22,
+          "word": " créature",
+          "probability": 0.9998517334461212
+        },
+        {
+          "start": 19.22,
+          "end": 19.46,
+          "word": " se",
+          "probability": 0.9997593760490417
+        },
+        {
+          "start": 19.46,
+          "end": 19.78,
+          "word": " tourne",
+          "probability": 0.9998100101947784
+        },
+        {
+          "start": 19.78,
+          "end": 19.96,
+          "word": " vers",
+          "probability": 0.9996980428695679
+        },
+        {
+          "start": 19.96,
+          "end": 20.18,
+          "word": " toi.",
+          "probability": 0.9991376399993896
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 20.32,
+      "end": 25.24,
+      "text": " Bravo! C'est rare qu'un être de ce monde m'impressionne.",
+      "tokens": [
+        51320,
+        28861,
+        2298,
+        383,
+        6,
+        377,
+        5892,
+        421,
+        6,
+        409,
+        7418,
+        368,
+        1769,
+        10431,
+        275,
+        6,
+        36107,
+        716,
+        13,
+        51565
+      ],
+      "avg_logprob": -0.08222217754357392,
+      "compression_ratio": 1.4755555555555555,
+      "no_speech_prob": 7.907354458713822e-12,
+      "words": [
+        {
+          "start": 20.32,
+          "end": 20.84,
+          "word": " Bravo",
+          "probability": 0.8025306463241577
+        },
+        {
+          "start": 20.84,
+          "end": 21.52,
+          "word": "!",
+          "probability": 0.948362410068512
+        },
+        {
+          "start": 21.52,
+          "end": 21.94,
+          "word": " C",
+          "probability": 0.9996019005775452
+        },
+        {
+          "start": 21.94,
+          "end": 22.06,
+          "word": "'est",
+          "probability": 0.9999756217002869
+        },
+        {
+          "start": 22.06,
+          "end": 22.28,
+          "word": " rare",
+          "probability": 0.9959820508956909
+        },
+        {
+          "start": 22.28,
+          "end": 22.48,
+          "word": " qu",
+          "probability": 0.9997218251228333
+        },
+        {
+          "start": 22.48,
+          "end": 22.66,
+          "word": "'un",
+          "probability": 0.9998892843723297
+        },
+        {
+          "start": 22.66,
+          "end": 22.9,
+          "word": " être",
+          "probability": 0.9992818236351013
+        },
+        {
+          "start": 22.9,
+          "end": 23.12,
+          "word": " de",
+          "probability": 0.9997678399085999
+        },
+        {
+          "start": 23.12,
+          "end": 23.38,
+          "word": " ce",
+          "probability": 0.9984637498855591
+        },
+        {
+          "start": 23.38,
+          "end": 23.72,
+          "word": " monde",
+          "probability": 0.9997237324714661
+        },
+        {
+          "start": 23.72,
+          "end": 23.94,
+          "word": " m",
+          "probability": 0.9983355402946472
+        },
+        {
+          "start": 23.94,
+          "end": 25.24,
+          "word": "'impressionne.",
+          "probability": 0.9996523459752401
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 2398,
+      "start": 25.24,
+      "end": 30.3,
+      "text": " et il disparaît dans une explosion de fumée qui monte en tournoyant vers le ciel,",
+      "tokens": [
+        50365,
+        1030,
+        1930,
+        14548,
+        64,
+        20028,
+        2680,
+        2251,
+        15673,
+        368,
+        43845,
+        3856,
+        1956,
+        35437,
+        465,
+        3512,
+        77,
+        939,
+        394,
+        1774,
+        476,
+        34380,
+        11,
+        50619
+      ],
+      "avg_logprob": -0.11258336376372001,
+      "compression_ratio": 1.5795053003533568,
+      "no_speech_prob": 6.705618699198723e-12,
+      "words": [
+        {
+          "start": 25.24,
+          "end": 25.52,
+          "word": " et",
+          "probability": 0.6748362183570862
+        },
+        {
+          "start": 25.52,
+          "end": 25.74,
+          "word": " il",
+          "probability": 0.951438307762146
+        },
+        {
+          "start": 25.74,
+          "end": 26.32,
+          "word": " disparaît",
+          "probability": 0.9989898602167765
+        },
+        {
+          "start": 26.32,
+          "end": 26.46,
+          "word": " dans",
+          "probability": 0.9996728897094727
+        },
+        {
+          "start": 26.46,
+          "end": 26.7,
+          "word": " une",
+          "probability": 0.9999454021453857
+        },
+        {
+          "start": 26.7,
+          "end": 27.22,
+          "word": " explosion",
+          "probability": 0.9998071789741516
+        },
+        {
+          "start": 27.22,
+          "end": 27.5,
+          "word": " de",
+          "probability": 0.9999215602874756
+        },
+        {
+          "start": 27.5,
+          "end": 27.88,
+          "word": " fumée",
+          "probability": 0.9991690814495087
+        },
+        {
+          "start": 27.88,
+          "end": 28.38,
+          "word": " qui",
+          "probability": 0.9947856068611145
+        },
+        {
+          "start": 28.38,
+          "end": 28.78,
+          "word": " monte",
+          "probability": 0.9982699155807495
+        },
+        {
+          "start": 28.78,
+          "end": 29.08,
+          "word": " en",
+          "probability": 0.9997712969779968
+        },
+        {
+          "start": 29.08,
+          "end": 29.66,
+          "word": " tournoyant",
+          "probability": 0.9996480494737625
+        },
+        {
+          "start": 29.66,
+          "end": 29.8,
+          "word": " vers",
+          "probability": 0.9997630715370178
+        },
+        {
+          "start": 29.8,
+          "end": 29.98,
+          "word": " le",
+          "probability": 0.9998995065689087
+        },
+        {
+          "start": 29.98,
+          "end": 30.3,
+          "word": " ciel,",
+          "probability": 0.99994957447052
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 2398,
+      "start": 30.56,
+      "end": 32.84,
+      "text": " laissant quelques volutes grises derrière elle.",
+      "tokens": [
+        50645,
+        635,
+        29492,
+        16597,
+        1996,
+        1819,
+        677,
+        3598,
+        31465,
+        8404,
+        13,
+        50746
+      ],
+      "avg_logprob": -0.11258336376372001,
+      "compression_ratio": 1.5795053003533568,
+      "no_speech_prob": 6.705618699198723e-12,
+      "words": [
+        {
+          "start": 30.56,
+          "end": 31.16,
+          "word": " laissant",
+          "probability": 0.9994865357875824
+        },
+        {
+          "start": 31.16,
+          "end": 31.54,
+          "word": " quelques",
+          "probability": 0.9826948046684265
+        },
+        {
+          "start": 31.54,
+          "end": 31.9,
+          "word": " volutes",
+          "probability": 0.9567541778087616
+        },
+        {
+          "start": 31.9,
+          "end": 32.24,
+          "word": " grises",
+          "probability": 0.9987157881259918
+        },
+        {
+          "start": 32.24,
+          "end": 32.5,
+          "word": " derrière",
+          "probability": 0.9999566078186035
+        },
+        {
+          "start": 32.5,
+          "end": 32.84,
+          "word": " elle.",
+          "probability": 0.9937637448310852
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 2398,
+      "start": 33.6,
+      "end": 34.76,
+      "text": " Aspine te lance.",
+      "tokens": [
+        50786,
+        1018,
+        40412,
+        535,
+        39234,
+        13,
+        50843
+      ],
+      "avg_logprob": -0.11258336376372001,
+      "compression_ratio": 1.5795053003533568,
+      "no_speech_prob": 6.705618699198723e-12,
+      "words": [
+        {
+          "start": 33.6,
+          "end": 34.14,
+          "word": " Aspine",
+          "probability": 0.6869591772556305
+        },
+        {
+          "start": 34.14,
+          "end": 34.36,
+          "word": " te",
+          "probability": 0.9997547268867493
+        },
+        {
+          "start": 34.36,
+          "end": 34.76,
+          "word": " lance.",
+          "probability": 0.9997959733009338
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 2398,
+      "start": 35.06,
+      "end": 38.58,
+      "text": " Félicitations! Tu as bien mérité le médaillon de l'air.",
+      "tokens": [
+        50860,
+        479,
+        526,
+        1050,
+        31265,
+        2298,
+        7836,
+        382,
+        3610,
+        13191,
+        3210,
+        526,
+        476,
+        13191,
+        2675,
+        30961,
+        368,
+        287,
+        6,
+        1246,
+        13,
+        51034
+      ],
+      "avg_logprob": -0.11258336376372001,
+      "compression_ratio": 1.5795053003533568,
+      "no_speech_prob": 6.705618699198723e-12,
+      "words": [
+        {
+          "start": 35.06,
+          "end": 35.66,
+          "word": " Félicitations",
+          "probability": 0.972947895526886
+        },
+        {
+          "start": 35.66,
+          "end": 36.12,
+          "word": "!",
+          "probability": 0.6680282354354858
+        },
+        {
+          "start": 36.12,
+          "end": 36.56,
+          "word": " Tu",
+          "probability": 0.9995083808898926
+        },
+        {
+          "start": 36.56,
+          "end": 36.68,
+          "word": " as",
+          "probability": 0.9996691942214966
+        },
+        {
+          "start": 36.68,
+          "end": 36.84,
+          "word": " bien",
+          "probability": 0.9999796152114868
+        },
+        {
+          "start": 36.84,
+          "end": 37.24,
+          "word": " mérité",
+          "probability": 0.9991248647371928
+        },
+        {
+          "start": 37.24,
+          "end": 37.44,
+          "word": " le",
+          "probability": 0.9995546936988831
+        },
+        {
+          "start": 37.44,
+          "end": 38.0,
+          "word": " médaillon",
+          "probability": 0.9981544017791748
+        },
+        {
+          "start": 38.0,
+          "end": 38.18,
+          "word": " de",
+          "probability": 0.9999078512191772
+        },
+        {
+          "start": 38.18,
+          "end": 38.32,
+          "word": " l",
+          "probability": 0.9987175464630127
+        },
+        {
+          "start": 38.32,
+          "end": 38.58,
+          "word": "'air.",
+          "probability": 0.998609870672226
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2398,
+      "start": 39.06,
+      "end": 43.22,
+      "text": " Elle te montre un nouveau disque qui semble avoir été sculpté dans du vert,",
+      "tokens": [
+        51070,
+        16227,
+        535,
+        44132,
+        517,
+        23326,
+        717,
+        1077,
+        1956,
+        38328,
+        10853,
+        8862,
+        12613,
+        526,
+        2680,
+        1581,
+        6509,
+        11,
+        51265
+      ],
+      "avg_logprob": -0.11258336376372001,
+      "compression_ratio": 1.5795053003533568,
+      "no_speech_prob": 6.705618699198723e-12,
+      "words": [
+        {
+          "start": 39.06,
+          "end": 39.48,
+          "word": " Elle",
+          "probability": 0.9974677562713623
+        },
+        {
+          "start": 39.48,
+          "end": 39.64,
+          "word": " te",
+          "probability": 0.9999504089355469
+        },
+        {
+          "start": 39.64,
+          "end": 39.98,
+          "word": " montre",
+          "probability": 0.9999403953552246
+        },
+        {
+          "start": 39.98,
+          "end": 40.2,
+          "word": " un",
+          "probability": 0.9996863603591919
+        },
+        {
+          "start": 40.2,
+          "end": 40.48,
+          "word": " nouveau",
+          "probability": 0.9996223449707031
+        },
+        {
+          "start": 40.48,
+          "end": 40.94,
+          "word": " disque",
+          "probability": 0.9997614026069641
+        },
+        {
+          "start": 40.94,
+          "end": 41.16,
+          "word": " qui",
+          "probability": 0.9990666508674622
+        },
+        {
+          "start": 41.16,
+          "end": 41.5,
+          "word": " semble",
+          "probability": 0.9996283054351807
+        },
+        {
+          "start": 41.5,
+          "end": 41.76,
+          "word": " avoir",
+          "probability": 0.9998425245285034
+        },
+        {
+          "start": 41.76,
+          "end": 42.0,
+          "word": " été",
+          "probability": 0.9999551773071289
+        },
+        {
+          "start": 42.0,
+          "end": 42.54,
+          "word": " sculpté",
+          "probability": 0.9994402527809143
+        },
+        {
+          "start": 42.54,
+          "end": 42.7,
+          "word": " dans",
+          "probability": 0.9991161227226257
+        },
+        {
+          "start": 42.7,
+          "end": 42.88,
+          "word": " du",
+          "probability": 0.9998395442962646
+        },
+        {
+          "start": 42.88,
+          "end": 43.22,
+          "word": " vert,",
+          "probability": 0.6226266622543335
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2398,
+      "start": 43.9,
+      "end": 46.78,
+      "text": " d'un bleu semblable à celui d'un ciel sans nuages.",
+      "tokens": [
+        51297,
+        274,
+        6,
+        409,
+        5408,
+        84,
+        20775,
+        75,
+        712,
+        1531,
+        22829,
+        274,
+        6,
+        409,
+        34380,
+        12177,
+        3822,
+        1660,
+        13,
+        51443
+      ],
+      "avg_logprob": -0.11258336376372001,
+      "compression_ratio": 1.5795053003533568,
+      "no_speech_prob": 6.705618699198723e-12,
+      "words": [
+        {
+          "start": 43.9,
+          "end": 43.98,
+          "word": " d",
+          "probability": 0.999091386795044
+        },
+        {
+          "start": 43.98,
+          "end": 44.1,
+          "word": "'un",
+          "probability": 0.999713271856308
+        },
+        {
+          "start": 44.1,
+          "end": 44.34,
+          "word": " bleu",
+          "probability": 0.9996715188026428
+        },
+        {
+          "start": 44.34,
+          "end": 45.0,
+          "word": " semblable",
+          "probability": 0.9991843700408936
+        },
+        {
+          "start": 45.0,
+          "end": 45.24,
+          "word": " à",
+          "probability": 0.9998641014099121
+        },
+        {
+          "start": 45.24,
+          "end": 45.64,
+          "word": " celui",
+          "probability": 0.9999382495880127
+        },
+        {
+          "start": 45.64,
+          "end": 45.8,
+          "word": " d",
+          "probability": 0.9999442100524902
+        },
+        {
+          "start": 45.8,
+          "end": 45.88,
+          "word": "'un",
+          "probability": 0.9971001446247101
+        },
+        {
+          "start": 45.88,
+          "end": 46.14,
+          "word": " ciel",
+          "probability": 0.9997429251670837
+        },
+        {
+          "start": 46.14,
+          "end": 46.36,
+          "word": " sans",
+          "probability": 0.9991387128829956
+        },
+        {
+          "start": 46.36,
+          "end": 46.78,
+          "word": " nuages.",
+          "probability": 0.9106173515319824
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 11,
+      "seek": 2398,
+      "start": 47.48,
+      "end": 49.04,
+      "text": " La dryade te le remet.",
+      "tokens": [
+        51493,
+        2369,
+        4016,
+        762,
+        535,
+        476,
+        890,
+        302,
+        13,
+        51555
+      ],
+      "avg_logprob": -0.11258336376372001,
+      "compression_ratio": 1.5795053003533568,
+      "no_speech_prob": 6.705618699198723e-12,
+      "words": [
+        {
+          "start": 47.48,
+          "end": 47.98,
+          "word": " La",
+          "probability": 0.975295901298523
+        },
+        {
+          "start": 47.98,
+          "end": 48.4,
+          "word": " dryade",
+          "probability": 0.7608979642391205
+        },
+        {
+          "start": 48.4,
+          "end": 48.58,
+          "word": " te",
+          "probability": 0.9998716115951538
+        },
+        {
+          "start": 48.58,
+          "end": 48.72,
+          "word": " le",
+          "probability": 0.9999057054519653
+        },
+        {
+          "start": 48.72,
+          "end": 49.04,
+          "word": " remet.",
+          "probability": 0.9957045912742615
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 12,
+      "seek": 2398,
+      "start": 49.56,
+      "end": 54.48,
+      "text": " Tu le soupèses dans ta paume avec précaution avant de le ranger avec le premier.",
+      "tokens": [
+        51595,
+        7836,
+        476,
+        7884,
+        3645,
+        279,
+        2680,
+        1846,
+        2502,
+        2540,
+        4163,
+        11127,
+        496,
+        1448,
+        13439,
+        368,
+        476,
+        367,
+        3176,
+        4163,
+        476,
+        12689,
+        13,
+        51827
+      ],
+      "avg_logprob": -0.11258336376372001,
+      "compression_ratio": 1.5795053003533568,
+      "no_speech_prob": 6.705618699198723e-12,
+      "words": [
+        {
+          "start": 49.56,
+          "end": 49.94,
+          "word": " Tu",
+          "probability": 0.9961580634117126
+        },
+        {
+          "start": 49.94,
+          "end": 50.14,
+          "word": " le",
+          "probability": 0.9998452663421631
+        },
+        {
+          "start": 50.14,
+          "end": 50.64,
+          "word": " soupèses",
+          "probability": 0.7087987263997396
+        },
+        {
+          "start": 50.64,
+          "end": 50.76,
+          "word": " dans",
+          "probability": 0.9998173117637634
+        },
+        {
+          "start": 50.76,
+          "end": 50.96,
+          "word": " ta",
+          "probability": 0.999922513961792
+        },
+        {
+          "start": 50.96,
+          "end": 51.3,
+          "word": " paume",
+          "probability": 0.9981425404548645
+        },
+        {
+          "start": 51.3,
+          "end": 51.68,
+          "word": " avec",
+          "probability": 0.9941532015800476
+        },
+        {
+          "start": 51.68,
+          "end": 52.36,
+          "word": " précaution",
+          "probability": 0.9993279973665873
+        },
+        {
+          "start": 52.36,
+          "end": 53.08,
+          "word": " avant",
+          "probability": 0.9184498190879822
+        },
+        {
+          "start": 53.08,
+          "end": 53.28,
+          "word": " de",
+          "probability": 0.9999756813049316
+        },
+        {
+          "start": 53.28,
+          "end": 53.42,
+          "word": " le",
+          "probability": 0.9999421834945679
+        },
+        {
+          "start": 53.42,
+          "end": 53.76,
+          "word": " ranger",
+          "probability": 0.9996750354766846
+        },
+        {
+          "start": 53.76,
+          "end": 54.0,
+          "word": " avec",
+          "probability": 0.9996128678321838
+        },
+        {
+          "start": 54.0,
+          "end": 54.18,
+          "word": " le",
+          "probability": 0.9999551773071289
+        },
+        {
+          "start": 54.18,
+          "end": 54.48,
+          "word": " premier.",
+          "probability": 0.9998099207878113
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

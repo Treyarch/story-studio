@@ -1,0 +1,54 @@
+{
+  "scene": "item_title_en_cas",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_title_en_cas.mp3",
+  "sha256": "192e280de1c9014464c13217e73bb5990fab66f90d48c7055dfdc7cb43094f4d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.205,
+  "text": "Un en-cas.",
+  "review": [
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 0.76,
+      "text": " Un en-cas.",
+      "tokens": [
+        50365,
+        1156,
+        2107,
+        12,
+        42,
+        13,
+        50403
+      ],
+      "avg_logprob": -0.6716181859374046,
+      "compression_ratio": 0.5294117647058824,
+      "no_speech_prob": 1.863398740864497e-10,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.4,
+          "word": " Un",
+          "probability": 0.48555099964141846
+        },
+        {
+          "start": 0.4,
+          "end": 0.58,
+          "word": " non",
+          "probability": 0.5243486166000366
+        },
+        {
+          "start": 0.58,
+          "end": 0.76,
+          "word": "-K.",
+          "probability": 0.5914569273591042
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

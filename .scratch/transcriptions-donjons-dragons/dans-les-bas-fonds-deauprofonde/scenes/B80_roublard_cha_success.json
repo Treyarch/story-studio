@@ -1,0 +1,337 @@
+{
+  "scene": "B80_roublard_cha_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B80_roublard_cha_success.mp3",
+  "sha256": "b07b697dcdc0567da910cdb9c9e7826ad4bb9ebfa6439e7c58d0962e8129ee04",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 20.02025,
+  "text": "Il t'adresse un sourire cruellement sincère. J'apprécie tes efforts, cela dit. Il m'incite à t'achever le plus rapidement possible. Tu ne souffriras pas trop. Enfin, peut-être.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.35,
+      "end": 5.71,
+      "text": " Il t'adresse un sourire cruellement sincère.",
+      "tokens": [
+        50365,
+        4416,
+        256,
+        6,
+        345,
+        22603,
+        517,
+        11006,
+        621,
+        941,
+        31816,
+        3343,
+        66,
+        4212,
+        13,
+        50534
+      ],
+      "avg_logprob": -0.17332015404334436,
+      "compression_ratio": 1.25,
+      "no_speech_prob": 7.755321558555739e-12,
+      "words": [
+        {
+          "start": 2.35,
+          "end": 2.87,
+          "word": " Il",
+          "probability": 0.8929871916770935
+        },
+        {
+          "start": 2.87,
+          "end": 3.05,
+          "word": " t",
+          "probability": 0.9996510744094849
+        },
+        {
+          "start": 3.05,
+          "end": 3.47,
+          "word": "'adresse",
+          "probability": 0.9994035959243774
+        },
+        {
+          "start": 3.47,
+          "end": 3.69,
+          "word": " un",
+          "probability": 0.9973776340484619
+        },
+        {
+          "start": 3.69,
+          "end": 4.31,
+          "word": " sourire",
+          "probability": 0.9998684227466583
+        },
+        {
+          "start": 4.31,
+          "end": 5.11,
+          "word": " cruellement",
+          "probability": 0.9969514012336731
+        },
+        {
+          "start": 5.11,
+          "end": 5.71,
+          "word": " sincère.",
+          "probability": 0.9997576276461283
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.15,
+      "end": 9.09,
+      "text": " J'apprécie tes efforts, cela dit.",
+      "tokens": [
+        50580,
+        508,
+        6,
+        1746,
+        10521,
+        4260,
+        20018,
+        6484,
+        11,
+        15437,
+        6176,
+        13,
+        50705
+      ],
+      "avg_logprob": -0.17332015404334436,
+      "compression_ratio": 1.25,
+      "no_speech_prob": 7.755321558555739e-12,
+      "words": [
+        {
+          "start": 6.15,
+          "end": 6.93,
+          "word": " J",
+          "probability": 0.6192076802253723
+        },
+        {
+          "start": 6.93,
+          "end": 7.49,
+          "word": "'apprécie",
+          "probability": 0.9993015676736832
+        },
+        {
+          "start": 7.49,
+          "end": 7.73,
+          "word": " tes",
+          "probability": 0.9997023940086365
+        },
+        {
+          "start": 7.73,
+          "end": 8.35,
+          "word": " efforts,",
+          "probability": 0.9999133348464966
+        },
+        {
+          "start": 8.45,
+          "end": 8.71,
+          "word": " cela",
+          "probability": 0.9988608360290527
+        },
+        {
+          "start": 8.71,
+          "end": 9.09,
+          "word": " dit.",
+          "probability": 0.9996377229690552
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.49,
+      "end": 13.31,
+      "text": " Il m'incite à t'achever le plus rapidement possible.",
+      "tokens": [
+        50741,
+        4416,
+        275,
+        6,
+        4647,
+        642,
+        1531,
+        256,
+        6,
+        608,
+        1054,
+        476,
+        1804,
+        37757,
+        1944,
+        13,
+        50915
+      ],
+      "avg_logprob": -0.17332015404334436,
+      "compression_ratio": 1.25,
+      "no_speech_prob": 7.755321558555739e-12,
+      "words": [
+        {
+          "start": 9.49,
+          "end": 10.01,
+          "word": " Il",
+          "probability": 0.9858565330505371
+        },
+        {
+          "start": 10.01,
+          "end": 10.15,
+          "word": " m",
+          "probability": 0.9999768733978271
+        },
+        {
+          "start": 10.15,
+          "end": 10.51,
+          "word": "'incite",
+          "probability": 0.9993153611818949
+        },
+        {
+          "start": 10.51,
+          "end": 10.67,
+          "word": " à",
+          "probability": 0.9999109506607056
+        },
+        {
+          "start": 10.67,
+          "end": 10.81,
+          "word": " t",
+          "probability": 0.9998306035995483
+        },
+        {
+          "start": 10.81,
+          "end": 11.43,
+          "word": "'achever",
+          "probability": 0.9973081946372986
+        },
+        {
+          "start": 11.43,
+          "end": 11.69,
+          "word": " le",
+          "probability": 0.9997596144676208
+        },
+        {
+          "start": 11.69,
+          "end": 11.89,
+          "word": " plus",
+          "probability": 0.999948263168335
+        },
+        {
+          "start": 11.89,
+          "end": 12.37,
+          "word": " rapidement",
+          "probability": 0.9998898506164551
+        },
+        {
+          "start": 12.37,
+          "end": 13.31,
+          "word": " possible.",
+          "probability": 0.9995563626289368
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 13.75,
+      "end": 15.25,
+      "text": " Tu ne souffriras pas trop.",
+      "tokens": [
+        50944,
+        7836,
+        408,
+        36966,
+        10949,
+        296,
+        1736,
+        9006,
+        13,
+        51012
+      ],
+      "avg_logprob": -0.17332015404334436,
+      "compression_ratio": 1.25,
+      "no_speech_prob": 7.755321558555739e-12,
+      "words": [
+        {
+          "start": 13.75,
+          "end": 14.03,
+          "word": " Tu",
+          "probability": 0.9914594888687134
+        },
+        {
+          "start": 14.03,
+          "end": 14.17,
+          "word": " ne",
+          "probability": 0.9999544620513916
+        },
+        {
+          "start": 14.17,
+          "end": 14.71,
+          "word": " souffriras",
+          "probability": 0.9279627005259196
+        },
+        {
+          "start": 14.71,
+          "end": 14.85,
+          "word": " pas",
+          "probability": 0.999971866607666
+        },
+        {
+          "start": 14.85,
+          "end": 15.25,
+          "word": " trop.",
+          "probability": 0.9998724460601807
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 15.61,
+      "end": 17.51,
+      "text": " Enfin, peut-être.",
+      "tokens": [
+        51031,
+        35861,
+        11,
+        5977,
+        12,
+        9498,
+        13,
+        51124
+      ],
+      "avg_logprob": -0.17332015404334436,
+      "compression_ratio": 1.25,
+      "no_speech_prob": 7.755321558555739e-12,
+      "words": [
+        {
+          "start": 15.61,
+          "end": 15.97,
+          "word": " Enfin,",
+          "probability": 0.9978208541870117
+        },
+        {
+          "start": 16.43,
+          "end": 17.01,
+          "word": " peut",
+          "probability": 0.9998342990875244
+        },
+        {
+          "start": 17.01,
+          "end": 17.51,
+          "word": "-être.",
+          "probability": 0.9999000132083893
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "scene": "title_card_k-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/title_card_k-fr_FR.mp3",
+  "sha256": "94037473e07353d261887c7c98659f8d1b16ec58ef2bb5df8aacd66f64e2e96f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.4204375,
+  "text": "Scoop à Eauprofonde.",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.27,
+      "end": 1.73,
+      "text": " Scoop à Eauprofonde.",
+      "tokens": [
+        50365,
+        2747,
+        23266,
+        1531,
+        308,
+        1459,
+        1740,
+        7259,
+        13,
+        50439
+      ],
+      "avg_logprob": -0.19925706765868448,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 4.729174517270618e-12,
+      "words": [
+        {
+          "start": 0.27,
+          "end": 0.85,
+          "word": " Scoop",
+          "probability": 0.6610265672206879
+        },
+        {
+          "start": 0.85,
+          "end": 1.07,
+          "word": " à",
+          "probability": 0.9759746789932251
+        },
+        {
+          "start": 1.07,
+          "end": 1.21,
+          "word": " eau",
+          "probability": 0.9033038318157196
+        },
+        {
+          "start": 1.21,
+          "end": 1.73,
+          "word": " profonde.",
+          "probability": 0.9983260035514832
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

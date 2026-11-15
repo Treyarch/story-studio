@@ -1,0 +1,729 @@
+{
+  "scene": "A25",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A25.mp3",
+  "sha256": "5bb79e0cbd5149aea87ce08541c707f685f54beff81b36c3581d7613c6237693",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 29.8134375,
+  "text": "Tu décides de lui confier l'œuf pendant que tu vas chercher de quoi remplir ta mission. Tu te diriges vers la forêt afin d'y trouver du petit bois pour ton feu. N'importe qui serait capable de mettre la main sur des bûches dans une forêt, bien sûr. Mais tu cherches quelque chose de bien spécifique. Pas des bûches qui donneront des flammes trop puissantes, non. Il s'agit d'envelopper doucement l'œuf avec l'odeur de la forêt.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.49,
+      "end": 6.15,
+      "text": " Tu décides de lui confier l'œuf pendant que tu vas chercher de quoi remplir ta mission.",
+      "tokens": [
+        50365,
+        7836,
+        9198,
+        1875,
+        368,
+        8783,
+        1497,
+        811,
+        287,
+        6,
+        34073,
+        2947,
+        17338,
+        631,
+        2604,
+        11481,
+        38747,
+        368,
+        11714,
+        36576,
+        347,
+        1846,
+        4447,
+        13,
+        50598
+      ],
+      "avg_logprob": -0.06758558783022796,
+      "compression_ratio": 1.5551601423487544,
+      "no_speech_prob": 4.563352733882864e-12,
+      "words": [
+        {
+          "start": 1.49,
+          "end": 1.91,
+          "word": " Tu",
+          "probability": 0.8911034464836121
+        },
+        {
+          "start": 1.91,
+          "end": 2.39,
+          "word": " décides",
+          "probability": 0.9994419515132904
+        },
+        {
+          "start": 2.39,
+          "end": 2.51,
+          "word": " de",
+          "probability": 0.9999785423278809
+        },
+        {
+          "start": 2.51,
+          "end": 2.69,
+          "word": " lui",
+          "probability": 0.9999926090240479
+        },
+        {
+          "start": 2.69,
+          "end": 3.15,
+          "word": " confier",
+          "probability": 0.9997133910655975
+        },
+        {
+          "start": 3.15,
+          "end": 3.29,
+          "word": " l",
+          "probability": 0.999967098236084
+        },
+        {
+          "start": 3.29,
+          "end": 3.51,
+          "word": "'œuf",
+          "probability": 0.9834590951601664
+        },
+        {
+          "start": 3.51,
+          "end": 3.99,
+          "word": " pendant",
+          "probability": 0.9952375888824463
+        },
+        {
+          "start": 3.99,
+          "end": 4.25,
+          "word": " que",
+          "probability": 0.9999699592590332
+        },
+        {
+          "start": 4.25,
+          "end": 4.39,
+          "word": " tu",
+          "probability": 0.9999850988388062
+        },
+        {
+          "start": 4.39,
+          "end": 4.53,
+          "word": " vas",
+          "probability": 0.9991366267204285
+        },
+        {
+          "start": 4.53,
+          "end": 4.87,
+          "word": " chercher",
+          "probability": 0.999942421913147
+        },
+        {
+          "start": 4.87,
+          "end": 5.05,
+          "word": " de",
+          "probability": 0.999984622001648
+        },
+        {
+          "start": 5.05,
+          "end": 5.25,
+          "word": " quoi",
+          "probability": 0.9999692440032959
+        },
+        {
+          "start": 5.25,
+          "end": 5.65,
+          "word": " remplir",
+          "probability": 0.9999117255210876
+        },
+        {
+          "start": 5.65,
+          "end": 5.81,
+          "word": " ta",
+          "probability": 0.9998262524604797
+        },
+        {
+          "start": 5.81,
+          "end": 6.15,
+          "word": " mission.",
+          "probability": 0.9996509552001953
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.95,
+      "end": 11.43,
+      "text": " Tu te diriges vers la forêt afin d'y trouver du petit bois pour ton feu.",
+      "tokens": [
+        50640,
+        7836,
+        535,
+        4746,
+        20609,
+        1774,
+        635,
+        337,
+        15519,
+        34709,
+        274,
+        6,
+        88,
+        23546,
+        1581,
+        9686,
+        44808,
+        2016,
+        2952,
+        29539,
+        13,
+        50864
+      ],
+      "avg_logprob": -0.06758558783022796,
+      "compression_ratio": 1.5551601423487544,
+      "no_speech_prob": 4.563352733882864e-12,
+      "words": [
+        {
+          "start": 6.95,
+          "end": 7.45,
+          "word": " Tu",
+          "probability": 0.9996145963668823
+        },
+        {
+          "start": 7.45,
+          "end": 7.61,
+          "word": " te",
+          "probability": 0.9999732971191406
+        },
+        {
+          "start": 7.61,
+          "end": 8.07,
+          "word": " diriges",
+          "probability": 0.9963841438293457
+        },
+        {
+          "start": 8.07,
+          "end": 8.31,
+          "word": " vers",
+          "probability": 0.9999513626098633
+        },
+        {
+          "start": 8.31,
+          "end": 8.49,
+          "word": " la",
+          "probability": 0.9999523162841797
+        },
+        {
+          "start": 8.49,
+          "end": 8.87,
+          "word": " forêt",
+          "probability": 0.9997394979000092
+        },
+        {
+          "start": 8.87,
+          "end": 9.53,
+          "word": " afin",
+          "probability": 0.9966074228286743
+        },
+        {
+          "start": 9.53,
+          "end": 9.75,
+          "word": " d",
+          "probability": 0.999870777130127
+        },
+        {
+          "start": 9.75,
+          "end": 9.81,
+          "word": "'y",
+          "probability": 0.9999449849128723
+        },
+        {
+          "start": 9.81,
+          "end": 10.07,
+          "word": " trouver",
+          "probability": 0.9999605417251587
+        },
+        {
+          "start": 10.07,
+          "end": 10.27,
+          "word": " du",
+          "probability": 0.9999324083328247
+        },
+        {
+          "start": 10.27,
+          "end": 10.59,
+          "word": " petit",
+          "probability": 0.9993446469306946
+        },
+        {
+          "start": 10.59,
+          "end": 10.87,
+          "word": " bois",
+          "probability": 0.999617338180542
+        },
+        {
+          "start": 10.87,
+          "end": 11.09,
+          "word": " pour",
+          "probability": 0.9999715089797974
+        },
+        {
+          "start": 11.09,
+          "end": 11.25,
+          "word": " ton",
+          "probability": 0.9999723434448242
+        },
+        {
+          "start": 11.25,
+          "end": 11.43,
+          "word": " feu.",
+          "probability": 0.9999067783355713
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 12.43,
+      "end": 16.73,
+      "text": " N'importe qui serait capable de mettre la main sur des bûches dans une forêt, bien sûr.",
+      "tokens": [
+        50916,
+        426,
+        6,
+        38320,
+        1956,
+        23139,
+        8189,
+        368,
+        14997,
+        635,
+        2135,
+        1022,
+        730,
+        272,
+        8879,
+        3781,
+        2680,
+        2251,
+        337,
+        15519,
+        11,
+        3610,
+        18143,
+        13,
+        51128
+      ],
+      "avg_logprob": -0.06758558783022796,
+      "compression_ratio": 1.5551601423487544,
+      "no_speech_prob": 4.563352733882864e-12,
+      "words": [
+        {
+          "start": 12.43,
+          "end": 12.59,
+          "word": " N",
+          "probability": 0.9998636245727539
+        },
+        {
+          "start": 12.59,
+          "end": 12.87,
+          "word": "'importe",
+          "probability": 0.9998449981212616
+        },
+        {
+          "start": 12.87,
+          "end": 13.13,
+          "word": " qui",
+          "probability": 0.9999003410339355
+        },
+        {
+          "start": 13.13,
+          "end": 13.39,
+          "word": " serait",
+          "probability": 0.9993969202041626
+        },
+        {
+          "start": 13.39,
+          "end": 13.83,
+          "word": " capable",
+          "probability": 0.9999135732650757
+        },
+        {
+          "start": 13.83,
+          "end": 14.03,
+          "word": " de",
+          "probability": 0.9999897480010986
+        },
+        {
+          "start": 14.03,
+          "end": 14.25,
+          "word": " mettre",
+          "probability": 0.9998804330825806
+        },
+        {
+          "start": 14.25,
+          "end": 14.47,
+          "word": " la",
+          "probability": 0.9998565912246704
+        },
+        {
+          "start": 14.47,
+          "end": 14.63,
+          "word": " main",
+          "probability": 0.9999531507492065
+        },
+        {
+          "start": 14.63,
+          "end": 14.85,
+          "word": " sur",
+          "probability": 0.9998444318771362
+        },
+        {
+          "start": 14.85,
+          "end": 14.97,
+          "word": " des",
+          "probability": 0.9994781613349915
+        },
+        {
+          "start": 14.97,
+          "end": 15.25,
+          "word": " bûches",
+          "probability": 0.9978764057159424
+        },
+        {
+          "start": 15.25,
+          "end": 15.39,
+          "word": " dans",
+          "probability": 0.9997496008872986
+        },
+        {
+          "start": 15.39,
+          "end": 15.57,
+          "word": " une",
+          "probability": 0.9999375343322754
+        },
+        {
+          "start": 15.57,
+          "end": 15.93,
+          "word": " forêt,",
+          "probability": 0.9998161792755127
+        },
+        {
+          "start": 16.23,
+          "end": 16.41,
+          "word": " bien",
+          "probability": 0.9999186992645264
+        },
+        {
+          "start": 16.41,
+          "end": 16.73,
+          "word": " sûr.",
+          "probability": 0.9999415874481201
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 17.21,
+      "end": 20.09,
+      "text": " Mais tu cherches quelque chose de bien spécifique.",
+      "tokens": [
+        51168,
+        6313,
+        2604,
+        12085,
+        3781,
+        14448,
+        5111,
+        368,
+        3610,
+        637,
+        9062,
+        28134,
+        13,
+        51295
+      ],
+      "avg_logprob": -0.06758558783022796,
+      "compression_ratio": 1.5551601423487544,
+      "no_speech_prob": 4.563352733882864e-12,
+      "words": [
+        {
+          "start": 17.21,
+          "end": 17.71,
+          "word": " Mais",
+          "probability": 0.9998489618301392
+        },
+        {
+          "start": 17.71,
+          "end": 17.89,
+          "word": " tu",
+          "probability": 0.9999717473983765
+        },
+        {
+          "start": 17.89,
+          "end": 18.23,
+          "word": " cherches",
+          "probability": 0.9982657432556152
+        },
+        {
+          "start": 18.23,
+          "end": 18.47,
+          "word": " quelque",
+          "probability": 0.9998717308044434
+        },
+        {
+          "start": 18.47,
+          "end": 18.89,
+          "word": " chose",
+          "probability": 0.9999629259109497
+        },
+        {
+          "start": 18.89,
+          "end": 19.11,
+          "word": " de",
+          "probability": 0.9999135732650757
+        },
+        {
+          "start": 19.11,
+          "end": 19.37,
+          "word": " bien",
+          "probability": 0.9999481439590454
+        },
+        {
+          "start": 19.37,
+          "end": 20.09,
+          "word": " spécifique.",
+          "probability": 0.9998798966407776
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 20.55,
+      "end": 23.49,
+      "text": " Pas des bûches qui donneront des flammes trop puissantes, non.",
+      "tokens": [
+        51332,
+        14199,
+        730,
+        272,
+        8879,
+        3781,
+        1956,
+        20882,
+        896,
+        730,
+        932,
+        5136,
+        279,
+        9006,
+        2362,
+        891,
+        9327,
+        11,
+        2107,
+        13,
+        51467
+      ],
+      "avg_logprob": -0.06758558783022796,
+      "compression_ratio": 1.5551601423487544,
+      "no_speech_prob": 4.563352733882864e-12,
+      "words": [
+        {
+          "start": 20.55,
+          "end": 21.05,
+          "word": " Pas",
+          "probability": 0.9991028308868408
+        },
+        {
+          "start": 21.05,
+          "end": 21.21,
+          "word": " des",
+          "probability": 0.9999457597732544
+        },
+        {
+          "start": 21.21,
+          "end": 21.47,
+          "word": " bûches",
+          "probability": 0.9997194012006124
+        },
+        {
+          "start": 21.47,
+          "end": 21.61,
+          "word": " qui",
+          "probability": 0.9999744892120361
+        },
+        {
+          "start": 21.61,
+          "end": 21.95,
+          "word": " donneront",
+          "probability": 0.9995490610599518
+        },
+        {
+          "start": 21.95,
+          "end": 22.09,
+          "word": " des",
+          "probability": 0.9997542500495911
+        },
+        {
+          "start": 22.09,
+          "end": 22.37,
+          "word": " flammes",
+          "probability": 0.9991820851961771
+        },
+        {
+          "start": 22.37,
+          "end": 22.49,
+          "word": " trop",
+          "probability": 0.9997653365135193
+        },
+        {
+          "start": 22.49,
+          "end": 23.03,
+          "word": " puissantes,",
+          "probability": 0.9996047019958496
+        },
+        {
+          "start": 23.23,
+          "end": 23.49,
+          "word": " non.",
+          "probability": 0.999894380569458
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 23.83,
+      "end": 28.01,
+      "text": " Il s'agit d'envelopper doucement l'œuf avec l'odeur de la forêt.",
+      "tokens": [
+        51497,
+        4416,
+        262,
+        6,
+        32730,
+        274,
+        6,
+        268,
+        1388,
+        610,
+        2482,
+        384,
+        518,
+        287,
+        6,
+        34073,
+        2947,
+        4163,
+        287,
+        6,
+        1429,
+        374,
+        368,
+        635,
+        337,
+        15519,
+        13,
+        51691
+      ],
+      "avg_logprob": -0.06758558783022796,
+      "compression_ratio": 1.5551601423487544,
+      "no_speech_prob": 4.563352733882864e-12,
+      "words": [
+        {
+          "start": 23.83,
+          "end": 24.27,
+          "word": " Il",
+          "probability": 0.9995495676994324
+        },
+        {
+          "start": 24.27,
+          "end": 24.45,
+          "word": " s",
+          "probability": 0.9999750852584839
+        },
+        {
+          "start": 24.45,
+          "end": 24.63,
+          "word": "'agit",
+          "probability": 0.999993085861206
+        },
+        {
+          "start": 24.63,
+          "end": 24.81,
+          "word": " d",
+          "probability": 0.9999290704727173
+        },
+        {
+          "start": 24.81,
+          "end": 25.29,
+          "word": "'envelopper",
+          "probability": 0.9997107088565826
+        },
+        {
+          "start": 25.29,
+          "end": 25.95,
+          "word": " doucement",
+          "probability": 0.9996008276939392
+        },
+        {
+          "start": 25.95,
+          "end": 26.11,
+          "word": " l",
+          "probability": 0.999241828918457
+        },
+        {
+          "start": 26.11,
+          "end": 26.35,
+          "word": "'œuf",
+          "probability": 0.9997321963310242
+        },
+        {
+          "start": 26.35,
+          "end": 26.89,
+          "word": " avec",
+          "probability": 0.9992966651916504
+        },
+        {
+          "start": 26.89,
+          "end": 27.13,
+          "word": " l",
+          "probability": 0.999698281288147
+        },
+        {
+          "start": 27.13,
+          "end": 27.41,
+          "word": "'odeur",
+          "probability": 0.9997918605804443
+        },
+        {
+          "start": 27.41,
+          "end": 27.55,
+          "word": " de",
+          "probability": 0.9991362690925598
+        },
+        {
+          "start": 27.55,
+          "end": 27.69,
+          "word": " la",
+          "probability": 0.9983084201812744
+        },
+        {
+          "start": 27.69,
+          "end": 28.01,
+          "word": " forêt.",
+          "probability": 0.9998323917388916
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

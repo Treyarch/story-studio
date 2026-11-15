@@ -1,0 +1,492 @@
+{
+  "scene": "A16",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A16.mp3",
+  "sha256": "29016b72bfd86a95c0df011d12304e438ddca87fdd33d756251f84edbb4db43d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 17.509875,
+  "text": "En vitesse, tu te prépares à jeter ton meilleur sort. Mais la femme est sur toi avant même que tu aies pu prononcer les premiers mots magiques. Ce n'est pas le moment d'essayer un de tes petits tours de passe-passe. Ne te fatigue pas avec ces bêtises. Défends-toi!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.2,
+      "end": 4.66,
+      "text": " En vitesse, tu te prépares à jeter ton meilleur sort.",
+      "tokens": [
+        50371,
+        2193,
+        49573,
+        11,
+        2604,
+        535,
+        11127,
+        4306,
+        495,
+        1531,
+        361,
+        2398,
+        2952,
+        41457,
+        1333,
+        13,
+        50540
+      ],
+      "avg_logprob": -0.098121611964564,
+      "compression_ratio": 1.4210526315789473,
+      "no_speech_prob": 7.138262203554291e-12,
+      "words": [
+        {
+          "start": 1.2,
+          "end": 1.68,
+          "word": " En",
+          "probability": 0.9855077862739563
+        },
+        {
+          "start": 1.68,
+          "end": 2.08,
+          "word": " vitesse,",
+          "probability": 0.9997000694274902
+        },
+        {
+          "start": 2.4,
+          "end": 2.66,
+          "word": " tu",
+          "probability": 0.9989859461784363
+        },
+        {
+          "start": 2.66,
+          "end": 2.84,
+          "word": " te",
+          "probability": 0.9998397827148438
+        },
+        {
+          "start": 2.84,
+          "end": 3.34,
+          "word": " prépares",
+          "probability": 0.9927939772605896
+        },
+        {
+          "start": 3.34,
+          "end": 3.46,
+          "word": " à",
+          "probability": 0.9997257590293884
+        },
+        {
+          "start": 3.46,
+          "end": 3.74,
+          "word": " jeter",
+          "probability": 0.9999163746833801
+        },
+        {
+          "start": 3.74,
+          "end": 3.98,
+          "word": " ton",
+          "probability": 0.9998961687088013
+        },
+        {
+          "start": 3.98,
+          "end": 4.32,
+          "word": " meilleur",
+          "probability": 0.999919056892395
+        },
+        {
+          "start": 4.32,
+          "end": 4.66,
+          "word": " sort.",
+          "probability": 0.9996346235275269
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.98,
+      "end": 9.4,
+      "text": " Mais la femme est sur toi avant même que tu aies pu prononcer les premiers mots magiques.",
+      "tokens": [
+        50564,
+        6313,
+        635,
+        27427,
+        871,
+        1022,
+        15648,
+        13439,
+        5698,
+        631,
+        2604,
+        257,
+        530,
+        2362,
+        7569,
+        266,
+        1776,
+        1512,
+        45166,
+        34009,
+        2258,
+        4911,
+        13,
+        50777
+      ],
+      "avg_logprob": -0.098121611964564,
+      "compression_ratio": 1.4210526315789473,
+      "no_speech_prob": 7.138262203554291e-12,
+      "words": [
+        {
+          "start": 4.98,
+          "end": 5.34,
+          "word": " Mais",
+          "probability": 0.9925113916397095
+        },
+        {
+          "start": 5.34,
+          "end": 5.5,
+          "word": " la",
+          "probability": 0.9996271133422852
+        },
+        {
+          "start": 5.5,
+          "end": 5.7,
+          "word": " femme",
+          "probability": 0.9989038705825806
+        },
+        {
+          "start": 5.7,
+          "end": 5.82,
+          "word": " est",
+          "probability": 0.9999576807022095
+        },
+        {
+          "start": 5.82,
+          "end": 6.0,
+          "word": " sur",
+          "probability": 0.9995505213737488
+        },
+        {
+          "start": 6.0,
+          "end": 6.22,
+          "word": " toi",
+          "probability": 0.9998936653137207
+        },
+        {
+          "start": 6.22,
+          "end": 6.54,
+          "word": " avant",
+          "probability": 0.9971354007720947
+        },
+        {
+          "start": 6.54,
+          "end": 6.8,
+          "word": " même",
+          "probability": 0.9999661445617676
+        },
+        {
+          "start": 6.8,
+          "end": 7.0,
+          "word": " que",
+          "probability": 0.9999752044677734
+        },
+        {
+          "start": 7.0,
+          "end": 7.16,
+          "word": " tu",
+          "probability": 0.9999817609786987
+        },
+        {
+          "start": 7.16,
+          "end": 7.32,
+          "word": " aies",
+          "probability": 0.9899540841579437
+        },
+        {
+          "start": 7.32,
+          "end": 7.42,
+          "word": " pu",
+          "probability": 0.9994584918022156
+        },
+        {
+          "start": 7.42,
+          "end": 8.02,
+          "word": " prononcer",
+          "probability": 0.9994262456893921
+        },
+        {
+          "start": 8.02,
+          "end": 8.4,
+          "word": " les",
+          "probability": 0.9985640645027161
+        },
+        {
+          "start": 8.4,
+          "end": 8.78,
+          "word": " premiers",
+          "probability": 0.999112069606781
+        },
+        {
+          "start": 8.78,
+          "end": 8.98,
+          "word": " mots",
+          "probability": 0.9997859597206116
+        },
+        {
+          "start": 8.98,
+          "end": 9.4,
+          "word": " magiques.",
+          "probability": 0.9995200335979462
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.54,
+      "end": 12.36,
+      "text": " Ce n'est pas le moment d'essayer un de tes petits tours de passe-passe.",
+      "tokens": [
+        50786,
+        8257,
+        297,
+        6,
+        377,
+        1736,
+        476,
+        1623,
+        274,
+        6,
+        442,
+        11167,
+        517,
+        368,
+        20018,
+        26487,
+        22911,
+        368,
+        14530,
+        12,
+        79,
+        8604,
+        13,
+        50924
+      ],
+      "avg_logprob": -0.098121611964564,
+      "compression_ratio": 1.4210526315789473,
+      "no_speech_prob": 7.138262203554291e-12,
+      "words": [
+        {
+          "start": 9.54,
+          "end": 9.74,
+          "word": " Ce",
+          "probability": 0.9931589961051941
+        },
+        {
+          "start": 9.74,
+          "end": 9.8,
+          "word": " n",
+          "probability": 0.9999750852584839
+        },
+        {
+          "start": 9.8,
+          "end": 9.88,
+          "word": "'est",
+          "probability": 0.9999822378158569
+        },
+        {
+          "start": 9.88,
+          "end": 10.02,
+          "word": " pas",
+          "probability": 0.9999964237213135
+        },
+        {
+          "start": 10.02,
+          "end": 10.14,
+          "word": " le",
+          "probability": 0.999847412109375
+        },
+        {
+          "start": 10.14,
+          "end": 10.4,
+          "word": " moment",
+          "probability": 0.9998564720153809
+        },
+        {
+          "start": 10.4,
+          "end": 10.54,
+          "word": " d",
+          "probability": 0.9998691082000732
+        },
+        {
+          "start": 10.54,
+          "end": 10.84,
+          "word": "'essayer",
+          "probability": 0.9998876849810282
+        },
+        {
+          "start": 10.84,
+          "end": 11.0,
+          "word": " un",
+          "probability": 0.9996606111526489
+        },
+        {
+          "start": 11.0,
+          "end": 11.12,
+          "word": " de",
+          "probability": 0.999519944190979
+        },
+        {
+          "start": 11.12,
+          "end": 11.28,
+          "word": " tes",
+          "probability": 0.9996724128723145
+        },
+        {
+          "start": 11.28,
+          "end": 11.46,
+          "word": " petits",
+          "probability": 0.9983384609222412
+        },
+        {
+          "start": 11.46,
+          "end": 11.68,
+          "word": " tours",
+          "probability": 0.9906477332115173
+        },
+        {
+          "start": 11.68,
+          "end": 11.8,
+          "word": " de",
+          "probability": 0.999758780002594
+        },
+        {
+          "start": 11.8,
+          "end": 12.04,
+          "word": " passe",
+          "probability": 0.9959855675697327
+        },
+        {
+          "start": 12.04,
+          "end": 12.36,
+          "word": "-passe.",
+          "probability": 0.980699360370636
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.78,
+      "end": 14.26,
+      "text": " Ne te fatigue pas avec ces bêtises.",
+      "tokens": [
+        50948,
+        1734,
+        535,
+        20574,
+        1736,
+        4163,
+        7879,
+        272,
+        15519,
+        3598,
+        13,
+        51018
+      ],
+      "avg_logprob": -0.098121611964564,
+      "compression_ratio": 1.4210526315789473,
+      "no_speech_prob": 7.138262203554291e-12,
+      "words": [
+        {
+          "start": 12.78,
+          "end": 12.94,
+          "word": " Ne",
+          "probability": 0.9997007846832275
+        },
+        {
+          "start": 12.94,
+          "end": 13.04,
+          "word": " te",
+          "probability": 0.9995525479316711
+        },
+        {
+          "start": 13.04,
+          "end": 13.24,
+          "word": " fatigue",
+          "probability": 0.9725229740142822
+        },
+        {
+          "start": 13.24,
+          "end": 13.46,
+          "word": " pas",
+          "probability": 0.9999325275421143
+        },
+        {
+          "start": 13.46,
+          "end": 13.64,
+          "word": " avec",
+          "probability": 0.9999678134918213
+        },
+        {
+          "start": 13.64,
+          "end": 13.78,
+          "word": " ces",
+          "probability": 0.9930254220962524
+        },
+        {
+          "start": 13.78,
+          "end": 14.26,
+          "word": " bêtises.",
+          "probability": 0.9986580808957418
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 15.0,
+      "end": 15.94,
+      "text": " Défends-toi!",
+      "tokens": [
+        51062,
+        31153,
+        69,
+        2581,
+        12,
+        49222,
+        2298,
+        51115
+      ],
+      "avg_logprob": -0.098121611964564,
+      "compression_ratio": 1.4210526315789473,
+      "no_speech_prob": 7.138262203554291e-12,
+      "words": [
+        {
+          "start": 15.0,
+          "end": 15.44,
+          "word": " Défends",
+          "probability": 0.9122665127118429
+        },
+        {
+          "start": 15.44,
+          "end": 15.68,
+          "word": "-toi",
+          "probability": 0.9979967474937439
+        },
+        {
+          "start": 15.68,
+          "end": 15.94,
+          "word": "!",
+          "probability": 0.9641456604003906
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

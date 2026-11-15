@@ -1,0 +1,62 @@
+{
+  "scene": "item_title_broche",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_title_broche.mp3",
+  "sha256": "76b43a12a5310d0ca1ca3cede03abeb0f5966e9ddc4a544c99c3386c757605d3",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.275875,
+  "text": "Ta broche de ménestrelle.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.8,
+      "text": " Ta broche de ménestrelle.",
+      "tokens": [
+        50365,
+        6551,
+        2006,
+        1876,
+        368,
+        275,
+        3516,
+        41135,
+        2447,
+        13,
+        50456
+      ],
+      "avg_logprob": -0.4122075140476227,
+      "compression_ratio": 0.7647058823529411,
+      "no_speech_prob": 8.142980213732276e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.32,
+          "word": " Ta",
+          "probability": 0.43307915329933167
+        },
+        {
+          "start": 0.32,
+          "end": 0.8,
+          "word": " broche",
+          "probability": 0.9946589767932892
+        },
+        {
+          "start": 0.8,
+          "end": 1.08,
+          "word": " de",
+          "probability": 0.9965161085128784
+        },
+        {
+          "start": 1.08,
+          "end": 1.8,
+          "word": " ménestrelle.",
+          "probability": 0.7029656916856766
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

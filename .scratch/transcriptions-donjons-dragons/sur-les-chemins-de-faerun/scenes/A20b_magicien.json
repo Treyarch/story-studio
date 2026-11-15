@@ -1,0 +1,834 @@
+{
+  "scene": "A20b_magicien",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A20b_magicien.mp3",
+  "sha256": "57710c71decadf8ae8e7ce1b372e564671d830d8f5861202e451a93da4b7dbec",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 40.3455,
+  "text": "Tu t'es entraîné pour ce genre de moment, et le grand jour est arrivé! Tu murmures les mots adéquats et exécutes les gestes appropriés. Trois fléchettes ardentes apparaissent au bout de tes doigts. D'un mouvement du poignet, tu les envoies vers le dragon. Peut-être détourneront-elles son attention le temps que tu t'échappes. Et si elles ne déconcentrent pas le monstre, tu espères au moins qu'elles le piquent. À ta stupéfaction, les projectiles magiques atteignent le dragon, le traversent et disparaissent sans même un grésillement.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.42,
+      "end": 5.16,
+      "text": " Tu t'es entraîné pour ce genre de moment, et le grand jour est arrivé!",
+      "tokens": [
+        50365,
+        7836,
+        256,
+        6,
+        279,
+        22284,
+        7517,
+        15055,
+        2016,
+        1769,
+        11022,
+        368,
+        1623,
+        11,
+        1030,
+        476,
+        2697,
+        2827,
+        871,
+        47112,
+        2298,
+        50579
+      ],
+      "avg_logprob": -0.10282567263964344,
+      "compression_ratio": 1.5625,
+      "no_speech_prob": 7.382420195989337e-12,
+      "words": [
+        {
+          "start": 1.42,
+          "end": 1.84,
+          "word": " Tu",
+          "probability": 0.9724066853523254
+        },
+        {
+          "start": 1.84,
+          "end": 1.96,
+          "word": " t",
+          "probability": 0.9998185038566589
+        },
+        {
+          "start": 1.96,
+          "end": 2.02,
+          "word": "'es",
+          "probability": 0.9998263120651245
+        },
+        {
+          "start": 2.02,
+          "end": 2.44,
+          "word": " entraîné",
+          "probability": 0.9643506209055582
+        },
+        {
+          "start": 2.44,
+          "end": 2.62,
+          "word": " pour",
+          "probability": 0.9997758269309998
+        },
+        {
+          "start": 2.62,
+          "end": 2.76,
+          "word": " ce",
+          "probability": 0.9999834299087524
+        },
+        {
+          "start": 2.76,
+          "end": 2.92,
+          "word": " genre",
+          "probability": 0.9997009038925171
+        },
+        {
+          "start": 2.92,
+          "end": 3.08,
+          "word": " de",
+          "probability": 0.9999780654907227
+        },
+        {
+          "start": 3.08,
+          "end": 3.36,
+          "word": " moment,",
+          "probability": 0.9495388865470886
+        },
+        {
+          "start": 3.48,
+          "end": 3.88,
+          "word": " et",
+          "probability": 0.9999098777770996
+        },
+        {
+          "start": 3.88,
+          "end": 4.0,
+          "word": " le",
+          "probability": 0.9999805688858032
+        },
+        {
+          "start": 4.0,
+          "end": 4.18,
+          "word": " grand",
+          "probability": 0.9996089339256287
+        },
+        {
+          "start": 4.18,
+          "end": 4.38,
+          "word": " jour",
+          "probability": 0.9998600482940674
+        },
+        {
+          "start": 4.38,
+          "end": 4.52,
+          "word": " est",
+          "probability": 0.999962568283081
+        },
+        {
+          "start": 4.52,
+          "end": 4.84,
+          "word": " arrivé",
+          "probability": 0.9999277591705322
+        },
+        {
+          "start": 4.84,
+          "end": 5.16,
+          "word": "!",
+          "probability": 0.6106358170509338
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.62,
+      "end": 9.04,
+      "text": " Tu murmures les mots adéquats et exécutes les gestes appropriés.",
+      "tokens": [
+        50579,
+        7836,
+        39729,
+        1303,
+        1512,
+        34009,
+        614,
+        20183,
+        1720,
+        1030,
+        454,
+        9062,
+        1819,
+        1512,
+        7219,
+        279,
+        5745,
+        2191,
+        13,
+        50746
+      ],
+      "avg_logprob": -0.10282567263964344,
+      "compression_ratio": 1.5625,
+      "no_speech_prob": 7.382420195989337e-12,
+      "words": [
+        {
+          "start": 5.62,
+          "end": 5.86,
+          "word": " Tu",
+          "probability": 0.9980886578559875
+        },
+        {
+          "start": 5.86,
+          "end": 6.38,
+          "word": " murmures",
+          "probability": 0.9993167817592621
+        },
+        {
+          "start": 6.38,
+          "end": 6.54,
+          "word": " les",
+          "probability": 0.9998878240585327
+        },
+        {
+          "start": 6.54,
+          "end": 6.72,
+          "word": " mots",
+          "probability": 0.999832034111023
+        },
+        {
+          "start": 6.72,
+          "end": 7.22,
+          "word": " adéquats",
+          "probability": 0.9985149502754211
+        },
+        {
+          "start": 7.22,
+          "end": 7.44,
+          "word": " et",
+          "probability": 0.998077392578125
+        },
+        {
+          "start": 7.44,
+          "end": 7.98,
+          "word": " exécutes",
+          "probability": 0.9049458503723145
+        },
+        {
+          "start": 7.98,
+          "end": 8.12,
+          "word": " les",
+          "probability": 0.9998806715011597
+        },
+        {
+          "start": 8.12,
+          "end": 8.44,
+          "word": " gestes",
+          "probability": 0.999521017074585
+        },
+        {
+          "start": 8.44,
+          "end": 9.04,
+          "word": " appropriés.",
+          "probability": 0.9996745586395264
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.44,
+      "end": 14.36,
+      "text": " Trois fléchettes ardentes apparaissent au bout de tes doigts.",
+      "tokens": [
+        50787,
+        19406,
+        271,
+        932,
+        30606,
+        16049,
+        44856,
+        9240,
+        724,
+        2419,
+        25450,
+        1609,
+        15738,
+        368,
+        20018,
+        360,
+        328,
+        1373,
+        13,
+        50930
+      ],
+      "avg_logprob": -0.10282567263964344,
+      "compression_ratio": 1.5625,
+      "no_speech_prob": 7.382420195989337e-12,
+      "words": [
+        {
+          "start": 11.44,
+          "end": 11.74,
+          "word": " Trois",
+          "probability": 0.9978786408901215
+        },
+        {
+          "start": 11.74,
+          "end": 12.16,
+          "word": " fléchettes",
+          "probability": 0.9921085238456726
+        },
+        {
+          "start": 12.16,
+          "end": 12.64,
+          "word": " ardentes",
+          "probability": 0.9967616200447083
+        },
+        {
+          "start": 12.64,
+          "end": 13.36,
+          "word": " apparaissent",
+          "probability": 0.9985361297925314
+        },
+        {
+          "start": 13.36,
+          "end": 13.62,
+          "word": " au",
+          "probability": 0.9997904896736145
+        },
+        {
+          "start": 13.62,
+          "end": 13.8,
+          "word": " bout",
+          "probability": 0.9999557733535767
+        },
+        {
+          "start": 13.8,
+          "end": 13.94,
+          "word": " de",
+          "probability": 0.9995806813240051
+        },
+        {
+          "start": 13.94,
+          "end": 14.08,
+          "word": " tes",
+          "probability": 0.9999433755874634
+        },
+        {
+          "start": 14.08,
+          "end": 14.36,
+          "word": " doigts.",
+          "probability": 0.9997519254684448
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 15.32,
+      "end": 18.68,
+      "text": " D'un mouvement du poignet, tu les envoies vers le dragon.",
+      "tokens": [
+        50994,
+        413,
+        6,
+        409,
+        41219,
+        1581,
+        714,
+        788,
+        302,
+        11,
+        2604,
+        1512,
+        2267,
+        78,
+        530,
+        1774,
+        476,
+        12165,
+        13,
+        51147
+      ],
+      "avg_logprob": -0.10282567263964344,
+      "compression_ratio": 1.5625,
+      "no_speech_prob": 7.382420195989337e-12,
+      "words": [
+        {
+          "start": 15.32,
+          "end": 15.8,
+          "word": " D",
+          "probability": 0.9995077848434448
+        },
+        {
+          "start": 15.8,
+          "end": 15.9,
+          "word": "'un",
+          "probability": 0.9999778270721436
+        },
+        {
+          "start": 15.9,
+          "end": 16.3,
+          "word": " mouvement",
+          "probability": 0.9996299743652344
+        },
+        {
+          "start": 16.3,
+          "end": 16.48,
+          "word": " du",
+          "probability": 0.9956973791122437
+        },
+        {
+          "start": 16.48,
+          "end": 16.92,
+          "word": " poignet,",
+          "probability": 0.9955729444821676
+        },
+        {
+          "start": 17.3,
+          "end": 17.6,
+          "word": " tu",
+          "probability": 0.9999300241470337
+        },
+        {
+          "start": 17.6,
+          "end": 17.78,
+          "word": " les",
+          "probability": 0.9999469518661499
+        },
+        {
+          "start": 17.78,
+          "end": 18.12,
+          "word": " envoies",
+          "probability": 0.9951352675755819
+        },
+        {
+          "start": 18.12,
+          "end": 18.28,
+          "word": " vers",
+          "probability": 0.9998990297317505
+        },
+        {
+          "start": 18.28,
+          "end": 18.4,
+          "word": " le",
+          "probability": 0.9999357461929321
+        },
+        {
+          "start": 18.4,
+          "end": 18.68,
+          "word": " dragon.",
+          "probability": 0.9987633228302002
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 19.3,
+      "end": 22.32,
+      "text": " Peut-être détourneront-elles son attention le temps que tu t'échappes.",
+      "tokens": [
+        51181,
+        2396,
+        325,
+        12,
+        9498,
+        22312,
+        396,
+        1193,
+        896,
+        12,
+        19787,
+        1872,
+        3202,
+        476,
+        8827,
+        631,
+        2604,
+        256,
+        6,
+        30606,
+        1746,
+        279,
+        13,
+        51328
+      ],
+      "avg_logprob": -0.10282567263964344,
+      "compression_ratio": 1.5625,
+      "no_speech_prob": 7.382420195989337e-12,
+      "words": [
+        {
+          "start": 19.3,
+          "end": 19.58,
+          "word": " Peut",
+          "probability": 0.9996018409729004
+        },
+        {
+          "start": 19.58,
+          "end": 19.72,
+          "word": "-être",
+          "probability": 0.9998916685581207
+        },
+        {
+          "start": 19.72,
+          "end": 20.4,
+          "word": " détourneront",
+          "probability": 0.9996660649776459
+        },
+        {
+          "start": 20.4,
+          "end": 20.58,
+          "word": "-elles",
+          "probability": 0.9961644411087036
+        },
+        {
+          "start": 20.58,
+          "end": 20.78,
+          "word": " son",
+          "probability": 0.9996511936187744
+        },
+        {
+          "start": 20.78,
+          "end": 21.16,
+          "word": " attention",
+          "probability": 0.9997406601905823
+        },
+        {
+          "start": 21.16,
+          "end": 21.42,
+          "word": " le",
+          "probability": 0.9998151659965515
+        },
+        {
+          "start": 21.42,
+          "end": 21.56,
+          "word": " temps",
+          "probability": 0.9992013573646545
+        },
+        {
+          "start": 21.56,
+          "end": 21.68,
+          "word": " que",
+          "probability": 0.9999561309814453
+        },
+        {
+          "start": 21.68,
+          "end": 21.82,
+          "word": " tu",
+          "probability": 0.9999761581420898
+        },
+        {
+          "start": 21.82,
+          "end": 21.92,
+          "word": " t",
+          "probability": 0.9999517202377319
+        },
+        {
+          "start": 21.92,
+          "end": 22.32,
+          "word": "'échappes.",
+          "probability": 0.9990593492984772
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 22.8,
+      "end": 26.9,
+      "text": " Et si elles ne déconcentrent pas le monstre, tu espères au moins qu'elles le piquent.",
+      "tokens": [
+        51369,
+        3790,
+        1511,
+        23576,
+        408,
+        2795,
+        1671,
+        2207,
+        1753,
+        1736,
+        476,
+        1108,
+        26421,
+        11,
+        2604,
+        7089,
+        13927,
+        1609,
+        13099,
+        421,
+        6,
+        19787,
+        476,
+        280,
+        3221,
+        317,
+        13,
+        51557
+      ],
+      "avg_logprob": -0.10282567263964344,
+      "compression_ratio": 1.5625,
+      "no_speech_prob": 7.382420195989337e-12,
+      "words": [
+        {
+          "start": 22.8,
+          "end": 23.28,
+          "word": " Et",
+          "probability": 0.9997599720954895
+        },
+        {
+          "start": 23.28,
+          "end": 23.5,
+          "word": " si",
+          "probability": 0.999747097492218
+        },
+        {
+          "start": 23.5,
+          "end": 23.66,
+          "word": " elles",
+          "probability": 0.9390416145324707
+        },
+        {
+          "start": 23.66,
+          "end": 23.82,
+          "word": " ne",
+          "probability": 0.9999604225158691
+        },
+        {
+          "start": 23.82,
+          "end": 24.4,
+          "word": " déconcentrent",
+          "probability": 0.9984210580587387
+        },
+        {
+          "start": 24.4,
+          "end": 24.52,
+          "word": " pas",
+          "probability": 0.9993616938591003
+        },
+        {
+          "start": 24.52,
+          "end": 24.66,
+          "word": " le",
+          "probability": 0.9997454285621643
+        },
+        {
+          "start": 24.66,
+          "end": 25.0,
+          "word": " monstre,",
+          "probability": 0.9983944892883301
+        },
+        {
+          "start": 25.36,
+          "end": 25.52,
+          "word": " tu",
+          "probability": 0.9999043941497803
+        },
+        {
+          "start": 25.52,
+          "end": 25.92,
+          "word": " espères",
+          "probability": 0.9975626170635223
+        },
+        {
+          "start": 25.92,
+          "end": 26.06,
+          "word": " au",
+          "probability": 0.9998831748962402
+        },
+        {
+          "start": 26.06,
+          "end": 26.18,
+          "word": " moins",
+          "probability": 0.9999769926071167
+        },
+        {
+          "start": 26.18,
+          "end": 26.32,
+          "word": " qu",
+          "probability": 0.9999518394470215
+        },
+        {
+          "start": 26.32,
+          "end": 26.4,
+          "word": "'elles",
+          "probability": 0.991692990064621
+        },
+        {
+          "start": 26.4,
+          "end": 26.58,
+          "word": " le",
+          "probability": 0.9997716546058655
+        },
+        {
+          "start": 26.58,
+          "end": 26.9,
+          "word": " piquent.",
+          "probability": 0.9955462217330933
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 2384,
+      "start": 28.08,
+      "end": 37.04,
+      "text": " À ta stupéfaction, les projectiles magiques atteignent le dragon, le traversent et disparaissent sans même un grésillement.",
+      "tokens": [
+        50365,
+        19018,
+        1846,
+        342,
+        1010,
+        38821,
+        2894,
+        11,
+        1512,
+        1716,
+        4680,
+        2258,
+        4911,
+        42783,
+        788,
+        317,
+        476,
+        12165,
+        11,
+        476,
+        23149,
+        317,
+        1030,
+        14548,
+        64,
+        25450,
+        12177,
+        5698,
+        517,
+        677,
+        2191,
+        373,
+        1712,
+        13,
+        50873
+      ],
+      "avg_logprob": -0.0576605409797695,
+      "compression_ratio": 1.2095238095238094,
+      "no_speech_prob": 5.468442539069418e-12,
+      "words": [
+        {
+          "start": 28.08,
+          "end": 28.96,
+          "word": " À",
+          "probability": 0.6022867560386658
+        },
+        {
+          "start": 28.96,
+          "end": 29.1,
+          "word": " ta",
+          "probability": 0.9980602860450745
+        },
+        {
+          "start": 29.1,
+          "end": 29.9,
+          "word": " stupéfaction,",
+          "probability": 0.9993266612291336
+        },
+        {
+          "start": 30.22,
+          "end": 30.82,
+          "word": " les",
+          "probability": 0.9994581341743469
+        },
+        {
+          "start": 30.82,
+          "end": 31.56,
+          "word": " projectiles",
+          "probability": 0.9972908198833466
+        },
+        {
+          "start": 31.56,
+          "end": 32.08,
+          "word": " magiques",
+          "probability": 0.9997967481613159
+        },
+        {
+          "start": 32.08,
+          "end": 32.62,
+          "word": " atteignent",
+          "probability": 0.9995253880818685
+        },
+        {
+          "start": 32.62,
+          "end": 32.74,
+          "word": " le",
+          "probability": 0.9997933506965637
+        },
+        {
+          "start": 32.74,
+          "end": 33.04,
+          "word": " dragon,",
+          "probability": 0.9978322386741638
+        },
+        {
+          "start": 33.64,
+          "end": 33.76,
+          "word": " le",
+          "probability": 0.9993863105773926
+        },
+        {
+          "start": 33.76,
+          "end": 34.48,
+          "word": " traversent",
+          "probability": 0.9985116422176361
+        },
+        {
+          "start": 34.48,
+          "end": 34.88,
+          "word": " et",
+          "probability": 0.8976290225982666
+        },
+        {
+          "start": 34.88,
+          "end": 35.7,
+          "word": " disparaissent",
+          "probability": 0.9986951549847921
+        },
+        {
+          "start": 35.7,
+          "end": 36.06,
+          "word": " sans",
+          "probability": 0.9990803003311157
+        },
+        {
+          "start": 36.06,
+          "end": 36.4,
+          "word": " même",
+          "probability": 0.9998445510864258
+        },
+        {
+          "start": 36.4,
+          "end": 36.56,
+          "word": " un",
+          "probability": 0.9977518916130066
+        },
+        {
+          "start": 36.56,
+          "end": 37.04,
+          "word": " grésillement.",
+          "probability": 0.993223175406456
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "scene": "B73_list_b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B73_list_b.mp3",
+  "sha256": "7ff018099994f18ace339fec02d0275d404dbe78110b3dc31fee0c2edc83b461",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.428,
+  "text": "Et maintenant?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.04,
+      "text": " Et maintenant?",
+      "tokens": [
+        50365,
+        3790,
+        14817,
+        2506,
+        50436
+      ],
+      "avg_logprob": -0.3814048071702321,
+      "compression_ratio": 0.6521739130434783,
+      "no_speech_prob": 4.5019760488984595e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.5,
+          "word": " Et",
+          "probability": 0.9662712812423706
+        },
+        {
+          "start": 0.5,
+          "end": 0.88,
+          "word": " maintenant",
+          "probability": 0.9993218183517456
+        },
+        {
+          "start": 0.88,
+          "end": 1.04,
+          "word": "?",
+          "probability": 0.7653377056121826
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

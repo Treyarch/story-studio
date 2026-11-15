@@ -1,0 +1,45 @@
+{
+  "scene": "main_menu_ch2b-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/main_menu_ch2b-fr_FR.mp3",
+  "sha256": "c20baa5697ef6ac426af75bbab9e671b1ea64a13241de1cacd6b95791bc7d147",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.746875,
+  "text": "Tes affaires.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.02,
+      "text": " Tes affaires.",
+      "tokens": [
+        50365,
+        12262,
+        2096,
+        10840,
+        13,
+        50416
+      ],
+      "avg_logprob": -0.3313778553690229,
+      "compression_ratio": 0.6190476190476191,
+      "no_speech_prob": 5.146093186997325e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.56,
+          "word": " Tes",
+          "probability": 0.6805694699287415
+        },
+        {
+          "start": 0.56,
+          "end": 1.02,
+          "word": " affaires.",
+          "probability": 0.989914208650589
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,972 @@
+{
+  "scene": "IN1c",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/IN1c.mp3",
+  "sha256": "cac44fcbcd3274517e9745f128dfe768826a5453541985ab059264d9536e707e",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 38.2931875,
+  "text": "Tu as dû remarquer que ton personnage est défini par quatre caractéristiques. La force, la dextérité, la sagesse et le charisme. Plus le nombre associé à une caractéristique est élevé, plus ton personnage sera à l'aise dans ce domaine au long de cette aventure. Nous avons fixé les caractéristiques de ton personnage afin qu'il soit le plus adapté au peuple et à la classe que tu as choisi. Pour chaque obstacle ou épreuve à surmonter, ces caractéristiques pourront te venir en aide. Mais attention, le hasard joue aussi son rôle. Lance le dé à 20 faces et vois ce qu'il se passe.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.62,
+      "end": 4.64,
+      "text": " Tu as dû remarquer que ton personnage est défini par quatre caractéristiques.",
+      "tokens": [
+        50365,
+        7836,
+        382,
+        42300,
+        34329,
+        8035,
+        631,
+        2952,
+        43952,
+        871,
+        30456,
+        3812,
+        971,
+        31334,
+        1032,
+        578,
+        4198,
+        468,
+        4911,
+        13,
+        50566
+      ],
+      "avg_logprob": -0.056839408524530496,
+      "compression_ratio": 1.7956989247311828,
+      "no_speech_prob": 5.5708038008972505e-12,
+      "words": [
+        {
+          "start": 0.62,
+          "end": 1.06,
+          "word": " Tu",
+          "probability": 0.9789602756500244
+        },
+        {
+          "start": 1.06,
+          "end": 1.18,
+          "word": " as",
+          "probability": 0.9995682835578918
+        },
+        {
+          "start": 1.18,
+          "end": 1.3,
+          "word": " dû",
+          "probability": 0.999320387840271
+        },
+        {
+          "start": 1.3,
+          "end": 1.72,
+          "word": " remarquer",
+          "probability": 0.9998246133327484
+        },
+        {
+          "start": 1.72,
+          "end": 1.88,
+          "word": " que",
+          "probability": 0.9999895095825195
+        },
+        {
+          "start": 1.88,
+          "end": 2.02,
+          "word": " ton",
+          "probability": 0.999977707862854
+        },
+        {
+          "start": 2.02,
+          "end": 2.54,
+          "word": " personnage",
+          "probability": 0.9999349117279053
+        },
+        {
+          "start": 2.54,
+          "end": 2.72,
+          "word": " est",
+          "probability": 0.999956488609314
+        },
+        {
+          "start": 2.72,
+          "end": 3.1,
+          "word": " défini",
+          "probability": 0.9992591738700867
+        },
+        {
+          "start": 3.1,
+          "end": 3.36,
+          "word": " par",
+          "probability": 0.9999681711196899
+        },
+        {
+          "start": 3.36,
+          "end": 3.68,
+          "word": " quatre",
+          "probability": 0.8126384019851685
+        },
+        {
+          "start": 3.68,
+          "end": 4.64,
+          "word": " caractéristiques.",
+          "probability": 0.9998214602470398
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.94,
+      "end": 8.8,
+      "text": " La force, la dextérité, la sagesse et le charisme.",
+      "tokens": [
+        50600,
+        2369,
+        3464,
+        11,
+        635,
+        368,
+        734,
+        526,
+        3210,
+        526,
+        11,
+        635,
+        262,
+        1660,
+        405,
+        1030,
+        476,
+        1290,
+        16415,
+        13,
+        50775
+      ],
+      "avg_logprob": -0.056839408524530496,
+      "compression_ratio": 1.7956989247311828,
+      "no_speech_prob": 5.5708038008972505e-12,
+      "words": [
+        {
+          "start": 4.94,
+          "end": 5.42,
+          "word": " La",
+          "probability": 0.9986144304275513
+        },
+        {
+          "start": 5.42,
+          "end": 5.84,
+          "word": " force,",
+          "probability": 0.9978463649749756
+        },
+        {
+          "start": 6.04,
+          "end": 6.2,
+          "word": " la",
+          "probability": 0.9999797344207764
+        },
+        {
+          "start": 6.2,
+          "end": 6.88,
+          "word": " dextérité,",
+          "probability": 0.9978676795959472
+        },
+        {
+          "start": 7.2,
+          "end": 7.52,
+          "word": " la",
+          "probability": 0.9999911785125732
+        },
+        {
+          "start": 7.52,
+          "end": 8.06,
+          "word": " sagesse",
+          "probability": 0.9997331500053406
+        },
+        {
+          "start": 8.06,
+          "end": 8.2,
+          "word": " et",
+          "probability": 0.9999003410339355
+        },
+        {
+          "start": 8.2,
+          "end": 8.32,
+          "word": " le",
+          "probability": 0.9999603033065796
+        },
+        {
+          "start": 8.32,
+          "end": 8.8,
+          "word": " charisme.",
+          "probability": 0.9983206987380981
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.44,
+      "end": 12.3,
+      "text": " Plus le nombre associé à une caractéristique est élevé,",
+      "tokens": [
+        50820,
+        7721,
+        476,
+        13000,
+        4180,
+        526,
+        1531,
+        2251,
+        1032,
+        578,
+        4198,
+        468,
+        1925,
+        871,
+        1136,
+        306,
+        15797,
+        11,
+        50950
+      ],
+      "avg_logprob": -0.056839408524530496,
+      "compression_ratio": 1.7956989247311828,
+      "no_speech_prob": 5.5708038008972505e-12,
+      "words": [
+        {
+          "start": 9.44,
+          "end": 9.84,
+          "word": " Plus",
+          "probability": 0.999512791633606
+        },
+        {
+          "start": 9.84,
+          "end": 10.0,
+          "word": " le",
+          "probability": 0.9999877214431763
+        },
+        {
+          "start": 10.0,
+          "end": 10.22,
+          "word": " nombre",
+          "probability": 0.9998652935028076
+        },
+        {
+          "start": 10.22,
+          "end": 10.74,
+          "word": " associé",
+          "probability": 0.9999176263809204
+        },
+        {
+          "start": 10.74,
+          "end": 10.84,
+          "word": " à",
+          "probability": 0.9997863173484802
+        },
+        {
+          "start": 10.84,
+          "end": 10.96,
+          "word": " une",
+          "probability": 0.9999227523803711
+        },
+        {
+          "start": 10.96,
+          "end": 11.78,
+          "word": " caractéristique",
+          "probability": 0.9998691082000732
+        },
+        {
+          "start": 11.78,
+          "end": 12.02,
+          "word": " est",
+          "probability": 0.9999737739562988
+        },
+        {
+          "start": 12.02,
+          "end": 12.3,
+          "word": " élevé,",
+          "probability": 0.9995173811912537
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.64,
+      "end": 16.42,
+      "text": " plus ton personnage sera à l'aise dans ce domaine au long de cette aventure.",
+      "tokens": [
+        50973,
+        1804,
+        2952,
+        43952,
+        15021,
+        1531,
+        287,
+        6,
+        64,
+        908,
+        2680,
+        1769,
+        3285,
+        7119,
+        1609,
+        938,
+        368,
+        5550,
+        36399,
+        540,
+        13,
+        51156
+      ],
+      "avg_logprob": -0.056839408524530496,
+      "compression_ratio": 1.7956989247311828,
+      "no_speech_prob": 5.5708038008972505e-12,
+      "words": [
+        {
+          "start": 12.64,
+          "end": 12.92,
+          "word": " plus",
+          "probability": 0.9999350309371948
+        },
+        {
+          "start": 12.92,
+          "end": 13.1,
+          "word": " ton",
+          "probability": 0.9999878406524658
+        },
+        {
+          "start": 13.1,
+          "end": 13.68,
+          "word": " personnage",
+          "probability": 0.9999339580535889
+        },
+        {
+          "start": 13.68,
+          "end": 13.98,
+          "word": " sera",
+          "probability": 0.9998723268508911
+        },
+        {
+          "start": 13.98,
+          "end": 14.22,
+          "word": " à",
+          "probability": 0.9997852444648743
+        },
+        {
+          "start": 14.22,
+          "end": 14.3,
+          "word": " l",
+          "probability": 0.9999432563781738
+        },
+        {
+          "start": 14.3,
+          "end": 14.44,
+          "word": "'aise",
+          "probability": 0.9998061855634054
+        },
+        {
+          "start": 14.44,
+          "end": 14.58,
+          "word": " dans",
+          "probability": 0.9999722242355347
+        },
+        {
+          "start": 14.58,
+          "end": 14.78,
+          "word": " ce",
+          "probability": 0.9999740123748779
+        },
+        {
+          "start": 14.78,
+          "end": 15.14,
+          "word": " domaine",
+          "probability": 0.9999406933784485
+        },
+        {
+          "start": 15.14,
+          "end": 15.38,
+          "word": " au",
+          "probability": 0.9999241828918457
+        },
+        {
+          "start": 15.38,
+          "end": 15.52,
+          "word": " long",
+          "probability": 0.9995206594467163
+        },
+        {
+          "start": 15.52,
+          "end": 15.68,
+          "word": " de",
+          "probability": 0.9999921321868896
+        },
+        {
+          "start": 15.68,
+          "end": 15.88,
+          "word": " cette",
+          "probability": 0.9998733997344971
+        },
+        {
+          "start": 15.88,
+          "end": 16.42,
+          "word": " aventure.",
+          "probability": 0.999981164932251
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 17.06,
+      "end": 20.06,
+      "text": " Nous avons fixé les caractéristiques de ton personnage",
+      "tokens": [
+        51204,
+        15343,
+        18990,
+        3191,
+        526,
+        1512,
+        1032,
+        578,
+        4198,
+        468,
+        4911,
+        368,
+        2952,
+        43952,
+        51338
+      ],
+      "avg_logprob": -0.056839408524530496,
+      "compression_ratio": 1.7956989247311828,
+      "no_speech_prob": 5.5708038008972505e-12,
+      "words": [
+        {
+          "start": 17.06,
+          "end": 17.54,
+          "word": " Nous",
+          "probability": 0.9997382760047913
+        },
+        {
+          "start": 17.54,
+          "end": 17.8,
+          "word": " avons",
+          "probability": 0.9996991157531738
+        },
+        {
+          "start": 17.8,
+          "end": 18.22,
+          "word": " fixé",
+          "probability": 0.999887615442276
+        },
+        {
+          "start": 18.22,
+          "end": 18.36,
+          "word": " les",
+          "probability": 0.999980092048645
+        },
+        {
+          "start": 18.36,
+          "end": 19.16,
+          "word": " caractéristiques",
+          "probability": 0.9999382972717286
+        },
+        {
+          "start": 19.16,
+          "end": 19.28,
+          "word": " de",
+          "probability": 0.9999266862869263
+        },
+        {
+          "start": 19.28,
+          "end": 19.42,
+          "word": " ton",
+          "probability": 0.9999772310256958
+        },
+        {
+          "start": 19.42,
+          "end": 20.06,
+          "word": " personnage",
+          "probability": 0.9999468326568604
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 20.06,
+      "end": 23.64,
+      "text": " afin qu'il soit le plus adapté au peuple et à la classe que tu as choisi.",
+      "tokens": [
+        51338,
+        34709,
+        421,
+        6,
+        388,
+        12703,
+        476,
+        1804,
+        6231,
+        526,
+        1609,
+        49186,
+        1030,
+        1531,
+        635,
+        32400,
+        631,
+        2604,
+        382,
+        1586,
+        8021,
+        13,
+        51516
+      ],
+      "avg_logprob": -0.056839408524530496,
+      "compression_ratio": 1.7956989247311828,
+      "no_speech_prob": 5.5708038008972505e-12,
+      "words": [
+        {
+          "start": 20.06,
+          "end": 20.46,
+          "word": " afin",
+          "probability": 0.9877151846885681
+        },
+        {
+          "start": 20.46,
+          "end": 20.66,
+          "word": " qu",
+          "probability": 0.9999860525131226
+        },
+        {
+          "start": 20.66,
+          "end": 20.72,
+          "word": "'il",
+          "probability": 0.999786764383316
+        },
+        {
+          "start": 20.72,
+          "end": 20.92,
+          "word": " soit",
+          "probability": 0.9999016523361206
+        },
+        {
+          "start": 20.92,
+          "end": 21.1,
+          "word": " le",
+          "probability": 0.9999686479568481
+        },
+        {
+          "start": 21.1,
+          "end": 21.32,
+          "word": " plus",
+          "probability": 0.9999727010726929
+        },
+        {
+          "start": 21.32,
+          "end": 21.76,
+          "word": " adapté",
+          "probability": 0.999930739402771
+        },
+        {
+          "start": 21.76,
+          "end": 21.9,
+          "word": " au",
+          "probability": 0.9992857575416565
+        },
+        {
+          "start": 21.9,
+          "end": 22.22,
+          "word": " peuple",
+          "probability": 0.9999536275863647
+        },
+        {
+          "start": 22.22,
+          "end": 22.42,
+          "word": " et",
+          "probability": 0.9999738931655884
+        },
+        {
+          "start": 22.42,
+          "end": 22.54,
+          "word": " à",
+          "probability": 0.9999825954437256
+        },
+        {
+          "start": 22.54,
+          "end": 22.68,
+          "word": " la",
+          "probability": 0.9999440908432007
+        },
+        {
+          "start": 22.68,
+          "end": 22.94,
+          "word": " classe",
+          "probability": 0.999742329120636
+        },
+        {
+          "start": 22.94,
+          "end": 23.08,
+          "word": " que",
+          "probability": 0.9999687671661377
+        },
+        {
+          "start": 23.08,
+          "end": 23.2,
+          "word": " tu",
+          "probability": 0.9999719858169556
+        },
+        {
+          "start": 23.2,
+          "end": 23.3,
+          "word": " as",
+          "probability": 0.9995427131652832
+        },
+        {
+          "start": 23.3,
+          "end": 23.64,
+          "word": " choisi.",
+          "probability": 0.9810568988323212
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 24.14,
+      "end": 26.44,
+      "text": " Pour chaque obstacle ou épreuve à surmonter,",
+      "tokens": [
+        51557,
+        8732,
+        18920,
+        23112,
+        2820,
+        1136,
+        3712,
+        31564,
+        1531,
+        1022,
+        3317,
+        391,
+        11,
+        51657
+      ],
+      "avg_logprob": -0.056839408524530496,
+      "compression_ratio": 1.7956989247311828,
+      "no_speech_prob": 5.5708038008972505e-12,
+      "words": [
+        {
+          "start": 24.14,
+          "end": 24.58,
+          "word": " Pour",
+          "probability": 0.9995525479316711
+        },
+        {
+          "start": 24.58,
+          "end": 24.84,
+          "word": " chaque",
+          "probability": 0.9999392032623291
+        },
+        {
+          "start": 24.84,
+          "end": 25.26,
+          "word": " obstacle",
+          "probability": 0.999498724937439
+        },
+        {
+          "start": 25.26,
+          "end": 25.44,
+          "word": " ou",
+          "probability": 0.9995524287223816
+        },
+        {
+          "start": 25.44,
+          "end": 25.8,
+          "word": " épreuve",
+          "probability": 0.9994135697682699
+        },
+        {
+          "start": 25.8,
+          "end": 25.9,
+          "word": " à",
+          "probability": 0.96230149269104
+        },
+        {
+          "start": 25.9,
+          "end": 26.44,
+          "word": " surmonter,",
+          "probability": 0.9992823402086893
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 26.84,
+      "end": 28.92,
+      "text": " ces caractéristiques pourront te venir en aide.",
+      "tokens": [
+        51676,
+        7879,
+        1032,
+        578,
+        4198,
+        468,
+        4911,
+        2016,
+        10001,
+        535,
+        20817,
+        465,
+        40890,
+        13,
+        51781
+      ],
+      "avg_logprob": -0.056839408524530496,
+      "compression_ratio": 1.7956989247311828,
+      "no_speech_prob": 5.5708038008972505e-12,
+      "words": [
+        {
+          "start": 26.84,
+          "end": 26.92,
+          "word": " ces",
+          "probability": 0.9840525388717651
+        },
+        {
+          "start": 26.92,
+          "end": 27.78,
+          "word": " caractéristiques",
+          "probability": 0.9999477863311768
+        },
+        {
+          "start": 27.78,
+          "end": 28.1,
+          "word": " pourront",
+          "probability": 0.9994765520095825
+        },
+        {
+          "start": 28.1,
+          "end": 28.24,
+          "word": " te",
+          "probability": 0.9990739822387695
+        },
+        {
+          "start": 28.24,
+          "end": 28.48,
+          "word": " venir",
+          "probability": 0.9989732503890991
+        },
+        {
+          "start": 28.48,
+          "end": 28.72,
+          "word": " en",
+          "probability": 0.9999648332595825
+        },
+        {
+          "start": 28.72,
+          "end": 28.92,
+          "word": " aide.",
+          "probability": 0.9995667338371277
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2830,
+      "start": 29.4,
+      "end": 32.5,
+      "text": " Mais attention, le hasard joue aussi son rôle.",
+      "tokens": [
+        50397,
+        6313,
+        3202,
+        11,
+        476,
+        575,
+        515,
+        46209,
+        6212,
+        1872,
+        41681,
+        13,
+        50545
+      ],
+      "avg_logprob": -0.16119832473416482,
+      "compression_ratio": 1.0421052631578946,
+      "no_speech_prob": 5.492587287769801e-12,
+      "words": [
+        {
+          "start": 29.4,
+          "end": 29.66,
+          "word": " Mais",
+          "probability": 0.9765245914459229
+        },
+        {
+          "start": 29.66,
+          "end": 30.08,
+          "word": " attention,",
+          "probability": 0.9997288584709167
+        },
+        {
+          "start": 30.62,
+          "end": 31.04,
+          "word": " le",
+          "probability": 0.9993419051170349
+        },
+        {
+          "start": 31.04,
+          "end": 31.5,
+          "word": " hasard",
+          "probability": 0.9991225004196167
+        },
+        {
+          "start": 31.5,
+          "end": 31.76,
+          "word": " joue",
+          "probability": 0.9991564750671387
+        },
+        {
+          "start": 31.76,
+          "end": 32.02,
+          "word": " aussi",
+          "probability": 0.999971866607666
+        },
+        {
+          "start": 32.02,
+          "end": 32.22,
+          "word": " son",
+          "probability": 0.9999583959579468
+        },
+        {
+          "start": 32.22,
+          "end": 32.5,
+          "word": " rôle.",
+          "probability": 0.9999862909317017
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2830,
+      "start": 32.92,
+      "end": 35.64,
+      "text": " Lance le dé à 20 faces et vois ce qu'il se passe.",
+      "tokens": [
+        50580,
+        40493,
+        476,
+        2795,
+        1531,
+        945,
+        8475,
+        1030,
+        18297,
+        1769,
+        421,
+        6,
+        388,
+        369,
+        14530,
+        13,
+        50702
+      ],
+      "avg_logprob": -0.16119832473416482,
+      "compression_ratio": 1.0421052631578946,
+      "no_speech_prob": 5.492587287769801e-12,
+      "words": [
+        {
+          "start": 32.92,
+          "end": 33.44,
+          "word": " Lance",
+          "probability": 0.9944790601730347
+        },
+        {
+          "start": 33.44,
+          "end": 33.64,
+          "word": " le",
+          "probability": 0.9976463913917542
+        },
+        {
+          "start": 33.64,
+          "end": 33.76,
+          "word": " dé",
+          "probability": 0.9423618912696838
+        },
+        {
+          "start": 33.76,
+          "end": 33.94,
+          "word": " à",
+          "probability": 0.7674753665924072
+        },
+        {
+          "start": 33.94,
+          "end": 34.04,
+          "word": " 20",
+          "probability": 0.8961977362632751
+        },
+        {
+          "start": 34.04,
+          "end": 34.42,
+          "word": " faces",
+          "probability": 0.7780333757400513
+        },
+        {
+          "start": 34.42,
+          "end": 34.68,
+          "word": " et",
+          "probability": 0.9944289922714233
+        },
+        {
+          "start": 34.68,
+          "end": 34.88,
+          "word": " vois",
+          "probability": 0.84178626537323
+        },
+        {
+          "start": 34.88,
+          "end": 35.04,
+          "word": " ce",
+          "probability": 0.9998672008514404
+        },
+        {
+          "start": 35.04,
+          "end": 35.14,
+          "word": " qu",
+          "probability": 0.9997355341911316
+        },
+        {
+          "start": 35.14,
+          "end": 35.22,
+          "word": "'il",
+          "probability": 0.9999842047691345
+        },
+        {
+          "start": 35.22,
+          "end": 35.38,
+          "word": " se",
+          "probability": 0.999961256980896
+        },
+        {
+          "start": 35.38,
+          "end": 35.64,
+          "word": " passe.",
+          "probability": 0.9998435974121094
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

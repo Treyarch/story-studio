@@ -1,0 +1,44 @@
+{
+  "scene": "main_menu_ch3",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/main_menu_ch3.mp3",
+  "sha256": "ecc5eafca3f9c15674879ac7c485a91bd6a2039a8eea61e8b7eb3e4f32dcdaa4",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.5203125,
+  "text": "tes souvenirs",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.1,
+      "text": " tes souvenirs",
+      "tokens": [
+        50365,
+        20018,
+        46509,
+        12983,
+        50420
+      ],
+      "avg_logprob": -0.3400273621082306,
+      "compression_ratio": 0.6190476190476191,
+      "no_speech_prob": 6.1345329857576125e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.34,
+          "word": " tes",
+          "probability": 0.41081786155700684
+        },
+        {
+          "start": 0.34,
+          "end": 1.1,
+          "word": " souvenirs",
+          "probability": 0.999107301235199
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

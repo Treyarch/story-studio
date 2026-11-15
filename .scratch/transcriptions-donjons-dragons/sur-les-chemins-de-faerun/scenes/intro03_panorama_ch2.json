@@ -1,0 +1,76 @@
+{
+  "scene": "intro03_panorama_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/intro03_panorama_ch2.mp3",
+  "sha256": "ae2942ad12d8bb425b9c10c90a2d6b9e247b9feb14aab61e810e115687c4a513",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.197125,
+  "text": "vers la cité d'Eauprofonde",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.76,
+      "text": " vers la cité d'Eauprofonde",
+      "tokens": [
+        50365,
+        1774,
+        635,
+        4814,
+        526,
+        274,
+        6,
+        22290,
+        1740,
+        7259,
+        50455
+      ],
+      "avg_logprob": -0.07427462128301461,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 4.352560412784756e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.52,
+          "word": " vers",
+          "probability": 0.8040799498558044
+        },
+        {
+          "start": 0.52,
+          "end": 0.74,
+          "word": " la",
+          "probability": 0.9993014335632324
+        },
+        {
+          "start": 0.74,
+          "end": 1.1,
+          "word": " cité",
+          "probability": 0.9618694484233856
+        },
+        {
+          "start": 1.1,
+          "end": 1.18,
+          "word": " d",
+          "probability": 0.9997703433036804
+        },
+        {
+          "start": 1.18,
+          "end": 1.24,
+          "word": "'eau",
+          "probability": 0.9786896407604218
+        },
+        {
+          "start": 1.24,
+          "end": 1.76,
+          "word": " profonde",
+          "probability": 0.9995597898960114
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

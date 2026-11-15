@@ -1,0 +1,52 @@
+{
+  "scene": "title_card_f-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/title_card_f-fr_FR.mp3",
+  "sha256": "eeb905cca314ad6fedeede62f40c8b16452ffbaca3d49174b001958c83b2a2ca",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.2969375,
+  "text": "Reporters sans affaires",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.11,
+      "end": 1.63,
+      "text": " Reporters sans affaires",
+      "tokens": [
+        50365,
+        3696,
+        12168,
+        12177,
+        2096,
+        10840,
+        50443
+      ],
+      "avg_logprob": -0.25586525723338127,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 4.377320554638242e-12,
+      "words": [
+        {
+          "start": 0.11,
+          "end": 0.91,
+          "word": " Reporters",
+          "probability": 0.6415673494338989
+        },
+        {
+          "start": 0.91,
+          "end": 1.21,
+          "word": " sans",
+          "probability": 0.9729534387588501
+        },
+        {
+          "start": 1.21,
+          "end": 1.63,
+          "word": " affaires",
+          "probability": 0.9878742396831512
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

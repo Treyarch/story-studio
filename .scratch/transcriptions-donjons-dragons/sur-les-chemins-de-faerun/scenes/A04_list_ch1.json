@@ -1,0 +1,62 @@
+{
+  "scene": "A04_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A04_list_ch1.mp3",
+  "sha256": "f254c6da2d12d2d7790971eff142bf6c123e7ba98f309c4e883ecdddcbe884e2",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.962375,
+  "text": "émettre des sons apaisants.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.58,
+      "text": " émettre des sons apaisants.",
+      "tokens": [
+        50365,
+        1136,
+        76,
+        40681,
+        730,
+        13476,
+        1882,
+        1527,
+        1719,
+        13,
+        50445
+      ],
+      "avg_logprob": -0.29085100442171097,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 5.204783652679179e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.68,
+          "word": " émettre",
+          "probability": 0.8274576763312022
+        },
+        {
+          "start": 0.68,
+          "end": 0.88,
+          "word": " des",
+          "probability": 0.9998337030410767
+        },
+        {
+          "start": 0.88,
+          "end": 1.1,
+          "word": " sons",
+          "probability": 0.9993420243263245
+        },
+        {
+          "start": 1.1,
+          "end": 1.58,
+          "word": " apaisants.",
+          "probability": 0.9991612235705057
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

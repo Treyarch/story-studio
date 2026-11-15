@@ -1,0 +1,37 @@
+{
+  "scene": "B83.1_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B83.1_list_ch2.mp3",
+  "sha256": "97b5d1405a0a5b7726f27643657448505ed292f327aade1c93e2c03b5ca43256",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.3296875,
+  "text": "Non.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 0.7,
+      "text": " Non.",
+      "tokens": [
+        50365,
+        8774,
+        13,
+        50400
+      ],
+      "avg_logprob": -0.41308183670043946,
+      "compression_ratio": 0.3333333333333333,
+      "no_speech_prob": 1.4883079144101252e-11,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.7,
+          "word": " Non.",
+          "probability": 0.9229393005371094
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

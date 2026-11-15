@@ -1,0 +1,83 @@
+{
+  "scene": "A23_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A23_list.mp3",
+  "sha256": "638763ae63724c881b9bb92358242c9ce79469a40c08cb5a19d46aacd66160b0",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.2516875,
+  "text": "Comment comptes-tu t'y prendre?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.96,
+      "text": " Comment comptes-tu t'y prendre?",
+      "tokens": [
+        50365,
+        16328,
+        15660,
+        279,
+        12,
+        9179,
+        256,
+        6,
+        88,
+        16566,
+        2506,
+        50478
+      ],
+      "avg_logprob": -0.1701168234531696,
+      "compression_ratio": 0.8,
+      "no_speech_prob": 3.4279413075460896e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.58,
+          "word": " Comment",
+          "probability": 0.94170081615448
+        },
+        {
+          "start": 0.58,
+          "end": 1.08,
+          "word": " comptes",
+          "probability": 0.9965163767337799
+        },
+        {
+          "start": 1.08,
+          "end": 1.22,
+          "word": "-tu",
+          "probability": 0.9983905851840973
+        },
+        {
+          "start": 1.22,
+          "end": 1.34,
+          "word": " t",
+          "probability": 0.9985028505325317
+        },
+        {
+          "start": 1.34,
+          "end": 1.44,
+          "word": "'y",
+          "probability": 0.9999151229858398
+        },
+        {
+          "start": 1.44,
+          "end": 1.72,
+          "word": " prendre",
+          "probability": 0.9998179078102112
+        },
+        {
+          "start": 1.72,
+          "end": 1.96,
+          "word": "?",
+          "probability": 0.9937520623207092
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

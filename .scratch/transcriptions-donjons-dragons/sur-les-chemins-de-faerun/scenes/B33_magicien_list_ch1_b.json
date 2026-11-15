@@ -1,0 +1,54 @@
+{
+  "scene": "B33_magicien_list_ch1_b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B33_magicien_list_ch1_b.mp3",
+  "sha256": "9198fb5ef98c6d64fb79a6fc5cf59fb442dcafe699cab99e8e5d18ab684d084a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.76325,
+  "text": "Utilisez ta force.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.37,
+      "text": " Utilisez ta force.",
+      "tokens": [
+        50365,
+        12555,
+        388,
+        908,
+        89,
+        1846,
+        3464,
+        13,
+        50431
+      ],
+      "avg_logprob": -0.17317647635936737,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 4.724759646024257e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.89,
+          "word": " Utilisez",
+          "probability": 0.97161465883255
+        },
+        {
+          "start": 0.89,
+          "end": 0.97,
+          "word": " ta",
+          "probability": 0.9968024492263794
+        },
+        {
+          "start": 0.97,
+          "end": 1.37,
+          "word": " force.",
+          "probability": 0.998247504234314
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "scene": "IN1b_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/IN1b_list_ch1.mp3",
+  "sha256": "ad64b987100675b23d7d87de4eea631cf1455766063ac4f36d6416df9c2f7b84",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.4479375,
+  "text": "Barde?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 0.98,
+      "text": " Barde?",
+      "tokens": [
+        50365,
+        363,
+        10866,
+        2506,
+        50433
+      ],
+      "avg_logprob": -0.584201862414678,
+      "compression_ratio": 0.4666666666666667,
+      "no_speech_prob": 1.8036190596593116e-10,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.84,
+          "word": " Barde",
+          "probability": 0.5509645342826843
+        },
+        {
+          "start": 0.84,
+          "end": 0.98,
+          "word": "?",
+          "probability": 0.4681447446346283
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

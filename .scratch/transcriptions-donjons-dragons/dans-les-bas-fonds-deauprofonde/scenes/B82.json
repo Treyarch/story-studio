@@ -1,0 +1,998 @@
+{
+  "scene": "B82",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B82.mp3",
+  "sha256": "ad3194fe50378fb949ceeff26b0234abdcc43c13a904d47fa3543fb8a83e3565",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 38.497375,
+  "text": "Tu attrapes ta bourse pour appeler un indic, mais tu te rends vite compte à quel point c'est idiot. Il faut du temps pour activer une pierre messagère. Xanathar et Seigneur Rojenard ne vont certainement pas rester là à te regarder bien sagement pendant que tu appelles à l'aide. Et même si tu parvenais à contacter quelqu'un d'aussi puissant que Vajra Safahr, le bâton noir, qu'est-ce qu'elle pourrait faire pour toi? Il est impossible de se téléporter directement à Port-Crâne ou n'importe où dans Mont Profond. Au mieux, elle pourra recueillir tes derniers mots avant que tu n'expires. Tu vas devoir trouver une autre idée.",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.81,
+      "end": 7.55,
+      "text": " Tu attrapes ta bourse pour appeler un indic, mais tu te rends vite compte à quel point c'est idiot.",
+      "tokens": [
+        50365,
+        7836,
+        951,
+        4007,
+        279,
+        1846,
+        272,
+        13656,
+        2016,
+        724,
+        6185,
+        517,
+        1016,
+        1925,
+        11,
+        2420,
+        2604,
+        535,
+        6125,
+        82,
+        24462,
+        19424,
+        1531,
+        7178,
+        935,
+        269,
+        6,
+        377,
+        14270,
+        13,
+        50654
+      ],
+      "avg_logprob": -0.08657966886356377,
+      "compression_ratio": 1.5658682634730539,
+      "no_speech_prob": 7.482705427497294e-12,
+      "words": [
+        {
+          "start": 1.81,
+          "end": 2.25,
+          "word": " Tu",
+          "probability": 0.9639521837234497
+        },
+        {
+          "start": 2.25,
+          "end": 2.67,
+          "word": " attrapes",
+          "probability": 0.96092689037323
+        },
+        {
+          "start": 2.67,
+          "end": 2.79,
+          "word": " ta",
+          "probability": 0.9997201561927795
+        },
+        {
+          "start": 2.79,
+          "end": 3.07,
+          "word": " bourse",
+          "probability": 0.999802976846695
+        },
+        {
+          "start": 3.07,
+          "end": 3.31,
+          "word": " pour",
+          "probability": 0.9998542070388794
+        },
+        {
+          "start": 3.31,
+          "end": 3.57,
+          "word": " appeler",
+          "probability": 0.9994747638702393
+        },
+        {
+          "start": 3.57,
+          "end": 3.71,
+          "word": " un",
+          "probability": 0.9994714856147766
+        },
+        {
+          "start": 3.71,
+          "end": 4.07,
+          "word": " indique,",
+          "probability": 0.8831969201564789
+        },
+        {
+          "start": 4.37,
+          "end": 4.69,
+          "word": " mais",
+          "probability": 0.9998672008514404
+        },
+        {
+          "start": 4.69,
+          "end": 5.39,
+          "word": " tu",
+          "probability": 0.9598517417907715
+        },
+        {
+          "start": 5.39,
+          "end": 5.59,
+          "word": " te",
+          "probability": 0.9998712539672852
+        },
+        {
+          "start": 5.59,
+          "end": 5.91,
+          "word": " rends",
+          "probability": 0.9991031587123871
+        },
+        {
+          "start": 5.91,
+          "end": 6.03,
+          "word": " vite",
+          "probability": 0.9963338375091553
+        },
+        {
+          "start": 6.03,
+          "end": 6.39,
+          "word": " compte",
+          "probability": 0.9998974800109863
+        },
+        {
+          "start": 6.39,
+          "end": 6.67,
+          "word": " à",
+          "probability": 0.9999517202377319
+        },
+        {
+          "start": 6.67,
+          "end": 6.83,
+          "word": " quel",
+          "probability": 0.9998977184295654
+        },
+        {
+          "start": 6.83,
+          "end": 7.05,
+          "word": " point",
+          "probability": 0.9999344348907471
+        },
+        {
+          "start": 7.05,
+          "end": 7.21,
+          "word": " c",
+          "probability": 0.9860828518867493
+        },
+        {
+          "start": 7.21,
+          "end": 7.31,
+          "word": "'est",
+          "probability": 0.9998754858970642
+        },
+        {
+          "start": 7.31,
+          "end": 7.55,
+          "word": " idiot.",
+          "probability": 0.9986588954925537
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.17,
+      "end": 10.61,
+      "text": " Il faut du temps pour activer une pierre messagère.",
+      "tokens": [
+        50692,
+        4416,
+        8487,
+        1581,
+        8827,
+        2016,
+        605,
+        1837,
+        2251,
+        9766,
+        265,
+        2082,
+        559,
+        4212,
+        13,
+        50805
+      ],
+      "avg_logprob": -0.08657966886356377,
+      "compression_ratio": 1.5658682634730539,
+      "no_speech_prob": 7.482705427497294e-12,
+      "words": [
+        {
+          "start": 8.17,
+          "end": 8.47,
+          "word": " Il",
+          "probability": 0.9973949193954468
+        },
+        {
+          "start": 8.47,
+          "end": 8.65,
+          "word": " faut",
+          "probability": 0.9997724890708923
+        },
+        {
+          "start": 8.65,
+          "end": 8.79,
+          "word": " du",
+          "probability": 0.9999663829803467
+        },
+        {
+          "start": 8.79,
+          "end": 9.01,
+          "word": " temps",
+          "probability": 0.9998142123222351
+        },
+        {
+          "start": 9.01,
+          "end": 9.25,
+          "word": " pour",
+          "probability": 0.9999686479568481
+        },
+        {
+          "start": 9.25,
+          "end": 9.63,
+          "word": " activer",
+          "probability": 0.999660074710846
+        },
+        {
+          "start": 9.63,
+          "end": 9.79,
+          "word": " une",
+          "probability": 0.9998421669006348
+        },
+        {
+          "start": 9.79,
+          "end": 10.03,
+          "word": " pierre",
+          "probability": 0.9993445873260498
+        },
+        {
+          "start": 10.03,
+          "end": 10.61,
+          "word": " messagère.",
+          "probability": 0.9979563156763712
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.29,
+      "end": 17.65,
+      "text": " Xanathar et Seigneur Rojenard ne vont certainement pas rester là à te regarder bien sagement pendant que tu appelles à l'aide.",
+      "tokens": [
+        50840,
+        1783,
+        282,
+        998,
+        289,
+        1030,
+        1100,
+        26341,
+        374,
+        3101,
+        73,
+        20062,
+        408,
+        14362,
+        1629,
+        1712,
+        1736,
+        37197,
+        3684,
+        1531,
+        535,
+        31468,
+        3610,
+        19721,
+        518,
+        17338,
+        631,
+        2604,
+        724,
+        19787,
+        1531,
+        287,
+        6,
+        41980,
+        13,
+        51157
+      ],
+      "avg_logprob": -0.08657966886356377,
+      "compression_ratio": 1.5658682634730539,
+      "no_speech_prob": 7.482705427497294e-12,
+      "words": [
+        {
+          "start": 11.29,
+          "end": 11.77,
+          "word": " Xanathar",
+          "probability": 0.8723599314689636
+        },
+        {
+          "start": 11.77,
+          "end": 11.91,
+          "word": " et",
+          "probability": 0.9999157190322876
+        },
+        {
+          "start": 11.91,
+          "end": 12.33,
+          "word": " Seigneur",
+          "probability": 0.9672761559486389
+        },
+        {
+          "start": 12.33,
+          "end": 12.71,
+          "word": " Rojenard",
+          "probability": 0.8331876794497172
+        },
+        {
+          "start": 12.71,
+          "end": 12.93,
+          "word": " ne",
+          "probability": 0.9986417889595032
+        },
+        {
+          "start": 12.93,
+          "end": 13.07,
+          "word": " vont",
+          "probability": 0.9999496936798096
+        },
+        {
+          "start": 13.07,
+          "end": 13.77,
+          "word": " certainement",
+          "probability": 0.9998823702335358
+        },
+        {
+          "start": 13.77,
+          "end": 13.93,
+          "word": " pas",
+          "probability": 0.999830961227417
+        },
+        {
+          "start": 13.93,
+          "end": 14.27,
+          "word": " rester",
+          "probability": 0.999924898147583
+        },
+        {
+          "start": 14.27,
+          "end": 14.49,
+          "word": " là",
+          "probability": 0.9999194145202637
+        },
+        {
+          "start": 14.49,
+          "end": 14.73,
+          "word": " à",
+          "probability": 0.9821032285690308
+        },
+        {
+          "start": 14.73,
+          "end": 14.91,
+          "word": " te",
+          "probability": 0.9998903274536133
+        },
+        {
+          "start": 14.91,
+          "end": 15.31,
+          "word": " regarder",
+          "probability": 0.9997683167457581
+        },
+        {
+          "start": 15.31,
+          "end": 15.61,
+          "word": " bien",
+          "probability": 0.9996300935745239
+        },
+        {
+          "start": 15.61,
+          "end": 16.09,
+          "word": " sagement",
+          "probability": 0.9948504865169525
+        },
+        {
+          "start": 16.09,
+          "end": 16.69,
+          "word": " pendant",
+          "probability": 0.996751070022583
+        },
+        {
+          "start": 16.69,
+          "end": 16.89,
+          "word": " que",
+          "probability": 0.9999728202819824
+        },
+        {
+          "start": 16.89,
+          "end": 17.05,
+          "word": " tu",
+          "probability": 0.9999761581420898
+        },
+        {
+          "start": 17.05,
+          "end": 17.35,
+          "word": " appelles",
+          "probability": 0.9939371645450592
+        },
+        {
+          "start": 17.35,
+          "end": 17.45,
+          "word": " à",
+          "probability": 0.9970184564590454
+        },
+        {
+          "start": 17.45,
+          "end": 17.51,
+          "word": " l",
+          "probability": 0.9987755417823792
+        },
+        {
+          "start": 17.51,
+          "end": 17.65,
+          "word": "'aide.",
+          "probability": 0.9995841681957245
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 18.17,
+      "end": 25.43,
+      "text": " Et même si tu parvenais à contacter quelqu'un d'aussi puissant que Vajra Safahr, le bâton noir, qu'est-ce qu'elle pourrait faire pour toi?",
+      "tokens": [
+        51192,
+        3790,
+        5698,
+        1511,
+        2604,
+        971,
+        553,
+        1527,
+        1531,
+        660,
+        14125,
+        25283,
+        6,
+        409,
+        274,
+        6,
+        64,
+        2023,
+        72,
+        2362,
+        29492,
+        631,
+        691,
+        1805,
+        424,
+        14152,
+        289,
+        11,
+        476,
+        272,
+        3201,
+        1756,
+        39359,
+        11,
+        421,
+        6,
+        377,
+        12,
+        384,
+        421,
+        6,
+        4434,
+        25590,
+        4865,
+        2016,
+        15648,
+        2506,
+        51568
+      ],
+      "avg_logprob": -0.08657966886356377,
+      "compression_ratio": 1.5658682634730539,
+      "no_speech_prob": 7.482705427497294e-12,
+      "words": [
+        {
+          "start": 18.17,
+          "end": 18.47,
+          "word": " Et",
+          "probability": 0.9997228980064392
+        },
+        {
+          "start": 18.47,
+          "end": 18.77,
+          "word": " même",
+          "probability": 0.9999681711196899
+        },
+        {
+          "start": 18.77,
+          "end": 18.95,
+          "word": " si",
+          "probability": 0.9999793767929077
+        },
+        {
+          "start": 18.95,
+          "end": 19.09,
+          "word": " tu",
+          "probability": 0.9999840259552002
+        },
+        {
+          "start": 19.09,
+          "end": 19.59,
+          "word": " parvenais",
+          "probability": 0.9995791514714559
+        },
+        {
+          "start": 19.59,
+          "end": 19.71,
+          "word": " à",
+          "probability": 0.9999819993972778
+        },
+        {
+          "start": 19.71,
+          "end": 20.15,
+          "word": " contacter",
+          "probability": 0.9984894692897797
+        },
+        {
+          "start": 20.15,
+          "end": 20.43,
+          "word": " quelqu",
+          "probability": 0.9999173879623413
+        },
+        {
+          "start": 20.43,
+          "end": 20.61,
+          "word": "'un",
+          "probability": 0.9999819397926331
+        },
+        {
+          "start": 20.61,
+          "end": 20.75,
+          "word": " d",
+          "probability": 0.9998557567596436
+        },
+        {
+          "start": 20.75,
+          "end": 20.95,
+          "word": "'aussi",
+          "probability": 0.9960386157035828
+        },
+        {
+          "start": 20.95,
+          "end": 21.39,
+          "word": " puissant",
+          "probability": 0.9998479187488556
+        },
+        {
+          "start": 21.39,
+          "end": 21.59,
+          "word": " que",
+          "probability": 0.9997285008430481
+        },
+        {
+          "start": 21.59,
+          "end": 21.97,
+          "word": " Vajra",
+          "probability": 0.8562024633089701
+        },
+        {
+          "start": 21.97,
+          "end": 22.45,
+          "word": " Safahr,",
+          "probability": 0.9150300920009613
+        },
+        {
+          "start": 22.61,
+          "end": 22.67,
+          "word": " le",
+          "probability": 0.999180018901825
+        },
+        {
+          "start": 22.67,
+          "end": 22.97,
+          "word": " bâton",
+          "probability": 0.9973276456197103
+        },
+        {
+          "start": 22.97,
+          "end": 23.23,
+          "word": " noir,",
+          "probability": 0.997689962387085
+        },
+        {
+          "start": 23.67,
+          "end": 24.07,
+          "word": " qu",
+          "probability": 0.9997418522834778
+        },
+        {
+          "start": 24.07,
+          "end": 24.13,
+          "word": "'est",
+          "probability": 0.9998675882816315
+        },
+        {
+          "start": 24.13,
+          "end": 24.19,
+          "word": "-ce",
+          "probability": 0.999699205160141
+        },
+        {
+          "start": 24.19,
+          "end": 24.27,
+          "word": " qu",
+          "probability": 0.9999508857727051
+        },
+        {
+          "start": 24.27,
+          "end": 24.35,
+          "word": "'elle",
+          "probability": 0.9954103529453278
+        },
+        {
+          "start": 24.35,
+          "end": 24.57,
+          "word": " pourrait",
+          "probability": 0.9997966885566711
+        },
+        {
+          "start": 24.57,
+          "end": 24.77,
+          "word": " faire",
+          "probability": 0.9998992681503296
+        },
+        {
+          "start": 24.77,
+          "end": 24.93,
+          "word": " pour",
+          "probability": 0.9998750686645508
+        },
+        {
+          "start": 24.93,
+          "end": 25.13,
+          "word": " toi",
+          "probability": 0.9998856782913208
+        },
+        {
+          "start": 25.13,
+          "end": 25.43,
+          "word": "?",
+          "probability": 0.9978469610214233
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 25.43,
+      "end": 30.67,
+      "text": " Il est impossible de se téléporter directement à Port-Crâne ou n'importe où dans Mont Profond.",
+      "tokens": [
+        51568,
+        4416,
+        871,
+        6243,
+        368,
+        369,
+        24254,
+        37356,
+        37297,
+        1531,
+        6733,
+        10757,
+        1929,
+        2820,
+        297,
+        6,
+        38320,
+        9068,
+        2680,
+        7947,
+        6039,
+        684,
+        13,
+        51808
+      ],
+      "avg_logprob": -0.08657966886356377,
+      "compression_ratio": 1.5658682634730539,
+      "no_speech_prob": 7.482705427497294e-12,
+      "words": [
+        {
+          "start": 25.43,
+          "end": 26.03,
+          "word": " Il",
+          "probability": 0.9952098727226257
+        },
+        {
+          "start": 26.03,
+          "end": 26.17,
+          "word": " est",
+          "probability": 0.9997417330741882
+        },
+        {
+          "start": 26.17,
+          "end": 26.63,
+          "word": " impossible",
+          "probability": 0.9994938373565674
+        },
+        {
+          "start": 26.63,
+          "end": 26.97,
+          "word": " de",
+          "probability": 0.9998524188995361
+        },
+        {
+          "start": 26.97,
+          "end": 27.19,
+          "word": " se",
+          "probability": 0.9991356730461121
+        },
+        {
+          "start": 27.19,
+          "end": 27.65,
+          "word": " téléporter",
+          "probability": 0.9994834363460541
+        },
+        {
+          "start": 27.65,
+          "end": 28.31,
+          "word": " directement",
+          "probability": 0.9997451901435852
+        },
+        {
+          "start": 28.31,
+          "end": 28.53,
+          "word": " à",
+          "probability": 0.999568521976471
+        },
+        {
+          "start": 28.53,
+          "end": 29.03,
+          "word": " Port-Crâne",
+          "probability": 0.5696819424629211
+        },
+        {
+          "start": 29.03,
+          "end": 29.33,
+          "word": " ou",
+          "probability": 0.9038980603218079
+        },
+        {
+          "start": 29.33,
+          "end": 29.47,
+          "word": " n",
+          "probability": 0.9999505281448364
+        },
+        {
+          "start": 29.47,
+          "end": 29.75,
+          "word": "'importe",
+          "probability": 0.9996306598186493
+        },
+        {
+          "start": 29.75,
+          "end": 29.97,
+          "word": " où",
+          "probability": 0.9997870326042175
+        },
+        {
+          "start": 29.97,
+          "end": 30.09,
+          "word": " dans",
+          "probability": 0.9992256164550781
+        },
+        {
+          "start": 30.09,
+          "end": 30.25,
+          "word": " Mont",
+          "probability": 0.670475423336029
+        },
+        {
+          "start": 30.25,
+          "end": 30.67,
+          "word": " Profond.",
+          "probability": 0.7706215977668762
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 2886,
+      "start": 31.21,
+      "end": 34.87,
+      "text": " Au mieux, elle pourra recueillir tes derniers mots avant que tu n'expires.",
+      "tokens": [
+        50401,
+        12160,
+        20401,
+        11,
+        8404,
+        37753,
+        850,
+        622,
+        373,
+        347,
+        20018,
+        20562,
+        433,
+        34009,
+        13439,
+        631,
+        2604,
+        297,
+        6,
+        15952,
+        3145,
+        13,
+        50575
+      ],
+      "avg_logprob": -0.09893592753831078,
+      "compression_ratio": 1.1414141414141414,
+      "no_speech_prob": 5.398879694001879e-12,
+      "words": [
+        {
+          "start": 31.21,
+          "end": 31.49,
+          "word": " Au",
+          "probability": 0.9159834980964661
+        },
+        {
+          "start": 31.49,
+          "end": 31.75,
+          "word": " mieux,",
+          "probability": 0.9994869232177734
+        },
+        {
+          "start": 32.21,
+          "end": 32.29,
+          "word": " elle",
+          "probability": 0.9944475889205933
+        },
+        {
+          "start": 32.29,
+          "end": 32.57,
+          "word": " pourra",
+          "probability": 0.9990997314453125
+        },
+        {
+          "start": 32.57,
+          "end": 33.09,
+          "word": " recueillir",
+          "probability": 0.9998150616884232
+        },
+        {
+          "start": 33.09,
+          "end": 33.23,
+          "word": " tes",
+          "probability": 0.9980035424232483
+        },
+        {
+          "start": 33.23,
+          "end": 33.63,
+          "word": " derniers",
+          "probability": 0.999878317117691
+        },
+        {
+          "start": 33.63,
+          "end": 33.79,
+          "word": " mots",
+          "probability": 0.9978538155555725
+        },
+        {
+          "start": 33.79,
+          "end": 34.11,
+          "word": " avant",
+          "probability": 0.9818639755249023
+        },
+        {
+          "start": 34.11,
+          "end": 34.27,
+          "word": " que",
+          "probability": 0.9999263286590576
+        },
+        {
+          "start": 34.27,
+          "end": 34.39,
+          "word": " tu",
+          "probability": 0.9998812675476074
+        },
+        {
+          "start": 34.39,
+          "end": 34.47,
+          "word": " n",
+          "probability": 0.994469404220581
+        },
+        {
+          "start": 34.47,
+          "end": 34.87,
+          "word": "'expires.",
+          "probability": 0.9918902913729349
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 2886,
+      "start": 35.25,
+      "end": 37.11,
+      "text": " Tu vas devoir trouver une autre idée.",
+      "tokens": [
+        50610,
+        7836,
+        11481,
+        48920,
+        23546,
+        2251,
+        15081,
+        34832,
+        13,
+        50688
+      ],
+      "avg_logprob": -0.09893592753831078,
+      "compression_ratio": 1.1414141414141414,
+      "no_speech_prob": 5.398879694001879e-12,
+      "words": [
+        {
+          "start": 35.25,
+          "end": 35.67,
+          "word": " Tu",
+          "probability": 0.9958181977272034
+        },
+        {
+          "start": 35.67,
+          "end": 35.83,
+          "word": " vas",
+          "probability": 0.9996421337127686
+        },
+        {
+          "start": 35.83,
+          "end": 36.15,
+          "word": " devoir",
+          "probability": 0.9999325275421143
+        },
+        {
+          "start": 36.15,
+          "end": 36.45,
+          "word": " trouver",
+          "probability": 0.9997792840003967
+        },
+        {
+          "start": 36.45,
+          "end": 36.69,
+          "word": " une",
+          "probability": 0.99985671043396
+        },
+        {
+          "start": 36.69,
+          "end": 36.87,
+          "word": " autre",
+          "probability": 0.9999572038650513
+        },
+        {
+          "start": 36.87,
+          "end": 37.11,
+          "word": " idée.",
+          "probability": 0.9998244643211365
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

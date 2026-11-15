@@ -1,0 +1,615 @@
+{
+  "scene": "A4_cha_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A4_cha_success.mp3",
+  "sha256": "341c1a3ee48ea06a4aa990401b101567f7e49d28396a38475c6334e1b4f83bb0",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 28.508875,
+  "text": "En plus de se plier en quatre, le fromager tend une jambe pour faire un croche-patte au premier agent qui s'effondre au sol dans un grand fracas. Le deuxième freine trop tard et le percute de plein fouet. Le fromager s'écarte avec une petite courbette polie et des excuses dénuées de sincérité. Quand les agents parviennent enfin à se dépêtrer de leur chute ridicule, tu es déjà loin.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.3,
+      "end": 12.08,
+      "text": " En plus de se plier en quatre, le fromager tend une jambe pour faire un croche-patte au premier agent qui s'effondre au sol dans un grand fracas.",
+      "tokens": [
+        50365,
+        2193,
+        1804,
+        368,
+        369,
+        499,
+        811,
+        465,
+        31334,
+        11,
+        476,
+        490,
+        3557,
+        3928,
+        2251,
+        7872,
+        650,
+        2016,
+        4865,
+        517,
+        4848,
+        1876,
+        12,
+        11584,
+        975,
+        1609,
+        12689,
+        9461,
+        1956,
+        262,
+        6,
+        30774,
+        684,
+        265,
+        1609,
+        1404,
+        2680,
+        517,
+        2697,
+        431,
+        43786,
+        13,
+        50878
+      ],
+      "avg_logprob": -0.097889683130434,
+      "compression_ratio": 1.5310077519379846,
+      "no_speech_prob": 7.888899603014643e-12,
+      "words": [
+        {
+          "start": 4.3,
+          "end": 4.82,
+          "word": " En",
+          "probability": 0.6623832583427429
+        },
+        {
+          "start": 4.82,
+          "end": 5.1,
+          "word": " plus",
+          "probability": 0.9998120665550232
+        },
+        {
+          "start": 5.1,
+          "end": 5.24,
+          "word": " de",
+          "probability": 0.9999386072158813
+        },
+        {
+          "start": 5.24,
+          "end": 5.44,
+          "word": " se",
+          "probability": 0.995697021484375
+        },
+        {
+          "start": 5.44,
+          "end": 5.68,
+          "word": " plier",
+          "probability": 0.9992649555206299
+        },
+        {
+          "start": 5.68,
+          "end": 5.84,
+          "word": " en",
+          "probability": 0.9998231530189514
+        },
+        {
+          "start": 5.84,
+          "end": 6.02,
+          "word": " quatre,",
+          "probability": 0.9457261562347412
+        },
+        {
+          "start": 6.58,
+          "end": 6.7,
+          "word": " le",
+          "probability": 0.9978476762771606
+        },
+        {
+          "start": 6.7,
+          "end": 7.18,
+          "word": " fromager",
+          "probability": 0.9618160724639893
+        },
+        {
+          "start": 7.18,
+          "end": 7.4,
+          "word": " tend",
+          "probability": 0.9971386194229126
+        },
+        {
+          "start": 7.4,
+          "end": 7.62,
+          "word": " une",
+          "probability": 0.9990434050559998
+        },
+        {
+          "start": 7.62,
+          "end": 7.9,
+          "word": " jambe",
+          "probability": 0.9984250962734222
+        },
+        {
+          "start": 7.9,
+          "end": 8.08,
+          "word": " pour",
+          "probability": 0.9970138072967529
+        },
+        {
+          "start": 8.08,
+          "end": 8.3,
+          "word": " faire",
+          "probability": 0.999809205532074
+        },
+        {
+          "start": 8.3,
+          "end": 8.5,
+          "word": " un",
+          "probability": 0.9651858806610107
+        },
+        {
+          "start": 8.5,
+          "end": 8.8,
+          "word": " croche",
+          "probability": 0.7850274443626404
+        },
+        {
+          "start": 8.8,
+          "end": 9.04,
+          "word": "-patte",
+          "probability": 0.7467292646567026
+        },
+        {
+          "start": 9.04,
+          "end": 9.12,
+          "word": " au",
+          "probability": 0.9887641668319702
+        },
+        {
+          "start": 9.12,
+          "end": 9.44,
+          "word": " premier",
+          "probability": 0.9996730089187622
+        },
+        {
+          "start": 9.44,
+          "end": 9.68,
+          "word": " agent",
+          "probability": 0.9955025315284729
+        },
+        {
+          "start": 9.68,
+          "end": 10.24,
+          "word": " qui",
+          "probability": 0.4638423025608063
+        },
+        {
+          "start": 10.24,
+          "end": 10.46,
+          "word": " s",
+          "probability": 0.9998914003372192
+        },
+        {
+          "start": 10.46,
+          "end": 10.84,
+          "word": "'effondre",
+          "probability": 0.9996960014104843
+        },
+        {
+          "start": 10.84,
+          "end": 10.96,
+          "word": " au",
+          "probability": 0.9999305009841919
+        },
+        {
+          "start": 10.96,
+          "end": 11.18,
+          "word": " sol",
+          "probability": 0.9997482895851135
+        },
+        {
+          "start": 11.18,
+          "end": 11.3,
+          "word": " dans",
+          "probability": 0.9997393488883972
+        },
+        {
+          "start": 11.3,
+          "end": 11.52,
+          "word": " un",
+          "probability": 0.9999672174453735
+        },
+        {
+          "start": 11.52,
+          "end": 11.74,
+          "word": " grand",
+          "probability": 0.9998867511749268
+        },
+        {
+          "start": 11.74,
+          "end": 12.08,
+          "word": " fracas.",
+          "probability": 0.9993573129177094
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 12.42,
+      "end": 15.86,
+      "text": " Le deuxième freine trop tard et le percute de plein fouet.",
+      "tokens": [
+        50911,
+        1456,
+        29112,
+        2130,
+        533,
+        9006,
+        21057,
+        1030,
+        476,
+        680,
+        66,
+        1169,
+        368,
+        21088,
+        32012,
+        302,
+        13,
+        51066
+      ],
+      "avg_logprob": -0.097889683130434,
+      "compression_ratio": 1.5310077519379846,
+      "no_speech_prob": 7.888899603014643e-12,
+      "words": [
+        {
+          "start": 12.42,
+          "end": 12.86,
+          "word": " Le",
+          "probability": 0.999744713306427
+        },
+        {
+          "start": 12.86,
+          "end": 13.28,
+          "word": " deuxième",
+          "probability": 0.999570906162262
+        },
+        {
+          "start": 13.28,
+          "end": 13.62,
+          "word": " freine",
+          "probability": 0.9961763024330139
+        },
+        {
+          "start": 13.62,
+          "end": 13.82,
+          "word": " trop",
+          "probability": 0.9998437166213989
+        },
+        {
+          "start": 13.82,
+          "end": 14.04,
+          "word": " tard",
+          "probability": 0.9997137188911438
+        },
+        {
+          "start": 14.04,
+          "end": 14.58,
+          "word": " et",
+          "probability": 0.9976609945297241
+        },
+        {
+          "start": 14.58,
+          "end": 14.68,
+          "word": " le",
+          "probability": 0.9596282839775085
+        },
+        {
+          "start": 14.68,
+          "end": 15.18,
+          "word": " percute",
+          "probability": 0.9950689673423767
+        },
+        {
+          "start": 15.18,
+          "end": 15.34,
+          "word": " de",
+          "probability": 0.9998390674591064
+        },
+        {
+          "start": 15.34,
+          "end": 15.58,
+          "word": " plein",
+          "probability": 0.9992501139640808
+        },
+        {
+          "start": 15.58,
+          "end": 15.86,
+          "word": " fouet.",
+          "probability": 0.9995944797992706
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 16.3,
+      "end": 21.86,
+      "text": " Le fromager s'écarte avec une petite courbette polie et des excuses dénuées de sincérité.",
+      "tokens": [
+        51107,
+        1456,
+        490,
+        3557,
+        262,
+        6,
+        9062,
+        11026,
+        4163,
+        2251,
+        18319,
+        1005,
+        65,
+        3007,
+        1180,
+        414,
+        1030,
+        730,
+        24666,
+        2795,
+        16241,
+        6836,
+        368,
+        3343,
+        13523,
+        3210,
+        526,
+        13,
+        51365
+      ],
+      "avg_logprob": -0.097889683130434,
+      "compression_ratio": 1.5310077519379846,
+      "no_speech_prob": 7.888899603014643e-12,
+      "words": [
+        {
+          "start": 16.3,
+          "end": 16.82,
+          "word": " Le",
+          "probability": 0.9997215867042542
+        },
+        {
+          "start": 16.82,
+          "end": 17.3,
+          "word": " fromager",
+          "probability": 0.9988542795181274
+        },
+        {
+          "start": 17.3,
+          "end": 17.54,
+          "word": " s",
+          "probability": 0.9999425411224365
+        },
+        {
+          "start": 17.54,
+          "end": 17.86,
+          "word": "'écarte",
+          "probability": 0.9990619818369547
+        },
+        {
+          "start": 17.86,
+          "end": 18.26,
+          "word": " avec",
+          "probability": 0.999855637550354
+        },
+        {
+          "start": 18.26,
+          "end": 18.46,
+          "word": " une",
+          "probability": 0.999903678894043
+        },
+        {
+          "start": 18.46,
+          "end": 18.84,
+          "word": " petite",
+          "probability": 0.9998213648796082
+        },
+        {
+          "start": 18.84,
+          "end": 19.34,
+          "word": " courbette",
+          "probability": 0.9992108345031738
+        },
+        {
+          "start": 19.34,
+          "end": 19.76,
+          "word": " polie",
+          "probability": 0.9956945180892944
+        },
+        {
+          "start": 19.76,
+          "end": 19.96,
+          "word": " et",
+          "probability": 0.999900221824646
+        },
+        {
+          "start": 19.96,
+          "end": 20.16,
+          "word": " des",
+          "probability": 0.9999560117721558
+        },
+        {
+          "start": 20.16,
+          "end": 20.64,
+          "word": " excuses",
+          "probability": 0.999887228012085
+        },
+        {
+          "start": 20.64,
+          "end": 21.1,
+          "word": " dénuées",
+          "probability": 0.8730753064155579
+        },
+        {
+          "start": 21.1,
+          "end": 21.22,
+          "word": " de",
+          "probability": 0.9999547004699707
+        },
+        {
+          "start": 21.22,
+          "end": 21.86,
+          "word": " sincérité.",
+          "probability": 0.9989802688360214
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 22.22,
+      "end": 27.16,
+      "text": " Quand les agents parviennent enfin à se dépêtrer de leur chute ridicule, tu es déjà loin.",
+      "tokens": [
+        51397,
+        22015,
+        1512,
+        12554,
+        971,
+        85,
+        28977,
+        25059,
+        1531,
+        369,
+        27998,
+        1307,
+        6903,
+        260,
+        368,
+        9580,
+        417,
+        1169,
+        9276,
+        2271,
+        11,
+        2604,
+        785,
+        12027,
+        25048,
+        13,
+        51631
+      ],
+      "avg_logprob": -0.097889683130434,
+      "compression_ratio": 1.5310077519379846,
+      "no_speech_prob": 7.888899603014643e-12,
+      "words": [
+        {
+          "start": 22.22,
+          "end": 22.58,
+          "word": " Quand",
+          "probability": 0.9988952875137329
+        },
+        {
+          "start": 22.58,
+          "end": 22.74,
+          "word": " les",
+          "probability": 0.9998800754547119
+        },
+        {
+          "start": 22.74,
+          "end": 23.02,
+          "word": " agents",
+          "probability": 0.9998570680618286
+        },
+        {
+          "start": 23.02,
+          "end": 23.48,
+          "word": " parviennent",
+          "probability": 0.999453584353129
+        },
+        {
+          "start": 23.48,
+          "end": 23.74,
+          "word": " enfin",
+          "probability": 0.9992777705192566
+        },
+        {
+          "start": 23.74,
+          "end": 23.94,
+          "word": " à",
+          "probability": 0.9998263716697693
+        },
+        {
+          "start": 23.94,
+          "end": 24.1,
+          "word": " se",
+          "probability": 0.9998015761375427
+        },
+        {
+          "start": 24.1,
+          "end": 24.6,
+          "word": " dépêtrer",
+          "probability": 0.9484517723321915
+        },
+        {
+          "start": 24.6,
+          "end": 24.74,
+          "word": " de",
+          "probability": 0.9997133612632751
+        },
+        {
+          "start": 24.74,
+          "end": 24.92,
+          "word": " leur",
+          "probability": 0.9165249466896057
+        },
+        {
+          "start": 24.92,
+          "end": 25.22,
+          "word": " chute",
+          "probability": 0.9997135400772095
+        },
+        {
+          "start": 25.22,
+          "end": 25.82,
+          "word": " ridicule,",
+          "probability": 0.999786764383316
+        },
+        {
+          "start": 25.98,
+          "end": 26.46,
+          "word": " tu",
+          "probability": 0.9914149641990662
+        },
+        {
+          "start": 26.46,
+          "end": 26.58,
+          "word": " es",
+          "probability": 0.9995037317276001
+        },
+        {
+          "start": 26.58,
+          "end": 26.9,
+          "word": " déjà",
+          "probability": 0.9999053478240967
+        },
+        {
+          "start": 26.9,
+          "end": 27.16,
+          "word": " loin.",
+          "probability": 0.999868631362915
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

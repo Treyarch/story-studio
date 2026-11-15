@@ -1,0 +1,61 @@
+{
+  "scene": "A16b_chapitre",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A16b_chapitre.mp3",
+  "sha256": "fda275b2075050ebcafdda45f4a04d9c87b422db1bfad8df546b171b76dd24e4",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.074125,
+  "text": "La rivière d'Arprofond",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.64,
+      "text": " La rivière d'Arprofond",
+      "tokens": [
+        50365,
+        2369,
+        28745,
+        10195,
+        274,
+        6,
+        10683,
+        29175,
+        684,
+        50448
+      ],
+      "avg_logprob": -0.31448589129881427,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 4.685804261966853e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.42,
+          "word": " La",
+          "probability": 0.6190502047538757
+        },
+        {
+          "start": 0.42,
+          "end": 0.92,
+          "word": " rivière",
+          "probability": 0.9901314973831177
+        },
+        {
+          "start": 0.92,
+          "end": 1.08,
+          "word": " d",
+          "probability": 0.9942704439163208
+        },
+        {
+          "start": 1.08,
+          "end": 1.64,
+          "word": "'Arprofond",
+          "probability": 0.7076410986483097
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

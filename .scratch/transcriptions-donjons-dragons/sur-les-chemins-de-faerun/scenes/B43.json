@@ -1,0 +1,894 @@
+{
+  "scene": "B43",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B43.mp3",
+  "sha256": "01762a13f06735ae775bb97746cc16799a064c7ecba7808ebcec9b025bdd3d5a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 39.5121875,
+  "text": "Tu te diriges vers le plus grand escalier que tu puisses trouver. Après avoir demandé ton chemin à une servante, tu finis par tomber sur le bureau du Seigneur manifeste d'Eauprofonde. Un homme fort bien habillé est assis à l'accueil. Il ne lève pas tout de suite les yeux vers toi. Quand il consent à t'accorder un regard, il te demande « Pour quel motif souhaitez-vous voir le Seigneur manifeste? » Tu sens que ton charisme ne servira de rien avec ce personnage. À la place, tu décides d'utiliser ta sagesse.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.74,
+      "end": 5.32,
+      "text": " Tu te diriges vers le plus grand escalier que tu puisses trouver.",
+      "tokens": [
+        50365,
+        7836,
+        535,
+        4746,
+        20609,
+        1774,
+        476,
+        1804,
+        2697,
+        17871,
+        811,
+        631,
+        2604,
+        2362,
+        40487,
+        23546,
+        13,
+        50546
+      ],
+      "avg_logprob": -0.09470200592712048,
+      "compression_ratio": 1.4963503649635037,
+      "no_speech_prob": 6.232241719222875e-12,
+      "words": [
+        {
+          "start": 1.74,
+          "end": 2.16,
+          "word": " Tu",
+          "probability": 0.814286470413208
+        },
+        {
+          "start": 2.16,
+          "end": 2.36,
+          "word": " te",
+          "probability": 0.9994271993637085
+        },
+        {
+          "start": 2.36,
+          "end": 2.94,
+          "word": " diriges",
+          "probability": 0.997372955083847
+        },
+        {
+          "start": 2.94,
+          "end": 3.3,
+          "word": " vers",
+          "probability": 0.9983951449394226
+        },
+        {
+          "start": 3.3,
+          "end": 3.44,
+          "word": " le",
+          "probability": 0.9999008178710938
+        },
+        {
+          "start": 3.44,
+          "end": 3.64,
+          "word": " plus",
+          "probability": 0.9998947381973267
+        },
+        {
+          "start": 3.64,
+          "end": 3.88,
+          "word": " grand",
+          "probability": 0.9998416900634766
+        },
+        {
+          "start": 3.88,
+          "end": 4.48,
+          "word": " escalier",
+          "probability": 0.9997365474700928
+        },
+        {
+          "start": 4.48,
+          "end": 4.6,
+          "word": " que",
+          "probability": 0.9987871050834656
+        },
+        {
+          "start": 4.6,
+          "end": 4.74,
+          "word": " tu",
+          "probability": 0.9999325275421143
+        },
+        {
+          "start": 4.74,
+          "end": 5.02,
+          "word": " puisses",
+          "probability": 0.9937801361083984
+        },
+        {
+          "start": 5.02,
+          "end": 5.32,
+          "word": " trouver.",
+          "probability": 0.9994863271713257
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.98,
+      "end": 8.68,
+      "text": " Après avoir demandé ton chemin à une servante,",
+      "tokens": [
+        50589,
+        29265,
+        10853,
+        48468,
+        2952,
+        46006,
+        1531,
+        2251,
+        1658,
+        2879,
+        11,
+        50713
+      ],
+      "avg_logprob": -0.09470200592712048,
+      "compression_ratio": 1.4963503649635037,
+      "no_speech_prob": 6.232241719222875e-12,
+      "words": [
+        {
+          "start": 5.98,
+          "end": 6.5,
+          "word": " Après",
+          "probability": 0.9988116025924683
+        },
+        {
+          "start": 6.5,
+          "end": 6.84,
+          "word": " avoir",
+          "probability": 0.999944806098938
+        },
+        {
+          "start": 6.84,
+          "end": 7.24,
+          "word": " demandé",
+          "probability": 0.999861478805542
+        },
+        {
+          "start": 7.24,
+          "end": 7.46,
+          "word": " ton",
+          "probability": 0.9998941421508789
+        },
+        {
+          "start": 7.46,
+          "end": 7.8,
+          "word": " chemin",
+          "probability": 0.9999547004699707
+        },
+        {
+          "start": 7.8,
+          "end": 8.04,
+          "word": " à",
+          "probability": 0.9998893737792969
+        },
+        {
+          "start": 8.04,
+          "end": 8.2,
+          "word": " une",
+          "probability": 0.9997687935829163
+        },
+        {
+          "start": 8.2,
+          "end": 8.68,
+          "word": " servante,",
+          "probability": 0.9992801547050476
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.94,
+      "end": 13.32,
+      "text": " tu finis par tomber sur le bureau du Seigneur manifeste d'Eauprofonde.",
+      "tokens": [
+        50742,
+        2604,
+        962,
+        271,
+        971,
+        2916,
+        607,
+        1022,
+        476,
+        35343,
+        1581,
+        1100,
+        26341,
+        374,
+        8173,
+        8887,
+        274,
+        6,
+        22290,
+        1740,
+        7259,
+        13,
+        50945
+      ],
+      "avg_logprob": -0.09470200592712048,
+      "compression_ratio": 1.4963503649635037,
+      "no_speech_prob": 6.232241719222875e-12,
+      "words": [
+        {
+          "start": 8.94,
+          "end": 9.38,
+          "word": " tu",
+          "probability": 0.9987911581993103
+        },
+        {
+          "start": 9.38,
+          "end": 9.72,
+          "word": " finis",
+          "probability": 0.9977886974811554
+        },
+        {
+          "start": 9.72,
+          "end": 9.92,
+          "word": " par",
+          "probability": 0.9998078942298889
+        },
+        {
+          "start": 9.92,
+          "end": 10.28,
+          "word": " tomber",
+          "probability": 0.9997700154781342
+        },
+        {
+          "start": 10.28,
+          "end": 10.5,
+          "word": " sur",
+          "probability": 0.9998522996902466
+        },
+        {
+          "start": 10.5,
+          "end": 10.66,
+          "word": " le",
+          "probability": 0.9999136924743652
+        },
+        {
+          "start": 10.66,
+          "end": 10.96,
+          "word": " bureau",
+          "probability": 0.9998730421066284
+        },
+        {
+          "start": 10.96,
+          "end": 11.16,
+          "word": " du",
+          "probability": 0.9997827410697937
+        },
+        {
+          "start": 11.16,
+          "end": 11.72,
+          "word": " Seigneur",
+          "probability": 0.9681385556856791
+        },
+        {
+          "start": 11.72,
+          "end": 12.56,
+          "word": " manifeste",
+          "probability": 0.7716901898384094
+        },
+        {
+          "start": 12.56,
+          "end": 12.74,
+          "word": " d",
+          "probability": 0.8951043486595154
+        },
+        {
+          "start": 12.74,
+          "end": 12.82,
+          "word": "'eau",
+          "probability": 0.995497077703476
+        },
+        {
+          "start": 12.82,
+          "end": 13.32,
+          "word": " profonde.",
+          "probability": 0.999316930770874
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 13.72,
+      "end": 16.34,
+      "text": " Un homme fort bien habillé est assis à l'accueil.",
+      "tokens": [
+        50984,
+        1156,
+        35794,
+        5009,
+        3610,
+        3025,
+        373,
+        526,
+        871,
+        1256,
+        271,
+        1531,
+        287,
+        6,
+        8476,
+        622,
+        388,
+        13,
+        51095
+      ],
+      "avg_logprob": -0.09470200592712048,
+      "compression_ratio": 1.4963503649635037,
+      "no_speech_prob": 6.232241719222875e-12,
+      "words": [
+        {
+          "start": 13.72,
+          "end": 14.24,
+          "word": " Un",
+          "probability": 0.9984204769134521
+        },
+        {
+          "start": 14.24,
+          "end": 14.5,
+          "word": " homme",
+          "probability": 0.9996896982192993
+        },
+        {
+          "start": 14.5,
+          "end": 14.7,
+          "word": " fort",
+          "probability": 0.99529629945755
+        },
+        {
+          "start": 14.7,
+          "end": 14.88,
+          "word": " bien",
+          "probability": 0.9998748302459717
+        },
+        {
+          "start": 14.88,
+          "end": 15.3,
+          "word": " habillé",
+          "probability": 0.9992791215578715
+        },
+        {
+          "start": 15.3,
+          "end": 15.58,
+          "word": " est",
+          "probability": 0.999815046787262
+        },
+        {
+          "start": 15.58,
+          "end": 15.84,
+          "word": " assis",
+          "probability": 0.9986108243465424
+        },
+        {
+          "start": 15.84,
+          "end": 15.96,
+          "word": " à",
+          "probability": 0.9999130964279175
+        },
+        {
+          "start": 15.96,
+          "end": 16.02,
+          "word": " l",
+          "probability": 0.9999411106109619
+        },
+        {
+          "start": 16.02,
+          "end": 16.34,
+          "word": "'accueil.",
+          "probability": 0.999842956662178
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 16.72,
+      "end": 18.88,
+      "text": " Il ne lève pas tout de suite les yeux vers toi.",
+      "tokens": [
+        51133,
+        4416,
+        408,
+        287,
+        31397,
+        1736,
+        3486,
+        368,
+        14205,
+        1512,
+        36163,
+        1774,
+        15648,
+        13,
+        51224
+      ],
+      "avg_logprob": -0.09470200592712048,
+      "compression_ratio": 1.4963503649635037,
+      "no_speech_prob": 6.232241719222875e-12,
+      "words": [
+        {
+          "start": 16.72,
+          "end": 17.24,
+          "word": " Il",
+          "probability": 0.9979706406593323
+        },
+        {
+          "start": 17.24,
+          "end": 17.38,
+          "word": " ne",
+          "probability": 0.999815046787262
+        },
+        {
+          "start": 17.38,
+          "end": 17.66,
+          "word": " lève",
+          "probability": 0.9989016652107239
+        },
+        {
+          "start": 17.66,
+          "end": 17.82,
+          "word": " pas",
+          "probability": 0.9999716281890869
+        },
+        {
+          "start": 17.82,
+          "end": 17.98,
+          "word": " tout",
+          "probability": 0.9996887445449829
+        },
+        {
+          "start": 17.98,
+          "end": 18.1,
+          "word": " de",
+          "probability": 0.9999279975891113
+        },
+        {
+          "start": 18.1,
+          "end": 18.2,
+          "word": " suite",
+          "probability": 0.9999531507492065
+        },
+        {
+          "start": 18.2,
+          "end": 18.36,
+          "word": " les",
+          "probability": 0.999707043170929
+        },
+        {
+          "start": 18.36,
+          "end": 18.52,
+          "word": " yeux",
+          "probability": 0.9999797344207764
+        },
+        {
+          "start": 18.52,
+          "end": 18.7,
+          "word": " vers",
+          "probability": 0.9998579025268555
+        },
+        {
+          "start": 18.7,
+          "end": 18.88,
+          "word": " toi.",
+          "probability": 0.9998070597648621
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 19.54,
+      "end": 22.92,
+      "text": " Quand il consent à t'accorder un regard, il te demande",
+      "tokens": [
+        51269,
+        22015,
+        1930,
+        14546,
+        1531,
+        256,
+        6,
+        8476,
+        4687,
+        517,
+        3843,
+        11,
+        1930,
+        535,
+        26982,
+        51426
+      ],
+      "avg_logprob": -0.09470200592712048,
+      "compression_ratio": 1.4963503649635037,
+      "no_speech_prob": 6.232241719222875e-12,
+      "words": [
+        {
+          "start": 19.54,
+          "end": 19.96,
+          "word": " Quand",
+          "probability": 0.9951275587081909
+        },
+        {
+          "start": 19.96,
+          "end": 20.14,
+          "word": " il",
+          "probability": 0.9995765089988708
+        },
+        {
+          "start": 20.14,
+          "end": 20.54,
+          "word": " consent",
+          "probability": 0.8473532199859619
+        },
+        {
+          "start": 20.54,
+          "end": 20.7,
+          "word": " à",
+          "probability": 0.9993467926979065
+        },
+        {
+          "start": 20.7,
+          "end": 20.82,
+          "word": " t",
+          "probability": 0.9995311498641968
+        },
+        {
+          "start": 20.82,
+          "end": 21.14,
+          "word": "'accorder",
+          "probability": 0.9990993738174438
+        },
+        {
+          "start": 21.14,
+          "end": 21.3,
+          "word": " un",
+          "probability": 0.999645471572876
+        },
+        {
+          "start": 21.3,
+          "end": 21.64,
+          "word": " regard,",
+          "probability": 0.9994580149650574
+        },
+        {
+          "start": 21.9,
+          "end": 22.32,
+          "word": " il",
+          "probability": 0.9992890357971191
+        },
+        {
+          "start": 22.32,
+          "end": 22.48,
+          "word": " te",
+          "probability": 0.9990750551223755
+        },
+        {
+          "start": 22.48,
+          "end": 22.92,
+          "word": " demande",
+          "probability": 0.9998356103897095
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 22.92,
+      "end": 29.1,
+      "text": " « Pour quel motif souhaitez-vous voir le Seigneur manifeste? »",
+      "tokens": [
+        51426,
+        4657,
+        8732,
+        7178,
+        39478,
+        45214,
+        32049,
+        12,
+        16514,
+        10695,
+        476,
+        1100,
+        26341,
+        374,
+        8173,
+        8887,
+        2506,
+        8793,
+        51736
+      ],
+      "avg_logprob": -0.09470200592712048,
+      "compression_ratio": 1.4963503649635037,
+      "no_speech_prob": 6.232241719222875e-12,
+      "words": [
+        {
+          "start": 22.92,
+          "end": 23.14,
+          "word": " «",
+          "probability": 0.5550386905670166
+        },
+        {
+          "start": 23.14,
+          "end": 24.16,
+          "word": " Pour",
+          "probability": 0.9651260375976562
+        },
+        {
+          "start": 24.16,
+          "end": 24.4,
+          "word": " quel",
+          "probability": 0.970778226852417
+        },
+        {
+          "start": 24.4,
+          "end": 25.06,
+          "word": " motif",
+          "probability": 0.9950366616249084
+        },
+        {
+          "start": 25.06,
+          "end": 26.46,
+          "word": " souhaitez",
+          "probability": 0.9836797416210175
+        },
+        {
+          "start": 26.46,
+          "end": 26.7,
+          "word": "-vous",
+          "probability": 0.9983095526695251
+        },
+        {
+          "start": 26.7,
+          "end": 27.0,
+          "word": " voir",
+          "probability": 0.9966936111450195
+        },
+        {
+          "start": 27.0,
+          "end": 27.2,
+          "word": " le",
+          "probability": 0.9985387325286865
+        },
+        {
+          "start": 27.2,
+          "end": 27.72,
+          "word": " Seigneur",
+          "probability": 0.9997936884562174
+        },
+        {
+          "start": 27.72,
+          "end": 28.6,
+          "word": " manifeste",
+          "probability": 0.9997336268424988
+        },
+        {
+          "start": 28.6,
+          "end": 28.76,
+          "word": "?",
+          "probability": 0.9934045672416687
+        },
+        {
+          "start": 28.76,
+          "end": 29.1,
+          "word": " »",
+          "probability": 0.9820104241371155
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 2736,
+      "start": 29.1,
+      "end": 33.3,
+      "text": " Tu sens que ton charisme ne servira de rien avec ce personnage.",
+      "tokens": [
+        50365,
+        7836,
+        2923,
+        631,
+        2952,
+        1290,
+        16415,
+        408,
+        1658,
+        4271,
+        368,
+        13355,
+        4163,
+        1769,
+        43952,
+        13,
+        50578
+      ],
+      "avg_logprob": -0.09285995633237892,
+      "compression_ratio": 1.121212121212121,
+      "no_speech_prob": 6.085655850779359e-12,
+      "words": [
+        {
+          "start": 29.1,
+          "end": 29.4,
+          "word": " Tu",
+          "probability": 0.8984776735305786
+        },
+        {
+          "start": 29.4,
+          "end": 29.62,
+          "word": " sens",
+          "probability": 0.9984534978866577
+        },
+        {
+          "start": 29.62,
+          "end": 29.78,
+          "word": " que",
+          "probability": 0.9999343156814575
+        },
+        {
+          "start": 29.78,
+          "end": 29.96,
+          "word": " ton",
+          "probability": 0.999870777130127
+        },
+        {
+          "start": 29.96,
+          "end": 30.58,
+          "word": " charisme",
+          "probability": 0.9983320534229279
+        },
+        {
+          "start": 30.58,
+          "end": 30.96,
+          "word": " ne",
+          "probability": 0.9989523887634277
+        },
+        {
+          "start": 30.96,
+          "end": 31.72,
+          "word": " servira",
+          "probability": 0.999692291021347
+        },
+        {
+          "start": 31.72,
+          "end": 31.92,
+          "word": " de",
+          "probability": 0.9998418092727661
+        },
+        {
+          "start": 31.92,
+          "end": 32.2,
+          "word": " rien",
+          "probability": 0.9999561309814453
+        },
+        {
+          "start": 32.2,
+          "end": 32.6,
+          "word": " avec",
+          "probability": 0.9970343112945557
+        },
+        {
+          "start": 32.6,
+          "end": 32.8,
+          "word": " ce",
+          "probability": 0.9995715022087097
+        },
+        {
+          "start": 32.8,
+          "end": 33.3,
+          "word": " personnage.",
+          "probability": 0.9999172687530518
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2736,
+      "start": 33.62,
+      "end": 37.7,
+      "text": " À la place, tu décides d'utiliser ta sagesse.",
+      "tokens": [
+        50615,
+        19018,
+        635,
+        1081,
+        11,
+        2604,
+        9198,
+        1875,
+        274,
+        6,
+        20835,
+        6694,
+        1846,
+        262,
+        1660,
+        405,
+        13,
+        50794
+      ],
+      "avg_logprob": -0.09285995633237892,
+      "compression_ratio": 1.121212121212121,
+      "no_speech_prob": 6.085655850779359e-12,
+      "words": [
+        {
+          "start": 33.62,
+          "end": 34.18,
+          "word": " À",
+          "probability": 0.666647732257843
+        },
+        {
+          "start": 34.18,
+          "end": 34.34,
+          "word": " la",
+          "probability": 0.9999524354934692
+        },
+        {
+          "start": 34.34,
+          "end": 34.68,
+          "word": " place,",
+          "probability": 0.9998507499694824
+        },
+        {
+          "start": 34.9,
+          "end": 35.36,
+          "word": " tu",
+          "probability": 0.999704897403717
+        },
+        {
+          "start": 35.36,
+          "end": 35.92,
+          "word": " décides",
+          "probability": 0.9996620714664459
+        },
+        {
+          "start": 35.92,
+          "end": 36.22,
+          "word": " d",
+          "probability": 0.9986244440078735
+        },
+        {
+          "start": 36.22,
+          "end": 36.78,
+          "word": "'utiliser",
+          "probability": 0.9999372561772665
+        },
+        {
+          "start": 36.78,
+          "end": 37.0,
+          "word": " ta",
+          "probability": 0.996227502822876
+        },
+        {
+          "start": 37.0,
+          "end": 37.7,
+          "word": " sagesse.",
+          "probability": 0.9997288386027018
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

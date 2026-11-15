@@ -1,0 +1,62 @@
+{
+  "scene": "B73_list_a",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B73_list_a.mp3",
+  "sha256": "57c00448385092591f4386259a9eb6f27b8c3885bbc37157f9a7a0c7dacb8d10",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.99825,
+  "text": "Comment réagis-tu?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.48,
+      "text": " Comment réagis-tu?",
+      "tokens": [
+        50365,
+        16328,
+        3960,
+        559,
+        271,
+        12,
+        9179,
+        2506,
+        50461
+      ],
+      "avg_logprob": -0.18499073535203933,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 3.485237272393693e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.66,
+          "word": " Comment",
+          "probability": 0.8667032718658447
+        },
+        {
+          "start": 0.66,
+          "end": 1.12,
+          "word": " réagis",
+          "probability": 0.9987353682518005
+        },
+        {
+          "start": 1.12,
+          "end": 1.34,
+          "word": "-tu",
+          "probability": 0.9982481300830841
+        },
+        {
+          "start": 1.34,
+          "end": 1.48,
+          "word": "?",
+          "probability": 0.9904189705848694
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

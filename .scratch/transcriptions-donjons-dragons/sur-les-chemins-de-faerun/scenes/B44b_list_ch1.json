@@ -1,0 +1,54 @@
+{
+  "scene": "B44b_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B44b_list_ch1.mp3",
+  "sha256": "9d15b20bfcba0279b464b493ce742037da23fc057509a449f4beff3ba503868a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.6673125,
+  "text": "Attaquez la mimique.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.11,
+      "end": 1.31,
+      "text": " Attaquez la mimique.",
+      "tokens": [
+        50365,
+        1711,
+        1328,
+        39009,
+        635,
+        12247,
+        1925,
+        13,
+        50426
+      ],
+      "avg_logprob": -0.3084022432565689,
+      "compression_ratio": 0.7692307692307693,
+      "no_speech_prob": 7.119379304837414e-12,
+      "words": [
+        {
+          "start": 0.11,
+          "end": 0.75,
+          "word": " Attaquez",
+          "probability": 0.8190575838088989
+        },
+        {
+          "start": 0.75,
+          "end": 0.93,
+          "word": " la",
+          "probability": 0.9942014813423157
+        },
+        {
+          "start": 0.93,
+          "end": 1.31,
+          "word": " mimique.",
+          "probability": 0.933520644903183
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

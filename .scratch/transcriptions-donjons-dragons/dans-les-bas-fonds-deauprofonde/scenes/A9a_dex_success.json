@@ -1,0 +1,393 @@
+{
+  "scene": "A9a_dex_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A9a_dex_success.mp3",
+  "sha256": "24bdc808815e861c46023cb65bc8a1158e5149e66618cde5d391a9d3be669216",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 15.609125,
+  "text": "Tu ne vas pas la laisser te semer si facilement. Malgré ses efforts pour te perdre, tu la talonnes de près. Tu ne t'en croyais pas capable. Tu te félicites de cet exploit. Tu peux être fier de toi.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.07,
+      "end": 3.55,
+      "text": " Tu ne vas pas la laisser te semer si facilement.",
+      "tokens": [
+        50365,
+        7836,
+        408,
+        11481,
+        1736,
+        635,
+        34463,
+        535,
+        369,
+        936,
+        1511,
+        23670,
+        518,
+        13,
+        50490
+      ],
+      "avg_logprob": -0.11063823748880358,
+      "compression_ratio": 1.3581081081081081,
+      "no_speech_prob": 5.863645506642978e-12,
+      "words": [
+        {
+          "start": 1.07,
+          "end": 1.51,
+          "word": " Tu",
+          "probability": 0.9835188388824463
+        },
+        {
+          "start": 1.51,
+          "end": 1.59,
+          "word": " ne",
+          "probability": 0.9997791647911072
+        },
+        {
+          "start": 1.59,
+          "end": 1.75,
+          "word": " vas",
+          "probability": 0.9985520243644714
+        },
+        {
+          "start": 1.75,
+          "end": 1.91,
+          "word": " pas",
+          "probability": 0.9998052716255188
+        },
+        {
+          "start": 1.91,
+          "end": 2.05,
+          "word": " la",
+          "probability": 0.9995518326759338
+        },
+        {
+          "start": 2.05,
+          "end": 2.31,
+          "word": " laisser",
+          "probability": 0.9998801946640015
+        },
+        {
+          "start": 2.31,
+          "end": 2.53,
+          "word": " te",
+          "probability": 0.9903712868690491
+        },
+        {
+          "start": 2.53,
+          "end": 2.83,
+          "word": " semer",
+          "probability": 0.9972721040248871
+        },
+        {
+          "start": 2.83,
+          "end": 3.03,
+          "word": " si",
+          "probability": 0.9997723698616028
+        },
+        {
+          "start": 3.03,
+          "end": 3.55,
+          "word": " facilement.",
+          "probability": 0.9999663233757019
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.09,
+      "end": 7.07,
+      "text": " Malgré ses efforts pour te perdre, tu la talonnes de près.",
+      "tokens": [
+        50521,
+        5746,
+        36341,
+        5385,
+        6484,
+        2016,
+        535,
+        46254,
+        11,
+        2604,
+        635,
+        4023,
+        266,
+        4081,
+        368,
+        25350,
+        13,
+        50666
+      ],
+      "avg_logprob": -0.11063823748880358,
+      "compression_ratio": 1.3581081081081081,
+      "no_speech_prob": 5.863645506642978e-12,
+      "words": [
+        {
+          "start": 4.09,
+          "end": 4.51,
+          "word": " Malgré",
+          "probability": 0.9996413588523865
+        },
+        {
+          "start": 4.51,
+          "end": 4.73,
+          "word": " ses",
+          "probability": 0.9860172867774963
+        },
+        {
+          "start": 4.73,
+          "end": 5.03,
+          "word": " efforts",
+          "probability": 0.9999079704284668
+        },
+        {
+          "start": 5.03,
+          "end": 5.23,
+          "word": " pour",
+          "probability": 0.9996405839920044
+        },
+        {
+          "start": 5.23,
+          "end": 5.39,
+          "word": " te",
+          "probability": 0.9998559951782227
+        },
+        {
+          "start": 5.39,
+          "end": 5.71,
+          "word": " perdre,",
+          "probability": 0.9999074935913086
+        },
+        {
+          "start": 6.01,
+          "end": 6.09,
+          "word": " tu",
+          "probability": 0.9997653365135193
+        },
+        {
+          "start": 6.09,
+          "end": 6.25,
+          "word": " la",
+          "probability": 0.9993144273757935
+        },
+        {
+          "start": 6.25,
+          "end": 6.73,
+          "word": " talonnes",
+          "probability": 0.9952351053555807
+        },
+        {
+          "start": 6.73,
+          "end": 6.85,
+          "word": " de",
+          "probability": 0.9998717308044434
+        },
+        {
+          "start": 6.85,
+          "end": 7.07,
+          "word": " près.",
+          "probability": 0.9993448853492737
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.51,
+      "end": 9.11,
+      "text": " Tu ne t'en croyais pas capable.",
+      "tokens": [
+        50703,
+        7836,
+        408,
+        256,
+        6,
+        268,
+        269,
+        4460,
+        1527,
+        1736,
+        8189,
+        13,
+        50768
+      ],
+      "avg_logprob": -0.11063823748880358,
+      "compression_ratio": 1.3581081081081081,
+      "no_speech_prob": 5.863645506642978e-12,
+      "words": [
+        {
+          "start": 7.51,
+          "end": 7.93,
+          "word": " Tu",
+          "probability": 0.9992167949676514
+        },
+        {
+          "start": 7.93,
+          "end": 8.05,
+          "word": " ne",
+          "probability": 0.9857650399208069
+        },
+        {
+          "start": 8.05,
+          "end": 8.11,
+          "word": " t",
+          "probability": 0.9993541836738586
+        },
+        {
+          "start": 8.11,
+          "end": 8.19,
+          "word": "'en",
+          "probability": 0.999977707862854
+        },
+        {
+          "start": 8.19,
+          "end": 8.55,
+          "word": " croyais",
+          "probability": 0.997367799282074
+        },
+        {
+          "start": 8.55,
+          "end": 8.71,
+          "word": " pas",
+          "probability": 0.9999737739562988
+        },
+        {
+          "start": 8.71,
+          "end": 9.11,
+          "word": " capable.",
+          "probability": 0.9994687438011169
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 9.77,
+      "end": 11.55,
+      "text": " Tu te félicites de cet exploit.",
+      "tokens": [
+        50815,
+        7836,
+        535,
+        34271,
+        1050,
+        3324,
+        368,
+        8603,
+        25924,
+        13,
+        50890
+      ],
+      "avg_logprob": -0.11063823748880358,
+      "compression_ratio": 1.3581081081081081,
+      "no_speech_prob": 5.863645506642978e-12,
+      "words": [
+        {
+          "start": 9.77,
+          "end": 10.19,
+          "word": " Tu",
+          "probability": 0.9992904663085938
+        },
+        {
+          "start": 10.19,
+          "end": 10.35,
+          "word": " te",
+          "probability": 0.9997429251670837
+        },
+        {
+          "start": 10.35,
+          "end": 10.89,
+          "word": " félicites",
+          "probability": 0.9995929996172587
+        },
+        {
+          "start": 10.89,
+          "end": 11.01,
+          "word": " de",
+          "probability": 0.9998279809951782
+        },
+        {
+          "start": 11.01,
+          "end": 11.21,
+          "word": " cet",
+          "probability": 0.996239185333252
+        },
+        {
+          "start": 11.21,
+          "end": 11.55,
+          "word": " exploit.",
+          "probability": 0.9986742734909058
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 11.95,
+      "end": 13.11,
+      "text": " Tu peux être fier de toi.",
+      "tokens": [
+        50912,
+        7836,
+        14844,
+        7418,
+        16334,
+        368,
+        15648,
+        13,
+        50968
+      ],
+      "avg_logprob": -0.11063823748880358,
+      "compression_ratio": 1.3581081081081081,
+      "no_speech_prob": 5.863645506642978e-12,
+      "words": [
+        {
+          "start": 11.95,
+          "end": 12.09,
+          "word": " Tu",
+          "probability": 0.9993371367454529
+        },
+        {
+          "start": 12.09,
+          "end": 12.25,
+          "word": " peux",
+          "probability": 0.9994401335716248
+        },
+        {
+          "start": 12.25,
+          "end": 12.45,
+          "word": " être",
+          "probability": 0.999954104423523
+        },
+        {
+          "start": 12.45,
+          "end": 12.77,
+          "word": " fier",
+          "probability": 0.719491183757782
+        },
+        {
+          "start": 12.77,
+          "end": 12.91,
+          "word": " de",
+          "probability": 0.999956488609314
+        },
+        {
+          "start": 12.91,
+          "end": 13.11,
+          "word": " toi.",
+          "probability": 0.9996633529663086
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

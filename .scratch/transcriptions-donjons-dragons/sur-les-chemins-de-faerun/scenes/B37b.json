@@ -1,0 +1,747 @@
+{
+  "scene": "B37b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B37b.mp3",
+  "sha256": "79ff0a89f75411501122777ff2fd9e1734f406364ca562613dbc56a407b55215",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 28.323375,
+  "text": "Tu réfléchis à ce message tout en vérifiant le contenu de ton sac. Tu t'aperçois, soulagé, qu'il n'y manque rien. Tu repenses à ta conversation avec le tyrannœil. Tu dois absolument en apprendre plus sur la guilde du Zhentarim et leurs relations avec le seigneur Feylund. Ce pourrait être très important. Ce n'est pas le genre d'informations que l'on trouve dans une bibliothèque. Fût-elle aussi phénoménale que la source du savoir?",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.72,
+      "end": 4.86,
+      "text": " Tu réfléchis à ce message tout en vérifiant le contenu de ton sac.",
+      "tokens": [
+        50365,
+        7836,
+        48438,
+        30606,
+        271,
+        1531,
+        1769,
+        3636,
+        3486,
+        465,
+        46919,
+        351,
+        5798,
+        476,
+        21795,
+        84,
+        368,
+        2952,
+        4899,
+        13,
+        50574
+      ],
+      "avg_logprob": -0.14522927356280868,
+      "compression_ratio": 1.5084745762711864,
+      "no_speech_prob": 5.9195027352076934e-12,
+      "words": [
+        {
+          "start": 0.72,
+          "end": 1.16,
+          "word": " Tu",
+          "probability": 0.9652430415153503
+        },
+        {
+          "start": 1.16,
+          "end": 1.74,
+          "word": " réfléchis",
+          "probability": 0.9997050563494364
+        },
+        {
+          "start": 1.74,
+          "end": 1.84,
+          "word": " à",
+          "probability": 0.9999635219573975
+        },
+        {
+          "start": 1.84,
+          "end": 2.0,
+          "word": " ce",
+          "probability": 0.9999542236328125
+        },
+        {
+          "start": 2.0,
+          "end": 2.52,
+          "word": " message",
+          "probability": 0.9996867179870605
+        },
+        {
+          "start": 2.52,
+          "end": 3.06,
+          "word": " tout",
+          "probability": 0.9425830245018005
+        },
+        {
+          "start": 3.06,
+          "end": 3.26,
+          "word": " en",
+          "probability": 0.9999897480010986
+        },
+        {
+          "start": 3.26,
+          "end": 3.7,
+          "word": " vérifiant",
+          "probability": 0.9995352427164713
+        },
+        {
+          "start": 3.7,
+          "end": 3.86,
+          "word": " le",
+          "probability": 0.9999334812164307
+        },
+        {
+          "start": 3.86,
+          "end": 4.28,
+          "word": " contenu",
+          "probability": 0.9999383687973022
+        },
+        {
+          "start": 4.28,
+          "end": 4.4,
+          "word": " de",
+          "probability": 0.9997493624687195
+        },
+        {
+          "start": 4.4,
+          "end": 4.56,
+          "word": " ton",
+          "probability": 0.9999743700027466
+        },
+        {
+          "start": 4.56,
+          "end": 4.86,
+          "word": " sac.",
+          "probability": 0.9995566010475159
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.22,
+      "end": 8.44,
+      "text": " Tu t'aperçois, soulagé, qu'il n'y manque rien.",
+      "tokens": [
+        50606,
+        7836,
+        256,
+        6,
+        2332,
+        1138,
+        7376,
+        11,
+        5133,
+        559,
+        526,
+        11,
+        421,
+        6,
+        388,
+        297,
+        6,
+        88,
+        48124,
+        13355,
+        13,
+        50752
+      ],
+      "avg_logprob": -0.14522927356280868,
+      "compression_ratio": 1.5084745762711864,
+      "no_speech_prob": 5.9195027352076934e-12,
+      "words": [
+        {
+          "start": 5.22,
+          "end": 5.74,
+          "word": " Tu",
+          "probability": 0.9995573163032532
+        },
+        {
+          "start": 5.74,
+          "end": 5.88,
+          "word": " t",
+          "probability": 0.9999337196350098
+        },
+        {
+          "start": 5.88,
+          "end": 6.44,
+          "word": "'aperçois,",
+          "probability": 0.9988164454698563
+        },
+        {
+          "start": 6.62,
+          "end": 7.3,
+          "word": " soulagé,",
+          "probability": 0.9951096773147583
+        },
+        {
+          "start": 7.48,
+          "end": 7.68,
+          "word": " qu",
+          "probability": 0.9999396800994873
+        },
+        {
+          "start": 7.68,
+          "end": 7.78,
+          "word": "'il",
+          "probability": 0.9999147653579712
+        },
+        {
+          "start": 7.78,
+          "end": 7.92,
+          "word": " n",
+          "probability": 0.9991143345832825
+        },
+        {
+          "start": 7.92,
+          "end": 7.96,
+          "word": "'y",
+          "probability": 0.9999642968177795
+        },
+        {
+          "start": 7.96,
+          "end": 8.14,
+          "word": " manque",
+          "probability": 0.9981253743171692
+        },
+        {
+          "start": 8.14,
+          "end": 8.44,
+          "word": " rien.",
+          "probability": 0.9999814033508301
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.76,
+      "end": 11.64,
+      "text": " Tu repenses à ta conversation avec le tyrannœil.",
+      "tokens": [
+        50782,
+        7836,
+        1085,
+        9085,
+        1531,
+        1846,
+        3761,
+        4163,
+        476,
+        13807,
+        1929,
+        84,
+        388,
+        13,
+        50911
+      ],
+      "avg_logprob": -0.14522927356280868,
+      "compression_ratio": 1.5084745762711864,
+      "no_speech_prob": 5.9195027352076934e-12,
+      "words": [
+        {
+          "start": 8.76,
+          "end": 9.18,
+          "word": " Tu",
+          "probability": 0.9995474219322205
+        },
+        {
+          "start": 9.18,
+          "end": 9.64,
+          "word": " repenses",
+          "probability": 0.9984678626060486
+        },
+        {
+          "start": 9.64,
+          "end": 9.78,
+          "word": " à",
+          "probability": 0.9996222257614136
+        },
+        {
+          "start": 9.78,
+          "end": 9.88,
+          "word": " ta",
+          "probability": 0.9998113512992859
+        },
+        {
+          "start": 9.88,
+          "end": 10.44,
+          "word": " conversation",
+          "probability": 0.9992200136184692
+        },
+        {
+          "start": 10.44,
+          "end": 10.8,
+          "word": " avec",
+          "probability": 0.999871015548706
+        },
+        {
+          "start": 10.8,
+          "end": 11.0,
+          "word": " le",
+          "probability": 0.9995424747467041
+        },
+        {
+          "start": 11.0,
+          "end": 11.64,
+          "word": " tyrannœil.",
+          "probability": 0.7506616488099098
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 11.9,
+      "end": 15.72,
+      "text": " Tu dois absolument en apprendre plus sur la guilde du Zhentarim",
+      "tokens": [
+        50939,
+        7836,
+        11854,
+        34508,
+        465,
+        46609,
+        1804,
+        1022,
+        635,
+        695,
+        15956,
+        1581,
+        44091,
+        289,
+        332,
+        51116
+      ],
+      "avg_logprob": -0.14522927356280868,
+      "compression_ratio": 1.5084745762711864,
+      "no_speech_prob": 5.9195027352076934e-12,
+      "words": [
+        {
+          "start": 11.9,
+          "end": 12.3,
+          "word": " Tu",
+          "probability": 0.999523401260376
+        },
+        {
+          "start": 12.3,
+          "end": 12.5,
+          "word": " dois",
+          "probability": 0.9997194409370422
+        },
+        {
+          "start": 12.5,
+          "end": 13.04,
+          "word": " absolument",
+          "probability": 0.9999868869781494
+        },
+        {
+          "start": 13.04,
+          "end": 13.28,
+          "word": " en",
+          "probability": 0.9999611377716064
+        },
+        {
+          "start": 13.28,
+          "end": 13.62,
+          "word": " apprendre",
+          "probability": 0.9998819828033447
+        },
+        {
+          "start": 13.62,
+          "end": 14.08,
+          "word": " plus",
+          "probability": 0.999864935874939
+        },
+        {
+          "start": 14.08,
+          "end": 14.44,
+          "word": " sur",
+          "probability": 0.9997361302375793
+        },
+        {
+          "start": 14.44,
+          "end": 14.58,
+          "word": " la",
+          "probability": 0.9997739195823669
+        },
+        {
+          "start": 14.58,
+          "end": 14.9,
+          "word": " guilde",
+          "probability": 0.9493190944194794
+        },
+        {
+          "start": 14.9,
+          "end": 15.12,
+          "word": " du",
+          "probability": 0.9976781010627747
+        },
+        {
+          "start": 15.12,
+          "end": 15.72,
+          "word": " Zhentarim",
+          "probability": 0.7468877037366232
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 15.72,
+      "end": 18.16,
+      "text": " et leurs relations avec le seigneur Feylund.",
+      "tokens": [
+        51116,
+        1030,
+        18341,
+        2299,
+        4163,
+        476,
+        369,
+        26341,
+        374,
+        46530,
+        75,
+        997,
+        13,
+        51237
+      ],
+      "avg_logprob": -0.14522927356280868,
+      "compression_ratio": 1.5084745762711864,
+      "no_speech_prob": 5.9195027352076934e-12,
+      "words": [
+        {
+          "start": 15.72,
+          "end": 16.2,
+          "word": " et",
+          "probability": 0.9961382746696472
+        },
+        {
+          "start": 16.2,
+          "end": 16.38,
+          "word": " leurs",
+          "probability": 0.5608494877815247
+        },
+        {
+          "start": 16.38,
+          "end": 16.8,
+          "word": " relations",
+          "probability": 0.9998261332511902
+        },
+        {
+          "start": 16.8,
+          "end": 17.12,
+          "word": " avec",
+          "probability": 0.999935507774353
+        },
+        {
+          "start": 17.12,
+          "end": 17.28,
+          "word": " le",
+          "probability": 0.9997605681419373
+        },
+        {
+          "start": 17.28,
+          "end": 17.64,
+          "word": " seigneur",
+          "probability": 0.890097459157308
+        },
+        {
+          "start": 17.64,
+          "end": 18.16,
+          "word": " Feylund.",
+          "probability": 0.5386445820331573
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 18.36,
+      "end": 20.24,
+      "text": " Ce pourrait être très important.",
+      "tokens": [
+        51269,
+        8257,
+        25590,
+        7418,
+        5732,
+        1021,
+        13,
+        51343
+      ],
+      "avg_logprob": -0.14522927356280868,
+      "compression_ratio": 1.5084745762711864,
+      "no_speech_prob": 5.9195027352076934e-12,
+      "words": [
+        {
+          "start": 18.36,
+          "end": 18.88,
+          "word": " Ce",
+          "probability": 0.9989748001098633
+        },
+        {
+          "start": 18.88,
+          "end": 19.16,
+          "word": " pourrait",
+          "probability": 0.9967785477638245
+        },
+        {
+          "start": 19.16,
+          "end": 19.46,
+          "word": " être",
+          "probability": 0.9988046884536743
+        },
+        {
+          "start": 19.46,
+          "end": 19.78,
+          "word": " très",
+          "probability": 0.9997567534446716
+        },
+        {
+          "start": 19.78,
+          "end": 20.24,
+          "word": " important.",
+          "probability": 0.9998639822006226
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 20.62,
+      "end": 24.04,
+      "text": " Ce n'est pas le genre d'informations que l'on trouve dans une bibliothèque.",
+      "tokens": [
+        51377,
+        8257,
+        297,
+        6,
+        377,
+        1736,
+        476,
+        11022,
+        274,
+        6,
+        37811,
+        763,
+        631,
+        287,
+        6,
+        266,
+        19359,
+        2680,
+        2251,
+        34344,
+        900,
+        1462,
+        1077,
+        13,
+        51531
+      ],
+      "avg_logprob": -0.14522927356280868,
+      "compression_ratio": 1.5084745762711864,
+      "no_speech_prob": 5.9195027352076934e-12,
+      "words": [
+        {
+          "start": 20.62,
+          "end": 21.08,
+          "word": " Ce",
+          "probability": 0.9978367686271667
+        },
+        {
+          "start": 21.08,
+          "end": 21.18,
+          "word": " n",
+          "probability": 0.9999008178710938
+        },
+        {
+          "start": 21.18,
+          "end": 21.24,
+          "word": "'est",
+          "probability": 0.9999885559082031
+        },
+        {
+          "start": 21.24,
+          "end": 21.36,
+          "word": " pas",
+          "probability": 0.999972939491272
+        },
+        {
+          "start": 21.36,
+          "end": 21.52,
+          "word": " le",
+          "probability": 0.99960857629776
+        },
+        {
+          "start": 21.52,
+          "end": 21.74,
+          "word": " genre",
+          "probability": 0.9997126460075378
+        },
+        {
+          "start": 21.74,
+          "end": 21.86,
+          "word": " d",
+          "probability": 0.999876856803894
+        },
+        {
+          "start": 21.86,
+          "end": 22.4,
+          "word": "'informations",
+          "probability": 0.8478620449701945
+        },
+        {
+          "start": 22.4,
+          "end": 22.64,
+          "word": " que",
+          "probability": 0.9996956586837769
+        },
+        {
+          "start": 22.64,
+          "end": 22.72,
+          "word": " l",
+          "probability": 0.9999455213546753
+        },
+        {
+          "start": 22.72,
+          "end": 22.8,
+          "word": "'on",
+          "probability": 0.9999794960021973
+        },
+        {
+          "start": 22.8,
+          "end": 23.04,
+          "word": " trouve",
+          "probability": 0.9996083378791809
+        },
+        {
+          "start": 23.04,
+          "end": 23.16,
+          "word": " dans",
+          "probability": 0.9999452829360962
+        },
+        {
+          "start": 23.16,
+          "end": 23.34,
+          "word": " une",
+          "probability": 0.9998296499252319
+        },
+        {
+          "start": 23.34,
+          "end": 24.04,
+          "word": " bibliothèque.",
+          "probability": 0.9997708946466446
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 24.3,
+      "end": 27.2,
+      "text": " Fût-elle aussi phénoménale que la source du savoir?",
+      "tokens": [
+        51555,
+        479,
+        30692,
+        12,
+        4434,
+        6212,
+        903,
+        46247,
+        3516,
+        1220,
+        631,
+        635,
+        4009,
+        1581,
+        19345,
+        2506,
+        51715
+      ],
+      "avg_logprob": -0.14522927356280868,
+      "compression_ratio": 1.5084745762711864,
+      "no_speech_prob": 5.9195027352076934e-12,
+      "words": [
+        {
+          "start": 24.3,
+          "end": 24.7,
+          "word": " Fût",
+          "probability": 0.7077671587467194
+        },
+        {
+          "start": 24.7,
+          "end": 24.86,
+          "word": "-elle",
+          "probability": 0.9992084801197052
+        },
+        {
+          "start": 24.86,
+          "end": 25.14,
+          "word": " aussi",
+          "probability": 0.9999743700027466
+        },
+        {
+          "start": 25.14,
+          "end": 25.86,
+          "word": " phénoménale",
+          "probability": 0.9931793510913849
+        },
+        {
+          "start": 25.86,
+          "end": 26.02,
+          "word": " que",
+          "probability": 0.9996600151062012
+        },
+        {
+          "start": 26.02,
+          "end": 26.16,
+          "word": " la",
+          "probability": 0.9991363883018494
+        },
+        {
+          "start": 26.16,
+          "end": 26.42,
+          "word": " source",
+          "probability": 0.996464729309082
+        },
+        {
+          "start": 26.42,
+          "end": 26.62,
+          "word": " du",
+          "probability": 0.9999226331710815
+        },
+        {
+          "start": 26.62,
+          "end": 26.98,
+          "word": " savoir",
+          "probability": 0.9995786547660828
+        },
+        {
+          "start": 26.98,
+          "end": 27.2,
+          "word": "?",
+          "probability": 0.979947566986084
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

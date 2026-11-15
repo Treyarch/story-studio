@@ -1,0 +1,87 @@
+{
+  "scene": "intro01_list_ch1_a",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/intro01_list_ch1_a.mp3",
+  "sha256": "4d0c2fd8d1779ad388194a76acf054072800084f7c56d8cc7d5cbf5de309374f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.674375,
+  "text": "Aux humains, qui te ressemblent probablement?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.24,
+      "end": 3.1,
+      "text": " Aux humains, qui te ressemblent probablement?",
+      "tokens": [
+        50365,
+        316,
+        2449,
+        1484,
+        2315,
+        11,
+        1956,
+        535,
+        725,
+        15750,
+        75,
+        317,
+        21759,
+        518,
+        2506,
+        50538
+      ],
+      "avg_logprob": -0.15703032998477712,
+      "compression_ratio": 0.92,
+      "no_speech_prob": 4.03288557063175e-12,
+      "words": [
+        {
+          "start": 0.24,
+          "end": 0.82,
+          "word": " Aux",
+          "probability": 0.9516627490520477
+        },
+        {
+          "start": 0.82,
+          "end": 1.14,
+          "word": " humains,",
+          "probability": 0.9996496140956879
+        },
+        {
+          "start": 1.28,
+          "end": 1.58,
+          "word": " qui",
+          "probability": 0.9987633228302002
+        },
+        {
+          "start": 1.58,
+          "end": 1.74,
+          "word": " te",
+          "probability": 0.9999009370803833
+        },
+        {
+          "start": 1.74,
+          "end": 2.36,
+          "word": " ressemblent",
+          "probability": 0.9994550198316574
+        },
+        {
+          "start": 2.36,
+          "end": 2.98,
+          "word": " probablement",
+          "probability": 0.9993610978126526
+        },
+        {
+          "start": 2.98,
+          "end": 3.1,
+          "word": "?",
+          "probability": 0.883124053478241
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

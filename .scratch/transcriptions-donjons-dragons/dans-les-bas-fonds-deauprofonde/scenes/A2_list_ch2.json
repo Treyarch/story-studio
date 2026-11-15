@@ -1,0 +1,52 @@
+{
+  "scene": "A2_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A2_list_ch2.mp3",
+  "sha256": "1dc7f8f25e8f02029c0e4de4f9352a5a2b70ff8731ffcbf00cf481b0f3bcc1d6",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.6468125,
+  "text": "Parlez aux agents.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.04,
+      "text": " Parlez aux agents.",
+      "tokens": [
+        50365,
+        3457,
+        20336,
+        7865,
+        12554,
+        13,
+        50414
+      ],
+      "avg_logprob": -0.1946241818368435,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 5.298732806691131e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.66,
+          "word": " Parlez",
+          "probability": 0.8394326269626617
+        },
+        {
+          "start": 0.66,
+          "end": 0.82,
+          "word": " aux",
+          "probability": 0.9996401071548462
+        },
+        {
+          "start": 0.82,
+          "end": 1.04,
+          "word": " agents.",
+          "probability": 0.9972399473190308
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

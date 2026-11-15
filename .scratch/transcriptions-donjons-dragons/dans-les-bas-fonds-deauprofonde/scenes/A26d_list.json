@@ -1,0 +1,76 @@
+{
+  "scene": "A26d_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A26d_list.mp3",
+  "sha256": "e7187c377fac5ebcf6baae11c249c2ff5462439b6b87315e1a2a3a34cebc9c32",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.61175,
+  "text": "Lequel choisis-tu de prendre?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 2.14,
+      "text": " Lequel choisis-tu de prendre?",
+      "tokens": [
+        50365,
+        1456,
+        20593,
+        1586,
+        28436,
+        12,
+        9179,
+        368,
+        16566,
+        2506,
+        50465
+      ],
+      "avg_logprob": -0.23900779833396277,
+      "compression_ratio": 0.7894736842105263,
+      "no_speech_prob": 3.5343295130829677e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.88,
+          "word": " Lequel",
+          "probability": 0.982373982667923
+        },
+        {
+          "start": 0.88,
+          "end": 1.3,
+          "word": " choisis",
+          "probability": 0.9911271631717682
+        },
+        {
+          "start": 1.3,
+          "end": 1.46,
+          "word": "-tu",
+          "probability": 0.9994859993457794
+        },
+        {
+          "start": 1.46,
+          "end": 1.6,
+          "word": " de",
+          "probability": 0.9999736547470093
+        },
+        {
+          "start": 1.6,
+          "end": 1.88,
+          "word": " prendre",
+          "probability": 0.9998853206634521
+        },
+        {
+          "start": 1.88,
+          "end": 2.14,
+          "word": "?",
+          "probability": 0.9984594583511353
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

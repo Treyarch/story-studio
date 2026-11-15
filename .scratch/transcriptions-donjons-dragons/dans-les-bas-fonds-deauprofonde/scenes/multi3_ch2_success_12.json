@@ -1,0 +1,137 @@
+{
+  "scene": "multi3_ch2_success_12",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/multi3_ch2_success_12.mp3",
+  "sha256": "a5732a5df3edd0f3bec0ec23d5dd1c9400f294a3f0700f50a94843b3b79c66cf",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 4.4734375,
+  "text": "Tu as atteint l'objectif de 12. C'est un lancer réussi.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 2.0,
+      "text": " Tu as atteint l'objectif de 12.",
+      "tokens": [
+        50365,
+        7836,
+        382,
+        42783,
+        686,
+        287,
+        6,
+        41070,
+        351,
+        368,
+        2272,
+        13,
+        50465
+      ],
+      "avg_logprob": -0.20372767932713032,
+      "compression_ratio": 0.875,
+      "no_speech_prob": 3.88669825490684e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.5,
+          "word": " Tu",
+          "probability": 0.8539953231811523
+        },
+        {
+          "start": 0.5,
+          "end": 0.66,
+          "word": " as",
+          "probability": 0.999409556388855
+        },
+        {
+          "start": 0.66,
+          "end": 0.92,
+          "word": " atteint",
+          "probability": 0.9998831450939178
+        },
+        {
+          "start": 0.92,
+          "end": 1.04,
+          "word": " l",
+          "probability": 0.9998821020126343
+        },
+        {
+          "start": 1.04,
+          "end": 1.62,
+          "word": "'objectif",
+          "probability": 0.9998446901639303
+        },
+        {
+          "start": 1.62,
+          "end": 1.74,
+          "word": " de",
+          "probability": 0.9998025298118591
+        },
+        {
+          "start": 1.74,
+          "end": 2.0,
+          "word": " 12.",
+          "probability": 0.9485683441162109
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 2.3,
+      "end": 3.74,
+      "text": " C'est un lancer réussi.",
+      "tokens": [
+        50491,
+        383,
+        6,
+        377,
+        517,
+        9326,
+        1776,
+        46171,
+        13,
+        50550
+      ],
+      "avg_logprob": -0.20372767932713032,
+      "compression_ratio": 0.875,
+      "no_speech_prob": 3.88669825490684e-12,
+      "words": [
+        {
+          "start": 2.3,
+          "end": 2.7,
+          "word": " C",
+          "probability": 0.9991886019706726
+        },
+        {
+          "start": 2.7,
+          "end": 2.82,
+          "word": "'est",
+          "probability": 0.9999732971191406
+        },
+        {
+          "start": 2.82,
+          "end": 2.94,
+          "word": " un",
+          "probability": 0.999922513961792
+        },
+        {
+          "start": 2.94,
+          "end": 3.34,
+          "word": " lancer",
+          "probability": 0.805119127035141
+        },
+        {
+          "start": 3.34,
+          "end": 3.74,
+          "word": " réussi.",
+          "probability": 0.9984498023986816
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

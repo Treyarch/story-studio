@@ -1,0 +1,362 @@
+{
+  "scene": "A26b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A26b.mp3",
+  "sha256": "4d04156ab458fa16e65c1635403351226a90c656406b472c520ba6b0ad33be85",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 16.140125,
+  "text": "Tu commences à crocheter des serrures et Kissandra s'y met aussi, de l'autre côté du coffre. Chaque fois que tu vis d'un casier, tu la préviens et elle te dit le numéro du prochain casier que tu dois ouvrir.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.32,
+      "end": 7.88,
+      "text": " Tu commences à crocheter des serrures et Kissandra s'y met aussi, de l'autre côté du coffre.",
+      "tokens": [
+        50365,
+        7836,
+        800,
+        2667,
+        1531,
+        8191,
+        2398,
+        730,
+        816,
+        894,
+        495,
+        1030,
+        591,
+        271,
+        18401,
+        262,
+        6,
+        88,
+        1131,
+        6212,
+        11,
+        368,
+        287,
+        6,
+        19702,
+        18437,
+        1581,
+        24768,
+        265,
+        13,
+        50643
+      ],
+      "avg_logprob": -0.09547798913806232,
+      "compression_ratio": 1.3525641025641026,
+      "no_speech_prob": 6.080093459953639e-12,
+      "words": [
+        {
+          "start": 2.32,
+          "end": 2.76,
+          "word": " Tu",
+          "probability": 0.9613631963729858
+        },
+        {
+          "start": 2.76,
+          "end": 3.26,
+          "word": " commences",
+          "probability": 0.9950498342514038
+        },
+        {
+          "start": 3.26,
+          "end": 3.54,
+          "word": " à",
+          "probability": 0.9992521405220032
+        },
+        {
+          "start": 3.54,
+          "end": 4.08,
+          "word": " crocheter",
+          "probability": 0.9982281923294067
+        },
+        {
+          "start": 4.08,
+          "end": 4.26,
+          "word": " des",
+          "probability": 0.9994833469390869
+        },
+        {
+          "start": 4.26,
+          "end": 4.8,
+          "word": " serrures",
+          "probability": 0.9987016717592875
+        },
+        {
+          "start": 4.8,
+          "end": 5.16,
+          "word": " et",
+          "probability": 0.9121002554893494
+        },
+        {
+          "start": 5.16,
+          "end": 5.66,
+          "word": " Kissandra",
+          "probability": 0.6138768196105957
+        },
+        {
+          "start": 5.66,
+          "end": 5.88,
+          "word": " s",
+          "probability": 0.9653031826019287
+        },
+        {
+          "start": 5.88,
+          "end": 5.94,
+          "word": "'y",
+          "probability": 0.999758780002594
+        },
+        {
+          "start": 5.94,
+          "end": 6.04,
+          "word": " met",
+          "probability": 0.9968405961990356
+        },
+        {
+          "start": 6.04,
+          "end": 6.38,
+          "word": " aussi,",
+          "probability": 0.999610960483551
+        },
+        {
+          "start": 6.5,
+          "end": 6.78,
+          "word": " de",
+          "probability": 0.9999469518661499
+        },
+        {
+          "start": 6.78,
+          "end": 6.88,
+          "word": " l",
+          "probability": 0.9999908208847046
+        },
+        {
+          "start": 6.88,
+          "end": 7.02,
+          "word": "'autre",
+          "probability": 0.9999891519546509
+        },
+        {
+          "start": 7.02,
+          "end": 7.32,
+          "word": " côté",
+          "probability": 0.9998376369476318
+        },
+        {
+          "start": 7.32,
+          "end": 7.48,
+          "word": " du",
+          "probability": 0.99988853931427
+        },
+        {
+          "start": 7.48,
+          "end": 7.88,
+          "word": " coffre.",
+          "probability": 0.9997739493846893
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.68,
+      "end": 14.64,
+      "text": " Chaque fois que tu vis d'un casier, tu la préviens et elle te dit le numéro du prochain casier que tu dois ouvrir.",
+      "tokens": [
+        50690,
+        12374,
+        1077,
+        9576,
+        631,
+        2604,
+        1452,
+        274,
+        6,
+        409,
+        3058,
+        811,
+        11,
+        2604,
+        635,
+        11127,
+        4917,
+        694,
+        1030,
+        8404,
+        535,
+        6176,
+        476,
+        49525,
+        1581,
+        39389,
+        3058,
+        811,
+        631,
+        2604,
+        11854,
+        21157,
+        10949,
+        13,
+        50981
+      ],
+      "avg_logprob": -0.09547798913806232,
+      "compression_ratio": 1.3525641025641026,
+      "no_speech_prob": 6.080093459953639e-12,
+      "words": [
+        {
+          "start": 8.68,
+          "end": 9.06,
+          "word": " Chaque",
+          "probability": 0.9996971189975739
+        },
+        {
+          "start": 9.06,
+          "end": 9.22,
+          "word": " fois",
+          "probability": 0.9998862743377686
+        },
+        {
+          "start": 9.22,
+          "end": 9.4,
+          "word": " que",
+          "probability": 0.9999725818634033
+        },
+        {
+          "start": 9.4,
+          "end": 9.54,
+          "word": " tu",
+          "probability": 0.9999467134475708
+        },
+        {
+          "start": 9.54,
+          "end": 9.7,
+          "word": " vis",
+          "probability": 0.5273263454437256
+        },
+        {
+          "start": 9.7,
+          "end": 9.76,
+          "word": " d",
+          "probability": 0.9827972650527954
+        },
+        {
+          "start": 9.76,
+          "end": 9.86,
+          "word": "'un",
+          "probability": 0.9999638795852661
+        },
+        {
+          "start": 9.86,
+          "end": 10.26,
+          "word": " casier,",
+          "probability": 0.9994909465312958
+        },
+        {
+          "start": 10.62,
+          "end": 10.74,
+          "word": " tu",
+          "probability": 0.9999309778213501
+        },
+        {
+          "start": 10.74,
+          "end": 10.88,
+          "word": " la",
+          "probability": 0.9959821701049805
+        },
+        {
+          "start": 10.88,
+          "end": 11.3,
+          "word": " préviens",
+          "probability": 0.9983778794606527
+        },
+        {
+          "start": 11.3,
+          "end": 11.9,
+          "word": " et",
+          "probability": 0.44080081582069397
+        },
+        {
+          "start": 11.9,
+          "end": 12.06,
+          "word": " elle",
+          "probability": 0.999483585357666
+        },
+        {
+          "start": 12.06,
+          "end": 12.2,
+          "word": " te",
+          "probability": 0.9999698400497437
+        },
+        {
+          "start": 12.2,
+          "end": 12.34,
+          "word": " dit",
+          "probability": 0.9995429515838623
+        },
+        {
+          "start": 12.34,
+          "end": 12.52,
+          "word": " le",
+          "probability": 0.9997768998146057
+        },
+        {
+          "start": 12.52,
+          "end": 12.84,
+          "word": " numéro",
+          "probability": 0.9998722076416016
+        },
+        {
+          "start": 12.84,
+          "end": 13.04,
+          "word": " du",
+          "probability": 0.9997455477714539
+        },
+        {
+          "start": 13.04,
+          "end": 13.44,
+          "word": " prochain",
+          "probability": 0.9997817873954773
+        },
+        {
+          "start": 13.44,
+          "end": 13.82,
+          "word": " casier",
+          "probability": 0.9998798072338104
+        },
+        {
+          "start": 13.82,
+          "end": 13.96,
+          "word": " que",
+          "probability": 0.9995666146278381
+        },
+        {
+          "start": 13.96,
+          "end": 14.08,
+          "word": " tu",
+          "probability": 0.9999352693557739
+        },
+        {
+          "start": 14.08,
+          "end": 14.26,
+          "word": " dois",
+          "probability": 0.9991746544837952
+        },
+        {
+          "start": 14.26,
+          "end": 14.64,
+          "word": " ouvrir.",
+          "probability": 0.9999083876609802
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

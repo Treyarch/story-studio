@@ -1,0 +1,54 @@
+{
+  "scene": "A20b_list_ch4_b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A20b_list_ch4_b.mp3",
+  "sha256": "55ba3b826ee8bff4d5523cbbdfced415aeb68e8045791c3554ea611c78c51b7b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.7260625,
+  "text": "Lancez des flèches.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.32,
+      "text": " Lancez des flèches.",
+      "tokens": [
+        50365,
+        40493,
+        89,
+        730,
+        932,
+        1462,
+        3781,
+        13,
+        50432
+      ],
+      "avg_logprob": -0.25352615118026733,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 4.021026133588235e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.76,
+          "word": " Lancez",
+          "probability": 0.7575458288192749
+        },
+        {
+          "start": 0.76,
+          "end": 0.86,
+          "word": " des",
+          "probability": 0.9982299208641052
+        },
+        {
+          "start": 0.86,
+          "end": 1.32,
+          "word": " flèches.",
+          "probability": 0.9987198313077291
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

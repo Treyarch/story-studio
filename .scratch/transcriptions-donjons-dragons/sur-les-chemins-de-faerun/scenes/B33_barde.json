@@ -1,0 +1,1261 @@
+{
+  "scene": "B33_barde",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B33_barde.mp3",
+  "sha256": "40110808968f27c745589bc1ff7389e57ae3ed6381f6773fc51b8d7418afae01",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 51.2271875,
+  "text": "Attends, ne dit-on pas que la musique calme même les bêtes sauvages? Tu te demandes si cela fonctionnerait avec un cube gélatineux. Pour le savoir, tu n'as pas 36 solutions. Tu attrapes ton luth, engrattes les cordes pour vérifier si l'accord est correct, et le cube gélatineux est aussitôt parcouru d'un tremblement. Un accord plus tard, le monstre vibre à nouveau, en rythme, avec la musique. Ce n'est pas exactement ce que tu attendais, mais peut-être y trouveras-tu ton compte Tu joues de plus en plus vite et le cube s'ébroue à chaque note Tu joues aussi vite et aussi fort que tu peux Qui sait si le cube n'explosera pas sous l'effet de la résonance Mais au contraire, il semble que ta musique le pousse à accélérer sa progression",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.17,
+      "end": 6.11,
+      "text": " Attends, ne dit-on pas que la musique calme même les bêtes sauvages?",
+      "tokens": [
+        50365,
+        7298,
+        2581,
+        11,
+        408,
+        6176,
+        12,
+        266,
+        1736,
+        631,
+        635,
+        34108,
+        2104,
+        1398,
+        5698,
+        1512,
+        272,
+        38262,
+        601,
+        9350,
+        1660,
+        2506,
+        50665
+      ],
+      "avg_logprob": -0.11643348978971367,
+      "compression_ratio": 1.532319391634981,
+      "no_speech_prob": 6.4036467101180605e-12,
+      "words": [
+        {
+          "start": 1.17,
+          "end": 1.69,
+          "word": " Attends,",
+          "probability": 0.9797379970550537
+        },
+        {
+          "start": 2.37,
+          "end": 2.59,
+          "word": " ne",
+          "probability": 0.999796450138092
+        },
+        {
+          "start": 2.59,
+          "end": 2.83,
+          "word": " dit",
+          "probability": 0.9985085129737854
+        },
+        {
+          "start": 2.83,
+          "end": 2.99,
+          "word": "-on",
+          "probability": 0.999798059463501
+        },
+        {
+          "start": 2.99,
+          "end": 3.17,
+          "word": " pas",
+          "probability": 0.9999535083770752
+        },
+        {
+          "start": 3.17,
+          "end": 3.33,
+          "word": " que",
+          "probability": 0.999935507774353
+        },
+        {
+          "start": 3.33,
+          "end": 3.49,
+          "word": " la",
+          "probability": 0.9999500513076782
+        },
+        {
+          "start": 3.49,
+          "end": 3.91,
+          "word": " musique",
+          "probability": 0.9998039603233337
+        },
+        {
+          "start": 3.91,
+          "end": 4.45,
+          "word": " calme",
+          "probability": 0.9995919466018677
+        },
+        {
+          "start": 4.45,
+          "end": 4.77,
+          "word": " même",
+          "probability": 0.9998544454574585
+        },
+        {
+          "start": 4.77,
+          "end": 4.97,
+          "word": " les",
+          "probability": 0.9999068975448608
+        },
+        {
+          "start": 4.97,
+          "end": 5.21,
+          "word": " bêtes",
+          "probability": 0.9996918737888336
+        },
+        {
+          "start": 5.21,
+          "end": 5.75,
+          "word": " sauvages",
+          "probability": 0.9990199009577433
+        },
+        {
+          "start": 5.75,
+          "end": 6.11,
+          "word": "?",
+          "probability": 0.9957547187805176
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.81,
+      "end": 10.59,
+      "text": " Tu te demandes si cela fonctionnerait avec un cube gélatineux.",
+      "tokens": [
+        50665,
+        7836,
+        535,
+        4733,
+        279,
+        1511,
+        15437,
+        20172,
+        1193,
+        1001,
+        4163,
+        517,
+        13728,
+        290,
+        8025,
+        267,
+        533,
+        2449,
+        13,
+        50836
+      ],
+      "avg_logprob": -0.11643348978971367,
+      "compression_ratio": 1.532319391634981,
+      "no_speech_prob": 6.4036467101180605e-12,
+      "words": [
+        {
+          "start": 6.81,
+          "end": 7.35,
+          "word": " Tu",
+          "probability": 0.9985859394073486
+        },
+        {
+          "start": 7.35,
+          "end": 7.53,
+          "word": " te",
+          "probability": 0.9998425245285034
+        },
+        {
+          "start": 7.53,
+          "end": 8.07,
+          "word": " demandes",
+          "probability": 0.9991085827350616
+        },
+        {
+          "start": 8.07,
+          "end": 8.39,
+          "word": " si",
+          "probability": 0.9998171925544739
+        },
+        {
+          "start": 8.39,
+          "end": 8.65,
+          "word": " cela",
+          "probability": 0.9998111128807068
+        },
+        {
+          "start": 8.65,
+          "end": 9.33,
+          "word": " fonctionnerait",
+          "probability": 0.9995566209157308
+        },
+        {
+          "start": 9.33,
+          "end": 9.53,
+          "word": " avec",
+          "probability": 0.9998869895935059
+        },
+        {
+          "start": 9.53,
+          "end": 9.71,
+          "word": " un",
+          "probability": 0.999975323677063
+        },
+        {
+          "start": 9.71,
+          "end": 9.95,
+          "word": " cube",
+          "probability": 0.998414158821106
+        },
+        {
+          "start": 9.95,
+          "end": 10.59,
+          "word": " gélatineux.",
+          "probability": 0.9951026916503907
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.13,
+      "end": 13.65,
+      "text": " Pour le savoir, tu n'as pas 36 solutions.",
+      "tokens": [
+        50881,
+        8732,
+        476,
+        19345,
+        11,
+        2604,
+        297,
+        6,
+        296,
+        1736,
+        8652,
+        6547,
+        13,
+        50990
+      ],
+      "avg_logprob": -0.11643348978971367,
+      "compression_ratio": 1.532319391634981,
+      "no_speech_prob": 6.4036467101180605e-12,
+      "words": [
+        {
+          "start": 11.13,
+          "end": 11.67,
+          "word": " Pour",
+          "probability": 0.9997096657752991
+        },
+        {
+          "start": 11.67,
+          "end": 11.83,
+          "word": " le",
+          "probability": 0.9999778270721436
+        },
+        {
+          "start": 11.83,
+          "end": 12.13,
+          "word": " savoir,",
+          "probability": 0.99993896484375
+        },
+        {
+          "start": 12.59,
+          "end": 12.65,
+          "word": " tu",
+          "probability": 0.9998891353607178
+        },
+        {
+          "start": 12.65,
+          "end": 12.75,
+          "word": " n",
+          "probability": 0.999984860420227
+        },
+        {
+          "start": 12.75,
+          "end": 12.81,
+          "word": "'as",
+          "probability": 0.9999185800552368
+        },
+        {
+          "start": 12.81,
+          "end": 12.93,
+          "word": " pas",
+          "probability": 0.9999885559082031
+        },
+        {
+          "start": 12.93,
+          "end": 13.21,
+          "word": " 36",
+          "probability": 0.9970210194587708
+        },
+        {
+          "start": 13.21,
+          "end": 13.65,
+          "word": " solutions.",
+          "probability": 0.9993759989738464
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 14.03,
+      "end": 18.01,
+      "text": " Tu attrapes ton luth, engrattes les cordes pour vérifier si l'accord est correct,",
+      "tokens": [
+        51025,
+        7836,
+        951,
+        4007,
+        279,
+        2952,
+        38319,
+        975,
+        11,
+        465,
+        861,
+        1591,
+        279,
+        1512,
+        12250,
+        279,
+        2016,
+        46919,
+        9902,
+        1511,
+        287,
+        6,
+        19947,
+        871,
+        3006,
+        11,
+        51211
+      ],
+      "avg_logprob": -0.11643348978971367,
+      "compression_ratio": 1.532319391634981,
+      "no_speech_prob": 6.4036467101180605e-12,
+      "words": [
+        {
+          "start": 14.03,
+          "end": 14.45,
+          "word": " Tu",
+          "probability": 0.9995740056037903
+        },
+        {
+          "start": 14.45,
+          "end": 14.79,
+          "word": " attrapes",
+          "probability": 0.9063849846522013
+        },
+        {
+          "start": 14.79,
+          "end": 14.91,
+          "word": " ton",
+          "probability": 0.9998040795326233
+        },
+        {
+          "start": 14.91,
+          "end": 15.21,
+          "word": " lutte,",
+          "probability": 0.9478650987148285
+        },
+        {
+          "start": 15.57,
+          "end": 15.93,
+          "word": " engrattes",
+          "probability": 0.9270285815000534
+        },
+        {
+          "start": 15.93,
+          "end": 16.07,
+          "word": " les",
+          "probability": 0.9997406601905823
+        },
+        {
+          "start": 16.07,
+          "end": 16.37,
+          "word": " cordes",
+          "probability": 0.9997753798961639
+        },
+        {
+          "start": 16.37,
+          "end": 16.55,
+          "word": " pour",
+          "probability": 0.9997782111167908
+        },
+        {
+          "start": 16.55,
+          "end": 17.01,
+          "word": " vérifier",
+          "probability": 0.9998821318149567
+        },
+        {
+          "start": 17.01,
+          "end": 17.23,
+          "word": " si",
+          "probability": 0.993988037109375
+        },
+        {
+          "start": 17.23,
+          "end": 17.37,
+          "word": " l",
+          "probability": 0.9991165995597839
+        },
+        {
+          "start": 17.37,
+          "end": 17.59,
+          "word": "'accord",
+          "probability": 0.9997340440750122
+        },
+        {
+          "start": 17.59,
+          "end": 17.73,
+          "word": " est",
+          "probability": 0.9999521970748901
+        },
+        {
+          "start": 17.73,
+          "end": 18.01,
+          "word": " correct,",
+          "probability": 0.9998632669448853
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 18.27,
+      "end": 21.83,
+      "text": " et le cube gélatineux est aussitôt parcouru d'un tremblement.",
+      "tokens": [
+        51234,
+        1030,
+        476,
+        13728,
+        290,
+        8025,
+        267,
+        533,
+        2449,
+        871,
+        5730,
+        270,
+        8775,
+        30511,
+        396,
+        84,
+        274,
+        6,
+        409,
+        7813,
+        638,
+        518,
+        13,
+        51399
+      ],
+      "avg_logprob": -0.11643348978971367,
+      "compression_ratio": 1.532319391634981,
+      "no_speech_prob": 6.4036467101180605e-12,
+      "words": [
+        {
+          "start": 18.27,
+          "end": 18.79,
+          "word": " et",
+          "probability": 0.9996966123580933
+        },
+        {
+          "start": 18.79,
+          "end": 18.95,
+          "word": " le",
+          "probability": 0.9997876286506653
+        },
+        {
+          "start": 18.95,
+          "end": 19.17,
+          "word": " cube",
+          "probability": 0.9998526573181152
+        },
+        {
+          "start": 19.17,
+          "end": 19.81,
+          "word": " gélatineux",
+          "probability": 0.9999093651771546
+        },
+        {
+          "start": 19.81,
+          "end": 20.15,
+          "word": " est",
+          "probability": 0.9999227523803711
+        },
+        {
+          "start": 20.15,
+          "end": 20.69,
+          "word": " aussitôt",
+          "probability": 0.9988136490186056
+        },
+        {
+          "start": 20.69,
+          "end": 21.19,
+          "word": " parcouru",
+          "probability": 0.9995337923367819
+        },
+        {
+          "start": 21.19,
+          "end": 21.27,
+          "word": " d",
+          "probability": 0.9997708201408386
+        },
+        {
+          "start": 21.27,
+          "end": 21.35,
+          "word": "'un",
+          "probability": 0.9999492168426514
+        },
+        {
+          "start": 21.35,
+          "end": 21.83,
+          "word": " tremblement.",
+          "probability": 0.9993963837623596
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 22.49,
+      "end": 26.71,
+      "text": " Un accord plus tard, le monstre vibre à nouveau, en rythme, avec la musique.",
+      "tokens": [
+        51451,
+        1156,
+        18640,
+        1804,
+        21057,
+        11,
+        476,
+        1108,
+        26421,
+        11666,
+        265,
+        1531,
+        23326,
+        11,
+        465,
+        20791,
+        392,
+        1398,
+        11,
+        4163,
+        635,
+        34108,
+        13,
+        51645
+      ],
+      "avg_logprob": -0.11643348978971367,
+      "compression_ratio": 1.532319391634981,
+      "no_speech_prob": 6.4036467101180605e-12,
+      "words": [
+        {
+          "start": 22.49,
+          "end": 23.03,
+          "word": " Un",
+          "probability": 0.9988555908203125
+        },
+        {
+          "start": 23.03,
+          "end": 23.29,
+          "word": " accord",
+          "probability": 0.9988765120506287
+        },
+        {
+          "start": 23.29,
+          "end": 23.51,
+          "word": " plus",
+          "probability": 0.9995075464248657
+        },
+        {
+          "start": 23.51,
+          "end": 23.71,
+          "word": " tard,",
+          "probability": 0.9999436140060425
+        },
+        {
+          "start": 23.95,
+          "end": 24.27,
+          "word": " le",
+          "probability": 0.9978917241096497
+        },
+        {
+          "start": 24.27,
+          "end": 24.63,
+          "word": " monstre",
+          "probability": 0.9974195659160614
+        },
+        {
+          "start": 24.63,
+          "end": 24.95,
+          "word": " vibre",
+          "probability": 0.9960645437240601
+        },
+        {
+          "start": 24.95,
+          "end": 25.05,
+          "word": " à",
+          "probability": 0.9993340373039246
+        },
+        {
+          "start": 25.05,
+          "end": 25.27,
+          "word": " nouveau,",
+          "probability": 0.9998631477355957
+        },
+        {
+          "start": 25.47,
+          "end": 25.59,
+          "word": " en",
+          "probability": 0.9979376792907715
+        },
+        {
+          "start": 25.59,
+          "end": 25.93,
+          "word": " rythme,",
+          "probability": 0.9975892305374146
+        },
+        {
+          "start": 26.05,
+          "end": 26.29,
+          "word": " avec",
+          "probability": 0.9988929629325867
+        },
+        {
+          "start": 26.29,
+          "end": 26.43,
+          "word": " la",
+          "probability": 0.9981386661529541
+        },
+        {
+          "start": 26.43,
+          "end": 26.71,
+          "word": " musique.",
+          "probability": 0.9987391829490662
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 2554,
+      "start": 27.67,
+      "end": 32.07,
+      "text": " Ce n'est pas exactement ce que tu attendais, mais peut-être y trouveras-tu ton compte",
+      "tokens": [
+        50365,
+        8257,
+        297,
+        6,
+        377,
+        1736,
+        38111,
+        1769,
+        631,
+        2604,
+        6888,
+        1527,
+        11,
+        2420,
+        5977,
+        12,
+        9498,
+        288,
+        23546,
+        296,
+        12,
+        9179,
+        2952,
+        19424,
+        50634
+      ],
+      "avg_logprob": -0.07787339661556941,
+      "compression_ratio": 1.5330396475770924,
+      "no_speech_prob": 8.704760003086509e-12,
+      "words": [
+        {
+          "start": 27.67,
+          "end": 28.11,
+          "word": " Ce",
+          "probability": 0.9538246989250183
+        },
+        {
+          "start": 28.11,
+          "end": 28.23,
+          "word": " n",
+          "probability": 0.9998372793197632
+        },
+        {
+          "start": 28.23,
+          "end": 28.29,
+          "word": "'est",
+          "probability": 0.9999452233314514
+        },
+        {
+          "start": 28.29,
+          "end": 28.45,
+          "word": " pas",
+          "probability": 0.9998916387557983
+        },
+        {
+          "start": 28.45,
+          "end": 28.89,
+          "word": " exactement",
+          "probability": 0.9993359446525574
+        },
+        {
+          "start": 28.89,
+          "end": 29.07,
+          "word": " ce",
+          "probability": 0.9993473887443542
+        },
+        {
+          "start": 29.07,
+          "end": 29.15,
+          "word": " que",
+          "probability": 0.9998984336853027
+        },
+        {
+          "start": 29.15,
+          "end": 29.27,
+          "word": " tu",
+          "probability": 0.999819815158844
+        },
+        {
+          "start": 29.27,
+          "end": 29.69,
+          "word": " attendais,",
+          "probability": 0.9969039559364319
+        },
+        {
+          "start": 29.81,
+          "end": 30.31,
+          "word": " mais",
+          "probability": 0.999326229095459
+        },
+        {
+          "start": 30.31,
+          "end": 30.67,
+          "word": " peut",
+          "probability": 0.999510645866394
+        },
+        {
+          "start": 30.67,
+          "end": 30.93,
+          "word": "-être",
+          "probability": 0.999895304441452
+        },
+        {
+          "start": 30.93,
+          "end": 31.13,
+          "word": " y",
+          "probability": 0.9972731471061707
+        },
+        {
+          "start": 31.13,
+          "end": 31.49,
+          "word": " trouveras",
+          "probability": 0.9966667890548706
+        },
+        {
+          "start": 31.49,
+          "end": 31.59,
+          "word": "-tu",
+          "probability": 0.9989505410194397
+        },
+        {
+          "start": 31.59,
+          "end": 31.75,
+          "word": " ton",
+          "probability": 0.9997134804725647
+        },
+        {
+          "start": 31.75,
+          "end": 32.07,
+          "word": " compte",
+          "probability": 0.9979325532913208
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 2554,
+      "start": 32.65,
+      "end": 36.29,
+      "text": " Tu joues de plus en plus vite et le cube s'ébroue à chaque note",
+      "tokens": [
+        50634,
+        7836,
+        11110,
+        279,
+        368,
+        1804,
+        465,
+        1804,
+        24462,
+        1030,
+        476,
+        13728,
+        262,
+        6,
+        526,
+        1443,
+        41785,
+        1531,
+        18920,
+        3637,
+        50846
+      ],
+      "avg_logprob": -0.07787339661556941,
+      "compression_ratio": 1.5330396475770924,
+      "no_speech_prob": 8.704760003086509e-12,
+      "words": [
+        {
+          "start": 32.65,
+          "end": 33.09,
+          "word": " Tu",
+          "probability": 0.03482687845826149
+        },
+        {
+          "start": 33.09,
+          "end": 33.31,
+          "word": " joues",
+          "probability": 0.9988010823726654
+        },
+        {
+          "start": 33.31,
+          "end": 33.43,
+          "word": " de",
+          "probability": 0.9997196793556213
+        },
+        {
+          "start": 33.43,
+          "end": 33.67,
+          "word": " plus",
+          "probability": 0.9999003410339355
+        },
+        {
+          "start": 33.67,
+          "end": 33.83,
+          "word": " en",
+          "probability": 0.9998863935470581
+        },
+        {
+          "start": 33.83,
+          "end": 34.01,
+          "word": " plus",
+          "probability": 0.9999904632568359
+        },
+        {
+          "start": 34.01,
+          "end": 34.27,
+          "word": " vite",
+          "probability": 0.999923825263977
+        },
+        {
+          "start": 34.27,
+          "end": 34.77,
+          "word": " et",
+          "probability": 0.6526070237159729
+        },
+        {
+          "start": 34.77,
+          "end": 34.93,
+          "word": " le",
+          "probability": 0.998925507068634
+        },
+        {
+          "start": 34.93,
+          "end": 35.19,
+          "word": " cube",
+          "probability": 0.9970632195472717
+        },
+        {
+          "start": 35.19,
+          "end": 35.41,
+          "word": " s",
+          "probability": 0.9911016225814819
+        },
+        {
+          "start": 35.41,
+          "end": 35.67,
+          "word": "'ébroue",
+          "probability": 0.8877471834421158
+        },
+        {
+          "start": 35.67,
+          "end": 35.81,
+          "word": " à",
+          "probability": 0.9992789626121521
+        },
+        {
+          "start": 35.81,
+          "end": 36.01,
+          "word": " chaque",
+          "probability": 0.9998064637184143
+        },
+        {
+          "start": 36.01,
+          "end": 36.29,
+          "word": " note",
+          "probability": 0.999396800994873
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2554,
+      "start": 36.87,
+      "end": 39.27,
+      "text": " Tu joues aussi vite et aussi fort que tu peux",
+      "tokens": [
+        50846,
+        7836,
+        11110,
+        279,
+        6212,
+        24462,
+        1030,
+        6212,
+        5009,
+        631,
+        2604,
+        14844,
+        50994
+      ],
+      "avg_logprob": -0.07787339661556941,
+      "compression_ratio": 1.5330396475770924,
+      "no_speech_prob": 8.704760003086509e-12,
+      "words": [
+        {
+          "start": 36.87,
+          "end": 37.31,
+          "word": " Tu",
+          "probability": 0.9697354435920715
+        },
+        {
+          "start": 37.31,
+          "end": 37.57,
+          "word": " joues",
+          "probability": 0.9984267950057983
+        },
+        {
+          "start": 37.57,
+          "end": 37.89,
+          "word": " aussi",
+          "probability": 0.9995478987693787
+        },
+        {
+          "start": 37.89,
+          "end": 38.13,
+          "word": " vite",
+          "probability": 0.9999258518218994
+        },
+        {
+          "start": 38.13,
+          "end": 38.23,
+          "word": " et",
+          "probability": 0.9993652701377869
+        },
+        {
+          "start": 38.23,
+          "end": 38.55,
+          "word": " aussi",
+          "probability": 0.9997586607933044
+        },
+        {
+          "start": 38.55,
+          "end": 38.81,
+          "word": " fort",
+          "probability": 0.9990444779396057
+        },
+        {
+          "start": 38.81,
+          "end": 38.93,
+          "word": " que",
+          "probability": 0.9996217489242554
+        },
+        {
+          "start": 38.93,
+          "end": 39.09,
+          "word": " tu",
+          "probability": 0.9999237060546875
+        },
+        {
+          "start": 39.09,
+          "end": 39.27,
+          "word": " peux",
+          "probability": 0.9974585175514221
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2554,
+      "start": 39.27,
+      "end": 42.99,
+      "text": " Qui sait si le cube n'explosera pas sous l'effet de la résonance",
+      "tokens": [
+        50994,
+        27361,
+        23146,
+        1511,
+        476,
+        13728,
+        297,
+        6,
+        23040,
+        329,
+        1663,
+        1736,
+        16686,
+        287,
+        6,
+        30774,
+        302,
+        368,
+        635,
+        14415,
+        266,
+        719,
+        51179
+      ],
+      "avg_logprob": -0.07787339661556941,
+      "compression_ratio": 1.5330396475770924,
+      "no_speech_prob": 8.704760003086509e-12,
+      "words": [
+        {
+          "start": 39.27,
+          "end": 39.97,
+          "word": " Qui",
+          "probability": 0.9819180965423584
+        },
+        {
+          "start": 39.97,
+          "end": 40.15,
+          "word": " sait",
+          "probability": 0.9966915845870972
+        },
+        {
+          "start": 40.15,
+          "end": 40.37,
+          "word": " si",
+          "probability": 0.9997290968894958
+        },
+        {
+          "start": 40.37,
+          "end": 40.55,
+          "word": " le",
+          "probability": 0.9999097585678101
+        },
+        {
+          "start": 40.55,
+          "end": 40.83,
+          "word": " cube",
+          "probability": 0.9998350143432617
+        },
+        {
+          "start": 40.83,
+          "end": 40.99,
+          "word": " n",
+          "probability": 0.9998078942298889
+        },
+        {
+          "start": 40.99,
+          "end": 41.51,
+          "word": "'explosera",
+          "probability": 0.9971195161342621
+        },
+        {
+          "start": 41.51,
+          "end": 41.71,
+          "word": " pas",
+          "probability": 0.9998323917388916
+        },
+        {
+          "start": 41.71,
+          "end": 41.89,
+          "word": " sous",
+          "probability": 0.9270658493041992
+        },
+        {
+          "start": 41.89,
+          "end": 42.01,
+          "word": " l",
+          "probability": 0.9986693859100342
+        },
+        {
+          "start": 42.01,
+          "end": 42.19,
+          "word": "'effet",
+          "probability": 0.9999244213104248
+        },
+        {
+          "start": 42.19,
+          "end": 42.29,
+          "word": " de",
+          "probability": 0.9999805688858032
+        },
+        {
+          "start": 42.29,
+          "end": 42.39,
+          "word": " la",
+          "probability": 0.9994937181472778
+        },
+        {
+          "start": 42.39,
+          "end": 42.99,
+          "word": " résonance",
+          "probability": 0.9992013971010844
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 11,
+      "seek": 2554,
+      "start": 43.85,
+      "end": 49.05,
+      "text": " Mais au contraire, il semble que ta musique le pousse à accélérer sa progression",
+      "tokens": [
+        51179,
+        6313,
+        1609,
+        10742,
+        621,
+        11,
+        1930,
+        38328,
+        631,
+        1846,
+        34108,
+        476,
+        280,
+        28521,
+        1531,
+        1317,
+        8025,
+        21824,
+        601,
+        18733,
+        51484
+      ],
+      "avg_logprob": -0.07787339661556941,
+      "compression_ratio": 1.5330396475770924,
+      "no_speech_prob": 8.704760003086509e-12,
+      "words": [
+        {
+          "start": 43.85,
+          "end": 44.29,
+          "word": " Mais",
+          "probability": 0.8715672492980957
+        },
+        {
+          "start": 44.29,
+          "end": 44.63,
+          "word": " au",
+          "probability": 0.99552983045578
+        },
+        {
+          "start": 44.63,
+          "end": 45.31,
+          "word": " contraire,",
+          "probability": 0.9999430775642395
+        },
+        {
+          "start": 45.97,
+          "end": 46.07,
+          "word": " il",
+          "probability": 0.9996185302734375
+        },
+        {
+          "start": 46.07,
+          "end": 46.41,
+          "word": " semble",
+          "probability": 0.9996885061264038
+        },
+        {
+          "start": 46.41,
+          "end": 46.59,
+          "word": " que",
+          "probability": 0.9999212026596069
+        },
+        {
+          "start": 46.59,
+          "end": 46.77,
+          "word": " ta",
+          "probability": 0.9978331923484802
+        },
+        {
+          "start": 46.77,
+          "end": 47.09,
+          "word": " musique",
+          "probability": 0.9993520379066467
+        },
+        {
+          "start": 47.09,
+          "end": 47.37,
+          "word": " le",
+          "probability": 0.9491327404975891
+        },
+        {
+          "start": 47.37,
+          "end": 47.69,
+          "word": " pousse",
+          "probability": 0.99647256731987
+        },
+        {
+          "start": 47.69,
+          "end": 47.91,
+          "word": " à",
+          "probability": 0.9989606142044067
+        },
+        {
+          "start": 47.91,
+          "end": 48.43,
+          "word": " accélérer",
+          "probability": 0.998989482720693
+        },
+        {
+          "start": 48.43,
+          "end": 48.61,
+          "word": " sa",
+          "probability": 0.9997475743293762
+        },
+        {
+          "start": 48.61,
+          "end": 49.05,
+          "word": " progression",
+          "probability": 0.999804675579071
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

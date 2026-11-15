@@ -1,0 +1,58 @@
+{
+  "scene": "B34_panorama_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B34_panorama_ch1.mp3",
+  "sha256": "fdd6012e532d24c1955cf1403a57b6a640c94c7a343c2aaf9bde0320f4ee623e",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.42075,
+  "text": "Tu prends à droite.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 0.94,
+      "text": " Tu prends à droite.",
+      "tokens": [
+        50365,
+        7836,
+        46750,
+        1531,
+        37321,
+        13,
+        50418
+      ],
+      "avg_logprob": -0.19738400541245937,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 4.089433652820773e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.38,
+          "word": " Tu",
+          "probability": 0.8182571530342102
+        },
+        {
+          "start": 0.38,
+          "end": 0.6,
+          "word": " prends",
+          "probability": 0.9981833100318909
+        },
+        {
+          "start": 0.6,
+          "end": 0.74,
+          "word": " à",
+          "probability": 0.9936572909355164
+        },
+        {
+          "start": 0.74,
+          "end": 0.94,
+          "word": " droite.",
+          "probability": 0.9990222454071045
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

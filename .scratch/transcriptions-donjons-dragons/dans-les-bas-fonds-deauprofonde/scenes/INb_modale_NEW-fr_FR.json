@@ -1,0 +1,224 @@
+{
+  "scene": "INb_modale_NEW-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/INb_modale_NEW-fr_FR.mp3",
+  "sha256": "425f6cd2d13f8bb98d8fbfd39cd5f85cd62bcee71cee5b93451df660ba063852",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 8.296625,
+  "text": "Maintenant que tu as choisi ton peuple et ta classe, voici à quoi ressemble ton personnage. Tu pourras consulter cette fiche à tout moment.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 4.98,
+      "text": " Maintenant que tu as choisi ton peuple et ta classe, voici à quoi ressemble ton personnage.",
+      "tokens": [
+        50365,
+        36931,
+        631,
+        2604,
+        382,
+        1586,
+        8021,
+        2952,
+        49186,
+        1030,
+        1846,
+        32400,
+        11,
+        1650,
+        8787,
+        1531,
+        11714,
+        725,
+        37227,
+        2952,
+        43952,
+        13,
+        50616
+      ],
+      "avg_logprob": -0.09044494728247325,
+      "compression_ratio": 1.2589285714285714,
+      "no_speech_prob": 5.3820880044352926e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.74,
+          "word": " Maintenant",
+          "probability": 0.954138994216919
+        },
+        {
+          "start": 0.74,
+          "end": 1.02,
+          "word": " que",
+          "probability": 0.9999338388442993
+        },
+        {
+          "start": 1.02,
+          "end": 1.16,
+          "word": " tu",
+          "probability": 0.9999066591262817
+        },
+        {
+          "start": 1.16,
+          "end": 1.3,
+          "word": " as",
+          "probability": 0.9993815422058105
+        },
+        {
+          "start": 1.3,
+          "end": 1.64,
+          "word": " choisi",
+          "probability": 0.9987688660621643
+        },
+        {
+          "start": 1.64,
+          "end": 1.8,
+          "word": " ton",
+          "probability": 0.9997925162315369
+        },
+        {
+          "start": 1.8,
+          "end": 2.06,
+          "word": " peuple",
+          "probability": 0.999674916267395
+        },
+        {
+          "start": 2.06,
+          "end": 2.22,
+          "word": " et",
+          "probability": 0.9987240433692932
+        },
+        {
+          "start": 2.22,
+          "end": 2.3,
+          "word": " ta",
+          "probability": 0.99982750415802
+        },
+        {
+          "start": 2.3,
+          "end": 2.64,
+          "word": " classe,",
+          "probability": 0.9998530149459839
+        },
+        {
+          "start": 2.9,
+          "end": 3.44,
+          "word": " voici",
+          "probability": 0.9998265504837036
+        },
+        {
+          "start": 3.44,
+          "end": 3.6,
+          "word": " à",
+          "probability": 0.9999852180480957
+        },
+        {
+          "start": 3.6,
+          "end": 3.76,
+          "word": " quoi",
+          "probability": 0.9998321533203125
+        },
+        {
+          "start": 3.76,
+          "end": 4.2,
+          "word": " ressemble",
+          "probability": 0.99928018450737
+        },
+        {
+          "start": 4.2,
+          "end": 4.4,
+          "word": " ton",
+          "probability": 0.9999270439147949
+        },
+        {
+          "start": 4.4,
+          "end": 4.98,
+          "word": " personnage.",
+          "probability": 0.9997467398643494
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.36,
+      "end": 7.82,
+      "text": " Tu pourras consulter cette fiche à tout moment.",
+      "tokens": [
+        50653,
+        7836,
+        2016,
+        3906,
+        1014,
+        425,
+        391,
+        5550,
+        283,
+        9304,
+        1531,
+        3486,
+        1623,
+        13,
+        50757
+      ],
+      "avg_logprob": -0.09044494728247325,
+      "compression_ratio": 1.2589285714285714,
+      "no_speech_prob": 5.3820880044352926e-12,
+      "words": [
+        {
+          "start": 5.36,
+          "end": 5.86,
+          "word": " Tu",
+          "probability": 0.9993422627449036
+        },
+        {
+          "start": 5.86,
+          "end": 6.18,
+          "word": " pourras",
+          "probability": 0.9995124042034149
+        },
+        {
+          "start": 6.18,
+          "end": 6.68,
+          "word": " consulter",
+          "probability": 0.9999349117279053
+        },
+        {
+          "start": 6.68,
+          "end": 6.9,
+          "word": " cette",
+          "probability": 0.9998372793197632
+        },
+        {
+          "start": 6.9,
+          "end": 7.2,
+          "word": " fiche",
+          "probability": 0.9997815787792206
+        },
+        {
+          "start": 7.2,
+          "end": 7.4,
+          "word": " à",
+          "probability": 0.9999011754989624
+        },
+        {
+          "start": 7.4,
+          "end": 7.58,
+          "word": " tout",
+          "probability": 0.9995837807655334
+        },
+        {
+          "start": 7.58,
+          "end": 7.82,
+          "word": " moment.",
+          "probability": 0.99991774559021
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "scene": "item_title_griseforces-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_griseforces-fr_FR.mp3",
+  "sha256": "25b277e029d0ef3b61ca37e395ed0f3c264839ec50e9be983fe73ccc6f377952",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.5430625,
+  "text": "Ton insigne des Gris-Force",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.95,
+      "text": " Ton insigne des Gris-Force",
+      "tokens": [
+        50365,
+        11385,
+        1028,
+        26341,
+        730,
+        2606,
+        271,
+        12,
+        12587,
+        384,
+        50461
+      ],
+      "avg_logprob": -0.38973988095919293,
+      "compression_ratio": 0.7647058823529411,
+      "no_speech_prob": 5.3610063437126154e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.51,
+          "word": " Ton",
+          "probability": 0.6703479290008545
+        },
+        {
+          "start": 0.51,
+          "end": 1.09,
+          "word": " insigne",
+          "probability": 0.9055340588092804
+        },
+        {
+          "start": 1.09,
+          "end": 1.29,
+          "word": " des",
+          "probability": 0.9974939823150635
+        },
+        {
+          "start": 1.29,
+          "end": 1.51,
+          "word": " Gris",
+          "probability": 0.6697439253330231
+        },
+        {
+          "start": 1.51,
+          "end": 1.95,
+          "word": "-Force",
+          "probability": 0.6162066708008448
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "scene": "B73_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B73_list_ch1.mp3",
+  "sha256": "04efc87ab1f8289ab86c86c4beb5a1ff77c749856f757079367bf0d41d36a166",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.9316875,
+  "text": "Tu t'enfuis en courant.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.35,
+      "text": " Tu t'enfuis en courant.",
+      "tokens": [
+        50365,
+        7836,
+        256,
+        6,
+        26939,
+        8479,
+        465,
+        1005,
+        394,
+        13,
+        50430
+      ],
+      "avg_logprob": -0.15913486604889235,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 4.414280139336535e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.49,
+          "word": " Tu",
+          "probability": 0.8764299154281616
+        },
+        {
+          "start": 0.49,
+          "end": 0.63,
+          "word": " t",
+          "probability": 0.9994732737541199
+        },
+        {
+          "start": 0.63,
+          "end": 0.91,
+          "word": "'enfuis",
+          "probability": 0.9219987789789835
+        },
+        {
+          "start": 0.91,
+          "end": 1.05,
+          "word": " en",
+          "probability": 0.9973823428153992
+        },
+        {
+          "start": 1.05,
+          "end": 1.35,
+          "word": " courant.",
+          "probability": 0.9995227158069611
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

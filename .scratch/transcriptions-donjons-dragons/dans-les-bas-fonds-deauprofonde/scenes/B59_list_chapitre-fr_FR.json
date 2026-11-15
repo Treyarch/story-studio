@@ -1,0 +1,45 @@
+{
+  "scene": "B59_list_chapitre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B59_list_chapitre-fr_FR.mp3",
+  "sha256": "9d36a1e06b472350a2416ebed93d256967678a17bcbaa7b3cb4d9016f180400b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.59625,
+  "text": "Deux dragons.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 0.9,
+      "text": " Deux dragons.",
+      "tokens": [
+        50365,
+        1346,
+        2449,
+        27240,
+        13,
+        50410
+      ],
+      "avg_logprob": -0.36312397037233624,
+      "compression_ratio": 0.6190476190476191,
+      "no_speech_prob": 5.261235024034416e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.88,
+          "word": " Deux",
+          "probability": 0.8046121299266815
+        },
+        {
+          "start": 0.88,
+          "end": 0.9,
+          "word": " dragons.",
+          "probability": 0.9798351526260376
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

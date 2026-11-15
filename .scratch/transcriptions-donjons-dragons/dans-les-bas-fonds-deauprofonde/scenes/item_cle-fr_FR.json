@@ -1,0 +1,199 @@
+{
+  "scene": "item_cle-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_cle-fr_FR.mp3",
+  "sha256": "b3136b6742a8662d3b8d46503be3a4cc58f1b7f499d9cce0f4a81d646b729430",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 8.7285625,
+  "text": "Une clé qui ouvre beaucoup de portes, portails et autres serrures. Un outil idéal pour les crapules de ton espèce.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 4.18,
+      "text": " Une clé qui ouvre beaucoup de portes, portails et autres serrures.",
+      "tokens": [
+        50365,
+        16701,
+        596,
+        526,
+        1956,
+        21157,
+        265,
+        8796,
+        368,
+        2436,
+        279,
+        11,
+        2436,
+        6227,
+        1030,
+        17093,
+        816,
+        894,
+        495,
+        13,
+        50572
+      ],
+      "avg_logprob": -0.0734638818784764,
+      "compression_ratio": 1.17,
+      "no_speech_prob": 4.959668092885394e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.56,
+          "word": " Une",
+          "probability": 0.9517437815666199
+        },
+        {
+          "start": 0.56,
+          "end": 0.88,
+          "word": " clé",
+          "probability": 0.99580118060112
+        },
+        {
+          "start": 0.88,
+          "end": 1.06,
+          "word": " qui",
+          "probability": 0.9999045133590698
+        },
+        {
+          "start": 1.06,
+          "end": 1.44,
+          "word": " ouvre",
+          "probability": 0.9998719096183777
+        },
+        {
+          "start": 1.44,
+          "end": 1.7,
+          "word": " beaucoup",
+          "probability": 0.999879002571106
+        },
+        {
+          "start": 1.7,
+          "end": 1.9,
+          "word": " de",
+          "probability": 0.9999834299087524
+        },
+        {
+          "start": 1.9,
+          "end": 2.28,
+          "word": " portes,",
+          "probability": 0.9992965757846832
+        },
+        {
+          "start": 2.64,
+          "end": 3.1,
+          "word": " portails",
+          "probability": 0.9842445850372314
+        },
+        {
+          "start": 3.1,
+          "end": 3.34,
+          "word": " et",
+          "probability": 0.9995890259742737
+        },
+        {
+          "start": 3.34,
+          "end": 3.62,
+          "word": " autres",
+          "probability": 0.997092604637146
+        },
+        {
+          "start": 3.62,
+          "end": 4.18,
+          "word": " serrures.",
+          "probability": 0.9928757548332214
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.84,
+      "end": 7.68,
+      "text": " Un outil idéal pour les crapules de ton espèce.",
+      "tokens": [
+        50617,
+        1156,
+        484,
+        388,
+        39227,
+        304,
+        2016,
+        1512,
+        12426,
+        3473,
+        368,
+        2952,
+        7089,
+        30236,
+        13,
+        50749
+      ],
+      "avg_logprob": -0.0734638818784764,
+      "compression_ratio": 1.17,
+      "no_speech_prob": 4.959668092885394e-12,
+      "words": [
+        {
+          "start": 4.84,
+          "end": 5.16,
+          "word": " Un",
+          "probability": 0.9997218251228333
+        },
+        {
+          "start": 5.16,
+          "end": 5.54,
+          "word": " outil",
+          "probability": 0.9998278319835663
+        },
+        {
+          "start": 5.54,
+          "end": 6.14,
+          "word": " idéal",
+          "probability": 0.9996877312660217
+        },
+        {
+          "start": 6.14,
+          "end": 6.32,
+          "word": " pour",
+          "probability": 0.9998376369476318
+        },
+        {
+          "start": 6.32,
+          "end": 6.48,
+          "word": " les",
+          "probability": 0.9993305206298828
+        },
+        {
+          "start": 6.48,
+          "end": 6.9,
+          "word": " crapules",
+          "probability": 0.9870014786720276
+        },
+        {
+          "start": 6.9,
+          "end": 7.04,
+          "word": " de",
+          "probability": 0.999817430973053
+        },
+        {
+          "start": 7.04,
+          "end": 7.18,
+          "word": " ton",
+          "probability": 0.999506950378418
+        },
+        {
+          "start": 7.18,
+          "end": 7.68,
+          "word": " espèce.",
+          "probability": 0.9994644820690155
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

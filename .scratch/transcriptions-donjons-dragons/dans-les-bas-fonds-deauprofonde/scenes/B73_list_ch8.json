@@ -1,0 +1,59 @@
+{
+  "scene": "B73_list_ch8",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B73_list_ch8.mp3",
+  "sha256": "ef230fd15146903e8fe52cda0025999f9d485864b3d096cf3eee0b8508cb39a3",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.0758125,
+  "text": "Tu jettes un sort.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.43,
+      "text": " Tu jettes un sort.",
+      "tokens": [
+        50365,
+        7836,
+        361,
+        16049,
+        517,
+        1333,
+        13,
+        50435
+      ],
+      "avg_logprob": -0.20305940839979383,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 5.426423633353439e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.53,
+          "word": " Tu",
+          "probability": 0.8292065262794495
+        },
+        {
+          "start": 0.53,
+          "end": 0.85,
+          "word": " jettes",
+          "probability": 0.992906928062439
+        },
+        {
+          "start": 0.85,
+          "end": 1.09,
+          "word": " un",
+          "probability": 0.9993451237678528
+        },
+        {
+          "start": 1.09,
+          "end": 1.43,
+          "word": " sort.",
+          "probability": 0.9973695278167725
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

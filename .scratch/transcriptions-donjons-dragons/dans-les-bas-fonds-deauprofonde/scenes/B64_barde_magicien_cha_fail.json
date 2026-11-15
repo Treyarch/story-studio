@@ -1,0 +1,283 @@
+{
+  "scene": "B64_barde_magicien_cha_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B64_barde_magicien_cha_fail.mp3",
+  "sha256": "433c0e76d25ceb5428cd9a30cf2f9eafc83352590435f79a0602ce70bc01ecbf",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 13.0123125,
+  "text": "L'estomac du dragon tortue gargouille si fort que tu n'arrives plus à réfléchir. Je ne bouge pas d'ici! Je sais que ces délicieux requins vont revenir!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.2,
+      "end": 5.62,
+      "text": " L'estomac du dragon tortue gargouille si fort que tu n'arrives plus à réfléchir.",
+      "tokens": [
+        50365,
+        441,
+        6,
+        377,
+        298,
+        326,
+        1581,
+        12165,
+        10806,
+        622,
+        3691,
+        70,
+        263,
+        3409,
+        1511,
+        5009,
+        631,
+        2604,
+        297,
+        6,
+        289,
+        470,
+        977,
+        1804,
+        1531,
+        48438,
+        30606,
+        347,
+        13,
+        50587
+      ],
+      "avg_logprob": -0.09113321701685588,
+      "compression_ratio": 1.2170542635658914,
+      "no_speech_prob": 5.982304061846744e-12,
+      "words": [
+        {
+          "start": 1.2,
+          "end": 1.72,
+          "word": " L",
+          "probability": 0.9729874134063721
+        },
+        {
+          "start": 1.72,
+          "end": 2.14,
+          "word": "'estomac",
+          "probability": 0.9993501752614975
+        },
+        {
+          "start": 2.14,
+          "end": 2.26,
+          "word": " du",
+          "probability": 0.9997970461845398
+        },
+        {
+          "start": 2.26,
+          "end": 2.54,
+          "word": " dragon",
+          "probability": 0.9881677031517029
+        },
+        {
+          "start": 2.54,
+          "end": 2.96,
+          "word": " tortue",
+          "probability": 0.8247966170310974
+        },
+        {
+          "start": 2.96,
+          "end": 3.38,
+          "word": " gargouille",
+          "probability": 0.988329753279686
+        },
+        {
+          "start": 3.38,
+          "end": 3.58,
+          "word": " si",
+          "probability": 0.9993158578872681
+        },
+        {
+          "start": 3.58,
+          "end": 3.94,
+          "word": " fort",
+          "probability": 0.999893069267273
+        },
+        {
+          "start": 3.94,
+          "end": 4.3,
+          "word": " que",
+          "probability": 0.987958550453186
+        },
+        {
+          "start": 4.3,
+          "end": 4.44,
+          "word": " tu",
+          "probability": 0.9999183416366577
+        },
+        {
+          "start": 4.44,
+          "end": 4.52,
+          "word": " n",
+          "probability": 0.9999123811721802
+        },
+        {
+          "start": 4.52,
+          "end": 4.78,
+          "word": "'arrives",
+          "probability": 0.9960464984178543
+        },
+        {
+          "start": 4.78,
+          "end": 4.94,
+          "word": " plus",
+          "probability": 0.9999207258224487
+        },
+        {
+          "start": 4.94,
+          "end": 5.06,
+          "word": " à",
+          "probability": 0.9999443292617798
+        },
+        {
+          "start": 5.06,
+          "end": 5.62,
+          "word": " réfléchir.",
+          "probability": 0.9999601443608602
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.78,
+      "end": 10.46,
+      "text": " Je ne bouge pas d'ici! Je sais que ces délicieux requins vont revenir!",
+      "tokens": [
+        50602,
+        2588,
+        408,
+        15345,
+        432,
+        1736,
+        274,
+        6,
+        8787,
+        2298,
+        2588,
+        11757,
+        631,
+        7879,
+        2795,
+        1050,
+        35371,
+        1724,
+        1292,
+        14362,
+        44899,
+        2298,
+        50865
+      ],
+      "avg_logprob": -0.09113321701685588,
+      "compression_ratio": 1.2170542635658914,
+      "no_speech_prob": 5.982304061846744e-12,
+      "words": [
+        {
+          "start": 5.78,
+          "end": 6.06,
+          "word": " Je",
+          "probability": 0.9432080984115601
+        },
+        {
+          "start": 6.06,
+          "end": 6.26,
+          "word": " ne",
+          "probability": 0.9998898506164551
+        },
+        {
+          "start": 6.26,
+          "end": 6.62,
+          "word": " bouge",
+          "probability": 0.9829436838626862
+        },
+        {
+          "start": 6.62,
+          "end": 6.86,
+          "word": " pas",
+          "probability": 0.9999734163284302
+        },
+        {
+          "start": 6.86,
+          "end": 7.02,
+          "word": " d",
+          "probability": 0.9997028708457947
+        },
+        {
+          "start": 7.02,
+          "end": 7.28,
+          "word": "'ici",
+          "probability": 0.9998463094234467
+        },
+        {
+          "start": 7.28,
+          "end": 7.56,
+          "word": "!",
+          "probability": 0.6034549474716187
+        },
+        {
+          "start": 7.56,
+          "end": 8.04,
+          "word": " Je",
+          "probability": 0.999836802482605
+        },
+        {
+          "start": 8.04,
+          "end": 8.44,
+          "word": " sais",
+          "probability": 0.9995606541633606
+        },
+        {
+          "start": 8.44,
+          "end": 8.66,
+          "word": " que",
+          "probability": 0.999934196472168
+        },
+        {
+          "start": 8.66,
+          "end": 8.86,
+          "word": " ces",
+          "probability": 0.9966140389442444
+        },
+        {
+          "start": 8.86,
+          "end": 9.5,
+          "word": " délicieux",
+          "probability": 0.9980363845825195
+        },
+        {
+          "start": 9.5,
+          "end": 9.84,
+          "word": " requins",
+          "probability": 0.9972812235355377
+        },
+        {
+          "start": 9.84,
+          "end": 10.04,
+          "word": " vont",
+          "probability": 0.9998538494110107
+        },
+        {
+          "start": 10.04,
+          "end": 10.46,
+          "word": " revenir",
+          "probability": 0.9993257522583008
+        },
+        {
+          "start": 10.46,
+          "end": 10.46,
+          "word": "!",
+          "probability": 0.9890773296356201
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

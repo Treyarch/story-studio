@@ -1,0 +1,528 @@
+{
+  "scene": "B42",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B42.mp3",
+  "sha256": "7b94e295212c02ef9dababd9c45f5ac6ffbfaa5d014729ad94870bc5c305b778",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 21.2866875,
+  "text": "Revenu aux portes principales, tu sollicites l'une des gardes présentes. Elle est un peu surprise que quelqu'un qui se trouve déjà dans le château l'interpelle. Mais elle se tourne vers toi avec un sourire courtois. Tu lui dis que tu dois parler au seigneur Phylund. Où as-tu une chance de le croiser?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.38,
+      "end": 6.8,
+      "text": " Revenu aux portes principales, tu sollicites l'une des gardes présentes.",
+      "tokens": [
+        50386,
+        1300,
+        553,
+        84,
+        7865,
+        2436,
+        279,
+        6959,
+        4229,
+        11,
+        2604,
+        7114,
+        299,
+        3324,
+        287,
+        6,
+        2613,
+        730,
+        5628,
+        279,
+        11761,
+        9240,
+        13,
+        50587
+      ],
+      "avg_logprob": -0.14760477141458161,
+      "compression_ratio": 1.4413145539906103,
+      "no_speech_prob": 7.586946695892216e-12,
+      "words": [
+        {
+          "start": 2.38,
+          "end": 3.24,
+          "word": " Revenu",
+          "probability": 0.778937578201294
+        },
+        {
+          "start": 3.24,
+          "end": 3.38,
+          "word": " aux",
+          "probability": 0.8116534948348999
+        },
+        {
+          "start": 3.38,
+          "end": 3.7,
+          "word": " portes",
+          "probability": 0.9989259243011475
+        },
+        {
+          "start": 3.7,
+          "end": 4.24,
+          "word": " principales,",
+          "probability": 0.9979382455348969
+        },
+        {
+          "start": 4.44,
+          "end": 4.84,
+          "word": " tu",
+          "probability": 0.9991070628166199
+        },
+        {
+          "start": 4.84,
+          "end": 5.5,
+          "word": " sollicites",
+          "probability": 0.9826728304227194
+        },
+        {
+          "start": 5.5,
+          "end": 5.66,
+          "word": " l",
+          "probability": 0.9996343851089478
+        },
+        {
+          "start": 5.66,
+          "end": 5.78,
+          "word": "'une",
+          "probability": 0.9999340772628784
+        },
+        {
+          "start": 5.78,
+          "end": 5.94,
+          "word": " des",
+          "probability": 0.9999682903289795
+        },
+        {
+          "start": 5.94,
+          "end": 6.34,
+          "word": " gardes",
+          "probability": 0.9994409382343292
+        },
+        {
+          "start": 6.34,
+          "end": 6.8,
+          "word": " présentes.",
+          "probability": 0.9980325698852539
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7.06,
+      "end": 11.6,
+      "text": " Elle est un peu surprise que quelqu'un qui se trouve déjà dans le château l'interpelle.",
+      "tokens": [
+        50616,
+        16227,
+        871,
+        517,
+        5604,
+        6365,
+        631,
+        25283,
+        6,
+        409,
+        1956,
+        369,
+        19359,
+        12027,
+        2680,
+        476,
+        417,
+        33680,
+        1459,
+        287,
+        6,
+        5106,
+        494,
+        2447,
+        13,
+        50827
+      ],
+      "avg_logprob": -0.14760477141458161,
+      "compression_ratio": 1.4413145539906103,
+      "no_speech_prob": 7.586946695892216e-12,
+      "words": [
+        {
+          "start": 7.06,
+          "end": 7.52,
+          "word": " Elle",
+          "probability": 0.9994043111801147
+        },
+        {
+          "start": 7.52,
+          "end": 7.7,
+          "word": " est",
+          "probability": 0.9997509121894836
+        },
+        {
+          "start": 7.7,
+          "end": 7.84,
+          "word": " un",
+          "probability": 0.999683141708374
+        },
+        {
+          "start": 7.84,
+          "end": 7.98,
+          "word": " peu",
+          "probability": 0.9998977184295654
+        },
+        {
+          "start": 7.98,
+          "end": 8.52,
+          "word": " surprise",
+          "probability": 0.9988848567008972
+        },
+        {
+          "start": 8.52,
+          "end": 8.98,
+          "word": " que",
+          "probability": 0.9990317821502686
+        },
+        {
+          "start": 8.98,
+          "end": 9.26,
+          "word": " quelqu",
+          "probability": 0.9999246597290039
+        },
+        {
+          "start": 9.26,
+          "end": 9.44,
+          "word": "'un",
+          "probability": 0.9999882578849792
+        },
+        {
+          "start": 9.44,
+          "end": 9.62,
+          "word": " qui",
+          "probability": 0.9998394250869751
+        },
+        {
+          "start": 9.62,
+          "end": 9.8,
+          "word": " se",
+          "probability": 0.9998857975006104
+        },
+        {
+          "start": 9.8,
+          "end": 10.04,
+          "word": " trouve",
+          "probability": 0.9996902942657471
+        },
+        {
+          "start": 10.04,
+          "end": 10.34,
+          "word": " déjà",
+          "probability": 0.9998168349266052
+        },
+        {
+          "start": 10.34,
+          "end": 10.52,
+          "word": " dans",
+          "probability": 0.9999446868896484
+        },
+        {
+          "start": 10.52,
+          "end": 10.66,
+          "word": " le",
+          "probability": 0.9999517202377319
+        },
+        {
+          "start": 10.66,
+          "end": 11.0,
+          "word": " château",
+          "probability": 0.9995185136795044
+        },
+        {
+          "start": 11.0,
+          "end": 11.1,
+          "word": " l",
+          "probability": 0.99974125623703
+        },
+        {
+          "start": 11.1,
+          "end": 11.6,
+          "word": "'interpelle.",
+          "probability": 0.9992334395647049
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.84,
+      "end": 14.88,
+      "text": " Mais elle se tourne vers toi avec un sourire courtois.",
+      "tokens": [
+        50850,
+        6313,
+        8404,
+        369,
+        3512,
+        716,
+        1774,
+        15648,
+        4163,
+        517,
+        11006,
+        621,
+        1005,
+        1353,
+        271,
+        13,
+        50990
+      ],
+      "avg_logprob": -0.14760477141458161,
+      "compression_ratio": 1.4413145539906103,
+      "no_speech_prob": 7.586946695892216e-12,
+      "words": [
+        {
+          "start": 11.84,
+          "end": 12.3,
+          "word": " Mais",
+          "probability": 0.9995912909507751
+        },
+        {
+          "start": 12.3,
+          "end": 12.44,
+          "word": " elle",
+          "probability": 0.9996775388717651
+        },
+        {
+          "start": 12.44,
+          "end": 12.6,
+          "word": " se",
+          "probability": 0.9999693632125854
+        },
+        {
+          "start": 12.6,
+          "end": 12.9,
+          "word": " tourne",
+          "probability": 0.9999002814292908
+        },
+        {
+          "start": 12.9,
+          "end": 13.12,
+          "word": " vers",
+          "probability": 0.9998062252998352
+        },
+        {
+          "start": 13.12,
+          "end": 13.34,
+          "word": " toi",
+          "probability": 0.9997639060020447
+        },
+        {
+          "start": 13.34,
+          "end": 13.72,
+          "word": " avec",
+          "probability": 0.9991217255592346
+        },
+        {
+          "start": 13.72,
+          "end": 13.92,
+          "word": " un",
+          "probability": 0.9999408721923828
+        },
+        {
+          "start": 13.92,
+          "end": 14.36,
+          "word": " sourire",
+          "probability": 0.9993204474449158
+        },
+        {
+          "start": 14.36,
+          "end": 14.88,
+          "word": " courtois.",
+          "probability": 0.9965795874595642
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 15.28,
+      "end": 18.08,
+      "text": " Tu lui dis que tu dois parler au seigneur Phylund.",
+      "tokens": [
+        51023,
+        7836,
+        8783,
+        717,
+        631,
+        2604,
+        11854,
+        16421,
+        1609,
+        369,
+        26341,
+        374,
+        46530,
+        1661,
+        13,
+        51151
+      ],
+      "avg_logprob": -0.14760477141458161,
+      "compression_ratio": 1.4413145539906103,
+      "no_speech_prob": 7.586946695892216e-12,
+      "words": [
+        {
+          "start": 15.28,
+          "end": 15.64,
+          "word": " Tu",
+          "probability": 0.9981440305709839
+        },
+        {
+          "start": 15.64,
+          "end": 15.84,
+          "word": " lui",
+          "probability": 0.9998884201049805
+        },
+        {
+          "start": 15.84,
+          "end": 16.02,
+          "word": " dis",
+          "probability": 0.9998419284820557
+        },
+        {
+          "start": 16.02,
+          "end": 16.22,
+          "word": " que",
+          "probability": 0.9999010562896729
+        },
+        {
+          "start": 16.22,
+          "end": 16.36,
+          "word": " tu",
+          "probability": 0.9998480081558228
+        },
+        {
+          "start": 16.36,
+          "end": 16.56,
+          "word": " dois",
+          "probability": 0.9995237588882446
+        },
+        {
+          "start": 16.56,
+          "end": 16.92,
+          "word": " parler",
+          "probability": 0.9998538494110107
+        },
+        {
+          "start": 16.92,
+          "end": 17.16,
+          "word": " au",
+          "probability": 0.9943138360977173
+        },
+        {
+          "start": 17.16,
+          "end": 17.56,
+          "word": " seigneur",
+          "probability": 0.9228739937146505
+        },
+        {
+          "start": 17.56,
+          "end": 18.08,
+          "word": " Phylund.",
+          "probability": 0.45910603553056717
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 18.58,
+      "end": 20.5,
+      "text": " Où as-tu une chance de le croiser?",
+      "tokens": [
+        51190,
+        422,
+        5035,
+        382,
+        12,
+        9179,
+        2251,
+        2931,
+        368,
+        476,
+        4848,
+        6694,
+        2506,
+        51265
+      ],
+      "avg_logprob": -0.14760477141458161,
+      "compression_ratio": 1.4413145539906103,
+      "no_speech_prob": 7.586946695892216e-12,
+      "words": [
+        {
+          "start": 18.58,
+          "end": 19.04,
+          "word": " Où",
+          "probability": 0.9560277462005615
+        },
+        {
+          "start": 19.04,
+          "end": 19.12,
+          "word": " as",
+          "probability": 0.9985502362251282
+        },
+        {
+          "start": 19.12,
+          "end": 19.26,
+          "word": "-tu",
+          "probability": 0.9997771382331848
+        },
+        {
+          "start": 19.26,
+          "end": 19.42,
+          "word": " une",
+          "probability": 0.8555809259414673
+        },
+        {
+          "start": 19.42,
+          "end": 19.68,
+          "word": " chance",
+          "probability": 0.9998599290847778
+        },
+        {
+          "start": 19.68,
+          "end": 19.8,
+          "word": " de",
+          "probability": 0.9997121691703796
+        },
+        {
+          "start": 19.8,
+          "end": 19.9,
+          "word": " le",
+          "probability": 0.999895453453064
+        },
+        {
+          "start": 19.9,
+          "end": 20.22,
+          "word": " croiser",
+          "probability": 0.9987097382545471
+        },
+        {
+          "start": 20.22,
+          "end": 20.5,
+          "word": "?",
+          "probability": 0.9950008988380432
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "scene": "B72b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B72b.mp3",
+  "sha256": "ee710a6b871d7ee70c7ef76809db1f706f43665aebea5e743bd29be2df074a72",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 14.19975,
+  "text": "Hum, tu en sais beaucoup, mais tu ne sais pas encore tout. Ton instinct de journaliste te dit que tu dois continuer à mener l'enquête avant de rencontrer Seigneur Rojenard.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.87,
+      "end": 5.99,
+      "text": " Hum, tu en sais beaucoup, mais tu ne sais pas encore tout.",
+      "tokens": [
+        50365,
+        12877,
+        11,
+        2604,
+        465,
+        11757,
+        8796,
+        11,
+        2420,
+        2604,
+        408,
+        11757,
+        1736,
+        10122,
+        3486,
+        13,
+        50573
+      ],
+      "avg_logprob": -0.11369113892316818,
+      "compression_ratio": 1.2835820895522387,
+      "no_speech_prob": 5.858345492743e-12,
+      "words": [
+        {
+          "start": 1.87,
+          "end": 2.35,
+          "word": " Hum,",
+          "probability": 0.4358855187892914
+        },
+        {
+          "start": 2.93,
+          "end": 3.15,
+          "word": " tu",
+          "probability": 0.9999130964279175
+        },
+        {
+          "start": 3.15,
+          "end": 3.33,
+          "word": " en",
+          "probability": 0.9999661445617676
+        },
+        {
+          "start": 3.33,
+          "end": 3.53,
+          "word": " sais",
+          "probability": 0.9994698166847229
+        },
+        {
+          "start": 3.53,
+          "end": 3.97,
+          "word": " beaucoup,",
+          "probability": 0.9998466968536377
+        },
+        {
+          "start": 4.33,
+          "end": 4.89,
+          "word": " mais",
+          "probability": 0.9999209642410278
+        },
+        {
+          "start": 4.89,
+          "end": 5.07,
+          "word": " tu",
+          "probability": 0.9999115467071533
+        },
+        {
+          "start": 5.07,
+          "end": 5.15,
+          "word": " ne",
+          "probability": 0.9998550415039062
+        },
+        {
+          "start": 5.15,
+          "end": 5.31,
+          "word": " sais",
+          "probability": 0.9997642636299133
+        },
+        {
+          "start": 5.31,
+          "end": 5.49,
+          "word": " pas",
+          "probability": 0.9999842643737793
+        },
+        {
+          "start": 5.49,
+          "end": 5.77,
+          "word": " encore",
+          "probability": 0.999966025352478
+        },
+        {
+          "start": 5.77,
+          "end": 5.99,
+          "word": " tout.",
+          "probability": 0.9970012307167053
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.41,
+      "end": 12.33,
+      "text": " Ton instinct de journaliste te dit que tu dois continuer à mener l'enquête avant de rencontrer Seigneur Rojenard.",
+      "tokens": [
+        50606,
+        11385,
+        16556,
+        368,
+        6708,
+        8375,
+        535,
+        6176,
+        631,
+        2604,
+        11854,
+        35660,
+        1531,
+        1706,
+        260,
+        287,
+        6,
+        268,
+        358,
+        12943,
+        13439,
+        368,
+        28038,
+        9797,
+        1100,
+        26341,
+        374,
+        3101,
+        73,
+        20062,
+        13,
+        50891
+      ],
+      "avg_logprob": -0.11369113892316818,
+      "compression_ratio": 1.2835820895522387,
+      "no_speech_prob": 5.858345492743e-12,
+      "words": [
+        {
+          "start": 6.41,
+          "end": 6.81,
+          "word": " Ton",
+          "probability": 0.9972516894340515
+        },
+        {
+          "start": 6.81,
+          "end": 7.23,
+          "word": " instinct",
+          "probability": 0.9994174242019653
+        },
+        {
+          "start": 7.23,
+          "end": 7.41,
+          "word": " de",
+          "probability": 0.999980092048645
+        },
+        {
+          "start": 7.41,
+          "end": 8.07,
+          "word": " journaliste",
+          "probability": 0.9998715221881866
+        },
+        {
+          "start": 8.07,
+          "end": 8.45,
+          "word": " te",
+          "probability": 0.9998354911804199
+        },
+        {
+          "start": 8.45,
+          "end": 8.59,
+          "word": " dit",
+          "probability": 0.9997896552085876
+        },
+        {
+          "start": 8.59,
+          "end": 8.73,
+          "word": " que",
+          "probability": 0.9999526739120483
+        },
+        {
+          "start": 8.73,
+          "end": 8.87,
+          "word": " tu",
+          "probability": 0.9999160766601562
+        },
+        {
+          "start": 8.87,
+          "end": 9.05,
+          "word": " dois",
+          "probability": 0.9994171857833862
+        },
+        {
+          "start": 9.05,
+          "end": 9.51,
+          "word": " continuer",
+          "probability": 0.9999041557312012
+        },
+        {
+          "start": 9.51,
+          "end": 9.81,
+          "word": " à",
+          "probability": 0.9997944235801697
+        },
+        {
+          "start": 9.81,
+          "end": 10.09,
+          "word": " mener",
+          "probability": 0.999911367893219
+        },
+        {
+          "start": 10.09,
+          "end": 10.19,
+          "word": " l",
+          "probability": 0.9999822378158569
+        },
+        {
+          "start": 10.19,
+          "end": 10.51,
+          "word": "'enquête",
+          "probability": 0.9997169375419617
+        },
+        {
+          "start": 10.51,
+          "end": 10.83,
+          "word": " avant",
+          "probability": 0.9997000694274902
+        },
+        {
+          "start": 10.83,
+          "end": 11.01,
+          "word": " de",
+          "probability": 0.99996018409729
+        },
+        {
+          "start": 11.01,
+          "end": 11.49,
+          "word": " rencontrer",
+          "probability": 0.9998971223831177
+        },
+        {
+          "start": 11.49,
+          "end": 11.93,
+          "word": " Seigneur",
+          "probability": 0.9226139982541403
+        },
+        {
+          "start": 11.93,
+          "end": 12.33,
+          "word": " Rojenard.",
+          "probability": 0.7520655989646912
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

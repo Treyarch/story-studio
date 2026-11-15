@@ -1,0 +1,55 @@
+{
+  "scene": "continuer_hist_modal",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/continuer_hist_modal.mp3",
+  "sha256": "438d4fb4fd95692c5b1187bf5ce14d703c769c7911f8d7bd490bdd96c7dec3c8",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.7251875,
+  "text": "Continuez l'aventure.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.34,
+      "text": " Continuez l'aventure.",
+      "tokens": [
+        50365,
+        24472,
+        89,
+        287,
+        6,
+        706,
+        317,
+        540,
+        13,
+        50433
+      ],
+      "avg_logprob": -0.22871499711816962,
+      "compression_ratio": 0.7241379310344828,
+      "no_speech_prob": 4.15134810208273e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.72,
+          "word": " Continuez",
+          "probability": 0.9297098219394684
+        },
+        {
+          "start": 0.72,
+          "end": 0.8,
+          "word": " l",
+          "probability": 0.9998247027397156
+        },
+        {
+          "start": 0.8,
+          "end": 1.34,
+          "word": "'aventure.",
+          "probability": 0.9992645680904388
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

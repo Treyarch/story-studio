@@ -1,0 +1,67 @@
+{
+  "scene": "B30_list_ch1_b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B30_list_ch1_b.mp3",
+  "sha256": "60a5533147a42d4221aae92d62102f2ecce34236bda6c4120a6928a8bb0cb720",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.033625,
+  "text": "Jeter un œil derrière toi.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.68,
+      "text": " Jeter un œil derrière toi.",
+      "tokens": [
+        50365,
+        508,
+        2398,
+        517,
+        48360,
+        388,
+        31465,
+        15648,
+        13,
+        50452
+      ],
+      "avg_logprob": -0.26329026980833575,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 5.62123047762042e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.66,
+          "word": " Jeter",
+          "probability": 0.7710030972957611
+        },
+        {
+          "start": 0.66,
+          "end": 0.86,
+          "word": " un",
+          "probability": 0.9998202919960022
+        },
+        {
+          "start": 0.86,
+          "end": 1.1,
+          "word": " œil",
+          "probability": 0.8826517760753632
+        },
+        {
+          "start": 1.1,
+          "end": 1.32,
+          "word": " derrière",
+          "probability": 0.9996784925460815
+        },
+        {
+          "start": 1.32,
+          "end": 1.68,
+          "word": " toi.",
+          "probability": 0.9994983673095703
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

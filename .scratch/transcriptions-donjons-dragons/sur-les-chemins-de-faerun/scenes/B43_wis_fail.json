@@ -1,0 +1,592 @@
+{
+  "scene": "B43_wis_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B43_wis_fail.mp3",
+  "sha256": "00d6052575628847541383692986e2f6e006f6dfb837fa6042194c1f7896ce07",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 27.6313125,
+  "text": "En prenant ton air le plus sérieux, tu dis au secrétaire que tu as un message pour le seigneur Feilund de la part de Dame Silverhand. Il te répond en ricanant. Ça m'étonnerait. Allez, maintenant, retourne dans le trou d'où tu viens avant que j'appelle la garde. Nous sommes débordés aujourd'hui, comme toujours. Je ne peux pas perdre mon temps avec de pareilles âneries.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.71,
+      "end": 9.99,
+      "text": " En prenant ton air le plus sérieux, tu dis au secrétaire que tu as un message pour le seigneur Feilund de la part de Dame Silverhand.",
+      "tokens": [
+        50365,
+        2193,
+        659,
+        25928,
+        2952,
+        1988,
+        476,
+        1804,
+        18416,
+        2449,
+        11,
+        2604,
+        717,
+        1609,
+        907,
+        10521,
+        1328,
+        621,
+        631,
+        2604,
+        382,
+        517,
+        3636,
+        2016,
+        476,
+        369,
+        26341,
+        374,
+        3697,
+        388,
+        997,
+        368,
+        635,
+        644,
+        368,
+        34447,
+        15861,
+        5543,
+        13,
+        50780
+      ],
+      "avg_logprob": -0.10807709672809702,
+      "compression_ratio": 1.4521072796934866,
+      "no_speech_prob": 8.276612034618935e-12,
+      "words": [
+        {
+          "start": 1.71,
+          "end": 2.21,
+          "word": " En",
+          "probability": 0.9838506579399109
+        },
+        {
+          "start": 2.21,
+          "end": 2.57,
+          "word": " prenant",
+          "probability": 0.9999082684516907
+        },
+        {
+          "start": 2.57,
+          "end": 2.77,
+          "word": " ton",
+          "probability": 0.9994738698005676
+        },
+        {
+          "start": 2.77,
+          "end": 3.01,
+          "word": " air",
+          "probability": 0.9917691946029663
+        },
+        {
+          "start": 3.01,
+          "end": 3.19,
+          "word": " le",
+          "probability": 0.99972003698349
+        },
+        {
+          "start": 3.19,
+          "end": 3.45,
+          "word": " plus",
+          "probability": 0.999975323677063
+        },
+        {
+          "start": 3.45,
+          "end": 3.91,
+          "word": " sérieux,",
+          "probability": 0.9998981058597565
+        },
+        {
+          "start": 4.11,
+          "end": 4.63,
+          "word": " tu",
+          "probability": 0.9995390176773071
+        },
+        {
+          "start": 4.63,
+          "end": 4.85,
+          "word": " dis",
+          "probability": 0.9997792840003967
+        },
+        {
+          "start": 4.85,
+          "end": 5.01,
+          "word": " au",
+          "probability": 0.996768593788147
+        },
+        {
+          "start": 5.01,
+          "end": 5.73,
+          "word": " secrétaire",
+          "probability": 0.9983457624912262
+        },
+        {
+          "start": 5.73,
+          "end": 5.95,
+          "word": " que",
+          "probability": 0.9998154044151306
+        },
+        {
+          "start": 5.95,
+          "end": 6.11,
+          "word": " tu",
+          "probability": 0.9999668598175049
+        },
+        {
+          "start": 6.11,
+          "end": 6.25,
+          "word": " as",
+          "probability": 0.9992582201957703
+        },
+        {
+          "start": 6.25,
+          "end": 6.39,
+          "word": " un",
+          "probability": 0.9999805688858032
+        },
+        {
+          "start": 6.39,
+          "end": 6.81,
+          "word": " message",
+          "probability": 0.9998291730880737
+        },
+        {
+          "start": 6.81,
+          "end": 7.07,
+          "word": " pour",
+          "probability": 0.9998831748962402
+        },
+        {
+          "start": 7.07,
+          "end": 7.23,
+          "word": " le",
+          "probability": 0.9996960163116455
+        },
+        {
+          "start": 7.23,
+          "end": 7.65,
+          "word": " seigneur",
+          "probability": 0.9557409286499023
+        },
+        {
+          "start": 7.65,
+          "end": 8.15,
+          "word": " Feilund",
+          "probability": 0.5825958947340647
+        },
+        {
+          "start": 8.15,
+          "end": 8.59,
+          "word": " de",
+          "probability": 0.9923325777053833
+        },
+        {
+          "start": 8.59,
+          "end": 8.75,
+          "word": " la",
+          "probability": 0.9999551773071289
+        },
+        {
+          "start": 8.75,
+          "end": 8.99,
+          "word": " part",
+          "probability": 0.9994840621948242
+        },
+        {
+          "start": 8.99,
+          "end": 9.15,
+          "word": " de",
+          "probability": 0.9994059801101685
+        },
+        {
+          "start": 9.15,
+          "end": 9.37,
+          "word": " Dame",
+          "probability": 0.9189708828926086
+        },
+        {
+          "start": 9.37,
+          "end": 9.99,
+          "word": " Silverhand.",
+          "probability": 0.8147581517696381
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 10.21,
+      "end": 11.73,
+      "text": " Il te répond en ricanant.",
+      "tokens": [
+        50804,
+        4416,
+        535,
+        26027,
+        465,
+        367,
+        8914,
+        394,
+        13,
+        50867
+      ],
+      "avg_logprob": -0.10807709672809702,
+      "compression_ratio": 1.4521072796934866,
+      "no_speech_prob": 8.276612034618935e-12,
+      "words": [
+        {
+          "start": 10.21,
+          "end": 10.63,
+          "word": " Il",
+          "probability": 0.9985162615776062
+        },
+        {
+          "start": 10.63,
+          "end": 10.77,
+          "word": " te",
+          "probability": 0.999967098236084
+        },
+        {
+          "start": 10.77,
+          "end": 11.11,
+          "word": " répond",
+          "probability": 0.9997138381004333
+        },
+        {
+          "start": 11.11,
+          "end": 11.29,
+          "word": " en",
+          "probability": 0.9993489384651184
+        },
+        {
+          "start": 11.29,
+          "end": 11.73,
+          "word": " ricanant.",
+          "probability": 0.9979473948478699
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 12.37,
+      "end": 18.61,
+      "text": " Ça m'étonnerait. Allez, maintenant, retourne dans le trou d'où tu viens avant que j'appelle la garde.",
+      "tokens": [
+        50900,
+        11527,
+        275,
+        6,
+        526,
+        1756,
+        1193,
+        1001,
+        13,
+        29616,
+        11,
+        14817,
+        11,
+        28873,
+        716,
+        2680,
+        476,
+        3455,
+        274,
+        6,
+        78,
+        5035,
+        2604,
+        36421,
+        13439,
+        631,
+        361,
+        6,
+        25543,
+        635,
+        47903,
+        13,
+        51210
+      ],
+      "avg_logprob": -0.10807709672809702,
+      "compression_ratio": 1.4521072796934866,
+      "no_speech_prob": 8.276612034618935e-12,
+      "words": [
+        {
+          "start": 12.37,
+          "end": 12.89,
+          "word": " Ça",
+          "probability": 0.879313051700592
+        },
+        {
+          "start": 12.89,
+          "end": 13.05,
+          "word": " m",
+          "probability": 0.9998400211334229
+        },
+        {
+          "start": 13.05,
+          "end": 13.65,
+          "word": "'étonnerait.",
+          "probability": 0.9995710849761963
+        },
+        {
+          "start": 14.15,
+          "end": 14.45,
+          "word": " Allez,",
+          "probability": 0.9911078214645386
+        },
+        {
+          "start": 14.87,
+          "end": 15.19,
+          "word": " maintenant,",
+          "probability": 0.9997208714485168
+        },
+        {
+          "start": 15.39,
+          "end": 15.93,
+          "word": " retourne",
+          "probability": 0.9993292391300201
+        },
+        {
+          "start": 15.93,
+          "end": 16.07,
+          "word": " dans",
+          "probability": 0.9999047517776489
+        },
+        {
+          "start": 16.07,
+          "end": 16.23,
+          "word": " le",
+          "probability": 0.9998656511306763
+        },
+        {
+          "start": 16.23,
+          "end": 16.45,
+          "word": " trou",
+          "probability": 0.9994645714759827
+        },
+        {
+          "start": 16.45,
+          "end": 16.55,
+          "word": " d",
+          "probability": 0.9994966983795166
+        },
+        {
+          "start": 16.55,
+          "end": 16.63,
+          "word": "'où",
+          "probability": 0.9981408516565958
+        },
+        {
+          "start": 16.63,
+          "end": 16.73,
+          "word": " tu",
+          "probability": 0.9999047517776489
+        },
+        {
+          "start": 16.73,
+          "end": 16.99,
+          "word": " viens",
+          "probability": 0.998932421207428
+        },
+        {
+          "start": 16.99,
+          "end": 17.31,
+          "word": " avant",
+          "probability": 0.9946144223213196
+        },
+        {
+          "start": 17.31,
+          "end": 17.51,
+          "word": " que",
+          "probability": 0.9999772310256958
+        },
+        {
+          "start": 17.51,
+          "end": 17.63,
+          "word": " j",
+          "probability": 0.9991600513458252
+        },
+        {
+          "start": 17.63,
+          "end": 17.89,
+          "word": "'appelle",
+          "probability": 0.9981152713298798
+        },
+        {
+          "start": 17.89,
+          "end": 18.15,
+          "word": " la",
+          "probability": 0.9997209906578064
+        },
+        {
+          "start": 18.15,
+          "end": 18.61,
+          "word": " garde.",
+          "probability": 0.9993550181388855
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 19.13,
+      "end": 25.99,
+      "text": " Nous sommes débordés aujourd'hui, comme toujours. Je ne peux pas perdre mon temps avec de pareilles âneries.",
+      "tokens": [
+        51257,
+        15343,
+        25232,
+        36529,
+        765,
+        2191,
+        14023,
+        6,
+        10556,
+        11,
+        5173,
+        11936,
+        13,
+        2588,
+        408,
+        14844,
+        1736,
+        46254,
+        1108,
+        8827,
+        4163,
+        368,
+        7448,
+        14835,
+        20621,
+        1193,
+        530,
+        13,
+        51578
+      ],
+      "avg_logprob": -0.10807709672809702,
+      "compression_ratio": 1.4521072796934866,
+      "no_speech_prob": 8.276612034618935e-12,
+      "words": [
+        {
+          "start": 19.13,
+          "end": 19.65,
+          "word": " Nous",
+          "probability": 0.9994286894798279
+        },
+        {
+          "start": 19.65,
+          "end": 19.93,
+          "word": " sommes",
+          "probability": 0.9996726512908936
+        },
+        {
+          "start": 19.93,
+          "end": 20.55,
+          "word": " débordés",
+          "probability": 0.9995265205701193
+        },
+        {
+          "start": 20.55,
+          "end": 20.73,
+          "word": " aujourd",
+          "probability": 0.9994056224822998
+        },
+        {
+          "start": 20.73,
+          "end": 21.05,
+          "word": "'hui,",
+          "probability": 0.9999769926071167
+        },
+        {
+          "start": 21.19,
+          "end": 21.31,
+          "word": " comme",
+          "probability": 0.9999253749847412
+        },
+        {
+          "start": 21.31,
+          "end": 21.69,
+          "word": " toujours.",
+          "probability": 0.9999579191207886
+        },
+        {
+          "start": 22.19,
+          "end": 22.65,
+          "word": " Je",
+          "probability": 0.9990229606628418
+        },
+        {
+          "start": 22.65,
+          "end": 22.77,
+          "word": " ne",
+          "probability": 0.999889612197876
+        },
+        {
+          "start": 22.77,
+          "end": 22.89,
+          "word": " peux",
+          "probability": 0.999729573726654
+        },
+        {
+          "start": 22.89,
+          "end": 23.03,
+          "word": " pas",
+          "probability": 0.9999767541885376
+        },
+        {
+          "start": 23.03,
+          "end": 23.33,
+          "word": " perdre",
+          "probability": 0.9998095631599426
+        },
+        {
+          "start": 23.33,
+          "end": 23.67,
+          "word": " mon",
+          "probability": 0.9995539784431458
+        },
+        {
+          "start": 23.67,
+          "end": 24.13,
+          "word": " temps",
+          "probability": 0.9998385906219482
+        },
+        {
+          "start": 24.13,
+          "end": 24.79,
+          "word": " avec",
+          "probability": 0.9955859184265137
+        },
+        {
+          "start": 24.79,
+          "end": 24.95,
+          "word": " de",
+          "probability": 0.9996370077133179
+        },
+        {
+          "start": 24.95,
+          "end": 25.45,
+          "word": " pareilles",
+          "probability": 0.9925111532211304
+        },
+        {
+          "start": 25.45,
+          "end": 25.99,
+          "word": " âneries.",
+          "probability": 0.9210637410481771
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "scene": "B38_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B38_list.mp3",
+  "sha256": "b52b2272816045b8613bf4dbbd730b2855465cb96ae72783fcfd3d8739d684d5",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.3465625,
+  "text": "Alors, que préfères-tu?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.08,
+      "text": " Alors, que préfères-tu?",
+      "tokens": [
+        50365,
+        9946,
+        11,
+        631,
+        31139,
+        13927,
+        12,
+        9179,
+        2506,
+        50483
+      ],
+      "avg_logprob": -0.23018612103028732,
+      "compression_ratio": 0.7647058823529411,
+      "no_speech_prob": 3.80280746128947e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.6,
+          "word": " Alors,",
+          "probability": 0.9453171491622925
+        },
+        {
+          "start": 0.84,
+          "end": 1.28,
+          "word": " que",
+          "probability": 0.9989944100379944
+        },
+        {
+          "start": 1.28,
+          "end": 1.68,
+          "word": " préfères",
+          "probability": 0.9963904917240143
+        },
+        {
+          "start": 1.68,
+          "end": 1.88,
+          "word": "-tu",
+          "probability": 0.9993633329868317
+        },
+        {
+          "start": 1.88,
+          "end": 2.08,
+          "word": "?",
+          "probability": 0.9963681697845459
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

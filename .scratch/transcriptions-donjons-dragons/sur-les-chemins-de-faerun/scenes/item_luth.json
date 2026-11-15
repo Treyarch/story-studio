@@ -1,0 +1,97 @@
+{
+  "scene": "item_luth",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_luth.mp3",
+  "sha256": "512fcd505ccc159c57b229378d7ba3c858a3beb17ddb89b6701978632ab0aaf9",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.1115,
+  "text": "Qu'est-ce que tu ferais sans musique?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.82,
+      "text": " Qu'est-ce que tu ferais sans musique?",
+      "tokens": [
+        50365,
+        2326,
+        6,
+        377,
+        12,
+        384,
+        631,
+        2604,
+        7202,
+        1527,
+        12177,
+        34108,
+        2506,
+        50471
+      ],
+      "avg_logprob": -0.17740577658017476,
+      "compression_ratio": 0.8636363636363636,
+      "no_speech_prob": 8.912567732444199e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.28,
+          "word": " Qu",
+          "probability": 0.7413142919540405
+        },
+        {
+          "start": 0.28,
+          "end": 0.36,
+          "word": "'est",
+          "probability": 0.9991922676563263
+        },
+        {
+          "start": 0.36,
+          "end": 0.42,
+          "word": "-ce",
+          "probability": 0.9932077825069427
+        },
+        {
+          "start": 0.42,
+          "end": 0.5,
+          "word": " que",
+          "probability": 0.9993302822113037
+        },
+        {
+          "start": 0.5,
+          "end": 0.62,
+          "word": " tu",
+          "probability": 0.999796450138092
+        },
+        {
+          "start": 0.62,
+          "end": 1.0,
+          "word": " ferais",
+          "probability": 0.9993111789226532
+        },
+        {
+          "start": 1.0,
+          "end": 1.22,
+          "word": " sans",
+          "probability": 0.9983068704605103
+        },
+        {
+          "start": 1.22,
+          "end": 1.58,
+          "word": " musique",
+          "probability": 0.9950528740882874
+        },
+        {
+          "start": 1.58,
+          "end": 1.82,
+          "word": "?",
+          "probability": 0.9913864135742188
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

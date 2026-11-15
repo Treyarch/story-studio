@@ -1,0 +1,95 @@
+{
+  "scene": "item_terre",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_terre.mp3",
+  "sha256": "e20697a144de7d86512d2e76a177773b02d2b7e0147035bbe22d918fc8d84e63",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.645375,
+  "text": "ta récompense pour avoir sauvé le bébé ours-hibou.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.24,
+      "text": " ta récompense pour avoir sauvé le bébé ours-hibou.",
+      "tokens": [
+        50365,
+        1846,
+        3960,
+        21541,
+        1288,
+        2016,
+        10853,
+        601,
+        9350,
+        526,
+        476,
+        15807,
+        27166,
+        11896,
+        897,
+        263,
+        13,
+        50528
+      ],
+      "avg_logprob": -0.20384843569052846,
+      "compression_ratio": 0.896551724137931,
+      "no_speech_prob": 3.964923441651669e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.28,
+          "word": " ta",
+          "probability": 0.5405855774879456
+        },
+        {
+          "start": 0.28,
+          "end": 1.04,
+          "word": " récompense",
+          "probability": 0.9998061458269755
+        },
+        {
+          "start": 1.04,
+          "end": 1.36,
+          "word": " pour",
+          "probability": 0.9990967512130737
+        },
+        {
+          "start": 1.36,
+          "end": 1.64,
+          "word": " avoir",
+          "probability": 0.9994499087333679
+        },
+        {
+          "start": 1.64,
+          "end": 2.08,
+          "word": " sauvé",
+          "probability": 0.9992974996566772
+        },
+        {
+          "start": 2.08,
+          "end": 2.22,
+          "word": " le",
+          "probability": 0.9996092915534973
+        },
+        {
+          "start": 2.22,
+          "end": 2.58,
+          "word": " bébé",
+          "probability": 0.9996746480464935
+        },
+        {
+          "start": 2.58,
+          "end": 3.24,
+          "word": " ours-hibou.",
+          "probability": 0.7910906871159872
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

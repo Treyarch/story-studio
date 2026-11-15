@@ -1,0 +1,83 @@
+{
+  "scene": "B52_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B52_list_ch1.mp3",
+  "sha256": "4adccdd2e5d1ea6723d5f1dcc78e31828c1a0a1e4e18a92184b737f2c91af71f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.0599375,
+  "text": "Tu t'assieds à leur table?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.54,
+      "text": " Tu t'assieds à leur table?",
+      "tokens": [
+        50365,
+        7836,
+        256,
+        6,
+        640,
+        1091,
+        82,
+        1531,
+        9580,
+        3199,
+        2506,
+        50465
+      ],
+      "avg_logprob": -0.19486365409997794,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 4.372376592731708e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.48,
+          "word": " Tu",
+          "probability": 0.7952646017074585
+        },
+        {
+          "start": 0.48,
+          "end": 0.62,
+          "word": " t",
+          "probability": 0.9992376565933228
+        },
+        {
+          "start": 0.62,
+          "end": 0.94,
+          "word": "'assieds",
+          "probability": 0.8897852748632431
+        },
+        {
+          "start": 0.94,
+          "end": 0.98,
+          "word": " à",
+          "probability": 0.9999278783798218
+        },
+        {
+          "start": 0.98,
+          "end": 1.1,
+          "word": " leur",
+          "probability": 0.991503119468689
+        },
+        {
+          "start": 1.1,
+          "end": 1.4,
+          "word": " table",
+          "probability": 0.9999469518661499
+        },
+        {
+          "start": 1.4,
+          "end": 1.54,
+          "word": "?",
+          "probability": 0.988902747631073
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

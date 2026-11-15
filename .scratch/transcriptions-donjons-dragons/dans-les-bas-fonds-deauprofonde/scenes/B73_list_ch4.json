@@ -1,0 +1,58 @@
+{
+  "scene": "B73_list_ch4",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B73_list_ch4.mp3",
+  "sha256": "f078228f31a5ab8b408fecc49ff4cc0f4f683009b83340f4837828879ab4365f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.959125,
+  "text": "Tu changes de forme.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.3,
+      "text": " Tu changes de forme.",
+      "tokens": [
+        50365,
+        7836,
+        2962,
+        368,
+        28670,
+        13,
+        50427
+      ],
+      "avg_logprob": -0.22733093425631523,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 5.151093961097697e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.5,
+          "word": " Tu",
+          "probability": 0.8662187457084656
+        },
+        {
+          "start": 0.5,
+          "end": 0.82,
+          "word": " changes",
+          "probability": 0.9911637306213379
+        },
+        {
+          "start": 0.82,
+          "end": 0.98,
+          "word": " de",
+          "probability": 0.9998687505722046
+        },
+        {
+          "start": 0.98,
+          "end": 1.3,
+          "word": " forme.",
+          "probability": 0.9968613386154175
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

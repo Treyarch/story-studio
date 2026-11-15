@@ -1,0 +1,71 @@
+{
+  "scene": "item_title_plume",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_title_plume.mp3",
+  "sha256": "470cdadca223e0329e291b4752894e10ffa6ace0e4da32a0486ab8a21b4ce130",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.47725,
+  "text": "Ta plume du bébé ours-hibou.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.08,
+      "text": " Ta plume du bébé ours-hibou.",
+      "tokens": [
+        50365,
+        6551,
+        499,
+        2540,
+        1581,
+        15807,
+        27166,
+        11896,
+        897,
+        263,
+        13,
+        50470
+      ],
+      "avg_logprob": -0.1861540124966548,
+      "compression_ratio": 0.8235294117647058,
+      "no_speech_prob": 5.0746845961513465e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.34,
+          "word": " Ta",
+          "probability": 0.6142508387565613
+        },
+        {
+          "start": 0.34,
+          "end": 0.76,
+          "word": " plume",
+          "probability": 0.9950769543647766
+        },
+        {
+          "start": 0.76,
+          "end": 1.08,
+          "word": " du",
+          "probability": 0.9961275458335876
+        },
+        {
+          "start": 1.08,
+          "end": 1.48,
+          "word": " bébé",
+          "probability": 0.998361349105835
+        },
+        {
+          "start": 1.48,
+          "end": 2.08,
+          "word": " ours-hibou.",
+          "probability": 0.8946682810783386
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

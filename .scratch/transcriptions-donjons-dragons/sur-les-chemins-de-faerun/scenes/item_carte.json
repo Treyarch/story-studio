@@ -1,0 +1,85 @@
+{
+  "scene": "item_carte",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_carte.mp3",
+  "sha256": "a5ac365e11d39f7cf6a1ee9a03682affbf380313d00709c172e69922c52416c5",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.1996875,
+  "text": "Shippé à un Zhentarim, bel exploit!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.14,
+      "text": " Shippé à un Zhentarim, bel exploit!",
+      "tokens": [
+        50365,
+        1160,
+        2488,
+        526,
+        1531,
+        517,
+        44091,
+        289,
+        332,
+        11,
+        989,
+        25924,
+        2298,
+        50526
+      ],
+      "avg_logprob": -0.4039333661397298,
+      "compression_ratio": 0.8222222222222222,
+      "no_speech_prob": 7.29820891220978e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.64,
+          "word": " Shippé",
+          "probability": 0.5927321215470632
+        },
+        {
+          "start": 0.64,
+          "end": 0.8,
+          "word": " à",
+          "probability": 0.8609331250190735
+        },
+        {
+          "start": 0.8,
+          "end": 0.96,
+          "word": " un",
+          "probability": 0.9993427395820618
+        },
+        {
+          "start": 0.96,
+          "end": 1.58,
+          "word": " Zhentarim,",
+          "probability": 0.75050088763237
+        },
+        {
+          "start": 2.06,
+          "end": 2.26,
+          "word": " bel",
+          "probability": 0.9951430559158325
+        },
+        {
+          "start": 2.26,
+          "end": 2.66,
+          "word": " exploit",
+          "probability": 0.9966810345649719
+        },
+        {
+          "start": 2.66,
+          "end": 3.14,
+          "word": "!",
+          "probability": 0.9519303441047668
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

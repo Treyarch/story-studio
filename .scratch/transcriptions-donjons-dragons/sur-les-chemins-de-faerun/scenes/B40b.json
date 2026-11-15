@@ -1,0 +1,399 @@
+{
+  "scene": "B40b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B40b.mp3",
+  "sha256": "23555a6f46ad6be960dad675c76916466f6839f15d5a7ba3670648b4873fe179",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 18.911,
+  "text": "Renaer intervient d'un ton joyeux. Allons, assez flatté ce sacripan, il est suffisamment vaniteux comme ça. Raconte-moi plutôt ce que tu as appris. Alors, tu leur marres ta journée, en veillant à être aussi précis et exhaustif que possible.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.88,
+      "end": 3.34,
+      "text": " Renaer intervient d'un ton joyeux.",
+      "tokens": [
+        50377,
+        12883,
+        1193,
+        728,
+        85,
+        1196,
+        274,
+        6,
+        409,
+        2952,
+        6258,
+        68,
+        2449,
+        13,
+        50486
+      ],
+      "avg_logprob": -0.1909784784540534,
+      "compression_ratio": 1.3423913043478262,
+      "no_speech_prob": 8.836294543290713e-12,
+      "words": [
+        {
+          "start": 0.88,
+          "end": 1.74,
+          "word": " Renaer",
+          "probability": 0.797031968832016
+        },
+        {
+          "start": 1.74,
+          "end": 2.44,
+          "word": " intervient",
+          "probability": 0.9996775984764099
+        },
+        {
+          "start": 2.44,
+          "end": 2.56,
+          "word": " d",
+          "probability": 0.802573561668396
+        },
+        {
+          "start": 2.56,
+          "end": 2.66,
+          "word": "'un",
+          "probability": 0.9999580383300781
+        },
+        {
+          "start": 2.66,
+          "end": 2.8,
+          "word": " ton",
+          "probability": 0.9978558421134949
+        },
+        {
+          "start": 2.8,
+          "end": 3.34,
+          "word": " joyeux.",
+          "probability": 0.9993746678034464
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.54,
+      "end": 8.06,
+      "text": " Allons, assez flatté ce sacripan, il est suffisamment vaniteux comme ça.",
+      "tokens": [
+        50502,
+        1057,
+        892,
+        11,
+        15774,
+        932,
+        1591,
+        526,
+        1769,
+        4899,
+        470,
+        6040,
+        11,
+        1930,
+        871,
+        3889,
+        271,
+        20619,
+        3161,
+        642,
+        2449,
+        5173,
+        2788,
+        13,
+        50726
+      ],
+      "avg_logprob": -0.1909784784540534,
+      "compression_ratio": 1.3423913043478262,
+      "no_speech_prob": 8.836294543290713e-12,
+      "words": [
+        {
+          "start": 3.54,
+          "end": 4.14,
+          "word": " Allons,",
+          "probability": 0.6363153457641602
+        },
+        {
+          "start": 4.48,
+          "end": 4.78,
+          "word": " assez",
+          "probability": 0.9865679740905762
+        },
+        {
+          "start": 4.78,
+          "end": 5.22,
+          "word": " flatté",
+          "probability": 0.9945063988367716
+        },
+        {
+          "start": 5.22,
+          "end": 5.36,
+          "word": " ce",
+          "probability": 0.973724901676178
+        },
+        {
+          "start": 5.36,
+          "end": 5.92,
+          "word": " sacripan,",
+          "probability": 0.7277305920918783
+        },
+        {
+          "start": 6.1,
+          "end": 6.42,
+          "word": " il",
+          "probability": 0.9996832609176636
+        },
+        {
+          "start": 6.42,
+          "end": 6.56,
+          "word": " est",
+          "probability": 0.9999810457229614
+        },
+        {
+          "start": 6.56,
+          "end": 7.16,
+          "word": " suffisamment",
+          "probability": 0.9999098181724548
+        },
+        {
+          "start": 7.16,
+          "end": 7.66,
+          "word": " vaniteux",
+          "probability": 0.9988329410552979
+        },
+        {
+          "start": 7.66,
+          "end": 7.84,
+          "word": " comme",
+          "probability": 0.9998192191123962
+        },
+        {
+          "start": 7.84,
+          "end": 8.06,
+          "word": " ça.",
+          "probability": 0.9998751878738403
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.48,
+      "end": 10.22,
+      "text": " Raconte-moi plutôt ce que tu as appris.",
+      "tokens": [
+        50751,
+        42033,
+        10219,
+        12,
+        29292,
+        20856,
+        1769,
+        631,
+        2604,
+        382,
+        724,
+        5714,
+        13,
+        50832
+      ],
+      "avg_logprob": -0.1909784784540534,
+      "compression_ratio": 1.3423913043478262,
+      "no_speech_prob": 8.836294543290713e-12,
+      "words": [
+        {
+          "start": 8.48,
+          "end": 8.92,
+          "word": " Raconte",
+          "probability": 0.9981780648231506
+        },
+        {
+          "start": 8.92,
+          "end": 9.06,
+          "word": "-moi",
+          "probability": 0.9980469644069672
+        },
+        {
+          "start": 9.06,
+          "end": 9.36,
+          "word": " plutôt",
+          "probability": 0.9954870343208313
+        },
+        {
+          "start": 9.36,
+          "end": 9.5,
+          "word": " ce",
+          "probability": 0.9997801184654236
+        },
+        {
+          "start": 9.5,
+          "end": 9.6,
+          "word": " que",
+          "probability": 0.999967098236084
+        },
+        {
+          "start": 9.6,
+          "end": 9.72,
+          "word": " tu",
+          "probability": 0.9999511241912842
+        },
+        {
+          "start": 9.72,
+          "end": 9.84,
+          "word": " as",
+          "probability": 0.9997381567955017
+        },
+        {
+          "start": 9.84,
+          "end": 10.22,
+          "word": " appris.",
+          "probability": 0.9996041059494019
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 10.74,
+      "end": 16.86,
+      "text": " Alors, tu leur marres ta journée, en veillant à être aussi précis et exhaustif que possible.",
+      "tokens": [
+        50865,
+        9946,
+        11,
+        2604,
+        9580,
+        1849,
+        495,
+        1846,
+        34277,
+        11,
+        465,
+        1241,
+        373,
+        394,
+        1531,
+        7418,
+        6212,
+        49436,
+        1030,
+        14687,
+        351,
+        631,
+        1944,
+        13,
+        51165
+      ],
+      "avg_logprob": -0.1909784784540534,
+      "compression_ratio": 1.3423913043478262,
+      "no_speech_prob": 8.836294543290713e-12,
+      "words": [
+        {
+          "start": 10.74,
+          "end": 11.26,
+          "word": " Alors,",
+          "probability": 0.99491947889328
+        },
+        {
+          "start": 11.62,
+          "end": 11.68,
+          "word": " tu",
+          "probability": 0.9872510433197021
+        },
+        {
+          "start": 11.68,
+          "end": 11.86,
+          "word": " leur",
+          "probability": 0.9327645301818848
+        },
+        {
+          "start": 11.86,
+          "end": 12.2,
+          "word": " marres",
+          "probability": 0.6850461512804031
+        },
+        {
+          "start": 12.2,
+          "end": 12.28,
+          "word": " ta",
+          "probability": 0.9992737174034119
+        },
+        {
+          "start": 12.28,
+          "end": 12.58,
+          "word": " journée,",
+          "probability": 0.9999139308929443
+        },
+        {
+          "start": 12.86,
+          "end": 13.28,
+          "word": " en",
+          "probability": 0.9997351765632629
+        },
+        {
+          "start": 13.28,
+          "end": 13.64,
+          "word": " veillant",
+          "probability": 0.9993739525477091
+        },
+        {
+          "start": 13.64,
+          "end": 13.9,
+          "word": " à",
+          "probability": 0.9998679161071777
+        },
+        {
+          "start": 13.9,
+          "end": 14.18,
+          "word": " être",
+          "probability": 0.9995180368423462
+        },
+        {
+          "start": 14.18,
+          "end": 14.5,
+          "word": " aussi",
+          "probability": 0.9990915060043335
+        },
+        {
+          "start": 14.5,
+          "end": 15.0,
+          "word": " précis",
+          "probability": 0.9992398023605347
+        },
+        {
+          "start": 15.0,
+          "end": 15.42,
+          "word": " et",
+          "probability": 0.9990247488021851
+        },
+        {
+          "start": 15.42,
+          "end": 16.26,
+          "word": " exhaustif",
+          "probability": 0.9815753102302551
+        },
+        {
+          "start": 16.26,
+          "end": 16.42,
+          "word": " que",
+          "probability": 0.9998416900634766
+        },
+        {
+          "start": 16.42,
+          "end": 16.86,
+          "word": " possible.",
+          "probability": 0.9999563694000244
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

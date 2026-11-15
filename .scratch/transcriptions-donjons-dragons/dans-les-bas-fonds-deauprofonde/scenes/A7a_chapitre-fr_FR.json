@@ -1,0 +1,60 @@
+{
+  "scene": "A7a_chapitre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A7a_chapitre-fr_FR.mp3",
+  "sha256": "b8caf1a0037000f432e78905b21f189331fb60ac74cfc6dc25c20810dd0587cc",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.2880625,
+  "text": "Une guilde de voleurs.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.65,
+      "text": " Une guilde de voleurs.",
+      "tokens": [
+        50365,
+        16701,
+        695,
+        15956,
+        368,
+        49877,
+        2156,
+        13,
+        50446
+      ],
+      "avg_logprob": -0.1588286429643631,
+      "compression_ratio": 0.7857142857142857,
+      "no_speech_prob": 4.66688536773785e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.59,
+          "word": " Une",
+          "probability": 0.759841799736023
+        },
+        {
+          "start": 0.59,
+          "end": 0.95,
+          "word": " guilde",
+          "probability": 0.961868405342102
+        },
+        {
+          "start": 0.95,
+          "end": 1.17,
+          "word": " de",
+          "probability": 0.9995077848434448
+        },
+        {
+          "start": 1.17,
+          "end": 1.65,
+          "word": " voleurs.",
+          "probability": 0.9994809925556183
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "scene": "B80_roublard_cha_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B80_roublard_cha_fail.mp3",
+  "sha256": "52f272d47fbabb8218c9ab99241332677ce54d5a46a949c600f110162adb044d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 14.5045625,
+  "text": "Il t'adresse un rictus méprisant parce que tu as l'effronterie d'essayer de me manipuler et que tu as lamentablement échoué. Tu vas payer.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.3,
+      "end": 10.22,
+      "text": " Il t'adresse un rictus méprisant parce que tu as l'effronterie d'essayer de me manipuler et que tu as lamentablement échoué.",
+      "tokens": [
+        50365,
+        4416,
+        256,
+        6,
+        345,
+        22603,
+        517,
+        367,
+        985,
+        301,
+        13191,
+        1424,
+        271,
+        394,
+        6992,
+        631,
+        2604,
+        382,
+        287,
+        6,
+        30774,
+        2044,
+        391,
+        414,
+        274,
+        6,
+        442,
+        11167,
+        368,
+        385,
+        9258,
+        26318,
+        1030,
+        631,
+        2604,
+        382,
+        35888,
+        712,
+        518,
+        39310,
+        263,
+        526,
+        13,
+        50813
+      ],
+      "avg_logprob": -0.14052998785879098,
+      "compression_ratio": 1.2260869565217392,
+      "no_speech_prob": 6.077111903979304e-12,
+      "words": [
+        {
+          "start": 1.3,
+          "end": 1.82,
+          "word": " Il",
+          "probability": 0.7851271629333496
+        },
+        {
+          "start": 1.82,
+          "end": 1.98,
+          "word": " t",
+          "probability": 0.9998584985733032
+        },
+        {
+          "start": 1.98,
+          "end": 2.4,
+          "word": "'adresse",
+          "probability": 0.9993538856506348
+        },
+        {
+          "start": 2.4,
+          "end": 2.7,
+          "word": " un",
+          "probability": 0.9169686436653137
+        },
+        {
+          "start": 2.7,
+          "end": 3.26,
+          "word": " rictus",
+          "probability": 0.9559434453646342
+        },
+        {
+          "start": 3.26,
+          "end": 4.04,
+          "word": " méprisant",
+          "probability": 0.9988932609558105
+        },
+        {
+          "start": 4.04,
+          "end": 4.5,
+          "word": " parce",
+          "probability": 0.22744598984718323
+        },
+        {
+          "start": 4.5,
+          "end": 4.72,
+          "word": " que",
+          "probability": 0.9999393224716187
+        },
+        {
+          "start": 4.72,
+          "end": 4.88,
+          "word": " tu",
+          "probability": 0.9998144507408142
+        },
+        {
+          "start": 4.88,
+          "end": 5.04,
+          "word": " as",
+          "probability": 0.9992571473121643
+        },
+        {
+          "start": 5.04,
+          "end": 5.14,
+          "word": " l",
+          "probability": 0.9994605183601379
+        },
+        {
+          "start": 5.14,
+          "end": 5.82,
+          "word": "'effronterie",
+          "probability": 0.9942720890045166
+        },
+        {
+          "start": 5.82,
+          "end": 5.9,
+          "word": " d",
+          "probability": 0.9995458722114563
+        },
+        {
+          "start": 5.9,
+          "end": 6.26,
+          "word": "'essayer",
+          "probability": 0.9996668895085653
+        },
+        {
+          "start": 6.26,
+          "end": 6.42,
+          "word": " de",
+          "probability": 0.9999555349349976
+        },
+        {
+          "start": 6.42,
+          "end": 6.62,
+          "word": " me",
+          "probability": 0.9997878670692444
+        },
+        {
+          "start": 6.62,
+          "end": 7.38,
+          "word": " manipuler",
+          "probability": 0.9998303949832916
+        },
+        {
+          "start": 7.38,
+          "end": 7.96,
+          "word": " et",
+          "probability": 0.9847419261932373
+        },
+        {
+          "start": 7.96,
+          "end": 8.08,
+          "word": " que",
+          "probability": 0.9999498128890991
+        },
+        {
+          "start": 8.08,
+          "end": 8.24,
+          "word": " tu",
+          "probability": 0.9999762773513794
+        },
+        {
+          "start": 8.24,
+          "end": 8.4,
+          "word": " as",
+          "probability": 0.9990150928497314
+        },
+        {
+          "start": 8.4,
+          "end": 9.64,
+          "word": " lamentablement",
+          "probability": 0.9998460610707601
+        },
+        {
+          "start": 9.64,
+          "end": 10.22,
+          "word": " échoué.",
+          "probability": 0.9992579221725464
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 10.86,
+      "end": 11.82,
+      "text": " Tu vas payer.",
+      "tokens": [
+        50853,
+        7836,
+        11481,
+        38230,
+        13,
+        50892
+      ],
+      "avg_logprob": -0.14052998785879098,
+      "compression_ratio": 1.2260869565217392,
+      "no_speech_prob": 6.077111903979304e-12,
+      "words": [
+        {
+          "start": 10.86,
+          "end": 11.18,
+          "word": " Tu",
+          "probability": 0.9925722479820251
+        },
+        {
+          "start": 11.18,
+          "end": 11.5,
+          "word": " vas",
+          "probability": 0.9330857396125793
+        },
+        {
+          "start": 11.5,
+          "end": 11.82,
+          "word": " payer.",
+          "probability": 0.9984326958656311
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

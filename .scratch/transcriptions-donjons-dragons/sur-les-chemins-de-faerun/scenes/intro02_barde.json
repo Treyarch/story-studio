@@ -1,0 +1,236 @@
+{
+  "scene": "intro02_barde",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/intro02_barde.mp3",
+  "sha256": "06342234b6e59b0da0954e99a7f0fc69143723535a7094b68ba50bd1284fe337",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 10.4315625,
+  "text": "C'est ton luth! Comment charmer ton public sans lui? Tu engrattes rapidement les cordes, puis le mets dans ton dos.",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.32,
+      "end": 3.82,
+      "text": " C'est ton luth!",
+      "tokens": [
+        50365,
+        383,
+        6,
+        377,
+        2952,
+        38319,
+        975,
+        2298,
+        50449
+      ],
+      "avg_logprob": -0.1535342778915014,
+      "compression_ratio": 1.2040816326530612,
+      "no_speech_prob": 7.114961831505839e-12,
+      "words": [
+        {
+          "start": 2.32,
+          "end": 2.72,
+          "word": " C",
+          "probability": 0.7289228439331055
+        },
+        {
+          "start": 2.72,
+          "end": 2.84,
+          "word": "'est",
+          "probability": 0.9997722208499908
+        },
+        {
+          "start": 2.84,
+          "end": 2.96,
+          "word": " ton",
+          "probability": 0.9985670447349548
+        },
+        {
+          "start": 2.96,
+          "end": 3.38,
+          "word": " lutte",
+          "probability": 0.9914848208427429
+        },
+        {
+          "start": 3.38,
+          "end": 3.82,
+          "word": "!",
+          "probability": 0.3641822338104248
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.82,
+      "end": 5.96,
+      "text": " Comment charmer ton public sans lui?",
+      "tokens": [
+        50449,
+        16328,
+        1290,
+        936,
+        2952,
+        1908,
+        12177,
+        8783,
+        2506,
+        50560
+      ],
+      "avg_logprob": -0.1535342778915014,
+      "compression_ratio": 1.2040816326530612,
+      "no_speech_prob": 7.114961831505839e-12,
+      "words": [
+        {
+          "start": 3.82,
+          "end": 4.24,
+          "word": " Comment",
+          "probability": 0.9960809350013733
+        },
+        {
+          "start": 4.24,
+          "end": 4.7,
+          "word": " charmer",
+          "probability": 0.993354320526123
+        },
+        {
+          "start": 4.7,
+          "end": 4.86,
+          "word": " ton",
+          "probability": 0.9990779161453247
+        },
+        {
+          "start": 4.86,
+          "end": 5.26,
+          "word": " public",
+          "probability": 0.9997994303703308
+        },
+        {
+          "start": 5.26,
+          "end": 5.46,
+          "word": " sans",
+          "probability": 0.9986187219619751
+        },
+        {
+          "start": 5.46,
+          "end": 5.66,
+          "word": " lui",
+          "probability": 0.9997614026069641
+        },
+        {
+          "start": 5.66,
+          "end": 5.96,
+          "word": "?",
+          "probability": 0.9848867058753967
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 5.96,
+      "end": 9.34,
+      "text": " Tu engrattes rapidement les cordes, puis le mets dans ton dos.",
+      "tokens": [
+        50560,
+        7836,
+        465,
+        861,
+        1591,
+        279,
+        37757,
+        1512,
+        12250,
+        279,
+        11,
+        9093,
+        476,
+        37231,
+        2680,
+        2952,
+        4491,
+        13,
+        50717
+      ],
+      "avg_logprob": -0.1535342778915014,
+      "compression_ratio": 1.2040816326530612,
+      "no_speech_prob": 7.114961831505839e-12,
+      "words": [
+        {
+          "start": 5.96,
+          "end": 6.38,
+          "word": " Tu",
+          "probability": 0.9942731261253357
+        },
+        {
+          "start": 6.38,
+          "end": 6.92,
+          "word": " engrattes",
+          "probability": 0.8688069581985474
+        },
+        {
+          "start": 6.92,
+          "end": 7.3,
+          "word": " rapidement",
+          "probability": 0.9984776377677917
+        },
+        {
+          "start": 7.3,
+          "end": 7.54,
+          "word": " les",
+          "probability": 0.999602735042572
+        },
+        {
+          "start": 7.54,
+          "end": 7.98,
+          "word": " cordes,",
+          "probability": 0.999853640794754
+        },
+        {
+          "start": 8.0,
+          "end": 8.46,
+          "word": " puis",
+          "probability": 0.9990721940994263
+        },
+        {
+          "start": 8.46,
+          "end": 8.64,
+          "word": " le",
+          "probability": 0.9993439316749573
+        },
+        {
+          "start": 8.64,
+          "end": 8.86,
+          "word": " mets",
+          "probability": 0.9950376152992249
+        },
+        {
+          "start": 8.86,
+          "end": 9.0,
+          "word": " dans",
+          "probability": 0.9997023940086365
+        },
+        {
+          "start": 9.0,
+          "end": 9.16,
+          "word": " ton",
+          "probability": 0.9998981952667236
+        },
+        {
+          "start": 9.16,
+          "end": 9.34,
+          "word": " dos.",
+          "probability": 0.9987629652023315
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

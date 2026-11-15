@@ -1,0 +1,67 @@
+{
+  "scene": "item_title_cylindre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_cylindre-fr_FR.mp3",
+  "sha256": "adb7f4b7034f814cd89356894c6731b288850ce3a24a359f849488d1d83b4b4f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.489125,
+  "text": "Un fin cylindre de métal.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.87,
+      "text": " Un fin cylindre de métal.",
+      "tokens": [
+        50365,
+        1156,
+        962,
+        28044,
+        265,
+        368,
+        20275,
+        304,
+        13,
+        50457
+      ],
+      "avg_logprob": -0.14004092324863782,
+      "compression_ratio": 0.7647058823529411,
+      "no_speech_prob": 6.370572038644218e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.59,
+          "word": " Un",
+          "probability": 0.6240351796150208
+        },
+        {
+          "start": 0.59,
+          "end": 0.77,
+          "word": " fin",
+          "probability": 0.9938790798187256
+        },
+        {
+          "start": 0.77,
+          "end": 1.33,
+          "word": " cylindre",
+          "probability": 0.999157726764679
+        },
+        {
+          "start": 1.33,
+          "end": 1.45,
+          "word": " de",
+          "probability": 0.9994262456893921
+        },
+        {
+          "start": 1.45,
+          "end": 1.87,
+          "word": " métal.",
+          "probability": 0.9996516406536102
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

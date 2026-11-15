@@ -1,0 +1,77 @@
+{
+  "scene": "B41b_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B41b_list.mp3",
+  "sha256": "bade2e662350c3d54993864ac86cb846afef0b288bbb65a5a2746ad0fac83d51",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.8828125,
+  "text": "Comment trouver le Seigneur Phylund?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.56,
+      "text": " Comment trouver le Seigneur Phylund?",
+      "tokens": [
+        50365,
+        16328,
+        23546,
+        476,
+        1100,
+        26341,
+        374,
+        2623,
+        5088,
+        997,
+        2506,
+        50509
+      ],
+      "avg_logprob": -0.42419471190525937,
+      "compression_ratio": 0.8222222222222222,
+      "no_speech_prob": 4.737065340681967e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.58,
+          "word": " Comment",
+          "probability": 0.9649804830551147
+        },
+        {
+          "start": 0.58,
+          "end": 1.02,
+          "word": " trouver",
+          "probability": 0.9915876984596252
+        },
+        {
+          "start": 1.02,
+          "end": 1.4,
+          "word": " le",
+          "probability": 0.99043208360672
+        },
+        {
+          "start": 1.4,
+          "end": 1.92,
+          "word": " Seigneur",
+          "probability": 0.8643849690755209
+        },
+        {
+          "start": 1.92,
+          "end": 2.44,
+          "word": " Phylund",
+          "probability": 0.5132899830738703
+        },
+        {
+          "start": 2.44,
+          "end": 2.56,
+          "word": "?",
+          "probability": 0.9806948900222778
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

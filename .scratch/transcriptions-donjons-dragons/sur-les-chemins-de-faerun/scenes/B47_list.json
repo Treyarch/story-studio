@@ -1,0 +1,83 @@
+{
+  "scene": "B47_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B47_list.mp3",
+  "sha256": "b69beff866d891acde0a60f1afdfc7edb03452a053f660acb7af216729d0f2e1",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.7789375,
+  "text": "Comment faire pour libérer l'Héral?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 2.38,
+      "text": " Comment faire pour libérer l'Héral?",
+      "tokens": [
+        50365,
+        16328,
+        4865,
+        2016,
+        22854,
+        21824,
+        287,
+        6,
+        39,
+        20596,
+        2506,
+        50503
+      ],
+      "avg_logprob": -0.281745589696444,
+      "compression_ratio": 0.8837209302325582,
+      "no_speech_prob": 4.221353301636643e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.58,
+          "word": " Comment",
+          "probability": 0.8947639465332031
+        },
+        {
+          "start": 0.58,
+          "end": 0.94,
+          "word": " faire",
+          "probability": 0.9997041821479797
+        },
+        {
+          "start": 0.94,
+          "end": 1.22,
+          "word": " pour",
+          "probability": 0.9996906518936157
+        },
+        {
+          "start": 1.22,
+          "end": 1.72,
+          "word": " libérer",
+          "probability": 0.9997617602348328
+        },
+        {
+          "start": 1.72,
+          "end": 1.88,
+          "word": " l",
+          "probability": 0.8968912959098816
+        },
+        {
+          "start": 1.88,
+          "end": 2.18,
+          "word": "'Héral",
+          "probability": 0.7886646290620168
+        },
+        {
+          "start": 2.18,
+          "end": 2.38,
+          "word": "?",
+          "probability": 0.9862039089202881
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

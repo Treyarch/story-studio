@@ -1,0 +1,399 @@
+{
+  "scene": "A9a_dex_fail_wis_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A9a_dex_fail_wis_fail.mp3",
+  "sha256": "f4cf2cbc28208c19571689f8fdbc91ed4ef93c9b477e9f6acda2c95193bb5b91",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 16.708125,
+  "text": "Ton cœur bat trop fort pour que tu puisses réfléchir. Sur le point de renoncer, tu entends son rire juste devant toi. Tu lèves les yeux. Debout dans la rue, elle te fait signe. Dépêche-toi, tu vas rater le meilleur!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.72,
+      "end": 3.54,
+      "text": " Ton cœur bat trop fort pour que tu puisses réfléchir.",
+      "tokens": [
+        50365,
+        11385,
+        43207,
+        7362,
+        9006,
+        5009,
+        2016,
+        631,
+        2604,
+        2362,
+        40487,
+        48438,
+        30606,
+        347,
+        13,
+        50506
+      ],
+      "avg_logprob": -0.14718145373705271,
+      "compression_ratio": 1.3058823529411765,
+      "no_speech_prob": 6.0782858780916715e-12,
+      "words": [
+        {
+          "start": 0.72,
+          "end": 1.2,
+          "word": " Ton",
+          "probability": 0.9803462028503418
+        },
+        {
+          "start": 1.2,
+          "end": 1.48,
+          "word": " cœur",
+          "probability": 0.9151675701141357
+        },
+        {
+          "start": 1.48,
+          "end": 1.64,
+          "word": " bat",
+          "probability": 0.9966554641723633
+        },
+        {
+          "start": 1.64,
+          "end": 1.86,
+          "word": " trop",
+          "probability": 0.9999191761016846
+        },
+        {
+          "start": 1.86,
+          "end": 2.14,
+          "word": " fort",
+          "probability": 0.9999336004257202
+        },
+        {
+          "start": 2.14,
+          "end": 2.32,
+          "word": " pour",
+          "probability": 0.9991965889930725
+        },
+        {
+          "start": 2.32,
+          "end": 2.48,
+          "word": " que",
+          "probability": 0.9999035596847534
+        },
+        {
+          "start": 2.48,
+          "end": 2.6,
+          "word": " tu",
+          "probability": 0.9999178647994995
+        },
+        {
+          "start": 2.6,
+          "end": 2.88,
+          "word": " puisses",
+          "probability": 0.9987037479877472
+        },
+        {
+          "start": 2.88,
+          "end": 3.54,
+          "word": " réfléchir.",
+          "probability": 0.9998945593833923
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.96,
+      "end": 8.24,
+      "text": " Sur le point de renoncer, tu entends son rire juste devant toi.",
+      "tokens": [
+        50546,
+        6732,
+        476,
+        935,
+        368,
+        8124,
+        266,
+        1776,
+        11,
+        2604,
+        948,
+        2581,
+        1872,
+        367,
+        621,
+        13016,
+        28982,
+        15648,
+        13,
+        50742
+      ],
+      "avg_logprob": -0.14718145373705271,
+      "compression_ratio": 1.3058823529411765,
+      "no_speech_prob": 6.0782858780916715e-12,
+      "words": [
+        {
+          "start": 3.96,
+          "end": 4.48,
+          "word": " Sur",
+          "probability": 0.9994865655899048
+        },
+        {
+          "start": 4.48,
+          "end": 4.62,
+          "word": " le",
+          "probability": 0.9999414682388306
+        },
+        {
+          "start": 4.62,
+          "end": 4.82,
+          "word": " point",
+          "probability": 0.9997521042823792
+        },
+        {
+          "start": 4.82,
+          "end": 4.96,
+          "word": " de",
+          "probability": 0.9999785423278809
+        },
+        {
+          "start": 4.96,
+          "end": 5.42,
+          "word": " renoncer,",
+          "probability": 0.9988993803660074
+        },
+        {
+          "start": 5.82,
+          "end": 6.32,
+          "word": " tu",
+          "probability": 0.9993802309036255
+        },
+        {
+          "start": 6.32,
+          "end": 6.7,
+          "word": " entends",
+          "probability": 0.9955874979496002
+        },
+        {
+          "start": 6.7,
+          "end": 6.9,
+          "word": " son",
+          "probability": 0.9994749426841736
+        },
+        {
+          "start": 6.9,
+          "end": 7.18,
+          "word": " rire",
+          "probability": 0.9996373951435089
+        },
+        {
+          "start": 7.18,
+          "end": 7.66,
+          "word": " juste",
+          "probability": 0.999225378036499
+        },
+        {
+          "start": 7.66,
+          "end": 7.98,
+          "word": " devant",
+          "probability": 0.999961256980896
+        },
+        {
+          "start": 7.98,
+          "end": 8.24,
+          "word": " toi.",
+          "probability": 0.9998288154602051
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.6,
+      "end": 12.2,
+      "text": " Tu lèves les yeux. Debout dans la rue, elle te fait signe.",
+      "tokens": [
+        50779,
+        7836,
+        287,
+        1462,
+        977,
+        1512,
+        36163,
+        13,
+        27347,
+        346,
+        2680,
+        635,
+        43919,
+        11,
+        8404,
+        535,
+        3887,
+        4556,
+        716,
+        13,
+        50939
+      ],
+      "avg_logprob": -0.14718145373705271,
+      "compression_ratio": 1.3058823529411765,
+      "no_speech_prob": 6.0782858780916715e-12,
+      "words": [
+        {
+          "start": 8.6,
+          "end": 9.12,
+          "word": " Tu",
+          "probability": 0.9993477463722229
+        },
+        {
+          "start": 9.12,
+          "end": 9.38,
+          "word": " lèves",
+          "probability": 0.9994876583417257
+        },
+        {
+          "start": 9.38,
+          "end": 9.5,
+          "word": " les",
+          "probability": 0.9999524354934692
+        },
+        {
+          "start": 9.5,
+          "end": 9.72,
+          "word": " yeux.",
+          "probability": 0.9999799728393555
+        },
+        {
+          "start": 10.12,
+          "end": 10.64,
+          "word": " Debout",
+          "probability": 0.994449645280838
+        },
+        {
+          "start": 10.64,
+          "end": 10.74,
+          "word": " dans",
+          "probability": 0.9997969269752502
+        },
+        {
+          "start": 10.74,
+          "end": 10.88,
+          "word": " la",
+          "probability": 0.9999380111694336
+        },
+        {
+          "start": 10.88,
+          "end": 11.06,
+          "word": " rue,",
+          "probability": 0.9999589920043945
+        },
+        {
+          "start": 11.36,
+          "end": 11.46,
+          "word": " elle",
+          "probability": 0.9989919066429138
+        },
+        {
+          "start": 11.46,
+          "end": 11.6,
+          "word": " te",
+          "probability": 0.9999387264251709
+        },
+        {
+          "start": 11.6,
+          "end": 11.8,
+          "word": " fait",
+          "probability": 0.9945518374443054
+        },
+        {
+          "start": 11.8,
+          "end": 12.2,
+          "word": " signe.",
+          "probability": 0.9968574047088623
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.4,
+      "end": 14.84,
+      "text": " Dépêche-toi, tu vas rater le meilleur!",
+      "tokens": [
+        50954,
+        413,
+        16171,
+        1307,
+        1876,
+        12,
+        49222,
+        11,
+        2604,
+        11481,
+        367,
+        771,
+        476,
+        41457,
+        2298,
+        51065
+      ],
+      "avg_logprob": -0.14718145373705271,
+      "compression_ratio": 1.3058823529411765,
+      "no_speech_prob": 6.0782858780916715e-12,
+      "words": [
+        {
+          "start": 12.4,
+          "end": 12.88,
+          "word": " Dépêche",
+          "probability": 0.9914560616016388
+        },
+        {
+          "start": 12.88,
+          "end": 13.08,
+          "word": "-toi,",
+          "probability": 0.9991205036640167
+        },
+        {
+          "start": 13.54,
+          "end": 13.64,
+          "word": " tu",
+          "probability": 0.9995781779289246
+        },
+        {
+          "start": 13.64,
+          "end": 13.78,
+          "word": " vas",
+          "probability": 0.9992374181747437
+        },
+        {
+          "start": 13.78,
+          "end": 14.0,
+          "word": " rater",
+          "probability": 0.9986951649188995
+        },
+        {
+          "start": 14.0,
+          "end": 14.14,
+          "word": " le",
+          "probability": 0.9997919201850891
+        },
+        {
+          "start": 14.14,
+          "end": 14.46,
+          "word": " meilleur",
+          "probability": 0.9998432397842407
+        },
+        {
+          "start": 14.46,
+          "end": 14.84,
+          "word": "!",
+          "probability": 0.5012920498847961
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

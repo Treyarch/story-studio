@@ -1,0 +1,766 @@
+{
+  "scene": "A10.1_roublard",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A10.1_roublard.mp3",
+  "sha256": "ed1af5d32fdd27295164fc8d7b7b4f11501ae73b7417851f22a85dc53f836b84",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 29.3909375,
+  "text": "Tu te jettes derrière un tonneau qui t'enveloppe de son ombre. L'agent peste en approchant de l'endroit où tu viens de disparaître, mais tu es bien camouflé. Alors qu'il se penche pour t'attraper, tu fais le tour du tonneau, suivant discrètement chacun de ses mouvements. Frustré, l'agent s'agenouille et scrute l'obscurité derrière le tonneau, certain que c'est là que tu te caches. Tu en profites pour filer en douce.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.14,
+      "end": 3.98,
+      "text": " Tu te jettes derrière un tonneau qui t'enveloppe de son ombre.",
+      "tokens": [
+        50365,
+        7836,
+        535,
+        361,
+        16049,
+        31465,
+        517,
+        2952,
+        716,
+        1459,
+        1956,
+        256,
+        6,
+        268,
+        1388,
+        494,
+        368,
+        1872,
+        277,
+        20014,
+        13,
+        50507
+      ],
+      "avg_logprob": -0.10173261935185444,
+      "compression_ratio": 1.5563636363636364,
+      "no_speech_prob": 6.546989079342369e-12,
+      "words": [
+        {
+          "start": 1.14,
+          "end": 1.54,
+          "word": " Tu",
+          "probability": 0.9195565581321716
+        },
+        {
+          "start": 1.54,
+          "end": 1.7,
+          "word": " te",
+          "probability": 0.999471127986908
+        },
+        {
+          "start": 1.7,
+          "end": 1.98,
+          "word": " jettes",
+          "probability": 0.9965243339538574
+        },
+        {
+          "start": 1.98,
+          "end": 2.2,
+          "word": " derrière",
+          "probability": 0.9997885823249817
+        },
+        {
+          "start": 2.2,
+          "end": 2.46,
+          "word": " un",
+          "probability": 0.9999229907989502
+        },
+        {
+          "start": 2.46,
+          "end": 2.72,
+          "word": " tonneau",
+          "probability": 0.997739831606547
+        },
+        {
+          "start": 2.72,
+          "end": 2.92,
+          "word": " qui",
+          "probability": 0.9976855516433716
+        },
+        {
+          "start": 2.92,
+          "end": 3.06,
+          "word": " t",
+          "probability": 0.9995477795600891
+        },
+        {
+          "start": 3.06,
+          "end": 3.4,
+          "word": "'enveloppe",
+          "probability": 0.9995449632406235
+        },
+        {
+          "start": 3.4,
+          "end": 3.52,
+          "word": " de",
+          "probability": 0.9997021555900574
+        },
+        {
+          "start": 3.52,
+          "end": 3.7,
+          "word": " son",
+          "probability": 0.9999003410339355
+        },
+        {
+          "start": 3.7,
+          "end": 3.98,
+          "word": " ombre.",
+          "probability": 0.9973148107528687
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.44,
+      "end": 7.96,
+      "text": " L'agent peste en approchant de l'endroit où tu viens de disparaître,",
+      "tokens": [
+        50544,
+        441,
+        6,
+        559,
+        317,
+        280,
+        8887,
+        465,
+        2075,
+        24628,
+        368,
+        287,
+        6,
+        521,
+        15772,
+        9068,
+        2604,
+        36421,
+        368,
+        14548,
+        64,
+        25011,
+        11,
+        50706
+      ],
+      "avg_logprob": -0.10173261935185444,
+      "compression_ratio": 1.5563636363636364,
+      "no_speech_prob": 6.546989079342369e-12,
+      "words": [
+        {
+          "start": 4.44,
+          "end": 4.82,
+          "word": " L",
+          "probability": 0.9922278523445129
+        },
+        {
+          "start": 4.82,
+          "end": 5.1,
+          "word": "'agent",
+          "probability": 0.9932835300763448
+        },
+        {
+          "start": 5.1,
+          "end": 5.46,
+          "word": " peste",
+          "probability": 0.9982133209705353
+        },
+        {
+          "start": 5.46,
+          "end": 5.7,
+          "word": " en",
+          "probability": 0.9995325803756714
+        },
+        {
+          "start": 5.7,
+          "end": 6.26,
+          "word": " approchant",
+          "probability": 0.9991112351417542
+        },
+        {
+          "start": 6.26,
+          "end": 6.4,
+          "word": " de",
+          "probability": 0.9998002648353577
+        },
+        {
+          "start": 6.4,
+          "end": 6.5,
+          "word": " l",
+          "probability": 0.9999682903289795
+        },
+        {
+          "start": 6.5,
+          "end": 6.74,
+          "word": "'endroit",
+          "probability": 0.9998015364011129
+        },
+        {
+          "start": 6.74,
+          "end": 6.88,
+          "word": " où",
+          "probability": 0.9981253743171692
+        },
+        {
+          "start": 6.88,
+          "end": 7.02,
+          "word": " tu",
+          "probability": 0.9999610185623169
+        },
+        {
+          "start": 7.02,
+          "end": 7.22,
+          "word": " viens",
+          "probability": 0.9994823932647705
+        },
+        {
+          "start": 7.22,
+          "end": 7.34,
+          "word": " de",
+          "probability": 0.9999704360961914
+        },
+        {
+          "start": 7.34,
+          "end": 7.96,
+          "word": " disparaître,",
+          "probability": 0.9995204408963522
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.1,
+      "end": 9.7,
+      "text": " mais tu es bien camouflé.",
+      "tokens": [
+        50732,
+        2420,
+        2604,
+        785,
+        3610,
+        39491,
+        526,
+        13,
+        50794
+      ],
+      "avg_logprob": -0.10173261935185444,
+      "compression_ratio": 1.5563636363636364,
+      "no_speech_prob": 6.546989079342369e-12,
+      "words": [
+        {
+          "start": 8.1,
+          "end": 8.6,
+          "word": " mais",
+          "probability": 0.9996660947799683
+        },
+        {
+          "start": 8.6,
+          "end": 8.78,
+          "word": " tu",
+          "probability": 0.9998507499694824
+        },
+        {
+          "start": 8.78,
+          "end": 8.9,
+          "word": " es",
+          "probability": 0.9994346499443054
+        },
+        {
+          "start": 8.9,
+          "end": 9.16,
+          "word": " bien",
+          "probability": 0.9999233484268188
+        },
+        {
+          "start": 9.16,
+          "end": 9.7,
+          "word": " camouflé.",
+          "probability": 0.9943773150444031
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 10.34,
+      "end": 12.22,
+      "text": " Alors qu'il se penche pour t'attraper,",
+      "tokens": [
+        50837,
+        9946,
+        421,
+        6,
+        388,
+        369,
+        3435,
+        1876,
+        2016,
+        256,
+        6,
+        1591,
+        424,
+        610,
+        11,
+        50920
+      ],
+      "avg_logprob": -0.10173261935185444,
+      "compression_ratio": 1.5563636363636364,
+      "no_speech_prob": 6.546989079342369e-12,
+      "words": [
+        {
+          "start": 10.34,
+          "end": 10.82,
+          "word": " Alors",
+          "probability": 0.9995021820068359
+        },
+        {
+          "start": 10.82,
+          "end": 11.02,
+          "word": " qu",
+          "probability": 0.9999662637710571
+        },
+        {
+          "start": 11.02,
+          "end": 11.1,
+          "word": "'il",
+          "probability": 0.9952508211135864
+        },
+        {
+          "start": 11.1,
+          "end": 11.26,
+          "word": " se",
+          "probability": 0.9999585151672363
+        },
+        {
+          "start": 11.26,
+          "end": 11.58,
+          "word": " penche",
+          "probability": 0.9997214376926422
+        },
+        {
+          "start": 11.58,
+          "end": 11.74,
+          "word": " pour",
+          "probability": 0.9999197721481323
+        },
+        {
+          "start": 11.74,
+          "end": 11.86,
+          "word": " t",
+          "probability": 0.9997773766517639
+        },
+        {
+          "start": 11.86,
+          "end": 12.22,
+          "word": "'attraper,",
+          "probability": 0.9996811300516129
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 12.62,
+      "end": 13.96,
+      "text": " tu fais le tour du tonneau,",
+      "tokens": [
+        50942,
+        2604,
+        12153,
+        476,
+        3512,
+        1581,
+        2952,
+        716,
+        1459,
+        11,
+        51006
+      ],
+      "avg_logprob": -0.10173261935185444,
+      "compression_ratio": 1.5563636363636364,
+      "no_speech_prob": 6.546989079342369e-12,
+      "words": [
+        {
+          "start": 12.62,
+          "end": 12.78,
+          "word": " tu",
+          "probability": 0.999415397644043
+        },
+        {
+          "start": 12.78,
+          "end": 12.98,
+          "word": " fais",
+          "probability": 0.9979546070098877
+        },
+        {
+          "start": 12.98,
+          "end": 13.16,
+          "word": " le",
+          "probability": 0.9999097585678101
+        },
+        {
+          "start": 13.16,
+          "end": 13.44,
+          "word": " tour",
+          "probability": 0.9993923902511597
+        },
+        {
+          "start": 13.44,
+          "end": 13.6,
+          "word": " du",
+          "probability": 0.9997592568397522
+        },
+        {
+          "start": 13.6,
+          "end": 13.96,
+          "word": " tonneau,",
+          "probability": 0.9998101790746053
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 14.14,
+      "end": 16.7,
+      "text": " suivant discrètement chacun de ses mouvements.",
+      "tokens": [
+        51025,
+        20751,
+        394,
+        2983,
+        81,
+        27236,
+        42241,
+        368,
+        5385,
+        33415,
+        1117,
+        13,
+        51143
+      ],
+      "avg_logprob": -0.10173261935185444,
+      "compression_ratio": 1.5563636363636364,
+      "no_speech_prob": 6.546989079342369e-12,
+      "words": [
+        {
+          "start": 14.14,
+          "end": 14.74,
+          "word": " suivant",
+          "probability": 0.9998328983783722
+        },
+        {
+          "start": 14.74,
+          "end": 15.42,
+          "word": " discrètement",
+          "probability": 0.9994759559631348
+        },
+        {
+          "start": 15.42,
+          "end": 15.92,
+          "word": " chacun",
+          "probability": 0.9987848401069641
+        },
+        {
+          "start": 15.92,
+          "end": 16.14,
+          "word": " de",
+          "probability": 0.9984444975852966
+        },
+        {
+          "start": 16.14,
+          "end": 16.3,
+          "word": " ses",
+          "probability": 0.9489596486091614
+        },
+        {
+          "start": 16.3,
+          "end": 16.7,
+          "word": " mouvements.",
+          "probability": 0.9996220171451569
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 17.74,
+      "end": 22.2,
+      "text": " Frustré, l'agent s'agenouille et scrute l'obscurité derrière le tonneau,",
+      "tokens": [
+        51201,
+        1526,
+        381,
+        10521,
+        11,
+        287,
+        6,
+        559,
+        317,
+        262,
+        6,
+        4698,
+        263,
+        3409,
+        1030,
+        5918,
+        1169,
+        287,
+        6,
+        16537,
+        14112,
+        5066,
+        31465,
+        476,
+        2952,
+        716,
+        1459,
+        11,
+        51418
+      ],
+      "avg_logprob": -0.10173261935185444,
+      "compression_ratio": 1.5563636363636364,
+      "no_speech_prob": 6.546989079342369e-12,
+      "words": [
+        {
+          "start": 17.74,
+          "end": 18.26,
+          "word": " Frustré,",
+          "probability": 0.9972132245699564
+        },
+        {
+          "start": 18.56,
+          "end": 18.96,
+          "word": " l",
+          "probability": 0.9984534978866577
+        },
+        {
+          "start": 18.96,
+          "end": 19.26,
+          "word": "'agent",
+          "probability": 0.9989999334017435
+        },
+        {
+          "start": 19.26,
+          "end": 19.42,
+          "word": " s",
+          "probability": 0.9998840093612671
+        },
+        {
+          "start": 19.42,
+          "end": 19.92,
+          "word": "'agenouille",
+          "probability": 0.9985948950052261
+        },
+        {
+          "start": 19.92,
+          "end": 20.22,
+          "word": " et",
+          "probability": 0.9995885491371155
+        },
+        {
+          "start": 20.22,
+          "end": 20.6,
+          "word": " scrute",
+          "probability": 0.995718389749527
+        },
+        {
+          "start": 20.6,
+          "end": 20.72,
+          "word": " l",
+          "probability": 0.9999079704284668
+        },
+        {
+          "start": 20.72,
+          "end": 21.3,
+          "word": "'obscurité",
+          "probability": 0.9998711347579956
+        },
+        {
+          "start": 21.3,
+          "end": 21.6,
+          "word": " derrière",
+          "probability": 0.999427855014801
+        },
+        {
+          "start": 21.6,
+          "end": 21.86,
+          "word": " le",
+          "probability": 0.9996395111083984
+        },
+        {
+          "start": 21.86,
+          "end": 22.2,
+          "word": " tonneau,",
+          "probability": 0.9999174873034159
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 22.62,
+      "end": 24.16,
+      "text": " certain que c'est là que tu te caches.",
+      "tokens": [
+        51438,
+        1629,
+        631,
+        269,
+        6,
+        377,
+        3684,
+        631,
+        2604,
+        535,
+        269,
+        13272,
+        13,
+        51516
+      ],
+      "avg_logprob": -0.10173261935185444,
+      "compression_ratio": 1.5563636363636364,
+      "no_speech_prob": 6.546989079342369e-12,
+      "words": [
+        {
+          "start": 22.62,
+          "end": 22.84,
+          "word": " certain",
+          "probability": 0.9965446591377258
+        },
+        {
+          "start": 22.84,
+          "end": 23.06,
+          "word": " que",
+          "probability": 0.9998074173927307
+        },
+        {
+          "start": 23.06,
+          "end": 23.2,
+          "word": " c",
+          "probability": 0.9999277591705322
+        },
+        {
+          "start": 23.2,
+          "end": 23.26,
+          "word": "'est",
+          "probability": 0.9999977946281433
+        },
+        {
+          "start": 23.26,
+          "end": 23.4,
+          "word": " là",
+          "probability": 0.9998096823692322
+        },
+        {
+          "start": 23.4,
+          "end": 23.54,
+          "word": " que",
+          "probability": 0.9997850060462952
+        },
+        {
+          "start": 23.54,
+          "end": 23.68,
+          "word": " tu",
+          "probability": 0.9999020099639893
+        },
+        {
+          "start": 23.68,
+          "end": 23.82,
+          "word": " te",
+          "probability": 0.9997648596763611
+        },
+        {
+          "start": 23.82,
+          "end": 24.16,
+          "word": " caches.",
+          "probability": 0.9797428846359253
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 24.66,
+      "end": 27.02,
+      "text": " Tu en profites pour filer en douce.",
+      "tokens": [
+        51553,
+        7836,
+        465,
+        1740,
+        3324,
+        2016,
+        1387,
+        260,
+        465,
+        2482,
+        384,
+        13,
+        51660
+      ],
+      "avg_logprob": -0.10173261935185444,
+      "compression_ratio": 1.5563636363636364,
+      "no_speech_prob": 6.546989079342369e-12,
+      "words": [
+        {
+          "start": 24.66,
+          "end": 25.18,
+          "word": " Tu",
+          "probability": 0.9988775849342346
+        },
+        {
+          "start": 25.18,
+          "end": 25.36,
+          "word": " en",
+          "probability": 0.9998785257339478
+        },
+        {
+          "start": 25.36,
+          "end": 25.84,
+          "word": " profites",
+          "probability": 0.9341009855270386
+        },
+        {
+          "start": 25.84,
+          "end": 26.22,
+          "word": " pour",
+          "probability": 0.9982048273086548
+        },
+        {
+          "start": 26.22,
+          "end": 26.6,
+          "word": " filer",
+          "probability": 0.9974862337112427
+        },
+        {
+          "start": 26.6,
+          "end": 26.74,
+          "word": " en",
+          "probability": 0.9997851252555847
+        },
+        {
+          "start": 26.74,
+          "end": 27.02,
+          "word": " douce.",
+          "probability": 0.9977160692214966
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

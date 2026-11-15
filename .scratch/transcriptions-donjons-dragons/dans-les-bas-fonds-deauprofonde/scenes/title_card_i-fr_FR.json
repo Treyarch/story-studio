@@ -1,0 +1,51 @@
+{
+  "scene": "title_card_i-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/title_card_i-fr_FR.mp3",
+  "sha256": "88c26360b72998c97f7bbe7472fb9bdc6eb30267031d66b6099c0bcf3d661c4a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.0558125,
+  "text": "Reporter en herbe",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.11,
+      "end": 1.45,
+      "text": " Reporter en herbe",
+      "tokens": [
+        50365,
+        26520,
+        465,
+        720,
+        650,
+        50433
+      ],
+      "avg_logprob": -0.21884396246501378,
+      "compression_ratio": 0.68,
+      "no_speech_prob": 4.9489540070168925e-12,
+      "words": [
+        {
+          "start": 0.11,
+          "end": 0.95,
+          "word": " Reporter",
+          "probability": 0.7655864953994751
+        },
+        {
+          "start": 0.95,
+          "end": 1.17,
+          "word": " en",
+          "probability": 0.9952538013458252
+        },
+        {
+          "start": 1.17,
+          "end": 1.45,
+          "word": " herbe",
+          "probability": 0.9707345366477966
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

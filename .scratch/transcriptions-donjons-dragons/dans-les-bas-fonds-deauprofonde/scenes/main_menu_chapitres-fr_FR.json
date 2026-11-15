@@ -1,0 +1,47 @@
+{
+  "scene": "main_menu_chapitres-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/main_menu_chapitres-fr_FR.mp3",
+  "sha256": "00d1c7d2f242b19add057fce80d2b88d8aedddf86a0d198ee2dd73bb1464a590",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.87125,
+  "text": "Chapitre écouté",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.28,
+      "text": " Chapitre écouté",
+      "tokens": [
+        50365,
+        24187,
+        270,
+        265,
+        15175,
+        346,
+        526,
+        50430
+      ],
+      "avg_logprob": -0.15162568622165257,
+      "compression_ratio": 0.68,
+      "no_speech_prob": 3.84662831101612e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.92,
+          "word": " Chapitre",
+          "probability": 0.973806361357371
+        },
+        {
+          "start": 0.92,
+          "end": 1.28,
+          "word": " écouté",
+          "probability": 0.9942632516225179
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

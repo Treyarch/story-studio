@@ -1,0 +1,60 @@
+{
+  "scene": "A04_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A04_list_ch2.mp3",
+  "sha256": "39c8bdcb8f82a750bc312971fcc1a466c2bf6fdf768c2193fd37d7fa2a84c004",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.6944375,
+  "text": "Essayez de le porter.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.3,
+      "text": " Essayez de le porter.",
+      "tokens": [
+        50365,
+        14357,
+        320,
+        4371,
+        368,
+        476,
+        41628,
+        13,
+        50432
+      ],
+      "avg_logprob": -0.32486304044723513,
+      "compression_ratio": 0.7241379310344828,
+      "no_speech_prob": 5.193141056070161e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.76,
+          "word": " Essayez",
+          "probability": 0.8526807030042013
+        },
+        {
+          "start": 0.76,
+          "end": 0.86,
+          "word": " de",
+          "probability": 0.9993294477462769
+        },
+        {
+          "start": 0.86,
+          "end": 1.0,
+          "word": " le",
+          "probability": 0.9979265928268433
+        },
+        {
+          "start": 1.0,
+          "end": 1.3,
+          "word": " porter.",
+          "probability": 0.9991374015808105
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

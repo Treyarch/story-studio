@@ -1,0 +1,61 @@
+{
+  "scene": "A27b_chapitre",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A27b_chapitre.mp3",
+  "sha256": "6d6c3252a02330a2e447aebb5c7611b2c885b8f1fe6ccec06343745ba57805f9",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.2083125,
+  "text": "Bienvenue dans l'enclave.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.7,
+      "text": " Bienvenue dans l'enclave.",
+      "tokens": [
+        50365,
+        16956,
+        29307,
+        2680,
+        287,
+        6,
+        22660,
+        27995,
+        13,
+        50451
+      ],
+      "avg_logprob": -0.1657449115406383,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 3.8570084626154966e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.9,
+          "word": " Bienvenue",
+          "probability": 0.9964792430400848
+        },
+        {
+          "start": 0.9,
+          "end": 1.12,
+          "word": " dans",
+          "probability": 0.9999417066574097
+        },
+        {
+          "start": 1.12,
+          "end": 1.24,
+          "word": " l",
+          "probability": 0.9379088282585144
+        },
+        {
+          "start": 1.24,
+          "end": 1.7,
+          "word": "'enclave.",
+          "probability": 0.9402086138725281
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

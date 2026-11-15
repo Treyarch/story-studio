@@ -1,0 +1,82 @@
+{
+  "scene": "intro03_panorama",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/intro03_panorama.mp3",
+  "sha256": "be9bc67a17435df30cef687b93164797208fdc9a9af23e40f64bf1e2f7c59caa",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.745375,
+  "text": "Dans quelle direction préfères-tu aller?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.54,
+      "text": " Dans quelle direction préfères-tu aller?",
+      "tokens": [
+        50365,
+        16897,
+        29237,
+        3513,
+        31139,
+        13927,
+        12,
+        9179,
+        8722,
+        2506,
+        50503
+      ],
+      "avg_logprob": -0.2649906774361928,
+      "compression_ratio": 0.86,
+      "no_speech_prob": 3.7929069607312016e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.48,
+          "word": " Dans",
+          "probability": 0.943537175655365
+        },
+        {
+          "start": 0.48,
+          "end": 0.74,
+          "word": " quelle",
+          "probability": 0.9686025977134705
+        },
+        {
+          "start": 0.74,
+          "end": 1.28,
+          "word": " direction",
+          "probability": 0.9998908042907715
+        },
+        {
+          "start": 1.28,
+          "end": 2.02,
+          "word": " préfères",
+          "probability": 0.9959302842617035
+        },
+        {
+          "start": 2.02,
+          "end": 2.16,
+          "word": "-tu",
+          "probability": 0.9982118010520935
+        },
+        {
+          "start": 2.16,
+          "end": 2.38,
+          "word": " aller",
+          "probability": 0.9995504021644592
+        },
+        {
+          "start": 2.38,
+          "end": 2.54,
+          "word": "?",
+          "probability": 0.9827426671981812
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

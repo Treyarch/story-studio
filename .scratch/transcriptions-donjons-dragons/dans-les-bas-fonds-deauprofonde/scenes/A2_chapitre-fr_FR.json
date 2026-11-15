@@ -1,0 +1,73 @@
+{
+  "scene": "A2_chapitre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A2_chapitre-fr_FR.mp3",
+  "sha256": "16c83399fe605ce450d45f92d0dea762b675467d3da74c173372f296eeb775b0",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.9555625,
+  "text": "Ce n'est pas ta journée.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.11,
+      "end": 1.25,
+      "text": " Ce n'est pas ta journée.",
+      "tokens": [
+        50365,
+        8257,
+        297,
+        6,
+        377,
+        1736,
+        1846,
+        34277,
+        13,
+        50426
+      ],
+      "avg_logprob": -0.09926119988614862,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 4.162641151911339e-12,
+      "words": [
+        {
+          "start": 0.11,
+          "end": 0.55,
+          "word": " Ce",
+          "probability": 0.75311678647995
+        },
+        {
+          "start": 0.55,
+          "end": 0.65,
+          "word": " n",
+          "probability": 0.9999388456344604
+        },
+        {
+          "start": 0.65,
+          "end": 0.75,
+          "word": "'est",
+          "probability": 0.9999591112136841
+        },
+        {
+          "start": 0.75,
+          "end": 0.89,
+          "word": " pas",
+          "probability": 0.9999583959579468
+        },
+        {
+          "start": 0.89,
+          "end": 1.03,
+          "word": " ta",
+          "probability": 0.999433696269989
+        },
+        {
+          "start": 1.03,
+          "end": 1.25,
+          "word": " journée.",
+          "probability": 0.9999535083770752
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

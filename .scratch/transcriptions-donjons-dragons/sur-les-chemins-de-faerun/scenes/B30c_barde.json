@@ -1,0 +1,527 @@
+{
+  "scene": "B30c_barde",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B30c_barde.mp3",
+  "sha256": "f16c046f8dd9a0f864f98e3117c05e49bbefad7bd80844546b01893ac9b6336f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 22.6614375,
+  "text": "Tu aperçois un luth posé sur le grand bureau, devant l'une d'éclairs. Tu te dis que tu pourrais entamer la conversation autour de votre intérêt commun pour la musique. Tu t'approches et t'extasies devant la qualité des cordes de l'instrument. Tu es très éveillée pour ton âge. Comment puis-je t'être utile?",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.1,
+      "end": 5.18,
+      "text": " Tu aperçois un luth posé sur le grand bureau, devant l'une d'éclairs.",
+      "tokens": [
+        50365,
+        7836,
+        43139,
+        1138,
+        7376,
+        517,
+        38319,
+        975,
+        1366,
+        526,
+        1022,
+        476,
+        2697,
+        35343,
+        11,
+        28982,
+        287,
+        6,
+        2613,
+        274,
+        6,
+        9062,
+        875,
+        12983,
+        13,
+        50569
+      ],
+      "avg_logprob": -0.11041172270220939,
+      "compression_ratio": 1.4700460829493087,
+      "no_speech_prob": 7.248753680633158e-12,
+      "words": [
+        {
+          "start": 1.1,
+          "end": 1.5,
+          "word": " Tu",
+          "probability": 0.9847151041030884
+        },
+        {
+          "start": 1.5,
+          "end": 2.14,
+          "word": " aperçois",
+          "probability": 0.9963779449462891
+        },
+        {
+          "start": 2.14,
+          "end": 2.3,
+          "word": " un",
+          "probability": 0.9996157884597778
+        },
+        {
+          "start": 2.3,
+          "end": 2.62,
+          "word": " lutte",
+          "probability": 0.8079720735549927
+        },
+        {
+          "start": 2.62,
+          "end": 2.98,
+          "word": " posé",
+          "probability": 0.9751541316509247
+        },
+        {
+          "start": 2.98,
+          "end": 3.16,
+          "word": " sur",
+          "probability": 0.9998642206192017
+        },
+        {
+          "start": 3.16,
+          "end": 3.28,
+          "word": " le",
+          "probability": 0.9998055100440979
+        },
+        {
+          "start": 3.28,
+          "end": 3.46,
+          "word": " grand",
+          "probability": 0.9890359044075012
+        },
+        {
+          "start": 3.46,
+          "end": 3.78,
+          "word": " bureau,",
+          "probability": 0.9997698664665222
+        },
+        {
+          "start": 4.0,
+          "end": 4.42,
+          "word": " devant",
+          "probability": 0.999929666519165
+        },
+        {
+          "start": 4.42,
+          "end": 4.56,
+          "word": " l",
+          "probability": 0.9981176853179932
+        },
+        {
+          "start": 4.56,
+          "end": 4.66,
+          "word": "'une",
+          "probability": 0.9864924550056458
+        },
+        {
+          "start": 4.66,
+          "end": 4.78,
+          "word": " d",
+          "probability": 0.4313484728336334
+        },
+        {
+          "start": 4.78,
+          "end": 5.18,
+          "word": "'éclairs.",
+          "probability": 0.9697815477848053
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.88,
+      "end": 10.84,
+      "text": " Tu te dis que tu pourrais entamer la conversation autour de votre intérêt commun pour la musique.",
+      "tokens": [
+        50626,
+        7836,
+        535,
+        717,
+        631,
+        2604,
+        2016,
+        20769,
+        948,
+        13530,
+        635,
+        3761,
+        30249,
+        368,
+        10087,
+        560,
+        44791,
+        1199,
+        2016,
+        635,
+        34108,
+        13,
+        50853
+      ],
+      "avg_logprob": -0.11041172270220939,
+      "compression_ratio": 1.4700460829493087,
+      "no_speech_prob": 7.248753680633158e-12,
+      "words": [
+        {
+          "start": 5.88,
+          "end": 6.42,
+          "word": " Tu",
+          "probability": 0.9993601441383362
+        },
+        {
+          "start": 6.42,
+          "end": 6.62,
+          "word": " te",
+          "probability": 0.9998239874839783
+        },
+        {
+          "start": 6.62,
+          "end": 6.72,
+          "word": " dis",
+          "probability": 0.9997788071632385
+        },
+        {
+          "start": 6.72,
+          "end": 6.88,
+          "word": " que",
+          "probability": 0.9999456405639648
+        },
+        {
+          "start": 6.88,
+          "end": 7.02,
+          "word": " tu",
+          "probability": 0.9998537302017212
+        },
+        {
+          "start": 7.02,
+          "end": 7.34,
+          "word": " pourrais",
+          "probability": 0.9986422061920166
+        },
+        {
+          "start": 7.34,
+          "end": 7.72,
+          "word": " entamer",
+          "probability": 0.999777615070343
+        },
+        {
+          "start": 7.72,
+          "end": 7.9,
+          "word": " la",
+          "probability": 0.9999281167984009
+        },
+        {
+          "start": 7.9,
+          "end": 8.58,
+          "word": " conversation",
+          "probability": 0.9993013143539429
+        },
+        {
+          "start": 8.58,
+          "end": 8.94,
+          "word": " autour",
+          "probability": 0.9998119473457336
+        },
+        {
+          "start": 8.94,
+          "end": 9.14,
+          "word": " de",
+          "probability": 0.9998189806938171
+        },
+        {
+          "start": 9.14,
+          "end": 9.38,
+          "word": " votre",
+          "probability": 0.9998157620429993
+        },
+        {
+          "start": 9.38,
+          "end": 9.82,
+          "word": " intérêt",
+          "probability": 0.9999127984046936
+        },
+        {
+          "start": 9.82,
+          "end": 10.12,
+          "word": " commun",
+          "probability": 0.9997413754463196
+        },
+        {
+          "start": 10.12,
+          "end": 10.32,
+          "word": " pour",
+          "probability": 0.9997496008872986
+        },
+        {
+          "start": 10.32,
+          "end": 10.48,
+          "word": " la",
+          "probability": 0.9999525547027588
+        },
+        {
+          "start": 10.48,
+          "end": 10.84,
+          "word": " musique.",
+          "probability": 0.9998310804367065
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.36,
+      "end": 15.8,
+      "text": " Tu t'approches et t'extasies devant la qualité des cordes de l'instrument.",
+      "tokens": [
+        50893,
+        7836,
+        256,
+        6,
+        35821,
+        3781,
+        1030,
+        256,
+        6,
+        3828,
+        296,
+        530,
+        28982,
+        635,
+        42106,
+        730,
+        12250,
+        279,
+        368,
+        287,
+        6,
+        50024,
+        2206,
+        13,
+        51101
+      ],
+      "avg_logprob": -0.11041172270220939,
+      "compression_ratio": 1.4700460829493087,
+      "no_speech_prob": 7.248753680633158e-12,
+      "words": [
+        {
+          "start": 11.36,
+          "end": 11.9,
+          "word": " Tu",
+          "probability": 0.9991434812545776
+        },
+        {
+          "start": 11.9,
+          "end": 12.02,
+          "word": " t",
+          "probability": 0.9998468160629272
+        },
+        {
+          "start": 12.02,
+          "end": 12.52,
+          "word": "'approches",
+          "probability": 0.9993739326794943
+        },
+        {
+          "start": 12.52,
+          "end": 12.98,
+          "word": " et",
+          "probability": 0.9984793066978455
+        },
+        {
+          "start": 12.98,
+          "end": 13.18,
+          "word": " t",
+          "probability": 0.9979467988014221
+        },
+        {
+          "start": 13.18,
+          "end": 13.74,
+          "word": "'extasies",
+          "probability": 0.9731921553611755
+        },
+        {
+          "start": 13.74,
+          "end": 14.0,
+          "word": " devant",
+          "probability": 0.9999096393585205
+        },
+        {
+          "start": 14.0,
+          "end": 14.16,
+          "word": " la",
+          "probability": 0.9999091625213623
+        },
+        {
+          "start": 14.16,
+          "end": 14.54,
+          "word": " qualité",
+          "probability": 0.9996325969696045
+        },
+        {
+          "start": 14.54,
+          "end": 14.78,
+          "word": " des",
+          "probability": 0.9998563528060913
+        },
+        {
+          "start": 14.78,
+          "end": 15.18,
+          "word": " cordes",
+          "probability": 0.9995253384113312
+        },
+        {
+          "start": 15.18,
+          "end": 15.3,
+          "word": " de",
+          "probability": 0.9989595413208008
+        },
+        {
+          "start": 15.3,
+          "end": 15.38,
+          "word": " l",
+          "probability": 0.9998961687088013
+        },
+        {
+          "start": 15.38,
+          "end": 15.8,
+          "word": "'instrument.",
+          "probability": 0.9999211231867472
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 16.12,
+      "end": 21.32,
+      "text": " Tu es très éveillée pour ton âge. Comment puis-je t'être utile?",
+      "tokens": [
+        51125,
+        7836,
+        785,
+        5732,
+        1136,
+        303,
+        373,
+        3856,
+        2016,
+        2952,
+        20621,
+        432,
+        13,
+        16328,
+        9093,
+        12,
+        2884,
+        256,
+        6,
+        9498,
+        2839,
+        794,
+        2506,
+        51365
+      ],
+      "avg_logprob": -0.11041172270220939,
+      "compression_ratio": 1.4700460829493087,
+      "no_speech_prob": 7.248753680633158e-12,
+      "words": [
+        {
+          "start": 16.12,
+          "end": 16.44,
+          "word": " Tu",
+          "probability": 0.9748985171318054
+        },
+        {
+          "start": 16.44,
+          "end": 16.66,
+          "word": " es",
+          "probability": 0.9996562004089355
+        },
+        {
+          "start": 16.66,
+          "end": 16.88,
+          "word": " très",
+          "probability": 0.9993638396263123
+        },
+        {
+          "start": 16.88,
+          "end": 17.52,
+          "word": " éveillée",
+          "probability": 0.9242386817932129
+        },
+        {
+          "start": 17.52,
+          "end": 17.8,
+          "word": " pour",
+          "probability": 0.9920307397842407
+        },
+        {
+          "start": 17.8,
+          "end": 18.04,
+          "word": " ton",
+          "probability": 0.9991208910942078
+        },
+        {
+          "start": 18.04,
+          "end": 18.62,
+          "word": " âge.",
+          "probability": 0.9998392164707184
+        },
+        {
+          "start": 18.96,
+          "end": 19.5,
+          "word": " Comment",
+          "probability": 0.9988412261009216
+        },
+        {
+          "start": 19.5,
+          "end": 19.84,
+          "word": " puis",
+          "probability": 0.9945303797721863
+        },
+        {
+          "start": 19.84,
+          "end": 19.98,
+          "word": "-je",
+          "probability": 0.9997962713241577
+        },
+        {
+          "start": 19.98,
+          "end": 20.12,
+          "word": " t",
+          "probability": 0.9810931086540222
+        },
+        {
+          "start": 20.12,
+          "end": 20.3,
+          "word": "'être",
+          "probability": 0.9963428676128387
+        },
+        {
+          "start": 20.3,
+          "end": 20.92,
+          "word": " utile",
+          "probability": 0.9991479814052582
+        },
+        {
+          "start": 20.92,
+          "end": 21.32,
+          "word": "?",
+          "probability": 0.960282564163208
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

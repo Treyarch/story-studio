@@ -1,0 +1,62 @@
+{
+  "scene": "A32_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A32_list_ch2.mp3",
+  "sha256": "a067303e887208a7fa716fb031b07d812863462fdcbc233131f58cf5e0b4891c",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.21025,
+  "text": "Tu rafles la sacoche.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.11,
+      "end": 1.57,
+      "text": " Tu rafles la sacoche.",
+      "tokens": [
+        50365,
+        7836,
+        367,
+        2792,
+        904,
+        635,
+        4899,
+        78,
+        1876,
+        13,
+        50439
+      ],
+      "avg_logprob": -0.15142309789856276,
+      "compression_ratio": 0.7241379310344828,
+      "no_speech_prob": 5.110267244090583e-12,
+      "words": [
+        {
+          "start": 0.11,
+          "end": 0.53,
+          "word": " Tu",
+          "probability": 0.733773410320282
+        },
+        {
+          "start": 0.53,
+          "end": 0.91,
+          "word": " rafles",
+          "probability": 0.9318263332049052
+        },
+        {
+          "start": 0.91,
+          "end": 1.07,
+          "word": " la",
+          "probability": 0.9986650943756104
+        },
+        {
+          "start": 1.07,
+          "end": 1.57,
+          "word": " sacoche.",
+          "probability": 0.9995718797047933
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

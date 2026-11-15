@@ -1,0 +1,289 @@
+{
+  "scene": "intro02_druide",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/intro02_druide.mp3",
+  "sha256": "efbc0dd3c56066a03689809a4cc357980a40ca94da39fe2e399243cc3af38455",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 10.4270625,
+  "text": "Une corde! Quand ta maman te demande... Qu'est-ce qui pourrait être plus utile que ça? Tu connais la bonne réponse. Rien!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.82,
+      "end": 2.06,
+      "text": " Une corde!",
+      "tokens": [
+        50365,
+        16701,
+        12250,
+        68,
+        2298,
+        50453
+      ],
+      "avg_logprob": -0.22346738311979505,
+      "compression_ratio": 1.1339285714285714,
+      "no_speech_prob": 5.461718750876532e-12,
+      "words": [
+        {
+          "start": 0.82,
+          "end": 1.36,
+          "word": " Une",
+          "probability": 0.9477350115776062
+        },
+        {
+          "start": 1.36,
+          "end": 2.06,
+          "word": " corde",
+          "probability": 0.99971142411232
+        },
+        {
+          "start": 2.06,
+          "end": 2.06,
+          "word": "!",
+          "probability": 0.5253196358680725
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 2.46,
+      "end": 4.08,
+      "text": " Quand ta maman te demande...",
+      "tokens": [
+        50453,
+        22015,
+        1846,
+        275,
+        6147,
+        535,
+        26982,
+        485,
+        50536
+      ],
+      "avg_logprob": -0.22346738311979505,
+      "compression_ratio": 1.1339285714285714,
+      "no_speech_prob": 5.461718750876532e-12,
+      "words": [
+        {
+          "start": 2.46,
+          "end": 2.72,
+          "word": " Quand",
+          "probability": 0.9942792654037476
+        },
+        {
+          "start": 2.72,
+          "end": 2.9,
+          "word": " ta",
+          "probability": 0.9991652965545654
+        },
+        {
+          "start": 2.9,
+          "end": 3.2,
+          "word": " maman",
+          "probability": 0.9993084073066711
+        },
+        {
+          "start": 3.2,
+          "end": 3.4,
+          "word": " te",
+          "probability": 0.999874472618103
+        },
+        {
+          "start": 3.4,
+          "end": 4.08,
+          "word": " demande...",
+          "probability": 0.8464564681053162
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 4.08,
+      "end": 6.3,
+      "text": " Qu'est-ce qui pourrait être plus utile que ça?",
+      "tokens": [
+        50536,
+        2326,
+        6,
+        377,
+        12,
+        384,
+        1956,
+        25590,
+        7418,
+        1804,
+        2839,
+        794,
+        631,
+        2788,
+        2506,
+        50645
+      ],
+      "avg_logprob": -0.22346738311979505,
+      "compression_ratio": 1.1339285714285714,
+      "no_speech_prob": 5.461718750876532e-12,
+      "words": [
+        {
+          "start": 4.08,
+          "end": 4.34,
+          "word": " Qu",
+          "probability": 0.9226101636886597
+        },
+        {
+          "start": 4.34,
+          "end": 4.42,
+          "word": "'est",
+          "probability": 0.9999666810035706
+        },
+        {
+          "start": 4.42,
+          "end": 4.46,
+          "word": "-ce",
+          "probability": 0.9990515410900116
+        },
+        {
+          "start": 4.46,
+          "end": 4.52,
+          "word": " qui",
+          "probability": 0.9996084570884705
+        },
+        {
+          "start": 4.52,
+          "end": 4.76,
+          "word": " pourrait",
+          "probability": 0.9994292855262756
+        },
+        {
+          "start": 4.76,
+          "end": 4.96,
+          "word": " être",
+          "probability": 0.9988718628883362
+        },
+        {
+          "start": 4.96,
+          "end": 5.28,
+          "word": " plus",
+          "probability": 0.9998449087142944
+        },
+        {
+          "start": 5.28,
+          "end": 5.64,
+          "word": " utile",
+          "probability": 0.9998472630977631
+        },
+        {
+          "start": 5.64,
+          "end": 5.78,
+          "word": " que",
+          "probability": 0.9999035596847534
+        },
+        {
+          "start": 5.78,
+          "end": 6.06,
+          "word": " ça",
+          "probability": 0.9997958540916443
+        },
+        {
+          "start": 6.06,
+          "end": 6.3,
+          "word": "?",
+          "probability": 0.9991573095321655
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 6.3,
+      "end": 7.64,
+      "text": " Tu connais la bonne réponse.",
+      "tokens": [
+        50645,
+        7836,
+        45784,
+        635,
+        20577,
+        40967,
+        13,
+        50706
+      ],
+      "avg_logprob": -0.22346738311979505,
+      "compression_ratio": 1.1339285714285714,
+      "no_speech_prob": 5.461718750876532e-12,
+      "words": [
+        {
+          "start": 6.3,
+          "end": 6.54,
+          "word": " Tu",
+          "probability": 0.997774064540863
+        },
+        {
+          "start": 6.54,
+          "end": 6.8,
+          "word": " connais",
+          "probability": 0.9993688464164734
+        },
+        {
+          "start": 6.8,
+          "end": 6.96,
+          "word": " la",
+          "probability": 0.9999390840530396
+        },
+        {
+          "start": 6.96,
+          "end": 7.12,
+          "word": " bonne",
+          "probability": 0.9998538494110107
+        },
+        {
+          "start": 7.12,
+          "end": 7.64,
+          "word": " réponse.",
+          "probability": 0.9998873472213745
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 8.32,
+      "end": 9.22,
+      "text": " Rien!",
+      "tokens": [
+        50753,
+        497,
+        1053,
+        2298,
+        50845
+      ],
+      "avg_logprob": -0.22346738311979505,
+      "compression_ratio": 1.1339285714285714,
+      "no_speech_prob": 5.461718750876532e-12,
+      "words": [
+        {
+          "start": 8.32,
+          "end": 8.84,
+          "word": " Rien",
+          "probability": 0.9985346794128418
+        },
+        {
+          "start": 8.84,
+          "end": 9.22,
+          "word": "!",
+          "probability": 0.9172302484512329
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

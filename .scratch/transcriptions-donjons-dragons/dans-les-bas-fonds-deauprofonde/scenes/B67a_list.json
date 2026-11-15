@@ -1,0 +1,82 @@
+{
+  "scene": "B67a_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B67a_list.mp3",
+  "sha256": "d9f1a65871115373e483115ee112b7232d7ad01fd58d431d1e80adb64bc890ef",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.79375,
+  "text": "Est-ce que tu le paies?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.39,
+      "text": " Est-ce que tu le paies?",
+      "tokens": [
+        50365,
+        4410,
+        12,
+        384,
+        631,
+        2604,
+        476,
+        2502,
+        530,
+        2506,
+        50453
+      ],
+      "avg_logprob": -0.25728789716959,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 4.001606771636412e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.51,
+          "word": " Est",
+          "probability": 0.8753487467765808
+        },
+        {
+          "start": 0.51,
+          "end": 0.61,
+          "word": "-ce",
+          "probability": 0.9981262683868408
+        },
+        {
+          "start": 0.61,
+          "end": 0.69,
+          "word": " que",
+          "probability": 0.9991381168365479
+        },
+        {
+          "start": 0.69,
+          "end": 0.81,
+          "word": " tu",
+          "probability": 0.9996868371963501
+        },
+        {
+          "start": 0.81,
+          "end": 0.97,
+          "word": " le",
+          "probability": 0.998903751373291
+        },
+        {
+          "start": 0.97,
+          "end": 1.17,
+          "word": " paies",
+          "probability": 0.9632779657840729
+        },
+        {
+          "start": 1.17,
+          "end": 1.39,
+          "word": "?",
+          "probability": 0.955694854259491
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

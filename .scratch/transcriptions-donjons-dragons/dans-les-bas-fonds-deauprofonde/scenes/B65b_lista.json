@@ -1,0 +1,59 @@
+{
+  "scene": "B65b_lista",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B65b_lista.mp3",
+  "sha256": "e274892d4288f05f08c0893a2fc4fb0f7e94da47f10d381c4c1e8acc84799f3b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.85975,
+  "text": "Par quoi commencer?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.41,
+      "text": " Par quoi commencer?",
+      "tokens": [
+        50365,
+        3457,
+        11714,
+        32817,
+        2506,
+        50456
+      ],
+      "avg_logprob": -0.3005448154040745,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 3.9861057163359526e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.59,
+          "word": " Par",
+          "probability": 0.9084408283233643
+        },
+        {
+          "start": 0.59,
+          "end": 0.71,
+          "word": " quoi",
+          "probability": 0.9990909099578857
+        },
+        {
+          "start": 0.71,
+          "end": 1.21,
+          "word": " commencer",
+          "probability": 0.9997101426124573
+        },
+        {
+          "start": 1.21,
+          "end": 1.41,
+          "word": "?",
+          "probability": 0.9871297478675842
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

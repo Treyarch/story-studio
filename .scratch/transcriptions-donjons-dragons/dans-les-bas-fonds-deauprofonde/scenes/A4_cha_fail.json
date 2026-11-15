@@ -1,0 +1,701 @@
+{
+  "scene": "A4_cha_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A4_cha_fail.mp3",
+  "sha256": "2eb376d9d72e46dfc0b8ceccb2fe72347126593c77e862b624fc3aa77080becd",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 22.801375,
+  "text": "Tu as dû contrarier le fromager la dernière fois que tu l'as interviewé. Au lieu de t'aider, il t'attrape par le col. Pas ici, messieurs les agents! J'en tiens! Mais à peine a-t-il terminé sa phrase, il pousse un cri de surprise quand la fille fait volte-face et le pousse sur les agents qui déboulent. Elle te prend la main. Suis-moi!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.49,
+      "end": 4.89,
+      "text": " Tu as dû contrarier le fromager la dernière fois que tu l'as interviewé.",
+      "tokens": [
+        50365,
+        7836,
+        382,
+        42300,
+        660,
+        5352,
+        811,
+        476,
+        490,
+        3557,
+        635,
+        29028,
+        9576,
+        631,
+        2604,
+        287,
+        6,
+        296,
+        4049,
+        526,
+        13,
+        50536
+      ],
+      "avg_logprob": -0.16609229824759744,
+      "compression_ratio": 1.4763948497854078,
+      "no_speech_prob": 9.273721547631286e-12,
+      "words": [
+        {
+          "start": 1.49,
+          "end": 1.91,
+          "word": " Tu",
+          "probability": 0.955142617225647
+        },
+        {
+          "start": 1.91,
+          "end": 2.05,
+          "word": " as",
+          "probability": 0.9996956586837769
+        },
+        {
+          "start": 2.05,
+          "end": 2.19,
+          "word": " dû",
+          "probability": 0.9895117878913879
+        },
+        {
+          "start": 2.19,
+          "end": 2.69,
+          "word": " contrarier",
+          "probability": 0.9974746505419413
+        },
+        {
+          "start": 2.69,
+          "end": 2.85,
+          "word": " le",
+          "probability": 0.9987837672233582
+        },
+        {
+          "start": 2.85,
+          "end": 3.27,
+          "word": " fromager",
+          "probability": 0.9556801319122314
+        },
+        {
+          "start": 3.27,
+          "end": 3.45,
+          "word": " la",
+          "probability": 0.9981166124343872
+        },
+        {
+          "start": 3.45,
+          "end": 3.67,
+          "word": " dernière",
+          "probability": 0.9999285936355591
+        },
+        {
+          "start": 3.67,
+          "end": 3.91,
+          "word": " fois",
+          "probability": 0.9999700784683228
+        },
+        {
+          "start": 3.91,
+          "end": 4.05,
+          "word": " que",
+          "probability": 0.999889612197876
+        },
+        {
+          "start": 4.05,
+          "end": 4.19,
+          "word": " tu",
+          "probability": 0.9998581409454346
+        },
+        {
+          "start": 4.19,
+          "end": 4.29,
+          "word": " l",
+          "probability": 0.9998218417167664
+        },
+        {
+          "start": 4.29,
+          "end": 4.35,
+          "word": "'as",
+          "probability": 0.9997601509094238
+        },
+        {
+          "start": 4.35,
+          "end": 4.89,
+          "word": " interviewé.",
+          "probability": 0.9754470586776733
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.21,
+      "end": 7.69,
+      "text": " Au lieu de t'aider, il t'attrape par le col.",
+      "tokens": [
+        50553,
+        12160,
+        26036,
+        368,
+        256,
+        6,
+        64,
+        1438,
+        11,
+        1930,
+        256,
+        6,
+        1591,
+        424,
+        494,
+        971,
+        476,
+        1173,
+        13,
+        50676
+      ],
+      "avg_logprob": -0.16609229824759744,
+      "compression_ratio": 1.4763948497854078,
+      "no_speech_prob": 9.273721547631286e-12,
+      "words": [
+        {
+          "start": 5.21,
+          "end": 5.61,
+          "word": " Au",
+          "probability": 0.9921097159385681
+        },
+        {
+          "start": 5.61,
+          "end": 5.75,
+          "word": " lieu",
+          "probability": 0.9999356269836426
+        },
+        {
+          "start": 5.75,
+          "end": 5.91,
+          "word": " de",
+          "probability": 0.9997712969779968
+        },
+        {
+          "start": 5.91,
+          "end": 6.01,
+          "word": " t",
+          "probability": 0.9990531802177429
+        },
+        {
+          "start": 6.01,
+          "end": 6.19,
+          "word": "'aider,",
+          "probability": 0.9997334082921346
+        },
+        {
+          "start": 6.63,
+          "end": 6.73,
+          "word": " il",
+          "probability": 0.9886651039123535
+        },
+        {
+          "start": 6.73,
+          "end": 6.87,
+          "word": " t",
+          "probability": 0.9998767375946045
+        },
+        {
+          "start": 6.87,
+          "end": 7.19,
+          "word": "'attrape",
+          "probability": 0.9992237091064453
+        },
+        {
+          "start": 7.19,
+          "end": 7.35,
+          "word": " par",
+          "probability": 0.9987450838088989
+        },
+        {
+          "start": 7.35,
+          "end": 7.47,
+          "word": " le",
+          "probability": 0.9999446868896484
+        },
+        {
+          "start": 7.47,
+          "end": 7.69,
+          "word": " col.",
+          "probability": 0.996981680393219
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.89,
+      "end": 9.73,
+      "text": " Pas ici, messieurs les agents!",
+      "tokens": [
+        50693,
+        14199,
+        11575,
+        11,
+        2082,
+        17743,
+        1512,
+        12554,
+        2298,
+        50781
+      ],
+      "avg_logprob": -0.16609229824759744,
+      "compression_ratio": 1.4763948497854078,
+      "no_speech_prob": 9.273721547631286e-12,
+      "words": [
+        {
+          "start": 7.89,
+          "end": 8.17,
+          "word": " Pas",
+          "probability": 0.27066710591316223
+        },
+        {
+          "start": 8.17,
+          "end": 8.41,
+          "word": " ici,",
+          "probability": 0.99910968542099
+        },
+        {
+          "start": 8.59,
+          "end": 8.79,
+          "word": " messieurs",
+          "probability": 0.9951784908771515
+        },
+        {
+          "start": 8.79,
+          "end": 8.93,
+          "word": " les",
+          "probability": 0.9983477592468262
+        },
+        {
+          "start": 8.93,
+          "end": 9.23,
+          "word": " agents",
+          "probability": 0.9971326589584351
+        },
+        {
+          "start": 9.23,
+          "end": 9.73,
+          "word": "!",
+          "probability": 0.895888090133667
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 9.73,
+      "end": 11.39,
+      "text": " J'en tiens!",
+      "tokens": [
+        50781,
+        508,
+        6,
+        268,
+        8757,
+        694,
+        2298,
+        50870
+      ],
+      "avg_logprob": -0.16609229824759744,
+      "compression_ratio": 1.4763948497854078,
+      "no_speech_prob": 9.273721547631286e-12,
+      "words": [
+        {
+          "start": 9.73,
+          "end": 10.45,
+          "word": " J",
+          "probability": 0.8483233451843262
+        },
+        {
+          "start": 10.45,
+          "end": 10.59,
+          "word": "'en",
+          "probability": 0.9985309541225433
+        },
+        {
+          "start": 10.59,
+          "end": 10.85,
+          "word": " tiens",
+          "probability": 0.9973848462104797
+        },
+        {
+          "start": 10.85,
+          "end": 11.39,
+          "word": "!",
+          "probability": 0.9922322034835815
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 11.39,
+      "end": 13.45,
+      "text": " Mais à peine a-t-il terminé sa phrase,",
+      "tokens": [
+        50870,
+        6313,
+        1531,
+        46655,
+        257,
+        12,
+        83,
+        12,
+        388,
+        10761,
+        526,
+        601,
+        9535,
+        11,
+        50963
+      ],
+      "avg_logprob": -0.16609229824759744,
+      "compression_ratio": 1.4763948497854078,
+      "no_speech_prob": 9.273721547631286e-12,
+      "words": [
+        {
+          "start": 11.39,
+          "end": 11.77,
+          "word": " Mais",
+          "probability": 0.994763195514679
+        },
+        {
+          "start": 11.77,
+          "end": 11.93,
+          "word": " à",
+          "probability": 0.9997437596321106
+        },
+        {
+          "start": 11.93,
+          "end": 12.13,
+          "word": " peine",
+          "probability": 0.999909520149231
+        },
+        {
+          "start": 12.13,
+          "end": 12.29,
+          "word": " a",
+          "probability": 0.9855302572250366
+        },
+        {
+          "start": 12.29,
+          "end": 12.37,
+          "word": "-t",
+          "probability": 0.9997230768203735
+        },
+        {
+          "start": 12.37,
+          "end": 12.45,
+          "word": "-il",
+          "probability": 0.9998815357685089
+        },
+        {
+          "start": 12.45,
+          "end": 12.91,
+          "word": " terminé",
+          "probability": 0.9996938109397888
+        },
+        {
+          "start": 12.91,
+          "end": 13.07,
+          "word": " sa",
+          "probability": 0.9998332262039185
+        },
+        {
+          "start": 13.07,
+          "end": 13.45,
+          "word": " phrase,",
+          "probability": 0.9992215633392334
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 14.23,
+      "end": 17.17,
+      "text": " il pousse un cri de surprise quand la fille fait volte-face",
+      "tokens": [
+        50980,
+        1930,
+        280,
+        28521,
+        517,
+        12815,
+        368,
+        6365,
+        6932,
+        635,
+        39216,
+        3887,
+        37801,
+        12,
+        2868,
+        51154
+      ],
+      "avg_logprob": -0.16609229824759744,
+      "compression_ratio": 1.4763948497854078,
+      "no_speech_prob": 9.273721547631286e-12,
+      "words": [
+        {
+          "start": 14.23,
+          "end": 14.63,
+          "word": " il",
+          "probability": 0.6210496425628662
+        },
+        {
+          "start": 14.63,
+          "end": 14.89,
+          "word": " pousse",
+          "probability": 0.998755544424057
+        },
+        {
+          "start": 14.89,
+          "end": 15.05,
+          "word": " un",
+          "probability": 0.9996469020843506
+        },
+        {
+          "start": 15.05,
+          "end": 15.19,
+          "word": " cri",
+          "probability": 0.9984075427055359
+        },
+        {
+          "start": 15.19,
+          "end": 15.35,
+          "word": " de",
+          "probability": 0.9999736547470093
+        },
+        {
+          "start": 15.35,
+          "end": 15.81,
+          "word": " surprise",
+          "probability": 0.9997929930686951
+        },
+        {
+          "start": 15.81,
+          "end": 16.05,
+          "word": " quand",
+          "probability": 0.9987278580665588
+        },
+        {
+          "start": 16.05,
+          "end": 16.19,
+          "word": " la",
+          "probability": 0.9997312426567078
+        },
+        {
+          "start": 16.19,
+          "end": 16.43,
+          "word": " fille",
+          "probability": 0.9987770915031433
+        },
+        {
+          "start": 16.43,
+          "end": 16.61,
+          "word": " fait",
+          "probability": 0.9990083575248718
+        },
+        {
+          "start": 16.61,
+          "end": 16.83,
+          "word": " volte",
+          "probability": 0.9774720072746277
+        },
+        {
+          "start": 16.83,
+          "end": 17.17,
+          "word": "-face",
+          "probability": 0.9287137091159821
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 17.17,
+      "end": 19.11,
+      "text": " et le pousse sur les agents qui déboulent.",
+      "tokens": [
+        51154,
+        1030,
+        476,
+        280,
+        28521,
+        1022,
+        1512,
+        12554,
+        1956,
+        36529,
+        3298,
+        317,
+        13,
+        51246
+      ],
+      "avg_logprob": -0.16609229824759744,
+      "compression_ratio": 1.4763948497854078,
+      "no_speech_prob": 9.273721547631286e-12,
+      "words": [
+        {
+          "start": 17.17,
+          "end": 17.43,
+          "word": " et",
+          "probability": 0.9984126091003418
+        },
+        {
+          "start": 17.43,
+          "end": 17.57,
+          "word": " le",
+          "probability": 0.9998376369476318
+        },
+        {
+          "start": 17.57,
+          "end": 17.87,
+          "word": " pousse",
+          "probability": 0.9949908256530762
+        },
+        {
+          "start": 17.87,
+          "end": 18.03,
+          "word": " sur",
+          "probability": 0.9993195533752441
+        },
+        {
+          "start": 18.03,
+          "end": 18.19,
+          "word": " les",
+          "probability": 0.9999023675918579
+        },
+        {
+          "start": 18.19,
+          "end": 18.47,
+          "word": " agents",
+          "probability": 0.9996044039726257
+        },
+        {
+          "start": 18.47,
+          "end": 18.63,
+          "word": " qui",
+          "probability": 0.9993225336074829
+        },
+        {
+          "start": 18.63,
+          "end": 19.11,
+          "word": " déboulent.",
+          "probability": 0.997860312461853
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 19.33,
+      "end": 20.31,
+      "text": " Elle te prend la main.",
+      "tokens": [
+        51266,
+        16227,
+        535,
+        9866,
+        635,
+        2135,
+        13,
+        51307
+      ],
+      "avg_logprob": -0.16609229824759744,
+      "compression_ratio": 1.4763948497854078,
+      "no_speech_prob": 9.273721547631286e-12,
+      "words": [
+        {
+          "start": 19.33,
+          "end": 19.61,
+          "word": " Elle",
+          "probability": 0.9990457892417908
+        },
+        {
+          "start": 19.61,
+          "end": 19.77,
+          "word": " te",
+          "probability": 0.9999231100082397
+        },
+        {
+          "start": 19.77,
+          "end": 19.99,
+          "word": " prend",
+          "probability": 0.9981092214584351
+        },
+        {
+          "start": 19.99,
+          "end": 20.15,
+          "word": " la",
+          "probability": 0.9998263716697693
+        },
+        {
+          "start": 20.15,
+          "end": 20.31,
+          "word": " main.",
+          "probability": 0.9998689889907837
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 20.81,
+      "end": 21.51,
+      "text": " Suis-moi!",
+      "tokens": [
+        51335,
+        2746,
+        271,
+        12,
+        29292,
+        2298,
+        51431
+      ],
+      "avg_logprob": -0.16609229824759744,
+      "compression_ratio": 1.4763948497854078,
+      "no_speech_prob": 9.273721547631286e-12,
+      "words": [
+        {
+          "start": 20.81,
+          "end": 21.09,
+          "word": " Suis",
+          "probability": 0.9268045723438263
+        },
+        {
+          "start": 21.09,
+          "end": 21.27,
+          "word": "-moi",
+          "probability": 0.9995060563087463
+        },
+        {
+          "start": 21.27,
+          "end": 21.51,
+          "word": "!",
+          "probability": 0.9984471201896667
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

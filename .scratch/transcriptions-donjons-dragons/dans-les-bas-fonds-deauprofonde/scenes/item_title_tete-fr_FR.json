@@ -1,0 +1,67 @@
+{
+  "scene": "item_title_tete-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_tete-fr_FR.mp3",
+  "sha256": "f0a15c7244a1ab3f2d09e64e8b8677bea00466dfe5d9017ba66bb96408932d53",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.0551875,
+  "text": "La tête d'une clé.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.42,
+      "text": " La tête d'une clé.",
+      "tokens": [
+        50365,
+        2369,
+        24661,
+        274,
+        6,
+        2613,
+        596,
+        526,
+        13,
+        50436
+      ],
+      "avg_logprob": -0.14717041091485458,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 4.253448721708297e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.58,
+          "word": " La",
+          "probability": 0.8891660571098328
+        },
+        {
+          "start": 0.58,
+          "end": 0.88,
+          "word": " tête",
+          "probability": 0.9912223815917969
+        },
+        {
+          "start": 0.88,
+          "end": 1.08,
+          "word": " d",
+          "probability": 0.9999583959579468
+        },
+        {
+          "start": 1.08,
+          "end": 1.2,
+          "word": "'une",
+          "probability": 0.9999140501022339
+        },
+        {
+          "start": 1.2,
+          "end": 1.42,
+          "word": " clé.",
+          "probability": 0.9945849478244781
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

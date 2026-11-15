@@ -1,0 +1,62 @@
+{
+  "scene": "B59_list_ch3",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B59_list_ch3.mp3",
+  "sha256": "2692b05fd6dd542eef6729a5ead9a169cdac12f4e09e4601b6cf994f70328007",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.41125,
+  "text": "menacer le dragon-tortue,",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.82,
+      "text": " menacer le dragon-tortue,",
+      "tokens": [
+        50365,
+        1706,
+        12858,
+        476,
+        12165,
+        12,
+        83,
+        477,
+        622,
+        11,
+        50455
+      ],
+      "avg_logprob": -0.3358709861834844,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 4.410764288531599e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.96,
+          "word": " menacer",
+          "probability": 0.7337385416030884
+        },
+        {
+          "start": 0.96,
+          "end": 1.12,
+          "word": " le",
+          "probability": 0.9980955719947815
+        },
+        {
+          "start": 1.12,
+          "end": 1.38,
+          "word": " dragon",
+          "probability": 0.9784598350524902
+        },
+        {
+          "start": 1.38,
+          "end": 1.82,
+          "word": "-tortue,",
+          "probability": 0.8343923166394234
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

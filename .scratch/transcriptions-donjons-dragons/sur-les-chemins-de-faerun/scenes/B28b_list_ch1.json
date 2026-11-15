@@ -1,0 +1,53 @@
+{
+  "scene": "B28b_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B28b_list_ch1.mp3",
+  "sha256": "78f538891d7f1e8fb62ab1c00d3b8b7baf113e7b0bce72b5dcb907c60d800ecf",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.3895625,
+  "text": "Parlez aux gardes.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.08,
+      "text": " Parlez aux gardes.",
+      "tokens": [
+        50365,
+        3457,
+        20336,
+        7865,
+        5628,
+        279,
+        13,
+        50419
+      ],
+      "avg_logprob": -0.4433561431037055,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 4.176423529927975e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.62,
+          "word": " Parlez",
+          "probability": 0.7827474176883698
+        },
+        {
+          "start": 0.62,
+          "end": 0.74,
+          "word": " aux",
+          "probability": 0.8752288222312927
+        },
+        {
+          "start": 0.74,
+          "end": 1.08,
+          "word": " gardes.",
+          "probability": 0.9986057281494141
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

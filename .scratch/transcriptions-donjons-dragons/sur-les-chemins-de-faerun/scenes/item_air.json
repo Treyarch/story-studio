@@ -1,0 +1,117 @@
+{
+  "scene": "item_air",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_air.mp3",
+  "sha256": "9e0515ad3b764a08af0d2cd6c4e5fc2006a1bee0358aaa66abed6fdd64f56dff",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 4.2724375,
+  "text": "Ta récompense pour avoir débarrassé la forêt du méphite fumant.",
+  "review": [
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.9,
+      "text": " Ta récompense pour avoir débarrassé la forêt du méphite fumant.",
+      "tokens": [
+        50365,
+        6551,
+        3960,
+        21541,
+        1288,
+        2016,
+        10853,
+        36529,
+        8596,
+        526,
+        635,
+        337,
+        15519,
+        1581,
+        13191,
+        69,
+        414,
+        368,
+        43845,
+        394,
+        13,
+        50560
+      ],
+      "avg_logprob": -0.1658084029736726,
+      "compression_ratio": 0.971830985915493,
+      "no_speech_prob": 5.199020901291984e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.28,
+          "word": " Ta",
+          "probability": 0.5165155529975891
+        },
+        {
+          "start": 0.28,
+          "end": 1.04,
+          "word": " récompense",
+          "probability": 0.9998183250427246
+        },
+        {
+          "start": 1.04,
+          "end": 1.4,
+          "word": " pour",
+          "probability": 0.9986777901649475
+        },
+        {
+          "start": 1.4,
+          "end": 1.68,
+          "word": " avoir",
+          "probability": 0.9996757507324219
+        },
+        {
+          "start": 1.68,
+          "end": 2.34,
+          "word": " débarrassé",
+          "probability": 0.9993139108022054
+        },
+        {
+          "start": 2.34,
+          "end": 2.48,
+          "word": " la",
+          "probability": 0.9991602897644043
+        },
+        {
+          "start": 2.48,
+          "end": 2.88,
+          "word": " forêt",
+          "probability": 0.9996991157531738
+        },
+        {
+          "start": 2.88,
+          "end": 3.1,
+          "word": " du",
+          "probability": 0.999406099319458
+        },
+        {
+          "start": 3.1,
+          "end": 3.48,
+          "word": " méfie",
+          "probability": 0.6988820731639862
+        },
+        {
+          "start": 3.48,
+          "end": 3.56,
+          "word": " de",
+          "probability": 0.999093770980835
+        },
+        {
+          "start": 3.56,
+          "end": 3.9,
+          "word": " fumant.",
+          "probability": 0.8476715087890625
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

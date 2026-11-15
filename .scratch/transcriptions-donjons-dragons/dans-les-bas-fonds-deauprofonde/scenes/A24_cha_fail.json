@@ -1,0 +1,876 @@
+{
+  "scene": "A24_cha_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A24_cha_fail.mp3",
+  "sha256": "bf5135839a3fa9c48d2be2778eb453a274224916e0596d5cb763a138078364a6",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 38.5246875,
+  "text": "Tu arrives à mi-chemin dans la pièce quand la bête éclipsante pousse un rugissement assourdissant qui fait siffler tes oreilles. Tu continues prudemment à bonne distance de ses griffes. Mais alors que tu atteins la porte, un tentacule au croc acéré encercle ton poignet et t'arrête net. Avant que tu aies le temps de te tourner pour affronter le monstre, Kissandra surgit et tranche le tentacule avec son poignard. La bête éclipsante lâche un hurlement de douleur Et libère ton poignet de son emprise Kissandra en profite pour te pousser vers la grille",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.74,
+      "end": 8.84,
+      "text": " Tu arrives à mi-chemin dans la pièce quand la bête éclipsante pousse un rugissement assourdissant qui fait siffler tes oreilles.",
+      "tokens": [
+        50365,
+        7836,
+        20116,
+        1531,
+        2752,
+        12,
+        17345,
+        259,
+        2680,
+        635,
+        3895,
+        30236,
+        6932,
+        635,
+        272,
+        12943,
+        1136,
+        3474,
+        2600,
+        2879,
+        280,
+        28521,
+        517,
+        18329,
+        31931,
+        1256,
+        21764,
+        29492,
+        1956,
+        3887,
+        262,
+        3661,
+        1918,
+        20018,
+        20865,
+        14835,
+        13,
+        50720
+      ],
+      "avg_logprob": -0.11558845923602126,
+      "compression_ratio": 1.5924528301886793,
+      "no_speech_prob": 7.304985609468684e-12,
+      "words": [
+        {
+          "start": 1.74,
+          "end": 2.2,
+          "word": " Tu",
+          "probability": 0.9277908802032471
+        },
+        {
+          "start": 2.2,
+          "end": 2.5,
+          "word": " arrives",
+          "probability": 0.9987167119979858
+        },
+        {
+          "start": 2.5,
+          "end": 2.64,
+          "word": " à",
+          "probability": 0.9997630715370178
+        },
+        {
+          "start": 2.64,
+          "end": 2.78,
+          "word": " mi",
+          "probability": 0.9982144832611084
+        },
+        {
+          "start": 2.78,
+          "end": 3.12,
+          "word": "-chemin",
+          "probability": 0.9976125160853068
+        },
+        {
+          "start": 3.12,
+          "end": 3.26,
+          "word": " dans",
+          "probability": 0.9998040795326233
+        },
+        {
+          "start": 3.26,
+          "end": 3.42,
+          "word": " la",
+          "probability": 0.9997740387916565
+        },
+        {
+          "start": 3.42,
+          "end": 3.84,
+          "word": " pièce",
+          "probability": 0.9998784959316254
+        },
+        {
+          "start": 3.84,
+          "end": 4.2,
+          "word": " quand",
+          "probability": 0.8955370187759399
+        },
+        {
+          "start": 4.2,
+          "end": 4.4,
+          "word": " la",
+          "probability": 0.9957641363143921
+        },
+        {
+          "start": 4.4,
+          "end": 4.62,
+          "word": " bête",
+          "probability": 0.9989148676395416
+        },
+        {
+          "start": 4.62,
+          "end": 5.3,
+          "word": " éclipsante",
+          "probability": 0.9891398102045059
+        },
+        {
+          "start": 5.3,
+          "end": 5.62,
+          "word": " pousse",
+          "probability": 0.9990938007831573
+        },
+        {
+          "start": 5.62,
+          "end": 5.76,
+          "word": " un",
+          "probability": 0.9993835687637329
+        },
+        {
+          "start": 5.76,
+          "end": 6.26,
+          "word": " rugissement",
+          "probability": 0.9997285306453705
+        },
+        {
+          "start": 6.26,
+          "end": 7.1,
+          "word": " assourdissant",
+          "probability": 0.9987651904424032
+        },
+        {
+          "start": 7.1,
+          "end": 7.6,
+          "word": " qui",
+          "probability": 0.9837613701820374
+        },
+        {
+          "start": 7.6,
+          "end": 7.8,
+          "word": " fait",
+          "probability": 0.999809205532074
+        },
+        {
+          "start": 7.8,
+          "end": 8.22,
+          "word": " siffler",
+          "probability": 0.9217738509178162
+        },
+        {
+          "start": 8.22,
+          "end": 8.4,
+          "word": " tes",
+          "probability": 0.9980745315551758
+        },
+        {
+          "start": 8.4,
+          "end": 8.84,
+          "word": " oreilles.",
+          "probability": 0.9999274611473083
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 9.08,
+      "end": 12.46,
+      "text": " Tu continues prudemment à bonne distance de ses griffes.",
+      "tokens": [
+        50756,
+        7836,
+        6515,
+        582,
+        532,
+        20329,
+        1531,
+        20577,
+        4560,
+        368,
+        5385,
+        677,
+        3661,
+        279,
+        13,
+        50917
+      ],
+      "avg_logprob": -0.11558845923602126,
+      "compression_ratio": 1.5924528301886793,
+      "no_speech_prob": 7.304985609468684e-12,
+      "words": [
+        {
+          "start": 9.08,
+          "end": 9.66,
+          "word": " Tu",
+          "probability": 0.9987927675247192
+        },
+        {
+          "start": 9.66,
+          "end": 10.1,
+          "word": " continues",
+          "probability": 0.9987479448318481
+        },
+        {
+          "start": 10.1,
+          "end": 10.62,
+          "word": " prudemment",
+          "probability": 0.9997469186782837
+        },
+        {
+          "start": 10.62,
+          "end": 11.04,
+          "word": " à",
+          "probability": 0.9077746868133545
+        },
+        {
+          "start": 11.04,
+          "end": 11.3,
+          "word": " bonne",
+          "probability": 0.9968631267547607
+        },
+        {
+          "start": 11.3,
+          "end": 11.76,
+          "word": " distance",
+          "probability": 0.999782145023346
+        },
+        {
+          "start": 11.76,
+          "end": 11.9,
+          "word": " de",
+          "probability": 0.9991229176521301
+        },
+        {
+          "start": 11.9,
+          "end": 12.06,
+          "word": " ses",
+          "probability": 0.9840381145477295
+        },
+        {
+          "start": 12.06,
+          "end": 12.46,
+          "word": " griffes.",
+          "probability": 0.9990208745002747
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 13.12,
+      "end": 19.76,
+      "text": " Mais alors que tu atteins la porte, un tentacule au croc acéré encercle ton poignet et t'arrête net.",
+      "tokens": [
+        50958,
+        6313,
+        11246,
+        631,
+        2604,
+        42783,
+        1292,
+        635,
+        26658,
+        11,
+        517,
+        7054,
+        326,
+        2271,
+        1609,
+        4848,
+        66,
+        696,
+        29071,
+        465,
+        1776,
+        2160,
+        2952,
+        714,
+        788,
+        302,
+        1030,
+        256,
+        6,
+        2284,
+        12943,
+        2533,
+        13,
+        51270
+      ],
+      "avg_logprob": -0.11558845923602126,
+      "compression_ratio": 1.5924528301886793,
+      "no_speech_prob": 7.304985609468684e-12,
+      "words": [
+        {
+          "start": 13.12,
+          "end": 13.72,
+          "word": " Mais",
+          "probability": 0.9996931552886963
+        },
+        {
+          "start": 13.72,
+          "end": 13.96,
+          "word": " alors",
+          "probability": 0.9999293088912964
+        },
+        {
+          "start": 13.96,
+          "end": 14.1,
+          "word": " que",
+          "probability": 0.99997878074646
+        },
+        {
+          "start": 14.1,
+          "end": 14.26,
+          "word": " tu",
+          "probability": 0.9999427795410156
+        },
+        {
+          "start": 14.26,
+          "end": 14.52,
+          "word": " atteins",
+          "probability": 0.9734877347946167
+        },
+        {
+          "start": 14.52,
+          "end": 14.7,
+          "word": " la",
+          "probability": 0.9999029636383057
+        },
+        {
+          "start": 14.7,
+          "end": 14.98,
+          "word": " porte,",
+          "probability": 0.9998509883880615
+        },
+        {
+          "start": 15.22,
+          "end": 15.66,
+          "word": " un",
+          "probability": 0.9994373917579651
+        },
+        {
+          "start": 15.66,
+          "end": 16.38,
+          "word": " tentacule",
+          "probability": 0.9936525821685791
+        },
+        {
+          "start": 16.38,
+          "end": 16.64,
+          "word": " au",
+          "probability": 0.954346776008606
+        },
+        {
+          "start": 16.64,
+          "end": 16.94,
+          "word": " croc",
+          "probability": 0.8742218911647797
+        },
+        {
+          "start": 16.94,
+          "end": 17.44,
+          "word": " acéré",
+          "probability": 0.9777374565601349
+        },
+        {
+          "start": 17.44,
+          "end": 18.08,
+          "word": " encercle",
+          "probability": 0.9980412522951762
+        },
+        {
+          "start": 18.08,
+          "end": 18.26,
+          "word": " ton",
+          "probability": 0.9994089603424072
+        },
+        {
+          "start": 18.26,
+          "end": 18.7,
+          "word": " poignet",
+          "probability": 0.9989739060401917
+        },
+        {
+          "start": 18.7,
+          "end": 19.1,
+          "word": " et",
+          "probability": 0.9994261264801025
+        },
+        {
+          "start": 19.1,
+          "end": 19.26,
+          "word": " t",
+          "probability": 0.9986886382102966
+        },
+        {
+          "start": 19.26,
+          "end": 19.48,
+          "word": "'arrête",
+          "probability": 0.993932326634725
+        },
+        {
+          "start": 19.48,
+          "end": 19.76,
+          "word": " net.",
+          "probability": 0.9975464940071106
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 20.18,
+      "end": 23.22,
+      "text": " Avant que tu aies le temps de te tourner pour affronter le monstre,",
+      "tokens": [
+        51288,
+        44822,
+        631,
+        2604,
+        257,
+        530,
+        476,
+        8827,
+        368,
+        535,
+        3512,
+        1193,
+        2016,
+        2096,
+        2044,
+        391,
+        476,
+        1108,
+        26421,
+        11,
+        51439
+      ],
+      "avg_logprob": -0.11558845923602126,
+      "compression_ratio": 1.5924528301886793,
+      "no_speech_prob": 7.304985609468684e-12,
+      "words": [
+        {
+          "start": 20.18,
+          "end": 20.76,
+          "word": " Avant",
+          "probability": 0.9982650876045227
+        },
+        {
+          "start": 20.76,
+          "end": 20.96,
+          "word": " que",
+          "probability": 0.999908447265625
+        },
+        {
+          "start": 20.96,
+          "end": 21.1,
+          "word": " tu",
+          "probability": 0.9999057054519653
+        },
+        {
+          "start": 21.1,
+          "end": 21.2,
+          "word": " aies",
+          "probability": 0.9908457696437836
+        },
+        {
+          "start": 21.2,
+          "end": 21.32,
+          "word": " le",
+          "probability": 0.9999184608459473
+        },
+        {
+          "start": 21.32,
+          "end": 21.46,
+          "word": " temps",
+          "probability": 0.9998281002044678
+        },
+        {
+          "start": 21.46,
+          "end": 21.6,
+          "word": " de",
+          "probability": 0.9992712140083313
+        },
+        {
+          "start": 21.6,
+          "end": 21.78,
+          "word": " te",
+          "probability": 0.9993139505386353
+        },
+        {
+          "start": 21.78,
+          "end": 22.1,
+          "word": " tourner",
+          "probability": 0.9998319447040558
+        },
+        {
+          "start": 22.1,
+          "end": 22.32,
+          "word": " pour",
+          "probability": 0.9995669722557068
+        },
+        {
+          "start": 22.32,
+          "end": 22.7,
+          "word": " affronter",
+          "probability": 0.9996740619341532
+        },
+        {
+          "start": 22.7,
+          "end": 22.86,
+          "word": " le",
+          "probability": 0.9995391368865967
+        },
+        {
+          "start": 22.86,
+          "end": 23.22,
+          "word": " monstre,",
+          "probability": 0.9982267320156097
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 23.8,
+      "end": 27.0,
+      "text": " Kissandra surgit et tranche le tentacule avec son poignard.",
+      "tokens": [
+        51467,
+        591,
+        891,
+        18401,
+        19560,
+        270,
+        1030,
+        14404,
+        1876,
+        476,
+        7054,
+        326,
+        2271,
+        4163,
+        1872,
+        714,
+        788,
+        515,
+        13,
+        51629
+      ],
+      "avg_logprob": -0.11558845923602126,
+      "compression_ratio": 1.5924528301886793,
+      "no_speech_prob": 7.304985609468684e-12,
+      "words": [
+        {
+          "start": 23.8,
+          "end": 24.2,
+          "word": " Kissandra",
+          "probability": 0.6101152002811432
+        },
+        {
+          "start": 24.2,
+          "end": 24.78,
+          "word": " surgit",
+          "probability": 0.9959478974342346
+        },
+        {
+          "start": 24.78,
+          "end": 25.12,
+          "word": " et",
+          "probability": 0.999901294708252
+        },
+        {
+          "start": 25.12,
+          "end": 25.54,
+          "word": " tranche",
+          "probability": 0.993352085351944
+        },
+        {
+          "start": 25.54,
+          "end": 25.66,
+          "word": " le",
+          "probability": 0.9996032118797302
+        },
+        {
+          "start": 25.66,
+          "end": 26.16,
+          "word": " tentacule",
+          "probability": 0.9993037184079488
+        },
+        {
+          "start": 26.16,
+          "end": 26.36,
+          "word": " avec",
+          "probability": 0.9993568062782288
+        },
+        {
+          "start": 26.36,
+          "end": 26.52,
+          "word": " son",
+          "probability": 0.999782383441925
+        },
+        {
+          "start": 26.52,
+          "end": 27.0,
+          "word": " poignard.",
+          "probability": 0.9997251629829407
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 2526,
+      "start": 27.0,
+      "end": 30.3,
+      "text": " La bête éclipsante lâche un hurlement de douleur",
+      "tokens": [
+        50365,
+        2369,
+        272,
+        12943,
+        1136,
+        3474,
+        2600,
+        2879,
+        48835,
+        1876,
+        517,
+        2756,
+        3054,
+        368,
+        2482,
+        306,
+        374,
+        50531
+      ],
+      "avg_logprob": -0.1312756910920143,
+      "compression_ratio": 1.2260869565217392,
+      "no_speech_prob": 5.534400628753877e-12,
+      "words": [
+        {
+          "start": 27.0,
+          "end": 27.8,
+          "word": " La",
+          "probability": 0.8772724270820618
+        },
+        {
+          "start": 27.8,
+          "end": 28.02,
+          "word": " bête",
+          "probability": 0.9944059252738953
+        },
+        {
+          "start": 28.02,
+          "end": 28.66,
+          "word": " éclipsante",
+          "probability": 0.8749585449695587
+        },
+        {
+          "start": 28.66,
+          "end": 29.18,
+          "word": " lâche",
+          "probability": 0.9415493607521057
+        },
+        {
+          "start": 29.18,
+          "end": 29.28,
+          "word": " un",
+          "probability": 0.9995896220207214
+        },
+        {
+          "start": 29.28,
+          "end": 29.72,
+          "word": " hurlement",
+          "probability": 0.9982235729694366
+        },
+        {
+          "start": 29.72,
+          "end": 29.9,
+          "word": " de",
+          "probability": 0.9972936511039734
+        },
+        {
+          "start": 29.9,
+          "end": 30.3,
+          "word": " douleur",
+          "probability": 0.9986425439516703
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 2526,
+      "start": 30.3,
+      "end": 32.56,
+      "text": " Et libère ton poignet de son emprise",
+      "tokens": [
+        50531,
+        3790,
+        22854,
+        4212,
+        2952,
+        714,
+        788,
+        302,
+        368,
+        1872,
+        846,
+        8900,
+        50644
+      ],
+      "avg_logprob": -0.1312756910920143,
+      "compression_ratio": 1.2260869565217392,
+      "no_speech_prob": 5.534400628753877e-12,
+      "words": [
+        {
+          "start": 30.3,
+          "end": 30.82,
+          "word": " Et",
+          "probability": 0.062073804438114166
+        },
+        {
+          "start": 30.82,
+          "end": 31.26,
+          "word": " libère",
+          "probability": 0.999161422252655
+        },
+        {
+          "start": 31.26,
+          "end": 31.42,
+          "word": " ton",
+          "probability": 0.9973549842834473
+        },
+        {
+          "start": 31.42,
+          "end": 31.84,
+          "word": " poignet",
+          "probability": 0.9970964988072714
+        },
+        {
+          "start": 31.84,
+          "end": 31.94,
+          "word": " de",
+          "probability": 0.9889426231384277
+        },
+        {
+          "start": 31.94,
+          "end": 32.12,
+          "word": " son",
+          "probability": 0.999698281288147
+        },
+        {
+          "start": 32.12,
+          "end": 32.56,
+          "word": " emprise",
+          "probability": 0.9965147376060486
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 2526,
+      "start": 33.24,
+      "end": 35.54,
+      "text": " Kissandra en profite pour te pousser vers la grille",
+      "tokens": [
+        50644,
+        24297,
+        18401,
+        465,
+        1740,
+        642,
+        2016,
+        535,
+        39140,
+        12484,
+        1774,
+        635,
+        49011,
+        50794
+      ],
+      "avg_logprob": -0.1312756910920143,
+      "compression_ratio": 1.2260869565217392,
+      "no_speech_prob": 5.534400628753877e-12,
+      "words": [
+        {
+          "start": 33.24,
+          "end": 33.8,
+          "word": " Kissandra",
+          "probability": 0.6547254920005798
+        },
+        {
+          "start": 33.8,
+          "end": 34.02,
+          "word": " en",
+          "probability": 0.9997088313102722
+        },
+        {
+          "start": 34.02,
+          "end": 34.36,
+          "word": " profite",
+          "probability": 0.9992507696151733
+        },
+        {
+          "start": 34.36,
+          "end": 34.52,
+          "word": " pour",
+          "probability": 0.973680853843689
+        },
+        {
+          "start": 34.52,
+          "end": 34.66,
+          "word": " te",
+          "probability": 0.9996829032897949
+        },
+        {
+          "start": 34.66,
+          "end": 35.04,
+          "word": " pousser",
+          "probability": 0.9984469711780548
+        },
+        {
+          "start": 35.04,
+          "end": 35.18,
+          "word": " vers",
+          "probability": 0.9953029155731201
+        },
+        {
+          "start": 35.18,
+          "end": 35.34,
+          "word": " la",
+          "probability": 0.9999306201934814
+        },
+        {
+          "start": 35.34,
+          "end": 35.54,
+          "word": " grille",
+          "probability": 0.9703348875045776
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

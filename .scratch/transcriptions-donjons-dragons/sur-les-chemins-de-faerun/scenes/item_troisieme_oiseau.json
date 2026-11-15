@@ -1,0 +1,87 @@
+{
+  "scene": "item_troisieme_oiseau",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_troisieme_oiseau.mp3",
+  "sha256": "8414cce5225ea75a46ff9a6286e06cb10d5dfe8d79ddf5564729db01c661edbf",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.46425,
+  "text": "Mission secrète au château d'Eauprofonde.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.94,
+      "text": " Mission secrète au château d'Eauprofonde.",
+      "tokens": [
+        50365,
+        20170,
+        907,
+        81,
+        22279,
+        1609,
+        417,
+        33680,
+        1459,
+        274,
+        6,
+        22290,
+        1740,
+        7259,
+        13,
+        50514
+      ],
+      "avg_logprob": -0.09606050042545095,
+      "compression_ratio": 0.8979591836734694,
+      "no_speech_prob": 3.461762994316775e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.7,
+          "word": " Mission",
+          "probability": 0.9437083005905151
+        },
+        {
+          "start": 0.7,
+          "end": 1.36,
+          "word": " secrète",
+          "probability": 0.982474704583486
+        },
+        {
+          "start": 1.36,
+          "end": 1.64,
+          "word": " au",
+          "probability": 0.9813184142112732
+        },
+        {
+          "start": 1.64,
+          "end": 2.14,
+          "word": " château",
+          "probability": 0.9557037750879923
+        },
+        {
+          "start": 2.14,
+          "end": 2.26,
+          "word": " d",
+          "probability": 0.9994614720344543
+        },
+        {
+          "start": 2.26,
+          "end": 2.34,
+          "word": "'eau",
+          "probability": 0.9251862466335297
+        },
+        {
+          "start": 2.34,
+          "end": 2.94,
+          "word": " profonde.",
+          "probability": 0.9993346631526947
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,703 @@
+{
+  "scene": "A5_str_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A5_str_fail.mp3",
+  "sha256": "84188dfe814e430d0b123d8428656d177eaa16ef41dc159edc21b19c47f89132",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 28.9990625,
+  "text": "Le fermier qui a rangé ses paniers savait ce qu'il faisait. Malgré tes efforts, les paniers bougent à peine. Ce n'est pas ce qui va te tirer d'affaire. Furieux, le fermier fonce vers toi. Mais au moment où il arrive à ta hauteur, la fille lui balance une pomme sur l'arrière du crâne. Il se retourne aussitôt. Alors que les agents foncent vers toi, tu bouscules le fermier pour rejoindre la fille.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.62,
+      "end": 4.92,
+      "text": " Le fermier qui a rangé ses paniers savait ce qu'il faisait.",
+      "tokens": [
+        50365,
+        1456,
+        26558,
+        811,
+        1956,
+        257,
+        32434,
+        526,
+        5385,
+        2462,
+        4890,
+        11163,
+        1001,
+        1769,
+        421,
+        6,
+        388,
+        42795,
+        13,
+        50531
+      ],
+      "avg_logprob": -0.10813458332123647,
+      "compression_ratio": 1.575875486381323,
+      "no_speech_prob": 6.955983532230814e-12,
+      "words": [
+        {
+          "start": 1.62,
+          "end": 2.16,
+          "word": " Le",
+          "probability": 0.9609798192977905
+        },
+        {
+          "start": 2.16,
+          "end": 2.58,
+          "word": " fermier",
+          "probability": 0.999257504940033
+        },
+        {
+          "start": 2.58,
+          "end": 2.76,
+          "word": " qui",
+          "probability": 0.9994090795516968
+        },
+        {
+          "start": 2.76,
+          "end": 2.88,
+          "word": " a",
+          "probability": 0.9930181503295898
+        },
+        {
+          "start": 2.88,
+          "end": 3.16,
+          "word": " rangé",
+          "probability": 0.9987882077693939
+        },
+        {
+          "start": 3.16,
+          "end": 3.32,
+          "word": " ses",
+          "probability": 0.9710384607315063
+        },
+        {
+          "start": 3.32,
+          "end": 3.7,
+          "word": " paniers",
+          "probability": 0.9989204406738281
+        },
+        {
+          "start": 3.7,
+          "end": 4.28,
+          "word": " savait",
+          "probability": 0.9933544099330902
+        },
+        {
+          "start": 4.28,
+          "end": 4.44,
+          "word": " ce",
+          "probability": 0.9998064637184143
+        },
+        {
+          "start": 4.44,
+          "end": 4.54,
+          "word": " qu",
+          "probability": 0.9999555349349976
+        },
+        {
+          "start": 4.54,
+          "end": 4.62,
+          "word": "'il",
+          "probability": 0.9966593086719513
+        },
+        {
+          "start": 4.62,
+          "end": 4.92,
+          "word": " faisait.",
+          "probability": 0.9998268485069275
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.4,
+      "end": 7.94,
+      "text": " Malgré tes efforts, les paniers bougent à peine.",
+      "tokens": [
+        50560,
+        5746,
+        36341,
+        20018,
+        6484,
+        11,
+        1512,
+        2462,
+        4890,
+        46553,
+        317,
+        1531,
+        46655,
+        13,
+        50681
+      ],
+      "avg_logprob": -0.10813458332123647,
+      "compression_ratio": 1.575875486381323,
+      "no_speech_prob": 6.955983532230814e-12,
+      "words": [
+        {
+          "start": 5.4,
+          "end": 5.84,
+          "word": " Malgré",
+          "probability": 0.9930160343647003
+        },
+        {
+          "start": 5.84,
+          "end": 6.02,
+          "word": " tes",
+          "probability": 0.998573899269104
+        },
+        {
+          "start": 6.02,
+          "end": 6.38,
+          "word": " efforts,",
+          "probability": 0.999805748462677
+        },
+        {
+          "start": 6.72,
+          "end": 6.84,
+          "word": " les",
+          "probability": 0.9974972605705261
+        },
+        {
+          "start": 6.84,
+          "end": 7.18,
+          "word": " paniers",
+          "probability": 0.9994787275791168
+        },
+        {
+          "start": 7.18,
+          "end": 7.5,
+          "word": " bougent",
+          "probability": 0.9997021853923798
+        },
+        {
+          "start": 7.5,
+          "end": 7.68,
+          "word": " à",
+          "probability": 0.9999313354492188
+        },
+        {
+          "start": 7.68,
+          "end": 7.94,
+          "word": " peine.",
+          "probability": 0.9999638795852661
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 8.4,
+      "end": 10.36,
+      "text": " Ce n'est pas ce qui va te tirer d'affaire.",
+      "tokens": [
+        50721,
+        8257,
+        297,
+        6,
+        377,
+        1736,
+        1769,
+        1956,
+        2773,
+        535,
+        13807,
+        260,
+        274,
+        6,
+        2518,
+        9020,
+        13,
+        50803
+      ],
+      "avg_logprob": -0.10813458332123647,
+      "compression_ratio": 1.575875486381323,
+      "no_speech_prob": 6.955983532230814e-12,
+      "words": [
+        {
+          "start": 8.4,
+          "end": 8.84,
+          "word": " Ce",
+          "probability": 0.9980382323265076
+        },
+        {
+          "start": 8.84,
+          "end": 8.94,
+          "word": " n",
+          "probability": 0.9999058246612549
+        },
+        {
+          "start": 8.94,
+          "end": 9.0,
+          "word": "'est",
+          "probability": 0.9999845027923584
+        },
+        {
+          "start": 9.0,
+          "end": 9.14,
+          "word": " pas",
+          "probability": 0.9999727010726929
+        },
+        {
+          "start": 9.14,
+          "end": 9.28,
+          "word": " ce",
+          "probability": 0.9997342228889465
+        },
+        {
+          "start": 9.28,
+          "end": 9.42,
+          "word": " qui",
+          "probability": 0.9984049201011658
+        },
+        {
+          "start": 9.42,
+          "end": 9.56,
+          "word": " va",
+          "probability": 0.9999289512634277
+        },
+        {
+          "start": 9.56,
+          "end": 9.7,
+          "word": " te",
+          "probability": 0.9998093247413635
+        },
+        {
+          "start": 9.7,
+          "end": 9.96,
+          "word": " tirer",
+          "probability": 0.9994694888591766
+        },
+        {
+          "start": 9.96,
+          "end": 10.06,
+          "word": " d",
+          "probability": 0.9997954964637756
+        },
+        {
+          "start": 10.06,
+          "end": 10.36,
+          "word": "'affaire.",
+          "probability": 0.9079575538635254
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 11.84,
+      "end": 14.1,
+      "text": " Furieux, le fermier fonce vers toi.",
+      "tokens": [
+        50879,
+        11705,
+        35371,
+        11,
+        476,
+        26558,
+        811,
+        17290,
+        384,
+        1774,
+        15648,
+        13,
+        50990
+      ],
+      "avg_logprob": -0.10813458332123647,
+      "compression_ratio": 1.575875486381323,
+      "no_speech_prob": 6.955983532230814e-12,
+      "words": [
+        {
+          "start": 11.84,
+          "end": 12.28,
+          "word": " Furieux,",
+          "probability": 0.9969423711299896
+        },
+        {
+          "start": 12.5,
+          "end": 12.94,
+          "word": " le",
+          "probability": 0.9991098046302795
+        },
+        {
+          "start": 12.94,
+          "end": 13.36,
+          "word": " fermier",
+          "probability": 0.9999423623085022
+        },
+        {
+          "start": 13.36,
+          "end": 13.72,
+          "word": " fonce",
+          "probability": 0.9991762340068817
+        },
+        {
+          "start": 13.72,
+          "end": 13.88,
+          "word": " vers",
+          "probability": 0.9999351501464844
+        },
+        {
+          "start": 13.88,
+          "end": 14.1,
+          "word": " toi.",
+          "probability": 0.9995946288108826
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 14.44,
+      "end": 19.42,
+      "text": " Mais au moment où il arrive à ta hauteur, la fille lui balance une pomme sur l'arrière du crâne.",
+      "tokens": [
+        51019,
+        6313,
+        1609,
+        1623,
+        9068,
+        1930,
+        8881,
+        1531,
+        1846,
+        324,
+        42312,
+        11,
+        635,
+        39216,
+        8783,
+        4772,
+        2251,
+        280,
+        15117,
+        1022,
+        287,
+        6,
+        289,
+        22166,
+        1581,
+        941,
+        3201,
+        716,
+        13,
+        51255
+      ],
+      "avg_logprob": -0.10813458332123647,
+      "compression_ratio": 1.575875486381323,
+      "no_speech_prob": 6.955983532230814e-12,
+      "words": [
+        {
+          "start": 14.44,
+          "end": 14.88,
+          "word": " Mais",
+          "probability": 0.9986925721168518
+        },
+        {
+          "start": 14.88,
+          "end": 15.0,
+          "word": " au",
+          "probability": 0.999620795249939
+        },
+        {
+          "start": 15.0,
+          "end": 15.28,
+          "word": " moment",
+          "probability": 0.9998199343681335
+        },
+        {
+          "start": 15.28,
+          "end": 15.46,
+          "word": " où",
+          "probability": 0.9992345571517944
+        },
+        {
+          "start": 15.46,
+          "end": 15.62,
+          "word": " il",
+          "probability": 0.8819913864135742
+        },
+        {
+          "start": 15.62,
+          "end": 15.84,
+          "word": " arrive",
+          "probability": 0.9920802712440491
+        },
+        {
+          "start": 15.84,
+          "end": 15.98,
+          "word": " à",
+          "probability": 0.9999070167541504
+        },
+        {
+          "start": 15.98,
+          "end": 16.08,
+          "word": " ta",
+          "probability": 0.9981555342674255
+        },
+        {
+          "start": 16.08,
+          "end": 16.46,
+          "word": " hauteur,",
+          "probability": 0.9996636211872101
+        },
+        {
+          "start": 16.96,
+          "end": 17.18,
+          "word": " la",
+          "probability": 0.9953895807266235
+        },
+        {
+          "start": 17.18,
+          "end": 17.38,
+          "word": " fille",
+          "probability": 0.996782660484314
+        },
+        {
+          "start": 17.38,
+          "end": 17.58,
+          "word": " lui",
+          "probability": 0.9988173842430115
+        },
+        {
+          "start": 17.58,
+          "end": 17.86,
+          "word": " balance",
+          "probability": 0.9982019662857056
+        },
+        {
+          "start": 17.86,
+          "end": 18.14,
+          "word": " une",
+          "probability": 0.9999420642852783
+        },
+        {
+          "start": 18.14,
+          "end": 18.4,
+          "word": " pomme",
+          "probability": 0.9643155634403229
+        },
+        {
+          "start": 18.4,
+          "end": 18.6,
+          "word": " sur",
+          "probability": 0.9994626641273499
+        },
+        {
+          "start": 18.6,
+          "end": 18.7,
+          "word": " l",
+          "probability": 0.9992977380752563
+        },
+        {
+          "start": 18.7,
+          "end": 18.92,
+          "word": "'arrière",
+          "probability": 0.9997130632400513
+        },
+        {
+          "start": 18.92,
+          "end": 19.08,
+          "word": " du",
+          "probability": 0.9990660548210144
+        },
+        {
+          "start": 19.08,
+          "end": 19.42,
+          "word": " crâne.",
+          "probability": 0.999036947886149
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 19.6,
+      "end": 21.2,
+      "text": " Il se retourne aussitôt.",
+      "tokens": [
+        51277,
+        4416,
+        369,
+        28873,
+        716,
+        5730,
+        270,
+        8775,
+        13,
+        51343
+      ],
+      "avg_logprob": -0.10813458332123647,
+      "compression_ratio": 1.575875486381323,
+      "no_speech_prob": 6.955983532230814e-12,
+      "words": [
+        {
+          "start": 19.6,
+          "end": 19.96,
+          "word": " Il",
+          "probability": 0.998178243637085
+        },
+        {
+          "start": 19.96,
+          "end": 20.14,
+          "word": " se",
+          "probability": 0.9999536275863647
+        },
+        {
+          "start": 20.14,
+          "end": 20.6,
+          "word": " retourne",
+          "probability": 0.9999197125434875
+        },
+        {
+          "start": 20.6,
+          "end": 21.2,
+          "word": " aussitôt.",
+          "probability": 0.9996694525082906
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 22.62,
+      "end": 27.12,
+      "text": " Alors que les agents foncent vers toi, tu bouscules le fermier pour rejoindre la fille.",
+      "tokens": [
+        51412,
+        9946,
+        631,
+        1512,
+        12554,
+        17290,
+        2207,
+        1774,
+        15648,
+        11,
+        2604,
+        272,
+        563,
+        11570,
+        476,
+        26558,
+        811,
+        2016,
+        22087,
+        28786,
+        635,
+        39216,
+        13,
+        51642
+      ],
+      "avg_logprob": -0.10813458332123647,
+      "compression_ratio": 1.575875486381323,
+      "no_speech_prob": 6.955983532230814e-12,
+      "words": [
+        {
+          "start": 22.62,
+          "end": 23.06,
+          "word": " Alors",
+          "probability": 0.9537532329559326
+        },
+        {
+          "start": 23.06,
+          "end": 23.28,
+          "word": " que",
+          "probability": 0.9999510049819946
+        },
+        {
+          "start": 23.28,
+          "end": 23.46,
+          "word": " les",
+          "probability": 0.9996854066848755
+        },
+        {
+          "start": 23.46,
+          "end": 23.74,
+          "word": " agents",
+          "probability": 0.990746259689331
+        },
+        {
+          "start": 23.74,
+          "end": 24.1,
+          "word": " foncent",
+          "probability": 0.9927328824996948
+        },
+        {
+          "start": 24.1,
+          "end": 24.26,
+          "word": " vers",
+          "probability": 0.9999366998672485
+        },
+        {
+          "start": 24.26,
+          "end": 24.48,
+          "word": " toi,",
+          "probability": 0.9998698234558105
+        },
+        {
+          "start": 24.96,
+          "end": 25.1,
+          "word": " tu",
+          "probability": 0.9981921315193176
+        },
+        {
+          "start": 25.1,
+          "end": 25.56,
+          "word": " bouscules",
+          "probability": 0.9902831315994263
+        },
+        {
+          "start": 25.56,
+          "end": 25.72,
+          "word": " le",
+          "probability": 0.9991357922554016
+        },
+        {
+          "start": 25.72,
+          "end": 26.06,
+          "word": " fermier",
+          "probability": 0.9999052584171295
+        },
+        {
+          "start": 26.06,
+          "end": 26.3,
+          "word": " pour",
+          "probability": 0.9932832717895508
+        },
+        {
+          "start": 26.3,
+          "end": 26.7,
+          "word": " rejoindre",
+          "probability": 0.999355286359787
+        },
+        {
+          "start": 26.7,
+          "end": 26.92,
+          "word": " la",
+          "probability": 0.9997593760490417
+        },
+        {
+          "start": 26.92,
+          "end": 27.12,
+          "word": " fille.",
+          "probability": 0.9995740056037903
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

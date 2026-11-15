@@ -1,0 +1,36 @@
+{
+  "scene": "A46_wis_success_panorama_i",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A46_wis_success_panorama_i.mp3",
+  "sha256": "6e77f09644f12f6d97d06fdc333191ebb5268a759d57142a6d38879d3fe5c49c",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.102125,
+  "text": "et",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 0.59,
+      "text": " et",
+      "tokens": [
+        50365,
+        1030,
+        50395
+      ],
+      "avg_logprob": -0.6324859410524368,
+      "compression_ratio": 0.2,
+      "no_speech_prob": 1.3219188244040225e-10,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.59,
+          "word": " et",
+          "probability": 0.38717958331108093
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

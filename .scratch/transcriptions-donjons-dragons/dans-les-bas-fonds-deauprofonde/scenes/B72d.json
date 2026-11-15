@@ -1,0 +1,845 @@
+{
+  "scene": "B72d",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B72d.mp3",
+  "sha256": "5ab1896e781466243eb2d6309f64016a835ebe3006acc7a5423e27b9fc19e47b",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 35.999875,
+  "text": "Tu ne sais pas du tout quel est le mot de passe. Tu tentes quelque chose, mais le videur secoue la tête et te décoche un regard assassin de ses yeux fixes. Tu essaies encore quelques propositions sans conviction et sans succès. Le drachéide semble désormais avertir du regard d'autres employés tout aussi menaçants. Tu décides de partir directement plutôt que d'essayer de le contourner. Tu sors du tripot, pestant sur la sécurité du lieu. Rojenard doit aller payer grassement ces videurs. Comment trouver ce mot de passe?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.69,
+      "end": 2.93,
+      "text": " Tu ne sais pas du tout quel est le mot de passe.",
+      "tokens": [
+        50365,
+        7836,
+        408,
+        11757,
+        1736,
+        1581,
+        3486,
+        7178,
+        871,
+        476,
+        2184,
+        368,
+        14530,
+        13,
+        50478
+      ],
+      "avg_logprob": -0.09298530302476138,
+      "compression_ratio": 1.6304347826086956,
+      "no_speech_prob": 7.747109377620465e-12,
+      "words": [
+        {
+          "start": 0.69,
+          "end": 1.11,
+          "word": " Tu",
+          "probability": 0.7035790085792542
+        },
+        {
+          "start": 1.11,
+          "end": 1.23,
+          "word": " ne",
+          "probability": 0.9819763898849487
+        },
+        {
+          "start": 1.23,
+          "end": 1.43,
+          "word": " sais",
+          "probability": 0.9992966651916504
+        },
+        {
+          "start": 1.43,
+          "end": 1.65,
+          "word": " pas",
+          "probability": 0.9998441934585571
+        },
+        {
+          "start": 1.65,
+          "end": 1.87,
+          "word": " du",
+          "probability": 0.9996558427810669
+        },
+        {
+          "start": 1.87,
+          "end": 2.01,
+          "word": " tout",
+          "probability": 0.9999392032623291
+        },
+        {
+          "start": 2.01,
+          "end": 2.19,
+          "word": " quel",
+          "probability": 0.9987115859985352
+        },
+        {
+          "start": 2.19,
+          "end": 2.31,
+          "word": " est",
+          "probability": 0.9999767541885376
+        },
+        {
+          "start": 2.31,
+          "end": 2.41,
+          "word": " le",
+          "probability": 0.9999384880065918
+        },
+        {
+          "start": 2.41,
+          "end": 2.55,
+          "word": " mot",
+          "probability": 0.9998316764831543
+        },
+        {
+          "start": 2.55,
+          "end": 2.65,
+          "word": " de",
+          "probability": 0.9998050332069397
+        },
+        {
+          "start": 2.65,
+          "end": 2.93,
+          "word": " passe.",
+          "probability": 0.9991033673286438
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.21,
+      "end": 6.61,
+      "text": " Tu tentes quelque chose, mais le videur secoue la tête",
+      "tokens": [
+        50505,
+        7836,
+        7054,
+        279,
+        14448,
+        5111,
+        11,
+        2420,
+        476,
+        838,
+        374,
+        907,
+        41785,
+        635,
+        24661,
+        50661
+      ],
+      "avg_logprob": -0.09298530302476138,
+      "compression_ratio": 1.6304347826086956,
+      "no_speech_prob": 7.747109377620465e-12,
+      "words": [
+        {
+          "start": 3.21,
+          "end": 3.59,
+          "word": " Tu",
+          "probability": 0.997723400592804
+        },
+        {
+          "start": 3.59,
+          "end": 3.87,
+          "word": " tentes",
+          "probability": 0.9858646392822266
+        },
+        {
+          "start": 3.87,
+          "end": 4.09,
+          "word": " quelque",
+          "probability": 0.9994230270385742
+        },
+        {
+          "start": 4.09,
+          "end": 4.51,
+          "word": " chose,",
+          "probability": 0.9999790191650391
+        },
+        {
+          "start": 4.67,
+          "end": 5.17,
+          "word": " mais",
+          "probability": 0.9995526671409607
+        },
+        {
+          "start": 5.17,
+          "end": 5.37,
+          "word": " le",
+          "probability": 0.9992535710334778
+        },
+        {
+          "start": 5.37,
+          "end": 5.75,
+          "word": " videur",
+          "probability": 0.9794819056987762
+        },
+        {
+          "start": 5.75,
+          "end": 6.17,
+          "word": " secoue",
+          "probability": 0.9992544054985046
+        },
+        {
+          "start": 6.17,
+          "end": 6.31,
+          "word": " la",
+          "probability": 0.999915599822998
+        },
+        {
+          "start": 6.31,
+          "end": 6.61,
+          "word": " tête",
+          "probability": 0.999947190284729
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 6.61,
+      "end": 9.55,
+      "text": " et te décoche un regard assassin de ses yeux fixes.",
+      "tokens": [
+        50661,
+        1030,
+        535,
+        2795,
+        1291,
+        1876,
+        517,
+        3843,
+        36294,
+        368,
+        5385,
+        36163,
+        32539,
+        13,
+        50810
+      ],
+      "avg_logprob": -0.09298530302476138,
+      "compression_ratio": 1.6304347826086956,
+      "no_speech_prob": 7.747109377620465e-12,
+      "words": [
+        {
+          "start": 6.61,
+          "end": 6.79,
+          "word": " et",
+          "probability": 0.999607264995575
+        },
+        {
+          "start": 6.79,
+          "end": 6.99,
+          "word": " te",
+          "probability": 0.9994933605194092
+        },
+        {
+          "start": 6.99,
+          "end": 7.49,
+          "word": " décoche",
+          "probability": 0.9997503161430359
+        },
+        {
+          "start": 7.49,
+          "end": 7.67,
+          "word": " un",
+          "probability": 0.9996618032455444
+        },
+        {
+          "start": 7.67,
+          "end": 8.03,
+          "word": " regard",
+          "probability": 0.9998313188552856
+        },
+        {
+          "start": 8.03,
+          "end": 8.69,
+          "word": " assassin",
+          "probability": 0.9977721571922302
+        },
+        {
+          "start": 8.69,
+          "end": 8.89,
+          "word": " de",
+          "probability": 0.9997997879981995
+        },
+        {
+          "start": 8.89,
+          "end": 9.07,
+          "word": " ses",
+          "probability": 0.9976267218589783
+        },
+        {
+          "start": 9.07,
+          "end": 9.25,
+          "word": " yeux",
+          "probability": 0.9999327659606934
+        },
+        {
+          "start": 9.25,
+          "end": 9.55,
+          "word": " fixes.",
+          "probability": 0.9931400418281555
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 9.89,
+      "end": 14.73,
+      "text": " Tu essaies encore quelques propositions sans conviction et sans succès.",
+      "tokens": [
+        50843,
+        7836,
+        7208,
+        530,
+        10122,
+        16597,
+        7532,
+        2451,
+        12177,
+        24837,
+        1030,
+        12177,
+        21578,
+        3645,
+        13,
+        51068
+      ],
+      "avg_logprob": -0.09298530302476138,
+      "compression_ratio": 1.6304347826086956,
+      "no_speech_prob": 7.747109377620465e-12,
+      "words": [
+        {
+          "start": 9.89,
+          "end": 10.37,
+          "word": " Tu",
+          "probability": 0.9990293979644775
+        },
+        {
+          "start": 10.37,
+          "end": 10.69,
+          "word": " essaies",
+          "probability": 0.9468590021133423
+        },
+        {
+          "start": 10.69,
+          "end": 11.05,
+          "word": " encore",
+          "probability": 0.9999604225158691
+        },
+        {
+          "start": 11.05,
+          "end": 11.43,
+          "word": " quelques",
+          "probability": 0.9991982579231262
+        },
+        {
+          "start": 11.43,
+          "end": 12.23,
+          "word": " propositions",
+          "probability": 0.9998376667499542
+        },
+        {
+          "start": 12.23,
+          "end": 12.57,
+          "word": " sans",
+          "probability": 0.999085545539856
+        },
+        {
+          "start": 12.57,
+          "end": 13.09,
+          "word": " conviction",
+          "probability": 0.9996498823165894
+        },
+        {
+          "start": 13.09,
+          "end": 13.87,
+          "word": " et",
+          "probability": 0.9887791872024536
+        },
+        {
+          "start": 13.87,
+          "end": 14.31,
+          "word": " sans",
+          "probability": 0.9998960494995117
+        },
+        {
+          "start": 14.31,
+          "end": 14.73,
+          "word": " succès.",
+          "probability": 0.9999260902404785
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 15.13,
+      "end": 20.63,
+      "text": " Le drachéide semble désormais avertir du regard d'autres employés tout aussi menaçants.",
+      "tokens": [
+        51106,
+        1456,
+        1224,
+        608,
+        526,
+        482,
+        38328,
+        18963,
+        687,
+        1527,
+        257,
+        3281,
+        347,
+        1581,
+        3843,
+        274,
+        6,
+        16752,
+        3188,
+        2191,
+        3486,
+        6212,
+        1706,
+        64,
+        1138,
+        1719,
+        13,
+        51363
+      ],
+      "avg_logprob": -0.09298530302476138,
+      "compression_ratio": 1.6304347826086956,
+      "no_speech_prob": 7.747109377620465e-12,
+      "words": [
+        {
+          "start": 15.13,
+          "end": 15.61,
+          "word": " Le",
+          "probability": 0.9990691542625427
+        },
+        {
+          "start": 15.61,
+          "end": 16.27,
+          "word": " drachéide",
+          "probability": 0.7504396289587021
+        },
+        {
+          "start": 16.27,
+          "end": 16.71,
+          "word": " semble",
+          "probability": 0.999852180480957
+        },
+        {
+          "start": 16.71,
+          "end": 17.33,
+          "word": " désormais",
+          "probability": 0.99971471230189
+        },
+        {
+          "start": 17.33,
+          "end": 17.93,
+          "word": " avertir",
+          "probability": 0.9998721480369568
+        },
+        {
+          "start": 17.93,
+          "end": 18.09,
+          "word": " du",
+          "probability": 0.9980582594871521
+        },
+        {
+          "start": 18.09,
+          "end": 18.53,
+          "word": " regard",
+          "probability": 0.9997933506965637
+        },
+        {
+          "start": 18.53,
+          "end": 18.81,
+          "word": " d",
+          "probability": 0.9998770952224731
+        },
+        {
+          "start": 18.81,
+          "end": 19.01,
+          "word": "'autres",
+          "probability": 0.9999002516269684
+        },
+        {
+          "start": 19.01,
+          "end": 19.61,
+          "word": " employés",
+          "probability": 0.9990266561508179
+        },
+        {
+          "start": 19.61,
+          "end": 19.85,
+          "word": " tout",
+          "probability": 0.9990166425704956
+        },
+        {
+          "start": 19.85,
+          "end": 20.15,
+          "word": " aussi",
+          "probability": 0.9998247027397156
+        },
+        {
+          "start": 20.15,
+          "end": 20.63,
+          "word": " menaçants.",
+          "probability": 0.9962002336978912
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 21.07,
+      "end": 24.79,
+      "text": " Tu décides de partir directement plutôt que d'essayer de le contourner.",
+      "tokens": [
+        51401,
+        7836,
+        9198,
+        1875,
+        368,
+        13906,
+        37297,
+        20856,
+        631,
+        274,
+        6,
+        442,
+        11167,
+        368,
+        476,
+        21234,
+        1193,
+        13,
+        51570
+      ],
+      "avg_logprob": -0.09298530302476138,
+      "compression_ratio": 1.6304347826086956,
+      "no_speech_prob": 7.747109377620465e-12,
+      "words": [
+        {
+          "start": 21.07,
+          "end": 21.51,
+          "word": " Tu",
+          "probability": 0.9988779425621033
+        },
+        {
+          "start": 21.51,
+          "end": 21.91,
+          "word": " décides",
+          "probability": 0.9992966055870056
+        },
+        {
+          "start": 21.91,
+          "end": 22.07,
+          "word": " de",
+          "probability": 0.9998339414596558
+        },
+        {
+          "start": 22.07,
+          "end": 22.39,
+          "word": " partir",
+          "probability": 0.9995860457420349
+        },
+        {
+          "start": 22.39,
+          "end": 23.05,
+          "word": " directement",
+          "probability": 0.9994369149208069
+        },
+        {
+          "start": 23.05,
+          "end": 23.45,
+          "word": " plutôt",
+          "probability": 0.9887340068817139
+        },
+        {
+          "start": 23.45,
+          "end": 23.63,
+          "word": " que",
+          "probability": 0.999945878982544
+        },
+        {
+          "start": 23.63,
+          "end": 23.77,
+          "word": " d",
+          "probability": 0.999930739402771
+        },
+        {
+          "start": 23.77,
+          "end": 24.05,
+          "word": "'essayer",
+          "probability": 0.9998916983604431
+        },
+        {
+          "start": 24.05,
+          "end": 24.21,
+          "word": " de",
+          "probability": 0.9999580383300781
+        },
+        {
+          "start": 24.21,
+          "end": 24.33,
+          "word": " le",
+          "probability": 0.9998257756233215
+        },
+        {
+          "start": 24.33,
+          "end": 24.79,
+          "word": " contourner.",
+          "probability": 0.9998964071273804
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 25.17,
+      "end": 28.59,
+      "text": " Tu sors du tripot, pestant sur la sécurité du lieu.",
+      "tokens": [
+        51612,
+        7836,
+        262,
+        830,
+        1581,
+        4931,
+        310,
+        11,
+        31068,
+        394,
+        1022,
+        635,
+        37600,
+        1581,
+        26036,
+        13,
+        51760
+      ],
+      "avg_logprob": -0.09298530302476138,
+      "compression_ratio": 1.6304347826086956,
+      "no_speech_prob": 7.747109377620465e-12,
+      "words": [
+        {
+          "start": 25.17,
+          "end": 25.79,
+          "word": " Tu",
+          "probability": 0.9987016916275024
+        },
+        {
+          "start": 25.79,
+          "end": 26.09,
+          "word": " sors",
+          "probability": 0.9984199404716492
+        },
+        {
+          "start": 26.09,
+          "end": 26.23,
+          "word": " du",
+          "probability": 0.9999692440032959
+        },
+        {
+          "start": 26.23,
+          "end": 26.69,
+          "word": " tripot,",
+          "probability": 0.8702789843082428
+        },
+        {
+          "start": 27.03,
+          "end": 27.37,
+          "word": " pestant",
+          "probability": 0.9900955259799957
+        },
+        {
+          "start": 27.37,
+          "end": 27.55,
+          "word": " sur",
+          "probability": 0.9998620748519897
+        },
+        {
+          "start": 27.55,
+          "end": 27.69,
+          "word": " la",
+          "probability": 0.9998806715011597
+        },
+        {
+          "start": 27.69,
+          "end": 28.17,
+          "word": " sécurité",
+          "probability": 0.9998310804367065
+        },
+        {
+          "start": 28.17,
+          "end": 28.37,
+          "word": " du",
+          "probability": 0.9994962215423584
+        },
+        {
+          "start": 28.37,
+          "end": 28.59,
+          "word": " lieu.",
+          "probability": 0.9994295239448547
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 2790,
+      "start": 29.37,
+      "end": 31.55,
+      "text": " Rojenard doit aller payer grassement ces videurs.",
+      "tokens": [
+        50411,
+        3101,
+        73,
+        20062,
+        19193,
+        8722,
+        38230,
+        677,
+        8604,
+        518,
+        7879,
+        838,
+        2156,
+        13,
+        50513
+      ],
+      "avg_logprob": -0.356934814453125,
+      "compression_ratio": 1.0125,
+      "no_speech_prob": 4.978707550395978e-12,
+      "words": [
+        {
+          "start": 29.37,
+          "end": 29.89,
+          "word": " Rojenard",
+          "probability": 0.6389215886592865
+        },
+        {
+          "start": 29.89,
+          "end": 30.07,
+          "word": " doit",
+          "probability": 0.9986070990562439
+        },
+        {
+          "start": 30.07,
+          "end": 30.21,
+          "word": " aller",
+          "probability": 0.38066449761390686
+        },
+        {
+          "start": 30.21,
+          "end": 30.45,
+          "word": " payer",
+          "probability": 0.9102727770805359
+        },
+        {
+          "start": 30.45,
+          "end": 30.99,
+          "word": " grassement",
+          "probability": 0.9892330567042033
+        },
+        {
+          "start": 30.99,
+          "end": 31.15,
+          "word": " ces",
+          "probability": 0.7348250150680542
+        },
+        {
+          "start": 31.15,
+          "end": 31.55,
+          "word": " videurs.",
+          "probability": 0.9837716817855835
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2790,
+      "start": 32.03,
+      "end": 34.13,
+      "text": " Comment trouver ce mot de passe?",
+      "tokens": [
+        50553,
+        16328,
+        23546,
+        1769,
+        2184,
+        368,
+        14530,
+        2506,
+        50647
+      ],
+      "avg_logprob": -0.356934814453125,
+      "compression_ratio": 1.0125,
+      "no_speech_prob": 4.978707550395978e-12,
+      "words": [
+        {
+          "start": 32.03,
+          "end": 32.55,
+          "word": " Comment",
+          "probability": 0.9947792291641235
+        },
+        {
+          "start": 32.55,
+          "end": 33.03,
+          "word": " trouver",
+          "probability": 0.9994199275970459
+        },
+        {
+          "start": 33.03,
+          "end": 33.31,
+          "word": " ce",
+          "probability": 0.9992805123329163
+        },
+        {
+          "start": 33.31,
+          "end": 33.47,
+          "word": " mot",
+          "probability": 0.9983158111572266
+        },
+        {
+          "start": 33.47,
+          "end": 33.59,
+          "word": " de",
+          "probability": 0.9996706247329712
+        },
+        {
+          "start": 33.59,
+          "end": 33.93,
+          "word": " passe",
+          "probability": 0.9973684549331665
+        },
+        {
+          "start": 33.93,
+          "end": 34.13,
+          "word": "?",
+          "probability": 0.9902989864349365
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "scene": "A3a_str_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A3a_str_fail.mp3",
+  "sha256": "b7fe80a32a0f9da29ce3a466cb27540c219fd060a885263e836d4f54a9d6dfbd",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 24.4173125,
+  "text": "D'un bond, il esquive le coup, et tu le rates complètement. Mais son saut lui fait perdre l'équilibre, et il trébuche vers l'arrière, en te lançant un regard assassin. Pendant qu'il te hurle dessus, tu attrapes la fille par la main pour t'enfuir avec elle. Elle n'hésite pas un instant à te suivre.",
+  "review": [
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.39,
+      "end": 5.09,
+      "text": " D'un bond, il esquive le coup, et tu le rates complètement.",
+      "tokens": [
+        50365,
+        413,
+        6,
+        409,
+        6086,
+        11,
+        1930,
+        34611,
+        488,
+        476,
+        1384,
+        11,
+        1030,
+        2604,
+        476,
+        6846,
+        31331,
+        13,
+        50551
+      ],
+      "avg_logprob": -0.1236280124596875,
+      "compression_ratio": 1.4407582938388626,
+      "no_speech_prob": 9.701234607306652e-12,
+      "words": [
+        {
+          "start": 1.39,
+          "end": 1.85,
+          "word": " D",
+          "probability": 0.9955540299415588
+        },
+        {
+          "start": 1.85,
+          "end": 1.97,
+          "word": "'un",
+          "probability": 0.99959796667099
+        },
+        {
+          "start": 1.97,
+          "end": 2.15,
+          "word": " bond,",
+          "probability": 0.8968394994735718
+        },
+        {
+          "start": 2.51,
+          "end": 2.59,
+          "word": " il",
+          "probability": 0.9989080429077148
+        },
+        {
+          "start": 2.59,
+          "end": 3.03,
+          "word": " esquive",
+          "probability": 0.9987780153751373
+        },
+        {
+          "start": 3.03,
+          "end": 3.17,
+          "word": " le",
+          "probability": 0.9999033212661743
+        },
+        {
+          "start": 3.17,
+          "end": 3.35,
+          "word": " cou,",
+          "probability": 0.6077572107315063
+        },
+        {
+          "start": 3.57,
+          "end": 3.95,
+          "word": " et",
+          "probability": 0.9998083710670471
+        },
+        {
+          "start": 3.95,
+          "end": 4.11,
+          "word": " tu",
+          "probability": 0.9998877048492432
+        },
+        {
+          "start": 4.11,
+          "end": 4.23,
+          "word": " le",
+          "probability": 0.9997122883796692
+        },
+        {
+          "start": 4.23,
+          "end": 4.47,
+          "word": " rates",
+          "probability": 0.9709930419921875
+        },
+        {
+          "start": 4.47,
+          "end": 5.09,
+          "word": " complètement.",
+          "probability": 0.9992685914039612
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.55,
+      "end": 11.91,
+      "text": " Mais son saut lui fait perdre l'équilibre, et il trébuche vers l'arrière, en te lançant un regard assassin.",
+      "tokens": [
+        50574,
+        6313,
+        1872,
+        601,
+        325,
+        8783,
+        3887,
+        46254,
+        287,
+        6,
+        20183,
+        12722,
+        265,
+        11,
+        1030,
+        1930,
+        504,
+        526,
+        65,
+        17545,
+        1774,
+        287,
+        6,
+        289,
+        22166,
+        11,
+        465,
+        535,
+        36251,
+        394,
+        517,
+        3843,
+        36294,
+        13,
+        50893
+      ],
+      "avg_logprob": -0.1236280124596875,
+      "compression_ratio": 1.4407582938388626,
+      "no_speech_prob": 9.701234607306652e-12,
+      "words": [
+        {
+          "start": 5.55,
+          "end": 5.99,
+          "word": " Mais",
+          "probability": 0.9996218681335449
+        },
+        {
+          "start": 5.99,
+          "end": 6.17,
+          "word": " son",
+          "probability": 0.9989144802093506
+        },
+        {
+          "start": 6.17,
+          "end": 6.39,
+          "word": " saut",
+          "probability": 0.7356539368629456
+        },
+        {
+          "start": 6.39,
+          "end": 6.55,
+          "word": " lui",
+          "probability": 0.9986282587051392
+        },
+        {
+          "start": 6.55,
+          "end": 6.69,
+          "word": " fait",
+          "probability": 0.9997547268867493
+        },
+        {
+          "start": 6.69,
+          "end": 6.99,
+          "word": " perdre",
+          "probability": 0.9999494552612305
+        },
+        {
+          "start": 6.99,
+          "end": 7.13,
+          "word": " l",
+          "probability": 0.9999265670776367
+        },
+        {
+          "start": 7.13,
+          "end": 7.65,
+          "word": "'équilibre,",
+          "probability": 0.9998087137937546
+        },
+        {
+          "start": 7.69,
+          "end": 8.09,
+          "word": " et",
+          "probability": 0.9998549222946167
+        },
+        {
+          "start": 8.09,
+          "end": 8.31,
+          "word": " il",
+          "probability": 0.9987911581993103
+        },
+        {
+          "start": 8.31,
+          "end": 8.69,
+          "word": " trébuche",
+          "probability": 0.9835633784532547
+        },
+        {
+          "start": 8.69,
+          "end": 8.87,
+          "word": " vers",
+          "probability": 0.9999179840087891
+        },
+        {
+          "start": 8.87,
+          "end": 8.99,
+          "word": " l",
+          "probability": 0.9999904632568359
+        },
+        {
+          "start": 8.99,
+          "end": 9.31,
+          "word": "'arrière,",
+          "probability": 0.9998897314071655
+        },
+        {
+          "start": 9.49,
+          "end": 9.77,
+          "word": " en",
+          "probability": 0.9997697472572327
+        },
+        {
+          "start": 9.77,
+          "end": 9.97,
+          "word": " te",
+          "probability": 0.9999856948852539
+        },
+        {
+          "start": 9.97,
+          "end": 10.49,
+          "word": " lançant",
+          "probability": 0.9991353154182434
+        },
+        {
+          "start": 10.49,
+          "end": 10.73,
+          "word": " un",
+          "probability": 0.99994957447052
+        },
+        {
+          "start": 10.73,
+          "end": 11.21,
+          "word": " regard",
+          "probability": 0.9998074173927307
+        },
+        {
+          "start": 11.21,
+          "end": 11.91,
+          "word": " assassin.",
+          "probability": 0.9890002608299255
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 14.39,
+      "end": 18.51,
+      "text": " Pendant qu'il te hurle dessus, tu attrapes la fille par la main pour t'enfuir avec elle.",
+      "tokens": [
+        51017,
+        38048,
+        394,
+        421,
+        6,
+        388,
+        535,
+        2756,
+        306,
+        30677,
+        11,
+        2604,
+        951,
+        4007,
+        279,
+        635,
+        39216,
+        971,
+        635,
+        2135,
+        2016,
+        256,
+        6,
+        268,
+        14127,
+        347,
+        4163,
+        8404,
+        13,
+        51222
+      ],
+      "avg_logprob": -0.1236280124596875,
+      "compression_ratio": 1.4407582938388626,
+      "no_speech_prob": 9.701234607306652e-12,
+      "words": [
+        {
+          "start": 14.39,
+          "end": 14.83,
+          "word": " Pendant",
+          "probability": 0.6462987661361694
+        },
+        {
+          "start": 14.83,
+          "end": 14.95,
+          "word": " qu",
+          "probability": 0.999900221824646
+        },
+        {
+          "start": 14.95,
+          "end": 15.03,
+          "word": "'il",
+          "probability": 0.99791619181633
+        },
+        {
+          "start": 15.03,
+          "end": 15.17,
+          "word": " te",
+          "probability": 0.9999538660049438
+        },
+        {
+          "start": 15.17,
+          "end": 15.45,
+          "word": " hurle",
+          "probability": 0.9995339810848236
+        },
+        {
+          "start": 15.45,
+          "end": 15.75,
+          "word": " dessus,",
+          "probability": 0.9997182488441467
+        },
+        {
+          "start": 16.09,
+          "end": 16.37,
+          "word": " tu",
+          "probability": 0.9998382329940796
+        },
+        {
+          "start": 16.37,
+          "end": 16.75,
+          "word": " attrapes",
+          "probability": 0.9623294075330099
+        },
+        {
+          "start": 16.75,
+          "end": 16.87,
+          "word": " la",
+          "probability": 0.9975147247314453
+        },
+        {
+          "start": 16.87,
+          "end": 17.03,
+          "word": " fille",
+          "probability": 0.9996064305305481
+        },
+        {
+          "start": 17.03,
+          "end": 17.21,
+          "word": " par",
+          "probability": 0.9998964071273804
+        },
+        {
+          "start": 17.21,
+          "end": 17.33,
+          "word": " la",
+          "probability": 0.9999545812606812
+        },
+        {
+          "start": 17.33,
+          "end": 17.47,
+          "word": " main",
+          "probability": 0.9998791217803955
+        },
+        {
+          "start": 17.47,
+          "end": 17.69,
+          "word": " pour",
+          "probability": 0.9993842840194702
+        },
+        {
+          "start": 17.69,
+          "end": 17.81,
+          "word": " t",
+          "probability": 0.9941301941871643
+        },
+        {
+          "start": 17.81,
+          "end": 18.09,
+          "word": "'enfuir",
+          "probability": 0.9915430098772049
+        },
+        {
+          "start": 18.09,
+          "end": 18.29,
+          "word": " avec",
+          "probability": 0.9997184872627258
+        },
+        {
+          "start": 18.29,
+          "end": 18.51,
+          "word": " elle.",
+          "probability": 0.9998080134391785
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 18.85,
+      "end": 20.95,
+      "text": " Elle n'hésite pas un instant à te suivre.",
+      "tokens": [
+        51253,
+        16227,
+        297,
+        6,
+        34913,
+        642,
+        1736,
+        517,
+        9836,
+        1531,
+        535,
+        43404,
+        13,
+        51343
+      ],
+      "avg_logprob": -0.1236280124596875,
+      "compression_ratio": 1.4407582938388626,
+      "no_speech_prob": 9.701234607306652e-12,
+      "words": [
+        {
+          "start": 18.85,
+          "end": 19.29,
+          "word": " Elle",
+          "probability": 0.9992383718490601
+        },
+        {
+          "start": 19.29,
+          "end": 19.41,
+          "word": " n",
+          "probability": 0.999954104423523
+        },
+        {
+          "start": 19.41,
+          "end": 19.67,
+          "word": "'hésite",
+          "probability": 0.9997421701749166
+        },
+        {
+          "start": 19.67,
+          "end": 19.81,
+          "word": " pas",
+          "probability": 0.9999798536300659
+        },
+        {
+          "start": 19.81,
+          "end": 20.07,
+          "word": " un",
+          "probability": 0.9998260140419006
+        },
+        {
+          "start": 20.07,
+          "end": 20.39,
+          "word": " instant",
+          "probability": 0.999908447265625
+        },
+        {
+          "start": 20.39,
+          "end": 20.53,
+          "word": " à",
+          "probability": 0.9999686479568481
+        },
+        {
+          "start": 20.53,
+          "end": 20.65,
+          "word": " te",
+          "probability": 0.9997074007987976
+        },
+        {
+          "start": 20.65,
+          "end": 20.95,
+          "word": " suivre.",
+          "probability": 0.9999089241027832
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

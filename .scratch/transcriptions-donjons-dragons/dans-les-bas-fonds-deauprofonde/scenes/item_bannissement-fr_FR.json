@@ -1,0 +1,158 @@
+{
+  "scene": "item_bannissement-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_bannissement-fr_FR.mp3",
+  "sha256": "862656a146c7b76d06c1d21d91ee1c28bfd9e01d3c3b2351023f632af3c9592a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 5.663875,
+  "text": "shippé dans le coffre de la banque. Un sort pareil, ça ne se refuse pas.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 2.08,
+      "text": " shippé dans le coffre de la banque.",
+      "tokens": [
+        50388,
+        402,
+        2488,
+        526,
+        2680,
+        476,
+        24768,
+        265,
+        368,
+        635,
+        5643,
+        1077,
+        13,
+        50469
+      ],
+      "avg_logprob": -0.1741851700676812,
+      "compression_ratio": 0.9866666666666667,
+      "no_speech_prob": 7.2060486917824296e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.84,
+          "word": " shippé",
+          "probability": 0.5970623244841894
+        },
+        {
+          "start": 0.84,
+          "end": 0.96,
+          "word": " dans",
+          "probability": 0.9995453953742981
+        },
+        {
+          "start": 0.96,
+          "end": 1.1,
+          "word": " le",
+          "probability": 0.9998570680618286
+        },
+        {
+          "start": 1.1,
+          "end": 1.48,
+          "word": " coffre",
+          "probability": 0.9996843338012695
+        },
+        {
+          "start": 1.48,
+          "end": 1.6,
+          "word": " de",
+          "probability": 0.9998539686203003
+        },
+        {
+          "start": 1.6,
+          "end": 1.72,
+          "word": " la",
+          "probability": 0.9998704195022583
+        },
+        {
+          "start": 1.72,
+          "end": 2.08,
+          "word": " banque.",
+          "probability": 0.9997337758541107
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 2.32,
+      "end": 4.68,
+      "text": " Un sort pareil, ça ne se refuse pas.",
+      "tokens": [
+        50495,
+        1156,
+        1333,
+        46020,
+        11,
+        2788,
+        408,
+        369,
+        16791,
+        1736,
+        13,
+        50599
+      ],
+      "avg_logprob": -0.1741851700676812,
+      "compression_ratio": 0.9866666666666667,
+      "no_speech_prob": 7.2060486917824296e-12,
+      "words": [
+        {
+          "start": 2.32,
+          "end": 2.76,
+          "word": " Un",
+          "probability": 0.9857680201530457
+        },
+        {
+          "start": 2.76,
+          "end": 3.02,
+          "word": " sort",
+          "probability": 0.9985997080802917
+        },
+        {
+          "start": 3.02,
+          "end": 3.4,
+          "word": " pareil,",
+          "probability": 0.9970955848693848
+        },
+        {
+          "start": 3.64,
+          "end": 3.92,
+          "word": " ça",
+          "probability": 0.9996769428253174
+        },
+        {
+          "start": 3.92,
+          "end": 4.02,
+          "word": " ne",
+          "probability": 0.9997754693031311
+        },
+        {
+          "start": 4.02,
+          "end": 4.18,
+          "word": " se",
+          "probability": 0.9999700784683228
+        },
+        {
+          "start": 4.18,
+          "end": 4.46,
+          "word": " refuse",
+          "probability": 0.999255359172821
+        },
+        {
+          "start": 4.46,
+          "end": 4.68,
+          "word": " pas.",
+          "probability": 0.9999808073043823
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

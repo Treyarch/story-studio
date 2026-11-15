@@ -1,0 +1,407 @@
+{
+  "scene": "B45_barde_guerrier_rodeur",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B45_barde_guerrier_rodeur.mp3",
+  "sha256": "f3d1d07ac698f635a7e75f0ac02e91fb0f523fe913b1081313bd7d2d6f308349",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 19.2695625,
+  "text": "Tu te raidis, respires un grand coup et passes à l'attaque. Tu tires ton épée et charges, frappant la mimique avec ta lame. La porte rugit, ses crocs claquent. Une langue immense apparaît et se tortille devant toi, prête à t'affronter.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.17,
+      "end": 5.09,
+      "text": " Tu te raidis, respires un grand coup et passes à l'attaque.",
+      "tokens": [
+        50365,
+        7836,
+        535,
+        26936,
+        271,
+        11,
+        1597,
+        3145,
+        517,
+        2697,
+        8682,
+        1030,
+        11335,
+        1531,
+        287,
+        6,
+        18405,
+        1077,
+        13,
+        50562
+      ],
+      "avg_logprob": -0.10095453577545974,
+      "compression_ratio": 1.3615819209039548,
+      "no_speech_prob": 6.914328484763921e-12,
+      "words": [
+        {
+          "start": 1.17,
+          "end": 1.65,
+          "word": " Tu",
+          "probability": 0.9751096367835999
+        },
+        {
+          "start": 1.65,
+          "end": 1.87,
+          "word": " te",
+          "probability": 0.9972986578941345
+        },
+        {
+          "start": 1.87,
+          "end": 2.21,
+          "word": " raidis,",
+          "probability": 0.5388779044151306
+        },
+        {
+          "start": 2.67,
+          "end": 3.09,
+          "word": " respires",
+          "probability": 0.8085990846157074
+        },
+        {
+          "start": 3.09,
+          "end": 3.31,
+          "word": " un",
+          "probability": 0.9991219639778137
+        },
+        {
+          "start": 3.31,
+          "end": 3.55,
+          "word": " grand",
+          "probability": 0.999711811542511
+        },
+        {
+          "start": 3.55,
+          "end": 3.79,
+          "word": " coup",
+          "probability": 0.9920096397399902
+        },
+        {
+          "start": 3.79,
+          "end": 4.21,
+          "word": " et",
+          "probability": 0.959402859210968
+        },
+        {
+          "start": 4.21,
+          "end": 4.55,
+          "word": " passes",
+          "probability": 0.9481792449951172
+        },
+        {
+          "start": 4.55,
+          "end": 4.67,
+          "word": " à",
+          "probability": 0.999725878238678
+        },
+        {
+          "start": 4.67,
+          "end": 4.73,
+          "word": " l",
+          "probability": 0.9991175532341003
+        },
+        {
+          "start": 4.73,
+          "end": 5.09,
+          "word": "'attaque.",
+          "probability": 0.9998070995012919
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.39,
+      "end": 9.35,
+      "text": " Tu tires ton épée et charges, frappant la mimique avec ta lame.",
+      "tokens": [
+        50596,
+        7836,
+        13885,
+        2952,
+        21018,
+        3856,
+        1030,
+        12235,
+        11,
+        6600,
+        427,
+        394,
+        635,
+        12247,
+        1925,
+        4163,
+        1846,
+        27635,
+        13,
+        50775
+      ],
+      "avg_logprob": -0.10095453577545974,
+      "compression_ratio": 1.3615819209039548,
+      "no_speech_prob": 6.914328484763921e-12,
+      "words": [
+        {
+          "start": 5.39,
+          "end": 5.95,
+          "word": " Tu",
+          "probability": 0.9993988275527954
+        },
+        {
+          "start": 5.95,
+          "end": 6.23,
+          "word": " tires",
+          "probability": 0.9945335388183594
+        },
+        {
+          "start": 6.23,
+          "end": 6.43,
+          "word": " ton",
+          "probability": 0.999661922454834
+        },
+        {
+          "start": 6.43,
+          "end": 6.75,
+          "word": " épée",
+          "probability": 0.9986952245235443
+        },
+        {
+          "start": 6.75,
+          "end": 6.97,
+          "word": " et",
+          "probability": 0.9999066591262817
+        },
+        {
+          "start": 6.97,
+          "end": 7.35,
+          "word": " charges,",
+          "probability": 0.9722943902015686
+        },
+        {
+          "start": 7.77,
+          "end": 8.07,
+          "word": " frappant",
+          "probability": 0.9996904333432516
+        },
+        {
+          "start": 8.07,
+          "end": 8.19,
+          "word": " la",
+          "probability": 0.9997047781944275
+        },
+        {
+          "start": 8.19,
+          "end": 8.61,
+          "word": " mimique",
+          "probability": 0.971833735704422
+        },
+        {
+          "start": 8.61,
+          "end": 8.91,
+          "word": " avec",
+          "probability": 0.999739944934845
+        },
+        {
+          "start": 8.91,
+          "end": 9.11,
+          "word": " ta",
+          "probability": 0.9995589852333069
+        },
+        {
+          "start": 9.11,
+          "end": 9.35,
+          "word": " lame.",
+          "probability": 0.9688230752944946
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.75,
+      "end": 12.03,
+      "text": " La porte rugit, ses crocs claquent.",
+      "tokens": [
+        50801,
+        2369,
+        26658,
+        18329,
+        270,
+        11,
+        5385,
+        4848,
+        14368,
+        3583,
+        28842,
+        13,
+        50910
+      ],
+      "avg_logprob": -0.10095453577545974,
+      "compression_ratio": 1.3615819209039548,
+      "no_speech_prob": 6.914328484763921e-12,
+      "words": [
+        {
+          "start": 9.75,
+          "end": 10.01,
+          "word": " La",
+          "probability": 0.9994245767593384
+        },
+        {
+          "start": 10.01,
+          "end": 10.33,
+          "word": " porte",
+          "probability": 0.9987292885780334
+        },
+        {
+          "start": 10.33,
+          "end": 10.91,
+          "word": " rugit,",
+          "probability": 0.9988712966442108
+        },
+        {
+          "start": 11.19,
+          "end": 11.41,
+          "word": " ses",
+          "probability": 0.8746939301490784
+        },
+        {
+          "start": 11.41,
+          "end": 11.71,
+          "word": " crocs",
+          "probability": 0.8402925729751587
+        },
+        {
+          "start": 11.71,
+          "end": 12.03,
+          "word": " claquent.",
+          "probability": 0.9534505307674408
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.59,
+      "end": 17.13,
+      "text": " Une langue immense apparaît et se tortille devant toi, prête à t'affronter.",
+      "tokens": [
+        50947,
+        16701,
+        40318,
+        22920,
+        724,
+        2419,
+        20028,
+        1030,
+        369,
+        10806,
+        3409,
+        28982,
+        15648,
+        11,
+        582,
+        12943,
+        1531,
+        256,
+        6,
+        2518,
+        2044,
+        391,
+        13,
+        51163
+      ],
+      "avg_logprob": -0.10095453577545974,
+      "compression_ratio": 1.3615819209039548,
+      "no_speech_prob": 6.914328484763921e-12,
+      "words": [
+        {
+          "start": 12.59,
+          "end": 13.01,
+          "word": " Une",
+          "probability": 0.9989804625511169
+        },
+        {
+          "start": 13.01,
+          "end": 13.33,
+          "word": " langue",
+          "probability": 0.9982136487960815
+        },
+        {
+          "start": 13.33,
+          "end": 13.95,
+          "word": " immense",
+          "probability": 0.9993708729743958
+        },
+        {
+          "start": 13.95,
+          "end": 14.51,
+          "word": " apparaît",
+          "probability": 0.9978345235188802
+        },
+        {
+          "start": 14.51,
+          "end": 14.67,
+          "word": " et",
+          "probability": 0.9998745918273926
+        },
+        {
+          "start": 14.67,
+          "end": 14.91,
+          "word": " se",
+          "probability": 0.9997708201408386
+        },
+        {
+          "start": 14.91,
+          "end": 15.29,
+          "word": " tortille",
+          "probability": 0.9920291006565094
+        },
+        {
+          "start": 15.29,
+          "end": 15.53,
+          "word": " devant",
+          "probability": 0.9998953342437744
+        },
+        {
+          "start": 15.53,
+          "end": 15.79,
+          "word": " toi,",
+          "probability": 0.9998658895492554
+        },
+        {
+          "start": 16.19,
+          "end": 16.43,
+          "word": " prête",
+          "probability": 0.9986099302768707
+        },
+        {
+          "start": 16.43,
+          "end": 16.59,
+          "word": " à",
+          "probability": 0.9999539852142334
+        },
+        {
+          "start": 16.59,
+          "end": 16.71,
+          "word": " t",
+          "probability": 0.9993425011634827
+        },
+        {
+          "start": 16.71,
+          "end": 17.13,
+          "word": "'affronter.",
+          "probability": 0.9993308335542679
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "scene": "title_card_a-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/title_card_a-fr_FR.mp3",
+  "sha256": "0e3e7d0765708af3147d1a55f7a17fb00969597b14ddda4c59cdc138b5816859",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.722875,
+  "text": "dans les bas-fonds d'Eauprofonde.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 2.04,
+      "text": " dans les bas-fonds d'Eauprofonde.",
+      "tokens": [
+        50365,
+        2680,
+        1512,
+        987,
+        12,
+        69,
+        10166,
+        274,
+        6,
+        22290,
+        1740,
+        7259,
+        13,
+        50464
+      ],
+      "avg_logprob": -0.12622681260108948,
+      "compression_ratio": 0.8717948717948718,
+      "no_speech_prob": 4.952774301791862e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.56,
+          "word": " dans",
+          "probability": 0.6757076978683472
+        },
+        {
+          "start": 0.56,
+          "end": 0.74,
+          "word": " les",
+          "probability": 0.9993399977684021
+        },
+        {
+          "start": 0.74,
+          "end": 0.96,
+          "word": " bas",
+          "probability": 0.9786127805709839
+        },
+        {
+          "start": 0.96,
+          "end": 1.26,
+          "word": "-fonds",
+          "probability": 0.82804407676061
+        },
+        {
+          "start": 1.26,
+          "end": 1.38,
+          "word": " d",
+          "probability": 0.9992621541023254
+        },
+        {
+          "start": 1.38,
+          "end": 1.44,
+          "word": "'eau",
+          "probability": 0.9896585643291473
+        },
+        {
+          "start": 1.44,
+          "end": 2.04,
+          "word": " profonde.",
+          "probability": 0.9990391135215759
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

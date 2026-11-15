@@ -1,0 +1,155 @@
+{
+  "scene": "intro02_rodeur",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/intro02_rodeur.mp3",
+  "sha256": "75800045b583e8284162db9156bf73160a4cd81b34c7bf35eca66c823b0e173a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 8.1573125,
+  "text": "Un sachet de fruits séchés, ton goûter préféré. Il te faudra le faire durer.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.39,
+      "end": 4.75,
+      "text": " Un sachet de fruits séchés, ton goûter préféré.",
+      "tokens": [
+        50365,
+        1156,
+        42510,
+        302,
+        368,
+        12148,
+        7910,
+        339,
+        2191,
+        11,
+        2952,
+        352,
+        8879,
+        391,
+        31139,
+        29071,
+        13,
+        50533
+      ],
+      "avg_logprob": -0.13364798376957576,
+      "compression_ratio": 0.9761904761904762,
+      "no_speech_prob": 5.479797605262293e-12,
+      "words": [
+        {
+          "start": 1.39,
+          "end": 1.89,
+          "word": " Un",
+          "probability": 0.8412002325057983
+        },
+        {
+          "start": 1.89,
+          "end": 2.35,
+          "word": " sachet",
+          "probability": 0.9989557266235352
+        },
+        {
+          "start": 2.35,
+          "end": 2.49,
+          "word": " de",
+          "probability": 0.9998971223831177
+        },
+        {
+          "start": 2.49,
+          "end": 2.67,
+          "word": " fruits",
+          "probability": 0.9985004663467407
+        },
+        {
+          "start": 2.67,
+          "end": 3.13,
+          "word": " séchés,",
+          "probability": 0.9983683228492737
+        },
+        {
+          "start": 3.37,
+          "end": 3.81,
+          "word": " ton",
+          "probability": 0.9996886253356934
+        },
+        {
+          "start": 3.81,
+          "end": 4.17,
+          "word": " goûter",
+          "probability": 0.9988479812939962
+        },
+        {
+          "start": 4.17,
+          "end": 4.75,
+          "word": " préféré.",
+          "probability": 0.9998635351657867
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.07,
+      "end": 6.89,
+      "text": " Il te faudra le faire durer.",
+      "tokens": [
+        50574,
+        4416,
+        535,
+        38694,
+        424,
+        476,
+        4865,
+        4861,
+        260,
+        13,
+        50641
+      ],
+      "avg_logprob": -0.13364798376957576,
+      "compression_ratio": 0.9761904761904762,
+      "no_speech_prob": 5.479797605262293e-12,
+      "words": [
+        {
+          "start": 5.07,
+          "end": 5.71,
+          "word": " Il",
+          "probability": 0.9988353848457336
+        },
+        {
+          "start": 5.71,
+          "end": 5.87,
+          "word": " te",
+          "probability": 0.9996433258056641
+        },
+        {
+          "start": 5.87,
+          "end": 6.17,
+          "word": " faudra",
+          "probability": 0.999923050403595
+        },
+        {
+          "start": 6.17,
+          "end": 6.31,
+          "word": " le",
+          "probability": 0.9999226331710815
+        },
+        {
+          "start": 6.31,
+          "end": 6.53,
+          "word": " faire",
+          "probability": 0.9998970031738281
+        },
+        {
+          "start": 6.53,
+          "end": 6.89,
+          "word": " durer.",
+          "probability": 0.999669075012207
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

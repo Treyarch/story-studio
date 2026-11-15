@@ -1,0 +1,60 @@
+{
+  "scene": "A33_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A33_list.mp3",
+  "sha256": "ca9783a31bf0b4ca8cd5988b010a4a17bf7c9faf4cc8673638b435342e69d2db",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.5255,
+  "text": "Que fais-tu?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.01,
+      "text": " Que fais-tu?",
+      "tokens": [
+        50365,
+        4493,
+        12153,
+        12,
+        9179,
+        2506,
+        50439
+      ],
+      "avg_logprob": -0.2712121643126011,
+      "compression_ratio": 0.6190476190476191,
+      "no_speech_prob": 3.7330841543004034e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.51,
+          "word": " Que",
+          "probability": 0.9022689461708069
+        },
+        {
+          "start": 0.51,
+          "end": 0.69,
+          "word": " fais",
+          "probability": 0.9964165687561035
+        },
+        {
+          "start": 0.69,
+          "end": 0.91,
+          "word": "-tu",
+          "probability": 0.9985872507095337
+        },
+        {
+          "start": 0.91,
+          "end": 1.01,
+          "word": "?",
+          "probability": 0.9305428862571716
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

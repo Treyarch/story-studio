@@ -1,0 +1,207 @@
+{
+  "scene": "B42c",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B42c.mp3",
+  "sha256": "c2ddccbe33b91956dd2c879cc6cadbb49a613e605406be2c78bd263626d03b56",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 9.730375,
+  "text": "Tu n'as plus le choix. Une enquête dans les étages inférieurs du château s'impose. Plus moyen de l'éviter.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.3,
+      "end": 5.54,
+      "text": " Tu n'as plus le choix. Une enquête dans les étages inférieurs du château s'impose.",
+      "tokens": [
+        50365,
+        7836,
+        297,
+        6,
+        296,
+        1804,
+        476,
+        32688,
+        13,
+        16701,
+        21304,
+        12943,
+        2680,
+        1512,
+        4823,
+        1660,
+        1536,
+        10746,
+        2156,
+        1581,
+        417,
+        33680,
+        1459,
+        262,
+        6,
+        8814,
+        541,
+        13,
+        50578
+      ],
+      "avg_logprob": -0.07162083182483911,
+      "compression_ratio": 1.0571428571428572,
+      "no_speech_prob": 5.1954829327627294e-12,
+      "words": [
+        {
+          "start": 1.3,
+          "end": 1.72,
+          "word": " Tu",
+          "probability": 0.9310525059700012
+        },
+        {
+          "start": 1.72,
+          "end": 1.82,
+          "word": " n",
+          "probability": 0.999991774559021
+        },
+        {
+          "start": 1.82,
+          "end": 1.92,
+          "word": "'as",
+          "probability": 0.9999106526374817
+        },
+        {
+          "start": 1.92,
+          "end": 2.04,
+          "word": " plus",
+          "probability": 0.999976396560669
+        },
+        {
+          "start": 2.04,
+          "end": 2.18,
+          "word": " le",
+          "probability": 0.9998630285263062
+        },
+        {
+          "start": 2.18,
+          "end": 2.42,
+          "word": " choix.",
+          "probability": 0.9999769926071167
+        },
+        {
+          "start": 2.62,
+          "end": 2.98,
+          "word": " Une",
+          "probability": 0.9991833567619324
+        },
+        {
+          "start": 2.98,
+          "end": 3.34,
+          "word": " enquête",
+          "probability": 0.9998838603496552
+        },
+        {
+          "start": 3.34,
+          "end": 3.48,
+          "word": " dans",
+          "probability": 0.9352852702140808
+        },
+        {
+          "start": 3.48,
+          "end": 3.66,
+          "word": " les",
+          "probability": 0.9999411106109619
+        },
+        {
+          "start": 3.66,
+          "end": 4.04,
+          "word": " étages",
+          "probability": 0.9996074140071869
+        },
+        {
+          "start": 4.04,
+          "end": 4.52,
+          "word": " inférieurs",
+          "probability": 0.9993347326914469
+        },
+        {
+          "start": 4.52,
+          "end": 4.66,
+          "word": " du",
+          "probability": 0.9998968839645386
+        },
+        {
+          "start": 4.66,
+          "end": 5.02,
+          "word": " château",
+          "probability": 0.9995663166046143
+        },
+        {
+          "start": 5.02,
+          "end": 5.16,
+          "word": " s",
+          "probability": 0.9998121857643127
+        },
+        {
+          "start": 5.16,
+          "end": 5.54,
+          "word": "'impose.",
+          "probability": 0.9856467644373575
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.38,
+      "end": 7.62,
+      "text": " Plus moyen de l'éviter.",
+      "tokens": [
+        50638,
+        7721,
+        42009,
+        368,
+        287,
+        6,
+        26375,
+        1681,
+        13,
+        50682
+      ],
+      "avg_logprob": -0.07162083182483911,
+      "compression_ratio": 1.0571428571428572,
+      "no_speech_prob": 5.1954829327627294e-12,
+      "words": [
+        {
+          "start": 6.38,
+          "end": 6.88,
+          "word": " Plus",
+          "probability": 0.9982312321662903
+        },
+        {
+          "start": 6.88,
+          "end": 7.14,
+          "word": " moyen",
+          "probability": 0.9967936873435974
+        },
+        {
+          "start": 7.14,
+          "end": 7.26,
+          "word": " de",
+          "probability": 0.9999340772628784
+        },
+        {
+          "start": 7.26,
+          "end": 7.36,
+          "word": " l",
+          "probability": 0.9998620748519897
+        },
+        {
+          "start": 7.36,
+          "end": 7.62,
+          "word": "'éviter.",
+          "probability": 0.9991450707117716
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

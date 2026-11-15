@@ -1,0 +1,490 @@
+{
+  "scene": "A46_wis_success_panorama_ch3_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A46_wis_success_panorama_ch3_success.mp3",
+  "sha256": "d6e8b5db38fbd74914b1e13adfc7363043eb5135660279806f9efe499ee1d9e3",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 26.8343125,
+  "text": "« Anime. Rien ne se passe. » Et soudain, tu entends la porte se déverrouiller avec un cliquetis prometteur. Bien sûr, la solution de l'énigme anime l'ouverture de la porte. Malin, personne ne semble avoir remarqué ta présence. Tu pousses la porte sur ces charnières bien huilées et entres.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.66,
+      "end": 5.78,
+      "text": " « Anime. Rien ne se passe. »",
+      "tokens": [
+        50365,
+        4657,
+        1107,
+        1312,
+        13,
+        497,
+        1053,
+        408,
+        369,
+        14530,
+        13,
+        8793,
+        50544
+      ],
+      "avg_logprob": -0.12927999225806217,
+      "compression_ratio": 1.4258373205741626,
+      "no_speech_prob": 1.0484701648549866e-11,
+      "words": [
+        {
+          "start": 0.66,
+          "end": 1.2,
+          "word": " «",
+          "probability": 0.07252722978591919
+        },
+        {
+          "start": 1.2,
+          "end": 1.44,
+          "word": " Anime.",
+          "probability": 0.7967754304409027
+        },
+        {
+          "start": 3.42,
+          "end": 4.06,
+          "word": " Rien",
+          "probability": 0.74000284075737
+        },
+        {
+          "start": 4.06,
+          "end": 4.16,
+          "word": " ne",
+          "probability": 0.9992161989212036
+        },
+        {
+          "start": 4.16,
+          "end": 4.34,
+          "word": " se",
+          "probability": 0.9999680519104004
+        },
+        {
+          "start": 4.34,
+          "end": 4.76,
+          "word": " passe.",
+          "probability": 0.9998782873153687
+        },
+        {
+          "start": 5.18,
+          "end": 5.78,
+          "word": " »",
+          "probability": 0.765357255935669
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.78,
+      "end": 10.1,
+      "text": " Et soudain, tu entends la porte se déverrouiller avec un cliquetis prometteur.",
+      "tokens": [
+        50544,
+        3790,
+        262,
+        1861,
+        491,
+        11,
+        2604,
+        948,
+        2581,
+        635,
+        26658,
+        369,
+        2795,
+        331,
+        13122,
+        10497,
+        4163,
+        517,
+        596,
+        3221,
+        302,
+        271,
+        37786,
+        975,
+        374,
+        13,
+        50762
+      ],
+      "avg_logprob": -0.12927999225806217,
+      "compression_ratio": 1.4258373205741626,
+      "no_speech_prob": 1.0484701648549866e-11,
+      "words": [
+        {
+          "start": 5.78,
+          "end": 5.84,
+          "word": " Et",
+          "probability": 0.9521045088768005
+        },
+        {
+          "start": 5.84,
+          "end": 6.22,
+          "word": " soudain,",
+          "probability": 0.9996986389160156
+        },
+        {
+          "start": 6.42,
+          "end": 6.84,
+          "word": " tu",
+          "probability": 0.9990271329879761
+        },
+        {
+          "start": 6.84,
+          "end": 7.12,
+          "word": " entends",
+          "probability": 0.9972811043262482
+        },
+        {
+          "start": 7.12,
+          "end": 7.26,
+          "word": " la",
+          "probability": 0.9998408555984497
+        },
+        {
+          "start": 7.26,
+          "end": 7.52,
+          "word": " porte",
+          "probability": 0.9999213218688965
+        },
+        {
+          "start": 7.52,
+          "end": 7.78,
+          "word": " se",
+          "probability": 0.9999165534973145
+        },
+        {
+          "start": 7.78,
+          "end": 8.38,
+          "word": " déverrouiller",
+          "probability": 0.9993387311697006
+        },
+        {
+          "start": 8.38,
+          "end": 8.7,
+          "word": " avec",
+          "probability": 0.9998620748519897
+        },
+        {
+          "start": 8.7,
+          "end": 8.92,
+          "word": " un",
+          "probability": 0.9999493360519409
+        },
+        {
+          "start": 8.92,
+          "end": 9.46,
+          "word": " cliquetis",
+          "probability": 0.9371075481176376
+        },
+        {
+          "start": 9.46,
+          "end": 10.1,
+          "word": " prometteur.",
+          "probability": 0.9990328152974447
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.6,
+      "end": 14.52,
+      "text": " Bien sûr, la solution de l'énigme anime l'ouverture de la porte.",
+      "tokens": [
+        50795,
+        16956,
+        18143,
+        11,
+        635,
+        3827,
+        368,
+        287,
+        6,
+        3516,
+        328,
+        1398,
+        12435,
+        287,
+        6,
+        43315,
+        540,
+        368,
+        635,
+        26658,
+        13,
+        50983
+      ],
+      "avg_logprob": -0.12927999225806217,
+      "compression_ratio": 1.4258373205741626,
+      "no_speech_prob": 1.0484701648549866e-11,
+      "words": [
+        {
+          "start": 10.6,
+          "end": 10.92,
+          "word": " Bien",
+          "probability": 0.9020815491676331
+        },
+        {
+          "start": 10.92,
+          "end": 11.22,
+          "word": " sûr,",
+          "probability": 0.9998728036880493
+        },
+        {
+          "start": 11.48,
+          "end": 11.84,
+          "word": " la",
+          "probability": 0.9998533725738525
+        },
+        {
+          "start": 11.84,
+          "end": 12.24,
+          "word": " solution",
+          "probability": 0.9999150037765503
+        },
+        {
+          "start": 12.24,
+          "end": 12.44,
+          "word": " de",
+          "probability": 0.999969482421875
+        },
+        {
+          "start": 12.44,
+          "end": 12.54,
+          "word": " l",
+          "probability": 0.99994957447052
+        },
+        {
+          "start": 12.54,
+          "end": 12.9,
+          "word": "'énigme",
+          "probability": 0.9970409870147705
+        },
+        {
+          "start": 12.9,
+          "end": 13.38,
+          "word": " anime",
+          "probability": 0.9965969920158386
+        },
+        {
+          "start": 13.38,
+          "end": 13.64,
+          "word": " l",
+          "probability": 0.999982476234436
+        },
+        {
+          "start": 13.64,
+          "end": 14.0,
+          "word": "'ouverture",
+          "probability": 0.9998855988184611
+        },
+        {
+          "start": 14.0,
+          "end": 14.1,
+          "word": " de",
+          "probability": 0.9999711513519287
+        },
+        {
+          "start": 14.1,
+          "end": 14.22,
+          "word": " la",
+          "probability": 0.9999603033065796
+        },
+        {
+          "start": 14.22,
+          "end": 14.52,
+          "word": " porte.",
+          "probability": 0.9999352693557739
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 14.82,
+      "end": 18.08,
+      "text": " Malin, personne ne semble avoir remarqué ta présence.",
+      "tokens": [
+        51005,
+        5746,
+        259,
+        11,
+        17219,
+        408,
+        38328,
+        10853,
+        34329,
+        16412,
+        1846,
+        11761,
+        655,
+        13,
+        51162
+      ],
+      "avg_logprob": -0.12927999225806217,
+      "compression_ratio": 1.4258373205741626,
+      "no_speech_prob": 1.0484701648549866e-11,
+      "words": [
+        {
+          "start": 14.82,
+          "end": 15.3,
+          "word": " Malin,",
+          "probability": 0.9934797585010529
+        },
+        {
+          "start": 15.86,
+          "end": 16.38,
+          "word": " personne",
+          "probability": 0.9992801547050476
+        },
+        {
+          "start": 16.38,
+          "end": 16.6,
+          "word": " ne",
+          "probability": 0.9999579191207886
+        },
+        {
+          "start": 16.6,
+          "end": 16.84,
+          "word": " semble",
+          "probability": 0.9998107552528381
+        },
+        {
+          "start": 16.84,
+          "end": 17.02,
+          "word": " avoir",
+          "probability": 0.9998588562011719
+        },
+        {
+          "start": 17.02,
+          "end": 17.5,
+          "word": " remarqué",
+          "probability": 0.9997576475143433
+        },
+        {
+          "start": 17.5,
+          "end": 17.64,
+          "word": " ta",
+          "probability": 0.9996415376663208
+        },
+        {
+          "start": 17.64,
+          "end": 18.08,
+          "word": " présence.",
+          "probability": 0.9998971819877625
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 18.42,
+      "end": 22.08,
+      "text": " Tu pousses la porte sur ces charnières bien huilées et entres.",
+      "tokens": [
+        51194,
+        7836,
+        39140,
+        6196,
+        635,
+        26658,
+        1022,
+        7879,
+        417,
+        1083,
+        39408,
+        3610,
+        2137,
+        388,
+        6836,
+        1030,
+        948,
+        495,
+        13,
+        51361
+      ],
+      "avg_logprob": -0.12927999225806217,
+      "compression_ratio": 1.4258373205741626,
+      "no_speech_prob": 1.0484701648549866e-11,
+      "words": [
+        {
+          "start": 18.42,
+          "end": 18.84,
+          "word": " Tu",
+          "probability": 0.9980387091636658
+        },
+        {
+          "start": 18.84,
+          "end": 19.18,
+          "word": " pousses",
+          "probability": 0.9749326109886169
+        },
+        {
+          "start": 19.18,
+          "end": 19.32,
+          "word": " la",
+          "probability": 0.9999383687973022
+        },
+        {
+          "start": 19.32,
+          "end": 19.62,
+          "word": " porte",
+          "probability": 0.9999740123748779
+        },
+        {
+          "start": 19.62,
+          "end": 19.88,
+          "word": " sur",
+          "probability": 0.9996892213821411
+        },
+        {
+          "start": 19.88,
+          "end": 20.04,
+          "word": " ces",
+          "probability": 0.5966615676879883
+        },
+        {
+          "start": 20.04,
+          "end": 20.52,
+          "word": " charnières",
+          "probability": 0.9972891211509705
+        },
+        {
+          "start": 20.52,
+          "end": 20.76,
+          "word": " bien",
+          "probability": 0.9996387958526611
+        },
+        {
+          "start": 20.76,
+          "end": 21.14,
+          "word": " huilées",
+          "probability": 0.997922956943512
+        },
+        {
+          "start": 21.14,
+          "end": 21.64,
+          "word": " et",
+          "probability": 0.9806851148605347
+        },
+        {
+          "start": 21.64,
+          "end": 22.08,
+          "word": " entres.",
+          "probability": 0.871168702840805
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

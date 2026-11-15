@@ -1,0 +1,349 @@
+{
+  "scene": "A11_dex_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A11_dex_success.mp3",
+  "sha256": "d02b5f54428531edc2afe4962e6ff2b32176057a58b50f337c31d53755994b71",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 14.5043125,
+  "text": "L'agent hurle alors qu'il tend la main pour t'attraper. Il te rate de peu et perd l'équilibre alors que tu passes à côté de lui. Tu éclates de rire. Rien ne peut t'arrêter.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.6,
+      "end": 4.22,
+      "text": " L'agent hurle alors qu'il tend la main pour t'attraper.",
+      "tokens": [
+        50405,
+        441,
+        6,
+        559,
+        317,
+        2756,
+        306,
+        11246,
+        421,
+        6,
+        388,
+        3928,
+        635,
+        2135,
+        2016,
+        256,
+        6,
+        1591,
+        424,
+        610,
+        13,
+        50538
+      ],
+      "avg_logprob": -0.15602276141826923,
+      "compression_ratio": 1.289855072463768,
+      "no_speech_prob": 7.001304484083315e-12,
+      "words": [
+        {
+          "start": 1.6,
+          "end": 2.0,
+          "word": " L",
+          "probability": 0.8076585531234741
+        },
+        {
+          "start": 2.0,
+          "end": 2.24,
+          "word": "'agent",
+          "probability": 0.9946272571881613
+        },
+        {
+          "start": 2.24,
+          "end": 2.64,
+          "word": " hurle",
+          "probability": 0.999551385641098
+        },
+        {
+          "start": 2.64,
+          "end": 2.9,
+          "word": " alors",
+          "probability": 0.9975160360336304
+        },
+        {
+          "start": 2.9,
+          "end": 3.08,
+          "word": " qu",
+          "probability": 0.9999631643295288
+        },
+        {
+          "start": 3.08,
+          "end": 3.16,
+          "word": "'il",
+          "probability": 0.9998182654380798
+        },
+        {
+          "start": 3.16,
+          "end": 3.32,
+          "word": " tend",
+          "probability": 0.9983047246932983
+        },
+        {
+          "start": 3.32,
+          "end": 3.46,
+          "word": " la",
+          "probability": 0.9995972514152527
+        },
+        {
+          "start": 3.46,
+          "end": 3.58,
+          "word": " main",
+          "probability": 0.9999152421951294
+        },
+        {
+          "start": 3.58,
+          "end": 3.78,
+          "word": " pour",
+          "probability": 0.9992361068725586
+        },
+        {
+          "start": 3.78,
+          "end": 3.84,
+          "word": " t",
+          "probability": 0.9998161196708679
+        },
+        {
+          "start": 3.84,
+          "end": 4.22,
+          "word": "'attraper.",
+          "probability": 0.9994452148675919
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.92,
+      "end": 8.98,
+      "text": " Il te rate de peu et perd l'équilibre alors que tu passes à côté de lui.",
+      "tokens": [
+        50582,
+        4416,
+        535,
+        3314,
+        368,
+        5604,
+        1030,
+        12611,
+        287,
+        6,
+        20183,
+        12722,
+        265,
+        11246,
+        631,
+        2604,
+        11335,
+        1531,
+        18437,
+        368,
+        8783,
+        13,
+        50775
+      ],
+      "avg_logprob": -0.15602276141826923,
+      "compression_ratio": 1.289855072463768,
+      "no_speech_prob": 7.001304484083315e-12,
+      "words": [
+        {
+          "start": 4.92,
+          "end": 5.32,
+          "word": " Il",
+          "probability": 0.9938206076622009
+        },
+        {
+          "start": 5.32,
+          "end": 5.44,
+          "word": " te",
+          "probability": 0.9995602965354919
+        },
+        {
+          "start": 5.44,
+          "end": 5.66,
+          "word": " rate",
+          "probability": 0.9803313612937927
+        },
+        {
+          "start": 5.66,
+          "end": 5.82,
+          "word": " de",
+          "probability": 0.9978837370872498
+        },
+        {
+          "start": 5.82,
+          "end": 6.02,
+          "word": " peu",
+          "probability": 0.9996705055236816
+        },
+        {
+          "start": 6.02,
+          "end": 6.6,
+          "word": " et",
+          "probability": 0.9098545908927917
+        },
+        {
+          "start": 6.6,
+          "end": 6.86,
+          "word": " perd",
+          "probability": 0.9968865513801575
+        },
+        {
+          "start": 6.86,
+          "end": 7.0,
+          "word": " l",
+          "probability": 0.8510625958442688
+        },
+        {
+          "start": 7.0,
+          "end": 7.54,
+          "word": "'équilibre",
+          "probability": 0.9997736066579819
+        },
+        {
+          "start": 7.54,
+          "end": 7.76,
+          "word": " alors",
+          "probability": 0.998116135597229
+        },
+        {
+          "start": 7.76,
+          "end": 7.94,
+          "word": " que",
+          "probability": 0.9998846054077148
+        },
+        {
+          "start": 7.94,
+          "end": 8.08,
+          "word": " tu",
+          "probability": 0.9999369382858276
+        },
+        {
+          "start": 8.08,
+          "end": 8.34,
+          "word": " passes",
+          "probability": 0.994864284992218
+        },
+        {
+          "start": 8.34,
+          "end": 8.48,
+          "word": " à",
+          "probability": 0.9996732473373413
+        },
+        {
+          "start": 8.48,
+          "end": 8.66,
+          "word": " côté",
+          "probability": 0.9997465014457703
+        },
+        {
+          "start": 8.66,
+          "end": 8.8,
+          "word": " de",
+          "probability": 0.9996229410171509
+        },
+        {
+          "start": 8.8,
+          "end": 8.98,
+          "word": " lui.",
+          "probability": 0.9999308586120605
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.34,
+      "end": 12.78,
+      "text": " Tu éclates de rire. Rien ne peut t'arrêter.",
+      "tokens": [
+        50857,
+        7836,
+        1136,
+        3474,
+        1024,
+        368,
+        367,
+        621,
+        13,
+        497,
+        1053,
+        408,
+        5977,
+        256,
+        6,
+        2284,
+        37754,
+        13,
+        50965
+      ],
+      "avg_logprob": -0.15602276141826923,
+      "compression_ratio": 1.289855072463768,
+      "no_speech_prob": 7.001304484083315e-12,
+      "words": [
+        {
+          "start": 10.34,
+          "end": 10.74,
+          "word": " Tu",
+          "probability": 0.9787738919258118
+        },
+        {
+          "start": 10.74,
+          "end": 11.14,
+          "word": " éclates",
+          "probability": 0.9834436178207397
+        },
+        {
+          "start": 11.14,
+          "end": 11.26,
+          "word": " de",
+          "probability": 0.9991770386695862
+        },
+        {
+          "start": 11.26,
+          "end": 11.54,
+          "word": " rire.",
+          "probability": 0.998585432767868
+        },
+        {
+          "start": 11.94,
+          "end": 12.18,
+          "word": " Rien",
+          "probability": 0.9985446929931641
+        },
+        {
+          "start": 12.18,
+          "end": 12.28,
+          "word": " ne",
+          "probability": 0.9991360306739807
+        },
+        {
+          "start": 12.28,
+          "end": 12.42,
+          "word": " peut",
+          "probability": 0.996600329875946
+        },
+        {
+          "start": 12.42,
+          "end": 12.52,
+          "word": " t",
+          "probability": 0.9994127750396729
+        },
+        {
+          "start": 12.52,
+          "end": 12.78,
+          "word": "'arrêter.",
+          "probability": 0.9996396700541178
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

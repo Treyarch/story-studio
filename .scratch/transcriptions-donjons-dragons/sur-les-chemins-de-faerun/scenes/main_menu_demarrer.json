@@ -1,0 +1,57 @@
+{
+  "scene": "main_menu_demarrer",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/main_menu_demarrer.mp3",
+  "sha256": "ca84300c015746714b2d8b1a61b0080a019cecd03fa494a13bbb23384ba4cc08",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.7705625,
+  "text": "Démarrez l'aventure.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.34,
+      "text": " Démarrez l'aventure.",
+      "tokens": [
+        50365,
+        413,
+        4011,
+        15531,
+        89,
+        287,
+        6,
+        706,
+        317,
+        540,
+        13,
+        50433
+      ],
+      "avg_logprob": -0.2100846950824444,
+      "compression_ratio": 0.7241379310344828,
+      "no_speech_prob": 3.2915174492248456e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.72,
+          "word": " Démarrez",
+          "probability": 0.9653704166412354
+        },
+        {
+          "start": 0.72,
+          "end": 0.8,
+          "word": " l",
+          "probability": 0.9998623132705688
+        },
+        {
+          "start": 0.8,
+          "end": 1.34,
+          "word": "'aventure.",
+          "probability": 0.9993551969528198
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

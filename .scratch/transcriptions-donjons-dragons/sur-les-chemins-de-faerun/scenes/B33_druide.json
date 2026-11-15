@@ -1,0 +1,1289 @@
+{
+  "scene": "B33_druide",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B33_druide.mp3",
+  "sha256": "26ff4d1074c18819578c78ffa04bcdb7d09ee34a249ac45f6d2d0ae08f8ed01c",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 57.7414375,
+  "text": "Tu te souviens d'avoir lu un passage sur ces créatures dans le guide monstrueux de Volo. Elles ne brillent pas par leur intelligence. Cependant, si tu parviens à communiquer avec le monstre, peut-être réussiras-tu à le raisonner. Tu prépares un de tes sorts préférés, celui qui te permet de communiquer avec les animaux. Peut-être que ça marchera aussi avec un monstre. Une seule solution pour le savoir? Essayer. A peine le sort lancé, tu sens qu'une connexion s'établit entre la créature et toi Tu tentes de lui expliquer que tu n'as pas de mauvaise intention à son égard Tu t'es simplement égaré dans les égouts, un endroit que tu ne connais pas Si la bête accepte de se pousser un peu, tu ne lui feras aucun mal Le monstre te répond J'ai faim",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.01,
+      "end": 6.19,
+      "text": " Tu te souviens d'avoir lu un passage sur ces créatures dans le guide monstrueux de Volo.",
+      "tokens": [
+        50365,
+        7836,
+        535,
+        6926,
+        4917,
+        694,
+        274,
+        6,
+        17239,
+        10438,
+        517,
+        11497,
+        1022,
+        7879,
+        15609,
+        3377,
+        2680,
+        476,
+        5934,
+        47137,
+        622,
+        2449,
+        368,
+        691,
+        7902,
+        13,
+        50626
+      ],
+      "avg_logprob": -0.11010819839106666,
+      "compression_ratio": 1.5740740740740742,
+      "no_speech_prob": 7.033827947172666e-12,
+      "words": [
+        {
+          "start": 1.01,
+          "end": 1.45,
+          "word": " Tu",
+          "probability": 0.9714869260787964
+        },
+        {
+          "start": 1.45,
+          "end": 1.65,
+          "word": " te",
+          "probability": 0.9995212554931641
+        },
+        {
+          "start": 1.65,
+          "end": 2.07,
+          "word": " souviens",
+          "probability": 0.9998640616734823
+        },
+        {
+          "start": 2.07,
+          "end": 2.19,
+          "word": " d",
+          "probability": 0.999853253364563
+        },
+        {
+          "start": 2.19,
+          "end": 2.43,
+          "word": "'avoir",
+          "probability": 0.9999533295631409
+        },
+        {
+          "start": 2.43,
+          "end": 2.61,
+          "word": " lu",
+          "probability": 0.9997625946998596
+        },
+        {
+          "start": 2.61,
+          "end": 2.75,
+          "word": " un",
+          "probability": 0.9999499320983887
+        },
+        {
+          "start": 2.75,
+          "end": 3.17,
+          "word": " passage",
+          "probability": 0.9999140501022339
+        },
+        {
+          "start": 3.17,
+          "end": 3.65,
+          "word": " sur",
+          "probability": 0.9998549222946167
+        },
+        {
+          "start": 3.65,
+          "end": 3.83,
+          "word": " ces",
+          "probability": 0.989791989326477
+        },
+        {
+          "start": 3.83,
+          "end": 4.41,
+          "word": " créatures",
+          "probability": 0.9998782277107239
+        },
+        {
+          "start": 4.41,
+          "end": 4.87,
+          "word": " dans",
+          "probability": 0.9530462026596069
+        },
+        {
+          "start": 4.87,
+          "end": 5.03,
+          "word": " le",
+          "probability": 0.9759845733642578
+        },
+        {
+          "start": 5.03,
+          "end": 5.25,
+          "word": " guide",
+          "probability": 0.851239025592804
+        },
+        {
+          "start": 5.25,
+          "end": 5.83,
+          "word": " monstrueux",
+          "probability": 0.9983015855153402
+        },
+        {
+          "start": 5.83,
+          "end": 5.93,
+          "word": " de",
+          "probability": 0.9995957016944885
+        },
+        {
+          "start": 5.93,
+          "end": 6.19,
+          "word": " Volo.",
+          "probability": 0.9024708569049835
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.47,
+      "end": 8.21,
+      "text": " Elles ne brillent pas par leur intelligence.",
+      "tokens": [
+        50652,
+        8353,
+        279,
+        408,
+        8695,
+        317,
+        1736,
+        971,
+        9580,
+        7599,
+        13,
+        50733
+      ],
+      "avg_logprob": -0.11010819839106666,
+      "compression_ratio": 1.5740740740740742,
+      "no_speech_prob": 7.033827947172666e-12,
+      "words": [
+        {
+          "start": 6.47,
+          "end": 6.91,
+          "word": " Elles",
+          "probability": 0.988926500082016
+        },
+        {
+          "start": 6.91,
+          "end": 7.03,
+          "word": " ne",
+          "probability": 0.999931812286377
+        },
+        {
+          "start": 7.03,
+          "end": 7.33,
+          "word": " brillent",
+          "probability": 0.9992140531539917
+        },
+        {
+          "start": 7.33,
+          "end": 7.43,
+          "word": " pas",
+          "probability": 0.9999496936798096
+        },
+        {
+          "start": 7.43,
+          "end": 7.63,
+          "word": " par",
+          "probability": 0.9999171495437622
+        },
+        {
+          "start": 7.63,
+          "end": 7.77,
+          "word": " leur",
+          "probability": 0.9990100860595703
+        },
+        {
+          "start": 7.77,
+          "end": 8.21,
+          "word": " intelligence.",
+          "probability": 0.9998774528503418
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.23,
+      "end": 15.15,
+      "text": " Cependant, si tu parviens à communiquer avec le monstre, peut-être réussiras-tu à le raisonner.",
+      "tokens": [
+        50781,
+        383,
+        4217,
+        394,
+        11,
+        1511,
+        2604,
+        971,
+        4917,
+        694,
+        1531,
+        1199,
+        23909,
+        4163,
+        476,
+        1108,
+        26421,
+        11,
+        5977,
+        12,
+        9498,
+        28099,
+        23342,
+        12,
+        9179,
+        1531,
+        476,
+        28402,
+        1193,
+        13,
+        51073
+      ],
+      "avg_logprob": -0.11010819839106666,
+      "compression_ratio": 1.5740740740740742,
+      "no_speech_prob": 7.033827947172666e-12,
+      "words": [
+        {
+          "start": 9.23,
+          "end": 9.81,
+          "word": " Cependant,",
+          "probability": 0.999819835027059
+        },
+        {
+          "start": 10.05,
+          "end": 10.59,
+          "word": " si",
+          "probability": 0.9999923706054688
+        },
+        {
+          "start": 10.59,
+          "end": 10.73,
+          "word": " tu",
+          "probability": 0.9999880790710449
+        },
+        {
+          "start": 10.73,
+          "end": 11.19,
+          "word": " parviens",
+          "probability": 0.9986564517021179
+        },
+        {
+          "start": 11.19,
+          "end": 11.41,
+          "word": " à",
+          "probability": 0.9999891519546509
+        },
+        {
+          "start": 11.41,
+          "end": 11.99,
+          "word": " communiquer",
+          "probability": 0.9998125433921814
+        },
+        {
+          "start": 11.99,
+          "end": 12.27,
+          "word": " avec",
+          "probability": 0.9999818801879883
+        },
+        {
+          "start": 12.27,
+          "end": 12.43,
+          "word": " le",
+          "probability": 0.9999570846557617
+        },
+        {
+          "start": 12.43,
+          "end": 12.79,
+          "word": " monstre,",
+          "probability": 0.998850554227829
+        },
+        {
+          "start": 13.39,
+          "end": 13.63,
+          "word": " peut",
+          "probability": 0.9996368885040283
+        },
+        {
+          "start": 13.63,
+          "end": 13.81,
+          "word": "-être",
+          "probability": 0.9999712109565735
+        },
+        {
+          "start": 13.81,
+          "end": 14.39,
+          "word": " réussiras",
+          "probability": 0.9943036437034607
+        },
+        {
+          "start": 14.39,
+          "end": 14.55,
+          "word": "-tu",
+          "probability": 0.9991879761219025
+        },
+        {
+          "start": 14.55,
+          "end": 14.67,
+          "word": " à",
+          "probability": 0.9999744892120361
+        },
+        {
+          "start": 14.67,
+          "end": 14.79,
+          "word": " le",
+          "probability": 0.999872088432312
+        },
+        {
+          "start": 14.79,
+          "end": 15.15,
+          "word": " raisonner.",
+          "probability": 0.9725537896156311
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 15.83,
+      "end": 21.95,
+      "text": " Tu prépares un de tes sorts préférés, celui qui te permet de communiquer avec les animaux.",
+      "tokens": [
+        51129,
+        7836,
+        11127,
+        4306,
+        495,
+        517,
+        368,
+        20018,
+        7527,
+        31139,
+        4198,
+        2191,
+        11,
+        22829,
+        1956,
+        535,
+        20696,
+        368,
+        1199,
+        23909,
+        4163,
+        1512,
+        2383,
+        7511,
+        13,
+        51413
+      ],
+      "avg_logprob": -0.11010819839106666,
+      "compression_ratio": 1.5740740740740742,
+      "no_speech_prob": 7.033827947172666e-12,
+      "words": [
+        {
+          "start": 15.83,
+          "end": 16.41,
+          "word": " Tu",
+          "probability": 0.999669075012207
+        },
+        {
+          "start": 16.41,
+          "end": 16.93,
+          "word": " prépares",
+          "probability": 0.9972047408421835
+        },
+        {
+          "start": 16.93,
+          "end": 17.19,
+          "word": " un",
+          "probability": 0.9998667240142822
+        },
+        {
+          "start": 17.19,
+          "end": 17.33,
+          "word": " de",
+          "probability": 0.9999545812606812
+        },
+        {
+          "start": 17.33,
+          "end": 17.51,
+          "word": " tes",
+          "probability": 0.9999008178710938
+        },
+        {
+          "start": 17.51,
+          "end": 17.75,
+          "word": " sorts",
+          "probability": 0.9717208743095398
+        },
+        {
+          "start": 17.75,
+          "end": 18.35,
+          "word": " préférés,",
+          "probability": 0.9980074564615885
+        },
+        {
+          "start": 19.05,
+          "end": 19.37,
+          "word": " celui",
+          "probability": 0.9999492168426514
+        },
+        {
+          "start": 19.37,
+          "end": 19.57,
+          "word": " qui",
+          "probability": 0.9999911785125732
+        },
+        {
+          "start": 19.57,
+          "end": 19.73,
+          "word": " te",
+          "probability": 0.9999879598617554
+        },
+        {
+          "start": 19.73,
+          "end": 20.09,
+          "word": " permet",
+          "probability": 0.9990565180778503
+        },
+        {
+          "start": 20.09,
+          "end": 20.27,
+          "word": " de",
+          "probability": 0.9999934434890747
+        },
+        {
+          "start": 20.27,
+          "end": 20.93,
+          "word": " communiquer",
+          "probability": 0.9998891651630402
+        },
+        {
+          "start": 20.93,
+          "end": 21.33,
+          "word": " avec",
+          "probability": 0.999956488609314
+        },
+        {
+          "start": 21.33,
+          "end": 21.57,
+          "word": " les",
+          "probability": 0.9999202489852905
+        },
+        {
+          "start": 21.57,
+          "end": 21.95,
+          "word": " animaux.",
+          "probability": 0.9999319314956665
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 22.45,
+      "end": 25.07,
+      "text": " Peut-être que ça marchera aussi avec un monstre.",
+      "tokens": [
+        51455,
+        2396,
+        325,
+        12,
+        9498,
+        631,
+        2788,
+        8368,
+        1663,
+        6212,
+        4163,
+        517,
+        1108,
+        26421,
+        13,
+        51569
+      ],
+      "avg_logprob": -0.11010819839106666,
+      "compression_ratio": 1.5740740740740742,
+      "no_speech_prob": 7.033827947172666e-12,
+      "words": [
+        {
+          "start": 22.45,
+          "end": 23.03,
+          "word": " Peut",
+          "probability": 0.9997424781322479
+        },
+        {
+          "start": 23.03,
+          "end": 23.21,
+          "word": "-être",
+          "probability": 0.9999874234199524
+        },
+        {
+          "start": 23.21,
+          "end": 23.39,
+          "word": " que",
+          "probability": 0.9999794960021973
+        },
+        {
+          "start": 23.39,
+          "end": 23.55,
+          "word": " ça",
+          "probability": 0.999924898147583
+        },
+        {
+          "start": 23.55,
+          "end": 24.01,
+          "word": " marchera",
+          "probability": 0.9996832013130188
+        },
+        {
+          "start": 24.01,
+          "end": 24.33,
+          "word": " aussi",
+          "probability": 0.9999843835830688
+        },
+        {
+          "start": 24.33,
+          "end": 24.55,
+          "word": " avec",
+          "probability": 0.9999649524688721
+        },
+        {
+          "start": 24.55,
+          "end": 24.71,
+          "word": " un",
+          "probability": 0.9999431371688843
+        },
+        {
+          "start": 24.71,
+          "end": 25.07,
+          "word": " monstre.",
+          "probability": 0.9996685981750488
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 25.81,
+      "end": 29.03,
+      "text": " Une seule solution pour le savoir? Essayer.",
+      "tokens": [
+        51626,
+        16701,
+        18800,
+        3827,
+        2016,
+        476,
+        19345,
+        2506,
+        14357,
+        11167,
+        13,
+        51766
+      ],
+      "avg_logprob": -0.11010819839106666,
+      "compression_ratio": 1.5740740740740742,
+      "no_speech_prob": 7.033827947172666e-12,
+      "words": [
+        {
+          "start": 25.81,
+          "end": 26.39,
+          "word": " Une",
+          "probability": 0.997944176197052
+        },
+        {
+          "start": 26.39,
+          "end": 26.59,
+          "word": " seule",
+          "probability": 0.9998891353607178
+        },
+        {
+          "start": 26.59,
+          "end": 26.95,
+          "word": " solution",
+          "probability": 0.9998026490211487
+        },
+        {
+          "start": 26.95,
+          "end": 27.17,
+          "word": " pour",
+          "probability": 0.9999548196792603
+        },
+        {
+          "start": 27.17,
+          "end": 27.29,
+          "word": " le",
+          "probability": 0.9999775886535645
+        },
+        {
+          "start": 27.29,
+          "end": 27.65,
+          "word": " savoir",
+          "probability": 0.9999371767044067
+        },
+        {
+          "start": 27.65,
+          "end": 28.05,
+          "word": "?",
+          "probability": 0.6058472394943237
+        },
+        {
+          "start": 28.05,
+          "end": 29.03,
+          "word": " Essayer.",
+          "probability": 0.7037582695484161
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 2802,
+      "start": 30.11,
+      "end": 35.21,
+      "text": " A peine le sort lancé, tu sens qu'une connexion s'établit entre la créature et toi",
+      "tokens": [
+        50365,
+        316,
+        46655,
+        476,
+        1333,
+        287,
+        4463,
+        526,
+        11,
+        2604,
+        2923,
+        421,
+        6,
+        2613,
+        416,
+        716,
+        87,
+        313,
+        262,
+        6,
+        4051,
+        455,
+        23062,
+        3962,
+        635,
+        15609,
+        1503,
+        1030,
+        15648,
+        50675
+      ],
+      "avg_logprob": -0.09110657550525247,
+      "compression_ratio": 1.5336322869955157,
+      "no_speech_prob": 6.961556331397389e-12,
+      "words": [
+        {
+          "start": 30.11,
+          "end": 30.55,
+          "word": " A",
+          "probability": 0.3528083562850952
+        },
+        {
+          "start": 30.55,
+          "end": 30.85,
+          "word": " peine",
+          "probability": 0.9996355772018433
+        },
+        {
+          "start": 30.85,
+          "end": 31.05,
+          "word": " le",
+          "probability": 0.9993535876274109
+        },
+        {
+          "start": 31.05,
+          "end": 31.27,
+          "word": " sort",
+          "probability": 0.9673462510108948
+        },
+        {
+          "start": 31.27,
+          "end": 31.69,
+          "word": " lancé,",
+          "probability": 0.9970883329709371
+        },
+        {
+          "start": 31.83,
+          "end": 32.41,
+          "word": " tu",
+          "probability": 0.9994333386421204
+        },
+        {
+          "start": 32.41,
+          "end": 32.63,
+          "word": " sens",
+          "probability": 0.9980449676513672
+        },
+        {
+          "start": 32.63,
+          "end": 32.77,
+          "word": " qu",
+          "probability": 0.9998272061347961
+        },
+        {
+          "start": 32.77,
+          "end": 32.89,
+          "word": "'une",
+          "probability": 0.9999503493309021
+        },
+        {
+          "start": 32.89,
+          "end": 33.43,
+          "word": " connexion",
+          "probability": 0.999623104929924
+        },
+        {
+          "start": 33.43,
+          "end": 33.59,
+          "word": " s",
+          "probability": 0.9998940229415894
+        },
+        {
+          "start": 33.59,
+          "end": 34.03,
+          "word": "'établit",
+          "probability": 0.9961862117052078
+        },
+        {
+          "start": 34.03,
+          "end": 34.29,
+          "word": " entre",
+          "probability": 0.9996199607849121
+        },
+        {
+          "start": 34.29,
+          "end": 34.49,
+          "word": " la",
+          "probability": 0.9995895028114319
+        },
+        {
+          "start": 34.49,
+          "end": 34.89,
+          "word": " créature",
+          "probability": 0.9995743930339813
+        },
+        {
+          "start": 34.89,
+          "end": 35.03,
+          "word": " et",
+          "probability": 0.9998515844345093
+        },
+        {
+          "start": 35.03,
+          "end": 35.21,
+          "word": " toi",
+          "probability": 0.9993550181388855
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 2802,
+      "start": 35.21,
+      "end": 39.65,
+      "text": " Tu tentes de lui expliquer que tu n'as pas de mauvaise intention à son égard",
+      "tokens": [
+        50675,
+        7836,
+        7054,
+        279,
+        368,
+        8783,
+        1490,
+        23909,
+        631,
+        2604,
+        297,
+        6,
+        296,
+        1736,
+        368,
+        22074,
+        2757,
+        908,
+        7789,
+        1531,
+        1872,
+        1136,
+        36260,
+        50897
+      ],
+      "avg_logprob": -0.09110657550525247,
+      "compression_ratio": 1.5336322869955157,
+      "no_speech_prob": 6.961556331397389e-12,
+      "words": [
+        {
+          "start": 35.21,
+          "end": 35.97,
+          "word": " Tu",
+          "probability": 0.026644891127943993
+        },
+        {
+          "start": 35.97,
+          "end": 36.37,
+          "word": " tentes",
+          "probability": 0.977420836687088
+        },
+        {
+          "start": 36.37,
+          "end": 36.47,
+          "word": " de",
+          "probability": 0.9998332262039185
+        },
+        {
+          "start": 36.47,
+          "end": 36.63,
+          "word": " lui",
+          "probability": 0.9999897480010986
+        },
+        {
+          "start": 36.63,
+          "end": 37.21,
+          "word": " expliquer",
+          "probability": 0.9997654259204865
+        },
+        {
+          "start": 37.21,
+          "end": 37.65,
+          "word": " que",
+          "probability": 0.9984757304191589
+        },
+        {
+          "start": 37.65,
+          "end": 37.79,
+          "word": " tu",
+          "probability": 0.9997900128364563
+        },
+        {
+          "start": 37.79,
+          "end": 37.89,
+          "word": " n",
+          "probability": 0.9999332427978516
+        },
+        {
+          "start": 37.89,
+          "end": 37.95,
+          "word": "'as",
+          "probability": 0.9998830854892731
+        },
+        {
+          "start": 37.95,
+          "end": 38.07,
+          "word": " pas",
+          "probability": 0.999929666519165
+        },
+        {
+          "start": 38.07,
+          "end": 38.23,
+          "word": " de",
+          "probability": 0.9998929500579834
+        },
+        {
+          "start": 38.23,
+          "end": 38.53,
+          "word": " mauvaise",
+          "probability": 0.9234355092048645
+        },
+        {
+          "start": 38.53,
+          "end": 38.95,
+          "word": " intention",
+          "probability": 0.9987151622772217
+        },
+        {
+          "start": 38.95,
+          "end": 39.13,
+          "word": " à",
+          "probability": 0.9996844530105591
+        },
+        {
+          "start": 39.13,
+          "end": 39.31,
+          "word": " son",
+          "probability": 0.9999232292175293
+        },
+        {
+          "start": 39.31,
+          "end": 39.65,
+          "word": " égard",
+          "probability": 0.996513694524765
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2802,
+      "start": 40.25,
+      "end": 44.09,
+      "text": " Tu t'es simplement égaré dans les égouts, un endroit que tu ne connais pas",
+      "tokens": [
+        50897,
+        7836,
+        256,
+        6,
+        279,
+        24208,
+        1136,
+        2976,
+        526,
+        2680,
+        1512,
+        1136,
+        70,
+        7711,
+        11,
+        517,
+        47390,
+        631,
+        2604,
+        408,
+        45784,
+        1736,
+        51121
+      ],
+      "avg_logprob": -0.09110657550525247,
+      "compression_ratio": 1.5336322869955157,
+      "no_speech_prob": 6.961556331397389e-12,
+      "words": [
+        {
+          "start": 40.25,
+          "end": 40.69,
+          "word": " Tu",
+          "probability": 0.9896978735923767
+        },
+        {
+          "start": 40.69,
+          "end": 40.81,
+          "word": " t",
+          "probability": 0.9992151260375977
+        },
+        {
+          "start": 40.81,
+          "end": 40.89,
+          "word": "'es",
+          "probability": 0.9996899366378784
+        },
+        {
+          "start": 40.89,
+          "end": 41.47,
+          "word": " simplement",
+          "probability": 0.999575674533844
+        },
+        {
+          "start": 41.47,
+          "end": 41.89,
+          "word": " égaré",
+          "probability": 0.9877830942471822
+        },
+        {
+          "start": 41.89,
+          "end": 41.99,
+          "word": " dans",
+          "probability": 0.9998334646224976
+        },
+        {
+          "start": 41.99,
+          "end": 42.17,
+          "word": " les",
+          "probability": 0.9978736639022827
+        },
+        {
+          "start": 42.17,
+          "end": 42.45,
+          "word": " égouts,",
+          "probability": 0.9904365936915079
+        },
+        {
+          "start": 42.67,
+          "end": 43.01,
+          "word": " un",
+          "probability": 0.999852180480957
+        },
+        {
+          "start": 43.01,
+          "end": 43.29,
+          "word": " endroit",
+          "probability": 0.9999802112579346
+        },
+        {
+          "start": 43.29,
+          "end": 43.45,
+          "word": " que",
+          "probability": 0.9999426603317261
+        },
+        {
+          "start": 43.45,
+          "end": 43.55,
+          "word": " tu",
+          "probability": 0.9999661445617676
+        },
+        {
+          "start": 43.55,
+          "end": 43.65,
+          "word": " ne",
+          "probability": 0.999849796295166
+        },
+        {
+          "start": 43.65,
+          "end": 43.85,
+          "word": " connais",
+          "probability": 0.9994127750396729
+        },
+        {
+          "start": 43.85,
+          "end": 44.09,
+          "word": " pas",
+          "probability": 0.9999902248382568
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2802,
+      "start": 44.73,
+      "end": 48.75,
+      "text": " Si la bête accepte de se pousser un peu, tu ne lui feras aucun mal",
+      "tokens": [
+        51121,
+        4909,
+        635,
+        272,
+        12943,
+        3241,
+        68,
+        368,
+        369,
+        39140,
+        12484,
+        517,
+        5604,
+        11,
+        2604,
+        408,
+        8783,
+        283,
+        6985,
+        35361,
+        2806,
+        51353
+      ],
+      "avg_logprob": -0.09110657550525247,
+      "compression_ratio": 1.5336322869955157,
+      "no_speech_prob": 6.961556331397389e-12,
+      "words": [
+        {
+          "start": 44.73,
+          "end": 45.17,
+          "word": " Si",
+          "probability": 0.9990066885948181
+        },
+        {
+          "start": 45.17,
+          "end": 45.31,
+          "word": " la",
+          "probability": 0.9996618032455444
+        },
+        {
+          "start": 45.31,
+          "end": 45.49,
+          "word": " bête",
+          "probability": 0.9992069900035858
+        },
+        {
+          "start": 45.49,
+          "end": 46.03,
+          "word": " accepte",
+          "probability": 0.999430388212204
+        },
+        {
+          "start": 46.03,
+          "end": 46.13,
+          "word": " de",
+          "probability": 0.9996660947799683
+        },
+        {
+          "start": 46.13,
+          "end": 46.29,
+          "word": " se",
+          "probability": 0.999096155166626
+        },
+        {
+          "start": 46.29,
+          "end": 46.67,
+          "word": " pousser",
+          "probability": 0.9997369349002838
+        },
+        {
+          "start": 46.67,
+          "end": 46.85,
+          "word": " un",
+          "probability": 0.9999126195907593
+        },
+        {
+          "start": 46.85,
+          "end": 46.99,
+          "word": " peu,",
+          "probability": 0.9997944235801697
+        },
+        {
+          "start": 47.41,
+          "end": 47.59,
+          "word": " tu",
+          "probability": 0.999904990196228
+        },
+        {
+          "start": 47.59,
+          "end": 47.73,
+          "word": " ne",
+          "probability": 0.9999052286148071
+        },
+        {
+          "start": 47.73,
+          "end": 47.87,
+          "word": " lui",
+          "probability": 0.9999125003814697
+        },
+        {
+          "start": 47.87,
+          "end": 48.11,
+          "word": " feras",
+          "probability": 0.9971510469913483
+        },
+        {
+          "start": 48.11,
+          "end": 48.47,
+          "word": " aucun",
+          "probability": 0.9999058246612549
+        },
+        {
+          "start": 48.47,
+          "end": 48.75,
+          "word": " mal",
+          "probability": 0.9996519088745117
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 11,
+      "seek": 2802,
+      "start": 49.91,
+      "end": 51.39,
+      "text": " Le monstre te répond",
+      "tokens": [
+        51353,
+        1456,
+        1108,
+        26421,
+        535,
+        26027,
+        51484
+      ],
+      "avg_logprob": -0.09110657550525247,
+      "compression_ratio": 1.5336322869955157,
+      "no_speech_prob": 6.961556331397389e-12,
+      "words": [
+        {
+          "start": 49.91,
+          "end": 50.35,
+          "word": " Le",
+          "probability": 0.9967803955078125
+        },
+        {
+          "start": 50.35,
+          "end": 50.79,
+          "word": " monstre",
+          "probability": 0.9984033703804016
+        },
+        {
+          "start": 50.79,
+          "end": 50.97,
+          "word": " te",
+          "probability": 0.9996160268783569
+        },
+        {
+          "start": 50.97,
+          "end": 51.39,
+          "word": " répond",
+          "probability": 0.999363124370575
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 12,
+      "seek": 2802,
+      "start": 51.39,
+      "end": 52.65,
+      "text": " J'ai faim",
+      "tokens": [
+        51484,
+        508,
+        6,
+        1301,
+        2050,
+        332,
+        51549
+      ],
+      "avg_logprob": -0.09110657550525247,
+      "compression_ratio": 1.5336322869955157,
+      "no_speech_prob": 6.961556331397389e-12,
+      "words": [
+        {
+          "start": 51.39,
+          "end": 51.95,
+          "word": " J",
+          "probability": 0.3452921211719513
+        },
+        {
+          "start": 51.95,
+          "end": 52.21,
+          "word": "'ai",
+          "probability": 0.9912110865116119
+        },
+        {
+          "start": 52.21,
+          "end": 52.65,
+          "word": " faim",
+          "probability": 0.7546376287937164
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

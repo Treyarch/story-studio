@@ -1,0 +1,75 @@
+{
+  "scene": "A26d_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A26d_list_ch2.mp3",
+  "sha256": "5c0f7e2420788925cc144ffd852da9679edb1e8b8aa58d2a18f6e8769dc44e14",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.5478125,
+  "text": "le parchemin de boule de feu,",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.95,
+      "text": " le parchemin de boule de feu,",
+      "tokens": [
+        50365,
+        476,
+        971,
+        17345,
+        259,
+        368,
+        15345,
+        306,
+        368,
+        29539,
+        11,
+        50461
+      ],
+      "avg_logprob": -0.1631264640734746,
+      "compression_ratio": 0.8529411764705882,
+      "no_speech_prob": 3.729218323034189e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.61,
+          "word": " le",
+          "probability": 0.5875753164291382
+        },
+        {
+          "start": 0.61,
+          "end": 1.19,
+          "word": " parchemin",
+          "probability": 0.9981833299001058
+        },
+        {
+          "start": 1.19,
+          "end": 1.33,
+          "word": " de",
+          "probability": 0.9989514350891113
+        },
+        {
+          "start": 1.33,
+          "end": 1.61,
+          "word": " boule",
+          "probability": 0.9236985445022583
+        },
+        {
+          "start": 1.61,
+          "end": 1.75,
+          "word": " de",
+          "probability": 0.9941408038139343
+        },
+        {
+          "start": 1.75,
+          "end": 1.95,
+          "word": " feu,",
+          "probability": 0.9985647797584534
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

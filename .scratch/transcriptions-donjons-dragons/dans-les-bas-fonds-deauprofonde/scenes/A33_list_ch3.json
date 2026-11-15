@@ -1,0 +1,77 @@
+{
+  "scene": "A33_list_ch3",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A33_list_ch3.mp3",
+  "sha256": "6b773190ae23d3e61e942967f74c9afd6dd52d653244bcaacb41ba313dbc9639",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.6153125,
+  "text": "Tu grimpes jusqu'à la lucarne.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 2.06,
+      "text": " Tu grimpes jusqu'à la lucarne.",
+      "tokens": [
+        50365,
+        7836,
+        677,
+        8814,
+        279,
+        20340,
+        6,
+        1467,
+        635,
+        21296,
+        289,
+        716,
+        13,
+        50464
+      ],
+      "avg_logprob": -0.1740458865960439,
+      "compression_ratio": 0.7948717948717948,
+      "no_speech_prob": 4.773901760013466e-12,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.5,
+          "word": " Tu",
+          "probability": 0.7940192222595215
+        },
+        {
+          "start": 0.5,
+          "end": 1.06,
+          "word": " grimpes",
+          "probability": 0.8087481458981832
+        },
+        {
+          "start": 1.06,
+          "end": 1.22,
+          "word": " jusqu",
+          "probability": 0.9994856119155884
+        },
+        {
+          "start": 1.22,
+          "end": 1.44,
+          "word": "'à",
+          "probability": 0.999964714050293
+        },
+        {
+          "start": 1.44,
+          "end": 1.54,
+          "word": " la",
+          "probability": 0.9981258511543274
+        },
+        {
+          "start": 1.54,
+          "end": 2.06,
+          "word": " lucarne.",
+          "probability": 0.9644760886828104
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

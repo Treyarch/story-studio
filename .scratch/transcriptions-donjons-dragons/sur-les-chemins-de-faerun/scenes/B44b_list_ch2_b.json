@@ -1,0 +1,60 @@
+{
+  "scene": "B44b_list_ch2_b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B44b_list_ch2_b.mp3",
+  "sha256": "197e489a7d4451412e498bb67987b002707a03c88fbd0dfeba4285882944c467",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.8265,
+  "text": "Lui jeter un sort.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.34,
+      "text": " Lui jeter un sort.",
+      "tokens": [
+        50365,
+        441,
+        3077,
+        361,
+        2398,
+        517,
+        1333,
+        13,
+        50436
+      ],
+      "avg_logprob": -0.16834469139575958,
+      "compression_ratio": 0.6923076923076923,
+      "no_speech_prob": 5.231858783011356e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.56,
+          "word": " Lui",
+          "probability": 0.6956029683351517
+        },
+        {
+          "start": 0.56,
+          "end": 0.86,
+          "word": " jeter",
+          "probability": 0.8100989758968353
+        },
+        {
+          "start": 0.86,
+          "end": 1.08,
+          "word": " un",
+          "probability": 0.9982442855834961
+        },
+        {
+          "start": 1.08,
+          "end": 1.34,
+          "word": " sort.",
+          "probability": 0.9990672469139099
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "scene": "B30_wis_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B30_wis_success.mp3",
+  "sha256": "22a72fd3c46d502bbdf1e13e02ad7405bf472948182baf97126413fa72848695",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 29.3864375,
+  "text": "Du coin de l'œil, tu repères le mendiant que tu as croisé tout à l'heure. Impossible qu'il ait décidé de cheminer par hasard dans ta direction, encore moins jusqu'ici. Il a donc dû te suivre. Si tu vas lui demander à quoi il joue, il risque de s'enfuir et de disparaître à nouveau. Mieux vaut feindre de ne pas l'avoir remarqué, tout en gardant un œil sur lui.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.49,
+      "end": 5.97,
+      "text": " Du coin de l'œil, tu repères le mendiant que tu as croisé tout à l'heure.",
+      "tokens": [
+        50365,
+        5153,
+        11464,
+        368,
+        287,
+        6,
+        34073,
+        388,
+        11,
+        2604,
+        1085,
+        13927,
+        476,
+        31161,
+        5798,
+        631,
+        2604,
+        382,
+        21724,
+        526,
+        3486,
+        1531,
+        287,
+        6,
+        23084,
+        13,
+        50589
+      ],
+      "avg_logprob": -0.05594869465406599,
+      "compression_ratio": 1.4474708171206225,
+      "no_speech_prob": 7.811794613954426e-12,
+      "words": [
+        {
+          "start": 1.49,
+          "end": 1.97,
+          "word": " Du",
+          "probability": 0.868416965007782
+        },
+        {
+          "start": 1.97,
+          "end": 2.21,
+          "word": " coin",
+          "probability": 0.9971453547477722
+        },
+        {
+          "start": 2.21,
+          "end": 2.35,
+          "word": " de",
+          "probability": 0.9999895095825195
+        },
+        {
+          "start": 2.35,
+          "end": 2.49,
+          "word": " l",
+          "probability": 0.9999638795852661
+        },
+        {
+          "start": 2.49,
+          "end": 2.73,
+          "word": "'œil,",
+          "probability": 0.9891823728879293
+        },
+        {
+          "start": 2.93,
+          "end": 3.53,
+          "word": " tu",
+          "probability": 0.9996757507324219
+        },
+        {
+          "start": 3.53,
+          "end": 4.01,
+          "word": " repères",
+          "probability": 0.9968370199203491
+        },
+        {
+          "start": 4.01,
+          "end": 4.21,
+          "word": " le",
+          "probability": 0.9997958540916443
+        },
+        {
+          "start": 4.21,
+          "end": 4.63,
+          "word": " mendiant",
+          "probability": 0.9754721820354462
+        },
+        {
+          "start": 4.63,
+          "end": 4.79,
+          "word": " que",
+          "probability": 0.9998399019241333
+        },
+        {
+          "start": 4.79,
+          "end": 4.95,
+          "word": " tu",
+          "probability": 0.9999716281890869
+        },
+        {
+          "start": 4.95,
+          "end": 5.09,
+          "word": " as",
+          "probability": 0.9996480941772461
+        },
+        {
+          "start": 5.09,
+          "end": 5.43,
+          "word": " croisé",
+          "probability": 0.9984773695468903
+        },
+        {
+          "start": 5.43,
+          "end": 5.57,
+          "word": " tout",
+          "probability": 0.9994819760322571
+        },
+        {
+          "start": 5.57,
+          "end": 5.71,
+          "word": " à",
+          "probability": 0.9999629259109497
+        },
+        {
+          "start": 5.71,
+          "end": 5.81,
+          "word": " l",
+          "probability": 0.9999550580978394
+        },
+        {
+          "start": 5.81,
+          "end": 5.97,
+          "word": "'heure.",
+          "probability": 0.9999762177467346
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7.07,
+      "end": 12.15,
+      "text": " Impossible qu'il ait décidé de cheminer par hasard dans ta direction, encore moins jusqu'ici.",
+      "tokens": [
+        50645,
+        36808,
+        421,
+        6,
+        388,
+        31684,
+        43206,
+        368,
+        4771,
+        4564,
+        971,
+        575,
+        515,
+        2680,
+        1846,
+        3513,
+        11,
+        10122,
+        13099,
+        20340,
+        6,
+        8787,
+        13,
+        50898
+      ],
+      "avg_logprob": -0.05594869465406599,
+      "compression_ratio": 1.4474708171206225,
+      "no_speech_prob": 7.811794613954426e-12,
+      "words": [
+        {
+          "start": 7.07,
+          "end": 7.55,
+          "word": " Impossible",
+          "probability": 0.9981772899627686
+        },
+        {
+          "start": 7.55,
+          "end": 7.87,
+          "word": " qu",
+          "probability": 0.9999228715896606
+        },
+        {
+          "start": 7.87,
+          "end": 7.99,
+          "word": "'il",
+          "probability": 0.9999842643737793
+        },
+        {
+          "start": 7.99,
+          "end": 8.05,
+          "word": " ait",
+          "probability": 0.989132821559906
+        },
+        {
+          "start": 8.05,
+          "end": 8.43,
+          "word": " décidé",
+          "probability": 0.9996086955070496
+        },
+        {
+          "start": 8.43,
+          "end": 8.67,
+          "word": " de",
+          "probability": 0.9999904632568359
+        },
+        {
+          "start": 8.67,
+          "end": 9.09,
+          "word": " cheminer",
+          "probability": 0.9988524913787842
+        },
+        {
+          "start": 9.09,
+          "end": 9.39,
+          "word": " par",
+          "probability": 0.9991655349731445
+        },
+        {
+          "start": 9.39,
+          "end": 9.67,
+          "word": " hasard",
+          "probability": 0.9998923540115356
+        },
+        {
+          "start": 9.67,
+          "end": 9.81,
+          "word": " dans",
+          "probability": 0.9998953342437744
+        },
+        {
+          "start": 9.81,
+          "end": 9.97,
+          "word": " ta",
+          "probability": 0.9999020099639893
+        },
+        {
+          "start": 9.97,
+          "end": 10.41,
+          "word": " direction,",
+          "probability": 0.9998001456260681
+        },
+        {
+          "start": 10.89,
+          "end": 11.35,
+          "word": " encore",
+          "probability": 0.9996942281723022
+        },
+        {
+          "start": 11.35,
+          "end": 11.61,
+          "word": " moins",
+          "probability": 0.9999622106552124
+        },
+        {
+          "start": 11.61,
+          "end": 11.87,
+          "word": " jusqu",
+          "probability": 0.9998787641525269
+        },
+        {
+          "start": 11.87,
+          "end": 12.15,
+          "word": "'ici.",
+          "probability": 0.9999677538871765
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 12.53,
+      "end": 14.09,
+      "text": " Il a donc dû te suivre.",
+      "tokens": [
+        50935,
+        4416,
+        257,
+        5926,
+        42300,
+        535,
+        43404,
+        13,
+        50996
+      ],
+      "avg_logprob": -0.05594869465406599,
+      "compression_ratio": 1.4474708171206225,
+      "no_speech_prob": 7.811794613954426e-12,
+      "words": [
+        {
+          "start": 12.53,
+          "end": 13.01,
+          "word": " Il",
+          "probability": 0.9982067346572876
+        },
+        {
+          "start": 13.01,
+          "end": 13.15,
+          "word": " a",
+          "probability": 0.9999786615371704
+        },
+        {
+          "start": 13.15,
+          "end": 13.39,
+          "word": " donc",
+          "probability": 0.9999631643295288
+        },
+        {
+          "start": 13.39,
+          "end": 13.57,
+          "word": " dû",
+          "probability": 0.9992018342018127
+        },
+        {
+          "start": 13.57,
+          "end": 13.73,
+          "word": " te",
+          "probability": 0.9998766183853149
+        },
+        {
+          "start": 13.73,
+          "end": 14.09,
+          "word": " suivre.",
+          "probability": 0.9999070167541504
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 14.61,
+      "end": 19.79,
+      "text": " Si tu vas lui demander à quoi il joue, il risque de s'enfuir et de disparaître à nouveau.",
+      "tokens": [
+        51037,
+        4909,
+        2604,
+        11481,
+        8783,
+        39169,
+        1531,
+        11714,
+        1930,
+        46209,
+        11,
+        1930,
+        37574,
+        368,
+        262,
+        6,
+        268,
+        14127,
+        347,
+        1030,
+        368,
+        14548,
+        64,
+        25011,
+        1531,
+        23326,
+        13,
+        51280
+      ],
+      "avg_logprob": -0.05594869465406599,
+      "compression_ratio": 1.4474708171206225,
+      "no_speech_prob": 7.811794613954426e-12,
+      "words": [
+        {
+          "start": 14.61,
+          "end": 15.09,
+          "word": " Si",
+          "probability": 0.9980898499488831
+        },
+        {
+          "start": 15.09,
+          "end": 15.23,
+          "word": " tu",
+          "probability": 0.9999681711196899
+        },
+        {
+          "start": 15.23,
+          "end": 15.41,
+          "word": " vas",
+          "probability": 0.9990153312683105
+        },
+        {
+          "start": 15.41,
+          "end": 15.57,
+          "word": " lui",
+          "probability": 0.9999738931655884
+        },
+        {
+          "start": 15.57,
+          "end": 15.99,
+          "word": " demander",
+          "probability": 0.9999673366546631
+        },
+        {
+          "start": 15.99,
+          "end": 16.19,
+          "word": " à",
+          "probability": 0.999911904335022
+        },
+        {
+          "start": 16.19,
+          "end": 16.37,
+          "word": " quoi",
+          "probability": 0.9999227523803711
+        },
+        {
+          "start": 16.37,
+          "end": 16.59,
+          "word": " il",
+          "probability": 0.9998729228973389
+        },
+        {
+          "start": 16.59,
+          "end": 16.81,
+          "word": " joue,",
+          "probability": 0.9998997449874878
+        },
+        {
+          "start": 17.03,
+          "end": 17.47,
+          "word": " il",
+          "probability": 0.9999004602432251
+        },
+        {
+          "start": 17.47,
+          "end": 17.73,
+          "word": " risque",
+          "probability": 0.9998564720153809
+        },
+        {
+          "start": 17.73,
+          "end": 17.91,
+          "word": " de",
+          "probability": 0.9999454021453857
+        },
+        {
+          "start": 17.91,
+          "end": 18.05,
+          "word": " s",
+          "probability": 0.999842643737793
+        },
+        {
+          "start": 18.05,
+          "end": 18.47,
+          "word": "'enfuir",
+          "probability": 0.9984777718782425
+        },
+        {
+          "start": 18.47,
+          "end": 18.73,
+          "word": " et",
+          "probability": 0.9984893798828125
+        },
+        {
+          "start": 18.73,
+          "end": 18.87,
+          "word": " de",
+          "probability": 0.9999862909317017
+        },
+        {
+          "start": 18.87,
+          "end": 19.37,
+          "word": " disparaître",
+          "probability": 0.9993696610132853
+        },
+        {
+          "start": 19.37,
+          "end": 19.53,
+          "word": " à",
+          "probability": 0.999262273311615
+        },
+        {
+          "start": 19.53,
+          "end": 19.79,
+          "word": " nouveau.",
+          "probability": 0.9998970031738281
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 20.39,
+      "end": 25.73,
+      "text": " Mieux vaut feindre de ne pas l'avoir remarqué, tout en gardant un œil sur lui.",
+      "tokens": [
+        51317,
+        376,
+        35371,
+        371,
+        1375,
+        579,
+        28786,
+        368,
+        408,
+        1736,
+        287,
+        6,
+        17239,
+        34329,
+        16412,
+        11,
+        3486,
+        465,
+        5628,
+        394,
+        517,
+        48360,
+        388,
+        1022,
+        8783,
+        13,
+        51578
+      ],
+      "avg_logprob": -0.05594869465406599,
+      "compression_ratio": 1.4474708171206225,
+      "no_speech_prob": 7.811794613954426e-12,
+      "words": [
+        {
+          "start": 20.39,
+          "end": 20.75,
+          "word": " Mieux",
+          "probability": 0.9948424100875854
+        },
+        {
+          "start": 20.75,
+          "end": 20.97,
+          "word": " vaut",
+          "probability": 0.9997811913490295
+        },
+        {
+          "start": 20.97,
+          "end": 21.39,
+          "word": " feindre",
+          "probability": 0.9900262653827667
+        },
+        {
+          "start": 21.39,
+          "end": 21.75,
+          "word": " de",
+          "probability": 0.9993798732757568
+        },
+        {
+          "start": 21.75,
+          "end": 21.89,
+          "word": " ne",
+          "probability": 0.9999459981918335
+        },
+        {
+          "start": 21.89,
+          "end": 22.13,
+          "word": " pas",
+          "probability": 0.9999833106994629
+        },
+        {
+          "start": 22.13,
+          "end": 22.25,
+          "word": " l",
+          "probability": 0.9992055296897888
+        },
+        {
+          "start": 22.25,
+          "end": 22.43,
+          "word": "'avoir",
+          "probability": 0.9999000132083893
+        },
+        {
+          "start": 22.43,
+          "end": 23.03,
+          "word": " remarqué,",
+          "probability": 0.9985010921955109
+        },
+        {
+          "start": 23.49,
+          "end": 24.09,
+          "word": " tout",
+          "probability": 0.999782145023346
+        },
+        {
+          "start": 24.09,
+          "end": 24.37,
+          "word": " en",
+          "probability": 0.9999808073043823
+        },
+        {
+          "start": 24.37,
+          "end": 24.81,
+          "word": " gardant",
+          "probability": 0.9997945427894592
+        },
+        {
+          "start": 24.81,
+          "end": 24.99,
+          "word": " un",
+          "probability": 0.9998651742935181
+        },
+        {
+          "start": 24.99,
+          "end": 25.29,
+          "word": " œil",
+          "probability": 0.9971097707748413
+        },
+        {
+          "start": 25.29,
+          "end": 25.51,
+          "word": " sur",
+          "probability": 0.9993003606796265
+        },
+        {
+          "start": 25.51,
+          "end": 25.73,
+          "word": " lui.",
+          "probability": 0.9998877048492432
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

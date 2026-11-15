@@ -1,0 +1,63 @@
+{
+  "scene": "item_title_cle-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_cle-fr_FR.mp3",
+  "sha256": "3c2f52e3575c87f17b0645e1d1d2f900db5ed30dec51e9cafacba0e279af052e",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.5241875,
+  "text": "La clé du Zhentarim.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.88,
+      "text": " La clé du Zhentarim.",
+      "tokens": [
+        50365,
+        2369,
+        596,
+        526,
+        1581,
+        44091,
+        289,
+        332,
+        13,
+        50459
+      ],
+      "avg_logprob": -0.22023457017811862,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 4.874245538438737e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.6,
+          "word": " La",
+          "probability": 0.8298586010932922
+        },
+        {
+          "start": 0.6,
+          "end": 0.94,
+          "word": " clé",
+          "probability": 0.988940417766571
+        },
+        {
+          "start": 0.94,
+          "end": 1.26,
+          "word": " du",
+          "probability": 0.9997833371162415
+        },
+        {
+          "start": 1.26,
+          "end": 1.88,
+          "word": " Zhentarim.",
+          "probability": 0.792579303185145
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

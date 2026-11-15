@@ -1,0 +1,71 @@
+{
+  "scene": "B59_list_ch4",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B59_list_ch4.mp3",
+  "sha256": "ba6a31347aa8172359c3b92702a2f49e51b4c869d45760f65b0b550f8a7a1640",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.60125,
+  "text": "Évoquer un trésor inventé?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 2.19,
+      "text": " Évoquer un trésor inventé?",
+      "tokens": [
+        50365,
+        4922,
+        3080,
+        8035,
+        517,
+        504,
+        2191,
+        284,
+        7962,
+        526,
+        2506,
+        50465
+      ],
+      "avg_logprob": -0.27146200033334583,
+      "compression_ratio": 0.7894736842105263,
+      "no_speech_prob": 3.679056625321975e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.85,
+          "word": " Évoquer",
+          "probability": 0.8471594452857971
+        },
+        {
+          "start": 0.85,
+          "end": 0.99,
+          "word": " un",
+          "probability": 0.9998587369918823
+        },
+        {
+          "start": 0.99,
+          "end": 1.47,
+          "word": " trésor",
+          "probability": 0.9996750354766846
+        },
+        {
+          "start": 1.47,
+          "end": 2.03,
+          "word": " inventé",
+          "probability": 0.9994959235191345
+        },
+        {
+          "start": 2.03,
+          "end": 2.19,
+          "word": "?",
+          "probability": 0.44190722703933716
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

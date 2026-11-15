@@ -1,0 +1,68 @@
+{
+  "scene": "intro02_chapitre",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/intro02_chapitre.mp3",
+  "sha256": "a5f4ea589ec6c051297296ea89b279c11f7abd7749b5167f3dd263f365bd6cef",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.8659375,
+  "text": "En route vers l'aventure.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.44,
+      "text": " En route vers l'aventure.",
+      "tokens": [
+        50365,
+        2193,
+        7955,
+        1774,
+        287,
+        6,
+        706,
+        317,
+        540,
+        13,
+        50438
+      ],
+      "avg_logprob": -0.16995896895726523,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 1.2430579135469522e-11,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.34,
+          "word": " En",
+          "probability": 0.504871666431427
+        },
+        {
+          "start": 0.34,
+          "end": 0.58,
+          "word": " route",
+          "probability": 0.9982859492301941
+        },
+        {
+          "start": 0.58,
+          "end": 0.78,
+          "word": " vers",
+          "probability": 0.9994537234306335
+        },
+        {
+          "start": 0.78,
+          "end": 0.9,
+          "word": " l",
+          "probability": 0.9997500777244568
+        },
+        {
+          "start": 0.9,
+          "end": 1.44,
+          "word": "'aventure.",
+          "probability": 0.998717650771141
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

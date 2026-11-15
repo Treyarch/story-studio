@@ -1,0 +1,75 @@
+{
+  "scene": "B59_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B59_list.mp3",
+  "sha256": "94c43cac7d502bff3f6fa44f79a9466b562e9e529e07e36cb63dbdd5d40e33e5",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.217625,
+  "text": "Que décides-tu de faire?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.73,
+      "text": " Que décides-tu de faire?",
+      "tokens": [
+        50365,
+        4493,
+        9198,
+        1875,
+        12,
+        9179,
+        368,
+        4865,
+        2506,
+        50473
+      ],
+      "avg_logprob": -0.2585539492693814,
+      "compression_ratio": 0.7647058823529411,
+      "no_speech_prob": 4.578364163482229e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.53,
+          "word": " Que",
+          "probability": 0.861752986907959
+        },
+        {
+          "start": 0.53,
+          "end": 1.01,
+          "word": " décides",
+          "probability": 0.9933354556560516
+        },
+        {
+          "start": 1.01,
+          "end": 1.13,
+          "word": "-tu",
+          "probability": 0.9993089735507965
+        },
+        {
+          "start": 1.13,
+          "end": 1.25,
+          "word": " de",
+          "probability": 0.9998642206192017
+        },
+        {
+          "start": 1.25,
+          "end": 1.59,
+          "word": " faire",
+          "probability": 0.9998384714126587
+        },
+        {
+          "start": 1.59,
+          "end": 1.73,
+          "word": "?",
+          "probability": 0.9852965474128723
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

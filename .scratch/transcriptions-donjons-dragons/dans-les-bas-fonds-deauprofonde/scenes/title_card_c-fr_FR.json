@@ -1,0 +1,62 @@
+{
+  "scene": "title_card_c-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/title_card_c-fr_FR.mp3",
+  "sha256": "ed4e8d1fe095699bfae09e948d09344bfba6c37b022b71aa6d7ea6aa940d70c0",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.819875,
+  "text": "Mystère à Eauprofonde",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 2.16,
+      "text": " Mystère à Eauprofonde",
+      "tokens": [
+        50365,
+        28510,
+        4212,
+        1531,
+        308,
+        1459,
+        1740,
+        7259,
+        50474
+      ],
+      "avg_logprob": -0.13374462425708772,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 4.704086078999303e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 1.14,
+          "word": " Mystère",
+          "probability": 0.9060774147510529
+        },
+        {
+          "start": 1.14,
+          "end": 1.36,
+          "word": " à",
+          "probability": 0.9974247217178345
+        },
+        {
+          "start": 1.36,
+          "end": 1.62,
+          "word": " eau",
+          "probability": 0.9670032262802124
+        },
+        {
+          "start": 1.62,
+          "end": 2.16,
+          "word": " profonde",
+          "probability": 0.9995207488536835
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

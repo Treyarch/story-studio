@@ -1,0 +1,921 @@
+{
+  "scene": "A20",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/A20.mp3",
+  "sha256": "0a613570ce3ee609d7b470f26be08faa737888cfdc681ade8d9e904f9c5dbeb7",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 41.0885,
+  "text": "Tu prends un moment pour sécher au soleil avant de te rhabiller. Quel bonheur de voir la rivière couler à son aise et le débit de l'eau augmenter doucement. Tu as accompli ta troisième mission. Tu as donc gagné le médaillon de l'eau. La dryade te remet ton trophée. Un disque translucide orné de poissons minuscules qui y barbotent en rond. En le touchant, le médaillon te semble mouillé. Mais il ne laisse pas de traces humides sur tes doigts. Comme il est glissant, tu le ranges avec beaucoup de précaution dans ton sac sans fond.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.65,
+      "end": 5.61,
+      "text": " Tu prends un moment pour sécher au soleil avant de te rhabiller.",
+      "tokens": [
+        50365,
+        7836,
+        46750,
+        517,
+        1623,
+        2016,
+        7910,
+        6759,
+        1609,
+        12321,
+        388,
+        13439,
+        368,
+        535,
+        367,
+        7821,
+        10497,
+        13,
+        50563
+      ],
+      "avg_logprob": -0.1431333561588947,
+      "compression_ratio": 1.5405405405405406,
+      "no_speech_prob": 5.920197491959822e-12,
+      "words": [
+        {
+          "start": 1.65,
+          "end": 2.11,
+          "word": " Tu",
+          "probability": 0.8879849910736084
+        },
+        {
+          "start": 2.11,
+          "end": 2.39,
+          "word": " prends",
+          "probability": 0.9976229071617126
+        },
+        {
+          "start": 2.39,
+          "end": 2.67,
+          "word": " un",
+          "probability": 0.9998478889465332
+        },
+        {
+          "start": 2.67,
+          "end": 3.09,
+          "word": " moment",
+          "probability": 0.9999336004257202
+        },
+        {
+          "start": 3.09,
+          "end": 3.35,
+          "word": " pour",
+          "probability": 0.9995637536048889
+        },
+        {
+          "start": 3.35,
+          "end": 3.75,
+          "word": " sécher",
+          "probability": 0.9995948672294617
+        },
+        {
+          "start": 3.75,
+          "end": 3.91,
+          "word": " au",
+          "probability": 0.9994016885757446
+        },
+        {
+          "start": 3.91,
+          "end": 4.41,
+          "word": " soleil",
+          "probability": 0.9997462630271912
+        },
+        {
+          "start": 4.41,
+          "end": 4.83,
+          "word": " avant",
+          "probability": 0.9959470629692078
+        },
+        {
+          "start": 4.83,
+          "end": 5.05,
+          "word": " de",
+          "probability": 0.9999479055404663
+        },
+        {
+          "start": 5.05,
+          "end": 5.17,
+          "word": " te",
+          "probability": 0.9995391368865967
+        },
+        {
+          "start": 5.17,
+          "end": 5.61,
+          "word": " rhabiller.",
+          "probability": 0.9894116520881653
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.15,
+      "end": 9.47,
+      "text": " Quel bonheur de voir la rivière couler à son aise",
+      "tokens": [
+        50611,
+        43521,
+        4428,
+        675,
+        374,
+        368,
+        10695,
+        635,
+        28745,
+        10195,
+        1384,
+        1918,
+        1531,
+        1872,
+        257,
+        908,
+        50756
+      ],
+      "avg_logprob": -0.1431333561588947,
+      "compression_ratio": 1.5405405405405406,
+      "no_speech_prob": 5.920197491959822e-12,
+      "words": [
+        {
+          "start": 6.15,
+          "end": 6.75,
+          "word": " Quel",
+          "probability": 0.9952580332756042
+        },
+        {
+          "start": 6.75,
+          "end": 7.37,
+          "word": " bonheur",
+          "probability": 0.9994943340619405
+        },
+        {
+          "start": 7.37,
+          "end": 7.57,
+          "word": " de",
+          "probability": 0.9998142123222351
+        },
+        {
+          "start": 7.57,
+          "end": 7.81,
+          "word": " voir",
+          "probability": 0.9998040795326233
+        },
+        {
+          "start": 7.81,
+          "end": 8.01,
+          "word": " la",
+          "probability": 0.9996659755706787
+        },
+        {
+          "start": 8.01,
+          "end": 8.47,
+          "word": " rivière",
+          "probability": 0.9998232424259186
+        },
+        {
+          "start": 8.47,
+          "end": 8.77,
+          "word": " couler",
+          "probability": 0.9945498406887054
+        },
+        {
+          "start": 8.77,
+          "end": 8.91,
+          "word": " à",
+          "probability": 0.9999020099639893
+        },
+        {
+          "start": 8.91,
+          "end": 9.11,
+          "word": " son",
+          "probability": 0.9996645450592041
+        },
+        {
+          "start": 9.11,
+          "end": 9.47,
+          "word": " aise",
+          "probability": 0.9955929815769196
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.47,
+      "end": 11.89,
+      "text": " et le débit de l'eau augmenter doucement.",
+      "tokens": [
+        50756,
+        1030,
+        476,
+        2795,
+        5260,
+        368,
+        287,
+        6,
+        22290,
+        29919,
+        260,
+        2482,
+        384,
+        518,
+        13,
+        50878
+      ],
+      "avg_logprob": -0.1431333561588947,
+      "compression_ratio": 1.5405405405405406,
+      "no_speech_prob": 5.920197491959822e-12,
+      "words": [
+        {
+          "start": 9.47,
+          "end": 9.89,
+          "word": " et",
+          "probability": 0.9321107268333435
+        },
+        {
+          "start": 9.89,
+          "end": 10.05,
+          "word": " le",
+          "probability": 0.9998524188995361
+        },
+        {
+          "start": 10.05,
+          "end": 10.37,
+          "word": " débit",
+          "probability": 0.9993907511234283
+        },
+        {
+          "start": 10.37,
+          "end": 10.51,
+          "word": " de",
+          "probability": 0.9978390336036682
+        },
+        {
+          "start": 10.51,
+          "end": 10.63,
+          "word": " l",
+          "probability": 0.9999533891677856
+        },
+        {
+          "start": 10.63,
+          "end": 10.71,
+          "word": "'eau",
+          "probability": 0.9999783635139465
+        },
+        {
+          "start": 10.71,
+          "end": 11.37,
+          "word": " augmenter",
+          "probability": 0.998161256313324
+        },
+        {
+          "start": 11.37,
+          "end": 11.89,
+          "word": " doucement.",
+          "probability": 0.9998471140861511
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.13,
+      "end": 13.89,
+      "text": " Tu as accompli ta troisième mission.",
+      "tokens": [
+        50899,
+        7836,
+        382,
+        6548,
+        72,
+        1846,
+        47582,
+        4447,
+        13,
+        50978
+      ],
+      "avg_logprob": -0.1431333561588947,
+      "compression_ratio": 1.5405405405405406,
+      "no_speech_prob": 5.920197491959822e-12,
+      "words": [
+        {
+          "start": 12.13,
+          "end": 12.43,
+          "word": " Tu",
+          "probability": 0.9907000660896301
+        },
+        {
+          "start": 12.43,
+          "end": 12.57,
+          "word": " as",
+          "probability": 0.9990112781524658
+        },
+        {
+          "start": 12.57,
+          "end": 12.97,
+          "word": " accompli",
+          "probability": 0.9994553327560425
+        },
+        {
+          "start": 12.97,
+          "end": 13.13,
+          "word": " ta",
+          "probability": 0.9991344809532166
+        },
+        {
+          "start": 13.13,
+          "end": 13.49,
+          "word": " troisième",
+          "probability": 0.9814017415046692
+        },
+        {
+          "start": 13.49,
+          "end": 13.89,
+          "word": " mission.",
+          "probability": 0.9997811913490295
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 14.35,
+      "end": 16.75,
+      "text": " Tu as donc gagné le médaillon de l'eau.",
+      "tokens": [
+        51018,
+        7836,
+        382,
+        5926,
+        49177,
+        526,
+        476,
+        13191,
+        2675,
+        30961,
+        368,
+        287,
+        6,
+        22290,
+        13,
+        51121
+      ],
+      "avg_logprob": -0.1431333561588947,
+      "compression_ratio": 1.5405405405405406,
+      "no_speech_prob": 5.920197491959822e-12,
+      "words": [
+        {
+          "start": 14.35,
+          "end": 14.81,
+          "word": " Tu",
+          "probability": 0.9991299510002136
+        },
+        {
+          "start": 14.81,
+          "end": 14.93,
+          "word": " as",
+          "probability": 0.9993656277656555
+        },
+        {
+          "start": 14.93,
+          "end": 15.13,
+          "word": " donc",
+          "probability": 0.9998499155044556
+        },
+        {
+          "start": 15.13,
+          "end": 15.51,
+          "word": " gagné",
+          "probability": 0.9999199509620667
+        },
+        {
+          "start": 15.51,
+          "end": 15.87,
+          "word": " le",
+          "probability": 0.9989830851554871
+        },
+        {
+          "start": 15.87,
+          "end": 16.39,
+          "word": " médaillon",
+          "probability": 0.9969243208567301
+        },
+        {
+          "start": 16.39,
+          "end": 16.55,
+          "word": " de",
+          "probability": 0.9996722936630249
+        },
+        {
+          "start": 16.55,
+          "end": 16.67,
+          "word": " l",
+          "probability": 0.9993878602981567
+        },
+        {
+          "start": 16.67,
+          "end": 16.75,
+          "word": "'eau.",
+          "probability": 0.9999455809593201
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 19.19,
+      "end": 21.47,
+      "text": " La dryade te remet ton trophée.",
+      "tokens": [
+        51179,
+        2369,
+        4016,
+        762,
+        535,
+        890,
+        302,
+        2952,
+        45583,
+        3856,
+        13,
+        51274
+      ],
+      "avg_logprob": -0.1431333561588947,
+      "compression_ratio": 1.5405405405405406,
+      "no_speech_prob": 5.920197491959822e-12,
+      "words": [
+        {
+          "start": 19.19,
+          "end": 19.79,
+          "word": " La",
+          "probability": 0.981438159942627
+        },
+        {
+          "start": 19.79,
+          "end": 20.31,
+          "word": " dryade",
+          "probability": 0.721051886677742
+        },
+        {
+          "start": 20.31,
+          "end": 20.57,
+          "word": " te",
+          "probability": 0.9995488524436951
+        },
+        {
+          "start": 20.57,
+          "end": 20.89,
+          "word": " remet",
+          "probability": 0.9989491701126099
+        },
+        {
+          "start": 20.89,
+          "end": 21.07,
+          "word": " ton",
+          "probability": 0.9994187355041504
+        },
+        {
+          "start": 21.07,
+          "end": 21.47,
+          "word": " trophée.",
+          "probability": 0.999570369720459
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 21.77,
+      "end": 27.41,
+      "text": " Un disque translucide orné de poissons minuscules qui y barbotent en rond.",
+      "tokens": [
+        51313,
+        1156,
+        717,
+        1077,
+        45266,
+        482,
+        420,
+        15055,
+        368,
+        714,
+        891,
+        892,
+        3175,
+        11570,
+        1956,
+        288,
+        2159,
+        18870,
+        317,
+        465,
+        39353,
+        13,
+        51571
+      ],
+      "avg_logprob": -0.1431333561588947,
+      "compression_ratio": 1.5405405405405406,
+      "no_speech_prob": 5.920197491959822e-12,
+      "words": [
+        {
+          "start": 21.77,
+          "end": 22.39,
+          "word": " Un",
+          "probability": 0.9984875917434692
+        },
+        {
+          "start": 22.39,
+          "end": 22.83,
+          "word": " disque",
+          "probability": 0.9998281300067902
+        },
+        {
+          "start": 22.83,
+          "end": 23.81,
+          "word": " translucide",
+          "probability": 0.9995200932025909
+        },
+        {
+          "start": 23.81,
+          "end": 24.47,
+          "word": " orné",
+          "probability": 0.9946765899658203
+        },
+        {
+          "start": 24.47,
+          "end": 24.71,
+          "word": " de",
+          "probability": 0.9999227523803711
+        },
+        {
+          "start": 24.71,
+          "end": 25.25,
+          "word": " poissons",
+          "probability": 0.9966173569361368
+        },
+        {
+          "start": 25.25,
+          "end": 26.13,
+          "word": " minuscules",
+          "probability": 0.9892740547657013
+        },
+        {
+          "start": 26.13,
+          "end": 26.45,
+          "word": " qui",
+          "probability": 0.9993545413017273
+        },
+        {
+          "start": 26.45,
+          "end": 26.67,
+          "word": " y",
+          "probability": 0.9988407492637634
+        },
+        {
+          "start": 26.67,
+          "end": 27.13,
+          "word": " barbotent",
+          "probability": 0.9012989401817322
+        },
+        {
+          "start": 27.13,
+          "end": 27.29,
+          "word": " en",
+          "probability": 0.9993243217468262
+        },
+        {
+          "start": 27.29,
+          "end": 27.41,
+          "word": " rond.",
+          "probability": 0.9387179613113403
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 27.91,
+      "end": 31.27,
+      "text": " En le touchant, le médaillon te semble mouillé.",
+      "tokens": [
+        51615,
+        2193,
+        476,
+        2557,
+        394,
+        11,
+        476,
+        13191,
+        2675,
+        30961,
+        535,
+        38328,
+        275,
+        263,
+        373,
+        526,
+        13,
+        51763
+      ],
+      "avg_logprob": -0.1431333561588947,
+      "compression_ratio": 1.5405405405405406,
+      "no_speech_prob": 5.920197491959822e-12,
+      "words": [
+        {
+          "start": 27.91,
+          "end": 28.43,
+          "word": " En",
+          "probability": 0.9984040856361389
+        },
+        {
+          "start": 28.43,
+          "end": 28.57,
+          "word": " le",
+          "probability": 0.999910831451416
+        },
+        {
+          "start": 28.57,
+          "end": 28.99,
+          "word": " touchant,",
+          "probability": 0.9997204840183258
+        },
+        {
+          "start": 29.37,
+          "end": 29.81,
+          "word": " le",
+          "probability": 0.9995573163032532
+        },
+        {
+          "start": 29.81,
+          "end": 30.29,
+          "word": " médaillon",
+          "probability": 0.9999224344889323
+        },
+        {
+          "start": 30.29,
+          "end": 30.47,
+          "word": " te",
+          "probability": 0.9992652535438538
+        },
+        {
+          "start": 30.47,
+          "end": 30.83,
+          "word": " semble",
+          "probability": 0.9998860359191895
+        },
+        {
+          "start": 30.83,
+          "end": 31.27,
+          "word": " mouillé.",
+          "probability": 0.9952211230993271
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 2796,
+      "start": 31.77,
+      "end": 34.59,
+      "text": " Mais il ne laisse pas de traces humides sur tes doigts.",
+      "tokens": [
+        50405,
+        6313,
+        1930,
+        408,
+        30969,
+        1736,
+        368,
+        26076,
+        1484,
+        1875,
+        1022,
+        20018,
+        360,
+        328,
+        1373,
+        13,
+        50527
+      ],
+      "avg_logprob": -0.1415576731286398,
+      "compression_ratio": 1.2413793103448276,
+      "no_speech_prob": 5.3782755159159645e-12,
+      "words": [
+        {
+          "start": 31.77,
+          "end": 32.27,
+          "word": " Mais",
+          "probability": 0.36060312390327454
+        },
+        {
+          "start": 32.27,
+          "end": 32.51,
+          "word": " il",
+          "probability": 0.9426641464233398
+        },
+        {
+          "start": 32.51,
+          "end": 32.63,
+          "word": " ne",
+          "probability": 0.9998733997344971
+        },
+        {
+          "start": 32.63,
+          "end": 32.91,
+          "word": " laisse",
+          "probability": 0.9992082715034485
+        },
+        {
+          "start": 32.91,
+          "end": 33.07,
+          "word": " pas",
+          "probability": 0.9998733997344971
+        },
+        {
+          "start": 33.07,
+          "end": 33.23,
+          "word": " de",
+          "probability": 0.9984418749809265
+        },
+        {
+          "start": 33.23,
+          "end": 33.51,
+          "word": " traces",
+          "probability": 0.8479125499725342
+        },
+        {
+          "start": 33.51,
+          "end": 33.89,
+          "word": " humides",
+          "probability": 0.9990808367729187
+        },
+        {
+          "start": 33.89,
+          "end": 34.07,
+          "word": " sur",
+          "probability": 0.9926222562789917
+        },
+        {
+          "start": 34.07,
+          "end": 34.25,
+          "word": " tes",
+          "probability": 0.999862551689148
+        },
+        {
+          "start": 34.25,
+          "end": 34.59,
+          "word": " doigts.",
+          "probability": 0.9996524651845297
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2796,
+      "start": 35.05,
+      "end": 40.11,
+      "text": " Comme il est glissant, tu le ranges avec beaucoup de précaution dans ton sac sans fond.",
+      "tokens": [
+        50572,
+        24308,
+        1930,
+        871,
+        1563,
+        29492,
+        11,
+        2604,
+        476,
+        22526,
+        4163,
+        8796,
+        368,
+        11127,
+        496,
+        1448,
+        2680,
+        2952,
+        4899,
+        12177,
+        9557,
+        13,
+        50808
+      ],
+      "avg_logprob": -0.1415576731286398,
+      "compression_ratio": 1.2413793103448276,
+      "no_speech_prob": 5.3782755159159645e-12,
+      "words": [
+        {
+          "start": 35.05,
+          "end": 35.55,
+          "word": " Comme",
+          "probability": 0.9942498207092285
+        },
+        {
+          "start": 35.55,
+          "end": 35.69,
+          "word": " il",
+          "probability": 0.9999282360076904
+        },
+        {
+          "start": 35.69,
+          "end": 35.77,
+          "word": " est",
+          "probability": 0.9998470544815063
+        },
+        {
+          "start": 35.77,
+          "end": 36.15,
+          "word": " glissant,",
+          "probability": 0.999792754650116
+        },
+        {
+          "start": 36.81,
+          "end": 36.91,
+          "word": " tu",
+          "probability": 0.9986055493354797
+        },
+        {
+          "start": 36.91,
+          "end": 37.13,
+          "word": " le",
+          "probability": 0.999388575553894
+        },
+        {
+          "start": 37.13,
+          "end": 37.41,
+          "word": " ranges",
+          "probability": 0.993014931678772
+        },
+        {
+          "start": 37.41,
+          "end": 37.75,
+          "word": " avec",
+          "probability": 0.9995670914649963
+        },
+        {
+          "start": 37.75,
+          "end": 38.13,
+          "word": " beaucoup",
+          "probability": 0.9999407529830933
+        },
+        {
+          "start": 38.13,
+          "end": 38.35,
+          "word": " de",
+          "probability": 0.9999476671218872
+        },
+        {
+          "start": 38.35,
+          "end": 38.93,
+          "word": " précaution",
+          "probability": 0.9770634969075521
+        },
+        {
+          "start": 38.93,
+          "end": 39.35,
+          "word": " dans",
+          "probability": 0.9957725405693054
+        },
+        {
+          "start": 39.35,
+          "end": 39.53,
+          "word": " ton",
+          "probability": 0.9998300075531006
+        },
+        {
+          "start": 39.53,
+          "end": 39.75,
+          "word": " sac",
+          "probability": 0.999607503414154
+        },
+        {
+          "start": 39.75,
+          "end": 39.95,
+          "word": " sans",
+          "probability": 0.9843389987945557
+        },
+        {
+          "start": 39.95,
+          "end": 40.11,
+          "word": " fond.",
+          "probability": 0.997165858745575
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

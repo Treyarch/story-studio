@@ -1,0 +1,631 @@
+{
+  "scene": "B76_barde_cha_fail",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B76_barde_cha_fail.mp3",
+  "sha256": "2aa39a31772d49a12e9c58ba0780d684e1e1ddc045579623370d4670d58052f0",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 32.510125,
+  "text": "Le tyrannœil te regarde un moment avant d'éclater de rire. Tu crois que je n'ai jamais rien entendu de pire? Tu pensais vraiment pouvoir me remuer les entrailles avec une pique pareille? Il ouvre la bouche, révélant tous ses crocs, acérés et brillants. Peut-être que j'aurai mal au ventre si je te mange et que tu es aussi indigeste que tu en as l'air.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.1,
+      "end": 5.88,
+      "text": " Le tyrannœil te regarde un moment avant d'éclater de rire.",
+      "tokens": [
+        50365,
+        1456,
+        41108,
+        969,
+        34073,
+        388,
+        535,
+        33357,
+        517,
+        1623,
+        13439,
+        274,
+        6,
+        526,
+        3474,
+        771,
+        368,
+        367,
+        621,
+        13,
+        50555
+      ],
+      "avg_logprob": -0.11742268617336567,
+      "compression_ratio": 1.4917355371900827,
+      "no_speech_prob": 6.9869743671291396e-12,
+      "words": [
+        {
+          "start": 2.1,
+          "end": 2.64,
+          "word": " Le",
+          "probability": 0.9798269271850586
+        },
+        {
+          "start": 2.64,
+          "end": 3.28,
+          "word": " tyrannœil",
+          "probability": 0.665955513715744
+        },
+        {
+          "start": 3.28,
+          "end": 3.38,
+          "word": " te",
+          "probability": 0.9944872260093689
+        },
+        {
+          "start": 3.38,
+          "end": 3.78,
+          "word": " regarde",
+          "probability": 0.9996034502983093
+        },
+        {
+          "start": 3.78,
+          "end": 3.92,
+          "word": " un",
+          "probability": 0.999702513217926
+        },
+        {
+          "start": 3.92,
+          "end": 4.24,
+          "word": " moment",
+          "probability": 0.9999061822891235
+        },
+        {
+          "start": 4.24,
+          "end": 4.86,
+          "word": " avant",
+          "probability": 0.957893967628479
+        },
+        {
+          "start": 4.86,
+          "end": 5.02,
+          "word": " d",
+          "probability": 0.9992343187332153
+        },
+        {
+          "start": 5.02,
+          "end": 5.42,
+          "word": "'éclater",
+          "probability": 0.9992226213216782
+        },
+        {
+          "start": 5.42,
+          "end": 5.58,
+          "word": " de",
+          "probability": 0.9997150301933289
+        },
+        {
+          "start": 5.58,
+          "end": 5.88,
+          "word": " rire.",
+          "probability": 0.9997061192989349
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.8,
+      "end": 10.3,
+      "text": " Tu crois que je n'ai jamais rien entendu de pire?",
+      "tokens": [
+        50611,
+        7836,
+        21724,
+        631,
+        1506,
+        297,
+        6,
+        1301,
+        14540,
+        13355,
+        41489,
+        368,
+        280,
+        621,
+        2506,
+        50807
+      ],
+      "avg_logprob": -0.11742268617336567,
+      "compression_ratio": 1.4917355371900827,
+      "no_speech_prob": 6.9869743671291396e-12,
+      "words": [
+        {
+          "start": 6.8,
+          "end": 7.1,
+          "word": " Tu",
+          "probability": 0.6712327599525452
+        },
+        {
+          "start": 7.1,
+          "end": 7.34,
+          "word": " crois",
+          "probability": 0.9953913688659668
+        },
+        {
+          "start": 7.34,
+          "end": 7.54,
+          "word": " que",
+          "probability": 0.9999520778656006
+        },
+        {
+          "start": 7.54,
+          "end": 7.68,
+          "word": " je",
+          "probability": 0.9987128973007202
+        },
+        {
+          "start": 7.68,
+          "end": 7.82,
+          "word": " n",
+          "probability": 0.9993298053741455
+        },
+        {
+          "start": 7.82,
+          "end": 7.82,
+          "word": "'ai",
+          "probability": 0.9993857443332672
+        },
+        {
+          "start": 7.82,
+          "end": 8.24,
+          "word": " jamais",
+          "probability": 0.9998677968978882
+        },
+        {
+          "start": 8.24,
+          "end": 8.6,
+          "word": " rien",
+          "probability": 0.9998706579208374
+        },
+        {
+          "start": 8.6,
+          "end": 9.1,
+          "word": " entendu",
+          "probability": 0.9997138381004333
+        },
+        {
+          "start": 9.1,
+          "end": 9.4,
+          "word": " de",
+          "probability": 0.9992270469665527
+        },
+        {
+          "start": 9.4,
+          "end": 10.0,
+          "word": " pire",
+          "probability": 0.9993001222610474
+        },
+        {
+          "start": 10.0,
+          "end": 10.3,
+          "word": "?",
+          "probability": 0.9274381995201111
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.78,
+      "end": 16.7,
+      "text": " Tu pensais vraiment pouvoir me remuer les entrailles avec une pique pareille?",
+      "tokens": [
+        50807,
+        7836,
+        6099,
+        1527,
+        8322,
+        14874,
+        385,
+        890,
+        5486,
+        1512,
+        22284,
+        14835,
+        4163,
+        2251,
+        280,
+        1925,
+        7448,
+        3409,
+        2506,
+        51109
+      ],
+      "avg_logprob": -0.11742268617336567,
+      "compression_ratio": 1.4917355371900827,
+      "no_speech_prob": 6.9869743671291396e-12,
+      "words": [
+        {
+          "start": 10.78,
+          "end": 11.08,
+          "word": " Tu",
+          "probability": 0.9992602467536926
+        },
+        {
+          "start": 11.08,
+          "end": 11.56,
+          "word": " pensais",
+          "probability": 0.999749481678009
+        },
+        {
+          "start": 11.56,
+          "end": 12.22,
+          "word": " vraiment",
+          "probability": 0.9999544620513916
+        },
+        {
+          "start": 12.22,
+          "end": 12.64,
+          "word": " pouvoir",
+          "probability": 0.9998986721038818
+        },
+        {
+          "start": 12.64,
+          "end": 12.86,
+          "word": " me",
+          "probability": 0.9998753070831299
+        },
+        {
+          "start": 12.86,
+          "end": 13.3,
+          "word": " remuer",
+          "probability": 0.9997134506702423
+        },
+        {
+          "start": 13.3,
+          "end": 13.56,
+          "word": " les",
+          "probability": 0.9962825179100037
+        },
+        {
+          "start": 13.56,
+          "end": 14.36,
+          "word": " entrailles",
+          "probability": 0.9996936619281769
+        },
+        {
+          "start": 14.36,
+          "end": 15.08,
+          "word": " avec",
+          "probability": 0.8200089335441589
+        },
+        {
+          "start": 15.08,
+          "end": 15.36,
+          "word": " une",
+          "probability": 0.9998993873596191
+        },
+        {
+          "start": 15.36,
+          "end": 15.72,
+          "word": " pique",
+          "probability": 0.9860105514526367
+        },
+        {
+          "start": 15.72,
+          "end": 16.5,
+          "word": " pareille",
+          "probability": 0.997419536113739
+        },
+        {
+          "start": 16.5,
+          "end": 16.7,
+          "word": "?",
+          "probability": 0.9989451766014099
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 16.7,
+      "end": 22.24,
+      "text": " Il ouvre la bouche, révélant tous ses crocs, acérés et brillants.",
+      "tokens": [
+        51109,
+        4416,
+        21157,
+        265,
+        635,
+        15345,
+        1876,
+        11,
+        38357,
+        8025,
+        394,
+        8317,
+        5385,
+        4848,
+        14368,
+        11,
+        696,
+        4198,
+        2191,
+        1030,
+        8695,
+        1719,
+        13,
+        51374
+      ],
+      "avg_logprob": -0.11742268617336567,
+      "compression_ratio": 1.4917355371900827,
+      "no_speech_prob": 6.9869743671291396e-12,
+      "words": [
+        {
+          "start": 16.7,
+          "end": 17.12,
+          "word": " Il",
+          "probability": 0.9944705963134766
+        },
+        {
+          "start": 17.12,
+          "end": 17.42,
+          "word": " ouvre",
+          "probability": 0.9998576939105988
+        },
+        {
+          "start": 17.42,
+          "end": 17.58,
+          "word": " la",
+          "probability": 0.9999456405639648
+        },
+        {
+          "start": 17.58,
+          "end": 17.94,
+          "word": " bouche,",
+          "probability": 0.9998681247234344
+        },
+        {
+          "start": 18.48,
+          "end": 19.46,
+          "word": " révélant",
+          "probability": 0.998774528503418
+        },
+        {
+          "start": 19.46,
+          "end": 19.88,
+          "word": " tous",
+          "probability": 0.9685027599334717
+        },
+        {
+          "start": 19.88,
+          "end": 20.18,
+          "word": " ses",
+          "probability": 0.9304285645484924
+        },
+        {
+          "start": 20.18,
+          "end": 20.54,
+          "word": " crocs,",
+          "probability": 0.9733869135379791
+        },
+        {
+          "start": 20.92,
+          "end": 21.5,
+          "word": " acérés",
+          "probability": 0.9937169750531515
+        },
+        {
+          "start": 21.5,
+          "end": 21.78,
+          "word": " et",
+          "probability": 0.9999616146087646
+        },
+        {
+          "start": 21.78,
+          "end": 22.24,
+          "word": " brillants.",
+          "probability": 0.9973467588424683
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 22.42,
+      "end": 29.0,
+      "text": " Peut-être que j'aurai mal au ventre si je te mange et que tu es aussi indigeste que tu en as l'air.",
+      "tokens": [
+        51388,
+        2396,
+        325,
+        12,
+        9498,
+        631,
+        361,
+        6,
+        3463,
+        1301,
+        2806,
+        1609,
+        6931,
+        265,
+        1511,
+        1506,
+        535,
+        30465,
+        1030,
+        631,
+        2604,
+        785,
+        6212,
+        1016,
+        328,
+        8887,
+        631,
+        2604,
+        465,
+        382,
+        287,
+        6,
+        1246,
+        13,
+        51710
+      ],
+      "avg_logprob": -0.11742268617336567,
+      "compression_ratio": 1.4917355371900827,
+      "no_speech_prob": 6.9869743671291396e-12,
+      "words": [
+        {
+          "start": 22.42,
+          "end": 22.74,
+          "word": " Peut",
+          "probability": 0.9979627132415771
+        },
+        {
+          "start": 22.74,
+          "end": 22.88,
+          "word": "-être",
+          "probability": 0.999868243932724
+        },
+        {
+          "start": 22.88,
+          "end": 23.06,
+          "word": " que",
+          "probability": 0.9998805522918701
+        },
+        {
+          "start": 23.06,
+          "end": 23.2,
+          "word": " j",
+          "probability": 0.9996529817581177
+        },
+        {
+          "start": 23.2,
+          "end": 23.4,
+          "word": "'aurai",
+          "probability": 0.8773258924484253
+        },
+        {
+          "start": 23.4,
+          "end": 23.62,
+          "word": " mal",
+          "probability": 0.9921131134033203
+        },
+        {
+          "start": 23.62,
+          "end": 23.84,
+          "word": " au",
+          "probability": 0.999506950378418
+        },
+        {
+          "start": 23.84,
+          "end": 24.3,
+          "word": " ventre",
+          "probability": 0.9998813569545746
+        },
+        {
+          "start": 24.3,
+          "end": 24.5,
+          "word": " si",
+          "probability": 0.990013599395752
+        },
+        {
+          "start": 24.5,
+          "end": 24.66,
+          "word": " je",
+          "probability": 0.9999586343765259
+        },
+        {
+          "start": 24.66,
+          "end": 24.82,
+          "word": " te",
+          "probability": 0.9998437166213989
+        },
+        {
+          "start": 24.82,
+          "end": 25.32,
+          "word": " mange",
+          "probability": 0.9980397820472717
+        },
+        {
+          "start": 25.32,
+          "end": 25.76,
+          "word": " et",
+          "probability": 0.8705502152442932
+        },
+        {
+          "start": 25.76,
+          "end": 25.9,
+          "word": " que",
+          "probability": 0.9999513626098633
+        },
+        {
+          "start": 25.9,
+          "end": 26.06,
+          "word": " tu",
+          "probability": 0.9997710585594177
+        },
+        {
+          "start": 26.06,
+          "end": 26.22,
+          "word": " es",
+          "probability": 0.9989081621170044
+        },
+        {
+          "start": 26.22,
+          "end": 26.56,
+          "word": " aussi",
+          "probability": 0.9996139407157898
+        },
+        {
+          "start": 26.56,
+          "end": 27.64,
+          "word": " indigeste",
+          "probability": 0.9986796577771505
+        },
+        {
+          "start": 27.64,
+          "end": 27.86,
+          "word": " que",
+          "probability": 0.9912424087524414
+        },
+        {
+          "start": 27.86,
+          "end": 28.06,
+          "word": " tu",
+          "probability": 0.9978610873222351
+        },
+        {
+          "start": 28.06,
+          "end": 28.26,
+          "word": " en",
+          "probability": 0.9991944432258606
+        },
+        {
+          "start": 28.26,
+          "end": 28.5,
+          "word": " as",
+          "probability": 0.9891980290412903
+        },
+        {
+          "start": 28.5,
+          "end": 28.58,
+          "word": " l",
+          "probability": 0.9998583793640137
+        },
+        {
+          "start": 28.58,
+          "end": 29.0,
+          "word": "'air.",
+          "probability": 0.9995928704738617
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "scene": "item_tete-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_tete-fr_FR.mp3",
+  "sha256": "fd5780d2213bb5fe8c317e877c6a8ddea1969253ccf1a7be2697d38975ba58fa",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 11.106,
+  "text": "La partie d'une clé que tu tiens dans la main quand tu déverrouilles une porte, mais il manque le reste. Un fin dragon fondant sur sa proie est gravé sur le métal, le symbole de Zhentarim.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 5.05,
+      "text": " La partie d'une clé que tu tiens dans la main quand tu déverrouilles une porte, mais il manque le reste.",
+      "tokens": [
+        50365,
+        2369,
+        17465,
+        274,
+        6,
+        2613,
+        596,
+        526,
+        631,
+        2604,
+        8757,
+        694,
+        2680,
+        635,
+        2135,
+        6932,
+        2604,
+        2795,
+        331,
+        13122,
+        14835,
+        2251,
+        26658,
+        11,
+        2420,
+        1930,
+        48124,
+        476,
+        20694,
+        13,
+        50616
+      ],
+      "avg_logprob": -0.07062858839829762,
+      "compression_ratio": 1.3450704225352113,
+      "no_speech_prob": 5.675081064804299e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.55,
+          "word": " La",
+          "probability": 0.7337828278541565
+        },
+        {
+          "start": 0.55,
+          "end": 0.89,
+          "word": " partie",
+          "probability": 0.9999468326568604
+        },
+        {
+          "start": 0.89,
+          "end": 1.01,
+          "word": " d",
+          "probability": 0.9999314546585083
+        },
+        {
+          "start": 1.01,
+          "end": 1.11,
+          "word": "'une",
+          "probability": 0.9999814033508301
+        },
+        {
+          "start": 1.11,
+          "end": 1.33,
+          "word": " clé",
+          "probability": 0.9967437088489532
+        },
+        {
+          "start": 1.33,
+          "end": 1.47,
+          "word": " que",
+          "probability": 0.9998227953910828
+        },
+        {
+          "start": 1.47,
+          "end": 1.63,
+          "word": " tu",
+          "probability": 0.9999828338623047
+        },
+        {
+          "start": 1.63,
+          "end": 1.89,
+          "word": " tiens",
+          "probability": 0.9427643120288849
+        },
+        {
+          "start": 1.89,
+          "end": 1.99,
+          "word": " dans",
+          "probability": 0.9998875856399536
+        },
+        {
+          "start": 1.99,
+          "end": 2.13,
+          "word": " la",
+          "probability": 0.9999700784683228
+        },
+        {
+          "start": 2.13,
+          "end": 2.31,
+          "word": " main",
+          "probability": 0.9999364614486694
+        },
+        {
+          "start": 2.31,
+          "end": 2.53,
+          "word": " quand",
+          "probability": 0.9990850687026978
+        },
+        {
+          "start": 2.53,
+          "end": 2.69,
+          "word": " tu",
+          "probability": 0.9999822378158569
+        },
+        {
+          "start": 2.69,
+          "end": 3.17,
+          "word": " déverrouilles",
+          "probability": 0.9959658086299896
+        },
+        {
+          "start": 3.17,
+          "end": 3.29,
+          "word": " une",
+          "probability": 0.9998026490211487
+        },
+        {
+          "start": 3.29,
+          "end": 3.59,
+          "word": " porte,",
+          "probability": 0.9997658133506775
+        },
+        {
+          "start": 3.81,
+          "end": 4.17,
+          "word": " mais",
+          "probability": 0.9997782111167908
+        },
+        {
+          "start": 4.17,
+          "end": 4.35,
+          "word": " il",
+          "probability": 0.9999339580535889
+        },
+        {
+          "start": 4.35,
+          "end": 4.55,
+          "word": " manque",
+          "probability": 0.9999284744262695
+        },
+        {
+          "start": 4.55,
+          "end": 4.77,
+          "word": " le",
+          "probability": 0.999953031539917
+        },
+        {
+          "start": 4.77,
+          "end": 5.05,
+          "word": " reste.",
+          "probability": 0.9999798536300659
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.35,
+      "end": 10.53,
+      "text": " Un fin dragon fondant sur sa proie est gravé sur le métal, le symbole de Zhentarim.",
+      "tokens": [
+        50646,
+        1156,
+        962,
+        12165,
+        9557,
+        394,
+        1022,
+        601,
+        447,
+        414,
+        871,
+        7427,
+        526,
+        1022,
+        476,
+        20275,
+        304,
+        11,
+        476,
+        6697,
+        1763,
+        306,
+        368,
+        44091,
+        289,
+        332,
+        13,
+        50889
+      ],
+      "avg_logprob": -0.07062858839829762,
+      "compression_ratio": 1.3450704225352113,
+      "no_speech_prob": 5.675081064804299e-12,
+      "words": [
+        {
+          "start": 5.35,
+          "end": 5.79,
+          "word": " Un",
+          "probability": 0.9994101524353027
+        },
+        {
+          "start": 5.79,
+          "end": 6.03,
+          "word": " fin",
+          "probability": 0.9954925775527954
+        },
+        {
+          "start": 6.03,
+          "end": 6.41,
+          "word": " dragon",
+          "probability": 0.9995061159133911
+        },
+        {
+          "start": 6.41,
+          "end": 6.91,
+          "word": " fondant",
+          "probability": 0.9998977184295654
+        },
+        {
+          "start": 6.91,
+          "end": 7.11,
+          "word": " sur",
+          "probability": 0.9999563694000244
+        },
+        {
+          "start": 7.11,
+          "end": 7.31,
+          "word": " sa",
+          "probability": 0.9999524354934692
+        },
+        {
+          "start": 7.31,
+          "end": 7.59,
+          "word": " proie",
+          "probability": 0.9995417296886444
+        },
+        {
+          "start": 7.59,
+          "end": 7.83,
+          "word": " est",
+          "probability": 0.9160346984863281
+        },
+        {
+          "start": 7.83,
+          "end": 8.19,
+          "word": " gravé",
+          "probability": 0.9990828931331635
+        },
+        {
+          "start": 8.19,
+          "end": 8.37,
+          "word": " sur",
+          "probability": 0.9999841451644897
+        },
+        {
+          "start": 8.37,
+          "end": 8.49,
+          "word": " le",
+          "probability": 0.9999833106994629
+        },
+        {
+          "start": 8.49,
+          "end": 8.89,
+          "word": " métal,",
+          "probability": 0.9997428357601166
+        },
+        {
+          "start": 9.11,
+          "end": 9.33,
+          "word": " le",
+          "probability": 0.9999712705612183
+        },
+        {
+          "start": 9.33,
+          "end": 9.81,
+          "word": " symbole",
+          "probability": 0.999894400437673
+        },
+        {
+          "start": 9.81,
+          "end": 9.93,
+          "word": " de",
+          "probability": 0.9994321465492249
+        },
+        {
+          "start": 9.93,
+          "end": 10.53,
+          "word": " Zhentarim.",
+          "probability": 0.815573533376058
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

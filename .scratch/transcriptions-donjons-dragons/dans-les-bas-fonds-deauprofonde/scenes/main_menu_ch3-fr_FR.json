@@ -1,0 +1,59 @@
+{
+  "scene": "main_menu_ch3-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/main_menu_ch3-fr_FR.mp3",
+  "sha256": "24558e429cac7374e3d28ce34b2beaff5d603c949aa2f6e4417c3c9d4c2a9c6f",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.3234375,
+  "text": "Ton carnet de reporters.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.48,
+      "text": " Ton carnet de reporters.",
+      "tokens": [
+        50365,
+        11385,
+        1032,
+        7129,
+        368,
+        26249,
+        13,
+        50440
+      ],
+      "avg_logprob": -0.3639027277628581,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 4.6152968599666444e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.52,
+          "word": " Ton",
+          "probability": 0.3778856098651886
+        },
+        {
+          "start": 0.52,
+          "end": 0.92,
+          "word": " carnet",
+          "probability": 0.9951594471931458
+        },
+        {
+          "start": 0.92,
+          "end": 1.08,
+          "word": " de",
+          "probability": 0.9999325275421143
+        },
+        {
+          "start": 1.08,
+          "end": 1.48,
+          "word": " reporters.",
+          "probability": 0.8518185019493103
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

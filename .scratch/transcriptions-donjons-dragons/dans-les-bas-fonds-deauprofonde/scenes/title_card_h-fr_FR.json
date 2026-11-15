@@ -1,0 +1,52 @@
+{
+  "scene": "title_card_h-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/title_card_h-fr_FR.mp3",
+  "sha256": "51945e84a7797e641f2cff31a26aad8feb3173f117b32b4f54c3f330dde6d53c",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.294875,
+  "text": "Reporter en galère.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.14,
+      "end": 1.6,
+      "text": " Reporter en galère.",
+      "tokens": [
+        50365,
+        26520,
+        465,
+        7660,
+        4212,
+        13,
+        50439
+      ],
+      "avg_logprob": -0.26899392157793045,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 4.3781909521423135e-12,
+      "words": [
+        {
+          "start": 0.14,
+          "end": 0.96,
+          "word": " Reporter",
+          "probability": 0.6355092525482178
+        },
+        {
+          "start": 0.96,
+          "end": 1.22,
+          "word": " en",
+          "probability": 0.9946953654289246
+        },
+        {
+          "start": 1.22,
+          "end": 1.6,
+          "word": " galère.",
+          "probability": 0.9885088503360748
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

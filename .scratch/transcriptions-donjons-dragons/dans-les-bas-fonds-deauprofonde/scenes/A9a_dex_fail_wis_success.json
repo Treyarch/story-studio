@@ -1,0 +1,779 @@
+{
+  "scene": "A9a_dex_fail_wis_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A9a_dex_fail_wis_success.mp3",
+  "sha256": "8b863565b4f99f9b61a771ac0b1382368617d636e60f9b60e89c9babe5121959",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 30.8078125,
+  "text": "Les battements de ton cœur se sont calmés, et son rire te parvient à travers la foule, peut-être même plus fort qu'avant. Tu penches la tête et tends l'oreille. Elle est sur ta droite! Tu cours dans cette direction, et enfin tu la vois, debout devant toi. Elle est hilare! Quand tu t'approches d'elle, elle ouvre de grands yeux amusés. Elle fait volte-face et repart. Cette fois, tu ne la laisseras pas filer, c'est sûr et certain!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.98,
+      "end": 7.44,
+      "text": " Les battements de ton cœur se sont calmés, et son rire te parvient à travers la foule, peut-être même plus fort qu'avant.",
+      "tokens": [
+        50368,
+        6965,
+        9591,
+        6400,
+        368,
+        2952,
+        43207,
+        369,
+        4900,
+        7151,
+        2191,
+        11,
+        1030,
+        1872,
+        367,
+        621,
+        535,
+        971,
+        85,
+        1196,
+        1531,
+        23149,
+        635,
+        283,
+        26757,
+        11,
+        5977,
+        12,
+        9498,
+        5698,
+        1804,
+        5009,
+        421,
+        6,
+        35034,
+        13,
+        50689
+      ],
+      "avg_logprob": -0.08917208702015363,
+      "compression_ratio": 1.5241379310344827,
+      "no_speech_prob": 9.121322620819772e-12,
+      "words": [
+        {
+          "start": 0.98,
+          "end": 1.5,
+          "word": " Les",
+          "probability": 0.9833086133003235
+        },
+        {
+          "start": 1.5,
+          "end": 1.84,
+          "word": " battements",
+          "probability": 0.9967855513095856
+        },
+        {
+          "start": 1.84,
+          "end": 1.98,
+          "word": " de",
+          "probability": 0.9999953508377075
+        },
+        {
+          "start": 1.98,
+          "end": 2.14,
+          "word": " ton",
+          "probability": 0.9998874664306641
+        },
+        {
+          "start": 2.14,
+          "end": 2.34,
+          "word": " cœur",
+          "probability": 0.973678708076477
+        },
+        {
+          "start": 2.34,
+          "end": 2.52,
+          "word": " se",
+          "probability": 0.9999485015869141
+        },
+        {
+          "start": 2.52,
+          "end": 2.66,
+          "word": " sont",
+          "probability": 0.9999759197235107
+        },
+        {
+          "start": 2.66,
+          "end": 3.04,
+          "word": " calmés,",
+          "probability": 0.9991330802440643
+        },
+        {
+          "start": 3.3,
+          "end": 3.7,
+          "word": " et",
+          "probability": 0.9999594688415527
+        },
+        {
+          "start": 3.7,
+          "end": 3.9,
+          "word": " son",
+          "probability": 0.9999569654464722
+        },
+        {
+          "start": 3.9,
+          "end": 4.12,
+          "word": " rire",
+          "probability": 0.9994132220745087
+        },
+        {
+          "start": 4.12,
+          "end": 4.28,
+          "word": " te",
+          "probability": 0.9999744892120361
+        },
+        {
+          "start": 4.28,
+          "end": 4.68,
+          "word": " parvient",
+          "probability": 0.9997202754020691
+        },
+        {
+          "start": 4.68,
+          "end": 4.78,
+          "word": " à",
+          "probability": 0.9999909400939941
+        },
+        {
+          "start": 4.78,
+          "end": 5.04,
+          "word": " travers",
+          "probability": 0.9999598264694214
+        },
+        {
+          "start": 5.04,
+          "end": 5.24,
+          "word": " la",
+          "probability": 0.9999767541885376
+        },
+        {
+          "start": 5.24,
+          "end": 5.52,
+          "word": " foule,",
+          "probability": 0.999537318944931
+        },
+        {
+          "start": 6.02,
+          "end": 6.2,
+          "word": " peut",
+          "probability": 0.9999477863311768
+        },
+        {
+          "start": 6.2,
+          "end": 6.36,
+          "word": "-être",
+          "probability": 0.9999097585678101
+        },
+        {
+          "start": 6.36,
+          "end": 6.64,
+          "word": " même",
+          "probability": 0.9999871253967285
+        },
+        {
+          "start": 6.64,
+          "end": 6.9,
+          "word": " plus",
+          "probability": 0.999985933303833
+        },
+        {
+          "start": 6.9,
+          "end": 7.12,
+          "word": " fort",
+          "probability": 0.9991126656532288
+        },
+        {
+          "start": 7.12,
+          "end": 7.26,
+          "word": " qu",
+          "probability": 0.9999641180038452
+        },
+        {
+          "start": 7.26,
+          "end": 7.44,
+          "word": "'avant.",
+          "probability": 0.9994985163211823
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7.86,
+      "end": 10.04,
+      "text": " Tu penches la tête et tends l'oreille.",
+      "tokens": [
+        50726,
+        7836,
+        3435,
+        3781,
+        635,
+        24661,
+        1030,
+        12258,
+        287,
+        6,
+        418,
+        3409,
+        13,
+        50819
+      ],
+      "avg_logprob": -0.08917208702015363,
+      "compression_ratio": 1.5241379310344827,
+      "no_speech_prob": 9.121322620819772e-12,
+      "words": [
+        {
+          "start": 7.86,
+          "end": 8.34,
+          "word": " Tu",
+          "probability": 0.9996650218963623
+        },
+        {
+          "start": 8.34,
+          "end": 8.64,
+          "word": " penches",
+          "probability": 0.9976648688316345
+        },
+        {
+          "start": 8.64,
+          "end": 8.78,
+          "word": " la",
+          "probability": 0.9999852180480957
+        },
+        {
+          "start": 8.78,
+          "end": 9.08,
+          "word": " tête",
+          "probability": 0.9999908208847046
+        },
+        {
+          "start": 9.08,
+          "end": 9.34,
+          "word": " et",
+          "probability": 0.9997225403785706
+        },
+        {
+          "start": 9.34,
+          "end": 9.6,
+          "word": " tends",
+          "probability": 0.8978558778762817
+        },
+        {
+          "start": 9.6,
+          "end": 9.72,
+          "word": " l",
+          "probability": 0.9999101161956787
+        },
+        {
+          "start": 9.72,
+          "end": 10.04,
+          "word": "'oreille.",
+          "probability": 0.9999027053515116
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.64,
+      "end": 15.88,
+      "text": " Elle est sur ta droite! Tu cours dans cette direction, et enfin tu la vois, debout devant toi.",
+      "tokens": [
+        50857,
+        16227,
+        871,
+        1022,
+        1846,
+        37321,
+        2298,
+        7836,
+        25452,
+        2680,
+        5550,
+        3513,
+        11,
+        1030,
+        25059,
+        2604,
+        635,
+        18297,
+        11,
+        3001,
+        346,
+        28982,
+        15648,
+        13,
+        51111
+      ],
+      "avg_logprob": -0.08917208702015363,
+      "compression_ratio": 1.5241379310344827,
+      "no_speech_prob": 9.121322620819772e-12,
+      "words": [
+        {
+          "start": 10.64,
+          "end": 10.92,
+          "word": " Elle",
+          "probability": 0.9902092218399048
+        },
+        {
+          "start": 10.92,
+          "end": 11.04,
+          "word": " est",
+          "probability": 0.9999462366104126
+        },
+        {
+          "start": 11.04,
+          "end": 11.18,
+          "word": " sur",
+          "probability": 0.9999175071716309
+        },
+        {
+          "start": 11.18,
+          "end": 11.32,
+          "word": " ta",
+          "probability": 0.9996976852416992
+        },
+        {
+          "start": 11.32,
+          "end": 11.64,
+          "word": " droite",
+          "probability": 0.9999861717224121
+        },
+        {
+          "start": 11.64,
+          "end": 11.94,
+          "word": "!",
+          "probability": 0.8965805172920227
+        },
+        {
+          "start": 11.94,
+          "end": 12.34,
+          "word": " Tu",
+          "probability": 0.9995348453521729
+        },
+        {
+          "start": 12.34,
+          "end": 12.58,
+          "word": " cours",
+          "probability": 0.9841570258140564
+        },
+        {
+          "start": 12.58,
+          "end": 12.72,
+          "word": " dans",
+          "probability": 0.999954104423523
+        },
+        {
+          "start": 12.72,
+          "end": 12.96,
+          "word": " cette",
+          "probability": 0.9995868802070618
+        },
+        {
+          "start": 12.96,
+          "end": 13.42,
+          "word": " direction,",
+          "probability": 0.9998821020126343
+        },
+        {
+          "start": 13.6,
+          "end": 13.78,
+          "word": " et",
+          "probability": 0.999988317489624
+        },
+        {
+          "start": 13.78,
+          "end": 14.14,
+          "word": " enfin",
+          "probability": 0.9999556541442871
+        },
+        {
+          "start": 14.14,
+          "end": 14.32,
+          "word": " tu",
+          "probability": 0.9973691701889038
+        },
+        {
+          "start": 14.32,
+          "end": 14.48,
+          "word": " la",
+          "probability": 0.9999734163284302
+        },
+        {
+          "start": 14.48,
+          "end": 14.68,
+          "word": " vois,",
+          "probability": 0.9954428672790527
+        },
+        {
+          "start": 14.98,
+          "end": 15.36,
+          "word": " debout",
+          "probability": 0.9996934831142426
+        },
+        {
+          "start": 15.36,
+          "end": 15.58,
+          "word": " devant",
+          "probability": 0.9998770952224731
+        },
+        {
+          "start": 15.58,
+          "end": 15.88,
+          "word": " toi.",
+          "probability": 0.9999374151229858
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 16.22,
+      "end": 18.26,
+      "text": " Elle est hilare!",
+      "tokens": [
+        51137,
+        16227,
+        871,
+        28315,
+        543,
+        2298,
+        51265
+      ],
+      "avg_logprob": -0.08917208702015363,
+      "compression_ratio": 1.5241379310344827,
+      "no_speech_prob": 9.121322620819772e-12,
+      "words": [
+        {
+          "start": 16.22,
+          "end": 16.6,
+          "word": " Elle",
+          "probability": 0.999739944934845
+        },
+        {
+          "start": 16.6,
+          "end": 16.76,
+          "word": " est",
+          "probability": 0.9999029636383057
+        },
+        {
+          "start": 16.76,
+          "end": 17.46,
+          "word": " hilare",
+          "probability": 0.856952965259552
+        },
+        {
+          "start": 17.46,
+          "end": 18.26,
+          "word": "!",
+          "probability": 0.7246013283729553
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 18.96,
+      "end": 22.02,
+      "text": " Quand tu t'approches d'elle, elle ouvre de grands yeux amusés.",
+      "tokens": [
+        51265,
+        22015,
+        2604,
+        256,
+        6,
+        35821,
+        3781,
+        274,
+        6,
+        4434,
+        11,
+        8404,
+        21157,
+        265,
+        368,
+        33298,
+        36163,
+        669,
+        301,
+        2191,
+        13,
+        51417
+      ],
+      "avg_logprob": -0.08917208702015363,
+      "compression_ratio": 1.5241379310344827,
+      "no_speech_prob": 9.121322620819772e-12,
+      "words": [
+        {
+          "start": 18.96,
+          "end": 19.2,
+          "word": " Quand",
+          "probability": 0.9994431138038635
+        },
+        {
+          "start": 19.2,
+          "end": 19.34,
+          "word": " tu",
+          "probability": 0.999954342842102
+        },
+        {
+          "start": 19.34,
+          "end": 19.46,
+          "word": " t",
+          "probability": 0.9999352693557739
+        },
+        {
+          "start": 19.46,
+          "end": 19.8,
+          "word": "'approches",
+          "probability": 0.99916672706604
+        },
+        {
+          "start": 19.8,
+          "end": 19.92,
+          "word": " d",
+          "probability": 0.9999922513961792
+        },
+        {
+          "start": 19.92,
+          "end": 20.06,
+          "word": "'elle,",
+          "probability": 0.9997821152210236
+        },
+        {
+          "start": 20.28,
+          "end": 20.62,
+          "word": " elle",
+          "probability": 0.9998929500579834
+        },
+        {
+          "start": 20.62,
+          "end": 20.92,
+          "word": " ouvre",
+          "probability": 0.9985953569412231
+        },
+        {
+          "start": 20.92,
+          "end": 21.06,
+          "word": " de",
+          "probability": 0.9997445940971375
+        },
+        {
+          "start": 21.06,
+          "end": 21.34,
+          "word": " grands",
+          "probability": 0.999842643737793
+        },
+        {
+          "start": 21.34,
+          "end": 21.56,
+          "word": " yeux",
+          "probability": 0.9999629259109497
+        },
+        {
+          "start": 21.56,
+          "end": 22.02,
+          "word": " amusés.",
+          "probability": 0.997826874256134
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 22.42,
+      "end": 24.28,
+      "text": " Elle fait volte-face et repart.",
+      "tokens": [
+        51449,
+        16227,
+        3887,
+        37801,
+        12,
+        2868,
+        1030,
+        1085,
+        446,
+        13,
+        51531
+      ],
+      "avg_logprob": -0.08917208702015363,
+      "compression_ratio": 1.5241379310344827,
+      "no_speech_prob": 9.121322620819772e-12,
+      "words": [
+        {
+          "start": 22.42,
+          "end": 22.76,
+          "word": " Elle",
+          "probability": 0.99982088804245
+        },
+        {
+          "start": 22.76,
+          "end": 22.94,
+          "word": " fait",
+          "probability": 0.999710738658905
+        },
+        {
+          "start": 22.94,
+          "end": 23.26,
+          "word": " volte",
+          "probability": 0.9505358338356018
+        },
+        {
+          "start": 23.26,
+          "end": 23.66,
+          "word": "-face",
+          "probability": 0.961591511964798
+        },
+        {
+          "start": 23.66,
+          "end": 23.88,
+          "word": " et",
+          "probability": 0.999733030796051
+        },
+        {
+          "start": 23.88,
+          "end": 24.28,
+          "word": " repart.",
+          "probability": 0.9851445853710175
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 24.88,
+      "end": 28.22,
+      "text": " Cette fois, tu ne la laisseras pas filer, c'est sûr et certain!",
+      "tokens": [
+        51574,
+        25556,
+        9576,
+        11,
+        2604,
+        408,
+        635,
+        635,
+        891,
+        6985,
+        1736,
+        1387,
+        260,
+        11,
+        269,
+        6,
+        377,
+        18143,
+        1030,
+        1629,
+        2298,
+        51715
+      ],
+      "avg_logprob": -0.08917208702015363,
+      "compression_ratio": 1.5241379310344827,
+      "no_speech_prob": 9.121322620819772e-12,
+      "words": [
+        {
+          "start": 24.88,
+          "end": 25.36,
+          "word": " Cette",
+          "probability": 0.9997219443321228
+        },
+        {
+          "start": 25.36,
+          "end": 25.56,
+          "word": " fois,",
+          "probability": 0.9997541308403015
+        },
+        {
+          "start": 25.76,
+          "end": 26.02,
+          "word": " tu",
+          "probability": 0.9998619556427002
+        },
+        {
+          "start": 26.02,
+          "end": 26.1,
+          "word": " ne",
+          "probability": 0.9999345541000366
+        },
+        {
+          "start": 26.1,
+          "end": 26.2,
+          "word": " la",
+          "probability": 0.9999561309814453
+        },
+        {
+          "start": 26.2,
+          "end": 26.48,
+          "word": " laisseras",
+          "probability": 0.995016356309255
+        },
+        {
+          "start": 26.48,
+          "end": 26.66,
+          "word": " pas",
+          "probability": 0.9997370839118958
+        },
+        {
+          "start": 26.66,
+          "end": 27.0,
+          "word": " filer,",
+          "probability": 0.9993094801902771
+        },
+        {
+          "start": 27.2,
+          "end": 27.34,
+          "word": " c",
+          "probability": 0.9998321533203125
+        },
+        {
+          "start": 27.34,
+          "end": 27.48,
+          "word": "'est",
+          "probability": 0.9999855756759644
+        },
+        {
+          "start": 27.48,
+          "end": 27.68,
+          "word": " sûr",
+          "probability": 0.9967414736747742
+        },
+        {
+          "start": 27.68,
+          "end": 27.84,
+          "word": " et",
+          "probability": 0.9998599290847778
+        },
+        {
+          "start": 27.84,
+          "end": 28.06,
+          "word": " certain",
+          "probability": 0.9997541308403015
+        },
+        {
+          "start": 28.06,
+          "end": 28.22,
+          "word": "!",
+          "probability": 0.8527237176895142
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

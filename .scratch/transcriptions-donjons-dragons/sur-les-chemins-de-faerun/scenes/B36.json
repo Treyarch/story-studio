@@ -1,0 +1,684 @@
+{
+  "scene": "B36",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B36.mp3",
+  "sha256": "3f90b0b3ac2a72975d2197704d4403bcd17c604fbc760f61a6d8b3521345bfed",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 34.248,
+  "text": "Plus qu'une échappatoire. Utilisez ton charisme pour ne pas être tué. Tu demandes au tyrannœil de te laisser la vie sauve. D'aucune façon, tu ne voulais le déranger ou déranger Xanathar, qui qu'il soit. Tu développes ton argumentation longuement en pensant que peut-être, tant que tu parleras, la créature ne te désintégrera pas. Toutefois, tu dois bien t'arrêter une seconde pour reprendre ton souffle.",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.13,
+      "end": 7.49,
+      "text": " Plus qu'une échappatoire. Utilisez ton charisme pour ne pas être tué.",
+      "tokens": [
+        50365,
+        7721,
+        421,
+        6,
+        2613,
+        39310,
+        1746,
+        45575,
+        13,
+        12555,
+        388,
+        908,
+        89,
+        2952,
+        1290,
+        16415,
+        2016,
+        408,
+        1736,
+        7418,
+        2604,
+        526,
+        13,
+        50634
+      ],
+      "avg_logprob": -0.11692859061801707,
+      "compression_ratio": 1.544776119402985,
+      "no_speech_prob": 5.50317343778195e-12,
+      "words": [
+        {
+          "start": 2.13,
+          "end": 2.67,
+          "word": " Plus",
+          "probability": 0.926760733127594
+        },
+        {
+          "start": 2.67,
+          "end": 2.91,
+          "word": " qu",
+          "probability": 0.9995108842849731
+        },
+        {
+          "start": 2.91,
+          "end": 3.03,
+          "word": "'une",
+          "probability": 0.9972129762172699
+        },
+        {
+          "start": 3.03,
+          "end": 3.73,
+          "word": " échappatoire.",
+          "probability": 0.9977412025133768
+        },
+        {
+          "start": 4.55,
+          "end": 5.23,
+          "word": " Utilisez",
+          "probability": 0.8474619165062904
+        },
+        {
+          "start": 5.23,
+          "end": 5.41,
+          "word": " ton",
+          "probability": 0.999862551689148
+        },
+        {
+          "start": 5.41,
+          "end": 6.09,
+          "word": " charisme",
+          "probability": 0.9977844953536987
+        },
+        {
+          "start": 6.09,
+          "end": 6.45,
+          "word": " pour",
+          "probability": 0.9995470643043518
+        },
+        {
+          "start": 6.45,
+          "end": 6.61,
+          "word": " ne",
+          "probability": 0.9999827146530151
+        },
+        {
+          "start": 6.61,
+          "end": 6.83,
+          "word": " pas",
+          "probability": 0.999983549118042
+        },
+        {
+          "start": 6.83,
+          "end": 7.09,
+          "word": " être",
+          "probability": 0.9999138116836548
+        },
+        {
+          "start": 7.09,
+          "end": 7.49,
+          "word": " tué.",
+          "probability": 0.9899183809757233
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.19,
+      "end": 11.49,
+      "text": " Tu demandes au tyrannœil de te laisser la vie sauve.",
+      "tokens": [
+        50684,
+        7836,
+        4733,
+        279,
+        1609,
+        13807,
+        1929,
+        84,
+        388,
+        368,
+        535,
+        34463,
+        635,
+        4941,
+        17828,
+        303,
+        13,
+        50834
+      ],
+      "avg_logprob": -0.11692859061801707,
+      "compression_ratio": 1.544776119402985,
+      "no_speech_prob": 5.50317343778195e-12,
+      "words": [
+        {
+          "start": 8.19,
+          "end": 8.87,
+          "word": " Tu",
+          "probability": 0.9982179999351501
+        },
+        {
+          "start": 8.87,
+          "end": 9.29,
+          "word": " demandes",
+          "probability": 0.9995676279067993
+        },
+        {
+          "start": 9.29,
+          "end": 9.43,
+          "word": " au",
+          "probability": 0.9605469107627869
+        },
+        {
+          "start": 9.43,
+          "end": 10.01,
+          "word": " tyrannœil",
+          "probability": 0.8108706325292587
+        },
+        {
+          "start": 10.01,
+          "end": 10.27,
+          "word": " de",
+          "probability": 0.9996671676635742
+        },
+        {
+          "start": 10.27,
+          "end": 10.43,
+          "word": " te",
+          "probability": 0.9999488592147827
+        },
+        {
+          "start": 10.43,
+          "end": 10.73,
+          "word": " laisser",
+          "probability": 0.9998553991317749
+        },
+        {
+          "start": 10.73,
+          "end": 10.93,
+          "word": " la",
+          "probability": 0.9998766183853149
+        },
+        {
+          "start": 10.93,
+          "end": 11.09,
+          "word": " vie",
+          "probability": 0.9998586177825928
+        },
+        {
+          "start": 11.09,
+          "end": 11.49,
+          "word": " sauve.",
+          "probability": 0.9871943593025208
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.83,
+      "end": 16.81,
+      "text": " D'aucune façon, tu ne voulais le déranger ou déranger Xanathar, qui qu'il soit.",
+      "tokens": [
+        50866,
+        413,
+        6,
+        7113,
+        2613,
+        20725,
+        11,
+        2604,
+        408,
+        37242,
+        476,
+        2795,
+        81,
+        3176,
+        2820,
+        2795,
+        81,
+        3176,
+        1783,
+        282,
+        12051,
+        11,
+        1956,
+        421,
+        6,
+        388,
+        12703,
+        13,
+        51100
+      ],
+      "avg_logprob": -0.11692859061801707,
+      "compression_ratio": 1.544776119402985,
+      "no_speech_prob": 5.50317343778195e-12,
+      "words": [
+        {
+          "start": 11.83,
+          "end": 12.23,
+          "word": " D",
+          "probability": 0.9991638660430908
+        },
+        {
+          "start": 12.23,
+          "end": 12.57,
+          "word": "'aucune",
+          "probability": 0.9987630248069763
+        },
+        {
+          "start": 12.57,
+          "end": 12.93,
+          "word": " façon,",
+          "probability": 0.9999256134033203
+        },
+        {
+          "start": 12.95,
+          "end": 13.17,
+          "word": " tu",
+          "probability": 0.9985296726226807
+        },
+        {
+          "start": 13.17,
+          "end": 13.31,
+          "word": " ne",
+          "probability": 0.9998842477798462
+        },
+        {
+          "start": 13.31,
+          "end": 13.53,
+          "word": " voulais",
+          "probability": 0.9776273965835571
+        },
+        {
+          "start": 13.53,
+          "end": 13.71,
+          "word": " le",
+          "probability": 0.9982348680496216
+        },
+        {
+          "start": 13.71,
+          "end": 14.13,
+          "word": " déranger",
+          "probability": 0.9996145367622375
+        },
+        {
+          "start": 14.13,
+          "end": 14.77,
+          "word": " ou",
+          "probability": 0.5032253861427307
+        },
+        {
+          "start": 14.77,
+          "end": 15.23,
+          "word": " déranger",
+          "probability": 0.9994479417800903
+        },
+        {
+          "start": 15.23,
+          "end": 15.89,
+          "word": " Xanathar,",
+          "probability": 0.8666982253392538
+        },
+        {
+          "start": 16.31,
+          "end": 16.39,
+          "word": " qui",
+          "probability": 0.997836172580719
+        },
+        {
+          "start": 16.39,
+          "end": 16.53,
+          "word": " qu",
+          "probability": 0.999886155128479
+        },
+        {
+          "start": 16.53,
+          "end": 16.59,
+          "word": "'il",
+          "probability": 0.9996047019958496
+        },
+        {
+          "start": 16.59,
+          "end": 16.81,
+          "word": " soit.",
+          "probability": 0.9996311664581299
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 17.63,
+      "end": 26.59,
+      "text": " Tu développes ton argumentation longuement en pensant que peut-être, tant que tu parleras, la créature ne te désintégrera pas.",
+      "tokens": [
+        51161,
+        7836,
+        22558,
+        5190,
+        2952,
+        6770,
+        399,
+        938,
+        84,
+        1712,
+        465,
+        6099,
+        394,
+        631,
+        5977,
+        12,
+        9498,
+        11,
+        12095,
+        631,
+        2604,
+        16421,
+        296,
+        11,
+        635,
+        15609,
+        1503,
+        408,
+        535,
+        18963,
+        36934,
+        861,
+        1663,
+        1736,
+        13,
+        51590
+      ],
+      "avg_logprob": -0.11692859061801707,
+      "compression_ratio": 1.544776119402985,
+      "no_speech_prob": 5.50317343778195e-12,
+      "words": [
+        {
+          "start": 17.63,
+          "end": 18.19,
+          "word": " Tu",
+          "probability": 0.9987013339996338
+        },
+        {
+          "start": 18.19,
+          "end": 18.79,
+          "word": " développes",
+          "probability": 0.9974144101142883
+        },
+        {
+          "start": 18.79,
+          "end": 19.01,
+          "word": " ton",
+          "probability": 0.9998859167098999
+        },
+        {
+          "start": 19.01,
+          "end": 19.89,
+          "word": " argumentation",
+          "probability": 0.999858945608139
+        },
+        {
+          "start": 19.89,
+          "end": 20.43,
+          "word": " longuement",
+          "probability": 0.9981117645899454
+        },
+        {
+          "start": 20.43,
+          "end": 20.97,
+          "word": " en",
+          "probability": 0.9523224830627441
+        },
+        {
+          "start": 20.97,
+          "end": 21.49,
+          "word": " pensant",
+          "probability": 0.99993497133255
+        },
+        {
+          "start": 21.49,
+          "end": 21.73,
+          "word": " que",
+          "probability": 0.999853253364563
+        },
+        {
+          "start": 21.73,
+          "end": 22.07,
+          "word": " peut",
+          "probability": 0.863454282283783
+        },
+        {
+          "start": 22.07,
+          "end": 22.35,
+          "word": "-être,",
+          "probability": 0.9997773468494415
+        },
+        {
+          "start": 22.71,
+          "end": 22.83,
+          "word": " tant",
+          "probability": 0.9924871921539307
+        },
+        {
+          "start": 22.83,
+          "end": 22.99,
+          "word": " que",
+          "probability": 0.9999809265136719
+        },
+        {
+          "start": 22.99,
+          "end": 23.11,
+          "word": " tu",
+          "probability": 0.9997649788856506
+        },
+        {
+          "start": 23.11,
+          "end": 23.63,
+          "word": " parleras,",
+          "probability": 0.970487505197525
+        },
+        {
+          "start": 24.15,
+          "end": 24.23,
+          "word": " la",
+          "probability": 0.9973499774932861
+        },
+        {
+          "start": 24.23,
+          "end": 24.89,
+          "word": " créature",
+          "probability": 0.9997466504573822
+        },
+        {
+          "start": 24.89,
+          "end": 25.23,
+          "word": " ne",
+          "probability": 0.9990058541297913
+        },
+        {
+          "start": 25.23,
+          "end": 25.45,
+          "word": " te",
+          "probability": 0.999932050704956
+        },
+        {
+          "start": 25.45,
+          "end": 26.39,
+          "word": " désintégrera",
+          "probability": 0.993666023015976
+        },
+        {
+          "start": 26.39,
+          "end": 26.59,
+          "word": " pas.",
+          "probability": 0.9971213936805725
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 27.23,
+      "end": 31.85,
+      "text": " Toutefois, tu dois bien t'arrêter une seconde pour reprendre ton souffle.",
+      "tokens": [
+        51640,
+        20453,
+        5666,
+        7376,
+        11,
+        2604,
+        11854,
+        3610,
+        256,
+        6,
+        2284,
+        37754,
+        2251,
+        1150,
+        68,
+        2016,
+        1085,
+        17218,
+        2952,
+        36966,
+        306,
+        13,
+        51853
+      ],
+      "avg_logprob": -0.11692859061801707,
+      "compression_ratio": 1.544776119402985,
+      "no_speech_prob": 5.50317343778195e-12,
+      "words": [
+        {
+          "start": 27.23,
+          "end": 27.91,
+          "word": " Toutefois,",
+          "probability": 0.9996324380238851
+        },
+        {
+          "start": 28.35,
+          "end": 28.91,
+          "word": " tu",
+          "probability": 0.9995889067649841
+        },
+        {
+          "start": 28.91,
+          "end": 29.15,
+          "word": " dois",
+          "probability": 0.9982692003250122
+        },
+        {
+          "start": 29.15,
+          "end": 29.43,
+          "word": " bien",
+          "probability": 0.9999427795410156
+        },
+        {
+          "start": 29.43,
+          "end": 29.61,
+          "word": " t",
+          "probability": 0.9909700155258179
+        },
+        {
+          "start": 29.61,
+          "end": 29.85,
+          "word": "'arrêter",
+          "probability": 0.9998302062352499
+        },
+        {
+          "start": 29.85,
+          "end": 30.13,
+          "word": " une",
+          "probability": 0.9996464252471924
+        },
+        {
+          "start": 30.13,
+          "end": 30.61,
+          "word": " seconde",
+          "probability": 0.9998025298118591
+        },
+        {
+          "start": 30.61,
+          "end": 30.81,
+          "word": " pour",
+          "probability": 0.9978482723236084
+        },
+        {
+          "start": 30.81,
+          "end": 31.21,
+          "word": " reprendre",
+          "probability": 0.999735563993454
+        },
+        {
+          "start": 31.21,
+          "end": 31.45,
+          "word": " ton",
+          "probability": 0.9986540079116821
+        },
+        {
+          "start": 31.45,
+          "end": 31.85,
+          "word": " souffle.",
+          "probability": 0.9996783435344696
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 3000,
+      "start": 32.19,
+      "end": 32.31,
+      "text": "",
+      "tokens": [
+        50365,
+        318,
+        563,
+        12,
+        27689,
+        16223,
+        4904,
+        6,
+        2625,
+        16,
+        51864
+      ],
+      "avg_logprob": -0.2739585091670354,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 9.903469017080724e-11,
+      "words": [
+        {
+          "start": 32.19,
+          "end": 32.23,
+          "word": " Sous",
+          "probability": 0.5583802573382854
+        },
+        {
+          "start": 32.23,
+          "end": 32.27,
+          "word": "-titrage",
+          "probability": 0.9941012263298035
+        },
+        {
+          "start": 32.27,
+          "end": 32.29,
+          "word": " ST'",
+          "probability": 0.37468260526657104
+        },
+        {
+          "start": 32.29,
+          "end": 32.31,
+          "word": " 501",
+          "probability": 0.9977034330368042
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

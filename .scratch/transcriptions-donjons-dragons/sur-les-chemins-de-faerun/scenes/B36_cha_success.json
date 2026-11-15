@@ -1,0 +1,307 @@
+{
+  "scene": "B36_cha_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B36_cha_success.mp3",
+  "sha256": "21e02dc646ded98d2ebf85e7d4f2472e6f774613ae94a7d2b637732e0ecfdb26",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 15.7939375,
+  "text": "C'est bon, c'est bon, Minus, ça arrive, nous commettons tous des erreurs. Et celle-ci ne sera sûrement pas ta dernière. Explique-moi plutôt calmement ce que tu fiches ici.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.26,
+      "end": 6.42,
+      "text": " C'est bon, c'est bon, Minus, ça arrive, nous commettons tous des erreurs.",
+      "tokens": [
+        50365,
+        383,
+        6,
+        377,
+        4428,
+        11,
+        269,
+        6,
+        377,
+        4428,
+        11,
+        2829,
+        301,
+        11,
+        2788,
+        8881,
+        11,
+        4666,
+        800,
+        3093,
+        892,
+        8317,
+        730,
+        28641,
+        2156,
+        13,
+        50623
+      ],
+      "avg_logprob": -0.13784782967324985,
+      "compression_ratio": 1.2589928057553956,
+      "no_speech_prob": 6.486243400022351e-12,
+      "words": [
+        {
+          "start": 1.26,
+          "end": 2.22,
+          "word": " C",
+          "probability": 0.952406644821167
+        },
+        {
+          "start": 2.22,
+          "end": 2.32,
+          "word": "'est",
+          "probability": 0.999904453754425
+        },
+        {
+          "start": 2.32,
+          "end": 2.54,
+          "word": " bon,",
+          "probability": 0.9995273351669312
+        },
+        {
+          "start": 2.76,
+          "end": 2.86,
+          "word": " c",
+          "probability": 0.989676296710968
+        },
+        {
+          "start": 2.86,
+          "end": 2.98,
+          "word": "'est",
+          "probability": 0.9999964833259583
+        },
+        {
+          "start": 2.98,
+          "end": 3.18,
+          "word": " bon,",
+          "probability": 0.9996232986450195
+        },
+        {
+          "start": 3.26,
+          "end": 3.64,
+          "word": " Minus,",
+          "probability": 0.9709782898426056
+        },
+        {
+          "start": 3.96,
+          "end": 4.18,
+          "word": " ça",
+          "probability": 0.9970695972442627
+        },
+        {
+          "start": 4.18,
+          "end": 4.62,
+          "word": " arrive,",
+          "probability": 0.999879002571106
+        },
+        {
+          "start": 4.88,
+          "end": 5.06,
+          "word": " nous",
+          "probability": 0.9998282194137573
+        },
+        {
+          "start": 5.06,
+          "end": 5.44,
+          "word": " commettons",
+          "probability": 0.9988084236780802
+        },
+        {
+          "start": 5.44,
+          "end": 5.7,
+          "word": " tous",
+          "probability": 0.999835729598999
+        },
+        {
+          "start": 5.7,
+          "end": 5.88,
+          "word": " des",
+          "probability": 0.9998944997787476
+        },
+        {
+          "start": 5.88,
+          "end": 6.42,
+          "word": " erreurs.",
+          "probability": 0.9999151825904846
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.54,
+      "end": 9.1,
+      "text": " Et celle-ci ne sera sûrement pas ta dernière.",
+      "tokens": [
+        50647,
+        3790,
+        25722,
+        12,
+        537,
+        408,
+        15021,
+        15998,
+        37934,
+        1736,
+        1846,
+        29028,
+        13,
+        50758
+      ],
+      "avg_logprob": -0.13784782967324985,
+      "compression_ratio": 1.2589928057553956,
+      "no_speech_prob": 6.486243400022351e-12,
+      "words": [
+        {
+          "start": 6.54,
+          "end": 7.0,
+          "word": " Et",
+          "probability": 0.9995875954627991
+        },
+        {
+          "start": 7.0,
+          "end": 7.3,
+          "word": " celle",
+          "probability": 0.9986525177955627
+        },
+        {
+          "start": 7.3,
+          "end": 7.5,
+          "word": "-ci",
+          "probability": 0.99989452958107
+        },
+        {
+          "start": 7.5,
+          "end": 7.66,
+          "word": " ne",
+          "probability": 0.9998980760574341
+        },
+        {
+          "start": 7.66,
+          "end": 7.92,
+          "word": " sera",
+          "probability": 0.9999312162399292
+        },
+        {
+          "start": 7.92,
+          "end": 8.38,
+          "word": " sûrement",
+          "probability": 0.999718576669693
+        },
+        {
+          "start": 8.38,
+          "end": 8.58,
+          "word": " pas",
+          "probability": 0.9999489784240723
+        },
+        {
+          "start": 8.58,
+          "end": 8.74,
+          "word": " ta",
+          "probability": 0.9972934126853943
+        },
+        {
+          "start": 8.74,
+          "end": 9.1,
+          "word": " dernière.",
+          "probability": 0.9998534917831421
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.06,
+      "end": 13.18,
+      "text": " Explique-moi plutôt calmement ce que tu fiches ici.",
+      "tokens": [
+        50806,
+        12514,
+        1925,
+        12,
+        29292,
+        20856,
+        7151,
+        1712,
+        1769,
+        631,
+        2604,
+        283,
+        480,
+        279,
+        11575,
+        13,
+        50963
+      ],
+      "avg_logprob": -0.13784782967324985,
+      "compression_ratio": 1.2589928057553956,
+      "no_speech_prob": 6.486243400022351e-12,
+      "words": [
+        {
+          "start": 10.06,
+          "end": 10.54,
+          "word": " Explique",
+          "probability": 0.9981087744235992
+        },
+        {
+          "start": 10.54,
+          "end": 10.72,
+          "word": "-moi",
+          "probability": 0.9996824264526367
+        },
+        {
+          "start": 10.72,
+          "end": 11.1,
+          "word": " plutôt",
+          "probability": 0.9991108775138855
+        },
+        {
+          "start": 11.1,
+          "end": 11.96,
+          "word": " calmement",
+          "probability": 0.9980509579181671
+        },
+        {
+          "start": 11.96,
+          "end": 12.22,
+          "word": " ce",
+          "probability": 0.9977953433990479
+        },
+        {
+          "start": 12.22,
+          "end": 12.36,
+          "word": " que",
+          "probability": 0.9999595880508423
+        },
+        {
+          "start": 12.36,
+          "end": 12.52,
+          "word": " tu",
+          "probability": 0.9998714923858643
+        },
+        {
+          "start": 12.52,
+          "end": 12.96,
+          "word": " fiches",
+          "probability": 0.9922192891438802
+        },
+        {
+          "start": 12.96,
+          "end": 13.18,
+          "word": " ici.",
+          "probability": 0.998767614364624
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "scene": "A20b_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A20b_list.mp3",
+  "sha256": "5b727822040cbfb1ead68c52acfcec3e9e587c46a1c439604ac32d1b6f4e0d16",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.4773125,
+  "text": "C'est le moment de passer à l'action.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.11,
+      "end": 1.83,
+      "text": " C'est le moment de passer à l'action.",
+      "tokens": [
+        50365,
+        383,
+        6,
+        377,
+        476,
+        1623,
+        368,
+        18509,
+        1531,
+        287,
+        6,
+        2894,
+        13,
+        50453
+      ],
+      "avg_logprob": -0.0951248824596405,
+      "compression_ratio": 0.8260869565217391,
+      "no_speech_prob": 5.257671468333891e-12,
+      "words": [
+        {
+          "start": 0.11,
+          "end": 0.53,
+          "word": " C",
+          "probability": 0.9449127912521362
+        },
+        {
+          "start": 0.53,
+          "end": 0.59,
+          "word": "'est",
+          "probability": 0.9999744296073914
+        },
+        {
+          "start": 0.59,
+          "end": 0.69,
+          "word": " le",
+          "probability": 0.9998575448989868
+        },
+        {
+          "start": 0.69,
+          "end": 0.93,
+          "word": " moment",
+          "probability": 0.9999539852142334
+        },
+        {
+          "start": 0.93,
+          "end": 1.11,
+          "word": " de",
+          "probability": 0.9999743700027466
+        },
+        {
+          "start": 1.11,
+          "end": 1.39,
+          "word": " passer",
+          "probability": 0.9997250437736511
+        },
+        {
+          "start": 1.39,
+          "end": 1.51,
+          "word": " à",
+          "probability": 0.9999798536300659
+        },
+        {
+          "start": 1.51,
+          "end": 1.59,
+          "word": " l",
+          "probability": 0.9999786615371704
+        },
+        {
+          "start": 1.59,
+          "end": 1.83,
+          "word": "'action.",
+          "probability": 0.9997163116931915
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

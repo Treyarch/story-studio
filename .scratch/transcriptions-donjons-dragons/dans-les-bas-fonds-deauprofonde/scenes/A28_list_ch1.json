@@ -1,0 +1,68 @@
+{
+  "scene": "A28_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A28_list_ch1.mp3",
+  "sha256": "cea5410e0d4e244db8dfd78d3499485b091cb63855147861ee5a60cc87bb6c39",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.036625,
+  "text": "Tu t'opposes aux ordres.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.45,
+      "text": " Tu t'opposes aux ordres.",
+      "tokens": [
+        50365,
+        7836,
+        256,
+        6,
+        17158,
+        4201,
+        7865,
+        4792,
+        495,
+        13,
+        50434
+      ],
+      "avg_logprob": -0.12310640141367912,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 5.294527836985363e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.49,
+          "word": " Tu",
+          "probability": 0.8059870600700378
+        },
+        {
+          "start": 0.49,
+          "end": 0.65,
+          "word": " t",
+          "probability": 0.999862551689148
+        },
+        {
+          "start": 0.65,
+          "end": 0.93,
+          "word": "'opposes",
+          "probability": 0.9990498224894205
+        },
+        {
+          "start": 0.93,
+          "end": 1.07,
+          "word": " aux",
+          "probability": 0.9997307658195496
+        },
+        {
+          "start": 1.07,
+          "end": 1.45,
+          "word": " ordres.",
+          "probability": 0.996390163898468
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

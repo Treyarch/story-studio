@@ -1,0 +1,52 @@
+{
+  "scene": "main_menu_ch1-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/main_menu_ch1-fr_FR.mp3",
+  "sha256": "3b0d1ac2815753280f798f821392d0fff89a28b916f83d051c7333bef20e84cb",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.15275,
+  "text": "Ta fiche personnage.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.33,
+      "text": " Ta fiche personnage.",
+      "tokens": [
+        50365,
+        6551,
+        283,
+        9304,
+        43952,
+        13,
+        50439
+      ],
+      "avg_logprob": -0.41507570818066597,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 4.171202879627023e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.55,
+          "word": " Ta",
+          "probability": 0.472563773393631
+        },
+        {
+          "start": 0.55,
+          "end": 0.83,
+          "word": " fiche",
+          "probability": 0.9968149662017822
+        },
+        {
+          "start": 0.83,
+          "end": 1.33,
+          "word": " personnage.",
+          "probability": 0.7881193161010742
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,796 @@
+{
+  "scene": "A4",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A4.mp3",
+  "sha256": "dd156f37ad9764dcc55d94d870475ec238030feff7ef7200fed133f3662ecbf7",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 29.5154375,
+  "text": "Tu es reporter, c'est ton truc de demander des faveurs aux gens. Tu contournes un vendeur de fruits et passes entre des stands de fromage si rapidement que ça te fait presque tourner la tête. Tu reconnais un des fromagers, un certain Évrard, un vieillard que tu as déjà eu l'occasion d'interviewer. Tu le supplie de vous aider, la fille et toi. Tu sais qu'il n'a pas d'affection particulière pour l'autorité locale. Mais acceptera-t-il de se plier en quatre pour toi?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.78,
+      "end": 4.34,
+      "text": " Tu es reporter, c'est ton truc de demander des faveurs aux gens.",
+      "tokens": [
+        50365,
+        7836,
+        785,
+        19152,
+        11,
+        269,
+        6,
+        377,
+        2952,
+        14805,
+        368,
+        39169,
+        730,
+        283,
+        946,
+        2156,
+        7865,
+        10668,
+        13,
+        50544
+      ],
+      "avg_logprob": -0.09910134362931154,
+      "compression_ratio": 1.5939597315436242,
+      "no_speech_prob": 6.899209502309045e-12,
+      "words": [
+        {
+          "start": 0.78,
+          "end": 1.22,
+          "word": " Tu",
+          "probability": 0.9913950562477112
+        },
+        {
+          "start": 1.22,
+          "end": 1.34,
+          "word": " es",
+          "probability": 0.9992799162864685
+        },
+        {
+          "start": 1.34,
+          "end": 1.74,
+          "word": " reporter,",
+          "probability": 0.9985653758049011
+        },
+        {
+          "start": 2.24,
+          "end": 2.58,
+          "word": " c",
+          "probability": 0.9998388290405273
+        },
+        {
+          "start": 2.58,
+          "end": 2.66,
+          "word": "'est",
+          "probability": 0.9999958276748657
+        },
+        {
+          "start": 2.66,
+          "end": 2.8,
+          "word": " ton",
+          "probability": 0.9999371767044067
+        },
+        {
+          "start": 2.8,
+          "end": 3.06,
+          "word": " truc",
+          "probability": 0.9999910593032837
+        },
+        {
+          "start": 3.06,
+          "end": 3.2,
+          "word": " de",
+          "probability": 0.9999690055847168
+        },
+        {
+          "start": 3.2,
+          "end": 3.54,
+          "word": " demander",
+          "probability": 0.9999499320983887
+        },
+        {
+          "start": 3.54,
+          "end": 3.72,
+          "word": " des",
+          "probability": 0.9970224499702454
+        },
+        {
+          "start": 3.72,
+          "end": 4.06,
+          "word": " faveurs",
+          "probability": 0.9986104965209961
+        },
+        {
+          "start": 4.06,
+          "end": 4.2,
+          "word": " aux",
+          "probability": 0.9996230602264404
+        },
+        {
+          "start": 4.2,
+          "end": 4.34,
+          "word": " gens.",
+          "probability": 0.9999743700027466
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.82,
+      "end": 11.02,
+      "text": " Tu contournes un vendeur de fruits et passes entre des stands de fromage si rapidement que ça te fait presque tourner la tête.",
+      "tokens": [
+        50570,
+        7836,
+        21234,
+        4081,
+        517,
+        371,
+        5445,
+        374,
+        368,
+        12148,
+        1030,
+        11335,
+        3962,
+        730,
+        7382,
+        368,
+        490,
+        609,
+        1511,
+        37757,
+        631,
+        2788,
+        535,
+        3887,
+        37843,
+        3512,
+        1193,
+        635,
+        24661,
+        13,
+        50877
+      ],
+      "avg_logprob": -0.09910134362931154,
+      "compression_ratio": 1.5939597315436242,
+      "no_speech_prob": 6.899209502309045e-12,
+      "words": [
+        {
+          "start": 4.82,
+          "end": 5.28,
+          "word": " Tu",
+          "probability": 0.999054491519928
+        },
+        {
+          "start": 5.28,
+          "end": 5.68,
+          "word": " contournes",
+          "probability": 0.9994825124740601
+        },
+        {
+          "start": 5.68,
+          "end": 5.78,
+          "word": " un",
+          "probability": 0.9998949766159058
+        },
+        {
+          "start": 5.78,
+          "end": 6.1,
+          "word": " vendeur",
+          "probability": 0.9997721314430237
+        },
+        {
+          "start": 6.1,
+          "end": 6.24,
+          "word": " de",
+          "probability": 0.9998608827590942
+        },
+        {
+          "start": 6.24,
+          "end": 6.48,
+          "word": " fruits",
+          "probability": 0.9977964162826538
+        },
+        {
+          "start": 6.48,
+          "end": 6.98,
+          "word": " et",
+          "probability": 0.9608389139175415
+        },
+        {
+          "start": 6.98,
+          "end": 7.24,
+          "word": " passes",
+          "probability": 0.9920207858085632
+        },
+        {
+          "start": 7.24,
+          "end": 7.48,
+          "word": " entre",
+          "probability": 0.9999375343322754
+        },
+        {
+          "start": 7.48,
+          "end": 7.68,
+          "word": " des",
+          "probability": 0.999947190284729
+        },
+        {
+          "start": 7.68,
+          "end": 7.94,
+          "word": " stands",
+          "probability": 0.991657018661499
+        },
+        {
+          "start": 7.94,
+          "end": 8.1,
+          "word": " de",
+          "probability": 0.9999474287033081
+        },
+        {
+          "start": 8.1,
+          "end": 8.56,
+          "word": " fromage",
+          "probability": 0.9633465707302094
+        },
+        {
+          "start": 8.56,
+          "end": 8.76,
+          "word": " si",
+          "probability": 0.865654468536377
+        },
+        {
+          "start": 8.76,
+          "end": 9.18,
+          "word": " rapidement",
+          "probability": 0.999970555305481
+        },
+        {
+          "start": 9.18,
+          "end": 9.56,
+          "word": " que",
+          "probability": 0.999826967716217
+        },
+        {
+          "start": 9.56,
+          "end": 9.7,
+          "word": " ça",
+          "probability": 0.9999010562896729
+        },
+        {
+          "start": 9.7,
+          "end": 9.84,
+          "word": " te",
+          "probability": 0.9999387264251709
+        },
+        {
+          "start": 9.84,
+          "end": 9.98,
+          "word": " fait",
+          "probability": 0.9998146891593933
+        },
+        {
+          "start": 9.98,
+          "end": 10.32,
+          "word": " presque",
+          "probability": 0.9999624490737915
+        },
+        {
+          "start": 10.32,
+          "end": 10.64,
+          "word": " tourner",
+          "probability": 0.999800831079483
+        },
+        {
+          "start": 10.64,
+          "end": 10.78,
+          "word": " la",
+          "probability": 0.9999710321426392
+        },
+        {
+          "start": 10.78,
+          "end": 11.02,
+          "word": " tête.",
+          "probability": 0.9999873638153076
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 12.24,
+      "end": 17.7,
+      "text": " Tu reconnais un des fromagers, un certain Évrard, un vieillard que tu as déjà eu l'occasion d'interviewer.",
+      "tokens": [
+        50941,
+        7836,
+        31073,
+        271,
+        517,
+        730,
+        490,
+        8776,
+        11,
+        517,
+        1629,
+        4922,
+        85,
+        81,
+        515,
+        11,
+        517,
+        4941,
+        373,
+        515,
+        631,
+        2604,
+        382,
+        12027,
+        2228,
+        287,
+        6,
+        43280,
+        6822,
+        274,
+        6,
+        5106,
+        13457,
+        13,
+        51212
+      ],
+      "avg_logprob": -0.09910134362931154,
+      "compression_ratio": 1.5939597315436242,
+      "no_speech_prob": 6.899209502309045e-12,
+      "words": [
+        {
+          "start": 12.24,
+          "end": 12.7,
+          "word": " Tu",
+          "probability": 0.9996613264083862
+        },
+        {
+          "start": 12.7,
+          "end": 13.1,
+          "word": " reconnais",
+          "probability": 0.9953324496746063
+        },
+        {
+          "start": 13.1,
+          "end": 13.2,
+          "word": " un",
+          "probability": 0.9998204112052917
+        },
+        {
+          "start": 13.2,
+          "end": 13.3,
+          "word": " des",
+          "probability": 0.9488803744316101
+        },
+        {
+          "start": 13.3,
+          "end": 13.72,
+          "word": " fromagers,",
+          "probability": 0.9854448735713959
+        },
+        {
+          "start": 14.02,
+          "end": 14.2,
+          "word": " un",
+          "probability": 0.9999746084213257
+        },
+        {
+          "start": 14.2,
+          "end": 14.5,
+          "word": " certain",
+          "probability": 0.9973078966140747
+        },
+        {
+          "start": 14.5,
+          "end": 15.0,
+          "word": " Évrard,",
+          "probability": 0.885858878493309
+        },
+        {
+          "start": 15.32,
+          "end": 15.58,
+          "word": " un",
+          "probability": 0.9999359846115112
+        },
+        {
+          "start": 15.58,
+          "end": 15.92,
+          "word": " vieillard",
+          "probability": 0.9993528326352438
+        },
+        {
+          "start": 15.92,
+          "end": 16.08,
+          "word": " que",
+          "probability": 0.9999552965164185
+        },
+        {
+          "start": 16.08,
+          "end": 16.2,
+          "word": " tu",
+          "probability": 0.9999723434448242
+        },
+        {
+          "start": 16.2,
+          "end": 16.32,
+          "word": " as",
+          "probability": 0.9986925721168518
+        },
+        {
+          "start": 16.32,
+          "end": 16.58,
+          "word": " déjà",
+          "probability": 0.9999079704284668
+        },
+        {
+          "start": 16.58,
+          "end": 16.7,
+          "word": " eu",
+          "probability": 0.9994487166404724
+        },
+        {
+          "start": 16.7,
+          "end": 16.8,
+          "word": " l",
+          "probability": 0.9999653100967407
+        },
+        {
+          "start": 16.8,
+          "end": 17.14,
+          "word": "'occasion",
+          "probability": 0.9997531175613403
+        },
+        {
+          "start": 17.14,
+          "end": 17.26,
+          "word": " d",
+          "probability": 0.9998608827590942
+        },
+        {
+          "start": 17.26,
+          "end": 17.7,
+          "word": "'interviewer.",
+          "probability": 0.9989226659138998
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 18.08,
+      "end": 20.3,
+      "text": " Tu le supplie de vous aider, la fille et toi.",
+      "tokens": [
+        51247,
+        7836,
+        476,
+        1003,
+        6302,
+        368,
+        2630,
+        36669,
+        11,
+        635,
+        39216,
+        1030,
+        15648,
+        13,
+        51342
+      ],
+      "avg_logprob": -0.09910134362931154,
+      "compression_ratio": 1.5939597315436242,
+      "no_speech_prob": 6.899209502309045e-12,
+      "words": [
+        {
+          "start": 18.08,
+          "end": 18.54,
+          "word": " Tu",
+          "probability": 0.9988836646080017
+        },
+        {
+          "start": 18.54,
+          "end": 18.72,
+          "word": " le",
+          "probability": 0.9994264841079712
+        },
+        {
+          "start": 18.72,
+          "end": 19.12,
+          "word": " supplie",
+          "probability": 0.665523111820221
+        },
+        {
+          "start": 19.12,
+          "end": 19.26,
+          "word": " de",
+          "probability": 0.9997879862785339
+        },
+        {
+          "start": 19.26,
+          "end": 19.44,
+          "word": " vous",
+          "probability": 0.9997701048851013
+        },
+        {
+          "start": 19.44,
+          "end": 19.66,
+          "word": " aider,",
+          "probability": 0.999921441078186
+        },
+        {
+          "start": 19.78,
+          "end": 19.84,
+          "word": " la",
+          "probability": 0.9777527451515198
+        },
+        {
+          "start": 19.84,
+          "end": 20.02,
+          "word": " fille",
+          "probability": 0.9948270916938782
+        },
+        {
+          "start": 20.02,
+          "end": 20.16,
+          "word": " et",
+          "probability": 0.8717710375785828
+        },
+        {
+          "start": 20.16,
+          "end": 20.3,
+          "word": " toi.",
+          "probability": 0.9990127086639404
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 20.84,
+      "end": 24.2,
+      "text": " Tu sais qu'il n'a pas d'affection particulière pour l'autorité locale.",
+      "tokens": [
+        51383,
+        7836,
+        11757,
+        421,
+        6,
+        388,
+        297,
+        6,
+        64,
+        1736,
+        274,
+        6,
+        2518,
+        10183,
+        21861,
+        10195,
+        2016,
+        287,
+        6,
+        1375,
+        284,
+        5066,
+        1628,
+        1220,
+        13,
+        51536
+      ],
+      "avg_logprob": -0.09910134362931154,
+      "compression_ratio": 1.5939597315436242,
+      "no_speech_prob": 6.899209502309045e-12,
+      "words": [
+        {
+          "start": 20.84,
+          "end": 21.26,
+          "word": " Tu",
+          "probability": 0.9994206428527832
+        },
+        {
+          "start": 21.26,
+          "end": 21.48,
+          "word": " sais",
+          "probability": 0.9994112253189087
+        },
+        {
+          "start": 21.48,
+          "end": 21.62,
+          "word": " qu",
+          "probability": 0.9999749660491943
+        },
+        {
+          "start": 21.62,
+          "end": 21.72,
+          "word": "'il",
+          "probability": 0.9999567270278931
+        },
+        {
+          "start": 21.72,
+          "end": 21.82,
+          "word": " n",
+          "probability": 0.9999924898147583
+        },
+        {
+          "start": 21.82,
+          "end": 21.88,
+          "word": "'a",
+          "probability": 0.9995569884777069
+        },
+        {
+          "start": 21.88,
+          "end": 22.02,
+          "word": " pas",
+          "probability": 0.9999839067459106
+        },
+        {
+          "start": 22.02,
+          "end": 22.14,
+          "word": " d",
+          "probability": 0.9999737739562988
+        },
+        {
+          "start": 22.14,
+          "end": 22.48,
+          "word": "'affection",
+          "probability": 0.9990336497624716
+        },
+        {
+          "start": 22.48,
+          "end": 23.12,
+          "word": " particulière",
+          "probability": 0.9997124075889587
+        },
+        {
+          "start": 23.12,
+          "end": 23.3,
+          "word": " pour",
+          "probability": 0.9996819496154785
+        },
+        {
+          "start": 23.3,
+          "end": 23.38,
+          "word": " l",
+          "probability": 0.9998306035995483
+        },
+        {
+          "start": 23.38,
+          "end": 23.76,
+          "word": "'autorité",
+          "probability": 0.9998270124197006
+        },
+        {
+          "start": 23.76,
+          "end": 24.2,
+          "word": " locale.",
+          "probability": 0.9993861019611359
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 24.64,
+      "end": 27.74,
+      "text": " Mais acceptera-t-il de se plier en quatre pour toi?",
+      "tokens": [
+        51575,
+        6313,
+        696,
+        27493,
+        23833,
+        12,
+        83,
+        12,
+        388,
+        368,
+        369,
+        499,
+        811,
+        465,
+        31334,
+        2016,
+        15648,
+        2506,
+        51715
+      ],
+      "avg_logprob": -0.09910134362931154,
+      "compression_ratio": 1.5939597315436242,
+      "no_speech_prob": 6.899209502309045e-12,
+      "words": [
+        {
+          "start": 24.64,
+          "end": 25.1,
+          "word": " Mais",
+          "probability": 0.9035717844963074
+        },
+        {
+          "start": 25.1,
+          "end": 25.62,
+          "word": " acceptera",
+          "probability": 0.9986342191696167
+        },
+        {
+          "start": 25.62,
+          "end": 25.84,
+          "word": "-t",
+          "probability": 0.9996931850910187
+        },
+        {
+          "start": 25.84,
+          "end": 25.94,
+          "word": "-il",
+          "probability": 0.999856024980545
+        },
+        {
+          "start": 25.94,
+          "end": 26.1,
+          "word": " de",
+          "probability": 0.9999041557312012
+        },
+        {
+          "start": 26.1,
+          "end": 26.32,
+          "word": " se",
+          "probability": 0.9618567824363708
+        },
+        {
+          "start": 26.32,
+          "end": 26.64,
+          "word": " plier",
+          "probability": 0.9995733201503754
+        },
+        {
+          "start": 26.64,
+          "end": 26.82,
+          "word": " en",
+          "probability": 0.9998602867126465
+        },
+        {
+          "start": 26.82,
+          "end": 27.04,
+          "word": " quatre",
+          "probability": 0.9845492839813232
+        },
+        {
+          "start": 27.04,
+          "end": 27.3,
+          "word": " pour",
+          "probability": 0.9997984766960144
+        },
+        {
+          "start": 27.3,
+          "end": 27.5,
+          "word": " toi",
+          "probability": 0.9998880624771118
+        },
+        {
+          "start": 27.5,
+          "end": 27.74,
+          "word": "?",
+          "probability": 0.9946186542510986
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

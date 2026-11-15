@@ -1,0 +1,504 @@
+{
+  "scene": "A5_str_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A5_str_success.mp3",
+  "sha256": "c77d96b2c54a5fa58c257c3199de8ed1a408464ec1e8358d63262ea90b67ed4c",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 23.5113125,
+  "text": "Les paniers se renversent derrière toi, provoquant une avalanche de pommes. Tu ne peux t'empêcher de sourire en entendant les deux agents du guet rouler dessus et s'effondrer lourdement au milieu de la foule. Les gens se mettent à vous chercher des yeux. Mais c'est trop tard, tu es déjà loin.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.4,
+      "end": 8.48,
+      "text": " Les paniers se renversent derrière toi, provoquant une avalanche de pommes.",
+      "tokens": [
+        50365,
+        6965,
+        2462,
+        4890,
+        369,
+        8124,
+        840,
+        317,
+        31465,
+        15648,
+        11,
+        1439,
+        29826,
+        394,
+        2251,
+        1305,
+        14163,
+        1876,
+        368,
+        280,
+        16733,
+        13,
+        50569
+      ],
+      "avg_logprob": -0.07126877314232766,
+      "compression_ratio": 1.4536585365853658,
+      "no_speech_prob": 6.188701027337595e-12,
+      "words": [
+        {
+          "start": 4.4,
+          "end": 4.84,
+          "word": " Les",
+          "probability": 0.9856023192405701
+        },
+        {
+          "start": 4.84,
+          "end": 5.18,
+          "word": " paniers",
+          "probability": 0.9965287148952484
+        },
+        {
+          "start": 5.18,
+          "end": 5.4,
+          "word": " se",
+          "probability": 0.9997567534446716
+        },
+        {
+          "start": 5.4,
+          "end": 5.84,
+          "word": " renversent",
+          "probability": 0.9991907080014547
+        },
+        {
+          "start": 5.84,
+          "end": 6.06,
+          "word": " derrière",
+          "probability": 0.9999192953109741
+        },
+        {
+          "start": 6.06,
+          "end": 6.4,
+          "word": " toi,",
+          "probability": 0.9998565912246704
+        },
+        {
+          "start": 6.58,
+          "end": 7.26,
+          "word": " provoquant",
+          "probability": 0.9983179171880087
+        },
+        {
+          "start": 7.26,
+          "end": 7.54,
+          "word": " une",
+          "probability": 0.9998986721038818
+        },
+        {
+          "start": 7.54,
+          "end": 8.08,
+          "word": " avalanche",
+          "probability": 0.9998545050621033
+        },
+        {
+          "start": 8.08,
+          "end": 8.18,
+          "word": " de",
+          "probability": 0.9999053478240967
+        },
+        {
+          "start": 8.18,
+          "end": 8.48,
+          "word": " pommes.",
+          "probability": 0.99931600689888
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.74,
+      "end": 13.16,
+      "text": " Tu ne peux t'empêcher de sourire en entendant les deux agents du guet rouler dessus",
+      "tokens": [
+        50601,
+        7836,
+        408,
+        14844,
+        256,
+        6,
+        15970,
+        1307,
+        6759,
+        368,
+        11006,
+        621,
+        465,
+        16612,
+        394,
+        1512,
+        8208,
+        12554,
+        1581,
+        695,
+        302,
+        18450,
+        1918,
+        30677,
+        50806
+      ],
+      "avg_logprob": -0.07126877314232766,
+      "compression_ratio": 1.4536585365853658,
+      "no_speech_prob": 6.188701027337595e-12,
+      "words": [
+        {
+          "start": 8.74,
+          "end": 9.2,
+          "word": " Tu",
+          "probability": 0.9993020296096802
+        },
+        {
+          "start": 9.2,
+          "end": 9.34,
+          "word": " ne",
+          "probability": 0.9998390674591064
+        },
+        {
+          "start": 9.34,
+          "end": 9.52,
+          "word": " peux",
+          "probability": 0.9995328187942505
+        },
+        {
+          "start": 9.52,
+          "end": 9.66,
+          "word": " t",
+          "probability": 0.9990639090538025
+        },
+        {
+          "start": 9.66,
+          "end": 10.02,
+          "word": "'empêcher",
+          "probability": 0.9995067864656448
+        },
+        {
+          "start": 10.02,
+          "end": 10.18,
+          "word": " de",
+          "probability": 0.9999922513961792
+        },
+        {
+          "start": 10.18,
+          "end": 10.66,
+          "word": " sourire",
+          "probability": 0.998591810464859
+        },
+        {
+          "start": 10.66,
+          "end": 10.96,
+          "word": " en",
+          "probability": 0.9980242252349854
+        },
+        {
+          "start": 10.96,
+          "end": 11.48,
+          "word": " entendant",
+          "probability": 0.996722400188446
+        },
+        {
+          "start": 11.48,
+          "end": 11.64,
+          "word": " les",
+          "probability": 0.9998869895935059
+        },
+        {
+          "start": 11.64,
+          "end": 11.82,
+          "word": " deux",
+          "probability": 0.9896578192710876
+        },
+        {
+          "start": 11.82,
+          "end": 12.14,
+          "word": " agents",
+          "probability": 0.9973604083061218
+        },
+        {
+          "start": 12.14,
+          "end": 12.3,
+          "word": " du",
+          "probability": 0.9864912033081055
+        },
+        {
+          "start": 12.3,
+          "end": 12.5,
+          "word": " guet",
+          "probability": 0.7520416676998138
+        },
+        {
+          "start": 12.5,
+          "end": 12.82,
+          "word": " rouler",
+          "probability": 0.9923034012317657
+        },
+        {
+          "start": 12.82,
+          "end": 13.16,
+          "word": " dessus",
+          "probability": 0.9999678134918213
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 13.16,
+      "end": 15.82,
+      "text": " et s'effondrer lourdement au milieu de la foule.",
+      "tokens": [
+        50806,
+        1030,
+        262,
+        6,
+        30774,
+        684,
+        9797,
+        287,
+        21764,
+        1712,
+        1609,
+        34276,
+        368,
+        635,
+        283,
+        26757,
+        13,
+        50937
+      ],
+      "avg_logprob": -0.07126877314232766,
+      "compression_ratio": 1.4536585365853658,
+      "no_speech_prob": 6.188701027337595e-12,
+      "words": [
+        {
+          "start": 13.16,
+          "end": 13.64,
+          "word": " et",
+          "probability": 0.995860755443573
+        },
+        {
+          "start": 13.64,
+          "end": 13.84,
+          "word": " s",
+          "probability": 0.9998311996459961
+        },
+        {
+          "start": 13.84,
+          "end": 14.28,
+          "word": "'effondrer",
+          "probability": 0.9989806860685349
+        },
+        {
+          "start": 14.28,
+          "end": 14.86,
+          "word": " lourdement",
+          "probability": 0.9998389085133871
+        },
+        {
+          "start": 14.86,
+          "end": 15.0,
+          "word": " au",
+          "probability": 0.9991146922111511
+        },
+        {
+          "start": 15.0,
+          "end": 15.26,
+          "word": " milieu",
+          "probability": 0.9999679327011108
+        },
+        {
+          "start": 15.26,
+          "end": 15.4,
+          "word": " de",
+          "probability": 0.9997660517692566
+        },
+        {
+          "start": 15.4,
+          "end": 15.52,
+          "word": " la",
+          "probability": 0.9998846054077148
+        },
+        {
+          "start": 15.52,
+          "end": 15.82,
+          "word": " foule.",
+          "probability": 0.9997177422046661
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 16.02,
+      "end": 17.98,
+      "text": " Les gens se mettent à vous chercher des yeux.",
+      "tokens": [
+        50962,
+        6965,
+        10668,
+        369,
+        27812,
+        317,
+        1531,
+        2630,
+        38747,
+        730,
+        36163,
+        13,
+        51044
+      ],
+      "avg_logprob": -0.07126877314232766,
+      "compression_ratio": 1.4536585365853658,
+      "no_speech_prob": 6.188701027337595e-12,
+      "words": [
+        {
+          "start": 16.02,
+          "end": 16.46,
+          "word": " Les",
+          "probability": 0.9990788698196411
+        },
+        {
+          "start": 16.46,
+          "end": 16.66,
+          "word": " gens",
+          "probability": 0.9998756647109985
+        },
+        {
+          "start": 16.66,
+          "end": 16.86,
+          "word": " se",
+          "probability": 0.9997382760047913
+        },
+        {
+          "start": 16.86,
+          "end": 17.06,
+          "word": " mettent",
+          "probability": 0.9995785057544708
+        },
+        {
+          "start": 17.06,
+          "end": 17.14,
+          "word": " à",
+          "probability": 0.9996167421340942
+        },
+        {
+          "start": 17.14,
+          "end": 17.26,
+          "word": " vous",
+          "probability": 0.999685525894165
+        },
+        {
+          "start": 17.26,
+          "end": 17.54,
+          "word": " chercher",
+          "probability": 0.9998382329940796
+        },
+        {
+          "start": 17.54,
+          "end": 17.74,
+          "word": " des",
+          "probability": 0.9998751878738403
+        },
+        {
+          "start": 17.74,
+          "end": 17.98,
+          "word": " yeux.",
+          "probability": 0.9998766183853149
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 18.2,
+      "end": 20.56,
+      "text": " Mais c'est trop tard, tu es déjà loin.",
+      "tokens": [
+        51073,
+        6313,
+        269,
+        6,
+        377,
+        9006,
+        21057,
+        11,
+        2604,
+        785,
+        12027,
+        25048,
+        13,
+        51173
+      ],
+      "avg_logprob": -0.07126877314232766,
+      "compression_ratio": 1.4536585365853658,
+      "no_speech_prob": 6.188701027337595e-12,
+      "words": [
+        {
+          "start": 18.2,
+          "end": 18.68,
+          "word": " Mais",
+          "probability": 0.9992237091064453
+        },
+        {
+          "start": 18.68,
+          "end": 18.82,
+          "word": " c",
+          "probability": 0.9998393058776855
+        },
+        {
+          "start": 18.82,
+          "end": 18.88,
+          "word": "'est",
+          "probability": 0.9999945759773254
+        },
+        {
+          "start": 18.88,
+          "end": 19.0,
+          "word": " trop",
+          "probability": 0.9997151494026184
+        },
+        {
+          "start": 19.0,
+          "end": 19.28,
+          "word": " tard,",
+          "probability": 0.9997147917747498
+        },
+        {
+          "start": 19.6,
+          "end": 19.94,
+          "word": " tu",
+          "probability": 0.9990954399108887
+        },
+        {
+          "start": 19.94,
+          "end": 20.08,
+          "word": " es",
+          "probability": 0.9996650218963623
+        },
+        {
+          "start": 20.08,
+          "end": 20.32,
+          "word": " déjà",
+          "probability": 0.9997410178184509
+        },
+        {
+          "start": 20.32,
+          "end": 20.56,
+          "word": " loin.",
+          "probability": 0.9997325539588928
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

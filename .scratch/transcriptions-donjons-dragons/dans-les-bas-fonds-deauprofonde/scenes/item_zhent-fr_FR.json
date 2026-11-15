@@ -1,0 +1,144 @@
+{
+  "scene": "item_zhent-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_zhent-fr_FR.mp3",
+  "sha256": "f374dc5887abe1a01d8c6ee099b585e4ede3b65a5e8f27abe922eeac611d81e7",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 5.2566875,
+  "text": "Bienvenue dans le Zhentarim! Te voilà une canaille de premier plan!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.21,
+      "end": 2.37,
+      "text": " Bienvenue dans le Zhentarim!",
+      "tokens": [
+        50374,
+        16956,
+        29307,
+        2680,
+        476,
+        1176,
+        32067,
+        332,
+        2298,
+        50465
+      ],
+      "avg_logprob": -0.2556079729743626,
+      "compression_ratio": 0.9583333333333334,
+      "no_speech_prob": 5.634331109310997e-12,
+      "words": [
+        {
+          "start": 0.21,
+          "end": 0.99,
+          "word": " Bienvenue",
+          "probability": 0.9836131632328033
+        },
+        {
+          "start": 0.99,
+          "end": 1.17,
+          "word": " dans",
+          "probability": 0.9999634027481079
+        },
+        {
+          "start": 1.17,
+          "end": 1.39,
+          "word": " le",
+          "probability": 0.9992082715034485
+        },
+        {
+          "start": 1.39,
+          "end": 2.01,
+          "word": " Zhentarim",
+          "probability": 0.7581812739372253
+        },
+        {
+          "start": 2.01,
+          "end": 2.37,
+          "word": "!",
+          "probability": 0.6688511371612549
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 2.37,
+      "end": 5.23,
+      "text": " Te voilà une canaille de premier plan!",
+      "tokens": [
+        50494,
+        1989,
+        14624,
+        2251,
+        393,
+        64,
+        3409,
+        368,
+        12689,
+        1393,
+        2298,
+        50615
+      ],
+      "avg_logprob": -0.2556079729743626,
+      "compression_ratio": 0.9583333333333334,
+      "no_speech_prob": 5.634331109310997e-12,
+      "words": [
+        {
+          "start": 2.37,
+          "end": 2.89,
+          "word": " Te",
+          "probability": 0.9983806610107422
+        },
+        {
+          "start": 2.89,
+          "end": 3.21,
+          "word": " voilà",
+          "probability": 0.995602011680603
+        },
+        {
+          "start": 3.21,
+          "end": 3.57,
+          "word": " une",
+          "probability": 0.9903067350387573
+        },
+        {
+          "start": 3.57,
+          "end": 4.01,
+          "word": " canaille",
+          "probability": 0.9971152345339457
+        },
+        {
+          "start": 4.01,
+          "end": 4.17,
+          "word": " de",
+          "probability": 0.9999501705169678
+        },
+        {
+          "start": 4.17,
+          "end": 4.51,
+          "word": " premier",
+          "probability": 0.9867990612983704
+        },
+        {
+          "start": 4.51,
+          "end": 4.77,
+          "word": " plan",
+          "probability": 0.9993845224380493
+        },
+        {
+          "start": 4.77,
+          "end": 5.23,
+          "word": "!",
+          "probability": 0.9880810976028442
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

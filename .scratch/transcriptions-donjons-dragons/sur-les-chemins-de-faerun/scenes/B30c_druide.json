@@ -1,0 +1,587 @@
+{
+  "scene": "B30c_druide",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B30c_druide.mp3",
+  "sha256": "a01f1601f51104524a47f05a51826c9f14a7df9ecb31fd204a989719ad98ccfb",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 26.654375,
+  "text": "Une des clercs a devant elle une plante bien mal en point. Dans son pot, la terre est sèche, comme si plus personne ne s'y était intéressé depuis des siècles. Tu t'approches et lui proposes ton aide. Elle semble surprise. Qu'à cela ne tienne, tu lances un petit sort sur le végétal qui refleurit aussitôt. Incroyable! Comment puis-je t'être utile à mon tour?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.91,
+      "end": 10.65,
+      "text": " Une des clercs a devant elle une plante bien mal en point. Dans son pot, la terre est sèche, comme si plus personne ne s'y était intéressé depuis des siècles.",
+      "tokens": [
+        50365,
+        16701,
+        730,
+        596,
+        2869,
+        82,
+        257,
+        28982,
+        8404,
+        2251,
+        36829,
+        3610,
+        2806,
+        465,
+        935,
+        13,
+        16897,
+        1872,
+        1847,
+        11,
+        635,
+        31815,
+        871,
+        262,
+        1462,
+        1876,
+        11,
+        5173,
+        1511,
+        1804,
+        17219,
+        408,
+        262,
+        6,
+        88,
+        11806,
+        23243,
+        526,
+        16062,
+        730,
+        31302,
+        6520,
+        13,
+        50852
+      ],
+      "avg_logprob": -0.0857288309740364,
+      "compression_ratio": 1.4549019607843137,
+      "no_speech_prob": 8.492376073199193e-12,
+      "words": [
+        {
+          "start": 0.91,
+          "end": 1.47,
+          "word": " Une",
+          "probability": 0.9777822494506836
+        },
+        {
+          "start": 1.47,
+          "end": 1.69,
+          "word": " des",
+          "probability": 0.9589256644248962
+        },
+        {
+          "start": 1.69,
+          "end": 2.17,
+          "word": " clercs",
+          "probability": 0.8600481152534485
+        },
+        {
+          "start": 2.17,
+          "end": 2.29,
+          "word": " a",
+          "probability": 0.9982927441596985
+        },
+        {
+          "start": 2.29,
+          "end": 2.59,
+          "word": " devant",
+          "probability": 0.9998903274536133
+        },
+        {
+          "start": 2.59,
+          "end": 2.87,
+          "word": " elle",
+          "probability": 0.9967189431190491
+        },
+        {
+          "start": 2.87,
+          "end": 3.15,
+          "word": " une",
+          "probability": 0.9996554851531982
+        },
+        {
+          "start": 3.15,
+          "end": 3.55,
+          "word": " plante",
+          "probability": 0.9995531439781189
+        },
+        {
+          "start": 3.55,
+          "end": 3.81,
+          "word": " bien",
+          "probability": 0.9999268054962158
+        },
+        {
+          "start": 3.81,
+          "end": 4.03,
+          "word": " mal",
+          "probability": 0.9983685612678528
+        },
+        {
+          "start": 4.03,
+          "end": 4.15,
+          "word": " en",
+          "probability": 0.9816436171531677
+        },
+        {
+          "start": 4.15,
+          "end": 4.31,
+          "word": " point.",
+          "probability": 0.9378010630607605
+        },
+        {
+          "start": 4.57,
+          "end": 5.09,
+          "word": " Dans",
+          "probability": 0.9997614026069641
+        },
+        {
+          "start": 5.09,
+          "end": 5.35,
+          "word": " son",
+          "probability": 0.9999243021011353
+        },
+        {
+          "start": 5.35,
+          "end": 5.53,
+          "word": " pot,",
+          "probability": 0.9500404000282288
+        },
+        {
+          "start": 6.05,
+          "end": 6.25,
+          "word": " la",
+          "probability": 0.9998478889465332
+        },
+        {
+          "start": 6.25,
+          "end": 6.57,
+          "word": " terre",
+          "probability": 0.9983997941017151
+        },
+        {
+          "start": 6.57,
+          "end": 6.79,
+          "word": " est",
+          "probability": 0.9999452829360962
+        },
+        {
+          "start": 6.79,
+          "end": 7.23,
+          "word": " sèche,",
+          "probability": 0.9989301760991415
+        },
+        {
+          "start": 7.43,
+          "end": 7.77,
+          "word": " comme",
+          "probability": 0.999810516834259
+        },
+        {
+          "start": 7.77,
+          "end": 7.97,
+          "word": " si",
+          "probability": 0.999950647354126
+        },
+        {
+          "start": 7.97,
+          "end": 8.19,
+          "word": " plus",
+          "probability": 0.9999499320983887
+        },
+        {
+          "start": 8.19,
+          "end": 8.63,
+          "word": " personne",
+          "probability": 0.9999804496765137
+        },
+        {
+          "start": 8.63,
+          "end": 8.83,
+          "word": " ne",
+          "probability": 0.999626636505127
+        },
+        {
+          "start": 8.83,
+          "end": 8.95,
+          "word": " s",
+          "probability": 0.9999582767486572
+        },
+        {
+          "start": 8.95,
+          "end": 9.03,
+          "word": "'y",
+          "probability": 0.9999932050704956
+        },
+        {
+          "start": 9.03,
+          "end": 9.17,
+          "word": " était",
+          "probability": 0.9894806146621704
+        },
+        {
+          "start": 9.17,
+          "end": 9.79,
+          "word": " intéressé",
+          "probability": 0.969126969575882
+        },
+        {
+          "start": 9.79,
+          "end": 10.03,
+          "word": " depuis",
+          "probability": 0.999874472618103
+        },
+        {
+          "start": 10.03,
+          "end": 10.25,
+          "word": " des",
+          "probability": 0.9999485015869141
+        },
+        {
+          "start": 10.25,
+          "end": 10.65,
+          "word": " siècles.",
+          "probability": 0.9999343752861023
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 11.13,
+      "end": 21.65,
+      "text": " Tu t'approches et lui proposes ton aide. Elle semble surprise. Qu'à cela ne tienne, tu lances un petit sort sur le végétal qui refleurit aussitôt.",
+      "tokens": [
+        50896,
+        7836,
+        256,
+        6,
+        35821,
+        3781,
+        1030,
+        8783,
+        2365,
+        4201,
+        2952,
+        40890,
+        13,
+        16227,
+        38328,
+        6365,
+        13,
+        2326,
+        6,
+        1467,
+        15437,
+        408,
+        4902,
+        716,
+        11,
+        2604,
+        287,
+        2676,
+        517,
+        9686,
+        1333,
+        1022,
+        476,
+        371,
+        9095,
+        4051,
+        304,
+        1956,
+        36549,
+        374,
+        270,
+        5730,
+        270,
+        8775,
+        13,
+        51402
+      ],
+      "avg_logprob": -0.0857288309740364,
+      "compression_ratio": 1.4549019607843137,
+      "no_speech_prob": 8.492376073199193e-12,
+      "words": [
+        {
+          "start": 11.13,
+          "end": 11.65,
+          "word": " Tu",
+          "probability": 0.9988629817962646
+        },
+        {
+          "start": 11.65,
+          "end": 11.79,
+          "word": " t",
+          "probability": 0.9998875856399536
+        },
+        {
+          "start": 11.79,
+          "end": 12.25,
+          "word": "'approches",
+          "probability": 0.9994720816612244
+        },
+        {
+          "start": 12.25,
+          "end": 12.99,
+          "word": " et",
+          "probability": 0.990871012210846
+        },
+        {
+          "start": 12.99,
+          "end": 13.15,
+          "word": " lui",
+          "probability": 0.9998651742935181
+        },
+        {
+          "start": 13.15,
+          "end": 13.59,
+          "word": " proposes",
+          "probability": 0.8566489815711975
+        },
+        {
+          "start": 13.59,
+          "end": 13.75,
+          "word": " ton",
+          "probability": 0.997256338596344
+        },
+        {
+          "start": 13.75,
+          "end": 14.01,
+          "word": " aide.",
+          "probability": 0.9998672008514404
+        },
+        {
+          "start": 14.55,
+          "end": 14.95,
+          "word": " Elle",
+          "probability": 0.9920963048934937
+        },
+        {
+          "start": 14.95,
+          "end": 15.23,
+          "word": " semble",
+          "probability": 0.9997703433036804
+        },
+        {
+          "start": 15.23,
+          "end": 15.71,
+          "word": " surprise.",
+          "probability": 0.9994269609451294
+        },
+        {
+          "start": 16.35,
+          "end": 16.69,
+          "word": " Qu",
+          "probability": 0.9502701759338379
+        },
+        {
+          "start": 16.69,
+          "end": 16.81,
+          "word": "'à",
+          "probability": 0.9406722784042358
+        },
+        {
+          "start": 16.81,
+          "end": 16.93,
+          "word": " cela",
+          "probability": 0.9972259402275085
+        },
+        {
+          "start": 16.93,
+          "end": 17.15,
+          "word": " ne",
+          "probability": 0.9992479681968689
+        },
+        {
+          "start": 17.15,
+          "end": 17.49,
+          "word": " tienne,",
+          "probability": 0.998939722776413
+        },
+        {
+          "start": 17.87,
+          "end": 18.01,
+          "word": " tu",
+          "probability": 0.9997835755348206
+        },
+        {
+          "start": 18.01,
+          "end": 18.39,
+          "word": " lances",
+          "probability": 0.9933153688907623
+        },
+        {
+          "start": 18.39,
+          "end": 18.61,
+          "word": " un",
+          "probability": 0.9987425208091736
+        },
+        {
+          "start": 18.61,
+          "end": 18.91,
+          "word": " petit",
+          "probability": 0.9995359182357788
+        },
+        {
+          "start": 18.91,
+          "end": 19.19,
+          "word": " sort",
+          "probability": 0.9938607215881348
+        },
+        {
+          "start": 19.19,
+          "end": 19.39,
+          "word": " sur",
+          "probability": 0.9998904466629028
+        },
+        {
+          "start": 19.39,
+          "end": 19.53,
+          "word": " le",
+          "probability": 0.9996838569641113
+        },
+        {
+          "start": 19.53,
+          "end": 20.17,
+          "word": " végétal",
+          "probability": 0.9996239840984344
+        },
+        {
+          "start": 20.17,
+          "end": 20.49,
+          "word": " qui",
+          "probability": 0.9988705515861511
+        },
+        {
+          "start": 20.49,
+          "end": 21.07,
+          "word": " refleurit",
+          "probability": 0.9604583183924357
+        },
+        {
+          "start": 21.07,
+          "end": 21.65,
+          "word": " aussitôt.",
+          "probability": 0.9995743830998739
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 22.21,
+      "end": 25.51,
+      "text": " Incroyable! Comment puis-je t'être utile à mon tour?",
+      "tokens": [
+        51431,
+        7779,
+        45976,
+        2298,
+        16328,
+        9093,
+        12,
+        2884,
+        256,
+        6,
+        9498,
+        2839,
+        794,
+        1531,
+        1108,
+        3512,
+        2506,
+        51602
+      ],
+      "avg_logprob": -0.0857288309740364,
+      "compression_ratio": 1.4549019607843137,
+      "no_speech_prob": 8.492376073199193e-12,
+      "words": [
+        {
+          "start": 22.21,
+          "end": 22.75,
+          "word": " Incroyable",
+          "probability": 0.9890269339084625
+        },
+        {
+          "start": 22.75,
+          "end": 23.13,
+          "word": "!",
+          "probability": 0.8023762106895447
+        },
+        {
+          "start": 23.13,
+          "end": 23.73,
+          "word": " Comment",
+          "probability": 0.9991298317909241
+        },
+        {
+          "start": 23.73,
+          "end": 23.99,
+          "word": " puis",
+          "probability": 0.979841947555542
+        },
+        {
+          "start": 23.99,
+          "end": 24.09,
+          "word": "-je",
+          "probability": 0.9998629987239838
+        },
+        {
+          "start": 24.09,
+          "end": 24.19,
+          "word": " t",
+          "probability": 0.9701700210571289
+        },
+        {
+          "start": 24.19,
+          "end": 24.35,
+          "word": "'être",
+          "probability": 0.9983890354633331
+        },
+        {
+          "start": 24.35,
+          "end": 24.63,
+          "word": " utile",
+          "probability": 0.9994376599788666
+        },
+        {
+          "start": 24.63,
+          "end": 24.79,
+          "word": " à",
+          "probability": 0.9983232617378235
+        },
+        {
+          "start": 24.79,
+          "end": 24.93,
+          "word": " mon",
+          "probability": 0.9996250867843628
+        },
+        {
+          "start": 24.93,
+          "end": 25.31,
+          "word": " tour",
+          "probability": 0.9994044303894043
+        },
+        {
+          "start": 25.31,
+          "end": 25.51,
+          "word": "?",
+          "probability": 0.9980311989784241
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "scene": "B65b_list_ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B65b_list_ch2.mp3",
+  "sha256": "55763c883c086dbcde7de6dee4d7a586fc75fdacb419ca190b235ed5333948f3",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.1719375,
+  "text": "Défier ton mouchard?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 1.87,
+      "text": " Défier ton mouchard?",
+      "tokens": [
+        50365,
+        31153,
+        69,
+        811,
+        2952,
+        275,
+        2220,
+        515,
+        2506,
+        50471
+      ],
+      "avg_logprob": -0.3103448315100236,
+      "compression_ratio": 0.7333333333333333,
+      "no_speech_prob": 4.754580843618905e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.85,
+          "word": " Défier",
+          "probability": 0.9162562290827433
+        },
+        {
+          "start": 0.85,
+          "end": 1.03,
+          "word": " ton",
+          "probability": 0.9989321827888489
+        },
+        {
+          "start": 1.03,
+          "end": 1.55,
+          "word": " mouchard",
+          "probability": 0.9991399447123209
+        },
+        {
+          "start": 1.55,
+          "end": 1.87,
+          "word": "?",
+          "probability": 0.4320918023586273
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

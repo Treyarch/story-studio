@@ -1,0 +1,222 @@
+{
+  "scene": "multi3_ch2_fail_6",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/multi3_ch2_fail_6.mp3",
+  "sha256": "af56da3989dfef670d22c1b872048b61130865543977de66f88496b4ac821b6d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 7.1883125,
+  "text": "Tu n'as pas atteint l'objectif de 6. Ton bonus n'était pas suffisant. Mais l'aventure ne s'arrête pas là.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 4.11,
+      "text": " Tu n'as pas atteint l'objectif de 6. Ton bonus n'était pas suffisant.",
+      "tokens": [
+        50365,
+        7836,
+        297,
+        6,
+        296,
+        1736,
+        42783,
+        686,
+        287,
+        6,
+        41070,
+        351,
+        368,
+        1386,
+        13,
+        11385,
+        10882,
+        297,
+        6,
+        9743,
+        1736,
+        3889,
+        271,
+        394,
+        13,
+        50570
+      ],
+      "avg_logprob": -0.1254101090652998,
+      "compression_ratio": 1.08,
+      "no_speech_prob": 4.511116306893381e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.47,
+          "word": " Tu",
+          "probability": 0.7015627026557922
+        },
+        {
+          "start": 0.47,
+          "end": 0.59,
+          "word": " n",
+          "probability": 0.9999898672103882
+        },
+        {
+          "start": 0.59,
+          "end": 0.67,
+          "word": "'as",
+          "probability": 0.9998608529567719
+        },
+        {
+          "start": 0.67,
+          "end": 0.81,
+          "word": " pas",
+          "probability": 0.9999822378158569
+        },
+        {
+          "start": 0.81,
+          "end": 1.09,
+          "word": " atteint",
+          "probability": 0.9998730421066284
+        },
+        {
+          "start": 1.09,
+          "end": 1.17,
+          "word": " l",
+          "probability": 0.9999463558197021
+        },
+        {
+          "start": 1.17,
+          "end": 1.63,
+          "word": "'objectif",
+          "probability": 0.999879777431488
+        },
+        {
+          "start": 1.63,
+          "end": 1.77,
+          "word": " de",
+          "probability": 0.9997038245201111
+        },
+        {
+          "start": 1.77,
+          "end": 2.07,
+          "word": " 6.",
+          "probability": 0.7549270391464233
+        },
+        {
+          "start": 2.35,
+          "end": 2.71,
+          "word": " Ton",
+          "probability": 0.9990943670272827
+        },
+        {
+          "start": 2.71,
+          "end": 3.07,
+          "word": " bonus",
+          "probability": 0.999953031539917
+        },
+        {
+          "start": 3.07,
+          "end": 3.27,
+          "word": " n",
+          "probability": 0.9999698400497437
+        },
+        {
+          "start": 3.27,
+          "end": 3.39,
+          "word": "'était",
+          "probability": 0.999812662601471
+        },
+        {
+          "start": 3.39,
+          "end": 3.57,
+          "word": " pas",
+          "probability": 0.9999942779541016
+        },
+        {
+          "start": 3.57,
+          "end": 4.11,
+          "word": " suffisant.",
+          "probability": 0.9999390045801798
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.57,
+      "end": 6.59,
+      "text": " Mais l'aventure ne s'arrête pas là.",
+      "tokens": [
+        50601,
+        6313,
+        287,
+        6,
+        706,
+        317,
+        540,
+        408,
+        262,
+        6,
+        2284,
+        12943,
+        1736,
+        3684,
+        13,
+        50694
+      ],
+      "avg_logprob": -0.1254101090652998,
+      "compression_ratio": 1.08,
+      "no_speech_prob": 4.511116306893381e-12,
+      "words": [
+        {
+          "start": 4.57,
+          "end": 4.97,
+          "word": " Mais",
+          "probability": 0.9714179635047913
+        },
+        {
+          "start": 4.97,
+          "end": 5.13,
+          "word": " l",
+          "probability": 0.9999053478240967
+        },
+        {
+          "start": 5.13,
+          "end": 5.71,
+          "word": "'aventure",
+          "probability": 0.998481422662735
+        },
+        {
+          "start": 5.71,
+          "end": 5.89,
+          "word": " ne",
+          "probability": 0.9999364614486694
+        },
+        {
+          "start": 5.89,
+          "end": 6.09,
+          "word": " s",
+          "probability": 0.999995231628418
+        },
+        {
+          "start": 6.09,
+          "end": 6.29,
+          "word": "'arrête",
+          "probability": 0.9999450445175171
+        },
+        {
+          "start": 6.29,
+          "end": 6.45,
+          "word": " pas",
+          "probability": 0.9999884366989136
+        },
+        {
+          "start": 6.45,
+          "end": 6.59,
+          "word": " là.",
+          "probability": 0.9999641180038452
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

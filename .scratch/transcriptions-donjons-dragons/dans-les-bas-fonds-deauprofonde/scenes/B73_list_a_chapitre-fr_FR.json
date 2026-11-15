@@ -1,0 +1,39 @@
+{
+  "scene": "B73_list_a_chapitre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B73_list_a_chapitre-fr_FR.mp3",
+  "sha256": "fca0f65829c953832643242bb84f0cd4ace6892b7db39554d9c7f77b4695c071",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.994375,
+  "text": "Xanathar",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.24,
+      "text": " Xanathar",
+      "tokens": [
+        50365,
+        1783,
+        282,
+        998,
+        289,
+        50426
+      ],
+      "avg_logprob": -0.297302177974156,
+      "compression_ratio": 0.5,
+      "no_speech_prob": 1.106092561292682e-11,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 1.24,
+          "word": " Xanathar",
+          "probability": 0.8327086344361305
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

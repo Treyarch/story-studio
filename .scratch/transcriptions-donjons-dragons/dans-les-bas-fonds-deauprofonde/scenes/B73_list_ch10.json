@@ -1,0 +1,78 @@
+{
+  "scene": "B73_list_ch10",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B73_list_ch10.mp3",
+  "sha256": "a7df8d90641e218f6aa780627250c220fb0a2b52c2b512e15e01d4e4022fb6ef",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.8058125,
+  "text": "Tu enfiles la cape d'Aurinax.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 2.2,
+      "text": " Tu enfiles la cape d'Aurinax.",
+      "tokens": [
+        50365,
+        7836,
+        10667,
+        4680,
+        635,
+        30414,
+        274,
+        6,
+        21520,
+        1426,
+        87,
+        13,
+        50473
+      ],
+      "avg_logprob": -0.17756968949522292,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 5.5788082486962765e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.52,
+          "word": " Tu",
+          "probability": 0.8780791759490967
+        },
+        {
+          "start": 0.52,
+          "end": 0.98,
+          "word": " enfiles",
+          "probability": 0.9936813712120056
+        },
+        {
+          "start": 0.98,
+          "end": 1.14,
+          "word": " la",
+          "probability": 0.9992989301681519
+        },
+        {
+          "start": 1.14,
+          "end": 1.46,
+          "word": " cape",
+          "probability": 0.9841185808181763
+        },
+        {
+          "start": 1.46,
+          "end": 1.66,
+          "word": " d",
+          "probability": 0.7286553382873535
+        },
+        {
+          "start": 1.66,
+          "end": 2.2,
+          "word": "'Aurinax.",
+          "probability": 0.8583368211984634
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

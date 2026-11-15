@@ -1,0 +1,52 @@
+{
+  "scene": "A18_list-ch2",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A18_list-ch2.mp3",
+  "sha256": "63852525ed794c5b63a68003c0ce2d39621d5efb39e07c0871269383e057efcf",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.503375,
+  "text": "Bien sûr!",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.22,
+      "text": " Bien sûr!",
+      "tokens": [
+        50365,
+        16956,
+        18143,
+        2298,
+        50439
+      ],
+      "avg_logprob": -0.39185523986816406,
+      "compression_ratio": 0.5789473684210527,
+      "no_speech_prob": 3.751791412265337e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.64,
+          "word": " Bien",
+          "probability": 0.9621965885162354
+        },
+        {
+          "start": 0.64,
+          "end": 0.88,
+          "word": " sûr",
+          "probability": 0.9994997978210449
+        },
+        {
+          "start": 0.88,
+          "end": 1.22,
+          "word": "!",
+          "probability": 0.8388273119926453
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

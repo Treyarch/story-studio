@@ -1,0 +1,51 @@
+{
+  "scene": "A14_list_ch1",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A14_list_ch1.mp3",
+  "sha256": "716a6f13391ef28edb04ba493a36d0328e545dd3671a7d7652541f8e2e8ecc64",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.506,
+  "text": "Tu te bats.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 0.93,
+      "text": " Tu te bats.",
+      "tokens": [
+        50365,
+        7836,
+        535,
+        26943,
+        13,
+        50409
+      ],
+      "avg_logprob": -0.4411671331950596,
+      "compression_ratio": 0.5789473684210527,
+      "no_speech_prob": 4.343647837246056e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.49,
+          "word": " Tu",
+          "probability": 0.7967850565910339
+        },
+        {
+          "start": 0.49,
+          "end": 0.71,
+          "word": " te",
+          "probability": 0.9995741248130798
+        },
+        {
+          "start": 0.71,
+          "end": 0.93,
+          "word": " bats.",
+          "probability": 0.9788901805877686
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

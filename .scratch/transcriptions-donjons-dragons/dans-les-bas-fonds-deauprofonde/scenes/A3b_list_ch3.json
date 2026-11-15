@@ -1,0 +1,67 @@
+{
+  "scene": "A3b_list_ch3",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A3b_list_ch3.mp3",
+  "sha256": "3c706efb4363f9eda65839762651e8d12d4d4ccdf78731e0e97acc379ee6ac1d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.963125,
+  "text": "Te faufiler entre les stands.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.56,
+      "end": 2.26,
+      "text": " Te faufiler entre les stands.",
+      "tokens": [
+        50365,
+        1989,
+        283,
+        9507,
+        5441,
+        3962,
+        1512,
+        7382,
+        13,
+        50452
+      ],
+      "avg_logprob": -0.16531168059869247,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 6.148239903303043e-12,
+      "words": [
+        {
+          "start": 0.56,
+          "end": 1.02,
+          "word": " Te",
+          "probability": 0.4950122833251953
+        },
+        {
+          "start": 1.02,
+          "end": 1.56,
+          "word": " faufiler",
+          "probability": 0.9938711524009705
+        },
+        {
+          "start": 1.56,
+          "end": 1.76,
+          "word": " entre",
+          "probability": 0.9995136260986328
+        },
+        {
+          "start": 1.76,
+          "end": 2.04,
+          "word": " les",
+          "probability": 0.9998292922973633
+        },
+        {
+          "start": 2.04,
+          "end": 2.26,
+          "word": " stands.",
+          "probability": 0.998337984085083
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

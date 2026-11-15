@@ -1,0 +1,52 @@
+{
+  "scene": "A3b_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A3b_list.mp3",
+  "sha256": "3145aff059d961d88199b6719d099ad9867dd62a9e28aca07ef247afdabdda07",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.5355,
+  "text": "Mais comment?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.08,
+      "text": " Mais comment?",
+      "tokens": [
+        50365,
+        6313,
+        2871,
+        2506,
+        50440
+      ],
+      "avg_logprob": -0.35238131880760193,
+      "compression_ratio": 0.6363636363636364,
+      "no_speech_prob": 3.999957483291627e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.58,
+          "word": " Mais",
+          "probability": 0.942002534866333
+        },
+        {
+          "start": 0.58,
+          "end": 0.88,
+          "word": " comment",
+          "probability": 0.9990365505218506
+        },
+        {
+          "start": 0.88,
+          "end": 1.08,
+          "word": "?",
+          "probability": 0.9623655080795288
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

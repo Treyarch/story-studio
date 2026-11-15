@@ -1,0 +1,73 @@
+{
+  "scene": "intro01b_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/intro01b_list.mp3",
+  "sha256": "045b37f5043354b0294665eb1f1e9908219f06b00bfdf7ef16bf5eddb5b5d30c",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.830625,
+  "text": "À toi de choisir ta classe.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.37,
+      "end": 2.09,
+      "text": " À toi de choisir ta classe.",
+      "tokens": [
+        50365,
+        19018,
+        15648,
+        368,
+        37827,
+        347,
+        1846,
+        32400,
+        13,
+        50452
+      ],
+      "avg_logprob": -0.18919680606235156,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 5.502675138463475e-12,
+      "words": [
+        {
+          "start": 0.37,
+          "end": 0.79,
+          "word": " À",
+          "probability": 0.6957186460494995
+        },
+        {
+          "start": 0.79,
+          "end": 1.01,
+          "word": " toi",
+          "probability": 0.9997836947441101
+        },
+        {
+          "start": 1.01,
+          "end": 1.21,
+          "word": " de",
+          "probability": 0.9998607635498047
+        },
+        {
+          "start": 1.21,
+          "end": 1.61,
+          "word": " choisir",
+          "probability": 0.9999402165412903
+        },
+        {
+          "start": 1.61,
+          "end": 1.73,
+          "word": " ta",
+          "probability": 0.9992009997367859
+        },
+        {
+          "start": 1.73,
+          "end": 2.09,
+          "word": " classe.",
+          "probability": 0.9993959665298462
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

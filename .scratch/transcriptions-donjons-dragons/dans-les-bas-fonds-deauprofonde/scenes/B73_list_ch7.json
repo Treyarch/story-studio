@@ -1,0 +1,56 @@
+{
+  "scene": "B73_list_ch7",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B73_list_ch7.mp3",
+  "sha256": "b290ac87c2696a9c71e2636dcfcfc4712116085d86d2cd71df366531b4fee46a",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.3668125,
+  "text": "Tu flattes Xanathar.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.08,
+      "end": 1.74,
+      "text": " Tu flattes Xanathar.",
+      "tokens": [
+        50365,
+        7836,
+        932,
+        1591,
+        279,
+        1783,
+        282,
+        998,
+        289,
+        13,
+        50448
+      ],
+      "avg_logprob": -0.23774815599123636,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 1.0486210857973965e-11,
+      "words": [
+        {
+          "start": 0.08,
+          "end": 0.56,
+          "word": " Tu",
+          "probability": 0.82659512758255
+        },
+        {
+          "start": 0.56,
+          "end": 1.12,
+          "word": " flattes",
+          "probability": 0.92617267370224
+        },
+        {
+          "start": 1.12,
+          "end": 1.74,
+          "word": " Xanathar.",
+          "probability": 0.8476061299443245
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "scene": "A23_str_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A23_str_success.mp3",
+  "sha256": "c871d388660b3105f4aaaa9ff1b72076d719593969b6e6e0ea89964bf5a179f6",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 13.6055,
+  "text": "Tu te propules en avant de toutes tes forces et tes efforts payent. À ta grande surprise, l'écrou du tentacule s'arrache de ton épaule dans un bruit strident.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.03,
+      "end": 5.81,
+      "text": " Tu te propules en avant de toutes tes forces et tes efforts payent.",
+      "tokens": [
+        50365,
+        7836,
+        535,
+        2365,
+        3473,
+        465,
+        13439,
+        368,
+        14437,
+        20018,
+        5874,
+        1030,
+        20018,
+        6484,
+        1689,
+        317,
+        13,
+        50553
+      ],
+      "avg_logprob": -0.11435843661427497,
+      "compression_ratio": 1.288,
+      "no_speech_prob": 6.617705515521433e-12,
+      "words": [
+        {
+          "start": 2.03,
+          "end": 2.15,
+          "word": " Tu",
+          "probability": 0.86946702003479
+        },
+        {
+          "start": 2.15,
+          "end": 2.33,
+          "word": " te",
+          "probability": 0.9997697472572327
+        },
+        {
+          "start": 2.33,
+          "end": 2.71,
+          "word": " propules",
+          "probability": 0.8052706718444824
+        },
+        {
+          "start": 2.71,
+          "end": 2.89,
+          "word": " en",
+          "probability": 0.9196836948394775
+        },
+        {
+          "start": 2.89,
+          "end": 3.15,
+          "word": " avant",
+          "probability": 0.9996070265769958
+        },
+        {
+          "start": 3.15,
+          "end": 3.31,
+          "word": " de",
+          "probability": 0.9996324777603149
+        },
+        {
+          "start": 3.31,
+          "end": 3.57,
+          "word": " toutes",
+          "probability": 0.9997910857200623
+        },
+        {
+          "start": 3.57,
+          "end": 3.75,
+          "word": " tes",
+          "probability": 0.9998797178268433
+        },
+        {
+          "start": 3.75,
+          "end": 4.11,
+          "word": " forces",
+          "probability": 0.9997269511222839
+        },
+        {
+          "start": 4.11,
+          "end": 4.77,
+          "word": " et",
+          "probability": 0.45503151416778564
+        },
+        {
+          "start": 4.77,
+          "end": 4.97,
+          "word": " tes",
+          "probability": 0.9998687505722046
+        },
+        {
+          "start": 4.97,
+          "end": 5.31,
+          "word": " efforts",
+          "probability": 0.9997525811195374
+        },
+        {
+          "start": 5.31,
+          "end": 5.81,
+          "word": " payent.",
+          "probability": 0.9953259825706482
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.45,
+      "end": 11.49,
+      "text": " À ta grande surprise, l'écrou du tentacule s'arrache de ton épaule dans un bruit strident.",
+      "tokens": [
+        50607,
+        19018,
+        1846,
+        8883,
+        6365,
+        11,
+        287,
+        6,
+        9062,
+        13122,
+        1581,
+        7054,
+        326,
+        2271,
+        262,
+        6,
+        2284,
+        6000,
+        368,
+        2952,
+        21018,
+        1459,
+        306,
+        2680,
+        517,
+        738,
+        1983,
+        1056,
+        1078,
+        13,
+        50839
+      ],
+      "avg_logprob": -0.11435843661427497,
+      "compression_ratio": 1.288,
+      "no_speech_prob": 6.617705515521433e-12,
+      "words": [
+        {
+          "start": 6.45,
+          "end": 6.95,
+          "word": " À",
+          "probability": 0.6260362863540649
+        },
+        {
+          "start": 6.95,
+          "end": 7.09,
+          "word": " ta",
+          "probability": 0.9995079040527344
+        },
+        {
+          "start": 7.09,
+          "end": 7.31,
+          "word": " grande",
+          "probability": 0.9996936321258545
+        },
+        {
+          "start": 7.31,
+          "end": 7.77,
+          "word": " surprise,",
+          "probability": 0.9998376369476318
+        },
+        {
+          "start": 8.17,
+          "end": 8.41,
+          "word": " l",
+          "probability": 0.831444501876831
+        },
+        {
+          "start": 8.41,
+          "end": 8.69,
+          "word": "'écrou",
+          "probability": 0.9786775906880697
+        },
+        {
+          "start": 8.69,
+          "end": 8.87,
+          "word": " du",
+          "probability": 0.9916521906852722
+        },
+        {
+          "start": 8.87,
+          "end": 9.45,
+          "word": " tentacule",
+          "probability": 0.9907190402348837
+        },
+        {
+          "start": 9.45,
+          "end": 9.65,
+          "word": " s",
+          "probability": 0.9998101592063904
+        },
+        {
+          "start": 9.65,
+          "end": 9.87,
+          "word": "'arrache",
+          "probability": 0.9939831097920736
+        },
+        {
+          "start": 9.87,
+          "end": 9.99,
+          "word": " de",
+          "probability": 0.9999635219573975
+        },
+        {
+          "start": 9.99,
+          "end": 10.15,
+          "word": " ton",
+          "probability": 0.9992409944534302
+        },
+        {
+          "start": 10.15,
+          "end": 10.53,
+          "word": " épaule",
+          "probability": 0.9986751675605774
+        },
+        {
+          "start": 10.53,
+          "end": 10.67,
+          "word": " dans",
+          "probability": 0.9992282390594482
+        },
+        {
+          "start": 10.67,
+          "end": 10.89,
+          "word": " un",
+          "probability": 0.9998539686203003
+        },
+        {
+          "start": 10.89,
+          "end": 11.19,
+          "word": " bruit",
+          "probability": 0.9903241991996765
+        },
+        {
+          "start": 11.19,
+          "end": 11.49,
+          "word": " strident.",
+          "probability": 0.9980864226818085
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

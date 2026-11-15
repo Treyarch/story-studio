@@ -1,0 +1,877 @@
+{
+  "scene": "B33c",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/B33c.mp3",
+  "sha256": "7fda6c6b459a5ba6071536dc09343b70a1beb431d6abd2660fbf1e7f1bab3e10",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 32.328875,
+  "text": "Tu te rends compte qu'il y a un autre moyen de te sortir de ce cul-de-sac visqueux. Sans perdre un instant, tu prononces le sort de foulée brumeuse. Un brouillard d'argent t'entoure et t'aveugle. Quand le brouillard se dissipe, tu te retrouves de l'autre côté du cube. Tu es soulagé de constater que le monstre ne pivote pas pour te poursuivre. Il se contente d'avancer jusqu'à la grille qui t'avait piégée, et il la traverse comme si de rien n'était.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.94,
+      "end": 6.12,
+      "text": " Tu te rends compte qu'il y a un autre moyen de te sortir de ce cul-de-sac visqueux.",
+      "tokens": [
+        50365,
+        7836,
+        535,
+        6125,
+        82,
+        19424,
+        421,
+        6,
+        388,
+        288,
+        257,
+        517,
+        15081,
+        42009,
+        368,
+        535,
+        26906,
+        368,
+        1769,
+        11021,
+        12,
+        1479,
+        12,
+        82,
+        326,
+        1452,
+        1077,
+        2449,
+        13,
+        50623
+      ],
+      "avg_logprob": -0.09088345352984682,
+      "compression_ratio": 1.5665529010238908,
+      "no_speech_prob": 7.061237445454838e-12,
+      "words": [
+        {
+          "start": 0.94,
+          "end": 1.24,
+          "word": " Tu",
+          "probability": 0.9378509521484375
+        },
+        {
+          "start": 1.24,
+          "end": 1.38,
+          "word": " te",
+          "probability": 0.9997451901435852
+        },
+        {
+          "start": 1.38,
+          "end": 1.68,
+          "word": " rends",
+          "probability": 0.9992273151874542
+        },
+        {
+          "start": 1.68,
+          "end": 1.94,
+          "word": " compte",
+          "probability": 0.9999101161956787
+        },
+        {
+          "start": 1.94,
+          "end": 2.34,
+          "word": " qu",
+          "probability": 0.9998687505722046
+        },
+        {
+          "start": 2.34,
+          "end": 2.46,
+          "word": "'il",
+          "probability": 0.9999790191650391
+        },
+        {
+          "start": 2.46,
+          "end": 2.58,
+          "word": " y",
+          "probability": 0.9999303817749023
+        },
+        {
+          "start": 2.58,
+          "end": 2.62,
+          "word": " a",
+          "probability": 0.9999550580978394
+        },
+        {
+          "start": 2.62,
+          "end": 2.8,
+          "word": " un",
+          "probability": 0.9999182224273682
+        },
+        {
+          "start": 2.8,
+          "end": 3.08,
+          "word": " autre",
+          "probability": 0.9999761581420898
+        },
+        {
+          "start": 3.08,
+          "end": 3.52,
+          "word": " moyen",
+          "probability": 0.9999648332595825
+        },
+        {
+          "start": 3.52,
+          "end": 3.78,
+          "word": " de",
+          "probability": 0.9998852014541626
+        },
+        {
+          "start": 3.78,
+          "end": 3.96,
+          "word": " te",
+          "probability": 0.9998908042907715
+        },
+        {
+          "start": 3.96,
+          "end": 4.4,
+          "word": " sortir",
+          "probability": 0.9998687505722046
+        },
+        {
+          "start": 4.4,
+          "end": 4.8,
+          "word": " de",
+          "probability": 0.9998936653137207
+        },
+        {
+          "start": 4.8,
+          "end": 5.02,
+          "word": " ce",
+          "probability": 0.9999204874038696
+        },
+        {
+          "start": 5.02,
+          "end": 5.18,
+          "word": " cul",
+          "probability": 0.9972339272499084
+        },
+        {
+          "start": 5.18,
+          "end": 5.3,
+          "word": "-de",
+          "probability": 0.8531724810600281
+        },
+        {
+          "start": 5.3,
+          "end": 5.58,
+          "word": "-sac",
+          "probability": 0.9943585991859436
+        },
+        {
+          "start": 5.58,
+          "end": 6.12,
+          "word": " visqueux.",
+          "probability": 0.9963954091072083
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.78,
+      "end": 11.06,
+      "text": " Sans perdre un instant, tu prononces le sort de foulée brumeuse.",
+      "tokens": [
+        50676,
+        21504,
+        46254,
+        517,
+        9836,
+        11,
+        2604,
+        7569,
+        8498,
+        476,
+        1333,
+        368,
+        23491,
+        3856,
+        738,
+        2540,
+        438,
+        13,
+        50872
+      ],
+      "avg_logprob": -0.09088345352984682,
+      "compression_ratio": 1.5665529010238908,
+      "no_speech_prob": 7.061237445454838e-12,
+      "words": [
+        {
+          "start": 6.78,
+          "end": 7.32,
+          "word": " Sans",
+          "probability": 0.9991724491119385
+        },
+        {
+          "start": 7.32,
+          "end": 7.68,
+          "word": " perdre",
+          "probability": 0.9999144077301025
+        },
+        {
+          "start": 7.68,
+          "end": 7.86,
+          "word": " un",
+          "probability": 0.9998733997344971
+        },
+        {
+          "start": 7.86,
+          "end": 8.2,
+          "word": " instant,",
+          "probability": 0.9997926354408264
+        },
+        {
+          "start": 8.56,
+          "end": 9.0,
+          "word": " tu",
+          "probability": 0.9997047781944275
+        },
+        {
+          "start": 9.0,
+          "end": 9.52,
+          "word": " prononces",
+          "probability": 0.9978750646114349
+        },
+        {
+          "start": 9.52,
+          "end": 9.68,
+          "word": " le",
+          "probability": 0.9998410940170288
+        },
+        {
+          "start": 9.68,
+          "end": 10.0,
+          "word": " sort",
+          "probability": 0.9988476037979126
+        },
+        {
+          "start": 10.0,
+          "end": 10.2,
+          "word": " de",
+          "probability": 0.9994895458221436
+        },
+        {
+          "start": 10.2,
+          "end": 10.54,
+          "word": " foulée",
+          "probability": 0.9295210242271423
+        },
+        {
+          "start": 10.54,
+          "end": 11.06,
+          "word": " brumeuse.",
+          "probability": 0.9995191693305969
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.58,
+      "end": 14.66,
+      "text": " Un brouillard d'argent t'entoure et t'aveugle.",
+      "tokens": [
+        50917,
+        1156,
+        738,
+        263,
+        373,
+        515,
+        274,
+        6,
+        29757,
+        256,
+        6,
+        317,
+        44283,
+        1030,
+        256,
+        6,
+        946,
+        697,
+        306,
+        13,
+        51052
+      ],
+      "avg_logprob": -0.09088345352984682,
+      "compression_ratio": 1.5665529010238908,
+      "no_speech_prob": 7.061237445454838e-12,
+      "words": [
+        {
+          "start": 11.58,
+          "end": 12.12,
+          "word": " Un",
+          "probability": 0.9996236562728882
+        },
+        {
+          "start": 12.12,
+          "end": 12.64,
+          "word": " brouillard",
+          "probability": 0.9995621889829636
+        },
+        {
+          "start": 12.64,
+          "end": 12.8,
+          "word": " d",
+          "probability": 0.999813973903656
+        },
+        {
+          "start": 12.8,
+          "end": 13.12,
+          "word": "'argent",
+          "probability": 0.9998514950275421
+        },
+        {
+          "start": 13.12,
+          "end": 13.34,
+          "word": " t",
+          "probability": 0.9990597367286682
+        },
+        {
+          "start": 13.34,
+          "end": 13.78,
+          "word": "'entoure",
+          "probability": 0.9984022180239359
+        },
+        {
+          "start": 13.78,
+          "end": 14.1,
+          "word": " et",
+          "probability": 0.9996284246444702
+        },
+        {
+          "start": 14.1,
+          "end": 14.24,
+          "word": " t",
+          "probability": 0.9991508722305298
+        },
+        {
+          "start": 14.24,
+          "end": 14.66,
+          "word": "'aveugle.",
+          "probability": 0.9972296953201294
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 15.04,
+      "end": 18.82,
+      "text": " Quand le brouillard se dissipe, tu te retrouves de l'autre côté du cube.",
+      "tokens": [
+        51082,
+        22015,
+        476,
+        738,
+        263,
+        373,
+        515,
+        369,
+        7802,
+        6527,
+        11,
+        2604,
+        535,
+        26311,
+        977,
+        368,
+        287,
+        6,
+        19702,
+        18437,
+        1581,
+        13728,
+        13,
+        51259
+      ],
+      "avg_logprob": -0.09088345352984682,
+      "compression_ratio": 1.5665529010238908,
+      "no_speech_prob": 7.061237445454838e-12,
+      "words": [
+        {
+          "start": 15.04,
+          "end": 15.4,
+          "word": " Quand",
+          "probability": 0.9992679953575134
+        },
+        {
+          "start": 15.4,
+          "end": 15.56,
+          "word": " le",
+          "probability": 0.999906063079834
+        },
+        {
+          "start": 15.56,
+          "end": 15.96,
+          "word": " brouillard",
+          "probability": 0.9999659955501556
+        },
+        {
+          "start": 15.96,
+          "end": 16.16,
+          "word": " se",
+          "probability": 0.9999598264694214
+        },
+        {
+          "start": 16.16,
+          "end": 16.56,
+          "word": " dissipe,",
+          "probability": 0.9905944168567657
+        },
+        {
+          "start": 16.88,
+          "end": 17.04,
+          "word": " tu",
+          "probability": 0.999891996383667
+        },
+        {
+          "start": 17.04,
+          "end": 17.18,
+          "word": " te",
+          "probability": 0.9999450445175171
+        },
+        {
+          "start": 17.18,
+          "end": 17.62,
+          "word": " retrouves",
+          "probability": 0.9988284111022949
+        },
+        {
+          "start": 17.62,
+          "end": 17.76,
+          "word": " de",
+          "probability": 0.9999524354934692
+        },
+        {
+          "start": 17.76,
+          "end": 17.88,
+          "word": " l",
+          "probability": 0.9999898672103882
+        },
+        {
+          "start": 17.88,
+          "end": 18.04,
+          "word": "'autre",
+          "probability": 0.9999883770942688
+        },
+        {
+          "start": 18.04,
+          "end": 18.36,
+          "word": " côté",
+          "probability": 0.9999164342880249
+        },
+        {
+          "start": 18.36,
+          "end": 18.54,
+          "word": " du",
+          "probability": 0.9997699856758118
+        },
+        {
+          "start": 18.54,
+          "end": 18.82,
+          "word": " cube.",
+          "probability": 0.9978781938552856
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 19.38,
+      "end": 23.62,
+      "text": " Tu es soulagé de constater que le monstre ne pivote pas pour te poursuivre.",
+      "tokens": [
+        51303,
+        7836,
+        785,
+        5133,
+        559,
+        526,
+        368,
+        1817,
+        771,
+        631,
+        476,
+        1108,
+        26421,
+        408,
+        280,
+        592,
+        1370,
+        1736,
+        2016,
+        535,
+        2016,
+        15091,
+        592,
+        265,
+        13,
+        51498
+      ],
+      "avg_logprob": -0.09088345352984682,
+      "compression_ratio": 1.5665529010238908,
+      "no_speech_prob": 7.061237445454838e-12,
+      "words": [
+        {
+          "start": 19.38,
+          "end": 19.8,
+          "word": " Tu",
+          "probability": 0.9995073080062866
+        },
+        {
+          "start": 19.8,
+          "end": 19.92,
+          "word": " es",
+          "probability": 0.9992815852165222
+        },
+        {
+          "start": 19.92,
+          "end": 20.4,
+          "word": " soulagé",
+          "probability": 0.9957453012466431
+        },
+        {
+          "start": 20.4,
+          "end": 20.54,
+          "word": " de",
+          "probability": 0.9999765157699585
+        },
+        {
+          "start": 20.54,
+          "end": 21.14,
+          "word": " constater",
+          "probability": 0.999826043844223
+        },
+        {
+          "start": 21.14,
+          "end": 21.46,
+          "word": " que",
+          "probability": 0.9999305009841919
+        },
+        {
+          "start": 21.46,
+          "end": 21.62,
+          "word": " le",
+          "probability": 0.9999533891677856
+        },
+        {
+          "start": 21.62,
+          "end": 22.0,
+          "word": " monstre",
+          "probability": 0.9991323053836823
+        },
+        {
+          "start": 22.0,
+          "end": 22.18,
+          "word": " ne",
+          "probability": 0.9998270869255066
+        },
+        {
+          "start": 22.18,
+          "end": 22.56,
+          "word": " pivote",
+          "probability": 0.9989900390307108
+        },
+        {
+          "start": 22.56,
+          "end": 22.7,
+          "word": " pas",
+          "probability": 0.9999663829803467
+        },
+        {
+          "start": 22.7,
+          "end": 22.9,
+          "word": " pour",
+          "probability": 0.9996908903121948
+        },
+        {
+          "start": 22.9,
+          "end": 23.04,
+          "word": " te",
+          "probability": 0.9998762607574463
+        },
+        {
+          "start": 23.04,
+          "end": 23.62,
+          "word": " poursuivre.",
+          "probability": 0.9998680502176285
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 24.0,
+      "end": 27.3,
+      "text": " Il se contente d'avancer jusqu'à la grille qui t'avait piégée,",
+      "tokens": [
+        51538,
+        4416,
+        369,
+        660,
+        1576,
+        274,
+        6,
+        21071,
+        1776,
+        20340,
+        6,
+        1467,
+        635,
+        49011,
+        1956,
+        256,
+        6,
+        38307,
+        3895,
+        9095,
+        3856,
+        11,
+        51684
+      ],
+      "avg_logprob": -0.09088345352984682,
+      "compression_ratio": 1.5665529010238908,
+      "no_speech_prob": 7.061237445454838e-12,
+      "words": [
+        {
+          "start": 24.0,
+          "end": 24.54,
+          "word": " Il",
+          "probability": 0.9998347759246826
+        },
+        {
+          "start": 24.54,
+          "end": 24.78,
+          "word": " se",
+          "probability": 0.9999678134918213
+        },
+        {
+          "start": 24.78,
+          "end": 25.2,
+          "word": " contente",
+          "probability": 0.9993776381015778
+        },
+        {
+          "start": 25.2,
+          "end": 25.34,
+          "word": " d",
+          "probability": 0.9999912977218628
+        },
+        {
+          "start": 25.34,
+          "end": 25.7,
+          "word": "'avancer",
+          "probability": 0.9999497731526693
+        },
+        {
+          "start": 25.7,
+          "end": 25.92,
+          "word": " jusqu",
+          "probability": 0.9999525547027588
+        },
+        {
+          "start": 25.92,
+          "end": 26.06,
+          "word": "'à",
+          "probability": 0.999980628490448
+        },
+        {
+          "start": 26.06,
+          "end": 26.22,
+          "word": " la",
+          "probability": 0.9999184608459473
+        },
+        {
+          "start": 26.22,
+          "end": 26.4,
+          "word": " grille",
+          "probability": 0.9959090948104858
+        },
+        {
+          "start": 26.4,
+          "end": 26.6,
+          "word": " qui",
+          "probability": 0.9996957778930664
+        },
+        {
+          "start": 26.6,
+          "end": 26.7,
+          "word": " t",
+          "probability": 0.9999252557754517
+        },
+        {
+          "start": 26.7,
+          "end": 26.86,
+          "word": "'avait",
+          "probability": 0.9930938184261322
+        },
+        {
+          "start": 26.86,
+          "end": 27.3,
+          "word": " piégée,",
+          "probability": 0.973247249921163
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 27.32,
+      "end": 30.24,
+      "text": " et il la traverse comme si de rien n'était.",
+      "tokens": [
+        51684,
+        1030,
+        1930,
+        635,
+        45674,
+        5173,
+        1511,
+        368,
+        13355,
+        297,
+        6,
+        9743,
+        13,
+        51830
+      ],
+      "avg_logprob": -0.09088345352984682,
+      "compression_ratio": 1.5665529010238908,
+      "no_speech_prob": 7.061237445454838e-12,
+      "words": [
+        {
+          "start": 27.32,
+          "end": 28.34,
+          "word": " et",
+          "probability": 0.9995813965797424
+        },
+        {
+          "start": 28.34,
+          "end": 28.54,
+          "word": " il",
+          "probability": 0.9993610978126526
+        },
+        {
+          "start": 28.54,
+          "end": 28.68,
+          "word": " la",
+          "probability": 0.9991917014122009
+        },
+        {
+          "start": 28.68,
+          "end": 29.12,
+          "word": " traverse",
+          "probability": 0.9998588562011719
+        },
+        {
+          "start": 29.12,
+          "end": 29.44,
+          "word": " comme",
+          "probability": 0.9999104738235474
+        },
+        {
+          "start": 29.44,
+          "end": 29.62,
+          "word": " si",
+          "probability": 0.9994422793388367
+        },
+        {
+          "start": 29.62,
+          "end": 29.74,
+          "word": " de",
+          "probability": 0.9997164607048035
+        },
+        {
+          "start": 29.74,
+          "end": 29.92,
+          "word": " rien",
+          "probability": 0.9999655485153198
+        },
+        {
+          "start": 29.92,
+          "end": 30.08,
+          "word": " n",
+          "probability": 0.994066596031189
+        },
+        {
+          "start": 30.08,
+          "end": 30.24,
+          "word": "'était.",
+          "probability": 0.9995654225349426
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 3000,
+      "start": 31.8,
+      "end": 32.28,
+      "text": "",
+      "tokens": [
+        50365,
+        1662,
+        318,
+        563,
+        12,
+        27689,
+        16223,
+        15288,
+        7201,
+        51864
+      ],
+      "avg_logprob": -0.4321498491547324,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 1.2883898115045866e-10,
+      "words": [
+        {
+          "start": 31.8,
+          "end": 31.84,
+          "word": " –",
+          "probability": 0.017463499680161476
+        },
+        {
+          "start": 31.84,
+          "end": 31.88,
+          "word": " Sous",
+          "probability": 0.9047670662403107
+        },
+        {
+          "start": 31.88,
+          "end": 32.24,
+          "word": "-titrage",
+          "probability": 0.9977025588353475
+        },
+        {
+          "start": 32.24,
+          "end": 32.26,
+          "word": " FR",
+          "probability": 0.8199437260627747
+        },
+        {
+          "start": 32.26,
+          "end": 32.28,
+          "word": " 2021",
+          "probability": 0.6218305826187134
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

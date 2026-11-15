@@ -1,0 +1,1011 @@
+{
+  "scene": "A9b_druide",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A9b_druide.mp3",
+  "sha256": "864abc3161fb9da5dc5bd0d5dfe3206f95f44f5d58dc905e944fb4dc92f18882",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 41.20675,
+  "text": "Tu es fatigué de cette course-poursuite infernale. Ta seule chance de tenir la cadence, c'est de t'envoler. Tu te concentres et l'instant d'après, tu t'es transformé en un aigle géant. Tu t'élances dans les airs en battant furieusement des ailes pour prendre de la hauteur. Rapidement, tu vois tout au profond s'étendre sous toi. Tu repères la fille qui court en contrebas et tu plonges vers elle. Au moment de toucher le sol, tu retrouves ta forme humaine. Joli! Je saurais à qui faire appel la prochaine fois que j'aurais envie de prendre l'air. Ou un peu de hauteur.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.39,
+      "end": 4.29,
+      "text": " Tu es fatigué de cette course-poursuite infernale.",
+      "tokens": [
+        50365,
+        7836,
+        785,
+        4046,
+        16397,
+        526,
+        368,
+        5550,
+        1164,
+        12,
+        79,
+        5067,
+        21681,
+        13596,
+        77,
+        1220,
+        13,
+        50509
+      ],
+      "avg_logprob": -0.08655920123060544,
+      "compression_ratio": 1.6453900709219857,
+      "no_speech_prob": 7.6092283515794e-12,
+      "words": [
+        {
+          "start": 1.39,
+          "end": 1.87,
+          "word": " Tu",
+          "probability": 0.9957497119903564
+        },
+        {
+          "start": 1.87,
+          "end": 1.99,
+          "word": " es",
+          "probability": 0.999578058719635
+        },
+        {
+          "start": 1.99,
+          "end": 2.45,
+          "word": " fatigué",
+          "probability": 0.9957248369852701
+        },
+        {
+          "start": 2.45,
+          "end": 2.59,
+          "word": " de",
+          "probability": 0.9999104738235474
+        },
+        {
+          "start": 2.59,
+          "end": 2.79,
+          "word": " cette",
+          "probability": 0.9999055862426758
+        },
+        {
+          "start": 2.79,
+          "end": 3.05,
+          "word": " course",
+          "probability": 0.998801589012146
+        },
+        {
+          "start": 3.05,
+          "end": 3.53,
+          "word": "-poursuite",
+          "probability": 0.8756502419710159
+        },
+        {
+          "start": 3.53,
+          "end": 4.29,
+          "word": " infernale.",
+          "probability": 0.9992642005284628
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.93,
+      "end": 7.63,
+      "text": " Ta seule chance de tenir la cadence, c'est de t'envoler.",
+      "tokens": [
+        50543,
+        6551,
+        18800,
+        2931,
+        368,
+        30593,
+        635,
+        46109,
+        11,
+        269,
+        6,
+        377,
+        368,
+        256,
+        6,
+        268,
+        9646,
+        260,
+        13,
+        50679
+      ],
+      "avg_logprob": -0.08655920123060544,
+      "compression_ratio": 1.6453900709219857,
+      "no_speech_prob": 7.6092283515794e-12,
+      "words": [
+        {
+          "start": 4.93,
+          "end": 5.05,
+          "word": " Ta",
+          "probability": 0.8233218193054199
+        },
+        {
+          "start": 5.05,
+          "end": 5.25,
+          "word": " seule",
+          "probability": 0.9998375177383423
+        },
+        {
+          "start": 5.25,
+          "end": 5.51,
+          "word": " chance",
+          "probability": 0.9998093247413635
+        },
+        {
+          "start": 5.51,
+          "end": 5.65,
+          "word": " de",
+          "probability": 0.9999650716781616
+        },
+        {
+          "start": 5.65,
+          "end": 5.89,
+          "word": " tenir",
+          "probability": 0.9999462366104126
+        },
+        {
+          "start": 5.89,
+          "end": 6.05,
+          "word": " la",
+          "probability": 0.9999316930770874
+        },
+        {
+          "start": 6.05,
+          "end": 6.45,
+          "word": " cadence,",
+          "probability": 0.9998024106025696
+        },
+        {
+          "start": 6.67,
+          "end": 7.03,
+          "word": " c",
+          "probability": 0.9999697208404541
+        },
+        {
+          "start": 7.03,
+          "end": 7.09,
+          "word": "'est",
+          "probability": 0.9999969005584717
+        },
+        {
+          "start": 7.09,
+          "end": 7.21,
+          "word": " de",
+          "probability": 0.9989494681358337
+        },
+        {
+          "start": 7.21,
+          "end": 7.31,
+          "word": " t",
+          "probability": 0.9997009038925171
+        },
+        {
+          "start": 7.31,
+          "end": 7.63,
+          "word": "'envoler.",
+          "probability": 0.998868390917778
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.77,
+      "end": 12.57,
+      "text": " Tu te concentres et l'instant d'après, tu t'es transformé en un aigle géant.",
+      "tokens": [
+        50702,
+        7836,
+        535,
+        5512,
+        495,
+        1030,
+        287,
+        6,
+        48142,
+        274,
+        6,
+        48240,
+        11,
+        2604,
+        256,
+        6,
+        279,
+        4088,
+        526,
+        465,
+        517,
+        257,
+        328,
+        306,
+        38462,
+        394,
+        13,
+        50924
+      ],
+      "avg_logprob": -0.08655920123060544,
+      "compression_ratio": 1.6453900709219857,
+      "no_speech_prob": 7.6092283515794e-12,
+      "words": [
+        {
+          "start": 7.77,
+          "end": 8.23,
+          "word": " Tu",
+          "probability": 0.9993177652359009
+        },
+        {
+          "start": 8.23,
+          "end": 8.39,
+          "word": " te",
+          "probability": 0.9999473094940186
+        },
+        {
+          "start": 8.39,
+          "end": 8.99,
+          "word": " concentres",
+          "probability": 0.9997867345809937
+        },
+        {
+          "start": 8.99,
+          "end": 9.15,
+          "word": " et",
+          "probability": 0.9341415762901306
+        },
+        {
+          "start": 9.15,
+          "end": 9.27,
+          "word": " l",
+          "probability": 0.9944939017295837
+        },
+        {
+          "start": 9.27,
+          "end": 9.49,
+          "word": "'instant",
+          "probability": 0.9997274577617645
+        },
+        {
+          "start": 9.49,
+          "end": 9.63,
+          "word": " d",
+          "probability": 0.9994670748710632
+        },
+        {
+          "start": 9.63,
+          "end": 9.85,
+          "word": "'après,",
+          "probability": 0.9996648728847504
+        },
+        {
+          "start": 10.09,
+          "end": 10.35,
+          "word": " tu",
+          "probability": 0.9998514652252197
+        },
+        {
+          "start": 10.35,
+          "end": 10.45,
+          "word": " t",
+          "probability": 0.9997453093528748
+        },
+        {
+          "start": 10.45,
+          "end": 10.53,
+          "word": "'es",
+          "probability": 0.9999064207077026
+        },
+        {
+          "start": 10.53,
+          "end": 11.23,
+          "word": " transformé",
+          "probability": 0.9964038729667664
+        },
+        {
+          "start": 11.23,
+          "end": 11.51,
+          "word": " en",
+          "probability": 0.9999139308929443
+        },
+        {
+          "start": 11.51,
+          "end": 11.79,
+          "word": " un",
+          "probability": 0.9998908042907715
+        },
+        {
+          "start": 11.79,
+          "end": 12.15,
+          "word": " aigle",
+          "probability": 0.9957485795021057
+        },
+        {
+          "start": 12.15,
+          "end": 12.57,
+          "word": " géant.",
+          "probability": 0.999902606010437
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 13.01,
+      "end": 17.55,
+      "text": " Tu t'élances dans les airs en battant furieusement des ailes pour prendre de la hauteur.",
+      "tokens": [
+        50966,
+        7836,
+        256,
+        6,
+        8025,
+        2676,
+        2680,
+        1512,
+        1988,
+        82,
+        465,
+        9591,
+        394,
+        2687,
+        414,
+        21359,
+        730,
+        257,
+        4680,
+        2016,
+        16566,
+        368,
+        635,
+        324,
+        42312,
+        13,
+        51174
+      ],
+      "avg_logprob": -0.08655920123060544,
+      "compression_ratio": 1.6453900709219857,
+      "no_speech_prob": 7.6092283515794e-12,
+      "words": [
+        {
+          "start": 13.01,
+          "end": 13.53,
+          "word": " Tu",
+          "probability": 0.9997445940971375
+        },
+        {
+          "start": 13.53,
+          "end": 13.67,
+          "word": " t",
+          "probability": 0.9995037317276001
+        },
+        {
+          "start": 13.67,
+          "end": 13.91,
+          "word": "'élances",
+          "probability": 0.9961822032928467
+        },
+        {
+          "start": 13.91,
+          "end": 14.03,
+          "word": " dans",
+          "probability": 0.9999572038650513
+        },
+        {
+          "start": 14.03,
+          "end": 14.19,
+          "word": " les",
+          "probability": 0.9997156262397766
+        },
+        {
+          "start": 14.19,
+          "end": 14.59,
+          "word": " airs",
+          "probability": 0.9985000193119049
+        },
+        {
+          "start": 14.59,
+          "end": 14.99,
+          "word": " en",
+          "probability": 0.5277566313743591
+        },
+        {
+          "start": 14.99,
+          "end": 15.33,
+          "word": " battant",
+          "probability": 0.9960929751396179
+        },
+        {
+          "start": 15.33,
+          "end": 15.93,
+          "word": " furieusement",
+          "probability": 0.9993064800898234
+        },
+        {
+          "start": 15.93,
+          "end": 16.15,
+          "word": " des",
+          "probability": 0.998370349407196
+        },
+        {
+          "start": 16.15,
+          "end": 16.35,
+          "word": " ailes",
+          "probability": 0.9995512664318085
+        },
+        {
+          "start": 16.35,
+          "end": 16.57,
+          "word": " pour",
+          "probability": 0.9998586177825928
+        },
+        {
+          "start": 16.57,
+          "end": 16.91,
+          "word": " prendre",
+          "probability": 0.9998540878295898
+        },
+        {
+          "start": 16.91,
+          "end": 17.09,
+          "word": " de",
+          "probability": 0.9999567270278931
+        },
+        {
+          "start": 17.09,
+          "end": 17.21,
+          "word": " la",
+          "probability": 0.9999732971191406
+        },
+        {
+          "start": 17.21,
+          "end": 17.55,
+          "word": " hauteur.",
+          "probability": 0.9998917579650879
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 18.39,
+      "end": 22.57,
+      "text": " Rapidement, tu vois tout au profond s'étendre sous toi.",
+      "tokens": [
+        51220,
+        44580,
+        1712,
+        11,
+        2604,
+        18297,
+        3486,
+        1609,
+        1740,
+        684,
+        262,
+        6,
+        4051,
+        37850,
+        16686,
+        15648,
+        13,
+        51425
+      ],
+      "avg_logprob": -0.08655920123060544,
+      "compression_ratio": 1.6453900709219857,
+      "no_speech_prob": 7.6092283515794e-12,
+      "words": [
+        {
+          "start": 18.39,
+          "end": 18.91,
+          "word": " Rapidement,",
+          "probability": 0.9992472529411316
+        },
+        {
+          "start": 19.13,
+          "end": 19.57,
+          "word": " tu",
+          "probability": 0.999911904335022
+        },
+        {
+          "start": 19.57,
+          "end": 19.85,
+          "word": " vois",
+          "probability": 0.9983524084091187
+        },
+        {
+          "start": 19.85,
+          "end": 20.25,
+          "word": " tout",
+          "probability": 0.9990880489349365
+        },
+        {
+          "start": 20.25,
+          "end": 20.55,
+          "word": " au",
+          "probability": 0.7534627914428711
+        },
+        {
+          "start": 20.55,
+          "end": 21.15,
+          "word": " profond",
+          "probability": 0.8768270909786224
+        },
+        {
+          "start": 21.15,
+          "end": 21.59,
+          "word": " s",
+          "probability": 0.9489955306053162
+        },
+        {
+          "start": 21.59,
+          "end": 22.05,
+          "word": "'étendre",
+          "probability": 0.9993228912353516
+        },
+        {
+          "start": 22.05,
+          "end": 22.33,
+          "word": " sous",
+          "probability": 0.9996354579925537
+        },
+        {
+          "start": 22.33,
+          "end": 22.57,
+          "word": " toi.",
+          "probability": 0.9645629525184631
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 23.11,
+      "end": 26.43,
+      "text": " Tu repères la fille qui court en contrebas et tu plonges vers elle.",
+      "tokens": [
+        51464,
+        7836,
+        1085,
+        13927,
+        635,
+        39216,
+        1956,
+        4753,
+        465,
+        14927,
+        16342,
+        1030,
+        2604,
+        499,
+        556,
+        279,
+        1774,
+        8404,
+        13,
+        51618
+      ],
+      "avg_logprob": -0.08655920123060544,
+      "compression_ratio": 1.6453900709219857,
+      "no_speech_prob": 7.6092283515794e-12,
+      "words": [
+        {
+          "start": 23.11,
+          "end": 23.49,
+          "word": " Tu",
+          "probability": 0.9995490908622742
+        },
+        {
+          "start": 23.49,
+          "end": 23.79,
+          "word": " repères",
+          "probability": 0.9977299869060516
+        },
+        {
+          "start": 23.79,
+          "end": 23.93,
+          "word": " la",
+          "probability": 0.9997387528419495
+        },
+        {
+          "start": 23.93,
+          "end": 24.13,
+          "word": " fille",
+          "probability": 0.9990320205688477
+        },
+        {
+          "start": 24.13,
+          "end": 24.31,
+          "word": " qui",
+          "probability": 0.9998223185539246
+        },
+        {
+          "start": 24.31,
+          "end": 24.57,
+          "word": " court",
+          "probability": 0.9904460906982422
+        },
+        {
+          "start": 24.57,
+          "end": 24.75,
+          "word": " en",
+          "probability": 0.9999727010726929
+        },
+        {
+          "start": 24.75,
+          "end": 25.21,
+          "word": " contrebas",
+          "probability": 0.9876618683338165
+        },
+        {
+          "start": 25.21,
+          "end": 25.47,
+          "word": " et",
+          "probability": 0.9998656511306763
+        },
+        {
+          "start": 25.47,
+          "end": 25.63,
+          "word": " tu",
+          "probability": 0.9999476671218872
+        },
+        {
+          "start": 25.63,
+          "end": 26.07,
+          "word": " plonges",
+          "probability": 0.9912687142690023
+        },
+        {
+          "start": 26.07,
+          "end": 26.25,
+          "word": " vers",
+          "probability": 0.9977993369102478
+        },
+        {
+          "start": 26.25,
+          "end": 26.43,
+          "word": " elle.",
+          "probability": 0.9990406632423401
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 27.41,
+      "end": 30.77,
+      "text": " Au moment de toucher le sol, tu retrouves ta forme humaine.",
+      "tokens": [
+        51668,
+        12160,
+        1623,
+        368,
+        2557,
+        260,
+        476,
+        1404,
+        11,
+        2604,
+        26311,
+        977,
+        1846,
+        28670,
+        1484,
+        7119,
+        13,
+        51834
+      ],
+      "avg_logprob": -0.08655920123060544,
+      "compression_ratio": 1.6453900709219857,
+      "no_speech_prob": 7.6092283515794e-12,
+      "words": [
+        {
+          "start": 27.41,
+          "end": 27.93,
+          "word": " Au",
+          "probability": 0.998153030872345
+        },
+        {
+          "start": 27.93,
+          "end": 28.17,
+          "word": " moment",
+          "probability": 0.999895453453064
+        },
+        {
+          "start": 28.17,
+          "end": 28.37,
+          "word": " de",
+          "probability": 0.9999152421951294
+        },
+        {
+          "start": 28.37,
+          "end": 28.69,
+          "word": " toucher",
+          "probability": 0.9996087551116943
+        },
+        {
+          "start": 28.69,
+          "end": 28.83,
+          "word": " le",
+          "probability": 0.9998470544815063
+        },
+        {
+          "start": 28.83,
+          "end": 29.09,
+          "word": " sol,",
+          "probability": 0.9996570348739624
+        },
+        {
+          "start": 29.61,
+          "end": 29.69,
+          "word": " tu",
+          "probability": 0.9995724558830261
+        },
+        {
+          "start": 29.69,
+          "end": 30.07,
+          "word": " retrouves",
+          "probability": 0.9990672171115875
+        },
+        {
+          "start": 30.07,
+          "end": 30.21,
+          "word": " ta",
+          "probability": 0.9993396401405334
+        },
+        {
+          "start": 30.21,
+          "end": 30.47,
+          "word": " forme",
+          "probability": 0.989959716796875
+        },
+        {
+          "start": 30.47,
+          "end": 30.77,
+          "word": " humaine.",
+          "probability": 0.9757169485092163
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 3000,
+      "start": 31.79,
+      "end": 32.49,
+      "text": " Joli!",
+      "tokens": [
+        50392,
+        508,
+        9384,
+        2298,
+        50436
+      ],
+      "avg_logprob": -0.22789355806815317,
+      "compression_ratio": 1.1649484536082475,
+      "no_speech_prob": 1.0463038421781867e-11,
+      "words": [
+        {
+          "start": 31.79,
+          "end": 32.19,
+          "word": " Joli",
+          "probability": 0.7326227128505707
+        },
+        {
+          "start": 32.19,
+          "end": 32.49,
+          "word": "!",
+          "probability": 0.6536340713500977
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 3000,
+      "start": 32.49,
+      "end": 35.71,
+      "text": " Je saurais à qui faire appel la prochaine fois que j'aurais envie de prendre l'air.",
+      "tokens": [
+        50436,
+        2588,
+        601,
+        374,
+        1527,
+        1531,
+        1956,
+        4865,
+        36332,
+        635,
+        35306,
+        9576,
+        631,
+        361,
+        6,
+        44608,
+        24149,
+        368,
+        16566,
+        287,
+        6,
+        1246,
+        13,
+        50581
+      ],
+      "avg_logprob": -0.22789355806815317,
+      "compression_ratio": 1.1649484536082475,
+      "no_speech_prob": 1.0463038421781867e-11,
+      "words": [
+        {
+          "start": 32.49,
+          "end": 32.99,
+          "word": " Je",
+          "probability": 0.9964070916175842
+        },
+        {
+          "start": 32.99,
+          "end": 33.29,
+          "word": " saurais",
+          "probability": 0.8610599239667257
+        },
+        {
+          "start": 33.29,
+          "end": 33.41,
+          "word": " à",
+          "probability": 0.998734176158905
+        },
+        {
+          "start": 33.41,
+          "end": 33.49,
+          "word": " qui",
+          "probability": 0.9994862079620361
+        },
+        {
+          "start": 33.49,
+          "end": 33.69,
+          "word": " faire",
+          "probability": 0.9995442032814026
+        },
+        {
+          "start": 33.69,
+          "end": 33.91,
+          "word": " appel",
+          "probability": 0.9994609951972961
+        },
+        {
+          "start": 33.91,
+          "end": 34.07,
+          "word": " la",
+          "probability": 0.9944829344749451
+        },
+        {
+          "start": 34.07,
+          "end": 34.35,
+          "word": " prochaine",
+          "probability": 0.9997523427009583
+        },
+        {
+          "start": 34.35,
+          "end": 34.55,
+          "word": " fois",
+          "probability": 0.9998517036437988
+        },
+        {
+          "start": 34.55,
+          "end": 34.69,
+          "word": " que",
+          "probability": 0.9993420243263245
+        },
+        {
+          "start": 34.69,
+          "end": 34.79,
+          "word": " j",
+          "probability": 0.9998530149459839
+        },
+        {
+          "start": 34.79,
+          "end": 34.89,
+          "word": "'aurais",
+          "probability": 0.7557910084724426
+        },
+        {
+          "start": 34.89,
+          "end": 35.11,
+          "word": " envie",
+          "probability": 0.9998087286949158
+        },
+        {
+          "start": 35.11,
+          "end": 35.19,
+          "word": " de",
+          "probability": 0.9993627667427063
+        },
+        {
+          "start": 35.19,
+          "end": 35.37,
+          "word": " prendre",
+          "probability": 0.9994565844535828
+        },
+        {
+          "start": 35.37,
+          "end": 35.57,
+          "word": " l",
+          "probability": 0.9997246861457825
+        },
+        {
+          "start": 35.57,
+          "end": 35.71,
+          "word": "'air.",
+          "probability": 0.9982725083827972
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 3000,
+      "start": 35.95,
+      "end": 37.45,
+      "text": " Ou un peu de hauteur.",
+      "tokens": [
+        50604,
+        11710,
+        517,
+        5604,
+        368,
+        324,
+        42312,
+        13,
+        50670
+      ],
+      "avg_logprob": -0.22789355806815317,
+      "compression_ratio": 1.1649484536082475,
+      "no_speech_prob": 1.0463038421781867e-11,
+      "words": [
+        {
+          "start": 35.95,
+          "end": 36.33,
+          "word": " Ou",
+          "probability": 0.8922801613807678
+        },
+        {
+          "start": 36.33,
+          "end": 36.81,
+          "word": " un",
+          "probability": 0.7504839301109314
+        },
+        {
+          "start": 36.81,
+          "end": 36.99,
+          "word": " peu",
+          "probability": 0.9997480511665344
+        },
+        {
+          "start": 36.99,
+          "end": 37.13,
+          "word": " de",
+          "probability": 0.9992547631263733
+        },
+        {
+          "start": 37.13,
+          "end": 37.45,
+          "word": " hauteur.",
+          "probability": 0.9988820254802704
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

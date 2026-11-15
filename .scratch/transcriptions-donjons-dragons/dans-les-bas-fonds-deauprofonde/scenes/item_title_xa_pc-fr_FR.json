@@ -1,0 +1,59 @@
+{
+  "scene": "item_title_xa_pc-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_xa_pc-fr_FR.mp3",
+  "sha256": "9566f4f49a57df646ae82b22ac3b0353ae796a5f5b18a0f3c48cc850bd6cde1d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 3.1635625,
+  "text": "Xanathar dirige Port-Crâne.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 2.53,
+      "text": " Xanathar dirige Port-Crâne.",
+      "tokens": [
+        50365,
+        1783,
+        282,
+        998,
+        289,
+        4746,
+        3969,
+        5269,
+        10757,
+        1929,
+        13,
+        50490
+      ],
+      "avg_logprob": -0.23698829687558687,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 5.572465665987236e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 1.25,
+          "word": " Xanathar",
+          "probability": 0.8585162088274956
+        },
+        {
+          "start": 1.25,
+          "end": 1.85,
+          "word": " dirige",
+          "probability": 0.9914772212505341
+        },
+        {
+          "start": 1.85,
+          "end": 2.53,
+          "word": " Port-Crâne.",
+          "probability": 0.6879903475443522
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

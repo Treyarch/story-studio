@@ -1,0 +1,928 @@
+{
+  "scene": "B84",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B84.mp3",
+  "sha256": "6580d986f07c6c1292b4dac7cb7b3dff66125b3b747e9825668408f3a7f9e255",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 35.533875,
+  "text": "« Tu n'en reviens pas! Bâton noir t'offre une opportunité en or! » Tu vibres d'enthousiasme en acceptant sa proposition. Elle te décoche un sourire radieux. « Permets-moi de t'accueillir officiellement dans les rangs des mains grises. J'espère que nous vivrons des tas d'aventures merveilleuses ensemble. En attendant, rentre chez toi te reposer. Tu l'as bien mérité. Reviens demain, mon secrétaire s'occupera de tous les détails. » Tu quittes le bureau sur un petit nuage. Tu n'arrives pas à croire à ton succès phénoménal.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.29,
+      "end": 6.49,
+      "text": " « Tu n'en reviens pas! Bâton noir t'offre une opportunité en or! »",
+      "tokens": [
+        50365,
+        4657,
+        7836,
+        297,
+        6,
+        268,
+        3698,
+        24594,
+        1736,
+        2298,
+        363,
+        3201,
+        1756,
+        39359,
+        256,
+        6,
+        4506,
+        265,
+        2251,
+        2070,
+        5066,
+        465,
+        420,
+        2298,
+        8793,
+        50574
+      ],
+      "avg_logprob": -0.11580369387858012,
+      "compression_ratio": 1.517133956386293,
+      "no_speech_prob": 9.819960816725981e-12,
+      "words": [
+        {
+          "start": 2.29,
+          "end": 2.53,
+          "word": " «",
+          "probability": 0.25668734312057495
+        },
+        {
+          "start": 2.53,
+          "end": 2.71,
+          "word": " Tu",
+          "probability": 0.9917116165161133
+        },
+        {
+          "start": 2.71,
+          "end": 2.83,
+          "word": " n",
+          "probability": 0.9981343150138855
+        },
+        {
+          "start": 2.83,
+          "end": 2.89,
+          "word": "'en",
+          "probability": 0.9999857544898987
+        },
+        {
+          "start": 2.89,
+          "end": 3.21,
+          "word": " reviens",
+          "probability": 0.9995898604393005
+        },
+        {
+          "start": 3.21,
+          "end": 3.43,
+          "word": " pas",
+          "probability": 0.999963641166687
+        },
+        {
+          "start": 3.43,
+          "end": 3.65,
+          "word": "!",
+          "probability": 0.36118754744529724
+        },
+        {
+          "start": 3.65,
+          "end": 4.15,
+          "word": " Bâton",
+          "probability": 0.8600407640139262
+        },
+        {
+          "start": 4.15,
+          "end": 4.39,
+          "word": " noir",
+          "probability": 0.7565081715583801
+        },
+        {
+          "start": 4.39,
+          "end": 4.61,
+          "word": " t",
+          "probability": 0.9993165731430054
+        },
+        {
+          "start": 4.61,
+          "end": 4.81,
+          "word": "'offre",
+          "probability": 0.9999074538548788
+        },
+        {
+          "start": 4.81,
+          "end": 4.93,
+          "word": " une",
+          "probability": 0.9998780488967896
+        },
+        {
+          "start": 4.93,
+          "end": 5.55,
+          "word": " opportunité",
+          "probability": 0.9997491240501404
+        },
+        {
+          "start": 5.55,
+          "end": 5.75,
+          "word": " en",
+          "probability": 0.9999083280563354
+        },
+        {
+          "start": 5.75,
+          "end": 5.99,
+          "word": " or",
+          "probability": 0.9989948868751526
+        },
+        {
+          "start": 5.99,
+          "end": 6.15,
+          "word": "!",
+          "probability": 0.9945782423019409
+        },
+        {
+          "start": 6.15,
+          "end": 6.49,
+          "word": " »",
+          "probability": 0.9947986602783203
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.49,
+      "end": 9.05,
+      "text": " Tu vibres d'enthousiasme en acceptant sa proposition.",
+      "tokens": [
+        50574,
+        7836,
+        11666,
+        495,
+        274,
+        6,
+        17966,
+        563,
+        4609,
+        1398,
+        465,
+        3241,
+        394,
+        601,
+        24830,
+        13,
+        50704
+      ],
+      "avg_logprob": -0.11580369387858012,
+      "compression_ratio": 1.517133956386293,
+      "no_speech_prob": 9.819960816725981e-12,
+      "words": [
+        {
+          "start": 6.49,
+          "end": 6.63,
+          "word": " Tu",
+          "probability": 0.9218619465827942
+        },
+        {
+          "start": 6.63,
+          "end": 7.01,
+          "word": " vibres",
+          "probability": 0.9793266355991364
+        },
+        {
+          "start": 7.01,
+          "end": 7.17,
+          "word": " d",
+          "probability": 0.9997377991676331
+        },
+        {
+          "start": 7.17,
+          "end": 7.79,
+          "word": "'enthousiasme",
+          "probability": 0.9993186712265014
+        },
+        {
+          "start": 7.79,
+          "end": 7.91,
+          "word": " en",
+          "probability": 0.9998821020126343
+        },
+        {
+          "start": 7.91,
+          "end": 8.39,
+          "word": " acceptant",
+          "probability": 0.9998842179775238
+        },
+        {
+          "start": 8.39,
+          "end": 8.55,
+          "word": " sa",
+          "probability": 0.9997603297233582
+        },
+        {
+          "start": 8.55,
+          "end": 9.05,
+          "word": " proposition.",
+          "probability": 0.9998699426651001
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.39,
+      "end": 11.45,
+      "text": " Elle te décoche un sourire radieux.",
+      "tokens": [
+        50732,
+        16227,
+        535,
+        2795,
+        1291,
+        1876,
+        517,
+        11006,
+        621,
+        2843,
+        35371,
+        13,
+        50823
+      ],
+      "avg_logprob": -0.11580369387858012,
+      "compression_ratio": 1.517133956386293,
+      "no_speech_prob": 9.819960816725981e-12,
+      "words": [
+        {
+          "start": 9.39,
+          "end": 9.77,
+          "word": " Elle",
+          "probability": 0.9973588585853577
+        },
+        {
+          "start": 9.77,
+          "end": 9.91,
+          "word": " te",
+          "probability": 0.999946117401123
+        },
+        {
+          "start": 9.91,
+          "end": 10.39,
+          "word": " décoche",
+          "probability": 0.999783436457316
+        },
+        {
+          "start": 10.39,
+          "end": 10.57,
+          "word": " un",
+          "probability": 0.9999167919158936
+        },
+        {
+          "start": 10.57,
+          "end": 11.03,
+          "word": " sourire",
+          "probability": 0.9998606741428375
+        },
+        {
+          "start": 11.03,
+          "end": 11.45,
+          "word": " radieux.",
+          "probability": 0.9971961677074432
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 11.81,
+      "end": 15.35,
+      "text": " « Permets-moi de t'accueillir officiellement dans les rangs des mains grises.",
+      "tokens": [
+        50841,
+        4657,
+        41006,
+        1385,
+        12,
+        29292,
+        368,
+        256,
+        6,
+        8476,
+        622,
+        373,
+        347,
+        2832,
+        32562,
+        1712,
+        2680,
+        1512,
+        367,
+        28686,
+        730,
+        32519,
+        677,
+        3598,
+        13,
+        51019
+      ],
+      "avg_logprob": -0.11580369387858012,
+      "compression_ratio": 1.517133956386293,
+      "no_speech_prob": 9.819960816725981e-12,
+      "words": [
+        {
+          "start": 11.81,
+          "end": 11.81,
+          "word": " «",
+          "probability": 0.9827526807785034
+        },
+        {
+          "start": 11.81,
+          "end": 12.17,
+          "word": " Permets",
+          "probability": 0.9974794089794159
+        },
+        {
+          "start": 12.17,
+          "end": 12.29,
+          "word": "-moi",
+          "probability": 0.9997857511043549
+        },
+        {
+          "start": 12.29,
+          "end": 12.49,
+          "word": " de",
+          "probability": 0.9999203681945801
+        },
+        {
+          "start": 12.49,
+          "end": 12.61,
+          "word": " t",
+          "probability": 0.9999442100524902
+        },
+        {
+          "start": 12.61,
+          "end": 13.07,
+          "word": "'accueillir",
+          "probability": 0.9999024629592895
+        },
+        {
+          "start": 13.07,
+          "end": 13.89,
+          "word": " officiellement",
+          "probability": 0.9998363653818766
+        },
+        {
+          "start": 13.89,
+          "end": 14.09,
+          "word": " dans",
+          "probability": 0.9997184872627258
+        },
+        {
+          "start": 14.09,
+          "end": 14.29,
+          "word": " les",
+          "probability": 0.999167799949646
+        },
+        {
+          "start": 14.29,
+          "end": 14.53,
+          "word": " rangs",
+          "probability": 0.998324453830719
+        },
+        {
+          "start": 14.53,
+          "end": 14.65,
+          "word": " des",
+          "probability": 0.9998093247413635
+        },
+        {
+          "start": 14.65,
+          "end": 14.85,
+          "word": " mains",
+          "probability": 0.9915964007377625
+        },
+        {
+          "start": 14.85,
+          "end": 15.35,
+          "word": " grises.",
+          "probability": 0.9996775984764099
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 15.79,
+      "end": 19.43,
+      "text": " J'espère que nous vivrons des tas d'aventures merveilleuses ensemble.",
+      "tokens": [
+        51047,
+        508,
+        6,
+        29997,
+        631,
+        4666,
+        11005,
+        13270,
+        730,
+        8023,
+        274,
+        6,
+        706,
+        317,
+        1303,
+        3551,
+        303,
+        3409,
+        8355,
+        19492,
+        13,
+        51223
+      ],
+      "avg_logprob": -0.11580369387858012,
+      "compression_ratio": 1.517133956386293,
+      "no_speech_prob": 9.819960816725981e-12,
+      "words": [
+        {
+          "start": 15.79,
+          "end": 16.03,
+          "word": " J",
+          "probability": 0.9335500597953796
+        },
+        {
+          "start": 16.03,
+          "end": 16.27,
+          "word": "'espère",
+          "probability": 0.9999666213989258
+        },
+        {
+          "start": 16.27,
+          "end": 16.47,
+          "word": " que",
+          "probability": 0.9999686479568481
+        },
+        {
+          "start": 16.47,
+          "end": 16.61,
+          "word": " nous",
+          "probability": 0.9999421834945679
+        },
+        {
+          "start": 16.61,
+          "end": 16.97,
+          "word": " vivrons",
+          "probability": 0.9969345033168793
+        },
+        {
+          "start": 16.97,
+          "end": 17.21,
+          "word": " des",
+          "probability": 0.9984952211380005
+        },
+        {
+          "start": 17.21,
+          "end": 17.43,
+          "word": " tas",
+          "probability": 0.998569130897522
+        },
+        {
+          "start": 17.43,
+          "end": 17.57,
+          "word": " d",
+          "probability": 0.9999693632125854
+        },
+        {
+          "start": 17.57,
+          "end": 18.09,
+          "word": "'aventures",
+          "probability": 0.9985317885875702
+        },
+        {
+          "start": 18.09,
+          "end": 18.85,
+          "word": " merveilleuses",
+          "probability": 0.99965500831604
+        },
+        {
+          "start": 18.85,
+          "end": 19.43,
+          "word": " ensemble.",
+          "probability": 0.9996067881584167
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 19.97,
+      "end": 22.69,
+      "text": " En attendant, rentre chez toi te reposer.",
+      "tokens": [
+        51253,
+        2193,
+        39339,
+        11,
+        6214,
+        265,
+        17855,
+        15648,
+        535,
+        1085,
+        22150,
+        13,
+        51385
+      ],
+      "avg_logprob": -0.11580369387858012,
+      "compression_ratio": 1.517133956386293,
+      "no_speech_prob": 9.819960816725981e-12,
+      "words": [
+        {
+          "start": 19.97,
+          "end": 20.17,
+          "word": " En",
+          "probability": 0.9916636943817139
+        },
+        {
+          "start": 20.17,
+          "end": 20.65,
+          "word": " attendant,",
+          "probability": 0.9999308586120605
+        },
+        {
+          "start": 21.29,
+          "end": 21.65,
+          "word": " rentre",
+          "probability": 0.9961664080619812
+        },
+        {
+          "start": 21.65,
+          "end": 21.81,
+          "word": " chez",
+          "probability": 0.999794065952301
+        },
+        {
+          "start": 21.81,
+          "end": 22.01,
+          "word": " toi",
+          "probability": 0.9998244643211365
+        },
+        {
+          "start": 22.01,
+          "end": 22.17,
+          "word": " te",
+          "probability": 0.9977834820747375
+        },
+        {
+          "start": 22.17,
+          "end": 22.69,
+          "word": " reposer.",
+          "probability": 0.999688595533371
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 22.99,
+      "end": 24.21,
+      "text": " Tu l'as bien mérité.",
+      "tokens": [
+        51409,
+        7836,
+        287,
+        6,
+        296,
+        3610,
+        13191,
+        3210,
+        526,
+        13,
+        51462
+      ],
+      "avg_logprob": -0.11580369387858012,
+      "compression_ratio": 1.517133956386293,
+      "no_speech_prob": 9.819960816725981e-12,
+      "words": [
+        {
+          "start": 22.99,
+          "end": 23.27,
+          "word": " Tu",
+          "probability": 0.9967382550239563
+        },
+        {
+          "start": 23.27,
+          "end": 23.41,
+          "word": " l",
+          "probability": 0.999619722366333
+        },
+        {
+          "start": 23.41,
+          "end": 23.41,
+          "word": "'as",
+          "probability": 0.9999440312385559
+        },
+        {
+          "start": 23.41,
+          "end": 23.69,
+          "word": " bien",
+          "probability": 0.9999781847000122
+        },
+        {
+          "start": 23.69,
+          "end": 24.21,
+          "word": " mérité.",
+          "probability": 0.9634273648262024
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 24.81,
+      "end": 28.47,
+      "text": " Reviens demain, mon secrétaire s'occupera de tous les détails. »",
+      "tokens": [
+        51497,
+        1300,
+        4917,
+        694,
+        44389,
+        11,
+        1108,
+        907,
+        10521,
+        1328,
+        621,
+        262,
+        6,
+        905,
+        12032,
+        610,
+        64,
+        368,
+        8317,
+        1512,
+        22312,
+        6227,
+        13,
+        8793,
+        51672
+      ],
+      "avg_logprob": -0.11580369387858012,
+      "compression_ratio": 1.517133956386293,
+      "no_speech_prob": 9.819960816725981e-12,
+      "words": [
+        {
+          "start": 24.81,
+          "end": 25.29,
+          "word": " Reviens",
+          "probability": 0.9760007858276367
+        },
+        {
+          "start": 25.29,
+          "end": 25.61,
+          "word": " demain,",
+          "probability": 0.9989080429077148
+        },
+        {
+          "start": 26.01,
+          "end": 26.25,
+          "word": " mon",
+          "probability": 0.9998364448547363
+        },
+        {
+          "start": 26.25,
+          "end": 26.77,
+          "word": " secrétaire",
+          "probability": 0.9996937215328217
+        },
+        {
+          "start": 26.77,
+          "end": 26.93,
+          "word": " s",
+          "probability": 0.9996380805969238
+        },
+        {
+          "start": 26.93,
+          "end": 27.19,
+          "word": "'occupera",
+          "probability": 0.9992303133010865
+        },
+        {
+          "start": 27.19,
+          "end": 27.37,
+          "word": " de",
+          "probability": 0.9999364614486694
+        },
+        {
+          "start": 27.37,
+          "end": 27.55,
+          "word": " tous",
+          "probability": 0.9998227953910828
+        },
+        {
+          "start": 27.55,
+          "end": 27.71,
+          "word": " les",
+          "probability": 0.9999240636825562
+        },
+        {
+          "start": 27.71,
+          "end": 28.15,
+          "word": " détails.",
+          "probability": 0.9998275935649872
+        },
+        {
+          "start": 28.29,
+          "end": 28.47,
+          "word": " »",
+          "probability": 0.9939193725585938
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 28.47,
+      "end": 30.57,
+      "text": " Tu quittes le bureau sur un petit nuage.",
+      "tokens": [
+        51672,
+        7836,
+        421,
+        593,
+        279,
+        476,
+        35343,
+        1022,
+        517,
+        9686,
+        3822,
+        609,
+        13,
+        51780
+      ],
+      "avg_logprob": -0.11580369387858012,
+      "compression_ratio": 1.517133956386293,
+      "no_speech_prob": 9.819960816725981e-12,
+      "words": [
+        {
+          "start": 28.47,
+          "end": 28.57,
+          "word": " Tu",
+          "probability": 0.8225839734077454
+        },
+        {
+          "start": 28.57,
+          "end": 28.89,
+          "word": " quittes",
+          "probability": 0.9984111587206522
+        },
+        {
+          "start": 28.89,
+          "end": 29.01,
+          "word": " le",
+          "probability": 0.9998878240585327
+        },
+        {
+          "start": 29.01,
+          "end": 29.33,
+          "word": " bureau",
+          "probability": 0.9997783303260803
+        },
+        {
+          "start": 29.33,
+          "end": 29.61,
+          "word": " sur",
+          "probability": 0.9997126460075378
+        },
+        {
+          "start": 29.61,
+          "end": 29.77,
+          "word": " un",
+          "probability": 0.9999051094055176
+        },
+        {
+          "start": 29.77,
+          "end": 30.11,
+          "word": " petit",
+          "probability": 0.9996933937072754
+        },
+        {
+          "start": 30.11,
+          "end": 30.57,
+          "word": " nuage.",
+          "probability": 0.9996155500411987
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2828,
+      "start": 30.57,
+      "end": 33.33,
+      "text": " Tu n'arrives pas à croire à ton succès phénoménal.",
+      "tokens": [
+        50389,
+        7836,
+        297,
+        6,
+        289,
+        470,
+        977,
+        1736,
+        1531,
+        4848,
+        621,
+        1531,
+        2952,
+        21578,
+        3645,
+        903,
+        46247,
+        3516,
+        304,
+        13,
+        50503
+      ],
+      "avg_logprob": -0.11941918527538126,
+      "compression_ratio": 0.9322033898305084,
+      "no_speech_prob": 5.33471530839158e-12,
+      "words": [
+        {
+          "start": 30.57,
+          "end": 31.13,
+          "word": " Tu",
+          "probability": 0.7382450699806213
+        },
+        {
+          "start": 31.13,
+          "end": 31.23,
+          "word": " n",
+          "probability": 0.9998130202293396
+        },
+        {
+          "start": 31.23,
+          "end": 31.47,
+          "word": "'arrives",
+          "probability": 0.996971070766449
+        },
+        {
+          "start": 31.47,
+          "end": 31.61,
+          "word": " pas",
+          "probability": 0.999977707862854
+        },
+        {
+          "start": 31.61,
+          "end": 31.73,
+          "word": " à",
+          "probability": 0.9997368454933167
+        },
+        {
+          "start": 31.73,
+          "end": 31.99,
+          "word": " croire",
+          "probability": 0.9998306632041931
+        },
+        {
+          "start": 31.99,
+          "end": 32.09,
+          "word": " à",
+          "probability": 0.998685896396637
+        },
+        {
+          "start": 32.09,
+          "end": 32.21,
+          "word": " ton",
+          "probability": 0.9998961687088013
+        },
+        {
+          "start": 32.21,
+          "end": 32.63,
+          "word": " succès",
+          "probability": 0.9991777539253235
+        },
+        {
+          "start": 32.63,
+          "end": 33.33,
+          "word": " phénoménal.",
+          "probability": 0.9932743161916733
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

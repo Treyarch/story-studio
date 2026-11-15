@@ -1,0 +1,103 @@
+{
+  "scene": "A28_list",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A28_list.mp3",
+  "sha256": "70d9b17d8ea7a9b7225276ba950254b580d28f4b152262240083f59bd1f350b6",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.7108125,
+  "text": "Est-ce que tu décides de prendre la parole?",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.05,
+      "end": 2.29,
+      "text": " Est-ce que tu décides de prendre la parole?",
+      "tokens": [
+        50365,
+        4410,
+        12,
+        384,
+        631,
+        2604,
+        9198,
+        1875,
+        368,
+        16566,
+        635,
+        26783,
+        2506,
+        50499
+      ],
+      "avg_logprob": -0.2005639334519704,
+      "compression_ratio": 0.8490566037735849,
+      "no_speech_prob": 4.553897623577052e-12,
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.49,
+          "word": " Est",
+          "probability": 0.9410429000854492
+        },
+        {
+          "start": 0.49,
+          "end": 0.57,
+          "word": "-ce",
+          "probability": 0.9987189173698425
+        },
+        {
+          "start": 0.57,
+          "end": 0.67,
+          "word": " que",
+          "probability": 0.9998887777328491
+        },
+        {
+          "start": 0.67,
+          "end": 0.79,
+          "word": " tu",
+          "probability": 0.9998528957366943
+        },
+        {
+          "start": 0.79,
+          "end": 1.21,
+          "word": " décides",
+          "probability": 0.9997180700302124
+        },
+        {
+          "start": 1.21,
+          "end": 1.33,
+          "word": " de",
+          "probability": 0.9998168349266052
+        },
+        {
+          "start": 1.33,
+          "end": 1.57,
+          "word": " prendre",
+          "probability": 0.9994040727615356
+        },
+        {
+          "start": 1.57,
+          "end": 1.77,
+          "word": " la",
+          "probability": 0.9999096393585205
+        },
+        {
+          "start": 1.77,
+          "end": 2.09,
+          "word": " parole",
+          "probability": 0.9999804496765137
+        },
+        {
+          "start": 2.09,
+          "end": 2.29,
+          "word": "?",
+          "probability": 0.986659049987793
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

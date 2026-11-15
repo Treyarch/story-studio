@@ -1,0 +1,658 @@
+{
+  "scene": "B76_barde_cha_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B76_barde_cha_success.mp3",
+  "sha256": "136bc4579371a3982dcf320ca4c84b1d0c062b6e4ea65c59ab9bae5d72acc9e0",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 31.029,
+  "text": "Xanathar se fige sur place, ses dix tentacules s'affaissant en même temps. Une énorme larme grossit dans son œil central, mais il la chasse d'un clin d'œil discret. C'est hyper méchant, méchant et grossier! Personne n'a le droit de me parler comme ça, tu entends? Personne! Bon, tu as obtenu ce que tu voulais, un tyrannœil furieux. Espérons maintenant que tu y survivras.",
+  "review": [
+    "noms_normalises",
+    "lexique_normalise"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.46,
+      "end": 7.06,
+      "text": " Xanathar se fige sur place, ses dix tentacules s'affaissant en même temps.",
+      "tokens": [
+        50365,
+        1783,
+        282,
+        998,
+        289,
+        369,
+        2147,
+        68,
+        1022,
+        1081,
+        11,
+        5385,
+        274,
+        970,
+        7054,
+        326,
+        3473,
+        262,
+        6,
+        2518,
+        64,
+        29492,
+        465,
+        5698,
+        8827,
+        13,
+        50647
+      ],
+      "avg_logprob": -0.12351059901993722,
+      "compression_ratio": 1.4787644787644787,
+      "no_speech_prob": 1.0126626967532637e-11,
+      "words": [
+        {
+          "start": 1.46,
+          "end": 2.48,
+          "word": " Xanathar",
+          "probability": 0.8446312174201012
+        },
+        {
+          "start": 2.48,
+          "end": 2.74,
+          "word": " se",
+          "probability": 0.999064028263092
+        },
+        {
+          "start": 2.74,
+          "end": 3.08,
+          "word": " fige",
+          "probability": 0.997023731470108
+        },
+        {
+          "start": 3.08,
+          "end": 3.28,
+          "word": " sur",
+          "probability": 0.9998657703399658
+        },
+        {
+          "start": 3.28,
+          "end": 3.7,
+          "word": " place,",
+          "probability": 0.9997194409370422
+        },
+        {
+          "start": 4.1,
+          "end": 4.64,
+          "word": " ses",
+          "probability": 0.9468303322792053
+        },
+        {
+          "start": 4.64,
+          "end": 4.94,
+          "word": " dix",
+          "probability": 0.942098468542099
+        },
+        {
+          "start": 4.94,
+          "end": 5.6,
+          "word": " tentacules",
+          "probability": 0.9956506093343099
+        },
+        {
+          "start": 5.6,
+          "end": 5.84,
+          "word": " s",
+          "probability": 0.9960122108459473
+        },
+        {
+          "start": 5.84,
+          "end": 6.22,
+          "word": "'affaissant",
+          "probability": 0.9753139019012451
+        },
+        {
+          "start": 6.22,
+          "end": 6.58,
+          "word": " en",
+          "probability": 0.9999107122421265
+        },
+        {
+          "start": 6.58,
+          "end": 6.82,
+          "word": " même",
+          "probability": 0.9999736547470093
+        },
+        {
+          "start": 6.82,
+          "end": 7.06,
+          "word": " temps.",
+          "probability": 0.9999716281890869
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7.38,
+      "end": 12.52,
+      "text": " Une énorme larme grossit dans son œil central, mais il la chasse d'un clin d'œil discret.",
+      "tokens": [
+        50669,
+        16701,
+        27982,
+        68,
+        1613,
+        1398,
+        11367,
+        270,
+        2680,
+        1872,
+        48360,
+        388,
+        5777,
+        11,
+        2420,
+        1930,
+        635,
+        417,
+        8604,
+        274,
+        6,
+        409,
+        5538,
+        274,
+        6,
+        34073,
+        388,
+        25656,
+        13,
+        50920
+      ],
+      "avg_logprob": -0.12351059901993722,
+      "compression_ratio": 1.4787644787644787,
+      "no_speech_prob": 1.0126626967532637e-11,
+      "words": [
+        {
+          "start": 7.38,
+          "end": 7.72,
+          "word": " Une",
+          "probability": 0.9981619715690613
+        },
+        {
+          "start": 7.72,
+          "end": 8.36,
+          "word": " énorme",
+          "probability": 0.9998743236064911
+        },
+        {
+          "start": 8.36,
+          "end": 8.68,
+          "word": " larme",
+          "probability": 0.9914920330047607
+        },
+        {
+          "start": 8.68,
+          "end": 9.2,
+          "word": " grossit",
+          "probability": 0.994017094373703
+        },
+        {
+          "start": 9.2,
+          "end": 9.36,
+          "word": " dans",
+          "probability": 0.9999260902404785
+        },
+        {
+          "start": 9.36,
+          "end": 9.58,
+          "word": " son",
+          "probability": 0.9999667406082153
+        },
+        {
+          "start": 9.58,
+          "end": 9.78,
+          "word": " œil",
+          "probability": 0.8135102093219757
+        },
+        {
+          "start": 9.78,
+          "end": 10.14,
+          "word": " central,",
+          "probability": 0.9996069073677063
+        },
+        {
+          "start": 10.4,
+          "end": 11.04,
+          "word": " mais",
+          "probability": 0.9997586607933044
+        },
+        {
+          "start": 11.04,
+          "end": 11.2,
+          "word": " il",
+          "probability": 0.9960694313049316
+        },
+        {
+          "start": 11.2,
+          "end": 11.36,
+          "word": " la",
+          "probability": 0.9987315535545349
+        },
+        {
+          "start": 11.36,
+          "end": 11.62,
+          "word": " chasse",
+          "probability": 0.9976247549057007
+        },
+        {
+          "start": 11.62,
+          "end": 11.74,
+          "word": " d",
+          "probability": 0.9999352693557739
+        },
+        {
+          "start": 11.74,
+          "end": 11.8,
+          "word": "'un",
+          "probability": 0.9999841451644897
+        },
+        {
+          "start": 11.8,
+          "end": 11.94,
+          "word": " clin",
+          "probability": 0.9981862902641296
+        },
+        {
+          "start": 11.94,
+          "end": 12.12,
+          "word": " d",
+          "probability": 0.9999971389770508
+        },
+        {
+          "start": 12.12,
+          "end": 12.18,
+          "word": "'œil",
+          "probability": 0.9997743169466654
+        },
+        {
+          "start": 12.18,
+          "end": 12.52,
+          "word": " discret.",
+          "probability": 0.9995083808898926
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 13.06,
+      "end": 17.76,
+      "text": " C'est hyper méchant, méchant et grossier!",
+      "tokens": [
+        50965,
+        383,
+        6,
+        377,
+        9848,
+        13191,
+        24628,
+        11,
+        13191,
+        24628,
+        1030,
+        11367,
+        811,
+        2298,
+        51197
+      ],
+      "avg_logprob": -0.12351059901993722,
+      "compression_ratio": 1.4787644787644787,
+      "no_speech_prob": 1.0126626967532637e-11,
+      "words": [
+        {
+          "start": 13.06,
+          "end": 13.58,
+          "word": " C",
+          "probability": 0.8341134190559387
+        },
+        {
+          "start": 13.58,
+          "end": 13.66,
+          "word": "'est",
+          "probability": 0.9999450445175171
+        },
+        {
+          "start": 13.66,
+          "end": 14.16,
+          "word": " hyper",
+          "probability": 0.999754011631012
+        },
+        {
+          "start": 14.16,
+          "end": 14.64,
+          "word": " méchant,",
+          "probability": 0.9995803833007812
+        },
+        {
+          "start": 15.3,
+          "end": 16.0,
+          "word": " méchant",
+          "probability": 0.9887576699256897
+        },
+        {
+          "start": 16.0,
+          "end": 16.42,
+          "word": " et",
+          "probability": 0.9981555342674255
+        },
+        {
+          "start": 16.42,
+          "end": 17.18,
+          "word": " grossier",
+          "probability": 0.9991484582424164
+        },
+        {
+          "start": 17.18,
+          "end": 17.76,
+          "word": "!",
+          "probability": 0.8935743570327759
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 17.76,
+      "end": 23.02,
+      "text": " Personne n'a le droit de me parler comme ça, tu entends? Personne!",
+      "tokens": [
+        51197,
+        8443,
+        716,
+        297,
+        6,
+        64,
+        476,
+        25971,
+        368,
+        385,
+        16421,
+        5173,
+        2788,
+        11,
+        2604,
+        948,
+        2581,
+        2506,
+        8443,
+        716,
+        2298,
+        51454
+      ],
+      "avg_logprob": -0.12351059901993722,
+      "compression_ratio": 1.4787644787644787,
+      "no_speech_prob": 1.0126626967532637e-11,
+      "words": [
+        {
+          "start": 17.76,
+          "end": 18.66,
+          "word": " Personne",
+          "probability": 0.9990935921669006
+        },
+        {
+          "start": 18.66,
+          "end": 18.74,
+          "word": " n",
+          "probability": 0.9998393058776855
+        },
+        {
+          "start": 18.74,
+          "end": 18.8,
+          "word": "'a",
+          "probability": 0.9997280538082123
+        },
+        {
+          "start": 18.8,
+          "end": 18.92,
+          "word": " le",
+          "probability": 0.9998981952667236
+        },
+        {
+          "start": 18.92,
+          "end": 19.14,
+          "word": " droit",
+          "probability": 0.9999778270721436
+        },
+        {
+          "start": 19.14,
+          "end": 19.28,
+          "word": " de",
+          "probability": 0.999934196472168
+        },
+        {
+          "start": 19.28,
+          "end": 19.38,
+          "word": " me",
+          "probability": 0.9987149238586426
+        },
+        {
+          "start": 19.38,
+          "end": 19.66,
+          "word": " parler",
+          "probability": 0.9990736246109009
+        },
+        {
+          "start": 19.66,
+          "end": 19.92,
+          "word": " comme",
+          "probability": 0.9997455477714539
+        },
+        {
+          "start": 19.92,
+          "end": 20.14,
+          "word": " ça,",
+          "probability": 0.999873161315918
+        },
+        {
+          "start": 20.28,
+          "end": 20.4,
+          "word": " tu",
+          "probability": 0.999546229839325
+        },
+        {
+          "start": 20.4,
+          "end": 20.84,
+          "word": " entends",
+          "probability": 0.9955006539821625
+        },
+        {
+          "start": 20.84,
+          "end": 21.26,
+          "word": "?",
+          "probability": 0.9547241926193237
+        },
+        {
+          "start": 21.26,
+          "end": 22.8,
+          "word": " Personne",
+          "probability": 0.9949954152107239
+        },
+        {
+          "start": 22.8,
+          "end": 23.02,
+          "word": "!",
+          "probability": 0.9950373768806458
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 23.02,
+      "end": 26.94,
+      "text": " Bon, tu as obtenu ce que tu voulais, un tyrannœil furieux.",
+      "tokens": [
+        51454,
+        7368,
+        11,
+        2604,
+        382,
+        28326,
+        84,
+        1769,
+        631,
+        2604,
+        37242,
+        11,
+        517,
+        13807,
+        1929,
+        84,
+        388,
+        2687,
+        35371,
+        13,
+        51639
+      ],
+      "avg_logprob": -0.12351059901993722,
+      "compression_ratio": 1.4787644787644787,
+      "no_speech_prob": 1.0126626967532637e-11,
+      "words": [
+        {
+          "start": 23.02,
+          "end": 23.52,
+          "word": " Bon,",
+          "probability": 0.9960705041885376
+        },
+        {
+          "start": 23.78,
+          "end": 23.94,
+          "word": " tu",
+          "probability": 0.9998561143875122
+        },
+        {
+          "start": 23.94,
+          "end": 24.06,
+          "word": " as",
+          "probability": 0.9998213648796082
+        },
+        {
+          "start": 24.06,
+          "end": 24.46,
+          "word": " obtenu",
+          "probability": 0.9998859763145447
+        },
+        {
+          "start": 24.46,
+          "end": 24.58,
+          "word": " ce",
+          "probability": 0.9998737573623657
+        },
+        {
+          "start": 24.58,
+          "end": 24.68,
+          "word": " que",
+          "probability": 0.9999628067016602
+        },
+        {
+          "start": 24.68,
+          "end": 24.8,
+          "word": " tu",
+          "probability": 0.9999629259109497
+        },
+        {
+          "start": 24.8,
+          "end": 25.06,
+          "word": " voulais,",
+          "probability": 0.9968330264091492
+        },
+        {
+          "start": 25.6,
+          "end": 25.86,
+          "word": " un",
+          "probability": 0.9997734427452087
+        },
+        {
+          "start": 25.86,
+          "end": 26.48,
+          "word": " tyrannœil",
+          "probability": 0.8250648230314255
+        },
+        {
+          "start": 26.48,
+          "end": 26.94,
+          "word": " furieux.",
+          "probability": 0.9992812275886536
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 27.48,
+      "end": 29.36,
+      "text": " Espérons maintenant que tu y survivras.",
+      "tokens": [
+        51669,
+        24978,
+        4198,
+        892,
+        14817,
+        631,
+        2604,
+        288,
+        12324,
+        3906,
+        13,
+        51761
+      ],
+      "avg_logprob": -0.12351059901993722,
+      "compression_ratio": 1.4787644787644787,
+      "no_speech_prob": 1.0126626967532637e-11,
+      "words": [
+        {
+          "start": 27.48,
+          "end": 28.0,
+          "word": " Espérons",
+          "probability": 0.9989626606305441
+        },
+        {
+          "start": 28.0,
+          "end": 28.32,
+          "word": " maintenant",
+          "probability": 0.9999489784240723
+        },
+        {
+          "start": 28.32,
+          "end": 28.56,
+          "word": " que",
+          "probability": 0.9999661445617676
+        },
+        {
+          "start": 28.56,
+          "end": 28.68,
+          "word": " tu",
+          "probability": 0.9999561309814453
+        },
+        {
+          "start": 28.68,
+          "end": 28.82,
+          "word": " y",
+          "probability": 0.9998664855957031
+        },
+        {
+          "start": 28.82,
+          "end": 29.36,
+          "word": " survivras.",
+          "probability": 0.999754011631012
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

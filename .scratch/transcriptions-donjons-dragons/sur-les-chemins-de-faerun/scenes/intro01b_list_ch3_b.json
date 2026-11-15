@@ -1,0 +1,37 @@
+{
+  "scene": "intro01b_list_ch3_b",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/intro01b_list_ch3_b.mp3",
+  "sha256": "6ba99092a1f78452e307649d770eaf68da956b1ab05795f7afc5d835d3e6afdd",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 1.8836875,
+  "text": "Guerrier",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.3,
+      "end": 1.1,
+      "text": " Guerrier",
+      "tokens": [
+        50365,
+        28305,
+        7326,
+        50406
+      ],
+      "avg_logprob": -0.5184298038482666,
+      "compression_ratio": 0.5,
+      "no_speech_prob": 4.759624118444439e-12,
+      "words": [
+        {
+          "start": 0.3,
+          "end": 1.1,
+          "word": " Guerrier",
+          "probability": 0.5717038661241531
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

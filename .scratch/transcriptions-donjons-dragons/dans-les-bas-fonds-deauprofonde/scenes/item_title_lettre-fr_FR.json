@@ -1,0 +1,71 @@
+{
+  "scene": "item_title_lettre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_lettre-fr_FR.mp3",
+  "sha256": "aaec9606f749b4bac311b67159b88cf3e72108be2cbe8a50a08233d18ecf096d",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.7364375,
+  "text": "La lettre du Seigneur Rojenard",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 2.06,
+      "text": " La lettre du Seigneur Rojenard",
+      "tokens": [
+        50365,
+        2369,
+        718,
+        3599,
+        1581,
+        1100,
+        26341,
+        374,
+        3101,
+        73,
+        20062,
+        50470
+      ],
+      "avg_logprob": -0.15325691149784967,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 7.972357149443887e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.56,
+          "word": " La",
+          "probability": 0.9553045034408569
+        },
+        {
+          "start": 0.56,
+          "end": 0.9,
+          "word": " lettre",
+          "probability": 0.9678554236888885
+        },
+        {
+          "start": 0.9,
+          "end": 1.08,
+          "word": " du",
+          "probability": 0.9997405409812927
+        },
+        {
+          "start": 1.08,
+          "end": 1.54,
+          "word": " Seigneur",
+          "probability": 0.9035167098045349
+        },
+        {
+          "start": 1.54,
+          "end": 2.06,
+          "word": " Rojenard",
+          "probability": 0.8009604215621948
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

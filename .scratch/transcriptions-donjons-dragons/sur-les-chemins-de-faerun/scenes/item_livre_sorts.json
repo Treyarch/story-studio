@@ -1,0 +1,66 @@
+{
+  "scene": "item_livre_sorts",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/b0b3657c-9f0b-420a-969f-ffe7670e73d9.flam/b0b3657c-9f0b-420a-969f-ffe7670e73d9/sounds/item_livre_sorts.mp3",
+  "sha256": "5e0fa45d6605654afcbd89e8a5de3220fbe21a591b866f51f8922d28b98aa061",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.49625,
+  "text": "indispensable pour jeter des sorts.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.02,
+      "text": " indispensable pour jeter des sorts.",
+      "tokens": [
+        50365,
+        47940,
+        2016,
+        361,
+        2398,
+        730,
+        7527,
+        13,
+        50468
+      ],
+      "avg_logprob": -0.22840557396411895,
+      "compression_ratio": 0.813953488372093,
+      "no_speech_prob": 8.389772383765592e-12,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.78,
+          "word": " indispensable",
+          "probability": 0.6643853783607483
+        },
+        {
+          "start": 0.78,
+          "end": 1.32,
+          "word": " pour",
+          "probability": 0.9989826083183289
+        },
+        {
+          "start": 1.32,
+          "end": 1.6,
+          "word": " jeter",
+          "probability": 0.9994230270385742
+        },
+        {
+          "start": 1.6,
+          "end": 1.78,
+          "word": " des",
+          "probability": 0.9870567321777344
+        },
+        {
+          "start": 1.78,
+          "end": 2.02,
+          "word": " sorts.",
+          "probability": 0.9954783320426941
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

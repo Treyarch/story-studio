@@ -1,0 +1,59 @@
+{
+  "scene": "A33_chapitre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A33_chapitre-fr_FR.mp3",
+  "sha256": "0b3a7f58804f81a39f67aa5da02328109e1be6d01ad9f2e07516d0ff1c32f779",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.355875,
+  "text": "Le bureau de Rojenard",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.7,
+      "text": " Le bureau de Rojenard",
+      "tokens": [
+        50365,
+        1456,
+        35343,
+        368,
+        3101,
+        15378,
+        515,
+        50450
+      ],
+      "avg_logprob": -0.23058795928955078,
+      "compression_ratio": 0.7241379310344828,
+      "no_speech_prob": 5.527697657242703e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.58,
+          "word": " Le",
+          "probability": 0.9061352610588074
+        },
+        {
+          "start": 0.58,
+          "end": 0.92,
+          "word": " bureau",
+          "probability": 0.8727558255195618
+        },
+        {
+          "start": 0.92,
+          "end": 1.14,
+          "word": " de",
+          "probability": 0.9996945858001709
+        },
+        {
+          "start": 1.14,
+          "end": 1.7,
+          "word": " Rojenard",
+          "probability": 0.7223305801550547
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

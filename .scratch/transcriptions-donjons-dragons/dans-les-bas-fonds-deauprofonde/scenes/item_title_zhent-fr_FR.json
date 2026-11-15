@@ -1,0 +1,63 @@
+{
+  "scene": "item_title_zhent-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/item_title_zhent-fr_FR.mp3",
+  "sha256": "4d0af87030177aa0deafe5c4a57be83ece691ce0e4184a2972f83dc2d85f30be",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.523,
+  "text": "Ton insigne du Zhentarim.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 1.9,
+      "text": " Ton insigne du Zhentarim.",
+      "tokens": [
+        50365,
+        11385,
+        1028,
+        26341,
+        1581,
+        44091,
+        289,
+        332,
+        13,
+        50459
+      ],
+      "avg_logprob": -0.2563190460205078,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 4.408915506987077e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.5,
+          "word": " Ton",
+          "probability": 0.5390269756317139
+        },
+        {
+          "start": 0.5,
+          "end": 1.06,
+          "word": " insigne",
+          "probability": 0.9840849339962006
+        },
+        {
+          "start": 1.06,
+          "end": 1.28,
+          "word": " du",
+          "probability": 0.998883068561554
+        },
+        {
+          "start": 1.28,
+          "end": 1.9,
+          "word": " Zhentarim.",
+          "probability": 0.7890205085277557
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

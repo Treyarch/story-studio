@@ -1,0 +1,457 @@
+{
+  "scene": "A24_cha_success",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/A24_cha_success.mp3",
+  "sha256": "624e0796286f8ae18af88ab1c71782c67fa0dafdcf78b48b24145343f119d239",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 21.1390625,
+  "text": "La bête éclipsante sent l'assurance qui irradie de toi. Elle renifle l'air qui t'entoure et ne détecte aucune crainte. Ou en tout cas, pas plus que celle des employés de la banque qui doivent la contourner. Tu ignores complètement le monstre et passes de l'autre côté.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.19,
+      "end": 5.95,
+      "text": " La bête éclipsante sent l'assurance qui irradie de toi.",
+      "tokens": [
+        50365,
+        2369,
+        272,
+        12943,
+        1136,
+        3474,
+        2600,
+        2879,
+        2279,
+        287,
+        6,
+        640,
+        5683,
+        1956,
+        3418,
+        6206,
+        414,
+        368,
+        15648,
+        13,
+        50555
+      ],
+      "avg_logprob": -0.07065319521136063,
+      "compression_ratio": 1.4248704663212435,
+      "no_speech_prob": 5.601479349803817e-12,
+      "words": [
+        {
+          "start": 2.19,
+          "end": 2.71,
+          "word": " La",
+          "probability": 0.9758561849594116
+        },
+        {
+          "start": 2.71,
+          "end": 2.95,
+          "word": " bête",
+          "probability": 0.9994823634624481
+        },
+        {
+          "start": 2.95,
+          "end": 3.73,
+          "word": " éclipsante",
+          "probability": 0.9849406629800797
+        },
+        {
+          "start": 3.73,
+          "end": 4.21,
+          "word": " sent",
+          "probability": 0.8871955871582031
+        },
+        {
+          "start": 4.21,
+          "end": 4.37,
+          "word": " l",
+          "probability": 0.9998528957366943
+        },
+        {
+          "start": 4.37,
+          "end": 4.85,
+          "word": "'assurance",
+          "probability": 0.9997495412826538
+        },
+        {
+          "start": 4.85,
+          "end": 5.09,
+          "word": " qui",
+          "probability": 0.9989246726036072
+        },
+        {
+          "start": 5.09,
+          "end": 5.59,
+          "word": " irradie",
+          "probability": 0.9960632721583048
+        },
+        {
+          "start": 5.59,
+          "end": 5.75,
+          "word": " de",
+          "probability": 0.999854564666748
+        },
+        {
+          "start": 5.75,
+          "end": 5.95,
+          "word": " toi.",
+          "probability": 0.999782383441925
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.33,
+      "end": 10.03,
+      "text": " Elle renifle l'air qui t'entoure et ne détecte aucune crainte.",
+      "tokens": [
+        50588,
+        16227,
+        8124,
+        351,
+        306,
+        287,
+        6,
+        1246,
+        1956,
+        256,
+        6,
+        317,
+        44283,
+        1030,
+        408,
+        22312,
+        557,
+        68,
+        40076,
+        2094,
+        12401,
+        13,
+        50758
+      ],
+      "avg_logprob": -0.07065319521136063,
+      "compression_ratio": 1.4248704663212435,
+      "no_speech_prob": 5.601479349803817e-12,
+      "words": [
+        {
+          "start": 6.33,
+          "end": 6.77,
+          "word": " Elle",
+          "probability": 0.9994480013847351
+        },
+        {
+          "start": 6.77,
+          "end": 7.31,
+          "word": " renifle",
+          "probability": 0.9982909560203552
+        },
+        {
+          "start": 7.31,
+          "end": 7.43,
+          "word": " l",
+          "probability": 0.9999121427536011
+        },
+        {
+          "start": 7.43,
+          "end": 7.55,
+          "word": "'air",
+          "probability": 0.9997097551822662
+        },
+        {
+          "start": 7.55,
+          "end": 7.77,
+          "word": " qui",
+          "probability": 0.9996272325515747
+        },
+        {
+          "start": 7.77,
+          "end": 7.87,
+          "word": " t",
+          "probability": 0.9996784925460815
+        },
+        {
+          "start": 7.87,
+          "end": 8.27,
+          "word": "'entoure",
+          "probability": 0.9993695219357809
+        },
+        {
+          "start": 8.27,
+          "end": 8.57,
+          "word": " et",
+          "probability": 0.9975507855415344
+        },
+        {
+          "start": 8.57,
+          "end": 8.73,
+          "word": " ne",
+          "probability": 0.9998645782470703
+        },
+        {
+          "start": 8.73,
+          "end": 9.33,
+          "word": " détecte",
+          "probability": 0.9993617137273153
+        },
+        {
+          "start": 9.33,
+          "end": 9.63,
+          "word": " aucune",
+          "probability": 0.9999618530273438
+        },
+        {
+          "start": 9.63,
+          "end": 10.03,
+          "word": " crainte.",
+          "probability": 0.9997281730175018
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.27,
+      "end": 14.55,
+      "text": " Ou en tout cas, pas plus que celle des employés de la banque qui doivent la contourner.",
+      "tokens": [
+        50786,
+        11710,
+        465,
+        3486,
+        3058,
+        11,
+        1736,
+        1804,
+        631,
+        25722,
+        730,
+        3188,
+        2191,
+        368,
+        635,
+        5643,
+        1077,
+        1956,
+        44341,
+        635,
+        21234,
+        1193,
+        13,
+        50983
+      ],
+      "avg_logprob": -0.07065319521136063,
+      "compression_ratio": 1.4248704663212435,
+      "no_speech_prob": 5.601479349803817e-12,
+      "words": [
+        {
+          "start": 10.27,
+          "end": 10.69,
+          "word": " Ou",
+          "probability": 0.9980217218399048
+        },
+        {
+          "start": 10.69,
+          "end": 10.85,
+          "word": " en",
+          "probability": 0.9920130372047424
+        },
+        {
+          "start": 10.85,
+          "end": 10.99,
+          "word": " tout",
+          "probability": 0.9992223978042603
+        },
+        {
+          "start": 10.99,
+          "end": 11.17,
+          "word": " cas,",
+          "probability": 0.9999785423278809
+        },
+        {
+          "start": 11.53,
+          "end": 11.67,
+          "word": " pas",
+          "probability": 0.9996527433395386
+        },
+        {
+          "start": 11.67,
+          "end": 11.93,
+          "word": " plus",
+          "probability": 0.999911904335022
+        },
+        {
+          "start": 11.93,
+          "end": 12.11,
+          "word": " que",
+          "probability": 0.9999376535415649
+        },
+        {
+          "start": 12.11,
+          "end": 12.33,
+          "word": " celle",
+          "probability": 0.9810361862182617
+        },
+        {
+          "start": 12.33,
+          "end": 12.47,
+          "word": " des",
+          "probability": 0.9999562501907349
+        },
+        {
+          "start": 12.47,
+          "end": 12.99,
+          "word": " employés",
+          "probability": 0.9996249377727509
+        },
+        {
+          "start": 12.99,
+          "end": 13.09,
+          "word": " de",
+          "probability": 0.9999455213546753
+        },
+        {
+          "start": 13.09,
+          "end": 13.23,
+          "word": " la",
+          "probability": 0.999914288520813
+        },
+        {
+          "start": 13.23,
+          "end": 13.51,
+          "word": " banque",
+          "probability": 0.9995699226856232
+        },
+        {
+          "start": 13.51,
+          "end": 13.71,
+          "word": " qui",
+          "probability": 0.9988139867782593
+        },
+        {
+          "start": 13.71,
+          "end": 13.95,
+          "word": " doivent",
+          "probability": 0.9978585839271545
+        },
+        {
+          "start": 13.95,
+          "end": 14.13,
+          "word": " la",
+          "probability": 0.9999090433120728
+        },
+        {
+          "start": 14.13,
+          "end": 14.55,
+          "word": " contourner.",
+          "probability": 0.9997516572475433
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 15.01,
+      "end": 18.85,
+      "text": " Tu ignores complètement le monstre et passes de l'autre côté.",
+      "tokens": [
+        51022,
+        7836,
+        5335,
+        2706,
+        31331,
+        476,
+        1108,
+        26421,
+        1030,
+        11335,
+        368,
+        287,
+        6,
+        19702,
+        18437,
+        13,
+        51200
+      ],
+      "avg_logprob": -0.07065319521136063,
+      "compression_ratio": 1.4248704663212435,
+      "no_speech_prob": 5.601479349803817e-12,
+      "words": [
+        {
+          "start": 15.01,
+          "end": 15.49,
+          "word": " Tu",
+          "probability": 0.9988686442375183
+        },
+        {
+          "start": 15.49,
+          "end": 15.85,
+          "word": " ignores",
+          "probability": 0.9954987466335297
+        },
+        {
+          "start": 15.85,
+          "end": 16.49,
+          "word": " complètement",
+          "probability": 0.9991212487220764
+        },
+        {
+          "start": 16.49,
+          "end": 16.75,
+          "word": " le",
+          "probability": 0.9997043013572693
+        },
+        {
+          "start": 16.75,
+          "end": 17.15,
+          "word": " monstre",
+          "probability": 0.9986942112445831
+        },
+        {
+          "start": 17.15,
+          "end": 17.61,
+          "word": " et",
+          "probability": 0.9980683922767639
+        },
+        {
+          "start": 17.61,
+          "end": 18.01,
+          "word": " passes",
+          "probability": 0.9476463198661804
+        },
+        {
+          "start": 18.01,
+          "end": 18.17,
+          "word": " de",
+          "probability": 0.9999402761459351
+        },
+        {
+          "start": 18.17,
+          "end": 18.31,
+          "word": " l",
+          "probability": 0.9999767541885376
+        },
+        {
+          "start": 18.31,
+          "end": 18.49,
+          "word": "'autre",
+          "probability": 0.999983549118042
+        },
+        {
+          "start": 18.49,
+          "end": 18.85,
+          "word": " côté.",
+          "probability": 0.9998716115951538
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

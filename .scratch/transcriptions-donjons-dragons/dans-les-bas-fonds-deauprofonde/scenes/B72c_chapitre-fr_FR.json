@@ -1,0 +1,61 @@
+{
+  "scene": "B72c_chapitre-fr_FR",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B72c_chapitre-fr_FR.mp3",
+  "sha256": "388aaeac764d759997404b0c22310055f5b7d5a20cdefe5a544aa917c87f2a60",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 2.663625,
+  "text": "au parloir des corsaires.",
+  "review": [],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.02,
+      "end": 2.04,
+      "text": " au parloir des corsaires.",
+      "tokens": [
+        50365,
+        1609,
+        971,
+        752,
+        347,
+        730,
+        46511,
+        10840,
+        13,
+        50467
+      ],
+      "avg_logprob": -0.21806146610866894,
+      "compression_ratio": 0.7575757575757576,
+      "no_speech_prob": 6.3510169345804e-12,
+      "words": [
+        {
+          "start": 0.02,
+          "end": 0.5,
+          "word": " au",
+          "probability": 0.5559701919555664
+        },
+        {
+          "start": 0.5,
+          "end": 1.22,
+          "word": " parloir",
+          "probability": 0.9417093396186829
+        },
+        {
+          "start": 1.22,
+          "end": 1.46,
+          "word": " des",
+          "probability": 0.9990575909614563
+        },
+        {
+          "start": 1.46,
+          "end": 2.04,
+          "word": " corsaires.",
+          "probability": 0.9749737679958344
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

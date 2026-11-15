@@ -1,0 +1,812 @@
+{
+  "scene": "B53",
+  "audio": "/home/mathieu/Documents/story-studio/packs-rapatries/0d3052e0-0350-4f92-bee0-6dd804a2c1a7.flam/0d3052e0-0350-4f92-bee0-6dd804a2c1a7/sounds/B53.mp3",
+  "sha256": "a8ef8ff30a77fe4fa769aa880ceb219e03d3085c6b5b30949b0230c8bceec3c4",
+  "model": "turbo",
+  "language": "fr",
+  "duration": 33.500125,
+  "text": "En journaliste accompli et expérimenté, tu sais que pour avoir des réponses, le meilleur moyen, c'est de poser des questions. Il faut juste que tu gagnes la confiance de ton interlocuteur. Tu avances vers la table de Méloun et t'assied devant les deux hommes, parfaitement à l'aise. Ils ont l'air surpris de ton assurance, mais tu ne te laisses pas impressionner par leur regard. Tu salues même Méloun comme si c'était un vieil ami que tu n'as pas revu depuis des années.",
+  "review": [
+    "noms_normalises"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.94,
+      "end": 9.44,
+      "text": " En journaliste accompli et expérimenté, tu sais que pour avoir des réponses, le meilleur moyen, c'est de poser des questions.",
+      "tokens": [
+        50365,
+        2193,
+        6708,
+        8375,
+        6548,
+        72,
+        1030,
+        1278,
+        4198,
+        2328,
+        526,
+        11,
+        2604,
+        11757,
+        631,
+        2016,
+        10853,
+        730,
+        14243,
+        892,
+        279,
+        11,
+        476,
+        41457,
+        42009,
+        11,
+        269,
+        6,
+        377,
+        368,
+        39355,
+        730,
+        1651,
+        13,
+        50742
+      ],
+      "avg_logprob": -0.08955082889144303,
+      "compression_ratio": 1.601328903654485,
+      "no_speech_prob": 7.015752995914726e-12,
+      "words": [
+        {
+          "start": 1.94,
+          "end": 2.46,
+          "word": " En",
+          "probability": 0.9393123388290405
+        },
+        {
+          "start": 2.46,
+          "end": 3.22,
+          "word": " journaliste",
+          "probability": 0.9991209506988525
+        },
+        {
+          "start": 3.22,
+          "end": 4.02,
+          "word": " accompli",
+          "probability": 0.978703647851944
+        },
+        {
+          "start": 4.02,
+          "end": 4.12,
+          "word": " et",
+          "probability": 0.999828577041626
+        },
+        {
+          "start": 4.12,
+          "end": 4.96,
+          "word": " expérimenté,",
+          "probability": 0.9995884299278259
+        },
+        {
+          "start": 5.12,
+          "end": 5.7,
+          "word": " tu",
+          "probability": 0.9992853999137878
+        },
+        {
+          "start": 5.7,
+          "end": 5.92,
+          "word": " sais",
+          "probability": 0.999711811542511
+        },
+        {
+          "start": 5.92,
+          "end": 6.1,
+          "word": " que",
+          "probability": 0.9999011754989624
+        },
+        {
+          "start": 6.1,
+          "end": 6.3,
+          "word": " pour",
+          "probability": 0.9985484480857849
+        },
+        {
+          "start": 6.3,
+          "end": 6.6,
+          "word": " avoir",
+          "probability": 0.9996724128723145
+        },
+        {
+          "start": 6.6,
+          "end": 6.74,
+          "word": " des",
+          "probability": 0.9999120235443115
+        },
+        {
+          "start": 6.74,
+          "end": 7.28,
+          "word": " réponses,",
+          "probability": 0.9998266696929932
+        },
+        {
+          "start": 7.46,
+          "end": 7.58,
+          "word": " le",
+          "probability": 0.9995354413986206
+        },
+        {
+          "start": 7.58,
+          "end": 7.82,
+          "word": " meilleur",
+          "probability": 0.9999431371688843
+        },
+        {
+          "start": 7.82,
+          "end": 8.16,
+          "word": " moyen,",
+          "probability": 0.999966025352478
+        },
+        {
+          "start": 8.32,
+          "end": 8.62,
+          "word": " c",
+          "probability": 0.9998835325241089
+        },
+        {
+          "start": 8.62,
+          "end": 8.66,
+          "word": "'est",
+          "probability": 0.9999957084655762
+        },
+        {
+          "start": 8.66,
+          "end": 8.76,
+          "word": " de",
+          "probability": 0.9998168349266052
+        },
+        {
+          "start": 8.76,
+          "end": 8.98,
+          "word": " poser",
+          "probability": 0.9994124174118042
+        },
+        {
+          "start": 8.98,
+          "end": 9.12,
+          "word": " des",
+          "probability": 0.9998778104782104
+        },
+        {
+          "start": 9.12,
+          "end": 9.44,
+          "word": " questions.",
+          "probability": 0.9999185800552368
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 10.16,
+      "end": 13.68,
+      "text": " Il faut juste que tu gagnes la confiance de ton interlocuteur.",
+      "tokens": [
+        50794,
+        4416,
+        8487,
+        13016,
+        631,
+        2604,
+        34833,
+        4081,
+        635,
+        43213,
+        368,
+        2952,
+        728,
+        5842,
+        42312,
+        13,
+        50955
+      ],
+      "avg_logprob": -0.08955082889144303,
+      "compression_ratio": 1.601328903654485,
+      "no_speech_prob": 7.015752995914726e-12,
+      "words": [
+        {
+          "start": 10.16,
+          "end": 10.62,
+          "word": " Il",
+          "probability": 0.9953655004501343
+        },
+        {
+          "start": 10.62,
+          "end": 10.82,
+          "word": " faut",
+          "probability": 0.9998747110366821
+        },
+        {
+          "start": 10.82,
+          "end": 11.16,
+          "word": " juste",
+          "probability": 0.9999361038208008
+        },
+        {
+          "start": 11.16,
+          "end": 11.38,
+          "word": " que",
+          "probability": 0.9999563694000244
+        },
+        {
+          "start": 11.38,
+          "end": 11.54,
+          "word": " tu",
+          "probability": 0.999968409538269
+        },
+        {
+          "start": 11.54,
+          "end": 11.82,
+          "word": " gagnes",
+          "probability": 0.9987855851650238
+        },
+        {
+          "start": 11.82,
+          "end": 11.98,
+          "word": " la",
+          "probability": 0.9998249411582947
+        },
+        {
+          "start": 11.98,
+          "end": 12.44,
+          "word": " confiance",
+          "probability": 0.9992732405662537
+        },
+        {
+          "start": 12.44,
+          "end": 12.7,
+          "word": " de",
+          "probability": 0.9989043474197388
+        },
+        {
+          "start": 12.7,
+          "end": 12.88,
+          "word": " ton",
+          "probability": 0.9993067979812622
+        },
+        {
+          "start": 12.88,
+          "end": 13.68,
+          "word": " interlocuteur.",
+          "probability": 0.9997058312098185
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 14.4,
+      "end": 20.14,
+      "text": " Tu avances vers la table de Méloun et t'assied devant les deux hommes, parfaitement à l'aise.",
+      "tokens": [
+        51005,
+        7836,
+        1305,
+        2676,
+        1774,
+        635,
+        3199,
+        368,
+        376,
+        8025,
+        263,
+        716,
+        1030,
+        256,
+        6,
+        640,
+        1091,
+        28982,
+        1512,
+        8208,
+        34795,
+        11,
+        36102,
+        1712,
+        1531,
+        287,
+        6,
+        64,
+        908,
+        13,
+        51275
+      ],
+      "avg_logprob": -0.08955082889144303,
+      "compression_ratio": 1.601328903654485,
+      "no_speech_prob": 7.015752995914726e-12,
+      "words": [
+        {
+          "start": 14.4,
+          "end": 14.86,
+          "word": " Tu",
+          "probability": 0.9994878768920898
+        },
+        {
+          "start": 14.86,
+          "end": 15.3,
+          "word": " avances",
+          "probability": 0.998965859413147
+        },
+        {
+          "start": 15.3,
+          "end": 15.5,
+          "word": " vers",
+          "probability": 0.999840497970581
+        },
+        {
+          "start": 15.5,
+          "end": 15.68,
+          "word": " la",
+          "probability": 0.9998742341995239
+        },
+        {
+          "start": 15.68,
+          "end": 15.98,
+          "word": " table",
+          "probability": 0.9999033212661743
+        },
+        {
+          "start": 15.98,
+          "end": 16.16,
+          "word": " de",
+          "probability": 0.9993485808372498
+        },
+        {
+          "start": 16.16,
+          "end": 16.66,
+          "word": " Méloun",
+          "probability": 0.7228227630257607
+        },
+        {
+          "start": 16.66,
+          "end": 17.18,
+          "word": " et",
+          "probability": 0.9892894625663757
+        },
+        {
+          "start": 17.18,
+          "end": 17.38,
+          "word": " t",
+          "probability": 0.9962185025215149
+        },
+        {
+          "start": 17.38,
+          "end": 17.72,
+          "word": "'assied",
+          "probability": 0.8056592345237732
+        },
+        {
+          "start": 17.72,
+          "end": 18.04,
+          "word": " devant",
+          "probability": 0.5114293098449707
+        },
+        {
+          "start": 18.04,
+          "end": 18.16,
+          "word": " les",
+          "probability": 0.9996308088302612
+        },
+        {
+          "start": 18.16,
+          "end": 18.28,
+          "word": " deux",
+          "probability": 0.9973256587982178
+        },
+        {
+          "start": 18.28,
+          "end": 18.62,
+          "word": " hommes,",
+          "probability": 0.999832272529602
+        },
+        {
+          "start": 19.06,
+          "end": 19.72,
+          "word": " parfaitement",
+          "probability": 0.9996735751628876
+        },
+        {
+          "start": 19.72,
+          "end": 19.84,
+          "word": " à",
+          "probability": 0.9998421669006348
+        },
+        {
+          "start": 19.84,
+          "end": 19.94,
+          "word": " l",
+          "probability": 0.999896764755249
+        },
+        {
+          "start": 19.94,
+          "end": 20.14,
+          "word": "'aise.",
+          "probability": 0.9995569984118143
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 20.84,
+      "end": 25.76,
+      "text": " Ils ont l'air surpris de ton assurance, mais tu ne te laisses pas impressionner par leur regard.",
+      "tokens": [
+        51309,
+        17979,
+        6592,
+        287,
+        6,
+        1246,
+        3083,
+        271,
+        368,
+        2952,
+        32189,
+        11,
+        2420,
+        2604,
+        408,
+        535,
+        635,
+        40487,
+        1736,
+        9995,
+        1193,
+        971,
+        9580,
+        3843,
+        13,
+        51558
+      ],
+      "avg_logprob": -0.08955082889144303,
+      "compression_ratio": 1.601328903654485,
+      "no_speech_prob": 7.015752995914726e-12,
+      "words": [
+        {
+          "start": 20.84,
+          "end": 21.3,
+          "word": " Ils",
+          "probability": 0.9993701577186584
+        },
+        {
+          "start": 21.3,
+          "end": 21.44,
+          "word": " ont",
+          "probability": 0.9995885491371155
+        },
+        {
+          "start": 21.44,
+          "end": 21.52,
+          "word": " l",
+          "probability": 0.9999653100967407
+        },
+        {
+          "start": 21.52,
+          "end": 21.6,
+          "word": "'air",
+          "probability": 0.9997293055057526
+        },
+        {
+          "start": 21.6,
+          "end": 21.98,
+          "word": " surpris",
+          "probability": 0.9999037981033325
+        },
+        {
+          "start": 21.98,
+          "end": 22.1,
+          "word": " de",
+          "probability": 0.9999332427978516
+        },
+        {
+          "start": 22.1,
+          "end": 22.24,
+          "word": " ton",
+          "probability": 0.9995811581611633
+        },
+        {
+          "start": 22.24,
+          "end": 22.76,
+          "word": " assurance,",
+          "probability": 0.999879002571106
+        },
+        {
+          "start": 23.02,
+          "end": 23.62,
+          "word": " mais",
+          "probability": 0.9998860359191895
+        },
+        {
+          "start": 23.62,
+          "end": 23.78,
+          "word": " tu",
+          "probability": 0.9998262524604797
+        },
+        {
+          "start": 23.78,
+          "end": 23.86,
+          "word": " ne",
+          "probability": 0.9998053908348083
+        },
+        {
+          "start": 23.86,
+          "end": 23.98,
+          "word": " te",
+          "probability": 0.9999580383300781
+        },
+        {
+          "start": 23.98,
+          "end": 24.2,
+          "word": " laisses",
+          "probability": 0.9986390769481659
+        },
+        {
+          "start": 24.2,
+          "end": 24.36,
+          "word": " pas",
+          "probability": 0.9999514818191528
+        },
+        {
+          "start": 24.36,
+          "end": 24.96,
+          "word": " impressionner",
+          "probability": 0.9467671513557434
+        },
+        {
+          "start": 24.96,
+          "end": 25.16,
+          "word": " par",
+          "probability": 0.9992619156837463
+        },
+        {
+          "start": 25.16,
+          "end": 25.36,
+          "word": " leur",
+          "probability": 0.9309264421463013
+        },
+        {
+          "start": 25.36,
+          "end": 25.76,
+          "word": " regard.",
+          "probability": 0.9980990290641785
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 26.28,
+      "end": 31.38,
+      "text": " Tu salues même Méloun comme si c'était un vieil ami que tu n'as pas revu depuis des années.",
+      "tokens": [
+        51599,
+        7836,
+        1845,
+        1247,
+        5698,
+        376,
+        8025,
+        263,
+        716,
+        5173,
+        1511,
+        269,
+        6,
+        9743,
+        517,
+        4941,
+        388,
+        33206,
+        631,
+        2604,
+        297,
+        6,
+        296,
+        1736,
+        3698,
+        84,
+        16062,
+        730,
+        21203,
+        13,
+        51838
+      ],
+      "avg_logprob": -0.08955082889144303,
+      "compression_ratio": 1.601328903654485,
+      "no_speech_prob": 7.015752995914726e-12,
+      "words": [
+        {
+          "start": 26.28,
+          "end": 26.74,
+          "word": " Tu",
+          "probability": 0.9993957281112671
+        },
+        {
+          "start": 26.74,
+          "end": 27.14,
+          "word": " salues",
+          "probability": 0.9742757380008698
+        },
+        {
+          "start": 27.14,
+          "end": 27.38,
+          "word": " même",
+          "probability": 0.9998656511306763
+        },
+        {
+          "start": 27.38,
+          "end": 27.9,
+          "word": " Méloun",
+          "probability": 0.9987354725599289
+        },
+        {
+          "start": 27.9,
+          "end": 28.4,
+          "word": " comme",
+          "probability": 0.9698657989501953
+        },
+        {
+          "start": 28.4,
+          "end": 28.6,
+          "word": " si",
+          "probability": 0.9998960494995117
+        },
+        {
+          "start": 28.6,
+          "end": 28.74,
+          "word": " c",
+          "probability": 0.9999123811721802
+        },
+        {
+          "start": 28.74,
+          "end": 28.88,
+          "word": "'était",
+          "probability": 0.9999232888221741
+        },
+        {
+          "start": 28.88,
+          "end": 29.12,
+          "word": " un",
+          "probability": 0.9997523427009583
+        },
+        {
+          "start": 29.12,
+          "end": 29.38,
+          "word": " vieil",
+          "probability": 0.9993362426757812
+        },
+        {
+          "start": 29.38,
+          "end": 29.6,
+          "word": " ami",
+          "probability": 0.9987738728523254
+        },
+        {
+          "start": 29.6,
+          "end": 29.9,
+          "word": " que",
+          "probability": 0.9986201524734497
+        },
+        {
+          "start": 29.9,
+          "end": 30.04,
+          "word": " tu",
+          "probability": 0.9998835325241089
+        },
+        {
+          "start": 30.04,
+          "end": 30.14,
+          "word": " n",
+          "probability": 0.9999709129333496
+        },
+        {
+          "start": 30.14,
+          "end": 30.2,
+          "word": "'as",
+          "probability": 0.9998614490032196
+        },
+        {
+          "start": 30.2,
+          "end": 30.36,
+          "word": " pas",
+          "probability": 0.9999628067016602
+        },
+        {
+          "start": 30.36,
+          "end": 30.62,
+          "word": " revu",
+          "probability": 0.9988782703876495
+        },
+        {
+          "start": 30.62,
+          "end": 30.9,
+          "word": " depuis",
+          "probability": 0.9997246861457825
+        },
+        {
+          "start": 30.9,
+          "end": 31.16,
+          "word": " des",
+          "probability": 0.9999368190765381
+        },
+        {
+          "start": 31.16,
+          "end": 31.38,
+          "word": " années.",
+          "probability": 0.9999154806137085
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 3000,
+      "start": 32.04,
+      "end": 33.38,
+      "text": "",
+      "tokens": [
+        50365,
+        1662,
+        318,
+        563,
+        12,
+        27689,
+        16223,
+        15288,
+        7201,
+        51864
+      ],
+      "avg_logprob": -0.42016116055575287,
+      "compression_ratio": 0.75,
+      "no_speech_prob": 1.436527979903346e-10,
+      "words": [
+        {
+          "start": 32.04,
+          "end": 32.4,
+          "word": " –",
+          "probability": 0.016772853210568428
+        },
+        {
+          "start": 32.4,
+          "end": 32.58,
+          "word": " Sous",
+          "probability": 0.9097557365894318
+        },
+        {
+          "start": 32.58,
+          "end": 33.28,
+          "word": "-titrage",
+          "probability": 0.9973991910616556
+        },
+        {
+          "start": 33.28,
+          "end": 33.36,
+          "word": " FR",
+          "probability": 0.8153595924377441
+        },
+        {
+          "start": 33.36,
+          "end": 33.38,
+          "word": " 2021",
+          "probability": 0.6224327087402344
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}
