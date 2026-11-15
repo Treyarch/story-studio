@@ -1,4 +1,4 @@
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 01
 
@@ -31,3 +31,17 @@ consommation atomique, choix masqués ou désactivés, vingt résultats possible
 revisite sans nouveau tirage, fin, réouverture et nouvelle instance.
 Injecter stockage refusé, incertain et illisible, ainsi que les régressions
 audio connues. Ces résultats seuls ne prouvent pas la reprise sur l’appareil.
+
+## Résultat
+
+Runtime Lua générique indépendant des prototypes, avec compilation du document
+validé vers ses données Lua. Les choix, classes, objets, conditions, effets,
+récompenses et jets sont pilotés par les définitions de l’auteur. La partie
+plate est validée et sauvegardée avant les conséquences, avec relecture,
+réconciliation et protections audio conservées.
+
+Le harnais exécute le vrai runtime et les données générées, avec et sans
+narration, pour les deux classes et les vingt valeurs du dé. Voir la
+[validation du lot 03](../validation-03.md) pour les scénarios et limites.
+La production du pack, les médias et le transfert restent au ticket 04 ;
+la preuve sur appareil reste au ticket 05.
