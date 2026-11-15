@@ -1,7 +1,7 @@
 -- Même frontière hôte LVGL/audio/progression que le harnais des prototypes.
 -- Le moteur, les règles et les données proviennent du contenu réellement généré.
 local folder = assert(arg[1])
-package.path = folder .. "/?.lua;" .. package.path
+package.path = folder .. "/?.lua;" .. folder .. "/script/?.lua;" .. package.path
 local randomCalls = 0
 local callbacks, labels, update, feedback, exited, plays, loadResult, audioStatus, loadedPath
 local saves = {}

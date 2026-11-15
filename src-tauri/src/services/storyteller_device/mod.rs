@@ -2,6 +2,7 @@
 //! No transport crypto, imports, IPC or automatic orphan repair.
 pub(crate) mod cards;
 pub(crate) mod flam;
+pub(crate) mod flam_authoring;
 mod install;
 mod orphans;
 pub(crate) use orphans::Identity;

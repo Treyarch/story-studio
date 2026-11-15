@@ -31,3 +31,5 @@ pub(crate) mod lunii_device;
 pub mod release_check;
 
 pub(crate) mod audio_level;
+
+pub(crate) mod flam_authoring;

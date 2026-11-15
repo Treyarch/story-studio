@@ -19,3 +19,5 @@ pub(crate) mod storyteller;
 // Headless mounted-volume driver; wired to IPC in a later lot.
 #[allow(dead_code)]
 pub(crate) mod storyteller_device;
+
+pub(crate) mod flam_pack;

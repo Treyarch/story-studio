@@ -14,8 +14,8 @@ function luaValue(value) {
   return `{${Object.entries(value).map(([key, item]) => `[${luaString(key)}]=${luaValue(item)}`).join(',')}}`;
 }
 
-// Ce module produit uniquement les données du runtime. La préparation des
-// médias, le manifeste, le pack et le transfert appartiennent au lot suivant.
+// Ce compilateur sert le harnais JavaScript du runtime. La production Rust
+// revalide le document et sérialise les mêmes données sans recevoir de source Lua.
 export function compileAdventureData(document) {
   const diagnostics = diagnoseAdventureDocument(document);
   if (diagnostics.some(entry => entry.severity === 'error')) {

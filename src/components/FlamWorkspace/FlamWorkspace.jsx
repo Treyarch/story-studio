@@ -10,6 +10,7 @@ import { ImageField } from '../editors/ImageField.jsx';
 import { CheckField, NumberField, ReferenceField, TextField } from './Fields.jsx';
 import { ChoiceEditor } from './ChoiceEditor.jsx';
 import { RuleEditor } from './RuleEditor.jsx';
+import { FlamProduction } from './FlamProduction.jsx';
 import './FlamWorkspace.css';
 
 function diagnosticText(diagnostic, t) {
@@ -193,6 +194,7 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, onOpenMedia }) {
         </div>}
       </main>
       <aside className="flam-diagnostics" aria-label={t('common:flam.diagnostics')}>
+        <FlamProduction document={document} />
         <h2>{t('common:flam.diagnostics')}</h2>
         <p className="flam-hint">{t('common:flam.diagnostics.help')}</p>
         {diagnostics.length === 0 && <p>{t('common:flam.diagnostics.clear')}</p>}

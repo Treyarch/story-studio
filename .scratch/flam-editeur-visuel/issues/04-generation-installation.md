@@ -1,4 +1,4 @@
-Status: needs-triage
+Status: resolved
 Type: task
 Blocked by: 02, 03
 
@@ -32,3 +32,15 @@ données. Un média absent ou un document invalide produit un refus sans contenu
 partiel présenté comme prêt. Les tests sur volume synthétique démontrent
 annulation, refus de remplacement et conservation des histoires témoins.
 La génération n’implique pas une installation automatique.
+
+## Résultat
+
+Génération et installation disponibles dans le panneau de l’éditeur FLAM,
+avec préparation des médias, manifeste vérifié, runtime embarqué et transfert
+explicite vers une identité neuve. Annulation, refus de remplacement,
+sauvegardes locales, relecture et préservation des histoires témoins sont
+exercés sur des volumes synthétiques. Le vrai pack produit passe le harnais
+Lua avec et sans narration.
+
+Voir la [validation du lot 04](../validation-04.md) pour les contrôles et
+les limites. Le parcours sur la FLAM réelle reste au ticket 05.

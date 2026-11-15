@@ -3076,5 +3076,291 @@
       "sourceHash": "97ca1922c003",
       "status": "ai-reviewed"
     }
+  },
+  "flam.production.title": {
+    "context": "Génération et installation d’une aventure FLAM ; Génération et installation",
+    "en": {
+      "sourceHash": "8fccdb89717b",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "8fccdb89717b",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.help": {
+    "context": "Génération et installation d’une aventure FLAM ; Générez le contenu, puis choisissez séparément son installation sur une FLAM. Une aventure déjà présente ne sera pas remplacée.",
+    "en": {
+      "sourceHash": "fc9c5dc3ec59",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "fc9c5dc3ec59",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.generate": {
+    "context": "Génération et installation d’une aventure FLAM ; Générer le pack FLAM",
+    "en": {
+      "sourceHash": "1ff68e656140",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "1ff68e656140",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.install": {
+    "context": "Génération et installation d’une aventure FLAM ; Installer sur la FLAM",
+    "en": {
+      "sourceHash": "96046710ef4a",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "96046710ef4a",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.output": {
+    "context": "Génération et installation d’une aventure FLAM ; Choisir le dossier de génération",
+    "en": {
+      "sourceHash": "b431e414c0a5",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "b431e414c0a5",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.device": {
+    "context": "Génération et installation d’une aventure FLAM ; Choisir le volume FLAM monté",
+    "en": {
+      "sourceHash": "440b44a11fcb",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "440b44a11fcb",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.confirm": {
+    "context": "Génération et installation d’une aventure FLAM ; Installer « {{title}} » sur {{device}} ? La liste et le cache seront sauvegardés sur cet ordinateur.",
+    "en": {
+      "sourceHash": "fa2dad5c404f",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "fa2dad5c404f",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.error": {
+    "context": "Génération et installation d’une aventure FLAM ; Opération FLAM interrompue",
+    "en": {
+      "sourceHash": "c35be67b9bee",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "c35be67b9bee",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.pack": {
+    "context": "Génération et installation d’une aventure FLAM ; Pack vérifié : {{path}}",
+    "en": {
+      "sourceHash": "9a2a8a38ef67",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "9a2a8a38ef67",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.receipt": {
+    "context": "Génération et installation d’une aventure FLAM ; Sauvegarde et reçu : {{path}}",
+    "en": {
+      "sourceHash": "4ff79f385ff7",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "4ff79f385ff7",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.step.media": {
+    "context": "Génération et installation d’une aventure FLAM ; Préparation des médias…",
+    "en": {
+      "sourceHash": "52fbdf96a1b6",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "52fbdf96a1b6",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.step.verify": {
+    "context": "Génération et installation d’une aventure FLAM ; Vérification du contenu…",
+    "en": {
+      "sourceHash": "b81d5c61171e",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "b81d5c61171e",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.step.ready": {
+    "context": "Génération et installation d’une aventure FLAM ; Pack prêt. Vous pouvez choisir son installation.",
+    "en": {
+      "sourceHash": "6aca01157035",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "6aca01157035",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.step.copy": {
+    "context": "Génération et installation d’une aventure FLAM ; Transfert et relecture des fichiers…",
+    "en": {
+      "sourceHash": "e251a3e1aa1a",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "e251a3e1aa1a",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.step.register": {
+    "context": "Génération et installation d’une aventure FLAM ; Inscription dans la bibliothèque…",
+    "en": {
+      "sourceHash": "ad5ad624b758",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "ad5ad624b758",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.step.installed": {
+    "context": "Génération et installation d’une aventure FLAM ; Installation vérifiée. Le parcours sur appareil reste à valider.",
+    "en": {
+      "sourceHash": "173cdf9029ad",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "173cdf9029ad",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.failure.InvalidDocument": {
+    "context": "Génération et installation d’une aventure FLAM ; Corrigez les diagnostics de l’aventure avant de générer.",
+    "en": {
+      "sourceHash": "e6362d8db703",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "e6362d8db703",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.failure.InvalidPack": {
+    "context": "Génération et installation d’une aventure FLAM ; Le contenu du pack n’est pas valide. Générez-le de nouveau.",
+    "en": {
+      "sourceHash": "2681279659e4",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "2681279659e4",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.failure.MediaUnavailable": {
+    "context": "Génération et installation d’une aventure FLAM ; Un média est absent, illisible ou ne peut pas être converti. Vérifiez les images et narrations des scènes.",
+    "en": {
+      "sourceHash": "3b5d4a7946d7",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "3b5d4a7946d7",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.failure.AlreadyExists": {
+    "context": "Génération et installation d’une aventure FLAM ; Cette identité existe déjà à destination. Aucun remplacement n’est autorisé.",
+    "en": {
+      "sourceHash": "22d8a31f5d28",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "22d8a31f5d28",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.failure.UnsafePath": {
+    "context": "Génération et installation d’une aventure FLAM ; Le chemin choisi est invalide ou contient un lien. Choisissez un dossier réel.",
+    "en": {
+      "sourceHash": "2957186632ea",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "2957186632ea",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.failure.UnsupportedDevice": {
+    "context": "Génération et installation d’une aventure FLAM ; Choisissez le volume monté d’une FLAM avec le firmware 2.4.1 ou 2.4.2, accessible en écriture.",
+    "en": {
+      "sourceHash": "32c38dd34eef",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "32c38dd34eef",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.failure.DeviceChanged": {
+    "context": "Génération et installation d’une aventure FLAM ; La bibliothèque a changé pendant le transfert. Vérifiez son état avant de réessayer.",
+    "en": {
+      "sourceHash": "f8e6bf629b34",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "f8e6bf629b34",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.failure.RecoveryRequired": {
+    "context": "Génération et installation d’une aventure FLAM ; La restauration n’a pas pu être confirmée. Conservez les sauvegardes dans les données de Story Studio (flam-installations) et vérifiez la bibliothèque avant tout autre transfert.",
+    "en": {
+      "sourceHash": "ee8c2a53f786",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "ee8c2a53f786",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.failure.Busy": {
+    "context": "Génération et installation d’une aventure FLAM ; Une opération FLAM est déjà en cours. Attendez sa fin.",
+    "en": {
+      "sourceHash": "7ff8f2826359",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "7ff8f2826359",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.production.failure.Io": {
+    "context": "Génération et installation d’une aventure FLAM ; L’opération a échoué. Vérifiez l’accès aux dossiers et l’espace disponible.",
+    "en": {
+      "sourceHash": "301c58889443",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "301c58889443",
+      "status": "ai-reviewed"
+    }
   }
 }

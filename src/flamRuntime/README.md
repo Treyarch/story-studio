@@ -2,8 +2,8 @@
 
 Le lot 03 exécute le document d’auteur de version 1, séparément des prototypes
 validés dans `scripts/prototypes/flam-native/`. Le contenu Lua est testé sur un
-hôte simulé ; son installation et sa validation matérielle restent les lots 04
-et 05. Aucun second moteur de règles JavaScript n’est introduit.
+hôte simulé. Le lot 04 ajoute la génération et le transfert depuis l’éditeur ;
+la validation matérielle du parcours reste le lot 05. Aucun second moteur de règles JavaScript n’est introduit.
 
 ## Frontière de génération
 
@@ -14,12 +14,56 @@ pas la génération. Le résultat est le texte du module `adventure_data.lua`,
 contenant les données de l’auteur ; les chaînes sont encodées en octets UTF-8
 échappés pour Lua, sans interpolation de code.
 
-Le futur exporteur doit joindre ce module aux quatre fichiers de `lua/` :
-`main.lua` à la racine, puis `passage.lua`, `rules.lua`, `savegame.lua` et
-`adventure_data.lua` dans le chemin des modules du firmware. Le compilateur
-ne produit pas encore de pack, ne prépare pas les médias et n’effectue aucun
-transfert. Les chemins audio doivent être résolus vers les ressources livrées
-par ce futur exporteur. Une scène sans narration passe directement aux choix.
+Le service Rust `src-tauri/src/services/flam_pack/` reçoit le document JSON,
+revérifie sa structure et ses références et sérialise les données sans recevoir
+de code Lua de l’interface. Il embarque les quatre fichiers du vrai runtime.
+Les deux sérialiseurs utilisent les mêmes échappements ; le harnais commun
+exécute aussi le pack produit par Rust, avec et sans narration.
+
+Le résultat est un dossier `<uuid>.flam` contenant `adventure.plain.pk` et
+`manifest.json`. L’archive comporte `main.lua`, les modules sous `script/`,
+`info.plain`, `version`, `uuid.bin` et les médias. La narration est convertie
+par le FFmpeg embarqué en MP3 stéréo, 44,1 kHz, CBR 128 kb/s, sans tags ni Xing,
+avec une table `.mp3map` calculée sur les limites des trames. Les images sont
+préparées en JPEG de dimensions maximales 320 × 240. Les noms de ressources
+sont produits par le générateur ; aucun chemin de l’auteur ne devient un
+chemin d’archive. Le texte seul ne génère aucune narration.
+
+La publication exclusive suit la relecture du manifeste, des empreintes,
+des chemins, de l’identité, des médias et des modules. Les sources Lua doivent
+correspondre exactement au runtime embarqué et à la sérialisation du document
+validé. Un manifeste réécrit ne peut donc pas autoriser un autre script.
+La syntaxe de ces sources est contrôlée par leur construction fermée et par
+les tests Lua ; aucune installation de `lua` ou `luac` n’est exigée chez l’auteur.
+Un dossier de même identité n’est jamais remplacé. Le pack est plafonné à
+512 Mio ; une narration convertie est plafonnée à 256 Mio.
+
+Dans l’éditeur, « Générer le pack FLAM » choisit un dossier de sortie.
+« Installer sur la FLAM » est une action séparée, disponible seulement pour
+le document qui a produit le pack. Le choix du volume monté est confirmé
+avant le transfert ; progression et annulation couvrent les deux opérations.
+
+L’installateur `storyteller_device/flam_authoring.rs` recontrôle le pack,
+le volume monté et les métadonnées des firmwares 2.4.1 et 2.4.2. Il partage
+le verrou de mutation des appareils, refuse les identités présentes dans
+les listes ou dossiers visibles et masqués, chiffre les scripts et métadonnées,
+écrit dans un dossier temporaire et relit chaque fichier. La publication
+exclusive et l’inscription suivent une seconde vérification des listes et
+du cache ; une barrière de volume et une relecture finale précèdent le succès.
+Les identités des autres histoires et leurs parties ne sont pas modifiées.
+
+La liste, la liste masquée éventuelle, le cache et un reçu sans clés de
+chiffrement sont conservés dans les données de l’application sous
+`flam-installations/<identifiant-de-transfert>/`. Une annulation restaure
+la liste et le cache quand leur état reste reconnaissable. Si la bibliothèque
+a changé ou si la restauration est incertaine, l’opération signale un besoin
+de récupération et conserve le reçu et le contenu concerné. Aucune réparation
+silencieuse ni mise à jour d’une aventure déjà installée n’est proposée.
+
+Limite du runtime du lot 03 conservée : les images sont préparées et livrées,
+mais les scènes sont actuellement rendues en texte et choix, sans affichage
+de leur illustration. La lecture et la reprise sur l’appareil physique ne
+sont pas prouvées par ces contrôles locaux.
 
 ## Règles et partie
 

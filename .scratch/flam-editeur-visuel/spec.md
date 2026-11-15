@@ -1,10 +1,11 @@
 # Créer visuellement une aventure personnelle pour FLAM
 
-État : trois premiers lots réalisés après la validation matérielle des quatre
+État : quatre premiers lots réalisés après la validation matérielle des quatre
 prototypes. Le document et son enveloppe sont retenus dans
 l’[ADR 0001](../../docs/adr/0001-document-aventure-flam.md). L’édition visuelle
 est disponible ; le runtime piloté par le document passe le harnais Lua.
-La génération du pack et le transfert restent à implémenter.
+La génération du pack et le transfert protégé sont disponibles dans l’éditeur ;
+le parcours matériel complet reste à valider.
 
 ## Résultat attendu
 
@@ -127,8 +128,9 @@ Les tickets 01 et 02 sont livrés : le document est sauvegardable et éditable
 visuellement dans le cycle de projet existant, avec création vide ou exemple.
 Le ticket 03 ajoute le runtime générique et ses données Lua générées, vérifiés
 sur hôte simulé, selon la [validation du lot 03](validation-03.md).
-Ces lots ne permettent pas encore de jouer sur appareil. Le jalon complet ne sera
-terminé qu’au ticket 05.
+Le ticket 04 ajoute le pack contrôlé, la préparation des médias et le transfert
+explicite depuis l’éditeur, selon la [validation du lot 04](validation-04.md).
+Le jalon complet ne sera terminé qu’au ticket 05.
 
 ## Acceptation du jalon complet
 

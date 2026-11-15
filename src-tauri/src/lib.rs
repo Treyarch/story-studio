@@ -307,6 +307,9 @@ pub fn run() {
             );
             Ok(())
         })
+        .manage(std::sync::Arc::new(
+            commands::flam_authoring::FlamAuthoringState::default(),
+        ))
         .invoke_handler(tauri::generate_handler![
             commands::release_check::check_stable_release,
             commands::catalogue::catalogue_start_scan,
@@ -420,6 +423,9 @@ pub fn run() {
             commands::project_codec::assess_advanced_payload_readiness,
             commands::project_codec::ipc::apply_advanced_gesture,
             commands::advanced_export::export_advanced_pack,
+            commands::flam_authoring::generate_flam_adventure,
+            commands::flam_authoring::install_flam_adventure,
+            commands::flam_authoring::cancel_flam_authoring,
             commands::files::scan_unused_project_files,
             commands::files::delete_unused_project_files,
             commands::files::scan_import_folder,
