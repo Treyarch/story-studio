@@ -168,6 +168,20 @@ fn info(doc: &Value) -> Vec<u8> {
     format!("{title}\nStory Studio\n000000\n{title}").into_bytes()
 }
 
+fn pack_folder_name(title: &str, id: Uuid) -> String {
+    let cleaned = crate::native_pack::sanitized_project_name(title);
+    // Laisser de la place à l'identité et à l'extension, même en UTF-8.
+    let mut stem = String::new();
+    for ch in cleaned.chars().take(100) {
+        if stem.len() + ch.len_utf8() > 180 {
+            break;
+        }
+        stem.push(ch);
+    }
+    let stem = stem.trim_end_matches(['.', ' ']);
+    format!("{stem}--{id}.flam")
+}
+
 pub(crate) fn generate(
     mut doc: Value,
     output: &Path,
@@ -177,7 +191,7 @@ pub(crate) fn generate(
     document::validate(&doc)?;
     safe(output)?;
     let id = Uuid::parse_str(doc["id"].as_str().unwrap()).map_err(|_| Error::InvalidDocument)?;
-    let destination = output.join(format!("{id}.flam"));
+    let destination = output.join(pack_folder_name(doc["title"].as_str().unwrap(), id));
     if destination.try_exists()? {
         return Err(Error::AlreadyExists);
     }

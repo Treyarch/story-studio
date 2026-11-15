@@ -55,3 +55,27 @@ test('sauvegarde, déplacement, Enregistrer sous et reprise de session conserven
     await harness.dispose();
   }
 });
+
+test('le placement des scènes et du dé survit à la sauvegarde, Enregistrer sous et la reprise de session', async () => {
+  const harness = await createDiskHarness();
+  harness.settings.setItem(KEYS.WORKSPACE_DIR, harness.workspace);
+  try {
+    const directory = await harness.mkdirp('placement');
+    const project = createFlamProject({ document: example });
+    const layout = { version: 1, positions: [
+      { collection: 'scenes', id: 'depart', x: -321.5, y: 654.25 },
+      { collection: 'rolls', id: 'rencontre', x: 987, y: -42 },
+    ] };
+    project.authoring.graphLayout = layout;
+    const path = `${directory}/aventure.mbah`;
+    await io.saveProject(project, path);
+    const reopened = (await io.loadProjectFromPath(path)).data;
+    assert.deepEqual(reopened.authoring.graphLayout, layout);
+    harness.answerSave(`${directory}/copie.mbah`);
+    const copied = await io.saveProjectAs(reopened, path);
+    assert.deepEqual((await io.loadProjectFromPath(copied.path)).data.authoring.graphLayout, layout);
+    const snapshot = `${directory}/.session-recovery.mbah`;
+    assert.ok(await io.autoSaveEphemeralProject(reopened, directory, snapshot));
+    assert.deepEqual((await io.loadProjectFromPath(snapshot)).data.authoring.graphLayout, layout);
+  } finally { await harness.dispose(); }
+});

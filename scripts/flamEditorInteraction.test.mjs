@@ -30,6 +30,7 @@ registerHooks({ load(url, context, next) {
 register('./nodeSourceResolver.mjs', import.meta.url);
 const { useProjectStore } = await import('../src/store/projectStore.js');
 const { FlamWorkspace } = await import('../src/components/FlamWorkspace/FlamWorkspace.jsx');
+const { FlamGraph } = await import('../src/components/FlamWorkspace/FlamGraph.jsx');
 const { ChoiceEditor } = await import('../src/components/FlamWorkspace/ChoiceEditor.jsx');
 const { RuleEditor } = await import('../src/components/FlamWorkspace/RuleEditor.jsx');
 const { suggestProjectName } = await import('../src/store/projectSaveName.js');
@@ -129,4 +130,37 @@ test('une affectation média différée conserve la scène d’origine et ne tou
     await pending;
     assert.equal(store.readProject().authoring.document.scenes.length, 0);
   } finally { prepare = async path => path; ui.unmount(); storeHook.unmount(); }
+});
+
+
+test('graphe principal : sélection de scène, lien vers un jet et édition partagent le document et l’historique', () => {
+  const storeHook = runner(() => useProjectStore());
+  const store = storeHook.render();
+  store.loadProject(createFlamProject({ document: createExampleAdventure() }));
+  const epoch = store.workEpochRef.current;
+  const ui = runner(() => FlamWorkspace({ project: store.readProject(), projectEpoch: epoch,
+    onEdit: (captured, command) => commitAdventureEdit(store, captured, command) }));
+  const render = () => { const root = ui.render(); root.props.ref.current = { querySelectorAll: () => [] }; ui.flush(); return elements(root); };
+  const graph = () => render().find(e => e.type === FlamGraph);
+  try {
+    graph().props.onSelect({ collection: 'scenes', id: 'clairiere' });
+    assert.equal(graph().props.selection.id, 'clairiere');
+    assert.equal(mediaTarget.uuid, 'clairiere');
+    graph().props.onLayout([{ collection: 'scenes', id: 'clairiere', x: 120, y: -80 }]);
+    assert.equal(graph().props.graphLayout.positions[0].x, 120);
+    render().find(e => e.props?.label === 'Titre de la scène').props.onChange('Une nouvelle clairière');
+    assert.equal(graph().props.document.scenes.find(s => s.id === 'clairiere').title, 'Une nouvelle clairière');
+    graph().props.onConnect('clairiere', 'rolls', 'rencontre');
+    const selected = graph().props.selection;
+    assert.equal(selected.collection, 'choices');
+    const choice = store.readProject().authoring.document.choices.find(c => c.id === selected.id);
+    assert.equal(choice.rollId, 'rencontre');
+    assert.ok(render().some(e => e.type === ChoiceEditor && e.props.choice.id === selected.id));
+    store.undo();
+    assert.ok(!graph().props.document.choices.some(c => c.id === selected.id));
+    graph().props.onAddScene();
+    const added = graph().props.selection;
+    assert.equal(added.collection, 'scenes');
+    assert.equal(mediaTarget.uuid, added.id);
+  } finally { ui.unmount(); storeHook.unmount(); }
 });

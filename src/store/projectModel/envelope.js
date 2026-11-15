@@ -1,6 +1,7 @@
 import { sourceImportValue } from '../../i18n/importPresentation.js';
 import { presentStoredError, presentUserMessage } from '../../i18n/userMessage.js';
 import { mediaBindingViolations } from './mediaBindings.js';
+import { isFlamGraphLayout } from '../flamAdventure/graphLayout.js';
 import { assertAdventureDocument } from '../flamAdventure/document.js';
 
 // Porte de format pure, avant toute normalisation Libre. Le payload reste inerte.
@@ -117,12 +118,17 @@ export function readProjectEnvelope(project, { fileName = PROJECT_FORMAT_FILE_FA
       if (owns(project, key)) fail('CONTRADICTORY_PROJECT_ENVELOPE', `/${key}`, key, { key: 'import:format.value.flamSchema' });
     }
     for (const key of Object.keys(project.authoring)) {
-      if (key !== 'document') fail('CONTRADICTORY_PROJECT_ENVELOPE', `/authoring/${key}`, key, { key: 'import:format.value.flamSchema' });
+      if (!['document', 'graphLayout'].includes(key)) fail('CONTRADICTORY_PROJECT_ENVELOPE', `/authoring/${key}`, key, { key: 'import:format.value.flamSchema' });
     }
     try {
       assertAdventureDocument(project.authoring.document);
     } catch (error) {
       fail(error.code, `/authoring/document${error.path}`, error.code, { key: 'import:format.value.flamDocument' });
+    }
+    // eslint-disable-next-line i18next/no-literal-string -- Clé technique du format de projet.
+    if (owns(project.authoring, 'graphLayout') && !isFlamGraphLayout(project.authoring.graphLayout, project.authoring.document)) {
+      // eslint-disable-next-line i18next/no-literal-string -- Nom de champ affiché dans le détail technique.
+      fail('CONTRADICTORY_PROJECT_ENVELOPE', '/authoring/graphLayout', 'graphLayout', { key: 'import:format.value.flamSchema' });
     }
     return { authoringMode: mode, project };
   }

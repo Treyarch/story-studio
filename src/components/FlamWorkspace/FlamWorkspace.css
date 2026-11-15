@@ -25,7 +25,7 @@
 .flam-header h1 { margin: 0; font-size: var(--text-display); }
 .flam-header p { margin: 6px 0 0; color: var(--muted); }
 .flam-columns { display: flex; flex: 1; min-height: 0; }
-.flam-navigation { width: 210px; flex-shrink: 0; overflow: auto; padding: 16px; border-right: 1px solid var(--border); }
+.flam-navigation { width: 170px; flex-shrink: 0; overflow: auto; padding: 16px; border-right: 1px solid var(--border); }
 .flam-navigation h2, .flam-diagnostics h2 { font-size: var(--text-title); margin: 0 0 8px; }
 .flam-navigation section { margin-bottom: 18px; }
 .flam-navigation ul, .flam-diagnostics ul { list-style: none; margin: 0; padding: 0; }
@@ -33,7 +33,8 @@
 .flam-navigation button:hover, .flam-diagnostics button:hover { background: var(--bg3); }
 .flam-navigation button[aria-current] { background: var(--accent-dim); color: var(--accent); }
 .flam-navigation h2 button { font-weight: var(--weight-semibold); }
-.flam-content { flex: 1; min-width: 0; overflow: auto; padding: 24px; }
+.flam-inspector { width: clamp(340px, 30vw, 460px); flex-shrink: 0; min-height: 0; overflow: auto; border-left: 1px solid var(--border); }
+.flam-content { min-width: 0; padding: 20px; }
 .flam-content h2 { font-size: var(--text-title); }
 .flam-content h3 { margin-top: 24px; }
 .flam-definition { max-width: 900px; }
@@ -46,20 +47,37 @@
 .flam-check { display: flex; align-items: center; gap: 8px; margin: 12px 0; }
 .flam-check input { accent-color: var(--accent); }
 .flam-hint { font-size: var(--text-control); color: var(--muted); line-height: 1.5; }
-.flam-media { display: grid; grid-template-columns: minmax(130px, 180px) minmax(0, 1fr); gap: 20px; margin: 20px 0; }
+.flam-media { display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; margin: 20px 0; }
 .flam-rule { padding: 12px; margin-bottom: 12px; border: 1px solid var(--border); border-radius: var(--radius-sm); }
 .flam-rule-summary { margin: 10px 0 0; color: var(--muted); }
 .flam-delete { margin-top: 30px; padding-top: 16px; border-top: 1px solid var(--border); }
-.flam-diagnostics { width: 260px; flex-shrink: 0; overflow: auto; padding: 20px 16px; border-left: 1px solid var(--border); }
+.flam-diagnostics { padding: 20px; border-top: 1px solid var(--border); }
 .flam-diagnostic { border-left: 3px solid var(--danger); margin: 12px 0; }
 .flam-diagnostic--warning { border-left-color: var(--warning); }
 .flam-diagnostic span { display: block; margin-top: 6px; line-height: 1.5; }
 .flam-workspace :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
-@media (max-width: 1000px) {
+/* Le graphe garde la place centrale ; les formulaires suivent sur petit écran. */
+.flam-header-actions, .flam-graph-toolbar, .flam-graph-camera { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.flam-header-actions { position: relative; }
+.flam-production-menu > summary { cursor: pointer; padding: 10px; border: 1px solid var(--border); border-radius: var(--radius-sm); }
+.flam-production-menu .flam-production { position: absolute; right: 0; top: 100%; z-index: 20; width: min(380px, 80vw); max-height: 70vh; overflow: auto; box-shadow: 0 8px 24px #0004; }
+.flam-production p { overflow-wrap: anywhere; }
+.flam-production button { margin: 4px 0; width: 100%; }
+.flam-graph { position: relative; flex: 1; min-width: 260px; min-height: 350px; display: flex; flex-direction: column; background: var(--bg2); }
+.flam-graph-toolbar { padding: 10px; border-bottom: 1px solid var(--border); }
+.flam-graph-camera { margin-left: auto; }
+.flam-graph-canvas { flex: 1; min-height: 280px; background-image: radial-gradient(var(--border) 1px, transparent 1px); background-size: 20px 20px; }
+.flam-graph-help { padding: 8px 12px; margin: 0; color: var(--muted); font-size: var(--text-control); border-top: 1px solid var(--border); }
+.flam-graph-empty { position: absolute; top: 45%; left: 12%; right: 12%; text-align: center; pointer-events: none; color: var(--muted); }
+
+@media (max-width: 1100px) {
+  .flam-navigation { width: 140px; padding: 10px; }
+  .flam-inspector { width: 340px; }
+}
+@media (max-width: 800px) {
   .flam-columns { flex-wrap: wrap; overflow: auto; }
-  .flam-navigation { width: 175px; }
-  .flam-content { min-width: 300px; }
-  .flam-diagnostics { width: 100%; max-height: 240px; border-left: 0; border-top: 1px solid var(--border); }
-  .flam-media { grid-template-columns: minmax(0, 1fr); }
+  .flam-navigation { width: 140px; max-height: 450px; }
+  .flam-graph { min-height: 450px; }
+  .flam-inspector { width: 100%; overflow: visible; border-left: 0; border-top: 1px solid var(--border); }
 }

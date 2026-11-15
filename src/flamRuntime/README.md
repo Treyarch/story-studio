@@ -20,8 +20,11 @@ de code Lua de l’interface. Il embarque les quatre fichiers du vrai runtime.
 Les deux sérialiseurs utilisent les mêmes échappements ; le harnais commun
 exécute aussi le pack produit par Rust, avec et sans narration.
 
-Le résultat est un dossier `<uuid>.flam` contenant `adventure.plain.pk` et
-`manifest.json`. L’archive comporte `main.lua`, les modules sous `script/`,
+Le résultat est un dossier `<titre>--<uuid>.flam` contenant `adventure.plain.pk`
+et `manifest.json`. Le titre est adapté aux noms de fichiers et limité en
+longueur ; l’UUID distingue les aventures de même titre. L’identité est lue
+dans le contenu : les anciens dossiers `<uuid>.flam` restent utilisables.
+L’archive comporte `main.lua`, les modules sous `script/`,
 `info.plain`, `version`, `uuid.bin` et les médias. La narration est convertie
 par le FFmpeg embarqué en MP3 stéréo, 44,1 kHz, CBR 128 kb/s, sans tags ni Xing,
 avec une table `.mp3map` calculée sur les limites des trames. Les images sont

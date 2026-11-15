@@ -11,6 +11,7 @@ import { CheckField, NumberField, ReferenceField, TextField } from './Fields.jsx
 import { ChoiceEditor } from './ChoiceEditor.jsx';
 import { RuleEditor } from './RuleEditor.jsx';
 import { FlamProduction } from './FlamProduction.jsx';
+import { FlamGraph } from './FlamGraph.jsx';
 import './FlamWorkspace.css';
 
 function diagnosticText(diagnostic, t) {
@@ -45,7 +46,9 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, onOpenMedia }) {
     ['choices', t('common:flam.choices')],
   ];
   const collection = selection.collection;
-  const entry = document[collection].find(entry => entry.id === selection.id) ?? document[collection][0] ?? null;
+  const entry = document[collection].find(entry => entry.id === selection.id)
+    ?? (collection === 'scenes' ? document.scenes.find(scene => scene.id === document.startSceneId) : null)
+    ?? document[collection][0] ?? null;
   const path = entry ? `/${collection}/${document[collection].indexOf(entry)}` : null;
   const diagnostics = diagnoseAdventureDocument(document);
   const edit = useCallback(command => {
@@ -99,6 +102,13 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, onOpenMedia }) {
     if (edit({ type: 'add', collection, id, sceneId }) && collection !== 'choices') setSelection({ collection, id });
   }
 
+  function connect(sceneId, targetCollection, targetId) {
+    const id = crypto.randomUUID();
+    if (edit({ type: 'connect', id, sceneId, targetCollection, targetId })) {
+      setSelection({ collection: 'choices', id });
+    }
+  }
+
   async function remove(command) {
     const accepted = await showConfirmDialog({
       get title() { return t('common:flam.remove.title'); },
@@ -125,7 +135,13 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, onOpenMedia }) {
   return <div className="flam-workspace" ref={rootRef}>
     <header className="flam-header">
       <div><h1>{t('common:flam.create.title')}</h1><p>{t('common:flam.editor.help')}</p></div>
-      <Button onClick={onOpenMedia}>{t('common:flam.media.open')}</Button>
+      <div className="flam-header-actions">
+        <Button onClick={onOpenMedia}>{t('common:flam.media.open')}</Button>
+        <details className="flam-production-menu">
+          <summary>{t('common:flam.production.title')}</summary>
+          <FlamProduction document={document} />
+        </details>
+      </div>
     </header>
     <div className="flam-columns">
       <nav className="flam-navigation" aria-label={t('common:flam.navigation')}>
@@ -138,76 +154,81 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, onOpenMedia }) {
           </li>)}</ul>
         </section>)}
       </nav>
-      <main className="flam-content">
-        <section className="flam-project flam-card">
-          <TextField label={t('common:flam.title')} path="/title" value={document.title} onChange={title => edit({ type: 'document', patch: { title } })} />
-          <ReferenceField label={t('common:flam.start')} path="/startSceneId" entries={document.scenes} value={document.startSceneId} onChange={startSceneId => edit({ type: 'document', patch: { startSceneId } })} />
-        </section>
-        <div className="flam-section-header">
-          <h2>{collections.find(([key]) => key === collection)[1]}</h2>
-          {collection !== 'choices' && <Button variant="primary" onClick={() => add(collection)}>{t('common:flam.add')}</Button>}
-        </div>
-        {!entry && <p>{t('common:flam.empty')}</p>}
-        {entry && <div data-flam-path={path} tabIndex={-1} className="flam-definition">
-          {collection === 'scenes' ? <>
-            <TextField label={t('common:flam.scene.title')} path={`${path}/title`} value={entry.title} onChange={title => patch({ title })} />
-            <TextField multiline label={t('common:flam.scene.text')} path={`${path}/text`} value={entry.text} onChange={text => patch({ text })} />
-            <p className="flam-hint">{t('common:flam.scene.textHelp')}</p>
-            <CheckField label={t('common:flam.scene.ending')} path={`${path}/ending`} checked={entry.ending} onChange={ending => patch({ ending })} />
-            <section className="flam-media" key={entry.id}>
-              <div data-flam-path={`${path}/image`} tabIndex={-1}><ImageField fieldId={`flam:${entry.id}:image`} label={t('common:flam.scene.image')} file={entry.image} onPick={source => assignMedia(entry.id, 'image', source)} onClear={() => patch({ image: null })} /></div>
-              <div data-flam-path={`${path}/audio`} tabIndex={-1}><AudioField label={t('common:flam.scene.audio')} labelRef={{ key: 'common:flam.scene.audio' }} file={entry.audio} required={false} ttsTextSuggestion={entry.text} ttsFilenameHint={`scene-${entry.id}`}
-                xttsTarget={{ kind: 'flamScene', projectEpoch, apply: source => assignMedia(entry.id, 'audio', source) }}
-                onPick={source => assignMedia(entry.id, 'audio', source)} onClear={() => patch({ audio: null })} /></div>
-            </section>
-            <h3>{t('common:flam.choices')}</h3>
-            {entry.choices.map((id, index) => {
-              const choice = document.choices.find(choice => choice.id === id);
-              return choice ? choiceEditor(choice, entry.id) : <div key={id} data-flam-path={`${path}/choices/${index}`} tabIndex={-1} className="flam-card">
-                <p>{t('common:flam.reference.missing', { id })}</p>
-                <Button onClick={() => patch({ choices: entry.choices.filter(choice => choice !== id) })}>{t('common:flam.choice.remove')}</Button>
-              </div>;
-            })}
-            <Button onClick={() => add('choices', entry.id)}>{t('common:flam.choice.add')}</Button>
-          </> : collection === 'choices' ? choiceEditor(entry) : <>
-            <TextField label={t('common:flam.name')} path={`${path}/name`} value={entry.name} onChange={name => patch({ name })} />
-            {collection === 'rewards' && <>
-              <CheckField label={t('common:flam.reward.repeatable')} path={`${path}/repeatable`} checked={entry.repeatable} onChange={repeatable => patch({ repeatable })} />
-              <p className="flam-hint">{t('common:flam.reward.help')}</p>
-              <RuleEditor rules={entry.effects} document={document} path={`${path}/effects`} onChange={effects => patch({ effects })} />
-            </>}
-            {collection === 'rolls' && <section data-flam-path={`${path}/outcomes`} tabIndex={-1}>
-              <p>{t('common:flam.roll.help')}</p>
-              {entry.outcomes.map((outcome, index) => {
-                const update = changes => patch({ outcomes: entry.outcomes.map((value, i) => i === index ? { ...value, ...changes } : value) });
-                return <div className="flam-card" key={index} data-flam-path={`${path}/outcomes/${index}`} tabIndex={-1}>
-                  <NumberField label={t('common:flam.roll.min')} path={`${path}/outcomes/${index}/min`} value={outcome.min} onChange={min => update({ min })} />
-                  <NumberField label={t('common:flam.roll.max')} path={`${path}/outcomes/${index}/max`} value={outcome.max} onChange={max => update({ max })} />
-                  <ReferenceField label={t('common:flam.roll.outcome')} path={`${path}/outcomes/${index}/destination`} entries={document.scenes} value={outcome.destination} onChange={destination => update({ destination })} />
-                  <Button size="sm" onClick={() => patch({ outcomes: entry.outcomes.filter((_, i) => i !== index) })}>{t('common:flam.roll.remove')}</Button>
+      <FlamGraph document={document} projectEpoch={projectEpoch} graphLayout={project.authoring.graphLayout}
+        onLayout={positions => edit({ type: 'layout', positions })}
+        selection={{ collection, id: entry?.id ?? null }} onSelect={setSelection}
+        onAddScene={() => add('scenes')} onAddRoll={() => add('rolls')} onConnect={connect} />
+      <aside className="flam-inspector" aria-label={t('common:flam.graph.inspector')}>
+        <div className="flam-content">
+          <section className="flam-project flam-card">
+            <TextField label={t('common:flam.title')} path="/title" value={document.title} onChange={title => edit({ type: 'document', patch: { title } })} />
+            <ReferenceField label={t('common:flam.start')} path="/startSceneId" entries={document.scenes} value={document.startSceneId} onChange={startSceneId => edit({ type: 'document', patch: { startSceneId } })} />
+          </section>
+          <div className="flam-section-header">
+            <h2>{collections.find(([key]) => key === collection)[1]}</h2>
+            {collection !== 'choices' && <Button variant="primary" onClick={() => add(collection)}>{t('common:flam.add')}</Button>}
+          </div>
+          {!entry && <p>{t('common:flam.empty')}</p>}
+          {entry && <div data-flam-path={path} tabIndex={-1} className="flam-definition">
+            {collection === 'scenes' ? <>
+              <TextField label={t('common:flam.scene.title')} path={`${path}/title`} value={entry.title} onChange={title => patch({ title })} />
+              <TextField multiline label={t('common:flam.scene.text')} path={`${path}/text`} value={entry.text} onChange={text => patch({ text })} />
+              <p className="flam-hint">{t('common:flam.scene.textHelp')}</p>
+              <CheckField label={t('common:flam.scene.ending')} path={`${path}/ending`} checked={entry.ending} onChange={ending => patch({ ending })} />
+              <section className="flam-media" key={entry.id}>
+                <div data-flam-path={`${path}/image`} tabIndex={-1}><ImageField fieldId={`flam:${entry.id}:image`} label={t('common:flam.scene.image')} file={entry.image} onPick={source => assignMedia(entry.id, 'image', source)} onClear={() => patch({ image: null })} /></div>
+                <div data-flam-path={`${path}/audio`} tabIndex={-1}><AudioField label={t('common:flam.scene.audio')} labelRef={{ key: 'common:flam.scene.audio' }} file={entry.audio} required={false} ttsTextSuggestion={entry.text} ttsFilenameHint={`scene-${entry.id}`}
+                  xttsTarget={{ kind: 'flamScene', projectEpoch, apply: source => assignMedia(entry.id, 'audio', source) }}
+                  onPick={source => assignMedia(entry.id, 'audio', source)} onClear={() => patch({ audio: null })} /></div>
+              </section>
+              <h3>{t('common:flam.choices')}</h3>
+              {entry.choices.map((id, index) => {
+                const choice = document.choices.find(choice => choice.id === id);
+                return choice ? choiceEditor(choice, entry.id) : <div key={id} data-flam-path={`${path}/choices/${index}`} tabIndex={-1} className="flam-card">
+                  <p>{t('common:flam.reference.missing', { id })}</p>
+                  <Button onClick={() => patch({ choices: entry.choices.filter(choice => choice !== id) })}>{t('common:flam.choice.remove')}</Button>
                 </div>;
               })}
-              <Button onClick={() => patch({ outcomes: [...entry.outcomes, { min: 1, max: 20, destination: null }] })}>{t('common:flam.roll.add')}</Button>
-            </section>}
-          </>}
-          <div className="flam-delete"><Button variant="danger-outline" onClick={() => remove({ type: 'remove', collection, id: entry.id })}>{t('common:flam.remove.title')}</Button></div>
-        </div>}
-      </main>
-      <aside className="flam-diagnostics" aria-label={t('common:flam.diagnostics')}>
-        <FlamProduction document={document} />
-        <h2>{t('common:flam.diagnostics')}</h2>
-        <p className="flam-hint">{t('common:flam.diagnostics.help')}</p>
-        {diagnostics.length === 0 && <p>{t('common:flam.diagnostics.clear')}</p>}
-        <ul>{diagnostics.map((diagnostic, index) => {
-          const target = adventureDiagnosticTarget(document, diagnostic.path);
-          const item = target ? document[target.collection].find(item => item.id === target.id) : null;
-          return <li key={`${diagnostic.path}:${diagnostic.code}:${index}`} className={`flam-diagnostic flam-diagnostic--${diagnostic.severity}`}>
-            <button type="button" onClick={() => reveal(diagnostic)}>
-              <strong>{item?.title || item?.name || item?.label || t('common:flam.title')}</strong>
-              <span>{diagnosticText(diagnostic, t)}</span>
-            </button>
-          </li>;
-        })}</ul>
+              <Button onClick={() => add('choices', entry.id)}>{t('common:flam.choice.add')}</Button>
+            </> : collection === 'choices' ? choiceEditor(entry) : <>
+              <TextField label={t('common:flam.name')} path={`${path}/name`} value={entry.name} onChange={name => patch({ name })} />
+              {collection === 'rewards' && <>
+                <CheckField label={t('common:flam.reward.repeatable')} path={`${path}/repeatable`} checked={entry.repeatable} onChange={repeatable => patch({ repeatable })} />
+                <p className="flam-hint">{t('common:flam.reward.help')}</p>
+                <RuleEditor rules={entry.effects} document={document} path={`${path}/effects`} onChange={effects => patch({ effects })} />
+              </>}
+              {collection === 'rolls' && <section data-flam-path={`${path}/outcomes`} tabIndex={-1}>
+                <p>{t('common:flam.roll.help')}</p>
+                {entry.outcomes.map((outcome, index) => {
+                  const update = changes => patch({ outcomes: entry.outcomes.map((value, i) => i === index ? { ...value, ...changes } : value) });
+                  return <div className="flam-card" key={index} data-flam-path={`${path}/outcomes/${index}`} tabIndex={-1}>
+                    <NumberField label={t('common:flam.roll.min')} path={`${path}/outcomes/${index}/min`} value={outcome.min} onChange={min => update({ min })} />
+                    <NumberField label={t('common:flam.roll.max')} path={`${path}/outcomes/${index}/max`} value={outcome.max} onChange={max => update({ max })} />
+                    <ReferenceField label={t('common:flam.roll.outcome')} path={`${path}/outcomes/${index}/destination`} entries={document.scenes} value={outcome.destination} onChange={destination => update({ destination })} />
+                    <Button size="sm" onClick={() => patch({ outcomes: entry.outcomes.filter((_, i) => i !== index) })}>{t('common:flam.roll.remove')}</Button>
+                  </div>;
+                })}
+                <Button onClick={() => patch({ outcomes: [...entry.outcomes, { min: 1, max: 20, destination: null }] })}>{t('common:flam.roll.add')}</Button>
+              </section>}
+            </>}
+            <div className="flam-delete"><Button variant="danger-outline" onClick={() => remove({ type: 'remove', collection, id: entry.id })}>{t('common:flam.remove.title')}</Button></div>
+          </div>}
+        </div>
+        <section className="flam-diagnostics" aria-label={t('common:flam.diagnostics')}>
+          <h2>{t('common:flam.diagnostics')}</h2>
+          <p className="flam-hint">{t('common:flam.diagnostics.help')}</p>
+          {diagnostics.length === 0 && <p>{t('common:flam.diagnostics.clear')}</p>}
+          <ul>{diagnostics.map((diagnostic, index) => {
+            const target = adventureDiagnosticTarget(document, diagnostic.path);
+            const item = target ? document[target.collection].find(item => item.id === target.id) : null;
+            return <li key={`${diagnostic.path}:${diagnostic.code}:${index}`} className={`flam-diagnostic flam-diagnostic--${diagnostic.severity}`}>
+              <button type="button" onClick={() => reveal(diagnostic)}>
+                <strong>{item?.title || item?.name || item?.label || t('common:flam.title')}</strong>
+                <span>{diagnosticText(diagnostic, t)}</span>
+              </button>
+            </li>;
+          })}</ul>
+        </section>
       </aside>
     </div>
   </div>;

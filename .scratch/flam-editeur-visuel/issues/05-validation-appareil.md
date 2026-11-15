@@ -28,3 +28,18 @@ Consigner firmware exact, identité et version du contenu, résultats locaux,
 parcours réellement effectués et limites. Une validation du harnais n’est pas
 une confirmation matérielle. Une anomalie de reprise empêche de clôturer le
 jalon, même si l’aventure se lit correctement avant extinction.
+
+## Préparation
+
+La [fiche de validation](../validation-05.md) contient le parcours détaillé et
+les résultats à compléter. Le 15 novembre 2026, l’appareil connecté annonce
+le firmware `2.4.1-d5186dc0` et les trois tests ciblés du runtime passent.
+Le parcours physique et l’installation depuis l’interface restent à effectuer.
+
+## Comments
+
+Le 15 novembre 2026, l’utilisateur confirme le fonctionnement général sur
+appareil et les combinaisons. Aucune narration n’avait été ajoutée, donc
+l’absence de son est attendue. Voir la [fiche](../validation-05.md) pour les
+limites de ce retour et les améliorations d’interface signalées. La reprise
+après extinction hors ligne n’est pas explicitement confirmée.

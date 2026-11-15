@@ -1,5 +1,5 @@
 import { AdventureDocumentError, editAdventureDefinition, replaceAdventureDocument } from './document.js';
-import { withFlamDocument } from './project.js';
+import { withFlamDocument, withFlamGraphLayout } from './project.js';
 
 export function newAdventureDefinition(collection, id) {
   if (collection === 'scenes') return { id, title: '', text: '', audio: null, image: null, ending: false, choices: [] };
@@ -21,6 +21,19 @@ export function editAdventure(document, command) {
       if (!['title', 'startSceneId'].includes(field)) throw new AdventureDocumentError('INVALID_ADVENTURE_EDIT', `/${field}`);
     }
     Object.assign(next, patch);
+  } else if (type === 'connect') {
+    if (!['scenes', 'rolls'].includes(command.targetCollection)) throw new AdventureDocumentError('INVALID_ADVENTURE_EDIT', '/scenes');
+    const scene = next.scenes.find(scene => scene.id === sceneId);
+    const target = next[command.targetCollection].find(entry => entry.id === command.targetId);
+    if (!scene || !target) {
+      throw new AdventureDocumentError('MISSING_ADVENTURE_DEFINITION', '/scenes');
+    }
+    const choice = newAdventureDefinition('choices', id);
+    choice.label = target.title || target.name || '';
+    if (command.targetCollection === 'rolls') choice.rollId = target.id;
+    else choice.destination = target.id;
+    next.choices.push(choice);
+    scene.choices.push(id);
   } else if (type === 'add') {
     const entry = newAdventureDefinition(collection, id);
     next[collection].push(entry);
@@ -46,6 +59,12 @@ export function commitAdventureEdit(store, epoch, command) {
   if (store.workEpochRef.current !== epoch) return { status: 'stale' };
   const project = store.readProject();
   if (project?.authoringMode !== 'flam') return { status: 'stale' };
+  if (command.type === 'layout') {
+    const next = withFlamGraphLayout(project, command.positions);
+    if (next === project) return { status: 'unchanged' };
+    store.setProject(next);
+    return { status: 'applied' };
+  }
   if (['patch', 'remove', 'removeChoice'].includes(command.type)
     && !project.authoring.document[command.collection ?? 'choices']?.some(entry => entry.id === command.id)) return { status: 'stale' };
   const document = editAdventure(project.authoring.document, command);

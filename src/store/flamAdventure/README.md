@@ -10,7 +10,32 @@ ajoute l’entrée « Aventure FLAM » et les formulaires d’auteur. Le choix i
 propose un projet vide ou « Les compagnons du village », avec une nouvelle
 identité d’aventure à chaque création. L’exemple reste en français comme tout
 contenu d’auteur ; les commandes sont traduites en français, anglais et italien.
-La génération et l’installation restent les lots suivants.
+La génération et l’installation sont disponibles depuis « Génération et
+installation » en tête de l’atelier ; voir le [runtime](../../flamRuntime/README.md).
+
+## Atelier graphe
+
+Le graphe est la vue principale. Les scènes sont des cartes, les jets des
+losanges ; les liens portent les choix et les plages du dé. Le départ et
+les fins ont des repères distincts. Les liens conditionnels sont pointillés.
+Une sélection ouvre le formulaire correspondant dans le panneau de droite.
+La navigation de gauche offre aussi un accès clavier aux mêmes définitions.
+
+« Relier depuis cette scène » crée un choix vers une scène ou un jet, par
+clic dans le graphe ou par la liste de destinations. Ce geste et le rattachement
+à la scène sont un unique pas d’annulation. Pour prolonger une fin, il faut
+retirer son statut de fin. Les règles et médias restent édités par les mêmes
+formulaires et commandes ; aucun moteur de jeu n’est ajouté au graphe.
+
+Déplacement des cartes, zoom, cadrage et réorganisation sont des gestes de
+vue. Le placement manuel et la réorganisation sont enregistrés dans
+`authoring.graphLayout` du projet, avec leurs propres positions de scènes et
+de jets. Ils marquent le projet modifié, passent par l’historique ordinaire et
+sont restaurés à la réouverture, après « Enregistrer sous » et en reprise de
+session. Les anciens projets sans ce bloc reçoivent un placement automatique.
+Les coordonnées ne font pas partie du document exporté sur FLAM. Un brouillon aux références absentes
+reste éditable : ses liens incomplets ne sont pas dessinés, et ses diagnostics
+permettent de retrouver les champs concernés.
 
 ## Interface
 
@@ -74,7 +99,7 @@ Le module n’exécute pas les règles et ne valide aucune sauvegarde d’appare
 
 ```sh
 node --test scripts/flamAdventure.test.mjs scripts/flamAdventurePersistence.test.mjs
-node --test scripts/flamEditing.test.mjs scripts/flamEditorInteraction.test.mjs
+node --test scripts/flamEditing.test.mjs scripts/flamEditorInteraction.test.mjs scripts/flamGraph.test.mjs
 ```
 
 Ces tests passent par le module, les codecs réels, le store sous double

@@ -14,14 +14,47 @@ fn temp() -> Temporary {
 }
 
 #[test]
+fn generated_folder_is_readable_portable_and_bounded() {
+    let id = Uuid::parse_str(example()["id"].as_str().unwrap()).unwrap();
+    assert_eq!(
+        pack_folder_name("Les compagnons du village", id),
+        format!("Les_compagnons_du_village--{id}.flam")
+    );
+    for title in ["../../CON:<clé>/?", "...", "", &"é".repeat(300)] {
+        let name = pack_folder_name(title, id);
+        assert_eq!(Path::new(&name).components().count(), 1);
+        assert!(!name.contains(['/', '\\', ':', '<', '>', '?', '*', '"']));
+        assert!(name.len() < 255);
+        assert!(name.ends_with(&format!("--{id}.flam")));
+    }
+    assert_ne!(
+        pack_folder_name("Même titre", id),
+        pack_folder_name("Même titre", Uuid::new_v4())
+    );
+}
+
+#[test]
 fn pack_roundtrip_validates_runtime_identity_paths_and_hashes() {
     let temporary = temp();
     let mut doc = example();
     doc["title"] = Value::String("Texte \"é\" \\ ]===]\n\0return os.exit()".into());
     let output = generate(doc.clone(), &temporary.0, &|| false, &|_| {}).unwrap();
+    assert_eq!(
+        output.file_name().unwrap().to_str().unwrap(),
+        pack_folder_name(
+            doc["title"].as_str().unwrap(),
+            Uuid::parse_str(doc["id"].as_str().unwrap()).unwrap()
+        )
+    );
     let checked = read_pack(&output, &|| false).unwrap();
     assert_eq!(checked.id.to_string(), doc["id"].as_str().unwrap());
     assert_eq!(checked.title, doc["title"]);
+    // Le nom du dossier n'est pas une identité de contenu : les anciens packs
+    // et les dossiers renommés restent chargeables par le même installateur.
+    let legacy = temporary.0.join(format!("{}.flam", checked.id));
+    fs::rename(&output, &legacy).unwrap();
+    assert_eq!(read_pack(&legacy, &|| false).unwrap().id, checked.id);
+    fs::rename(&legacy, &output).unwrap();
     assert!(matches!(
         generate(doc.clone(), &temporary.0, &|| false, &|_| {}),
         Err(Error::AlreadyExists)
