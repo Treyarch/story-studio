@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { flushSync } from 'react-dom';
 import cytoscape from 'cytoscape';
 import { useCommonTranslation } from '../../i18n/commonPresentation.js';
 import { useThemeEpoch } from '../AdvancedGraphCanvas/useThemeEpoch.js';
@@ -85,7 +86,9 @@ export function FlamGraph({ document, selection, onSelect, onAddScene, onAddRoll
         pending = null;
         const nodes = flamGraphPortNodes(cy, hoveredNode.current);
         updateFlamLinkEndpoints(cy, nodes);
-        setFrame({ viewport: controlsEngine.current.getViewport(), overview: flamGraphOverview(cy), nodes });
+        // Le canvas est déjà peint dans cette image : les prises HTML doivent
+        // être posées avant son affichage, sans attendre un rendu React différé.
+        flushSync(() => setFrame({ viewport: controlsEngine.current.getViewport(), overview: flamGraphOverview(cy), nodes }));
       });
     };
     publishFrame.current = publish;
