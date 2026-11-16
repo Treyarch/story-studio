@@ -2,13 +2,14 @@ use super::client::{
     fetch_string_list, http_client, join_url, normalize_voice_list, XttsGenerateResponse,
 };
 use super::lifecycle::ensure_server_with_log;
-use super::output::{generated_dir, output_filename, reference_voice_exists, server_output_dir};
+use super::output::{
+    generated_dir, output_filename, reference_voice_exists, safe_output_filename, server_output_dir,
+};
 use super::{XttsGenerateRequest, XttsSettings, XttsStatus};
 use crate::support::paths::path_for_frontend;
 use crate::support::user_message;
 use crate::support::user_message::codes;
 use std::fs;
-use std::path::PathBuf;
 use std::time::Duration;
 
 pub fn get_status_sync(settings: XttsSettings, emit: &dyn Fn(&str)) -> Result<XttsStatus, String> {
@@ -243,33 +244,23 @@ pub fn generate_audio_sync(
             .into_transport()
     })?;
 
-    if let Some(file) = parsed
+    // Certains serveurs ignorent output_file et attribuent leur propre nom.
+    // Le nom de destination reste celui de la requête dans le projet.
+    let response_output_file = parsed
         .file
-        .as_ref()
+        .as_deref()
         .filter(|value| !value.trim().is_empty())
-    {
-        let returned = PathBuf::from(file);
-        let file_name = returned
-            .file_name()
-            .map(|value| value.to_string_lossy().to_string())
-            .ok_or_else(|| {
-                user_message::UserMessage::new(codes::XTTS_RESPONSE_INVALID_FILE_NAME)
-                    .with_detail("XTTS a retourne un nom de fichier invalide.".to_string())
-                    .into_transport()
-            })?;
-        if returned.components().count() != 1 || file_name != requested_output_file {
-            return Err({
-                let _msg_file = (file).to_string();
-                user_message::UserMessage::new(codes::XTTS_RESPONSE_UNEXPECTED_FILE_NAME)
-                    .param("file", user_message::transport_param(_msg_file.clone()))
-                    .with_detail(format!(
-                        "XTTS a retourne un nom de fichier inattendu : {_msg_file}",
-                        _msg_file = user_message::transport_detail(&_msg_file)
-                    ))
-                    .into_transport()
-            });
-        }
-    }
+        .map(str::to_owned)
+        .or_else(|| {
+            parsed.path.as_deref().and_then(|path| {
+                std::path::Path::new(path)
+                    .file_name()
+                    .and_then(|name| name.to_str())
+                    .map(str::to_owned)
+            })
+        })
+        .unwrap_or_else(|| requested_output_file.clone());
+    safe_output_filename(&response_output_file)?;
 
     if let Some(path) = parsed
         .path
@@ -304,7 +295,9 @@ pub fn generate_audio_sync(
                     .with_detail("XTTS a retourne un chemin de fichier invalide.".to_string())
                     .into_transport()
             })?;
-        if !returned.starts_with(&output_dir_canonical) || file_name != requested_output_file {
+        if returned.parent() != Some(output_dir_canonical.as_path())
+            || file_name != response_output_file
+        {
             return Err({
                 let _msg_path = (path).to_string();
                 user_message::UserMessage::new(codes::XTTS_RESPONSE_EXTERNAL_UNEXPECTED_PATH)
@@ -318,12 +311,12 @@ pub fn generate_audio_sync(
         }
     }
 
-    let src = server_output_dir(&settings).join(&requested_output_file);
+    let src = server_output_dir(&settings).join(&response_output_file);
     if !src.exists() {
         return Err({
             let _msg_server_output_dir_settings =
                 (server_output_dir(&settings).display()).to_string();
-            let _msg_requested_output_file = (requested_output_file).to_string();
+            let _msg_requested_output_file = (response_output_file).to_string();
             user_message::UserMessage::new(
                 codes::XTTS_OUTPUT_FILE_MISSING,
             )
@@ -344,13 +337,37 @@ pub fn generate_audio_sync(
         });
     }
 
-    let dest = output_dir.join(
-        src.file_name()
-            .map(|value| value.to_string_lossy().to_string())
-            .unwrap_or_else(|| requested_output_file.clone()),
-    );
+    // Vérifier aussi le fichier lui-même : une réponse sans `path` ne doit
+    // pas permettre de suivre un lien symbolique hors du dossier XTTS.
+    let canonical_src = fs::canonicalize(&src).map_err(|error| {
+        user_message::UserMessage::new(codes::XTTS_OUTPUT_PATH_MISSING)
+            .param("error", user_message::transport_param(error.to_string()))
+            .with_detail(format!("XTTS a retourne un chemin introuvable : {error}"))
+            .into_transport()
+    })?;
+    let canonical_output = fs::canonicalize(server_output_dir(&settings)).map_err(|error| {
+        user_message::UserMessage::new(codes::XTTS_OUTPUT_FOLDER_INACCESSIBLE)
+            .param("error", user_message::transport_param(error.to_string()))
+            .with_detail(format!("Dossier XTTS output inaccessible : {error}"))
+            .into_transport()
+    })?;
+    if canonical_src.parent() != Some(canonical_output.as_path()) {
+        return Err(
+            user_message::UserMessage::new(codes::XTTS_RESPONSE_EXTERNAL_UNEXPECTED_PATH)
+                .param(
+                    "path",
+                    user_message::transport_param(src.display().to_string()),
+                )
+                .with_detail(format!(
+                    "XTTS a retourne un chemin externe ou inattendu : {}",
+                    src.display()
+                ))
+                .into_transport(),
+        );
+    }
+    let dest = output_dir.join(&requested_output_file);
 
-    fs::copy(&src, &dest).map_err(|e| {
+    fs::copy(&canonical_src, &dest).map_err(|e| {
         let _msg_error = (e).to_string();
         user_message::UserMessage::new(codes::XTTS_AUDIO_PROJECT_COPY_FAILED)
             .param("error", user_message::transport_param(_msg_error.clone()))

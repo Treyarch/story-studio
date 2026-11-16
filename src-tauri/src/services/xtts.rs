@@ -47,6 +47,9 @@ mod output;
 pub use generation::{generate_audio_sync, get_status_sync};
 
 #[cfg(test)]
+mod response_tests;
+
+#[cfg(test)]
 mod tests {
     use super::output::{generated_dir, output_filename};
     use super::{generate_audio_sync, get_status_sync, XttsGenerateRequest, XttsSettings};

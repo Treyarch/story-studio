@@ -19,7 +19,7 @@ fn slugify_filename_hint(name: &str) -> String {
 
 // Valide qu'un nom est un fichier seul, sans separateur, sans `..`, sans
 // caractere de controle. Aligne sur `safe_comfyui_output_filename`.
-fn safe_output_filename(filename: &str) -> Result<String, String> {
+pub(super) fn safe_output_filename(filename: &str) -> Result<String, String> {
     if filename.trim().is_empty()
         || filename.contains('/')
         || filename.contains('\\')
