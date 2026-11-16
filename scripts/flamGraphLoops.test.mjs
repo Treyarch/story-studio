@@ -12,6 +12,43 @@ const quadratic = (a, b, c, t) => ({
   y: (1 - t) ** 2 * a.y + 2 * t * (1 - t) * b.y + t ** 2 * c.y,
 });
 
+test('les connexions isolées gardent des tangentes horizontales après déplacement et zoom', () => {
+  const cy = cytoscape({ headless: true, styleEnabled: true,
+    elements: flamGraphElements(createExampleAdventure(), { untitled: '' }), style: flamGraphStyles(colors) });
+  const renderer = cytoscape('renderer', 'base').prototype;
+  try {
+    const edge = cy.edges().filter(e => !e.data('selfLoop')).first();
+    edge.source().position({ x: 0, y: 0 });
+    for (const position of [{ x: 500, y: 280 }, { x: 500, y: -280 }, { x: -450, y: 0 }, { x: 0, y: 350 }]) {
+      edge.target().position(position);
+      for (const zoom of [0.2, 1, 2]) {
+        cy.zoom(zoom);
+        updateFlamLinkEndpoints(cy, flamGraphPortNodes(cy));
+        assert.equal(edge.pstyle('curve-style').value, 'unbundled-bezier');
+        const source = edge.source().position(); const target = edge.target().position();
+        const dx = target.x - source.x; const dy = target.y - source.y;
+        const length = Math.hypot(dx, dy);
+        renderer.findBezierPoints(edge, {
+          posPts: { x1: source.x, y1: source.y, x2: target.x, y2: target.y },
+          vectorNormInverse: { x: -dy / length, y: dx / length }, eles: [edge],
+        }, 0, true, false);
+        const controls = edge._private.rscratch.ctrlpts;
+        const from = edge.pstyle('source-endpoint').pfValue;
+        const to = edge.pstyle('target-endpoint').pfValue;
+        assert.ok(Math.abs(controls[1] - (source.y + from[1])) < 1e-8);
+        assert.ok(Math.abs(controls.at(-1) - (target.y + to[1])) < 1e-8);
+        assert.ok(controls[0] > source.x + from[0]);
+        assert.ok(controls.at(-2) < target.x + to[0]);
+        if (position.x < 0) {
+          assert.equal(controls.length, 8);
+          assert.ok(controls[3] < source.y - edge.source().height() / 2);
+          assert.ok(controls[5] < target.y - edge.target().height() / 2);
+        }
+      }
+    }
+  } finally { cy.destroy(); }
+});
+
 test('les boucles calculées par le vrai moteur sortent à droite et reviennent par la gauche sans traverser la carte', () => {
   const cy = cytoscape({ headless: true, styleEnabled: true,
     elements: flamGraphElements(createExampleAdventure(), { untitled: '' }), style: flamGraphStyles(colors) });

@@ -114,6 +114,31 @@ export function createFlamLinkDrag({ cy, host, readDocument, onChange, onDrop,
   };
 }
 
+// Les tangentes suivent les prises : départ vers la droite, arrivée par la
+// gauche. Les retours remontent au-dessus des deux cartes.
+export function flamLinkControlPoints(from, to, clearance = 84) {
+  const reach = Math.max(48, Math.min(240, Math.abs(to.x - from.x) * 0.45));
+  if (to.x > from.x) return [{ x: from.x + reach, y: from.y }, { x: to.x - reach, y: to.y }];
+  const lane = Math.min(from.y, to.y) - clearance - 60;
+  return [
+    { x: from.x + reach, y: from.y },
+    { x: from.x + reach, y: lane },
+    { x: to.x - reach, y: lane },
+    { x: to.x - reach, y: to.y },
+  ];
+}
+
+export function flamLinkDraftPath(from, to) {
+  const points = flamLinkControlPoints(from, to);
+  let path = `M ${from.x} ${from.y}`;
+  points.forEach((point, index) => {
+    const next = points[index + 1];
+    const end = next ? { x: (point.x + next.x) / 2, y: (point.y + next.y) / 2 } : to;
+    path += ` Q ${point.x} ${point.y} ${end.x} ${end.y}`;
+  });
+  return path;
+}
+
 // Les traits et les prises lisent les mêmes coordonnées, y compris au dézoom.
 export function updateFlamLinkEndpoints(cy, nodes) {
   const byPath = new Map(nodes.map(node => [node.path, node]));
@@ -125,9 +150,29 @@ export function updateFlamLinkEndpoints(cy, nodes) {
     const arrival = target?.ports.find(port => port.role === 'arrival');
     if (!departure || !arrival) return;
     const endpoints = `${departure.dx / zoom} ${departure.dy / zoom}|${arrival.dx / zoom} ${arrival.dy / zoom}`;
-    if (edge.scratch('_flamEndpoints') === endpoints) return;
-    edge.scratch('_flamEndpoints', endpoints);
+    const signature = `${endpoints}|${source.x},${source.y}|${target.x},${target.y}|${zoom}`;
+    if (edge.scratch('_flamEndpoints') === signature) return;
+    edge.scratch('_flamEndpoints', signature);
     const [from, to] = endpoints.split('|');
-    edge.style({ 'source-endpoint': from, 'target-endpoint': to });
+    const style = { 'source-endpoint': from, 'target-endpoint': to };
+    if (source.path !== target.path) {
+      const origin = edge.source().position(); const destination = edge.target().position();
+      const dx = destination.x - origin.x; const dy = destination.y - origin.y;
+      const squared = dx * dx + dy * dy;
+      // Des cartes superposées ne définissent pas de normale exploitable.
+      if (squared > 0) {
+        const controls = flamLinkControlPoints(
+          { x: origin.x + departure.dx / zoom, y: origin.y + departure.dy / zoom },
+          { x: destination.x + arrival.dx / zoom, y: destination.y + arrival.dy / zoom },
+          Math.max(source.height, target.height) / zoom,
+        );
+        style['control-point-weights'] = controls.map(p => ((p.x - origin.x) * dx + (p.y - origin.y) * dy) / squared);
+        style['control-point-distances'] = controls.map(p => (dx * (p.y - origin.y) - dy * (p.x - origin.x)) / Math.sqrt(squared));
+      } else {
+        style['control-point-weights'] = [0.25, 0.75];
+        style['control-point-distances'] = [100, -100];
+      }
+    }
+    edge.style(style);
   });
 }

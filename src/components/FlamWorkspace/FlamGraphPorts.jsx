@@ -3,7 +3,7 @@ import { useCommonTranslation } from '../../i18n/commonPresentation.js';
 import { GraphLinkPort } from '../AdvancedGraphCanvas/GraphLinkPort.jsx';
 import { linkHandlePx } from '../AdvancedGraphCanvas/nodeOverlayMetrics.js';
 import { Plus } from '../icons/LucideLocal.jsx';
-import { createFlamLinkDrag } from './flamGraphLinks.js';
+import { createFlamLinkDrag, flamLinkDraftPath } from './flamGraphLinks.js';
 
 export function FlamGraphPorts({ cy, hostRef, document, nodes, zoom, onDrop, onArm, onBegin, onSelect, onHover, onHighlight }) {
   const { t } = useCommonTranslation();
@@ -30,7 +30,7 @@ export function FlamGraphPorts({ cy, hostRef, document, nodes, zoom, onDrop, onA
       {draft.candidate && <rect x={draft.candidate.x - draft.candidate.width / 2 - 6}
         y={draft.candidate.y - draft.candidate.height / 2 - 6} width={draft.candidate.width + 12} height={draft.candidate.height + 12}
         rx="10" data-reach={draft.valid ? 'valid' : 'invalid'} />}
-      <line x1={draft.anchor.x} y1={draft.anchor.y} x2={draft.pointer.x} y2={draft.pointer.y} />
+      <path d={flamLinkDraftPath(draft.anchor, draft.pointer)} />
     </svg>}
     <div className="advanced-node-overlays flam-link-overlays" style={{
       '--link-handle-size': `${linkHandlePx(zoom)}px`, '--port-dot-size': `${Math.max(6, Math.min(10, 7 * zoom))}px`,

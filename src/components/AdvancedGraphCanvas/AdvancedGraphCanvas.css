@@ -374,7 +374,9 @@
   pointer-events: none;
 }
 
-.advanced-link-draft line {
+.advanced-link-draft line,
+.advanced-link-draft path {
+  fill: none;
   stroke: var(--accent-2);
   stroke-width: 2.6;
   stroke-dasharray: 6 4;

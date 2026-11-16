@@ -18,7 +18,9 @@ export function flamGraphStyles(c) {
     { selector: 'edge', style: {
       width: 1.5, 'line-color': c.muted, 'target-arrow-color': c.muted,
       'target-arrow-shape': 'triangle', 'arrow-scale': 0.85,
-      'curve-style': 'bezier', 'control-point-step-size': 76,
+      'curve-style': 'unbundled-bezier', 'edge-distances': 'node-position',
+      'control-point-weights': [0.25, 0.75], 'control-point-distances': [40, -40],
+      'control-point-step-size': 76,
       label: 'data(label)', color: c.text, 'font-size': 11,
       'text-wrap': 'wrap', 'text-max-width': 126,
       'text-background-color': c.surface, 'text-background-opacity': 0.96,
@@ -29,7 +31,7 @@ export function flamGraphStyles(c) {
     } },
     { selector: 'edge[?conditional]', style: { 'line-style': 'dashed', 'line-dash-pattern': [5, 4] } },
     { selector: 'edge[?selfLoop]', style: {
-      label: '', opacity: 0.55, 'control-point-step-size': 140,
+      label: '', opacity: 0.55, 'curve-style': 'bezier', 'control-point-step-size': 140,
     } },
     { selector: 'edge:selected, edge.is-hovered, edge.is-port-focused', style: {
       width: 2.2, opacity: 1, 'line-color': c.accent, 'target-arrow-color': c.accent,
