@@ -5,7 +5,8 @@ prototypes. Le document et son enveloppe sont retenus dans
 l’[ADR 0001](../../docs/adr/0001-document-aventure-flam.md). L’édition visuelle
 est disponible ; le runtime piloté par le document passe le harnais Lua.
 La génération du pack et le transfert protégé sont disponibles dans l’éditeur ;
-le parcours matériel complet reste à valider.
+le parcours matériel guidé est validé sur FLAM 2.4.1, avec les limites
+consignées dans le [bilan matériel](validation-05.md).
 
 ## Résultat attendu
 
@@ -130,7 +131,8 @@ Le ticket 03 ajoute le runtime générique et ses données Lua générées, vér
 sur hôte simulé, selon la [validation du lot 03](validation-03.md).
 Le ticket 04 ajoute le pack contrôlé, la préparation des médias et le transfert
 explicite depuis l’éditeur, selon la [validation du lot 04](validation-04.md).
-Le jalon complet ne sera terminé qu’au ticket 05.
+Le ticket 05 est résolu après le parcours matériel guidé confirmé par
+l’utilisateur le 16 novembre 2026 ; voir le [bilan et ses limites](validation-05.md).
 
 ## Acceptation du jalon complet
 
