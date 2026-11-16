@@ -265,3 +265,18 @@ test('créer une scène depuis une plage de dé rebranche cette plage sans ajout
     mounted.store.undo(); assert.deepEqual(mounted.store.readProject(), before);
   } finally { mounted.hook.unmount(); }
 });
+
+
+test('la relance de narration est optionnelle dans les anciens documents et conservée à la réouverture', async () => {
+  const mounted = mount(createExampleAdventure());
+  try {
+    const id = mounted.document.choices[0].id;
+    assert.equal(mounted.document.choices[0].replayAudioOnReturn, undefined);
+    mounted.edit({ type: 'patch', collection: 'choices', id, patch: { replayAudioOnReturn: false } });
+    const reopened = (await decodeProjectFile(encodeProjectFile(mounted.store.project))).project;
+    assert.equal(reopened.authoring.document.choices[0].replayAudioOnReturn, false);
+    assert.throws(() => mounted.edit({ type: 'patch', collection: 'choices', id, patch: { replayAudioOnReturn: null } }), error => error.path === '/choices/0/replayAudioOnReturn');
+    mounted.edit({ type: 'add', collection: 'choices', id: 'nouveau', sceneId: mounted.document.scenes[0].id });
+    assert.equal(mounted.document.choices.at(-1).replayAudioOnReturn, true);
+  } finally { mounted.hook.unmount(); }
+});

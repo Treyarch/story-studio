@@ -150,6 +150,14 @@ local function beginNarration()
     diagnostics()
 end
 
+-- Le choix est recalculé avant la sauvegarde, y compris lors d'une nouvelle tentative.
+local function followChoice(id)
+    local candidate, replayAudio = scenes.transition(partie, id, proposedRolls)
+    if candidate and commit(candidate, id) then
+        if replayAudio then beginNarration() else showChoices() end
+    end
+end
+
 local function click()
     if ticks - lastClick < 4 then return end
     lastClick = ticks
@@ -162,8 +170,8 @@ local function click()
         if pendingSave then
             local action = pendingSave.action
             local candidate = pendingSave.candidate
-            if action and action ~= "restart" then candidate = scenes.transition(partie, action, proposedRolls) end
-            if candidate and commit(candidate, action) then beginNarration() end
+            if action and action ~= "restart" then followChoice(action)
+            elseif candidate and commit(candidate, action) then beginNarration() end
         end
     elseif option.action == "cancel-save" then
         pendingSave = nil
@@ -182,8 +190,7 @@ local function click()
     elseif option.action == "inventory" then inventory()
     elseif option.action == "scene" then showChoices()
     elseif option.choiceId then
-        local candidate = scenes.transition(partie, option.choiceId, proposedRolls)
-        if candidate and commit(candidate, option.choiceId) then beginNarration() end
+        followChoice(option.choiceId)
     end
 end
 

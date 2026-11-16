@@ -307,3 +307,18 @@ fn structure_unknown_fields_and_rule_references_are_checked_at_the_native_bounda
     doc["choices"][3]["effects"][0]["quantity"] = (-1).into();
     assert!(document::validate(&doc).is_err());
 }
+
+
+#[test]
+fn replay_audio_on_return_accepts_legacy_documents_and_only_boolean_values() {
+    let mut doc = example();
+    assert!(document::validate(&doc).is_ok());
+    for value in [true, false] {
+        doc["choices"][0]["replayAudioOnReturn"] = value.into();
+        assert!(document::validate(&doc).is_ok());
+    }
+    for value in [Value::Null, Value::String("false".into()), 0.into()] {
+        doc["choices"][0]["replayAudioOnReturn"] = value;
+        assert!(document::validate(&doc).is_err());
+    }
+}

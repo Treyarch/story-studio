@@ -70,6 +70,16 @@ test('formulaires réels : renommage, choix, règles, destinations, diagnostic e
     assert.equal(mediaTarget.uuid, 'depart');
     await mediaTarget.assign({ kind: 'image', path: '/images/scene.png' });
     assert.equal(store.readProject().authoring.document.scenes[0].image, '/images/scene.png');
+    const replayLabel = 'Relancer la narration si ce choix revient à la même scène';
+    const replayField = () => choiceElements().find(e => e.props?.label === replayLabel);
+    assert.equal(replayField().props.checked, true);
+    replayField().props.onChange(false);
+    assert.equal(replayField().props.checked, false);
+    assert.equal(store.readProject().authoring.document.choices[0].replayAudioOnReturn, false);
+    store.undo(); store = storeHook.render();
+    assert.equal(replayField().props.checked, true);
+    store.redo(); store = storeHook.render();
+    assert.equal(replayField().props.checked, false);
     const choose = choiceElements();
     choose.find(e => e.props?.label === 'Texte du choix').props.onChange('Devenir pisteur');
     choiceElements().find(e => e.props?.label === 'Scène de destination').props.onChange('destination-absente');

@@ -57,7 +57,7 @@ const definitions = {
   scenes: [{ id: identifier, title: text, text, audio: value => value === null || text(value),
     image: value => value === null || text(value), ending: boolean, choices: [identifier] }],
   choices: [{ id: identifier, label: text, destination: reference, conditions: [condition], effects: [effect],
-    rewardId: reference, rollId: reference, unavailable: { mode: oneOf('disabled', 'hidden'), explanation: text } }],
+    rewardId: reference, rollId: reference, replayAudioOnReturn: value => value === undefined || boolean(value), unavailable: { mode: oneOf('disabled', 'hidden'), explanation: text } }],
   classes: [named],
   items: [named],
   events: [named],

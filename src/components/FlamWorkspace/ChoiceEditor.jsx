@@ -1,6 +1,6 @@
 import { useCommonTranslation } from '../../i18n/commonPresentation.js';
 import { Button } from '../common/Button.jsx';
-import { Field, ReferenceField, TextField } from './Fields.jsx';
+import { CheckField, Field, ReferenceField, TextField } from './Fields.jsx';
 import { RuleEditor } from './RuleEditor.jsx';
 
 export function ChoiceEditor({ choice, document, path, onPatch, onRemove }) {
@@ -14,6 +14,8 @@ export function ChoiceEditor({ choice, document, path, onPatch, onRemove }) {
     {choice.rollId === null
       ? <ReferenceField label={t('common:flam.destination')} path={`${path}/destination`} entries={document.scenes} value={choice.destination} onChange={destination => onPatch({ destination })} />
       : <ReferenceField label={t('common:flam.roll')} path={`${path}/rollId`} entries={document.rolls} value={choice.rollId} onChange={rollId => onPatch({ rollId, destination: null })} />}
+    <CheckField label={t('common:flam.choice.replayAudioOnReturn')} path={`${path}/replayAudioOnReturn`} checked={choice.replayAudioOnReturn !== false} onChange={replayAudioOnReturn => onPatch({ replayAudioOnReturn })} />
+    <p className="flam-hint">{t('common:flam.choice.replayAudioOnReturnHelp')}</p>
     <ReferenceField label={t('common:flam.reward')} path={`${path}/rewardId`} entries={document.rewards} value={choice.rewardId} onChange={rewardId => onPatch({ rewardId })} />
     <RuleEditor conditions rules={choice.conditions} document={document} path={`${path}/conditions`} onChange={conditions => onPatch({ conditions })} />
     <RuleEditor rules={choice.effects} document={document} path={`${path}/effects`} onChange={effects => onPatch({ effects })} />

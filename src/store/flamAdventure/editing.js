@@ -4,7 +4,7 @@ import { withFlamDocument, withFlamGraphLayout } from './project.js';
 
 export function newAdventureDefinition(collection, id) {
   if (collection === 'scenes') return { id, title: '', text: '', audio: null, image: null, ending: false, choices: [] };
-  if (collection === 'choices') return { id, label: '', destination: null, conditions: [], effects: [], rewardId: null, rollId: null, unavailable: { mode: 'disabled', explanation: '' } };
+  if (collection === 'choices') return { id, label: '', destination: null, conditions: [], effects: [], rewardId: null, rollId: null, replayAudioOnReturn: true, unavailable: { mode: 'disabled', explanation: '' } };
   if (collection === 'rewards') return { id, name: '', repeatable: false, effects: [] };
   if (collection === 'rolls') return { id, name: '', outcomes: [{ min: 1, max: 20, destination: null }] };
   if (['classes', 'items', 'events'].includes(collection)) return { id, name: '' };

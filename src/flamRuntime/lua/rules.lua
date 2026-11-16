@@ -125,7 +125,8 @@ function rules.transition(state, id, proposedRolls)
         end
     else candidate.sceneId = choice.destination end
     if not rules.validPartie(candidate) then return nil end
-    return candidate
+    local replayAudio = candidate.sceneId ~= state.sceneId or choice.replayAudioOnReturn ~= false
+    return candidate, replayAudio
 end
 
 function rules.inventory(state)

@@ -39,7 +39,12 @@ struct Choice {
     effects: Vec<Effect>,
     reward_id: Value,
     roll_id: Value,
+    #[serde(default = "default_replay_audio_on_return")]
+    replay_audio_on_return: bool,
     unavailable: Unavailable,
+}
+fn default_replay_audio_on_return() -> bool {
+    true
 }
 #[derive(Deserialize)]
 #[serde(deny_unknown_fields)]

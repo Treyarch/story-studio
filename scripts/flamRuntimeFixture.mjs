@@ -16,6 +16,10 @@ export function fixture(audio) {
       rewardId: null, rollId: null, unavailable: { mode: 'disabled', explanation: 'Action impossible' }, ...overrides });
   };
   add('clairiere', 'bonus-choix', 'Recevoir un jeton', { rewardId: 'bonus' });
+  add('clairiere', 'bonus-silencieux', 'Recevoir sans narration', { rewardId: 'bonus', replayAudioOnReturn: false });
+  document.rolls.push({ id: 'retour', name: 'Dé de retour', outcomes: [{ min: 1, max: 20, destination: 'clairiere' }] });
+  add('clairiere', 'jet-silencieux', 'Revenir par le dé sans narration', { destination: null, rollId: 'retour', replayAudioOnReturn: false });
+  add('clairiere', 'autre-scene', 'Changer de scène avec narration', { destination: 'rencontre-scene', replayAudioOnReturn: false });
   add('clairiere', 'meme-coffre', 'Reprendre autrement la clé', { rewardId: 'coffre' });
   add('clairiere', 'atomique', 'Tout ou rien', { effects: [
     { type: 'giveItem', itemId: 'jeton:"é\\', quantity: 1 },

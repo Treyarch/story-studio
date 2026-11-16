@@ -68,6 +68,13 @@ Les coordonnées ne font pas partie du document exporté sur FLAM. Un brouillon 
 reste éditable : ses liens incomplets ne sont pas dessinés, et ses diagnostics
 permettent de retrouver les champs concernés.
 
+Chaque choix propose « Relancer la narration si ce choix revient à la même
+scène ». Activé par défaut, ce réglage conserve la lecture habituelle. Désactivé,
+il affiche directement les choix actualisés après application des effets et
+sauvegarde, y compris si un jet ramène à la scène courante. Une destination
+différente joue toujours sa narration. Le champ optionnel `replayAudioOnReturn`
+vaut implicitement `true` dans les documents existants.
+
 ## Interface
 
 - `createAdventureDocument({ title })` crée un brouillon vide, une identité

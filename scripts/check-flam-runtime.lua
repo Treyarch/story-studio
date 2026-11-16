@@ -195,6 +195,35 @@ for _, className in ipairs({"Pisteur", "Ami des animaux"}) do
 end
 print("OK : classes, inventaire générique, récompense unique ou répétable, atomicité et fin")
 
+-- La narration est pilotée par le choix, sans perdre les effets ni la sauvegarde.
+fresh()
+local hasAudio = require("rules").describe(require("rules").initialPartie()).audio ~= nil
+local beforePlays = plays
+choose("Recevoir sans narration")
+advance(2)
+assert(plays == beforePlays)
+expect("La clairière")
+assert(saves.partie['item:jeton:"é\\'] == 1)
+rejectWrite = true
+choose("Recevoir sans narration")
+expect("Sauvegarde impossible")
+assert(saves.partie['item:jeton:"é\\'] == 1)
+rejectWrite = false
+choose("Réessayer")
+advance(2)
+assert(plays == beforePlays and saves.partie['item:jeton:"é\\'] == 2)
+choose("Revenir par le dé sans narration")
+advance(2)
+assert(plays == beforePlays and saves.partie['roll:retour'] == 7)
+expect("Dé de retour : 7 / 20")
+travel("Recevoir un jeton") -- Champ absent : la narration reste activée.
+assert(plays == beforePlays + (hasAudio and 1 or 0))
+beforePlays = plays
+travel("Changer de scène avec narration")
+assert(plays == beforePlays + (hasAudio and 1 or 0))
+expect("La rencontre")
+print("OK : retour sans narration, effets, nouvelle tentative, jet et autre scène")
+
 for result = 1, 20 do
     fresh()
     reachRoll()
