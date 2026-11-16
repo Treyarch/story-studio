@@ -1,14 +1,16 @@
+import { flamGraphNodeHeight } from './flamGraphGeometry.js';
+
 // Présentation seule : les états et règles de partie restent dans le document.
 export function flamGraphStyles(c) {
   return [
     { selector: 'node', style: {
-      shape: 'round-rectangle', width: 190, height: 84,
+      shape: 'round-rectangle', width: 190, height: flamGraphNodeHeight,
       'background-color': c.background, 'border-color': c.border, 'border-width': 1.5,
       label: 'data(label)', color: c.text, 'font-size': 13, 'font-weight': 500,
       'text-wrap': 'wrap', 'text-max-width': 156, 'text-valign': 'center',
       'text-halign': 'center',
     } },
-    { selector: 'node[collection = "rolls"]', style: { shape: 'diamond', width: 170, height: 110, 'background-color': c.action } },
+    { selector: 'node[collection = "rolls"]', style: { shape: 'diamond', width: 170, 'background-color': c.action } },
     { selector: 'node[?start]', style: { 'border-color': c.accent, 'border-width': 2 } },
     { selector: 'node[?ending]', style: { 'border-style': 'double', 'border-width': 4 } },
     { selector: 'node:selected', style: {

@@ -2,6 +2,7 @@ import { autoPanVelocity, linkDropCandidate } from '../../store/advancedAuthorin
 import { isCurrentFlamLinkPort } from '../../store/flamAdventure/graphLinks.js';
 import { linkHandlePx } from '../AdvancedGraphCanvas/nodeOverlayMetrics.js';
 import { captureFlamGraphLayout } from './flamGraphSync.js';
+import { FLAM_PORT_SPACING } from './flamGraphGeometry.js';
 
 export function flamGraphPortNodes(cy, hovered = null) {
   const zoom = cy.zoom();
@@ -18,7 +19,7 @@ export function flamGraphPortNodes(cy, hovered = null) {
         { key: 'arrival', role: 'arrival', dx: -width / 2 - offset, dy: 0 },
         ...departures.map((port, index) => ({
           key: port.key, role: 'departure', port, dx: width / 2 + offset,
-          dy: (index - (departures.length - 1) / 2) * Math.max(16, 22 * zoom),
+          dy: (index - (departures.length - 1) / 2) * Math.max(16, FLAM_PORT_SPACING * zoom),
         })),
         ...linkPorts.filter(port => port.kind === 'add').map(port => ({
           key: port.key, role: 'departure', port, dx: 0, dy: height / 2 + offset,
