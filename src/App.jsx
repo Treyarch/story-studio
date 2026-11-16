@@ -138,6 +138,8 @@ function AppContent() {
   });
   const workspaceViewState = useWorkspaceViewState();
   const advancedWorkspaceViewState = useAdvancedWorkspaceViewState();
+  const flamWorkspaceViewState = useAdvancedWorkspaceViewState({ scope: 'flam' });
+  const graphWorkspaceViewState = isFlamProject(store.project) ? flamWorkspaceViewState : advancedWorkspaceViewState;
   // Consolidation des booléens d'ouverture de modales/overlays. Les flags
   // qui portent une donnée restent des useState dédiés (toolbarTtsTarget,
   // youtubeFunnelMode, pendingSimulateZip).
@@ -1474,26 +1476,26 @@ function AppContent() {
       onContinueInGraph: commands.continueInGraph,
       onUndo: commands.undo,
       onRedo: commands.redo,
-      panels: isAdvanced ? {
+      panels: isAdvanced || isFlamProject(store.project) ? {
         showGraph: true,
-        showNodeList: advancedWorkspaceViewState.showNodeList,
-        showInspector: advancedWorkspaceViewState.showInspector,
+        showNodeList: graphWorkspaceViewState.showNodeList,
+        showInspector: graphWorkspaceViewState.showInspector,
       } : {
         showTree: workspaceViewState.showTree,
         showSettings: workspaceViewState.showSettings,
         showDiagram: workspaceViewState.showDiagram,
       },
-      panelOrder: isAdvanced
-        ? advancedWorkspaceViewState.panelOrder
+      panelOrder: isAdvanced || isFlamProject(store.project)
+        ? graphWorkspaceViewState.panelOrder
         : workspaceViewState.panelOrder,
-      onMovePanel: isAdvanced
-        ? advancedWorkspaceViewState.movePanel
+      onMovePanel: isAdvanced || isFlamProject(store.project)
+        ? graphWorkspaceViewState.movePanel
         : workspaceViewState.movePanel,
       onToggleTree: workspaceViewState.toggleTree,
       onToggleSettings: workspaceViewState.toggleSettings,
       onToggleDiagram: workspaceViewState.toggleDiagram,
-      onToggleNodeList: advancedWorkspaceViewState.toggleNodeList,
-      onToggleInspector: advancedWorkspaceViewState.toggleInspector,
+      onToggleNodeList: graphWorkspaceViewState.toggleNodeList,
+      onToggleInspector: graphWorkspaceViewState.toggleInspector,
       onGenerate: handleProduce,
       issueKind: isAdvanced ? 'advanced' : 'hierarchical',
       validationIssues,
@@ -1516,8 +1518,8 @@ function AppContent() {
       onStartAdvancedProject: handleStartAdvancedProject,
       onStartFlamProject: handleStartFlamProject,
       flam: {
+        panelViewState: flamWorkspaceViewState,
         onEdit: (epoch, command) => commitAdventureEdit(store, epoch, command),
-        onOpenMedia: () => bottomWorkspace.openTab('media'),
       },
       onEditPack: commands.openPack,
       onPodcastFunnel: () => modals.open('podcastFunnel'),

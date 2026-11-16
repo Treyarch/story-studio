@@ -36,7 +36,9 @@ const { RuleEditor } = await import('../src/components/FlamWorkspace/RuleEditor.
 const { suggestProjectName } = await import('../src/store/projectSaveName.js');
 const resources = createTestI18n().options.resources;
 i18next.init({ lng: 'fr', resources, initAsync: false, keySeparator: false, interpolation: { escapeValue: false } });
-const elements = node => !node || typeof node !== 'object' ? [] : Array.isArray(node) ? node.flatMap(elements) : [node, ...elements(node.props?.children)];
+const elements = node => node?.type?.name === 'GraphWorkspacePanels'
+  ? ['advanced-node-list', 'advanced-graph', 'advanced-inspector'].flatMap(id => elements(node.props.renderPanel(id, {})))
+  : !node || typeof node !== 'object' ? [] : Array.isArray(node) ? node.flatMap(elements) : [node, ...elements(node.props?.children)];
 const componentElements = element => {
   const hook = runner(() => element.type(element.props));
   try { return elements(hook.render()); } finally { hook.unmount(); }
@@ -150,7 +152,7 @@ test('graphe principal : sélection de scène, lien vers un jet et édition part
     assert.equal(graph().props.graphLayout.positions[0].x, 120);
     render().find(e => e.props?.label === 'Titre de la scène').props.onChange('Une nouvelle clairière');
     assert.equal(graph().props.document.scenes.find(s => s.id === 'clairiere').title, 'Une nouvelle clairière');
-    graph().props.onConnect('clairiere', 'rolls', 'rencontre');
+    graph().props.onLink({ key: 'add', kind: 'add', sceneId: 'clairiere' }, { collection: 'rolls', id: 'rencontre' });
     const selected = graph().props.selection;
     assert.equal(selected.collection, 'choices');
     const choice = store.readProject().authoring.document.choices.find(c => c.id === selected.id);

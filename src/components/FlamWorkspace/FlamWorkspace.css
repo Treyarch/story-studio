@@ -9,32 +9,12 @@
   background: var(--bg2);
 }
 
-.flam-header, .flam-section-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.flam-header {
-  padding: 16px 24px;
-  border-bottom: 1px solid var(--border);
-}
-
-.flam-header h1 { margin: 0; font-size: var(--text-display); }
-.flam-header p { margin: 6px 0 0; color: var(--muted); }
-.flam-columns { display: flex; flex: 1; min-height: 0; }
-.flam-navigation { width: 170px; flex-shrink: 0; overflow: auto; padding: 16px; border-right: 1px solid var(--border); }
-.flam-navigation h2, .flam-diagnostics h2 { font-size: var(--text-title); margin: 0 0 8px; }
-.flam-navigation section { margin-bottom: 18px; }
-.flam-navigation ul, .flam-diagnostics ul { list-style: none; margin: 0; padding: 0; }
-.flam-navigation button, .flam-diagnostics button { text-align: left; width: 100%; background: transparent; color: inherit; border: 0; border-radius: var(--radius-sm); padding: 8px; cursor: pointer; overflow-wrap: anywhere; }
-.flam-navigation button:hover, .flam-diagnostics button:hover { background: var(--bg3); }
-.flam-navigation button[aria-current] { background: var(--accent-dim); color: var(--accent); }
-.flam-navigation h2 button { font-weight: var(--weight-semibold); }
-.flam-inspector { width: clamp(340px, 30vw, 460px); flex-shrink: 0; min-height: 0; overflow: auto; border-left: 1px solid var(--border); }
-.flam-content { min-width: 0; padding: 20px; }
+.flam-workspace > .advanced-workspace { flex: 1; }
+.flam-section-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.flam-navigation { flex: 1; min-width: 0; }
+.flam-navigation .advanced-search__scopes { padding: 10px 12px; }
+.flam-node-row { width: 100%; border: 0; background: transparent; color: inherit; text-align: left; font: inherit; }
+.flam-inspector { min-width: 0; }
 .flam-content h2 { font-size: var(--text-title); }
 .flam-content h3 { margin-top: 24px; }
 .flam-definition { max-width: 900px; }
@@ -54,30 +34,66 @@
 .flam-diagnostics { padding: 20px; border-top: 1px solid var(--border); }
 .flam-diagnostic { border-left: 3px solid var(--danger); margin: 12px 0; }
 .flam-diagnostic--warning { border-left-color: var(--warning); }
+.flam-diagnostic button { display: block; width: 100%; text-align: left; background: transparent; color: inherit; border: 0; padding: 8px; cursor: pointer; }
+.flam-diagnostics ul { list-style: none; padding: 0; }
 .flam-diagnostic span { display: block; margin-top: 6px; line-height: 1.5; }
-.flam-workspace :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
-/* Le graphe garde la place centrale ; les formulaires suivent sur petit écran. */
-.flam-header-actions, .flam-graph-toolbar, .flam-graph-camera { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
-.flam-header-actions { position: relative; }
-.flam-production-menu > summary { cursor: pointer; padding: 10px; border: 1px solid var(--border); border-radius: var(--radius-sm); }
-.flam-production-menu .flam-production { position: absolute; right: 0; top: 100%; z-index: 20; width: min(380px, 80vw); max-height: 70vh; overflow: auto; box-shadow: 0 8px 24px #0004; }
+/* Les panneaux, la caméra et la liste utilisent les styles du graphe commun. */
+.flam-production-menu { position: relative; }
+.flam-production-menu > summary { cursor: pointer; list-style: none; }
+.flam-production-menu > summary::-webkit-details-marker { display: none; }
+.flam-production-menu .flam-production { position: absolute; right: 0; top: 100%; z-index: 20; width: min(360px, 70vw); max-height: 70vh; overflow: auto; box-shadow: 0 8px 24px #0004; }
 .flam-production p { overflow-wrap: anywhere; }
 .flam-production button { margin: 4px 0; width: 100%; }
-.flam-graph { position: relative; flex: 1; min-width: 260px; min-height: 350px; display: flex; flex-direction: column; background: var(--bg2); }
-.flam-graph-toolbar { padding: 10px; border-bottom: 1px solid var(--border); }
-.flam-graph-camera { margin-left: auto; }
-.flam-graph-canvas { flex: 1; min-height: 280px; background-image: radial-gradient(var(--border) 1px, transparent 1px); background-size: 20px 20px; }
-.flam-graph-help { padding: 8px 12px; margin: 0; color: var(--muted); font-size: var(--text-control); border-top: 1px solid var(--border); }
+.flam-graph { flex: 1; }
+.flam-link-tools { position: absolute; z-index: 3; top: 10px; left: 80px; right: 12px; display: flex; gap: 8px; padding: 8px; background: var(--bg1); border: 1px solid var(--border); border-radius: var(--radius-sm); }
+.flam-link-tools select { min-width: 0; flex: 1; }
+.flam-graph-help { position: absolute; left: 75px; right: 12px; top: 55px; padding: 8px 12px; margin: 0; color: var(--text-secondary); background: var(--bg1); font-size: var(--text-control); border-radius: var(--radius-sm); }
 .flam-graph-empty { position: absolute; top: 45%; left: 12%; right: 12%; text-align: center; pointer-events: none; color: var(--muted); }
+.flam-link-overlays .is-arrival::before { background: var(--bg0); border: 1.5px solid var(--text-secondary); }
+.flam-link-overlays button:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
 
-@media (max-width: 1100px) {
-  .flam-navigation { width: 140px; padding: 10px; }
-  .flam-inspector { width: 340px; }
+/* Ajouter un choix est un geste distinct : une prise + sous la carte,
+ * les sorties existantes restent alignées sur son bord droit. */
+.flam-link-overlays .advanced-node-overlay__ports button::before {
+  transition: background 120ms ease, box-shadow 120ms ease;
 }
-@media (max-width: 800px) {
-  .flam-columns { flex-wrap: wrap; overflow: auto; }
-  .flam-navigation { width: 140px; max-height: 450px; }
-  .flam-graph { min-height: 450px; }
-  .flam-inspector { width: 100%; overflow: visible; border-left: 0; border-top: 1px solid var(--border); }
+.flam-link-overlays .advanced-node-overlay__ports button:hover::before,
+.flam-link-overlays .advanced-node-overlay__ports button:focus-visible::before {
+  background: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-dim);
 }
+.flam-link-overlays .advanced-node-overlay__ports button.is-add { color: var(--accent-text); }
+.flam-link-overlays .advanced-node-overlay__ports button.is-add::before {
+  width: calc(var(--port-dot-size) + 6px);
+  height: calc(var(--port-dot-size) + 6px);
+  border: 1px solid var(--accent-border);
+  background: var(--bg1);
+}
+.flam-link-overlays .advanced-node-overlay__ports button.is-add svg {
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  stroke-width: 2;
+}
+.flam-link-overlays [data-emphasized="true"] button.is-add::before {
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
+.flam-node-badge {
+  position: absolute;
+  top: -9px; left: 10px;
+  padding: 1px 7px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg0);
+  color: var(--text-secondary);
+  font: 600 9px/14px var(--font-sans);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.flam-node-badge.is-start { color: var(--accent-text); border-color: var(--accent-border); }

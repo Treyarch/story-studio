@@ -18,14 +18,45 @@ installation » en tête de l’atelier ; voir le [runtime](../../flamRuntime/RE
 Le graphe est la vue principale. Les scènes sont des cartes, les jets des
 losanges ; les liens portent les choix et les plages du dé. Le départ et
 les fins ont des repères distincts. Les liens conditionnels sont pointillés.
-Une sélection ouvre le formulaire correspondant dans le panneau de droite.
-La navigation de gauche offre aussi un accès clavier aux mêmes définitions.
+Une sélection ouvre le formulaire correspondant dans le panneau Réglages.
+La liste des définitions offre aussi un accès clavier aux mêmes éléments.
+
+L’atelier partage avec l’Éditeur graphe le châssis `GraphWorkspacePanels`,
+les en-têtes, les commandes de barre et `GraphSurfaceControls` : panneaux
+déplaçables, redimensionnables et refermables, zoom avec pourcentage, cadrage,
+navigation Précédent/Suivant et vue d’ensemble. Les préférences de panneaux
+FLAM sont conservées séparément des préférences de l’éditeur avancé.
+La sélection rouvre les réglages masqués ; les outils média passent de la
+liste au graphe lorsque la liste est fermée.
+
+La recherche et les filtres de liste portent les scènes, classes, objets,
+événements, récompenses, jets et choix. Les filtres de liens distinguent choix,
+conditions et jets. L’adaptateur `flamGraphControls` traduit seulement la
+caméra et les nœuds vers les commandes communes : il ne projette pas les
+règles FLAM dans le modèle Lunii.
 
 « Relier depuis cette scène » crée un choix vers une scène ou un jet, par
 clic dans le graphe ou par la liste de destinations. Ce geste et le rattachement
 à la scène sont un unique pas d’annulation. Pour prolonger une fin, il faut
 retirer son statut de fin. Les règles et médias restent édités par les mêmes
 formulaires et commandes ; aucun moteur de jeu n’est ajouté au graphe.
+
+Les prises permettent aussi le raccordement direct par glissement. La prise
+creuse d’une scène ajoute un choix ; ses autres prises déplacent les liens
+existants. Un jet possède une prise par plage de péripéties, dirigée uniquement
+vers une scène. Une fin conserve son arrivée sans prise de sortie. Les traits
+et prises utilisent les mêmes coordonnées, y compris après zoom.
+
+Le geste reprend la prise commune `GraphLinkPort`, le criblage de cible et le
+déplacement de caméra aux bords de l’éditeur d’origine. Échap, une annulation
+du pointeur, une perte de focus ou un démontage annulent le glissement. La
+cible et le document vivant sont relus au relâchement. Le clavier permet
+d’activer une prise puis de choisir la destination dans la liste.
+
+Un dépôt dans le vide ouvre la création d’une scène ou d’un jet relié. Le
+nouveau nœud, son placement et le raccordement forment un seul pas d’annulation.
+Annuler le dialogue ne modifie rien. Les bornes d’une plage, les conditions,
+effets et récompenses d’un choix sont conservés lors d’un changement de cible.
 
 Déplacement des cartes, zoom, cadrage et réorganisation sont des gestes de
 vue. Le placement manuel et la réorganisation sont enregistrés dans
@@ -100,6 +131,8 @@ Le module n’exécute pas les règles et ne valide aucune sauvegarde d’appare
 ```sh
 node --test scripts/flamAdventure.test.mjs scripts/flamAdventurePersistence.test.mjs
 node --test scripts/flamEditing.test.mjs scripts/flamEditorInteraction.test.mjs scripts/flamGraph.test.mjs
+node --test scripts/flamWorkspacePanels.test.mjs scripts/flamWorkspaceViewState.test.mjs
+node --test scripts/flamGraphLinks.test.mjs scripts/flamGraphPorts.test.mjs
 ```
 
 Ces tests passent par le module, les codecs réels, le store sous double

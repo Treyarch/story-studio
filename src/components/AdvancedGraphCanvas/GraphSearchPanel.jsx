@@ -62,6 +62,7 @@ export function GraphNodeListActions({
   onClose,
   surfaceTools = null,
   dragHandleProps = {},
+  workspaceMode = WORKSPACE_MODE_ADVANCED,
 }) {
   useTranslation('graph', { i18n: graphTranslationEngine() });
   return (
@@ -71,7 +72,7 @@ export function GraphNodeListActions({
     >
       <StructureActionsBar
         variant="panel"
-        workspaceMode={WORKSPACE_MODE_ADVANCED}
+        workspaceMode={workspaceMode}
         ariaLabel={t("graph:search.nodeListTools.label")}
         onImportMedia={surfaceTools?.onImportMedia}
         onImportPodcast={surfaceTools?.onImportPodcast}

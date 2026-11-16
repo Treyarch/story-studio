@@ -190,3 +190,9 @@ test('aucun des quatre outils n’écrit dans le document en cours de route', ()
     }
   }
 });
+
+
+test('les outils FLAM ont les mêmes actions et le même point d’arrivée que le graphe', () => {
+  assert.deepEqual(mediaToolActionIds('flam'), mediaToolActionIds(WORKSPACE_MODE_ADVANCED));
+  assert.equal(mediaToolLanding('flam'), MEDIA_LANDING_LIBRARY);
+});

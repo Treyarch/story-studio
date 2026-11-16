@@ -186,7 +186,7 @@ export function buildToolbarInventory({
     });
   }
 
-  if (advanced) {
+  if (advanced || flam) {
     // Le graphe reste la surface principale et n'a donc pas de commande
     // de fermeture. La liste de nœuds et l'inspecteur reprennent le même groupe
     // de panneaux que le Libre, avec une préférence distincte par éditeur.

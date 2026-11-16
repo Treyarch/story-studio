@@ -89,7 +89,7 @@ test('les préférences de panneaux sont locales, partagées par éditeur et sé
     new URL('../src/workspace/useAdvancedWorkspaceViewState.js', import.meta.url),
     'utf8',
   );
-  assert.match(source, /export function useAdvancedWorkspaceViewState\(\)/);
+  assert.match(source, /export function useAdvancedWorkspaceViewState\(/);
   assert.match(source, /usePersistentState/);
   assert.doesNotMatch(source, /useProjectStore|setProject|runGesture|authoring/);
   // Un objet neuf à chaque rendu de l'hôte relance les rappels de l'Éditeur

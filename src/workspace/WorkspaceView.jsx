@@ -395,9 +395,11 @@ export function WorkspaceView({
   if (workspaceMode === WORKSPACE_MODE_FLAM) {
     return (
       <div className="screen visible">
-        <Suspense fallback={<p>{t('common:workspace.graph.loading')}</p>}>
-          <FlamWorkspace key={projectEpoch} project={project} projectEpoch={projectEpoch} {...flam} />
-        </Suspense>
+        <div className="workspace workspace--advanced">
+          <Suspense fallback={<p className="workspace-advanced-loading">{t('common:workspace.graph.loading')}</p>}>
+            <FlamWorkspace key={projectEpoch} project={project} projectEpoch={projectEpoch} {...flam} />
+          </Suspense>
+        </div>
       </div>
     );
   }

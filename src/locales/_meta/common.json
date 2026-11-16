@@ -2087,28 +2087,6 @@
       "status": "ai-reviewed"
     }
   },
-  "flam.editor.help": {
-    "context": "Atelier FLAM : graphe principal et panneau de sélection.",
-    "en": {
-      "sourceHash": "274f6e5df03a",
-      "status": "ai-reviewed"
-    },
-    "it": {
-      "sourceHash": "274f6e5df03a",
-      "status": "ai-reviewed"
-    }
-  },
-  "flam.media.open": {
-    "context": "Éditeur d’aventure personnelle FLAM ; Ouvrir la médiathèque",
-    "en": {
-      "sourceHash": "c6ddb79b3b42",
-      "status": "ai-reviewed"
-    },
-    "it": {
-      "sourceHash": "c6ddb79b3b42",
-      "status": "ai-reviewed"
-    }
-  },
   "flam.navigation": {
     "context": "Éditeur d’aventure personnelle FLAM ; Définitions de l’aventure",
     "en": {
@@ -3440,50 +3418,6 @@
       "status": "ai-reviewed"
     }
   },
-  "flam.graph.zoomIn": {
-    "context": "Atelier FLAM : graphe principal et panneau de sélection.",
-    "en": {
-      "sourceHash": "d32790b1ffa7",
-      "status": "ai-reviewed"
-    },
-    "it": {
-      "sourceHash": "d32790b1ffa7",
-      "status": "ai-reviewed"
-    }
-  },
-  "flam.graph.zoomOut": {
-    "context": "Atelier FLAM : graphe principal et panneau de sélection.",
-    "en": {
-      "sourceHash": "cd3ff404f6f8",
-      "status": "ai-reviewed"
-    },
-    "it": {
-      "sourceHash": "cd3ff404f6f8",
-      "status": "ai-reviewed"
-    }
-  },
-  "flam.graph.fit": {
-    "context": "Atelier FLAM : graphe principal et panneau de sélection.",
-    "en": {
-      "sourceHash": "ecca5f45eb3b",
-      "status": "ai-reviewed"
-    },
-    "it": {
-      "sourceHash": "ecca5f45eb3b",
-      "status": "ai-reviewed"
-    }
-  },
-  "flam.graph.arrange": {
-    "context": "Atelier FLAM : graphe principal et panneau de sélection.",
-    "en": {
-      "sourceHash": "ace7da62c146",
-      "status": "ai-reviewed"
-    },
-    "it": {
-      "sourceHash": "ace7da62c146",
-      "status": "ai-reviewed"
-    }
-  },
   "flam.graph.empty": {
     "context": "Atelier FLAM : graphe principal et panneau de sélection.",
     "en": {
@@ -3492,17 +3426,6 @@
     },
     "it": {
       "sourceHash": "799838d7889b",
-      "status": "ai-reviewed"
-    }
-  },
-  "flam.graph.help": {
-    "context": "Atelier FLAM : graphe principal et panneau de sélection.",
-    "en": {
-      "sourceHash": "512b867b0d49",
-      "status": "ai-reviewed"
-    },
-    "it": {
-      "sourceHash": "512b867b0d49",
       "status": "ai-reviewed"
     }
   },
@@ -3536,6 +3459,94 @@
     },
     "it": {
       "sourceHash": "118118316596",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.graph.selectSource": {
+    "context": "Atelier FLAM : commandes et panneaux partagés du graphe.",
+    "en": {
+      "sourceHash": "baa079e9f927",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "baa079e9f927",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.graph.port.choice": {
+    "context": "Prises de liaison FLAM : glissement, cibles et création de nœud.",
+    "en": {
+      "sourceHash": "58ce7c18ed31",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "58ce7c18ed31",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.graph.port.outcome": {
+    "context": "Prises de liaison FLAM : glissement, cibles et création de nœud.",
+    "en": {
+      "sourceHash": "86632cdb085e",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "86632cdb085e",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.graph.port.arrival": {
+    "context": "Prises de liaison FLAM : glissement, cibles et création de nœud.",
+    "en": {
+      "sourceHash": "76a955df34fb",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "76a955df34fb",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.graph.port.invalid": {
+    "context": "Prises de liaison FLAM : glissement, cibles et création de nœud.",
+    "en": {
+      "sourceHash": "1701b516a9e6",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "1701b516a9e6",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.graph.port.dragHelp": {
+    "context": "Prises de liaison FLAM : glissement, cibles et création de nœud.",
+    "en": {
+      "sourceHash": "a162e65d9cb9",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "a162e65d9cb9",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.graph.port.createTitle": {
+    "context": "Prises de liaison FLAM : glissement, cibles et création de nœud.",
+    "en": {
+      "sourceHash": "f3f580c3e728",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "f3f580c3e728",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.graph.port.createAction": {
+    "context": "Prises de liaison FLAM : glissement, cibles et création de nœud.",
+    "en": {
+      "sourceHash": "5dbe445d5afc",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "5dbe445d5afc",
       "status": "ai-reviewed"
     }
   }

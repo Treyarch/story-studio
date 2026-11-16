@@ -22,14 +22,14 @@
 // pas montrées — ni telles quelles, ni déguisées. L'import de fichiers y prend
 // la seule forme qui ait un sens : l'entrée dans la bibliothèque.
 
-import { WORKSPACE_MODE_ADVANCED } from './projectWorkState.js';
+import { WORKSPACE_MODE_ADVANCED, WORKSPACE_MODE_FLAM } from './projectWorkState.js';
 
 export const MEDIA_LANDING_TREE = 'tree';
 export const MEDIA_LANDING_LIBRARY = 'library';
 
 /** Où atterrit le son produit par un outil, selon l'éditeur ouvert. */
 export function mediaToolLanding(workspaceMode) {
-  return workspaceMode === WORKSPACE_MODE_ADVANCED ? MEDIA_LANDING_LIBRARY : MEDIA_LANDING_TREE;
+  return [WORKSPACE_MODE_ADVANCED, WORKSPACE_MODE_FLAM].includes(workspaceMode) ? MEDIA_LANDING_LIBRARY : MEDIA_LANDING_TREE;
 }
 
 // Les actions de la barre. Les identifiants sont ceux que la barre peint ;
@@ -71,7 +71,7 @@ const GRAPH_BAR = Object.freeze([
 
 /** Les actions qui ont un objet dans cet éditeur, dans leur ordre d'apparition. */
 export function mediaToolActionIds(workspaceMode) {
-  return workspaceMode === WORKSPACE_MODE_ADVANCED ? GRAPH_BAR : TREE_BAR;
+  return [WORKSPACE_MODE_ADVANCED, WORKSPACE_MODE_FLAM].includes(workspaceMode) ? GRAPH_BAR : TREE_BAR;
 }
 
 /**

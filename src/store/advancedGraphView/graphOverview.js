@@ -35,22 +35,31 @@ export function buildOverview(index, livePositions = null) {
   if (entries.length === 0) return null;
   const roles = nodeRoles(index);
 
+  return buildOverviewFromNodes(entries.map(entry => {
+    const moved = livePositions?.get(entry.path);
+    const role = roles.of(entry.path);
+    return {
+      path: entry.path, kind: entry.kind,
+      x: moved?.x ?? entry.node.layout?.x ?? 0,
+      y: moved?.y ?? entry.node.layout?.y ?? 0,
+      tone: role.entry ? 'entry' : role.hub ? 'hub' : null,
+    };
+  }));
+}
+
+// Géométrie commune aux ateliers ; chacun fournit ses nœuds et leurs repères.
+export function buildOverviewFromNodes(nodes) {
+  if (!nodes.length) return null;
   let minX = Infinity; let minY = Infinity; let maxX = -Infinity; let maxY = -Infinity;
   const landmarks = [];
   const ordinary = [];
-  for (const entry of entries) {
-    const moved = livePositions?.get(entry.path);
-    const x = moved?.x ?? entry.node.layout?.x ?? 0;
-    const y = moved?.y ?? entry.node.layout?.y ?? 0;
-    minX = Math.min(minX, x - CARD_HALF_WIDTH);
-    maxX = Math.max(maxX, x + CARD_HALF_WIDTH);
-    minY = Math.min(minY, y - CARD_HALF_HEIGHT);
-    maxY = Math.max(maxY, y + CARD_HALF_HEIGHT);
-    const role = roles.of(entry.path);
-    const tone = role.entry ? 'entry'
-      : role.hub ? 'hub'
-        : null;
-    (tone ? landmarks : ordinary).push({ path: entry.path, x, y, kind: entry.kind, tone });
+  for (const node of nodes) {
+    const { x, y } = node;
+    minX = Math.min(minX, x - (node.halfWidth ?? CARD_HALF_WIDTH));
+    maxX = Math.max(maxX, x + (node.halfWidth ?? CARD_HALF_WIDTH));
+    minY = Math.min(minY, y - (node.halfHeight ?? CARD_HALF_HEIGHT));
+    maxY = Math.max(maxY, y + (node.halfHeight ?? CARD_HALF_HEIGHT));
+    (node.tone ? landmarks : ordinary).push(node);
   }
 
   const width = Math.max(1, maxX - minX);
@@ -75,7 +84,7 @@ export function buildOverview(index, livePositions = null) {
 
   return {
     marks,
-    total: entries.length,
+    total: nodes.length,
     shown: marks.length,
     scale,
     project: (x, y) => ({ x: x * scale + offsetX, y: y * scale + offsetY }),

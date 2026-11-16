@@ -45,35 +45,37 @@ const INSPECTOR_WIDTH_CODEC = widthCodec(
 // Préférence locale propre à l'Éditeur graphe. Elle ne touche ni au document,
 // ni au store projet, ni à l'historique d'auteur. Le graphe est volontairement
 // absent des bascules : il se déplace, mais reste la surface principale.
-export function useAdvancedWorkspaceViewState() {
+export function useAdvancedWorkspaceViewState({ scope = 'advanced' } = {}) {
+  const prefix = scope === 'flam' ? 'FLAM' : 'ADVANCED';
+  const key = suffix => KEYS[`${prefix}_${suffix}`];
   const [showNodeList, setShowNodeList] = usePersistentState(
-    KEYS.ADVANCED_SHOW_NODE_LIST,
+    key('SHOW_NODE_LIST'),
     true,
     BOOL_CODEC,
   );
   const [showInspector, setShowInspector] = usePersistentState(
-    KEYS.ADVANCED_SHOW_INSPECTOR,
+    key('SHOW_INSPECTOR'),
     true,
     BOOL_CODEC,
   );
   // La Vue d'ensemble, la miniature du graphe. Fermée, elle ne calcule rien.
   const [showOverview, setShowOverview] = usePersistentState(
-    KEYS.ADVANCED_SHOW_OVERVIEW,
+    key('SHOW_OVERVIEW'),
     true,
     BOOL_CODEC,
   );
   const [panelOrder, setPanelOrder] = usePersistentState(
-    KEYS.ADVANCED_WORKSPACE_PANEL_ORDER,
+    key('WORKSPACE_PANEL_ORDER'),
     [...DEFAULT_ADVANCED_WORKSPACE_PANEL_ORDER],
     ADVANCED_WORKSPACE_PANEL_ORDER_CODEC,
   );
   const [nodeListPanelWidth, setStoredNodeListPanelWidth] = usePersistentState(
-    KEYS.ADVANCED_NODE_LIST_PANEL_WIDTH,
+    key('NODE_LIST_PANEL_WIDTH'),
     ADVANCED_NODE_LIST_WIDTH_DEFAULT,
     NODE_LIST_WIDTH_CODEC,
   );
   const [inspectorPanelWidth, setStoredInspectorPanelWidth] = usePersistentState(
-    KEYS.ADVANCED_INSPECTOR_PANEL_WIDTH,
+    key('INSPECTOR_PANEL_WIDTH'),
     ADVANCED_INSPECTOR_WIDTH_DEFAULT,
     INSPECTOR_WIDTH_CODEC,
   );

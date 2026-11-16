@@ -1,3 +1,4 @@
+import { planFlamGraphLink } from './graphLinks.js';
 import { AdventureDocumentError, editAdventureDefinition, replaceAdventureDocument } from './document.js';
 import { withFlamDocument, withFlamGraphLayout } from './project.js';
 
@@ -21,6 +22,15 @@ export function editAdventure(document, command) {
       if (!['title', 'startSceneId'].includes(field)) throw new AdventureDocumentError('INVALID_ADVENTURE_EDIT', `/${field}`);
     }
     Object.assign(next, patch);
+  } else if (type === 'linkNew') {
+    if (!['scenes', 'rolls'].includes(command.targetCollection)) throw new AdventureDocumentError('INVALID_ADVENTURE_EDIT', '/scenes');
+    const target = newAdventureDefinition(command.targetCollection, command.targetId);
+    if (command.targetCollection === 'scenes') target.title = command.name;
+    else target.name = command.name;
+    next[command.targetCollection].push(target);
+    const plan = planFlamGraphLink(next, command.port, { collection: command.targetCollection, id: target.id }, id);
+    if (!plan) throw new AdventureDocumentError('INVALID_ADVENTURE_EDIT', '/choices');
+    return replaceAdventureDocument(document, editAdventure(next, plan.command));
   } else if (type === 'connect') {
     if (!['scenes', 'rolls'].includes(command.targetCollection)) throw new AdventureDocumentError('INVALID_ADVENTURE_EDIT', '/scenes');
     const scene = next.scenes.find(scene => scene.id === sceneId);
@@ -68,7 +78,15 @@ export function commitAdventureEdit(store, epoch, command) {
   if (['patch', 'remove', 'removeChoice'].includes(command.type)
     && !project.authoring.document[command.collection ?? 'choices']?.some(entry => entry.id === command.id)) return { status: 'stale' };
   const document = editAdventure(project.authoring.document, command);
-  store.setProject(withFlamDocument(project, document));
+  let nextProject = withFlamDocument(project, document);
+  if (command.type === 'linkNew') {
+    const positions = (project.authoring.graphLayout?.positions ?? command.positions ?? [])
+      .filter(position => document[position.collection]?.some(entry => entry.id === position.id));
+    nextProject = withFlamGraphLayout(nextProject, [...positions, {
+      collection: command.targetCollection, id: command.targetId, ...command.position,
+    }]);
+  }
+  store.setProject(nextProject);
   return { status: 'applied' };
 }
 

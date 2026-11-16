@@ -1031,3 +1031,27 @@ for (const [workspaceMode, editor] of [['hierarchical', 'menus'], ['advanced', '
     assert.equal(elementByClass(elements, 'chrome-titlebar-project').props.children, 'Nom du projet');
   });
 }
+
+const { Toolbar } = await import('../src/components/layout/Toolbar.jsx');
+
+test('les bascules restent utilisables quand la barre affiche une suspension d’édition', () => {
+  const inventory = buildToolbarInventory({ workspaceMode: WORKSPACE_MODE_ADVANCED, canUndo: true });
+  let showNodeList = true;
+  let showInspector = true;
+  const render = suspensionNotice => mountSurface(createElement(Toolbar, {
+    inventory, suspensionNotice,
+    panels: { showGraph: true, showNodeList, showInspector },
+    panelOrder: DEFAULT_ADVANCED_WORKSPACE_PANEL_ORDER,
+    onToggleNodeList: () => { showNodeList = !showNodeList; },
+    onToggleInspector: () => { showInspector = !showInspector; },
+  }));
+  for (const [id, shown] of [['toggle-node-list', () => showNodeList], ['toggle-inspector', () => showInspector]]) {
+    elementByAttribute(render(null).elements, 'data-toolbar-id', id).props.onClick();
+    assert.equal(shown(), false);
+    const suspended = render('common:toolbar.gesture.suspended');
+    assert.match(suspended.html, /chrome-toolbar-notice/);
+    assert.doesNotMatch(suspended.html, /common:toolbar.gesture.suspended/);
+    elementByAttribute(suspended.elements, 'data-toolbar-id', id).props.onClick();
+    assert.equal(shown(), true);
+  }
+});

@@ -204,3 +204,64 @@ test('les placements invalides sont refusés et supprimer une définition retire
     assert.equal(mounted.store.readProject().authoring.graphLayout.positions.length, 2);
   } finally { mounted.hook.unmount(); }
 });
+
+const { flamLinkPorts, planFlamGraphLink } = await import('../src/store/flamAdventure/graphLinks.js');
+
+test('rebrancher un choix ou une plage conserve les règles et survit à l’historique et à la sauvegarde', async () => {
+  const mounted = mount(createExampleAdventure());
+  try {
+    const before = structuredClone(mounted.document);
+    const port = flamLinkPorts(before, 'scenes', 'clairiere').find(p => p.choiceId === 'prendre-cle');
+    const plan = planFlamGraphLink(mounted.document, port, { collection: 'rolls', id: 'rencontre' });
+    mounted.edit(plan.command);
+    const changed = mounted.document.choices.find(c => c.id === 'prendre-cle');
+    const original = before.choices.find(c => c.id === 'prendre-cle');
+    assert.deepEqual(changed, { ...original, destination: null, rollId: 'rencontre' });
+    mounted.store.undo(); assert.deepEqual(mounted.document, before);
+    mounted.store.redo(); assert.equal(mounted.document.choices.find(c => c.id === 'prendre-cle').rollId, 'rencontre');
+    const outcome = flamLinkPorts(mounted.document, 'rolls', 'rencontre')[0];
+    mounted.edit(planFlamGraphLink(mounted.document, outcome, { collection: 'scenes', id: 'sentier' }).command);
+    const saved = (await decodeProjectFile(encodeProjectFile(mounted.store.readProject()))).project;
+    assert.equal(saved.authoring.document.rolls[0].outcomes[0].destination, 'sentier');
+    assert.equal(saved.authoring.document.rolls[0].outcomes[0].min, 1);
+    assert.equal(saved.authoring.document.rolls[0].outcomes[0].max, 10);
+    assert.equal(saved.authoring.document.choices.find(c => c.id === 'prendre-cle').rewardId, original.rewardId);
+  } finally { mounted.hook.unmount(); }
+});
+
+test('créer dans le vide pose le nœud et son lien en une seule étape et une seule sauvegarde', async () => {
+  const mounted = mount(createExampleAdventure());
+  try {
+    const before = structuredClone(mounted.store.readProject());
+    mounted.edit({ type: 'linkNew', id: 'nouveau-choix', targetCollection: 'scenes', targetId: 'nouvelle-scene',
+      name: 'La cabane', port: { key: 'add', kind: 'add', sceneId: 'clairiere' },
+      position: { x: -120, y: 450 }, positions: [{ collection: 'scenes', id: 'clairiere', x: 200, y: 100 }] });
+    assert.equal(mounted.document.scenes.find(s => s.id === 'nouvelle-scene').title, 'La cabane');
+    assert.equal(mounted.document.choices.find(c => c.id === 'nouveau-choix').destination, 'nouvelle-scene');
+    assert.ok(mounted.document.scenes.find(s => s.id === 'clairiere').choices.includes('nouveau-choix'));
+    assert.deepEqual(mounted.store.readProject().authoring.graphLayout.positions.at(-1), { collection: 'scenes', id: 'nouvelle-scene', x: -120, y: 450 });
+    mounted.store.undo(); assert.deepEqual(mounted.store.readProject(), before);
+    mounted.store.redo();
+    const saved = (await decodeProjectFile(encodeProjectFile(mounted.store.readProject()))).project;
+    assert.equal(saved.authoring.document.choices.find(c => c.id === 'nouveau-choix').destination, 'nouvelle-scene');
+    assert.equal(saved.authoring.graphLayout.positions.at(-1).x, -120);
+    const port = flamLinkPorts(mounted.document, 'rolls', 'rencontre')[0];
+    const current = structuredClone(mounted.store.readProject());
+    assert.throws(() => mounted.edit({ type: 'linkNew', id: 'interdit', targetCollection: 'rolls', targetId: 'dé-interdit',
+      name: 'Dé interdit', port, position: { x: 0, y: 0 } }));
+    assert.deepEqual(mounted.store.readProject(), current);
+  } finally { mounted.hook.unmount(); }
+});
+
+test('créer une scène depuis une plage de dé rebranche cette plage sans ajouter de choix', () => {
+  const mounted = mount(createExampleAdventure());
+  try {
+    const before = structuredClone(mounted.store.readProject());
+    const port = flamLinkPorts(mounted.document, 'rolls', 'rencontre')[0];
+    mounted.edit({ type: 'linkNew', id: 'identifiant-inutilisé', targetCollection: 'scenes', targetId: 'fin-nouvelle',
+      name: 'Un autre chemin', port, position: { x: 20, y: 50 }, positions: [] });
+    assert.deepEqual(mounted.document.rolls[0].outcomes[0], { min: 1, max: 10, destination: 'fin-nouvelle' });
+    assert.deepEqual(mounted.document.choices, before.authoring.document.choices);
+    mounted.store.undo(); assert.deepEqual(mounted.store.readProject(), before);
+  } finally { mounted.hook.unmount(); }
+});

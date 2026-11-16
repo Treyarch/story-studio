@@ -14,7 +14,8 @@ test('projection FLAM : scènes, fins, choix conditionnels, jet et plages, sans 
   try {
     assert.equal(cy.nodes().length, document.scenes.length + document.rolls.length);
     assert.equal(cy.edges().length, document.choices.length + 2);
-    assert.match(cy.getElementById(graphNodeId('scenes', 'depart')).data('label'), /Départ/);
+    assert.equal(cy.getElementById(graphNodeId('scenes', 'depart')).data('start'), true);
+    assert.equal(cy.getElementById(graphNodeId('scenes', 'depart')).data('label'), document.scenes[0].title);
     assert.equal(cy.nodes().filter(n => n.data('ending')).length, 2);
     assert.equal(cy.getElementById('choice:sentier:0').data('conditional'), true);
     assert.equal(cy.getElementById('choice:rencontre-scene:0').target().id(), graphNodeId('rolls', 'rencontre'));
@@ -46,5 +47,28 @@ test('modifier une destination déplace vraiment le lien sans perdre caméra ni 
     assert.equal(cy.getElementById('scenes:clairiere').length, 0);
     // Un brouillon incomplet garde ses autres scènes et le jet visibles.
     assert.equal(cy.nodes().length, document.scenes.length + document.rolls.length);
+  } finally { cy.destroy(); }
+});
+
+const { flamGraphStyles } = await import('../src/components/FlamWorkspace/flamGraphStyle.js');
+
+test('les boucles se révèlent au survol, les conditions restent lisibles sans répéter leur statut', () => {
+  const document = createExampleAdventure();
+  const colors = { background: '#555577', text: '#eeeeee', border: '#777788', accent: '#eeaa77', muted: '#9999aa', action: '#55aaaa', surface: '#111118' };
+  const cy = cytoscape({ headless: true, styleEnabled: true, elements: flamGraphElements(document, labels), style: flamGraphStyles(colors) });
+  try {
+    const loops = cy.edges().filter(edge => edge.data('selfLoop'));
+    assert.equal(loops.length, 2);
+    assert.equal(loops[0].style('label'), '');
+    loops[0].addClass('is-port-focused');
+    assert.equal(loops[0].style('label'), loops[0].data('label'));
+    loops[0].removeClass('is-port-focused');
+    assert.equal(loops[0].style('label'), '');
+    loops[0].select();
+    assert.equal(loops[0].style('label'), loops[0].data('label'));
+    const conditional = cy.getElementById('choice:sentier:0');
+    assert.equal(conditional.style('line-style'), 'dashed');
+    assert.equal(conditional.style('label'), 'Lire les traces');
+    assert.ok(Number.parseFloat(cy.getElementById('scenes:depart').select().style('border-width')) < 4);
   } finally { cy.destroy(); }
 });

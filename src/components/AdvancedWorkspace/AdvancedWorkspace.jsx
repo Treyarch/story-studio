@@ -19,8 +19,7 @@ import { UserMessage } from '../common/UserMessage.jsx';
 // - **la vue seule ne salit rien** : panoramique, zoom, sélection et focus
 //   passent par la session de vue, qui n'écrit pas dans le projet.
 
-import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { getIntlLocale } from '../../i18n/language.js';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 import GraphCanvasStage from '../AdvancedGraphCanvas/GraphCanvasStage.jsx';
 import { DEFAULT_EDGE_VISIBILITY } from '../AdvancedGraphCanvas/engines/engineContract.js';
@@ -82,26 +81,14 @@ import { GESTURE_BUSY, documentUntouchedBy } from '../../store/advancedAuthoring
 import { useAdvancedReadiness } from '../../hooks/useAdvancedReadiness.js';
 import { useAdvancedExamples } from '../../hooks/useAdvancedExamples.js';
 import { initialRootUuid } from '../../store/advancedExamples/transaction.js';
-import {
-  ADVANCED_INSPECTOR_WIDTH_DEFAULT,
-  ADVANCED_INSPECTOR_WIDTH_MAX,
-  ADVANCED_INSPECTOR_WIDTH_MIN,
-  ADVANCED_NODE_LIST_WIDTH_DEFAULT,
-  ADVANCED_NODE_LIST_WIDTH_MAX,
-  ADVANCED_NODE_LIST_WIDTH_MIN,
-  ADVANCED_WORKSPACE_PANEL_IDS,
-  DEFAULT_ADVANCED_WORKSPACE_PANEL_ORDER,
-  getAdvancedWorkspaceResizeBoundaries,
-  getVisibleAdvancedWorkspacePanelOrder,
-} from '../../workspace/panelLayout.js';
-import { PanelSortContext, SortablePanelItem } from '../../workspace/PanelSortContext.jsx';
-import { PanelResizeHandle } from '../structure/PanelResizeHandle.jsx';
+import { ADVANCED_WORKSPACE_PANEL_IDS } from '../../workspace/panelLayout.js';
+import { GraphWorkspacePanels, GraphPanelHeader as AdvancedPanelHeader } from '../../workspace/GraphWorkspacePanels.jsx';
 import { useInspectorScrollMemory } from './useInspectorScrollMemory.js';
 import {
-  Fullscreen, ChevronDown, Waypoints, Wrench, X,
+  Fullscreen, ChevronDown, Waypoints, Wrench,
 } from '../icons/LucideLocal.jsx';
 import { SUSPENDED_BY_EXPORT, SUSPENDED_BY_GESTURE } from '../../store/toolbarModel.js';
-import { CommandButton } from '../layout/Toolbar.jsx';
+import { CommandButton } from '../layout/ToolbarCommand.jsx';
 import { ActionEditor } from './ActionEditor.jsx';
 import { ZipReviewPanel } from './ZipReviewPanel.jsx';
 import { DocumentSimulationPanel } from './DocumentSimulationPanel.jsx';
@@ -131,48 +118,6 @@ import './AdvancedWorkspace.css';
 // assez pour une génération groupée qui rend ses audios en rafale, borné pour
 // qu'un verrou qui ne se lève pas ne fasse pas tourner la boucle sans fin.
 const MEDIA_RETRY_LIMIT = 50;
-
-// Les commandes d'un panneau vivent dans **son** en-tête, pas dans la barre du
-// haut : créer un nœud est un geste du graphe, et l'éloigner de la surface qu'il
-// sert obligeait l'auteur à traverser l'écran pour un geste qu'il fait souvent.
-//
-// Elles arrêtent le pointeur : l'en-tête est la poignée de déplacement du
-// panneau, et un appui sur un bouton ne doit pas amorcer un glisser.
-function AdvancedPanelHeader({ title, onClose = null, actions = null, dragHandleProps = {} }) {
-  useTranslation('graph', { i18n: graphTranslationEngine() });
-  return (
-    <header
-      className={`advanced-panel-header${actions ? ' has-actions' : ''}`}
-      {...dragHandleProps}
-    >
-      <strong className="advanced-panel-header__title">{title}</strong>
-      {actions ? (
-        <>
-          <div
-            className="advanced-panel-header__actions"
-            onPointerDown={(event) => event.stopPropagation()}
-          >
-            {actions}
-          </div>
-          {/* Le contrepoids du titre. Deux côtés de même souplesse encadrant la
-              rangée, c'est ce qui la met au **centre de l'en-tête** et non au
-              centre de la place qui reste à droite du titre. */}
-          <span className="advanced-panel-header__balance" aria-hidden="true" />
-        </>
-      ) : null}
-      {onClose ? (
-        <button
-          type="button"
-          className="advanced-panel-header__close"
-          aria-label={t("graph:workspace.fermer.label", { title: title.toLocaleLowerCase(getIntlLocale()) })}
-          onClick={onClose}
-        >
-          <X aria-hidden="true" />
-        </button>
-      ) : null}
-    </header>
-  );
-}
 
 // Une commande d'en-tête. Elle emprunte le bouton **de la barre du haut**, avec
 // son icône et son libellé : ces commandes en viennent, et rien de leur
@@ -1306,50 +1251,6 @@ export function AdvancedWorkspace({
     ? authoring.lastReport
     : null;
   const showNodeList = panelViewState?.showNodeList ?? true;
-  const showInspector = panelViewState?.showInspector ?? true;
-  const panelOrder = panelViewState?.panelOrder ?? DEFAULT_ADVANCED_WORKSPACE_PANEL_ORDER;
-  const visibility = {
-    [ADVANCED_WORKSPACE_PANEL_IDS.NODE_LIST]: showNodeList,
-    [ADVANCED_WORKSPACE_PANEL_IDS.GRAPH]: true,
-    [ADVANCED_WORKSPACE_PANEL_IDS.INSPECTOR]: showInspector,
-  };
-  const visiblePanelOrder = getVisibleAdvancedWorkspacePanelOrder(panelOrder, visibility);
-  const resizeBoundaries = getAdvancedWorkspaceResizeBoundaries(visiblePanelOrder);
-  const resizeBoundaryByPair = new Map(resizeBoundaries.map((boundary) => [boundary.id, boundary]));
-  const nodeListPanelWidth = panelViewState?.nodeListPanelWidth ?? ADVANCED_NODE_LIST_WIDTH_DEFAULT;
-  const inspectorPanelWidth = panelViewState?.inspectorPanelWidth ?? ADVANCED_INSPECTOR_WIDTH_DEFAULT;
-  const workspaceStyle = {
-    '--advanced-node-list-panel-width': `${nodeListPanelWidth}px`,
-    '--advanced-inspector-panel-width': `${inspectorPanelWidth}px`,
-  };
-
-  const renderResizeHandle = (boundary) => {
-    const nodeListConfig = {
-      ariaLabel: t("graph:workspace.resizeTheNodeList.label"),
-      panelClass: '.advanced-panel-slot--advanced-node-list',
-      cssVar: '--advanced-node-list-panel-width',
-      minWidth: ADVANCED_NODE_LIST_WIDTH_MIN,
-      maxWidth: ADVANCED_NODE_LIST_WIDTH_MAX,
-      value: nodeListPanelWidth,
-      defaultValue: ADVANCED_NODE_LIST_WIDTH_DEFAULT,
-      onResize: panelViewState?.setNodeListPanelWidth,
-    };
-    const inspectorConfig = {
-      ariaLabel: t("common:workspace.settings.resize"),
-      panelClass: '.advanced-panel-slot--advanced-inspector',
-      cssVar: '--advanced-inspector-panel-width',
-      minWidth: ADVANCED_INSPECTOR_WIDTH_MIN,
-      maxWidth: ADVANCED_INSPECTOR_WIDTH_MAX,
-      value: inspectorPanelWidth,
-      defaultValue: ADVANCED_INSPECTOR_WIDTH_DEFAULT,
-      onResize: panelViewState?.setInspectorPanelWidth,
-    };
-    const config = boundary.resizedPanelId === ADVANCED_WORKSPACE_PANEL_IDS.NODE_LIST
-      ? nodeListConfig
-      : inspectorConfig;
-    if (!config.onResize) return null;
-    return <PanelResizeHandle {...config} direction={boundary.direction} />;
-  };
 
   const renderNodeListPanel = (dragHandleProps) => (
     <section className="advanced-panel advanced-panel--nodes" aria-label={t("graph:workspace.nodeAndStageList.label")}>
@@ -1620,27 +1521,7 @@ export function AdvancedWorkspace({
   };
 
   return (
-    <div className="advanced-workspace" style={workspaceStyle}>
-      <PanelSortContext items={visiblePanelOrder} onMove={panelViewState?.movePanel}>
-        {visiblePanelOrder.map((panelId, index) => {
-          const nextPanelId = visiblePanelOrder[index + 1];
-          const boundary = nextPanelId
-            ? resizeBoundaryByPair.get(`${panelId}-${nextPanelId}`)
-            : null;
-          return (
-            <Fragment key={panelId}>
-              <SortablePanelItem
-                id={panelId}
-                activation="header"
-                className={`advanced-panel-slot advanced-panel-slot--${panelId}`}
-              >
-                {({ dragHandleProps }) => renderPanelContent(panelId, dragHandleProps)}
-              </SortablePanelItem>
-              {boundary ? renderResizeHandle(boundary) : null}
-            </Fragment>
-          );
-        })}
-      </PanelSortContext>
+    <GraphWorkspacePanels viewState={panelViewState} renderPanel={renderPanelContent}>
 
       {exportState?.review && (
         <ZipReviewPanel review={exportState.review} onClose={exportState.closeReview} />
@@ -1726,6 +1607,6 @@ export function AdvancedWorkspace({
           onConfirm={runGesture}
         />
       )}
-    </div>
+    </GraphWorkspacePanels>
   );
 }

@@ -10,6 +10,7 @@ import { translateGraph as t, graphTranslationEngine, presentGraphLandmarks } fr
 // Cytoscape est une unité du graphe, donc un anneau de 56 unités mesure 0,56
 // pixel à 1 % de zoom.
 
+import { GraphLinkPort } from './GraphLinkPort.jsx';
 import { Tooltip } from '../common/Tooltip.jsx';
 import { Check, House, Plus } from '../icons/LucideLocal.jsx';
 import { GRAPH_LINK_PORTS } from '../../store/advancedAuthoring/graphLinkDraft.js';
@@ -191,26 +192,15 @@ export function GraphNodeOverlays({
             {node.ports && onLinkPortPointerDown && (
               <div className={`advanced-node-overlay__ports is-${node.kind}`}>
                 {(node.linkPorts ?? []).map((port) => [port, portAnchor(node, port)]).map(([port, anchor]) => anchor && (
-                  <Tooltip key={port.id} text={port.active ? portHint(port) : t("graph:overlay.openControls.label", { label: portLabel(port) })} asChild wrap>
-                    <button
-                      type="button"
-                      style={handlePlacement(node, anchor)}
-                      className={`${port.active ? 'is-active' : 'is-inactive'} is-${port.id}${port.active && port.activateControl ? ' is-activation-required' : ''}${anchor.revealed ? ' is-revealed' : ''}${isAddPort(node, port, anchor) ? ' is-add' : ''}`}
-                      aria-label={port.active ? portHint(port) : t("graph:overlay.controlDisabled.label", { label: portLabel(port) })}
-                      onPointerDown={port.active ? (event) => {
-                        event.preventDefault();
-                        event.stopPropagation();
-                        onLinkPortPointerDown(event, node, port, anchor);
-                      } : undefined}
-                      onClick={!port.active ? (event) => {
-                        event.preventDefault();
-                        event.stopPropagation();
-                        onInactiveLinkPort?.(node.path, port.control);
-                      } : undefined}
-                    >
-                      <LinkPortIcon id={port.id} />
-                    </button>
-                  </Tooltip>
+                  <GraphLinkPort key={port.id}
+                    hint={port.active ? portHint(port) : t("graph:overlay.openControls.label", { label: portLabel(port) })}
+                    label={port.active ? portHint(port) : t("graph:overlay.controlDisabled.label", { label: portLabel(port) })}
+                    style={handlePlacement(node, anchor)}
+                    className={`${port.active ? 'is-active' : 'is-inactive'} is-${port.id}${port.active && port.activateControl ? ' is-activation-required' : ''}${anchor.revealed ? ' is-revealed' : ''}${isAddPort(node, port, anchor) ? ' is-add' : ''}`}
+                    onPointerDown={port.active ? event => onLinkPortPointerDown(event, node, port, anchor) : undefined}
+                    onClick={!port.active ? () => onInactiveLinkPort?.(node.path, port.control) : undefined}>
+                    <LinkPortIcon id={port.id} />
+                  </GraphLinkPort>
                 ))}
               </div>
             )}

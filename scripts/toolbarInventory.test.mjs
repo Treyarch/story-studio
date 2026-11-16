@@ -16,6 +16,7 @@ import {
   SUSPENDED_BY_GESTURE,
   toolbarAvailability,
   TOOLBAR_GROUPS,
+  toolbarGroup,
   TOOLBAR_SCOPE_STRUCTURAL,
   TOOLBAR_SCOPE_UNIVERSAL,
 } from '../src/store/toolbarModel.js';
@@ -261,4 +262,11 @@ test('chaque commande universelle porte son raccourci, identique des deux côté
   for (const entry of scoped(graph, TOOLBAR_SCOPE_UNIVERSAL)) {
     assert.ok(entry.shortcut, `${entry.id} doit porter un raccourci`);
   }
+});
+
+
+test('FLAM retrouve les mêmes bascules de panneaux que l’éditeur graphe', () => {
+  const panelIds = mode => toolbarGroup(inventory(mode), TOOLBAR_GROUPS.PANELS).map(entry => entry.id);
+  assert.deepEqual(panelIds('flam'), panelIds(WORKSPACE_MODE_ADVANCED));
+  assert.deepEqual(panelIds('flam'), ['toggleNodeList', 'toggleInspector']);
 });

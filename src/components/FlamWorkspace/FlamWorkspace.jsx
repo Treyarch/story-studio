@@ -1,3 +1,4 @@
+import { planFlamGraphLink } from '../../store/flamAdventure/graphLinks.js';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useCommonTranslation } from '../../i18n/commonPresentation.js';
 import { diagnoseAdventureDocument } from '../../store/flamAdventure/diagnostics.js';
@@ -12,6 +13,16 @@ import { ChoiceEditor } from './ChoiceEditor.jsx';
 import { RuleEditor } from './RuleEditor.jsx';
 import { FlamProduction } from './FlamProduction.jsx';
 import { FlamGraph } from './FlamGraph.jsx';
+import { GraphWorkspacePanels, GraphPanelHeader } from '../../workspace/GraphWorkspacePanels.jsx';
+import { ADVANCED_WORKSPACE_PANEL_IDS } from '../../workspace/panelLayout.js';
+import { GraphNodeListActions } from '../AdvancedGraphCanvas/GraphSearchPanel.jsx';
+import { TreeSearchBar } from '../TreePanel/TreeSearchBar.jsx';
+import { useProjectActions } from '../../store/ProjectActionsContext.js';
+import { WORKSPACE_MODE_FLAM } from '../../store/projectWorkState.js';
+import { normalizeSearchText } from '../../utils/frenchText.js';
+import { Fullscreen, Dices, Waypoints, Package } from '../icons/LucideLocal.jsx';
+import '../AdvancedGraphCanvas/AdvancedGraphCanvas.css';
+import '../AdvancedGraphCanvas/GraphSearchPanel.css';
 import './FlamWorkspace.css';
 
 function diagnosticText(diagnostic, t) {
@@ -31,12 +42,35 @@ function diagnosticText(diagnostic, t) {
   }
 }
 
-export function FlamWorkspace({ project, projectEpoch, onEdit, onOpenMedia }) {
+export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = null }) {
   const { t } = useCommonTranslation();
   const document = project.authoring.document;
   const [selection, setSelection] = useState({ collection: 'scenes', id: null });
   const [focusPath, setFocusPath] = useState(null);
   const rootRef = useRef(null);
+  const searchInputRef = useRef(null);
+  const [searchActive, setSearchActive] = useState(false);
+  const [query, setQuery] = useState('');
+  const actions = useProjectActions();
+  const mediaTools = {
+    onImportMedia: actions?.onImportMediaLibrary,
+    onImportPodcast: actions?.onImportPodcast,
+    onImportYoutube: actions?.onImportYoutube,
+    onRecord: actions?.onRecord,
+    onGenerateStoryTts: actions?.onGenerateStoryTts,
+    canRecord: actions?.canRecord,
+    canGenerateStoryTts: actions?.canGenerateStoryTts,
+  };
+  const selectDefinition = target => {
+    setSelection(target);
+    if (panelViewState?.showInspector === false) panelViewState.toggleInspector();
+  };
+  const searchNodes = () => {
+    if (panelViewState?.showNodeList === false) panelViewState.toggleNodeList();
+    setSearchActive(true);
+    searchInputRef.current?.focus();
+  };
+  useEffect(() => { if (searchActive) searchInputRef.current?.focus(); }, [searchActive, panelViewState?.showNodeList]);
   const { showErrorDialog, showConfirmDialog } = useErrorDialog();
   const { prepareMediaForProject, setGraphMediaTarget } = useMediaTransfer();
   const collections = [
@@ -99,14 +133,23 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, onOpenMedia }) {
 
   function add(collection, sceneId) {
     const id = crypto.randomUUID();
-    if (edit({ type: 'add', collection, id, sceneId }) && collection !== 'choices') setSelection({ collection, id });
+    if (edit({ type: 'add', collection, id, sceneId }) && collection !== 'choices') selectDefinition({ collection, id });
   }
 
-  function connect(sceneId, targetCollection, targetId) {
-    const id = crypto.randomUUID();
-    if (edit({ type: 'connect', id, sceneId, targetCollection, targetId })) {
-      setSelection({ collection: 'choices', id });
-    }
+  function link(port, target) {
+    const plan = planFlamGraphLink(document, port, target, crypto.randomUUID());
+    if (!plan) return false;
+    const applied = edit(plan.command);
+    if (applied) selectDefinition(plan.selection);
+    return applied;
+  }
+
+  function createLinked(drop, targetCollection, name) {
+    const targetId = crypto.randomUUID();
+    const applied = edit({ type: 'linkNew', id: crypto.randomUUID(), targetId, targetCollection, name,
+      port: drop.port, position: drop.position, positions: drop.positions });
+    if (applied) selectDefinition({ collection: targetCollection, id: targetId });
+    return applied;
   }
 
   async function remove(command) {
@@ -121,7 +164,7 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, onOpenMedia }) {
 
   function reveal(diagnostic) {
     const target = adventureDiagnosticTarget(document, diagnostic.path);
-    if (target) setSelection(target);
+    if (target) selectDefinition(target);
     setFocusPath(diagnostic.path);
   }
 
@@ -132,35 +175,53 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, onOpenMedia }) {
       onRemove={removeFromScene ? () => remove({ type: 'removeChoice', id: choice.id, sceneId: removeFromScene }) : null} />;
   }
 
-  return <div className="flam-workspace" ref={rootRef}>
-    <header className="flam-header">
-      <div><h1>{t('common:flam.create.title')}</h1><p>{t('common:flam.editor.help')}</p></div>
-      <div className="flam-header-actions">
-        <Button onClick={onOpenMedia}>{t('common:flam.media.open')}</Button>
-        <details className="flam-production-menu">
-          <summary>{t('common:flam.production.title')}</summary>
-          <FlamProduction document={document} />
-        </details>
+  const visibleDefinitions = (query ? collections : collections.filter(([key]) => key === collection))
+    .flatMap(([key]) => document[key].map(item => ({ collection: key, item })))
+    .filter(({ item }) => normalizeSearchText(`${item.title || item.name || item.label || ''} ${item.id}`).includes(normalizeSearchText(query)));
+
+  function navigateDefinitions(event) {
+    const delta = event.key === 'ArrowDown' ? 1 : event.key === 'ArrowUp' ? -1 : 0;
+    if (!delta && event.key !== 'Home' && event.key !== 'End') return;
+    const buttons = [...event.currentTarget.closest('ul').querySelectorAll('button')];
+    const current = buttons.indexOf(event.currentTarget);
+    const index = event.key === 'Home' ? 0 : event.key === 'End' ? buttons.length - 1 : Math.max(0, Math.min(buttons.length - 1, current + delta));
+    event.preventDefault(); event.stopPropagation();
+    buttons[index]?.focus();
+  }
+
+  const renderNodeListPanel = dragHandleProps => <section className="advanced-panel advanced-panel--nodes">
+    <GraphNodeListActions surfaceTools={mediaTools} onSearch={searchNodes}
+      workspaceMode={WORKSPACE_MODE_FLAM} onClose={panelViewState?.toggleNodeList} dragHandleProps={dragHandleProps} />
+    <nav className="advanced-search flam-navigation" aria-label={t('common:flam.navigation')}>
+      {searchActive && <TreeSearchBar searchTerm={query} setSearchTerm={setQuery} setSearchActive={setSearchActive}
+        inputRef={searchInputRef} usedColors={[]} selectedColors={new Set()} onToggleColor={() => {}}
+        onClearSearch={() => { setQuery(''); setSearchActive(false); }} />}
+      <div className="advanced-search__scopes" role="group" aria-label={t('common:flam.navigation')}>
+        {collections.map(([key, label]) => <button key={key} type="button" className="advanced-search__scope"
+          aria-pressed={collection === key} onClick={() => selectDefinition({ collection: key, id: null })}>{label}</button>)}
       </div>
-    </header>
-    <div className="flam-columns">
-      <nav className="flam-navigation" aria-label={t('common:flam.navigation')}>
-        {collections.map(([key, label]) => <section key={key}>
-          <h2><button type="button" aria-pressed={collection === key} onClick={() => setSelection({ collection: key, id: null })}>{label}</button></h2>
-          <ul>{document[key].map(item => <li key={item.id}>
-            <button type="button" aria-current={collection === key && entry?.id === item.id ? 'true' : undefined} onClick={() => setSelection({ collection: key, id: item.id })}>
-              {item.title || item.name || item.label || t('common:flam.untitled')}
-            </button>
-          </li>)}</ul>
-        </section>)}
-      </nav>
-      <FlamGraph document={document} projectEpoch={projectEpoch} graphLayout={project.authoring.graphLayout}
-        onLayout={positions => edit({ type: 'layout', positions })}
-        selection={{ collection, id: entry?.id ?? null }} onSelect={setSelection}
-        onAddScene={() => add('scenes')} onAddRoll={() => add('rolls')} onConnect={connect} />
-      <aside className="flam-inspector" aria-label={t('common:flam.graph.inspector')}>
-        <div className="flam-content">
-          <section className="flam-project flam-card">
+      <p className="advanced-search__count">{document.title || t('common:flam.untitled')}</p>
+      <ul className="advanced-search__list">
+        {visibleDefinitions.map(({ collection: key, item }) => <li key={`${key}:${item.id}`}>
+          <button type="button" className="advanced-search__item flam-node-row" onKeyDown={navigateDefinitions}
+            data-focused={collection === key && entry?.id === item.id ? 'true' : undefined}
+            aria-current={collection === key && entry?.id === item.id ? 'true' : undefined}
+            onClick={() => selectDefinition({ collection: key, id: item.id })}>
+            <span className="advanced-search__icon" aria-hidden="true">{key === 'scenes' ? <Fullscreen /> : key === 'rolls' ? <Dices /> : <Waypoints />}</span>
+            <span className="advanced-search__identity"><span className="advanced-search__name">{item.title || item.name || item.label || t('common:flam.untitled')}</span>
+              <span className="advanced-search__identifier">{collections.find(([name]) => name === key)[1]}</span></span>
+          </button>
+        </li>)}
+        {!visibleDefinitions.length && <li className="advanced-search__empty">{t('common:flam.empty')}</li>}
+      </ul>
+    </nav>
+  </section>;
+
+  const renderInspectorPanel = dragHandleProps => <section className="advanced-panel advanced-panel--inspector">
+    <GraphPanelHeader title={t('common:workspace.settings.label')} onClose={panelViewState?.toggleInspector} dragHandleProps={dragHandleProps} />
+    <aside className="advanced-inspector advanced-inspector--editor flam-inspector" aria-label={t('common:flam.graph.inspector')}>
+        <div className="advanced-editor flam-content">
+          <section className="flam-project card flam-card">
             <TextField label={t('common:flam.title')} path="/title" value={document.title} onChange={title => edit({ type: 'document', patch: { title } })} />
             <ReferenceField label={t('common:flam.start')} path="/startSceneId" entries={document.scenes} value={document.startSceneId} onChange={startSceneId => edit({ type: 'document', patch: { startSceneId } })} />
           </section>
@@ -184,7 +245,7 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, onOpenMedia }) {
               <h3>{t('common:flam.choices')}</h3>
               {entry.choices.map((id, index) => {
                 const choice = document.choices.find(choice => choice.id === id);
-                return choice ? choiceEditor(choice, entry.id) : <div key={id} data-flam-path={`${path}/choices/${index}`} tabIndex={-1} className="flam-card">
+                return choice ? choiceEditor(choice, entry.id) : <div key={id} data-flam-path={`${path}/choices/${index}`} tabIndex={-1} className="card flam-card">
                   <p>{t('common:flam.reference.missing', { id })}</p>
                   <Button onClick={() => patch({ choices: entry.choices.filter(choice => choice !== id) })}>{t('common:flam.choice.remove')}</Button>
                 </div>;
@@ -201,7 +262,7 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, onOpenMedia }) {
                 <p>{t('common:flam.roll.help')}</p>
                 {entry.outcomes.map((outcome, index) => {
                   const update = changes => patch({ outcomes: entry.outcomes.map((value, i) => i === index ? { ...value, ...changes } : value) });
-                  return <div className="flam-card" key={index} data-flam-path={`${path}/outcomes/${index}`} tabIndex={-1}>
+                  return <div className="card flam-card" key={index} data-flam-path={`${path}/outcomes/${index}`} tabIndex={-1}>
                     <NumberField label={t('common:flam.roll.min')} path={`${path}/outcomes/${index}/min`} value={outcome.min} onChange={min => update({ min })} />
                     <NumberField label={t('common:flam.roll.max')} path={`${path}/outcomes/${index}/max`} value={outcome.max} onChange={max => update({ max })} />
                     <ReferenceField label={t('common:flam.roll.outcome')} path={`${path}/outcomes/${index}/destination`} entries={document.scenes} value={outcome.destination} onChange={destination => update({ destination })} />
@@ -229,7 +290,27 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, onOpenMedia }) {
             </li>;
           })}</ul>
         </section>
-      </aside>
-    </div>
+    </aside>
+  </section>;
+
+  const renderPanel = (panelId, dragHandleProps) => {
+    if (panelId === ADVANCED_WORKSPACE_PANEL_IDS.NODE_LIST) return renderNodeListPanel(dragHandleProps);
+    if (panelId === ADVANCED_WORKSPACE_PANEL_IDS.INSPECTOR) return renderInspectorPanel(dragHandleProps);
+    return <section className="advanced-panel advanced-panel--graph">
+      <FlamGraph document={document} projectEpoch={projectEpoch} graphLayout={project.authoring.graphLayout}
+        onLayout={positions => edit({ type: 'layout', positions })}
+        selection={{ collection, id: entry?.id ?? null }} onSelect={selectDefinition}
+        onAddScene={() => add('scenes')} onAddRoll={() => add('rolls')} onLink={link} onCreateLinked={createLinked}
+        dragHandleProps={dragHandleProps} panelViewState={panelViewState}
+        surfaceTools={panelViewState?.showNodeList === false ? { ...mediaTools, onSearch: searchNodes } : null}
+        production={<details className="flam-production-menu">
+          <summary className="chrome-toolbar-btn"><Package className="chrome-icon" aria-hidden="true" /><span className="chrome-toolbar-btn-label">{t('common:flam.production.title')}</span></summary>
+          <FlamProduction document={document} />
+        </details>} />
+    </section>;
+  };
+
+  return <div className="flam-workspace" ref={rootRef}>
+    <GraphWorkspacePanels viewState={panelViewState} renderPanel={renderPanel} />
   </div>;
 }

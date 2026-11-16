@@ -84,9 +84,9 @@ function centerCamera(engine, size, point) {
   });
 }
 
-function Overview({ engineRef, index, viewport, hostSize, livePositions, onClose = null }) {
+function Overview({ engineRef, index, viewport, hostSize, livePositions, model = null, onClose = null }) {
   useTranslation('graph', { i18n: graphTranslationEngine() });
-  const overview = useMemo(() => buildOverview(index, livePositions), [index, livePositions]);
+  const overview = useMemo(() => model ?? buildOverview(index, livePositions), [index, livePositions, model]);
   const dragging = useRef(false);
 
   // La boîte est demandée à l'élément **qui reçoit** le geste : c'est le seul
@@ -167,9 +167,9 @@ function Overview({ engineRef, index, viewport, hostSize, livePositions, onClose
           <rect
             key={mark.path}
             className={mark.tone ? `is-${mark.tone}` : undefined}
-            x={mark.px - (mark.kind === 'action' ? 1 : 1.5)}
+            x={mark.px - (['action', 'roll'].includes(mark.kind) ? 1 : 1.5)}
             y={mark.py - 1}
-            width={mark.kind === 'action' ? 2 : 3}
+            width={['action', 'roll'].includes(mark.kind) ? 2 : 3}
             height={2}
             rx={1}
           />
@@ -222,7 +222,7 @@ function LayoutControls({ arrangement, shortcut = '' }) {
   // Les replis offerts. Ils ne corrigent pas le rangement — sa forme est celle
   // de l'histoire, et c'est une lecture exacte — ils proposent l'autre
   // compromis : moins de continuité, plus de compacité.
-  const folds = [
+  const folds = arrangement.folds === false ? [] : [
     ...FOLD_PARTS.map((parts) => ({
       key: `bands-${parts}`,
       fold: { bands: parts },
@@ -290,6 +290,9 @@ export function GraphSurfaceControls({
   arrangement = null,
   overviewOpen = true,
   onToggleOverview = null,
+  overviewModel = null,
+  edgeFilters = EDGE_FILTERS,
+  workspaceMode = WORKSPACE_MODE_ADVANCED,
 }) {
   useTranslation('graph', { i18n: graphTranslationEngine() });
   const hostSize = useHostSize(hostRef);
@@ -311,7 +314,7 @@ export function GraphSurfaceControls({
       {surfaceTools && (
         <StructureActionsBar
           variant="canvas"
-          workspaceMode={WORKSPACE_MODE_ADVANCED}
+          workspaceMode={workspaceMode}
           ariaLabel={t("graph:surface.graphActions.label")}
           onImportMedia={surfaceTools.onImportMedia}
           onImportPodcast={surfaceTools.onImportPodcast}
@@ -419,7 +422,7 @@ export function GraphSurfaceControls({
         )}
       </div>
       <div className="advanced-graph-legend" role="group" aria-label={t("graph:surface.graphPathFilters.label")}>
-        {EDGE_FILTERS.map((filter) => {
+        {edgeFilters.map((filter) => {
           const isVisible = edgeVisibility[filter.group] !== false;
           return (
             <Tooltip key={filter.group} text={filter.title ? t(filter.title) : undefined} asChild disabled={!filter.title}>
@@ -429,7 +432,7 @@ export function GraphSurfaceControls({
                 <input
                   className="advanced-graph-legend__input"
                   type="checkbox"
-                  aria-label={filter.ariaLabel ? t(filter.ariaLabel) : undefined}
+                  aria-label={filter.text ?? (filter.ariaLabel ? t(filter.ariaLabel) : undefined)}
                   checked={isVisible}
                   onChange={(event) => onEdgeVisibilityChange({
                     ...edgeVisibility,
@@ -440,7 +443,7 @@ export function GraphSurfaceControls({
                   {isVisible && <Check />}
                 </span>
                 <i className={filter.className} aria-hidden="true" />
-                <span>{filter.label ? t(filter.label) : undefined}</span>
+                <span>{filter.text ?? (filter.label ? t(filter.label) : undefined)}</span>
               </label>
             </Tooltip>
           );
@@ -475,6 +478,7 @@ export function GraphSurfaceControls({
         <Overview
           engineRef={engineRef}
           index={index}
+          model={overviewModel}
           viewport={viewport}
           hostSize={hostSize}
           livePositions={livePositions}
