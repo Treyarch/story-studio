@@ -1,3 +1,4 @@
+import { adventureMediaOwners } from './presentation.js';
 import { planFlamGraphLink } from './graphLinks.js';
 import { AdventureDocumentError, editAdventureDefinition, replaceAdventureDocument } from './document.js';
 import { withFlamDocument, withFlamGraphLayout } from './project.js';
@@ -17,9 +18,13 @@ export function editAdventure(document, command) {
   const { type, collection, id, patch, sceneId } = command;
   if (type === 'patch') return editAdventureDefinition(document, { collection, id, patch });
   const next = structuredClone(document);
-  if (type === 'document') {
+  if (type === 'presentationMedia') {
+    const owner = [...adventureMediaOwners(next)].find(entry => command.ownerId === null ? entry === next.presentation : entry.id === command.ownerId);
+    if (!owner || !['audio', 'image'].includes(command.kind) || !Object.hasOwn(owner, command.kind)) return document;
+    owner[command.kind] = command.value;
+  } else if (type === 'document') {
     for (const field of Object.keys(patch)) {
-      if (!['title', 'startSceneId'].includes(field)) throw new AdventureDocumentError('INVALID_ADVENTURE_EDIT', `/${field}`);
+      if (!['title', 'startSceneId', 'presentation'].includes(field)) throw new AdventureDocumentError('INVALID_ADVENTURE_EDIT', `/${field}`);
     }
     Object.assign(next, patch);
   } else if (type === 'linkNew') {

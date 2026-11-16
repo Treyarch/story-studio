@@ -145,3 +145,12 @@ node --test scripts/flamGraphLinks.test.mjs scripts/flamGraphPorts.test.mjs
 Ces tests passent par le module, les codecs réels, le store sous double
 exécution stricte et les fonctions de sauvegarde sur disque temporaire réel.
 Seuls React, les dialogues et le transport de fichiers Tauri sont simulés.
+
+## Présentation de l’aventure
+
+Le bloc optionnel `presentation` décrit le menu, ses rubriques et entrées, les
+chapitres et passages et les jalons de progression. Il est modifié depuis
+l’inspecteur et conservé par le même historique. Les objets acceptent aussi
+texte, image et audio facultatifs. Toutes ces références médias suivent celles
+des scènes. Les anciens documents sans présentation restent valides. Voir le
+[guide du lecteur illustré](../../../docs/flam-interface-aventure.md).

@@ -17,28 +17,55 @@ pub(super) fn image(source: &Path) -> Result<Vec<u8>> {
     limits.max_image_height = Some(16384);
     limits.max_alloc = Some(256 * 1024 * 1024);
     reader.limits(limits);
-    let image = reader
-        .decode()
-        .map_err(|_| Error::MediaUnavailable)?
-        .thumbnail(320, 240)
-        .to_rgb8();
-    let mut bytes = Vec::new();
-    image::codecs::jpeg::JpegEncoder::new_with_quality(&mut bytes, 90)
-        .encode_image(&image)
-        .map_err(|_| Error::MediaUnavailable)?;
+    let decoded = reader.decode().map_err(|_| Error::MediaUnavailable)?;
+    let image = decoded
+        .thumbnail(decoded.width().min(320), decoded.height().min(212))
+        .to_rgba8();
+    // LIF natif : en-tête big-endian, pixels RGB565 + alpha explicites.
+    // Encodage volontairement littéral : ni cache ni opcodes différentiels.
+    let mut bytes = b"liff".to_vec();
+    bytes.extend(image.width().to_be_bytes());
+    bytes.extend(image.height().to_be_bytes());
+    bytes.push(0xa2);
+    for pixel in image.pixels() {
+        let rgb =
+            ((pixel[0] as u16 >> 3) << 11) | ((pixel[1] as u16 >> 2) << 5) | (pixel[2] as u16 >> 3);
+        bytes.push(0xff);
+        bytes.extend(rgb.to_le_bytes());
+        bytes.push(pixel[3]);
+    }
+    bytes.extend([0, 0, 0, 0, 0, 0, 0, 1]);
     validate_image(&bytes)?;
     Ok(bytes)
 }
 pub(super) fn validate_image(bytes: &[u8]) -> Result<()> {
-    let mut reader = image::ImageReader::with_format(Cursor::new(bytes), image::ImageFormat::Jpeg);
-    let mut limits = image::Limits::default();
-    limits.max_image_width = Some(320);
-    limits.max_image_height = Some(240);
-    limits.max_alloc = Some(4 * 1024 * 1024);
-    reader.limits(limits);
-    let decoded = reader.decode().map_err(|_| Error::InvalidPack)?;
-    if decoded.width() == 0 || decoded.height() == 0 {
-        return Err(Error::InvalidPack);
+    let invalid = || Error::InvalidPack;
+    if bytes.get(..4) != Some(b"liff") || bytes.get(12) != Some(&0xa2) {
+        return Err(invalid());
+    }
+    let width = u32::from_be_bytes(
+        bytes
+            .get(4..8)
+            .ok_or_else(invalid)?
+            .try_into()
+            .map_err(|_| invalid())?,
+    );
+    let height = u32::from_be_bytes(
+        bytes
+            .get(8..12)
+            .ok_or_else(invalid)?
+            .try_into()
+            .map_err(|_| invalid())?,
+    );
+    if width == 0 || width > 320 || height == 0 || height > 212 {
+        return Err(invalid());
+    }
+    let end = 13 + width as usize * height as usize * 4;
+    if bytes.len() != end + 8
+        || bytes[end..] != [0, 0, 0, 0, 0, 0, 0, 1]
+        || bytes[13..end].chunks_exact(4).any(|pixel| pixel[0] != 0xff)
+    {
+        return Err(invalid());
     }
     Ok(())
 }

@@ -51,6 +51,32 @@ export function diagnoseAdventureDocument(document) {
     }
     if (covered.size !== 20) report('ROLL_GAP', `/rolls/${index}/outcomes`);
   }
+  const view = document.presentation;
+  if (view) {
+    if (!Number.isSafeInteger(view.progress.target) || view.progress.target <= 0
+      || view.progress.target > view.progress.milestones.length) report('INVALID_PROGRESS', '/presentation/progress/target');
+    for (const [i, milestone] of view.progress.milestones.entries()) {
+      if (!milestone.conditions.length) report('INVALID_PROGRESS', `/presentation/progress/milestones/${i}`);
+      diagnoseQuantities(milestone.conditions, `/presentation/progress/milestones/${i}/conditions`, report);
+    }
+    for (const [i, section] of view.sections.entries()) {
+      if (!section.title.trim()) report('MISSING_TITLE', `/presentation/sections/${i}/title`);
+      for (const [j, entry] of section.entries.entries()) {
+        if (!entry.title.trim()) report('MISSING_TITLE', `/presentation/sections/${i}/entries/${j}/title`);
+        diagnoseQuantities(entry.conditions, `/presentation/sections/${i}/entries/${j}/conditions`, report);
+      }
+    }
+    for (const [i, chapter] of view.chapters.entries()) {
+      if (!chapter.title.trim()) report('MISSING_TITLE', `/presentation/chapters/${i}/title`);
+      const seen = new Set();
+      if (!chapter.passages.length) report('EMPTY_CHAPTER', `/presentation/chapters/${i}/passages`);
+      for (const [j, passage] of chapter.passages.entries()) {
+        if (seen.has(passage.sceneId)) report('DUPLICATE_PASSAGE', `/presentation/chapters/${i}/passages/${j}`);
+        seen.add(passage.sceneId);
+        diagnoseQuantities(passage.conditions, `/presentation/chapters/${i}/passages/${j}/conditions`, report);
+      }
+    }
+  }
   return diagnostics;
 }
 

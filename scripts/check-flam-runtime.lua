@@ -41,7 +41,7 @@ window, document = {}, {}
 lv = {obj = {}, label = {}, style = {}, group = {}, timer = {}, color = {}, font = {},
       LABEL_LONG_WRAP = 1, EVENT_KEY = 2, EVENT_CLICKED = 3, STATE_DEFAULT = 0,
       OBJ_FLAG_SCROLLABLE = 1, OPA_COVER = 255, event = {}}
-for _, name in ipairs({"remove_style_all", "set_pos", "set_size", "clear_flag", "add_style", "clean"}) do
+for _, name in ipairs({"remove_style_all", "set_pos", "set_size", "clear_flag", "add_style", "clean", "add_flag"}) do
     lv.obj[name] = function() end
 end
 for _, name in ipairs({"set_text_font", "set_text_color", "set_bg_color", "set_bg_opa"}) do

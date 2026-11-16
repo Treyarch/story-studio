@@ -79,3 +79,36 @@ test('le placement des scènes et du dé survit à la sauvegarde, Enregistrer so
     assert.deepEqual((await io.loadProjectFromPath(snapshot)).data.authoring.graphLayout, layout);
   } finally { await harness.dispose(); }
 });
+
+test('les médias du menu, des rubriques, des chapitres et des objets suivent le déplacement du projet', async () => {
+  const { presentationFixture } = await import('./flamPresentationFixture.mjs');
+  const harness = await createDiskHarness();
+  harness.settings.setItem(KEYS.WORKSPACE_DIR, harness.workspace);
+  try {
+    const directory = await harness.mkdirp('presentation');
+    await harness.writeFile('presentation/image.png', 'image');
+    await harness.writeFile('presentation/voix.mp3', 'audio');
+    const document = presentationFixture();
+    for (const scene of document.scenes) { scene.audio = null; scene.image = null; }
+    const image = `${directory}/image.png`;
+    document.presentation.image = image;
+    document.presentation.sections[0].image = image;
+    document.presentation.sections[3].entries[0].image = image;
+    document.presentation.sections[3].entries[0].audio = `${directory}/voix.mp3`;
+    document.presentation.chapters[0].image = image;
+    document.items[0].image = image;
+    const project = createFlamProject({ document });
+    await io.saveProject(project, `${directory}/aventure.mbah`);
+    const written = JSON.parse(await fs.readFile(`${directory}/aventure.mbah`, 'utf8'));
+    assert.equal(written.authoring.document.presentation.sections[3].entries[0].audio, './voix.mp3');
+    assert.equal(written.authoring.document.presentation.chapters[0].image, './image.png');
+    await fs.rename(directory, harness.dir('presentation-deplacee'));
+    const loaded = (await io.loadProjectFromPath(harness.dir('presentation-deplacee/aventure.mbah'))).data;
+    assert.equal(loaded.authoring.document.items[0].image, harness.dir('presentation-deplacee/image.png'));
+    assert.equal(loaded.authoring.document.presentation.image, harness.dir('presentation-deplacee/image.png'));
+    assert.equal(loaded.authoring.document.presentation.sections[3].entries[0].audio, harness.dir('presentation-deplacee/voix.mp3'));
+    const media = collectMediaLibrary({ project: loaded });
+    assert.equal(media.length, 2);
+    assert.ok(media.every(isMediaHeldByProject));
+  } finally { await harness.dispose(); }
+});

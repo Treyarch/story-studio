@@ -52,6 +52,17 @@ const effect = variant({
   consumeItem: { itemId: reference, quantity: number },
   setEvent: { eventId: reference },
 });
+const optional = rule => (value, path) => { if (value !== undefined) check(value, rule, path); return true; };
+const media = value => value === null || text(value);
+const presentation = {
+  image: media, text,
+  sections: [{ id: identifier, kind: oneOf('chapters', 'character', 'inventory', 'collection'), title: text,
+    image: media, enabled: boolean, entries: [{ id: identifier, title: text, text, image: media, audio: media,
+      conditions: [condition], unavailable: oneOf('hidden', 'disabled') }] }],
+  chapters: [{ id: identifier, title: text, image: media,
+    passages: [{ sceneId: reference, replayable: boolean, conditions: [condition] }] }],
+  progress: { target: number, milestones: [{ id: identifier, conditions: [condition] }] },
+};
 const named = { id: identifier, name: text };
 const definitions = {
   scenes: [{ id: identifier, title: text, text, audio: value => value === null || text(value),
@@ -59,7 +70,7 @@ const definitions = {
   choices: [{ id: identifier, label: text, destination: reference, conditions: [condition], effects: [effect],
     rewardId: reference, rollId: reference, replayAudioOnReturn: value => value === undefined || boolean(value), unavailable: { mode: oneOf('disabled', 'hidden'), explanation: text } }],
   classes: [named],
-  items: [named],
+  items: [{ ...named, text: optional(text), image: optional(media), audio: optional(media) }],
   events: [named],
   rewards: [{ ...named, repeatable: boolean, effects: [effect] }],
   rolls: [{ ...named, outcomes: [{ min: number, max: number, destination: reference }] }],
@@ -80,7 +91,7 @@ export function assertAdventureDocument(document) {
   check(document, {
     version: oneOf(1),
     id: value => text(value) && /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(value),
-    saveVersion: positiveInteger, title: text, startSceneId: reference, ...definitions,
+    saveVersion: positiveInteger, title: text, startSceneId: reference, presentation: optional(presentation), ...definitions,
   }, '');
   const ids = new Set();
   for (const collection of ADVENTURE_COLLECTIONS) {
@@ -89,7 +100,16 @@ export function assertAdventureDocument(document) {
       ids.add(entry.id);
     });
   }
+  for (const entry of presentationDefinitions(document)) {
+    if (ids.has(entry.id)) throw new AdventureDocumentError('DUPLICATE_ADVENTURE_ID', '/presentation');
+    ids.add(entry.id);
+  }
   return document;
+}
+
+export function presentationDefinitions(document) {
+  const view = document.presentation;
+  return view ? [...view.sections, ...view.sections.flatMap(section => section.entries), ...view.chapters, ...view.progress.milestones] : [];
 }
 
 export function replaceAdventureDocument(previous, next) {

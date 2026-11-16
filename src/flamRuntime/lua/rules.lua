@@ -12,10 +12,17 @@ local function integer(value, minimum, maximum)
 end
 
 function rules.initialPartie()
-    local state = {schema = 1, adventureId = data.id, saveVersion = data.saveVersion,
+    local state = {schema = data.presentation and 2 or 1, adventureId = data.id, saveVersion = data.saveVersion,
                    sceneId = data.startSceneId, classId = ""}
     for _, pair in ipairs({{"items", "item:"}, {"events", "event:"}, {"rewards", "reward:"}, {"rolls", "roll:"}}) do
         for _, entry in ipairs(data[pair[1]]) do state[pair[2] .. entry.id] = 0 end
+    end
+    if data.presentation then
+        for _, scene in ipairs(data.scenes) do
+            state["visited:" .. scene.id] = 0
+            state["heard:" .. scene.id] = 0
+        end
+        for _, milestone in ipairs(data.presentation.progress.milestones) do state["milestone:" .. milestone.id] = 0 end
     end
     return state
 end
@@ -25,7 +32,7 @@ function rules.validPartie(state)
     local shape = rules.initialPartie()
     for key in pairs(state) do if shape[key] == nil then return false end end
     for key in pairs(shape) do if state[key] == nil then return false end end
-    if state.schema ~= 1 or state.adventureId ~= data.id or state.saveVersion ~= data.saveVersion
+    if state.schema ~= shape.schema or state.adventureId ~= data.id or state.saveVersion ~= data.saveVersion
         or not definitions.scenes[state.sceneId]
         or (state.classId ~= "" and not definitions.classes[state.classId]) then return false end
     for _, entry in ipairs(data.items) do
@@ -35,6 +42,13 @@ function rules.validPartie(state)
         local prefix = collection == "events" and "event:" or collection == "rewards" and "reward:" or "roll:"
         for _, entry in ipairs(data[collection]) do
             if not integer(state[prefix .. entry.id], 0, collection == "rolls" and 20 or 1) then return false end
+        end
+    end
+    if data.presentation then
+        for key in pairs(shape) do
+            if key:match("^visited:") or key:match("^heard:") or key:match("^milestone:") then
+                if not integer(state[key], 0, 1) then return false end
+            end
         end
     end
     return true
@@ -48,6 +62,29 @@ local function conditionsMet(state, choice)
     end
     return true
 end
+
+rules.conditionsMet = function(state, conditions) return conditionsMet(state, {conditions = conditions}) end
+
+function rules.acquire(state)
+    if not data.presentation then return state end
+    local candidate = {}
+    for key, value in pairs(state) do candidate[key] = value end
+    state = candidate
+    state["visited:" .. state.sceneId] = 1
+    for _, milestone in ipairs(data.presentation.progress.milestones) do
+        if rules.conditionsMet(state, milestone.conditions) then state["milestone:" .. milestone.id] = 1 end
+    end
+    return state
+end
+
+function rules.completeListening(state)
+    local candidate = {}
+    for key, value in pairs(state) do candidate[key] = value end
+    if data.presentation then candidate["heard:" .. state.sceneId] = 1 end
+    return candidate
+end
+
+function rules.scene(id) return definitions.scenes[id] end
 
 local function applyEffects(state, effects)
     for _, effect in ipairs(effects) do
@@ -86,7 +123,7 @@ end
 -- Décrire n'effectue aucun tirage et n'applique aucun effet à la partie.
 function rules.describe(state)
     local scene = definitions.scenes[state.sceneId]
-    local view = {title = scene.title, body = scene.text, audio = scene.audio, ending = scene.ending, choices = {}}
+    local view = {title = scene.title, body = scene.text, audio = scene.audio, image = scene.image, ending = scene.ending, choices = {}}
     for _, roll in ipairs(data.rolls) do
         if state["roll:" .. roll.id] > 0 then
             view.body = view.body .. "\n" .. roll.name .. " : " .. state["roll:" .. roll.id] .. " / 20"
@@ -124,6 +161,7 @@ function rules.transition(state, id, proposedRolls)
             if result >= outcome.min and result <= outcome.max then candidate.sceneId = outcome.destination end
         end
     else candidate.sceneId = choice.destination end
+    candidate = rules.acquire(candidate)
     if not rules.validPartie(candidate) then return nil end
     local replayAudio = candidate.sceneId ~= state.sceneId or choice.replayAudioOnReturn ~= false
     return candidate, replayAudio

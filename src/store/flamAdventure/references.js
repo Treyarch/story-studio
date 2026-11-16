@@ -18,6 +18,19 @@ export function* adventureReferences(document) {
   for (const [index, reward] of document.rewards.entries()) {
     yield* ruleReferences(reward.effects, `/rewards/${index}/effects`);
   }
+  const view = document.presentation;
+  if (view) {
+    for (const [i, section] of view.sections.entries()) for (const [j, entry] of section.entries.entries()) {
+      yield* ruleReferences(entry.conditions, `/presentation/sections/${i}/entries/${j}/conditions`);
+    }
+    for (const [i, chapter] of view.chapters.entries()) for (const [j, passage] of chapter.passages.entries()) {
+      yield { collection: 'scenes', id: passage.sceneId, path: `/presentation/chapters/${i}/passages/${j}/sceneId` };
+      yield* ruleReferences(passage.conditions, `/presentation/chapters/${i}/passages/${j}/conditions`);
+    }
+    for (const [i, milestone] of view.progress.milestones.entries()) {
+      yield* ruleReferences(milestone.conditions, `/presentation/progress/milestones/${i}/conditions`);
+    }
+  }
   for (const [index, roll] of document.rolls.entries()) {
     for (const [outcomeIndex, outcome] of roll.outcomes.entries()) {
       yield { collection: 'scenes', id: outcome.destination, path: `/rolls/${index}/outcomes/${outcomeIndex}/destination` };

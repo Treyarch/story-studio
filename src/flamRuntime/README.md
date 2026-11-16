@@ -30,7 +30,7 @@ par le FFmpeg embarqué en MP3 stéréo, 44,1 kHz, CBR 128 kb/s, avec ID3v2.3 et
 Info/Xing (profil Audio B du prototype validé sur FLAM). La table `.mp3map`
 commence au premier paquet audio, après les métadonnées, et pointe sur les
 limites des trames. Les anciens packs sans métadonnées restent lisibles. Les images sont
-préparées en JPEG de dimensions maximales 320 × 240. Les noms de ressources
+préparées en LIF natif de dimensions maximales 320 × 212, sans agrandissement. Les noms de ressources
 sont produits par le générateur ; aucun chemin de l’auteur ne devient un
 chemin d’archive. Le texte seul ne génère aucune narration.
 
@@ -65,10 +65,11 @@ a changé ou si la restauration est incertaine, l’opération signale un besoin
 de récupération et conserve le reçu et le contenu concerné. Aucune réparation
 silencieuse ni mise à jour d’une aventure déjà installée n’est proposée.
 
-Limite du runtime du lot 03 conservée : les images sont préparées et livrées,
-mais les scènes sont actuellement rendues en texte et choix, sans affichage
-de leur illustration. La lecture et la reprise sur l’appareil physique ne
-sont pas prouvées par ces contrôles locaux.
+Le lecteur affiche désormais les illustrations de scène. Le bloc optionnel
+de présentation active menu illustré, chapitres, fiche, inventaire et collections
+conditionnelles, avec consultation indépendante du scénario. Voir le
+[guide de présentation](../../docs/flam-interface-aventure.md). Le nouveau rendu
+et sa reprise sur appareil physique ne sont pas prouvés par les contrôles locaux.
 
 ## Règles et partie
 

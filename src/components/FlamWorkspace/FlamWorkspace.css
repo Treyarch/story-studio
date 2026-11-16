@@ -97,3 +97,7 @@
   white-space: nowrap;
 }
 .flam-node-badge.is-start { color: var(--accent-text); border-color: var(--accent-border); }
+
+.flam-presentation > summary,
+.flam-presentation details > summary { cursor: pointer; font-weight: 600; }
+.flam-presentation-actions { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-block: 0.5rem; }

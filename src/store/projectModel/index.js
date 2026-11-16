@@ -1,6 +1,7 @@
 import { translateTree as t } from "../../i18n/treePresentation.js";
 import { makeId, normalizeMenuEntry, normalizeStoryEntry, normalizeZipEntry } from './schema.js';
 import { walkMediaBindingReferences } from './mediaBindings.js';
+import { adventureMediaOwners } from '../flamAdventure/presentation.js';
 import { isFlamProject } from './envelope.js';
 
 function buildProjectIndexEntries(entries, ancestors, level, index) {
@@ -264,9 +265,9 @@ export function* walkProjectMediaReferences(project) {
 
   yield* walkRootReferences(project);
   if (isFlamProject(project)) {
-    for (const scene of project.authoring.document.scenes) {
+    for (const scene of adventureMediaOwners(project.authoring.document)) {
       for (const key of ['audio', 'image']) {
-        if (scene[key]) yield { obj: scene, key, path: scene[key], label: scene.title || scene.id, scope: 'flam-scene' };
+        if (scene[key]) yield { obj: scene, key, path: scene[key], label: scene.title || scene.name || scene.id || project.authoring.document.title, scope: 'flam-scene' };
       }
     }
     return;

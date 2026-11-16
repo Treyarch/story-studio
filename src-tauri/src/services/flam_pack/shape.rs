@@ -13,10 +13,11 @@ pub(super) struct Document {
     scenes: Vec<Scene>,
     choices: Vec<Choice>,
     classes: Vec<Named>,
-    items: Vec<Named>,
+    items: Vec<Item>,
     events: Vec<Named>,
     rewards: Vec<Reward>,
     rolls: Vec<Roll>,
+    presentation: Option<Presentation>,
 }
 #[derive(Deserialize)]
 #[serde(deny_unknown_fields)]
@@ -126,4 +127,71 @@ enum Effect {
         #[serde(rename = "eventId")]
         event_id: Value,
     },
+}
+
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields)]
+struct Item {
+    id: String,
+    name: String,
+    text: Option<String>,
+    image: Option<String>,
+    audio: Option<String>,
+}
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields)]
+struct Presentation {
+    image: Value,
+    text: String,
+    sections: Vec<Section>,
+    chapters: Vec<Chapter>,
+    progress: Progress,
+}
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields)]
+struct Section {
+    id: String,
+    kind: String,
+    title: String,
+    image: Value,
+    enabled: bool,
+    entries: Vec<Entry>,
+}
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields)]
+struct Entry {
+    id: String,
+    title: String,
+    text: String,
+    image: Value,
+    audio: Value,
+    conditions: Vec<Condition>,
+    unavailable: String,
+}
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields)]
+struct Chapter {
+    id: String,
+    title: String,
+    image: Value,
+    passages: Vec<Passage>,
+}
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields, rename_all = "camelCase")]
+struct Passage {
+    scene_id: Value,
+    replayable: bool,
+    conditions: Vec<Condition>,
+}
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields)]
+struct Progress {
+    target: f64,
+    milestones: Vec<Milestone>,
+}
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields)]
+struct Milestone {
+    id: String,
+    conditions: Vec<Condition>,
 }

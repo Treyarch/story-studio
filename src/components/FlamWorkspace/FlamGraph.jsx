@@ -39,6 +39,11 @@ function arrange(cy) {
   if (!cy?.nodes().length) return;
   cy.layout({ name: 'breadthfirst', directed: true, spacingFactor: 1.7, padding: 50,
     roots: cy.nodes().filter(node => node.data('start')), animate: false }).run();
+  cy.nodes().forEach(node => {
+    const { x, y } = node.position();
+    node.position({ x: y, y: x });
+  });
+  cy.fit(undefined, 50);
 }
 
 export function FlamGraph({ document, selection, onSelect, onAddScene, onAddRoll, onLink, onCreateLinked, projectEpoch, graphLayout, onLayout, dragHandleProps = {}, panelViewState = null, surfaceTools = null, production = null }) {

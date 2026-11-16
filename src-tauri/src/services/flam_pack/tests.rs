@@ -150,7 +150,7 @@ fn prepares_real_stereo_mp3_and_seek_map_without_narrating_text() {
     let output = generate(doc, &temporary.0, &|| false, &|_| {}).unwrap();
     let checked = read_pack(&output, &|| false).unwrap();
     assert!(checked.files.contains_key("sounds/0-stereo.mp3"));
-    assert!(checked.files.contains_key("images/0.jpg"));
+    assert!(checked.files.contains_key("img/1.lif"));
     assert!(!checked.files.contains_key("sounds/1-stereo.mp3"));
     let map = &checked.files["sounds/0-stereo.mp3map"];
     assert_eq!(map.len(), 28);
@@ -308,7 +308,6 @@ fn structure_unknown_fields_and_rule_references_are_checked_at_the_native_bounda
     assert!(document::validate(&doc).is_err());
 }
 
-
 #[test]
 fn replay_audio_on_return_accepts_legacy_documents_and_only_boolean_values() {
     let mut doc = example();
@@ -321,4 +320,74 @@ fn replay_audio_on_return_accepts_legacy_documents_and_only_boolean_values() {
         doc["choices"][0]["replayAudioOnReturn"] = value;
         assert!(document::validate(&doc).is_err());
     }
+}
+
+#[test]
+fn illustrated_production_pack_runs_consultation_and_persistence_journeys() {
+    let root = Path::new(env!("CARGO_MANIFEST_DIR")).parent().unwrap();
+    let temporary = temp();
+    let fixture = Command::new("node").current_dir(root).args(["--input-type=module", "-e",
+        "import {presentationFixture} from './scripts/flamPresentationFixture.mjs'; process.stdout.write(JSON.stringify(presentationFixture()))"])
+        .output().unwrap();
+    assert!(fixture.status.success());
+    let mut doc: Value = serde_json::from_slice(&fixture.stdout).unwrap();
+    let source = temporary.0.join("source.wav");
+    assert!(
+        Command::new(crate::support::ffmpeg::get_ffmpeg_path().unwrap())
+            .args([
+                "-v",
+                "error",
+                "-f",
+                "lavfi",
+                "-i",
+                "sine=frequency=440:duration=2"
+            ])
+            .arg(&source)
+            .status()
+            .unwrap()
+            .success()
+    );
+    let image = temporary.0.join("source.png");
+    image::RgbaImage::from_pixel(48, 48, image::Rgba([255, 160, 0, 255]))
+        .save(&image)
+        .unwrap();
+    for pointer in document::media_pointers(&doc) {
+        let value = doc.pointer_mut(&pointer).unwrap();
+        if !value.is_null() {
+            *value = Value::String(
+                if pointer.ends_with("/audio") {
+                    &source
+                } else {
+                    &image
+                }
+                .to_string_lossy()
+                .into_owned(),
+            );
+        }
+    }
+    let output = generate(doc, &temporary.0, &|| false, &|_| {}).unwrap();
+    let checked = read_pack(&output, &|| false).unwrap();
+    let extracted = Temporary::new(&temporary.0).unwrap();
+    for (name, bytes) in checked.files {
+        if name.ends_with(".lif") {
+            // Oracle indépendant : le premier pixel est orange opaque RGB565.
+            assert_eq!(&bytes[..13], b"liff\0\0\0\x30\0\0\0\x30\xa2");
+            assert_eq!(&bytes[13..17], &[255, 0, 253, 255]);
+        }
+        let path = extracted.0.join(name);
+        fs::create_dir_all(path.parent().unwrap()).unwrap();
+        fs::write(path, bytes).unwrap();
+    }
+    let result = Command::new("lua")
+        .current_dir(root)
+        .arg(root.join("scripts/check-flam-presentation.lua"))
+        .arg(&extracted.0)
+        .output()
+        .unwrap();
+    assert!(
+        result.status.success(),
+        "{}\n{}",
+        String::from_utf8_lossy(&result.stdout),
+        String::from_utf8_lossy(&result.stderr)
+    );
 }

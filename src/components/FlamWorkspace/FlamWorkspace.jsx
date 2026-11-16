@@ -11,6 +11,7 @@ import { ImageField } from '../editors/ImageField.jsx';
 import { CheckField, NumberField, ReferenceField, TextField } from './Fields.jsx';
 import { ChoiceEditor } from './ChoiceEditor.jsx';
 import { RuleEditor } from './RuleEditor.jsx';
+import { PresentationEditor, PresentationMedia } from './PresentationEditor.jsx';
 import { FlamProduction } from './FlamProduction.jsx';
 import { FlamGraph } from './FlamGraph.jsx';
 import { GraphWorkspacePanels, GraphPanelHeader } from '../../workspace/GraphWorkspacePanels.jsx';
@@ -27,6 +28,9 @@ import './FlamWorkspace.css';
 
 function diagnosticText(diagnostic, t) {
   switch (diagnostic.code) {
+    case 'INVALID_PROGRESS': return t('common:flam.presentation.invalidProgress');
+    case 'EMPTY_CHAPTER': return t('common:flam.presentation.emptyChapter');
+    case 'DUPLICATE_PASSAGE': return t('common:flam.presentation.duplicatePassage');
     case 'MISSING_START': return t('common:flam.diagnostic.start');
     case 'MISSING_REFERENCE': return t('common:flam.diagnostic.reference');
     case 'MISSING_LABEL': return t('common:flam.diagnostic.label');
@@ -125,6 +129,7 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
       targetPath = targetPath.slice(0, targetPath.lastIndexOf('/'));
     }
     if (target) {
+      for (let parent = target.parentElement; parent; parent = parent.parentElement) if (parent.tagName === 'DETAILS') parent.open = true;
       target.scrollIntoView?.({ block: 'center' });
       (target.querySelector('input, select, textarea, button') ?? target).focus();
     }
@@ -225,6 +230,7 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
             <TextField label={t('common:flam.title')} path="/title" value={document.title} onChange={title => edit({ type: 'document', patch: { title } })} />
             <ReferenceField label={t('common:flam.start')} path="/startSceneId" entries={document.scenes} value={document.startSceneId} onChange={startSceneId => edit({ type: 'document', patch: { startSceneId } })} />
           </section>
+          <PresentationEditor document={document} onEdit={edit} prepareMedia={prepareMediaForProject} projectEpoch={projectEpoch} />
           <div className="flam-section-header">
             <h2>{collections.find(([key]) => key === collection)[1]}</h2>
             {collection !== 'choices' && <Button variant="primary" onClick={() => add(collection)}>{t('common:flam.add')}</Button>}
@@ -253,6 +259,11 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
               <Button onClick={() => add('choices', entry.id)}>{t('common:flam.choice.add')}</Button>
             </> : collection === 'choices' ? choiceEditor(entry) : <>
               <TextField label={t('common:flam.name')} path={`${path}/name`} value={entry.name} onChange={name => patch({ name })} />
+              {collection === 'items' && <>
+                <TextField multiline label={t('common:flam.scene.text')} path={`${path}/text`} value={entry.text ?? ''} onChange={text => patch({ text })} />
+                <PresentationMedia entry={{ ...entry, image: entry.image ?? null, audio: entry.audio ?? null }} path={path} projectEpoch={projectEpoch}
+                  onMedia={async (kind, source) => { const prepared = source && await prepareMediaForProject(source); if (!source || prepared) edit({ type: 'patch', collection: 'items', id: entry.id, patch: { [kind]: prepared || null } }); }} />
+              </>}
               {collection === 'rewards' && <>
                 <CheckField label={t('common:flam.reward.repeatable')} path={`${path}/repeatable`} checked={entry.repeatable} onChange={repeatable => patch({ repeatable })} />
                 <p className="flam-hint">{t('common:flam.reward.help')}</p>

@@ -35,7 +35,7 @@ pub(super) fn validate(doc: &Value) -> Result<()> {
                 .as_str()
                 .filter(|s| !s.trim().is_empty())
                 .ok_or_else(fail)?;
-            if !all.insert(id) {
+            if !all.insert(id.to_owned()) {
                 return Err(fail());
             }
             set.insert(id);
@@ -86,6 +86,90 @@ pub(super) fn validate(doc: &Value) -> Result<()> {
         }
         Ok(())
     };
+    if let Some(view) = doc.get("presentation") {
+        let mut identify = |entry: &Value| -> Result<()> {
+            let id = entry["id"]
+                .as_str()
+                .filter(|s| !s.trim().is_empty())
+                .ok_or_else(fail)?;
+            if !all.insert(id.to_owned()) {
+                return Err(fail());
+            }
+            Ok(())
+        };
+        for section in view["sections"].as_array().ok_or_else(fail)? {
+            identify(section)?;
+            if !matches!(
+                section["kind"].as_str(),
+                Some("chapters" | "character" | "inventory" | "collection")
+            ) || section["title"]
+                .as_str()
+                .filter(|s| !s.trim().is_empty())
+                .is_none()
+            {
+                return Err(fail());
+            }
+            for entry in section["entries"].as_array().ok_or_else(fail)? {
+                identify(entry)?;
+                if entry["title"]
+                    .as_str()
+                    .filter(|s| !s.trim().is_empty())
+                    .is_none()
+                    || !matches!(entry["unavailable"].as_str(), Some("disabled" | "hidden"))
+                {
+                    return Err(fail());
+                }
+                rules(&entry["conditions"], true)?;
+            }
+        }
+        for chapter in view["chapters"].as_array().ok_or_else(fail)? {
+            identify(chapter)?;
+            if chapter["title"]
+                .as_str()
+                .filter(|s| !s.trim().is_empty())
+                .is_none()
+            {
+                return Err(fail());
+            }
+            let passages = chapter["passages"].as_array().ok_or_else(fail)?;
+            let mut seen = HashSet::new();
+            if passages.is_empty() {
+                return Err(fail());
+            }
+            for passage in passages {
+                reference("scenes", &passage["sceneId"])?;
+                if !seen.insert(passage["sceneId"].as_str().unwrap()) {
+                    return Err(fail());
+                }
+                rules(&passage["conditions"], true)?;
+            }
+        }
+        let milestones = view["progress"]["milestones"].as_array().ok_or_else(fail)?;
+        if view["progress"]["target"]
+            .as_u64()
+            .filter(|n| *n > 0 && *n <= milestones.len() as u64)
+            .is_none()
+        {
+            return Err(fail());
+        }
+        for milestone in milestones {
+            identify(milestone)?;
+            if milestone["conditions"]
+                .as_array()
+                .ok_or_else(fail)?
+                .is_empty()
+            {
+                return Err(fail());
+            }
+            rules(&milestone["conditions"], true)?;
+        }
+    }
+    for pointer in media_pointers(doc) {
+        let value = doc.pointer(&pointer).ok_or_else(fail)?;
+        if !value.is_null() && value.as_str().filter(|s| !s.is_empty()).is_none() {
+            return Err(fail());
+        }
+    }
     reference("scenes", &doc["startSceneId"])?;
     for scene in doc["scenes"].as_array().unwrap() {
         if scene["title"]
@@ -188,4 +272,36 @@ pub(super) fn lua(value: &Value) -> String {
                 .join(",")
         ),
     }
+}
+
+// Parcours fermé des médias : utilisé à la génération et à la relecture du pack.
+pub(super) fn media_pointers(doc: &Value) -> Vec<String> {
+    fn fields(doc: &Value, base: &str, result: &mut Vec<String>) {
+        for kind in ["audio", "image"] {
+            let pointer = format!("{base}/{kind}");
+            if doc.pointer(&pointer).is_some() {
+                result.push(pointer);
+            }
+        }
+    }
+    let mut result = Vec::new();
+    for collection in ["scenes", "items"] {
+        for (index, _) in doc[collection].as_array().unwrap().iter().enumerate() {
+            fields(doc, &format!("/{collection}/{index}"), &mut result);
+        }
+    }
+    if let Some(view) = doc.get("presentation") {
+        fields(doc, "/presentation", &mut result);
+        for (i, section) in view["sections"].as_array().unwrap().iter().enumerate() {
+            let base = format!("/presentation/sections/{i}");
+            fields(doc, &base, &mut result);
+            for (j, _) in section["entries"].as_array().unwrap().iter().enumerate() {
+                fields(doc, &format!("{base}/entries/{j}"), &mut result);
+            }
+        }
+        for (i, _) in view["chapters"].as_array().unwrap().iter().enumerate() {
+            fields(doc, &format!("/presentation/chapters/{i}"), &mut result);
+        }
+    }
+    result
 }

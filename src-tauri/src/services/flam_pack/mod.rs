@@ -48,7 +48,7 @@ impl From<zip::result::ZipError> for Error {
     }
 }
 
-pub(crate) const RUNTIME: [(&str, &str); 4] = [
+pub(crate) const RUNTIME: [(&str, &str); 6] = [
     (
         "main.lua",
         include_str!("../../../../src/flamRuntime/lua/main.lua"),
@@ -64,6 +64,14 @@ pub(crate) const RUNTIME: [(&str, &str); 4] = [
     (
         "script/savegame.lua",
         include_str!("../../../../src/flamRuntime/lua/savegame.lua"),
+    ),
+    (
+        "script/presentation.lua",
+        include_str!("../../../../src/flamRuntime/lua/presentation.lua"),
+    ),
+    (
+        "script/display.lua",
+        include_str!("../../../../src/flamRuntime/lua/display.lua"),
     ),
 ];
 const LIMIT: u64 = 512 * 1024 * 1024;
@@ -201,32 +209,31 @@ pub(crate) fn generate(
         .iter()
         .map(|(n, v)| (n.to_string(), v.as_bytes().to_vec()))
         .collect();
-    for (index, scene) in doc["scenes"].as_array_mut().unwrap().iter_mut().enumerate() {
+    for (index, pointer) in document::media_pointers(&doc).iter().enumerate() {
         check(cancel)?;
         progress("media");
-        for kind in ["audio", "image"] {
-            if let Some(source) = scene[kind].as_str() {
-                safe(Path::new(source)).map_err(|_| Error::MediaUnavailable)?;
-                let name = if kind == "audio" {
-                    format!("sounds/{index}-stereo.mp3")
-                } else {
-                    format!("images/{index}.jpg")
-                };
-                let bytes = if kind == "audio" {
-                    media::audio(Path::new(source), &stage.0, cancel)?
-                } else {
-                    media::image(Path::new(source))?
-                };
-                if kind == "audio" {
-                    files.insert(format!("{name}map"), media::audio_map(&bytes)?);
-                }
-                files.insert(name.clone(), bytes);
-                if files.values().map(|bytes| bytes.len() as u64).sum::<u64>() > LIMIT {
-                    return Err(Error::InvalidPack);
-                }
-                // Les chemins Lua sont relatifs au dossier de ressources du firmware.
-                scene[kind] = Value::String(name.split_once('/').unwrap().1.into());
+        let value = doc.pointer_mut(pointer).ok_or(Error::InvalidDocument)?;
+        if let Some(source) = value.as_str() {
+            let is_audio = pointer.ends_with("/audio");
+            safe(Path::new(source)).map_err(|_| Error::MediaUnavailable)?;
+            let name = if is_audio {
+                format!("sounds/{index}-stereo.mp3")
+            } else {
+                format!("img/{index}.lif")
+            };
+            let bytes = if is_audio {
+                media::audio(Path::new(source), &stage.0, cancel)?
+            } else {
+                media::image(Path::new(source))?
+            };
+            if is_audio {
+                files.insert(format!("{name}map"), media::audio_map(&bytes)?);
             }
+            files.insert(name.clone(), bytes);
+            if files.values().map(|bytes| bytes.len() as u64).sum::<u64>() > LIMIT {
+                return Err(Error::InvalidPack);
+            }
+            *value = Value::String(name.split_once('/').unwrap().1.into());
         }
     }
     files.insert("script/adventure_data.lua".into(), data_module(&doc));
@@ -286,21 +293,21 @@ pub(crate) fn read_pack(folder: &Path, cancel: &impl Fn() -> bool) -> Result<Che
     expected.insert("info.plain".into(), info(doc));
     expected.insert("script/adventure_data.lua".into(), data_module(doc));
     let mut media_names = Vec::new();
-    for (index, scene) in doc["scenes"].as_array().unwrap().iter().enumerate() {
-        for (kind, ext, dir) in [("audio", "mp3", "sounds"), ("image", "jpg", "images")] {
-            if !scene[kind].is_null() {
-                let filename = if kind == "audio" {
-                    format!("{index}-stereo.{ext}")
-                } else {
-                    format!("{index}.{ext}")
-                };
-                if scene[kind] != filename {
-                    return Err(Error::InvalidPack);
-                }
-                media_names.push(format!("{dir}/{filename}"));
-                if kind == "audio" {
-                    media_names.push(format!("{dir}/{filename}map"));
-                }
+    for (index, pointer) in document::media_pointers(doc).iter().enumerate() {
+        let value = doc.pointer(pointer).ok_or(Error::InvalidPack)?;
+        if !value.is_null() {
+            let is_audio = pointer.ends_with("/audio");
+            let (filename, dir) = if is_audio {
+                (format!("{index}-stereo.mp3"), "sounds")
+            } else {
+                (format!("{index}.lif"), "img")
+            };
+            if *value != filename {
+                return Err(Error::InvalidPack);
+            }
+            media_names.push(format!("{dir}/{filename}"));
+            if is_audio {
+                media_names.push(format!("{dir}/{filename}map"));
             }
         }
     }
@@ -349,7 +356,7 @@ pub(crate) fn read_pack(folder: &Path, cancel: &impl Fn() -> bool) -> Result<Che
         {
             return Err(Error::InvalidPack);
         }
-        if name.ends_with(".jpg") {
+        if name.ends_with(".lif") {
             media::validate_image(&files[name])?;
         }
     }

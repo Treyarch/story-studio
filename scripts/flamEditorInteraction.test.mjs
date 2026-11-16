@@ -176,3 +176,35 @@ test('graphe principal : sélection de scène, lien vers un jet et édition part
     assert.equal(mediaTarget.uuid, added.id);
   } finally { ui.unmount(); storeHook.unmount(); }
 });
+
+test('le menu et ses rubriques se configurent dans les formulaires et partagent l’historique du projet', async () => {
+  const { PresentationEditor } = await import('../src/components/FlamWorkspace/PresentationEditor.jsx');
+  const storeHook = runner(() => useProjectStore(), { doubleInvokeStateUpdaters: true });
+  let store = storeHook.render();
+  store.loadProject(createFlamProject({ document: createExampleAdventure() }));
+  store = storeHook.render();
+  const epoch = store.workEpochRef.current;
+  const settings = runner(() => PresentationEditor({ document: store.readProject().authoring.document,
+    onEdit: command => commitAdventureEdit(store, epoch, command), prepareMedia: async source => source, projectEpoch: epoch }));
+  const render = () => elements(settings.render());
+  const click = label => render().find(e => e.props?.children === label && e.props.onClick)?.props.onClick();
+  try {
+    click('Configurer le menu illustré');
+    assert.equal(store.readProject().authoring.document.presentation.sections.length, 5);
+    render().find(e => e.props?.path === '/presentation/sections/0/title').props.onChange('Sommaire');
+    render().find(e => e.props?.path === '/presentation/sections/0/enabled').props.onChange(false);
+    const media = render().find(e => e.props?.path === '/presentation' && e.type?.name === 'PresentationMedia');
+    await media.props.onMedia('image', '/images/accueil.png');
+    assert.equal(store.readProject().authoring.document.presentation.image, '/images/accueil.png');
+    assert.equal(store.readProject().authoring.document.presentation.sections[0].title, 'Sommaire');
+    assert.equal(store.readProject().authoring.document.presentation.sections[0].enabled, false);
+    store.undo(); store = storeHook.render();
+    assert.equal(store.readProject().authoring.document.presentation.image, null);
+    store.redo(); store = storeHook.render();
+    click('Ajouter un chapitre');
+    render().find(e => e.props?.path === '/presentation/chapters/0/title').props.onChange('Le départ');
+    click('Ajouter un passage');
+    render().find(e => e.props?.path === '/presentation/chapters/0/passages/0/sceneId').props.onChange('depart');
+    assert.equal(store.readProject().authoring.document.presentation.chapters[0].passages[0].sceneId, 'depart');
+  } finally { settings.unmount(); storeHook.unmount(); }
+});
