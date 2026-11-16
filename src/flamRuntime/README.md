@@ -26,8 +26,10 @@ longueur ; l’UUID distingue les aventures de même titre. L’identité est lu
 dans le contenu : les anciens dossiers `<uuid>.flam` restent utilisables.
 L’archive comporte `main.lua`, les modules sous `script/`,
 `info.plain`, `version`, `uuid.bin` et les médias. La narration est convertie
-par le FFmpeg embarqué en MP3 stéréo, 44,1 kHz, CBR 128 kb/s, sans tags ni Xing,
-avec une table `.mp3map` calculée sur les limites des trames. Les images sont
+par le FFmpeg embarqué en MP3 stéréo, 44,1 kHz, CBR 128 kb/s, avec ID3v2.3 et
+Info/Xing (profil Audio B du prototype validé sur FLAM). La table `.mp3map`
+commence au premier paquet audio, après les métadonnées, et pointe sur les
+limites des trames. Les anciens packs sans métadonnées restent lisibles. Les images sont
 préparées en JPEG de dimensions maximales 320 × 240. Les noms de ressources
 sont produits par le générateur ; aucun chemin de l’auteur ne devient un
 chemin d’archive. Le texte seul ne génère aucune narration.

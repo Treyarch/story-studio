@@ -66,9 +66,9 @@ pub(super) fn audio(source: &Path, stage: &Path, cancel: &impl Fn() -> bool) -> 
             "-b:a",
             "128k",
             "-write_xing",
-            "0",
+            "1",
             "-id3v2_version",
-            "0",
+            "3",
             "-map_metadata",
             "-1",
         ])
@@ -109,38 +109,67 @@ pub(super) fn audio(source: &Path, stage: &Path, cancel: &impl Fn() -> bool) -> 
     Ok(bytes)
 }
 
-// Profil matériel éprouvé : MPEG1 Layer III, CBR 128 kb/s, 44,1 kHz stéréo,
-// sans tags ni Xing. Les offsets pointent sur les vraies limites des trames.
+fn frame_size(bytes: &[u8], offset: usize) -> Result<usize> {
+    let header = bytes.get(offset..offset + 4).ok_or(Error::InvalidPack)?;
+    if header[0] != 0xff
+        || header[1] & 0xfe != 0xfa
+        || header[2] & 0xfc != 0x90
+        || header[3] >> 6 == 3
+    {
+        return Err(Error::InvalidPack);
+    }
+    let size = 144 * 128000 / 44100 + ((header[2] >> 1) & 1) as usize;
+    if offset + size > bytes.len() {
+        return Err(Error::InvalidPack);
+    }
+    Ok(size)
+}
+
+// Profil Audio B validé sur FLAM : MPEG1 Layer III, CBR 128 kb/s,
+// 44,1 kHz stéréo, ID3v2.3 et Info/Xing. La table commence au premier paquet
+// audio, après les métadonnées, comme celle du prototype vérifiée par FFprobe.
+// Les anciens packs sans métadonnées restent lisibles.
 pub(super) fn audio_map(bytes: &[u8]) -> Result<Vec<u8>> {
     let mut offset = 0usize;
+    if bytes.starts_with(b"ID3") {
+        let tag = bytes.get(..10).ok_or(Error::InvalidPack)?;
+        if tag[3..6] != [3, 0, 0] || tag[6..10].iter().any(|byte| byte & 0x80 != 0) {
+            return Err(Error::InvalidPack);
+        }
+        offset = 10
+            + tag[6..10]
+                .iter()
+                .fold(0usize, |size, byte| (size << 7) | *byte as usize);
+    }
+    let first_size = frame_size(bytes, offset)?;
+    // MPEG1 stéréo : 32 octets de side information après l'en-tête et le CRC
+    // éventuel. La trame Info/Xing n'est pas un paquet de narration.
+    let marker = offset + 4 + if bytes[offset + 1] & 1 == 0 { 2 } else { 0 } + 32;
+    if bytes
+        .get(marker..marker + 4)
+        .is_some_and(|value| value == b"Info" || value == b"Xing")
+    {
+        offset += first_size;
+    }
+    let first_audio = offset as u32;
     let mut frames = 0u64;
     let mut next_second = 1u64;
     let mut entries = Vec::new();
     while offset < bytes.len() {
-        let header = bytes.get(offset..offset + 4).ok_or(Error::InvalidPack)?;
-        if header[0] != 0xff
-            || header[1] & 0xfe != 0xfa
-            || header[2] & 0xfc != 0x90
-            || header[3] >> 6 == 3
-        {
-            return Err(Error::InvalidPack);
-        }
+        let size = frame_size(bytes, offset)?;
         let position = frames * 1152;
         if position >= next_second * 44100 {
             entries.push((offset as u32, (position * 2) as u32));
             next_second += 1;
         }
-        offset += 144 * 128000 / 44100 + ((header[2] >> 1) & 1) as usize;
-        if offset > bytes.len() {
-            return Err(Error::InvalidPack);
-        }
+        offset += size;
         frames += 1;
     }
     if frames == 0 || frames * 2304 > u32::MAX as u64 {
         return Err(Error::InvalidPack);
     }
     let mut result = Vec::new();
-    for number in [frames as u32 * 2304, 0, 0] {
+    for number in [frames as u32 * 2304, first_audio, 0] {
         result.extend(number.to_le_bytes());
     }
     for (offset, position) in entries {

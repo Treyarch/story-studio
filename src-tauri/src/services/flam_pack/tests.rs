@@ -154,9 +154,57 @@ fn prepares_real_stereo_mp3_and_seek_map_without_narrating_text() {
     assert!(!checked.files.contains_key("sounds/1-stereo.mp3"));
     let map = &checked.files["sounds/0-stereo.mp3map"];
     assert_eq!(map.len(), 28);
-    let mut corrupt = checked.files["sounds/0-stereo.mp3"].clone();
-    corrupt[2] = 0x98;
+    let audio = &checked.files["sounds/0-stereo.mp3"];
+    // Garder le profil Audio B effectivement validé sur la FLAM : ID3v2.3
+    // et trame Info/Xing, puis une table pointant sur le premier paquet audio.
+    assert!(
+        audio.starts_with(b"ID3\x03"),
+        "Le profil matériel perd son en-tête ID3v2.3"
+    );
+    let first = u32::from_le_bytes(map[4..8].try_into().unwrap()) as usize;
+    assert!(first > 0);
+    assert!(audio[..first]
+        .windows(4)
+        .any(|w| w == b"Info" || w == b"Xing"));
+    assert_eq!(&audio[first..first + 2], &[0xff, 0xfb]);
+    let mut corrupt = audio.clone();
+    corrupt[first + 2] = 0x98;
     assert!(media::audio_map(&corrupt).is_err());
+}
+
+#[test]
+fn seek_map_excludes_metadata_and_rejects_truncation() {
+    let mut frame = vec![0u8; 417];
+    frame[..4].copy_from_slice(&[0xff, 0xfb, 0x90, 0]);
+    let plain = frame.repeat(2);
+    let plain_map = media::audio_map(&plain).unwrap();
+    assert_eq!(&plain_map[..12], &[0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
+
+    let mut tagged = b"ID3\x03\0\0\0\0\0\x03abc".to_vec();
+    let mut info = frame.clone();
+    info[36..40].copy_from_slice(b"Info");
+    tagged.extend(info);
+    tagged.extend(&plain);
+    let map = media::audio_map(&tagged).unwrap();
+    assert_eq!(u32::from_le_bytes(map[4..8].try_into().unwrap()), 430);
+    assert_eq!(
+        &map[..4],
+        &plain_map[..4],
+        "Info ne contribue pas à la durée"
+    );
+
+    for invalid in [
+        &tagged[..9],                // en-tête ID3 tronqué
+        &tagged[..13],               // aucune trame
+        &tagged[..430],              // Info sans paquet audio
+        &tagged[..tagged.len() - 1], // dernier paquet tronqué
+    ] {
+        assert!(media::audio_map(invalid).is_err());
+    }
+    tagged[6] = 0x80; // taille ID3 non synchsafe
+    assert!(media::audio_map(&tagged).is_err());
+    tagged[6..10].copy_from_slice(&[0x7f; 4]);
+    assert!(media::audio_map(&tagged).is_err());
 }
 
 #[test]
