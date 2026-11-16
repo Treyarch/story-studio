@@ -22,6 +22,11 @@ public version; this file stays as the concise project history.
 
 ### Added
 
+- Aventures FLAM : menu illustré configurable, chapitres écoutés et réécoute,
+  fiche personnage, inventaire, carnet et souvenirs conditionnels, progression
+  par jalons et images natives LIF. La consultation conserve le parcours en
+  cours ; la validation du nouveau rendu sur appareil reste à effectuer.
+
 - Éditeur d’aventure FLAM : création vide ou exemple modifiable, scènes et
   médias, classes, objets, événements, conditions, effets, récompenses et jets
   de dé. Diagnostics cliquables, sauvegarde des brouillons et annulation

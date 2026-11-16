@@ -190,6 +190,14 @@ fn pack_folder_name(title: &str, id: Uuid) -> String {
     format!("{stem}--{id}.flam")
 }
 
+fn media_name(index: usize, pointer: &str) -> String {
+    if pointer.ends_with("/audio") {
+        format!("sounds/{index}-stereo.mp3")
+    } else {
+        format!("img/{index}.lif")
+    }
+}
+
 pub(crate) fn generate(
     mut doc: Value,
     output: &Path,
@@ -216,11 +224,7 @@ pub(crate) fn generate(
         if let Some(source) = value.as_str() {
             let is_audio = pointer.ends_with("/audio");
             safe(Path::new(source)).map_err(|_| Error::MediaUnavailable)?;
-            let name = if is_audio {
-                format!("sounds/{index}-stereo.mp3")
-            } else {
-                format!("img/{index}.lif")
-            };
+            let name = media_name(index, pointer);
             let bytes = if is_audio {
                 media::audio(Path::new(source), &stage.0, cancel)?
             } else {
@@ -297,17 +301,14 @@ pub(crate) fn read_pack(folder: &Path, cancel: &impl Fn() -> bool) -> Result<Che
         let value = doc.pointer(pointer).ok_or(Error::InvalidPack)?;
         if !value.is_null() {
             let is_audio = pointer.ends_with("/audio");
-            let (filename, dir) = if is_audio {
-                (format!("{index}-stereo.mp3"), "sounds")
-            } else {
-                (format!("{index}.lif"), "img")
-            };
+            let name = media_name(index, pointer);
+            let filename = name.split_once('/').unwrap().1;
             if *value != filename {
                 return Err(Error::InvalidPack);
             }
-            media_names.push(format!("{dir}/{filename}"));
+            media_names.push(name.clone());
             if is_audio {
-                media_names.push(format!("{dir}/{filename}map"));
+                media_names.push(format!("{name}map"));
             }
         }
     }

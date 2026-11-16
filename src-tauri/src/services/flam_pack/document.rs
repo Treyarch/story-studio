@@ -152,6 +152,8 @@ pub(super) fn validate(doc: &Value) -> Result<()> {
         {
             return Err(fail());
         }
+        let mut class_bounds: BTreeMap<&str, usize> = BTreeMap::new();
+        let mut shared_milestones = 0;
         for milestone in milestones {
             identify(milestone)?;
             if milestone["conditions"]
@@ -162,6 +164,26 @@ pub(super) fn validate(doc: &Value) -> Result<()> {
                 return Err(fail());
             }
             rules(&milestone["conditions"], true)?;
+            let classes: HashSet<&str> = milestone["conditions"]
+                .as_array()
+                .unwrap()
+                .iter()
+                .filter(|condition| condition["type"] == "class")
+                .filter_map(|condition| condition["classId"].as_str())
+                .collect();
+            if classes.len() > 1 {
+                return Err(fail());
+            }
+            if let Some(id) = classes.iter().next() {
+                *class_bounds.entry(id).or_default() += 1;
+            } else {
+                shared_milestones += 1;
+            }
+        }
+        if view["progress"]["target"].as_u64().unwrap() as usize
+            > shared_milestones + class_bounds.values().copied().max().unwrap_or(0)
+        {
+            return Err(fail());
         }
     }
     for pointer in media_pointers(doc) {

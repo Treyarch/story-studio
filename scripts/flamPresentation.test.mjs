@@ -18,3 +18,9 @@ test('le pack illustré propose son menu sans perdre la partie pendant la consul
     assert.match(result.stdout, /OK : menu illustré/);
   } finally { await rm(folder, { recursive: true, force: true }); }
 });
+
+test('un objectif exigeant les jalons de deux classes exclusives est refusé avant génération', () => {
+  const document = presentationFixture();
+  document.presentation.progress.target = 3;
+  assert.throws(() => compileAdventureData(document), error => error.diagnostics.some(diagnostic => diagnostic.code === 'INVALID_PROGRESS'));
+});

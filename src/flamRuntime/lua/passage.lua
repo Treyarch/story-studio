@@ -38,15 +38,24 @@ end
 local function setBody(value)
     bodyPages, bodyPage, contentChoices = {}, 1, nil
     if not enhanced then lv.label.set_text(body, value); return end
-    local lines, line = {}, ""
-    local length = 0
-    for glyph in value:gmatch("[%z\1-\127\194-\244][\128-\191]*") do
-        if glyph == "\n" or length == 20 then
-            lines[#lines+1], line, length = line, "", 0
+    -- Douze glyphes de 16 px au maximum restent dans les 202 px disponibles.
+    -- Les mots ordinaires ne sont pas coupés ; les mots longs sont paginables.
+    local lines, line, length = {}, "", 0
+    for paragraph in (value .. "\n"):gmatch("([^\n]*)\n") do
+        for word in paragraph:gmatch("%S+") do
+            local glyphs = {}
+            for glyph in word:gmatch("[%z\1-\127\194-\244][\128-\191]*") do glyphs[#glyphs+1] = glyph end
+            if length > 0 and length + 1 + #glyphs > 12 then
+                lines[#lines+1], line, length = line, "", 0
+            end
+            if length > 0 then line, length = line .. " ", length + 1 end
+            for _, glyph in ipairs(glyphs) do
+                if length == 12 then lines[#lines+1], line, length = line, "", 0 end
+                line, length = line .. glyph, length + 1
+            end
         end
-        if glyph ~= "\n" then line, length = line .. glyph, length + 1 end
+        lines[#lines+1], line, length = line, "", 0
     end
-    lines[#lines+1] = line
     for i = 1, #lines, 2 do bodyPages[#bodyPages+1] = lines[i] .. (lines[i+1] and "\n" .. lines[i+1] or "") end
     lv.label.set_text(body, bodyPages[1] or "")
 end
@@ -79,6 +88,10 @@ local function storageError(kind)
         choices = {{label = "Relire la partie", action = "reload"}, {label = "Bibliothèque", action = "leave"}}
         lv.label.set_text(heading, "Sauvegarde à vérifier")
         setBody("L'action a peut-être été sauvée.\nRelis la partie avant de continuer.")
+    elseif kind == "invalid" then
+        choices = {{label = "Relire la partie", action = "reload"}, {label = "Bibliothèque", action = "leave"}}
+        lv.label.set_text(heading, "Partie incompatible")
+        setBody("Cette partie ne correspond pas à cette version de l'aventure. Elle n'a pas été effacée.")
     elseif kind == "read" then
         choices = {{label = "Réessayer", action = "reload"}, {label = "Bibliothèque", action = "leave"}}
         lv.label.set_text(heading, "Sauvegarde illisible")
@@ -151,7 +164,7 @@ local function welcome()
     consultation, replaying, consultStack = nil, false, {}
     backgroundImage = enhanced and scenes.data.presentation.image or nil
     audio.stop()
-    if loadProblem then storageError(loadProblem == "uncertain" and "uncertain" or "read"); return end
+    if loadProblem then storageError(loadProblem == "uncertain" and "uncertain" or (enhanced and loadProblem == "invalid" and "invalid" or "read")); return end
     phase, selected, audioPending, audioAccepted, heardPlay = "ready", 1, false, false, false
     playbackId = playbackId + 1
     choices = {{label = hasPartie and "Reprendre" or "Commencer", action = "intro"}}
@@ -198,7 +211,8 @@ end
 local function consult(title, description, entries, image)
     consultation = {title = title, description = description, entries = entries, image = image}
     phase, selected, backgroundImage = "consultation", 1, image
-    lv.label.set_text(heading, title)
+    local sectionTitle = consultStack[1] and consultStack[1].title
+    lv.label.set_text(heading, sectionTitle and sectionTitle ~= title and (sectionTitle .. " / " .. title) or title)
     setBody(description ~= "" and description or (#entries == 0 and "Aucun élément disponible." or ""))
     choices = {}
     for _, entry in ipairs(entries) do choices[#choices+1] = entry end
@@ -400,6 +414,13 @@ function adventure.start()
     display.start(root)
     heading = text(root, scenes.data.title, 8, 34, lv.font.nunito_bold_20)
     lv.obj.set_size(heading, 296, 34)
+    if enhanced then
+        local adventureTitle = text(root, scenes.data.title, 1, 17, lv.font.nunito_bold_12)
+        lv.obj.set_size(adventureTitle, 296, 17)
+        if lv.LABEL_LONG_SCROLL_CIRCULAR then lv.label.set_long_mode(adventureTitle, lv.LABEL_LONG_SCROLL_CIRCULAR) end
+        lv.obj.set_pos(heading, 12, 20)
+        lv.obj.set_size(heading, 296, 27)
+    end
     body = text(root, "Écoute le début de ton aventure...", 48, 62, lv.font.nunito_bold_16)
     first = text(root, "", 111, 26, lv.font.nunito_bold_16)
     second = text(root, "", 140, 26, lv.font.nunito_bold_16)

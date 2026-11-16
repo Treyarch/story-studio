@@ -55,10 +55,20 @@ export function diagnoseAdventureDocument(document) {
   if (view) {
     if (!Number.isSafeInteger(view.progress.target) || view.progress.target <= 0
       || view.progress.target > view.progress.milestones.length) report('INVALID_PROGRESS', '/presentation/progress/target');
+    const classBounds = new Map();
+    let sharedMilestones = 0;
     for (const [i, milestone] of view.progress.milestones.entries()) {
+      const classes = new Set(milestone.conditions.filter(condition => condition.type === 'class').map(condition => condition.classId));
+      if (classes.size > 1) report('INVALID_PROGRESS', `/presentation/progress/milestones/${i}`);
+      else if (classes.size === 0) sharedMilestones += 1;
+      else {
+        const [id] = classes;
+        classBounds.set(id, (classBounds.get(id) ?? 0) + 1);
+      }
       if (!milestone.conditions.length) report('INVALID_PROGRESS', `/presentation/progress/milestones/${i}`);
       diagnoseQuantities(milestone.conditions, `/presentation/progress/milestones/${i}/conditions`, report);
     }
+    if (view.progress.target > sharedMilestones + Math.max(0, ...classBounds.values())) report('INVALID_PROGRESS', '/presentation/progress/target');
     for (const [i, section] of view.sections.entries()) {
       if (!section.title.trim()) report('MISSING_TITLE', `/presentation/sections/${i}/title`);
       for (const [j, entry] of section.entries.entries()) {

@@ -20,13 +20,15 @@ services hôtes simulés. Le ticket conserve son statut ouvert jusqu’à ce con
 
 ## Résultats des commandes
 
-- `node --test scripts/flam*.test.mjs` : 48 tests réussis.
-- `node --test scripts/*.test.mjs` : 8 769 réussis, un échec existant dans
+- `node --test scripts/flam*.test.mjs` : 49 tests réussis.
+- `node --test scripts/*.test.mjs` : 8 770 réussis, un échec existant dans
   le test de refus du cycle d’accueil. L’échec est reproduit sur le commit
   de départ inchangé : deux appels de journalisation apparaissent dans une
   assertion qui ne prévoit que création et suppression de session.
 - `cargo test --all-targets` : 2 355 réussis, 58 ignorés, aucun échec.
 - Compilation de production, contrôle i18n, ESLint et formatage Rust : réussis.
+- Clippy : terminé, aucun nouvel avertissement dans les fichiers modifiés ;
+  avertissements existants dans les messages XTTS et le chiffrement FLAM.
 - Le contrôle des dix tests de génération FLAM comprend aussi le parcours
   illustré exécuté depuis le pack produit par Rust.
 
@@ -69,3 +71,9 @@ Les listes utilisent des pages de trois entrées ; le menu commercial de la
 vidéo semble défiler en continu. Le titre système, la batterie et Bluetooth
 restent sous contrôle du firmware. Ces différences doivent être évaluées sur
 l’écran, sans annoncer une reproduction à l’identique.
+
+## Revue
+
+Les deux axes et les correctifs sont consignés dans le [compte rendu](review.md).
+Le lecteur illustré distingue aussi explicitement une partie incompatible
+d’une erreur de lecture, sans réinitialisation automatique.
