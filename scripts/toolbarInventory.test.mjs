@@ -265,8 +265,8 @@ test('chaque commande universelle porte son raccourci, identique des deux côté
 });
 
 
-test('FLAM retrouve les mêmes bascules de panneaux que l’éditeur graphe', () => {
+test('FLAM propose les bascules de panneaux et celle de l’aperçu', () => {
   const panelIds = mode => toolbarGroup(inventory(mode), TOOLBAR_GROUPS.PANELS).map(entry => entry.id);
-  assert.deepEqual(panelIds('flam'), panelIds(WORKSPACE_MODE_ADVANCED));
-  assert.deepEqual(panelIds('flam'), ['toggleNodeList', 'toggleInspector']);
+  assert.deepEqual(panelIds('flam').filter(id => id !== 'toggleScreenPreview'), panelIds(WORKSPACE_MODE_ADVANCED));
+  assert.deepEqual(panelIds('flam'), ['toggleScreenPreview', 'toggleNodeList', 'toggleInspector']);
 });

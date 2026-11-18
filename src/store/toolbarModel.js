@@ -186,6 +186,8 @@ export function buildToolbarInventory({
     });
   }
 
+  if (flam) structural('toggleScreenPreview', 'common:toolbar.preview.toggle', TOOLBAR_GROUPS.PANELS);
+
   if (advanced || flam) {
     // Le graphe reste la surface principale et n'a donc pas de commande
     // de fermeture. La liste de nœuds et l'inspecteur reprennent le même groupe

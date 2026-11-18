@@ -267,6 +267,7 @@ const TABLE_CALLS = {
     'common:toolbar.settings.toggle',
     'common:toolbar.diagram.toggle',
     'common:toolbar.nodeList.toggle',
+    'common:toolbar.preview.toggle',
     'common:toolbar.issues.label',
     'common:toolbar.generate.label',
     'common:toolbar.preferences.label',

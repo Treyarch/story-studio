@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 
 // La position appartient au graphe, afin de survivre au changement d’écran aperçu.
-export function useFlamPreviewDrag(hostRef, selectionKey) {
+export function useFlamPreviewDrag(hostRef, selectionKey, visible = true) {
   const panelRef = useRef(null);
   const positionRef = useRef(null);
   const drag = useRef(null);
@@ -28,14 +28,14 @@ export function useFlamPreviewDrag(hostRef, selectionKey) {
 
   useEffect(() => {
     const host = hostRef.current, panel = panelRef.current;
-    if (!host || !panel) return;
+    if (!visible || !host || !panel) return;
     const constrain = () => moveTo(currentPosition());
     constrain();
     const observer = new ResizeObserver(constrain);
     observer.observe(host);
     observer.observe(panel);
     return () => { observer.disconnect(); drag.current = null; };
-  }, [hostRef, selectionKey]);
+  }, [hostRef, selectionKey, visible]);
 
   function endDrag(event) {
     if (drag.current?.pointerId !== event.pointerId) return;

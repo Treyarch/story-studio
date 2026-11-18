@@ -1478,6 +1478,7 @@ function AppContent() {
       onRedo: commands.redo,
       panels: isAdvanced || isFlamProject(store.project) ? {
         showGraph: true,
+        showScreenPreview: flamWorkspaceViewState.showScreenPreview,
         showNodeList: graphWorkspaceViewState.showNodeList,
         showInspector: graphWorkspaceViewState.showInspector,
       } : {
@@ -1496,6 +1497,7 @@ function AppContent() {
       onToggleDiagram: workspaceViewState.toggleDiagram,
       onToggleNodeList: graphWorkspaceViewState.toggleNodeList,
       onToggleInspector: graphWorkspaceViewState.toggleInspector,
+      onToggleScreenPreview: flamWorkspaceViewState.toggleScreenPreview,
       onGenerate: handleProduce,
       issueKind: isAdvanced ? 'advanced' : 'hierarchical',
       validationIssues,

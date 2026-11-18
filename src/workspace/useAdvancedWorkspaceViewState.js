@@ -1,4 +1,4 @@
-import { useCallback, useMemo } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { usePersistentState } from '../hooks/usePersistentState';
 import { KEYS } from '../store/persistentSettings';
 import {
@@ -46,6 +46,8 @@ const INSPECTOR_WIDTH_CODEC = widthCodec(
 // ni au store projet, ni à l'historique d'auteur. Le graphe est volontairement
 // absent des bascules : il se déplace, mais reste la surface principale.
 export function useAdvancedWorkspaceViewState({ scope = 'advanced' } = {}) {
+  const [showScreenPreview, setShowScreenPreview] = useState(true);
+  const toggleScreenPreview = useCallback(() => setShowScreenPreview(current => !current), []);
   const prefix = scope === 'flam' ? 'FLAM' : 'ADVANCED';
   const key = suffix => KEYS[`${prefix}_${suffix}`];
   const [showNodeList, setShowNodeList] = usePersistentState(
@@ -121,6 +123,8 @@ export function useAdvancedWorkspaceViewState({ scope = 'advanced' } = {}) {
   // suite jusqu'à « Maximum update depth exceeded ».
   return useMemo(() => ({
     showGraph: true,
+    showScreenPreview,
+    toggleScreenPreview,
     showNodeList,
     showInspector,
     showOverview,
@@ -134,6 +138,7 @@ export function useAdvancedWorkspaceViewState({ scope = 'advanced' } = {}) {
     inspectorPanelWidth,
     setInspectorPanelWidth,
   }), [
+    showScreenPreview, toggleScreenPreview,
     showNodeList, showInspector, showOverview, panelOrder, toggleNodeList, toggleInspector,
     toggleOverview, movePanel,
     nodeListPanelWidth, setNodeListPanelWidth, inspectorPanelWidth, setInspectorPanelWidth,

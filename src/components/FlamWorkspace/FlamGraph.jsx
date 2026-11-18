@@ -45,7 +45,8 @@ export function FlamGraph({ document, selection, onSelect, onAddScene, onAddRoll
   const [addMenuOpen, setAddMenuOpen] = useState(false);
   const container = useRef(null);
   const host = useRef(null);
-  const previewDrag = useFlamPreviewDrag(host, `${selection.collection}:${selection.id}`);
+  const showScreenPreview = panelViewState?.showScreenPreview ?? true;
+  const previewDrag = useFlamPreviewDrag(host, `${selection.collection}:${selection.id}`, showScreenPreview);
   const controlsEngine = useRef(null);
   const hoveredNode = useRef(null);
   const publishFrame = useRef(() => {});
@@ -259,7 +260,7 @@ export function FlamGraph({ document, selection, onSelect, onAddScene, onAddRoll
         </select>
         <Button onClick={() => setArmedPort(null)}>{t('common:dialog.cancel.label')}</Button>
       </div>}
-      <FlamScreenPreview key={`${selection.collection}:${selection.id}`} document={document} collection={selection.collection} id={selection.id} {...previewDrag} />
+      {showScreenPreview && <FlamScreenPreview key={`${selection.collection}:${selection.id}`} document={document} collection={selection.collection} id={selection.id} {...previewDrag} />}
       {!visibleElements.some(element => !element.data.source) && <p className="flam-graph-empty">{t('common:flam.graph.empty')}</p>}
       {activePort && <p className="flam-graph-help" role="status">{t('common:flam.graph.connectHelp')}</p>}
     </section>

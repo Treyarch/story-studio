@@ -86,6 +86,7 @@ export function AppShell({
           onToggleDiagram={toolbar.onToggleDiagram}
           onToggleNodeList={toolbar.onToggleNodeList}
           onToggleInspector={toolbar.onToggleInspector}
+          onToggleScreenPreview={toolbar.onToggleScreenPreview}
           onGenerate={toolbar.onGenerate}
           issueKind={toolbar.issueKind}
           validationIssues={toolbar.validationIssues}

@@ -18,6 +18,7 @@ import { presentCommon, useCommonTranslation } from '../../i18n/commonPresentati
 import { useEffect, useRef, useState } from 'react';
 import {
   CircleCheck,
+  Eye,
   Network,
   Package,
   PanelLeft,
@@ -86,7 +87,7 @@ function PanelToggle({
   } = dragHandleProps;
 
   function handleKeyDown(event) {
-    if (event.altKey && (event.key === 'ArrowLeft' || event.key === 'ArrowRight')) {
+    if (panelId && event.altKey && (event.key === 'ArrowLeft' || event.key === 'ArrowRight')) {
       const currentIndex = panelOrder.indexOf(panelId);
       const offset = event.key === 'ArrowRight' ? 1 : -1;
       const targetId = panelOrder[currentIndex + offset];
@@ -118,7 +119,7 @@ function PanelToggle({
         aria-pressed={active}
         aria-disabled={fixed || undefined}
         aria-label={title}
-        aria-keyshortcuts="Alt+ArrowLeft Alt+ArrowRight"
+        aria-keyshortcuts={panelId ? "Alt+ArrowLeft Alt+ArrowRight" : undefined}
       >
         <ToolbarIcon Icon={Icon} className="chrome-icon" />
       </button>
@@ -152,6 +153,7 @@ export function Toolbar({
   onToggleDiagram,
   onToggleNodeList,
   onToggleInspector,
+  onToggleScreenPreview,
   // La commande de production, **une seule** : elle achemine elle-même vers la
   // chaîne du projet ouvert. La barre ne sait pas laquelle, et n'a pas à le
   // savoir.
@@ -291,6 +293,16 @@ export function Toolbar({
                   </SortablePanelItem>
                 );
               })}
+              {find('toggleScreenPreview') ? (
+                <PanelToggle
+                  id="toggle-screen-preview"
+                  title={commandTitle(find('toggleScreenPreview'))}
+                  Icon={Eye}
+                  active={panels.showScreenPreview}
+                  onClick={onToggleScreenPreview}
+                  panelOrder={panelOrder}
+                />
+              ) : null}
             </div>
           </PanelSortContext>
         ) : null}
