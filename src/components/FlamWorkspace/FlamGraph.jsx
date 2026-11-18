@@ -8,12 +8,12 @@ import { Button } from '../common/Button.jsx';
 import { GraphPanelHeader } from '../../workspace/GraphWorkspacePanels.jsx';
 import { GraphSurfaceControls } from '../AdvancedGraphCanvas/GraphSurfaceControls.jsx';
 import { CommandButton } from '../layout/ToolbarCommand.jsx';
-import { Fullscreen, Dices, Link2 } from '../icons/LucideLocal.jsx';
+import { Fullscreen, Dices, Link2, Plus, ChevronDown, List, Grid2X2, BookOpenText, Info } from '../icons/LucideLocal.jsx';
+import { MenuItem, MenuPopover } from '../layout/MenuPopover.jsx';
 import { WORKSPACE_MODE_FLAM } from '../../store/projectWorkState.js';
 import { GRAPH_ZOOM_STEP, zoomedViewport } from '../../store/advancedGraphView/graphGeometry.js';
 import { graphShortcutFor } from '../../store/advancedAuthoring/graphShortcuts.js';
 import { getCurrentShortcuts } from '../../store/keyboardShortcuts.js';
-import { useShortcutLabels } from '../../store/ShortcutLabelsContext.js';
 import { createRevealHistory, recordVisit, goBack, goForward, canGoBack, canGoForward, pruneMissing } from '../../store/advancedGraphView/revealHistory.js';
 import { cytoscapeGridStyle } from '../AdvancedGraphCanvas/engines/cytoscapeEngine.js';
 import { flamGraphControls, flamGraphOverview, filterFlamGraphEdges } from './flamGraphControls.js';
@@ -41,6 +41,8 @@ function styles(container) {
 
 export function FlamGraph({ document, selection, onSelect, onAddScene, onAddRoll, onAddScreen, onLink, onCreateLinked, projectEpoch, graphLayout, onLayout, dragHandleProps = {}, panelViewState = null, surfaceTools = null, production = null }) {
   const { t, language } = useCommonTranslation();
+  const addTrigger = useRef(null);
+  const [addMenuOpen, setAddMenuOpen] = useState(false);
   const container = useRef(null);
   const host = useRef(null);
   const previewDrag = useFlamPreviewDrag(host, `${selection.collection}:${selection.id}`);
@@ -51,7 +53,6 @@ export function FlamGraph({ document, selection, onSelect, onAddScene, onAddRoll
   const [edgeVisibility, setEdgeVisibility] = useState({ choices: true, conditions: true, rolls: true, consultation: true });
   const [scope, setScope] = useState('all');
   const [visits, setVisits] = useState(createRevealHistory);
-  const shortcutLabels = useShortcutLabels();
   const engine = useRef(null);
   const select = useRef(onSelect);
   const saveLayout = useRef(onLayout);
@@ -192,16 +193,30 @@ export function FlamGraph({ document, selection, onSelect, onAddScene, onAddRoll
   const command = (id, label, available = true, shortcut = null) => ({ id, label, available, shortcut, unavailableReason: t('common:flam.graph.selectSource') });
   return <>
     <GraphPanelHeader title={t('common:flam.graph.title')} dragHandleProps={dragHandleProps} actions={<>
-      <CommandButton entry={command('flamAddScene', t('common:flam.graph.addScene'), true, shortcutLabels.graphCreateStage)}
-        className="advanced-create-command" Icon={Fullscreen} onClick={onAddScene} />
-      <CommandButton entry={command('flamAddRoll', t('common:flam.graph.addRoll'), true, shortcutLabels.graphCreateAction)}
-        className="advanced-create-command" Icon={Dices} onClick={onAddRoll} />
+      <MenuPopover open={addMenuOpen} onOpenChange={setAddMenuOpen} activation="click"
+        label={t('common:structure.add.label')} placementBoundary=".advanced-panel"
+        trigger={() => <button ref={addTrigger} type="button" className="chrome-toolbar-btn"
+          aria-haspopup="menu" aria-expanded={addMenuOpen}
+          onClick={() => setAddMenuOpen(open => !open)}
+          onKeyDown={event => {
+            if (event.key === 'ArrowDown') { event.preventDefault(); setAddMenuOpen(true); }
+          }}>
+          <Plus className="chrome-icon" aria-hidden="true" />
+          <span className="chrome-toolbar-btn-label">{t('common:structure.add.label')}</span>
+          <ChevronDown className="chrome-icon" aria-hidden="true" />
+        </button>}>
+        {[
+          { id: 'flamAddScene', label: t('common:flam.graph.addScene'), Icon: Fullscreen, add: onAddScene },
+          { id: 'flamAddRoll', label: t('common:flam.graph.addRoll'), Icon: Dices, add: onAddRoll },
+          { id: 'flamAddMenu', label: t('common:flam.screens.addMenu'), Icon: List, add: () => onAddScreen('menu') },
+          { id: 'flamAddGrid', label: t('common:flam.grid.add'), Icon: Grid2X2, add: () => onAddScreen('grid') },
+          { id: 'flamAddDetail', label: t('common:flam.screens.addDetail'), Icon: BookOpenText, add: () => onAddScreen('detail') },
+          { id: 'flamAddCharacter', label: t('common:flam.character.add'), Icon: Info, add: () => onAddScreen('character') },
+        ].map(({ id, label, Icon, add }) => <MenuItem key={id} toolbarId={id} Icon={Icon} label={label}
+          onClick={() => { setAddMenuOpen(false); addTrigger.current?.focus(); add(); }} />)}
+      </MenuPopover>
       <CommandButton entry={command('flamConnect', t('common:flam.graph.connect'), Boolean(selectedScene && !selectedScene.ending))}
         className="advanced-create-command" Icon={Link2} onClick={() => setArmedPort(activePort ? null : { key: 'add', kind: 'add', sceneId: selection.id })} />
-      <Button onClick={() => onAddScreen('menu')}>{t('common:flam.screens.addMenu')}</Button>
-      <Button onClick={() => onAddScreen('grid')}>{t('common:flam.grid.add')}</Button>
-      <Button onClick={() => onAddScreen('detail')}>{t('common:flam.screens.addDetail')}</Button>
-      <Button onClick={() => onAddScreen('character')}>{t('common:flam.character.add')}</Button>
       {production}
     </>} />
     <div className="flam-graph-scopes" role="group" aria-label={t('common:flam.graph.scope')}>
