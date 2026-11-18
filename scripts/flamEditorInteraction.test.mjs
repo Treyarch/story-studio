@@ -352,6 +352,12 @@ test('thème et remplacements actualisent l’aperçu, le graphe et le projet sa
     const rules = structuredClone(store.readProject().authoring.document.choices);
     assert.equal(svg().style.background, '#101112');
     assert.equal(svg().style.color, '#ffeecc');
+    assert.equal(screen().some(e => e.type === 'text' && e.props.fontSize === '20'), false);
+    assert.ok(screen().some(e => e.type === 'text' && e.props.fontSize === '12' && e.props.y === 64));
+    const optionPositions = () => screen().filter(e => e.type === 'svg' && e.props.x === '30').map(e => [e.props.children.props.children, e.props.x, e.props.width]);
+    const initialPositions = optionPositions();
+    assert.ok(initialPositions.length > 0);
+    assert.ok(initialPositions.every(([, x, width]) => Number(x) + width === 202));
     assert.equal(screen().some(e => e.type === 'image'), false);
     colors(true).find(e => e.props?.label === 'Remplacer la couleur Texte').props.onChange(true);
     changeColor(true, 'Texte', '#123456');
@@ -370,7 +376,8 @@ test('thème et remplacements actualisent l’aperçu, le graphe et le projet sa
     assert.equal(projected.find(e => e.data.id === 'scenes:clairiere').data.screenText, '#abcdef');
     const selected = screen().find(e => e.type === 'select');
     selected.props.onChange({ target: { value: '1' } });
-    assert.ok(screen().some(e => e.type === 'text' && e.props.fill === '#abcdef' && e.props.children.startsWith('> ')));
+    assert.deepEqual(optionPositions(), initialPositions);
+    assert.ok(screen().some(e => e.type === 'text' && e.props.fill === '#abcdef' && e.props.children === '>'));
     assert.deepEqual(store.readProject().authoring.document.choices, rules);
     const reopened = (await decodeProjectFile(encodeProjectFile(store.readProject()))).project;
     assert.deepEqual(reopened.authoring.document.theme, store.readProject().authoring.document.theme);
@@ -535,7 +542,11 @@ test('modes, images par identité et résultats médias différés se retrouvent
     graph().onSelect({ collection: 'scenes', id: 'depart' });
     const choice = render().find(e => e.type === ChoiceEditor && e.props.choice.id === 'choisir-pisteur');
     await componentElements(choice).find(e => e.props?.label === 'Illustration de ce choix').props.onPick('/images/pisteur.png');
-    assert.equal(picture(), 'start-common.png'); mode('selection'); assert.equal(picture(), '/images/pisteur.png');
+    assert.equal(picture(), 'start-common.png');
+    const illustration = view().find(e => e.type === 'image').props;
+    assert.deepEqual([illustration.x, illustration.y, illustration.width, illustration.height, illustration.preserveAspectRatio],
+      ['214', '0', '106', '212', 'xMidYMax meet']);
+    mode('selection'); assert.equal(picture(), '/images/pisteur.png');
     view().find(e => e.type === 'select').props.onChange({ target: { value: '1' } }); assert.equal(picture(), 'ami.png');
     mode('common'); assert.equal(picture(), 'start-common.png');
     store.undo(); store = hook.render(); assert.equal(picture(), 'ami.png');

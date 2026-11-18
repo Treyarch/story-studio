@@ -190,3 +190,51 @@ test('l’aperçu de la démonstration couvre tous les gabarits, leurs couleurs 
   assert.ok(character.character && character.text.includes('Talent : Pisteur') && character.text.includes('Talent : Ami des animaux'));
   assert.deepEqual(document,before);
 });
+
+test('les illustrations de scène entrent depuis la droite et occupent le tiers droit sans déformation', () => {
+  const result = spawnSync('lua', ['-'], { encoding: 'utf8', input: `
+local noop = function() end
+local objects = setmetatable({}, {__index = function() return noop end})
+local images, loads = {}, 0
+lv = {obj = objects, style = setmetatable({new = function() return {} end}, {__index = function() return noop end}),
+    label = {new = function() return {} end, set_long_mode = noop}, color = {hex = function(v) return v end}, font = {},
+    img = {}, img_src = {}}
+lv.obj.new = function() return {} end
+lv.obj.set_pos = function(obj, x, y) obj.x, obj.y = x, y end
+lv.img.new = function() local obj = {}; images[#images+1] = obj; return obj end
+lv.img.set_src = function(obj, source) obj.source = source end
+lv.img.set_zoom = function(obj, zoom) obj.zoom = zoom / 256 end
+local sizes = {small = {20, 30}, wide = {300, 40}, tall = {80, 500}}
+lv.img_src.load = function(path) loads = loads + 1; return sizes[path] end
+lv.img_src.get_width = function(source) return source[1] end
+lv.img_src.get_height = function(source) return source[2] end
+local display = dofile('src/flamRuntime/lua/display.lua')
+display.start({})
+local image = images[1]
+local function bounds()
+    local w, h = image.source[1], image.source[2]
+    return image.x + w * (1 - image.zoom) / 2, image.y + h * (1 - image.zoom) / 2, w * image.zoom, h * image.zoom
+end
+for _, path in ipairs({'small', 'wide', 'tall'}) do
+    display.image(path, 'scene', path)
+    local x = bounds(); assert(x >= 320, 'Le départ doit être hors champ')
+    for _ = 1, 12 do
+        display.tick()
+        local nextX = bounds(); assert(nextX <= x, 'Le déplacement doit aller vers la gauche'); x = nextX
+    end
+    local left, top, width, height = bounds()
+    assert(left >= 213 and left + width <= 321, 'Image hors du tiers réservé')
+    assert(math.abs(top + height - 212) < 1, 'Image non calée en bas')
+    assert(math.abs(left + width / 2 - 267) < 1, 'Image non centrée')
+    assert(width >= 106 - image.source[1] / 256 or height >= 212 - image.source[2] / 256, 'Image insuffisamment agrandie')
+    local before = loads
+    display.image(path, 'scene', path); display.tick()
+    assert(loads == before and bounds() == left, 'Un rafraîchissement relance le chargement ou l’entrée')
+end
+display.image('tall', 'scene', 'autre-scene'); assert(bounds() >= 320)
+display.image(nil); display.tick(); assert(image.source == nil, 'Animation non annulée')
+display.image('small', 'split'); display.tick()
+assert(image.x == 12 and image.y == 48, 'La fiche de consultation a changé de disposition')
+` });
+  assert.equal(result.status, 0, `${result.error || ''}\n${result.stdout}\n${result.stderr}`);
+});

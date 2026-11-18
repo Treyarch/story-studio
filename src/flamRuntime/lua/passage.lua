@@ -10,8 +10,8 @@ local partie = scenes.initialPartie()
 local hasPartie = false
 local loadProblem, pendingSave
 local proposedRolls = {}
-local choices, rows = {}, {}
-local root, heading, body, first, second, hint, timer
+local choices, rows, arrows = {}, {}, {}
+local root, heading, body, first, second, hint, timer, adventureTitle
 local styles = {}
 local labelStyles, backgroundStyle, palette = {}, nil, {}
 local selected, phase, ticks, lastClick, loading = 1, "ready", 0, -20, 0
@@ -73,10 +73,27 @@ local function wrapLines(value, width)
     return lines
 end
 
+local function isScene()
+    return phase == 'scene' or phase == 'intro' or phase == 'audio-error'
+end
+
+local function layoutColumns()
+    local scene = isScene()
+    lv.obj.set_size(hint, scene and 202 or 296, 17)
+    if adventureTitle then lv.obj.set_size(adventureTitle, scene and 202 or 296, 17) end
+    for index, row in ipairs(rows) do
+        lv.obj.set_size(row, scene and 172 or (enhanced and 184 or 278), index == 3 and 22 or 26)
+    end
+end
+
 local function setBody(value)
+    layoutColumns()
+    lv.style.set_text_font(labelStyles[body], lv.font.nunito_bold_12)
+    lv.obj.add_style(body, labelStyles[body], lv.STATE_DEFAULT)
     bodyPages, bodyPage, contentChoices = {}, 1, nil
-    if not enhanced then lv.label.set_text(body, value); return end
-    local lines = wrapLines(value, 12)
+    lv.obj.set_size(body, (enhanced or isScene()) and 202 or 296, 62)
+    if not enhanced and not isScene() then lv.label.set_text(body, value); return end
+    local lines = wrapLines(value, isScene() and 28 or 16)
     for i = 1, #lines, 2 do bodyPages[#bodyPages+1] = lines[i] .. (lines[i+1] and "\n" .. lines[i+1] or "") end
     lv.label.set_text(body, bodyPages[1] or "")
 end
@@ -87,13 +104,15 @@ local function drawDetail()
     if not detail then
         if detailLayoutActive then
             lv.obj.set_pos(body, 12, 48)
-            lv.obj.set_size(body, enhanced and 202 or 296, 62)
+            lv.obj.set_size(body, (enhanced or isScene()) and 202 or 296, 62)
             lv.label.set_long_mode(hint, lv.LABEL_LONG_WRAP)
             detailLayoutActive = false
         end
         return false
     end
     detailLayoutActive = true
+    lv.style.set_text_font(labelStyles[body], lv.font.nunito_bold_16)
+    lv.obj.add_style(body, labelStyles[body], lv.STATE_DEFAULT)
     display.grid(nil); display.progress(nil); display.thumbnails({})
     local hasImage = consultation.image ~= nil
     local showText = detail.layout ~= 'fullImage' or detail.showText or not hasImage
@@ -106,6 +125,7 @@ local function drawDetail()
     local visible = {}
     if showText then for i = detail.offset, math.min(#lines, detail.offset + 6) do visible[#visible+1] = lines[i] end end
     lv.label.set_text(body, table.concat(visible, '\n'))
+    for _, arrow in ipairs(arrows) do lv.label.set_text(arrow, "") end
     for _, row in ipairs(rows) do lv.label.set_text(row, '') end
     local imagePath = consultation.image
     if detail.layout == 'fullImage' and showText then imagePath = nil end
@@ -151,6 +171,7 @@ local function drawGrid()
     choices[#choices+1] = {label = 'Retour', action = 'back'}
     consultation.selected = selected
     lv.label.set_text(body, '')
+    for _, arrow in ipairs(arrows) do lv.label.set_text(arrow, "") end
     for _, row in ipairs(rows) do lv.label.set_text(row, '') end
     display.progress(nil); display.thumbnails({}); display.image(nil)
     display.grid(entries, selected, palette)
@@ -163,20 +184,24 @@ local function drawChoices()
     if drawDetail() then return end
     if drawGrid() then return end
     if consultation then consultation.selected = selected end
-    if enhanced and #bodyPages > 1 and phase ~= "intro" then
+    if (enhanced or isScene()) and #bodyPages > 1 and phase ~= "intro" then
         if not contentChoices then contentChoices = choices end
         choices = {}
         for _, option in ipairs(contentChoices) do choices[#choices+1] = option end
         choices[#choices+1] = {label = "Texte suivant", action = "page"}
     end
     display.progress(presentation and phase == "ready" and presentation.progress(partie) or nil)
+    local scene = isScene()
+    layoutColumns()
     local thumbs = {}
     local offset = math.floor((selected - 1) / #rows) * #rows
     for index, row in ipairs(rows) do
         local option = choices[offset + index]
         if consultation and not consultation.screen and option then thumbs[index] = option.image end
-        local prefix = offset + index == selected and "> " or "  "
-        if option and option.enabled == false then prefix = prefix .. "[x] " end
+        local prefix = option and option.enabled == false and "[x] " or ""
+        lv.label.set_text(arrows[index], option and offset + index == selected and ">" or "")
+        lv.style.set_text_color(labelStyles[arrows[index]], lv.color.hex(palette.selection))
+        lv.obj.add_style(arrows[index], labelStyles[arrows[index]], lv.STATE_DEFAULT)
         lv.label.set_text(row, option and (prefix .. option.label) or "")
         local style = labelStyles[row]
         lv.style.set_text_color(style, lv.color.hex(offset + index == selected and palette.selection or palette.text))
@@ -184,8 +209,10 @@ local function drawChoices()
     end
     display.thumbnails(thumbs)
     local option = choices[selected]
-    if illustrationMode == "common" then display.image(backgroundImage)
-    else display.image(option and option.image or backgroundImage) end
+    local layout = scene and 'scene' or nil
+    local identity = scene and partie.sceneId or nil
+    if illustrationMode == "common" then display.image(backgroundImage, layout, identity)
+    else display.image(option and option.image or backgroundImage, layout, identity) end
 end
 
 local function storageError(kind)
@@ -252,7 +279,7 @@ local function showChoices()
     choices = {}
     for _, choice in ipairs(view.choices) do choices[#choices + 1] = choice end
     choices[#choices + 1] = {label = enhanced and "Menu de l'aventure" or "Inventaire", action = enhanced and "welcome" or "inventory"}
-    lv.label.set_text(heading, view.title)
+    lv.label.set_text(heading, "")
     setBody(view.body)
     lv.label.set_text(hint, "Tourne la molette, puis clique.")
     drawChoices()
@@ -329,13 +356,14 @@ local function beginNarration()
     applyColors(scenes.scene(partie.sceneId))
     audioPath = scenes.describe(partie).audio
     backgroundImage = scenes.describe(partie).image
-    display.image(backgroundImage)
+    display.image(backgroundImage, 'scene', partie.sceneId)
     if not audioPath then showChoices(); return end
     phase, audioPending, audioAccepted, heardPlay = "intro", true, false, false
     playbackId = playbackId + 1
     loading, loadResult, lastEvent, playedSecond, playStarted = 0, "-", "-", 0, ticks
-    lv.label.set_text(heading, scenes.describe(partie).title)
+    lv.label.set_text(heading, "")
     setBody("Écoute le début de cette scène...")
+    for _, arrow in ipairs(arrows) do lv.label.set_text(arrow, "") end
     for _, row in ipairs(rows) do lv.label.set_text(row, "") end
     diagnostics()
 end
@@ -492,6 +520,7 @@ local function click()
         playbackId = playbackId + 1
         loading, playedSecond, playStarted = 0, 0, ticks
         setBody("Écoute le passage... Retour pour interrompre.")
+        for _, arrow in ipairs(arrows) do lv.label.set_text(arrow, "") end
         for _, row in ipairs(rows) do lv.label.set_text(row, "") end
     elseif option.action == "inventory" then inventory()
     elseif option.action == "scene" then showChoices()
@@ -546,6 +575,7 @@ local function feedback(status, second)
 end
 
 local function tick()
+    display.tick()
     ticks = ticks + 1
     if phase == "intro" or phase == "audio-error" then diagnostics() end
     if phase ~= "intro" and phase ~= "detail-audio" then return end
@@ -609,20 +639,27 @@ function adventure.start()
     styles[#styles + 1] = backgroundStyle
     lv.obj.add_style(root, backgroundStyle, lv.STATE_DEFAULT)
     display.start(root)
+    adventureTitle = nil
     heading = text(root, scenes.data.title, 8, 34, lv.font.nunito_bold_20)
     lv.obj.set_size(heading, 296, 34)
     if enhanced then
-        local adventureTitle = text(root, scenes.data.title, 1, 17, lv.font.nunito_bold_12)
+        adventureTitle = text(root, scenes.data.title, 1, 17, lv.font.nunito_bold_12)
         lv.obj.set_size(adventureTitle, 296, 17)
         if lv.LABEL_LONG_SCROLL_CIRCULAR then lv.label.set_long_mode(adventureTitle, lv.LABEL_LONG_SCROLL_CIRCULAR) end
         lv.obj.set_pos(heading, 12, 20)
         lv.obj.set_size(heading, 296, 27)
     end
-    body = text(root, "Écoute le début de ton aventure...", 48, 62, lv.font.nunito_bold_16)
+    body = text(root, "Écoute le début de ton aventure...", 48, 62, lv.font.nunito_bold_12)
     first = text(root, "", 111, 26, lv.font.nunito_bold_16)
     second = text(root, "", 140, 26, lv.font.nunito_bold_16)
     local third = text(root, "", 169, 22, lv.font.nunito_bold_16)
     rows = {first, second, third}
+    for index, row in ipairs(rows) do
+        lv.obj.set_pos(row, 30, 111 + (index - 1) * 29)
+        lv.obj.set_size(row, enhanced and 184 or 278, index == 3 and 22 or 26)
+        arrows[index] = text(root, "", 111 + (index - 1) * 29, 26, lv.font.nunito_bold_16)
+        lv.obj.set_size(arrows[index], 16, 26)
+    end
     if enhanced and lv.LABEL_LONG_SCROLL_CIRCULAR then
         lv.label.set_long_mode(heading, lv.LABEL_LONG_SCROLL_CIRCULAR)
         for _, row in ipairs(rows) do lv.label.set_long_mode(row, lv.LABEL_LONG_SCROLL_CIRCULAR) end

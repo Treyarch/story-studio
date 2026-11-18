@@ -53,6 +53,7 @@ end
 lv.obj.new = function() return {} end
 lv.style.new = function() return {} end
 lv.color.hex = function(value) return value end
+lv.obj.set_pos = function(obj, x, y) obj.x, obj.y = x, y end
 lv.label.new = function() local label = {}; labels[#labels + 1] = label; return label end
 lv.label.set_long_mode = function() end
 lv.label.set_text = function(label, text) label.text = text end
@@ -83,22 +84,52 @@ end
 local function advance(count) for _ = 1, count do update() end end
 local function click() callbacks[lv.EVENT_CLICKED]() end
 
+-- Reconstitue la lecture des libellés avec leur indicateur séparé.
+local function rowText(row)
+    if row.x == 30 then
+        for _, arrow in ipairs(labels) do
+            if arrow.x == 12 and arrow.y == row.y and arrow.text == '>' then return '> ' .. (row.text or '') end
+        end
+        return '  ' .. (row.text or '')
+    end
+    return row.text or ''
+end
 local function visible()
     local lines = {}
-    for _, label in ipairs(labels) do lines[#lines + 1] = label.text or "" end
+    for _, label in ipairs(labels) do lines[#lines + 1] = rowText(label) end
     return table.concat(lines, "\n")
 end
 local function expect(text)
-    assert(visible():find(text, 1, true), "Texte attendu : " .. text .. "\nEcran :\n" .. visible())
+    assert(visible():gsub("%s+", " "):find(text:gsub("%s+", " "), 1, true), "Texte attendu : " .. text .. "\nEcran :\n" .. visible())
+end
+local function expectScene(title)
+    local scene = require('rules').scene(saves.partie.sceneId)
+    assert(scene.title == title, 'Scène attendue : ' .. title)
+    for _, label in ipairs(labels) do
+        if label.y == 8 then assert(label.text == '', 'Le titre de scène doit rester masqué') end
+    end
 end
 local function choose(label)
     for _ = 1, 60 do
         for _, row in ipairs(labels) do
-            if row.text == "> " .. label then advance(4); click(); return end
+            if rowText(row) == "> " .. label then advance(4); click(); return end
         end
         callbacks[lv.EVENT_KEY](string.char(19))
     end
     error("Choix absent : " .. label .. "\n" .. visible())
+end
+-- Le texte des scènes est paginé dans les deux tiers de l'écran.
+local function expectPaged(text)
+    local chunks = {}
+    local first
+    for _, row in ipairs(labels) do if row.y == 48 then first = row.text; break end end
+    for _ = 1, 30 do
+        for _, row in ipairs(labels) do if row.y == 48 then chunks[#chunks + 1] = row.text or '' end end
+        if table.concat(chunks):gsub('%s+', ''):find(text:gsub('%s+', ''), 1, true) then return end
+        choose('Texte suivant')
+        for _, row in ipairs(labels) do if row.y == 48 and row.text == first then error('Texte absent des pages : ' .. text) end end
+    end
+    error('Trop de pages : ' .. text)
 end
 local function narration()
     if not visible():find("Écoute", 1, true) then return end
@@ -122,7 +153,7 @@ local function fresh(className)
     dieValue = 7
     start()
     travel("Commencer")
-    expect("Choisis ta classe")
+    expectScene("Choisis ta classe")
     travel(className or "Pisteur")
 end
 local function reachRoll(className)
@@ -178,18 +209,18 @@ for _, className in ipairs({"Pisteur", "Ami des animaux"}) do
     if className == "Pisteur" then absent("Parler au renard") end
     travel(className == "Pisteur" and "Lire les traces" or "Parler au renard")
     travel("Lancer le dé")
-    expect("Le dé des rencontres : 7 / 20")
+    expectPaged("Le dé des rencontres : 7 / 20")
     travel("Terminer")
-    expect("Fin explicite")
+    expectScene("Fin explicite")
     back_callback()
     choose("Recommencer")
     choose("Annuler")
     travel("Reprendre")
-    expect("Fin explicite")
+    expectScene("Fin explicite")
     back_callback()
     choose("Recommencer")
     travel("Oui, recommencer")
-    expect("Choisis ta classe")
+    expectScene("Choisis ta classe")
     assert(saves.partie.classId == "" and saves.partie['item:cle'] == 0)
     assert(saves.partie['roll:rencontre'] == 0 and saves.partie['reward:coffre'] == 0)
 end
@@ -202,7 +233,7 @@ local beforePlays = plays
 choose("Recevoir sans narration")
 advance(2)
 assert(plays == beforePlays)
-expect("La clairière")
+expectScene("La clairière")
 assert(saves.partie['item:jeton:"é\\'] == 1)
 rejectWrite = true
 choose("Recevoir sans narration")
@@ -215,13 +246,13 @@ assert(plays == beforePlays and saves.partie['item:jeton:"é\\'] == 2)
 choose("Revenir par le dé sans narration")
 advance(2)
 assert(plays == beforePlays and saves.partie['roll:retour'] == 7)
-expect("Dé de retour : 7 / 20")
+expectPaged("Dé de retour : 7 / 20")
 travel("Recevoir un jeton") -- Champ absent : la narration reste activée.
 assert(plays == beforePlays + (hasAudio and 1 or 0))
 beforePlays = plays
 travel("Changer de scène avec narration")
 assert(plays == beforePlays + (hasAudio and 1 or 0))
-expect("La rencontre")
+expectScene("La rencontre")
 print("OK : retour sans narration, effets, nouvelle tentative, jet et autre scène")
 
 for result = 1, 20 do
@@ -238,7 +269,7 @@ for result = 1, 20 do
     choose("Annuler")
     rejectWrite = false
     travel("Lancer le dé") -- L'annulation ne reroule pas le résultat proposé.
-    expect("Le dé des rencontres : " .. result .. " / 20")
+    expectPaged("Le dé des rencontres : " .. result .. " / 20")
     assert(saves.partie.sceneId == (result <= 10 and "fin-lucioles" or "fin-renard"))
     travel("Revoir la rencontre")
     travel("Lancer le dé") -- Revisite.
@@ -246,7 +277,7 @@ for result = 1, 20 do
     travel("Reprendre")
     start()
     travel("Reprendre")
-    expect("Le dé des rencontres : " .. result .. " / 20")
+    expectPaged("Le dé des rencontres : " .. result .. " / 20")
     travel("Revoir la rencontre")
     dieValue = 20
     travel("Autre dé")
@@ -273,7 +304,7 @@ choose("Lancer le dé")
 expect("Sauvegarde impossible")
 dieValue, rejectWrite = nil, false
 travel("Réessayer")
-expect("Le dé des rencontres : 4 / 20")
+expectPaged("Le dé des rencontres : 4 / 20")
 -- Un nouveau départ confirmé abandonne aussi les tirages proposés refusés.
 travel("Revoir la rencontre")
 dieValue, rejectWrite = 6, true
@@ -288,7 +319,7 @@ travel("Pisteur")
 reachRoll()
 dieValue = 17
 travel("Autre dé")
-expect("Autre dé : 17 / 20")
+expectPaged("Autre dé : 17 / 20")
 
 fresh()
 local before = copy(saves.partie)
@@ -322,7 +353,7 @@ expect("Sauvegarde à vérifier") -- Quitter ne contourne pas la réconciliation
 failReadAfterWrite, rejectRead = false, false
 choose("Relire la partie")
 travel("Reprendre")
-expect("Le dé des rencontres : 13 / 20")
+expectPaged("Le dé des rencontres : 13 / 20")
 assert(saves.partie.sceneId == "fin-renard")
 -- Une sauvegarde disparue n'est pas un nouveau départ si la partie est connue.
 local known = copy(saves.partie)
@@ -356,7 +387,7 @@ progression.load, progression.save = load, save
 choose("Relire la partie")
 travel("Reprendre")
 travel("Autre dé")
-expect("Autre dé : 18 / 20")
+expectPaged("Autre dé : 18 / 20")
 print("OK : refus, écriture sans effet, exception après écriture et réconciliation des deux issues")
 
 local valid = copy(saves.partie)
@@ -404,7 +435,7 @@ expect("Sauvegarde à vérifier")
 failReadAfterWrite, rejectRead = false, false
 choose("Relire la partie")
 travel("Reprendre")
-expect("Choisis ta classe")
+expectScene("Choisis ta classe")
 assert(progression.load("temoin").texte == "autre aventure intacte")
 print("OK : sauvegardes invalides ou incompatibles préservées et nouveau départ isolé")
 
@@ -417,7 +448,7 @@ if data.scenes[1].audio then
     advance(1)
     expect("Audio indisponible")
     choose("Continuer sans audio")
-    expect("La clairière")
+    expectScene("La clairière")
     start()
     choose("Reprendre")
     advance(1)
@@ -426,7 +457,7 @@ if data.scenes[1].audio then
     advance(161)
     expect("La narration ne démarre pas")
     choose("Continuer sans audio")
-    expect("La clairière")
+    expectScene("La clairière")
     start()
     choose("Reprendre")
     advance(1)
@@ -448,7 +479,7 @@ if data.scenes[1].audio then
     feedback("play", 15)
     audioStatus = "stop"
     feedback("stop", 16)
-    expect("La clairière")
+    expectScene("La clairière")
     duration = nil
     start()
     choose("Reprendre")

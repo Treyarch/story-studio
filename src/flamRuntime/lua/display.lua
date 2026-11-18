@@ -2,10 +2,12 @@
 local display = {}
 local widget, source, current, currentLayout, progressBar, thumbnails
 local rowImages = {}
+local entrance, currentIdentity
 local cells, gridVisible = {}, false
 function display.start(root)
     widget, source, current, currentLayout = nil, nil, nil, nil
     rowImages, thumbnails, cells, gridVisible = {}, {}, {}, false
+    entrance, currentIdentity = nil, nil
     progressBar = lv.obj.new(root)
     lv.obj.remove_style_all(progressBar)
     lv.obj.set_pos(progressBar, 12, 101)
@@ -115,8 +117,17 @@ function display.thumbnails(paths)
         end
     end
 end
-function display.image(path, layout)
-    if not widget or (path == current and layout == currentLayout) then return end
+-- L'horloge du lecteur avance aussi pendant les menus et les scènes silencieuses.
+function display.tick()
+    if not entrance then return end
+    entrance.frame = math.min(12, entrance.frame + 1)
+    local remaining = (1 - entrance.frame / 12) ^ 3
+    lv.obj.set_pos(widget, entrance.x + math.floor((320 - entrance.visualX) * remaining), entrance.y)
+    if entrance.frame == 12 then entrance = nil end
+end
+function display.image(path, layout, identity)
+    if not widget or (path == current and layout == currentLayout and identity == currentIdentity) then return end
+    entrance, currentIdentity = nil, identity
     if path ~= current then
         lv.obj.add_flag(widget, lv.OBJ_FLAG_HIDDEN)
         lv.img.set_src(widget, nil)
@@ -136,7 +147,18 @@ function display.image(path, layout)
     local w, h = lv.img_src.get_width(source), lv.img_src.get_height(source)
     local zoom = math.min(width / w, height / h)
     if not layout then zoom = math.min(zoom, 1) end
-    lv.img.set_zoom(widget, math.floor(256 * zoom))
+    if layout == 'scene' then zoom = math.min(106 / w, 212 / h) end
+    local scaled = math.max(1, math.floor(256 * zoom))
+    lv.img.set_zoom(widget, scaled)
+    if layout == 'scene' then
+        zoom = scaled / 256
+        local visualX = 214 + (106 - w * zoom) / 2
+        -- LVGL transforme l'image autour de son centre par défaut.
+        x = math.floor(visualX + w * (zoom - 1) / 2)
+        y = math.floor(212 - h * zoom + h * (zoom - 1) / 2)
+        entrance = {x = x, y = y, visualX = visualX, frame = 0}
+        lv.obj.set_pos(widget, x + math.ceil(320 - visualX), y)
+    end
     lv.obj.clear_flag(widget, lv.OBJ_FLAG_HIDDEN)
 end
 return display

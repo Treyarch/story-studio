@@ -120,9 +120,22 @@
 .flam-screen-preview__handle:active { cursor: grabbing; }
 .flam-screen-preview__handle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .flam-screen-preview > svg { flex-shrink: 0; }
-.flam-screen-preview svg { width: 100%; height: auto; font-family: sans-serif; font-weight: bold; }
+.flam-screen-preview > svg { width: 100%; height: auto; font-family: sans-serif; font-weight: bold; }
 .flam-screen-preview select { width: 100%; }
 .flam-screen-preview small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 .flam-graph-scopes { display: flex; gap: 0.4rem; padding: 0.4rem 0.7rem; flex-wrap: wrap; }
 .flam-graph-scopes [aria-pressed="true"] { color: var(--accent-text); border-color: var(--accent-border); }
+
+.flam-screen-preview__scene-image { visibility: hidden; }
+.flam-screen-preview__scene-image--loaded {
+  visibility: visible;
+  animation: flam-scene-image-in 300ms ease-out;
+}
+@keyframes flam-scene-image-in {
+  from { transform: translateX(106px); }
+  to { transform: translateX(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .flam-screen-preview__scene-image--loaded { animation: none; }
+}

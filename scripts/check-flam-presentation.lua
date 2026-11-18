@@ -59,14 +59,32 @@ local function start()
     for _, name in ipairs({'passage','rules','savegame','adventure_data','presentation','display'}) do package.loaded[name] = nil end
     dofile(folder .. '/main.lua'); setup()
 end
-local function visible() local out = {}; for _, v in ipairs(labels) do out[#out+1] = v.text or '' end; return table.concat(out, '\n') end
+-- Reconstitue la lecture des libellés avec leur indicateur séparé.
+local function rowText(row)
+    if row.x == 30 then
+        for _, arrow in ipairs(labels) do
+            if arrow.x == 12 and arrow.y == row.y and arrow.text == '>' then return '> ' .. (row.text or '') end
+        end
+        return '  ' .. (row.text or '')
+    end
+    return row.text or ''
+end
+local function visible() local out = {}; for _, v in ipairs(labels) do out[#out+1] = rowText(v) end; return table.concat(out, '\n') end
 local function expect(value) assert(visible():gsub('%s+', ' '):find(value:gsub('%s+', ' '),1,true), value .. '\n' .. visible()) end
+local function expectScene(title)
+    assert(require('rules').scene(stored.sceneId).title == title, 'Scène attendue : ' .. title)
+    for _, label in ipairs(labels) do
+        if label.y == 20 then assert(label.text == '', 'Le titre de scène doit rester masqué') end
+        if label.x == 30 then assert(label.width == 172, 'Les options débordent dans le tiers des illustrations') end
+        if label.y == 48 then assert(label.width == 202, 'La description déborde dans le tiers des illustrations') end
+    end
+end
 local function absent(value) assert(not visible():gsub('%s+', ' '):find(value:gsub('%s+', ' '),1,true), value .. '\n' .. visible()) end
 local function advance(n) for _ = 1, n or 5 do update() end end
 local function focus(value)
     for _ = 1, 80 do
         for _, v in ipairs(labels) do
-            local selectedText = (v.text or ''):match('> (.*)') or ''
+            local selectedText = rowText(v):match('> (.*)') or ''
             selectedText = selectedText:gsub('^%[x%] ', '')
             if selectedText == value or selectedText:sub(1, #value+2) == value .. '  ' then advance(5); return end
         end
@@ -144,12 +162,12 @@ if require('adventure_data').id == '4f67c0b8-d1c9-4d51-9a46-9d290de13f11' then
     choose('Ton personnage'); description = allText(); assert(description:find('Découverte:tuasouvertl’atelier.',1,true)); back_callback(); unchanged(before)
     choose('Reprendre'); listen(); choose('Déposer les cinq objets'); assert(status == 'stop'); back_callback(); before = snapshot(); choose('Tes affaires'); expect('Inventaire vide.'); back_callback(); unchanged(before)
     choose('Reprendre'); listen(); choose('Lire les traces'); listen(); back_callback(); before = snapshot(); choose('Reprendre'); listen(); unchanged(before,true); assert(rolls == 0)
-    choose('Lancer le dé des lueurs'); listen(); expect('La lumière dorée'); assert(rolls == 1 and stored['roll:lueurs'] == 7 and stored['event:lumiere'] == 1)
+    choose('Lancer le dé des lueurs'); listen(); expectScene('La lumière dorée'); assert(rolls == 1 and stored['roll:lueurs'] == 7 and stored['event:lumiere'] == 1)
     back_callback(); before = snapshot(); choose('Tes souvenirs'); choose('Page suivante'); expect('La lumière retrouvée'); choose('La lumière retrouvée'); expect('Le message du gardien'); back_callback(); back_callback(); unchanged(before)
-    start(); expect('L’atelier des lucioles'); choose('Reprendre'); listen(); expect('La lumière dorée'); unchanged(before,true)
+    start(); expect('L’atelier des lucioles'); choose('Reprendre'); listen(); expectScene('La lumière dorée'); unchanged(before,true)
     stored = nil; start(); choose('Commencer'); listen(); choose('Devenir Ami des animaux'); listen(); choose('Prendre les six objets'); back_callback(); choose('Ouvrir l’atelier'); listen(); back_callback()
     choose('Ton personnage'); description = allText(); assert(description:find('Talent:Amidesanimaux.',1,true)); assert(not description:find('Talent:Pisteur.',1,true)); back_callback()
-    choose('Reprendre'); listen(); choose('Écouter les lucioles'); listen(); expect('Le dé des lueurs')
+    choose('Reprendre'); listen(); choose('Écouter les lucioles'); listen(); expectScene('Le dé des lueurs')
     print('OK : démonstration complète, six objets, souvenirs, fiches, audio et commandes narratives')
     return
 end
@@ -208,13 +226,13 @@ if character then
     visit(true, false, false, true)
     choose('Reprendre'); listen(); choose('Ouvrir avec la clé'); listen(); back_callback()
     visit(true, false, true, false)
-    choose('Reprendre'); listen(); expect('La clairière')
+    choose('Reprendre'); listen(); expectScene('La clairière')
     -- Une autre partie montre l'autre classe, sans conserver les découvertes précédentes.
     stored = nil; start(); choose('Commencer'); listen(); choose('Ami des animaux'); listen(); back_callback()
     visit(false, true, false, false)
     choose('Reprendre'); listen(); choose('Prendre la clé'); listen(); choose('Ouvrir avec la clé'); listen(); back_callback()
     visit(false, true, true, false, nil, true)
-    choose('Reprendre'); listen(); expect('La clairière')
+    choose('Reprendre'); listen(); expectScene('La clairière')
     print('OK : fiche personnage conditionnelle, portrait, texte long et retour au récit')
     return
 end
@@ -308,7 +326,7 @@ if require('adventure_data').screens and require('adventure_data').screens[1].il
     local function link(menu, id) for _, entry in ipairs(screen(menu).links) do if entry.id == id then return entry end end end
     local function image(path)
         local found
-        for _, obj in ipairs(imageWidgets) do if obj.parent == screenRoot and obj.x == 224 and obj.y == 55 then found = obj end end
+        for _, obj in ipairs(imageWidgets) do if obj.parent == screenRoot then found = obj; break end end
         assert(found and found.sourcePath == path, 'Illustration de la mauvaise sélection : ' .. tostring(found and found.sourcePath) .. ' attendu ' .. tostring(path))
     end
     local function unchanged(before, writes, playCount)
@@ -371,7 +389,7 @@ if collection then
     choose('Tes souvenirs'); cells({'Village','Passage secret','Pont','Bois'})
     absent('Clé découverte'); absent('Clé possédée'); absent('Voix des bêtes')
     choose('Passage secret'); expect('Tes souvenirs'); absent('Le passage secret'); unchanged(before, writes)
-    local locked = false; for _, label in ipairs(labels) do if label.text == '> [x] Passage secret' then locked = true end end
+    local locked = false; for _, label in ipairs(labels) do if rowText(label) == '> [x] Passage secret' then locked = true end end
     assert(locked, 'Entrée indisponible non marquée comme verrouillée')
     choose('Page suivante'); cells({'Port','Archives'}); choose('Archives'); expect('La carte du village')
     back_callback(); expect('2 / 2'); cells({'Port','Archives'}); back_callback(); assert(plays == playCount)
@@ -448,7 +466,7 @@ if inventoryGrid then
     detail('Boussole', 'le nord.', 'boussole'); back_callback()
     choose('Page suivante'); expect('2 / 2'); cells({'Galet','Carte'})
     detail('Carte', 'port.', 'carte-objet'); back_callback(); expect('2 / 2'); cells({'Galet','Carte'})
-    local selected = false; for _, label in ipairs(labels) do if label.text == '> Carte' then selected = true end end
+    local selected = false; for _, label in ipairs(labels) do if rowText(label) == '> Carte' then selected = true end end
     assert(selected, 'La fiche ne retrouve pas la bonne sélection de la page')
     choose('Page précédente'); cells({'Clé','Corde','Boussole','Lanterne'})
     back_callback(); expect('Le bureau du village'); choose('Reprendre'); listen(); unchanged(before, writes)
@@ -470,8 +488,8 @@ if require('adventure_data').theme then
         local heading; for _, obj in ipairs(labels) do if obj.y == 20 then heading = obj end end
         assert(heading and heading.textColor == text, 'Texte du titre incorrect')
         for _, obj in ipairs(labels) do
-            if (obj.text or ''):sub(1, 2) == '> ' then assert(obj.textColor == selection, 'Sélection incorrecte')
-            elseif (obj.text or ''):sub(1, 2) == '  ' then assert(obj.textColor == text, 'Texte de choix incorrect') end
+            if rowText(obj):sub(1, 2) == '> ' then assert(obj.textColor == selection, 'Sélection incorrecte')
+            elseif rowText(obj):sub(1, 2) == '  ' then assert(obj.textColor == text, 'Texte de choix incorrect') end
         end
     end
     start(); colors(0x203040, 0xffeecc, 0xff7700)

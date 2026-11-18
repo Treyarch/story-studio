@@ -35,6 +35,13 @@ la scène conservée et relit sa narration depuis le début, sans rejouer ses ef
 
 ## Choisir la présentation
 
+Dans toutes les scènes, les textes et les options occupent les deux tiers gauches
+et le tiers droit reste réservé aux illustrations, même en l’absence d’image.
+L’illustration conserve ses proportions, s’agrandit au maximum de cette zone
+et se cale en bas, au centre. À son chargement, elle entre depuis la droite en
+300 ms. Cette disposition s’applique aussi aux illustrations liées au choix
+sélectionné et à l’aperçu de l’éditeur.
+
 Le thème de l’aventure définit fond, texte et sélection. Une scène ou un
 écran peut remplacer une ou plusieurs de ces couleurs. L’aperçu du nœud
 sélectionné présente sa composition et ses couleurs.
