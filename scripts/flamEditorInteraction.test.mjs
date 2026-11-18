@@ -21,6 +21,7 @@ globalThis.__flamUi = {
 registerHooks({ load(url, context, next) {
   if (url.endsWith('/common/Dialog.jsx')) return { format: 'module', source: 'export const useErrorDialog = () => globalThis.__flamUi.dialog;', shortCircuit: true };
   if (url.endsWith('/MediaTransferContext.js')) return { format: 'module', source: 'export const useMediaTransfer = () => globalThis.__flamUi.media;', shortCircuit: true };
+  if (url.endsWith('/hooks/useLocalFile.js')) return { format: 'module', source: "export const useLocalFile = path => { globalThis.__flamUi.previewPath = path; return path ? 'blob:flam-preview' : null; };", shortCircuit: true };
   if (url.endsWith('/editors/AudioField.jsx')) return { format: 'module', source: 'export function AudioField() { return null; }', shortCircuit: true };
   if (url.endsWith('/editors/ImageField.jsx')) return { format: 'module', source: 'export function ImageField() { return null; }', shortCircuit: true };
   if (url.endsWith('.css')) return { format: 'module', source: '', shortCircuit: true };
@@ -207,4 +208,496 @@ test('le menu et ses rubriques se configurent dans les formulaires et partagent 
     render().find(e => e.props?.path === '/presentation/chapters/0/passages/0/sceneId').props.onChange('depart');
     assert.equal(store.readProject().authoring.document.presentation.chapters[0].passages[0].sceneId, 'depart');
   } finally { settings.unmount(); storeHook.unmount(); }
+});
+
+test('le graphe crée Menu et Fiche, les relie et configure leur contenu avec historique et diagnostics', async () => {
+  const { ScreenEditor } = await import('../src/components/FlamWorkspace/ScreenEditor.jsx');
+  const { flamLinkPorts } = await import('../src/store/flamAdventure/graphLinks.js');
+  const { flamGraphElements } = await import('../src/components/FlamWorkspace/flamGraph.js');
+  const { diagnoseAdventureDocument } = await import('../src/store/flamAdventure/diagnostics.js');
+  const { encodeProjectFile, decodeProjectFile } = await import('../src/store/projectModel/codec.js');
+  const hook = runner(() => useProjectStore(), { doubleInvokeStateUpdaters: true });
+  let store = hook.render();
+  store.loadProject(createFlamProject()); store = hook.render();
+  const epoch = store.workEpochRef.current;
+  const ui = runner(() => FlamWorkspace({ project: store.readProject(), projectEpoch: epoch,
+    onEdit: (captured, command) => commitAdventureEdit(store, captured, command) }));
+  const render = () => { const root = ui.render(); root.props.ref.current = { querySelectorAll: () => [] }; ui.flush(); return elements(root); };
+  const graph = () => render().find(e => e.type === FlamGraph).props;
+  const screen = () => componentElements(render().find(e => e.type === ScreenEditor));
+  try {
+    graph().onAddScreen('menu');
+    screen().find(e => e.props?.label === 'Titre de l’écran').props.onChange('Mes archives');
+    const menu = store.readProject().authoring.document.screens[0];
+    render().find(e => e.props?.label === 'Menu principal').props.onChange(menu.id);
+    graph().onAddScreen('detail');
+    const detail = store.readProject().authoring.document.screens[1];
+    screen().find(e => e.props?.label === 'Titre de l’écran').props.onChange('Le pont');
+    screen().find(e => e.props?.multiline).props.onChange('Le village est tout proche.');
+    await render().find(e => e.type === ScreenEditor).props.onMedia('/images/pont.png');
+    const port = flamLinkPorts(store.readProject().authoring.document, 'screens', menu.id)[0];
+    graph().onLink(port, { collection: 'screens', id: detail.id });
+    let document = store.readProject().authoring.document;
+    assert.equal(document.screens[0].links[0].screenId, detail.id);
+    assert.equal(document.screens[0].links[0].label, 'Le pont');
+    const projected = flamGraphElements(document, { untitled: 'Sans titre' });
+    assert.equal(projected.filter(e => e.data.source && e.data.consultation).length, 1);
+    assert.equal(document.scenes.length, 0, 'Une fiche ne crée aucune scène');
+    store.undo(); store = hook.render();
+    assert.equal(store.readProject().authoring.document.screens[0].links.length, 0);
+    store.redo(); store = hook.render();
+    assert.equal(store.readProject().authoring.document.screens[0].links.length, 1);
+    // Les champs du formulaire éditent le lien projeté dans le graphe.
+    screen().find(e => e.props?.label === 'Accès de consultation').props.onChange('Consulter le pont');
+    screen().find(e => e.props?.label === 'Écran à consulter').props.onChange('absente');
+    document = store.readProject().authoring.document;
+    assert.ok(diagnoseAdventureDocument(document).some(d => d.path === '/screens/0/links/0/screenId'));
+    const reopened = (await decodeProjectFile(encodeProjectFile(store.readProject()))).project;
+    assert.deepEqual(reopened.authoring.document, document, 'Un brouillon avec accès incomplet reste sauvegardable');
+    screen().find(e => e.props?.label === 'Écran à consulter').props.onChange(detail.id);
+    assert.throws(() => commitAdventureEdit(store, epoch, { type: 'remove', collection: 'screens', id: detail.id }), /REFERENCED_ADVENTURE_DEFINITION/);
+    commitAdventureEdit(store, epoch, { type: 'document', patch: { mainMenuId: detail.id } });
+    assert.ok(diagnoseAdventureDocument(store.readProject().authoring.document).some(d => d.code === 'INVALID_MAIN_MENU'));
+  } finally { ui.unmount(); hook.unmount(); }
+});
+
+test('les menus mixtes partagent une fiche et éditent un vrai choix narratif avec historique et réouverture', async () => {
+  const { screensFixture } = await import('./flamScreensFixture.mjs');
+  const { ScreenEditor } = await import('../src/components/FlamWorkspace/ScreenEditor.jsx');
+  const { flamLinkPorts } = await import('../src/store/flamAdventure/graphLinks.js');
+  const { flamGraphElements } = await import('../src/components/FlamWorkspace/flamGraph.js');
+  const { encodeProjectFile, decodeProjectFile } = await import('../src/store/projectModel/codec.js');
+  const hook = runner(() => useProjectStore(), { doubleInvokeStateUpdaters: true });
+  let store = hook.render(); store.loadProject(createFlamProject({ document: screensFixture() })); store = hook.render();
+  const epoch = store.workEpochRef.current;
+  const ui = runner(() => FlamWorkspace({ project: store.readProject(), projectEpoch: epoch,
+    onEdit: (captured, command) => commitAdventureEdit(store, captured, command) }));
+  const render = () => { const root = ui.render(); root.props.ref.current = { querySelectorAll: () => [] }; ui.flush(); return elements(root); };
+  const graph = () => render().find(e => e.type === FlamGraph).props;
+  const screen = () => componentElements(render().find(e => e.type === ScreenEditor));
+  const choice = () => componentElements(screen().find(e => e.type === ChoiceEditor));
+  const rules = conditions => componentElements(choice().find(e => e.type === RuleEditor && Boolean(e.props.conditions) === conditions));
+  const field = (nodes, label) => nodes.find(e => e.props?.label === label);
+  const document = () => store.readProject().authoring.document;
+  try {
+    graph().onAddScreen('menu');
+    field(screen(), 'Titre de l’écran').props.onChange('Sous-menu');
+    const submenu = document().screens.at(-1).id;
+    const port = id => flamLinkPorts(document(), 'screens', id).find(p => p.kind === 'consult-add');
+    graph().onLink(port('accueil'), { collection: 'screens', id: submenu });
+    graph().onLink(port(submenu), { collection: 'screens', id: 'carte' });
+    assert.equal(document().screens.filter(s => s.id === 'carte').length, 1);
+    screen().find(e => e.props?.children === 'Ajouter une commande narrative').props.onClick();
+    const command = document().choices.at(-1).id;
+    assert.equal(document().screens.at(-1).links.at(-1).choiceId, command);
+    store.undo(); store = hook.render();
+    assert.ok(!document().choices.some(c => c.id === command));
+    store.redo(); store = hook.render();
+    field(choice(), 'Texte du choix').props.onChange('Utiliser la clé');
+    field(choice(), 'Scène de destination').props.onChange('sentier');
+    // Les mêmes formulaires de règles que les choix de scène.
+    for (const conditions of [true, false]) {
+      rules(conditions).find(e => e.props?.children === 'Ajouter une règle').props.onClick();
+      const typeField = rules(conditions).find(e => e.props?.path?.endsWith('/0') && typeof e.props.children === 'function');
+      typeField.props.children('type').props.onChange({ target: { value: conditions ? 'item' : 'consumeItem' } });
+      field(rules(conditions), 'Objet').props.onChange('cle');
+    }
+    assert.deepEqual(document().choices.at(-1).conditions, [{ type: 'item', itemId: 'cle', quantity: 1 }]);
+    assert.deepEqual(document().choices.at(-1).effects, [{ type: 'consumeItem', itemId: 'cle', quantity: 1 }]);
+    const projected = flamGraphElements(document(), { untitled: '' });
+    assert.equal(projected.filter(e => e.data.definitionId === 'carte' && !e.data.source).length, 1);
+    const edge = projected.find(e => e.data.definitionId === command && e.data.source);
+    assert.equal(edge.data.source, `screens:${submenu}`); assert.equal(edge.data.target, 'scenes:sentier');
+    assert.ok(!edge.data.consultation);
+    const reopened = (await decodeProjectFile(encodeProjectFile(store.readProject()))).project;
+    assert.deepEqual(reopened.authoring.document, document());
+    // Retirer une commande et sa définition est un seul geste, annulable.
+    choice().find(e => e.props?.children === 'Retirer cette commande du menu').props.onClick();
+    await Promise.resolve();
+    assert.ok(!document().choices.some(c => c.id === command));
+    store.undo(); store = hook.render(); assert.ok(document().choices.some(c => c.id === command));
+  } finally { ui.unmount(); hook.unmount(); }
+});
+
+
+test('thème et remplacements actualisent l’aperçu, le graphe et le projet sans exécuter une partie', async () => {
+  const { themedScreensFixture } = await import('./flamScreensFixture.mjs');
+  const { ThemeEditor } = await import('../src/components/FlamWorkspace/ThemeEditor.jsx');
+  const { FlamScreenPreview } = await import('../src/components/FlamWorkspace/FlamScreenPreview.jsx');
+  const { flamGraphElements } = await import('../src/components/FlamWorkspace/flamGraph.js');
+  const { diagnoseAdventureDocument } = await import('../src/store/flamAdventure/diagnostics.js');
+  const { encodeProjectFile, decodeProjectFile } = await import('../src/store/projectModel/codec.js');
+  const hook = runner(() => useProjectStore(), { doubleInvokeStateUpdaters: true });
+  let store = hook.render(); store.loadProject(createFlamProject({ document: themedScreensFixture() })); store = hook.render();
+  const epoch = store.workEpochRef.current;
+  const ui = runner(() => FlamWorkspace({ project: store.readProject(), projectEpoch: epoch,
+    onEdit: (captured, command) => commitAdventureEdit(store, captured, command) }));
+  const render = () => { const root = ui.render(); root.props.ref.current = { querySelectorAll: () => [] }; ui.flush(); return elements(root); };
+  const graph = () => render().find(e => e.type === FlamGraph);
+  const colors = local => componentElements(render().find(e => e.type === ThemeEditor && Boolean(e.props.screen) === local));
+  const changeColor = (local, label, value, raw = false) => {
+    const field = colors(local).find(e => e.props?.label === label);
+    elements(field.props.children('color')).find(e => e.type === 'input' && (raw ? e.props.type !== 'color' : e.props.type === 'color')).props.onChange({ target: { value } });
+  };
+  let previewProps;
+  const preview = runner(() => FlamScreenPreview(previewProps));
+  const screen = () => {
+    const { document, selection } = graph().props;
+    previewProps = { document, collection: selection.collection, id: selection.id };
+    return elements(preview.render());
+  };
+  const svg = () => screen().find(e => e.type === 'svg').props;
+  try {
+    graph().props.onSelect({ collection: 'scenes', id: 'clairiere' });
+    const rules = structuredClone(store.readProject().authoring.document.choices);
+    assert.equal(svg().style.background, '#101112');
+    assert.equal(svg().style.color, '#ffeecc');
+    assert.equal(screen().some(e => e.type === 'image'), false);
+    colors(true).find(e => e.props?.label === 'Remplacer la couleur Texte').props.onChange(true);
+    changeColor(true, 'Texte', '#123456');
+    changeColor(false, 'Texte', '#abcdef');
+    assert.equal(svg().style.color, '#123456');
+    colors(true).find(e => e.props?.label === 'Remplacer la couleur Texte').props.onChange(false);
+    assert.equal(svg().style.color, '#abcdef');
+    store.undo(); store = hook.render(); assert.equal(svg().style.color, '#123456');
+    store.redo(); store = hook.render(); assert.equal(svg().style.color, '#abcdef');
+    colors(true).find(e => e.props?.label === 'Remplacer la couleur Fond').props.onChange(false);
+    assert.equal(svg().style.background, '#112233');
+    changeColor(false, 'Fond', '#aabbcc');
+    assert.equal(svg().style.background, '#aabbcc');
+    const projected = flamGraphElements(store.readProject().authoring.document, { untitled: '' });
+    assert.equal(projected.find(e => e.data.id === 'scenes:clairiere').data.screenBackground, '#aabbcc');
+    assert.equal(projected.find(e => e.data.id === 'scenes:clairiere').data.screenText, '#abcdef');
+    const selected = screen().find(e => e.type === 'select');
+    selected.props.onChange({ target: { value: '1' } });
+    assert.ok(screen().some(e => e.type === 'text' && e.props.fill === '#abcdef' && e.props.children.startsWith('> ')));
+    assert.deepEqual(store.readProject().authoring.document.choices, rules);
+    const reopened = (await decodeProjectFile(encodeProjectFile(store.readProject()))).project;
+    assert.deepEqual(reopened.authoring.document.theme, store.readProject().authoring.document.theme);
+    assert.deepEqual(reopened.authoring.document.scenes, store.readProject().authoring.document.scenes);
+    graph().props.onSelect({ collection: 'screens', id: 'carte' });
+    assert.equal(svg().style.color, '#00ddaa');
+    assert.ok(screen().some(e => e.type === 'image' && e.props.href === 'blob:flam-preview'));
+    assert.ok(screen().some(e => e.type === 'text' && e.props.children === 'La carte du village'));
+    changeColor(true, 'Texte', 'invalide', true);
+    assert.ok(diagnoseAdventureDocument(store.readProject().authoring.document).some(d => d.code === 'INVALID_COLOR' && d.path === '/screens/1/colors/text'));
+    assert.equal(svg().style.color, '#abcdef', 'Un brouillon invalide conserve un aperçu lisible avec la couleur héritée');
+    const graphElements = componentElements(graph());
+    assert.ok(graphElements.some(e => e.type === FlamScreenPreview && e.props.id === 'carte'));
+  } finally { preview.unmount(); ui.unmount(); hook.unmount(); }
+});
+
+test('une grille et sa fiche type se construisent sans dupliquer les objets et suivent le projet', async () => {
+  const { inventoryGridFixture } = await import('./flamScreensFixture.mjs');
+  const { ScreenEditor } = await import('../src/components/FlamWorkspace/ScreenEditor.jsx');
+  const { FlamScreenPreview, PreviewGridCell } = await import('../src/components/FlamWorkspace/FlamScreenPreview.jsx');
+  const { flamLinkPorts } = await import('../src/store/flamAdventure/graphLinks.js');
+  const { flamGraphElements } = await import('../src/components/FlamWorkspace/flamGraph.js');
+  const { diagnoseAdventureDocument } = await import('../src/store/flamAdventure/diagnostics.js');
+  const { encodeProjectFile, decodeProjectFile } = await import('../src/store/projectModel/codec.js');
+  const fixture = inventoryGridFixture();
+  fixture.screens = fixture.screens.filter(s => !['affaires', 'objet'].includes(s.id));
+  fixture.screens[0].links = fixture.screens[0].links.filter(link => link.screenId !== 'affaires');
+  const hook = runner(() => useProjectStore(), { doubleInvokeStateUpdaters: true });
+  let store = hook.render(); store.loadProject(createFlamProject({ document: fixture })); store = hook.render();
+  const ui = runner(() => FlamWorkspace({ project: store.readProject(), projectEpoch: store.workEpochRef.current,
+    onEdit: (epoch, command) => commitAdventureEdit(store, epoch, command) }));
+  const render = () => { const root = ui.render(); root.props.ref.current = { querySelectorAll: () => [] }; ui.flush(); return elements(root); };
+  const graph = () => render().find(e => e.type === FlamGraph).props;
+  const screen = () => componentElements(render().find(e => e.type === ScreenEditor));
+  const document = () => store.readProject().authoring.document;
+  let previewProps;
+  const preview = runner(() => FlamScreenPreview(previewProps));
+  const view = () => { const { selection } = graph(); previewProps = { document: document(), ...selection }; return elements(preview.render()); };
+  try {
+    graph().onAddScreen('grid');
+    const gridId = document().screens.at(-1).id;
+    screen().find(e => e.props?.label === 'Titre de l’écran').props.onChange('Mes objets');
+    assert.ok(diagnoseAdventureDocument(document()).some(d => d.code === 'INVALID_GRID_DETAIL'));
+    graph().onAddScreen('detail');
+    const templateId = document().screens.at(-1).id;
+    screen().find(e => e.props?.label === 'Contenu de la fiche').props.children('source').props.onChange({ target: { value: 'item' } });
+    screen().find(e => e.props?.label === 'Titre de l’écran').props.onChange('Fiche des objets');
+    assert.ok(!screen().some(e => e.props?.multiline), 'La fiche type n’exige aucune copie de description');
+    const gridPort = flamLinkPorts(document(), 'screens', gridId)[0];
+    graph().onLink(gridPort, { collection: 'screens', id: templateId });
+    assert.equal(document().screens.find(s => s.id === gridId).detailScreenId, templateId);
+    store.undo(); store = hook.render(); assert.equal(document().screens.find(s => s.id === gridId).detailScreenId, null);
+    store.redo(); store = hook.render();
+    const menuPort = flamLinkPorts(document(), 'screens', 'accueil').find(p => p.kind === 'consult-add');
+    graph().onLink(menuPort, { collection: 'screens', id: gridId });
+    graph().onSelect({ collection: 'screens', id: gridId });
+    let cells = view().filter(e => e.type === PreviewGridCell);
+    assert.deepEqual(cells.map(e => e.props.item.name), ['Clé', 'Jeton', 'Corde', 'Boussole']);
+    assert.deepEqual(cells.map(e => { const rect = componentElements(e).find(n => n.type === 'rect'); return [rect.props.x, rect.props.y]; }), [[12,48],[164,48],[12,118],[164,118]]);
+    view().find(e => e.type === 'select').props.onChange({ target: { value: '6' } });
+    cells = view().filter(e => e.type === PreviewGridCell);
+    assert.deepEqual(cells.map(e => e.props.item.name), ['Lanterne', 'Galet', 'Carte']);
+    graph().onSelect({ collection: 'items', id: 'carte-objet' });
+    render().find(e => e.props?.multiline).props.onChange('Un nouveau plan.');
+    graph().onSelect({ collection: 'screens', id: templateId });
+    view().find(e => e.type === 'select').props.onChange({ target: { value: '6' } });
+    assert.ok(view().some(e => e.type === 'text' && e.props.children === 'Carte'));
+    assert.ok(view().filter(e => e.type === 'text').map(e => e.props.children).join(' ').includes('Un nouveau plan.'));
+    assert.ok(view().some(e => e.type === 'image' && e.props.href === 'blob:flam-preview'));
+    const projected = flamGraphElements(document(), { untitled: '' });
+    assert.equal(projected.filter(e => e.data.source === `screens:${gridId}`).length, 1, 'Un seul lien suffit pour tous les objets');
+    assert.ok(!projected.some(e => e.data.collection === 'items'));
+    const reopened = (await decodeProjectFile(encodeProjectFile(store.readProject()))).project;
+    assert.deepEqual(reopened.authoring.document, document());
+    assert.throws(() => commitAdventureEdit(store, store.workEpochRef.current, { type: 'remove', collection: 'screens', id: templateId }), /REFERENCED_ADVENTURE_DEFINITION/);
+    screen().find(e => e.props?.label === 'Contenu de la fiche').props.children('source').props.onChange({ target: { value: 'author' } });
+    assert.ok(diagnoseAdventureDocument(document()).some(d => d.code === 'INVALID_GRID_DETAIL'));
+  } finally { preview.unmount(); ui.unmount(); hook.unmount(); }
+});
+
+test('une collection édite entrées, médias, conditions et fiches dans le même historique', async () => {
+  const { inventoryGridFixture } = await import('./flamScreensFixture.mjs');
+  const { ScreenEditor } = await import('../src/components/FlamWorkspace/ScreenEditor.jsx');
+  const { CollectionEditor } = await import('../src/components/FlamWorkspace/CollectionEditor.jsx');
+  const { FlamScreenPreview, PreviewGridCell } = await import('../src/components/FlamWorkspace/FlamScreenPreview.jsx');
+  const { flamLinkPorts } = await import('../src/store/flamAdventure/graphLinks.js');
+  const { flamGraphElements } = await import('../src/components/FlamWorkspace/flamGraph.js');
+  const { diagnoseAdventureDocument } = await import('../src/store/flamAdventure/diagnostics.js');
+  const { encodeProjectFile, decodeProjectFile } = await import('../src/store/projectModel/codec.js');
+  const hook = runner(() => useProjectStore(), { doubleInvokeStateUpdaters: true });
+  let store = hook.render(); store.loadProject(createFlamProject({ document: inventoryGridFixture() })); store = hook.render();
+  const epoch = store.workEpochRef.current;
+  const ui = runner(() => FlamWorkspace({ project: store.readProject(), projectEpoch: epoch, onEdit: (captured, command) => commitAdventureEdit(store, captured, command) }));
+  const render = () => { const root = ui.render(); root.props.ref.current = { querySelectorAll: () => [] }; ui.flush(); return elements(root); };
+  const graph = () => render().find(e => e.type === FlamGraph).props;
+  const screen = () => componentElements(render().find(e => e.type === ScreenEditor));
+  const entries = () => componentElements(screen().find(e => e.type === CollectionEditor));
+  const rules = () => componentElements(entries().find(e => e.type === RuleEditor));
+  const document = () => store.readProject().authoring.document;
+  try {
+    graph().onAddScreen('detail'); const detailId = document().screens.at(-1).id;
+    screen().find(e => e.props?.label === 'Titre de l’écran').props.onChange('La porte découverte');
+    graph().onAddScreen('grid'); const gridId = document().screens.at(-1).id;
+    screen().find(e => e.props?.label === 'Source de la grille').props.children('source').props.onChange({ target: { value: 'collection' } });
+    entries().find(e => e.props?.children === 'Ajouter une entrée').props.onClick();
+    entries().find(e => e.props?.label === 'Libellé de l’entrée').props.onChange('Souvenir de la porte');
+    entries().find(e => e.props?.label === 'Fiche de l’entrée').props.onChange(detailId);
+    await entries().find(e => e.type?.name === 'ImageField').props.onPick('/images/souvenir.png');
+    rules().find(e => e.props?.children === 'Ajouter une règle').props.onClick();
+    rules().find(e => e.props?.path?.endsWith('/0') && typeof e.props.children === 'function').props.children('type').props.onChange({ target: { value: 'event' } });
+    rules().find(e => e.props?.label === 'Événement').props.onChange('porte-ouverte');
+    entries().find(e => e.props?.label === 'Entrée indisponible').props.children('unavailable').props.onChange({ target: { value: 'disabled' } });
+    let entry = document().screens.at(-1).entries[0];
+    assert.equal(entry.unavailable, 'disabled'); assert.equal(entry.image, '/images/souvenir.png');
+    assert.deepEqual(entry.conditions, [{ type: 'event', eventId: 'porte-ouverte', present: true }]);
+    assert.throws(() => commitAdventureEdit(store, epoch, { type: 'remove', collection: 'screens', id: detailId }), /REFERENCED_ADVENTURE_DEFINITION/);
+    const port = flamLinkPorts(document(), 'screens', gridId)[0];
+    graph().onLink(port, { collection: 'screens', id: 'note' });
+    assert.equal(document().screens.at(-1).entries[0].screenId, 'note');
+    store.undo(); store = hook.render(); assert.equal(document().screens.at(-1).entries[0].screenId, detailId);
+    store.redo(); store = hook.render();
+    const edge = flamGraphElements(document(), { untitled: '' }).find(e => e.data.sourcePortKey === port.key);
+    assert.equal(edge.data.target, 'screens:note'); assert.equal(edge.data.consultation, true); assert.equal(edge.data.conditional, true);
+    const preview = componentElements({ type: FlamScreenPreview, props: { document: document(), collection: 'screens', id: gridId } });
+    assert.equal(preview.find(e => e.type === PreviewGridCell).props.item.name, 'Souvenir de la porte');
+    const reopened = (await decodeProjectFile(encodeProjectFile(store.readProject()))).project;
+    assert.deepEqual(reopened.authoring.document, document());
+    screen().find(e => e.props?.label === 'Source de la grille').props.children('source').props.onChange({ target: { value: 'inventory' } });
+    store.undo(); store = hook.render();
+    assert.equal(document().screens.at(-1).source, 'collection'); assert.equal(document().screens.at(-1).entries[0].image, '/images/souvenir.png');
+    rules().find(e => e.props?.path?.endsWith('/0') && typeof e.props.children === 'function').props.children('type').props.onChange({ target: { value: 'item' } });
+    rules().find(e => e.props?.label === 'Objet').props.onChange('cle');
+    rules().find(e => e.props?.label === 'Quantité entière positive').props.onChange(0);
+    assert.ok(diagnoseAdventureDocument(document()).some(d => d.code === 'INVALID_QUANTITY' && d.path.includes('/entries/0/conditions/0/quantity')));
+  } finally { ui.unmount(); hook.unmount(); }
+});
+
+
+test('modes, images par identité et résultats médias différés se retrouvent dans l’aperçu et l’historique', async () => {
+  const { selectionIllustrationsFixture } = await import('./flamScreensFixture.mjs');
+  const { ScreenEditor } = await import('../src/components/FlamWorkspace/ScreenEditor.jsx');
+  const { IllustrationModeField } = await import('../src/components/FlamWorkspace/IllustrationEditor.jsx');
+  const { FlamScreenPreview } = await import('../src/components/FlamWorkspace/FlamScreenPreview.jsx');
+  const { encodeProjectFile, decodeProjectFile } = await import('../src/store/projectModel/codec.js');
+  const hook = runner(() => useProjectStore(), { doubleInvokeStateUpdaters: true });
+  let store = hook.render(); store.loadProject(createFlamProject({ document: selectionIllustrationsFixture() })); store = hook.render();
+  const epoch = store.workEpochRef.current;
+  const ui = runner(() => FlamWorkspace({ project: store.readProject(), projectEpoch: epoch, onEdit: (captured, command) => commitAdventureEdit(store, captured, command) }));
+  const render = () => { const root = ui.render(); root.props.ref.current = { querySelectorAll: () => [] }; ui.flush(); return elements(root); };
+  const graph = () => render().find(e => e.type === FlamGraph).props;
+  const screen = () => componentElements(render().find(e => e.type === ScreenEditor));
+  const mode = value => {
+    const field = graph().selection.collection === 'scenes' ? render().find(e => e.type === IllustrationModeField) : screen().find(e => e.type === IllustrationModeField);
+    componentElements(field).find(e => e.props?.label === 'Mode d’illustration').props.children('mode').props.onChange({ target: { value } });
+  };
+  let previewProps;
+  const preview = runner(() => FlamScreenPreview(previewProps));
+  const view = () => { const { selection, document } = graph(); previewProps = { ...selection, document }; return elements(preview.render()); };
+  const picture = () => { view(); return globalThis.__flamUi.previewPath; };
+  const document = () => store.readProject().authoring.document;
+  try {
+    graph().onSelect({ collection: 'scenes', id: 'depart' });
+    const choice = render().find(e => e.type === ChoiceEditor && e.props.choice.id === 'choisir-pisteur');
+    await componentElements(choice).find(e => e.props?.label === 'Illustration de ce choix').props.onPick('/images/pisteur.png');
+    assert.equal(picture(), 'start-common.png'); mode('selection'); assert.equal(picture(), '/images/pisteur.png');
+    view().find(e => e.type === 'select').props.onChange({ target: { value: '1' } }); assert.equal(picture(), 'ami.png');
+    mode('common'); assert.equal(picture(), 'start-common.png');
+    store.undo(); store = hook.render(); assert.equal(picture(), 'ami.png');
+    commitAdventureEdit(store, epoch, { type: 'patch', collection: 'scenes', id: 'depart', patch: { choices: ['choisir-ami','choisir-pisteur'] } });
+    view().find(e => e.type === 'select').props.onChange({ target: { value: '0' } }); assert.equal(picture(), 'ami.png');
+    view().find(e => e.type === 'select').props.onChange({ target: { value: '1' } }); assert.equal(picture(), '/images/pisteur.png');
+    graph().onSelect({ collection: 'screens', id: 'accueil' });
+    let release;
+    prepare = () => new Promise(resolve => { release = resolve; });
+    const menuImage = () => screen().find(e => e.props?.fieldId === 'flam-menu-choice:accueil:carte');
+    const pending = menuImage().props.onPick('/images/menu.png');
+    screen().find(e => e.props?.path === '/screens/0/links/0/label').props.onChange('Carte renommée');
+    release('/images/menu.png'); await pending;
+    assert.equal(document().screens[0].links[0].label, 'Carte renommée');
+    assert.equal(document().screens[0].links[0].image, '/images/menu.png');
+    assert.equal(document().screens.find(s => s.id === 'carte').image, 'carte.png', 'Un identifiant de lien peut être homonyme d’un écran sans détourner le média');
+    assert.equal(picture(), '/images/menu.png'); mode('common'); assert.equal(picture(), 'main-common.png'); mode('selection');
+    const reopened = (await decodeProjectFile(encodeProjectFile(store.readProject()))).project;
+    assert.deepEqual(reopened.authoring.document, document());
+    menuImage().props.onClear(); assert.equal(picture(), 'main-common.png');
+    store.undo(); store = hook.render(); assert.equal(picture(), '/images/menu.png');
+    const late = menuImage().props.onPick('/images/perimee.png');
+    const current = document().screens[0];
+    commitAdventureEdit(store, epoch, { type: 'patch', collection: 'screens', id: 'accueil', patch: { links: current.links.filter(link => link.id !== 'carte') } });
+    const afterRemoval = structuredClone(document());
+    release('/images/perimee.png'); await late;
+    assert.deepEqual(document(), afterRemoval, 'Un média différé ne recrée pas un accès supprimé');
+    store.undo(); store = hook.render(); assert.equal(document().screens[0].links[0].image, '/images/menu.png');
+  } finally { prepare = async path => path; preview.unmount(); ui.unmount(); hook.unmount(); }
+});
+
+test('compositions, audio facultatif et texte long des fiches sont éditables et prévisualisables', async () => {
+  const { richDetailsFixture } = await import('./flamScreensFixture.mjs');
+  const { ScreenEditor } = await import('../src/components/FlamWorkspace/ScreenEditor.jsx');
+  const { FlamScreenPreview } = await import('../src/components/FlamWorkspace/FlamScreenPreview.jsx');
+  const { encodeProjectFile, decodeProjectFile } = await import('../src/store/projectModel/codec.js');
+  const hook = runner(() => useProjectStore(), { doubleInvokeStateUpdaters: true });
+  let store = hook.render(); store.loadProject(createFlamProject({ document: richDetailsFixture() })); store = hook.render();
+  const epoch = store.workEpochRef.current;
+  const ui = runner(() => FlamWorkspace({ project: store.readProject(), projectEpoch: epoch, onEdit: (captured, command) => commitAdventureEdit(store, captured, command) }));
+  const render = () => { const root = ui.render(); root.props.ref.current = { querySelectorAll: () => [] }; ui.flush(); return elements(root); };
+  const graph = () => render().find(e => e.type === FlamGraph).props;
+  const editor = () => componentElements(render().find(e => e.type === ScreenEditor));
+  const layout = value => editor().find(e => e.props?.label === 'Composition de la fiche').props.children('layout').props.onChange({ target: { value } });
+  let previewProps;
+  const preview = runner(() => FlamScreenPreview(previewProps));
+  const view = () => { const { selection, document } = graph(); previewProps = { ...selection, document }; return elements(preview.render()); };
+  const document = () => store.readProject().authoring.document;
+  try {
+    graph().onSelect({ collection: 'screens', id: 'fiche-enrichie' });
+    let image = view().find(e => e.type === 'image');
+    assert.equal(image.props.x, '12'); assert.equal(image.props.width, 140); assert.equal(image.props.height, '140');
+    assert.ok(view().some(e => e.type === 'text' && e.props.x === 164 && e.props.children === 'Ligne00é'));
+    const range = view().find(e => e.type === 'input' && e.props.type === 'range');
+    range.props.onChange({ target: { value: String(range.props.max) } });
+    assert.ok(view().some(e => e.type === 'text' && e.props.children === 'TERMINUS'));
+    assert.ok(!view().some(e => e.type === 'text' && e.props.children === 'Ligne00é'));
+    layout('fullImage'); image = view().find(e => e.type === 'image'); assert.equal(image.props.width, 296);
+    assert.ok(!view().some(e => e.type === 'text' && e.props.children === 'TERMINUS'));
+    view().find(e => e.props?.children === 'Lire la description').props.onClick();
+    assert.ok(!view().some(e => e.type === 'image'));
+    assert.ok(view().some(e => e.type === 'text' && e.props.x === 12 && e.props.children === 'TERMINUS'));
+    const audio = () => editor().find(e => e.type?.name === 'AudioField');
+    assert.equal(audio().props.required, false); assert.equal(audio().props.xttsTarget.projectEpoch, epoch);
+    await audio().props.onPick('/audio/description.mp3');
+    editor().find(e => e.props?.label === 'Titre de l’écran').props.onChange('');
+    let detail = document().screens.find(s => s.id === 'fiche-enrichie');
+    assert.equal(detail.audio, '/audio/description.mp3'); assert.equal(detail.title, ''); assert.equal(detail.layout, 'fullImage');
+    audio().props.onClear(); await Promise.resolve(); assert.equal(document().screens.find(s => s.id === detail.id).audio, null);
+    store.undo(); store = hook.render(); assert.equal(document().screens.find(s => s.id === detail.id).audio, '/audio/description.mp3');
+    const reopened = (await decodeProjectFile(encodeProjectFile(store.readProject()))).project;
+    assert.deepEqual(reopened.authoring.document, document());
+    graph().onSelect({ collection: 'screens', id: 'objet' });
+    assert.ok(!editor().some(e => e.type?.name === 'AudioField'), 'La fiche type réutilise l’audio de l’objet');
+    layout('split');
+    view().find(e => e.type === 'select').props.onChange({ target: { value: '0' } });
+    assert.equal(view().find(e => e.type === 'image').props.width, 140);
+    assert.ok(view().some(e => e.type === 'text' && e.props.children === 'Écouter la description'));
+    assert.ok(view().filter(e => e.type === 'small').some(e => JSON.stringify(e.props.children).includes('cle-description-stereo.mp3')));
+  } finally { preview.unmount(); ui.unmount(); hook.unmount(); }
+});
+
+test('la fiche personnage se crée, se relie et édite portrait et informations conditionnelles avec historique', async () => {
+  const { screensFixture } = await import('./flamScreensFixture.mjs');
+  const { ScreenEditor } = await import('../src/components/FlamWorkspace/ScreenEditor.jsx');
+  const { CharacterEditor } = await import('../src/components/FlamWorkspace/CharacterEditor.jsx');
+  const { FlamScreenPreview } = await import('../src/components/FlamWorkspace/FlamScreenPreview.jsx');
+  const { flamLinkPorts } = await import('../src/store/flamAdventure/graphLinks.js');
+  const { flamGraphElements } = await import('../src/components/FlamWorkspace/flamGraph.js');
+  const { diagnoseAdventureDocument } = await import('../src/store/flamAdventure/diagnostics.js');
+  const { encodeProjectFile, decodeProjectFile } = await import('../src/store/projectModel/codec.js');
+  const hook = runner(() => useProjectStore(), { doubleInvokeStateUpdaters: true });
+  let store = hook.render(); store.loadProject(createFlamProject({ document: screensFixture() })); store = hook.render();
+  const epoch = store.workEpochRef.current;
+  const ui = runner(() => FlamWorkspace({ project: store.readProject(), projectEpoch: epoch, onEdit: (captured, command) => commitAdventureEdit(store, captured, command) }));
+  const render = () => { const root = ui.render(); root.props.ref.current = { querySelectorAll: () => [] }; ui.flush(); return elements(root); };
+  const graph = () => render().find(e => e.type === FlamGraph).props;
+  const editor = () => componentElements(render().find(e => e.type === ScreenEditor));
+  const information = () => componentElements(editor().find(e => e.type === CharacterEditor));
+  const rules = () => componentElements(information().find(e => e.type === RuleEditor));
+  const document = () => store.readProject().authoring.document;
+  let previewProps;
+  const preview = runner(() => FlamScreenPreview(previewProps));
+  const view = () => { previewProps = { document: document(), collection: 'screens', id: graph().selection.id }; return elements(preview.render()); };
+  try {
+    graph().onAddScreen('character'); const id = document().screens.at(-1).id;
+    assert.equal(document().screens.at(-1).type, 'character');
+    editor().find(e => e.props?.label === 'Titre de l’écran').props.onChange('Ton portrait');
+    await editor().find(e => e.type?.name === 'ImageField').props.onPick('/images/portrait.png');
+    information().find(e => e.props?.children === 'Ajouter une information').props.onClick();
+    const long = Array.from({ length: 20 }, (_, i) => `Texte${i}`).join('\n') + '\nDERNIER';
+    information().find(e => e.props?.label === 'Information du personnage').props.onChange(long);
+    rules().find(e => e.props?.children === 'Ajouter une règle').props.onClick();
+    rules().find(e => e.props?.label === 'Classe').props.onChange('pisteur');
+    assert.deepEqual(document().screens.at(-1).information[0].conditions, [{ type: 'class', classId: 'pisteur' }]);
+    assert.throws(() => commitAdventureEdit(store, epoch, { type: 'remove', collection: 'classes', id: 'pisteur' }), /REFERENCED_ADVENTURE_DEFINITION/);
+    rules().find(e => e.props?.path?.endsWith('/0') && typeof e.props.children === 'function').props.children('type').props.onChange({ target: { value: 'event' } });
+    rules().find(e => e.props?.label === 'Événement').props.onChange('porte-ouverte');
+    assert.deepEqual(document().screens.at(-1).information[0].conditions, [{ type: 'event', eventId: 'porte-ouverte', present: true }]);
+    store.undo(); store = hook.render();
+    assert.ok(diagnoseAdventureDocument(document()).some(d => d.path.endsWith('/information/0/conditions/0/eventId')));
+    store.redo(); store = hook.render();
+    const port = flamLinkPorts(document(), 'screens', 'accueil').find(p => p.kind === 'consult-add');
+    graph().onLink(port, { collection: 'screens', id });
+    assert.ok(flamGraphElements(document(), { untitled: '' }).some(e => e.data.target === `screens:${id}` && e.data.consultation));
+    graph().onSelect({ collection: 'screens', id });
+    assert.ok(view().some(e => e.type === 'image' && e.props.width === 140));
+    const range = view().find(e => e.type === 'input' && e.props.type === 'range'); range.props.onChange({ target: { value: String(range.props.max) } });
+    assert.ok(view().some(e => e.type === 'text' && e.props.children === 'DERNIER'));
+    assert.ok(view().some(e => e.type === 'small' && e.props.children.includes('toutes les informations')));
+    information().find(e => e.props?.children === 'Retirer cette information').props.onClick();
+    assert.equal(document().screens.at(-1).information.length, 0);
+    store.undo(); store = hook.render(); assert.equal(document().screens.at(-1).information[0].text, long);
+    assert.equal(document().screens.at(-1).image, '/images/portrait.png');
+    assert.ok(!diagnoseAdventureDocument(document()).some(d => d.severity === 'error'));
+    const reopened = (await decodeProjectFile(encodeProjectFile(store.readProject()))).project;
+    assert.deepEqual(reopened.authoring.document, document());
+  } finally { preview.unmount(); ui.unmount(); hook.unmount(); }
+});
+
+test('les commandes Tout, Récit et Consultation changent la visibilité sans éditer le projet', async () => {
+  const { unifiedGraphFixture } = await import('./flamArrangedGraphFixture.mjs');
+  const { GraphSurfaceControls } = await import('../src/components/AdvancedGraphCanvas/GraphSurfaceControls.jsx');
+  const { FlamGraphPorts } = await import('../src/components/FlamWorkspace/FlamGraphPorts.jsx');
+  const document = unifiedGraphFixture(); const before = structuredClone(document);
+  const edits = [];
+  const ui = runner(() => FlamGraph({ document, selection: { collection: 'screens', id: 'accueil' }, graphLayout: undefined,
+    projectEpoch: 1, onSelect: value => edits.push(value), onLayout: value => edits.push(value), onAddScene() {}, onAddRoll() {}, onAddScreen() {}, onLink() {} }));
+  const render = () => elements(ui.render());
+  const button = label => render().find(e => e.props?.children === label && e.props?.['aria-pressed'] !== undefined);
+  try {
+    assert.equal(button('Tout').props['aria-pressed'], true);
+    button('Récit').props.onClick(); assert.equal(button('Récit').props['aria-pressed'], true);
+    assert.equal(button('Tout').props['aria-pressed'], false);
+    let controls = render().find(e => e.type === GraphSurfaceControls);
+    assert.equal(controls.props.arrangement.disabled, false);
+    button('Consultation').props.onClick(); assert.equal(button('Consultation').props['aria-pressed'], true);
+    assert.ok(render().some(e => e.type === FlamGraphPorts));
+    controls = render().find(e => e.type === GraphSurfaceControls);
+    assert.equal(controls.props.arrangement.disabled, false);
+    assert.ok(controls.props.edgeFilters.some(filter => filter.group === 'consultation'));
+    button('Tout').props.onClick(); assert.equal(button('Tout').props['aria-pressed'], true);
+    assert.deepEqual(edits, []); assert.deepEqual(document, before);
+  } finally { ui.unmount(); }
 });

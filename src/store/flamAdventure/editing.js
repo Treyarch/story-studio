@@ -4,6 +4,7 @@ import { AdventureDocumentError, editAdventureDefinition, replaceAdventureDocume
 import { withFlamDocument, withFlamGraphLayout } from './project.js';
 
 export function newAdventureDefinition(collection, id) {
+  if (collection === 'screens') return { id, type: 'menu', title: '', text: '', image: null, links: [] };
   if (collection === 'scenes') return { id, title: '', text: '', audio: null, image: null, ending: false, choices: [] };
   if (collection === 'choices') return { id, label: '', destination: null, conditions: [], effects: [], rewardId: null, rollId: null, replayAudioOnReturn: true, unavailable: { mode: 'disabled', explanation: '' } };
   if (collection === 'rewards') return { id, name: '', repeatable: false, effects: [] };
@@ -18,13 +19,17 @@ export function editAdventure(document, command) {
   const { type, collection, id, patch, sceneId } = command;
   if (type === 'patch') return editAdventureDefinition(document, { collection, id, patch });
   const next = structuredClone(document);
-  if (type === 'presentationMedia') {
-    const owner = [...adventureMediaOwners(next)].find(entry => command.ownerId === null ? entry === next.presentation : entry.id === command.ownerId);
+  if (type === 'menuLinkMedia') {
+    const link = next.screens?.find(screen => screen.id === command.menuId && screen.type === 'menu')?.links.find(link => link.id === command.linkId);
+    if (!link) return document;
+    link.image = command.value;
+  } else if (type === 'presentationMedia') {
+    const owner = [...adventureMediaOwners(next, false)].find(entry => command.ownerId === null ? entry === next.presentation : entry.id === command.ownerId);
     if (!owner || !['audio', 'image'].includes(command.kind) || !Object.hasOwn(owner, command.kind)) return document;
     owner[command.kind] = command.value;
   } else if (type === 'document') {
     for (const field of Object.keys(patch)) {
-      if (!['title', 'startSceneId', 'presentation'].includes(field)) throw new AdventureDocumentError('INVALID_ADVENTURE_EDIT', `/${field}`);
+      if (!['title', 'startSceneId', 'presentation', 'mainMenuId', 'theme'].includes(field)) throw new AdventureDocumentError('INVALID_ADVENTURE_EDIT', `/${field}`);
     }
     Object.assign(next, patch);
   } else if (type === 'linkNew') {
@@ -51,17 +56,34 @@ export function editAdventure(document, command) {
     scene.choices.push(id);
   } else if (type === 'add') {
     const entry = newAdventureDefinition(collection, id);
+    if (collection === 'screens' && command.screenType) {
+      entry.type = command.screenType;
+      if (entry.type === 'character') entry.information = [];
+      if (entry.type === 'grid') Object.assign(entry, { source: 'inventory', detailScreenId: null });
+    }
+    next[collection] ??= [];
     next[collection].push(entry);
-    if (collection === 'choices') {
+    if (collection === 'choices' && command.menuId) {
+      const menu = next.screens?.find(screen => screen.id === command.menuId && screen.type === 'menu');
+      if (!menu) throw new AdventureDocumentError('MISSING_ADVENTURE_DEFINITION', '/screens');
+      menu.links.push({ id: command.linkId, type: 'narrative', choiceId: id });
+    } else if (collection === 'choices') {
       const scene = next.scenes.find(scene => scene.id === sceneId);
       if (!scene) throw new AdventureDocumentError('MISSING_ADVENTURE_DEFINITION', '/scenes');
       scene.choices.push(id);
     }
   } else if (type === 'removeChoice') {
-    const scene = next.scenes.find(scene => scene.id === sceneId);
-    if (!scene) throw new AdventureDocumentError('MISSING_ADVENTURE_DEFINITION', '/scenes');
-    scene.choices = scene.choices.filter(choice => choice !== id);
-    if (!next.scenes.some(scene => scene.choices.includes(id))) next.choices = next.choices.filter(choice => choice.id !== id);
+    if (command.menuId) {
+      const menu = next.screens?.find(screen => screen.id === command.menuId && screen.type === 'menu');
+      if (!menu) throw new AdventureDocumentError('MISSING_ADVENTURE_DEFINITION', '/screens');
+      menu.links = menu.links.filter(link => link.id !== command.linkId || link.type !== 'narrative' || link.choiceId !== id);
+    } else {
+      const scene = next.scenes.find(scene => scene.id === sceneId);
+      if (!scene) throw new AdventureDocumentError('MISSING_ADVENTURE_DEFINITION', '/scenes');
+      scene.choices = scene.choices.filter(choice => choice !== id);
+    }
+    if (!next.scenes.some(scene => scene.choices.includes(id))
+      && !(next.screens ?? []).some(screen => screen.links.some(link => link.type === 'narrative' && link.choiceId === id))) next.choices = next.choices.filter(choice => choice.id !== id);
   } else if (type === 'remove') {
     return editAdventureDefinition(document, { collection, id, patch: null });
   } else throw new AdventureDocumentError('INVALID_ADVENTURE_EDIT', '/');
@@ -74,6 +96,7 @@ export function commitAdventureEdit(store, epoch, command) {
   if (store.workEpochRef.current !== epoch) return { status: 'stale' };
   const project = store.readProject();
   if (project?.authoringMode !== 'flam') return { status: 'stale' };
+  if (command.type === 'menuLinkMedia' && !project.authoring.document.screens?.some(screen => screen.id === command.menuId && screen.type === 'menu' && screen.links.some(link => link.id === command.linkId))) return { status: 'stale' };
   if (command.type === 'layout') {
     const next = withFlamGraphLayout(project, command.positions);
     if (next === project) return { status: 'unchanged' };

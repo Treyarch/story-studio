@@ -18,6 +18,9 @@ pub(super) struct Document {
     rewards: Vec<Reward>,
     rolls: Vec<Roll>,
     presentation: Option<Presentation>,
+    screens: Option<Vec<Screen>>,
+    main_menu_id: Option<String>,
+    theme: Option<Colors>,
 }
 #[derive(Deserialize)]
 #[serde(deny_unknown_fields)]
@@ -29,6 +32,9 @@ struct Scene {
     image: Value,
     ending: bool,
     choices: Vec<String>,
+    #[serde(rename = "illustrationMode")]
+    illustration_mode: Option<String>,
+    colors: Option<Colors>,
 }
 #[derive(Deserialize)]
 #[serde(deny_unknown_fields, rename_all = "camelCase")]
@@ -39,6 +45,7 @@ struct Choice {
     conditions: Vec<Condition>,
     effects: Vec<Effect>,
     reward_id: Value,
+    image: Option<String>,
     roll_id: Value,
     #[serde(default = "default_replay_audio_on_return")]
     replay_audio_on_return: bool,
@@ -194,4 +201,79 @@ struct Progress {
 struct Milestone {
     id: String,
     conditions: Vec<Condition>,
+}
+
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields)]
+struct Screen {
+    id: String,
+    #[serde(rename = "type")]
+    kind: String,
+    title: String,
+    text: String,
+    image: Value,
+    links: Vec<ScreenLink>,
+    information: Option<Vec<CharacterInformation>>,
+    layout: Option<String>,
+    audio: Option<String>,
+    #[serde(rename = "illustrationMode")]
+    illustration_mode: Option<String>,
+    source: Option<String>,
+    entries: Option<Vec<CollectionEntry>>,
+    #[serde(rename = "detailScreenId")]
+    detail_screen_id: Option<String>,
+    #[serde(rename = "contentSource")]
+    content_source: Option<String>,
+    colors: Option<Colors>,
+}
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields)]
+struct CharacterInformation {
+    id: String,
+    text: String,
+    conditions: Vec<Condition>,
+}
+#[derive(Deserialize)]
+#[serde(untagged)]
+enum ScreenLink {
+    Consultation(ConsultationLink),
+    Narrative(NarrativeLink),
+}
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields, rename_all = "camelCase")]
+struct ConsultationLink {
+    id: String,
+    image: Option<String>,
+    #[serde(rename = "type")]
+    kind: Option<String>,
+    label: String,
+    screen_id: Value,
+}
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields, rename_all = "camelCase")]
+struct NarrativeLink {
+    id: String,
+    image: Option<String>,
+    #[serde(rename = "type")]
+    kind: String,
+    choice_id: Value,
+}
+
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields)]
+struct Colors {
+    background: Option<String>,
+    text: Option<String>,
+    selection: Option<String>,
+}
+
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields, rename_all = "camelCase")]
+struct CollectionEntry {
+    id: String,
+    label: String,
+    image: Value,
+    screen_id: Value,
+    conditions: Vec<Condition>,
+    unavailable: String,
 }

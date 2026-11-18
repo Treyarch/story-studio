@@ -1,10 +1,11 @@
 -- Sources retenues pendant l'affichage : une illustration et trois vignettes au plus.
 local display = {}
-local widget, source, current, progressBar, thumbnails
+local widget, source, current, currentLayout, progressBar, thumbnails
 local rowImages = {}
+local cells, gridVisible = {}, false
 function display.start(root)
-    widget, source, current = nil, nil, nil
-    rowImages, thumbnails = {}, {}
+    widget, source, current, currentLayout = nil, nil, nil, nil
+    rowImages, thumbnails, cells, gridVisible = {}, {}, {}, false
     progressBar = lv.obj.new(root)
     lv.obj.remove_style_all(progressBar)
     lv.obj.set_pos(progressBar, 12, 101)
@@ -26,7 +27,66 @@ function display.start(root)
             lv.obj.add_flag(thumbnails[i], lv.OBJ_FLAG_HIDDEN)
         end
     end
+    for i = 1, 4 do
+        local x, y = 12 + ((i - 1) % 2) * 152, 48 + math.floor((i - 1) / 2) * 70
+        local box = lv.obj.new(root)
+        lv.obj.remove_style_all(box)
+        lv.obj.set_pos(box, x, y)
+        lv.obj.set_size(box, 144, 68)
+        lv.obj.clear_flag(box, lv.OBJ_FLAG_SCROLLABLE)
+        local style = lv.style.new()
+        lv.style.set_bg_opa(style, lv.OPA_COVER)
+        local label = lv.label.new(box)
+        lv.obj.remove_style_all(label)
+        lv.obj.set_pos(label, 2, 44)
+        lv.obj.set_size(label, 140, 22)
+        lv.label.set_long_mode(label, lv.LABEL_LONG_SCROLL_CIRCULAR or lv.LABEL_LONG_WRAP)
+        local textStyle = lv.style.new()
+        lv.style.set_text_font(textStyle, lv.font.nunito_bold_16)
+        local img
+        if lv.img and lv.img_src then
+            img = lv.img.new(box)
+            lv.obj.remove_style_all(img)
+            lv.obj.set_pos(img, 48, 2)
+            lv.obj.add_flag(img, lv.OBJ_FLAG_HIDDEN)
+        end
+        cells[i] = {box = box, label = label, img = img, style = style, textStyle = textStyle}
+        lv.obj.add_flag(box, lv.OBJ_FLAG_HIDDEN)
+    end
 end
+-- Une seule page retient au plus quatre sources d'image, réutilisées ou relâchées.
+function display.grid(entries, selected, palette)
+    if not entries and not gridVisible then return end
+    gridVisible = entries ~= nil
+    for i, cell in ipairs(cells) do
+        local entry = entries and entries[i]
+        local path = entry and entry.image
+        if cell.img and cell.current ~= path then
+            lv.obj.add_flag(cell.img, lv.OBJ_FLAG_HIDDEN)
+            lv.img.set_src(cell.img, nil)
+            cell.source, cell.current = nil, path
+            if path then
+                local ok, result = pcall(lv.img_src.load, path)
+                if ok and result then
+                    cell.source = result
+                    lv.img.set_src(cell.img, result)
+                    local w, h = lv.img_src.get_width(result), lv.img_src.get_height(result)
+                    lv.img.set_zoom(cell.img, math.floor(256 * math.min(48/w, 40/h, 1)))
+                    lv.obj.clear_flag(cell.img, lv.OBJ_FLAG_HIDDEN)
+                end
+            end
+        end
+        lv.label.set_text(cell.label, entry and ((selected == i and '> ' or '  ') .. (entry.enabled == false and '[x] ' or '') .. entry.name) or '')
+        if entry then
+            lv.style.set_bg_color(cell.style, lv.color.hex(selected == i and palette.selection or palette.background))
+            lv.style.set_text_color(cell.textStyle, lv.color.hex(selected == i and palette.background or palette.text))
+            lv.obj.add_style(cell.box, cell.style, lv.STATE_DEFAULT)
+            lv.obj.add_style(cell.label, cell.textStyle, lv.STATE_DEFAULT)
+            lv.obj.clear_flag(cell.box, lv.OBJ_FLAG_HIDDEN)
+        else lv.obj.add_flag(cell.box, lv.OBJ_FLAG_HIDDEN) end
+    end
+end
+
 function display.progress(value)
     if not progressBar then return end
     lv.obj.add_flag(progressBar, lv.OBJ_FLAG_HIDDEN)
@@ -55,20 +115,28 @@ function display.thumbnails(paths)
         end
     end
 end
-function display.image(path)
-    if not widget or path == current then return end
-    lv.obj.add_flag(widget, lv.OBJ_FLAG_HIDDEN)
-    -- Le widget est masqué avant de relâcher la référence de l'ancienne source.
-    lv.img.set_src(widget, nil)
-    source, current = nil, path
-    collectgarbage('collect')
-    if not path then return end
-    local ok, result = pcall(lv.img_src.load, path)
-    if not ok or not result then return end
-    source = result
-    lv.img.set_src(widget, source)
-    local width, height = lv.img_src.get_width(source), lv.img_src.get_height(source)
-    lv.img.set_zoom(widget, math.floor(256 * math.min(84 / width, 48 / height, 1)))
+function display.image(path, layout)
+    if not widget or (path == current and layout == currentLayout) then return end
+    if path ~= current then
+        lv.obj.add_flag(widget, lv.OBJ_FLAG_HIDDEN)
+        lv.img.set_src(widget, nil)
+        source, current = nil, path
+        collectgarbage('collect')
+        if path then
+            local ok, result = pcall(lv.img_src.load, path)
+            if ok and result then source = result; lv.img.set_src(widget, source) end
+        end
+    end
+    currentLayout = layout
+    if not source then return end
+    local x, y, width, height = 224, 55, 84, 48
+    if layout == 'split' then x, y, width, height = 12, 48, 140, 140
+    elseif layout == 'fullImage' then x, y, width, height = 12, 48, 296, 140 end
+    lv.obj.set_pos(widget, x, y)
+    local w, h = lv.img_src.get_width(source), lv.img_src.get_height(source)
+    local zoom = math.min(width / w, height / h)
+    if not layout then zoom = math.min(zoom, 1) end
+    lv.img.set_zoom(widget, math.floor(256 * zoom))
     lv.obj.clear_flag(widget, lv.OBJ_FLAG_HIDDEN)
 end
 return display

@@ -2,9 +2,9 @@
 local data = require("adventure_data")
 local rules = {data = data}
 local definitions = {}
-for _, collection in ipairs({"scenes", "choices", "classes", "items", "events", "rewards", "rolls"}) do
+for _, collection in ipairs({"scenes", "choices", "classes", "items", "events", "rewards", "rolls", "screens"}) do
     definitions[collection] = {}
-    for _, entry in ipairs(data[collection]) do definitions[collection][entry.id] = entry end
+    for _, entry in ipairs(data[collection] or {}) do definitions[collection][entry.id] = entry end
 end
 
 local function integer(value, minimum, maximum)
@@ -102,11 +102,21 @@ local function applyEffects(state, effects)
     return true
 end
 
-local function candidateFor(state, id)
-    local scene, choice = definitions.scenes[state.sceneId], definitions.choices[id]
-    if not choice or scene.ending then return nil end
+local function candidateFor(state, id, menuId, linkId)
+    local choice = definitions.choices[id]
+    if not choice then return nil end
     local belongs = false
-    for _, choiceId in ipairs(scene.choices) do if choiceId == id then belongs = true end end
+    if menuId then
+        local menu = definitions.screens[menuId]
+        if not menu or menu.type ~= "menu" then return nil end
+        for _, link in ipairs(menu.links) do
+            if link.type == "narrative" and link.id == linkId and link.choiceId == id then belongs = true end
+        end
+    else
+        local scene = definitions.scenes[state.sceneId]
+        if scene.ending then return nil end
+        for _, choiceId in ipairs(scene.choices) do if choiceId == id then belongs = true end end
+    end
     if not belongs or not conditionsMet(state, choice) then return nil end
     local reward = choice.rewardId and definitions.rewards[choice.rewardId]
     if reward and not reward.repeatable and state["reward:" .. reward.id] == 1 then return nil end
@@ -120,6 +130,33 @@ local function candidateFor(state, id)
     return candidate, choice
 end
 
+local function describeChoice(state, id, menuId, linkId)
+    local choice = definitions.choices[id]
+    if not choice then return nil end
+    local enabled = candidateFor(state, id, menuId, linkId) ~= nil
+    if not enabled and choice.unavailable.mode == "hidden" then return nil end
+    local label = choice.label
+    if not enabled then
+        local explanation = choice.unavailable.explanation
+        label = label .. " — " .. (explanation ~= "" and explanation or "Conditions ou effets impossibles.")
+    end
+    return {label = label, choiceId = id, enabled = enabled, image = choice.image,
+        action = menuId and "menu-choice" or nil, menuId = menuId, linkId = linkId}
+end
+
+function rules.menuEntries(state, menuId)
+    local entries = {}
+    local menu = definitions.screens[menuId]
+    if not menu or menu.type ~= "menu" then return entries end
+    for _, link in ipairs(menu.links) do
+        local option
+        if link.type == "narrative" then option = describeChoice(state, link.choiceId, menuId, link.id)
+        else option = {label = link.label, action = "screen", screenId = link.screenId} end
+        if option then option.image = link.image; entries[#entries+1] = option end
+    end
+    return entries
+end
+
 -- Décrire n'effectue aucun tirage et n'applique aucun effet à la partie.
 function rules.describe(state)
     local scene = definitions.scenes[state.sceneId]
@@ -131,23 +168,15 @@ function rules.describe(state)
     end
     if not scene.ending then
         for _, id in ipairs(scene.choices) do
-            local choice = definitions.choices[id]
-            local enabled = candidateFor(state, id) ~= nil
-            if enabled or choice.unavailable.mode ~= "hidden" then
-                local label = choice.label
-                if not enabled then
-                    local explanation = choice.unavailable.explanation
-                    label = label .. " — " .. (explanation ~= "" and explanation or "Conditions ou effets impossibles.")
-                end
-                view.choices[#view.choices + 1] = {label = label, choiceId = id, enabled = enabled}
-            end
+            local option = describeChoice(state, id)
+            if option then view.choices[#view.choices + 1] = option end
         end
     end
     return view
 end
 
-function rules.transition(state, id, proposedRolls)
-    local candidate, choice = candidateFor(state, id)
+function rules.transition(state, id, proposedRolls, menuId, linkId)
+    local candidate, choice = candidateFor(state, id, menuId, linkId)
     if not candidate then return nil end
     if choice.rollId then
         local key = "roll:" .. choice.rollId
@@ -165,6 +194,35 @@ function rules.transition(state, id, proposedRolls)
     if not rules.validPartie(candidate) then return nil end
     local replayAudio = candidate.sceneId ~= state.sceneId or choice.replayAudioOnReturn ~= false
     return candidate, replayAudio
+end
+
+function rules.inventoryEntries(state)
+    local entries = {}
+    for _, item in ipairs(data.items) do
+        if state['item:' .. item.id] > 0 then entries[#entries+1] = item end
+    end
+    return entries
+end
+
+function rules.characterText(state, screen)
+    local texts = {}
+    if screen.text ~= '' then texts[#texts+1] = screen.text end
+    for _, info in ipairs(screen.information or {}) do
+        if info.text ~= '' and rules.conditionsMet(state, info.conditions) then texts[#texts+1] = info.text end
+    end
+    return table.concat(texts, '\n\n')
+end
+
+function rules.gridEntries(state, screen)
+    if screen.source == 'inventory' then return rules.inventoryEntries(state) end
+    local entries = {}
+    for _, entry in ipairs(screen.entries or {}) do
+        local enabled = rules.conditionsMet(state, entry.conditions)
+        if enabled or entry.unavailable ~= 'hidden' then entries[#entries+1] = {
+            name = entry.label, image = entry.image, screenId = entry.screenId, enabled = enabled,
+        } end
+    end
+    return entries
 end
 
 function rules.inventory(state)

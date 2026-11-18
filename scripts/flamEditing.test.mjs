@@ -280,3 +280,33 @@ test('la relance de narration est optionnelle dans les anciens documents et cons
     assert.equal(mounted.document.choices.at(-1).replayAudioOnReturn, true);
   } finally { mounted.hook.unmount(); }
 });
+
+test('le rangement filtré est annulable et réouvrable sans changer les données jouées', async () => {
+  const { unifiedGraphFixture } = await import('./flamArrangedGraphFixture.mjs');
+  const { arrangeFlamGraph } = await import('../src/components/FlamWorkspace/flamGraphArrange.js');
+  const { filterFlamGraphEdges } = await import('../src/components/FlamWorkspace/flamGraphControls.js');
+  const { captureFlamGraphLayout } = await import('../src/components/FlamWorkspace/flamGraphSync.js');
+  const { compileAdventureData } = await import('../src/flamRuntime/compile.js');
+  const mounted = mount(unifiedGraphFixture());
+  const before = compileAdventureData(mounted.document);
+  const cy = cytoscape({ headless: true, styleEnabled: true, elements: flamGraphElements(mounted.document, { untitled: '' }) });
+  try {
+    mounted.store.markPristine();
+    filterFlamGraphEdges(cy, {}, 'story');
+    filterFlamGraphEdges(cy, {}, 'consultation');
+    assert.ok(mounted.store.isPristine());
+    arrangeFlamGraph(cy);
+    mounted.edit({ type: 'layout', positions: captureFlamGraphLayout(cy) });
+    assert.equal(mounted.store.isPristine(), false);
+    const layout = structuredClone(mounted.store.readProject().authoring.graphLayout);
+    mounted.store.undo(); assert.equal(mounted.store.readProject().authoring.graphLayout, undefined);
+    mounted.store.redo(); assert.deepEqual(mounted.store.readProject().authoring.graphLayout, layout);
+    const reopened = (await decodeProjectFile(encodeProjectFile(mounted.store.readProject()))).project;
+    assert.deepEqual(reopened.authoring.graphLayout, layout);
+    assert.deepEqual(compileAdventureData(reopened.authoring.document), before);
+    restoreFlamGraphLayout(cy, reopened.authoring.graphLayout);
+    assert.deepEqual(captureFlamGraphLayout(cy), layout.positions);
+    filterFlamGraphEdges(cy, {}, 'all');
+    assert.deepEqual(captureFlamGraphLayout(cy), layout.positions);
+  } finally { cy.destroy(); mounted.hook.unmount(); }
+});

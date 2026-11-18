@@ -9,6 +9,9 @@ import { Button } from '../common/Button.jsx';
 import { AudioField } from '../editors/AudioField.jsx';
 import { ImageField } from '../editors/ImageField.jsx';
 import { CheckField, NumberField, ReferenceField, TextField } from './Fields.jsx';
+import { IllustrationModeField } from './IllustrationEditor.jsx';
+import { ThemeEditor } from './ThemeEditor.jsx';
+import { ScreenEditor } from './ScreenEditor.jsx';
 import { ChoiceEditor } from './ChoiceEditor.jsx';
 import { RuleEditor } from './RuleEditor.jsx';
 import { PresentationEditor, PresentationMedia } from './PresentationEditor.jsx';
@@ -28,6 +31,15 @@ import './FlamWorkspace.css';
 
 function diagnosticText(diagnostic, t) {
   switch (diagnostic.code) {
+    case 'INVALID_CHARACTER': return t('common:flam.character.invalid');
+    case 'INVALID_DETAIL_LAYOUT': return t('common:flam.detail.invalid');
+    case 'INVALID_ILLUSTRATION_MODE': return t('common:flam.illustration.invalid');
+    case 'INVALID_COLLECTION_DETAIL': return t('common:flam.collection.invalidDetail');
+    case 'INVALID_GRID': return t('common:flam.grid.invalid');
+    case 'INVALID_GRID_DETAIL': return t('common:flam.grid.invalidDetail');
+    case 'INVALID_COLOR': return t('common:flam.theme.invalid');
+    case 'INVALID_MAIN_MENU': return t('common:flam.screens.invalidMain');
+    case 'INVALID_CONSULTATION_LINK': return t('common:flam.screens.invalidLink');
     case 'INVALID_PROGRESS': return t('common:flam.presentation.invalidProgress');
     case 'EMPTY_CHAPTER': return t('common:flam.presentation.emptyChapter');
     case 'DUPLICATE_PASSAGE': return t('common:flam.presentation.duplicatePassage');
@@ -78,15 +90,16 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
   const { showErrorDialog, showConfirmDialog } = useErrorDialog();
   const { prepareMediaForProject, setGraphMediaTarget } = useMediaTransfer();
   const collections = [
+    ['screens', t('common:flam.screens.title')],
     ['scenes', t('common:flam.scenes')], ['classes', t('common:flam.classes')],
     ['items', t('common:flam.items')], ['events', t('common:flam.events')],
     ['rewards', t('common:flam.rewards')], ['rolls', t('common:flam.rolls')],
     ['choices', t('common:flam.choices')],
   ];
   const collection = selection.collection;
-  const entry = document[collection].find(entry => entry.id === selection.id)
+  const entry = (document[collection] ?? []).find(entry => entry.id === selection.id)
     ?? (collection === 'scenes' ? document.scenes.find(scene => scene.id === document.startSceneId) : null)
-    ?? document[collection][0] ?? null;
+    ?? (document[collection] ?? [])[0] ?? null;
   const path = entry ? `/${collection}/${document[collection].indexOf(entry)}` : null;
   const diagnostics = diagnoseAdventureDocument(document);
   const edit = useCallback(command => {
@@ -136,9 +149,9 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
     setFocusPath(null);
   }, [focusPath, selection]);
 
-  function add(collection, sceneId) {
+  function add(collection, sceneId, screenType) {
     const id = crypto.randomUUID();
-    if (edit({ type: 'add', collection, id, sceneId }) && collection !== 'choices') selectDefinition({ collection, id });
+    if (edit({ type: 'add', collection, id, sceneId, screenType }) && collection !== 'choices') selectDefinition({ collection, id });
   }
 
   function link(port, target) {
@@ -176,12 +189,16 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
   function choiceEditor(choice, removeFromScene = null) {
     return <ChoiceEditor key={choice.id} choice={choice} document={document}
       path={`/choices/${document.choices.indexOf(choice)}`}
+      onMedia={async source => {
+        const prepared = source && await prepareMediaForProject(source);
+        if (!source || prepared) edit({ type: 'patch', collection: 'choices', id: choice.id, patch: { image: prepared || null } });
+      }}
       onPatch={changes => patchChoice(choice.id, changes)}
       onRemove={removeFromScene ? () => remove({ type: 'removeChoice', id: choice.id, sceneId: removeFromScene }) : null} />;
   }
 
   const visibleDefinitions = (query ? collections : collections.filter(([key]) => key === collection))
-    .flatMap(([key]) => document[key].map(item => ({ collection: key, item })))
+    .flatMap(([key]) => (document[key] ?? []).map(item => ({ collection: key, item })))
     .filter(({ item }) => normalizeSearchText(`${item.title || item.name || item.label || ''} ${item.id}`).includes(normalizeSearchText(query)));
 
   function navigateDefinitions(event) {
@@ -230,17 +247,39 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
             <TextField label={t('common:flam.title')} path="/title" value={document.title} onChange={title => edit({ type: 'document', patch: { title } })} />
             <ReferenceField label={t('common:flam.start')} path="/startSceneId" entries={document.scenes} value={document.startSceneId} onChange={startSceneId => edit({ type: 'document', patch: { startSceneId } })} />
           </section>
-          <PresentationEditor document={document} onEdit={edit} prepareMedia={prepareMediaForProject} projectEpoch={projectEpoch} />
+          <section className="card flam-card">
+            <ReferenceField label={t('common:flam.screens.mainMenu')} path="/mainMenuId" entries={(document.screens ?? []).filter(screen => screen.type === 'menu')}
+              value={document.mainMenuId ?? null} onChange={mainMenuId => edit({ type: 'document', patch: { mainMenuId } })} />
+          </section>
+          <ThemeEditor document={document} onChange={theme => edit({ type: 'document', patch: { theme } })} />
+          {!document.screens?.length && <PresentationEditor document={document} onEdit={edit} prepareMedia={prepareMediaForProject} projectEpoch={projectEpoch} />}
           <div className="flam-section-header">
             <h2>{collections.find(([key]) => key === collection)[1]}</h2>
-            {collection !== 'choices' && <Button variant="primary" onClick={() => add(collection)}>{t('common:flam.add')}</Button>}
+            {collection === 'screens' ? <><Button onClick={() => add('screens', null, 'menu')}>{t('common:flam.screens.addMenu')}</Button><Button onClick={() => add('screens', null, 'detail')}>{t('common:flam.screens.addDetail')}</Button><Button onClick={() => add('screens', null, 'grid')}>{t('common:flam.grid.add')}</Button><Button onClick={() => add('screens', null, 'character')}>{t('common:flam.character.add')}</Button></> : collection !== 'choices' && <Button variant="primary" onClick={() => add(collection)}>{t('common:flam.add')}</Button>}
           </div>
           {!entry && <p>{t('common:flam.empty')}</p>}
           {entry && <div data-flam-path={path} tabIndex={-1} className="flam-definition">
-            {collection === 'scenes' ? <>
+            {['scenes', 'screens'].includes(collection) && <ThemeEditor document={document} screen={entry} path={`${path}/colors`} onChange={colors => patch({ colors })} />}
+            {collection === 'screens' ? <ScreenEditor screen={entry} document={document} path={path} onPatch={patch} projectEpoch={projectEpoch}
+              onAudioMedia={async source => {
+                const prepared = source && await prepareMediaForProject(source);
+                if (!source || prepared) edit({ type: 'patch', collection: 'screens', id: entry.id, patch: { audio: prepared || null } });
+              }}
+              onLinkMedia={async (linkId, source) => {
+                const prepared = source && await prepareMediaForProject(source);
+                if (!source || prepared) edit({ type: 'menuLinkMedia', menuId: entry.id, linkId, value: prepared || null });
+              }}
+              onEntryMedia={async (ownerId, source) => {
+                const prepared = source && await prepareMediaForProject(source);
+                if (!source || prepared) edit({ type: 'presentationMedia', ownerId, kind: 'image', value: prepared || null });
+              }}
+              onAddCommand={() => edit({ type: 'add', collection: 'choices', id: crypto.randomUUID(), menuId: entry.id, linkId: crypto.randomUUID() })}
+              onPatchChoice={patchChoice} onRemoveCommand={link => remove({ type: 'removeChoice', id: link.choiceId, menuId: entry.id, linkId: link.id })}
+              onMedia={async source => { const prepared = await prepareMediaForProject(source); if (prepared) edit({ type: 'patch', collection: 'screens', id: entry.id, patch: { image: prepared } }); }} /> : collection === 'scenes' ? <>
               <TextField label={t('common:flam.scene.title')} path={`${path}/title`} value={entry.title} onChange={title => patch({ title })} />
               <TextField multiline label={t('common:flam.scene.text')} path={`${path}/text`} value={entry.text} onChange={text => patch({ text })} />
               <p className="flam-hint">{t('common:flam.scene.textHelp')}</p>
+              <IllustrationModeField value={entry.illustrationMode} path={`${path}/illustrationMode`} onChange={illustrationMode => patch({ illustrationMode })} />
               <CheckField label={t('common:flam.scene.ending')} path={`${path}/ending`} checked={entry.ending} onChange={ending => patch({ ending })} />
               <section className="flam-media" key={entry.id}>
                 <div data-flam-path={`${path}/image`} tabIndex={-1}><ImageField fieldId={`flam:${entry.id}:image`} label={t('common:flam.scene.image')} file={entry.image} onPick={source => assignMedia(entry.id, 'image', source)} onClear={() => patch({ image: null })} /></div>
@@ -311,7 +350,7 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
       <FlamGraph document={document} projectEpoch={projectEpoch} graphLayout={project.authoring.graphLayout}
         onLayout={positions => edit({ type: 'layout', positions })}
         selection={{ collection, id: entry?.id ?? null }} onSelect={selectDefinition}
-        onAddScene={() => add('scenes')} onAddRoll={() => add('rolls')} onLink={link} onCreateLinked={createLinked}
+        onAddScreen={screenType => add('screens', null, screenType)} onAddScene={() => add('scenes')} onAddRoll={() => add('rolls')} onLink={link} onCreateLinked={createLinked}
         dragHandleProps={dragHandleProps} panelViewState={panelViewState}
         surfaceTools={panelViewState?.showNodeList === false ? { ...mediaTools, onSearch: searchNodes } : null}
         production={<details className="flam-production-menu">

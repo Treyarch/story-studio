@@ -21,8 +21,12 @@ export function FlamGraphPorts({ cy, hostRef, document, nodes, zoom, onDrop, onA
   }, [cy, hostRef]);
 
   function hint(port) {
+    if (port.kind === 'collection-entry') return port.label || t('common:flam.collection.entry');
+    if (port.kind === 'grid-detail') return t('common:flam.grid.detail');
+    if (port.kind === 'consult-add') return t('common:flam.screens.addLink');
+    if (port.kind === 'consult') return port.label || t('common:flam.screens.link');
     if (port.kind === 'add') return t('common:flam.choice.add');
-    if (port.kind === 'choice') return `${t('common:flam.graph.port.choice', { label: port.label || t('common:flam.untitled') })}${port.conditional ? ` · ${t('common:flam.graph.conditional')}` : ''}`;
+    if (['choice', 'menu-choice'].includes(port.kind)) return `${t('common:flam.graph.port.choice', { label: port.label || t('common:flam.untitled') })}${port.conditional ? ` · ${t('common:flam.graph.conditional')}` : ''}`;
     return t('common:flam.graph.port.outcome', { min: port.expected.min, max: port.expected.max });
   }
   return <>
@@ -47,7 +51,7 @@ export function FlamGraphPorts({ cy, hostRef, document, nodes, zoom, onDrop, onA
         <div className="advanced-node-overlay__ports">
           {node.ports.map(anchor => <GraphLinkPort key={anchor.key}
             hint={anchor.role === 'arrival' ? t('common:flam.graph.port.arrival') : hint(anchor.port)}
-            className={`is-active${anchor.role === 'arrival' ? ' is-arrival' : ''}${anchor.port?.kind === 'add' ? ' is-add' : ''}`}
+            className={`is-active${anchor.role === 'arrival' ? ' is-arrival' : ''}${['add', 'consult-add'].includes(anchor.port?.kind) ? ' is-add' : ''}`}
             style={{ left: `calc(50% + ${anchor.dx}px)`, top: `calc(50% + ${anchor.dy}px)` }}
             onPointerEnter={() => onHighlight?.(node.path, anchor.key)} onPointerLeave={() => onHighlight?.(null)}
             onFocus={() => onHighlight?.(node.path, anchor.key)} onBlur={() => onHighlight?.(null)}
@@ -56,7 +60,7 @@ export function FlamGraphPorts({ cy, hostRef, document, nodes, zoom, onDrop, onA
               if (anchor.role === 'arrival') onSelect({ collection: node.collection, id: node.id });
               else if (event.detail === 0) onArm(anchor.port);
             }}>
-            {anchor.port?.kind === 'add' && <Plus />}
+            {['add', 'consult-add'].includes(anchor.port?.kind) && <Plus />}
           </GraphLinkPort>)}
         </div>
       </div>)}

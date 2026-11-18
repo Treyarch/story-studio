@@ -1,6 +1,22 @@
 // Les références du document sont parcourues au même endroit pour les
 // diagnostics et pour protéger une suppression, sans réécrire les règles.
 export function* adventureReferences(document) {
+  if (document.mainMenuId != null) yield { collection: 'screens', id: document.mainMenuId, path: '/mainMenuId' };
+  for (const [i, screen] of (document.screens ?? []).entries()) {
+    if (screen.type === 'grid' && screen.source === 'inventory') yield { collection: 'screens', id: screen.detailScreenId ?? null, path: `/screens/${i}/detailScreenId` };
+  }
+  for (const [i, screen] of (document.screens ?? []).entries()) for (const [j, link] of screen.links.entries()) {
+    yield link.type === 'narrative'
+      ? { collection: 'choices', id: link.choiceId, path: `/screens/${i}/links/${j}/choiceId` }
+      : { collection: 'screens', id: link.screenId, path: `/screens/${i}/links/${j}/screenId` };
+  }
+  for (const [i, screen] of (document.screens ?? []).entries()) for (const [j, entry] of (screen.entries ?? []).entries()) {
+    yield { collection: 'screens', id: entry.screenId, path: `/screens/${i}/entries/${j}/screenId` };
+    yield* ruleReferences(entry.conditions, `/screens/${i}/entries/${j}/conditions`);
+  }
+  for (const [i, screen] of (document.screens ?? []).entries()) for (const [j, info] of (screen.information ?? []).entries()) {
+    yield* ruleReferences(info.conditions, `/screens/${i}/information/${j}/conditions`);
+  }
   yield { collection: 'scenes', id: document.startSceneId, path: '/startSceneId' };
   for (const [index, scene] of document.scenes.entries()) {
     for (const [choiceIndex, id] of scene.choices.entries()) {

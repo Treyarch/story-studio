@@ -17,10 +17,14 @@ import { useShortcutLabels } from '../../store/ShortcutLabelsContext.js';
 import { createRevealHistory, recordVisit, goBack, goForward, canGoBack, canGoForward, pruneMissing } from '../../store/advancedGraphView/revealHistory.js';
 import { cytoscapeGridStyle } from '../AdvancedGraphCanvas/engines/cytoscapeEngine.js';
 import { flamGraphControls, flamGraphOverview, filterFlamGraphEdges } from './flamGraphControls.js';
-import { isCurrentFlamLinkPort } from '../../store/flamAdventure/graphLinks.js';
+import { isCurrentFlamLinkPort, isFlamLinkTarget } from '../../store/flamAdventure/graphLinks.js';
 import { flamGraphPortNodes, updateFlamLinkEndpoints } from './flamGraphLinks.js';
+import { FlamScreenPreview } from './FlamScreenPreview.jsx';
+import { useFlamPreviewDrag } from './useFlamPreviewDrag.js';
 import { FlamGraphPorts } from './FlamGraphPorts.jsx';
 import { FlamLinkDialog } from './FlamLinkDialog.jsx';
+import { arrangeFlamGraph } from './flamGraphArrange.js';
+import { filterFlamGraphElements, flamVisibleNodes } from './flamGraphScope.js';
 import { flamGraphStyles } from './flamGraphStyle.js';
 import { flamGraphElements } from './flamGraph.js';
 import { syncFlamGraph, captureFlamGraphLayout, restoreFlamGraphLayout, bindFlamGraphLayout } from './flamGraphSync.js';
@@ -35,26 +39,17 @@ function styles(container) {
   return flamGraphStyles(c);
 }
 
-function arrange(cy) {
-  if (!cy?.nodes().length) return;
-  cy.layout({ name: 'breadthfirst', directed: true, spacingFactor: 1.7, padding: 50,
-    roots: cy.nodes().filter(node => node.data('start')), animate: false }).run();
-  cy.nodes().forEach(node => {
-    const { x, y } = node.position();
-    node.position({ x: y, y: x });
-  });
-  cy.fit(undefined, 50);
-}
-
-export function FlamGraph({ document, selection, onSelect, onAddScene, onAddRoll, onLink, onCreateLinked, projectEpoch, graphLayout, onLayout, dragHandleProps = {}, panelViewState = null, surfaceTools = null, production = null }) {
+export function FlamGraph({ document, selection, onSelect, onAddScene, onAddRoll, onAddScreen, onLink, onCreateLinked, projectEpoch, graphLayout, onLayout, dragHandleProps = {}, panelViewState = null, surfaceTools = null, production = null }) {
   const { t, language } = useCommonTranslation();
   const container = useRef(null);
   const host = useRef(null);
+  const previewDrag = useFlamPreviewDrag(host, `${selection.collection}:${selection.id}`);
   const controlsEngine = useRef(null);
   const hoveredNode = useRef(null);
   const publishFrame = useRef(() => {});
   const [frame, setFrame] = useState({ viewport: { x: 0, y: 0, zoom: 1 }, overview: null, nodes: [] });
-  const [edgeVisibility, setEdgeVisibility] = useState({ choices: true, conditions: true, rolls: true });
+  const [edgeVisibility, setEdgeVisibility] = useState({ choices: true, conditions: true, rolls: true, consultation: true });
+  const [scope, setScope] = useState('all');
   const [visits, setVisits] = useState(createRevealHistory);
   const shortcutLabels = useShortcutLabels();
   const engine = useRef(null);
@@ -65,15 +60,16 @@ export function FlamGraph({ document, selection, onSelect, onAddScene, onAddRoll
   const [createDrop, setCreateDrop] = useState(null);
   const themeEpoch = useThemeEpoch();
   const elements = useMemo(() => flamGraphElements(document, {
-    untitled: t('common:flam.untitled'),
+    untitled: t('common:flam.untitled'), itemDetail: t('common:flam.grid.detail'),
   }), [document, t, language]);
 
-  const selectedScene = selection.collection === 'scenes' ? document.scenes.find(scene => scene.id === selection.id) : null;
+  const visibleElements = useMemo(() => filterFlamGraphElements(elements, scope), [elements, scope]);
+  const selectedScene = scope !== 'consultation' && selection.collection === 'scenes' ? document.scenes.find(scene => scene.id === selection.id) : null;
   const activePort = isCurrentFlamLinkPort(document, armedPort) ? armedPort : null;
   useEffect(() => { saveLayout.current = onLayout; }, [onLayout]);
   useEffect(() => {
     select.current = target => {
-      if (activePort && ['scenes', 'rolls'].includes(target.collection)) {
+      if (activePort && ['scenes', 'rolls', 'screens'].includes(target.collection)) {
         onLink(activePort, target);
         setArmedPort(null);
       } else onSelect(target);
@@ -121,27 +117,29 @@ export function FlamGraph({ document, selection, onSelect, onAddScene, onAddRoll
     const cy = engine.current;
     if (!cy) return;
     const first = syncFlamGraph(cy, elements, selection);
-    if (first || (lastLayout.current !== graphLayout && !graphLayout)) arrange(cy);
+    filterFlamGraphEdges(cy, edgeVisibility, scope);
+    if (first || (lastLayout.current !== graphLayout && !graphLayout)) arrangeFlamGraph(cy);
     if (first || lastLayout.current !== graphLayout) {
       if (graphLayout) restoreFlamGraphLayout(cy, graphLayout);
-      if (first && graphLayout) cy.fit(undefined, 50);
+      if (first && graphLayout) cy.fit(flamVisibleNodes(cy), 50);
       lastLayout.current = graphLayout;
     }
-    const selected = cy.nodes(':selected');
+    const selected = flamVisibleNodes(cy).filter(':selected');
     if (selected.length) {
       const box = selected.boundingBox();
       const extent = cy.extent();
       if (box.x2 < extent.x1 || box.x1 > extent.x2 || box.y2 < extent.y1 || box.y1 > extent.y2) cy.center(selected);
     }
-  }, [elements, selection, projectEpoch, graphLayout]);
+  }, [elements, selection, projectEpoch, graphLayout, edgeVisibility, scope]);
 
   useEffect(() => { engine.current?.style(styles(container.current)); }, [themeEpoch]);
   useEffect(() => {
-    if (engine.current) filterFlamGraphEdges(engine.current, edgeVisibility);
-  }, [edgeVisibility, elements, themeEpoch]);
+    if (engine.current) filterFlamGraphEdges(engine.current, edgeVisibility, scope);
+    publishFrame.current();
+  }, [edgeVisibility, elements, themeEpoch, scope]);
 
   const selectionPath = `${selection.collection}:${selection.id}`;
-  const knownPaths = useMemo(() => new Set(elements.filter(element => !element.data.source).map(element => element.data.id)), [elements]);
+  const knownPaths = useMemo(() => new Set(visibleElements.filter(element => !element.data.source).map(element => element.data.id)), [visibleElements]);
   const navigation = useMemo(() => pruneMissing(visits, path => knownPaths.has(path)), [visits, knownPaths]);
   useEffect(() => {
     if (engine.current?.getElementById(selectionPath).isNode()) {
@@ -161,7 +159,7 @@ export function FlamGraph({ document, selection, onSelect, onAddScene, onAddRoll
 
   function rearrange() {
     if (!engine.current) return;
-    arrange(engine.current);
+    arrangeFlamGraph(engine.current);
     saveLayout.current(captureFlamGraphLayout(engine.current));
   }
 
@@ -200,8 +198,15 @@ export function FlamGraph({ document, selection, onSelect, onAddScene, onAddRoll
         className="advanced-create-command" Icon={Dices} onClick={onAddRoll} />
       <CommandButton entry={command('flamConnect', t('common:flam.graph.connect'), Boolean(selectedScene && !selectedScene.ending))}
         className="advanced-create-command" Icon={Link2} onClick={() => setArmedPort(activePort ? null : { key: 'add', kind: 'add', sceneId: selection.id })} />
+      <Button onClick={() => onAddScreen('menu')}>{t('common:flam.screens.addMenu')}</Button>
+      <Button onClick={() => onAddScreen('grid')}>{t('common:flam.grid.add')}</Button>
+      <Button onClick={() => onAddScreen('detail')}>{t('common:flam.screens.addDetail')}</Button>
+      <Button onClick={() => onAddScreen('character')}>{t('common:flam.character.add')}</Button>
       {production}
     </>} />
+    <div className="flam-graph-scopes" role="group" aria-label={t('common:flam.graph.scope')}>
+      {[["all", t('common:flam.graph.all')], ["story", t('common:flam.graph.story')], ["consultation", t('common:flam.graph.consultation')]].map(([value, label]) => <Button key={value} size="sm" aria-pressed={scope === value} onClick={() => { setScope(value); setArmedPort(null); setCreateDrop(null); }}>{label}</Button>)}
+    </div>
     <section className="advanced-canvas__stage flam-graph" ref={host} aria-label={t('common:flam.graph.title')}>
       <div className="advanced-canvas__host" data-grid-engine="cytoscape" style={cytoscapeGridStyle(frame.viewport)} ref={container} aria-hidden="true" />
       <FlamGraphPorts cy={engine.current} hostRef={host} document={document} nodes={frame.nodes} zoom={frame.viewport.zoom}
@@ -220,25 +225,27 @@ export function FlamGraph({ document, selection, onSelect, onAddScene, onAddRoll
       <GraphSurfaceControls engineRef={controlsEngine} hostRef={host} viewport={frame.viewport}
         overviewModel={frame.overview} workspaceMode={WORKSPACE_MODE_FLAM} surfaceTools={surfaceTools}
         overviewOpen={panelViewState?.showOverview ?? true} onToggleOverview={panelViewState?.toggleOverview}
-        arrangement={{ arrange: rearrange, disabled: !document.scenes.length, folds: false }}
+        arrangement={{ arrange: rearrange, disabled: !visibleElements.some(element => !element.data.source), folds: false }}
         history={{ canBack: canGoBack(navigation), canForward: canGoForward(navigation), onBack: () => visit('back'), onForward: () => visit('forward') }}
         edgeVisibility={edgeVisibility} onEdgeVisibilityChange={setEdgeVisibility}
         edgeFilters={[
+          { group: 'consultation', text: t('common:flam.graph.consultation'), className: 'is-structure' },
           { group: 'choices', text: t('common:flam.choices'), className: 'is-structure' },
           { group: 'conditions', text: t('common:flam.conditions'), className: 'is-return' },
           { group: 'rolls', text: t('common:flam.rolls'), className: 'is-random' },
         ]} />
       {activePort && <div className="flam-link-tools">
         <select aria-label={t('common:flam.graph.target')} value="" onChange={event => {
-          const target = elements.find(element => element.data.id === event.target.value);
+          const target = visibleElements.find(element => element.data.id === event.target.value);
           if (target) select.current({ collection: target.data.collection, id: target.data.definitionId });
         }}>
           <option value="">{t('common:flam.graph.target')}</option>
-          {elements.filter(element => !element.data.source && (activePort?.kind !== 'outcome' || element.data.collection === 'scenes')).map(element => <option key={element.data.id} value={element.data.id}>{element.data.label}</option>)}
+          {visibleElements.filter(element => !element.data.source && isFlamLinkTarget(document, activePort, { collection: element.data.collection, id: element.data.definitionId })).map(element => <option key={element.data.id} value={element.data.id}>{element.data.label}</option>)}
         </select>
         <Button onClick={() => setArmedPort(null)}>{t('common:dialog.cancel.label')}</Button>
       </div>}
-      {!document.scenes.length && <p className="flam-graph-empty">{t('common:flam.graph.empty')}</p>}
+      <FlamScreenPreview key={`${selection.collection}:${selection.id}`} document={document} collection={selection.collection} id={selection.id} {...previewDrag} />
+      {!visibleElements.some(element => !element.data.source) && <p className="flam-graph-empty">{t('common:flam.graph.empty')}</p>}
       {activePort && <p className="flam-graph-help" role="status">{t('common:flam.graph.connectHelp')}</p>}
     </section>
     {createDrop && <FlamLinkDialog drop={createDrop} onCancel={() => setCreateDrop(null)}

@@ -63,12 +63,25 @@ const presentation = {
     passages: [{ sceneId: reference, replayable: boolean, conditions: [condition] }] }],
   progress: { target: number, milestones: [{ id: identifier, conditions: [condition] }] },
 };
+const colors = { background: optional(text), text: optional(text), selection: optional(text) };
+const screenLink = (value, path) => {
+  if (!isObject(value)) return false;
+  check(value, value.type === 'narrative'
+    ? { id: identifier, type: oneOf('narrative'), choiceId: reference, image: optional(media) }
+    : { id: identifier, type: optional(oneOf('consultation')), label: text, screenId: reference, image: optional(media) }, path);
+  return true;
+};
+const screen = { id: identifier, type: oneOf('menu', 'detail', 'grid', 'character'), title: text, text, image: media,
+  links: [screenLink], information: optional([{ id: identifier, text, conditions: [condition] }]), layout: optional(oneOf('split', 'fullImage')), audio: optional(media), illustrationMode: optional(oneOf('common', 'selection')), colors: optional(colors), source: optional(oneOf('inventory', 'collection')),
+  entries: optional([{ id: identifier, label: text, image: media, screenId: reference, conditions: [condition], unavailable: oneOf('hidden', 'disabled') }]),
+  detailScreenId: optional(reference), contentSource: optional(oneOf('author', 'item')) };
 const named = { id: identifier, name: text };
 const definitions = {
+  screens: optional([screen]),
   scenes: [{ id: identifier, title: text, text, audio: value => value === null || text(value),
-    image: value => value === null || text(value), ending: boolean, choices: [identifier] }],
+    image: value => value === null || text(value), ending: boolean, choices: [identifier], illustrationMode: optional(oneOf('common', 'selection')), colors: optional(colors) }],
   choices: [{ id: identifier, label: text, destination: reference, conditions: [condition], effects: [effect],
-    rewardId: reference, rollId: reference, replayAudioOnReturn: value => value === undefined || boolean(value), unavailable: { mode: oneOf('disabled', 'hidden'), explanation: text } }],
+    rewardId: reference, rollId: reference, image: optional(media), replayAudioOnReturn: value => value === undefined || boolean(value), unavailable: { mode: oneOf('disabled', 'hidden'), explanation: text } }],
   classes: [named],
   items: [{ ...named, text: optional(text), image: optional(media), audio: optional(media) }],
   events: [named],
@@ -91,13 +104,28 @@ export function assertAdventureDocument(document) {
   check(document, {
     version: oneOf(1),
     id: value => text(value) && /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(value),
-    saveVersion: positiveInteger, title: text, startSceneId: reference, presentation: optional(presentation), ...definitions,
+    saveVersion: positiveInteger, title: text, startSceneId: reference, presentation: optional(presentation), mainMenuId: optional(reference), theme: optional(colors), ...definitions,
   }, '');
   const ids = new Set();
   for (const collection of ADVENTURE_COLLECTIONS) {
-    document[collection].forEach((entry, index) => {
+    (document[collection] ?? []).forEach((entry, index) => {
       if (ids.has(entry.id)) throw new AdventureDocumentError('DUPLICATE_ADVENTURE_ID', `/${collection}/${index}/id`);
       ids.add(entry.id);
+    });
+  }
+  for (const [i, screen] of (document.screens ?? []).entries()) {
+    for (const [j, entry] of (screen.entries ?? []).entries()) {
+      if (ids.has(entry.id)) throw new AdventureDocumentError('DUPLICATE_ADVENTURE_ID', `/screens/${i}/entries/${j}/id`);
+      ids.add(entry.id);
+    }
+    for (const [j, info] of (screen.information ?? []).entries()) {
+      if (ids.has(info.id)) throw new AdventureDocumentError('DUPLICATE_ADVENTURE_ID', `/screens/${i}/information/${j}/id`);
+      ids.add(info.id);
+    }
+    const links = new Set();
+    screen.links.forEach((link, j) => {
+      if (links.has(link.id)) throw new AdventureDocumentError('DUPLICATE_ADVENTURE_ID', `/screens/${i}/links/${j}/id`);
+      links.add(link.id);
     });
   }
   for (const entry of presentationDefinitions(document)) {
@@ -120,8 +148,8 @@ export function replaceAdventureDocument(previous, next) {
   }
   const references = [...adventureReferences(next)];
   for (const collection of ADVENTURE_COLLECTIONS) {
-    const remaining = new Set(next[collection].map(entry => entry.id));
-    for (const [index, entry] of previous[collection].entries()) {
+    const remaining = new Set((next[collection] ?? []).map(entry => entry.id));
+    for (const [index, entry] of (previous[collection] ?? []).entries()) {
       if (remaining.has(entry.id)) continue;
       const used = references.filter(ref => ref.collection === collection && ref.id === entry.id);
       if (used.length) throw new AdventureDocumentError('REFERENCED_ADVENTURE_DEFINITION', `/${collection}/${index}`, used.map(ref => ref.path));
@@ -138,6 +166,7 @@ export function editAdventureDefinition(document, { collection, id, patch }) {
     throw new AdventureDocumentError('INVALID_ADVENTURE_EDIT', '/');
   }
   const next = structuredClone(document);
+  next[collection] ??= [];
   const index = next[collection].findIndex(entry => entry.id === id);
   if (patch === null) {
     if (index < 0) throw new AdventureDocumentError('MISSING_ADVENTURE_DEFINITION', `/${collection}`);

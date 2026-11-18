@@ -1,13 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import cytoscape from 'cytoscape';
+import { screensFixture, mixedMenusFixture, inventoryGridFixture, collectionsFixture } from './flamScreensFixture.mjs';
 import { createExampleAdventure } from '../src/store/flamAdventure/example.js';
 import { flamLinkPorts, planFlamGraphLink } from '../src/store/flamAdventure/graphLinks.js';
 import { flamGraphElements } from '../src/components/FlamWorkspace/flamGraph.js';
 import { createFlamLinkDrag, flamGraphPortNodes, updateFlamLinkEndpoints } from '../src/components/FlamWorkspace/flamGraphLinks.js';
 
-function setup(extraRoll = false) {
-  const document = createExampleAdventure();
+function setup(extraRoll = false, document = createExampleAdventure()) {
   if (extraRoll) document.rolls.push({ id: 'autre', name: 'Autre dé', outcomes: [{ min: 1, max: 20, destination: 'fin-renard' }] });
   const cy = cytoscape({ headless: true, styleEnabled: true,
     style: [{ selector: 'node', style: { width: 190, height: 84 } }],
@@ -144,5 +144,96 @@ test('la prise d’ajout est séparée des sorties et ne décale pas les liens e
     assert.ok(add.dy > node.height / 2);
     assert.ok(exits.every(p => p.dx > node.width / 2));
     assert.equal(exits[0].dy, -exits[1].dy);
+  } finally { f.destroy(); }
+});
+
+
+test('les prises du menu relient les fiches et refusent de mélanger consultation et récit', () => {
+  const f = setup(false, screensFixture());
+  try {
+    f.start('screens:accueil', 'consult-add');
+    const detail = f.nodes().find(node => node.path === 'screens:note');
+    f.move(detail); f.tick(); assert.equal(f.changes.at(-1).valid, true);
+    f.release(detail);
+    assert.deepEqual(f.drops[0].target, { collection: 'screens', id: 'note' });
+    const plan = planFlamGraphLink(f.document, f.drops[0].port, f.drops[0].target, 'nouvel-acces');
+    assert.equal(plan.command.patch.links.at(-1).screenId, 'note');
+    assert.equal(plan.command.collection, 'screens');
+    f.start('screens:accueil', 'consult:carte');
+    f.release(f.nodes().find(node => node.path === 'scenes:depart'));
+    assert.equal(f.drops.length, 1, 'Une consultation ne peut devenir un choix narratif');
+    f.start(); f.release(detail);
+    assert.equal(f.drops.length, 1, 'Un choix narratif ne peut cibler une fiche');
+  } finally { f.destroy(); }
+});
+
+
+test('les prises des menus relient sous-menus et commandes narratives sans modifier leurs règles', () => {
+  const f = setup(false, mixedMenusFixture());
+  try {
+    f.start('screens:accueil', 'consult-add');
+    f.release(f.nodes().find(node => node.path === 'screens:archives-a'));
+    assert.equal(f.drops[0].target.id, 'archives-a');
+    f.start('screens:archives-a', 'menu-choice:ouvrir');
+    f.release(f.nodes().find(node => node.path === 'screens:carte'));
+    assert.equal(f.drops.length, 1, 'Une commande narrative ne cible pas un écran de consultation');
+    f.start('screens:archives-a', 'menu-choice:ouvrir');
+    f.release(f.nodes().find(node => node.path === 'scenes:sentier'));
+    assert.equal(f.drops.length, 2);
+    const before = structuredClone(f.document.choices.find(choice => choice.id === 'passer-cle'));
+    const plan = planFlamGraphLink(f.document, f.drops[1].port, { collection: 'rolls', id: 'rencontre' });
+    assert.deepEqual(plan.command.patch, { destination: null, rollId: 'rencontre' });
+    assert.deepEqual(f.document.choices.find(choice => choice.id === 'passer-cle'), before);
+    f.start('screens:archives-a', 'menu-choice:ouvrir');
+    f.document.screens.find(screen => screen.id === 'archives-a').links.find(link => link.id === 'ouvrir').choiceId = 'deux-cles';
+    f.release(f.nodes().find(node => node.path === 'scenes:sentier'));
+    assert.equal(f.drops.length, 2, 'Une prise devenue périmée ne reconnecte rien');
+  } finally { f.destroy(); }
+});
+
+
+test('la grille se relie à une fiche type et les menus ne peuvent ouvrir cette fiche sans objet', () => {
+  const f = setup(false, inventoryGridFixture());
+  try {
+    f.start('screens:affaires', 'grid-detail');
+    f.release(f.nodes().find(node => node.path === 'screens:carte'));
+    assert.equal(f.drops.length, 0);
+    f.start('screens:accueil', 'consult-add');
+    f.release(f.nodes().find(node => node.path === 'screens:objet'));
+    assert.equal(f.drops.length, 0);
+    f.start('screens:accueil', 'consult-add');
+    f.release(f.nodes().find(node => node.path === 'screens:affaires'));
+    assert.equal(f.drops.length, 1);
+    f.start('screens:affaires', 'grid-detail');
+    f.release(f.nodes().find(node => node.path === 'screens:objet'));
+    assert.equal(f.drops.length, 2);
+    const plan = planFlamGraphLink(f.document, f.drops[1].port, f.drops[1].target);
+    assert.deepEqual(plan.command.patch, { detailScreenId: 'objet' });
+    f.start('screens:affaires', 'grid-detail');
+    f.document.screens.find(screen => screen.id === 'objet').contentSource = 'author';
+    f.release(f.nodes().find(node => node.path === 'screens:objet'));
+    assert.equal(f.drops.length, 2, 'Une fiche devenue incompatible annule le raccord');
+  } finally { f.destroy(); }
+});
+
+
+test('les prises de collection conservent les conditions et n’ouvrent que des fiches d’auteur', () => {
+  const f = setup(false, collectionsFixture());
+  try {
+    f.cy.nodes().forEach((node, i) => node.position({ x: -10000 - i * 400, y: -10000 }));
+    for (const [path, x] of [['screens:souvenirs',200], ['screens:carte',600], ['screens:objet',1000]]) f.cy.getElementById(path).position({ x, y: 200 });
+    const before = structuredClone(f.document.screens.find(screen => screen.id === 'souvenirs').entries[1]);
+    f.start('screens:souvenirs', 'collection:entree-secret');
+    f.release(f.nodes().find(node => node.path === 'screens:objet'));
+    assert.equal(f.drops.length, 0);
+    f.start('screens:souvenirs', 'collection:entree-secret');
+    f.release(f.nodes().find(node => node.path === 'screens:carte'));
+    assert.equal(f.drops.length, 1);
+    const plan = planFlamGraphLink(f.document, f.drops[0].port, f.drops[0].target);
+    assert.deepEqual(plan.command.patch.entries[1], { ...before, screenId: 'carte' });
+    f.start('screens:souvenirs', 'collection:entree-secret');
+    f.document.screens.find(screen => screen.id === 'souvenirs').source = 'inventory';
+    f.release(f.nodes().find(node => node.path === 'screens:carte'));
+    assert.equal(f.drops.length, 1, 'Changer la source annule une prise devenue périmée');
   } finally { f.destroy(); }
 });

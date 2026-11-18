@@ -136,3 +136,18 @@ passent avec et sans narration. Les tests ne constituent pas une preuve de
 reprise après extinction sur FLAM, ni une vérification de disposition sur son
 écran physique. La relecture de stockage ne prouve pas non plus une résistance
 à une coupure arbitraire pendant l’écriture flash.
+
+
+## Écrans configurables et démonstration
+
+Le graphe propose désormais Menu, Grille, Fiche et Fiche personnage en plus
+des scènes et jets. Le [guide des écrans](../../docs/flam-ecrans-guide.md)
+décrit thème, sélection d’illustrations, collections, fiches enrichies et
+navigation. `flamDemoFixture` réunit ces contrats dans L’atelier des lucioles.
+Le harnais de présentation l’exécute depuis les données JavaScript et le pack
+Rust, avec contrôle des effets, objets, découvertes, audio et sauvegardes.
+
+Le pack de démonstration préparé avec les vrais médias est également relu,
+extrait et exécuté par ce harnais. Les résultats matériels sont suivis
+séparément dans le [ticket 11](../../.scratch/flam-ecrans-personnalisables/validation-11.md) ;
+leur réussite ne se déduit pas de ces contrôles locaux.

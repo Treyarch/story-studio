@@ -9,8 +9,10 @@ export function createAdventurePresentation(makeId, labels) {
   };
 }
 
-export function* adventureMediaOwners(document) {
+export function* adventureMediaOwners(document, includeMenuLinks = true) {
   yield* document.scenes;
+  yield* document.choices;
+  for (const screen of document.screens ?? []) { yield screen; yield* screen.entries ?? []; if (includeMenuLinks) yield* screen.links; }
   yield* document.items;
   const view = document.presentation;
   if (!view) return;

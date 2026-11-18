@@ -23,11 +23,45 @@ pub(super) fn validate(doc: &Value) -> Result<()> {
     {
         return Err(fail());
     }
+    let validate_colors = |value: Option<&Value>| -> Result<()> {
+        if let Some(value) = value {
+            let colors = value.as_object().ok_or_else(fail)?;
+            for field in ["background", "text", "selection"] {
+                if let Some(value) = colors.get(field) {
+                    let color = value.as_str().ok_or_else(fail)?;
+                    if color.len() != 7
+                        || !color.starts_with('#')
+                        || !color.as_bytes()[1..].iter().all(u8::is_ascii_hexdigit)
+                    {
+                        return Err(fail());
+                    }
+                }
+            }
+        }
+        Ok(())
+    };
+    validate_colors(doc.get("theme"))?;
+    for collection in ["scenes", "screens"] {
+        for screen in doc[collection].as_array().into_iter().flatten() {
+            validate_colors(screen.get("colors"))?;
+            if let Some(mode) = screen.get("illustrationMode") {
+                if !matches!(mode.as_str(), Some("common" | "selection"))
+                    || (collection == "screens" && screen["type"] != "menu")
+                {
+                    return Err(fail());
+                }
+            }
+        }
+    }
     let mut ids = BTreeMap::new();
     let mut all = HashSet::new();
     for collection in [
-        "scenes", "choices", "classes", "items", "events", "rewards", "rolls",
+        "scenes", "choices", "classes", "items", "events", "rewards", "rolls", "screens",
     ] {
+        if collection == "screens" && doc.get(collection).is_none() {
+            ids.insert(collection, HashSet::new());
+            continue;
+        }
         let entries = doc[collection].as_array().ok_or_else(fail)?;
         let mut set = HashSet::new();
         for entry in entries {
@@ -39,7 +73,10 @@ pub(super) fn validate(doc: &Value) -> Result<()> {
                 return Err(fail());
             }
             set.insert(id);
-            if collection != "scenes" && collection != "choices" && entry["name"].as_str().is_none()
+            if collection != "scenes"
+                && collection != "choices"
+                && collection != "screens"
+                && entry["name"].as_str().is_none()
             {
                 return Err(fail());
             }
@@ -86,6 +123,150 @@ pub(super) fn validate(doc: &Value) -> Result<()> {
         }
         Ok(())
     };
+    if let Some(menu) = doc.get("mainMenuId").filter(|value| !value.is_null()) {
+        reference("screens", menu)?;
+        if !doc["screens"]
+            .as_array()
+            .unwrap()
+            .iter()
+            .any(|screen| screen["id"] == *menu && screen["type"] == "menu")
+        {
+            return Err(fail());
+        }
+    }
+    if let Some(screens) = doc.get("screens").and_then(Value::as_array) {
+        for screen in screens {
+            if !matches!(
+                screen["type"].as_str(),
+                Some("menu" | "detail" | "grid" | "character")
+            ) {
+                return Err(fail());
+            }
+            if let Some(layout) = screen.get("layout") {
+                if screen["type"] != "detail"
+                    || !matches!(layout.as_str(), Some("split" | "fullImage"))
+                {
+                    return Err(fail());
+                }
+            }
+            if screen.get("audio").is_some() && screen["type"] != "detail" {
+                return Err(fail());
+            }
+            if let Some(information) = screen.get("information") {
+                if screen["type"] != "character" {
+                    return Err(fail());
+                }
+                for info in information.as_array().ok_or_else(fail)? {
+                    let id = info["id"]
+                        .as_str()
+                        .filter(|id| !id.trim().is_empty())
+                        .ok_or_else(fail)?;
+                    if !all.insert(id.to_owned()) {
+                        return Err(fail());
+                    }
+                    rules(&info["conditions"], true)?;
+                }
+            }
+            let links = screen["links"].as_array().ok_or_else(fail)?;
+            if screen["type"] != "menu" && !links.is_empty() {
+                return Err(fail());
+            }
+            if screen
+                .get("entries")
+                .is_some_and(|entries| !entries.is_array())
+            {
+                return Err(fail());
+            }
+            if screen["type"] == "grid" {
+                match screen["source"].as_str() {
+                    Some("inventory") => {
+                        reference("screens", &screen["detailScreenId"])?;
+                        if !screens.iter().any(|target| {
+                            target["id"] == screen["detailScreenId"]
+                                && target["type"] == "detail"
+                                && target["contentSource"] == "item"
+                        }) || screen["entries"]
+                            .as_array()
+                            .is_some_and(|entries| !entries.is_empty())
+                        {
+                            return Err(fail());
+                        }
+                    }
+                    Some("collection") => {
+                        if !screen["detailScreenId"].is_null() || !screen["entries"].is_array() {
+                            return Err(fail());
+                        }
+                    }
+                    _ => return Err(fail()),
+                }
+            } else if screen.get("source").is_some()
+                || screen.get("detailScreenId").is_some()
+                || screen.get("entries").is_some()
+            {
+                return Err(fail());
+            }
+            if let Some(entries) = screen["entries"].as_array() {
+                for entry in entries {
+                    let id = entry["id"]
+                        .as_str()
+                        .filter(|id| !id.trim().is_empty())
+                        .ok_or_else(fail)?;
+                    if !all.insert(id.to_owned())
+                        || entry["label"]
+                            .as_str()
+                            .filter(|label| !label.trim().is_empty())
+                            .is_none()
+                        || !matches!(entry["unavailable"].as_str(), Some("hidden" | "disabled"))
+                    {
+                        return Err(fail());
+                    }
+                    reference("screens", &entry["screenId"])?;
+                    if !screens.iter().any(|target| {
+                        target["id"] == entry["screenId"]
+                            && target["type"] == "detail"
+                            && target["contentSource"] != "item"
+                    }) {
+                        return Err(fail());
+                    }
+                    rules(&entry["conditions"], true)?;
+                }
+            }
+            if let Some(source) = screen.get("contentSource") {
+                if screen["type"] != "detail" || !matches!(source.as_str(), Some("author" | "item"))
+                {
+                    return Err(fail());
+                }
+            }
+            let mut link_ids = HashSet::new();
+            for link in links {
+                let id = link["id"]
+                    .as_str()
+                    .filter(|id| !id.trim().is_empty())
+                    .ok_or_else(fail)?;
+                if !link_ids.insert(id) {
+                    return Err(fail());
+                }
+                if link["type"] == "narrative" {
+                    reference("choices", &link["choiceId"])?;
+                } else {
+                    if link.get("type").is_some_and(|kind| kind != "consultation")
+                        || link["label"]
+                            .as_str()
+                            .filter(|label| !label.trim().is_empty())
+                            .is_none()
+                    {
+                        return Err(fail());
+                    }
+                    reference("screens", &link["screenId"])?;
+                    if screens.iter().any(|target| {
+                        target["id"] == link["screenId"] && target["contentSource"] == "item"
+                    }) {
+                        return Err(fail());
+                    }
+                }
+            }
+        }
+    }
     if let Some(view) = doc.get("presentation") {
         let mut identify = |entry: &Value| -> Result<()> {
             let id = entry["id"]
@@ -307,9 +488,27 @@ pub(super) fn media_pointers(doc: &Value) -> Vec<String> {
         }
     }
     let mut result = Vec::new();
-    for collection in ["scenes", "items"] {
-        for (index, _) in doc[collection].as_array().unwrap().iter().enumerate() {
+    for collection in ["scenes", "choices", "items", "screens"] {
+        for (index, _) in doc[collection].as_array().into_iter().flatten().enumerate() {
             fields(doc, &format!("/{collection}/{index}"), &mut result);
+            if collection == "screens" {
+                for (j, _) in doc[collection][index]["links"]
+                    .as_array()
+                    .into_iter()
+                    .flatten()
+                    .enumerate()
+                {
+                    fields(doc, &format!("/screens/{index}/links/{j}"), &mut result);
+                }
+                for (j, _) in doc[collection][index]["entries"]
+                    .as_array()
+                    .into_iter()
+                    .flatten()
+                    .enumerate()
+                {
+                    fields(doc, &format!("/screens/{index}/entries/{j}"), &mut result);
+                }
+            }
         }
     }
     if let Some(view) = doc.get("presentation") {

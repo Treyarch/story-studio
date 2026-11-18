@@ -101,3 +101,28 @@
 .flam-presentation > summary,
 .flam-presentation details > summary { cursor: pointer; font-weight: 600; }
 .flam-presentation-actions { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-block: 0.5rem; }
+
+.flam-color-input { display: flex; align-items: center; gap: 0.5rem; }
+.flam-color-input input[type="color"] { width: 2.5rem; min-width: 2.5rem; height: 2rem; padding: 2px; }
+.flam-screen-preview {
+  position: absolute; right: 1rem; bottom: 3.5rem; z-index: 4;
+  display: flex; flex-direction: column; gap: 0.4rem;
+  width: min(320px, 45%); padding: 0.6rem; border: 1px solid var(--border);
+  border-radius: 0.6rem; background: var(--bg0); box-shadow: 0 4px 16px #0004;
+  box-sizing: border-box; max-height: 100%; overflow: auto;
+}
+.flam-screen-preview__handle {
+  display: flex; align-items: center; gap: 0.4rem; flex-shrink: 0;
+  width: 100%; padding: 0; border: 0; border-radius: 0;
+  background: transparent; color: inherit; font: inherit; font-weight: 700;
+  text-align: left; cursor: grab; touch-action: none; user-select: none;
+}
+.flam-screen-preview__handle:active { cursor: grabbing; }
+.flam-screen-preview__handle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.flam-screen-preview > svg { flex-shrink: 0; }
+.flam-screen-preview svg { width: 100%; height: auto; font-family: sans-serif; font-weight: bold; }
+.flam-screen-preview select { width: 100%; }
+.flam-screen-preview small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.flam-graph-scopes { display: flex; gap: 0.4rem; padding: 0.4rem 0.7rem; flex-wrap: wrap; }
+.flam-graph-scopes [aria-pressed="true"] { color: var(--accent-text); border-color: var(--accent-border); }

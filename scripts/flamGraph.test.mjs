@@ -72,3 +72,86 @@ test('les boucles se révèlent au survol, les conditions restent lisibles sans 
     assert.ok(Number.parseFloat(cy.getElementById('scenes:depart').select().style('border-width')) < 4);
   } finally { cy.destroy(); }
 });
+
+const { unifiedGraphFixture } = await import('./flamArrangedGraphFixture.mjs');
+const { filterFlamGraphElements, flamVisibleNodes } = await import('../src/components/FlamWorkspace/flamGraphScope.js');
+const { filterFlamGraphEdges, flamGraphOverview } = await import('../src/components/FlamWorkspace/flamGraphControls.js');
+const { flamGraphPortNodes } = await import('../src/components/FlamWorkspace/flamGraphLinks.js');
+const { arrangeFlamGraph } = await import('../src/components/FlamWorkspace/flamGraphArrange.js');
+const { captureFlamGraphLayout } = await import('../src/components/FlamWorkspace/flamGraphSync.js');
+
+test('Tout, Récit et Consultation conservent les menus mixtes, les fiches partagées et les destinations', () => {
+  const document = unifiedGraphFixture(); const before = structuredClone(document);
+  const all = flamGraphElements(document, labels);
+  const consultation = filterFlamGraphElements(all, 'consultation');
+  assert.deepEqual(consultation.filter(e => !e.data.source).map(e => e.data.definitionId), document.screens.map(s => s.id));
+  assert.ok(consultation.filter(e => e.data.source).every(e => e.data.consultation));
+  const story = filterFlamGraphElements(all, 'story');
+  assert.equal(story.filter(e => !e.data.source && e.data.collection === 'scenes').length, document.scenes.length);
+  assert.equal(story.filter(e => !e.data.source && e.data.collection === 'rolls').length, document.rolls.length);
+  assert.ok(story.some(e => e.data.id === 'screens:archives-a'));
+  assert.ok(story.some(e => e.data.source === 'screens:archives-a' && e.data.target === 'scenes:sentier'));
+  assert.ok(!story.some(e => e.data.id === 'screens:carte'));
+  for (const scope of [all, story, consultation]) {
+    const ids = new Set(scope.filter(e => !e.data.source).map(e => e.data.id));
+    assert.ok(scope.filter(e => e.data.source).every(e => ids.has(e.data.source) && ids.has(e.data.target)));
+  }
+  assert.equal(consultation.filter(e => e.data.id === 'screens:carte').length, 1);
+  assert.ok(consultation.filter(e => e.data.target === 'screens:carte').length >= 3);
+  assert.deepEqual(filterFlamGraphElements(all), all);
+  assert.deepEqual(document, before);
+});
+
+test('les filtres pilotent aussi les prises, la vue d’ensemble et les familles de liens sans déplacer les cartes', () => {
+  const document = unifiedGraphFixture();
+  const cy = cytoscape({ headless: true, styleEnabled: true, elements: flamGraphElements(document, labels), style: flamGraphStyles({}) });
+  try {
+    const before = captureFlamGraphLayout(cy);
+    filterFlamGraphEdges(cy, {}, 'consultation');
+    assert.ok(flamGraphPortNodes(cy).every(node => node.collection === 'screens'));
+    assert.ok(flamGraphPortNodes(cy).flatMap(node => node.ports).every(anchor => anchor.port?.kind !== 'menu-choice'));
+    assert.equal(flamGraphOverview(cy).marks.length, document.screens.length);
+    assert.equal(cy.getElementById('collection:souvenirs:souvenir-partage').style('line-style'), 'dotted');
+    filterFlamGraphEdges(cy, { conditions: false }, 'all');
+    assert.equal(cy.getElementById('collection:souvenirs:souvenir-partage').style('display'), 'element');
+    assert.equal(cy.getElementById('choice:sentier:0').style('display'), 'none');
+    filterFlamGraphEdges(cy, { consultation: false });
+    assert.equal(cy.getElementById('consult:accueil:carte').style('display'), 'none');
+    assert.equal(cy.getElementById('menu-choice:accueil:depart-menu').style('display'), 'element');
+    filterFlamGraphEdges(cy, {}, 'story');
+    const menu = flamGraphPortNodes(cy).find(n => n.id === 'archives-a');
+    assert.ok(menu.ports.filter(p => p.port).every(p => p.port.kind === 'menu-choice'));
+    assert.ok(!flamGraphOverview(cy).marks.some(mark => mark.path === 'screens:carte'));
+    filterFlamGraphEdges(cy, {}, 'all');
+    assert.deepEqual(captureFlamGraphLayout(cy), before);
+    assert.equal(flamVisibleNodes(cy).length, document.scenes.length + document.screens.length + document.rolls.length);
+  } finally { cy.destroy(); }
+});
+
+test('ranger les cartes visibles place les sorties à droite des cycles et des menus, sans doublon ni chevauchement', () => {
+  const document = unifiedGraphFixture();
+  const cy = cytoscape({ headless: true, styleEnabled: true, elements: flamGraphElements(document, labels), style: flamGraphStyles({}) });
+  try {
+    cy.getElementById('scenes:depart').position({ x: -999, y: -777 });
+    filterFlamGraphEdges(cy, {}, 'consultation'); arrangeFlamGraph(cy);
+    assert.deepEqual(cy.getElementById('scenes:depart').position(), { x: -999, y: -777 });
+    const x = id => cy.getElementById(`screens:${id}`).position('x');
+    assert.ok(x('accueil') < x('archives-a'));
+    assert.equal(x('archives-a'), x('archives-b'));
+    assert.ok(x('archives-a') < x('carte'));
+    assert.ok(x('affaires') < x('objet'));
+    assert.ok(x('souvenirs') < x('carte'));
+    const before = captureFlamGraphLayout(cy); arrangeFlamGraph(cy);
+    assert.deepEqual(captureFlamGraphLayout(cy), before);
+    const nodes = flamVisibleNodes(cy);
+    nodes.forEach(a => nodes.forEach(b => {
+      if (a.id() === b.id()) return;
+      assert.ok(Math.abs(a.position('x') - b.position('x')) >= (a.outerWidth() + b.outerWidth()) / 2
+        || Math.abs(a.position('y') - b.position('y')) >= (a.outerHeight() + b.outerHeight()) / 2);
+    }));
+    assert.equal(nodes.filter(node => node.id() === 'screens:carte').length, 1);
+    filterFlamGraphEdges(cy, {}, 'story'); arrangeFlamGraph(cy);
+    assert.equal(cy.getElementById('rolls:rencontre').position('x'), cy.getElementById('scenes:rencontre-scene').position('x'));
+    assert.ok(cy.getElementById('rolls:rencontre').position('x') > cy.getElementById('scenes:sentier').position('x'));
+  } finally { cy.destroy(); }
+});

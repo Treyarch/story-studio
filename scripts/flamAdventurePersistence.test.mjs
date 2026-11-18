@@ -112,3 +112,66 @@ test('les médias du menu, des rubriques, des chapitres et des objets suivent le
     assert.ok(media.every(isMediaHeldByProject));
   } finally { await harness.dispose(); }
 });
+
+test('les écrans du graphe, leurs couleurs, liens, placements et images suivent le projet déplacé', async () => {
+  const { themedScreensFixture, collectionsFixture } = await import('./flamScreensFixture.mjs');
+  const harness = await createDiskHarness();
+  harness.settings.setItem(KEYS.WORKSPACE_DIR, harness.workspace);
+  try {
+    const directory = await harness.mkdirp('ecrans');
+    await harness.writeFile('ecrans/carte.png', 'image');
+    await harness.writeFile('ecrans/description.mp3', 'audio');
+    const document = collectionsFixture();
+    document.theme = themedScreensFixture().theme;
+    for (const item of document.items) if (item.image) item.image = null;
+    for (const scene of document.scenes) scene.audio = null;
+    for (const screen of document.screens) { screen.image = null; for (const entry of screen.entries ?? []) entry.image = null; }
+    document.screens.find(screen => screen.id === 'souvenirs').entries[0].image = `${directory}/carte.png`;
+    document.screens[1].image = `${directory}/carte.png`;
+    document.screens.push({ id: 'personnage', type: 'character', title: 'Personnage', text: '', image: `${directory}/carte.png`, links: [],
+      information: [{ id: 'info-personnage', text: 'Un pisteur du village.', conditions: [{ type: 'class', classId: 'pisteur' }, { type: 'event', eventId: 'porte-ouverte', present: true }] }] });
+    document.screens[0].links.push({ id: 'personnage', label: 'Ton personnage', screenId: 'personnage' });
+    document.screens[1].layout = 'fullImage';
+    document.screens[1].audio = `${directory}/description.mp3`;
+    document.items[0].audio = `${directory}/description.mp3`;
+    document.scenes[0].illustrationMode = 'selection';
+    document.choices[0].image = `${directory}/carte.png`;
+    document.screens[0].illustrationMode = 'selection';
+    document.screens[0].links[0].image = `${directory}/carte.png`;
+    document.screens[0].links.push({ id: 'commande-illustree', type: 'narrative', choiceId: 'prendre-cle', image: `${directory}/carte.png` });
+    const project = createFlamProject({ document });
+    project.authoring.graphLayout = { version: 1, positions: [{ collection: 'screens', id: 'carte', x: 456, y: 123 }] };
+    await io.saveProject(project, `${directory}/aventure.mbah`);
+    const written = JSON.parse(await fs.readFile(`${directory}/aventure.mbah`, 'utf8'));
+    assert.equal(written.authoring.document.screens[1].image, './carte.png');
+    assert.equal(written.authoring.document.choices[0].image, './carte.png');
+    assert.equal(written.authoring.document.screens[0].links[0].image, './carte.png');
+    await fs.rename(directory, harness.dir('ecrans-deplaces'));
+    const loaded = (await io.loadProjectFromPath(harness.dir('ecrans-deplaces/aventure.mbah'))).data;
+    assert.equal(loaded.authoring.document.screens[1].image, harness.dir('ecrans-deplaces/carte.png'));
+    assert.equal(loaded.authoring.document.screens[1].layout, 'fullImage');
+    assert.equal(loaded.authoring.document.screens[1].audio, harness.dir('ecrans-deplaces/description.mp3'));
+    assert.equal(loaded.authoring.document.screens.at(-1).image, harness.dir('ecrans-deplaces/carte.png'));
+    assert.deepEqual(loaded.authoring.document.screens.at(-1).information, document.screens.at(-1).information);
+    assert.equal(loaded.authoring.document.items[0].audio, harness.dir('ecrans-deplaces/description.mp3'));
+    assert.deepEqual(loaded.authoring.document.screens[0].links.map(({ image: _image, ...link }) => link), document.screens[0].links.map(({ image: _image, ...link }) => link));
+    assert.equal(loaded.authoring.document.mainMenuId, 'accueil');
+    assert.equal(loaded.authoring.document.scenes[0].illustrationMode, 'selection');
+    assert.equal(loaded.authoring.document.screens[0].illustrationMode, 'selection');
+    assert.equal(loaded.authoring.document.choices[0].image, harness.dir('ecrans-deplaces/carte.png'));
+    assert.equal(loaded.authoring.document.screens[0].links[0].image, harness.dir('ecrans-deplaces/carte.png'));
+    assert.equal(loaded.authoring.document.screens[0].links.at(-1).image, harness.dir('ecrans-deplaces/carte.png'));
+    const memories = loaded.authoring.document.screens.find(screen => screen.id === 'souvenirs');
+    assert.equal(memories.entries[0].image, harness.dir('ecrans-deplaces/carte.png'));
+    assert.deepEqual(memories.entries[2].conditions, [{ type: 'event', eventId: 'cle-decouverte', present: true }]);
+    assert.equal(memories.entries[1].unavailable, 'disabled');
+    assert.equal(loaded.authoring.document.screens.find(screen => screen.id === 'affaires').detailScreenId, 'objet');
+    assert.equal(loaded.authoring.document.screens.find(screen => screen.id === 'objet').contentSource, 'item');
+    assert.deepEqual(loaded.authoring.document.theme, document.theme);
+    assert.deepEqual(loaded.authoring.document.screens.map(screen => screen.colors), document.screens.map(screen => screen.colors));
+    assert.deepEqual(loaded.authoring.document.scenes.map(scene => scene.colors), document.scenes.map(scene => scene.colors));
+    assert.deepEqual(loaded.authoring.graphLayout, project.authoring.graphLayout);
+    const media = collectMediaLibrary({ project: loaded });
+    assert.equal(media.length, 2); assert.ok(media.every(isMediaHeldByProject));
+  } finally { await harness.dispose(); }
+});

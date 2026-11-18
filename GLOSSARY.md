@@ -38,6 +38,10 @@ Profil narratif de personnage choisi au début d’une partie, qui ouvre des fa�
 **Inventaire** :
 Ensemble des objets détenus par le personnage pendant une partie, avec la quantité de chacun.
 
+**Objet** :
+Élément de l’aventure que le personnage peut détenir en une certaine quantité, décrit par un nom et, éventuellement, une image, un texte et un audio.
+_Éviter_ : Item.
+
 **Objet consommable** :
 Objet dont l’utilisation retire une quantité de l’inventaire et peut produire un effet dans l’aventure.
 
@@ -49,6 +53,21 @@ Gain accordé au joueur par un événement de l’aventure. Une récompense est 
 
 **Scène** :
 Unité narrative de l’aventure qui présente une situation au joueur et lui propose des choix, ou marque une fin.
+
+**Écran de consultation** :
+Écran permettant au joueur de consulter des informations de l’aventure sans faire avancer le récit ni modifier l’état de partie.
+
+**Parcours de consultation** :
+Navigation entre les écrans de consultation, avec retour à la scène narrative conservée.
+
+**Menu d’aventure** :
+Écran proposant des accès à des contenus de consultation et des commandes permettant de commencer ou de poursuivre le récit.
+
+**Grille de consultation** :
+Écran présentant des contenus consultables par pages de quatre cases, disposées sur deux lignes et deux colonnes. Ses contenus proviennent de l’inventaire ou d’entrées définies par l’auteur, éventuellement conditionnelles.
+
+**Fiche de consultation** :
+Présentation détaillée d’un contenu de l’aventure, par exemple un objet ou un souvenir.
 
 **Impasse involontaire** :
 Situation dans laquelle le joueur ne peut plus poursuivre son aventure alors que la scène n’est pas une fin prévue par l’auteur.

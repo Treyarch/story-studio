@@ -1,5 +1,6 @@
+import { flamVisibleNodes, flamVisiblePorts } from './flamGraphScope.js';
 import { autoPanVelocity, linkDropCandidate } from '../../store/advancedAuthoring/graphLinkDrag.js';
-import { isCurrentFlamLinkPort } from '../../store/flamAdventure/graphLinks.js';
+import { isCurrentFlamLinkPort, isFlamLinkTarget } from '../../store/flamAdventure/graphLinks.js';
 import { linkHandlePx } from '../AdvancedGraphCanvas/nodeOverlayMetrics.js';
 import { captureFlamGraphLayout } from './flamGraphSync.js';
 import { FLAM_PORT_SPACING } from './flamGraphGeometry.js';
@@ -7,11 +8,11 @@ import { FLAM_PORT_SPACING } from './flamGraphGeometry.js';
 export function flamGraphPortNodes(cy, hovered = null) {
   const zoom = cy.zoom();
   const offset = Math.min(3, linkHandlePx(zoom) / 2 - 2);
-  return cy.nodes().map(node => {
+  return flamVisibleNodes(cy).map(node => {
     const { x, y } = node.renderedPosition();
     const width = node.width() * zoom; const height = node.height() * zoom;
-    const linkPorts = node.data('linkPorts') ?? [];
-    const departures = linkPorts.filter(port => port.kind !== 'add');
+    const linkPorts = flamVisiblePorts(node);
+    const departures = linkPorts.filter(port => !['add', 'consult-add'].includes(port.kind));
     return {
       path: node.id(), collection: node.data('collection'), id: node.data('definitionId'),
       x, y, width, height, start: Boolean(node.data('start')), ending: Boolean(node.data('ending')), selected: node.selected(), hovered: node.id() === hovered,
@@ -21,7 +22,7 @@ export function flamGraphPortNodes(cy, hovered = null) {
           key: port.key, role: 'departure', port, dx: width / 2 + offset,
           dy: (index - (departures.length - 1) / 2) * Math.max(16, FLAM_PORT_SPACING * zoom),
         })),
-        ...linkPorts.filter(port => port.kind === 'add').map(port => ({
+        ...linkPorts.filter(port => ['add', 'consult-add'].includes(port.kind)).map(port => ({
           key: port.key, role: 'departure', port, dx: 0, dy: height / 2 + offset,
         })),
       ],
@@ -41,7 +42,7 @@ export function createFlamLinkDrag({ cy, host, readDocument, onChange, onDrop,
   const inside = p => p.x >= 0 && p.y >= 0 && p.x <= host.clientWidth && p.y <= host.clientHeight;
   const current = () => active && isCurrentFlamLinkPort(readDocument(), active.port);
   const targetAt = (nodes, p) => linkDropCandidate(nodes, p, active.sourcePath, 8, linkHandlePx(cy.zoom()) / 2);
-  const validTarget = target => target && (active.port.kind !== 'outcome' || target.collection === 'scenes');
+  const validTarget = target => isFlamLinkTarget(readDocument(), active.port, target);
   const snapshot = () => {
     const nodes = flamGraphPortNodes(cy);
     const source = nodes.find(node => node.path === active.sourcePath);
@@ -90,7 +91,7 @@ export function createFlamLinkDrag({ cy, host, readDocument, onChange, onDrop,
     const position = { x: (p.x - pan.x) / zoom, y: (p.y - pan.y) / zoom };
     const positions = captureFlamGraphLayout(cy);
     clear();
-    if (allowed) onDrop({ port, target, position, positions });
+    if (allowed && (target || !['consult', 'consult-add', 'grid-detail', 'collection-entry'].includes(port.kind))) onDrop({ port, target, position, positions });
   }
   function cancel() { clear(); }
   function cancelPointer(event) { if (active?.pointerId === event.pointerId) clear(); }

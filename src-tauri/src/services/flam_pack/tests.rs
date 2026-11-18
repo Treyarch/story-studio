@@ -324,10 +324,64 @@ fn replay_audio_on_return_accepts_legacy_documents_and_only_boolean_values() {
 
 #[test]
 fn illustrated_production_pack_runs_consultation_and_persistence_journeys() {
+    run_presentation_pack("presentationFixture", "flamPresentationFixture.mjs");
+}
+
+#[test]
+fn graph_screens_production_pack_runs_consultation_and_persistence_journeys() {
+    run_presentation_pack("screensFixture", "flamScreensFixture.mjs");
+}
+
+#[test]
+fn mixed_menus_production_pack_runs_shared_details_and_narrative_commands() {
+    run_presentation_pack("mixedMenusFixture", "flamScreensFixture.mjs");
+}
+
+#[test]
+fn themed_production_pack_applies_colors_to_lvgl_widgets() {
+    run_presentation_pack("themedScreensFixture", "flamScreensFixture.mjs");
+}
+
+#[test]
+fn inventory_grid_production_pack_runs_pagination_and_object_details() {
+    run_presentation_pack("inventoryGridFixture", "flamScreensFixture.mjs");
+}
+
+#[test]
+fn collections_production_pack_runs_conditions_and_persistent_memories() {
+    run_presentation_pack("collectionsFixture", "flamScreensFixture.mjs");
+}
+
+#[test]
+fn selection_illustrations_production_pack_tracks_the_selected_choices() {
+    run_presentation_pack("selectionIllustrationsFixture", "flamScreensFixture.mjs");
+}
+
+#[test]
+fn rich_details_production_pack_runs_layouts_text_and_explicit_audio() {
+    run_presentation_pack("richDetailsFixture", "flamScreensFixture.mjs");
+}
+
+#[test]
+fn character_sheet_production_pack_filters_information_and_preserves_story() {
+    run_presentation_pack("characterSheetFixture", "flamScreensFixture.mjs");
+}
+
+#[test]
+fn arranged_filtered_graph_produces_the_same_playable_adventure() {
+    run_presentation_pack("arrangedGraphFixture", "flamArrangedGraphFixture.mjs");
+}
+
+#[test]
+fn full_demo_production_pack_combines_screens_rules_audio_and_consultation() {
+    run_presentation_pack("flamDemoFixture", "flamDemoFixture.mjs");
+}
+
+fn run_presentation_pack(factory: &str, module: &str) {
     let root = Path::new(env!("CARGO_MANIFEST_DIR")).parent().unwrap();
     let temporary = temp();
     let fixture = Command::new("node").current_dir(root).args(["--input-type=module", "-e",
-        "import {presentationFixture} from './scripts/flamPresentationFixture.mjs'; process.stdout.write(JSON.stringify(presentationFixture()))"])
+        &format!("import {{{factory}}} from './scripts/{module}'; process.stdout.write(JSON.stringify({factory}()))")])
         .output().unwrap();
     assert!(fixture.status.success());
     let mut doc: Value = serde_json::from_slice(&fixture.stdout).unwrap();
@@ -351,12 +405,43 @@ fn illustrated_production_pack_runs_consultation_and_persistence_journeys() {
     image::RgbaImage::from_pixel(48, 48, image::Rgba([255, 160, 0, 255]))
         .save(&image)
         .unwrap();
-    for pointer in document::media_pointers(&doc) {
+    let rich_images = factory == "richDetailsFixture" || factory == "flamDemoFixture";
+    let varied_images = factory == "selectionIllustrationsFixture" || rich_images;
+    for (index, pointer) in document::media_pointers(&doc).into_iter().enumerate() {
         let value = doc.pointer_mut(&pointer).unwrap();
         if !value.is_null() {
+            let varied = temporary.0.join(format!("source-{index}.png"));
+            if varied_images && pointer.ends_with("/image") {
+                let (width, height) = if rich_images {
+                    if value
+                        .as_str()
+                        .is_some_and(|name| name == "journal.png" || name.ends_with("/carnet.png"))
+                    {
+                        (296, 140)
+                    } else {
+                        (140, 140)
+                    }
+                } else {
+                    (48, 48)
+                };
+                image::RgbaImage::from_pixel(
+                    width,
+                    height,
+                    image::Rgba([
+                        ((index % 32) * 8) as u8,
+                        (((index / 32) % 64) * 4) as u8,
+                        0,
+                        255,
+                    ]),
+                )
+                .save(&varied)
+                .unwrap();
+            }
             *value = Value::String(
                 if pointer.ends_with("/audio") {
                     &source
+                } else if varied_images {
+                    &varied
                 } else {
                     &image
                 }
@@ -370,9 +455,18 @@ fn illustrated_production_pack_runs_consultation_and_persistence_journeys() {
     let extracted = Temporary::new(&temporary.0).unwrap();
     for (name, bytes) in checked.files {
         if name.ends_with(".lif") {
-            // Oracle indépendant : le premier pixel est orange opaque RGB565.
-            assert_eq!(&bytes[..13], b"liff\0\0\0\x30\0\0\0\x30\xa2");
-            assert_eq!(&bytes[13..17], &[255, 0, 253, 255]);
+            // Dimensions contrôlées ; le pixel orange reste l’oracle des fixtures classiques.
+            // La fixture de sélection utilise des images RGB565 distinctes.
+            if rich_images {
+                let width = u32::from_be_bytes(bytes[4..8].try_into().unwrap());
+                let height = u32::from_be_bytes(bytes[8..12].try_into().unwrap());
+                assert!([140, 296].contains(&width) && height == 140);
+            } else {
+                assert_eq!(&bytes[..13], b"liff\0\0\0\x30\0\0\0\x30\xa2");
+            }
+            if !varied_images {
+                assert_eq!(&bytes[13..17], &[255, 0, 253, 255]);
+            }
         }
         let path = extracted.0.join(name);
         fs::create_dir_all(path.parent().unwrap()).unwrap();
@@ -390,4 +484,231 @@ fn illustrated_production_pack_runs_consultation_and_persistence_journeys() {
         String::from_utf8_lossy(&result.stdout),
         String::from_utf8_lossy(&result.stderr)
     );
+}
+
+#[test]
+fn graph_screen_references_and_consultation_boundary_are_checked_before_generation() {
+    let mut doc = example();
+    doc["mainMenuId"] = "menu".into();
+    doc["screens"] = serde_json::json!([
+        {"id":"menu", "type":"menu", "title":"Archives", "text":"", "image":null,
+         "links":[{"id":"carte", "label":"Carte", "screenId":"fiche"}]},
+        {"id":"fiche", "type":"detail", "title":"", "text":"Le pont", "image":null, "links":[]}
+    ]);
+    assert!(document::validate(&doc).is_ok());
+    for (path, invalid) in [
+        ("/mainMenuId", serde_json::json!("fiche")),
+        ("/screens/0/links/0/screenId", serde_json::json!("absente")),
+        ("/screens/0/links/0/screenId", serde_json::json!("depart")),
+        ("/screens/0/links/0/label", serde_json::json!("")),
+        (
+            "/screens/1/links",
+            serde_json::json!([{"id":"retour", "label":"Retour", "screenId":"fiche"}]),
+        ),
+        ("/screens/1/type", serde_json::json!("scene")),
+        ("/screens/1/id", serde_json::json!("depart")),
+        ("/screens/1/image", serde_json::json!(42)),
+    ] {
+        let mut invalid_doc = doc.clone();
+        *invalid_doc.pointer_mut(path).unwrap() = invalid;
+        assert!(document::validate(&invalid_doc).is_err(), "{path}");
+    }
+    let mut mixed = doc.clone();
+    mixed["screens"][0]["links"][0] =
+        serde_json::json!({"id":"commande", "type":"narrative", "choiceId":"prendre-cle"});
+    assert!(document::validate(&mixed).is_ok());
+    mixed["screens"][0]["links"][0]["choiceId"] = "absent".into();
+    assert!(document::validate(&mixed).is_err());
+    mixed["screens"][0]["links"][0]["choiceId"] = "prendre-cle".into();
+    mixed["screens"][0]["links"][0]["screenId"] = "fiche".into();
+    assert!(document::validate(&mixed).is_err());
+    doc["screens"][0]["links"][0]["effects"] = serde_json::json!([]);
+    assert!(document::validate(&doc).is_err());
+}
+
+#[test]
+fn invalid_theme_and_screen_colors_are_rejected_at_native_generation_boundary() {
+    let mut doc = example();
+    doc["theme"] =
+        serde_json::json!({"background":"#112233", "text":"#abcdef", "selection":"#AbCdEf"});
+    doc["scenes"][0]["colors"] = serde_json::json!({"background":"#123456"});
+    assert!(document::validate(&doc).is_ok());
+    for path in ["/theme", "/scenes/0/colors"] {
+        for invalid in [
+            serde_json::json!({"text":"#fff"}),
+            serde_json::json!({"text":"#11223344"}),
+            serde_json::json!({"text":"#gg0000"}),
+            serde_json::json!({"text":"red"}),
+            serde_json::json!({"text":""}),
+            serde_json::json!({"text":null}),
+            serde_json::json!({"text":42}),
+            serde_json::json!({"other":"#123456"}),
+            Value::Null,
+        ] {
+            let mut invalid_doc = doc.clone();
+            *invalid_doc.pointer_mut(path).unwrap() = invalid;
+            assert!(document::validate(&invalid_doc).is_err(), "{path}");
+        }
+    }
+}
+
+#[test]
+fn inventory_grid_requires_a_detail_template_and_an_object_context() {
+    let mut doc = example();
+    doc["mainMenuId"] = "menu".into();
+    doc["screens"] = serde_json::json!([
+        {"id":"grid", "type":"grid", "source":"inventory", "detailScreenId":"detail", "title":"Affaires", "text":"", "image":null, "links":[]},
+        {"id":"detail", "type":"detail", "contentSource":"item", "title":"Fiche", "text":"", "image":null, "links":[]},
+        {"id":"menu", "type":"menu", "title":"Menu", "text":"", "image":null, "links":[{"id":"affaires", "label":"Affaires", "screenId":"grid"}]}
+    ]);
+    assert!(document::validate(&doc).is_ok());
+    for (path, value) in [
+        ("/screens/0/detailScreenId", Value::Null),
+        ("/screens/0/detailScreenId", serde_json::json!("absente")),
+        ("/screens/0/detailScreenId", serde_json::json!("menu")),
+        ("/screens/0/source", serde_json::json!("autre")),
+        (
+            "/screens/0/links",
+            serde_json::json!([{"id":"effet", "type":"narrative", "choiceId":"prendre-cle"}]),
+        ),
+        ("/screens/1/contentSource", serde_json::json!("author")),
+        ("/screens/1/contentSource", Value::Null),
+        ("/screens/2/links/0/screenId", serde_json::json!("detail")),
+    ] {
+        let mut invalid = doc.clone();
+        *invalid.pointer_mut(path).unwrap() = value;
+        assert!(document::validate(&invalid).is_err(), "{path}");
+    }
+}
+
+#[test]
+fn collection_entries_are_validated_with_their_references_rules_and_unique_ids() {
+    let mut doc = example();
+    doc["screens"] = serde_json::json!([
+        {"id":"collection", "type":"grid", "source":"collection", "detailScreenId":null, "title":"Souvenirs", "text":"", "image":null, "links":[],
+         "entries":[{"id":"entree", "label":"Clé", "image":null, "screenId":"detail", "conditions":[{"type":"item", "itemId":"cle", "quantity":1}], "unavailable":"hidden"}]},
+        {"id":"detail", "type":"detail", "title":"Souvenir", "text":"Une découverte", "image":null, "links":[]},
+        {"id":"objet", "type":"detail", "contentSource":"item", "title":"Objet", "text":"", "image":null, "links":[]}
+    ]);
+    assert!(document::validate(&doc).is_ok());
+    for (path, value) in [
+        ("/screens/0/entries/0/screenId", serde_json::json!("objet")),
+        ("/screens/0/entries/0/screenId", serde_json::json!("absent")),
+        (
+            "/screens/0/entries/0/screenId",
+            serde_json::json!("collection"),
+        ),
+        (
+            "/screens/0/entries/0/conditions/0/itemId",
+            serde_json::json!("absent"),
+        ),
+        (
+            "/screens/0/entries/0/conditions/0/quantity",
+            serde_json::json!(0),
+        ),
+        (
+            "/screens/0/entries/0/unavailable",
+            serde_json::json!("autre"),
+        ),
+        ("/screens/0/entries/0/label", serde_json::json!("")),
+        ("/screens/0/entries/0/id", serde_json::json!("cle")),
+        ("/screens/0/entries/0/image", serde_json::json!(42)),
+        ("/screens/0/detailScreenId", serde_json::json!("objet")),
+        ("/screens/0/entries", Value::Null),
+    ] {
+        let mut invalid = doc.clone();
+        *invalid.pointer_mut(path).unwrap() = value;
+        assert!(document::validate(&invalid).is_err(), "{path}");
+    }
+    doc["screens"][0]["entries"][0]["effects"] = serde_json::json!([]);
+    assert!(document::validate(&doc).is_err());
+}
+
+#[test]
+fn selection_illustration_modes_and_optional_images_are_validated_natively() {
+    let mut doc = example();
+    doc["scenes"][0]["illustrationMode"] = "selection".into();
+    doc["choices"][0]["image"] = "choice.png".into();
+    doc["screens"] = serde_json::json!([
+        {"id":"menu", "type":"menu", "illustrationMode":"common", "title":"Menu", "text":"", "image":null,
+         "links":[{"id":"fiche", "label":"Fiche", "screenId":"detail", "image":"link.png"}]},
+        {"id":"detail", "type":"detail", "title":"Fiche", "text":"", "image":null, "links":[]}
+    ]);
+    assert!(document::validate(&doc).is_ok());
+    for (path, value) in [
+        ("/scenes/0/illustrationMode", serde_json::json!("autre")),
+        ("/scenes/0/illustrationMode", Value::Null),
+        ("/screens/0/illustrationMode", serde_json::json!(false)),
+        ("/choices/0/image", serde_json::json!(42)),
+        ("/choices/0/image", serde_json::json!("")),
+        ("/screens/0/links/0/image", serde_json::json!(42)),
+        ("/screens/0/links/0/image", serde_json::json!("")),
+    ] {
+        let mut invalid = doc.clone();
+        *invalid.pointer_mut(path).unwrap() = value;
+        assert!(document::validate(&invalid).is_err(), "{path}");
+    }
+    doc["screens"][1]["illustrationMode"] = "selection".into();
+    assert!(document::validate(&doc).is_err());
+}
+
+#[test]
+fn detail_layouts_audio_and_optional_content_are_validated_natively() {
+    let mut doc = example();
+    doc["screens"] = serde_json::json!([
+        {"id":"detail", "type":"detail", "title":"", "text":"", "image":null, "audio":null, "layout":"fullImage", "links":[]},
+        {"id":"menu", "type":"menu", "title":"Menu", "text":"", "image":null, "links":[]}
+    ]);
+    assert!(document::validate(&doc).is_ok());
+    doc["screens"][0]["layout"] = "split".into();
+    doc["screens"][0]["audio"] = "description.mp3".into();
+    assert!(document::validate(&doc).is_ok());
+    for (path, value) in [
+        ("/screens/0/layout", serde_json::json!("autre")),
+        ("/screens/0/layout", Value::Null),
+        ("/screens/0/audio", serde_json::json!(42)),
+        ("/screens/0/audio", serde_json::json!("")),
+    ] {
+        let mut invalid = doc.clone();
+        *invalid.pointer_mut(path).unwrap() = value;
+        assert!(document::validate(&invalid).is_err(), "{path}");
+    }
+    let mut invalid = doc.clone();
+    invalid["screens"][1]["layout"] = "split".into();
+    assert!(document::validate(&invalid).is_err());
+    doc["screens"][1]["audio"] = Value::Null;
+    assert!(document::validate(&doc).is_err());
+}
+
+#[test]
+fn character_information_checks_conditions_identity_and_consultation_scope() {
+    let mut doc = example();
+    doc["screens"] = serde_json::json!([
+        {"id":"personnage", "type":"character", "title":"", "text":"", "image":null, "links":[],
+         "information":[{"id":"info", "text":"Pisteur", "conditions":[{"type":"class", "classId":"pisteur"}]}]}
+    ]);
+    assert!(document::validate(&doc).is_ok());
+    for (path, value) in [
+        ("/screens/0/type", serde_json::json!("detail")),
+        ("/screens/0/information", Value::Null),
+        ("/screens/0/information/0/id", serde_json::json!("cle")),
+        ("/screens/0/information/0/text", serde_json::json!(42)),
+        (
+            "/screens/0/information/0/conditions/0/classId",
+            serde_json::json!("absente"),
+        ),
+        (
+            "/screens/0/information/0/conditions",
+            serde_json::json!([{"type":"item", "itemId":"cle", "quantity":0}]),
+        ),
+    ] {
+        let mut invalid = doc.clone();
+        *invalid.pointer_mut(path).unwrap() = value;
+        assert!(document::validate(&invalid).is_err(), "{path}");
+    }
+    let mut invalid = doc.clone();
+    invalid["screens"][0]["information"][0]["effects"] = serde_json::json!([]);
+    assert!(document::validate(&invalid).is_err());
+    doc["screens"][0]["statistics"] = serde_json::json!({"strength":10});
+    assert!(document::validate(&doc).is_err());
 }

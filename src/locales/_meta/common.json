@@ -3443,11 +3443,11 @@
   "flam.graph.connectHelp": {
     "context": "Atelier FLAM : création de liens dans le graphe.",
     "en": {
-      "sourceHash": "9972a316b662",
+      "sourceHash": "35df73270aa8",
       "status": "ai-reviewed"
     },
     "it": {
-      "sourceHash": "9972a316b662",
+      "sourceHash": "35df73270aa8",
       "status": "ai-reviewed"
     }
   },
@@ -3509,22 +3509,22 @@
   "flam.graph.port.invalid": {
     "context": "Prises de liaison FLAM : glissement, cibles et création de nœud.",
     "en": {
-      "sourceHash": "1701b516a9e6",
+      "sourceHash": "1c678fe94c78",
       "status": "ai-reviewed"
     },
     "it": {
-      "sourceHash": "1701b516a9e6",
+      "sourceHash": "1c678fe94c78",
       "status": "ai-reviewed"
     }
   },
   "flam.graph.port.dragHelp": {
     "context": "Prises de liaison FLAM : glissement, cibles et création de nœud.",
     "en": {
-      "sourceHash": "a162e65d9cb9",
+      "sourceHash": "a79be91b0d87",
       "status": "ai-reviewed"
     },
     "it": {
-      "sourceHash": "a162e65d9cb9",
+      "sourceHash": "a79be91b0d87",
       "status": "ai-reviewed"
     }
   },
@@ -3910,6 +3910,941 @@
     },
     "it": {
       "sourceHash": "56ce4407bbb2",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.screens.title": {
+    "context": "Atelier FLAM : menu principal et fiches de consultation reliés dans le graphe, indépendants du récit.",
+    "en": {
+      "sourceHash": "6ab4352abdd5",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "6ab4352abdd5",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.screens.menu": {
+    "context": "Atelier FLAM : menu principal et fiches de consultation reliés dans le graphe, indépendants du récit.",
+    "en": {
+      "sourceHash": "99af6606ff9d",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "99af6606ff9d",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.screens.detail": {
+    "context": "Atelier FLAM : menu principal et fiches de consultation reliés dans le graphe, indépendants du récit.",
+    "en": {
+      "sourceHash": "28ecaf540507",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "28ecaf540507",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.screens.addMenu": {
+    "context": "Atelier FLAM : menu principal et fiches de consultation reliés dans le graphe, indépendants du récit.",
+    "en": {
+      "sourceHash": "ee912e45c8f5",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "ee912e45c8f5",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.screens.addDetail": {
+    "context": "Atelier FLAM : menu principal et fiches de consultation reliés dans le graphe, indépendants du récit.",
+    "en": {
+      "sourceHash": "88e89495ff34",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "88e89495ff34",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.screens.mainMenu": {
+    "context": "Atelier FLAM : menu principal et fiches de consultation reliés dans le graphe, indépendants du récit.",
+    "en": {
+      "sourceHash": "4546ae0b0132",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "4546ae0b0132",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.screens.link": {
+    "context": "Atelier FLAM : menu principal et fiches de consultation reliés dans le graphe, indépendants du récit.",
+    "en": {
+      "sourceHash": "8f297ae3aa24",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "8f297ae3aa24",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.screens.addLink": {
+    "context": "Atelier FLAM : menu principal et fiches de consultation reliés dans le graphe, indépendants du récit.",
+    "en": {
+      "sourceHash": "2bcbb8ede026",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "2bcbb8ede026",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.screens.target": {
+    "context": "Menus FLAM mixtes : distinguer accès de consultation et commandes appliquant les règles narratives.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "92346d9841ed"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "92346d9841ed"
+    }
+  },
+  "flam.screens.resumeHelp": {
+    "context": "Atelier FLAM : menu principal et fiches de consultation reliés dans le graphe, indépendants du récit.",
+    "en": {
+      "sourceHash": "7f6cb9ab1f82",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "7f6cb9ab1f82",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.screens.invalidMain": {
+    "context": "Atelier FLAM : menu principal et fiches de consultation reliés dans le graphe, indépendants du récit.",
+    "en": {
+      "sourceHash": "329e0d3b96bf",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "329e0d3b96bf",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.screens.invalidLink": {
+    "context": "Menus FLAM mixtes : distinguer accès de consultation et commandes appliquant les règles narratives.",
+    "en": {
+      "sourceHash": "93e7aa818b4d",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "93e7aa818b4d",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.screens.screenTitle": {
+    "context": "Atelier FLAM : menu principal et fiches de consultation reliés dans le graphe, indépendants du récit.",
+    "en": {
+      "sourceHash": "7836a1f3de66",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "7836a1f3de66",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.screens.narrative": {
+    "context": "Menus FLAM mixtes : distinguer accès de consultation et commandes appliquant les règles narratives.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "f926ee7e79ba"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "f926ee7e79ba"
+    }
+  },
+  "flam.screens.command": {
+    "context": "Menus FLAM mixtes : distinguer accès de consultation et commandes appliquant les règles narratives.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "f634f90b8674"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "f634f90b8674"
+    }
+  },
+  "flam.screens.addCommand": {
+    "context": "Menus FLAM mixtes : distinguer accès de consultation et commandes appliquant les règles narratives.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "72b00cb1f4db"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "72b00cb1f4db"
+    }
+  },
+  "flam.screens.removeCommand": {
+    "context": "Action retirant un choix narratif d’un menu FLAM.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "257708543163"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "257708543163"
+    }
+  },
+  "flam.theme.title": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "202500ef2066"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "202500ef2066"
+    }
+  },
+  "flam.theme.overrides": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "022aab0babd8"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "022aab0babd8"
+    }
+  },
+  "flam.theme.background": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "a3da8237c318"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "a3da8237c318"
+    }
+  },
+  "flam.theme.text": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "bbb0bd5ff551"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "bbb0bd5ff551"
+    }
+  },
+  "flam.theme.selection": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "051e522a6c09"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "051e522a6c09"
+    }
+  },
+  "flam.theme.override": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "10d79b545f8d"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "10d79b545f8d"
+    }
+  },
+  "flam.theme.invalid": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "4f2ddbe12337"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "4f2ddbe12337"
+    }
+  },
+  "flam.theme.preview": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "a7bd315e5803"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "a7bd315e5803"
+    }
+  },
+  "flam.theme.movePreview": {
+    "context": "FLAM : poignée de déplacement de l’aperçu dans le graphe, à la souris ou au clavier.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "4513ed37754c"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "4513ed37754c"
+    }
+  },
+  "flam.theme.previewChoice": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "73ef42239aad"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "73ef42239aad"
+    }
+  },
+  "flam.theme.resume": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "e0ee64bfd523"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "e0ee64bfd523"
+    }
+  },
+  "flam.theme.menu": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "b27f672b5c3a"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "b27f672b5c3a"
+    }
+  },
+  "flam.theme.back": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "ef23a5940244"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "ef23a5940244"
+    }
+  },
+  "flam.theme.restart": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "696ad8595844"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "696ad8595844"
+    }
+  },
+  "flam.theme.library": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "709acc9ef56e"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "709acc9ef56e"
+    }
+  },
+  "flam.theme.inventory": {
+    "context": "FLAM : thème commun, remplacements de couleurs par écran et aperçu de présentation sans partie simulée.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "c08ab26e7cd0"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "c08ab26e7cd0"
+    }
+  },
+  "flam.grid.title": {
+    "context": "FLAM : grille d’inventaire de quatre cases et fiche type réutilisant les données des objets.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "c2f33b81bcc4"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "c2f33b81bcc4"
+    }
+  },
+  "flam.grid.add": {
+    "context": "FLAM : grille d’inventaire de quatre cases et fiche type réutilisant les données des objets.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "8156f15315de"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "8156f15315de"
+    }
+  },
+  "flam.grid.detail": {
+    "context": "FLAM : grille d’inventaire de quatre cases et fiche type réutilisant les données des objets.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "c9211edf08b9"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "c9211edf08b9"
+    }
+  },
+  "flam.grid.contentSource": {
+    "context": "FLAM : grille d’inventaire de quatre cases et fiche type réutilisant les données des objets.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "9afd41fa2ff9"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "9afd41fa2ff9"
+    }
+  },
+  "flam.grid.author": {
+    "context": "FLAM : grille d’inventaire de quatre cases et fiche type réutilisant les données des objets.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "daebce7924e0"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "daebce7924e0"
+    }
+  },
+  "flam.grid.item": {
+    "context": "FLAM : grille d’inventaire de quatre cases et fiche type réutilisant les données des objets.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "03270f7036e3"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "03270f7036e3"
+    }
+  },
+  "flam.grid.inventory": {
+    "context": "FLAM : grille d’inventaire de quatre cases et fiche type réutilisant les données des objets.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "d510207b53e9"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "d510207b53e9"
+    }
+  },
+  "flam.grid.itemHelp": {
+    "context": "FLAM : grille d’inventaire de quatre cases et fiche type réutilisant les données des objets.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "c6ac790d2cac"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "c6ac790d2cac"
+    }
+  },
+  "flam.grid.invalid": {
+    "context": "FLAM : collections d’auteur, entrées conditionnelles masquées ou verrouillées et fiches de souvenirs.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "c9d1aac6eede"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "c9d1aac6eede"
+    }
+  },
+  "flam.grid.invalidDetail": {
+    "context": "FLAM : grille d’inventaire de quatre cases et fiche type réutilisant les données des objets.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "e7ed09132ef7"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "e7ed09132ef7"
+    }
+  },
+  "flam.grid.previewHelp": {
+    "context": "FLAM : grille d’inventaire de quatre cases et fiche type réutilisant les données des objets.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "f76d3b0d5cb7"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "f76d3b0d5cb7"
+    }
+  },
+  "flam.grid.empty": {
+    "context": "FLAM : grille d’inventaire de quatre cases et fiche type réutilisant les données des objets.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "ce487715398e"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "ce487715398e"
+    }
+  },
+  "flam.collection.entry": {
+    "context": "FLAM : collections d’auteur, entrées conditionnelles masquées ou verrouillées et fiches de souvenirs.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "28a9568ee28e"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "28a9568ee28e"
+    }
+  },
+  "flam.collection.source": {
+    "context": "FLAM : collections d’auteur, entrées conditionnelles masquées ou verrouillées et fiches de souvenirs.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "f0505ee1b49a"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "f0505ee1b49a"
+    }
+  },
+  "flam.collection.sourceEntries": {
+    "context": "FLAM : collections d’auteur, entrées conditionnelles masquées ou verrouillées et fiches de souvenirs.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "9ae3a9060069"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "9ae3a9060069"
+    }
+  },
+  "flam.collection.help": {
+    "context": "FLAM : collections d’auteur, entrées conditionnelles masquées ou verrouillées et fiches de souvenirs.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "1b29333ebd5f"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "1b29333ebd5f"
+    }
+  },
+  "flam.collection.label": {
+    "context": "FLAM : collections d’auteur, entrées conditionnelles masquées ou verrouillées et fiches de souvenirs.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "ff2ff86203de"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "ff2ff86203de"
+    }
+  },
+  "flam.collection.detail": {
+    "context": "FLAM : collections d’auteur, entrées conditionnelles masquées ou verrouillées et fiches de souvenirs.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "da35485e08db"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "da35485e08db"
+    }
+  },
+  "flam.collection.add": {
+    "context": "FLAM : collections d’auteur, entrées conditionnelles masquées ou verrouillées et fiches de souvenirs.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "0e2e822cfd52"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "0e2e822cfd52"
+    }
+  },
+  "flam.collection.invalidDetail": {
+    "context": "FLAM : collections d’auteur, entrées conditionnelles masquées ou verrouillées et fiches de souvenirs.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "e13bd31b7cbd"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "e13bd31b7cbd"
+    }
+  },
+  "flam.collection.empty": {
+    "context": "FLAM : collections d’auteur, entrées conditionnelles masquées ou verrouillées et fiches de souvenirs.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "e972f9076097"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "e972f9076097"
+    }
+  },
+  "flam.collection.previewHelp": {
+    "context": "FLAM : collections d’auteur, entrées conditionnelles masquées ou verrouillées et fiches de souvenirs.",
+    "en": {
+      "status": "ai-reviewed",
+      "sourceHash": "8b3dc59a0da2"
+    },
+    "it": {
+      "status": "ai-reviewed",
+      "sourceHash": "8b3dc59a0da2"
+    }
+  },
+  "flam.collection.unavailable": {
+    "context": "Traitement d’une entrée de collection FLAM dont les conditions ne sont pas réunies.",
+    "en": {
+      "sourceHash": "5ab44939262a",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "5ab44939262a",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.collection.hidden": {
+    "context": "Traitement d’une entrée de collection FLAM dont les conditions ne sont pas réunies.",
+    "en": {
+      "sourceHash": "41148f42a1e1",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "41148f42a1e1",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.collection.locked": {
+    "context": "Traitement d’une entrée de collection FLAM dont les conditions ne sont pas réunies.",
+    "en": {
+      "sourceHash": "a76a811846fa",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "a76a811846fa",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.illustration.mode": {
+    "context": "FLAM : illustration commune ou dépendant du choix sélectionné dans une scène ou un menu.",
+    "en": {
+      "sourceHash": "31c62a7b0771",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "31c62a7b0771",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.illustration.common": {
+    "context": "FLAM : illustration commune ou dépendant du choix sélectionné dans une scène ou un menu.",
+    "en": {
+      "sourceHash": "8f7a66085834",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "8f7a66085834",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.illustration.selection": {
+    "context": "FLAM : illustration commune ou dépendant du choix sélectionné dans une scène ou un menu.",
+    "en": {
+      "sourceHash": "20b5a18e86e1",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "20b5a18e86e1",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.illustration.help": {
+    "context": "FLAM : illustration commune ou dépendant du choix sélectionné dans une scène ou un menu.",
+    "en": {
+      "sourceHash": "6356ab5a5aa6",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "6356ab5a5aa6",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.illustration.choiceImage": {
+    "context": "FLAM : illustration commune ou dépendant du choix sélectionné dans une scène ou un menu.",
+    "en": {
+      "sourceHash": "5d74e21a18ba",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "5d74e21a18ba",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.illustration.invalid": {
+    "context": "FLAM : illustration commune ou dépendant du choix sélectionné dans une scène ou un menu.",
+    "en": {
+      "sourceHash": "bb6ec2c6b8a2",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "bb6ec2c6b8a2",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.detail.layout": {
+    "context": "FLAM : compositions de fiche descriptive et de carnet, écoute explicite et défilement du texte.",
+    "en": {
+      "sourceHash": "bead96fe0370",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "bead96fe0370",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.detail.split": {
+    "context": "FLAM : compositions de fiche descriptive et de carnet, écoute explicite et défilement du texte.",
+    "en": {
+      "sourceHash": "e7106828d19d",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "e7106828d19d",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.detail.fullImage": {
+    "context": "FLAM : compositions de fiche descriptive et de carnet, écoute explicite et défilement du texte.",
+    "en": {
+      "sourceHash": "ee7dc5024fb4",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "ee7dc5024fb4",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.detail.invalid": {
+    "context": "FLAM : compositions de fiche descriptive et de carnet, écoute explicite et défilement du texte.",
+    "en": {
+      "sourceHash": "037cdc50955a",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "037cdc50955a",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.detail.listen": {
+    "context": "FLAM : compositions de fiche descriptive et de carnet, écoute explicite et défilement du texte.",
+    "en": {
+      "sourceHash": "0434281f8f4a",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "0434281f8f4a",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.detail.readText": {
+    "context": "FLAM : compositions de fiche descriptive et de carnet, écoute explicite et défilement du texte.",
+    "en": {
+      "sourceHash": "ba8e10ee63b9",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "ba8e10ee63b9",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.detail.seeImage": {
+    "context": "FLAM : compositions de fiche descriptive et de carnet, écoute explicite et défilement du texte.",
+    "en": {
+      "sourceHash": "3080b34d8e9d",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "3080b34d8e9d",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.detail.scrollPreview": {
+    "context": "FLAM : compositions de fiche descriptive et de carnet, écoute explicite et défilement du texte.",
+    "en": {
+      "sourceHash": "5b5361befa4f",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "5b5361befa4f",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.character.add": {
+    "context": "Fiche personnage FLAM : portrait et informations conditionnelles.",
+    "en": {
+      "sourceHash": "3fc710ac997b",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "3fc710ac997b",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.character.title": {
+    "context": "Fiche personnage FLAM : portrait et informations conditionnelles.",
+    "en": {
+      "sourceHash": "1a3b948378bc",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "1a3b948378bc",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.character.information": {
+    "context": "Fiche personnage FLAM : portrait et informations conditionnelles.",
+    "en": {
+      "sourceHash": "4e98112139d1",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "4e98112139d1",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.character.addInformation": {
+    "context": "Fiche personnage FLAM : portrait et informations conditionnelles.",
+    "en": {
+      "sourceHash": "3bc6c840b9c1",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "3bc6c840b9c1",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.character.help": {
+    "context": "Fiche personnage FLAM : portrait et informations conditionnelles.",
+    "en": {
+      "sourceHash": "6fc79116066f",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "6fc79116066f",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.character.previewHelp": {
+    "context": "Fiche personnage FLAM : portrait et informations conditionnelles.",
+    "en": {
+      "sourceHash": "265c2ce068e0",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "265c2ce068e0",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.character.invalid": {
+    "context": "Fiche personnage FLAM : portrait et informations conditionnelles.",
+    "en": {
+      "sourceHash": "696f8383cb17",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "696f8383cb17",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.character.removeInformation": {
+    "context": "Fiche personnage FLAM.",
+    "en": {
+      "sourceHash": "71b4e9c311cc",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "71b4e9c311cc",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.character.portrait": {
+    "context": "Fiche personnage FLAM.",
+    "en": {
+      "sourceHash": "f71094c30160",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "f71094c30160",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.graph.scope": {
+    "context": "Filtres du graphe FLAM.",
+    "en": {
+      "sourceHash": "3b0e8c4e5807",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "3b0e8c4e5807",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.graph.all": {
+    "context": "Filtres du graphe FLAM.",
+    "en": {
+      "sourceHash": "bcda4a955df7",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "bcda4a955df7",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.graph.story": {
+    "context": "Filtres du graphe FLAM.",
+    "en": {
+      "sourceHash": "71e03100004b",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "71e03100004b",
+      "status": "ai-reviewed"
+    }
+  },
+  "flam.graph.consultation": {
+    "context": "Filtres du graphe FLAM.",
+    "en": {
+      "sourceHash": "537a956d9fb9",
+      "status": "ai-reviewed"
+    },
+    "it": {
+      "sourceHash": "537a956d9fb9",
       "status": "ai-reviewed"
     }
   }

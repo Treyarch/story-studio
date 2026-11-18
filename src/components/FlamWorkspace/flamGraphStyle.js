@@ -13,6 +13,8 @@ export function flamGraphStyles(c) {
     { selector: 'node[collection = "rolls"]', style: { shape: 'diamond', width: 170, 'background-color': c.action } },
     { selector: 'node[?start]', style: { 'border-color': c.accent, 'border-width': 2 } },
     { selector: 'node[?ending]', style: { 'border-style': 'double', 'border-width': 4 } },
+    { selector: 'node[?consultation]', style: { 'border-style': 'dashed', 'background-color': c.action } },
+    { selector: 'node[screenBackground]', style: { 'background-color': 'data(screenBackground)', color: 'data(screenText)' } },
     { selector: 'node:selected', style: {
       'border-color': c.accent, 'border-width': 2.5,
       'underlay-color': c.accent, 'underlay-opacity': 0.12, 'underlay-padding': 5,
@@ -31,7 +33,8 @@ export function flamGraphStyles(c) {
       'text-margin-y': -9,
       'loop-direction': '0deg', 'loop-sweep': '-110deg',
     } },
-    { selector: 'edge[?conditional]', style: { 'line-style': 'dashed', 'line-dash-pattern': [5, 4] } },
+    { selector: 'edge[?consultation]', style: { 'line-style': 'dotted', 'line-color': c.action, 'target-arrow-color': c.action } },
+    { selector: 'edge[?conditional][!consultation]', style: { 'line-style': 'dashed', 'line-dash-pattern': [5, 4] } },
     { selector: 'edge[?selfLoop]', style: {
       label: '', opacity: 0.55, 'curve-style': 'bezier', 'control-point-step-size': 140,
     } },

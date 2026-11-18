@@ -1,12 +1,18 @@
 import { ADVENTURE_COLLECTIONS, assertAdventureDocument } from './document.js';
+import { FLAM_COLOR_FIELDS, isFlamColor } from './theme.js';
 import { adventureReferences } from './references.js';
 
 export function diagnoseAdventureDocument(document) {
   assertAdventureDocument(document);
   const diagnostics = [];
   const report = (code, path, severity = 'error', params = {}) => diagnostics.push({ code, path, severity, params });
+  const diagnoseColors = (colors, path) => {
+    for (const field of FLAM_COLOR_FIELDS) if (colors?.[field] !== undefined && !isFlamColor(colors[field])) report('INVALID_COLOR', `${path}/${field}`);
+  };
+  diagnoseColors(document.theme, '/theme');
+  for (const collection of ['scenes', 'screens']) for (const [i, screen] of (document[collection] ?? []).entries()) diagnoseColors(screen.colors, `/${collection}/${i}/colors`);
   const ids = Object.fromEntries(ADVENTURE_COLLECTIONS
-    .map(collection => [collection, new Set(document[collection].map(entry => entry.id))]));
+    .map(collection => [collection, new Set((document[collection] ?? []).map(entry => entry.id))]));
   for (const ref of adventureReferences(document)) {
     if (!ids[ref.collection].has(ref.id)) {
       report(ref.path === '/startSceneId' && ref.id === null ? 'MISSING_START' : 'MISSING_REFERENCE', ref.path,
@@ -50,6 +56,35 @@ export function diagnoseAdventureDocument(document) {
       if (overlap) report('ROLL_OVERLAP', path);
     }
     if (covered.size !== 20) report('ROLL_GAP', `/rolls/${index}/outcomes`);
+  }
+  if (document.mainMenuId != null && document.screens?.find(screen => screen.id === document.mainMenuId)?.type !== 'menu') report('INVALID_MAIN_MENU', '/mainMenuId');
+  for (const [i, screen] of (document.screens ?? []).entries()) {
+    if (screen.type !== 'menu' && screen.links.length) report('INVALID_CONSULTATION_LINK', `/screens/${i}/links`);
+    if (screen.type === 'grid') {
+      if (screen.source === 'inventory') {
+        const template = document.screens.find(entry => entry.id === screen.detailScreenId);
+        if (template?.type !== 'detail' || template.contentSource !== 'item') report('INVALID_GRID_DETAIL', `/screens/${i}/detailScreenId`);
+        if (screen.entries?.length) report('INVALID_GRID', `/screens/${i}/entries`);
+      } else if (screen.source === 'collection') {
+        if (!screen.entries || screen.detailScreenId != null) report('INVALID_GRID', `/screens/${i}`);
+      } else report('INVALID_GRID', `/screens/${i}/source`);
+    } else if (screen.source !== undefined || screen.detailScreenId !== undefined || screen.entries !== undefined) report('INVALID_GRID', `/screens/${i}`);
+    for (const [j, entry] of (screen.entries ?? []).entries()) {
+      if (!entry.label.trim()) report('MISSING_LABEL', `/screens/${i}/entries/${j}/label`);
+      const target = document.screens.find(screen => screen.id === entry.screenId);
+      if (target?.type !== 'detail' || target.contentSource === 'item') report('INVALID_COLLECTION_DETAIL', `/screens/${i}/entries/${j}/screenId`);
+      diagnoseQuantities(entry.conditions, `/screens/${i}/entries/${j}/conditions`, report);
+    }
+    if (screen.type !== 'character' && screen.information !== undefined) report('INVALID_CHARACTER', `/screens/${i}/information`);
+    for (const [j, info] of (screen.information ?? []).entries()) diagnoseQuantities(info.conditions, `/screens/${i}/information/${j}/conditions`, report);
+    if (screen.type !== 'detail' && (screen.layout !== undefined || screen.audio !== undefined)) report('INVALID_DETAIL_LAYOUT', `/screens/${i}`);
+    if (screen.type !== 'menu' && screen.illustrationMode !== undefined) report('INVALID_ILLUSTRATION_MODE', `/screens/${i}/illustrationMode`);
+    if (screen.type !== 'detail' && screen.contentSource !== undefined) report('INVALID_GRID_DETAIL', `/screens/${i}/contentSource`);
+    for (const [j, link] of screen.links.entries()) {
+      if (link.type === 'narrative') continue;
+      if (!link.label.trim()) report('MISSING_LABEL', `/screens/${i}/links/${j}/label`);
+      if (!document.screens?.some(target => target.id === link.screenId && target.contentSource !== 'item')) report('INVALID_CONSULTATION_LINK', `/screens/${i}/links/${j}/screenId`);
+    }
   }
   const view = document.presentation;
   if (view) {
