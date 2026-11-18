@@ -11,6 +11,7 @@ import { ImageField } from '../editors/ImageField.jsx';
 import { CheckField, NumberField, ReferenceField, TextField } from './Fields.jsx';
 import { IllustrationModeField } from './IllustrationEditor.jsx';
 import { ThemeEditor } from './ThemeEditor.jsx';
+import { useFlamInspector } from './useFlamInspector.js';
 import { ScreenEditor } from './ScreenEditor.jsx';
 import { ChoiceEditor } from './ChoiceEditor.jsx';
 import { RuleEditor } from './RuleEditor.jsx';
@@ -62,8 +63,8 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
   const { t } = useCommonTranslation();
   const document = project.authoring.document;
   const [selection, setSelection] = useState({ collection: 'scenes', id: null });
-  const [focusPath, setFocusPath] = useState(null);
   const rootRef = useRef(null);
+  const inspector = useFlamInspector(panelViewState?.showInspector ?? true, rootRef);
   const searchInputRef = useRef(null);
   const [searchActive, setSearchActive] = useState(false);
   const [query, setQuery] = useState('');
@@ -79,6 +80,7 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
   };
   const selectDefinition = target => {
     setSelection(target);
+    inspector.showSelection();
     if (panelViewState?.showInspector === false) panelViewState.toggleInspector();
   };
   const searchNodes = () => {
@@ -101,6 +103,10 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
     ?? (collection === 'scenes' ? document.scenes.find(scene => scene.id === document.startSceneId) : null)
     ?? (document[collection] ?? [])[0] ?? null;
   const path = entry ? `/${collection}/${document[collection].indexOf(entry)}` : null;
+  const entryType = !entry ? t('common:flam.settings.selection') : collection === 'screens'
+    ? (entry.type === 'menu' ? t('common:flam.screens.menu') : entry.type === 'grid' ? t('common:flam.grid.title') : entry.type === 'character' ? t('common:flam.character.title') : t('common:flam.screens.detail'))
+    : { scenes: t('common:flam.scene'), classes: t('common:flam.class'), items: t('common:flam.item'),
+      events: t('common:flam.event'), rewards: t('common:flam.reward'), rolls: t('common:flam.roll'), choices: t('common:flam.choices') }[collection];
   const diagnostics = diagnoseAdventureDocument(document);
   const edit = useCallback(command => {
     try {
@@ -131,23 +137,6 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
     } : null);
     return () => setGraphMediaTarget(null);
   }, [sceneId, sceneTitle, assignMedia, setGraphMediaTarget, t]);
-
-  useEffect(() => {
-    if (!focusPath) return;
-    const targets = [...rootRef.current.querySelectorAll('[data-flam-path]')];
-    let targetPath = focusPath;
-    let target;
-    while (targetPath && !target) {
-      target = targets.find(element => element.dataset.flamPath === targetPath);
-      targetPath = targetPath.slice(0, targetPath.lastIndexOf('/'));
-    }
-    if (target) {
-      for (let parent = target.parentElement; parent; parent = parent.parentElement) if (parent.tagName === 'DETAILS') parent.open = true;
-      target.scrollIntoView?.({ block: 'center' });
-      (target.querySelector('input, select, textarea, button') ?? target).focus();
-    }
-    setFocusPath(null);
-  }, [focusPath, selection]);
 
   function add(collection, sceneId, screenType) {
     const id = crypto.randomUUID();
@@ -183,7 +172,8 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
   function reveal(diagnostic) {
     const target = adventureDiagnosticTarget(document, diagnostic.path);
     if (target) selectDefinition(target);
-    setFocusPath(diagnostic.path);
+    else if (panelViewState?.showInspector === false) panelViewState.toggleInspector();
+    inspector.reveal(target ? 'selection' : 'adventure', diagnostic.path);
   }
 
   function choiceEditor(choice, removeFromScene = null) {
@@ -239,9 +229,13 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
     </nav>
   </section>;
 
-  const renderInspectorPanel = dragHandleProps => <section className="advanced-panel advanced-panel--inspector">
-    <GraphPanelHeader title={t('common:workspace.settings.label')} onClose={panelViewState?.toggleInspector} dragHandleProps={dragHandleProps} />
-    <aside className="advanced-inspector advanced-inspector--editor flam-inspector" aria-label={t('common:flam.graph.inspector')}>
+  const renderInspectorPanel = dragHandleProps => <section className="advanced-panel advanced-panel--inspector flam-settings-panel" aria-label={t('common:flam.graph.inspector')}>
+    <GraphPanelHeader title={t('common:workspace.settings.label')} onClose={panelViewState?.toggleInspector} dragHandleProps={dragHandleProps}
+      actions={<div className="flam-settings-tabs" role="tablist" aria-label={t('common:workspace.settings.label')}>
+        <button {...inspector.tabProps('adventure')}>{t('common:flam.settings.adventure')}</button>
+        <button {...inspector.tabProps('selection')}>{entryType}</button>
+      </div>} />
+    <aside className="advanced-inspector advanced-inspector--editor flam-inspector" {...inspector.panelProps('adventure')}>
         <div className="advanced-editor flam-content">
           <section className="flam-project card flam-card">
             <TextField label={t('common:flam.title')} path="/title" value={document.title} onChange={title => edit({ type: 'document', patch: { title } })} />
@@ -253,12 +247,35 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
           </section>
           <ThemeEditor document={document} onChange={theme => edit({ type: 'document', patch: { theme } })} />
           {!document.screens?.length && <PresentationEditor document={document} onEdit={edit} prepareMedia={prepareMediaForProject} projectEpoch={projectEpoch} />}
+        </div>
+        <section className="flam-diagnostics" aria-label={t('common:flam.settings.problems')}>
+          <h2>{t('common:flam.settings.problems')}</h2>
+          <p className="flam-hint">{t('common:flam.diagnostics.help')}</p>
+          {diagnostics.length === 0 && <p>{t('common:flam.diagnostics.clear')}</p>}
+          <ul aria-label={t('common:flam.diagnostics')}>{diagnostics.map((diagnostic, index) => {
+            const target = adventureDiagnosticTarget(document, diagnostic.path);
+            const item = target ? document[target.collection].find(item => item.id === target.id) : null;
+            return <li key={`${diagnostic.path}:${diagnostic.code}:${index}`} className={`flam-diagnostic flam-diagnostic--${diagnostic.severity}`}>
+              <button type="button" onClick={() => reveal(diagnostic)}>
+                <strong>{item?.title || item?.name || item?.label || t('common:flam.title')}</strong>
+                <span>{diagnosticText(diagnostic, t)}</span>
+              </button>
+            </li>;
+          })}</ul>
+        </section>
+    </aside>
+    <aside className="advanced-inspector advanced-inspector--editor flam-inspector" {...inspector.panelProps('selection')}>
+        <div className="advanced-editor flam-content">
           <div className="flam-section-header">
             <h2>{collections.find(([key]) => key === collection)[1]}</h2>
             {collection === 'screens' ? <><Button onClick={() => add('screens', null, 'menu')}>{t('common:flam.screens.addMenu')}</Button><Button onClick={() => add('screens', null, 'detail')}>{t('common:flam.screens.addDetail')}</Button><Button onClick={() => add('screens', null, 'grid')}>{t('common:flam.grid.add')}</Button><Button onClick={() => add('screens', null, 'character')}>{t('common:flam.character.add')}</Button></> : collection !== 'choices' && <Button variant="primary" onClick={() => add(collection)}>{t('common:flam.add')}</Button>}
           </div>
-          {!entry && <p>{t('common:flam.empty')}</p>}
+          {!entry && <p>{t('common:flam.settings.noSelection')}</p>}
           {entry && <div data-flam-path={path} tabIndex={-1} className="flam-definition">
+            <div className="flam-selection-identity">
+              <span>{entryType}</span>
+              <h2>{entry.title || entry.name || entry.label || t('common:flam.untitled')}</h2>
+            </div>
             {['scenes', 'screens'].includes(collection) && <ThemeEditor document={document} screen={entry} path={`${path}/colors`} onChange={colors => patch({ colors })} />}
             {collection === 'screens' ? <ScreenEditor screen={entry} document={document} path={path} onPatch={patch} projectEpoch={projectEpoch}
               onAudioMedia={async source => {
@@ -325,21 +342,6 @@ export function FlamWorkspace({ project, projectEpoch, onEdit, panelViewState = 
             <div className="flam-delete"><Button variant="danger-outline" onClick={() => remove({ type: 'remove', collection, id: entry.id })}>{t('common:flam.remove.title')}</Button></div>
           </div>}
         </div>
-        <section className="flam-diagnostics" aria-label={t('common:flam.diagnostics')}>
-          <h2>{t('common:flam.diagnostics')}</h2>
-          <p className="flam-hint">{t('common:flam.diagnostics.help')}</p>
-          {diagnostics.length === 0 && <p>{t('common:flam.diagnostics.clear')}</p>}
-          <ul>{diagnostics.map((diagnostic, index) => {
-            const target = adventureDiagnosticTarget(document, diagnostic.path);
-            const item = target ? document[target.collection].find(item => item.id === target.id) : null;
-            return <li key={`${diagnostic.path}:${diagnostic.code}:${index}`} className={`flam-diagnostic flam-diagnostic--${diagnostic.severity}`}>
-              <button type="button" onClick={() => reveal(diagnostic)}>
-                <strong>{item?.title || item?.name || item?.label || t('common:flam.title')}</strong>
-                <span>{diagnosticText(diagnostic, t)}</span>
-              </button>
-            </li>;
-          })}</ul>
-        </section>
     </aside>
   </section>;
 

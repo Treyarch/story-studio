@@ -45,6 +45,98 @@ const componentElements = element => {
   try { return elements(hook.render()); } finally { hook.unmount(); }
 };
 
+test('Réglages ouvre les propriétés et nomme l’onglet selon le type sélectionné sans modifier le projet', () => {
+  const project = createFlamProject({ document: createExampleAdventure() });
+  const before = JSON.stringify(project);
+  const view = { showInspector: true, toggleInspector() { this.showInspector = !this.showInspector; } };
+  const ui = runner(() => FlamWorkspace({ project, projectEpoch: 1, panelViewState: view,
+    onEdit() { assert.fail('la navigation ne doit pas éditer le projet'); } }));
+  const render = () => { const root = ui.render(); root.props.ref.current = { querySelectorAll: () => [] }; ui.flush(); return elements(root); };
+  const panels = () => render().filter(element => element.props?.role === 'tabpanel');
+  const tabs = () => componentElements(render().find(element => element.type?.name === 'GraphPanelHeader' && element.props.actions))
+    .filter(element => element.props?.role === 'tab');
+  try {
+    let [adventure, selection] = panels();
+    assert.equal(adventure.props.hidden, false);
+    assert.equal(selection.props.hidden, true);
+    assert.equal(tabs()[1].props.children, 'Scène');
+    assert.ok(elements(adventure).some(element => element.props?.path === '/title'));
+    assert.ok(!elements(selection).some(element => element.props?.path === '/title'));
+    assert.ok(elements(adventure).some(element => element.props?.className === 'flam-diagnostics'));
+    assert.ok(!elements(selection).some(element => element.props?.className === 'flam-diagnostics'));
+    assert.ok(elements(adventure).some(element => element.type?.name === 'PresentationEditor'));
+    assert.ok(!elements(selection).some(element => element.type?.name === 'PresentationEditor'));
+    assert.ok(!elements(adventure).some(element => element.props?.className === 'flam-section-header'));
+    const selectedId = project.authoring.document.scenes[1].id;
+    render().find(element => element.type === FlamGraph).props.onSelect({ collection: 'scenes', id: selectedId });
+    [adventure, selection] = panels();
+    assert.equal(adventure.props.hidden, true);
+    assert.equal(selection.props.hidden, false);
+    assert.ok(elements(selection).some(element => element.props?.['data-flam-path'] === '/scenes/1'));
+    tabs()[0].props.onClick();
+    assert.equal(panels()[0].props.hidden, false);
+    view.showInspector = false;
+    render().find(element => element.type === FlamGraph).props.onSelect({ collection: 'items', id: 'cle' });
+    assert.equal(view.showInspector, true);
+    assert.equal(panels()[1].props.hidden, false);
+    assert.equal(tabs()[1].props.children, 'Objet');
+    assert.ok(elements(panels()[1]).some(element => element.props?.['data-flam-path'] === '/items/0'));
+    assert.equal(JSON.stringify(project), before);
+  } finally { ui.unmount(); }
+});
+
+test('le libellé de l’onglet suit les sous-types d’écran, toutes les catégories et le cas vide', () => {
+  const document = createExampleAdventure();
+  document.screens = ['menu', 'detail', 'grid', 'character'].map(type => ({ id: type, type, title: type, text: '', image: null, links: [], entries: [] }));
+  const project = createFlamProject({ document });
+  const ui = runner(() => FlamWorkspace({ project, projectEpoch: 1, onEdit() {} }));
+  const render = () => { const root = ui.render(); root.props.ref.current = { querySelectorAll: () => [] }; ui.flush(); return elements(root); };
+  const tab = () => componentElements(render().find(element => element.type?.name === 'GraphPanelHeader' && element.props.actions))
+    .find(element => element.props?.role === 'tab' && element.props['aria-controls'].includes('selection'));
+  try {
+    for (const [collection, id, label] of [
+      ['screens', 'menu', 'Menu'], ['screens', 'detail', 'Fiche'], ['screens', 'grid', 'Grille'], ['screens', 'character', 'Fiche personnage'],
+      ['scenes', null, 'Scène'], ['classes', null, 'Classe'], ['items', null, 'Objet'], ['events', null, 'Événement'],
+      ['rewards', null, 'Récompense'], ['rolls', null, 'Jet de dé'], ['choices', null, 'Choix'],
+    ]) {
+      render().find(element => element.type === FlamGraph).props.onSelect({ collection, id });
+      assert.equal(tab().props.children, label);
+      assert.equal(tab().props['aria-selected'], true);
+    }
+    project.authoring.document.screens = [];
+    render().find(element => element.type === FlamGraph).props.onSelect({ collection: 'screens', id: null });
+    assert.equal(tab().props.children, 'Sélection');
+  } finally { ui.unmount(); }
+});
+
+test('Réglages conserve les ajouts en catégorie vide et dirige chaque diagnostic vers son onglet', () => {
+  const document = createExampleAdventure();
+  document.startSceneId = null;
+  document.scenes[0].title = '';
+  const project = createFlamProject({ document });
+  const view = { showInspector: true, toggleInspector() { this.showInspector = !this.showInspector; } };
+  const ui = runner(() => FlamWorkspace({ project, projectEpoch: 1, panelViewState: view, onEdit() {} }));
+  const render = () => { const root = ui.render(); root.props.ref.current = { querySelectorAll: () => [] }; ui.flush(); return elements(root); };
+  const panels = () => render().filter(element => element.props?.role === 'tabpanel');
+  try {
+    render().find(element => element.type === FlamGraph).props.onSelect({ collection: 'screens', id: null });
+    const empty = elements(panels()[1]);
+    assert.ok(empty.some(element => element.props?.children === 'Aucun élément sélectionné'));
+    assert.ok(empty.some(element => element.props?.children === 'Ajouter un menu'));
+    assert.ok(!empty.some(element => element.props?.className === 'flam-definition'));
+    const diagnostic = text => render().find(element => element.props?.className?.startsWith('flam-diagnostic flam-diagnostic--')
+      && elements(element).some(child => typeof child.props?.children === 'string' && child.props.children.includes(text)));
+    view.showInspector = false;
+    diagnostic('titre').props.children.props.onClick();
+    assert.equal(view.showInspector, true);
+    assert.equal(panels()[1].props.hidden, false);
+    view.showInspector = false;
+    diagnostic('départ').props.children.props.onClick();
+    assert.equal(view.showInspector, true);
+    assert.equal(panels()[0].props.hidden, false);
+  } finally { ui.unmount(); }
+});
+
 test('formulaires réels : renommage, choix, règles, destinations, diagnostic et médiathèque dans le même projet', async () => {
   const storeHook = runner(() => useProjectStore(), { doubleInvokeStateUpdaters: true });
   let store = storeHook.render();

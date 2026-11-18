@@ -1,6 +1,7 @@
 # Menu illustré et rubriques des aventures FLAM
 
-Dans l’inspecteur d’une aventure FLAM, ouvrir **Présentation de l’aventure**,
+Dans le panneau **Réglages** d’une aventure FLAM, onglet **Aventure**,
+ouvrir **Présentation de l’aventure**,
 puis **Configurer le menu illustré**. Les projets existants conservent leur
 lecteur simple jusqu’à cette activation. Le graphe reste le scénario ; son
 rangement automatique se lit désormais de gauche à droite.
@@ -29,8 +30,12 @@ rangement automatique se lit désormais de gauche à droite.
   d’un parcours complet, plutôt qu’au total de toutes les branches.
 
 Une présentation nouvellement activée est un brouillon : ajouter au moins un
-jalon conditionnel pour pouvoir la générer. Les diagnostics ouvrent les champs
-à corriger, y compris dans les rubriques repliées. Toutes ces modifications
+jalon conditionnel pour pouvoir la générer. La section **Problèmes de l’aventure**
+de l’onglet Aventure ouvre le bon onglet et les champs à corriger, y compris
+dans les rubriques repliées. Les propriétés d’un objet ou d’un écran sont dans
+l’onglet de propriétés, nommé selon son type ; sélectionner un élément active
+automatiquement cet onglet.
+Toutes ces modifications
 passent par l’historique et la sauvegarde du projet.
 
 ## Parcours sur FLAM

@@ -31,6 +31,15 @@ test('le châssis commun conserve l’ordre, les poignées et les fermetures des
   assert.equal(hidden.elements.filter(e => e.props?.role === 'separator').length, 0);
 });
 
+test('les commandes de l’en-tête ne déclenchent pas la poignée de déplacement', () => {
+  const frame = mountSurface(React.createElement(GraphPanelHeader, { title: 'Réglages',
+    actions: React.createElement('div', { role: 'tablist' }, 'Aventure / Sélection') }));
+  let stopped = false;
+  frame.elements.find(element => element.props?.className === 'advanced-panel-header__actions')
+    .props.onPointerDown({ stopPropagation() { stopped = true; } });
+  assert.equal(stopped, true);
+});
+
 test('les commandes d’origine pilotent la caméra FLAM et filtrent ses propres familles de liens', () => {
   const document = createExampleAdventure();
   const cy = cytoscape({ headless: true, styleEnabled: true, elements: flamGraphElements(document, { start: 'Départ', ending: 'Fin', roll: 'Dé', untitled: '', conditional: 'Condition' }) });

@@ -4,6 +4,26 @@ Les scènes et les jets racontent l’aventure. Les Menus, Grilles, Fiches et
 Fiches personnage permettent de consulter ses contenus. Ils se dessinent dans
 le même graphe, tout en gardant des navigations distinctes.
 
+## Distinguer aventure et sélection
+
+Le panneau **Réglages** propose deux onglets dans sa barre de titre :
+
+- **Aventure** : titre de l’aventure, scène de départ, menu principal,
+  couleurs générales et **Problèmes de l’aventure**.
+- **Sélection** : commandes d’ajout de la catégorie courante, propriétés,
+  médias, liens, couleurs propres et suppression de l’élément sélectionné.
+
+L’ouverture d’un projet affiche Aventure. Sélectionner un élément dans le
+graphe ou la liste active automatiquement ses propriétés et rouvre le panneau
+fermé. Le second onglet porte le type de cet élément : Scène, Menu, Fiche,
+Grille, Fiche personnage, Objet, etc. Chaque onglet retrouve son défilement pendant la session,
+même après fermeture du panneau. Sans élément disponible, Sélection conserve
+les commandes d’ajout et indique qu’aucun élément n’est sélectionné.
+
+Cliquer sur un problème ouvre directement le bon onglet, les groupes repliés
+et le champ à corriger. Choisir le Menu principal se fait dans Aventure ;
+modifier le contenu de ce Menu se fait dans Sélection.
+
 ## Commencer avec la démonstration
 
 Ouvrir `exports/flam-ecrans-personnalisables/atelier-des-lucioles/L’atelier des lucioles.mbah`
